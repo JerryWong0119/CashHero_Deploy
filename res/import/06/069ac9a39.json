@@ -1,0 +1,350 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "3",
+      "texture": "2avT82kPZIZ4oyMqZ6hk8v",
+      "rect": [
+        38,
+        37,
+        578,
+        840
+      ],
+      "offset": [
+        2.5,
+        6.5
+      ],
+      "originalSize": [
+        649,
+        927
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme173_paytable_head3",
+      "texture": "a56oLvzRlEvYcr0qRoPNyH",
+      "rect": [
+        0,
+        0,
+        251,
+        53
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        251,
+        53
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "help_item_3",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "LMSlots_Help_item",
+      "_objFlags": 512,
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "81DZqbQ8tBrY4zI7OPcru6"
+        },
+        "fileId": "66X1fxfclOb4+J0jqvuPav"
+      },
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 200,
+        "b": 200
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 720,
+        "height": 540
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          360,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "page_item2",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        },
+        {
+          "__id__": 5
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "81DZqbQ8tBrY4zI7OPcru6"
+        },
+        "fileId": "67G5+ZTIFP4KQpNbHSa7XQ"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 720,
+        "height": 940
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          40,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "theme173_paytable_bg",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 3
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "d7VYBeycNM3psw4SlyKRrz"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "81DZqbQ8tBrY4zI7OPcru6"
+        },
+        "fileId": "9fEqbAWu1IUbsZNlw71TyJ"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 322,
+        "height": 461
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "theme169_paytable_bg",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 4
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "102tfTsL9H1bSl5s8qw7Ar"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "81DZqbQ8tBrY4zI7OPcru6"
+        },
+        "fileId": "a6AGOQO+ZKuZyxb+C9voGF"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 566,
+        "height": 816
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "theme169_paytable_head2",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 5
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "49UxVqF5ZPg54DNF7VmfqQ"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "81DZqbQ8tBrY4zI7OPcru6"
+        },
+        "fileId": "1dX2xKouBBkbNYIfRAscrl"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 251,
+        "height": 53
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          510,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme173_paytable_bg",
+      "texture": "80Mt90L/NJb64TuDrJz2gY",
+      "rect": [
+        0,
+        0,
+        322,
+        461
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        322,
+        461
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

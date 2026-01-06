@@ -1,1 +1,488 @@
-{"__type__":"sp.SkeletonData","_name":"pick_bj_01","_skeletonJson":{"skeleton":{"hash":"7in+gfe9R9cFJLrKi5rKmjy8iAU","spine":"3.6.53","width":1060,"height":1560,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"guilian02","parent":"root","x":-22.3,"y":-28.8,"scaleX":0.542,"scaleY":0.542},{"name":"guilian2","parent":"root","x":2.79,"y":-102.19,"scaleX":-0.54,"scaleY":0.542},{"name":"guilian3","parent":"root","x":-29.45,"y":-126.37,"scaleX":-0.313,"scaleY":0.314},{"name":"guilian4","parent":"root","x":350.5,"y":297.56,"scaleX":0.572,"scaleY":0.572},{"name":"guilian5","parent":"root","x":-9.88,"y":147.59,"scaleX":0.721,"scaleY":0.542},{"name":"guilian6","parent":"root","x":-458.01,"y":-181.74,"scaleX":-0.681,"scaleY":0.684},{"name":"guilian7","parent":"root","x":363.43,"y":50.31,"scaleX":-0.612,"scaleY":0.572},{"name":"guilian8","parent":"root","x":2.79,"y":-102.19,"scaleX":-0.54,"scaleY":0.542},{"name":"骨骼","parent":"root","scaleX":2,"scaleY":2}],"slots":[{"name":"theme214_pick_bg1","bone":"骨骼"},{"name":"guilian02","bone":"guilian02","attachment":"guilian02","blend":"additive"},{"name":"guilian4","bone":"guilian4","color":"ffffff4c","attachment":"guilian02","blend":"additive"},{"name":"guilian7","bone":"guilian7","color":"ffffff4c","attachment":"guilian02","blend":"additive"},{"name":"guilian2","bone":"guilian2","attachment":"guilian02","blend":"additive"},{"name":"guilian8","bone":"guilian8","attachment":"guilian02","blend":"additive"},{"name":"guilian5","bone":"guilian5","attachment":"guilian02","blend":"additive"},{"name":"guilian3","bone":"guilian3","attachment":"guilian02","blend":"additive"},{"name":"guilian6","bone":"guilian6","attachment":"guilian02","blend":"additive"}],"skins":{"default":{"guilian02":{"guilian02":{"width":94,"height":82}},"guilian2":{"guilian02":{"width":94,"height":82}},"guilian3":{"guilian02":{"width":94,"height":82}},"guilian4":{"guilian02":{"width":94,"height":82}},"guilian5":{"guilian02":{"width":94,"height":82}},"guilian6":{"guilian02":{"width":94,"height":82}},"guilian7":{"guilian02":{"width":94,"height":82}},"guilian8":{"guilian02":{"width":94,"height":82}}}},"animations":{"animation":{"slots":{"guilian02":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.4,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1.0667,"color":"ffffff00"}]},"guilian2":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":1.7333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":2.4333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":3.1,"color":"ffffff00"}]},"guilian3":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.5667,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1.2667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1.9333,"color":"ffffff00"}]},"guilian4":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.7667,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1.5333,"color":"3dffeb4d","curve":[0.25,0,0.75,1]},{"time":2.2,"color":"ffffff00"}]},"guilian5":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":3.7,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":5.0333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":5.7,"color":"ffffff00"}]},"guilian6":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":4.2333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":4.6333,"color":"2333fcff","curve":[0.25,0,0.75,1]},{"time":5.3,"color":"ffffff00"}]},"guilian7":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":1.3333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":3.0333,"color":"3dffeb4d","curve":[0.25,0,0.75,1]},{"time":4.4667,"color":"ffffff00"}]},"guilian8":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":2.5667,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":3.6,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":4.2667,"color":"ffffff00"}]}},"bones":{"guilian8":{"translate":[{"time":0,"x":-22.63,"y":41.78}],"scale":[{"time":0,"x":-1.664,"y":1.052}]}}}}},"_atlasText":"\npick_bj_01.png\nsize: 79,77\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguilian02\n  rotate: false\n  xy: 2, 9\n  size: 75, 66\n  orig: 75, 66\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"ef5FlxwDxLnJFFI2OWhX47"}],"textureNames":["pick_bj_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "pick_bj_01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "7in+gfe9R9cFJLrKi5rKmjy8iAU",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "guilian02",
+        "parent": "root",
+        "x": -22.3,
+        "y": -28.8,
+        "scaleX": 0.542,
+        "scaleY": 0.542
+      },
+      {
+        "name": "guilian2",
+        "parent": "root",
+        "x": 2.79,
+        "y": -102.19,
+        "scaleX": -0.54,
+        "scaleY": 0.542
+      },
+      {
+        "name": "guilian3",
+        "parent": "root",
+        "x": -29.45,
+        "y": -126.37,
+        "scaleX": -0.313,
+        "scaleY": 0.314
+      },
+      {
+        "name": "guilian4",
+        "parent": "root",
+        "x": 350.5,
+        "y": 297.56,
+        "scaleX": 0.572,
+        "scaleY": 0.572
+      },
+      {
+        "name": "guilian5",
+        "parent": "root",
+        "x": -9.88,
+        "y": 147.59,
+        "scaleX": 0.721,
+        "scaleY": 0.542
+      },
+      {
+        "name": "guilian6",
+        "parent": "root",
+        "x": -458.01,
+        "y": -181.74,
+        "scaleX": -0.681,
+        "scaleY": 0.684
+      },
+      {
+        "name": "guilian7",
+        "parent": "root",
+        "x": 363.43,
+        "y": 50.31,
+        "scaleX": -0.612,
+        "scaleY": 0.572
+      },
+      {
+        "name": "guilian8",
+        "parent": "root",
+        "x": 2.79,
+        "y": -102.19,
+        "scaleX": -0.54,
+        "scaleY": 0.542
+      },
+      {
+        "name": "骨骼",
+        "parent": "root",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme214_pick_bg1",
+        "bone": "骨骼"
+      },
+      {
+        "name": "guilian02",
+        "bone": "guilian02",
+        "attachment": "guilian02",
+        "blend": "additive"
+      },
+      {
+        "name": "guilian4",
+        "bone": "guilian4",
+        "color": "ffffff4c",
+        "attachment": "guilian02",
+        "blend": "additive"
+      },
+      {
+        "name": "guilian7",
+        "bone": "guilian7",
+        "color": "ffffff4c",
+        "attachment": "guilian02",
+        "blend": "additive"
+      },
+      {
+        "name": "guilian2",
+        "bone": "guilian2",
+        "attachment": "guilian02",
+        "blend": "additive"
+      },
+      {
+        "name": "guilian8",
+        "bone": "guilian8",
+        "attachment": "guilian02",
+        "blend": "additive"
+      },
+      {
+        "name": "guilian5",
+        "bone": "guilian5",
+        "attachment": "guilian02",
+        "blend": "additive"
+      },
+      {
+        "name": "guilian3",
+        "bone": "guilian3",
+        "attachment": "guilian02",
+        "blend": "additive"
+      },
+      {
+        "name": "guilian6",
+        "bone": "guilian6",
+        "attachment": "guilian02",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "guilian02": {
+          "guilian02": {
+            "width": 94,
+            "height": 82
+          }
+        },
+        "guilian2": {
+          "guilian02": {
+            "width": 94,
+            "height": 82
+          }
+        },
+        "guilian3": {
+          "guilian02": {
+            "width": 94,
+            "height": 82
+          }
+        },
+        "guilian4": {
+          "guilian02": {
+            "width": 94,
+            "height": 82
+          }
+        },
+        "guilian5": {
+          "guilian02": {
+            "width": 94,
+            "height": 82
+          }
+        },
+        "guilian6": {
+          "guilian02": {
+            "width": 94,
+            "height": 82
+          }
+        },
+        "guilian7": {
+          "guilian02": {
+            "width": 94,
+            "height": 82
+          }
+        },
+        "guilian8": {
+          "guilian02": {
+            "width": 94,
+            "height": 82
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "guilian02": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.0667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "guilian2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.7333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3.1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "guilian3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.9333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "guilian4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5333,
+                "color": "3dffeb4d",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "guilian5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 3.7,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 5.0333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 5.7,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "guilian6": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 4.2333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 4.6333,
+                "color": "2333fcff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 5.3,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "guilian7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3.0333,
+                "color": "3dffeb4d",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 4.4667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "guilian8": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3.6,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 4.2667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "guilian8": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -22.63,
+                "y": 41.78
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": -1.664,
+                "y": 1.052
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\npick_bj_01.png\nsize: 79,77\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguilian02\n  rotate: false\n  xy: 2, 9\n  size: 75, 66\n  orig: 75, 66\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "ef5FlxwDxLnJFFI2OWhX47"
+    }
+  ],
+  "textureNames": [
+    "pick_bj_01.png"
+  ]
+}

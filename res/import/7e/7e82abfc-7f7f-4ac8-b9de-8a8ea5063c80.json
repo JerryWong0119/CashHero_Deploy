@@ -1,1 +1,664 @@
-{"__type__":"sp.SkeletonData","_name":"Map_alien_tx","_skeletonJson":{"skeleton":{"hash":"A2Zb3wh9MIuj4+tSMzLHP2ZyTXo","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"2","parent":"root"},{"name":"dj","parent":"root"},{"name":"si","parent":"root"},{"name":"tx","parent":"root"}],"slots":[{"name":"si","bone":"si"},{"name":"tx","bone":"tx","blend":"additive"},{"name":"dj","bone":"dj","blend":"additive"},{"name":"2","bone":"2","blend":"additive"}],"skins":{"default":{"2":{"2/gun2_00":{"width":50,"height":50},"2/gun2_01":{"width":50,"height":50},"2/gun2_02":{"width":50,"height":50},"2/gun2_03":{"width":50,"height":50},"2/gun2_04":{"width":50,"height":50},"2/gun2_05":{"width":50,"height":50}},"dj":{"dj/dj_01":{"width":50,"height":50},"dj/dj_02":{"width":50,"height":50},"dj/dj_03":{"width":50,"height":50},"dj/dj_04":{"width":50,"height":50},"dj/dj_05":{"width":50,"height":50},"dj/dj_06":{"width":50,"height":50},"dj/dj_07":{"width":50,"height":50},"dj/dj_08":{"width":50,"height":50},"dj/dj_09":{"width":50,"height":50},"dj/dj_10":{"width":50,"height":50},"dj/dj_11":{"width":50,"height":50},"dj/dj_12":{"width":50,"height":50},"dj/dj_13":{"width":50,"height":50},"dj/dj_14":{"width":50,"height":50},"dj/dj_15":{"width":50,"height":50},"dj/dj_16":{"width":50,"height":50},"dj/dj_17":{"width":50,"height":50},"dj/dj_18":{"width":50,"height":50},"dj/dj_19":{"width":50,"height":50}},"si":{"si/tx_02":{"width":66,"height":66},"si/tx_03":{"width":66,"height":66},"si/tx_04":{"width":66,"height":66},"si/tx_05":{"width":66,"height":66},"si/tx_06":{"width":66,"height":66},"si/tx_07":{"width":66,"height":66},"si/tx_08":{"width":66,"height":66},"si/tx_09":{"width":66,"height":66},"si/tx_10":{"width":66,"height":66},"si/tx_11":{"width":66,"height":66},"si/tx_12":{"width":66,"height":66}},"tx":{"tx/tx_00":{"width":50,"height":62},"tx/tx_01":{"width":50,"height":62},"tx/tx_02":{"width":50,"height":62},"tx/tx_03":{"width":50,"height":62},"tx/tx_04":{"width":50,"height":62},"tx/tx_05":{"width":50,"height":62},"tx/tx_06":{"width":50,"height":62},"tx/tx_07":{"width":50,"height":62},"tx/tx_08":{"width":50,"height":62},"tx/tx_09":{"width":50,"height":62},"tx/tx_10":{"width":50,"height":62},"tx/tx_11":{"width":50,"height":62},"tx/tx_12":{"width":50,"height":62},"tx/tx_13":{"width":50,"height":62},"tx/tx_14":{"width":50,"height":62},"tx/tx_15":{"width":50,"height":62},"tx/tx_16":{"width":50,"height":62},"tx/tx_17":{"width":50,"height":62},"tx/tx_18":{"width":50,"height":62},"tx/tx_19":{"width":50,"height":62}}}},"animations":{"alien_die":{"slots":{"2":{"attachment":[{"time":0,"name":null},{"time":0.0667,"name":"2/gun2_00"},{"time":0.1333,"name":"2/gun2_01"},{"time":0.2,"name":"2/gun2_02"},{"time":0.2667,"name":"2/gun2_03"},{"time":0.3333,"name":"2/gun2_04"},{"time":0.4,"name":"2/gun2_05"},{"time":0.4667,"name":null}]},"dj":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"dj/dj_01"},{"time":0.0667,"name":"dj/dj_02"},{"time":0.1,"name":"dj/dj_03"},{"time":0.1333,"name":"dj/dj_04"},{"time":0.1667,"name":"dj/dj_05"},{"time":0.2,"name":"dj/dj_06"},{"time":0.2333,"name":"dj/dj_07"},{"time":0.2667,"name":"dj/dj_08"},{"time":0.3,"name":"dj/dj_09"},{"time":0.3333,"name":"dj/dj_10"},{"time":0.3667,"name":"dj/dj_11"},{"time":0.4,"name":"dj/dj_12"},{"time":0.4333,"name":"dj/dj_13"},{"time":0.4667,"name":"dj/dj_14"},{"time":0.5,"name":"dj/dj_15"},{"time":0.5333,"name":"dj/dj_16"},{"time":0.5667,"name":"dj/dj_17"},{"time":0.6,"name":"dj/dj_18"},{"time":0.6333,"name":"dj/dj_19"},{"time":0.6667,"name":null}]},"si":{"attachment":[{"time":0,"name":null},{"time":0.1667,"name":"si/tx_02"},{"time":0.2,"name":"si/tx_03"},{"time":0.2667,"name":"si/tx_04"},{"time":0.3,"name":"si/tx_05"},{"time":0.3667,"name":"si/tx_06"},{"time":0.4,"name":"si/tx_07"},{"time":0.4667,"name":"si/tx_08"},{"time":0.5,"name":"si/tx_09"},{"time":0.5667,"name":"si/tx_10"},{"time":0.6,"name":"si/tx_11"},{"time":0.6333,"name":"si/tx_12"},{"time":0.6667,"name":null}]},"tx":{"attachment":[{"time":0,"name":null}]}},"bones":{"2":{"scale":[{"time":0,"x":5,"y":5}]},"dj":{"scale":[{"time":0,"x":4,"y":4}]},"si":{"translate":[{"time":0,"x":0,"y":-12}],"scale":[{"time":0,"x":3,"y":3}]}}},"alien_up":{"slots":{"2":{"attachment":[{"time":0,"name":null}]},"dj":{"attachment":[{"time":0,"name":null}]},"si":{"attachment":[{"time":0,"name":null}]},"tx":{"attachment":[{"time":0,"name":"tx/tx_00"},{"time":0.0333,"name":"tx/tx_01"},{"time":0.0667,"name":"tx/tx_02"},{"time":0.1,"name":"tx/tx_03"},{"time":0.1333,"name":"tx/tx_04"},{"time":0.1667,"name":"tx/tx_05"},{"time":0.2,"name":"tx/tx_06"},{"time":0.2333,"name":"tx/tx_07"},{"time":0.2667,"name":"tx/tx_08"},{"time":0.3,"name":"tx/tx_09"},{"time":0.3333,"name":"tx/tx_10"},{"time":0.3667,"name":"tx/tx_11"},{"time":0.4,"name":"tx/tx_12"},{"time":0.4333,"name":"tx/tx_13"},{"time":0.4667,"name":"tx/tx_14"},{"time":0.5,"name":"tx/tx_15"},{"time":0.5333,"name":"tx/tx_16"},{"time":0.5667,"name":"tx/tx_17"},{"time":0.6,"name":"tx/tx_18"},{"time":0.6333,"name":"tx/tx_19"},{"time":0.6667,"name":null}]}},"bones":{"tx":{"translate":[{"time":0,"x":0,"y":15}],"scale":[{"time":0,"x":4,"y":2.5}]}}}}},"_atlasText":"\nMap_alien_tx.png\nsize: 512,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n2/gun2_00\n  rotate: false\n  xy: 496, 173\n  size: 10, 10\n  orig: 50, 50\n  offset: 20, 20\n  index: -1\n2/gun2_01\n  rotate: false\n  xy: 425, 151\n  size: 30, 30\n  orig: 50, 50\n  offset: 10, 10\n  index: -1\n2/gun2_02\n  rotate: false\n  xy: 321, 82\n  size: 32, 32\n  orig: 50, 50\n  offset: 9, 9\n  index: -1\n2/gun2_03\n  rotate: false\n  xy: 272, 26\n  size: 30, 30\n  orig: 50, 50\n  offset: 10, 10\n  index: -1\n2/gun2_04\n  rotate: false\n  xy: 483, 119\n  size: 27, 27\n  orig: 50, 50\n  offset: 13, 11\n  index: -1\n2/gun2_05\n  rotate: false\n  xy: 272, 2\n  size: 23, 22\n  orig: 50, 50\n  offset: 13, 15\n  index: -1\ndj/dj_01\n  rotate: true\n  xy: 446, 112\n  size: 34, 35\n  orig: 50, 50\n  offset: 8, 8\n  index: -1\ndj/dj_02\n  rotate: false\n  xy: 233, 88\n  size: 41, 41\n  orig: 50, 50\n  offset: 5, 5\n  index: -1\ndj/dj_03\n  rotate: false\n  xy: 2, 204\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_04\n  rotate: false\n  xy: 2, 152\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_05\n  rotate: false\n  xy: 54, 204\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_06\n  rotate: false\n  xy: 2, 100\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_07\n  rotate: false\n  xy: 54, 152\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_08\n  rotate: false\n  xy: 106, 204\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_09\n  rotate: false\n  xy: 2, 48\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_10\n  rotate: false\n  xy: 54, 100\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_11\n  rotate: false\n  xy: 106, 152\n  size: 48, 50\n  orig: 50, 50\n  offset: 1, 0\n  index: -1\ndj/dj_12\n  rotate: false\n  xy: 151, 100\n  size: 42, 50\n  orig: 50, 50\n  offset: 3, 0\n  index: -1\ndj/dj_13\n  rotate: false\n  xy: 156, 152\n  size: 42, 50\n  orig: 50, 50\n  offset: 3, 0\n  index: -1\ndj/dj_14\n  rotate: false\n  xy: 106, 100\n  size: 43, 50\n  orig: 50, 50\n  offset: 3, 0\n  index: -1\ndj/dj_15\n  rotate: true\n  xy: 2, 2\n  size: 44, 50\n  orig: 50, 50\n  offset: 3, 0\n  index: -1\ndj/dj_16\n  rotate: false\n  xy: 230, 168\n  size: 45, 48\n  orig: 50, 50\n  offset: 2, 1\n  index: -1\ndj/dj_17\n  rotate: false\n  xy: 277, 169\n  size: 45, 48\n  orig: 50, 50\n  offset: 2, 1\n  index: -1\ndj/dj_18\n  rotate: false\n  xy: 324, 171\n  size: 44, 46\n  orig: 50, 50\n  offset: 3, 2\n  index: -1\ndj/dj_19\n  rotate: false\n  xy: 109, 2\n  size: 35, 38\n  orig: 50, 50\n  offset: 7, 9\n  index: -1\nsi/tx_02\n  rotate: false\n  xy: 328, 116\n  size: 34, 23\n  orig: 66, 66\n  offset: 15, 24\n  index: -1\nsi/tx_03\n  rotate: false\n  xy: 328, 141\n  size: 40, 28\n  orig: 66, 66\n  offset: 12, 23\n  index: -1\nsi/tx_04\n  rotate: true\n  xy: 239, 10\n  size: 45, 31\n  orig: 66, 66\n  offset: 10, 23\n  index: -1\nsi/tx_05\n  rotate: true\n  xy: 197, 57\n  size: 49, 34\n  orig: 66, 66\n  offset: 9, 23\n  index: -1\nsi/tx_06\n  rotate: false\n  xy: 370, 180\n  size: 51, 37\n  orig: 66, 66\n  offset: 8, 22\n  index: -1\nsi/tx_07\n  rotate: false\n  xy: 146, 2\n  size: 54, 39\n  orig: 66, 66\n  offset: 6, 21\n  index: -1\nsi/tx_08\n  rotate: false\n  xy: 454, 215\n  size: 55, 39\n  orig: 66, 66\n  offset: 6, 21\n  index: -1\nsi/tx_09\n  rotate: false\n  xy: 158, 214\n  size: 56, 40\n  orig: 66, 66\n  offset: 5, 20\n  index: -1\nsi/tx_10\n  rotate: true\n  xy: 54, 42\n  size: 56, 40\n  orig: 66, 66\n  offset: 5, 20\n  index: -1\nsi/tx_11\n  rotate: false\n  xy: 54, 2\n  size: 53, 38\n  orig: 66, 66\n  offset: 8, 20\n  index: -1\nsi/tx_12\n  rotate: false\n  xy: 230, 131\n  size: 45, 35\n  orig: 66, 66\n  offset: 14, 22\n  index: -1\ntx/tx_00\n  rotate: false\n  xy: 233, 57\n  size: 25, 29\n  orig: 50, 62\n  offset: 11, 2\n  index: -1\ntx/tx_01\n  rotate: true\n  xy: 260, 58\n  size: 28, 30\n  orig: 50, 62\n  offset: 11, 1\n  index: -1\ntx/tx_02\n  rotate: true\n  xy: 423, 183\n  size: 34, 29\n  orig: 50, 62\n  offset: 8, 1\n  index: -1\ntx/tx_03\n  rotate: false\n  xy: 370, 119\n  size: 36, 33\n  orig: 50, 62\n  offset: 7, 1\n  index: -1\ntx/tx_04\n  rotate: true\n  xy: 408, 115\n  size: 34, 36\n  orig: 50, 62\n  offset: 8, 1\n  index: -1\ntx/tx_05\n  rotate: true\n  xy: 457, 148\n  size: 35, 37\n  orig: 50, 62\n  offset: 7, 1\n  index: -1\ntx/tx_06\n  rotate: false\n  xy: 195, 108\n  size: 33, 42\n  orig: 50, 62\n  offset: 8, 1\n  index: -1\ntx/tx_07\n  rotate: true\n  xy: 276, 94\n  size: 35, 43\n  orig: 50, 62\n  offset: 7, 1\n  index: -1\ntx/tx_08\n  rotate: false\n  xy: 202, 6\n  size: 35, 49\n  orig: 50, 62\n  offset: 8, 1\n  index: -1\ntx/tx_09\n  rotate: true\n  xy: 277, 131\n  size: 36, 49\n  orig: 50, 62\n  offset: 7, 1\n  index: -1\ntx/tx_10\n  rotate: true\n  xy: 396, 219\n  size: 35, 56\n  orig: 50, 62\n  offset: 8, 1\n  index: -1\ntx/tx_11\n  rotate: false\n  xy: 96, 42\n  size: 36, 56\n  orig: 50, 62\n  offset: 7, 1\n  index: -1\ntx/tx_12\n  rotate: true\n  xy: 337, 219\n  size: 35, 57\n  orig: 50, 62\n  offset: 8, 2\n  index: -1\ntx/tx_13\n  rotate: true\n  xy: 216, 218\n  size: 36, 59\n  orig: 50, 62\n  offset: 7, 3\n  index: -1\ntx/tx_14\n  rotate: true\n  xy: 277, 219\n  size: 35, 58\n  orig: 50, 62\n  offset: 8, 3\n  index: -1\ntx/tx_15\n  rotate: false\n  xy: 134, 43\n  size: 31, 55\n  orig: 50, 62\n  offset: 12, 4\n  index: -1\ntx/tx_16\n  rotate: false\n  xy: 167, 44\n  size: 28, 54\n  orig: 50, 62\n  offset: 15, 7\n  index: -1\ntx/tx_17\n  rotate: true\n  xy: 454, 185\n  size: 28, 52\n  orig: 50, 62\n  offset: 15, 8\n  index: -1\ntx/tx_18\n  rotate: false\n  xy: 200, 159\n  size: 28, 53\n  orig: 50, 62\n  offset: 15, 8\n  index: -1\ntx/tx_19\n  rotate: true\n  xy: 370, 154\n  size: 24, 53\n  orig: 50, 62\n  offset: 18, 9\n  index: -1\n","textures":[{"__uuid__":"45DiKbS7pEeKlyV+NpDgtD"}],"textureNames":["Map_alien_tx.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Map_alien_tx",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "A2Zb3wh9MIuj4+tSMzLHP2ZyTXo",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "2",
+        "parent": "root"
+      },
+      {
+        "name": "dj",
+        "parent": "root"
+      },
+      {
+        "name": "si",
+        "parent": "root"
+      },
+      {
+        "name": "tx",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "si",
+        "bone": "si"
+      },
+      {
+        "name": "tx",
+        "bone": "tx",
+        "blend": "additive"
+      },
+      {
+        "name": "dj",
+        "bone": "dj",
+        "blend": "additive"
+      },
+      {
+        "name": "2",
+        "bone": "2",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "2": {
+          "2/gun2_00": {
+            "width": 50,
+            "height": 50
+          },
+          "2/gun2_01": {
+            "width": 50,
+            "height": 50
+          },
+          "2/gun2_02": {
+            "width": 50,
+            "height": 50
+          },
+          "2/gun2_03": {
+            "width": 50,
+            "height": 50
+          },
+          "2/gun2_04": {
+            "width": 50,
+            "height": 50
+          },
+          "2/gun2_05": {
+            "width": 50,
+            "height": 50
+          }
+        },
+        "dj": {
+          "dj/dj_01": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_02": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_03": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_04": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_05": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_06": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_07": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_08": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_09": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_10": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_11": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_12": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_13": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_14": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_15": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_16": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_17": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_18": {
+            "width": 50,
+            "height": 50
+          },
+          "dj/dj_19": {
+            "width": 50,
+            "height": 50
+          }
+        },
+        "si": {
+          "si/tx_02": {
+            "width": 66,
+            "height": 66
+          },
+          "si/tx_03": {
+            "width": 66,
+            "height": 66
+          },
+          "si/tx_04": {
+            "width": 66,
+            "height": 66
+          },
+          "si/tx_05": {
+            "width": 66,
+            "height": 66
+          },
+          "si/tx_06": {
+            "width": 66,
+            "height": 66
+          },
+          "si/tx_07": {
+            "width": 66,
+            "height": 66
+          },
+          "si/tx_08": {
+            "width": 66,
+            "height": 66
+          },
+          "si/tx_09": {
+            "width": 66,
+            "height": 66
+          },
+          "si/tx_10": {
+            "width": 66,
+            "height": 66
+          },
+          "si/tx_11": {
+            "width": 66,
+            "height": 66
+          },
+          "si/tx_12": {
+            "width": 66,
+            "height": 66
+          }
+        },
+        "tx": {
+          "tx/tx_00": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_01": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_02": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_03": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_04": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_05": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_06": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_07": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_08": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_09": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_10": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_11": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_12": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_13": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_14": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_15": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_16": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_17": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_18": {
+            "width": 50,
+            "height": 62
+          },
+          "tx/tx_19": {
+            "width": 50,
+            "height": 62
+          }
+        }
+      }
+    },
+    "animations": {
+      "alien_die": {
+        "slots": {
+          "2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "2/gun2_00"
+              },
+              {
+                "time": 0.1333,
+                "name": "2/gun2_01"
+              },
+              {
+                "time": 0.2,
+                "name": "2/gun2_02"
+              },
+              {
+                "time": 0.2667,
+                "name": "2/gun2_03"
+              },
+              {
+                "time": 0.3333,
+                "name": "2/gun2_04"
+              },
+              {
+                "time": 0.4,
+                "name": "2/gun2_05"
+              },
+              {
+                "time": 0.4667,
+                "name": null
+              }
+            ]
+          },
+          "dj": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "dj/dj_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "dj/dj_02"
+              },
+              {
+                "time": 0.1,
+                "name": "dj/dj_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "dj/dj_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "dj/dj_05"
+              },
+              {
+                "time": 0.2,
+                "name": "dj/dj_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "dj/dj_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "dj/dj_08"
+              },
+              {
+                "time": 0.3,
+                "name": "dj/dj_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "dj/dj_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "dj/dj_11"
+              },
+              {
+                "time": 0.4,
+                "name": "dj/dj_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "dj/dj_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "dj/dj_14"
+              },
+              {
+                "time": 0.5,
+                "name": "dj/dj_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "dj/dj_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "dj/dj_17"
+              },
+              {
+                "time": 0.6,
+                "name": "dj/dj_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "dj/dj_19"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          },
+          "si": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "si/tx_02"
+              },
+              {
+                "time": 0.2,
+                "name": "si/tx_03"
+              },
+              {
+                "time": 0.2667,
+                "name": "si/tx_04"
+              },
+              {
+                "time": 0.3,
+                "name": "si/tx_05"
+              },
+              {
+                "time": 0.3667,
+                "name": "si/tx_06"
+              },
+              {
+                "time": 0.4,
+                "name": "si/tx_07"
+              },
+              {
+                "time": 0.4667,
+                "name": "si/tx_08"
+              },
+              {
+                "time": 0.5,
+                "name": "si/tx_09"
+              },
+              {
+                "time": 0.5667,
+                "name": "si/tx_10"
+              },
+              {
+                "time": 0.6,
+                "name": "si/tx_11"
+              },
+              {
+                "time": 0.6333,
+                "name": "si/tx_12"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          },
+          "tx": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 5,
+                "y": 5
+              }
+            ]
+          },
+          "dj": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 4,
+                "y": 4
+              }
+            ]
+          },
+          "si": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -12
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 3,
+                "y": 3
+              }
+            ]
+          }
+        }
+      },
+      "alien_up": {
+        "slots": {
+          "2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "dj": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "si": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "tx": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/tx_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "tx/tx_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "tx/tx_02"
+              },
+              {
+                "time": 0.1,
+                "name": "tx/tx_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "tx/tx_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "tx/tx_05"
+              },
+              {
+                "time": 0.2,
+                "name": "tx/tx_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "tx/tx_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "tx/tx_08"
+              },
+              {
+                "time": 0.3,
+                "name": "tx/tx_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "tx/tx_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "tx/tx_11"
+              },
+              {
+                "time": 0.4,
+                "name": "tx/tx_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "tx/tx_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "tx/tx_14"
+              },
+              {
+                "time": 0.5,
+                "name": "tx/tx_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "tx/tx_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "tx/tx_17"
+              },
+              {
+                "time": 0.6,
+                "name": "tx/tx_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "tx/tx_19"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "tx": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 15
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 4,
+                "y": 2.5
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nMap_alien_tx.png\nsize: 512,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n2/gun2_00\n  rotate: false\n  xy: 496, 173\n  size: 10, 10\n  orig: 50, 50\n  offset: 20, 20\n  index: -1\n2/gun2_01\n  rotate: false\n  xy: 425, 151\n  size: 30, 30\n  orig: 50, 50\n  offset: 10, 10\n  index: -1\n2/gun2_02\n  rotate: false\n  xy: 321, 82\n  size: 32, 32\n  orig: 50, 50\n  offset: 9, 9\n  index: -1\n2/gun2_03\n  rotate: false\n  xy: 272, 26\n  size: 30, 30\n  orig: 50, 50\n  offset: 10, 10\n  index: -1\n2/gun2_04\n  rotate: false\n  xy: 483, 119\n  size: 27, 27\n  orig: 50, 50\n  offset: 13, 11\n  index: -1\n2/gun2_05\n  rotate: false\n  xy: 272, 2\n  size: 23, 22\n  orig: 50, 50\n  offset: 13, 15\n  index: -1\ndj/dj_01\n  rotate: true\n  xy: 446, 112\n  size: 34, 35\n  orig: 50, 50\n  offset: 8, 8\n  index: -1\ndj/dj_02\n  rotate: false\n  xy: 233, 88\n  size: 41, 41\n  orig: 50, 50\n  offset: 5, 5\n  index: -1\ndj/dj_03\n  rotate: false\n  xy: 2, 204\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_04\n  rotate: false\n  xy: 2, 152\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_05\n  rotate: false\n  xy: 54, 204\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_06\n  rotate: false\n  xy: 2, 100\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_07\n  rotate: false\n  xy: 54, 152\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_08\n  rotate: false\n  xy: 106, 204\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_09\n  rotate: false\n  xy: 2, 48\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_10\n  rotate: false\n  xy: 54, 100\n  size: 50, 50\n  orig: 50, 50\n  offset: 0, 0\n  index: -1\ndj/dj_11\n  rotate: false\n  xy: 106, 152\n  size: 48, 50\n  orig: 50, 50\n  offset: 1, 0\n  index: -1\ndj/dj_12\n  rotate: false\n  xy: 151, 100\n  size: 42, 50\n  orig: 50, 50\n  offset: 3, 0\n  index: -1\ndj/dj_13\n  rotate: false\n  xy: 156, 152\n  size: 42, 50\n  orig: 50, 50\n  offset: 3, 0\n  index: -1\ndj/dj_14\n  rotate: false\n  xy: 106, 100\n  size: 43, 50\n  orig: 50, 50\n  offset: 3, 0\n  index: -1\ndj/dj_15\n  rotate: true\n  xy: 2, 2\n  size: 44, 50\n  orig: 50, 50\n  offset: 3, 0\n  index: -1\ndj/dj_16\n  rotate: false\n  xy: 230, 168\n  size: 45, 48\n  orig: 50, 50\n  offset: 2, 1\n  index: -1\ndj/dj_17\n  rotate: false\n  xy: 277, 169\n  size: 45, 48\n  orig: 50, 50\n  offset: 2, 1\n  index: -1\ndj/dj_18\n  rotate: false\n  xy: 324, 171\n  size: 44, 46\n  orig: 50, 50\n  offset: 3, 2\n  index: -1\ndj/dj_19\n  rotate: false\n  xy: 109, 2\n  size: 35, 38\n  orig: 50, 50\n  offset: 7, 9\n  index: -1\nsi/tx_02\n  rotate: false\n  xy: 328, 116\n  size: 34, 23\n  orig: 66, 66\n  offset: 15, 24\n  index: -1\nsi/tx_03\n  rotate: false\n  xy: 328, 141\n  size: 40, 28\n  orig: 66, 66\n  offset: 12, 23\n  index: -1\nsi/tx_04\n  rotate: true\n  xy: 239, 10\n  size: 45, 31\n  orig: 66, 66\n  offset: 10, 23\n  index: -1\nsi/tx_05\n  rotate: true\n  xy: 197, 57\n  size: 49, 34\n  orig: 66, 66\n  offset: 9, 23\n  index: -1\nsi/tx_06\n  rotate: false\n  xy: 370, 180\n  size: 51, 37\n  orig: 66, 66\n  offset: 8, 22\n  index: -1\nsi/tx_07\n  rotate: false\n  xy: 146, 2\n  size: 54, 39\n  orig: 66, 66\n  offset: 6, 21\n  index: -1\nsi/tx_08\n  rotate: false\n  xy: 454, 215\n  size: 55, 39\n  orig: 66, 66\n  offset: 6, 21\n  index: -1\nsi/tx_09\n  rotate: false\n  xy: 158, 214\n  size: 56, 40\n  orig: 66, 66\n  offset: 5, 20\n  index: -1\nsi/tx_10\n  rotate: true\n  xy: 54, 42\n  size: 56, 40\n  orig: 66, 66\n  offset: 5, 20\n  index: -1\nsi/tx_11\n  rotate: false\n  xy: 54, 2\n  size: 53, 38\n  orig: 66, 66\n  offset: 8, 20\n  index: -1\nsi/tx_12\n  rotate: false\n  xy: 230, 131\n  size: 45, 35\n  orig: 66, 66\n  offset: 14, 22\n  index: -1\ntx/tx_00\n  rotate: false\n  xy: 233, 57\n  size: 25, 29\n  orig: 50, 62\n  offset: 11, 2\n  index: -1\ntx/tx_01\n  rotate: true\n  xy: 260, 58\n  size: 28, 30\n  orig: 50, 62\n  offset: 11, 1\n  index: -1\ntx/tx_02\n  rotate: true\n  xy: 423, 183\n  size: 34, 29\n  orig: 50, 62\n  offset: 8, 1\n  index: -1\ntx/tx_03\n  rotate: false\n  xy: 370, 119\n  size: 36, 33\n  orig: 50, 62\n  offset: 7, 1\n  index: -1\ntx/tx_04\n  rotate: true\n  xy: 408, 115\n  size: 34, 36\n  orig: 50, 62\n  offset: 8, 1\n  index: -1\ntx/tx_05\n  rotate: true\n  xy: 457, 148\n  size: 35, 37\n  orig: 50, 62\n  offset: 7, 1\n  index: -1\ntx/tx_06\n  rotate: false\n  xy: 195, 108\n  size: 33, 42\n  orig: 50, 62\n  offset: 8, 1\n  index: -1\ntx/tx_07\n  rotate: true\n  xy: 276, 94\n  size: 35, 43\n  orig: 50, 62\n  offset: 7, 1\n  index: -1\ntx/tx_08\n  rotate: false\n  xy: 202, 6\n  size: 35, 49\n  orig: 50, 62\n  offset: 8, 1\n  index: -1\ntx/tx_09\n  rotate: true\n  xy: 277, 131\n  size: 36, 49\n  orig: 50, 62\n  offset: 7, 1\n  index: -1\ntx/tx_10\n  rotate: true\n  xy: 396, 219\n  size: 35, 56\n  orig: 50, 62\n  offset: 8, 1\n  index: -1\ntx/tx_11\n  rotate: false\n  xy: 96, 42\n  size: 36, 56\n  orig: 50, 62\n  offset: 7, 1\n  index: -1\ntx/tx_12\n  rotate: true\n  xy: 337, 219\n  size: 35, 57\n  orig: 50, 62\n  offset: 8, 2\n  index: -1\ntx/tx_13\n  rotate: true\n  xy: 216, 218\n  size: 36, 59\n  orig: 50, 62\n  offset: 7, 3\n  index: -1\ntx/tx_14\n  rotate: true\n  xy: 277, 219\n  size: 35, 58\n  orig: 50, 62\n  offset: 8, 3\n  index: -1\ntx/tx_15\n  rotate: false\n  xy: 134, 43\n  size: 31, 55\n  orig: 50, 62\n  offset: 12, 4\n  index: -1\ntx/tx_16\n  rotate: false\n  xy: 167, 44\n  size: 28, 54\n  orig: 50, 62\n  offset: 15, 7\n  index: -1\ntx/tx_17\n  rotate: true\n  xy: 454, 185\n  size: 28, 52\n  orig: 50, 62\n  offset: 15, 8\n  index: -1\ntx/tx_18\n  rotate: false\n  xy: 200, 159\n  size: 28, 53\n  orig: 50, 62\n  offset: 15, 8\n  index: -1\ntx/tx_19\n  rotate: true\n  xy: 370, 154\n  size: 24, 53\n  orig: 50, 62\n  offset: 18, 9\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "45DiKbS7pEeKlyV+NpDgtD"
+    }
+  ],
+  "textureNames": [
+    "Map_alien_tx.png"
+  ]
+}

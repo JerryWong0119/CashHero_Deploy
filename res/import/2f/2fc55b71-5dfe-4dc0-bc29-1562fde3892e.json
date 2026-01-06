@@ -1,1 +1,557 @@
-{"__type__":"sp.SkeletonData","_name":"jpzi","_skeletonJson":{"skeleton":{"hash":"yRgy8RnmcbJXDDTekCvCO+p99Ak","spine":"3.6.53","width":1060,"height":1560,"images":"./资源/"},"bones":[{"name":"root"},{"name":"zi","parent":"root"},{"name":"zi2","parent":"root"},{"name":"骨骼","parent":"root","y":-192.49}],"slots":[{"name":"4-拷贝","bone":"骨骼"},{"name":"zi","bone":"zi"},{"name":"zi2","bone":"zi2","blend":"additive"}],"skins":{"default":{"zi":{"GRAND":{"width":328,"height":98},"MAJOR11":{"width":317,"height":102},"MINI11-拷贝":{"width":226,"height":98},"MINOR11":{"width":312,"height":100}},"zi2":{"GRAND":{"width":328,"height":98},"MAJOR11":{"width":317,"height":102},"MINI11-拷贝":{"width":226,"height":98},"MINOR11":{"width":312,"height":100}}}},"animations":{"animation1":{"slots":{"zi":{"attachment":[{"time":0,"name":"MINI11-拷贝"}]},"zi2":{"color":[{"time":0,"color":"ffffff00"},{"time":0.6,"color":"ffcf00ff"},{"time":2,"color":"ffffff00","curve":"stepped"},{"time":2.5,"color":"ffffff00"}],"attachment":[{"time":0,"name":"MINI11-拷贝"}]}},"bones":{"zi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1,"curve":"stepped"},{"time":2.5,"x":1,"y":1}]},"zi2":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1,"curve":"stepped"},{"time":2.5,"x":1,"y":1}]}}},"animation2":{"slots":{"zi":{"attachment":[{"time":0,"name":"MINOR11"}]},"zi2":{"color":[{"time":0,"color":"ffffff00"},{"time":0.6,"color":"ffcf00ff"},{"time":2,"color":"ffffff00","curve":"stepped"},{"time":2.5,"color":"ffffff00"}],"attachment":[{"time":0,"name":"MINOR11"}]}},"bones":{"zi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1,"curve":"stepped"},{"time":2.5,"x":1,"y":1}]},"zi2":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1,"curve":"stepped"},{"time":2.5,"x":1,"y":1}]}}},"animation3":{"slots":{"zi":{"attachment":[{"time":0,"name":"MAJOR11"}]},"zi2":{"color":[{"time":0,"color":"ffffff00"},{"time":0.6,"color":"ffcf00ff"},{"time":2,"color":"ffffff00","curve":"stepped"},{"time":2.5,"color":"ffffff00"}],"attachment":[{"time":0,"name":"MAJOR11"}]}},"bones":{"zi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1,"curve":"stepped"},{"time":2.5,"x":1,"y":1}]},"zi2":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1,"curve":"stepped"},{"time":2.5,"x":1,"y":1}]}}},"animation4":{"slots":{"zi":{"attachment":[{"time":0,"name":"GRAND"}]},"zi2":{"color":[{"time":0,"color":"ffffff00"},{"time":0.6,"color":"ffcf00ff"},{"time":2,"color":"ffffff00","curve":"stepped"},{"time":2.5,"color":"ffffff00"}],"attachment":[{"time":0,"name":"GRAND"}]}},"bones":{"zi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1,"curve":"stepped"},{"time":2.5,"x":1,"y":1}]},"zi2":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1,"curve":"stepped"},{"time":2.5,"x":1,"y":1}]}}}}},"_atlasText":"\njpzi.png\nsize: 1193,106\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nGRAND\n  rotate: false\n  xy: 2, 6\n  size: 328, 98\n  orig: 328, 98\n  offset: 0, 0\n  index: -1\nMAJOR11\n  rotate: false\n  xy: 332, 2\n  size: 317, 102\n  orig: 317, 102\n  offset: 0, 0\n  index: -1\nMINI11-拷贝\n  rotate: false\n  xy: 965, 6\n  size: 226, 98\n  orig: 226, 98\n  offset: 0, 0\n  index: -1\nMINOR11\n  rotate: false\n  xy: 651, 4\n  size: 312, 100\n  orig: 312, 100\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"e02Z6q7ctIILdGftsXX7YZ"}],"textureNames":["jpzi.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "jpzi",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "yRgy8RnmcbJXDDTekCvCO+p99Ak",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "./资源/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zi",
+        "parent": "root"
+      },
+      {
+        "name": "zi2",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼",
+        "parent": "root",
+        "y": -192.49
+      }
+    ],
+    "slots": [
+      {
+        "name": "4-拷贝",
+        "bone": "骨骼"
+      },
+      {
+        "name": "zi",
+        "bone": "zi"
+      },
+      {
+        "name": "zi2",
+        "bone": "zi2",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "zi": {
+          "GRAND": {
+            "width": 328,
+            "height": 98
+          },
+          "MAJOR11": {
+            "width": 317,
+            "height": 102
+          },
+          "MINI11-拷贝": {
+            "width": 226,
+            "height": 98
+          },
+          "MINOR11": {
+            "width": 312,
+            "height": 100
+          }
+        },
+        "zi2": {
+          "GRAND": {
+            "width": 328,
+            "height": 98
+          },
+          "MAJOR11": {
+            "width": 317,
+            "height": 102
+          },
+          "MINI11-拷贝": {
+            "width": 226,
+            "height": 98
+          },
+          "MINOR11": {
+            "width": 312,
+            "height": 100
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "zi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "MINI11-拷贝"
+              }
+            ]
+          },
+          "zi2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6,
+                "color": "ffcf00ff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "MINI11-拷贝"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "zi2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "zi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "MINOR11"
+              }
+            ]
+          },
+          "zi2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6,
+                "color": "ffcf00ff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "MINOR11"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "zi2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation3": {
+        "slots": {
+          "zi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "MAJOR11"
+              }
+            ]
+          },
+          "zi2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6,
+                "color": "ffcf00ff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "MAJOR11"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "zi2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation4": {
+        "slots": {
+          "zi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "GRAND"
+              }
+            ]
+          },
+          "zi2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6,
+                "color": "ffcf00ff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "GRAND"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "zi2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\njpzi.png\nsize: 1193,106\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nGRAND\n  rotate: false\n  xy: 2, 6\n  size: 328, 98\n  orig: 328, 98\n  offset: 0, 0\n  index: -1\nMAJOR11\n  rotate: false\n  xy: 332, 2\n  size: 317, 102\n  orig: 317, 102\n  offset: 0, 0\n  index: -1\nMINI11-拷贝\n  rotate: false\n  xy: 965, 6\n  size: 226, 98\n  orig: 226, 98\n  offset: 0, 0\n  index: -1\nMINOR11\n  rotate: false\n  xy: 651, 4\n  size: 312, 100\n  orig: 312, 100\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "e02Z6q7ctIILdGftsXX7YZ"
+    }
+  ],
+  "textureNames": [
+    "jpzi.png"
+  ]
+}

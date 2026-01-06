@@ -1,1 +1,80 @@
-{"__type__":"sp.SkeletonData","_name":"jiesuan_glow","_skeletonJson":{"skeleton":{"hash":"OSo+axMlSn/DC2pscmmEqoS4dsU","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"glow","parent":"root","y":10.16,"scaleX":2,"scaleY":2}],"slots":[{"name":"glow","bone":"glow","blend":"additive"}],"skins":{"default":{"glow":{"glow":{"width":360,"height":103}}}},"animations":{"jiesuan_glow":{"slots":{"glow":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":0.1667,"color":"ffffffff"},{"time":0.3333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow"}]}}}}},"_atlasText":"\njiesuan_glow.png\nsize: 364,107\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nglow\n  rotate: false\n  xy: 2, 2\n  size: 360, 103\n  orig: 360, 103\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"f7xn3qP2FNFqwE0LUaRI0I"}],"textureNames":["jiesuan_glow.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "jiesuan_glow",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "OSo+axMlSn/DC2pscmmEqoS4dsU",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "glow",
+        "parent": "root",
+        "y": 10.16,
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "glow",
+        "bone": "glow",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "glow": {
+          "glow": {
+            "width": 360,
+            "height": 103
+          }
+        }
+      }
+    },
+    "animations": {
+      "jiesuan_glow": {
+        "slots": {
+          "glow": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\njiesuan_glow.png\nsize: 364,107\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nglow\n  rotate: false\n  xy: 2, 2\n  size: 360, 103\n  orig: 360, 103\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "f7xn3qP2FNFqwE0LUaRI0I"
+    }
+  ],
+  "textureNames": [
+    "jiesuan_glow.png"
+  ]
+}

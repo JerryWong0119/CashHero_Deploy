@@ -1,1 +1,86 @@
-{"__type__":"sp.SkeletonData","_name":"JP_tc_glow","_skeletonJson":{"skeleton":{"hash":"tB7gUXHRsMC8JhZuLxv0yXNiZ8o","spine":"3.6.53","width":0,"height":0},"bones":[{"name":"root"},{"name":"glow","parent":"root"}],"slots":[{"name":"glow","bone":"glow","blend":"additive"}],"skins":{"default":{"glow":{"glow":{"width":264,"height":241}}}},"animations":{"glow":{"slots":{"glow":{"attachment":[{"time":0,"name":"glow"}]}},"bones":{"glow":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":180},{"time":4,"angle":0}],"scale":[{"time":0,"x":4.5,"y":4.5}]}}}}},"_atlasText":"\nJP_tc_glow.png\nsize: 512,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nglow\n  rotate: false\n  xy: 2, 2\n  size: 264, 241\n  orig: 264, 241\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"a84wnmLFxIirJsF9wd2mDZ"}],"textureNames":["JP_tc_glow.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "JP_tc_glow",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "tB7gUXHRsMC8JhZuLxv0yXNiZ8o",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "glow",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "glow",
+        "bone": "glow",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "glow": {
+          "glow": {
+            "width": 264,
+            "height": 241
+          }
+        }
+      }
+    },
+    "animations": {
+      "glow": {
+        "slots": {
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "glow": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": 180
+              },
+              {
+                "time": 4,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 4.5,
+                "y": 4.5
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nJP_tc_glow.png\nsize: 512,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nglow\n  rotate: false\n  xy: 2, 2\n  size: 264, 241\n  orig: 264, 241\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "a84wnmLFxIirJsF9wd2mDZ"
+    }
+  ],
+  "textureNames": [
+    "JP_tc_glow.png"
+  ]
+}

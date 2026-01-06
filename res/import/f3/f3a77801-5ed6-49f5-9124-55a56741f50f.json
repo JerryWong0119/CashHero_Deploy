@@ -1,1 +1,337 @@
-{"__type__":"sp.SkeletonData","_name":"zhuanpanxuanzhong","_skeletonJson":{"skeleton":{"hash":"lVUQ/rS6qOFXuyQWes0AEe0iCJs","spine":"3.6.53","width":1060,"height":1560,"images":"../sucai/"},"bones":[{"name":"root"},{"name":"glow","parent":"root"},{"name":"liang","parent":"root","y":-16.88,"scaleX":1.709,"scaleY":1.709},{"name":"liang2","parent":"root","y":-16.88,"scaleX":1.709,"scaleY":1.709},{"name":"quan","parent":"root","x":-1.94,"y":-18.9,"scaleX":0.135,"scaleY":0.135},{"name":"骨骼","parent":"root"}],"slots":[{"name":"224_free_4","bone":"骨骼"},{"name":"liang","bone":"liang","attachment":"storm_flare2b_blue","blend":"additive"},{"name":"liang2","bone":"liang2","attachment":"storm_flare2b_blue","blend":"additive"},{"name":"quan","bone":"quan","attachment":"CmnBG_Eff_Lens01","blend":"additive"},{"name":"glow","bone":"glow","attachment":"glow1","blend":"additive"}],"skins":{"default":{"glow":{"glow1":{"width":128,"height":128}},"liang":{"storm_flare2b_blue":{"width":256,"height":256}},"liang2":{"storm_flare2b_blue":{"width":256,"height":256}},"quan":{"CmnBG_Eff_Lens01":{"width":1024,"height":1024}}}},"animations":{"animation":{"slots":{"glow":{"color":[{"time":0.0667,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.1667,"color":"9300ffff","curve":[0.25,0,0.75,1]},{"time":0.2667,"color":"ffffff00"}],"attachment":[{"time":0,"name":null},{"time":0.0667,"name":"glow1"}]},"liang":{"color":[{"time":0.0667,"color":"00beffff","curve":"stepped"},{"time":0.2667,"color":"00beffff"},{"time":0.4667,"color":"00bdff00"}],"attachment":[{"time":0,"name":null},{"time":0.0667,"name":"storm_flare2b_blue"}]},"liang2":{"color":[{"time":0.0667,"color":"ffffffff","curve":"stepped"},{"time":0.2667,"color":"ffffffff"},{"time":0.4667,"color":"ffffff00"}],"attachment":[{"time":0,"name":null},{"time":0.0667,"name":"storm_flare2b_blue"}]},"quan":{"color":[{"time":0.0667,"color":"00beffff","curve":"stepped"},{"time":0.4,"color":"00beffff"},{"time":0.9,"color":"00bdff00"}],"attachment":[{"time":0,"name":null},{"time":0.0667,"name":"CmnBG_Eff_Lens01"}]}},"bones":{"quan":{"scale":[{"time":0.0667,"x":0.708,"y":0.708},{"time":0.3667,"x":1.013,"y":1.013},{"time":0.9,"x":1.075,"y":1.075}]},"liang":{"scale":[{"time":0.0667,"x":0.382,"y":0.382},{"time":0.2333,"x":1.013,"y":1.013},{"time":0.4667,"x":0.814,"y":0.814}]},"liang2":{"scale":[{"time":0.0667,"x":0.382,"y":0.382},{"time":0.2333,"x":1.013,"y":1.013},{"time":0.4667,"x":0.814,"y":0.814}]},"glow":{"translate":[{"time":0.0667,"x":-1.53,"y":-15.32}],"scale":[{"time":0.0667,"x":1.578,"y":1.578,"curve":[0.25,0,0.75,1]},{"time":0.1667,"x":1.615,"y":1.615,"curve":[0.25,0,0.75,1]},{"time":0.2667,"x":0.052,"y":0.052}]}}}}},"_atlasText":"\nzhuanpanxuanzhong.png\nsize: 2048,2048\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nCmnBG_Eff_Lens01\n  rotate: false\n  xy: 2, 260\n  size: 1024, 1024\n  orig: 1024, 1024\n  offset: 0, 0\n  index: -1\nglow1\n  rotate: false\n  xy: 1028, 1179\n  size: 105, 105\n  orig: 128, 128\n  offset: 12, 11\n  index: -1\nstorm_flare2b_blue\n  rotate: false\n  xy: 2, 2\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"5cikn6VcVNnJq12PZBEU4I"}],"textureNames":["zhuanpanxuanzhong.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "zhuanpanxuanzhong",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "lVUQ/rS6qOFXuyQWes0AEe0iCJs",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../sucai/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "glow",
+        "parent": "root"
+      },
+      {
+        "name": "liang",
+        "parent": "root",
+        "y": -16.88,
+        "scaleX": 1.709,
+        "scaleY": 1.709
+      },
+      {
+        "name": "liang2",
+        "parent": "root",
+        "y": -16.88,
+        "scaleX": 1.709,
+        "scaleY": 1.709
+      },
+      {
+        "name": "quan",
+        "parent": "root",
+        "x": -1.94,
+        "y": -18.9,
+        "scaleX": 0.135,
+        "scaleY": 0.135
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "224_free_4",
+        "bone": "骨骼"
+      },
+      {
+        "name": "liang",
+        "bone": "liang",
+        "attachment": "storm_flare2b_blue",
+        "blend": "additive"
+      },
+      {
+        "name": "liang2",
+        "bone": "liang2",
+        "attachment": "storm_flare2b_blue",
+        "blend": "additive"
+      },
+      {
+        "name": "quan",
+        "bone": "quan",
+        "attachment": "CmnBG_Eff_Lens01",
+        "blend": "additive"
+      },
+      {
+        "name": "glow",
+        "bone": "glow",
+        "attachment": "glow1",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "glow": {
+          "glow1": {
+            "width": 128,
+            "height": 128
+          }
+        },
+        "liang": {
+          "storm_flare2b_blue": {
+            "width": 256,
+            "height": 256
+          }
+        },
+        "liang2": {
+          "storm_flare2b_blue": {
+            "width": 256,
+            "height": 256
+          }
+        },
+        "quan": {
+          "CmnBG_Eff_Lens01": {
+            "width": 1024,
+            "height": 1024
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "glow": {
+            "color": [
+              {
+                "time": 0.0667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "color": "9300ffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "glow1"
+              }
+            ]
+          },
+          "liang": {
+            "color": [
+              {
+                "time": 0.0667,
+                "color": "00beffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2667,
+                "color": "00beffff"
+              },
+              {
+                "time": 0.4667,
+                "color": "00bdff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "storm_flare2b_blue"
+              }
+            ]
+          },
+          "liang2": {
+            "color": [
+              {
+                "time": 0.0667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "storm_flare2b_blue"
+              }
+            ]
+          },
+          "quan": {
+            "color": [
+              {
+                "time": 0.0667,
+                "color": "00beffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "00beffff"
+              },
+              {
+                "time": 0.9,
+                "color": "00bdff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "CmnBG_Eff_Lens01"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "quan": {
+            "scale": [
+              {
+                "time": 0.0667,
+                "x": 0.708,
+                "y": 0.708
+              },
+              {
+                "time": 0.3667,
+                "x": 1.013,
+                "y": 1.013
+              },
+              {
+                "time": 0.9,
+                "x": 1.075,
+                "y": 1.075
+              }
+            ]
+          },
+          "liang": {
+            "scale": [
+              {
+                "time": 0.0667,
+                "x": 0.382,
+                "y": 0.382
+              },
+              {
+                "time": 0.2333,
+                "x": 1.013,
+                "y": 1.013
+              },
+              {
+                "time": 0.4667,
+                "x": 0.814,
+                "y": 0.814
+              }
+            ]
+          },
+          "liang2": {
+            "scale": [
+              {
+                "time": 0.0667,
+                "x": 0.382,
+                "y": 0.382
+              },
+              {
+                "time": 0.2333,
+                "x": 1.013,
+                "y": 1.013
+              },
+              {
+                "time": 0.4667,
+                "x": 0.814,
+                "y": 0.814
+              }
+            ]
+          },
+          "glow": {
+            "translate": [
+              {
+                "time": 0.0667,
+                "x": -1.53,
+                "y": -15.32
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.0667,
+                "x": 1.578,
+                "y": 1.578,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 1.615,
+                "y": 1.615,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 0.052,
+                "y": 0.052
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nzhuanpanxuanzhong.png\nsize: 2048,2048\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nCmnBG_Eff_Lens01\n  rotate: false\n  xy: 2, 260\n  size: 1024, 1024\n  orig: 1024, 1024\n  offset: 0, 0\n  index: -1\nglow1\n  rotate: false\n  xy: 1028, 1179\n  size: 105, 105\n  orig: 128, 128\n  offset: 12, 11\n  index: -1\nstorm_flare2b_blue\n  rotate: false\n  xy: 2, 2\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "5cikn6VcVNnJq12PZBEU4I"
+    }
+  ],
+  "textureNames": [
+    "zhuanpanxuanzhong.png"
+  ]
+}

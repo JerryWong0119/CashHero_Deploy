@@ -1,1 +1,343 @@
-[{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_wheelc_frame2","texture":"b2cUF4aQJFdrn+GRW5/i5X","rect":[2,2,644,96],"offset":[0,1],"originalSize":[648,100],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_sf_frame1","texture":"b2cUF4aQJFdrn+GRW5/i5X","rect":[2,397,566,25],"offset":[0,0],"originalSize":[566,25],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_wheels_frame1","texture":"b2cUF4aQJFdrn+GRW5/i5X","rect":[2,212,554,131],"offset":[0,0],"originalSize":[554,131],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_wheelc_frame1","texture":"b2cUF4aQJFdrn+GRW5/i5X","rect":[2,424,505,63],"offset":[0,0],"originalSize":[505,63],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_wheelc_frame3","texture":"b2cUF4aQJFdrn+GRW5/i5X","rect":[597,100,201,48],"offset":[0,0],"originalSize":[205,50],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteAtlas","_name":"dialog_free_wheel.plist","_spriteFrames":{"theme140_dialog_sf_frame1":{"__uuid__":"43vvIXp7tPDZRB2M0gY+Gx"},"theme140_dialog_sf_frame2":{"__uuid__":"88i/NCVrBIrpp6Q8kP5zbv"},"theme140_dialog_sf_frame4":{"__uuid__":"fad71E3uhHprdiy/ayPwiN"},"theme140_dialog_sf_frame5":{"__uuid__":"c07hIrFPpEY4LEjFqFqIZc"},"theme140_dialog_wheelc_frame1":{"__uuid__":"6cpC3iBVtEmobyWsH9tNtW"},"theme140_dialog_wheelc_frame2":{"__uuid__":"12DnuWVuJM77xrb1VDxJ7c"},"theme140_dialog_wheelc_frame3":{"__uuid__":"87ORu1jOlE4rr28mkR5d8j"},"theme140_dialog_wheelc_frame4":{"__uuid__":"a5WAzhXadE3bURoR/Nw+J1"},"theme140_dialog_wheels_frame1":{"__uuid__":"4f+WlvZGJNDadB58NKDwXd"},"theme140_dialog_wheels_frame2":{"__uuid__":"eaDbntSqlHvpqAJBU6rEc/"},"theme140_dialog_wheels_frame3":{"__uuid__":"cdJbU6szRMY7SXad497VBQ"}}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_sf_frame2","texture":"b2cUF4aQJFdrn+GRW5/i5X","rect":[857,343,91,24],"offset":[0,0],"originalSize":[91,24],"rotated":1,"capInsets":[40,0,40,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_wheelc_frame4","texture":"b2cUF4aQJFdrn+GRW5/i5X","rect":[807,2,490,48],"offset":[0,0],"originalSize":[494,50],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_sf_frame5","texture":"b2cUF4aQJFdrn+GRW5/i5X","rect":[857,2,339,42],"offset":[0,1],"originalSize":[343,44],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_wheels_frame3","texture":"b2cUF4aQJFdrn+GRW5/i5X","rect":[2,345,577,50],"offset":[0,0],"originalSize":[581,52],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_wheels_frame2","texture":"b2cUF4aQJFdrn+GRW5/i5X","rect":[2,100,593,110],"offset":[0,1],"originalSize":[597,112],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_sf_frame4","texture":"b2cUF4aQJFdrn+GRW5/i5X","rect":[648,2,426,157],"offset":[0,1],"originalSize":[430,159],"rotated":1,"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_wheelc_frame2",
+      "texture": "b2cUF4aQJFdrn+GRW5/i5X",
+      "rect": [
+        2,
+        2,
+        644,
+        96
+      ],
+      "offset": [
+        0,
+        1
+      ],
+      "originalSize": [
+        648,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_sf_frame1",
+      "texture": "b2cUF4aQJFdrn+GRW5/i5X",
+      "rect": [
+        2,
+        397,
+        566,
+        25
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        566,
+        25
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_wheels_frame1",
+      "texture": "b2cUF4aQJFdrn+GRW5/i5X",
+      "rect": [
+        2,
+        212,
+        554,
+        131
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        554,
+        131
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_wheelc_frame1",
+      "texture": "b2cUF4aQJFdrn+GRW5/i5X",
+      "rect": [
+        2,
+        424,
+        505,
+        63
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        505,
+        63
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_wheelc_frame3",
+      "texture": "b2cUF4aQJFdrn+GRW5/i5X",
+      "rect": [
+        597,
+        100,
+        201,
+        48
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        205,
+        50
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "dialog_free_wheel.plist",
+    "_spriteFrames": {
+      "theme140_dialog_sf_frame1": {
+        "__uuid__": "43vvIXp7tPDZRB2M0gY+Gx"
+      },
+      "theme140_dialog_sf_frame2": {
+        "__uuid__": "88i/NCVrBIrpp6Q8kP5zbv"
+      },
+      "theme140_dialog_sf_frame4": {
+        "__uuid__": "fad71E3uhHprdiy/ayPwiN"
+      },
+      "theme140_dialog_sf_frame5": {
+        "__uuid__": "c07hIrFPpEY4LEjFqFqIZc"
+      },
+      "theme140_dialog_wheelc_frame1": {
+        "__uuid__": "6cpC3iBVtEmobyWsH9tNtW"
+      },
+      "theme140_dialog_wheelc_frame2": {
+        "__uuid__": "12DnuWVuJM77xrb1VDxJ7c"
+      },
+      "theme140_dialog_wheelc_frame3": {
+        "__uuid__": "87ORu1jOlE4rr28mkR5d8j"
+      },
+      "theme140_dialog_wheelc_frame4": {
+        "__uuid__": "a5WAzhXadE3bURoR/Nw+J1"
+      },
+      "theme140_dialog_wheels_frame1": {
+        "__uuid__": "4f+WlvZGJNDadB58NKDwXd"
+      },
+      "theme140_dialog_wheels_frame2": {
+        "__uuid__": "eaDbntSqlHvpqAJBU6rEc/"
+      },
+      "theme140_dialog_wheels_frame3": {
+        "__uuid__": "cdJbU6szRMY7SXad497VBQ"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_sf_frame2",
+      "texture": "b2cUF4aQJFdrn+GRW5/i5X",
+      "rect": [
+        857,
+        343,
+        91,
+        24
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        91,
+        24
+      ],
+      "rotated": 1,
+      "capInsets": [
+        40,
+        0,
+        40,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_wheelc_frame4",
+      "texture": "b2cUF4aQJFdrn+GRW5/i5X",
+      "rect": [
+        807,
+        2,
+        490,
+        48
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        494,
+        50
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_sf_frame5",
+      "texture": "b2cUF4aQJFdrn+GRW5/i5X",
+      "rect": [
+        857,
+        2,
+        339,
+        42
+      ],
+      "offset": [
+        0,
+        1
+      ],
+      "originalSize": [
+        343,
+        44
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_wheels_frame3",
+      "texture": "b2cUF4aQJFdrn+GRW5/i5X",
+      "rect": [
+        2,
+        345,
+        577,
+        50
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        581,
+        52
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_wheels_frame2",
+      "texture": "b2cUF4aQJFdrn+GRW5/i5X",
+      "rect": [
+        2,
+        100,
+        593,
+        110
+      ],
+      "offset": [
+        0,
+        1
+      ],
+      "originalSize": [
+        597,
+        112
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_sf_frame4",
+      "texture": "b2cUF4aQJFdrn+GRW5/i5X",
+      "rect": [
+        648,
+        2,
+        426,
+        157
+      ],
+      "offset": [
+        0,
+        1
+      ],
+      "originalSize": [
+        430,
+        159
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

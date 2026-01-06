@@ -1,1 +1,3171 @@
-window.__require=function e(t,n,o){function a(s,c){if(!n[s]){if(!t[s]){var r=s.split("/");if(r=r[r.length-1],!t[r]){var l="function"==typeof __require&&__require;if(!c&&l)return l(r,!0);if(i)return i(r,!0);throw new Error("Cannot find module '"+s+"'")}s=r}var d=n[s]={exports:{}};t[s][0].call(d.exports,function(e){return a(t[s][1][e]||e)},d,d.exports,e,t,n,o)}return n[s].exports}for(var i="function"==typeof __require&&__require,s=0;s<o.length;s++)a(o[s]);return a}({DoubleAgent_ButtonSafe:[function(e,t,n){"use strict";cc._RF.push(t,"676fbOVwNdLjYPxiNFGH1YC","DoubleAgent_ButtonSafe"),cc.Class({extends:cc.Component,properties:{safeTime:{default:.5,tooltip:"\u6309\u94ae\u4fdd\u62a4\u65f6\u95f4\uff0c\u6307\u5b9a\u95f4\u9694\u5185\u53ea\u80fd\u70b9\u51fb\u4e00\u6b21."}},onLoad:function(){var e=this.getComponent(cc.Button);e&&(this.clickEvents=e.clickEvents,Global.btnClickEvent(this.node,function(e){e.interactable=!1;var t=cc.vv.gameData.GetSlotsScript();t&&t.scheduleOnce(function(){e.interactable=!0},this.safeTime)},this))}}),cc._RF.pop()},{}],DoubleAgent_Cfg:[function(e,t,n){"use strict";var o;function a(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}cc._RF.push(t,"83606qLAPtL3Z9RT/vQyhBd","DoubleAgent_Cfg");var i={symbol:(o={},a(o,1,{node:"s1",win_node:"w1",win_ani:{name:"animation",zIndex:300}}),a(o,2,{node:"s2",win_node:"w2",win_ani:{name:"animation",zIndex:300},stop_ani:{name:"animation1",zIndex:300},trigger_ani:{name:"animation",zIndex:300}}),a(o,3,{node:"s3",win_node:"w3",win_ani:{name:"animation",zIndex:300}}),a(o,4,{node:"s4",win_node:"w4",win_ani:{name:"animation",zIndex:300}}),a(o,5,{node:"s5",win_node:"w5",win_ani:{name:"animation",zIndex:300}}),a(o,6,{node:"s6",win_node:"w6",win_ani:{name:"animation",zIndex:300}}),a(o,7,{node:"s7",win_node:""}),a(o,8,{node:"s8",win_node:""}),a(o,9,{node:"s9",win_node:""}),a(o,10,{node:"s10",win_node:""}),a(o,11,{node:"s11",win_node:"w11",win_ani:{name:"animation2",zIndex:300},stop_ani:{name:"animation1",zIndex:500}}),a(o,12,{node:"s12",win_node:""}),a(o,13,{node:"s13",win_node:""}),a(o,14,{node:"s14",win_node:""}),a(o,15,{node:"s15",win_node:""}),o),wildId:1,scatterId:2,scripts:{Top:"LMSlots_Top_Base",Bottom:"LMSlots_Bottom_Base",Slots:"DoubleAgent_Slots",Reels:"DoubleAgent_Reel",Symbols:"DoubleAgent_symbol"},col:5,row:4,symbolPrefab:"LMSlots_Symbol",symbolSize:{height:85},helpItems:["games/DoubleAgent/prefab/LMSlots_Help_item1","games/DoubleAgent/prefab/LMSlots_Help_item2","games/DoubleAgent/prefab/LMSlots_Help_item3","games/DoubleAgent/prefab/LMSlots_Help_item4","games/DoubleAgent/prefab/LMSlots_Help_item5"],randomSymbols:[1,3,4,5,6,7,8,9,10],kuang:"kuang",speed:3e3,reelStopInter:.2,auto_stop_time:1,autoModelDelay:1,AddAntiTime:2,bounceInfo:{distance:20,time:.1},reelStateInfo:[{id:[2],mini:3,counts:[1,1,1,1,0],antiNode:"node_anti",path:"games/DoubleAgent/",reelStopSound:"reel_stop",symbolStopSound:"symbol_scatter",antSound:"reel_notify",antSpeed:2400},{id:[11],mini:1,counts:[0,0,0,0,0],antiNode:"node_antiXXX",path:"games/DoubleAgent/",reelStopSound:"reel_stop",symbolStopSound:"symbol_bonus",antSound:"reel_notify",antSpeed:2400}],normalBgm:"base_bgm",sysFloatOffsetPos:cc.v2(0,80)};t.exports=i,cc._RF.pop()},{}],DoubleAgent_CollectGame:[function(e,t,n){"use strict";var o;function a(e,t,n,o,a,i,s){try{var c=e[i](s),r=c.value}catch(e){return void n(e)}c.done?t(r):Promise.resolve(r).then(o,a)}function i(e){return function(){var t=this,n=arguments;return new Promise(function(o,i){var s=e.apply(t,n);function c(e){a(s,o,i,c,r,"next",e)}function r(e){a(s,o,i,c,r,"throw",e)}c(void 0)})}}function s(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}cc._RF.push(t,"e0b64be6IdERItZ1a+Oq/Lq","DoubleAgent_CollectGame");var c=(s(o={},1,{multiple:3}),s(o,2,{multiple:5}),s(o,3,{multiple:7}),s(o,4,{multiple:9}),s(o,5,{multiple:12}),s(o,6,{multiple:20}),s(o,7,{multiple:2}),s(o,8,{multiple:4}),s(o,9,{multiple:6}),s(o,10,{multiple:8}),s(o,11,{multiple:10}),s(o,12,{multiple:15}),s(o,13,{multiple:30}),s(o,14,{multiple:50}),s(o,15,{multiple:60}),s(o,16,{multiple:70}),s(o,17,{multiple:80}),s(o,18,{multiple:90}),s(o,19,{multiple:100}),s(o,20,{multiple:150}),s(o,21,{multiple:200}),s(o,22,{multiple:300}),s(o,23,{multiple:500}),s(o,24,{multiple:750}),s(o,25,{multiple:1e3}),s(o,26,{multiple:1500}),o);cc.Class({extends:cc.Component,properties:{panel:cc.Node,bagListNode:cc.Node,multipleListNode:cc.Node,btnOk:cc.Button,title:cc.Node,guide:cc.Node,pre_offers_node:cc.Node,dialog_result:cc.Node,dialog_result2:cc.Node,dialog_round_tips:cc.Node,tips_have_select:cc.Node,money_bag_selected:cc.Node,money_bag:cc.Node,particle_feixing:cc.ParticleSystem,_bagList:null,_multipleList:null,_callBack:null,_data:null,_multipleChoiceBagCnt:7},onLoad:function(){var e=this;this._bagList=[],this._multipleList=[],this._reset();for(var t=1;t<=this._data.bagCnt;t++){var n=this.bagListNode.getChildByName("take_bag_"+t);n.data={},n.data.id=t,n.active=!1,n.getChildByName("label").getComponent(cc.Label).string=t.toString(),n.on(cc.Node.EventType.TOUCH_END,this._onClickBag.bind(this),this),this._bagList.push(n);var o=this.multipleListNode.getChildByName("take_multiple_"+t);t>13&&o.getChildByName("bg").getComponent("ImgSwitchCmp").setIndex(1),o.getChildByName("label").getComponent(cc.Label).string=c[t].multiple+"X",this._multipleList.push(o)}this.btnOk.node.on("click",function(){e.close()}),this.dialog_result.getChildByName("content").getChildByName("btn_ok").on("click",this._onTakeHandler.bind(this),this),this.dialog_result.getChildByName("content").getChildByName("btn_no").on("click",this._onLeaveItHandler.bind(this),this),this.dialog_result2.getChildByName("content").getChildByName("btn_ok").on("click",this._onKeepHandler.bind(this),this),this.dialog_result2.getChildByName("content").getChildByName("btn_no").on("click",this._onTradeHander.bind(this),this),this.money_bag_selected.data={x:this.money_bag_selected.x,y:this.money_bag_selected.y,scaleX:this.money_bag_selected.scaleX,scaleY:this.money_bag_selected.scaleY}},_reset:function(){this._data={bagCnt:26,bagState:0,firstBagId:0,selectedIds:[],curSelectedIds:[],currRoundSelectedCnt:0},this._setTitleState(0),this.pre_offers_node.active=!1,this.dialog_result.active=!1,this.dialog_round_tips.active=!1,this.tips_have_select.active=!1,this.money_bag_selected.active=!1,this.money_bag.active=!1,this.particle_feixing.node.active=!1;for(var e=1;e<=this._data.bagCnt;e++){this.bagListNode.getChildByName("take_bag_"+e).active=!1}},close:function(){var e=this;SlotsFacade.soundMgr.playEffect("bonus_close"),SlotsFacade.dm.hasFree()?SlotsFacade.soundMgr.playBgm("free_bgm"):SlotsFacade.soundMgr.playBgm(),this.panel.stopAllActions(),this.panel.runAction(cc.sequence(cc.fadeOut(.3),cc.callFunc(function(){e.panel.active=!1}))),this._callBack&&this._callBack()},reConnectCollect:function(e){var t=this;return i(regeneratorRuntime.mark(function n(){var o,a,i;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:for(t.btnOk.node.active=!1,o=e.currState.state,SlotsFacade.soundMgr.playBgm("bonus_bgm"),t.guide.active=!1,t.pre_offers_node.active=!0,t.panel.active=!0,t.title.active=!1,e.currState.nextCount?(t.tips_have_select.active=!0,t.tips_have_select.getChildByName("label").getComponent(cc.Label).string="0/"+e.currState.nextCount):t._setTitleState(1),a=0;a<t._data.bagCnt;a++)e.choices.includes(a+1)||(t._bagList[a].active=!0);for(t.reConnectChoiceGray(e.unpickedMult),i=0;i<e.historyMult.length;i++)t._showMultToOffers(e.historyMult[i],i+1);e.lastChoice.length>0&&(t.money_bag_selected.active=!0,cc.find("bag1/label",t.money_bag_selected).getComponent(cc.Label).string=e.lastChoice[0]),t._multipleChoiceBagCnt=e.currState.nextCount,t._data.selectedIds=e.choices,1==o?t._data.bagState=1:(t._data.bagState=2,3==o?t._showBagResult(e):4==o&&(t._lastchoices=e.lastChoice,t.showLastChoiceUI(t._lastchoices)));case 15:case"end":return n.stop()}},n)}))()},reConnectChoiceGray:function(e){var t=this;this.initShowMultipleIcon(!0),e.forEach(function(e){var n=t.getTakemultipleItem(e),o=cc.find(cc.js.formatStr("take_multiple_%s/bg",n),t.multipleListNode),a=cc.find(cc.js.formatStr("take_multiple_%s/label",n),t.multipleListNode);o.color=cc.color(255,255,255),a.color=cc.color(255,255,255)})},open:function(e,t){var n=this;return i(regeneratorRuntime.mark(function o(){return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:if(n._callBack=t,n.btnOk.node.active=e,n.panel.active=!0,n.panel.opacity=0,n.panel.runAction(cc.fadeIn(.3)),n._showBagList(),n.initShowMultipleIcon(!0),n.guide.active=!0,e){o.next=12;break}return o.next=11,n._cmpleteBag();case 11:SlotsFacade.dm.getFreeBagInfo().currCnt==n._data.bagCnt?(n.initShowMultipleIcon(!1),n._startTakeBonus()):n.close();case 12:case"end":return o.stop()}},o)}))()},initShowMultipleIcon:function(e){for(var t=1;t<=this._data.bagCnt;t++){var n=cc.find(cc.js.formatStr("take_multiple_%s/bg",t),this.multipleListNode),o=cc.find(cc.js.formatStr("take_multiple_%s/label",t),this.multipleListNode);e?(n.color=cc.color(90,90,90),o.color=cc.color(90,90,90)):(n.color=cc.color(255,255,255),o.color=cc.color(255,255,255))}},_showBagList:function(){for(var e=SlotsFacade.dm.getFreeBagInfo().currCnt,t=0;t<e;t++)this._bagList[t].active=!0},_cmpleteBag:function(){var e=this;return i(regeneratorRuntime.mark(function t(){var n,o,a;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return(n=SlotsFacade.dm.getFreeBagInfo()).currCnt+=1,n.currCnt>e._data.bagCnt&&(n.currCnt=e._data.bagCnt),o=n.currCnt-1,a=e._bagList[o],t.next=7,new Promise(function(t){cc.tween(e.node).delay(.5).call(function(){a.active=!0;var t=e.bagListNode.getChildByName("qiandaichuxian").getComponent(sp.Skeleton);t.node.x=a.x,t.node.y=a.y,t.node.active=!0,t.setAnimation(0,"animation",!1),t.setCompleteListener(function(){t.setCompleteListener(null),t.node.active=!1})}).delay(1.5).call(function(){t()}).start()});case 7:case"end":return t.stop()}},t)}))()},_setTitleState:function(e){this.title.active=!0,1==e?(this.title.getComponent("ImgSwitchCmp").setIndex(1),cc.tween(this.title).repeatForever(cc.tween().to(.8,{scale:.8}).to(.8,{scale:1})).start()):(this.title.getComponent("ImgSwitchCmp").setIndex(0),this.title.stopAllActions(),this.title.scale=1)},_startTakeBonus:function(){SlotsFacade.soundMgr.playBgm("bonus_bgm"),this.guide.active=!1,this.pre_offers_node.active=!0,this._setTitleState(1),this._data.bagState=1},_onClickBag:function(e){SlotsFacade.soundMgr.playEffect("bag_click"),0!=this._data.bagState&&(1==this._data.bagState?(this._data.bagState=0,this._selectBag(e.target),this._setTitleState(0)):2==this._data.bagState&&this._selectMultipleBag(e.target))},_selectBag:function(e){var t=this;return i(regeneratorRuntime.mark(function n(){var o,a,i,s,c,r;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return SlotsFacade.soundMgr.playEffect("bag_fly"),t._data.firstBagId=e.data.id,t._data.selectedIds.push(t._data.firstBagId),(o=e.getChildByName("xuanzeqiandai").getComponent(sp.Skeleton)).node.active=!0,n.next=7,new Promise(function(t){o.setAnimation(0,"animation",!1),o.setCompleteListener(function(){o.setCompleteListener(null),o.node.active=!1,e.active=!1,t()})});case 7:return a=t.panel.convertToNodeSpaceAR(e.convertToWorldSpaceAR(cc.v2(0,0))),t.particle_feixing.node.active=!0,t.particle_feixing.node.x=a.x,t.particle_feixing.node.y=a.y,i={x:t.money_bag_selected.data.x,y:t.money_bag_selected.data.y},s={x:a.x+(i.x-a.x)/2,y:a.y+(i.y-a.y)/2},n.next=15,new Promise(function(e){cc.tween(t.particle_feixing.node).to(.8,{x:s.x,y:s.y}).call(function(){t.particle_feixing.node.active=!1,e()}).start()});case 15:return t.money_bag_selected.active=!0,t.money_bag_selected.scale=1,t.money_bag_selected.x=s.x,t.money_bag_selected.y=s.y,cc.find("bag1/label",t.money_bag_selected).getComponent(cc.Label).string=t._data.firstBagId.toString(),(c=t.money_bag_selected.getChildByName("qiandaishouji").getComponent(sp.Skeleton)).node.active=!0,c.setAnimation(0,"animation",!1),c.setCompleteListener(function(){c.setCompleteListener(null),c.node.active=!1}),n.next=26,new Promise(function(e){cc.tween(t.money_bag_selected).to(1,{x:i.x,y:i.y,scaleX:t.money_bag_selected.data.scaleX,scaleY:t.money_bag_selected.data.scaleY}).call(function(){e()}).start()});case 26:return n.next=28,SlotsFacade.dm.reqSubGame({rtype:3,act:1,choices:[e.data.id]});case 28:r=n.sent,t._startSelectMultipleBag(r.data);case 30:case"end":return n.stop()}},n)}))()},_startSelectMultipleBag:function(e){var t=this;return i(regeneratorRuntime.mark(function n(){return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return t._data.curSelectedIds=[],t._multipleChoiceBagCnt=e.nextCount,t.dialog_round_tips.active=!0,t.dialog_round_tips.scale=0,t.dialog_round_tips.getChildByName("label_1").getComponent(cc.Label).string=e.nextRound,t.dialog_round_tips.getChildByName("label_2").getComponent(cc.Label).string=e.nextCount,n.next=8,new Promise(function(e){cc.tween(t.dialog_round_tips).to(1,{scale:1},{easing:"backOut"}).delay(1.5).to(.5,{scale:0},{easing:"backIn"}).call(function(){t.dialog_round_tips.active=!1,e()}).start()});case 8:t.title.active=!1,t.tips_have_select.active=!0,t.tips_have_select.getChildByName("label").getComponent(cc.Label).string="0/"+t._multipleChoiceBagCnt,t._data.bagState=2;case 12:case"end":return n.stop()}},n)}))()},_selectMultipleBag:function(e){var t=this,n=e.data.id;if(!this._data.selectedIds.includes(n)){this._data.selectedIds.push(n),this._data.curSelectedIds.push(n),this._data.currRoundSelectedCnt++,this.tips_have_select.getChildByName("label").getComponent(cc.Label).string=this._data.currRoundSelectedCnt+"/"+this._multipleChoiceBagCnt;var o=e.getChildByName("xuanzeqiandai").getComponent(sp.Skeleton);o.node.active=!0,o.setAnimation(0,"animation",!1),this._data.currRoundSelectedCnt==this._multipleChoiceBagCnt&&(this._data.bagState=0,this.scheduleOnce(function(){t._processResult()},.5))}},_processResult:function(){var e=this;return i(regeneratorRuntime.mark(function t(){var n;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return e.tips_have_select.active=!1,e._setTitleState(0),t.next=4,SlotsFacade.dm.reqSubGame({rtype:3,act:2,choices:e._data.curSelectedIds});case 4:n=t.sent,e.playChoiceResult(n.data);case 6:case"end":return t.stop()}},t)}))()},playChoiceResult:function(e){var t=this;return i(regeneratorRuntime.mark(function n(){var o,a,i,s,c,r;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:t.money_bag.active=!0,o=cc.find("shownode",t.money_bag),a=cc.find("shownode/bag1",t.money_bag),i=cc.find("shownode/bag2",t.money_bag),s=0,c=t,r=e.items,function t(){if(s>=c._multipleChoiceBagCnt)c.money_bag.active=!1,c._showBagResult(e.freeBags);else{var n=c._data.curSelectedIds[s];c.hideChoiceMoneyBag(n),o.opacity=0,o.runAction(cc.fadeIn(.2)),a.active=!0,a.scale=0,cc.find("label",a).getComponent(cc.Label).string=n,cc.tween(a).to(.5,{scale:1},{easing:"backOut"}).delay(1).call(function(){i.active=!0,a.active=!1;var e=cc.find("qiandaifanbei",i);SlotsFacade.dm.playSpine(e,"animation",!1,function(){e.active=!1});var n=r[s],l=n.length>1?n[1]:n[0],d=cc.find("label",i);d.scale=0,d.getComponent(cc.Label).string=l+"X",cc.tween(d).to(.5,{scale:1},{easing:"backOut"}).call(function(){1==n.length&&c.hideOutMult(l)}).delay(2).call(function(){if(l=n[0],n.length>1){c.hideOutMult(l),d.getComponent(cc.Label).string=l+"X";var e=cc.find("shuzhiqiehuan",i);SlotsFacade.dm.playSpine(e,"animation",!1,function(){o.runAction(cc.sequence(cc.delayTime(2),cc.fadeOut(.5),cc.callFunc(function(){s++,i.active=!1,t()})))})}else o.runAction(cc.sequence(cc.fadeOut(.5),cc.callFunc(function(){s++,i.active=!1,t()})))}).start()}).start()}}();case 9:case"end":return n.stop()}},n)}))()},getTakemultipleItem:function(e){for(var t=1;t<=this._data.bagCnt;t++)if(c[t].multiple==e)return t},hideOutMult:function(e){var t=this.getTakemultipleItem(e);if(t){var n=cc.find(cc.js.formatStr("take_multiple_%s/bg",t),this.multipleListNode),o=cc.find(cc.js.formatStr("take_multiple_%s/label",t),this.multipleListNode),a=cc.find(cc.js.formatStr("take_multiple_%s/beishuqubianhui",t),this.multipleListNode);n.color=cc.color(90,90,90),o.color=cc.color(90,90,90),SlotsFacade.dm.playSpine(a,"animation",!1)}else cc.error("###\u500d\u7387\u6ca1\u627e\u5230:"+e)},hideChoiceMoneyBag:function(e){var t=this.bagListNode.getChildByName("take_bag_"+e);t.getChildByName("xuanzeqiandai").active=!1,t.active=!1},_showBagResult:function(e){var t=this;return i(regeneratorRuntime.mark(function n(){var o,a,i,s;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:SlotsFacade.soundMgr.playEffect("board_show"),t.dialog_result.active=!0,(o=t.dialog_result.getChildByName("content")).active=!1,o.getChildByName("label_1").getComponent(cc.Label).string=e.mult+"X",a=Global.convertNumToShort(e.prize,1e3,0),i=Global.convertNumToShort(e.prize*e.mult,1e3,0),o.getChildByName("label_2").getComponent(cc.Label).string=cc.js.formatStr("%s X %s = %s",e.mult,a,i),(s=t.dialog_result.getChildByName("tips_node")).active=!0,s.scale=0,cc.tween(s.getChildByName("tips")).repeatForever(cc.tween().to(.8,{scale:.8}).to(.8,{scale:1})).start(),cc.tween(s).to(.5,{scale:1.26},{easing:"backOut"}).call(function(){o.active=!0}).delay(2).to(.5,{scale:0},{easing:"backIn"}).call(function(){s.active=!1}).start();case 13:case"end":return n.stop()}},n)}))()},_showMultToOffers:function(e,t){var n=cc.find(cc.js.formatStr("getmult/multshow_%s",t),this.pre_offers_node);n.getComponent(cc.Label).string=e+"X",n.scale=0,cc.tween(n).to(.3,{scale:1},{easing:"backOut"}).start()},_onTakeHandler:function(){var e=this;return i(regeneratorRuntime.mark(function t(){var n;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return SlotsFacade.soundMgr.playEffect("bonus_end_show"),t.next=3,SlotsFacade.dm.reqSubGame({rtype:3,act:3,takeIt:!0});case 3:return n=t.sent,t.next=6,SlotsFacade.popup.showCollectWinGold(n.data);case 6:SlotsFacade.dm.getFreeBagInfo().currCnt=0,e._reset(),e.close();case 9:case"end":return t.stop()}},t)}))()},_onLeaveItHandler:function(){var e=this;return i(regeneratorRuntime.mark(function t(){var n,o;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,SlotsFacade.dm.reqSubGame({rtype:3,act:3,takeIt:!1});case 2:n=t.sent,4==(o=n.data.freeBags).currState.state?(e._lastchoices=o.lastChoice,e.showLastChoiceUI(e._lastchoices)):e._startSelectMultipleBag(n.data),e._showMultToOffers(o.mult,o.historyMult.length),e._data.currRoundSelectedCnt=0,e.dialog_result.active=!1;case 8:case"end":return t.stop()}},t)}))()},_onKeepHandler:function(){var e=this;return i(regeneratorRuntime.mark(function t(){var n;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,SlotsFacade.dm.reqSubGame({rtype:3,act:4,keep:!0});case 2:return n=t.sent,t.next=5,e._showSingleMoneybag(n.data,e._lastchoices[0]);case 5:return t.next=7,SlotsFacade.popup.showCollectWinGold(n.data);case 7:SlotsFacade.dm.getFreeBagInfo().currCnt=0,e._reset(),e.close();case 10:case"end":return t.stop()}},t)}))()},_onTradeHander:function(){var e=this;return i(regeneratorRuntime.mark(function t(){var n;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,SlotsFacade.dm.reqSubGame({rtype:3,act:4,keep:!1});case 2:return n=t.sent,t.next=5,e._showSingleMoneybag(n.data,e._lastchoices[1]);case 5:return t.next=7,SlotsFacade.popup.showCollectWinGold(n.data);case 7:SlotsFacade.dm.getFreeBagInfo().currCnt=0,e._reset(),e.close();case 10:case"end":return t.stop()}},t)}))()},_showSingleMoneybag:function(e,t){var n=this;return i(regeneratorRuntime.mark(function o(){return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:return o.abrupt("return",new Promise(function(o){var a=cc.find("panel/money_bag2",n.node);a.active=!0;var i=cc.find("shownode",a),s=cc.find("shownode/bag1",a),c=cc.find("shownode/bag2",a);s.active=!0,i.scale=0,cc.find("label",s).getComponent(cc.Label).string=t,cc.tween(i).to(.5,{scale:1},{easing:"backOut"}).delay(1).call(function(){c.active=!0,s.active=!1;var t=cc.find("qiandaifanbei",c);SlotsFacade.dm.playSpine(t,"animation",!1,function(){t.active=!1});var i=cc.find("label",c);i.scale=0,i.getComponent(cc.Label).string=e.mult+"X",cc.tween(i).to(.5,{scale:1},{easing:"backOut"}).delay(2).call(function(){n.dialog_result2.active=!1,a.active=!1,o()}).start()}).start()}));case 1:case"end":return o.stop()}},o)}))()},showLastChoiceUI:function(e){cc.find("content/theme159_take_dialog5/label",this.dialog_result2).getComponent(cc.Label).string=e[0],cc.find("content/theme159_take_dialog4/label",this.dialog_result2).getComponent(cc.Label).string=e[1],this.dialog_result2.active=!0}}),cc._RF.pop()},{}],DoubleAgent_CollectProgress:[function(e,t,n){"use strict";function o(e,t,n,o,a,i,s){try{var c=e[i](s),r=c.value}catch(e){return void n(e)}c.done?t(r):Promise.resolve(r).then(o,a)}function a(e){return function(){var t=this,n=arguments;return new Promise(function(a,i){var s=e.apply(t,n);function c(e){o(s,a,i,c,r,"next",e)}function r(e){o(s,a,i,c,r,"throw",e)}c(void 0)})}}cc._RF.push(t,"9e3b3nGNW9N3p1ii8X/yith","DoubleAgent_CollectProgress"),cc.Class({extends:cc.Component,properties:{icon_energy:cc.Node,btn_enter:cc.Node,progressBar:cc.Node,spine_switch_tips:sp.Skeleton,spine_full:sp.Skeleton,collect_track_particle:cc.Node,unlock_tips:cc.Node,_isOpen:!1},onLoad:function(){this._initListener(),this._init()},_initListener:function(){var e=this;Global.registerEvent(cc.vv.gameData._EventId.SLOT_TOTALBET_UPDATED,function(){e.showCollect(!1)},this),this.btn_enter.on(cc.Node.EventType.TOUCH_END,this._onEnterHandler.bind(this),this),this.progressBar.on(cc.Node.EventType.TOUCH_END,function(){e._isOpen||e._showTips(!0)},this)},_init:function(){this.setProgress(SlotsFacade.dm.getCollectPercent()),this.showCollect(!0)},_onEnterHandler:function(){SlotsFacade.dm.hasFree()||SlotsFacade.bottomCmp.GetSpinBtnState()&&(SlotsFacade.soundMgr.playEffect("btn_click"),SlotsFacade.bottomCmp.ShowBtnsByState("moveing_1"),SlotsFacade.collectGame.open(!0,function(){SlotsFacade.bottomCmp.ShowBtnsByState("idle")}))},_showTips:function(e){var t=this;SlotsFacade.soundMgr.playEffect("tips"),this.unlock_tips.active&&this.unlock_tips.stopAllActions(),e?(this.unlock_tips.active=!0,this.unlock_tips.opacity=0,cc.tween(this.unlock_tips).to(1,{opacity:255}).delay(3).to(1,{opacity:0}).call(function(){t.unlock_tips.active=!1}).start()):this.unlock_tips.active&&cc.tween(this.unlock_tips).to(1,{opacity:0}).call(function(){t.unlock_tips.active=!1}).start()},collectEnergy:function(e,t){var n=this;return a(regeneratorRuntime.mark(function o(){var a,i;return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:return a=n.icon_energy.getPosition(),i=[],e.forEach(function(e){var t=n.node.convertToNodeSpaceAR(e),o=cc.instantiate(n.collect_track_particle);o.parent=n.node,o.x=t.x,o.y=t.y,o.active=!0,o.getComponent(cc.ParticleSystem).resetSystem(),i.push(new Promise(function(e){cc.tween(o).to(.5,{x:a.x,y:a.y}).call(function(){o.removeFromParent(),e()}).start()}))}),SlotsFacade.soundMgr.playEffect("collect"),o.next=6,Promise.all(i);case 6:n.playCollectSpine(),n.setProgress(t,!0);case 8:case"end":return o.stop()}},o)}))()},playCollectSpine:function(){var e=cc.find("collectsp",this.icon_energy);SlotsFacade.dm.playSpine(e,"animation",!1,null)},showCollect:function(e){var t=SlotsFacade.dm.canCollect();t?this._isOpen||(e?this.spine_switch_tips.node.active=!1:(SlotsFacade.soundMgr.playEffect("unlock"),this.spine_switch_tips.setAnimation(0,"animation1",!1))):(this.spine_switch_tips.node.active=!0,e?this.spine_switch_tips.setAnimation(0,"animation3",!0):this._isOpen&&(SlotsFacade.soundMgr.playEffect("lock"),this.spine_switch_tips.setAnimation(0,"animation2",!1))),this._isOpen=t},playCollectEnd:function(){var e=this;return new Promise(function(t){SlotsFacade.soundMgr.playEffect("free_dialog_collect_show"),e.spine_collect_end.node.active=!0,e.spine_collect_end.setAnimation(0,"animation1",!1),e.spine_collect_end.setCompleteListener(function(){e.spine_collect_end.setCompleteListener(null),e.spine_collect_end.node.active=!1,t()})})},setProgress:function(e,t){e=Math.min(1,e);var n=this.progressBar.width,o=this.progressBar.getChildByName("spine_progress"),a=-n/2+e*n;t?cc.tween(o).to(.5,{x:a}).start():o.x=-n/2+e*n},showEnterCollectGameAni:function(){var e=this;return a(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return e.spine_full.node.active=!0,t.next=3,new Promise(function(t){e.spine_full.setAnimation(0,"animation",!1),e.spine_full.setCompleteListener(function(){e.spine_full.setCompleteListener(null),e.spine_full.node.active=!1,t()})});case 3:return t.next=5,new Promise(function(t){var n=e.btn_enter.getComponent(sp.Skeleton);n.setAnimation(0,"animation2",!1),n.setCompleteListener(function(){n.setCompleteListener(null),n.setAnimation(0,"animation1",!1),t()})});case 5:case"end":return t.stop()}},t)}))()}}),cc._RF.pop()},{}],DoubleAgent_ExtraWildGame:[function(e,t,n){"use strict";function o(e,t,n,o,a,i,s){try{var c=e[i](s),r=c.value}catch(e){return void n(e)}c.done?t(r):Promise.resolve(r).then(o,a)}function a(e){return function(){var t=this,n=arguments;return new Promise(function(a,i){var s=e.apply(t,n);function c(e){o(s,a,i,c,r,"next",e)}function r(e){o(s,a,i,c,r,"throw",e)}c(void 0)})}}cc._RF.push(t,"ffa26iyG9NKjo2GyHv4Kiss","DoubleAgent_ExtraWildGame"),cc.Class({extends:cc.Component,properties:{colWildItems:[cc.Node],jinbizhongjiang1:sp.Skeleton,jinbizhongjiang2:sp.Skeleton,xialuo:sp.Skeleton},onLoad:function(){this.colWildItems.forEach(function(e,t){for(var n=0;n<=4;n++){var o=e.getChildByName("xialuo_zengjia_0"+n);o.data={originX:o.x,originY:o.y}}})},startFallWild:function(e){var t=this;return a(regeneratorRuntime.mark(function n(){var o,a;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:if(e&&!(e.length<1)){n.next=2;break}return n.abrupt("return");case 2:o=0,e.forEach(function(e){o=Math.max(o,e.length)}),a=0;case 5:if(!(a<o)){n.next=12;break}if(t._stopFall){n.next=9;break}return n.next=9,t._fallARound(a+1,e);case 9:a++,n.next=5;break;case 12:t._stopFall=!1;case 13:case"end":return n.stop()}},n)}))()},showZengjiaWild:function(e){var t=this;if(e&&!(e.length<1)){var n=0;this._stopFall=!0,e.forEach(function(e){var o=e.length;if(o>0){var a=t.colWildItems[n];a.getChildByName("xialuo_01").active=!1,a.getChildByName("xialuo_xunhuan_01").active=!1;var i=a.getChildByName("particle_feixing");i.stopAllActions(),i.getComponent(cc.ParticleSystem).resetSystem(),i.active=!1;for(var s=0;s<o;s++){var c=a.getChildByName("xialuo_zengjia_0"+s);c.cleanup(),c.stopAllActions(),c.active=!0,c.scale=1;var r=c.getComponent(sp.Skeleton),l=r.node.data;r.node.setPosition(l.originX,l.originY)}}n++})}},hideWilds:function(){this.jinbizhongjiang2.node.active=!1;for(var e=0,t=0;t<5;t++){var n=this.colWildItems[t];n.getChildByName("xialuo_01").active=!1,n.getChildByName("particle_feixing").active=!1,n.getChildByName("xialuo_xunhuan_01").active=!1,n.getChildByName("xialuo_zongjiang_01").active=!1;for(var o=0,a=function(e){var t=n.getChildByName("xialuo_zengjia_0"+e);t.active&&(cc.tween(t).delay(o).to(.2,{scale:0}).call(function(){t.active=!1}).start(),o+=.2)},i=4;i>=0;i--)a(i);o>e&&(e=o)}return e},_fallARound:function(e,t){var n=this;return a(regeneratorRuntime.mark(function o(){var a,i;return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:for(SlotsFacade.soundMgr.playEffect("coin_drop"),a=[],i=0;i<t.length;i++)t[i].length>=e&&a.push(n._playATrace(e,i));if(!a.length){o.next=6;break}return o.next=6,Promise.all(a);case 6:case"end":return o.stop()}},o)}))()},_playATrace:function(e,t,n){var o=this;return a(regeneratorRuntime.mark(function a(){var i,s,c,r,l,d;return regeneratorRuntime.wrap(function(a){for(;;)switch(a.prev=a.next){case 0:return i=o.colWildItems[t],n||(n=i.getChildByName("pos_start").getPosition()),(s=i.getChildByName("xialuo_zengjia_0"+(e-1)).getComponent(sp.Skeleton)).node.setPosition(n.x,n.y),s.node.scale=1,s.node.active=!0,r=(c="animation"+(t+1))+"_"+(t+1),e>1&&(c="animation1_2",r="animation1_1"),s.setAnimation(0,c,!1),s.setCompleteListener(function(){s.setCompleteListener(null),s.setAnimation(0,r,!1)}),l=s.node.data,cc.tween(s.node).to(.8,{x:l.originX,y:l.originY},{easing:"cubicIn"}).call(function(){var e=i.getChildByName("xialuo_01").getComponent(sp.Skeleton);e.node.setPosition(l.originX,l.originY),e.node.active=!0,e.setAnimation(0,"animation",!1),e.setCompleteListener(function(){e.setCompleteListener(null);var t=i.getChildByName("xialuo_xunhuan_01").getComponent(sp.Skeleton);t.node.active=!0,t.setAnimation(0,"animation",!0)})}).start(),(d=i.getChildByName("particle_feixing")).setPosition(n.x,n.y),d.active=!0,d.stopAllActions(),d.getComponent(cc.ParticleSystem).resetSystem(),cc.tween(d).to(.8,{x:0,y:0},{easing:"cubicIn"}).call(function(){d.active=!1}).start(),a.next=21,SlotsFacade.delayTime(.81);case 21:case"end":return a.stop()}},a)}))()},fillWilds:function(){var e=this;return a(regeneratorRuntime.mark(function t(){var n,o,a;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(n=SlotsFacade.dm.getBoxIndex(),o=null,!(n>0)){t.next=7;break}return a=SlotsFacade.slots.GetSymbolByIdx(n),o=a.node.getChildByName("w11").getComponent(sp.Skeleton),t.next=7,e._fillWildsPuzzle(o);case 7:if(!SlotsFacade.dm.isCompletePuzzelWild()){t.next=15;break}return t.next=10,e._showPrePuzzelGame();case 10:return t.next=12,e._releasePuzzleWilds();case 12:return e.colWildItems.forEach(function(e){e.getChildByName("xialuo_zongjiang_01").active=!1}),t.next=15,e._releaseBoxWilds(o);case 15:case"end":return t.stop()}},t)}))()},_showPrePuzzelGame:function(){var e=this;return a(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return e.jinbizhongjiang1.node.active=!0,e.jinbizhongjiang1.setAnimation(0,"animation",!1),e.jinbizhongjiang1.setCompleteListener(function(){e.jinbizhongjiang1.setCompleteListener(null),e.jinbizhongjiang2.node.active=!0,e.jinbizhongjiang2.setAnimation(0,"animation",!0),e.colWildItems.forEach(function(e){var t=e.getChildByName("xialuo_zongjiang_01").getComponent(sp.Skeleton);t.node.active=!0,t.setAnimation(0,"animation",!0)})}),t.next=5,SlotsFacade.delayTime(1.5);case 5:case"end":return t.stop()}},t)}))()},_fillWildsPuzzle:function(e){var t=this;return a(regeneratorRuntime.mark(function n(){var o,a,i,s,c;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:if(!((o=SlotsFacade.dm.getLackPuzzleWildCols()).length<1)){n.next=3;break}return n.abrupt("return");case 3:for(SlotsFacade.soundMgr.playEffect("vault_coin"),a=e.node.convertToWorldSpaceAR(cc.v2(0,0)),e.node.active=!0,e.setAnimation(0,"animation",!1),SlotsFacade.delayTime(.5),i=0;i<o.length;i++)s=t.colWildItems[o[i]],c=s.convertToNodeSpaceAR(a),e.setAnimation(0,"animation3",!1),t._playATrace(1,o[i],c);return n.next=11,SlotsFacade.delayTime(1);case 11:case"end":return n.stop()}},n)}))()},_releasePuzzleWilds:function(){var e=this;return a(regeneratorRuntime.mark(function t(){var n,o,a;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(n=0,(o=SlotsFacade.dm.getSpinData().randomData.fallWilds).forEach(function(e){n=Math.max(n,e.length)}),!(n>0)){t.next=6;break}return t.next=6,SlotsFacade.delayTime(.5);case 6:a=n;case 7:if(!(a>0)){t.next=13;break}return t.next=10,e._releaseARound(a,o);case 10:a--,t.next=7;break;case 13:case"end":return t.stop()}},t)}))()},_releaseARound:function(e,t){var n=this;return a(regeneratorRuntime.mark(function o(){var a,i;return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:for(SlotsFacade.soundMgr.playEffect("coin_fly"),a=[],i=0;i<t.length;i++)t[i].length>=e&&a.push(n._releaseATrace(e,i,t[i][e-1]));if(!a.length){o.next=6;break}return o.next=6,Promise.all(a);case 6:case"end":return o.stop()}},o)}))()},_releaseATrace:function(e,t,n){var o=this;return a(regeneratorRuntime.mark(function a(){var i,s,c,r;return regeneratorRuntime.wrap(function(a){for(;;)switch(a.prev=a.next){case 0:return i=o.colWildItems[t],(s=i.getChildByName("xialuo_zengjia_0"+e).getComponent(sp.Skeleton)).setAnimation(0,"animation1",!1),c=SlotsFacade.slots.GetSymbolByIdx(n),r=i.convertToNodeSpaceAR(c.node.convertToWorldSpaceAR(cc.v2(0,0))),cc.tween(s.node).to(1,{x:r.x,y:r.y}).call(function(){s.node.active=!1,c.addWild()}).start(),a.next=8,SlotsFacade.delayTime(1.01);case 8:case"end":return a.stop()}},a)}))()},_releaseBoxWilds:function(e){var t=this;return a(regeneratorRuntime.mark(function n(){var o,a;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:t._stopFall=!1,o=SlotsFacade.dm.getSpinData().randomData.bankWilds,SlotsFacade.delayTime(.5),a=0;case 4:if(!(a<o.length)){n.next=10;break}return n.next=7,t._releaseABoxTrace([o[a]],e);case 7:a++,n.next=4;break;case 10:case"end":return n.stop()}},n)}))()},_releaseABoxTrace:function(e,t){var n=this;return a(regeneratorRuntime.mark(function o(){var a,i,s,c;return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:return SlotsFacade.soundMgr.playEffect("coin_fly"),t.setAnimation(0,"animation3",!1),a=SlotsFacade.slots.GetSymbolByIdx(e),i=n.node.convertToNodeSpaceAR(a.node.convertToWorldSpaceAR(cc.v2(0,0))),s=n.xialuo.node.parent.convertToNodeSpaceAR(t.node.convertToWorldSpaceAR(cc.v2(0,0))),(c=n.xialuo).node.active=!0,c.node.x=s.x,c.node.y=s.y,cc.tween(c.node).to(.9,{x:i.x,y:i.y}).start(),o.next=12,new Promise(function(e){c.setAnimation(0,"animation1",!1),c.setCompleteListener(function(){c.setCompleteListener(null),c.node.active=!1,a.addWild(),e()})});case 12:case"end":return o.stop()}},o)}))()}}),cc._RF.pop()},{}],DoubleAgent_FlowCtrl:[function(e,t,n){"use strict";function o(e,t,n,o,a,i,s){try{var c=e[i](s),r=c.value}catch(e){return void n(e)}c.done?t(r):Promise.resolve(r).then(o,a)}function a(e){return function(){var t=this,n=arguments;return new Promise(function(a,i){var s=e.apply(t,n);function c(e){o(s,a,i,c,r,"next",e)}function r(e){o(s,a,i,c,r,"throw",e)}c(void 0)})}}cc._RF.push(t,"967f8IqTHhKu6DBAZbW6Xoj","DoubleAgent_FlowCtrl"),cc.Class({extends:cc.Component,enterRoom:function(){var e=SlotsFacade.dm.getFreeBagInfo();if(e&&e.currState.state>0)return SlotsFacade.topCmp.SetBackLobby(!1),SlotsFacade.bottomCmp.ShowBtnsByState("moveing_1"),void SlotsFacade.collectGame.reConnectCollect(e);var t=cc.vv.gameData.GetTotalFree(),n=cc.vv.gameData.GetFreeTime();if(n>0){SlotsFacade.bottomCmp.ShowFreeModel(!0,t-n,t);var o=cc.vv.gameData.GetTotalFreeWin();SlotsFacade.bottomCmp.SetWin(o),this.enterFreeGame()}SlotsFacade.slots.CanDoNextRound()},onMsgSpine:function(e){return a(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:case"end":return e.stop()}},e)}))()},spinEnd:function(){var e=this;return a(regeneratorRuntime.mark(function t(){var n,o;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,e.collectEnergy();case 2:return t.next=4,SlotsFacade.extraWildCmp.fillWilds();case 4:return SlotsFacade.slots.ShowWinTrace(),n=cc.vv.gameData.GetGameWin(),o=n,cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!=cc.vv.gameData.GetFreeTime()&&(o=cc.vv.gameData.GetGameTotalFreeWin()),t.next=10,new Promise(function(e){SlotsFacade.slots.ShowBottomWin(n,o,!0,e)});case 10:return t.next=12,e.enterCollectGame();case 12:return t.next=14,SlotsFacade.delayTime(.3);case 14:if(!SlotsFacade.dm.isTriggerFree()){t.next=31;break}return t.next=17,SlotsFacade.slots.playScatter(SlotsFacade.dm.getScatterIndexs());case 17:return t.next=19,SlotsFacade.popup.showWinFreeCnt(SlotsFacade.dm.triggerFreeCnt(),SlotsFacade.dm.isFistTriggerFree());case 19:if(!SlotsFacade.dm.isFistTriggerFree()){t.next=27;break}return SlotsFacade.slots.Backup(),SlotsFacade.mainPanel.showSceneTransition(),t.next=24,SlotsFacade.delayTime(2.5);case 24:return t.next=26,SlotsFacade.slots.playBaoxiangJinChang();case 26:e.enterFreeGame();case 27:return t.next=29,SlotsFacade.delayTime(1);case 29:t.next=45;break;case 31:if(!cc.vv.gameData.hasFree()){t.next=34;break}t.next=45;break;case 34:if(!cc.vv.gameData.isLastEndFree()){t.next=45;break}return t.next=37,SlotsFacade.popup.showWinGold(SlotsFacade.dm.getFreeWinCoin());case 37:return SlotsFacade.mainPanel.showSceneTransition(),t.next=40,SlotsFacade.delayTime(1.5);case 40:return e.enterNormalGame(),t.next=43,SlotsFacade.delayTime(1);case 43:return t.next=45,new Promise(function(e){var t=cc.vv.gameData.GetGameTotalFreeWin();SlotsFacade.slots.ShowBottomWin(t,t,!0,function(){e()})});case 45:SlotsFacade.slots.CanDoNextRound();case 46:case"end":return t.stop()}},t)}))()},enterFreeGame:function(){SlotsFacade.topCmp.SetBackLobby(!1),SlotsFacade.bottomCmp.ShowBtnsByState("moveing_1"),SlotsFacade.mainPanel.showBg(!0),SlotsFacade.soundMgr.playBgm("free_bgm")},enterNormalGame:function(){SlotsFacade.slots.Resume(),SlotsFacade.bottomCmp.ShowFreeModel(!1),SlotsFacade.mainPanel.showBg(!1),SlotsFacade.soundMgr.playBgm()},enterCollectGame:function(){return a(regeneratorRuntime.mark(function e(){var t;return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:if(!((t=SlotsFacade.dm.energyData)&&t.cmpInfo&&t.cmpInfo.next_game)){e.next=8;break}return SlotsFacade.topCmp.SetBackLobby(!1),SlotsFacade.bottomCmp.ShowBtnsByState("moveing_1"),e.next=6,SlotsFacade.collectProgress.showEnterCollectGameAni();case 6:return e.next=8,new Promise(function(e){SlotsFacade.collectGame.open(!1,e),SlotsFacade.collectProgress.setProgress(0)});case 8:case"end":return e.stop()}},e)}))()},collectEnergy:function(){return a(regeneratorRuntime.mark(function e(){var t,n,o;return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:if(!(t=SlotsFacade.dm.energyData)||!t.currRoundValue){e.next=7;break}return n=SlotsFacade.slots.getSymbolsByServerIds(SlotsFacade.dm.getCollectSymbolIndexs()),o=[],n.forEach(function(e){o.push(e.node.convertToWorldSpaceAR(cc.v2(0,0)))}),e.next=7,SlotsFacade.collectProgress.collectEnergy(o,SlotsFacade.dm.getCollectPercent());case 7:case"end":return e.stop()}},e)}))()}}),cc._RF.pop()},{}],DoubleAgent_GameData:[function(e,t,n){"use strict";cc._RF.push(t,"b805a2anrdKSYALilxT/8+w","DoubleAgent_GameData"),cc.Class({extends:e("LMSlots_GameData_Base"),properties:{spinData:null,extraWildIndexs:[],energyData:null},init:function(e,t){this._super(e,t),this.energyData=this._deskInfo.energyData},OnRcvNetSpine:function(e){200==e.code&&(this.energyData=e.energyData,e.randomData&&e.randomData.wild_idxs?this.extraWildIndexs=e.randomData.wild_idxs:this.extraWildIndexs=null),this._super(e)},getSpinData:function(){return this._gameInfo},canCollect:function(){return this.GetBetIdx()>=this.energyData.needBetIdx},getCollectSymbolIndexs:function(){var e=this.getSpinData().resultCards;if(!e||e.length<1)return[];var t=[];return e.forEach(function(e,n){3==e&&t.push(n+1)}),t},hasFree:function(){return this.GetFreeTime()>0},isTriggerFree:function(){return this.triggerFreeCnt()>0},triggerFreeCnt:function(){var e=this.getSpinData().freeResult;return e&&e.triFreeCnt&&e.freeInfo&&e.freeInfo.freeCnt?e.freeInfo.freeCnt:0},isFistTriggerFree:function(){return this.hasFree()&&this.GetFreeTime()==this.GetTotalFree()},isLastEndFree:function(){return 0==this.GetFreeTime()&&this.GetTotalFree()>0},getScatterIndexs:function(){return this.triggerFreeCnt()>0?this.getSpinData().freeResult.freeInfo.scatterIdx.concat():[]},getFreeWinCoin:function(){return this._gameInfo.freeWinCoin},getBoxIndex:function(){var e=this.getSpinData().resultCards;return 11==e[2]?3:11==e[7]?8:11==e[12]?13:11==e[17]?18:0},getLackPuzzleWildCols:function(){for(var e=this.getSpinData().fallList,t=[],n=0;n<e.length;n++)e[n].length<1&&t.push(n);return t},isCompletePuzzelWild:function(){if(this.getBoxIndex())return!0;var e=this.getSpinData().fallList;if(5!=e.length)return!1;for(var t=0;t<e.length;t++)if(!e[t].length)return!1;return!0},getMinCollectBet:function(){if(this.energyData.needBetIdx>this.canBetList.length)return null;var e={singleBet:0,mult:0,line:this.currLine,isMax:!1},t=this.colection.needBet-1;return e.singleBet=this.canBetList[t],e.mult=t,e},getCollectPercent:function(){return this.energyData?this.energyData.totalCoin/this.energyData.needCoins:0},getFreeBagInfo:function(){return this._deskInfo.freeBags},reqSubGame:function(e){var t=this;return new Promise(function(n){var o={c:MsgId.SLOT_SUBGAME_DATA,gameid:t._gameId,data:e};cc.vv.NetManager.registerMsg(MsgId.SLOT_SUBGAME_DATA,function e(o){cc.vv.NetManager.unregisterMsg(MsgId.SLOT_SUBGAME_DATA,e,!1,t),console.log("reqSubGame-resp:",o),n(o)},t),cc.vv.NetManager.send(o,!0)})},getBigWinType:function(e){var t=e/this.singleBet,n=-1;return t>=100?n=5:t>=80?n=4:t>=60?n=3:t>=40?n=2:t>=20?n=1:t>=10&&(n=0),n},playSpine:function(e,t,n,o){if(e){e.active=!0;var a=e.getComponent(sp.Skeleton);a&&(a.setAnimation(0,t,n),a.setCompleteListener(function(){o&&o()}))}}}),cc._RF.pop()},{LMSlots_GameData_Base:void 0}],DoubleAgent_ItemsNode:[function(e,t,n){"use strict";function o(e,t,n,o,a,i,s){try{var c=e[i](s),r=c.value}catch(e){return void n(e)}c.done?t(r):Promise.resolve(r).then(o,a)}function a(e){return function(){var t=this,n=arguments;return new Promise(function(a,i){var s=e.apply(t,n);function c(e){o(s,a,i,c,r,"next",e)}function r(e){o(s,a,i,c,r,"throw",e)}c(void 0)})}}cc._RF.push(t,"91d2eD96G5I+ZiisHFEmaDy","DoubleAgent_ItemsNode");var i=0,s=2,c=4;cc.Class({extends:cc.Component,properties:{id:0,callBack:null,gameCfg:null,items:[],itemClass:"",itemsContainer:null,itemsContainerRect:null,itemWidth:0,itemHeight:0,activeItemsContainer:null,col:5,row:4,spaceWidth:0,speed:30,moveBackSpace:40,firstColMinRoundCount:2,spaceRoundCount:2,colStateInfo:null,canStartStop:!1,lineActionNode:null,resultIds:null,spine_add_speed:sp.Skeleton,_isManualStop:!1},onLoad:function(){this.lineActionNode=new cc.Node,this.lineActionNode.parent=this.node},initColStateInfo:function(){this.colStateInfo={};for(var e=0;e<this.col;e++){var t={moveState:c,spinedRound:0,needSpinRound:1e9,speed:this.speed,needAddSpeed:!1,hasScatter:!1};this.colStateInfo[e+""]=t}},resetColStateInfo:function(e){for(var t in this.colStateInfo)this.colStateInfo[t].moveState=e,this.colStateInfo[t].spinedRound=0,this.colStateInfo[t].needSpinRound=1e9,this.colStateInfo[t].speed=this.speed,this.colStateInfo[t].needAddSpeed=!1,this.colStateInfo[t].hasScatter=!1},init:function(e,t,n){this.itemClass=n,this.itemsContainer=this.node.getChildByName("items_container"),this.gameCfg=t,this.col=this.gameCfg.col,this.row=this.gameCfg.row,this.callBack=e,this.itemsContainerRect=this.itemsContainer.getBoundingBox(),this.itemWidth=(this.itemsContainerRect.width-this.spaceWidth*(this.col-1))/this.col,this.itemHeight=this.itemsContainerRect.height/this.row,this.activeItemsContainer=this.node.getChildByName("active_items_container"),this.initColStateInfo(),this._initItems(),this._initSpine()},_initSpine:function(){var e=this.activeItemsContainer.getChildByName("spine_add_speed");e&&(this.spine_add_speed=e.getComponent(sp.Skeleton))},_showAddSpeedAni:function(e,t){if(this.spine_add_speed&&(this.spine_add_speed.node.active=e,e)){this.spine_add_speed.setAnimation(0,"animation",!0);var n=this.activeItemsContainer.getChildByName("active_item_"+(5+t));this.spine_add_speed.node.x=n.x,this._isManualStop||SlotsFacade.soundMgr.playEffect("reel_notify")}},_initItems:function(){for(var e=this.activeItemsContainer,t=this.col*this.row+this.col,n=e.getChildByName("active_item"),o=0;o<t;o++){var a=new cc.Node;a.addComponent(cc.Sprite),a.parent=this.itemsContainer;var i=a.addComponent(this.itemClass);if(i.gameCfg=this.gameCfg,i.itemId=-1,i.rowIndex=parseInt(o/this.col),i.colIndex=parseInt(o%this.col),i.logicIndex=o,o<t-this.col){var s=cc.instantiate(n);s.active=!0,s.parent=e,s.name="active_item_"+o,i.initActiveNode(s)}this.updateItem(i,-1),this.items.push(i)}for(var c=0;c<t;c++){var r=this.items[c],l=r.rowIndex+1;l>this.row&&(l=0);var d=l*this.col+r.colIndex,u=this.items[d].node;r.node.nextRowNode=u;var m=r.rowIndex-1;m<0&&(m=this.row);var h=m*this.col+r.colIndex,p=this.items[h].node;r.node.preRowNode=p}this.initItemsPos()},updateItem:function(e,t){if(t<=0){var n=[1,3,4,5,6,7,8,9,10];t=n[parseInt(Math.random()*n.length)]}e.bind(t)},fillAllItemsSpr:function(e){this.resultIds=e;for(var t=0,n=0;n<this.col;n++){var o=n+"",a=this._hasScatterInCol(n);this.colStateInfo[o].needAddSpeed=t>=2,this.colStateInfo[o].hasScatter=a,a&&t++}for(var i=0;i<e.length;i++)this.updateItem(this.items[i],e[i])},initItemsPos:function(){for(var e=0;e<this.items.length;e++){var t=this.items[e];t.node.x=this.itemWidth*t.colIndex+this.spaceWidth*t.colIndex+this.itemWidth/2,t.node.y=-this.itemHeight/2-this.itemHeight*t.rowIndex+this.itemsContainerRect.height,t.activeNode&&(t.activeNode.x=t.node.x,t.activeNode.y=t.node.y)}},_hasScatterInCol:function(e){for(var t=0;t<this.row;t++){if(this.resultIds[t*this.col+e]==this.gameCfg.scatterId)return!0}return!1},setColStop:function(e){SlotsFacade.soundMgr.stopEffectByName("reel_notify"),SlotsFacade.soundMgr.playEffect("reel_stop");for(var t=0;t<this.items.length;t++)if(this.items[t].colIndex==e){var n=this.items[t];n.node.x=this.itemWidth*n.colIndex+this.spaceWidth*n.colIndex+this.itemWidth/2,n.node.y=-this.itemHeight/2-this.itemHeight*n.rowIndex+this.itemsContainerRect.height}if(this.colStateInfo[e.toString()].hasScatter)for(var o=0;o<this.gameCfg.row;o++){var a=e+o*this.gameCfg.col,i=this.items[a];i.itemId==this.gameCfg.scatterId&&(SlotsFacade.soundMgr.playEffect("symbol_scatter"),i.playScatter(!0))}if(this._showAddSpeedAni(!1),e+1<this.col){var s=this.colStateInfo[e+1];s.needAddSpeed&&(s.speed*=2.5,this._showAddSpeedAni(!0,e+1))}this.isAllColSameMoveState(c)&&this.callBack&&(SlotsFacade.soundMgr.stopEffectByName("reel_notify"),SlotsFacade.soundMgr.playEffect("reel_stop"),this.callBack({evt:"complete",target:this}))},isAllColSameMoveState:function(e){for(var t in this.colStateInfo)if(this.colStateInfo[t].moveState!=e)return!1;return!0},update:function(e){for(var t=0;t<this.items.length;t++){var n=this.items[t],o=this.colStateInfo[n.colIndex];o.moveState==i?n.node.y-=o.speed:o.moveState==s&&(n.node.y+=o.speed/6)}for(var a=0;a<this.items.length;a++){var r=this.items[a],l=this.colStateInfo[r.colIndex];l.moveState==i?(this.canStartStop&&0==r.rowIndex&&l.spinedRound>=l.needSpinRound&&r.node.y<this.itemsContainerRect.height-this.itemHeight/2-this.moveBackSpace&&r.node.y>this.itemHeight+this.itemHeight/2&&(l.moveState=s,this.colChangeToMoveBack(r.colIndex)),r.node.y<-this.itemHeight/2&&(0==r.rowIndex&&l.spinedRound++,r.node.y=r.node.nextRowNode.y+this.itemHeight)):l.moveState==s&&(0==r.rowIndex&&r.node.y>this.itemsContainerRect.height-this.itemHeight/2?(l.moveState=c,this.setColStop(r.colIndex)):r.node.y>this.itemsContainerRect.height+this.itemHeight/2&&(r.node.y=r.node.preRowNode.y-this.itemHeight))}},startMove:function(){var e=this;this.clearActiveItems(),this.canStartStop=!1,this._isManualStop=!1,this.resultIds=[],this.resetColStateInfo(i),this.scheduleOnce(function(){e.playAni_xztw()},.9)},toStartStop:function(e){this.canStartStop=!0,this.fillAllItemsSpr(e);var t=this.colStateInfo[0],n=Math.max(this.firstColMinRoundCount,t.spinedRound);t.needSpinRound=n;for(var o=1;o<this.col;o++)this.colStateInfo[o].needSpinRound=this.colStateInfo[o-1].needSpinRound+this.spaceRoundCount,this.colStateInfo[o].needAddSpeed&&(this.colStateInfo[o].needSpinRound+=15)},manualStop:function(e){this.canStartStop=!0,this._isManualStop=!0,this.fillAllItemsSpr(e),this.initItemsPos();for(var t=0;t<this.col;t++){this.colStateInfo[t].moveState!=c&&(this.colStateInfo[t].spinedRound=this.colStateInfo[t].needSpinRound)}},playLine:function(e,t){var n=this;this.lineActionNode.stopAllActions();for(var o=[],a=0;a<e.length;a++)o=o.concat(e[a].indexs);var i=cc.callFunc(function(){n.showBorder(o),n.showActiveItemsAni(o)});if(t){for(var s,c=cc.delayTime(1.5),r=[i],l=function(t){r.push(c),r.push(cc.callFunc(function(){n.playALine(e[t].indexs)}))},d=0;d<e.length;d++)l(d);r.push(c),this.lineActionNode.runAction(cc.repeatForever((s=cc).sequence.apply(s,r)))}else this.lineActionNode.runAction(i)},playALine:function(e){for(var t=0;t<this.items.length;t++){var n=this.items[t];n.showActiveAni(!1),n.showBorder(!1)}this.showBorder(e),this.showActiveItemsAni(e)},showBorder:function(e){for(var t=0;t<e.length;t++)this.items[e[t]-1].showBorder(!0)},showActiveItemsAni:function(e){for(var t=0;t<e.length;t++)this.items[e[t]-1].showActiveAni(!0)},clearActiveItems:function(){this.lineActionNode.stopAllActions();for(var e=0;e<this.items.length;e++){var t=this.items[e];t.showActiveAni(!1),t.showBorder(!1),t.showStaticIcon(-1)}},clearBorder:function(){for(var e=0;e<this.items.length;e++)this.items[e].showBorder(!1)},getItemsByIndex:function(e){var t=this,n=[];return e.forEach(function(e){n.push(t.items[e-1])}),n},playAni_xztw:function(){var e=this.node.getChildByName("spine_xiangzituowei").getComponent(sp.Skeleton);e.node.active=!0,e.setAnimation(0,"animation",!1),e.setCompleteListener(function(){e.setCompleteListener(null),e.node.active=!1})},playAni_bxjc:function(){},colChangeToMoveBack:function(e){if(2==e){var t=SlotsFacade.dm.getBoxIndex();if(t){var n=this.items[t-1].activeNode.convertToWorldSpaceAR(cc.v2(0,0));SlotsFacade.extraWildCmp.showBox(n)}}},playScatter:function(e){var t=this;return a(regeneratorRuntime.mark(function n(){return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return SlotsFacade.soundMgr.playEffect("bell"),e.forEach(function(e){t.items[e-1].playScatter()}),n.next=4,SlotsFacade.delayTime(1.5);case 4:case"end":return n.stop()}},n)}))()}}),cc._RF.pop()},{}],DoubleAgent_Logic:[function(e,t,n){"use strict";cc._RF.push(t,"d64deWjmSBKIq8s1phMlG3V","DoubleAgent_Logic"),cc.Class({extends:e("LMSlots_Logic_Base"),properties:{},onLoad:function(){this.InitCommComponent(),window.SlotsFacade=this,this.dm=cc.vv.gameData,this.mainPanel=cc.find("safe_node",this.node).addComponent("DoubleAgent_MainPanel"),this.flowCtrl=this.addComponent("DoubleAgent_FlowCtrl"),this.soundMgr=this.addComponent("DoubleAgent_Sound"),this.extraWildCmp=this.mainPanel.extra_wild_game_node.getComponent("DoubleAgent_ExtraWildGame"),this.collectProgress=this.mainPanel.collect_progress.getComponent("DoubleAgent_CollectProgress"),this.collectGame=this.mainPanel.collect_game_node.getComponent("DoubleAgent_CollectGame"),this.popup=this.mainPanel.popup.getComponent("DoubleAgent_Popup"),this.topCmp=cc.vv.gameData.GetTopScript(),this.bottomCmp=cc.vv.gameData.GetBottomScript(),this.slots=cc.vv.gameData.GetSlotsScript()},onDestroy:function(){window.SlotsFacade=null,this.dm=null},delayTime:function(e){var t=this;return new Promise(function(n,o){t.scheduleOnce(function(){n()},e)})}}),cc._RF.pop()},{LMSlots_Logic_Base:void 0}],DoubleAgent_MainPanel:[function(e,t,n){"use strict";cc._RF.push(t,"690b7dpwytNRrwEiYOUZUDF","DoubleAgent_MainPanel"),cc.Class({extends:cc.Component,properties:{bg:cc.Node,character_node:cc.Node,slots:cc.Node,collect_progress:cc.Node,collect_game_node:cc.Node,extra_wild_game_node:cc.Node,popup:cc.Node,transition_node:cc.Node,spine_free_bg:sp.Skeleton},onLoad:function(){this.bg=this.node.getChildByName("bg"),this.spine_free_bg=this.node.getChildByName("spine_free_bg").getComponent(sp.Skeleton),this.character_node=this.node.getChildByName("character_node"),this.slots=this.node.getChildByName("slots"),this.collect_progress=this.slots.getChildByName("collect_progress"),this.collect_game_node=this.node.getChildByName("collect_game_node"),this.extra_wild_game_node=this.slots.getChildByName("extra_wild_game_node"),this.popup=this.node.getChildByName("popup"),this.transition_node=this.node.getChildByName("transition_node"),this.spineSceneTransition=this.transition_node.getChildByName("daqiangqieping").getComponent(sp.Skeleton)},showBg:function(e){this.spine_free_bg.node.active=e;var t=0;e&&(t=1),this.bg.getComponent("ImgSwitchCmp").setIndex(t)},showSceneTransition:function(e){var t=this;SlotsFacade.soundMgr.playEffect("transition_free"),this.spineSceneTransition.node.active=!0,this.spineSceneTransition.setAnimation(0,"skill",!1),this.spineSceneTransition.setCompleteListener(function(){t.spineSceneTransition.setCompleteListener(null),t.spineSceneTransition.node.active=!1,e&&e()})}}),cc._RF.pop()},{}],DoubleAgent_Popup:[function(e,t,n){"use strict";function o(e,t,n,o,a,i,s){try{var c=e[i](s),r=c.value}catch(e){return void n(e)}c.done?t(r):Promise.resolve(r).then(o,a)}function a(e){return function(){var t=this,n=arguments;return new Promise(function(a,i){var s=e.apply(t,n);function c(e){o(s,a,i,c,r,"next",e)}function r(e){o(s,a,i,c,r,"throw",e)}c(void 0)})}}cc._RF.push(t,"5638cE3kcJK85byfX3Nf5zM","DoubleAgent_Popup"),cc.Class({extends:cc.Component,properties:{bg:cc.Node},onLoad:function(){},showBg:function(e){this.bg.active=e},showWinGold:function(e){var t=this;return a(regeneratorRuntime.mark(function n(){var o,a;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return SlotsFacade.soundMgr.playEffect("free_dialog_collect_show"),t.showBg(!0),(o=t.node.getChildByName("dialog_free_win_coin")).active=!0,o.scale=0,o.getChildByName("label_coin").getComponent("LabelRollCmp").startRoll(0,e),a=o.getChildByName("ok_btn"),n.next=9,new Promise(function(e){cc.tween(o).to(.5,{scale:1},{easing:"backOut"}).start();var n=function n(){SlotsFacade.soundMgr.playEffect("common_click"),a.off(cc.Node.EventType.TOUCH_END,n),cc.tween(o).to(.5,{scale:0},{easing:"backIn"}).call(function(){t.showBg(!1),Global.SlotsSoundMgr.stopBgm(),SlotsFacade.topCmp.SetBackLobby(!0),e()}).start()};cc.vv.gameData.checkAutoPlay(a,n),a.on(cc.Node.EventType.TOUCH_END,function(){a.stopAllActions(),n()})});case 9:case"end":return n.stop()}},n)}))()},showWinFreeCnt:function(e,t){var n=this;return a(regeneratorRuntime.mark(function o(){var a,i;return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:return SlotsFacade.soundMgr.playEffect("free_dialog_start_show"),n.showBg(!0),(a=n.node.getChildByName("dialog_free_cnt")).active=!0,a.scale=0,a.getChildByName("label_free_cnt").getComponent(cc.Label).string=e.toString(),(i=a.getChildByName("ok_btn")).active=t,o.next=10,new Promise(function(e){var o=cc.tween(a);if(o=o.to(.5,{scale:1},{easing:"backOut"}),t){var s=function t(){SlotsFacade.soundMgr.playEffect("common_click"),i.off(cc.Node.EventType.TOUCH_END,t),cc.tween(a).to(.5,{scale:0},{easing:"backIn"}).call(function(){n.showBg(!1),e()}).start()};cc.vv.gameData.checkAutoPlay(i,s),i.on(cc.Node.EventType.TOUCH_END,function(){i.stopAllActions(),s()})}else o=o.delay(1).to(.5,{scale:0},{easing:"backIn"}).call(function(){n.showBg(!1),e()});o.start()});case 10:case"end":return o.stop()}},o)}))()},showCollectWinGold:function(e){var t=this;return a(regeneratorRuntime.mark(function n(){var o,a,i,s,c,r;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return SlotsFacade.soundMgr.playEffect("free_dialog_collect_show"),t.showBg(!0),(o=t.node.getChildByName("dialog_collect_win")).active=!0,o.scale=0,a=o.getChildByName("lbl_coin"),i=o.getChildByName("lbl_getdesc"),Global.doRoallNumEff(a,0,e.winCoin,1,null,null,0,!0),s=Global.convertNumToShort(e.prize,1e3,0),c=Global.convertNumToShort(e.prize*e.mult,1e3,0),i.getComponent(cc.Label).string=cc.js.formatStr("%s X %s = %s",e.mult,s,c),r=o.getChildByName("btn_collect"),n.next=14,new Promise(function(e){cc.tween(o).to(.5,{scale:1},{easing:"backOut"}).start();var n=function n(){SlotsFacade.soundMgr.playEffect("common_click"),r.off(cc.Node.EventType.TOUCH_END,n),cc.tween(o).to(.5,{scale:0},{easing:"backIn"}).call(function(){t.showBg(!1),Global.SlotsSoundMgr.stopBgm(),SlotsFacade.topCmp.SetBackLobby(!0),SlotsFacade.bottomCmp.CanDoNextRound(),e()}).start()};cc.vv.gameData.checkAutoPlay(r,n),r.on(cc.Node.EventType.TOUCH_END,function(){r.stopAllActions(),n()})});case 14:case"end":return n.stop()}},n)}))()}}),cc._RF.pop()},{}],DoubleAgent_Reel:[function(e,t,n){"use strict";cc._RF.push(t,"1445a9GYQRN7KWqqjGvZXXQ","DoubleAgent_Reel"),cc.Class({extends:e("LMSlots_Reel_Base"),properties:{bg:cc.Node}}),cc._RF.pop()},{LMSlots_Reel_Base:void 0}],DoubleAgent_Slots:[function(e,t,n){"use strict";function o(e,t,n,o,a,i,s){try{var c=e[i](s),r=c.value}catch(e){return void n(e)}c.done?t(r):Promise.resolve(r).then(o,a)}function a(e){return function(){var t=this,n=arguments;return new Promise(function(a,i){var s=e.apply(t,n);function c(e){o(s,a,i,c,r,"next",e)}function r(e){o(s,a,i,c,r,"throw",e)}c(void 0)})}}cc._RF.push(t,"a1d44ZEBNhEKJR2xSQi/DmK","DoubleAgent_Slots"),cc.Class({extends:e("LMSlots_Slots_Base"),properties:{_delaytimes:0},StartMove:function(){var e=this;this._super(),SlotsFacade.dm.getSpinData()&&(this._delaytimes=SlotsFacade.extraWildCmp.hideWilds()),0==SlotsFacade.dm.GetTotalFree()&&SlotsFacade.soundMgr.playBgm(),this.scheduleOnce(function(){e.playAni_xztw()},.9)},StopMove:function(){this._super(),SlotsFacade.extraWildCmp.showZengjiaWild(SlotsFacade.dm.getSpinData().fallList)},playAni_xztw:function(){var e=this.node.getChildByName("spine_xiangzituowei").getComponent(sp.Skeleton);e.node.active=!0,e.setAnimation(0,"animation",!1),e.setCompleteListener(function(){e.setCompleteListener(null),e.node.active=!1})},onMsgSpine:function(e){var t=this;return a(regeneratorRuntime.mark(function n(){return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return n.next=2,SlotsFacade.delayTime(t._delaytimes);case 2:SlotsFacade.extraWildCmp.startFallWild(SlotsFacade.dm.getSpinData().fallList),t._gameInfo=e,t.SetSlotsResult(e.resultCards),t.SetReelStateInfo(e.resultCards);case 6:case"end":return n.stop()}},n)}))()},OnSpinEnd:function(){SlotsFacade.flowCtrl.spinEnd()},ReconnectShow:function(){this.scheduleOnce(function(){SlotsFacade.flowCtrl.enterRoom()})},playScatter:function(e){var t=this;return a(regeneratorRuntime.mark(function n(){return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return SlotsFacade.soundMgr.playEffect("bell"),e.forEach(function(e){t.GetSymbolByIdx(e).playTriggerAnimation()}),n.next=4,SlotsFacade.delayTime(1.5);case 4:case"end":return n.stop()}},n)}))()},getSymbolsByServerIds:function(e){var t=this,n=[];return e.forEach(function(e){n.push(t.GetSymbolByIdx(e))}),n},clearAllSymbolAniState:function(){for(var e=0;e<this._reels.length;e++)for(var t=this._reels[e]._symbols,n=0;n<t.length;n++)t[n].StartMove()},playBaoxiangJinChang:function(){var e=this;return a(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return e.clearAllSymbolAniState(),t.abrupt("return",new Promise(function(t){var n=5,o=e._reels[2];o._bMoving=!0,o._stopTime=.8*n;(function o(){var a=cc.find("spine_baoxianxiangjinchang",e.node);n<=0?(a.active=!1,t()):(a.scale=n%2==1?1:-1,SlotsFacade.dm.playSpine(a,"animation",!1,function(){e.changeSymobl()}),e.scheduleOnce(function(){n-=1,o()},.8))})()}));case 2:case"end":return t.stop()}},t)}))()},changeSymobl:function(){this._reels[2]._symbols[2].changeSymboltoBaoxiang()}}),cc._RF.pop()},{LMSlots_Slots_Base:void 0}],DoubleAgent_Sound:[function(e,t,n){"use strict";cc._RF.push(t,"fed14ByeL9I3pQoevGy02Br","DoubleAgent_Sound"),cc.Class({extends:cc.Component,properties:{_soundPath:"games/DoubleAgent/",_isPlayBgm:!1},playEffect:function(e,t){return cc.vv.AudioManager.playEff(this._soundPath,e,!0,t)},stopEffectByName:function(e){cc.vv.AudioManager.stopEffectByName(e)},stopEffect:function(){cc.vv.AudioManager.stopAudio()},playBgm:function(e){e?(Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playBgm(e)):Global.SlotsSoundMgr.playNormalBgm()}}),cc._RF.pop()},{}],DoubleAgent_symbol:[function(e,t,n){"use strict";cc._RF.push(t,"19e35Z09+5CUrj1pbsCznzA","DoubleAgent_symbol"),cc.Class({extends:e("LMSlots_Symbol_Base"),properties:{wildCount:0},StartMove:function(){this._super(),this.wildCount=0,this.node.getChildByName("wild").active=!1},addWild:function(){1!=this.GetShowId()&&this.ShowById(1,null),this.wildCount+=1;var e=this.node.getChildByName("wild");e.active=!0;var t=e.getChildByName("spine").getComponent(sp.Skeleton);t.node.active=!0,t.setAnimation(0,"animation1",!1);var n=null;1==this.wildCount?(n=e.getChildByName("wild_1").getComponent(sp.Skeleton),e.getChildByName("wild_multi").active=!1):(n=e.getChildByName("wild_multi").getComponent(sp.Skeleton),e.getChildByName("wild_1").active=!1),n.node.active=!0,n.setAnimation(0,"animation"+this.wildCount,!1);var o=e.getChildByName("wildlizibao");SlotsFacade.dm.playSpine(o,"animation",!1,function(){o.active=!1})},playWild:function(){this._showNode&&(this._showNode.active=!1);var e=this.setAnimationToTop(!0);e.active=!0;var t=e.getChildByName("wild"),n=t.getChildByName("spine").getComponent(sp.Skeleton);n.node.active=!0,n.setAnimation(0,"animation1",!1);var o=null;1==this.wildCount?(o=t.getChildByName("wild_1").getComponent(sp.Skeleton),t.getChildByName("wild_multi").active=!1):(o=t.getChildByName("wild_multi").getComponent(sp.Skeleton),t.getChildByName("wild_1").active=!1),o.node.active=!0,o.setAnimation(0,"animation"+this.wildCount+"_1",!0)},playWinAnimation:function(){1==this.GetShowId()?this.playWild():this._super()},changeSymboltoBaoxiang:function(){this._showNode&&(this._showNode.active=!1),this._id=11;var e=cc.vv.gameData.getGameCfg();this._showNode=cc.find(e.symbol[11].node,this.node),this._showNode.active=!0}}),cc._RF.pop()},{LMSlots_Symbol_Base:void 0}]},{},["DoubleAgent_ButtonSafe","DoubleAgent_Cfg","DoubleAgent_CollectGame","DoubleAgent_CollectProgress","DoubleAgent_ExtraWildGame","DoubleAgent_FlowCtrl","DoubleAgent_GameData","DoubleAgent_ItemsNode","DoubleAgent_Logic","DoubleAgent_MainPanel","DoubleAgent_Popup","DoubleAgent_Reel","DoubleAgent_Slots","DoubleAgent_Sound","DoubleAgent_symbol"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  DoubleAgent_ButtonSafe: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "676fbOVwNdLjYPxiNFGH1YC", "DoubleAgent_ButtonSafe");
+    "use strict";
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        safeTime: {
+          default: .5,
+          tooltip: "\u6309\u94ae\u4fdd\u62a4\u65f6\u95f4\uff0c\u6307\u5b9a\u95f4\u9694\u5185\u53ea\u80fd\u70b9\u51fb\u4e00\u6b21."
+        }
+      },
+      onLoad: function onLoad() {
+        var button = this.getComponent(cc.Button);
+        if (!button) return;
+        this.clickEvents = button.clickEvents;
+        Global.btnClickEvent(this.node, function(buttton) {
+          buttton.interactable = false;
+          var slotsSrc = cc.vv.gameData.GetSlotsScript();
+          slotsSrc && slotsSrc.scheduleOnce(function() {
+            buttton.interactable = true;
+          }, this.safeTime);
+        }, this);
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  DoubleAgent_Cfg: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "83606qLAPtL3Z9RT/vQyhBd", "DoubleAgent_Cfg");
+    "use strict";
+    var _symbol;
+    function _defineProperty(obj, key, value) {
+      key in obj ? Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+      }) : obj[key] = value;
+      return obj;
+    }
+    var Cfg = {
+      symbol: (_symbol = {}, _defineProperty(_symbol, 1, {
+        node: "s1",
+        win_node: "w1",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 2, {
+        node: "s2",
+        win_node: "w2",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        },
+        stop_ani: {
+          name: "animation1",
+          zIndex: 300
+        },
+        trigger_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 3, {
+        node: "s3",
+        win_node: "w3",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 4, {
+        node: "s4",
+        win_node: "w4",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 5, {
+        node: "s5",
+        win_node: "w5",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 6, {
+        node: "s6",
+        win_node: "w6",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 7, {
+        node: "s7",
+        win_node: ""
+      }), _defineProperty(_symbol, 8, {
+        node: "s8",
+        win_node: ""
+      }), _defineProperty(_symbol, 9, {
+        node: "s9",
+        win_node: ""
+      }), _defineProperty(_symbol, 10, {
+        node: "s10",
+        win_node: ""
+      }), _defineProperty(_symbol, 11, {
+        node: "s11",
+        win_node: "w11",
+        win_ani: {
+          name: "animation2",
+          zIndex: 300
+        },
+        stop_ani: {
+          name: "animation1",
+          zIndex: 500
+        }
+      }), _defineProperty(_symbol, 12, {
+        node: "s12",
+        win_node: ""
+      }), _defineProperty(_symbol, 13, {
+        node: "s13",
+        win_node: ""
+      }), _defineProperty(_symbol, 14, {
+        node: "s14",
+        win_node: ""
+      }), _defineProperty(_symbol, 15, {
+        node: "s15",
+        win_node: ""
+      }), _symbol),
+      wildId: 1,
+      scatterId: 2,
+      scripts: {
+        Top: "LMSlots_Top_Base",
+        Bottom: "LMSlots_Bottom_Base",
+        Slots: "DoubleAgent_Slots",
+        Reels: "DoubleAgent_Reel",
+        Symbols: "DoubleAgent_symbol"
+      },
+      col: 5,
+      row: 4,
+      symbolPrefab: "LMSlots_Symbol",
+      symbolSize: {
+        height: 85
+      },
+      helpItems: [ "games/DoubleAgent/prefab/LMSlots_Help_item1", "games/DoubleAgent/prefab/LMSlots_Help_item2", "games/DoubleAgent/prefab/LMSlots_Help_item3", "games/DoubleAgent/prefab/LMSlots_Help_item4", "games/DoubleAgent/prefab/LMSlots_Help_item5" ],
+      randomSymbols: [ 1, 3, 4, 5, 6, 7, 8, 9, 10 ],
+      kuang: "kuang",
+      speed: 3e3,
+      reelStopInter: .2,
+      auto_stop_time: 1,
+      autoModelDelay: 1,
+      AddAntiTime: 2,
+      bounceInfo: {
+        distance: 20,
+        time: .1
+      },
+      reelStateInfo: [ {
+        id: [ 2 ],
+        mini: 3,
+        counts: [ 1, 1, 1, 1, 0 ],
+        antiNode: "node_anti",
+        path: "games/DoubleAgent/",
+        reelStopSound: "reel_stop",
+        symbolStopSound: "symbol_scatter",
+        antSound: "reel_notify",
+        antSpeed: 2400
+      }, {
+        id: [ 11 ],
+        mini: 1,
+        counts: [ 0, 0, 0, 0, 0 ],
+        antiNode: "node_antiXXX",
+        path: "games/DoubleAgent/",
+        reelStopSound: "reel_stop",
+        symbolStopSound: "symbol_bonus",
+        antSound: "reel_notify",
+        antSpeed: 2400
+      } ],
+      normalBgm: "base_bgm",
+      sysFloatOffsetPos: cc.v2(0, 80)
+    };
+    module.exports = Cfg;
+    cc._RF.pop();
+  }, {} ],
+  DoubleAgent_CollectGame: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "e0b64be6IdERItZ1a+Oq/Lq", "DoubleAgent_CollectGame");
+    "use strict";
+    var _takeCfg;
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    function _defineProperty(obj, key, value) {
+      key in obj ? Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+      }) : obj[key] = value;
+      return obj;
+    }
+    var takeCfg = (_takeCfg = {}, _defineProperty(_takeCfg, 1, {
+      multiple: 3
+    }), _defineProperty(_takeCfg, 2, {
+      multiple: 5
+    }), _defineProperty(_takeCfg, 3, {
+      multiple: 7
+    }), _defineProperty(_takeCfg, 4, {
+      multiple: 9
+    }), _defineProperty(_takeCfg, 5, {
+      multiple: 12
+    }), _defineProperty(_takeCfg, 6, {
+      multiple: 20
+    }), _defineProperty(_takeCfg, 7, {
+      multiple: 2
+    }), _defineProperty(_takeCfg, 8, {
+      multiple: 4
+    }), _defineProperty(_takeCfg, 9, {
+      multiple: 6
+    }), _defineProperty(_takeCfg, 10, {
+      multiple: 8
+    }), _defineProperty(_takeCfg, 11, {
+      multiple: 10
+    }), _defineProperty(_takeCfg, 12, {
+      multiple: 15
+    }), _defineProperty(_takeCfg, 13, {
+      multiple: 30
+    }), _defineProperty(_takeCfg, 14, {
+      multiple: 50
+    }), _defineProperty(_takeCfg, 15, {
+      multiple: 60
+    }), _defineProperty(_takeCfg, 16, {
+      multiple: 70
+    }), _defineProperty(_takeCfg, 17, {
+      multiple: 80
+    }), _defineProperty(_takeCfg, 18, {
+      multiple: 90
+    }), _defineProperty(_takeCfg, 19, {
+      multiple: 100
+    }), _defineProperty(_takeCfg, 20, {
+      multiple: 150
+    }), _defineProperty(_takeCfg, 21, {
+      multiple: 200
+    }), _defineProperty(_takeCfg, 22, {
+      multiple: 300
+    }), _defineProperty(_takeCfg, 23, {
+      multiple: 500
+    }), _defineProperty(_takeCfg, 24, {
+      multiple: 750
+    }), _defineProperty(_takeCfg, 25, {
+      multiple: 1e3
+    }), _defineProperty(_takeCfg, 26, {
+      multiple: 1500
+    }), _takeCfg);
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        panel: cc.Node,
+        bagListNode: cc.Node,
+        multipleListNode: cc.Node,
+        btnOk: cc.Button,
+        title: cc.Node,
+        guide: cc.Node,
+        pre_offers_node: cc.Node,
+        dialog_result: cc.Node,
+        dialog_result2: cc.Node,
+        dialog_round_tips: cc.Node,
+        tips_have_select: cc.Node,
+        money_bag_selected: cc.Node,
+        money_bag: cc.Node,
+        particle_feixing: cc.ParticleSystem,
+        _bagList: null,
+        _multipleList: null,
+        _callBack: null,
+        _data: null,
+        _multipleChoiceBagCnt: 7
+      },
+      onLoad: function onLoad() {
+        var _this = this;
+        this._bagList = [];
+        this._multipleList = [];
+        this._reset();
+        for (var i = 1; i <= this._data.bagCnt; i++) {
+          var item = this.bagListNode.getChildByName("take_bag_" + i);
+          item.data = {};
+          item.data.id = i;
+          item.active = false;
+          item.getChildByName("label").getComponent(cc.Label).string = i.toString();
+          item.on(cc.Node.EventType.TOUCH_END, this._onClickBag.bind(this), this);
+          this._bagList.push(item);
+          var multipleItem = this.multipleListNode.getChildByName("take_multiple_" + i);
+          i > 13 && multipleItem.getChildByName("bg").getComponent("ImgSwitchCmp").setIndex(1);
+          multipleItem.getChildByName("label").getComponent(cc.Label).string = takeCfg[i].multiple + "X";
+          this._multipleList.push(multipleItem);
+        }
+        this.btnOk.node.on("click", function() {
+          _this.close();
+        });
+        this.dialog_result.getChildByName("content").getChildByName("btn_ok").on("click", this._onTakeHandler.bind(this), this);
+        this.dialog_result.getChildByName("content").getChildByName("btn_no").on("click", this._onLeaveItHandler.bind(this), this);
+        this.dialog_result2.getChildByName("content").getChildByName("btn_ok").on("click", this._onKeepHandler.bind(this), this);
+        this.dialog_result2.getChildByName("content").getChildByName("btn_no").on("click", this._onTradeHander.bind(this), this);
+        this.money_bag_selected.data = {
+          x: this.money_bag_selected.x,
+          y: this.money_bag_selected.y,
+          scaleX: this.money_bag_selected.scaleX,
+          scaleY: this.money_bag_selected.scaleY
+        };
+      },
+      _reset: function _reset() {
+        this._data = {
+          bagCnt: 26,
+          bagState: 0,
+          firstBagId: 0,
+          selectedIds: [],
+          curSelectedIds: [],
+          currRoundSelectedCnt: 0
+        };
+        this._setTitleState(0);
+        this.pre_offers_node.active = false;
+        this.dialog_result.active = false;
+        this.dialog_round_tips.active = false;
+        this.tips_have_select.active = false;
+        this.money_bag_selected.active = false;
+        this.money_bag.active = false;
+        this.particle_feixing.node.active = false;
+        for (var i = 1; i <= this._data.bagCnt; i++) {
+          var item = this.bagListNode.getChildByName("take_bag_" + i);
+          item.active = false;
+        }
+      },
+      close: function close() {
+        var _this2 = this;
+        SlotsFacade.soundMgr.playEffect("bonus_close");
+        SlotsFacade.dm.hasFree() ? SlotsFacade.soundMgr.playBgm("free_bgm") : SlotsFacade.soundMgr.playBgm();
+        this.panel.stopAllActions();
+        this.panel.runAction(cc.sequence(cc.fadeOut(.3), cc.callFunc(function() {
+          _this2.panel.active = false;
+        })));
+        this._callBack && this._callBack();
+      },
+      reConnectCollect: function reConnectCollect(freebags) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          var state, i, _i;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              _this3.btnOk.node.active = false;
+              state = freebags.currState.state;
+              SlotsFacade.soundMgr.playBgm("bonus_bgm");
+              _this3.guide.active = false;
+              _this3.pre_offers_node.active = true;
+              _this3.panel.active = true;
+              _this3.title.active = false;
+              if (freebags.currState.nextCount) {
+                _this3.tips_have_select.active = true;
+                _this3.tips_have_select.getChildByName("label").getComponent(cc.Label).string = "0/" + freebags.currState.nextCount;
+              } else _this3._setTitleState(1);
+              for (i = 0; i < _this3._data.bagCnt; i++) freebags.choices.includes(i + 1) || (_this3._bagList[i].active = true);
+              _this3.reConnectChoiceGray(freebags.unpickedMult);
+              for (_i = 0; _i < freebags.historyMult.length; _i++) _this3._showMultToOffers(freebags.historyMult[_i], _i + 1);
+              if (freebags.lastChoice.length > 0) {
+                _this3.money_bag_selected.active = true;
+                cc.find("bag1/label", _this3.money_bag_selected).getComponent(cc.Label).string = freebags.lastChoice[0];
+              }
+              _this3._multipleChoiceBagCnt = freebags.currState.nextCount;
+              _this3._data.selectedIds = freebags.choices;
+              if (1 == state) _this3._data.bagState = 1; else {
+                _this3._data.bagState = 2;
+                if (3 == state) _this3._showBagResult(freebags); else if (4 == state) {
+                  _this3._lastchoices = freebags.lastChoice;
+                  _this3.showLastChoiceUI(_this3._lastchoices);
+                }
+              }
+
+             case 15:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      reConnectChoiceGray: function reConnectChoiceGray(pickedmult) {
+        var _this4 = this;
+        this.initShowMultipleIcon(true);
+        pickedmult.forEach(function(mult) {
+          var itemidx = _this4.getTakemultipleItem(mult);
+          var bgnode = cc.find(cc.js.formatStr("take_multiple_%s/bg", itemidx), _this4.multipleListNode);
+          var lblnode = cc.find(cc.js.formatStr("take_multiple_%s/label", itemidx), _this4.multipleListNode);
+          bgnode.color = cc.color(255, 255, 255);
+          lblnode.color = cc.color(255, 255, 255);
+        });
+      },
+      open: function open(isView, cb) {
+        var _this5 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              _this5._callBack = cb;
+              _this5.btnOk.node.active = isView;
+              _this5.panel.active = true;
+              _this5.panel.opacity = 0;
+              _this5.panel.runAction(cc.fadeIn(.3));
+              _this5._showBagList();
+              _this5.initShowMultipleIcon(true);
+              _this5.guide.active = true;
+              if (isView) {
+                _context2.next = 12;
+                break;
+              }
+              _context2.next = 11;
+              return _this5._cmpleteBag();
+
+             case 11:
+              if (SlotsFacade.dm.getFreeBagInfo().currCnt == _this5._data.bagCnt) {
+                _this5.initShowMultipleIcon(false);
+                _this5._startTakeBonus();
+              } else _this5.close();
+
+             case 12:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      initShowMultipleIcon: function initShowMultipleIcon(isgray) {
+        for (var i = 1; i <= this._data.bagCnt; i++) {
+          var bgnode = cc.find(cc.js.formatStr("take_multiple_%s/bg", i), this.multipleListNode);
+          var lblnode = cc.find(cc.js.formatStr("take_multiple_%s/label", i), this.multipleListNode);
+          if (isgray) {
+            bgnode.color = cc.color(90, 90, 90);
+            lblnode.color = cc.color(90, 90, 90);
+          } else {
+            bgnode.color = cc.color(255, 255, 255);
+            lblnode.color = cc.color(255, 255, 255);
+          }
+        }
+      },
+      _showBagList: function _showBagList() {
+        var cmpCnt = SlotsFacade.dm.getFreeBagInfo().currCnt;
+        for (var i = 0; i < cmpCnt; i++) this._bagList[i].active = true;
+      },
+      _cmpleteBag: function _cmpleteBag() {
+        var _this6 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          var freeBags, completeIndex, bagItem;
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              freeBags = SlotsFacade.dm.getFreeBagInfo();
+              freeBags.currCnt += 1;
+              freeBags.currCnt > _this6._data.bagCnt && (freeBags.currCnt = _this6._data.bagCnt);
+              completeIndex = freeBags.currCnt - 1;
+              bagItem = _this6._bagList[completeIndex];
+              _context3.next = 7;
+              return new Promise(function(res) {
+                cc.tween(_this6.node).delay(.5).call(function() {
+                  bagItem.active = true;
+                  var qiandaichuxian = _this6.bagListNode.getChildByName("qiandaichuxian").getComponent(sp.Skeleton);
+                  qiandaichuxian.node.x = bagItem.x;
+                  qiandaichuxian.node.y = bagItem.y;
+                  qiandaichuxian.node.active = true;
+                  qiandaichuxian.setAnimation(0, "animation", false);
+                  qiandaichuxian.setCompleteListener(function() {
+                    qiandaichuxian.setCompleteListener(null);
+                    qiandaichuxian.node.active = false;
+                  });
+                }).delay(1.5).call(function() {
+                  res();
+                }).start();
+              });
+
+             case 7:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      },
+      _setTitleState: function _setTitleState(value) {
+        this.title.active = true;
+        if (1 == value) {
+          this.title.getComponent("ImgSwitchCmp").setIndex(1);
+          cc.tween(this.title).repeatForever(cc.tween().to(.8, {
+            scale: .8
+          }).to(.8, {
+            scale: 1
+          })).start();
+        } else {
+          this.title.getComponent("ImgSwitchCmp").setIndex(0);
+          this.title.stopAllActions();
+          this.title.scale = 1;
+        }
+      },
+      _startTakeBonus: function _startTakeBonus() {
+        SlotsFacade.soundMgr.playBgm("bonus_bgm");
+        this.guide.active = false;
+        this.pre_offers_node.active = true;
+        this._setTitleState(1);
+        this._data.bagState = 1;
+      },
+      _onClickBag: function _onClickBag(evt) {
+        SlotsFacade.soundMgr.playEffect("bag_click");
+        if (0 == this._data.bagState) return;
+        if (1 == this._data.bagState) {
+          this._data.bagState = 0;
+          this._selectBag(evt.target);
+          this._setTitleState(0);
+        } else 2 == this._data.bagState && this._selectMultipleBag(evt.target);
+      },
+      _selectBag: function _selectBag(bagItem) {
+        var _this7 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee4() {
+          var xuanzeqiandai, startPos, endPos, middlePos, qiandaishouji, result;
+          return regeneratorRuntime.wrap(function _callee4$(_context4) {
+            while (1) switch (_context4.prev = _context4.next) {
+             case 0:
+              SlotsFacade.soundMgr.playEffect("bag_fly");
+              _this7._data.firstBagId = bagItem.data.id;
+              _this7._data.selectedIds.push(_this7._data.firstBagId);
+              xuanzeqiandai = bagItem.getChildByName("xuanzeqiandai").getComponent(sp.Skeleton);
+              xuanzeqiandai.node.active = true;
+              _context4.next = 7;
+              return new Promise(function(res) {
+                xuanzeqiandai.setAnimation(0, "animation", false);
+                xuanzeqiandai.setCompleteListener(function() {
+                  xuanzeqiandai.setCompleteListener(null);
+                  xuanzeqiandai.node.active = false;
+                  bagItem.active = false;
+                  res();
+                });
+              });
+
+             case 7:
+              startPos = _this7.panel.convertToNodeSpaceAR(bagItem.convertToWorldSpaceAR(cc.v2(0, 0)));
+              _this7.particle_feixing.node.active = true;
+              _this7.particle_feixing.node.x = startPos.x;
+              _this7.particle_feixing.node.y = startPos.y;
+              endPos = {
+                x: _this7.money_bag_selected.data.x,
+                y: _this7.money_bag_selected.data.y
+              };
+              middlePos = {
+                x: startPos.x + (endPos.x - startPos.x) / 2,
+                y: startPos.y + (endPos.y - startPos.y) / 2
+              };
+              _context4.next = 15;
+              return new Promise(function(res) {
+                cc.tween(_this7.particle_feixing.node).to(.8, {
+                  x: middlePos.x,
+                  y: middlePos.y
+                }).call(function() {
+                  _this7.particle_feixing.node.active = false;
+                  res();
+                }).start();
+              });
+
+             case 15:
+              _this7.money_bag_selected.active = true;
+              _this7.money_bag_selected.scale = 1;
+              _this7.money_bag_selected.x = middlePos.x;
+              _this7.money_bag_selected.y = middlePos.y;
+              cc.find("bag1/label", _this7.money_bag_selected).getComponent(cc.Label).string = _this7._data.firstBagId.toString();
+              qiandaishouji = _this7.money_bag_selected.getChildByName("qiandaishouji").getComponent(sp.Skeleton);
+              qiandaishouji.node.active = true;
+              qiandaishouji.setAnimation(0, "animation", false);
+              qiandaishouji.setCompleteListener(function() {
+                qiandaishouji.setCompleteListener(null);
+                qiandaishouji.node.active = false;
+              });
+              _context4.next = 26;
+              return new Promise(function(res) {
+                cc.tween(_this7.money_bag_selected).to(1, {
+                  x: endPos.x,
+                  y: endPos.y,
+                  scaleX: _this7.money_bag_selected.data.scaleX,
+                  scaleY: _this7.money_bag_selected.data.scaleY
+                }).call(function() {
+                  res();
+                }).start();
+              });
+
+             case 26:
+              _context4.next = 28;
+              return SlotsFacade.dm.reqSubGame({
+                rtype: 3,
+                act: 1,
+                choices: [ bagItem.data.id ]
+              });
+
+             case 28:
+              result = _context4.sent;
+              _this7._startSelectMultipleBag(result.data);
+
+             case 30:
+             case "end":
+              return _context4.stop();
+            }
+          }, _callee4);
+        }))();
+      },
+      _startSelectMultipleBag: function _startSelectMultipleBag(data) {
+        var _this8 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee5() {
+          return regeneratorRuntime.wrap(function _callee5$(_context5) {
+            while (1) switch (_context5.prev = _context5.next) {
+             case 0:
+              _this8._data.curSelectedIds = [];
+              _this8._multipleChoiceBagCnt = data.nextCount;
+              _this8.dialog_round_tips.active = true;
+              _this8.dialog_round_tips.scale = 0;
+              _this8.dialog_round_tips.getChildByName("label_1").getComponent(cc.Label).string = data.nextRound;
+              _this8.dialog_round_tips.getChildByName("label_2").getComponent(cc.Label).string = data.nextCount;
+              _context5.next = 8;
+              return new Promise(function(res) {
+                cc.tween(_this8.dialog_round_tips).to(1, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).delay(1.5).to(.5, {
+                  scale: 0
+                }, {
+                  easing: "backIn"
+                }).call(function() {
+                  _this8.dialog_round_tips.active = false;
+                  res();
+                }).start();
+              });
+
+             case 8:
+              _this8.title.active = false;
+              _this8.tips_have_select.active = true;
+              _this8.tips_have_select.getChildByName("label").getComponent(cc.Label).string = "0/" + _this8._multipleChoiceBagCnt;
+              _this8._data.bagState = 2;
+
+             case 12:
+             case "end":
+              return _context5.stop();
+            }
+          }, _callee5);
+        }))();
+      },
+      _selectMultipleBag: function _selectMultipleBag(bagItem) {
+        var _this9 = this;
+        var id = bagItem.data.id;
+        if (this._data.selectedIds.includes(id)) return;
+        this._data.selectedIds.push(id);
+        this._data.curSelectedIds.push(id);
+        this._data.currRoundSelectedCnt++;
+        this.tips_have_select.getChildByName("label").getComponent(cc.Label).string = this._data.currRoundSelectedCnt + "/" + this._multipleChoiceBagCnt;
+        var xuanzeqiandai = bagItem.getChildByName("xuanzeqiandai").getComponent(sp.Skeleton);
+        xuanzeqiandai.node.active = true;
+        xuanzeqiandai.setAnimation(0, "animation", false);
+        if (this._data.currRoundSelectedCnt == this._multipleChoiceBagCnt) {
+          this._data.bagState = 0;
+          this.scheduleOnce(function() {
+            _this9._processResult();
+          }, .5);
+        }
+      },
+      _processResult: function _processResult() {
+        var _this10 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee6() {
+          var result;
+          return regeneratorRuntime.wrap(function _callee6$(_context6) {
+            while (1) switch (_context6.prev = _context6.next) {
+             case 0:
+              _this10.tips_have_select.active = false;
+              _this10._setTitleState(0);
+              _context6.next = 4;
+              return SlotsFacade.dm.reqSubGame({
+                rtype: 3,
+                act: 2,
+                choices: _this10._data.curSelectedIds
+              });
+
+             case 4:
+              result = _context6.sent;
+              _this10.playChoiceResult(result.data);
+
+             case 6:
+             case "end":
+              return _context6.stop();
+            }
+          }, _callee6);
+        }))();
+      },
+      playChoiceResult: function playChoiceResult(data) {
+        var _this11 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee7() {
+          var shownode, bag1node, bag2node, moneybagcnt, self, dataitems, showmoneybag;
+          return regeneratorRuntime.wrap(function _callee7$(_context7) {
+            while (1) switch (_context7.prev = _context7.next) {
+             case 0:
+              _this11.money_bag.active = true;
+              shownode = cc.find("shownode", _this11.money_bag);
+              bag1node = cc.find("shownode/bag1", _this11.money_bag);
+              bag2node = cc.find("shownode/bag2", _this11.money_bag);
+              moneybagcnt = 0;
+              self = _this11;
+              dataitems = data.items;
+              showmoneybag = function showmoneybag() {
+                if (moneybagcnt >= self._multipleChoiceBagCnt) {
+                  self.money_bag.active = false;
+                  self._showBagResult(data.freeBags);
+                } else {
+                  var moneybagpos = self._data.curSelectedIds[moneybagcnt];
+                  self.hideChoiceMoneyBag(moneybagpos);
+                  shownode.opacity = 0;
+                  shownode.runAction(cc.fadeIn(.2));
+                  bag1node.active = true;
+                  bag1node.scale = 0;
+                  cc.find("label", bag1node).getComponent(cc.Label).string = moneybagpos;
+                  cc.tween(bag1node).to(.5, {
+                    scale: 1
+                  }, {
+                    easing: "backOut"
+                  }).delay(1).call(function() {
+                    bag2node.active = true;
+                    bag1node.active = false;
+                    var qiandaifanbei = cc.find("qiandaifanbei", bag2node);
+                    SlotsFacade.dm.playSpine(qiandaifanbei, "animation", false, function() {
+                      qiandaifanbei.active = false;
+                    });
+                    var multarr = dataitems[moneybagcnt];
+                    var multratio = multarr.length > 1 ? multarr[1] : multarr[0];
+                    var lblnode = cc.find("label", bag2node);
+                    lblnode.scale = 0;
+                    lblnode.getComponent(cc.Label).string = multratio + "X";
+                    cc.tween(lblnode).to(.5, {
+                      scale: 1
+                    }, {
+                      easing: "backOut"
+                    }).call(function() {
+                      1 == multarr.length && self.hideOutMult(multratio);
+                    }).delay(2).call(function() {
+                      multratio = multarr[0];
+                      if (multarr.length > 1) {
+                        self.hideOutMult(multratio);
+                        lblnode.getComponent(cc.Label).string = multratio + "X";
+                        var qiehuansp = cc.find("shuzhiqiehuan", bag2node);
+                        SlotsFacade.dm.playSpine(qiehuansp, "animation", false, function() {
+                          shownode.runAction(cc.sequence(cc.delayTime(2), cc.fadeOut(.5), cc.callFunc(function() {
+                            moneybagcnt++;
+                            bag2node.active = false;
+                            showmoneybag();
+                          })));
+                        });
+                      } else shownode.runAction(cc.sequence(cc.fadeOut(.5), cc.callFunc(function() {
+                        moneybagcnt++;
+                        bag2node.active = false;
+                        showmoneybag();
+                      })));
+                    }).start();
+                  }).start();
+                }
+              };
+              showmoneybag();
+
+             case 9:
+             case "end":
+              return _context7.stop();
+            }
+          }, _callee7);
+        }))();
+      },
+      getTakemultipleItem: function getTakemultipleItem(mult) {
+        for (var i = 1; i <= this._data.bagCnt; i++) if (takeCfg[i].multiple == mult) return i;
+      },
+      hideOutMult: function hideOutMult(mult) {
+        var itemidx = this.getTakemultipleItem(mult);
+        if (!itemidx) {
+          cc.error("###\u500d\u7387\u6ca1\u627e\u5230:" + mult);
+          return;
+        }
+        var bgnode = cc.find(cc.js.formatStr("take_multiple_%s/bg", itemidx), this.multipleListNode);
+        var lblnode = cc.find(cc.js.formatStr("take_multiple_%s/label", itemidx), this.multipleListNode);
+        var beishunode = cc.find(cc.js.formatStr("take_multiple_%s/beishuqubianhui", itemidx), this.multipleListNode);
+        bgnode.color = cc.color(90, 90, 90);
+        lblnode.color = cc.color(90, 90, 90);
+        SlotsFacade.dm.playSpine(beishunode, "animation", false);
+      },
+      hideChoiceMoneyBag: function hideChoiceMoneyBag(idx) {
+        var item = this.bagListNode.getChildByName("take_bag_" + idx);
+        item.getChildByName("xuanzeqiandai").active = false;
+        item.active = false;
+      },
+      _showBagResult: function _showBagResult(freeBags) {
+        var _this12 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee8() {
+          var content, prizenum, totalnum, tips_node;
+          return regeneratorRuntime.wrap(function _callee8$(_context8) {
+            while (1) switch (_context8.prev = _context8.next) {
+             case 0:
+              SlotsFacade.soundMgr.playEffect("board_show");
+              _this12.dialog_result.active = true;
+              content = _this12.dialog_result.getChildByName("content");
+              content.active = false;
+              content.getChildByName("label_1").getComponent(cc.Label).string = freeBags.mult + "X";
+              prizenum = Global.convertNumToShort(freeBags.prize, 1e3, 0);
+              totalnum = Global.convertNumToShort(freeBags.prize * freeBags.mult, 1e3, 0);
+              content.getChildByName("label_2").getComponent(cc.Label).string = cc.js.formatStr("%s X %s = %s", freeBags.mult, prizenum, totalnum);
+              tips_node = _this12.dialog_result.getChildByName("tips_node");
+              tips_node.active = true;
+              tips_node.scale = 0;
+              cc.tween(tips_node.getChildByName("tips")).repeatForever(cc.tween().to(.8, {
+                scale: .8
+              }).to(.8, {
+                scale: 1
+              })).start();
+              cc.tween(tips_node).to(.5, {
+                scale: 1.26
+              }, {
+                easing: "backOut"
+              }).call(function() {
+                content.active = true;
+              }).delay(2).to(.5, {
+                scale: 0
+              }, {
+                easing: "backIn"
+              }).call(function() {
+                tips_node.active = false;
+              }).start();
+
+             case 13:
+             case "end":
+              return _context8.stop();
+            }
+          }, _callee8);
+        }))();
+      },
+      _showMultToOffers: function _showMultToOffers(mult, index) {
+        var multnode = cc.find(cc.js.formatStr("getmult/multshow_%s", index), this.pre_offers_node);
+        multnode.getComponent(cc.Label).string = mult + "X";
+        multnode.scale = 0;
+        cc.tween(multnode).to(.3, {
+          scale: 1
+        }, {
+          easing: "backOut"
+        }).start();
+      },
+      _onTakeHandler: function _onTakeHandler() {
+        var _this13 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee9() {
+          var result;
+          return regeneratorRuntime.wrap(function _callee9$(_context9) {
+            while (1) switch (_context9.prev = _context9.next) {
+             case 0:
+              SlotsFacade.soundMgr.playEffect("bonus_end_show");
+              _context9.next = 3;
+              return SlotsFacade.dm.reqSubGame({
+                rtype: 3,
+                act: 3,
+                takeIt: true
+              });
+
+             case 3:
+              result = _context9.sent;
+              _context9.next = 6;
+              return SlotsFacade.popup.showCollectWinGold(result.data);
+
+             case 6:
+              SlotsFacade.dm.getFreeBagInfo().currCnt = 0;
+              _this13._reset();
+              _this13.close();
+
+             case 9:
+             case "end":
+              return _context9.stop();
+            }
+          }, _callee9);
+        }))();
+      },
+      _onLeaveItHandler: function _onLeaveItHandler() {
+        var _this14 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee10() {
+          var result, freebags;
+          return regeneratorRuntime.wrap(function _callee10$(_context10) {
+            while (1) switch (_context10.prev = _context10.next) {
+             case 0:
+              _context10.next = 2;
+              return SlotsFacade.dm.reqSubGame({
+                rtype: 3,
+                act: 3,
+                takeIt: false
+              });
+
+             case 2:
+              result = _context10.sent;
+              freebags = result.data.freeBags;
+              if (4 == freebags.currState.state) {
+                _this14._lastchoices = freebags.lastChoice;
+                _this14.showLastChoiceUI(_this14._lastchoices);
+              } else _this14._startSelectMultipleBag(result.data);
+              _this14._showMultToOffers(freebags.mult, freebags.historyMult.length);
+              _this14._data.currRoundSelectedCnt = 0;
+              _this14.dialog_result.active = false;
+
+             case 8:
+             case "end":
+              return _context10.stop();
+            }
+          }, _callee10);
+        }))();
+      },
+      _onKeepHandler: function _onKeepHandler() {
+        var _this15 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee11() {
+          var result;
+          return regeneratorRuntime.wrap(function _callee11$(_context11) {
+            while (1) switch (_context11.prev = _context11.next) {
+             case 0:
+              _context11.next = 2;
+              return SlotsFacade.dm.reqSubGame({
+                rtype: 3,
+                act: 4,
+                keep: true
+              });
+
+             case 2:
+              result = _context11.sent;
+              _context11.next = 5;
+              return _this15._showSingleMoneybag(result.data, _this15._lastchoices[0]);
+
+             case 5:
+              _context11.next = 7;
+              return SlotsFacade.popup.showCollectWinGold(result.data);
+
+             case 7:
+              SlotsFacade.dm.getFreeBagInfo().currCnt = 0;
+              _this15._reset();
+              _this15.close();
+
+             case 10:
+             case "end":
+              return _context11.stop();
+            }
+          }, _callee11);
+        }))();
+      },
+      _onTradeHander: function _onTradeHander() {
+        var _this16 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee12() {
+          var result;
+          return regeneratorRuntime.wrap(function _callee12$(_context12) {
+            while (1) switch (_context12.prev = _context12.next) {
+             case 0:
+              _context12.next = 2;
+              return SlotsFacade.dm.reqSubGame({
+                rtype: 3,
+                act: 4,
+                keep: false
+              });
+
+             case 2:
+              result = _context12.sent;
+              _context12.next = 5;
+              return _this16._showSingleMoneybag(result.data, _this16._lastchoices[1]);
+
+             case 5:
+              _context12.next = 7;
+              return SlotsFacade.popup.showCollectWinGold(result.data);
+
+             case 7:
+              SlotsFacade.dm.getFreeBagInfo().currCnt = 0;
+              _this16._reset();
+              _this16.close();
+
+             case 10:
+             case "end":
+              return _context12.stop();
+            }
+          }, _callee12);
+        }))();
+      },
+      _showSingleMoneybag: function _showSingleMoneybag(data, choicepos) {
+        var _this17 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee13() {
+          return regeneratorRuntime.wrap(function _callee13$(_context13) {
+            while (1) switch (_context13.prev = _context13.next) {
+             case 0:
+              return _context13.abrupt("return", new Promise(function(success) {
+                var moneybag2 = cc.find("panel/money_bag2", _this17.node);
+                moneybag2.active = true;
+                var shownode = cc.find("shownode", moneybag2);
+                var bag1node = cc.find("shownode/bag1", moneybag2);
+                var bag2node = cc.find("shownode/bag2", moneybag2);
+                bag1node.active = true;
+                shownode.scale = 0;
+                cc.find("label", bag1node).getComponent(cc.Label).string = choicepos;
+                cc.tween(shownode).to(.5, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).delay(1).call(function() {
+                  bag2node.active = true;
+                  bag1node.active = false;
+                  var qiandaifanbei = cc.find("qiandaifanbei", bag2node);
+                  SlotsFacade.dm.playSpine(qiandaifanbei, "animation", false, function() {
+                    qiandaifanbei.active = false;
+                  });
+                  var lblnode = cc.find("label", bag2node);
+                  lblnode.scale = 0;
+                  lblnode.getComponent(cc.Label).string = data.mult + "X";
+                  cc.tween(lblnode).to(.5, {
+                    scale: 1
+                  }, {
+                    easing: "backOut"
+                  }).delay(2).call(function() {
+                    _this17.dialog_result2.active = false;
+                    moneybag2.active = false;
+                    success();
+                  }).start();
+                }).start();
+              }));
+
+             case 1:
+             case "end":
+              return _context13.stop();
+            }
+          }, _callee13);
+        }))();
+      },
+      showLastChoiceUI: function showLastChoiceUI(lastchoice) {
+        cc.find("content/theme159_take_dialog5/label", this.dialog_result2).getComponent(cc.Label).string = lastchoice[0];
+        cc.find("content/theme159_take_dialog4/label", this.dialog_result2).getComponent(cc.Label).string = lastchoice[1];
+        this.dialog_result2.active = true;
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  DoubleAgent_CollectProgress: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "9e3b3nGNW9N3p1ii8X/yith", "DoubleAgent_CollectProgress");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        icon_energy: cc.Node,
+        btn_enter: cc.Node,
+        progressBar: cc.Node,
+        spine_switch_tips: sp.Skeleton,
+        spine_full: sp.Skeleton,
+        collect_track_particle: cc.Node,
+        unlock_tips: cc.Node,
+        _isOpen: false
+      },
+      onLoad: function onLoad() {
+        this._initListener();
+        this._init();
+      },
+      _initListener: function _initListener() {
+        var _this = this;
+        Global.registerEvent(cc.vv.gameData._EventId.SLOT_TOTALBET_UPDATED, function() {
+          _this.showCollect(false);
+        }, this);
+        this.btn_enter.on(cc.Node.EventType.TOUCH_END, this._onEnterHandler.bind(this), this);
+        this.progressBar.on(cc.Node.EventType.TOUCH_END, function() {
+          _this._isOpen || _this._showTips(true);
+        }, this);
+      },
+      _init: function _init() {
+        this.setProgress(SlotsFacade.dm.getCollectPercent());
+        this.showCollect(true);
+      },
+      _onEnterHandler: function _onEnterHandler() {
+        if (SlotsFacade.dm.hasFree()) return;
+        if (!SlotsFacade.bottomCmp.GetSpinBtnState()) return;
+        SlotsFacade.soundMgr.playEffect("btn_click");
+        SlotsFacade.bottomCmp.ShowBtnsByState("moveing_1");
+        SlotsFacade.collectGame.open(true, function() {
+          SlotsFacade.bottomCmp.ShowBtnsByState("idle");
+        });
+      },
+      _showTips: function _showTips(boo) {
+        var _this2 = this;
+        SlotsFacade.soundMgr.playEffect("tips");
+        this.unlock_tips.active && this.unlock_tips.stopAllActions();
+        if (boo) {
+          this.unlock_tips.active = true;
+          this.unlock_tips.opacity = 0;
+          cc.tween(this.unlock_tips).to(1, {
+            opacity: 255
+          }).delay(3).to(1, {
+            opacity: 0
+          }).call(function() {
+            _this2.unlock_tips.active = false;
+          }).start();
+        } else this.unlock_tips.active && cc.tween(this.unlock_tips).to(1, {
+          opacity: 0
+        }).call(function() {
+          _this2.unlock_tips.active = false;
+        }).start();
+      },
+      collectEnergy: function collectEnergy(globalPosArr, percent) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          var endPos, promiseArr;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              endPos = _this3.icon_energy.getPosition();
+              promiseArr = [];
+              globalPosArr.forEach(function(v) {
+                var pos = _this3.node.convertToNodeSpaceAR(v);
+                var lz = cc.instantiate(_this3.collect_track_particle);
+                lz.parent = _this3.node;
+                lz.x = pos.x;
+                lz.y = pos.y;
+                lz.active = true;
+                var p = lz.getComponent(cc.ParticleSystem);
+                p.resetSystem();
+                promiseArr.push(new Promise(function(res) {
+                  cc.tween(lz).to(.5, {
+                    x: endPos.x,
+                    y: endPos.y
+                  }).call(function() {
+                    lz.removeFromParent();
+                    res();
+                  }).start();
+                }));
+              });
+              SlotsFacade.soundMgr.playEffect("collect");
+              _context.next = 6;
+              return Promise.all(promiseArr);
+
+             case 6:
+              _this3.playCollectSpine();
+              _this3.setProgress(percent, true);
+
+             case 8:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      playCollectSpine: function playCollectSpine() {
+        var collectsp = cc.find("collectsp", this.icon_energy);
+        SlotsFacade.dm.playSpine(collectsp, "animation", false, null);
+      },
+      showCollect: function showCollect(isInit) {
+        var boo = SlotsFacade.dm.canCollect();
+        if (boo) {
+          if (!this._isOpen) if (isInit) this.spine_switch_tips.node.active = false; else {
+            SlotsFacade.soundMgr.playEffect("unlock");
+            this.spine_switch_tips.setAnimation(0, "animation1", false);
+          }
+        } else {
+          this.spine_switch_tips.node.active = true;
+          if (isInit) this.spine_switch_tips.setAnimation(0, "animation3", true); else if (this._isOpen) {
+            SlotsFacade.soundMgr.playEffect("lock");
+            this.spine_switch_tips.setAnimation(0, "animation2", false);
+          }
+        }
+        this._isOpen = boo;
+      },
+      playCollectEnd: function playCollectEnd() {
+        var _this4 = this;
+        return new Promise(function(res) {
+          SlotsFacade.soundMgr.playEffect("free_dialog_collect_show");
+          _this4.spine_collect_end.node.active = true;
+          _this4.spine_collect_end.setAnimation(0, "animation1", false);
+          _this4.spine_collect_end.setCompleteListener(function() {
+            _this4.spine_collect_end.setCompleteListener(null);
+            _this4.spine_collect_end.node.active = false;
+            res();
+          });
+        });
+      },
+      setProgress: function setProgress(percent, needTransform) {
+        percent = Math.min(1, percent);
+        var w = this.progressBar.width;
+        var spine = this.progressBar.getChildByName("spine_progress");
+        var toX = -w / 2 + percent * w;
+        needTransform ? cc.tween(spine).to(.5, {
+          x: toX
+        }).start() : spine.x = -w / 2 + percent * w;
+      },
+      showEnterCollectGameAni: function showEnterCollectGameAni() {
+        var _this5 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              _this5.spine_full.node.active = true;
+              _context2.next = 3;
+              return new Promise(function(res) {
+                _this5.spine_full.setAnimation(0, "animation", false);
+                _this5.spine_full.setCompleteListener(function() {
+                  _this5.spine_full.setCompleteListener(null);
+                  _this5.spine_full.node.active = false;
+                  res();
+                });
+              });
+
+             case 3:
+              _context2.next = 5;
+              return new Promise(function(res) {
+                var btn_enter_spine = _this5.btn_enter.getComponent(sp.Skeleton);
+                btn_enter_spine.setAnimation(0, "animation2", false);
+                btn_enter_spine.setCompleteListener(function() {
+                  btn_enter_spine.setCompleteListener(null);
+                  btn_enter_spine.setAnimation(0, "animation1", false);
+                  res();
+                });
+              });
+
+             case 5:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  DoubleAgent_ExtraWildGame: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "ffa26iyG9NKjo2GyHv4Kiss", "DoubleAgent_ExtraWildGame");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        colWildItems: [ cc.Node ],
+        jinbizhongjiang1: sp.Skeleton,
+        jinbizhongjiang2: sp.Skeleton,
+        xialuo: sp.Skeleton
+      },
+      onLoad: function onLoad() {
+        this.colWildItems.forEach(function(v, i) {
+          for (var j = 0; j <= 4; j++) {
+            var item = v.getChildByName("xialuo_zengjia_0" + j);
+            item.data = {
+              originX: item.x,
+              originY: item.y
+            };
+          }
+        });
+      },
+      startFallWild: function startFallWild(data) {
+        var _this = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          var maxRound, i;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              if (!(!data || data.length < 1)) {
+                _context.next = 2;
+                break;
+              }
+              return _context.abrupt("return");
+
+             case 2:
+              maxRound = 0;
+              data.forEach(function(v) {
+                maxRound = Math.max(maxRound, v.length);
+              });
+              i = 0;
+
+             case 5:
+              if (!(i < maxRound)) {
+                _context.next = 12;
+                break;
+              }
+              if (_this._stopFall) {
+                _context.next = 9;
+                break;
+              }
+              _context.next = 9;
+              return _this._fallARound(i + 1, data);
+
+             case 9:
+              i++;
+              _context.next = 5;
+              break;
+
+             case 12:
+              _this._stopFall = false;
+
+             case 13:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      showZengjiaWild: function showZengjiaWild(data) {
+        var _this2 = this;
+        if (!data || data.length < 1) return;
+        var index = 0;
+        this._stopFall = true;
+        data.forEach(function(v) {
+          var round = v.length;
+          if (round > 0) {
+            var colNode = _this2.colWildItems[index];
+            colNode.getChildByName("xialuo_01").active = false;
+            colNode.getChildByName("xialuo_xunhuan_01").active = false;
+            var feixingParticle = colNode.getChildByName("particle_feixing");
+            feixingParticle.stopAllActions();
+            feixingParticle.getComponent(cc.ParticleSystem).resetSystem();
+            feixingParticle.active = false;
+            for (var i = 0; i < round; i++) {
+              var zengjianode = colNode.getChildByName("xialuo_zengjia_0" + i);
+              zengjianode.cleanup();
+              zengjianode.stopAllActions();
+              zengjianode.active = true;
+              zengjianode.scale = 1;
+              var skl = zengjianode.getComponent(sp.Skeleton);
+              var endPos = skl.node.data;
+              skl.node.setPosition(endPos.originX, endPos.originY);
+            }
+          }
+          index++;
+        });
+      },
+      hideWilds: function hideWilds() {
+        this.jinbizhongjiang2.node.active = false;
+        var promiseArr = [];
+        var scaleTime = .2;
+        var maxdelay = 0;
+        for (var i = 0; i < 5; i++) {
+          var colNode = this.colWildItems[i];
+          var xialuo_01 = colNode.getChildByName("xialuo_01");
+          xialuo_01.active = false;
+          var particle_feixing = colNode.getChildByName("particle_feixing");
+          particle_feixing.active = false;
+          var xialuo_xunhuan_01 = colNode.getChildByName("xialuo_xunhuan_01");
+          xialuo_xunhuan_01.active = false;
+          var zongjiang_01 = colNode.getChildByName("xialuo_zongjiang_01");
+          zongjiang_01.active = false;
+          var delayTime = 0;
+          var _loop = function _loop(j) {
+            var xialuo_zengjia = colNode.getChildByName("xialuo_zengjia_0" + j);
+            if (xialuo_zengjia.active) {
+              cc.tween(xialuo_zengjia).delay(delayTime).to(scaleTime, {
+                scale: 0
+              }).call(function() {
+                xialuo_zengjia.active = false;
+              }).start();
+              delayTime += scaleTime;
+            }
+          };
+          for (var j = 4; j >= 0; j--) _loop(j);
+          delayTime > maxdelay && (maxdelay = delayTime);
+        }
+        return maxdelay;
+      },
+      _fallARound: function _fallARound(round, data) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var promissArr, i;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              SlotsFacade.soundMgr.playEffect("coin_drop");
+              promissArr = [];
+              for (i = 0; i < data.length; i++) data[i].length >= round && promissArr.push(_this3._playATrace(round, i));
+              if (!promissArr.length) {
+                _context2.next = 6;
+                break;
+              }
+              _context2.next = 6;
+              return Promise.all(promissArr);
+
+             case 6:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      _playATrace: function _playATrace(round, colIndex, startPos) {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          var colNode, xialuoSpine, startAniName, idleAniName, endPos, feixingParticle;
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              colNode = _this4.colWildItems[colIndex];
+              startPos || (startPos = colNode.getChildByName("pos_start").getPosition());
+              xialuoSpine = colNode.getChildByName("xialuo_zengjia_0" + (round - 1)).getComponent(sp.Skeleton);
+              xialuoSpine.node.setPosition(startPos.x, startPos.y);
+              xialuoSpine.node.scale = 1;
+              xialuoSpine.node.active = true;
+              startAniName = "animation" + (colIndex + 1);
+              idleAniName = startAniName + "_" + (colIndex + 1);
+              if (round > 1) {
+                startAniName = "animation1_2";
+                idleAniName = "animation1_1";
+              }
+              xialuoSpine.setAnimation(0, startAniName, false);
+              xialuoSpine.setCompleteListener(function() {
+                xialuoSpine.setCompleteListener(null);
+                xialuoSpine.setAnimation(0, idleAniName, false);
+              });
+              endPos = xialuoSpine.node.data;
+              cc.tween(xialuoSpine.node).to(.8, {
+                x: endPos.originX,
+                y: endPos.originY
+              }, {
+                easing: "cubicIn"
+              }).call(function() {
+                var xialuo_01_spine = colNode.getChildByName("xialuo_01").getComponent(sp.Skeleton);
+                xialuo_01_spine.node.setPosition(endPos.originX, endPos.originY);
+                xialuo_01_spine.node.active = true;
+                xialuo_01_spine.setAnimation(0, "animation", false);
+                xialuo_01_spine.setCompleteListener(function() {
+                  xialuo_01_spine.setCompleteListener(null);
+                  var xialuo_xunhuan_01_spine = colNode.getChildByName("xialuo_xunhuan_01").getComponent(sp.Skeleton);
+                  xialuo_xunhuan_01_spine.node.active = true;
+                  xialuo_xunhuan_01_spine.setAnimation(0, "animation", true);
+                });
+              }).start();
+              feixingParticle = colNode.getChildByName("particle_feixing");
+              feixingParticle.setPosition(startPos.x, startPos.y);
+              feixingParticle.active = true;
+              feixingParticle.stopAllActions();
+              feixingParticle.getComponent(cc.ParticleSystem).resetSystem();
+              cc.tween(feixingParticle).to(.8, {
+                x: 0,
+                y: 0
+              }, {
+                easing: "cubicIn"
+              }).call(function() {
+                feixingParticle.active = false;
+              }).start();
+              _context3.next = 21;
+              return SlotsFacade.delayTime(.81);
+
+             case 21:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      },
+      fillWilds: function fillWilds() {
+        var _this5 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee4() {
+          var boxIdx, boxSpine, symbol;
+          return regeneratorRuntime.wrap(function _callee4$(_context4) {
+            while (1) switch (_context4.prev = _context4.next) {
+             case 0:
+              boxIdx = SlotsFacade.dm.getBoxIndex();
+              boxSpine = null;
+              if (!(boxIdx > 0)) {
+                _context4.next = 7;
+                break;
+              }
+              symbol = SlotsFacade.slots.GetSymbolByIdx(boxIdx);
+              boxSpine = symbol.node.getChildByName("w11").getComponent(sp.Skeleton);
+              _context4.next = 7;
+              return _this5._fillWildsPuzzle(boxSpine);
+
+             case 7:
+              if (!SlotsFacade.dm.isCompletePuzzelWild()) {
+                _context4.next = 15;
+                break;
+              }
+              _context4.next = 10;
+              return _this5._showPrePuzzelGame();
+
+             case 10:
+              _context4.next = 12;
+              return _this5._releasePuzzleWilds();
+
+             case 12:
+              _this5.colWildItems.forEach(function(i) {
+                i.getChildByName("xialuo_zongjiang_01").active = false;
+              });
+              _context4.next = 15;
+              return _this5._releaseBoxWilds(boxSpine);
+
+             case 15:
+             case "end":
+              return _context4.stop();
+            }
+          }, _callee4);
+        }))();
+      },
+      _showPrePuzzelGame: function _showPrePuzzelGame() {
+        var _this6 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee5() {
+          return regeneratorRuntime.wrap(function _callee5$(_context5) {
+            while (1) switch (_context5.prev = _context5.next) {
+             case 0:
+              _this6.jinbizhongjiang1.node.active = true;
+              _this6.jinbizhongjiang1.setAnimation(0, "animation", false);
+              _this6.jinbizhongjiang1.setCompleteListener(function() {
+                _this6.jinbizhongjiang1.setCompleteListener(null);
+                _this6.jinbizhongjiang2.node.active = true;
+                _this6.jinbizhongjiang2.setAnimation(0, "animation", true);
+                _this6.colWildItems.forEach(function(i) {
+                  var xialuo_zongjiang = i.getChildByName("xialuo_zongjiang_01").getComponent(sp.Skeleton);
+                  xialuo_zongjiang.node.active = true;
+                  xialuo_zongjiang.setAnimation(0, "animation", true);
+                });
+              });
+              _context5.next = 5;
+              return SlotsFacade.delayTime(1.5);
+
+             case 5:
+             case "end":
+              return _context5.stop();
+            }
+          }, _callee5);
+        }))();
+      },
+      _fillWildsPuzzle: function _fillWildsPuzzle(boxSpine) {
+        var _this7 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee6() {
+          var cols, startPos, i, colNode, pos;
+          return regeneratorRuntime.wrap(function _callee6$(_context6) {
+            while (1) switch (_context6.prev = _context6.next) {
+             case 0:
+              cols = SlotsFacade.dm.getLackPuzzleWildCols();
+              if (!(cols.length < 1)) {
+                _context6.next = 3;
+                break;
+              }
+              return _context6.abrupt("return");
+
+             case 3:
+              SlotsFacade.soundMgr.playEffect("vault_coin");
+              startPos = boxSpine.node.convertToWorldSpaceAR(cc.v2(0, 0));
+              boxSpine.node.active = true;
+              boxSpine.setAnimation(0, "animation", false);
+              SlotsFacade.delayTime(.5);
+              for (i = 0; i < cols.length; i++) {
+                colNode = _this7.colWildItems[cols[i]];
+                pos = colNode.convertToNodeSpaceAR(startPos);
+                boxSpine.setAnimation(0, "animation3", false);
+                _this7._playATrace(1, cols[i], pos);
+              }
+              _context6.next = 11;
+              return SlotsFacade.delayTime(1);
+
+             case 11:
+             case "end":
+              return _context6.stop();
+            }
+          }, _callee6);
+        }))();
+      },
+      _releasePuzzleWilds: function _releasePuzzleWilds() {
+        var _this8 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee7() {
+          var maxRound, data, i;
+          return regeneratorRuntime.wrap(function _callee7$(_context7) {
+            while (1) switch (_context7.prev = _context7.next) {
+             case 0:
+              maxRound = 0;
+              data = SlotsFacade.dm.getSpinData().randomData.fallWilds;
+              data.forEach(function(v) {
+                maxRound = Math.max(maxRound, v.length);
+              });
+              if (!(maxRound > 0)) {
+                _context7.next = 6;
+                break;
+              }
+              _context7.next = 6;
+              return SlotsFacade.delayTime(.5);
+
+             case 6:
+              i = maxRound;
+
+             case 7:
+              if (!(i > 0)) {
+                _context7.next = 13;
+                break;
+              }
+              _context7.next = 10;
+              return _this8._releaseARound(i, data);
+
+             case 10:
+              i--;
+              _context7.next = 7;
+              break;
+
+             case 13:
+             case "end":
+              return _context7.stop();
+            }
+          }, _callee7);
+        }))();
+      },
+      _releaseARound: function _releaseARound(round, data) {
+        var _this9 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee8() {
+          var promissArr, i;
+          return regeneratorRuntime.wrap(function _callee8$(_context8) {
+            while (1) switch (_context8.prev = _context8.next) {
+             case 0:
+              SlotsFacade.soundMgr.playEffect("coin_fly");
+              promissArr = [];
+              for (i = 0; i < data.length; i++) data[i].length >= round && promissArr.push(_this9._releaseATrace(round, i, data[i][round - 1]));
+              if (!promissArr.length) {
+                _context8.next = 6;
+                break;
+              }
+              _context8.next = 6;
+              return Promise.all(promissArr);
+
+             case 6:
+             case "end":
+              return _context8.stop();
+            }
+          }, _callee8);
+        }))();
+      },
+      _releaseATrace: function _releaseATrace(round, colIndex, itemIndex) {
+        var _this10 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee9() {
+          var colNode, xialuoSpine, symbolItem, endPos;
+          return regeneratorRuntime.wrap(function _callee9$(_context9) {
+            while (1) switch (_context9.prev = _context9.next) {
+             case 0:
+              colNode = _this10.colWildItems[colIndex];
+              xialuoSpine = colNode.getChildByName("xialuo_zengjia_0" + round).getComponent(sp.Skeleton);
+              xialuoSpine.setAnimation(0, "animation1", false);
+              symbolItem = SlotsFacade.slots.GetSymbolByIdx(itemIndex);
+              endPos = colNode.convertToNodeSpaceAR(symbolItem.node.convertToWorldSpaceAR(cc.v2(0, 0)));
+              cc.tween(xialuoSpine.node).to(1, {
+                x: endPos.x,
+                y: endPos.y
+              }).call(function() {
+                xialuoSpine.node.active = false;
+                symbolItem.addWild();
+              }).start();
+              _context9.next = 8;
+              return SlotsFacade.delayTime(1.01);
+
+             case 8:
+             case "end":
+              return _context9.stop();
+            }
+          }, _callee9);
+        }))();
+      },
+      _releaseBoxWilds: function _releaseBoxWilds(boxSpine) {
+        var _this11 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee10() {
+          var data, i;
+          return regeneratorRuntime.wrap(function _callee10$(_context10) {
+            while (1) switch (_context10.prev = _context10.next) {
+             case 0:
+              _this11._stopFall = false;
+              data = SlotsFacade.dm.getSpinData().randomData.bankWilds;
+              SlotsFacade.delayTime(.5);
+              i = 0;
+
+             case 4:
+              if (!(i < data.length)) {
+                _context10.next = 10;
+                break;
+              }
+              _context10.next = 7;
+              return _this11._releaseABoxTrace([ data[i] ], boxSpine);
+
+             case 7:
+              i++;
+              _context10.next = 4;
+              break;
+
+             case 10:
+             case "end":
+              return _context10.stop();
+            }
+          }, _callee10);
+        }))();
+      },
+      _releaseABoxTrace: function _releaseABoxTrace(itemIndex, boxSpine) {
+        var _this12 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee11() {
+          var symbolItem, endPos, startPos, xialuoSpine;
+          return regeneratorRuntime.wrap(function _callee11$(_context11) {
+            while (1) switch (_context11.prev = _context11.next) {
+             case 0:
+              SlotsFacade.soundMgr.playEffect("coin_fly");
+              boxSpine.setAnimation(0, "animation3", false);
+              symbolItem = SlotsFacade.slots.GetSymbolByIdx(itemIndex);
+              endPos = _this12.node.convertToNodeSpaceAR(symbolItem.node.convertToWorldSpaceAR(cc.v2(0, 0)));
+              startPos = _this12.xialuo.node.parent.convertToNodeSpaceAR(boxSpine.node.convertToWorldSpaceAR(cc.v2(0, 0)));
+              xialuoSpine = _this12.xialuo;
+              xialuoSpine.node.active = true;
+              xialuoSpine.node.x = startPos.x;
+              xialuoSpine.node.y = startPos.y;
+              cc.tween(xialuoSpine.node).to(.9, {
+                x: endPos.x,
+                y: endPos.y
+              }).start();
+              _context11.next = 12;
+              return new Promise(function(res) {
+                xialuoSpine.setAnimation(0, "animation1", false);
+                xialuoSpine.setCompleteListener(function() {
+                  xialuoSpine.setCompleteListener(null);
+                  xialuoSpine.node.active = false;
+                  symbolItem.addWild();
+                  res();
+                });
+              });
+
+             case 12:
+             case "end":
+              return _context11.stop();
+            }
+          }, _callee11);
+        }))();
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  DoubleAgent_FlowCtrl: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "967f8IqTHhKu6DBAZbW6Xoj", "DoubleAgent_FlowCtrl");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    cc.Class({
+      extends: cc.Component,
+      enterRoom: function enterRoom() {
+        var freeBags = SlotsFacade.dm.getFreeBagInfo();
+        if (freeBags && freeBags.currState.state > 0) {
+          SlotsFacade.topCmp.SetBackLobby(false);
+          SlotsFacade.bottomCmp.ShowBtnsByState("moveing_1");
+          SlotsFacade.collectGame.reConnectCollect(freeBags);
+          return;
+        }
+        var total = cc.vv.gameData.GetTotalFree();
+        var rest = cc.vv.gameData.GetFreeTime();
+        if (rest > 0) {
+          SlotsFacade.bottomCmp.ShowFreeModel(true, total - rest, total);
+          var nTotal = cc.vv.gameData.GetTotalFreeWin();
+          SlotsFacade.bottomCmp.SetWin(nTotal);
+          this.enterFreeGame();
+        }
+        SlotsFacade.slots.CanDoNextRound();
+      },
+      onMsgSpine: function onMsgSpine(msg) {
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      spinEnd: function spinEnd() {
+        var _this = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var nWin, nTotal;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              _context2.next = 2;
+              return _this.collectEnergy();
+
+             case 2:
+              _context2.next = 4;
+              return SlotsFacade.extraWildCmp.fillWilds();
+
+             case 4:
+              SlotsFacade.slots.ShowWinTrace();
+              nWin = cc.vv.gameData.GetGameWin();
+              nTotal = nWin;
+              cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() != cc.vv.gameData.GetFreeTime() && (nTotal = cc.vv.gameData.GetGameTotalFreeWin());
+              _context2.next = 10;
+              return new Promise(function(res) {
+                SlotsFacade.slots.ShowBottomWin(nWin, nTotal, true, res);
+              });
+
+             case 10:
+              _context2.next = 12;
+              return _this.enterCollectGame();
+
+             case 12:
+              _context2.next = 14;
+              return SlotsFacade.delayTime(.3);
+
+             case 14:
+              if (!SlotsFacade.dm.isTriggerFree()) {
+                _context2.next = 31;
+                break;
+              }
+              _context2.next = 17;
+              return SlotsFacade.slots.playScatter(SlotsFacade.dm.getScatterIndexs());
+
+             case 17:
+              _context2.next = 19;
+              return SlotsFacade.popup.showWinFreeCnt(SlotsFacade.dm.triggerFreeCnt(), SlotsFacade.dm.isFistTriggerFree());
+
+             case 19:
+              if (!SlotsFacade.dm.isFistTriggerFree()) {
+                _context2.next = 27;
+                break;
+              }
+              SlotsFacade.slots.Backup();
+              SlotsFacade.mainPanel.showSceneTransition();
+              _context2.next = 24;
+              return SlotsFacade.delayTime(2.5);
+
+             case 24:
+              _context2.next = 26;
+              return SlotsFacade.slots.playBaoxiangJinChang();
+
+             case 26:
+              _this.enterFreeGame();
+
+             case 27:
+              _context2.next = 29;
+              return SlotsFacade.delayTime(1);
+
+             case 29:
+              _context2.next = 45;
+              break;
+
+             case 31:
+              if (!cc.vv.gameData.hasFree()) {
+                _context2.next = 34;
+                break;
+              }
+              _context2.next = 45;
+              break;
+
+             case 34:
+              if (!cc.vv.gameData.isLastEndFree()) {
+                _context2.next = 45;
+                break;
+              }
+              _context2.next = 37;
+              return SlotsFacade.popup.showWinGold(SlotsFacade.dm.getFreeWinCoin());
+
+             case 37:
+              SlotsFacade.mainPanel.showSceneTransition();
+              _context2.next = 40;
+              return SlotsFacade.delayTime(1.5);
+
+             case 40:
+              _this.enterNormalGame();
+              _context2.next = 43;
+              return SlotsFacade.delayTime(1);
+
+             case 43:
+              _context2.next = 45;
+              return new Promise(function(res) {
+                var freeWin = cc.vv.gameData.GetGameTotalFreeWin();
+                SlotsFacade.slots.ShowBottomWin(freeWin, freeWin, true, function() {
+                  res();
+                });
+              });
+
+             case 45:
+              SlotsFacade.slots.CanDoNextRound();
+
+             case 46:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      enterFreeGame: function enterFreeGame() {
+        SlotsFacade.topCmp.SetBackLobby(false);
+        SlotsFacade.bottomCmp.ShowBtnsByState("moveing_1");
+        SlotsFacade.mainPanel.showBg(true);
+        SlotsFacade.soundMgr.playBgm("free_bgm");
+      },
+      enterNormalGame: function enterNormalGame() {
+        SlotsFacade.slots.Resume();
+        SlotsFacade.bottomCmp.ShowFreeModel(false);
+        SlotsFacade.mainPanel.showBg(false);
+        SlotsFacade.soundMgr.playBgm();
+      },
+      enterCollectGame: function enterCollectGame() {
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          var energyData;
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              energyData = SlotsFacade.dm.energyData;
+              if (!(energyData && energyData.cmpInfo && energyData.cmpInfo.next_game)) {
+                _context3.next = 8;
+                break;
+              }
+              SlotsFacade.topCmp.SetBackLobby(false);
+              SlotsFacade.bottomCmp.ShowBtnsByState("moveing_1");
+              _context3.next = 6;
+              return SlotsFacade.collectProgress.showEnterCollectGameAni();
+
+             case 6:
+              _context3.next = 8;
+              return new Promise(function(res) {
+                SlotsFacade.collectGame.open(false, res);
+                SlotsFacade.collectProgress.setProgress(0);
+              });
+
+             case 8:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      },
+      collectEnergy: function collectEnergy() {
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee4() {
+          var energyData, items, posArr;
+          return regeneratorRuntime.wrap(function _callee4$(_context4) {
+            while (1) switch (_context4.prev = _context4.next) {
+             case 0:
+              energyData = SlotsFacade.dm.energyData;
+              if (!(energyData && energyData.currRoundValue)) {
+                _context4.next = 7;
+                break;
+              }
+              items = SlotsFacade.slots.getSymbolsByServerIds(SlotsFacade.dm.getCollectSymbolIndexs());
+              posArr = [];
+              items.forEach(function(v) {
+                posArr.push(v.node.convertToWorldSpaceAR(cc.v2(0, 0)));
+              });
+              _context4.next = 7;
+              return SlotsFacade.collectProgress.collectEnergy(posArr, SlotsFacade.dm.getCollectPercent());
+
+             case 7:
+             case "end":
+              return _context4.stop();
+            }
+          }, _callee4);
+        }))();
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  DoubleAgent_GameData: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "b805a2anrdKSYALilxT/8+w", "DoubleAgent_GameData");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_GameData_Base"),
+      properties: {
+        spinData: null,
+        extraWildIndexs: [],
+        energyData: null
+      },
+      init: function init(data, gameId) {
+        this._super(data, gameId);
+        this.energyData = this._deskInfo.energyData;
+      },
+      OnRcvNetSpine: function OnRcvNetSpine(msg) {
+        if (200 == msg.code) {
+          this.energyData = msg.energyData;
+          msg.randomData && msg.randomData.wild_idxs ? this.extraWildIndexs = msg.randomData.wild_idxs : this.extraWildIndexs = null;
+        }
+        this._super(msg);
+      },
+      getSpinData: function getSpinData() {
+        return this._gameInfo;
+      },
+      canCollect: function canCollect() {
+        return this.GetBetIdx() >= this.energyData.needBetIdx;
+      },
+      getCollectSymbolIndexs: function getCollectSymbolIndexs() {
+        var resultCards = this.getSpinData().resultCards;
+        if (!resultCards || resultCards.length < 1) return [];
+        var ret = [];
+        resultCards.forEach(function(v, i) {
+          3 == v && ret.push(i + 1);
+        });
+        return ret;
+      },
+      hasFree: function hasFree() {
+        return this.GetFreeTime() > 0;
+      },
+      isTriggerFree: function isTriggerFree() {
+        return this.triggerFreeCnt() > 0;
+      },
+      triggerFreeCnt: function triggerFreeCnt() {
+        var freeResult = this.getSpinData().freeResult;
+        if (freeResult && freeResult.triFreeCnt && freeResult.freeInfo && freeResult.freeInfo.freeCnt) return freeResult.freeInfo.freeCnt;
+        return 0;
+      },
+      isFistTriggerFree: function isFistTriggerFree() {
+        return this.hasFree() && this.GetFreeTime() == this.GetTotalFree();
+      },
+      isLastEndFree: function isLastEndFree() {
+        return 0 == this.GetFreeTime() && this.GetTotalFree() > 0;
+      },
+      getScatterIndexs: function getScatterIndexs() {
+        if (this.triggerFreeCnt() > 0) return this.getSpinData().freeResult.freeInfo.scatterIdx.concat();
+        return [];
+      },
+      getFreeWinCoin: function getFreeWinCoin() {
+        return this._gameInfo.freeWinCoin;
+      },
+      getBoxIndex: function getBoxIndex() {
+        var resultCards = this.getSpinData().resultCards;
+        if (11 == resultCards[2]) return 3;
+        if (11 == resultCards[7]) return 8;
+        if (11 == resultCards[12]) return 13;
+        if (11 == resultCards[17]) return 18;
+        return 0;
+      },
+      getLackPuzzleWildCols: function getLackPuzzleWildCols() {
+        var fallList = this.getSpinData().fallList;
+        var cols = [];
+        for (var i = 0; i < fallList.length; i++) fallList[i].length < 1 && cols.push(i);
+        return cols;
+      },
+      isCompletePuzzelWild: function isCompletePuzzelWild() {
+        var boxIndex = this.getBoxIndex();
+        if (boxIndex) return true;
+        var fallList = this.getSpinData().fallList;
+        if (5 != fallList.length) return false;
+        for (var i = 0; i < fallList.length; i++) if (!fallList[i].length) return false;
+        return true;
+      },
+      getMinCollectBet: function getMinCollectBet() {
+        if (this.energyData.needBetIdx > this.canBetList.length) return null;
+        var ret = {
+          singleBet: 0,
+          mult: 0,
+          line: this.currLine,
+          isMax: false
+        };
+        var index = this.colection.needBet - 1;
+        ret.singleBet = this.canBetList[index];
+        ret.mult = index;
+        return ret;
+      },
+      getCollectPercent: function getCollectPercent() {
+        if (!this.energyData) return 0;
+        return this.energyData.totalCoin / this.energyData.needCoins;
+      },
+      getFreeBagInfo: function getFreeBagInfo() {
+        return this._deskInfo.freeBags;
+      },
+      reqSubGame: function reqSubGame(dt) {
+        var _this = this;
+        return new Promise(function(res) {
+          var req = {
+            c: MsgId.SLOT_SUBGAME_DATA,
+            gameid: _this._gameId,
+            data: dt
+          };
+          var resp = function resp(msg) {
+            cc.vv.NetManager.unregisterMsg(MsgId.SLOT_SUBGAME_DATA, resp, false, _this);
+            console.log("reqSubGame-resp:", msg);
+            res(msg);
+          };
+          cc.vv.NetManager.registerMsg(MsgId.SLOT_SUBGAME_DATA, resp, _this);
+          cc.vv.NetManager.send(req, true);
+        });
+      },
+      getBigWinType: function getBigWinType(winCoin) {
+        var mul = winCoin / this.singleBet;
+        var type = -1;
+        mul >= 100 ? type = 5 : mul >= 80 ? type = 4 : mul >= 60 ? type = 3 : mul >= 40 ? type = 2 : mul >= 20 ? type = 1 : mul >= 10 && (type = 0);
+        return type;
+      },
+      playSpine: function playSpine(node, aniName, loop, endCall) {
+        if (node) {
+          node.active = true;
+          var ske = node.getComponent(sp.Skeleton);
+          if (ske) {
+            ske.setAnimation(0, aniName, loop);
+            ske.setCompleteListener(function() {
+              endCall && endCall();
+            });
+          }
+        }
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_GameData_Base: void 0
+  } ],
+  DoubleAgent_ItemsNode: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "91d2eD96G5I+ZiisHFEmaDy", "DoubleAgent_ItemsNode");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    var MOVESTATUS = {
+      STATUS_MOVE: 0,
+      STATUS_NEEDSTOP: 1,
+      STATUS_MOVEBACK: 2,
+      STATUS_REST: 3,
+      STATUS_STOP: 4
+    };
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        id: 0,
+        callBack: null,
+        gameCfg: null,
+        items: [],
+        itemClass: "",
+        itemsContainer: null,
+        itemsContainerRect: null,
+        itemWidth: 0,
+        itemHeight: 0,
+        activeItemsContainer: null,
+        col: 5,
+        row: 4,
+        spaceWidth: 0,
+        speed: 30,
+        moveBackSpace: 40,
+        firstColMinRoundCount: 2,
+        spaceRoundCount: 2,
+        colStateInfo: null,
+        canStartStop: false,
+        lineActionNode: null,
+        resultIds: null,
+        spine_add_speed: sp.Skeleton,
+        _isManualStop: false
+      },
+      onLoad: function onLoad() {
+        this.lineActionNode = new cc.Node();
+        this.lineActionNode.parent = this.node;
+      },
+      initColStateInfo: function initColStateInfo() {
+        this.colStateInfo = {};
+        for (var i = 0; i < this.col; i++) {
+          var colStateInfoItem = {
+            moveState: MOVESTATUS.STATUS_STOP,
+            spinedRound: 0,
+            needSpinRound: 1e9,
+            speed: this.speed,
+            needAddSpeed: false,
+            hasScatter: false
+          };
+          this.colStateInfo[i + ""] = colStateInfoItem;
+        }
+      },
+      resetColStateInfo: function resetColStateInfo(moveState) {
+        for (var i in this.colStateInfo) {
+          this.colStateInfo[i].moveState = moveState;
+          this.colStateInfo[i].spinedRound = 0;
+          this.colStateInfo[i].needSpinRound = 1e9;
+          this.colStateInfo[i].speed = this.speed;
+          this.colStateInfo[i].needAddSpeed = false;
+          this.colStateInfo[i].hasScatter = false;
+        }
+      },
+      init: function init(cb, gameCfg, itemClass) {
+        this.itemClass = itemClass;
+        this.itemsContainer = this.node.getChildByName("items_container");
+        this.gameCfg = gameCfg;
+        this.col = this.gameCfg.col;
+        this.row = this.gameCfg.row;
+        this.callBack = cb;
+        this.itemsContainerRect = this.itemsContainer.getBoundingBox();
+        this.itemWidth = (this.itemsContainerRect.width - this.spaceWidth * (this.col - 1)) / this.col;
+        this.itemHeight = this.itemsContainerRect.height / this.row;
+        this.activeItemsContainer = this.node.getChildByName("active_items_container");
+        this.initColStateInfo();
+        this._initItems();
+        this._initSpine();
+      },
+      _initSpine: function _initSpine() {
+        var spineAddSpeedNode = this.activeItemsContainer.getChildByName("spine_add_speed");
+        spineAddSpeedNode && (this.spine_add_speed = spineAddSpeedNode.getComponent(sp.Skeleton));
+      },
+      _showAddSpeedAni: function _showAddSpeedAni(boo, colIndex) {
+        if (!this.spine_add_speed) return;
+        this.spine_add_speed.node.active = boo;
+        if (boo) {
+          this.spine_add_speed.setAnimation(0, "animation", true);
+          var refNode = this.activeItemsContainer.getChildByName("active_item_" + (5 + colIndex));
+          this.spine_add_speed.node.x = refNode.x;
+          this._isManualStop || SlotsFacade.soundMgr.playEffect("reel_notify");
+        }
+      },
+      _initItems: function _initItems() {
+        var activeItemsContainer = this.activeItemsContainer;
+        var itemCount = this.col * this.row + this.col;
+        var activeItemTemplate = activeItemsContainer.getChildByName("active_item");
+        for (var i = 0; i < itemCount; i++) {
+          var node = new cc.Node();
+          node.addComponent(cc.Sprite);
+          node.parent = this.itemsContainer;
+          var cmp = node.addComponent(this.itemClass);
+          cmp.gameCfg = this.gameCfg;
+          cmp.itemId = -1;
+          cmp.rowIndex = parseInt(i / this.col);
+          cmp.colIndex = parseInt(i % this.col);
+          cmp.logicIndex = i;
+          if (i < itemCount - this.col) {
+            var activeItem = cc.instantiate(activeItemTemplate);
+            activeItem.active = true;
+            activeItem.parent = activeItemsContainer;
+            activeItem.name = "active_item_" + i;
+            cmp.initActiveNode(activeItem);
+          }
+          this.updateItem(cmp, -1);
+          this.items.push(cmp);
+        }
+        for (var _i = 0; _i < itemCount; _i++) {
+          var _cmp = this.items[_i];
+          var nextRow = _cmp.rowIndex + 1;
+          nextRow > this.row && (nextRow = 0);
+          var nextIndex = nextRow * this.col + _cmp.colIndex;
+          var nextRowNode = this.items[nextIndex].node;
+          _cmp.node.nextRowNode = nextRowNode;
+          var preRow = _cmp.rowIndex - 1;
+          preRow < 0 && (preRow = this.row);
+          var preIndex = preRow * this.col + _cmp.colIndex;
+          var preRowNode = this.items[preIndex].node;
+          _cmp.node.preRowNode = preRowNode;
+        }
+        this.initItemsPos();
+      },
+      updateItem: function updateItem(cmp, id) {
+        if (id <= 0) {
+          var idList = [ 1, 3, 4, 5, 6, 7, 8, 9, 10 ];
+          id = idList[parseInt(Math.random() * idList.length)];
+        }
+        cmp.bind(id);
+      },
+      fillAllItemsSpr: function fillAllItemsSpr(ids) {
+        this.resultIds = ids;
+        var scatterCount = 0;
+        for (var i = 0; i < this.col; i++) {
+          var key = i + "";
+          var hasScatter = this._hasScatterInCol(i);
+          this.colStateInfo[key].needAddSpeed = scatterCount >= 2;
+          this.colStateInfo[key].hasScatter = hasScatter;
+          hasScatter && scatterCount++;
+        }
+        for (var _i2 = 0; _i2 < ids.length; _i2++) this.updateItem(this.items[_i2], ids[_i2]);
+      },
+      initItemsPos: function initItemsPos() {
+        for (var i = 0; i < this.items.length; i++) {
+          var cmp = this.items[i];
+          cmp.node.x = this.itemWidth * cmp.colIndex + this.spaceWidth * cmp.colIndex + this.itemWidth / 2;
+          cmp.node.y = -this.itemHeight / 2 - this.itemHeight * cmp.rowIndex + this.itemsContainerRect.height;
+          if (cmp.activeNode) {
+            cmp.activeNode.x = cmp.node.x;
+            cmp.activeNode.y = cmp.node.y;
+          }
+        }
+      },
+      _hasScatterInCol: function _hasScatterInCol(colIndex) {
+        for (var i = 0; i < this.row; i++) {
+          var id = this.resultIds[i * this.col + colIndex];
+          if (id == this.gameCfg.scatterId) return true;
+        }
+        return false;
+      },
+      setColStop: function setColStop(colIndex) {
+        SlotsFacade.soundMgr.stopEffectByName("reel_notify");
+        SlotsFacade.soundMgr.playEffect("reel_stop");
+        for (var i = 0; i < this.items.length; i++) if (this.items[i].colIndex == colIndex) {
+          var cmp = this.items[i];
+          cmp.node.x = this.itemWidth * cmp.colIndex + this.spaceWidth * cmp.colIndex + this.itemWidth / 2;
+          cmp.node.y = -this.itemHeight / 2 - this.itemHeight * cmp.rowIndex + this.itemsContainerRect.height;
+        }
+        if (this.colStateInfo[colIndex.toString()].hasScatter) for (var _i3 = 0; _i3 < this.gameCfg.row; _i3++) {
+          var index = colIndex + _i3 * this.gameCfg.col;
+          var item = this.items[index];
+          if (item.itemId == this.gameCfg.scatterId) {
+            SlotsFacade.soundMgr.playEffect("symbol_scatter");
+            item.playScatter(true);
+          }
+        }
+        this._showAddSpeedAni(false);
+        if (colIndex + 1 < this.col) {
+          var colInfo = this.colStateInfo[colIndex + 1];
+          if (colInfo.needAddSpeed) {
+            colInfo.speed *= 2.5;
+            this._showAddSpeedAni(true, colIndex + 1);
+          }
+        }
+        if (this.isAllColSameMoveState(MOVESTATUS.STATUS_STOP) && this.callBack) {
+          SlotsFacade.soundMgr.stopEffectByName("reel_notify");
+          SlotsFacade.soundMgr.playEffect("reel_stop");
+          this.callBack({
+            evt: "complete",
+            target: this
+          });
+        }
+      },
+      isAllColSameMoveState: function isAllColSameMoveState(moveState) {
+        for (var i in this.colStateInfo) if (this.colStateInfo[i].moveState != moveState) return false;
+        return true;
+      },
+      update: function update(dt) {
+        for (var i = 0; i < this.items.length; i++) {
+          var cmp = this.items[i];
+          var colInfo = this.colStateInfo[cmp.colIndex];
+          colInfo.moveState == MOVESTATUS.STATUS_MOVE ? cmp.node.y -= colInfo.speed : colInfo.moveState == MOVESTATUS.STATUS_MOVEBACK && (cmp.node.y += colInfo.speed / 6);
+        }
+        for (var _i4 = 0; _i4 < this.items.length; _i4++) {
+          var _cmp2 = this.items[_i4];
+          var _colInfo = this.colStateInfo[_cmp2.colIndex];
+          if (_colInfo.moveState == MOVESTATUS.STATUS_MOVE) {
+            if (this.canStartStop && 0 == _cmp2.rowIndex && _colInfo.spinedRound >= _colInfo.needSpinRound && _cmp2.node.y < this.itemsContainerRect.height - this.itemHeight / 2 - this.moveBackSpace && _cmp2.node.y > this.itemHeight + this.itemHeight / 2) {
+              _colInfo.moveState = MOVESTATUS.STATUS_MOVEBACK;
+              this.colChangeToMoveBack(_cmp2.colIndex);
+            }
+            if (_cmp2.node.y < -this.itemHeight / 2) {
+              0 == _cmp2.rowIndex && _colInfo.spinedRound++;
+              _cmp2.node.y = _cmp2.node.nextRowNode.y + this.itemHeight;
+            }
+          } else if (_colInfo.moveState == MOVESTATUS.STATUS_MOVEBACK) if (0 == _cmp2.rowIndex && _cmp2.node.y > this.itemsContainerRect.height - this.itemHeight / 2) {
+            _colInfo.moveState = MOVESTATUS.STATUS_STOP;
+            this.setColStop(_cmp2.colIndex);
+          } else _cmp2.node.y > this.itemsContainerRect.height + this.itemHeight / 2 && (_cmp2.node.y = _cmp2.node.preRowNode.y - this.itemHeight);
+        }
+      },
+      startMove: function startMove() {
+        var _this = this;
+        this.clearActiveItems();
+        this.canStartStop = false;
+        this._isManualStop = false;
+        this.resultIds = [];
+        this.resetColStateInfo(MOVESTATUS.STATUS_MOVE);
+        this.scheduleOnce(function() {
+          _this.playAni_xztw();
+        }, .9);
+      },
+      toStartStop: function toStartStop(ids) {
+        this.canStartStop = true;
+        this.fillAllItemsSpr(ids);
+        var firstColStateInfo = this.colStateInfo[0];
+        var needRound = Math.max(this.firstColMinRoundCount, firstColStateInfo.spinedRound);
+        firstColStateInfo.needSpinRound = needRound;
+        for (var i = 1; i < this.col; i++) {
+          this.colStateInfo[i].needSpinRound = this.colStateInfo[i - 1].needSpinRound + this.spaceRoundCount;
+          this.colStateInfo[i].needAddSpeed && (this.colStateInfo[i].needSpinRound += 15);
+        }
+      },
+      manualStop: function manualStop(ids) {
+        this.canStartStop = true;
+        this._isManualStop = true;
+        this.fillAllItemsSpr(ids);
+        this.initItemsPos();
+        for (var i = 0; i < this.col; i++) {
+          var colStateInfo = this.colStateInfo[i];
+          colStateInfo.moveState != MOVESTATUS.STATUS_STOP && (this.colStateInfo[i].spinedRound = this.colStateInfo[i].needSpinRound);
+        }
+      },
+      playLine: function playLine(lineList, playOneByOne) {
+        var _this2 = this;
+        this.lineActionNode.stopAllActions();
+        var itemsIndex = [];
+        for (var i = 0; i < lineList.length; i++) itemsIndex = itemsIndex.concat(lineList[i].indexs);
+        var playAllAction = cc.callFunc(function() {
+          _this2.showBorder(itemsIndex);
+          _this2.showActiveItemsAni(itemsIndex);
+        });
+        if (playOneByOne) {
+          var _cc;
+          var delayAction = cc.delayTime(1.5);
+          var actionArr = [ playAllAction ];
+          var _loop = function _loop(_i5) {
+            actionArr.push(delayAction);
+            actionArr.push(cc.callFunc(function() {
+              _this2.playALine(lineList[_i5].indexs);
+            }));
+          };
+          for (var _i5 = 0; _i5 < lineList.length; _i5++) _loop(_i5);
+          actionArr.push(delayAction);
+          this.lineActionNode.runAction(cc.repeatForever((_cc = cc).sequence.apply(_cc, actionArr)));
+        } else this.lineActionNode.runAction(playAllAction);
+      },
+      playALine: function playALine(lineIndex) {
+        for (var i = 0; i < this.items.length; i++) {
+          var item = this.items[i];
+          item.showActiveAni(false);
+          item.showBorder(false);
+        }
+        this.showBorder(lineIndex);
+        this.showActiveItemsAni(lineIndex);
+      },
+      showBorder: function showBorder(itemsIndex) {
+        for (var i = 0; i < itemsIndex.length; i++) this.items[itemsIndex[i] - 1].showBorder(true);
+      },
+      showActiveItemsAni: function showActiveItemsAni(itemsIndex) {
+        for (var i = 0; i < itemsIndex.length; i++) this.items[itemsIndex[i] - 1].showActiveAni(true);
+      },
+      clearActiveItems: function clearActiveItems() {
+        this.lineActionNode.stopAllActions();
+        for (var i = 0; i < this.items.length; i++) {
+          var item = this.items[i];
+          item.showActiveAni(false);
+          item.showBorder(false);
+          item.showStaticIcon(-1);
+        }
+      },
+      clearBorder: function clearBorder() {
+        for (var i = 0; i < this.items.length; i++) this.items[i].showBorder(false);
+      },
+      getItemsByIndex: function getItemsByIndex(indexs) {
+        var _this3 = this;
+        var ret = [];
+        indexs.forEach(function(v) {
+          ret.push(_this3.items[v - 1]);
+        });
+        return ret;
+      },
+      playAni_xztw: function playAni_xztw() {
+        var spine = this.node.getChildByName("spine_xiangzituowei").getComponent(sp.Skeleton);
+        spine.node.active = true;
+        spine.setAnimation(0, "animation", false);
+        spine.setCompleteListener(function() {
+          spine.setCompleteListener(null);
+          spine.node.active = false;
+        });
+      },
+      playAni_bxjc: function playAni_bxjc() {},
+      colChangeToMoveBack: function colChangeToMoveBack(colIndex) {
+        if (2 == colIndex) {
+          var index = SlotsFacade.dm.getBoxIndex();
+          if (index) {
+            var item = this.items[index - 1];
+            var pos = item.activeNode.convertToWorldSpaceAR(cc.v2(0, 0));
+            SlotsFacade.extraWildCmp.showBox(pos);
+          }
+        }
+      },
+      playScatter: function playScatter(indexs) {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              SlotsFacade.soundMgr.playEffect("bell");
+              indexs.forEach(function(element) {
+                var item = _this4.items[element - 1];
+                item.playScatter();
+              });
+              _context.next = 4;
+              return SlotsFacade.delayTime(1.5);
+
+             case 4:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  DoubleAgent_Logic: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "d64deWjmSBKIq8s1phMlG3V", "DoubleAgent_Logic");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Logic_Base"),
+      properties: {},
+      onLoad: function onLoad() {
+        this.InitCommComponent();
+        window.SlotsFacade = this;
+        this.dm = cc.vv.gameData;
+        this.mainPanel = cc.find("safe_node", this.node).addComponent("DoubleAgent_MainPanel");
+        this.flowCtrl = this.addComponent("DoubleAgent_FlowCtrl");
+        this.soundMgr = this.addComponent("DoubleAgent_Sound");
+        this.extraWildCmp = this.mainPanel.extra_wild_game_node.getComponent("DoubleAgent_ExtraWildGame");
+        this.collectProgress = this.mainPanel.collect_progress.getComponent("DoubleAgent_CollectProgress");
+        this.collectGame = this.mainPanel.collect_game_node.getComponent("DoubleAgent_CollectGame");
+        this.popup = this.mainPanel.popup.getComponent("DoubleAgent_Popup");
+        this.topCmp = cc.vv.gameData.GetTopScript();
+        this.bottomCmp = cc.vv.gameData.GetBottomScript();
+        this.slots = cc.vv.gameData.GetSlotsScript();
+      },
+      onDestroy: function onDestroy() {
+        window.SlotsFacade = null;
+        this.dm = null;
+      },
+      delayTime: function delayTime(time) {
+        var _this = this;
+        return new Promise(function(res, rej) {
+          _this.scheduleOnce(function() {
+            res();
+          }, time);
+        });
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Logic_Base: void 0
+  } ],
+  DoubleAgent_MainPanel: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "690b7dpwytNRrwEiYOUZUDF", "DoubleAgent_MainPanel");
+    "use strict";
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        bg: cc.Node,
+        character_node: cc.Node,
+        slots: cc.Node,
+        collect_progress: cc.Node,
+        collect_game_node: cc.Node,
+        extra_wild_game_node: cc.Node,
+        popup: cc.Node,
+        transition_node: cc.Node,
+        spine_free_bg: sp.Skeleton
+      },
+      onLoad: function onLoad() {
+        this.bg = this.node.getChildByName("bg");
+        this.spine_free_bg = this.node.getChildByName("spine_free_bg").getComponent(sp.Skeleton);
+        this.character_node = this.node.getChildByName("character_node");
+        this.slots = this.node.getChildByName("slots");
+        this.collect_progress = this.slots.getChildByName("collect_progress");
+        this.collect_game_node = this.node.getChildByName("collect_game_node");
+        this.extra_wild_game_node = this.slots.getChildByName("extra_wild_game_node");
+        this.popup = this.node.getChildByName("popup");
+        this.transition_node = this.node.getChildByName("transition_node");
+        this.spineSceneTransition = this.transition_node.getChildByName("daqiangqieping").getComponent(sp.Skeleton);
+      },
+      showBg: function showBg(isFree) {
+        this.spine_free_bg.node.active = isFree;
+        var index = 0;
+        isFree && (index = 1);
+        this.bg.getComponent("ImgSwitchCmp").setIndex(index);
+      },
+      showSceneTransition: function showSceneTransition(cmpHandler) {
+        var _this = this;
+        SlotsFacade.soundMgr.playEffect("transition_free");
+        this.spineSceneTransition.node.active = true;
+        this.spineSceneTransition.setAnimation(0, "skill", false);
+        this.spineSceneTransition.setCompleteListener(function() {
+          _this.spineSceneTransition.setCompleteListener(null);
+          _this.spineSceneTransition.node.active = false;
+          cmpHandler && cmpHandler();
+        });
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  DoubleAgent_Popup: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "5638cE3kcJK85byfX3Nf5zM", "DoubleAgent_Popup");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        bg: cc.Node
+      },
+      onLoad: function onLoad() {},
+      showBg: function showBg(boo) {
+        this.bg.active = boo;
+      },
+      showWinGold: function showWinGold(goldNumb) {
+        var _this = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          var panel, okBtn;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              SlotsFacade.soundMgr.playEffect("free_dialog_collect_show");
+              _this.showBg(true);
+              panel = _this.node.getChildByName("dialog_free_win_coin");
+              panel.active = true;
+              panel.scale = 0;
+              panel.getChildByName("label_coin").getComponent("LabelRollCmp").startRoll(0, goldNumb);
+              okBtn = panel.getChildByName("ok_btn");
+              _context.next = 9;
+              return new Promise(function(res) {
+                cc.tween(panel).to(.5, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                var handler = function handler() {
+                  SlotsFacade.soundMgr.playEffect("common_click");
+                  okBtn.off(cc.Node.EventType.TOUCH_END, handler);
+                  cc.tween(panel).to(.5, {
+                    scale: 0
+                  }, {
+                    easing: "backIn"
+                  }).call(function() {
+                    _this.showBg(false);
+                    Global.SlotsSoundMgr.stopBgm();
+                    SlotsFacade.topCmp.SetBackLobby(true);
+                    res();
+                  }).start();
+                };
+                cc.vv.gameData.checkAutoPlay(okBtn, handler);
+                okBtn.on(cc.Node.EventType.TOUCH_END, function() {
+                  okBtn.stopAllActions();
+                  handler();
+                });
+              });
+
+             case 9:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      showWinFreeCnt: function showWinFreeCnt(cnt, isFirstTrigger) {
+        var _this2 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var panel, okBtn;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              SlotsFacade.soundMgr.playEffect("free_dialog_start_show");
+              _this2.showBg(true);
+              panel = _this2.node.getChildByName("dialog_free_cnt");
+              panel.active = true;
+              panel.scale = 0;
+              panel.getChildByName("label_free_cnt").getComponent(cc.Label).string = cnt.toString();
+              okBtn = panel.getChildByName("ok_btn");
+              okBtn.active = isFirstTrigger;
+              _context2.next = 10;
+              return new Promise(function(res) {
+                var tw = cc.tween(panel);
+                tw = tw.to(.5, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                });
+                if (isFirstTrigger) {
+                  var handler = function handler() {
+                    SlotsFacade.soundMgr.playEffect("common_click");
+                    okBtn.off(cc.Node.EventType.TOUCH_END, handler);
+                    cc.tween(panel).to(.5, {
+                      scale: 0
+                    }, {
+                      easing: "backIn"
+                    }).call(function() {
+                      _this2.showBg(false);
+                      res();
+                    }).start();
+                  };
+                  cc.vv.gameData.checkAutoPlay(okBtn, handler);
+                  okBtn.on(cc.Node.EventType.TOUCH_END, function() {
+                    okBtn.stopAllActions();
+                    handler();
+                  });
+                } else tw = tw.delay(1).to(.5, {
+                  scale: 0
+                }, {
+                  easing: "backIn"
+                }).call(function() {
+                  _this2.showBg(false);
+                  res();
+                });
+                tw.start();
+              });
+
+             case 10:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      showCollectWinGold: function showCollectWinGold(resultdata) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          var panel, lblcoin, lblgetdesc, prizenum, totalnum, okBtn;
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              SlotsFacade.soundMgr.playEffect("free_dialog_collect_show");
+              _this3.showBg(true);
+              panel = _this3.node.getChildByName("dialog_collect_win");
+              panel.active = true;
+              panel.scale = 0;
+              lblcoin = panel.getChildByName("lbl_coin");
+              lblgetdesc = panel.getChildByName("lbl_getdesc");
+              Global.doRoallNumEff(lblcoin, 0, resultdata.winCoin, 1, null, null, 0, true);
+              prizenum = Global.convertNumToShort(resultdata.prize, 1e3, 0);
+              totalnum = Global.convertNumToShort(resultdata.prize * resultdata.mult, 1e3, 0);
+              lblgetdesc.getComponent(cc.Label).string = cc.js.formatStr("%s X %s = %s", resultdata.mult, prizenum, totalnum);
+              okBtn = panel.getChildByName("btn_collect");
+              _context3.next = 14;
+              return new Promise(function(res) {
+                cc.tween(panel).to(.5, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                var handler = function handler() {
+                  SlotsFacade.soundMgr.playEffect("common_click");
+                  okBtn.off(cc.Node.EventType.TOUCH_END, handler);
+                  cc.tween(panel).to(.5, {
+                    scale: 0
+                  }, {
+                    easing: "backIn"
+                  }).call(function() {
+                    _this3.showBg(false);
+                    Global.SlotsSoundMgr.stopBgm();
+                    SlotsFacade.topCmp.SetBackLobby(true);
+                    SlotsFacade.bottomCmp.CanDoNextRound();
+                    res();
+                  }).start();
+                };
+                cc.vv.gameData.checkAutoPlay(okBtn, handler);
+                okBtn.on(cc.Node.EventType.TOUCH_END, function() {
+                  okBtn.stopAllActions();
+                  handler();
+                });
+              });
+
+             case 14:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  DoubleAgent_Reel: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "1445a9GYQRN7KWqqjGvZXXQ", "DoubleAgent_Reel");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Reel_Base"),
+      properties: {
+        bg: cc.Node
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Reel_Base: void 0
+  } ],
+  DoubleAgent_Slots: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "a1d44ZEBNhEKJR2xSQi/DmK", "DoubleAgent_Slots");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    cc.Class({
+      extends: require("LMSlots_Slots_Base"),
+      properties: {
+        _delaytimes: 0
+      },
+      StartMove: function StartMove() {
+        var _this = this;
+        this._super();
+        var spindata = SlotsFacade.dm.getSpinData();
+        spindata && (this._delaytimes = SlotsFacade.extraWildCmp.hideWilds());
+        0 == SlotsFacade.dm.GetTotalFree() && SlotsFacade.soundMgr.playBgm();
+        this.scheduleOnce(function() {
+          _this.playAni_xztw();
+        }, .9);
+      },
+      StopMove: function StopMove() {
+        this._super();
+        SlotsFacade.extraWildCmp.showZengjiaWild(SlotsFacade.dm.getSpinData().fallList);
+      },
+      playAni_xztw: function playAni_xztw() {
+        var spine = this.node.getChildByName("spine_xiangzituowei").getComponent(sp.Skeleton);
+        spine.node.active = true;
+        spine.setAnimation(0, "animation", false);
+        spine.setCompleteListener(function() {
+          spine.setCompleteListener(null);
+          spine.node.active = false;
+        });
+      },
+      onMsgSpine: function onMsgSpine(msg) {
+        var _this2 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              _context.next = 2;
+              return SlotsFacade.delayTime(_this2._delaytimes);
+
+             case 2:
+              SlotsFacade.extraWildCmp.startFallWild(SlotsFacade.dm.getSpinData().fallList);
+              _this2._gameInfo = msg;
+              _this2.SetSlotsResult(msg.resultCards);
+              _this2.SetReelStateInfo(msg.resultCards);
+
+             case 6:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      OnSpinEnd: function OnSpinEnd() {
+        SlotsFacade.flowCtrl.spinEnd();
+      },
+      ReconnectShow: function ReconnectShow() {
+        this.scheduleOnce(function() {
+          SlotsFacade.flowCtrl.enterRoom();
+        });
+      },
+      playScatter: function playScatter(indexs) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              SlotsFacade.soundMgr.playEffect("bell");
+              indexs.forEach(function(element) {
+                var item = _this3.GetSymbolByIdx(element);
+                item.playTriggerAnimation();
+              });
+              _context2.next = 4;
+              return SlotsFacade.delayTime(1.5);
+
+             case 4:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      getSymbolsByServerIds: function getSymbolsByServerIds(ids) {
+        var _this4 = this;
+        var ret = [];
+        ids.forEach(function(element) {
+          ret.push(_this4.GetSymbolByIdx(element));
+        });
+        return ret;
+      },
+      clearAllSymbolAniState: function clearAllSymbolAniState() {
+        for (var i = 0; i < this._reels.length; i++) {
+          var symbols = this._reels[i]._symbols;
+          for (var j = 0; j < symbols.length; j++) symbols[j].StartMove();
+        }
+      },
+      playBaoxiangJinChang: function playBaoxiangJinChang() {
+        var _this5 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              _this5.clearAllSymbolAniState();
+              return _context3.abrupt("return", new Promise(function(success) {
+                var num = 5;
+                var reel = _this5._reels[2];
+                reel._bMoving = true;
+                reel._stopTime = .8 * num;
+                var jinchang = function jinchang() {
+                  var baoxiang = cc.find("spine_baoxianxiangjinchang", _this5.node);
+                  if (num <= 0) {
+                    baoxiang.active = false;
+                    success();
+                  } else {
+                    baoxiang.scale = num % 2 == 1 ? 1 : -1;
+                    SlotsFacade.dm.playSpine(baoxiang, "animation", false, function() {
+                      _this5.changeSymobl();
+                    });
+                    _this5.scheduleOnce(function() {
+                      num -= 1;
+                      jinchang();
+                    }, .8);
+                  }
+                };
+                jinchang();
+              }));
+
+             case 2:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      },
+      changeSymobl: function changeSymobl() {
+        var symbols = this._reels[2]._symbols;
+        symbols[2].changeSymboltoBaoxiang();
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Slots_Base: void 0
+  } ],
+  DoubleAgent_Sound: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "fed14ByeL9I3pQoevGy02Br", "DoubleAgent_Sound");
+    "use strict";
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        _soundPath: "games/DoubleAgent/",
+        _isPlayBgm: false
+      },
+      playEffect: function playEffect(audioName, isLoop) {
+        return cc.vv.AudioManager.playEff(this._soundPath, audioName, true, isLoop);
+      },
+      stopEffectByName: function stopEffectByName(audioName) {
+        cc.vv.AudioManager.stopEffectByName(audioName);
+      },
+      stopEffect: function stopEffect() {
+        cc.vv.AudioManager.stopAudio();
+      },
+      playBgm: function playBgm(bgmName) {
+        if (bgmName) {
+          Global.SlotsSoundMgr.stopBgm();
+          Global.SlotsSoundMgr.playBgm(bgmName);
+        } else Global.SlotsSoundMgr.playNormalBgm();
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  DoubleAgent_symbol: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "19e35Z09+5CUrj1pbsCznzA", "DoubleAgent_symbol");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Symbol_Base"),
+      properties: {
+        wildCount: 0
+      },
+      StartMove: function StartMove() {
+        this._super();
+        this.wildCount = 0;
+        var wild = this.node.getChildByName("wild");
+        wild.active = false;
+      },
+      addWild: function addWild() {
+        1 != this.GetShowId() && this.ShowById(1, null);
+        this.wildCount += 1;
+        var wild = this.node.getChildByName("wild");
+        wild.active = true;
+        var spine = wild.getChildByName("spine").getComponent(sp.Skeleton);
+        spine.node.active = true;
+        spine.setAnimation(0, "animation1", false);
+        var wildMulti = null;
+        if (1 == this.wildCount) {
+          wildMulti = wild.getChildByName("wild_1").getComponent(sp.Skeleton);
+          wild.getChildByName("wild_multi").active = false;
+        } else {
+          wildMulti = wild.getChildByName("wild_multi").getComponent(sp.Skeleton);
+          wild.getChildByName("wild_1").active = false;
+        }
+        wildMulti.node.active = true;
+        wildMulti.setAnimation(0, "animation" + this.wildCount, false);
+        var wildlizibao = wild.getChildByName("wildlizibao");
+        SlotsFacade.dm.playSpine(wildlizibao, "animation", false, function() {
+          wildlizibao.active = false;
+        });
+      },
+      playWild: function playWild() {
+        this._showNode && (this._showNode.active = false);
+        var aniNode = this.setAnimationToTop(true);
+        aniNode.active = true;
+        var wild = aniNode.getChildByName("wild");
+        var spine = wild.getChildByName("spine").getComponent(sp.Skeleton);
+        spine.node.active = true;
+        spine.setAnimation(0, "animation1", false);
+        var wildMulti = null;
+        if (1 == this.wildCount) {
+          wildMulti = wild.getChildByName("wild_1").getComponent(sp.Skeleton);
+          wild.getChildByName("wild_multi").active = false;
+        } else {
+          wildMulti = wild.getChildByName("wild_multi").getComponent(sp.Skeleton);
+          wild.getChildByName("wild_1").active = false;
+        }
+        wildMulti.node.active = true;
+        wildMulti.setAnimation(0, "animation" + this.wildCount + "_1", true);
+      },
+      playWinAnimation: function playWinAnimation() {
+        1 == this.GetShowId() ? this.playWild() : this._super();
+      },
+      changeSymboltoBaoxiang: function changeSymboltoBaoxiang() {
+        this._showNode && (this._showNode.active = false);
+        this._id = 11;
+        var cfg = cc.vv.gameData.getGameCfg();
+        this._showNode = cc.find(cfg.symbol[11].node, this.node);
+        this._showNode.active = true;
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Symbol_Base: void 0
+  } ]
+}, {}, [ "DoubleAgent_ButtonSafe", "DoubleAgent_Cfg", "DoubleAgent_CollectGame", "DoubleAgent_CollectProgress", "DoubleAgent_ExtraWildGame", "DoubleAgent_FlowCtrl", "DoubleAgent_GameData", "DoubleAgent_ItemsNode", "DoubleAgent_Logic", "DoubleAgent_MainPanel", "DoubleAgent_Popup", "DoubleAgent_Reel", "DoubleAgent_Slots", "DoubleAgent_Sound", "DoubleAgent_symbol" ]);

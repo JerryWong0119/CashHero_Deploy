@@ -1,1 +1,302 @@
-[{"__type__":"cc.SpriteFrame","content":{"name":"clock_2","texture":"deGbgGHABI57N4d081mw1E","rect":[890,1736,36,36],"offset":[0,0],"originalSize":[36,36],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"bj","texture":"deGbgGHABI57N4d081mw1E","rect":[2,2,930,1400],"offset":[0,0],"originalSize":[930,1400],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteAtlas","_name":"level_up_gift.plist","_spriteFrames":{"500%":{"__uuid__":"19tQdkiDFFrY/CTEF5JfYE"},"acceptnow":{"__uuid__":"daHV6gOs9MQoB1GwHw2zpq"},"bj":{"__uuid__":"15Rqnb0TVF7qtzaVYPd/Bn"},"btn_next_time":{"__uuid__":"48Ha2S+RZFHp9U5cQeTEEH"},"clock_2":{"__uuid__":"0dNfZ561RBT4AYeir0EdFR"},"morecoins":{"__uuid__":"f1bxnD435M278a4X+xcNFm"},"salenormal_was_xian":{"__uuid__":"784aBiDZBEfb51USohNGKE"},"specoa":{"__uuid__":"b1C/AyHpRLMpCng+txqEgP"},"time_bg":{"__uuid__":"a71xSXPTxCNrr9FKMWbL1v"}}},{"__type__":"cc.SpriteFrame","content":{"name":"500%","texture":"deGbgGHABI57N4d081mw1E","rect":[2,1404,812,277],"offset":[-1,-1],"originalSize":[816,279],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"btn_next_time","texture":"deGbgGHABI57N4d081mw1E","rect":[395,1683,272,50],"offset":[0,0],"originalSize":[280,50],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"salenormal_was_xian","texture":"deGbgGHABI57N4d081mw1E","rect":[898,1404,10,6],"offset":[0,0],"originalSize":[10,6],"capInsets":[3,0,3,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"time_bg","texture":"deGbgGHABI57N4d081mw1E","rect":[816,1404,330,80],"offset":[0,0],"originalSize":[330,80],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.AnimationClip","_name":"clock_process","_duration":0.25,"speed":0.1,"wrapMode":2,"curveData":{"comps":{"cc.ProgressBar":{"progress":[{"frame":0,"value":0},{"frame":0.25,"value":1}]}}}},{"__type__":"cc.SpriteFrame","content":{"name":"specoa","texture":"deGbgGHABI57N4d081mw1E","rect":[2,1736,886,123],"offset":[0,0],"originalSize":[886,123],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"acceptnow","texture":"deGbgGHABI57N4d081mw1E","rect":[2,1683,391,48],"offset":[0,0],"originalSize":[391,48],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"morecoins","texture":"deGbgGHABI57N4d081mw1E","rect":[2,1861,676,96],"offset":[0,0],"originalSize":[678,96],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "clock_2",
+      "texture": "deGbgGHABI57N4d081mw1E",
+      "rect": [
+        890,
+        1736,
+        36,
+        36
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        36,
+        36
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bj",
+      "texture": "deGbgGHABI57N4d081mw1E",
+      "rect": [
+        2,
+        2,
+        930,
+        1400
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        930,
+        1400
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "level_up_gift.plist",
+    "_spriteFrames": {
+      "500%": {
+        "__uuid__": "19tQdkiDFFrY/CTEF5JfYE"
+      },
+      "acceptnow": {
+        "__uuid__": "daHV6gOs9MQoB1GwHw2zpq"
+      },
+      "bj": {
+        "__uuid__": "15Rqnb0TVF7qtzaVYPd/Bn"
+      },
+      "btn_next_time": {
+        "__uuid__": "48Ha2S+RZFHp9U5cQeTEEH"
+      },
+      "clock_2": {
+        "__uuid__": "0dNfZ561RBT4AYeir0EdFR"
+      },
+      "morecoins": {
+        "__uuid__": "f1bxnD435M278a4X+xcNFm"
+      },
+      "salenormal_was_xian": {
+        "__uuid__": "784aBiDZBEfb51USohNGKE"
+      },
+      "specoa": {
+        "__uuid__": "b1C/AyHpRLMpCng+txqEgP"
+      },
+      "time_bg": {
+        "__uuid__": "a71xSXPTxCNrr9FKMWbL1v"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "500%",
+      "texture": "deGbgGHABI57N4d081mw1E",
+      "rect": [
+        2,
+        1404,
+        812,
+        277
+      ],
+      "offset": [
+        -1,
+        -1
+      ],
+      "originalSize": [
+        816,
+        279
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "btn_next_time",
+      "texture": "deGbgGHABI57N4d081mw1E",
+      "rect": [
+        395,
+        1683,
+        272,
+        50
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        280,
+        50
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "salenormal_was_xian",
+      "texture": "deGbgGHABI57N4d081mw1E",
+      "rect": [
+        898,
+        1404,
+        10,
+        6
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        10,
+        6
+      ],
+      "capInsets": [
+        3,
+        0,
+        3,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "time_bg",
+      "texture": "deGbgGHABI57N4d081mw1E",
+      "rect": [
+        816,
+        1404,
+        330,
+        80
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        330,
+        80
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "clock_process",
+    "_duration": 0.25,
+    "speed": 0.1,
+    "wrapMode": 2,
+    "curveData": {
+      "comps": {
+        "cc.ProgressBar": {
+          "progress": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "value": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "specoa",
+      "texture": "deGbgGHABI57N4d081mw1E",
+      "rect": [
+        2,
+        1736,
+        886,
+        123
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        886,
+        123
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "acceptnow",
+      "texture": "deGbgGHABI57N4d081mw1E",
+      "rect": [
+        2,
+        1683,
+        391,
+        48
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        391,
+        48
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "morecoins",
+      "texture": "deGbgGHABI57N4d081mw1E",
+      "rect": [
+        2,
+        1861,
+        676,
+        96
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        678,
+        96
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

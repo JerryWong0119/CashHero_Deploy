@@ -1,1 +1,185 @@
-{"__type__":"sp.SkeletonData","_name":"xiangzi","_skeletonJson":{"skeleton":{"hash":"BDf10WAnpZCkKlPxcreJ4xGWIKM","spine":"3.6.53","width":217.5,"height":230.69,"images":"../sucai/"},"bones":[{"name":"root"},{"name":"shuipingxian","parent":"root","x":-10.69,"y":-75.69,"scaleX":0.5,"scaleY":0.5},{"name":"xiangzi","parent":"root","scaleX":0.5,"scaleY":0.5}],"slots":[{"name":"11","bone":"xiangzi","attachment":"11"},{"name":"xiangzi","bone":"xiangzi","attachment":"xiangzi"},{"name":"shuipingxian","bone":"shuipingxian","attachment":"shuipingxian"}],"skins":{"default":{"11":{"11":{"type":"clipping","end":"11","vertexCount":19,"vertices":[-150.8,134.48,-155.33,104.77,-147.11,98.25,-157.15,29.74,-171.48,-72.91,-155.34,-83.83,-141.99,-81.99,-38.05,-149.85,-37.08,-160.59,-20.49,-169.13,-16.09,-165.47,-7.8,-164,-3.89,-156.93,103.92,-125.55,111.72,-124.09,123.44,-130.19,138.32,-127.03,199.22,271.95,-122.72,264.56],"color":"ce3a3aff"}},"shuipingxian":{"shuipingxian":{"width":435,"height":240}},"xiangzi":{"xiangzi":{"width":342,"height":380}}}},"animations":{"animation":{"bones":{"xiangzi":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":1.5,"angle":2.35,"curve":[0.25,0,0.75,1]},{"time":3,"angle":0}],"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":0,"y":-10.79,"curve":[0.25,0,0.75,1]},{"time":3,"x":0,"y":0}]}}}}},"_atlasText":"\nxiangzi.png\nsize: 512,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nshuipingxian\n  rotate: true\n  xy: 2, 2\n  size: 218, 120\n  orig: 218, 120\n  offset: 0, 0\n  index: -1\nxiangzi\n  rotate: false\n  xy: 2, 222\n  size: 171, 190\n  orig: 171, 190\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"15Udhw3qZLrL8VZM/hkp7H"}],"textureNames":["xiangzi.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "xiangzi",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "BDf10WAnpZCkKlPxcreJ4xGWIKM",
+      "spine": "3.6.53",
+      "width": 217.5,
+      "height": 230.69,
+      "images": "../sucai/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "shuipingxian",
+        "parent": "root",
+        "x": -10.69,
+        "y": -75.69,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "xiangzi",
+        "parent": "root",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      }
+    ],
+    "slots": [
+      {
+        "name": "11",
+        "bone": "xiangzi",
+        "attachment": "11"
+      },
+      {
+        "name": "xiangzi",
+        "bone": "xiangzi",
+        "attachment": "xiangzi"
+      },
+      {
+        "name": "shuipingxian",
+        "bone": "shuipingxian",
+        "attachment": "shuipingxian"
+      }
+    ],
+    "skins": {
+      "default": {
+        "11": {
+          "11": {
+            "type": "clipping",
+            "end": "11",
+            "vertexCount": 19,
+            "vertices": [
+              -150.8,
+              134.48,
+              -155.33,
+              104.77,
+              -147.11,
+              98.25,
+              -157.15,
+              29.74,
+              -171.48,
+              -72.91,
+              -155.34,
+              -83.83,
+              -141.99,
+              -81.99,
+              -38.05,
+              -149.85,
+              -37.08,
+              -160.59,
+              -20.49,
+              -169.13,
+              -16.09,
+              -165.47,
+              -7.8,
+              -164,
+              -3.89,
+              -156.93,
+              103.92,
+              -125.55,
+              111.72,
+              -124.09,
+              123.44,
+              -130.19,
+              138.32,
+              -127.03,
+              199.22,
+              271.95,
+              -122.72,
+              264.56
+            ],
+            "color": "ce3a3aff"
+          }
+        },
+        "shuipingxian": {
+          "shuipingxian": {
+            "width": 435,
+            "height": 240
+          }
+        },
+        "xiangzi": {
+          "xiangzi": {
+            "width": 342,
+            "height": 380
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "bones": {
+          "xiangzi": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "angle": 2.35,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 0,
+                "y": -10.79,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nxiangzi.png\nsize: 512,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nshuipingxian\n  rotate: true\n  xy: 2, 2\n  size: 218, 120\n  orig: 218, 120\n  offset: 0, 0\n  index: -1\nxiangzi\n  rotate: false\n  xy: 2, 222\n  size: 171, 190\n  orig: 171, 190\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "15Udhw3qZLrL8VZM/hkp7H"
+    }
+  ],
+  "textureNames": [
+    "xiangzi.png"
+  ]
+}

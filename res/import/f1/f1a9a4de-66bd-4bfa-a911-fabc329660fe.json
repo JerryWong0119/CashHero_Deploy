@@ -1,1 +1,820 @@
-{"__type__":"sp.SkeletonData","_name":"TC_bg_gp","_skeletonJson":{"skeleton":{"hash":"zEbBVQa1wy5gAzLulAMsOBuldvM","spine":"3.6.53","width":580,"height":190.41,"images":"./img2/"},"bones":[{"name":"root"},{"name":"bone","parent":"root","y":47.72,"scaleX":2,"scaleY":2},{"name":"bone2","parent":"root","y":-55.46,"scaleX":2,"scaleY":2},{"name":"bone4","parent":"root"},{"name":"bone3","parent":"bone4","scaleX":2,"scaleY":2}],"slots":[{"name":"root","bone":"root"},{"name":"guang_00000","bone":"bone3","blend":"additive"},{"name":"golden_piggy","bone":"root","attachment":"golden_piggy"},{"name":"pick_bonus","bone":"root","attachment":"pick_bonus"},{"name":"sg1","bone":"bone","color":"ffea57ff","blend":"additive"},{"name":"sg2","bone":"bone2","blend":"additive"}],"skins":{"default":{"golden_piggy":{"golden_piggy":{"y":43.69,"width":580,"height":88}},"guang_00000":{"guang_00000":{"width":280,"height":279}},"pick_bonus":{"pick_bonus":{"y":-59.23,"width":463,"height":87}},"sg1":{"sg01/golden_piggy_00000":{"width":289,"height":43},"sg01/golden_piggy_00001":{"width":289,"height":43},"sg01/golden_piggy_00002":{"width":289,"height":43},"sg01/golden_piggy_00003":{"width":289,"height":43},"sg01/golden_piggy_00004":{"width":289,"height":43},"sg01/golden_piggy_00005":{"width":289,"height":43},"sg01/golden_piggy_00006":{"width":289,"height":43},"sg01/golden_piggy_00007":{"width":289,"height":43},"sg01/golden_piggy_00008":{"width":289,"height":43},"sg01/golden_piggy_00009":{"width":289,"height":43},"sg01/golden_piggy_00010":{"width":289,"height":43},"sg01/golden_piggy_00011":{"width":289,"height":43},"sg01/golden_piggy_00012":{"width":289,"height":43},"sg01/golden_piggy_00013":{"width":289,"height":43},"sg01/golden_piggy_00014":{"width":289,"height":43},"sg01/golden_piggy_00015":{"width":289,"height":43},"sg01/golden_piggy_00016":{"width":289,"height":43},"sg01/golden_piggy_00017":{"width":289,"height":43},"sg01/golden_piggy_00018":{"width":289,"height":43},"sg01/golden_piggy_00019":{"width":289,"height":43},"sg01/golden_piggy_00020":{"width":289,"height":43},"sg01/golden_piggy_00021":{"width":289,"height":43},"sg01/golden_piggy_00022":{"width":289,"height":43},"sg01/golden_piggy_00023":{"width":289,"height":43},"sg01/golden_piggy_00024":{"width":289,"height":43},"sg01/golden_piggy_00025":{"width":289,"height":43},"sg01/golden_piggy_00026":{"width":289,"height":43},"sg01/golden_piggy_00027":{"width":289,"height":43},"sg01/golden_piggy_00028":{"width":289,"height":43},"sg01/golden_piggy_00029":{"width":289,"height":43},"sg01/golden_piggy_00030":{"width":289,"height":43},"sg01/golden_piggy_00031":{"width":289,"height":43},"sg01/golden_piggy_00032":{"width":289,"height":43},"sg01/golden_piggy_00033":{"width":289,"height":43},"sg01/golden_piggy_00034":{"width":289,"height":43}},"sg2":{"sg02/pick_bonus_00000":{"width":231,"height":43},"sg02/pick_bonus_00001":{"width":231,"height":43},"sg02/pick_bonus_00002":{"width":231,"height":43},"sg02/pick_bonus_00003":{"width":231,"height":43},"sg02/pick_bonus_00004":{"width":231,"height":43},"sg02/pick_bonus_00005":{"width":231,"height":43},"sg02/pick_bonus_00006":{"width":231,"height":43},"sg02/pick_bonus_00007":{"width":231,"height":43},"sg02/pick_bonus_00008":{"width":231,"height":43},"sg02/pick_bonus_00009":{"width":231,"height":43},"sg02/pick_bonus_00010":{"width":231,"height":43},"sg02/pick_bonus_00011":{"width":231,"height":43},"sg02/pick_bonus_00012":{"width":231,"height":43},"sg02/pick_bonus_00013":{"width":231,"height":43},"sg02/pick_bonus_00014":{"width":231,"height":43},"sg02/pick_bonus_00015":{"width":231,"height":43},"sg02/pick_bonus_00016":{"width":231,"height":43},"sg02/pick_bonus_00017":{"width":231,"height":43},"sg02/pick_bonus_00018":{"width":231,"height":43},"sg02/pick_bonus_00019":{"width":231,"height":43},"sg02/pick_bonus_00020":{"width":231,"height":43},"sg02/pick_bonus_00021":{"width":231,"height":43},"sg02/pick_bonus_00022":{"width":231,"height":43},"sg02/pick_bonus_00023":{"width":231,"height":43},"sg02/pick_bonus_00024":{"width":231,"height":43},"sg02/pick_bonus_00025":{"width":231,"height":43},"sg02/pick_bonus_00026":{"width":231,"height":43},"sg02/pick_bonus_00027":{"width":231,"height":43},"sg02/pick_bonus_00028":{"width":231,"height":43},"sg02/pick_bonus_00029":{"width":231,"height":43},"sg02/pick_bonus_00030":{"width":231,"height":43},"sg02/pick_bonus_00031":{"width":231,"height":43},"sg02/pick_bonus_00032":{"width":231,"height":43},"sg02/pick_bonus_00033":{"width":231,"height":43},"sg02/pick_bonus_00034":{"width":231,"height":43}}}},"animations":{"glow":{"slots":{"golden_piggy":{"attachment":[{"time":0,"name":null}]},"guang_00000":{"attachment":[{"time":0,"name":"guang_00000"}]},"pick_bonus":{"attachment":[{"time":0,"name":null}]},"sg1":{"attachment":[{"time":0,"name":null}]},"sg2":{"attachment":[{"time":0,"name":null}]}},"bones":{"bone3":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":-60},{"time":4,"angle":-120},{"time":6,"angle":180},{"time":8,"angle":120},{"time":10,"angle":60},{"time":12,"angle":0}]},"bone4":{"scale":[{"time":0,"x":1,"y":0.654}]}}},"logo":{"slots":{"golden_piggy":{"attachment":[{"time":0,"name":"golden_piggy"}]},"guang_00000":{"attachment":[{"time":0,"name":null}]},"pick_bonus":{"attachment":[{"time":0,"name":"pick_bonus"}]},"sg1":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"sg01/golden_piggy_00000"},{"time":0.0667,"name":"sg01/golden_piggy_00001"},{"time":0.1,"name":"sg01/golden_piggy_00002"},{"time":0.1333,"name":"sg01/golden_piggy_00003"},{"time":0.1667,"name":"sg01/golden_piggy_00004"},{"time":0.2,"name":"sg01/golden_piggy_00005"},{"time":0.2333,"name":"sg01/golden_piggy_00006"},{"time":0.2667,"name":"sg01/golden_piggy_00007"},{"time":0.3,"name":"sg01/golden_piggy_00008"},{"time":0.3333,"name":"sg01/golden_piggy_00009"},{"time":0.3667,"name":"sg01/golden_piggy_00010"},{"time":0.4,"name":"sg01/golden_piggy_00011"},{"time":0.4333,"name":"sg01/golden_piggy_00012"},{"time":0.4667,"name":"sg01/golden_piggy_00013"},{"time":0.5,"name":"sg01/golden_piggy_00014"},{"time":0.5333,"name":"sg01/golden_piggy_00015"},{"time":0.5667,"name":"sg01/golden_piggy_00016"},{"time":0.6,"name":"sg01/golden_piggy_00017"},{"time":0.6333,"name":"sg01/golden_piggy_00018"},{"time":0.6667,"name":"sg01/golden_piggy_00019"},{"time":0.7,"name":"sg01/golden_piggy_00020"},{"time":0.7333,"name":"sg01/golden_piggy_00021"},{"time":0.7667,"name":"sg01/golden_piggy_00022"},{"time":0.8,"name":"sg01/golden_piggy_00023"},{"time":0.8333,"name":"sg01/golden_piggy_00024"},{"time":0.8667,"name":"sg01/golden_piggy_00025"},{"time":0.9,"name":"sg01/golden_piggy_00026"},{"time":0.9333,"name":"sg01/golden_piggy_00027"},{"time":0.9667,"name":"sg01/golden_piggy_00028"},{"time":1,"name":"sg01/golden_piggy_00029"},{"time":1.0333,"name":"sg01/golden_piggy_00030"},{"time":1.0667,"name":"sg01/golden_piggy_00031"},{"time":1.1,"name":"sg01/golden_piggy_00032"},{"time":1.1333,"name":"sg01/golden_piggy_00033"},{"time":1.1667,"name":"sg01/golden_piggy_00034"},{"time":1.2,"name":null},{"time":3,"name":null}]},"sg2":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"sg02/pick_bonus_00000"},{"time":0.0667,"name":"sg02/pick_bonus_00001"},{"time":0.1,"name":"sg02/pick_bonus_00002"},{"time":0.1333,"name":"sg02/pick_bonus_00003"},{"time":0.1667,"name":"sg02/pick_bonus_00004"},{"time":0.2,"name":"sg02/pick_bonus_00005"},{"time":0.2333,"name":"sg02/pick_bonus_00006"},{"time":0.2667,"name":"sg02/pick_bonus_00007"},{"time":0.3,"name":"sg02/pick_bonus_00008"},{"time":0.3333,"name":"sg02/pick_bonus_00009"},{"time":0.3667,"name":"sg02/pick_bonus_00010"},{"time":0.4,"name":"sg02/pick_bonus_00011"},{"time":0.4333,"name":"sg02/pick_bonus_00012"},{"time":0.4667,"name":"sg02/pick_bonus_00013"},{"time":0.5,"name":"sg02/pick_bonus_00014"},{"time":0.5333,"name":"sg02/pick_bonus_00015"},{"time":0.5667,"name":"sg02/pick_bonus_00016"},{"time":0.6,"name":"sg02/pick_bonus_00017"},{"time":0.6333,"name":"sg02/pick_bonus_00018"},{"time":0.6667,"name":"sg02/pick_bonus_00019"},{"time":0.7,"name":"sg02/pick_bonus_00020"},{"time":0.7333,"name":"sg02/pick_bonus_00021"},{"time":0.7667,"name":"sg02/pick_bonus_00022"},{"time":0.8,"name":"sg02/pick_bonus_00023"},{"time":0.8333,"name":"sg02/pick_bonus_00024"},{"time":0.8667,"name":"sg02/pick_bonus_00025"},{"time":0.9,"name":"sg02/pick_bonus_00026"},{"time":0.9333,"name":"sg02/pick_bonus_00027"},{"time":0.9667,"name":"sg02/pick_bonus_00028"},{"time":1,"name":"sg02/pick_bonus_00029"},{"time":1.0333,"name":"sg02/pick_bonus_00030"},{"time":1.0667,"name":"sg02/pick_bonus_00031"},{"time":1.1,"name":"sg02/pick_bonus_00032"},{"time":1.1333,"name":"sg02/pick_bonus_00033"},{"time":1.1667,"name":"sg02/pick_bonus_00034"},{"time":1.2,"name":null},{"time":3,"name":null}]}}}}},"_atlasText":"\nTC_bg_gp.png\nsize: 622,622\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngolden_piggy\n  rotate: false\n  xy: 2, 532\n  size: 580, 88\n  orig: 580, 88\n  offset: 0, 0\n  index: -1\nguang_00000\n  rotate: false\n  xy: 2, 251\n  size: 280, 279\n  orig: 280, 279\n  offset: 0, 0\n  index: -1\npick_bonus\n  rotate: false\n  xy: 2, 162\n  size: 463, 87\n  orig: 463, 87\n  offset: 0, 0\n  index: -1\nsg01/golden_piggy_00000\n  rotate: true\n  xy: 86, 2\n  size: 3, 37\n  orig: 289, 43\n  offset: 285, 4\n  index: -1\nsg01/golden_piggy_00001\n  rotate: true\n  xy: 510, 181\n  size: 13, 41\n  orig: 289, 43\n  offset: 275, 1\n  index: -1\nsg01/golden_piggy_00002\n  rotate: true\n  xy: 86, 7\n  size: 24, 41\n  orig: 289, 43\n  offset: 264, 1\n  index: -1\nsg01/golden_piggy_00003\n  rotate: false\n  xy: 584, 579\n  size: 34, 41\n  orig: 289, 43\n  offset: 254, 1\n  index: -1\nsg01/golden_piggy_00004\n  rotate: false\n  xy: 472, 119\n  size: 44, 41\n  orig: 289, 43\n  offset: 244, 1\n  index: -1\nsg01/golden_piggy_00005\n  rotate: false\n  xy: 415, 119\n  size: 55, 41\n  orig: 289, 43\n  offset: 233, 1\n  index: -1\nsg01/golden_piggy_00006\n  rotate: false\n  xy: 408, 76\n  size: 65, 41\n  orig: 289, 43\n  offset: 223, 1\n  index: -1\nsg01/golden_piggy_00007\n  rotate: false\n  xy: 331, 77\n  size: 75, 41\n  orig: 289, 43\n  offset: 213, 1\n  index: -1\nsg01/golden_piggy_00008\n  rotate: false\n  xy: 2, 119\n  size: 82, 41\n  orig: 289, 43\n  offset: 202, 1\n  index: -1\nsg01/golden_piggy_00009\n  rotate: false\n  xy: 284, 489\n  size: 82, 41\n  orig: 289, 43\n  offset: 192, 1\n  index: -1\nsg01/golden_piggy_00010\n  rotate: false\n  xy: 170, 119\n  size: 81, 41\n  orig: 289, 43\n  offset: 182, 1\n  index: -1\nsg01/golden_piggy_00011\n  rotate: false\n  xy: 2, 76\n  size: 82, 41\n  orig: 289, 43\n  offset: 171, 1\n  index: -1\nsg01/golden_piggy_00012\n  rotate: false\n  xy: 284, 403\n  size: 81, 41\n  orig: 289, 43\n  offset: 161, 1\n  index: -1\nsg01/golden_piggy_00013\n  rotate: true\n  xy: 326, 327\n  size: 74, 41\n  orig: 289, 43\n  offset: 158, 1\n  index: -1\nsg01/golden_piggy_00014\n  rotate: false\n  xy: 368, 447\n  size: 82, 40\n  orig: 289, 43\n  offset: 140, 1\n  index: -1\nsg01/golden_piggy_00015\n  rotate: false\n  xy: 170, 77\n  size: 81, 40\n  orig: 289, 43\n  offset: 130, 1\n  index: -1\nsg01/golden_piggy_00016\n  rotate: false\n  xy: 452, 447\n  size: 81, 40\n  orig: 289, 43\n  offset: 120, 1\n  index: -1\nsg01/golden_piggy_00017\n  rotate: false\n  xy: 86, 119\n  size: 82, 41\n  orig: 289, 43\n  offset: 109, 1\n  index: -1\nsg01/golden_piggy_00018\n  rotate: false\n  xy: 284, 446\n  size: 82, 41\n  orig: 289, 43\n  offset: 99, 1\n  index: -1\nsg01/golden_piggy_00019\n  rotate: false\n  xy: 452, 489\n  size: 81, 41\n  orig: 289, 43\n  offset: 89, 1\n  index: -1\nsg01/golden_piggy_00020\n  rotate: true\n  xy: 284, 251\n  size: 66, 41\n  orig: 289, 43\n  offset: 78, 1\n  index: -1\nsg01/golden_piggy_00021\n  rotate: false\n  xy: 253, 77\n  size: 76, 41\n  orig: 289, 43\n  offset: 68, 1\n  index: -1\nsg01/golden_piggy_00022\n  rotate: false\n  xy: 86, 33\n  size: 81, 41\n  orig: 289, 43\n  offset: 58, 1\n  index: -1\nsg01/golden_piggy_00023\n  rotate: false\n  xy: 368, 489\n  size: 82, 41\n  orig: 289, 43\n  offset: 47, 1\n  index: -1\nsg01/golden_piggy_00024\n  rotate: false\n  xy: 86, 76\n  size: 82, 41\n  orig: 289, 43\n  offset: 37, 1\n  index: -1\nsg01/golden_piggy_00025\n  rotate: true\n  xy: 535, 449\n  size: 81, 40\n  orig: 289, 43\n  offset: 27, 1\n  index: -1\nsg01/golden_piggy_00026\n  rotate: false\n  xy: 253, 120\n  size: 82, 40\n  orig: 289, 43\n  offset: 16, 1\n  index: -1\nsg01/golden_piggy_00027\n  rotate: true\n  xy: 284, 319\n  size: 82, 40\n  orig: 289, 43\n  offset: 6, 1\n  index: -1\nsg01/golden_piggy_00028\n  rotate: false\n  xy: 337, 120\n  size: 76, 40\n  orig: 289, 43\n  offset: 1, 1\n  index: -1\nsg01/golden_piggy_00029\n  rotate: true\n  xy: 494, 338\n  size: 66, 40\n  orig: 289, 43\n  offset: 1, 1\n  index: -1\nsg01/golden_piggy_00030\n  rotate: true\n  xy: 543, 391\n  size: 56, 40\n  orig: 289, 43\n  offset: 1, 1\n  index: -1\nsg01/golden_piggy_00031\n  rotate: false\n  xy: 574, 259\n  size: 45, 40\n  orig: 289, 43\n  offset: 1, 1\n  index: -1\nsg01/golden_piggy_00032\n  rotate: false\n  xy: 584, 537\n  size: 35, 40\n  orig: 289, 43\n  offset: 1, 1\n  index: -1\nsg01/golden_piggy_00033\n  rotate: true\n  xy: 380, 7\n  size: 25, 40\n  orig: 289, 43\n  offset: 1, 1\n  index: -1\nsg01/golden_piggy_00034\n  rotate: true\n  xy: 585, 399\n  size: 15, 34\n  orig: 289, 43\n  offset: 1, 4\n  index: -1\nsg02/pick_bonus_00000\n  rotate: true\n  xy: 129, 7\n  size: 7, 36\n  orig: 231, 43\n  offset: 1, 2\n  index: -1\nsg02/pick_bonus_00001\n  rotate: true\n  xy: 129, 16\n  size: 15, 38\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00002\n  rotate: false\n  xy: 518, 406\n  size: 23, 39\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00003\n  rotate: false\n  xy: 585, 416\n  size: 32, 39\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00004\n  rotate: false\n  xy: 522, 35\n  size: 40, 39\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00005\n  rotate: true\n  xy: 509, 221\n  size: 48, 39\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00006\n  rotate: true\n  xy: 533, 275\n  size: 56, 39\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00007\n  rotate: false\n  xy: 455, 35\n  size: 65, 39\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00008\n  rotate: true\n  xy: 327, 252\n  size: 73, 40\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00009\n  rotate: true\n  xy: 170, 2\n  size: 73, 40\n  orig: 231, 43\n  offset: 9, 1\n  index: -1\nsg02/pick_bonus_00010\n  rotate: true\n  xy: 212, 2\n  size: 73, 40\n  orig: 231, 43\n  offset: 18, 1\n  index: -1\nsg02/pick_bonus_00011\n  rotate: true\n  xy: 254, 2\n  size: 73, 40\n  orig: 231, 43\n  offset: 26, 1\n  index: -1\nsg02/pick_bonus_00012\n  rotate: true\n  xy: 467, 195\n  size: 66, 40\n  orig: 231, 43\n  offset: 34, 1\n  index: -1\nsg02/pick_bonus_00013\n  rotate: true\n  xy: 296, 2\n  size: 73, 40\n  orig: 231, 43\n  offset: 42, 1\n  index: -1\nsg02/pick_bonus_00014\n  rotate: true\n  xy: 338, 2\n  size: 73, 40\n  orig: 231, 43\n  offset: 51, 1\n  index: -1\nsg02/pick_bonus_00015\n  rotate: false\n  xy: 380, 34\n  size: 73, 40\n  orig: 231, 43\n  offset: 59, 1\n  index: -1\nsg02/pick_bonus_00016\n  rotate: true\n  xy: 577, 457\n  size: 73, 40\n  orig: 231, 43\n  offset: 67, 1\n  index: -1\nsg02/pick_bonus_00017\n  rotate: false\n  xy: 368, 405\n  size: 73, 40\n  orig: 231, 43\n  offset: 75, 1\n  index: -1\nsg02/pick_bonus_00018\n  rotate: true\n  xy: 2, 2\n  size: 72, 40\n  orig: 231, 43\n  offset: 84, 1\n  index: -1\nsg02/pick_bonus_00019\n  rotate: false\n  xy: 443, 406\n  size: 73, 39\n  orig: 231, 43\n  offset: 92, 1\n  index: -1\nsg02/pick_bonus_00020\n  rotate: true\n  xy: 492, 271\n  size: 60, 39\n  orig: 231, 43\n  offset: 113, 1\n  index: -1\nsg02/pick_bonus_00021\n  rotate: true\n  xy: 451, 263\n  size: 68, 39\n  orig: 231, 43\n  offset: 113, 1\n  index: -1\nsg02/pick_bonus_00022\n  rotate: true\n  xy: 369, 330\n  size: 73, 39\n  orig: 231, 43\n  offset: 117, 1\n  index: -1\nsg02/pick_bonus_00023\n  rotate: true\n  xy: 369, 255\n  size: 73, 39\n  orig: 231, 43\n  offset: 125, 1\n  index: -1\nsg02/pick_bonus_00024\n  rotate: true\n  xy: 410, 330\n  size: 73, 39\n  orig: 231, 43\n  offset: 133, 1\n  index: -1\nsg02/pick_bonus_00025\n  rotate: true\n  xy: 410, 255\n  size: 73, 39\n  orig: 231, 43\n  offset: 141, 1\n  index: -1\nsg02/pick_bonus_00026\n  rotate: true\n  xy: 44, 2\n  size: 72, 40\n  orig: 231, 43\n  offset: 150, 1\n  index: -1\nsg02/pick_bonus_00027\n  rotate: true\n  xy: 451, 333\n  size: 71, 41\n  orig: 231, 43\n  offset: 158, 1\n  index: -1\nsg02/pick_bonus_00028\n  rotate: false\n  xy: 475, 76\n  size: 64, 41\n  orig: 231, 43\n  offset: 166, 1\n  index: -1\nsg02/pick_bonus_00029\n  rotate: true\n  xy: 536, 333\n  size: 56, 41\n  orig: 231, 43\n  offset: 174, 1\n  index: -1\nsg02/pick_bonus_00030\n  rotate: true\n  xy: 579, 342\n  size: 47, 41\n  orig: 231, 43\n  offset: 183, 1\n  index: -1\nsg02/pick_bonus_00031\n  rotate: true\n  xy: 579, 301\n  size: 39, 41\n  orig: 231, 43\n  offset: 191, 1\n  index: -1\nsg02/pick_bonus_00032\n  rotate: true\n  xy: 467, 162\n  size: 31, 41\n  orig: 231, 43\n  offset: 199, 1\n  index: -1\nsg02/pick_bonus_00033\n  rotate: true\n  xy: 509, 196\n  size: 23, 41\n  orig: 231, 43\n  offset: 207, 1\n  index: -1\nsg02/pick_bonus_00034\n  rotate: true\n  xy: 510, 165\n  size: 14, 38\n  orig: 231, 43\n  offset: 216, 4\n  index: -1\n","textures":[{"__uuid__":"1255z1EShHtLx9WsLJbbBi"}],"textureNames":["TC_bg_gp.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "TC_bg_gp",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "zEbBVQa1wy5gAzLulAMsOBuldvM",
+      "spine": "3.6.53",
+      "width": 580,
+      "height": 190.41,
+      "images": "./img2/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root",
+        "y": 47.72,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "bone2",
+        "parent": "root",
+        "y": -55.46,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "bone4",
+        "parent": "root"
+      },
+      {
+        "name": "bone3",
+        "parent": "bone4",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "root",
+        "bone": "root"
+      },
+      {
+        "name": "guang_00000",
+        "bone": "bone3",
+        "blend": "additive"
+      },
+      {
+        "name": "golden_piggy",
+        "bone": "root",
+        "attachment": "golden_piggy"
+      },
+      {
+        "name": "pick_bonus",
+        "bone": "root",
+        "attachment": "pick_bonus"
+      },
+      {
+        "name": "sg1",
+        "bone": "bone",
+        "color": "ffea57ff",
+        "blend": "additive"
+      },
+      {
+        "name": "sg2",
+        "bone": "bone2",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "golden_piggy": {
+          "golden_piggy": {
+            "y": 43.69,
+            "width": 580,
+            "height": 88
+          }
+        },
+        "guang_00000": {
+          "guang_00000": {
+            "width": 280,
+            "height": 279
+          }
+        },
+        "pick_bonus": {
+          "pick_bonus": {
+            "y": -59.23,
+            "width": 463,
+            "height": 87
+          }
+        },
+        "sg1": {
+          "sg01/golden_piggy_00000": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00001": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00002": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00003": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00004": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00005": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00006": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00007": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00008": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00009": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00010": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00011": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00012": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00013": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00014": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00015": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00016": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00017": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00018": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00019": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00020": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00021": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00022": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00023": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00024": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00025": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00026": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00027": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00028": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00029": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00030": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00031": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00032": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00033": {
+            "width": 289,
+            "height": 43
+          },
+          "sg01/golden_piggy_00034": {
+            "width": 289,
+            "height": 43
+          }
+        },
+        "sg2": {
+          "sg02/pick_bonus_00000": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00001": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00002": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00003": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00004": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00005": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00006": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00007": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00008": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00009": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00010": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00011": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00012": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00013": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00014": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00015": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00016": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00017": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00018": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00019": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00020": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00021": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00022": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00023": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00024": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00025": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00026": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00027": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00028": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00029": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00030": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00031": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00032": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00033": {
+            "width": 231,
+            "height": 43
+          },
+          "sg02/pick_bonus_00034": {
+            "width": 231,
+            "height": 43
+          }
+        }
+      }
+    },
+    "animations": {
+      "glow": {
+        "slots": {
+          "golden_piggy": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "guang_00000": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "guang_00000"
+              }
+            ]
+          },
+          "pick_bonus": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "sg1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "sg2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": -60
+              },
+              {
+                "time": 4,
+                "angle": -120
+              },
+              {
+                "time": 6,
+                "angle": 180
+              },
+              {
+                "time": 8,
+                "angle": 120
+              },
+              {
+                "time": 10,
+                "angle": 60
+              },
+              {
+                "time": 12,
+                "angle": 0
+              }
+            ]
+          },
+          "bone4": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.654
+              }
+            ]
+          }
+        }
+      },
+      "logo": {
+        "slots": {
+          "golden_piggy": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "golden_piggy"
+              }
+            ]
+          },
+          "guang_00000": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "pick_bonus": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "pick_bonus"
+              }
+            ]
+          },
+          "sg1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "sg01/golden_piggy_00000"
+              },
+              {
+                "time": 0.0667,
+                "name": "sg01/golden_piggy_00001"
+              },
+              {
+                "time": 0.1,
+                "name": "sg01/golden_piggy_00002"
+              },
+              {
+                "time": 0.1333,
+                "name": "sg01/golden_piggy_00003"
+              },
+              {
+                "time": 0.1667,
+                "name": "sg01/golden_piggy_00004"
+              },
+              {
+                "time": 0.2,
+                "name": "sg01/golden_piggy_00005"
+              },
+              {
+                "time": 0.2333,
+                "name": "sg01/golden_piggy_00006"
+              },
+              {
+                "time": 0.2667,
+                "name": "sg01/golden_piggy_00007"
+              },
+              {
+                "time": 0.3,
+                "name": "sg01/golden_piggy_00008"
+              },
+              {
+                "time": 0.3333,
+                "name": "sg01/golden_piggy_00009"
+              },
+              {
+                "time": 0.3667,
+                "name": "sg01/golden_piggy_00010"
+              },
+              {
+                "time": 0.4,
+                "name": "sg01/golden_piggy_00011"
+              },
+              {
+                "time": 0.4333,
+                "name": "sg01/golden_piggy_00012"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg01/golden_piggy_00013"
+              },
+              {
+                "time": 0.5,
+                "name": "sg01/golden_piggy_00014"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg01/golden_piggy_00015"
+              },
+              {
+                "time": 0.5667,
+                "name": "sg01/golden_piggy_00016"
+              },
+              {
+                "time": 0.6,
+                "name": "sg01/golden_piggy_00017"
+              },
+              {
+                "time": 0.6333,
+                "name": "sg01/golden_piggy_00018"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg01/golden_piggy_00019"
+              },
+              {
+                "time": 0.7,
+                "name": "sg01/golden_piggy_00020"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg01/golden_piggy_00021"
+              },
+              {
+                "time": 0.7667,
+                "name": "sg01/golden_piggy_00022"
+              },
+              {
+                "time": 0.8,
+                "name": "sg01/golden_piggy_00023"
+              },
+              {
+                "time": 0.8333,
+                "name": "sg01/golden_piggy_00024"
+              },
+              {
+                "time": 0.8667,
+                "name": "sg01/golden_piggy_00025"
+              },
+              {
+                "time": 0.9,
+                "name": "sg01/golden_piggy_00026"
+              },
+              {
+                "time": 0.9333,
+                "name": "sg01/golden_piggy_00027"
+              },
+              {
+                "time": 0.9667,
+                "name": "sg01/golden_piggy_00028"
+              },
+              {
+                "time": 1,
+                "name": "sg01/golden_piggy_00029"
+              },
+              {
+                "time": 1.0333,
+                "name": "sg01/golden_piggy_00030"
+              },
+              {
+                "time": 1.0667,
+                "name": "sg01/golden_piggy_00031"
+              },
+              {
+                "time": 1.1,
+                "name": "sg01/golden_piggy_00032"
+              },
+              {
+                "time": 1.1333,
+                "name": "sg01/golden_piggy_00033"
+              },
+              {
+                "time": 1.1667,
+                "name": "sg01/golden_piggy_00034"
+              },
+              {
+                "time": 1.2,
+                "name": null
+              },
+              {
+                "time": 3,
+                "name": null
+              }
+            ]
+          },
+          "sg2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "sg02/pick_bonus_00000"
+              },
+              {
+                "time": 0.0667,
+                "name": "sg02/pick_bonus_00001"
+              },
+              {
+                "time": 0.1,
+                "name": "sg02/pick_bonus_00002"
+              },
+              {
+                "time": 0.1333,
+                "name": "sg02/pick_bonus_00003"
+              },
+              {
+                "time": 0.1667,
+                "name": "sg02/pick_bonus_00004"
+              },
+              {
+                "time": 0.2,
+                "name": "sg02/pick_bonus_00005"
+              },
+              {
+                "time": 0.2333,
+                "name": "sg02/pick_bonus_00006"
+              },
+              {
+                "time": 0.2667,
+                "name": "sg02/pick_bonus_00007"
+              },
+              {
+                "time": 0.3,
+                "name": "sg02/pick_bonus_00008"
+              },
+              {
+                "time": 0.3333,
+                "name": "sg02/pick_bonus_00009"
+              },
+              {
+                "time": 0.3667,
+                "name": "sg02/pick_bonus_00010"
+              },
+              {
+                "time": 0.4,
+                "name": "sg02/pick_bonus_00011"
+              },
+              {
+                "time": 0.4333,
+                "name": "sg02/pick_bonus_00012"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg02/pick_bonus_00013"
+              },
+              {
+                "time": 0.5,
+                "name": "sg02/pick_bonus_00014"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg02/pick_bonus_00015"
+              },
+              {
+                "time": 0.5667,
+                "name": "sg02/pick_bonus_00016"
+              },
+              {
+                "time": 0.6,
+                "name": "sg02/pick_bonus_00017"
+              },
+              {
+                "time": 0.6333,
+                "name": "sg02/pick_bonus_00018"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg02/pick_bonus_00019"
+              },
+              {
+                "time": 0.7,
+                "name": "sg02/pick_bonus_00020"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg02/pick_bonus_00021"
+              },
+              {
+                "time": 0.7667,
+                "name": "sg02/pick_bonus_00022"
+              },
+              {
+                "time": 0.8,
+                "name": "sg02/pick_bonus_00023"
+              },
+              {
+                "time": 0.8333,
+                "name": "sg02/pick_bonus_00024"
+              },
+              {
+                "time": 0.8667,
+                "name": "sg02/pick_bonus_00025"
+              },
+              {
+                "time": 0.9,
+                "name": "sg02/pick_bonus_00026"
+              },
+              {
+                "time": 0.9333,
+                "name": "sg02/pick_bonus_00027"
+              },
+              {
+                "time": 0.9667,
+                "name": "sg02/pick_bonus_00028"
+              },
+              {
+                "time": 1,
+                "name": "sg02/pick_bonus_00029"
+              },
+              {
+                "time": 1.0333,
+                "name": "sg02/pick_bonus_00030"
+              },
+              {
+                "time": 1.0667,
+                "name": "sg02/pick_bonus_00031"
+              },
+              {
+                "time": 1.1,
+                "name": "sg02/pick_bonus_00032"
+              },
+              {
+                "time": 1.1333,
+                "name": "sg02/pick_bonus_00033"
+              },
+              {
+                "time": 1.1667,
+                "name": "sg02/pick_bonus_00034"
+              },
+              {
+                "time": 1.2,
+                "name": null
+              },
+              {
+                "time": 3,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nTC_bg_gp.png\nsize: 622,622\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngolden_piggy\n  rotate: false\n  xy: 2, 532\n  size: 580, 88\n  orig: 580, 88\n  offset: 0, 0\n  index: -1\nguang_00000\n  rotate: false\n  xy: 2, 251\n  size: 280, 279\n  orig: 280, 279\n  offset: 0, 0\n  index: -1\npick_bonus\n  rotate: false\n  xy: 2, 162\n  size: 463, 87\n  orig: 463, 87\n  offset: 0, 0\n  index: -1\nsg01/golden_piggy_00000\n  rotate: true\n  xy: 86, 2\n  size: 3, 37\n  orig: 289, 43\n  offset: 285, 4\n  index: -1\nsg01/golden_piggy_00001\n  rotate: true\n  xy: 510, 181\n  size: 13, 41\n  orig: 289, 43\n  offset: 275, 1\n  index: -1\nsg01/golden_piggy_00002\n  rotate: true\n  xy: 86, 7\n  size: 24, 41\n  orig: 289, 43\n  offset: 264, 1\n  index: -1\nsg01/golden_piggy_00003\n  rotate: false\n  xy: 584, 579\n  size: 34, 41\n  orig: 289, 43\n  offset: 254, 1\n  index: -1\nsg01/golden_piggy_00004\n  rotate: false\n  xy: 472, 119\n  size: 44, 41\n  orig: 289, 43\n  offset: 244, 1\n  index: -1\nsg01/golden_piggy_00005\n  rotate: false\n  xy: 415, 119\n  size: 55, 41\n  orig: 289, 43\n  offset: 233, 1\n  index: -1\nsg01/golden_piggy_00006\n  rotate: false\n  xy: 408, 76\n  size: 65, 41\n  orig: 289, 43\n  offset: 223, 1\n  index: -1\nsg01/golden_piggy_00007\n  rotate: false\n  xy: 331, 77\n  size: 75, 41\n  orig: 289, 43\n  offset: 213, 1\n  index: -1\nsg01/golden_piggy_00008\n  rotate: false\n  xy: 2, 119\n  size: 82, 41\n  orig: 289, 43\n  offset: 202, 1\n  index: -1\nsg01/golden_piggy_00009\n  rotate: false\n  xy: 284, 489\n  size: 82, 41\n  orig: 289, 43\n  offset: 192, 1\n  index: -1\nsg01/golden_piggy_00010\n  rotate: false\n  xy: 170, 119\n  size: 81, 41\n  orig: 289, 43\n  offset: 182, 1\n  index: -1\nsg01/golden_piggy_00011\n  rotate: false\n  xy: 2, 76\n  size: 82, 41\n  orig: 289, 43\n  offset: 171, 1\n  index: -1\nsg01/golden_piggy_00012\n  rotate: false\n  xy: 284, 403\n  size: 81, 41\n  orig: 289, 43\n  offset: 161, 1\n  index: -1\nsg01/golden_piggy_00013\n  rotate: true\n  xy: 326, 327\n  size: 74, 41\n  orig: 289, 43\n  offset: 158, 1\n  index: -1\nsg01/golden_piggy_00014\n  rotate: false\n  xy: 368, 447\n  size: 82, 40\n  orig: 289, 43\n  offset: 140, 1\n  index: -1\nsg01/golden_piggy_00015\n  rotate: false\n  xy: 170, 77\n  size: 81, 40\n  orig: 289, 43\n  offset: 130, 1\n  index: -1\nsg01/golden_piggy_00016\n  rotate: false\n  xy: 452, 447\n  size: 81, 40\n  orig: 289, 43\n  offset: 120, 1\n  index: -1\nsg01/golden_piggy_00017\n  rotate: false\n  xy: 86, 119\n  size: 82, 41\n  orig: 289, 43\n  offset: 109, 1\n  index: -1\nsg01/golden_piggy_00018\n  rotate: false\n  xy: 284, 446\n  size: 82, 41\n  orig: 289, 43\n  offset: 99, 1\n  index: -1\nsg01/golden_piggy_00019\n  rotate: false\n  xy: 452, 489\n  size: 81, 41\n  orig: 289, 43\n  offset: 89, 1\n  index: -1\nsg01/golden_piggy_00020\n  rotate: true\n  xy: 284, 251\n  size: 66, 41\n  orig: 289, 43\n  offset: 78, 1\n  index: -1\nsg01/golden_piggy_00021\n  rotate: false\n  xy: 253, 77\n  size: 76, 41\n  orig: 289, 43\n  offset: 68, 1\n  index: -1\nsg01/golden_piggy_00022\n  rotate: false\n  xy: 86, 33\n  size: 81, 41\n  orig: 289, 43\n  offset: 58, 1\n  index: -1\nsg01/golden_piggy_00023\n  rotate: false\n  xy: 368, 489\n  size: 82, 41\n  orig: 289, 43\n  offset: 47, 1\n  index: -1\nsg01/golden_piggy_00024\n  rotate: false\n  xy: 86, 76\n  size: 82, 41\n  orig: 289, 43\n  offset: 37, 1\n  index: -1\nsg01/golden_piggy_00025\n  rotate: true\n  xy: 535, 449\n  size: 81, 40\n  orig: 289, 43\n  offset: 27, 1\n  index: -1\nsg01/golden_piggy_00026\n  rotate: false\n  xy: 253, 120\n  size: 82, 40\n  orig: 289, 43\n  offset: 16, 1\n  index: -1\nsg01/golden_piggy_00027\n  rotate: true\n  xy: 284, 319\n  size: 82, 40\n  orig: 289, 43\n  offset: 6, 1\n  index: -1\nsg01/golden_piggy_00028\n  rotate: false\n  xy: 337, 120\n  size: 76, 40\n  orig: 289, 43\n  offset: 1, 1\n  index: -1\nsg01/golden_piggy_00029\n  rotate: true\n  xy: 494, 338\n  size: 66, 40\n  orig: 289, 43\n  offset: 1, 1\n  index: -1\nsg01/golden_piggy_00030\n  rotate: true\n  xy: 543, 391\n  size: 56, 40\n  orig: 289, 43\n  offset: 1, 1\n  index: -1\nsg01/golden_piggy_00031\n  rotate: false\n  xy: 574, 259\n  size: 45, 40\n  orig: 289, 43\n  offset: 1, 1\n  index: -1\nsg01/golden_piggy_00032\n  rotate: false\n  xy: 584, 537\n  size: 35, 40\n  orig: 289, 43\n  offset: 1, 1\n  index: -1\nsg01/golden_piggy_00033\n  rotate: true\n  xy: 380, 7\n  size: 25, 40\n  orig: 289, 43\n  offset: 1, 1\n  index: -1\nsg01/golden_piggy_00034\n  rotate: true\n  xy: 585, 399\n  size: 15, 34\n  orig: 289, 43\n  offset: 1, 4\n  index: -1\nsg02/pick_bonus_00000\n  rotate: true\n  xy: 129, 7\n  size: 7, 36\n  orig: 231, 43\n  offset: 1, 2\n  index: -1\nsg02/pick_bonus_00001\n  rotate: true\n  xy: 129, 16\n  size: 15, 38\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00002\n  rotate: false\n  xy: 518, 406\n  size: 23, 39\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00003\n  rotate: false\n  xy: 585, 416\n  size: 32, 39\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00004\n  rotate: false\n  xy: 522, 35\n  size: 40, 39\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00005\n  rotate: true\n  xy: 509, 221\n  size: 48, 39\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00006\n  rotate: true\n  xy: 533, 275\n  size: 56, 39\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00007\n  rotate: false\n  xy: 455, 35\n  size: 65, 39\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00008\n  rotate: true\n  xy: 327, 252\n  size: 73, 40\n  orig: 231, 43\n  offset: 1, 1\n  index: -1\nsg02/pick_bonus_00009\n  rotate: true\n  xy: 170, 2\n  size: 73, 40\n  orig: 231, 43\n  offset: 9, 1\n  index: -1\nsg02/pick_bonus_00010\n  rotate: true\n  xy: 212, 2\n  size: 73, 40\n  orig: 231, 43\n  offset: 18, 1\n  index: -1\nsg02/pick_bonus_00011\n  rotate: true\n  xy: 254, 2\n  size: 73, 40\n  orig: 231, 43\n  offset: 26, 1\n  index: -1\nsg02/pick_bonus_00012\n  rotate: true\n  xy: 467, 195\n  size: 66, 40\n  orig: 231, 43\n  offset: 34, 1\n  index: -1\nsg02/pick_bonus_00013\n  rotate: true\n  xy: 296, 2\n  size: 73, 40\n  orig: 231, 43\n  offset: 42, 1\n  index: -1\nsg02/pick_bonus_00014\n  rotate: true\n  xy: 338, 2\n  size: 73, 40\n  orig: 231, 43\n  offset: 51, 1\n  index: -1\nsg02/pick_bonus_00015\n  rotate: false\n  xy: 380, 34\n  size: 73, 40\n  orig: 231, 43\n  offset: 59, 1\n  index: -1\nsg02/pick_bonus_00016\n  rotate: true\n  xy: 577, 457\n  size: 73, 40\n  orig: 231, 43\n  offset: 67, 1\n  index: -1\nsg02/pick_bonus_00017\n  rotate: false\n  xy: 368, 405\n  size: 73, 40\n  orig: 231, 43\n  offset: 75, 1\n  index: -1\nsg02/pick_bonus_00018\n  rotate: true\n  xy: 2, 2\n  size: 72, 40\n  orig: 231, 43\n  offset: 84, 1\n  index: -1\nsg02/pick_bonus_00019\n  rotate: false\n  xy: 443, 406\n  size: 73, 39\n  orig: 231, 43\n  offset: 92, 1\n  index: -1\nsg02/pick_bonus_00020\n  rotate: true\n  xy: 492, 271\n  size: 60, 39\n  orig: 231, 43\n  offset: 113, 1\n  index: -1\nsg02/pick_bonus_00021\n  rotate: true\n  xy: 451, 263\n  size: 68, 39\n  orig: 231, 43\n  offset: 113, 1\n  index: -1\nsg02/pick_bonus_00022\n  rotate: true\n  xy: 369, 330\n  size: 73, 39\n  orig: 231, 43\n  offset: 117, 1\n  index: -1\nsg02/pick_bonus_00023\n  rotate: true\n  xy: 369, 255\n  size: 73, 39\n  orig: 231, 43\n  offset: 125, 1\n  index: -1\nsg02/pick_bonus_00024\n  rotate: true\n  xy: 410, 330\n  size: 73, 39\n  orig: 231, 43\n  offset: 133, 1\n  index: -1\nsg02/pick_bonus_00025\n  rotate: true\n  xy: 410, 255\n  size: 73, 39\n  orig: 231, 43\n  offset: 141, 1\n  index: -1\nsg02/pick_bonus_00026\n  rotate: true\n  xy: 44, 2\n  size: 72, 40\n  orig: 231, 43\n  offset: 150, 1\n  index: -1\nsg02/pick_bonus_00027\n  rotate: true\n  xy: 451, 333\n  size: 71, 41\n  orig: 231, 43\n  offset: 158, 1\n  index: -1\nsg02/pick_bonus_00028\n  rotate: false\n  xy: 475, 76\n  size: 64, 41\n  orig: 231, 43\n  offset: 166, 1\n  index: -1\nsg02/pick_bonus_00029\n  rotate: true\n  xy: 536, 333\n  size: 56, 41\n  orig: 231, 43\n  offset: 174, 1\n  index: -1\nsg02/pick_bonus_00030\n  rotate: true\n  xy: 579, 342\n  size: 47, 41\n  orig: 231, 43\n  offset: 183, 1\n  index: -1\nsg02/pick_bonus_00031\n  rotate: true\n  xy: 579, 301\n  size: 39, 41\n  orig: 231, 43\n  offset: 191, 1\n  index: -1\nsg02/pick_bonus_00032\n  rotate: true\n  xy: 467, 162\n  size: 31, 41\n  orig: 231, 43\n  offset: 199, 1\n  index: -1\nsg02/pick_bonus_00033\n  rotate: true\n  xy: 509, 196\n  size: 23, 41\n  orig: 231, 43\n  offset: 207, 1\n  index: -1\nsg02/pick_bonus_00034\n  rotate: true\n  xy: 510, 165\n  size: 14, 38\n  orig: 231, 43\n  offset: 216, 4\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "1255z1EShHtLx9WsLJbbBi"
+    }
+  ],
+  "textureNames": [
+    "TC_bg_gp.png"
+  ]
+}

@@ -1,1 +1,778 @@
-{"__type__":"sp.SkeletonData","_name":"jdt_jisuo_01","_skeletonJson":{"skeleton":{"hash":"im90eGl+Aa6xFevw3tTwHs1CvgU","spine":"3.6.53","width":1060,"height":1560,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"jiesuo_1","parent":"root","x":-144.91,"y":0.75},{"name":"jiesuo_2","parent":"root","x":147.09,"y":0.75,"scaleX":-1},{"name":"jiman_01","parent":"root","scaleX":1.987,"scaleY":1.987},{"name":"theme140_collect_11","parent":"root"},{"name":"骨骼","parent":"root","x":-33.71},{"name":"骨骼2","parent":"root","x":-4.14,"y":92.12}],"slots":[{"name":"basegame","bone":"骨骼2"},{"name":"theme140_collect_5","bone":"骨骼"},{"name":"theme140_collect_11","bone":"theme140_collect_11","attachment":"theme140_collect_11"},{"name":"jiman_01","bone":"jiman_01","attachment":"jiman_01"},{"name":"jiman_1","bone":"jiman_01","attachment":"jiman_01","blend":"additive"},{"name":"jiesuo/jiesuo_1","bone":"jiesuo_1","attachment":"jiesuo/jiesuo_2","blend":"additive"},{"name":"jiesuo/jiesuo_2","bone":"jiesuo_2","attachment":"jiesuo/jiesuo_2","blend":"additive"}],"skins":{"default":{"jiesuo/jiesuo_1":{"jiesuo/jiesuo_1":{"width":298,"height":77},"jiesuo/jiesuo_2":{"width":298,"height":77},"jiesuo/jiesuo_3":{"width":298,"height":77},"jiesuo/jiesuo_4":{"width":298,"height":77},"jiesuo/jiesuo_5":{"width":298,"height":77},"jiesuo/jiesuo_6":{"width":298,"height":77},"jiesuo/jiesuo_7":{"width":298,"height":77},"jiesuo/jiesuo_8":{"width":298,"height":77},"jiesuo/jiesuo_9":{"width":298,"height":77},"jiesuo/jiesuo_10":{"width":298,"height":77},"jiesuo/jiesuo_11":{"width":298,"height":77},"jiesuo/jiesuo_12":{"width":298,"height":77},"jiesuo/jiesuo_13":{"width":298,"height":77},"jiesuo/jiesuo_14":{"width":298,"height":77},"jiesuo/jiesuo_15":{"width":298,"height":77},"jiesuo/jiesuo_16":{"width":298,"height":77},"jiesuo/jiesuo_17":{"width":298,"height":77},"jiesuo/jiesuo_18":{"width":298,"height":77},"jiesuo/jiesuo_19":{"width":298,"height":77},"jiesuo/jiesuo_20":{"width":298,"height":77}},"jiesuo/jiesuo_2":{"jiesuo/jiesuo_1":{"width":298,"height":77},"jiesuo/jiesuo_2":{"width":298,"height":77},"jiesuo/jiesuo_3":{"width":298,"height":77},"jiesuo/jiesuo_4":{"width":298,"height":77},"jiesuo/jiesuo_5":{"width":298,"height":77},"jiesuo/jiesuo_6":{"width":298,"height":77},"jiesuo/jiesuo_7":{"width":298,"height":77},"jiesuo/jiesuo_8":{"width":298,"height":77},"jiesuo/jiesuo_9":{"width":298,"height":77},"jiesuo/jiesuo_10":{"width":298,"height":77},"jiesuo/jiesuo_11":{"width":298,"height":77},"jiesuo/jiesuo_12":{"width":298,"height":77},"jiesuo/jiesuo_13":{"width":298,"height":77},"jiesuo/jiesuo_14":{"width":298,"height":77},"jiesuo/jiesuo_15":{"width":298,"height":77},"jiesuo/jiesuo_16":{"width":298,"height":77},"jiesuo/jiesuo_17":{"width":298,"height":77},"jiesuo/jiesuo_18":{"width":298,"height":77},"jiesuo/jiesuo_19":{"width":298,"height":77},"jiesuo/jiesuo_20":{"width":298,"height":77}},"jiman_01":{"jiman_01":{"width":312,"height":45}},"jiman_1":{"jiman_01":{"width":312,"height":45}},"theme140_collect_11":{"theme140_collect_11":{"width":567,"height":32}}}},"animations":{"animation1":{"slots":{"jiesuo/jiesuo_1":{"attachment":[{"time":0,"name":null}]},"jiesuo/jiesuo_2":{"attachment":[{"time":0,"name":null}]},"jiman_01":{"attachment":[{"time":0,"name":null}]},"jiman_1":{"attachment":[{"time":0,"name":null}]},"theme140_collect_11":{"color":[{"time":0,"color":"ffffffff"}]}}},"animation2":{"slots":{"jiesuo/jiesuo_1":{"attachment":[{"time":0,"name":"jiesuo/jiesuo_1"},{"time":0.0333,"name":"jiesuo/jiesuo_2"},{"time":0.0667,"name":"jiesuo/jiesuo_3"},{"time":0.1,"name":"jiesuo/jiesuo_4"},{"time":0.1333,"name":"jiesuo/jiesuo_5"},{"time":0.1667,"name":"jiesuo/jiesuo_6"},{"time":0.2,"name":"jiesuo/jiesuo_7"},{"time":0.2333,"name":"jiesuo/jiesuo_8"},{"time":0.2667,"name":"jiesuo/jiesuo_9"},{"time":0.3,"name":"jiesuo/jiesuo_10"},{"time":0.3333,"name":"jiesuo/jiesuo_11"},{"time":0.3667,"name":"jiesuo/jiesuo_12"},{"time":0.4,"name":"jiesuo/jiesuo_13"},{"time":0.4333,"name":"jiesuo/jiesuo_14"},{"time":0.4667,"name":"jiesuo/jiesuo_15"},{"time":0.5,"name":"jiesuo/jiesuo_16"},{"time":0.5333,"name":"jiesuo/jiesuo_17"},{"time":0.5667,"name":"jiesuo/jiesuo_18"},{"time":0.6,"name":"jiesuo/jiesuo_19"},{"time":0.6333,"name":"jiesuo/jiesuo_20"},{"time":0.6667,"name":null}]},"jiesuo/jiesuo_2":{"attachment":[{"time":0,"name":"jiesuo/jiesuo_1"},{"time":0.0333,"name":"jiesuo/jiesuo_2"},{"time":0.0667,"name":"jiesuo/jiesuo_3"},{"time":0.1,"name":"jiesuo/jiesuo_4"},{"time":0.1333,"name":"jiesuo/jiesuo_5"},{"time":0.1667,"name":"jiesuo/jiesuo_6"},{"time":0.2,"name":"jiesuo/jiesuo_7"},{"time":0.2333,"name":"jiesuo/jiesuo_8"},{"time":0.2667,"name":"jiesuo/jiesuo_9"},{"time":0.3,"name":"jiesuo/jiesuo_10"},{"time":0.3333,"name":"jiesuo/jiesuo_11"},{"time":0.3667,"name":"jiesuo/jiesuo_12"},{"time":0.4,"name":"jiesuo/jiesuo_13"},{"time":0.4333,"name":"jiesuo/jiesuo_14"},{"time":0.4667,"name":"jiesuo/jiesuo_15"},{"time":0.5,"name":"jiesuo/jiesuo_16"},{"time":0.5333,"name":"jiesuo/jiesuo_17"},{"time":0.5667,"name":"jiesuo/jiesuo_18"},{"time":0.6,"name":"jiesuo/jiesuo_19"},{"time":0.6333,"name":"jiesuo/jiesuo_20"},{"time":0.6667,"name":null}]},"jiman_1":{"attachment":[{"time":0,"name":null}]},"jiman_01":{"attachment":[{"time":0,"name":null}]},"theme140_collect_11":{"color":[{"time":0,"color":"ffffffff"},{"time":0.5,"color":"ffffff00"}]}}},"animation3":{"slots":{"jiesuo/jiesuo_1":{"attachment":[{"time":0,"name":null}]},"jiesuo/jiesuo_2":{"attachment":[{"time":0,"name":null}]},"jiman_01":{"attachment":[{"time":0,"name":null}]},"jiman_1":{"attachment":[{"time":0,"name":null}]},"theme140_collect_11":{"color":[{"time":0,"color":"ffffff00"},{"time":0.5,"color":"ffffffff"}]}}},"animation4":{"slots":{"jiesuo/jiesuo_1":{"attachment":[{"time":0,"name":"jiesuo/jiesuo_1"},{"time":0.0333,"name":"jiesuo/jiesuo_2"},{"time":0.0667,"name":"jiesuo/jiesuo_3"},{"time":0.1,"name":"jiesuo/jiesuo_5"},{"time":0.1333,"name":"jiesuo/jiesuo_6"},{"time":0.1667,"name":"jiesuo/jiesuo_7"},{"time":0.2,"name":"jiesuo/jiesuo_9"},{"time":0.2333,"name":"jiesuo/jiesuo_10"},{"time":0.2667,"name":"jiesuo/jiesuo_12"},{"time":0.3,"name":"jiesuo/jiesuo_13"},{"time":0.3333,"name":"jiesuo/jiesuo_14"},{"time":0.3667,"name":"jiesuo/jiesuo_15"},{"time":0.4,"name":"jiesuo/jiesuo_17"},{"time":0.4333,"name":"jiesuo/jiesuo_18"},{"time":0.4667,"name":"jiesuo/jiesuo_19"},{"time":0.5,"name":null}]},"jiesuo/jiesuo_2":{"attachment":[{"time":0,"name":"jiesuo/jiesuo_1"},{"time":0.0333,"name":"jiesuo/jiesuo_2"},{"time":0.0667,"name":"jiesuo/jiesuo_3"},{"time":0.1,"name":"jiesuo/jiesuo_5"},{"time":0.1333,"name":"jiesuo/jiesuo_6"},{"time":0.1667,"name":"jiesuo/jiesuo_8"},{"time":0.2,"name":"jiesuo/jiesuo_9"},{"time":0.2333,"name":"jiesuo/jiesuo_10"},{"time":0.2667,"name":"jiesuo/jiesuo_12"},{"time":0.3,"name":"jiesuo/jiesuo_13"},{"time":0.3333,"name":"jiesuo/jiesuo_14"},{"time":0.3667,"name":"jiesuo/jiesuo_16"},{"time":0.4,"name":"jiesuo/jiesuo_17"},{"time":0.4333,"name":"jiesuo/jiesuo_18"},{"time":0.4667,"name":"jiesuo/jiesuo_20"},{"time":0.5,"name":null}]},"jiman_01":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffff86"},{"time":0.5,"color":"ffffff00"}]},"jiman_1":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffffff"},{"time":0.5,"color":"ffffff00"}]},"theme140_collect_11":{"color":[{"time":0,"color":"ffffff00"}]}},"bones":{"jiman_01":{"translate":[{"time":0,"x":-1.05,"y":0}]}}}}},"_atlasText":"\njdt_jisuo_01.png\nsize: 2034,220\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\njiesuo/jiesuo_1\n  rotate: false\n  xy: 1446, 67\n  size: 283, 42\n  orig: 298, 77\n  offset: 13, 17\n  index: -1\njiesuo/jiesuo_10\n  rotate: false\n  xy: 844, 152\n  size: 296, 68\n  orig: 298, 77\n  offset: 0, 7\n  index: -1\njiesuo/jiesuo_11\n  rotate: false\n  xy: 283, 75\n  size: 296, 71\n  orig: 298, 77\n  offset: 0, 6\n  index: -1\njiesuo/jiesuo_12\n  rotate: false\n  xy: 581, 78\n  size: 296, 69\n  orig: 298, 77\n  offset: 0, 6\n  index: -1\njiesuo/jiesuo_13\n  rotate: false\n  xy: 0, 0\n  size: 285, 70\n  orig: 298, 77\n  offset: 11, 5\n  index: -1\njiesuo/jiesuo_14\n  rotate: false\n  xy: 287, 3\n  size: 282, 70\n  orig: 298, 77\n  offset: 14, 5\n  index: -1\njiesuo/jiesuo_15\n  rotate: false\n  xy: 283, 148\n  size: 280, 72\n  orig: 298, 77\n  offset: 16, 4\n  index: -1\njiesuo/jiesuo_16\n  rotate: false\n  xy: 0, 72\n  size: 281, 72\n  orig: 298, 77\n  offset: 15, 4\n  index: -1\njiesuo/jiesuo_17\n  rotate: false\n  xy: 0, 146\n  size: 281, 74\n  orig: 298, 77\n  offset: 15, 3\n  index: -1\njiesuo/jiesuo_18\n  rotate: false\n  xy: 571, 3\n  size: 282, 70\n  orig: 298, 77\n  offset: 14, 7\n  index: -1\njiesuo/jiesuo_19\n  rotate: false\n  xy: 565, 149\n  size: 277, 71\n  orig: 298, 77\n  offset: 18, 4\n  index: -1\njiesuo/jiesuo_2\n  rotate: false\n  xy: 1446, 111\n  size: 286, 47\n  orig: 298, 77\n  offset: 10, 15\n  index: -1\njiesuo/jiesuo_20\n  rotate: false\n  xy: 879, 83\n  size: 269, 67\n  orig: 298, 77\n  offset: 25, 10\n  index: -1\njiesuo/jiesuo_3\n  rotate: false\n  xy: 1153, 39\n  size: 289, 51\n  orig: 298, 77\n  offset: 7, 13\n  index: -1\njiesuo/jiesuo_4\n  rotate: false\n  xy: 1734, 106\n  size: 290, 54\n  orig: 298, 77\n  offset: 6, 12\n  index: -1\njiesuo/jiesuo_5\n  rotate: false\n  xy: 1734, 162\n  size: 292, 58\n  orig: 298, 77\n  offset: 4, 10\n  index: -1\njiesuo/jiesuo_6\n  rotate: false\n  xy: 1439, 160\n  size: 293, 60\n  orig: 298, 77\n  offset: 3, 9\n  index: -1\njiesuo/jiesuo_7\n  rotate: false\n  xy: 1150, 92\n  size: 294, 62\n  orig: 298, 77\n  offset: 2, 9\n  index: -1\njiesuo/jiesuo_8\n  rotate: false\n  xy: 1142, 156\n  size: 295, 64\n  orig: 298, 77\n  offset: 1, 8\n  index: -1\njiesuo/jiesuo_9\n  rotate: false\n  xy: 855, 9\n  size: 296, 67\n  orig: 298, 77\n  offset: 0, 7\n  index: -1\njiman_01\n  rotate: false\n  xy: 1722, 20\n  size: 312, 45\n  orig: 312, 45\n  offset: 0, 0\n  index: -1\ntheme140_collect_11\n  rotate: false\n  xy: 1153, 5\n  size: 567, 32\n  orig: 567, 32\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"67VtoaHsxP8Y1OIEHsoDPt"}],"textureNames":["jdt_jisuo_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "jdt_jisuo_01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "im90eGl+Aa6xFevw3tTwHs1CvgU",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "jiesuo_1",
+        "parent": "root",
+        "x": -144.91,
+        "y": 0.75
+      },
+      {
+        "name": "jiesuo_2",
+        "parent": "root",
+        "x": 147.09,
+        "y": 0.75,
+        "scaleX": -1
+      },
+      {
+        "name": "jiman_01",
+        "parent": "root",
+        "scaleX": 1.987,
+        "scaleY": 1.987
+      },
+      {
+        "name": "theme140_collect_11",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼",
+        "parent": "root",
+        "x": -33.71
+      },
+      {
+        "name": "骨骼2",
+        "parent": "root",
+        "x": -4.14,
+        "y": 92.12
+      }
+    ],
+    "slots": [
+      {
+        "name": "basegame",
+        "bone": "骨骼2"
+      },
+      {
+        "name": "theme140_collect_5",
+        "bone": "骨骼"
+      },
+      {
+        "name": "theme140_collect_11",
+        "bone": "theme140_collect_11",
+        "attachment": "theme140_collect_11"
+      },
+      {
+        "name": "jiman_01",
+        "bone": "jiman_01",
+        "attachment": "jiman_01"
+      },
+      {
+        "name": "jiman_1",
+        "bone": "jiman_01",
+        "attachment": "jiman_01",
+        "blend": "additive"
+      },
+      {
+        "name": "jiesuo/jiesuo_1",
+        "bone": "jiesuo_1",
+        "attachment": "jiesuo/jiesuo_2",
+        "blend": "additive"
+      },
+      {
+        "name": "jiesuo/jiesuo_2",
+        "bone": "jiesuo_2",
+        "attachment": "jiesuo/jiesuo_2",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "jiesuo/jiesuo_1": {
+          "jiesuo/jiesuo_1": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_2": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_3": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_4": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_5": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_6": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_7": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_8": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_9": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_10": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_11": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_12": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_13": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_14": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_15": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_16": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_17": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_18": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_19": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_20": {
+            "width": 298,
+            "height": 77
+          }
+        },
+        "jiesuo/jiesuo_2": {
+          "jiesuo/jiesuo_1": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_2": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_3": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_4": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_5": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_6": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_7": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_8": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_9": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_10": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_11": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_12": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_13": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_14": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_15": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_16": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_17": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_18": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_19": {
+            "width": 298,
+            "height": 77
+          },
+          "jiesuo/jiesuo_20": {
+            "width": 298,
+            "height": 77
+          }
+        },
+        "jiman_01": {
+          "jiman_01": {
+            "width": 312,
+            "height": 45
+          }
+        },
+        "jiman_1": {
+          "jiman_01": {
+            "width": 312,
+            "height": 45
+          }
+        },
+        "theme140_collect_11": {
+          "theme140_collect_11": {
+            "width": 567,
+            "height": 32
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "jiesuo/jiesuo_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "jiesuo/jiesuo_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "jiman_01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "jiman_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "theme140_collect_11": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "jiesuo/jiesuo_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "jiesuo/jiesuo_1"
+              },
+              {
+                "time": 0.0333,
+                "name": "jiesuo/jiesuo_2"
+              },
+              {
+                "time": 0.0667,
+                "name": "jiesuo/jiesuo_3"
+              },
+              {
+                "time": 0.1,
+                "name": "jiesuo/jiesuo_4"
+              },
+              {
+                "time": 0.1333,
+                "name": "jiesuo/jiesuo_5"
+              },
+              {
+                "time": 0.1667,
+                "name": "jiesuo/jiesuo_6"
+              },
+              {
+                "time": 0.2,
+                "name": "jiesuo/jiesuo_7"
+              },
+              {
+                "time": 0.2333,
+                "name": "jiesuo/jiesuo_8"
+              },
+              {
+                "time": 0.2667,
+                "name": "jiesuo/jiesuo_9"
+              },
+              {
+                "time": 0.3,
+                "name": "jiesuo/jiesuo_10"
+              },
+              {
+                "time": 0.3333,
+                "name": "jiesuo/jiesuo_11"
+              },
+              {
+                "time": 0.3667,
+                "name": "jiesuo/jiesuo_12"
+              },
+              {
+                "time": 0.4,
+                "name": "jiesuo/jiesuo_13"
+              },
+              {
+                "time": 0.4333,
+                "name": "jiesuo/jiesuo_14"
+              },
+              {
+                "time": 0.4667,
+                "name": "jiesuo/jiesuo_15"
+              },
+              {
+                "time": 0.5,
+                "name": "jiesuo/jiesuo_16"
+              },
+              {
+                "time": 0.5333,
+                "name": "jiesuo/jiesuo_17"
+              },
+              {
+                "time": 0.5667,
+                "name": "jiesuo/jiesuo_18"
+              },
+              {
+                "time": 0.6,
+                "name": "jiesuo/jiesuo_19"
+              },
+              {
+                "time": 0.6333,
+                "name": "jiesuo/jiesuo_20"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          },
+          "jiesuo/jiesuo_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "jiesuo/jiesuo_1"
+              },
+              {
+                "time": 0.0333,
+                "name": "jiesuo/jiesuo_2"
+              },
+              {
+                "time": 0.0667,
+                "name": "jiesuo/jiesuo_3"
+              },
+              {
+                "time": 0.1,
+                "name": "jiesuo/jiesuo_4"
+              },
+              {
+                "time": 0.1333,
+                "name": "jiesuo/jiesuo_5"
+              },
+              {
+                "time": 0.1667,
+                "name": "jiesuo/jiesuo_6"
+              },
+              {
+                "time": 0.2,
+                "name": "jiesuo/jiesuo_7"
+              },
+              {
+                "time": 0.2333,
+                "name": "jiesuo/jiesuo_8"
+              },
+              {
+                "time": 0.2667,
+                "name": "jiesuo/jiesuo_9"
+              },
+              {
+                "time": 0.3,
+                "name": "jiesuo/jiesuo_10"
+              },
+              {
+                "time": 0.3333,
+                "name": "jiesuo/jiesuo_11"
+              },
+              {
+                "time": 0.3667,
+                "name": "jiesuo/jiesuo_12"
+              },
+              {
+                "time": 0.4,
+                "name": "jiesuo/jiesuo_13"
+              },
+              {
+                "time": 0.4333,
+                "name": "jiesuo/jiesuo_14"
+              },
+              {
+                "time": 0.4667,
+                "name": "jiesuo/jiesuo_15"
+              },
+              {
+                "time": 0.5,
+                "name": "jiesuo/jiesuo_16"
+              },
+              {
+                "time": 0.5333,
+                "name": "jiesuo/jiesuo_17"
+              },
+              {
+                "time": 0.5667,
+                "name": "jiesuo/jiesuo_18"
+              },
+              {
+                "time": 0.6,
+                "name": "jiesuo/jiesuo_19"
+              },
+              {
+                "time": 0.6333,
+                "name": "jiesuo/jiesuo_20"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          },
+          "jiman_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "jiman_01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "theme140_collect_11": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      },
+      "animation3": {
+        "slots": {
+          "jiesuo/jiesuo_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "jiesuo/jiesuo_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "jiman_01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "jiman_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "theme140_collect_11": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              }
+            ]
+          }
+        }
+      },
+      "animation4": {
+        "slots": {
+          "jiesuo/jiesuo_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "jiesuo/jiesuo_1"
+              },
+              {
+                "time": 0.0333,
+                "name": "jiesuo/jiesuo_2"
+              },
+              {
+                "time": 0.0667,
+                "name": "jiesuo/jiesuo_3"
+              },
+              {
+                "time": 0.1,
+                "name": "jiesuo/jiesuo_5"
+              },
+              {
+                "time": 0.1333,
+                "name": "jiesuo/jiesuo_6"
+              },
+              {
+                "time": 0.1667,
+                "name": "jiesuo/jiesuo_7"
+              },
+              {
+                "time": 0.2,
+                "name": "jiesuo/jiesuo_9"
+              },
+              {
+                "time": 0.2333,
+                "name": "jiesuo/jiesuo_10"
+              },
+              {
+                "time": 0.2667,
+                "name": "jiesuo/jiesuo_12"
+              },
+              {
+                "time": 0.3,
+                "name": "jiesuo/jiesuo_13"
+              },
+              {
+                "time": 0.3333,
+                "name": "jiesuo/jiesuo_14"
+              },
+              {
+                "time": 0.3667,
+                "name": "jiesuo/jiesuo_15"
+              },
+              {
+                "time": 0.4,
+                "name": "jiesuo/jiesuo_17"
+              },
+              {
+                "time": 0.4333,
+                "name": "jiesuo/jiesuo_18"
+              },
+              {
+                "time": 0.4667,
+                "name": "jiesuo/jiesuo_19"
+              },
+              {
+                "time": 0.5,
+                "name": null
+              }
+            ]
+          },
+          "jiesuo/jiesuo_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "jiesuo/jiesuo_1"
+              },
+              {
+                "time": 0.0333,
+                "name": "jiesuo/jiesuo_2"
+              },
+              {
+                "time": 0.0667,
+                "name": "jiesuo/jiesuo_3"
+              },
+              {
+                "time": 0.1,
+                "name": "jiesuo/jiesuo_5"
+              },
+              {
+                "time": 0.1333,
+                "name": "jiesuo/jiesuo_6"
+              },
+              {
+                "time": 0.1667,
+                "name": "jiesuo/jiesuo_8"
+              },
+              {
+                "time": 0.2,
+                "name": "jiesuo/jiesuo_9"
+              },
+              {
+                "time": 0.2333,
+                "name": "jiesuo/jiesuo_10"
+              },
+              {
+                "time": 0.2667,
+                "name": "jiesuo/jiesuo_12"
+              },
+              {
+                "time": 0.3,
+                "name": "jiesuo/jiesuo_13"
+              },
+              {
+                "time": 0.3333,
+                "name": "jiesuo/jiesuo_14"
+              },
+              {
+                "time": 0.3667,
+                "name": "jiesuo/jiesuo_16"
+              },
+              {
+                "time": 0.4,
+                "name": "jiesuo/jiesuo_17"
+              },
+              {
+                "time": 0.4333,
+                "name": "jiesuo/jiesuo_18"
+              },
+              {
+                "time": 0.4667,
+                "name": "jiesuo/jiesuo_20"
+              },
+              {
+                "time": 0.5,
+                "name": null
+              }
+            ]
+          },
+          "jiman_01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff86"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "jiman_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "theme140_collect_11": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "jiman_01": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -1.05,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\njdt_jisuo_01.png\nsize: 2034,220\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\njiesuo/jiesuo_1\n  rotate: false\n  xy: 1446, 67\n  size: 283, 42\n  orig: 298, 77\n  offset: 13, 17\n  index: -1\njiesuo/jiesuo_10\n  rotate: false\n  xy: 844, 152\n  size: 296, 68\n  orig: 298, 77\n  offset: 0, 7\n  index: -1\njiesuo/jiesuo_11\n  rotate: false\n  xy: 283, 75\n  size: 296, 71\n  orig: 298, 77\n  offset: 0, 6\n  index: -1\njiesuo/jiesuo_12\n  rotate: false\n  xy: 581, 78\n  size: 296, 69\n  orig: 298, 77\n  offset: 0, 6\n  index: -1\njiesuo/jiesuo_13\n  rotate: false\n  xy: 0, 0\n  size: 285, 70\n  orig: 298, 77\n  offset: 11, 5\n  index: -1\njiesuo/jiesuo_14\n  rotate: false\n  xy: 287, 3\n  size: 282, 70\n  orig: 298, 77\n  offset: 14, 5\n  index: -1\njiesuo/jiesuo_15\n  rotate: false\n  xy: 283, 148\n  size: 280, 72\n  orig: 298, 77\n  offset: 16, 4\n  index: -1\njiesuo/jiesuo_16\n  rotate: false\n  xy: 0, 72\n  size: 281, 72\n  orig: 298, 77\n  offset: 15, 4\n  index: -1\njiesuo/jiesuo_17\n  rotate: false\n  xy: 0, 146\n  size: 281, 74\n  orig: 298, 77\n  offset: 15, 3\n  index: -1\njiesuo/jiesuo_18\n  rotate: false\n  xy: 571, 3\n  size: 282, 70\n  orig: 298, 77\n  offset: 14, 7\n  index: -1\njiesuo/jiesuo_19\n  rotate: false\n  xy: 565, 149\n  size: 277, 71\n  orig: 298, 77\n  offset: 18, 4\n  index: -1\njiesuo/jiesuo_2\n  rotate: false\n  xy: 1446, 111\n  size: 286, 47\n  orig: 298, 77\n  offset: 10, 15\n  index: -1\njiesuo/jiesuo_20\n  rotate: false\n  xy: 879, 83\n  size: 269, 67\n  orig: 298, 77\n  offset: 25, 10\n  index: -1\njiesuo/jiesuo_3\n  rotate: false\n  xy: 1153, 39\n  size: 289, 51\n  orig: 298, 77\n  offset: 7, 13\n  index: -1\njiesuo/jiesuo_4\n  rotate: false\n  xy: 1734, 106\n  size: 290, 54\n  orig: 298, 77\n  offset: 6, 12\n  index: -1\njiesuo/jiesuo_5\n  rotate: false\n  xy: 1734, 162\n  size: 292, 58\n  orig: 298, 77\n  offset: 4, 10\n  index: -1\njiesuo/jiesuo_6\n  rotate: false\n  xy: 1439, 160\n  size: 293, 60\n  orig: 298, 77\n  offset: 3, 9\n  index: -1\njiesuo/jiesuo_7\n  rotate: false\n  xy: 1150, 92\n  size: 294, 62\n  orig: 298, 77\n  offset: 2, 9\n  index: -1\njiesuo/jiesuo_8\n  rotate: false\n  xy: 1142, 156\n  size: 295, 64\n  orig: 298, 77\n  offset: 1, 8\n  index: -1\njiesuo/jiesuo_9\n  rotate: false\n  xy: 855, 9\n  size: 296, 67\n  orig: 298, 77\n  offset: 0, 7\n  index: -1\njiman_01\n  rotate: false\n  xy: 1722, 20\n  size: 312, 45\n  orig: 312, 45\n  offset: 0, 0\n  index: -1\ntheme140_collect_11\n  rotate: false\n  xy: 1153, 5\n  size: 567, 32\n  orig: 567, 32\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "67VtoaHsxP8Y1OIEHsoDPt"
+    }
+  ],
+  "textureNames": [
+    "jdt_jisuo_01.png"
+  ]
+}

@@ -1,1 +1,417 @@
-{"__type__":"sp.SkeletonData","_name":"zhi","_skeletonJson":{"skeleton":{"hash":"hYjvcs/Jr6Ag8v/9JCk4GTNS0YU","spine":"3.6.53","width":0,"height":0,"images":"./资源/"},"bones":[{"name":"root"},{"name":"si","parent":"root"},{"name":"zhi","parent":"root"}],"slots":[{"name":"theme141_game8_death","bone":"si"},{"name":"theme141_game8_result_16","bone":"zhi"},{"name":"theme141_game8_result_180","bone":"zhi"},{"name":"theme141_game8_result_36","bone":"zhi"},{"name":"theme141_game8_result_60","bone":"zhi"},{"name":"theme141_game8_result_600","bone":"zhi"},{"name":"theme141_game8_result_total_win","bone":"zhi"}],"skins":{"default":{"theme141_game8_death":{"theme141_game8_death":{"width":111,"height":82}},"theme141_game8_result_16":{"theme141_game8_result_16":{"width":111,"height":82}},"theme141_game8_result_180":{"theme141_game8_result_180":{"width":120,"height":82}},"theme141_game8_result_36":{"theme141_game8_result_36":{"width":111,"height":82}},"theme141_game8_result_60":{"theme141_game8_result_60":{"width":111,"height":82}},"theme141_game8_result_600":{"theme141_game8_result_600":{"width":125,"height":82}},"theme141_game8_result_total_win":{"theme141_game8_result_total_win":{"width":144,"height":82}}}},"animations":{"animation":{"slots":{"theme141_game8_result_16":{"attachment":[{"time":0,"name":"theme141_game8_result_16"}]}},"bones":{"zhi":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.2667,"x":1.25,"y":1.25,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":1,"y":1}]}}},"animation2":{"slots":{"theme141_game8_result_36":{"attachment":[{"time":0,"name":"theme141_game8_result_36"}]}},"bones":{"zhi":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.2667,"x":1.25,"y":1.25,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":1,"y":1}]}}},"animation3":{"slots":{"theme141_game8_result_60":{"attachment":[{"time":0,"name":"theme141_game8_result_60"}]}},"bones":{"zhi":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.2667,"x":1.25,"y":1.25,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":1,"y":1}]}}},"animation4":{"slots":{"theme141_game8_result_180":{"attachment":[{"time":0,"name":"theme141_game8_result_180"}]}},"bones":{"zhi":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.2667,"x":1.25,"y":1.25,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":1,"y":1}]}}},"animation5":{"slots":{"theme141_game8_result_600":{"attachment":[{"time":0,"name":"theme141_game8_result_600"}]}},"bones":{"zhi":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.2667,"x":1.25,"y":1.25,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":1,"y":1}]}}},"animation6":{"slots":{"theme141_game8_result_total_win":{"attachment":[{"time":0,"name":"theme141_game8_result_total_win"}]}},"bones":{"zhi":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.2667,"x":1.25,"y":1.25,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":1,"y":1}]}}},"animation7":{"slots":{"theme141_game8_death":{"attachment":[{"time":0,"name":"theme141_game8_death"}]}},"bones":{"si":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":1,"y":1}]}}}}},"_atlasText":"\nzhi.png\nsize: 849,86\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme141_game8_death\n  rotate: false\n  xy: 397, 2\n  size: 111, 82\n  orig: 111, 82\n  offset: 0, 0\n  index: -1\ntheme141_game8_result_16\n  rotate: false\n  xy: 510, 2\n  size: 111, 82\n  orig: 111, 82\n  offset: 0, 0\n  index: -1\ntheme141_game8_result_180\n  rotate: false\n  xy: 275, 2\n  size: 120, 82\n  orig: 120, 82\n  offset: 0, 0\n  index: -1\ntheme141_game8_result_36\n  rotate: false\n  xy: 623, 2\n  size: 111, 82\n  orig: 111, 82\n  offset: 0, 0\n  index: -1\ntheme141_game8_result_60\n  rotate: false\n  xy: 736, 2\n  size: 111, 82\n  orig: 111, 82\n  offset: 0, 0\n  index: -1\ntheme141_game8_result_600\n  rotate: false\n  xy: 148, 2\n  size: 125, 82\n  orig: 125, 82\n  offset: 0, 0\n  index: -1\ntheme141_game8_result_total_win\n  rotate: false\n  xy: 2, 2\n  size: 144, 82\n  orig: 144, 82\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"calaLZ8UFEeog1zM49TNpN"}],"textureNames":["zhi.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "zhi",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "hYjvcs/Jr6Ag8v/9JCk4GTNS0YU",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./资源/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "si",
+        "parent": "root"
+      },
+      {
+        "name": "zhi",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme141_game8_death",
+        "bone": "si"
+      },
+      {
+        "name": "theme141_game8_result_16",
+        "bone": "zhi"
+      },
+      {
+        "name": "theme141_game8_result_180",
+        "bone": "zhi"
+      },
+      {
+        "name": "theme141_game8_result_36",
+        "bone": "zhi"
+      },
+      {
+        "name": "theme141_game8_result_60",
+        "bone": "zhi"
+      },
+      {
+        "name": "theme141_game8_result_600",
+        "bone": "zhi"
+      },
+      {
+        "name": "theme141_game8_result_total_win",
+        "bone": "zhi"
+      }
+    ],
+    "skins": {
+      "default": {
+        "theme141_game8_death": {
+          "theme141_game8_death": {
+            "width": 111,
+            "height": 82
+          }
+        },
+        "theme141_game8_result_16": {
+          "theme141_game8_result_16": {
+            "width": 111,
+            "height": 82
+          }
+        },
+        "theme141_game8_result_180": {
+          "theme141_game8_result_180": {
+            "width": 120,
+            "height": 82
+          }
+        },
+        "theme141_game8_result_36": {
+          "theme141_game8_result_36": {
+            "width": 111,
+            "height": 82
+          }
+        },
+        "theme141_game8_result_60": {
+          "theme141_game8_result_60": {
+            "width": 111,
+            "height": 82
+          }
+        },
+        "theme141_game8_result_600": {
+          "theme141_game8_result_600": {
+            "width": 125,
+            "height": 82
+          }
+        },
+        "theme141_game8_result_total_win": {
+          "theme141_game8_result_total_win": {
+            "width": 144,
+            "height": 82
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "theme141_game8_result_16": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme141_game8_result_16"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zhi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 1.25,
+                "y": 1.25,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "theme141_game8_result_36": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme141_game8_result_36"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zhi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 1.25,
+                "y": 1.25,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation3": {
+        "slots": {
+          "theme141_game8_result_60": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme141_game8_result_60"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zhi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 1.25,
+                "y": 1.25,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation4": {
+        "slots": {
+          "theme141_game8_result_180": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme141_game8_result_180"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zhi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 1.25,
+                "y": 1.25,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation5": {
+        "slots": {
+          "theme141_game8_result_600": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme141_game8_result_600"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zhi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 1.25,
+                "y": 1.25,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation6": {
+        "slots": {
+          "theme141_game8_result_total_win": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme141_game8_result_total_win"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zhi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 1.25,
+                "y": 1.25,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation7": {
+        "slots": {
+          "theme141_game8_death": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme141_game8_death"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "si": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nzhi.png\nsize: 849,86\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme141_game8_death\n  rotate: false\n  xy: 397, 2\n  size: 111, 82\n  orig: 111, 82\n  offset: 0, 0\n  index: -1\ntheme141_game8_result_16\n  rotate: false\n  xy: 510, 2\n  size: 111, 82\n  orig: 111, 82\n  offset: 0, 0\n  index: -1\ntheme141_game8_result_180\n  rotate: false\n  xy: 275, 2\n  size: 120, 82\n  orig: 120, 82\n  offset: 0, 0\n  index: -1\ntheme141_game8_result_36\n  rotate: false\n  xy: 623, 2\n  size: 111, 82\n  orig: 111, 82\n  offset: 0, 0\n  index: -1\ntheme141_game8_result_60\n  rotate: false\n  xy: 736, 2\n  size: 111, 82\n  orig: 111, 82\n  offset: 0, 0\n  index: -1\ntheme141_game8_result_600\n  rotate: false\n  xy: 148, 2\n  size: 125, 82\n  orig: 125, 82\n  offset: 0, 0\n  index: -1\ntheme141_game8_result_total_win\n  rotate: false\n  xy: 2, 2\n  size: 144, 82\n  orig: 144, 82\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "calaLZ8UFEeog1zM49TNpN"
+    }
+  ],
+  "textureNames": [
+    "zhi.png"
+  ]
+}

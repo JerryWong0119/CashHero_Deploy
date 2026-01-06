@@ -1,1 +1,254 @@
-[{"__type__":"cc.BitmapFont","_name":"Puss_Classic","spriteFrame":{"__uuid__":"b6zW+VLGlCEYCkx9obCfv7"},"fontSize":32,"_fntConfig":{"commonHeight":70,"fontSize":32,"atlasName":"Puss_Classic.png","fontDefDictionary":{"9":{"rect":{"x":0,"y":0,"width":0,"height":0},"xOffset":0,"yOffset":0,"xAdvance":144},"32":{"rect":{"x":0,"y":0,"width":0,"height":0},"xOffset":0,"yOffset":0,"xAdvance":18},"44":{"rect":{"x":143,"y":116,"width":10,"height":22},"xOffset":0,"yOffset":59,"xAdvance":13},"46":{"rect":{"x":143,"y":104,"width":10,"height":11},"xOffset":0,"yOffset":59,"xAdvance":13},"47":{"rect":{"x":125,"y":104,"width":17,"height":53},"xOffset":0,"yOffset":18,"xAdvance":20},"48":{"rect":{"x":96,"y":0,"width":27,"height":53},"xOffset":0,"yOffset":18,"xAdvance":30},"49":{"rect":{"x":69,"y":0,"width":19,"height":51},"xOffset":0,"yOffset":19,"xAdvance":22},"50":{"rect":{"x":68,"y":104,"width":28,"height":51},"xOffset":0,"yOffset":19,"xAdvance":31},"51":{"rect":{"x":125,"y":52,"width":27,"height":51},"xOffset":0,"yOffset":19,"xAdvance":30},"52":{"rect":{"x":37,"y":52,"width":29,"height":51},"xOffset":0,"yOffset":19,"xAdvance":32},"53":{"rect":{"x":67,"y":52,"width":28,"height":51},"xOffset":0,"yOffset":19,"xAdvance":31},"54":{"rect":{"x":97,"y":106,"width":27,"height":51},"xOffset":0,"yOffset":19,"xAdvance":30},"55":{"rect":{"x":97,"y":54,"width":27,"height":51},"xOffset":0,"yOffset":19,"xAdvance":30},"56":{"rect":{"x":124,"y":0,"width":27,"height":51},"xOffset":0,"yOffset":19,"xAdvance":30},"57":{"rect":{"x":40,"y":0,"width":28,"height":51},"xOffset":0,"yOffset":19,"xAdvance":31},"66":{"rect":{"x":0,"y":104,"width":34,"height":51},"xOffset":0,"yOffset":19,"xAdvance":37},"75":{"rect":{"x":0,"y":52,"width":36,"height":51},"xOffset":0,"yOffset":19,"xAdvance":39},"77":{"rect":{"x":0,"y":0,"width":39,"height":51},"xOffset":0,"yOffset":19,"xAdvance":42},"84":{"rect":{"x":35,"y":104,"width":32,"height":51},"xOffset":0,"yOffset":19,"xAdvance":35}},"kerningDict":{}}},{"__type__":"cc.SpriteFrame","content":{"name":"Puss_Classic","texture":"7cEMQANhtOdIHY6F1IO5TR","rect":[0,0,153,157],"offset":[-0.5,0.5],"originalSize":[154,158],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.BitmapFont",
+    "_name": "Puss_Classic",
+    "spriteFrame": {
+      "__uuid__": "b6zW+VLGlCEYCkx9obCfv7"
+    },
+    "fontSize": 32,
+    "_fntConfig": {
+      "commonHeight": 70,
+      "fontSize": 32,
+      "atlasName": "Puss_Classic.png",
+      "fontDefDictionary": {
+        "9": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 144
+        },
+        "32": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 18
+        },
+        "44": {
+          "rect": {
+            "x": 143,
+            "y": 116,
+            "width": 10,
+            "height": 22
+          },
+          "xOffset": 0,
+          "yOffset": 59,
+          "xAdvance": 13
+        },
+        "46": {
+          "rect": {
+            "x": 143,
+            "y": 104,
+            "width": 10,
+            "height": 11
+          },
+          "xOffset": 0,
+          "yOffset": 59,
+          "xAdvance": 13
+        },
+        "47": {
+          "rect": {
+            "x": 125,
+            "y": 104,
+            "width": 17,
+            "height": 53
+          },
+          "xOffset": 0,
+          "yOffset": 18,
+          "xAdvance": 20
+        },
+        "48": {
+          "rect": {
+            "x": 96,
+            "y": 0,
+            "width": 27,
+            "height": 53
+          },
+          "xOffset": 0,
+          "yOffset": 18,
+          "xAdvance": 30
+        },
+        "49": {
+          "rect": {
+            "x": 69,
+            "y": 0,
+            "width": 19,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 22
+        },
+        "50": {
+          "rect": {
+            "x": 68,
+            "y": 104,
+            "width": 28,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 31
+        },
+        "51": {
+          "rect": {
+            "x": 125,
+            "y": 52,
+            "width": 27,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 30
+        },
+        "52": {
+          "rect": {
+            "x": 37,
+            "y": 52,
+            "width": 29,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 32
+        },
+        "53": {
+          "rect": {
+            "x": 67,
+            "y": 52,
+            "width": 28,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 31
+        },
+        "54": {
+          "rect": {
+            "x": 97,
+            "y": 106,
+            "width": 27,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 30
+        },
+        "55": {
+          "rect": {
+            "x": 97,
+            "y": 54,
+            "width": 27,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 30
+        },
+        "56": {
+          "rect": {
+            "x": 124,
+            "y": 0,
+            "width": 27,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 30
+        },
+        "57": {
+          "rect": {
+            "x": 40,
+            "y": 0,
+            "width": 28,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 31
+        },
+        "66": {
+          "rect": {
+            "x": 0,
+            "y": 104,
+            "width": 34,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 37
+        },
+        "75": {
+          "rect": {
+            "x": 0,
+            "y": 52,
+            "width": 36,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 39
+        },
+        "77": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 39,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 42
+        },
+        "84": {
+          "rect": {
+            "x": 35,
+            "y": 104,
+            "width": 32,
+            "height": 51
+          },
+          "xOffset": 0,
+          "yOffset": 19,
+          "xAdvance": 35
+        }
+      },
+      "kerningDict": {}
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Puss_Classic",
+      "texture": "7cEMQANhtOdIHY6F1IO5TR",
+      "rect": [
+        0,
+        0,
+        153,
+        157
+      ],
+      "offset": [
+        -0.5,
+        0.5
+      ],
+      "originalSize": [
+        154,
+        158
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

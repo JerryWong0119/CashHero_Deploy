@@ -1,1 +1,2727 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"Wk/r8WE1CA4Xwu4AgJWmMaE5qXY","spine":"3.6.53","width":129.13,"height":427.04},"bones":[{"name":"root"},{"name":"WILD","parent":"root","rotation":-0.07},{"name":"11","parent":"WILD"},{"name":"1","parent":"11"},{"name":"beijing","parent":"11"},{"name":"beijing_1","parent":"11","rotation":0.07,"scaleX":3.991,"scaleY":3.991},{"name":"biankuang4","parent":"11"},{"name":"d","parent":"1","x":0.98,"y":-124.22},{"name":"gaoliang1","parent":"1","scaleX":8,"scaleY":8},{"name":"i","parent":"1","x":6.22,"y":48.79},{"name":"l","parent":"1","x":-4.26,"y":-42.58},{"name":"liuguang_1","parent":"11","rotation":0.07,"scaleX":8,"scaleY":8},{"name":"w","parent":"1","x":3.22,"y":128.19}],"slots":[{"name":"beijing","bone":"beijing","attachment":"images/beijing2"},{"name":"1","bone":"root","attachment":"1"},{"name":"beijing/beijing_1","bone":"beijing_1","attachment":"beijing/beijing_1","blend":"additive"},{"name":"biankuang4","bone":"biankuang4","attachment":"images/biankuang3"},{"name":"liuguang/liuguang_1","bone":"liuguang_1","blend":"additive"},{"name":"w","bone":"w","attachment":"images/w"},{"name":"i","bone":"i","attachment":"images/i"},{"name":"l","bone":"l","attachment":"images/l"},{"name":"d","bone":"d","attachment":"images/d"},{"name":"gaoliang1","bone":"gaoliang1","blend":"additive"}],"skins":{"default":{"1":{"1":{"type":"clipping","end":"beijing/beijing_1","vertexCount":4,"vertices":[-63.64,160.35,63.04,160.94,62.71,-160.47,-62.79,-159.88]}},"beijing":{"images/beijing":{"x":0.21,"y":-0.21,"width":127,"height":429},"images/beijing2":{"width":127,"height":321}},"beijing/beijing_1":{"beijing/beijing_1":{"width":32,"height":107},"beijing/beijing_2":{"width":32,"height":107},"beijing/beijing_3":{"width":32,"height":107},"beijing/beijing_4":{"width":32,"height":107},"beijing/beijing_5":{"width":32,"height":107},"beijing/beijing_6":{"width":32,"height":107},"beijing/beijing_7":{"width":32,"height":107},"beijing/beijing_8":{"width":32,"height":107},"beijing/beijing_9":{"width":32,"height":107},"beijing/beijing_10":{"width":32,"height":107},"beijing/beijing_11":{"width":32,"height":107},"beijing/beijing_12":{"width":32,"height":107},"beijing/beijing_13":{"width":32,"height":107},"beijing/beijing_14":{"width":32,"height":107},"beijing/beijing_15":{"width":32,"height":107},"beijing/beijing_16":{"width":32,"height":107},"beijing/beijing_17":{"width":32,"height":107},"beijing/beijing_18":{"width":32,"height":107},"beijing/beijing_19":{"width":32,"height":107},"beijing/beijing_20":{"width":32,"height":107},"beijing/beijing_21":{"width":32,"height":107}},"biankuang4":{"images/biankuang3":{"rotation":0.07,"width":128,"height":322},"images/biankuang4":{"x":0.21,"y":-0.46,"width":128,"height":430}},"d":{"images/d":{"x":0.98,"y":-8.49,"width":112,"height":107}},"gaoliang1":{"gaoliang1":{"width":23,"height":61}},"i":{"images/i":{"x":-5.26,"y":-5.26,"width":75,"height":108}},"l":{"images/l":{"x":5.47,"y":-3.63,"width":85,"height":109}},"liuguang/liuguang_1":{"liuguang/liuguang_1":{"x":-4.36,"y":22.34,"width":9,"height":11},"liuguang/liuguang_2":{"x":-3.49,"y":20.38,"width":11,"height":14},"liuguang/liuguang_3":{"x":-2.4,"y":19.29,"width":13,"height":17},"liuguang/liuguang_4":{"x":-0.87,"y":17.76,"width":16,"height":20},"liuguang/liuguang_5":{"x":-0.11,"y":16.07,"width":18,"height":23},"liuguang/liuguang_6":{"x":0.33,"y":14.65,"width":19,"height":26},"liuguang/liuguang_7":{"x":0.18,"y":13.33,"width":19,"height":29},"liuguang/liuguang_8":{"x":-0.03,"y":11.42,"width":19,"height":33},"liuguang/liuguang_9":{"x":0.06,"y":9.87,"width":19,"height":36},"liuguang/liuguang_10":{"x":-0.25,"y":8.6,"width":19,"height":39},"liuguang/liuguang_11":{"x":-0.26,"y":6.94,"width":19,"height":42},"liuguang/liuguang_12":{"x":-0.26,"y":5.52,"width":19,"height":45},"liuguang/liuguang_13":{"x":-0.29,"y":3.95,"width":19,"height":48},"liuguang/liuguang_14":{"x":-0.11,"y":1.68,"width":19,"height":52},"liuguang/liuguang_15":{"x":0.22,"y":0.43,"width":19,"height":55},"liuguang/liuguang_16":{"x":0.11,"y":-0.03,"width":19,"height":56},"liuguang/liuguang_17":{"x":0.03,"y":-0.59,"width":19,"height":56},"liuguang/liuguang_18":{"x":-0.37,"y":-2.72,"width":19,"height":53},"liuguang/liuguang_19":{"x":-0.22,"y":-3.89,"width":19,"height":50},"liuguang/liuguang_20":{"x":-0.43,"y":-4.86,"width":19,"height":47},"liuguang/liuguang_21":{"x":-0.22,"y":-5.94,"width":19,"height":44},"liuguang/liuguang_22":{"x":-0.22,"y":-7.02,"width":19,"height":41},"liuguang/liuguang_23":{"x":-0.43,"y":-9.18,"width":19,"height":38},"liuguang/liuguang_24":{"x":-0.43,"y":-10.8,"width":19,"height":35},"liuguang/liuguang_25":{"x":-0.32,"y":-12.85,"width":19,"height":31},"liuguang/liuguang_26":{"x":-0.65,"y":-14.15,"width":19,"height":28},"liuguang/liuguang_27":{"x":-0.11,"y":-15.88,"width":18,"height":25},"liuguang/liuguang_28":{"y":-17.5,"width":17,"height":22},"liuguang/liuguang_29":{"x":1.84,"y":-18.9,"width":14,"height":19},"liuguang/liuguang_30":{"x":3.13,"y":-20.41,"width":12,"height":16},"liuguang/liuguang_31":{"x":4,"y":-21.49,"width":10,"height":13}},"w":{"images/w":{"x":-3.02,"y":4.09,"width":129,"height":105}}}},"animations":{"animation3":{"slots":{"beijing/beijing_1":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":1.6667,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0.0333,"name":"beijing/beijing_2"},{"time":0.0667,"name":"beijing/beijing_3"},{"time":0.1,"name":"beijing/beijing_4"},{"time":0.1333,"name":"beijing/beijing_5"},{"time":0.1667,"name":"beijing/beijing_6"},{"time":0.2,"name":"beijing/beijing_7"},{"time":0.2333,"name":"beijing/beijing_8"},{"time":0.2667,"name":"beijing/beijing_9"},{"time":0.3,"name":"beijing/beijing_10"},{"time":0.3333,"name":"beijing/beijing_11"},{"time":0.3667,"name":"beijing/beijing_12"},{"time":0.4,"name":"beijing/beijing_13"},{"time":0.4333,"name":"beijing/beijing_14"},{"time":0.4667,"name":"beijing/beijing_15"},{"time":0.5,"name":"beijing/beijing_16"},{"time":0.5333,"name":"beijing/beijing_17"},{"time":0.5667,"name":"beijing/beijing_18"},{"time":0.6,"name":"beijing/beijing_19"},{"time":0.6333,"name":"beijing/beijing_20"},{"time":0.6667,"name":"beijing/beijing_21"},{"time":0.7,"name":"beijing/beijing_1"},{"time":0.7333,"name":"beijing/beijing_2"},{"time":0.7667,"name":"beijing/beijing_3"},{"time":0.8,"name":"beijing/beijing_4"},{"time":0.8333,"name":"beijing/beijing_5"},{"time":0.8667,"name":"beijing/beijing_6"},{"time":0.9,"name":"beijing/beijing_7"},{"time":0.9333,"name":"beijing/beijing_8"},{"time":0.9667,"name":"beijing/beijing_9"},{"time":1,"name":"beijing/beijing_10"},{"time":1.0333,"name":"beijing/beijing_11"},{"time":1.0667,"name":"beijing/beijing_12"},{"time":1.1,"name":"beijing/beijing_13"},{"time":1.1333,"name":"beijing/beijing_14"},{"time":1.1667,"name":"beijing/beijing_15"},{"time":1.2,"name":"beijing/beijing_16"},{"time":1.2333,"name":"beijing/beijing_17"},{"time":1.2667,"name":"beijing/beijing_18"},{"time":1.3,"name":"beijing/beijing_19"},{"time":1.3333,"name":"beijing/beijing_20"},{"time":1.3667,"name":"beijing/beijing_21"},{"time":1.4,"name":"beijing/beijing_1"},{"time":1.4333,"name":"beijing/beijing_2"},{"time":1.4667,"name":"beijing/beijing_3"},{"time":1.5,"name":"beijing/beijing_4"},{"time":1.5333,"name":"beijing/beijing_5"},{"time":1.5667,"name":"beijing/beijing_6"},{"time":1.6,"name":"beijing/beijing_7"},{"time":1.6333,"name":"beijing/beijing_8"},{"time":1.6667,"name":"beijing/beijing_9"},{"time":1.7,"name":"beijing/beijing_10"},{"time":1.7333,"name":"beijing/beijing_11"},{"time":1.7667,"name":"beijing/beijing_12"},{"time":1.8,"name":"beijing/beijing_13"},{"time":1.8333,"name":"beijing/beijing_14"},{"time":1.8667,"name":"beijing/beijing_15"},{"time":1.9,"name":"beijing/beijing_16"},{"time":1.9333,"name":"beijing/beijing_17"},{"time":1.9667,"name":"beijing/beijing_18"}]},"gaoliang1":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":1.2667,"color":"ffffff00"},{"time":1.5667,"color":"ffffffff"},{"time":1.8,"color":"ffffff00"}]},"liuguang/liuguang_1":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffffff"}],"attachment":[{"time":0,"name":"liuguang/liuguang_1"},{"time":0.0333,"name":"liuguang/liuguang_2"},{"time":0.0667,"name":"liuguang/liuguang_3"},{"time":0.1,"name":"liuguang/liuguang_4"},{"time":0.1333,"name":"liuguang/liuguang_5"},{"time":0.1667,"name":"liuguang/liuguang_6"},{"time":0.2,"name":"liuguang/liuguang_7"},{"time":0.2333,"name":"liuguang/liuguang_8"},{"time":0.2667,"name":"liuguang/liuguang_9"},{"time":0.3,"name":"liuguang/liuguang_10"},{"time":0.3333,"name":"liuguang/liuguang_11"},{"time":0.3667,"name":"liuguang/liuguang_12"},{"time":0.4,"name":"liuguang/liuguang_13"},{"time":0.4333,"name":"liuguang/liuguang_14"},{"time":0.4667,"name":"liuguang/liuguang_15"},{"time":0.5,"name":"liuguang/liuguang_16"},{"time":0.5333,"name":"liuguang/liuguang_17"},{"time":0.5667,"name":"liuguang/liuguang_18"},{"time":0.6,"name":"liuguang/liuguang_19"},{"time":0.6333,"name":"liuguang/liuguang_20"},{"time":0.6667,"name":"liuguang/liuguang_21"},{"time":0.7,"name":"liuguang/liuguang_22"},{"time":0.7333,"name":"liuguang/liuguang_23"},{"time":0.7667,"name":"liuguang/liuguang_24"},{"time":0.8,"name":"liuguang/liuguang_25"},{"time":0.8333,"name":"liuguang/liuguang_26"},{"time":0.8667,"name":"liuguang/liuguang_27"},{"time":0.9,"name":"liuguang/liuguang_28"},{"time":0.9333,"name":"liuguang/liuguang_29"},{"time":0.9667,"name":"liuguang/liuguang_30"},{"time":1,"name":"liuguang/liuguang_31"},{"time":1.0333,"name":"liuguang/liuguang_30"},{"time":1.0667,"name":"liuguang/liuguang_29"},{"time":1.1,"name":"liuguang/liuguang_28"},{"time":1.1333,"name":"liuguang/liuguang_27"},{"time":1.1667,"name":"liuguang/liuguang_26"},{"time":1.2,"name":"liuguang/liuguang_25"},{"time":1.2333,"name":"liuguang/liuguang_24"},{"time":1.2667,"name":"liuguang/liuguang_23"},{"time":1.3,"name":"liuguang/liuguang_22"},{"time":1.3333,"name":"liuguang/liuguang_21"},{"time":1.3667,"name":"liuguang/liuguang_20"},{"time":1.4,"name":"liuguang/liuguang_19"},{"time":1.4333,"name":"liuguang/liuguang_18"},{"time":1.4667,"name":"liuguang/liuguang_17"},{"time":1.5,"name":"liuguang/liuguang_16"},{"time":1.5333,"name":"liuguang/liuguang_15"},{"time":1.5667,"name":"liuguang/liuguang_14"},{"time":1.6,"name":"liuguang/liuguang_13"},{"time":1.6333,"name":"liuguang/liuguang_12"},{"time":1.6667,"name":"liuguang/liuguang_11"},{"time":1.7,"name":"liuguang/liuguang_10"},{"time":1.7333,"name":"liuguang/liuguang_9"},{"time":1.7667,"name":"liuguang/liuguang_8"},{"time":1.8,"name":"liuguang/liuguang_7"},{"time":1.8333,"name":"liuguang/liuguang_6"},{"time":1.8667,"name":"liuguang/liuguang_5"},{"time":1.9,"name":"liuguang/liuguang_4"},{"time":1.9333,"name":"liuguang/liuguang_3"},{"time":1.9667,"name":"liuguang/liuguang_2"},{"time":2,"name":"liuguang/liuguang_1"}]}},"bones":{"1":{"scale":[{"time":1.2667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.5667,"x":1.247,"y":1.247,"curve":[0.25,0,0.75,1]},{"time":1.8,"x":1,"y":1}]},"11":{"scale":[{"time":0,"x":1.046,"y":1.01}]},"gaoliang1":{"scale":[{"time":0,"x":0.809,"y":0.809}]},"liuguang_1":{"scale":[{"time":0,"x":1,"y":0.742}]},"w":{"rotate":[{"time":0,"angle":0},{"time":0.1667,"angle":180,"curve":[0.051,0.05,0.75,1]},{"time":0.4,"angle":0}],"translate":[{"time":0,"x":0.59,"y":-21.7}],"scale":[{"time":0,"x":0.897,"y":0.876,"curve":[0.25,0,0.75,1]},{"time":0.1667,"x":1.095,"y":1.401,"curve":[0.25,0,0.75,1]},{"time":0.3,"x":1.14,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.4667,"x":0.897,"y":0.876}]},"i":{"rotate":[{"time":0.3,"angle":0},{"time":0.4667,"angle":180,"curve":[0.051,0.05,0.75,1]},{"time":0.7,"angle":0}],"translate":[{"time":0,"x":0.01,"y":-7.97}],"scale":[{"time":0,"x":0.88,"y":0.872,"curve":"stepped"},{"time":0.3,"x":0.88,"y":0.872,"curve":[0.25,0,0.75,1]},{"time":0.4667,"x":1.361,"y":1.742,"curve":[0.25,0,0.75,1]},{"time":0.6,"x":1.14,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.7667,"x":0.88,"y":0.872}]},"l":{"rotate":[{"time":0.6,"angle":0},{"time":0.7667,"angle":180,"curve":[0.051,0.05,0.75,1]},{"time":1,"angle":0}],"translate":[{"time":0,"x":1.14,"y":5.43}],"scale":[{"time":0,"x":0.895,"y":0.868,"curve":"stepped"},{"time":0.6,"x":0.895,"y":0.868,"curve":[0.25,0,0.75,1]},{"time":0.7667,"x":1.361,"y":1.742,"curve":[0.25,0,0.75,1]},{"time":0.9,"x":1.14,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.0667,"x":0.895,"y":0.868}]},"d":{"rotate":[{"time":0.9,"angle":0},{"time":1.0667,"angle":180,"curve":[0.051,0.05,0.75,1]},{"time":1.3,"angle":0}],"translate":[{"time":0,"x":0.77,"y":19.89}],"scale":[{"time":0,"x":0.897,"y":0.856,"curve":"stepped"},{"time":0.9,"x":0.897,"y":0.856,"curve":[0.25,0,0.75,1]},{"time":1.0667,"x":1.361,"y":1.742,"curve":[0.25,0,0.75,1]},{"time":1.2,"x":1.14,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.3667,"x":0.897,"y":0.856}]}},"deform":{"default":{"1":{"1":[{"time":0,"offset":1,"vertices":[-1.134,0,-1.134,0,1.467,0,1.467]}]}}},"drawOrder":[{"time":0.0333,"offsets":[{"slot":"w","offset":3}]},{"time":0.3333},{"time":0.4333,"offsets":[{"slot":"i","offset":1}]},{"time":0.6667},{"time":0.7,"offsets":[{"slot":"l","offset":1}]},{"time":0.9}]},"animation4":{"slots":{"beijing":{"attachment":[{"time":0,"name":"images/beijing"}]},"beijing/beijing_1":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":1.6667,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0.0333,"name":"beijing/beijing_2"},{"time":0.0667,"name":"beijing/beijing_3"},{"time":0.1,"name":"beijing/beijing_4"},{"time":0.1333,"name":"beijing/beijing_5"},{"time":0.1667,"name":"beijing/beijing_6"},{"time":0.2,"name":"beijing/beijing_7"},{"time":0.2333,"name":"beijing/beijing_8"},{"time":0.2667,"name":"beijing/beijing_9"},{"time":0.3,"name":"beijing/beijing_10"},{"time":0.3333,"name":"beijing/beijing_11"},{"time":0.3667,"name":"beijing/beijing_12"},{"time":0.4,"name":"beijing/beijing_13"},{"time":0.4333,"name":"beijing/beijing_14"},{"time":0.4667,"name":"beijing/beijing_15"},{"time":0.5,"name":"beijing/beijing_16"},{"time":0.5333,"name":"beijing/beijing_17"},{"time":0.5667,"name":"beijing/beijing_18"},{"time":0.6,"name":"beijing/beijing_19"},{"time":0.6333,"name":"beijing/beijing_20"},{"time":0.6667,"name":"beijing/beijing_21"},{"time":0.7,"name":"beijing/beijing_1"},{"time":0.7333,"name":"beijing/beijing_2"},{"time":0.7667,"name":"beijing/beijing_3"},{"time":0.8,"name":"beijing/beijing_4"},{"time":0.8333,"name":"beijing/beijing_5"},{"time":0.8667,"name":"beijing/beijing_6"},{"time":0.9,"name":"beijing/beijing_7"},{"time":0.9333,"name":"beijing/beijing_8"},{"time":0.9667,"name":"beijing/beijing_9"},{"time":1,"name":"beijing/beijing_10"},{"time":1.0333,"name":"beijing/beijing_11"},{"time":1.0667,"name":"beijing/beijing_12"},{"time":1.1,"name":"beijing/beijing_13"},{"time":1.1333,"name":"beijing/beijing_14"},{"time":1.1667,"name":"beijing/beijing_15"},{"time":1.2,"name":"beijing/beijing_16"},{"time":1.2333,"name":"beijing/beijing_17"},{"time":1.2667,"name":"beijing/beijing_18"},{"time":1.3,"name":"beijing/beijing_19"},{"time":1.3333,"name":"beijing/beijing_20"},{"time":1.3667,"name":"beijing/beijing_21"},{"time":1.4,"name":"beijing/beijing_1"},{"time":1.4333,"name":"beijing/beijing_2"},{"time":1.4667,"name":"beijing/beijing_3"},{"time":1.5,"name":"beijing/beijing_4"},{"time":1.5333,"name":"beijing/beijing_5"},{"time":1.5667,"name":"beijing/beijing_6"},{"time":1.6,"name":"beijing/beijing_7"},{"time":1.6333,"name":"beijing/beijing_8"},{"time":1.6667,"name":"beijing/beijing_9"},{"time":1.7,"name":"beijing/beijing_10"},{"time":1.7333,"name":"beijing/beijing_11"},{"time":1.7667,"name":"beijing/beijing_12"},{"time":1.8,"name":"beijing/beijing_13"},{"time":1.8333,"name":"beijing/beijing_14"},{"time":1.8667,"name":"beijing/beijing_15"},{"time":1.9,"name":"beijing/beijing_16"},{"time":1.9333,"name":"beijing/beijing_17"},{"time":1.9667,"name":"beijing/beijing_18"}]},"biankuang4":{"attachment":[{"time":0,"name":"images/biankuang4"}]},"gaoliang1":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":1.2667,"color":"ffffff00"},{"time":1.5667,"color":"ffffffff"},{"time":1.8,"color":"ffffff00"}]},"liuguang/liuguang_1":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffffff"}],"attachment":[{"time":0,"name":"liuguang/liuguang_1"},{"time":0.0333,"name":"liuguang/liuguang_2"},{"time":0.0667,"name":"liuguang/liuguang_3"},{"time":0.1,"name":"liuguang/liuguang_4"},{"time":0.1333,"name":"liuguang/liuguang_5"},{"time":0.1667,"name":"liuguang/liuguang_6"},{"time":0.2,"name":"liuguang/liuguang_7"},{"time":0.2333,"name":"liuguang/liuguang_8"},{"time":0.2667,"name":"liuguang/liuguang_9"},{"time":0.3,"name":"liuguang/liuguang_10"},{"time":0.3333,"name":"liuguang/liuguang_11"},{"time":0.3667,"name":"liuguang/liuguang_12"},{"time":0.4,"name":"liuguang/liuguang_13"},{"time":0.4333,"name":"liuguang/liuguang_14"},{"time":0.4667,"name":"liuguang/liuguang_15"},{"time":0.5,"name":"liuguang/liuguang_16"},{"time":0.5333,"name":"liuguang/liuguang_17"},{"time":0.5667,"name":"liuguang/liuguang_18"},{"time":0.6,"name":"liuguang/liuguang_19"},{"time":0.6333,"name":"liuguang/liuguang_20"},{"time":0.6667,"name":"liuguang/liuguang_21"},{"time":0.7,"name":"liuguang/liuguang_22"},{"time":0.7333,"name":"liuguang/liuguang_23"},{"time":0.7667,"name":"liuguang/liuguang_24"},{"time":0.8,"name":"liuguang/liuguang_25"},{"time":0.8333,"name":"liuguang/liuguang_26"},{"time":0.8667,"name":"liuguang/liuguang_27"},{"time":0.9,"name":"liuguang/liuguang_28"},{"time":0.9333,"name":"liuguang/liuguang_29"},{"time":0.9667,"name":"liuguang/liuguang_30"},{"time":1,"name":"liuguang/liuguang_31"},{"time":1.0333,"name":"liuguang/liuguang_30"},{"time":1.0667,"name":"liuguang/liuguang_29"},{"time":1.1,"name":"liuguang/liuguang_28"},{"time":1.1333,"name":"liuguang/liuguang_27"},{"time":1.1667,"name":"liuguang/liuguang_26"},{"time":1.2,"name":"liuguang/liuguang_25"},{"time":1.2333,"name":"liuguang/liuguang_24"},{"time":1.2667,"name":"liuguang/liuguang_23"},{"time":1.3,"name":"liuguang/liuguang_22"},{"time":1.3333,"name":"liuguang/liuguang_21"},{"time":1.3667,"name":"liuguang/liuguang_20"},{"time":1.4,"name":"liuguang/liuguang_19"},{"time":1.4333,"name":"liuguang/liuguang_18"},{"time":1.4667,"name":"liuguang/liuguang_17"},{"time":1.5,"name":"liuguang/liuguang_16"},{"time":1.5333,"name":"liuguang/liuguang_15"},{"time":1.5667,"name":"liuguang/liuguang_14"},{"time":1.6,"name":"liuguang/liuguang_13"},{"time":1.6333,"name":"liuguang/liuguang_12"},{"time":1.6667,"name":"liuguang/liuguang_11"},{"time":1.7,"name":"liuguang/liuguang_10"},{"time":1.7333,"name":"liuguang/liuguang_9"},{"time":1.7667,"name":"liuguang/liuguang_8"},{"time":1.8,"name":"liuguang/liuguang_7"},{"time":1.8333,"name":"liuguang/liuguang_6"},{"time":1.8667,"name":"liuguang/liuguang_5"},{"time":1.9,"name":"liuguang/liuguang_4"},{"time":1.9333,"name":"liuguang/liuguang_3"},{"time":1.9667,"name":"liuguang/liuguang_2"},{"time":2,"name":"liuguang/liuguang_1"}]}},"bones":{"1":{"scale":[{"time":1.2667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.5667,"x":1.247,"y":1.247,"curve":[0.25,0,0.75,1]},{"time":1.8,"x":1,"y":1}]},"11":{"scale":[{"time":0,"x":1.046,"y":1.01}]},"w":{"rotate":[{"time":0,"angle":0},{"time":0.1667,"angle":180,"curve":[0.051,0.05,0.75,1]},{"time":0.4,"angle":0}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.1667,"x":1.361,"y":1.742,"curve":[0.25,0,0.75,1]},{"time":0.3,"x":1.14,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.4667,"x":1,"y":1}]},"i":{"rotate":[{"time":0.3,"angle":0},{"time":0.4667,"angle":180,"curve":[0.051,0.05,0.75,1]},{"time":0.7,"angle":0}],"scale":[{"time":0.3,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.4667,"x":1.361,"y":1.742,"curve":[0.25,0,0.75,1]},{"time":0.6,"x":1.14,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.7667,"x":1,"y":1}]},"l":{"rotate":[{"time":0.6,"angle":0},{"time":0.7667,"angle":180,"curve":[0.051,0.05,0.75,1]},{"time":1,"angle":0}],"scale":[{"time":0.6,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.7667,"x":1.361,"y":1.742,"curve":[0.25,0,0.75,1]},{"time":0.9,"x":1.14,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.0667,"x":1,"y":1}]},"d":{"rotate":[{"time":0.9,"angle":0},{"time":1.0667,"angle":180,"curve":[0.051,0.05,0.75,1]},{"time":1.3,"angle":0}],"scale":[{"time":0.9,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.0667,"x":1.361,"y":1.742,"curve":[0.25,0,0.75,1]},{"time":1.2,"x":1.14,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.3667,"x":1,"y":1}]}},"deform":{"default":{"1":{"1":[{"time":0,"vertices":[2.439,49.29195,0.249,48.79397,0,-50.00092,1.194,-49.50294]}]}}},"drawOrder":[{"time":0.0333,"offsets":[{"slot":"w","offset":3}]},{"time":0.3333},{"time":0.4333,"offsets":[{"slot":"i","offset":1}]},{"time":0.6667},{"time":0.7,"offsets":[{"slot":"l","offset":1}]},{"time":0.9}]},"animation3_1":{"slots":{"beijing/beijing_1":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":null}]},"gaoliang1":{"color":[{"time":0,"color":"ffffff00"}]},"liuguang/liuguang_1":{"color":[{"time":0,"color":"ffffff00"}],"attachment":[{"time":0,"name":"liuguang/liuguang_1"}]}},"bones":{"1":{"scale":[{"time":0,"x":1,"y":1}]},"11":{"scale":[{"time":0,"x":1.046,"y":1.01}]},"gaoliang1":{"scale":[{"time":0,"x":0.809,"y":0.809}]},"liuguang_1":{"scale":[{"time":0,"x":1,"y":0.742}]},"w":{"rotate":[{"time":0,"angle":0}],"translate":[{"time":0,"x":0.59,"y":-21.7}],"scale":[{"time":0,"x":0.897,"y":0.876}]},"i":{"rotate":[{"time":0,"angle":0}],"translate":[{"time":0,"x":0.01,"y":-7.97}],"scale":[{"time":0,"x":0.88,"y":0.872}]},"l":{"rotate":[{"time":0,"angle":0}],"translate":[{"time":0,"x":1.14,"y":5.43}],"scale":[{"time":0,"x":0.895,"y":0.868}]},"d":{"rotate":[{"time":0,"angle":0}],"translate":[{"time":0,"x":0.77,"y":19.89}],"scale":[{"time":0,"x":0.897,"y":0.856}]}},"deform":{"default":{"1":{"1":[{"time":0,"offset":1,"vertices":[-1.134,0,-1.134,0,1.467,0,1.467]}]}}},"drawOrder":[{"time":0}]},"animation4_1":{"slots":{"1":{"attachment":[{"time":0,"name":"1"}]},"beijing":{"attachment":[{"time":0,"name":"images/beijing"}]},"beijing/beijing_1":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":null}]},"biankuang4":{"attachment":[{"time":0,"name":"images/biankuang4"}]},"gaoliang1":{"color":[{"time":0,"color":"ffffff00"}]},"liuguang/liuguang_1":{"color":[{"time":0,"color":"ffffff00"}],"attachment":[{"time":0,"name":"liuguang/liuguang_1"}]}},"bones":{"1":{"scale":[{"time":0,"x":1,"y":1}]},"11":{"scale":[{"time":0,"x":1.046,"y":1.01}]},"w":{"rotate":[{"time":0,"angle":0}],"scale":[{"time":0,"x":1,"y":1}]},"i":{"rotate":[{"time":0,"angle":0}],"scale":[{"time":0,"x":1,"y":1}]},"l":{"rotate":[{"time":0,"angle":0}],"scale":[{"time":0,"x":1,"y":1}]},"d":{"rotate":[{"time":0,"angle":0}],"scale":[{"time":0,"x":1,"y":1}]}},"deform":{"default":{"1":{"1":[{"time":0,"vertices":[2.30402,47.58096,-0.36999,47.21098,-0.73,-47.61495,0.099,-47.24996]}]}}},"drawOrder":[{"time":0}]}}},"_atlasText":"\nspine.png\nsize: 2048,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbeijing/beijing_1\n  rotate: true\n  xy: 244, 92\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_10\n  rotate: true\n  xy: 1621, 111\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_11\n  rotate: true\n  xy: 244, 24\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_12\n  rotate: false\n  xy: 353, 17\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_13\n  rotate: false\n  xy: 387, 17\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_14\n  rotate: false\n  xy: 421, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_15\n  rotate: false\n  xy: 455, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_16\n  rotate: false\n  xy: 489, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_17\n  rotate: false\n  xy: 523, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_18\n  rotate: false\n  xy: 557, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_19\n  rotate: false\n  xy: 591, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_2\n  rotate: true\n  xy: 1736, 222\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_20\n  rotate: false\n  xy: 625, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_21\n  rotate: false\n  xy: 659, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_3\n  rotate: true\n  xy: 244, 58\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_4\n  rotate: true\n  xy: 1736, 188\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_5\n  rotate: true\n  xy: 1845, 222\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_6\n  rotate: true\n  xy: 1845, 188\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_7\n  rotate: true\n  xy: 1626, 145\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_8\n  rotate: true\n  xy: 133, 5\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_9\n  rotate: true\n  xy: 1512, 113\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\ngaoliang1\n  rotate: false\n  xy: 1954, 193\n  size: 23, 61\n  orig: 23, 61\n  offset: 0, 0\n  index: -1\nimages/beijing\n  rotate: true\n  xy: 434, 127\n  size: 127, 429\n  orig: 127, 429\n  offset: 0, 0\n  index: -1\nimages/beijing2\n  rotate: true\n  xy: 1189, 127\n  size: 127, 321\n  orig: 127, 321\n  offset: 0, 0\n  index: -1\nimages/biankuang3\n  rotate: true\n  xy: 865, 126\n  size: 128, 322\n  orig: 128, 322\n  offset: 0, 0\n  index: -1\nimages/biankuang4\n  rotate: true\n  xy: 2, 126\n  size: 128, 430\n  orig: 128, 430\n  offset: 0, 0\n  index: -1\nimages/d\n  rotate: false\n  xy: 1512, 147\n  size: 112, 107\n  orig: 112, 107\n  offset: 0, 0\n  index: -1\nimages/i\n  rotate: true\n  xy: 1626, 179\n  size: 75, 108\n  orig: 75, 108\n  offset: 0, 0\n  index: -1\nimages/l\n  rotate: true\n  xy: 133, 39\n  size: 85, 109\n  orig: 85, 109\n  offset: 0, 0\n  index: -1\nimages/w\n  rotate: false\n  xy: 2, 19\n  size: 129, 105\n  orig: 129, 105\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_1\n  rotate: true\n  xy: 421, 115\n  size: 9, 11\n  orig: 9, 11\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_10\n  rotate: true\n  xy: 1868, 146\n  size: 19, 39\n  orig: 19, 39\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_11\n  rotate: true\n  xy: 1781, 146\n  size: 19, 42\n  orig: 19, 42\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_12\n  rotate: true\n  xy: 1887, 167\n  size: 19, 45\n  orig: 19, 45\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_13\n  rotate: true\n  xy: 1788, 167\n  size: 19, 48\n  orig: 19, 48\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_14\n  rotate: true\n  xy: 297, 3\n  size: 19, 52\n  orig: 19, 52\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_15\n  rotate: false\n  xy: 2021, 199\n  size: 19, 55\n  orig: 19, 55\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_16\n  rotate: false\n  xy: 1979, 198\n  size: 19, 56\n  orig: 19, 56\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_17\n  rotate: false\n  xy: 2000, 198\n  size: 19, 56\n  orig: 19, 56\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_18\n  rotate: true\n  xy: 242, 3\n  size: 19, 53\n  orig: 19, 53\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_19\n  rotate: true\n  xy: 1736, 167\n  size: 19, 50\n  orig: 19, 50\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_2\n  rotate: false\n  xy: 455, 111\n  size: 11, 14\n  orig: 11, 14\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_20\n  rotate: true\n  xy: 1838, 167\n  size: 19, 47\n  orig: 19, 47\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_21\n  rotate: true\n  xy: 1735, 146\n  size: 19, 44\n  orig: 19, 44\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_22\n  rotate: true\n  xy: 1825, 146\n  size: 19, 41\n  orig: 19, 41\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_23\n  rotate: false\n  xy: 693, 87\n  size: 19, 38\n  orig: 19, 38\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_24\n  rotate: false\n  xy: 693, 50\n  size: 19, 35\n  orig: 19, 35\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_25\n  rotate: false\n  xy: 714, 56\n  size: 19, 31\n  orig: 19, 31\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_26\n  rotate: false\n  xy: 756, 97\n  size: 19, 28\n  orig: 19, 28\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_27\n  rotate: false\n  xy: 735, 65\n  size: 18, 25\n  orig: 18, 25\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_28\n  rotate: false\n  xy: 777, 103\n  size: 17, 22\n  orig: 17, 22\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_29\n  rotate: true\n  xy: 434, 111\n  size: 14, 19\n  orig: 14, 19\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_3\n  rotate: true\n  xy: 351, 2\n  size: 13, 17\n  orig: 13, 17\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_30\n  rotate: true\n  xy: 2, 5\n  size: 12, 16\n  orig: 12, 16\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_31\n  rotate: false\n  xy: 370, 2\n  size: 10, 13\n  orig: 10, 13\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_4\n  rotate: false\n  xy: 796, 105\n  size: 16, 20\n  orig: 16, 20\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_5\n  rotate: false\n  xy: 714, 31\n  size: 18, 23\n  orig: 18, 23\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_6\n  rotate: true\n  xy: 1909, 146\n  size: 19, 26\n  orig: 19, 26\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_7\n  rotate: false\n  xy: 693, 19\n  size: 19, 29\n  orig: 19, 29\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_8\n  rotate: false\n  xy: 735, 92\n  size: 19, 33\n  orig: 19, 33\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_9\n  rotate: false\n  xy: 714, 89\n  size: 19, 36\n  orig: 19, 36\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"4fKwShk/9EYKH6EBzSHn+9"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Wk/r8WE1CA4Xwu4AgJWmMaE5qXY",
+      "spine": "3.6.53",
+      "width": 129.13,
+      "height": 427.04
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "WILD",
+        "parent": "root",
+        "rotation": -0.07
+      },
+      {
+        "name": "11",
+        "parent": "WILD"
+      },
+      {
+        "name": "1",
+        "parent": "11"
+      },
+      {
+        "name": "beijing",
+        "parent": "11"
+      },
+      {
+        "name": "beijing_1",
+        "parent": "11",
+        "rotation": 0.07,
+        "scaleX": 3.991,
+        "scaleY": 3.991
+      },
+      {
+        "name": "biankuang4",
+        "parent": "11"
+      },
+      {
+        "name": "d",
+        "parent": "1",
+        "x": 0.98,
+        "y": -124.22
+      },
+      {
+        "name": "gaoliang1",
+        "parent": "1",
+        "scaleX": 8,
+        "scaleY": 8
+      },
+      {
+        "name": "i",
+        "parent": "1",
+        "x": 6.22,
+        "y": 48.79
+      },
+      {
+        "name": "l",
+        "parent": "1",
+        "x": -4.26,
+        "y": -42.58
+      },
+      {
+        "name": "liuguang_1",
+        "parent": "11",
+        "rotation": 0.07,
+        "scaleX": 8,
+        "scaleY": 8
+      },
+      {
+        "name": "w",
+        "parent": "1",
+        "x": 3.22,
+        "y": 128.19
+      }
+    ],
+    "slots": [
+      {
+        "name": "beijing",
+        "bone": "beijing",
+        "attachment": "images/beijing2"
+      },
+      {
+        "name": "1",
+        "bone": "root",
+        "attachment": "1"
+      },
+      {
+        "name": "beijing/beijing_1",
+        "bone": "beijing_1",
+        "attachment": "beijing/beijing_1",
+        "blend": "additive"
+      },
+      {
+        "name": "biankuang4",
+        "bone": "biankuang4",
+        "attachment": "images/biankuang3"
+      },
+      {
+        "name": "liuguang/liuguang_1",
+        "bone": "liuguang_1",
+        "blend": "additive"
+      },
+      {
+        "name": "w",
+        "bone": "w",
+        "attachment": "images/w"
+      },
+      {
+        "name": "i",
+        "bone": "i",
+        "attachment": "images/i"
+      },
+      {
+        "name": "l",
+        "bone": "l",
+        "attachment": "images/l"
+      },
+      {
+        "name": "d",
+        "bone": "d",
+        "attachment": "images/d"
+      },
+      {
+        "name": "gaoliang1",
+        "bone": "gaoliang1",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "1": {
+          "1": {
+            "type": "clipping",
+            "end": "beijing/beijing_1",
+            "vertexCount": 4,
+            "vertices": [
+              -63.64,
+              160.35,
+              63.04,
+              160.94,
+              62.71,
+              -160.47,
+              -62.79,
+              -159.88
+            ]
+          }
+        },
+        "beijing": {
+          "images/beijing": {
+            "x": 0.21,
+            "y": -0.21,
+            "width": 127,
+            "height": 429
+          },
+          "images/beijing2": {
+            "width": 127,
+            "height": 321
+          }
+        },
+        "beijing/beijing_1": {
+          "beijing/beijing_1": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_2": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_3": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_4": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_5": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_6": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_7": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_8": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_9": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_10": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_11": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_12": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_13": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_14": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_15": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_16": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_17": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_18": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_19": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_20": {
+            "width": 32,
+            "height": 107
+          },
+          "beijing/beijing_21": {
+            "width": 32,
+            "height": 107
+          }
+        },
+        "biankuang4": {
+          "images/biankuang3": {
+            "rotation": 0.07,
+            "width": 128,
+            "height": 322
+          },
+          "images/biankuang4": {
+            "x": 0.21,
+            "y": -0.46,
+            "width": 128,
+            "height": 430
+          }
+        },
+        "d": {
+          "images/d": {
+            "x": 0.98,
+            "y": -8.49,
+            "width": 112,
+            "height": 107
+          }
+        },
+        "gaoliang1": {
+          "gaoliang1": {
+            "width": 23,
+            "height": 61
+          }
+        },
+        "i": {
+          "images/i": {
+            "x": -5.26,
+            "y": -5.26,
+            "width": 75,
+            "height": 108
+          }
+        },
+        "l": {
+          "images/l": {
+            "x": 5.47,
+            "y": -3.63,
+            "width": 85,
+            "height": 109
+          }
+        },
+        "liuguang/liuguang_1": {
+          "liuguang/liuguang_1": {
+            "x": -4.36,
+            "y": 22.34,
+            "width": 9,
+            "height": 11
+          },
+          "liuguang/liuguang_2": {
+            "x": -3.49,
+            "y": 20.38,
+            "width": 11,
+            "height": 14
+          },
+          "liuguang/liuguang_3": {
+            "x": -2.4,
+            "y": 19.29,
+            "width": 13,
+            "height": 17
+          },
+          "liuguang/liuguang_4": {
+            "x": -0.87,
+            "y": 17.76,
+            "width": 16,
+            "height": 20
+          },
+          "liuguang/liuguang_5": {
+            "x": -0.11,
+            "y": 16.07,
+            "width": 18,
+            "height": 23
+          },
+          "liuguang/liuguang_6": {
+            "x": 0.33,
+            "y": 14.65,
+            "width": 19,
+            "height": 26
+          },
+          "liuguang/liuguang_7": {
+            "x": 0.18,
+            "y": 13.33,
+            "width": 19,
+            "height": 29
+          },
+          "liuguang/liuguang_8": {
+            "x": -0.03,
+            "y": 11.42,
+            "width": 19,
+            "height": 33
+          },
+          "liuguang/liuguang_9": {
+            "x": 0.06,
+            "y": 9.87,
+            "width": 19,
+            "height": 36
+          },
+          "liuguang/liuguang_10": {
+            "x": -0.25,
+            "y": 8.6,
+            "width": 19,
+            "height": 39
+          },
+          "liuguang/liuguang_11": {
+            "x": -0.26,
+            "y": 6.94,
+            "width": 19,
+            "height": 42
+          },
+          "liuguang/liuguang_12": {
+            "x": -0.26,
+            "y": 5.52,
+            "width": 19,
+            "height": 45
+          },
+          "liuguang/liuguang_13": {
+            "x": -0.29,
+            "y": 3.95,
+            "width": 19,
+            "height": 48
+          },
+          "liuguang/liuguang_14": {
+            "x": -0.11,
+            "y": 1.68,
+            "width": 19,
+            "height": 52
+          },
+          "liuguang/liuguang_15": {
+            "x": 0.22,
+            "y": 0.43,
+            "width": 19,
+            "height": 55
+          },
+          "liuguang/liuguang_16": {
+            "x": 0.11,
+            "y": -0.03,
+            "width": 19,
+            "height": 56
+          },
+          "liuguang/liuguang_17": {
+            "x": 0.03,
+            "y": -0.59,
+            "width": 19,
+            "height": 56
+          },
+          "liuguang/liuguang_18": {
+            "x": -0.37,
+            "y": -2.72,
+            "width": 19,
+            "height": 53
+          },
+          "liuguang/liuguang_19": {
+            "x": -0.22,
+            "y": -3.89,
+            "width": 19,
+            "height": 50
+          },
+          "liuguang/liuguang_20": {
+            "x": -0.43,
+            "y": -4.86,
+            "width": 19,
+            "height": 47
+          },
+          "liuguang/liuguang_21": {
+            "x": -0.22,
+            "y": -5.94,
+            "width": 19,
+            "height": 44
+          },
+          "liuguang/liuguang_22": {
+            "x": -0.22,
+            "y": -7.02,
+            "width": 19,
+            "height": 41
+          },
+          "liuguang/liuguang_23": {
+            "x": -0.43,
+            "y": -9.18,
+            "width": 19,
+            "height": 38
+          },
+          "liuguang/liuguang_24": {
+            "x": -0.43,
+            "y": -10.8,
+            "width": 19,
+            "height": 35
+          },
+          "liuguang/liuguang_25": {
+            "x": -0.32,
+            "y": -12.85,
+            "width": 19,
+            "height": 31
+          },
+          "liuguang/liuguang_26": {
+            "x": -0.65,
+            "y": -14.15,
+            "width": 19,
+            "height": 28
+          },
+          "liuguang/liuguang_27": {
+            "x": -0.11,
+            "y": -15.88,
+            "width": 18,
+            "height": 25
+          },
+          "liuguang/liuguang_28": {
+            "y": -17.5,
+            "width": 17,
+            "height": 22
+          },
+          "liuguang/liuguang_29": {
+            "x": 1.84,
+            "y": -18.9,
+            "width": 14,
+            "height": 19
+          },
+          "liuguang/liuguang_30": {
+            "x": 3.13,
+            "y": -20.41,
+            "width": 12,
+            "height": 16
+          },
+          "liuguang/liuguang_31": {
+            "x": 4,
+            "y": -21.49,
+            "width": 10,
+            "height": 13
+          }
+        },
+        "w": {
+          "images/w": {
+            "x": -3.02,
+            "y": 4.09,
+            "width": 129,
+            "height": 105
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation3": {
+        "slots": {
+          "beijing/beijing_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.0333,
+                "name": "beijing/beijing_2"
+              },
+              {
+                "time": 0.0667,
+                "name": "beijing/beijing_3"
+              },
+              {
+                "time": 0.1,
+                "name": "beijing/beijing_4"
+              },
+              {
+                "time": 0.1333,
+                "name": "beijing/beijing_5"
+              },
+              {
+                "time": 0.1667,
+                "name": "beijing/beijing_6"
+              },
+              {
+                "time": 0.2,
+                "name": "beijing/beijing_7"
+              },
+              {
+                "time": 0.2333,
+                "name": "beijing/beijing_8"
+              },
+              {
+                "time": 0.2667,
+                "name": "beijing/beijing_9"
+              },
+              {
+                "time": 0.3,
+                "name": "beijing/beijing_10"
+              },
+              {
+                "time": 0.3333,
+                "name": "beijing/beijing_11"
+              },
+              {
+                "time": 0.3667,
+                "name": "beijing/beijing_12"
+              },
+              {
+                "time": 0.4,
+                "name": "beijing/beijing_13"
+              },
+              {
+                "time": 0.4333,
+                "name": "beijing/beijing_14"
+              },
+              {
+                "time": 0.4667,
+                "name": "beijing/beijing_15"
+              },
+              {
+                "time": 0.5,
+                "name": "beijing/beijing_16"
+              },
+              {
+                "time": 0.5333,
+                "name": "beijing/beijing_17"
+              },
+              {
+                "time": 0.5667,
+                "name": "beijing/beijing_18"
+              },
+              {
+                "time": 0.6,
+                "name": "beijing/beijing_19"
+              },
+              {
+                "time": 0.6333,
+                "name": "beijing/beijing_20"
+              },
+              {
+                "time": 0.6667,
+                "name": "beijing/beijing_21"
+              },
+              {
+                "time": 0.7,
+                "name": "beijing/beijing_1"
+              },
+              {
+                "time": 0.7333,
+                "name": "beijing/beijing_2"
+              },
+              {
+                "time": 0.7667,
+                "name": "beijing/beijing_3"
+              },
+              {
+                "time": 0.8,
+                "name": "beijing/beijing_4"
+              },
+              {
+                "time": 0.8333,
+                "name": "beijing/beijing_5"
+              },
+              {
+                "time": 0.8667,
+                "name": "beijing/beijing_6"
+              },
+              {
+                "time": 0.9,
+                "name": "beijing/beijing_7"
+              },
+              {
+                "time": 0.9333,
+                "name": "beijing/beijing_8"
+              },
+              {
+                "time": 0.9667,
+                "name": "beijing/beijing_9"
+              },
+              {
+                "time": 1,
+                "name": "beijing/beijing_10"
+              },
+              {
+                "time": 1.0333,
+                "name": "beijing/beijing_11"
+              },
+              {
+                "time": 1.0667,
+                "name": "beijing/beijing_12"
+              },
+              {
+                "time": 1.1,
+                "name": "beijing/beijing_13"
+              },
+              {
+                "time": 1.1333,
+                "name": "beijing/beijing_14"
+              },
+              {
+                "time": 1.1667,
+                "name": "beijing/beijing_15"
+              },
+              {
+                "time": 1.2,
+                "name": "beijing/beijing_16"
+              },
+              {
+                "time": 1.2333,
+                "name": "beijing/beijing_17"
+              },
+              {
+                "time": 1.2667,
+                "name": "beijing/beijing_18"
+              },
+              {
+                "time": 1.3,
+                "name": "beijing/beijing_19"
+              },
+              {
+                "time": 1.3333,
+                "name": "beijing/beijing_20"
+              },
+              {
+                "time": 1.3667,
+                "name": "beijing/beijing_21"
+              },
+              {
+                "time": 1.4,
+                "name": "beijing/beijing_1"
+              },
+              {
+                "time": 1.4333,
+                "name": "beijing/beijing_2"
+              },
+              {
+                "time": 1.4667,
+                "name": "beijing/beijing_3"
+              },
+              {
+                "time": 1.5,
+                "name": "beijing/beijing_4"
+              },
+              {
+                "time": 1.5333,
+                "name": "beijing/beijing_5"
+              },
+              {
+                "time": 1.5667,
+                "name": "beijing/beijing_6"
+              },
+              {
+                "time": 1.6,
+                "name": "beijing/beijing_7"
+              },
+              {
+                "time": 1.6333,
+                "name": "beijing/beijing_8"
+              },
+              {
+                "time": 1.6667,
+                "name": "beijing/beijing_9"
+              },
+              {
+                "time": 1.7,
+                "name": "beijing/beijing_10"
+              },
+              {
+                "time": 1.7333,
+                "name": "beijing/beijing_11"
+              },
+              {
+                "time": 1.7667,
+                "name": "beijing/beijing_12"
+              },
+              {
+                "time": 1.8,
+                "name": "beijing/beijing_13"
+              },
+              {
+                "time": 1.8333,
+                "name": "beijing/beijing_14"
+              },
+              {
+                "time": 1.8667,
+                "name": "beijing/beijing_15"
+              },
+              {
+                "time": 1.9,
+                "name": "beijing/beijing_16"
+              },
+              {
+                "time": 1.9333,
+                "name": "beijing/beijing_17"
+              },
+              {
+                "time": 1.9667,
+                "name": "beijing/beijing_18"
+              }
+            ]
+          },
+          "gaoliang1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.2667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.8,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "liuguang/liuguang_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "liuguang/liuguang_1"
+              },
+              {
+                "time": 0.0333,
+                "name": "liuguang/liuguang_2"
+              },
+              {
+                "time": 0.0667,
+                "name": "liuguang/liuguang_3"
+              },
+              {
+                "time": 0.1,
+                "name": "liuguang/liuguang_4"
+              },
+              {
+                "time": 0.1333,
+                "name": "liuguang/liuguang_5"
+              },
+              {
+                "time": 0.1667,
+                "name": "liuguang/liuguang_6"
+              },
+              {
+                "time": 0.2,
+                "name": "liuguang/liuguang_7"
+              },
+              {
+                "time": 0.2333,
+                "name": "liuguang/liuguang_8"
+              },
+              {
+                "time": 0.2667,
+                "name": "liuguang/liuguang_9"
+              },
+              {
+                "time": 0.3,
+                "name": "liuguang/liuguang_10"
+              },
+              {
+                "time": 0.3333,
+                "name": "liuguang/liuguang_11"
+              },
+              {
+                "time": 0.3667,
+                "name": "liuguang/liuguang_12"
+              },
+              {
+                "time": 0.4,
+                "name": "liuguang/liuguang_13"
+              },
+              {
+                "time": 0.4333,
+                "name": "liuguang/liuguang_14"
+              },
+              {
+                "time": 0.4667,
+                "name": "liuguang/liuguang_15"
+              },
+              {
+                "time": 0.5,
+                "name": "liuguang/liuguang_16"
+              },
+              {
+                "time": 0.5333,
+                "name": "liuguang/liuguang_17"
+              },
+              {
+                "time": 0.5667,
+                "name": "liuguang/liuguang_18"
+              },
+              {
+                "time": 0.6,
+                "name": "liuguang/liuguang_19"
+              },
+              {
+                "time": 0.6333,
+                "name": "liuguang/liuguang_20"
+              },
+              {
+                "time": 0.6667,
+                "name": "liuguang/liuguang_21"
+              },
+              {
+                "time": 0.7,
+                "name": "liuguang/liuguang_22"
+              },
+              {
+                "time": 0.7333,
+                "name": "liuguang/liuguang_23"
+              },
+              {
+                "time": 0.7667,
+                "name": "liuguang/liuguang_24"
+              },
+              {
+                "time": 0.8,
+                "name": "liuguang/liuguang_25"
+              },
+              {
+                "time": 0.8333,
+                "name": "liuguang/liuguang_26"
+              },
+              {
+                "time": 0.8667,
+                "name": "liuguang/liuguang_27"
+              },
+              {
+                "time": 0.9,
+                "name": "liuguang/liuguang_28"
+              },
+              {
+                "time": 0.9333,
+                "name": "liuguang/liuguang_29"
+              },
+              {
+                "time": 0.9667,
+                "name": "liuguang/liuguang_30"
+              },
+              {
+                "time": 1,
+                "name": "liuguang/liuguang_31"
+              },
+              {
+                "time": 1.0333,
+                "name": "liuguang/liuguang_30"
+              },
+              {
+                "time": 1.0667,
+                "name": "liuguang/liuguang_29"
+              },
+              {
+                "time": 1.1,
+                "name": "liuguang/liuguang_28"
+              },
+              {
+                "time": 1.1333,
+                "name": "liuguang/liuguang_27"
+              },
+              {
+                "time": 1.1667,
+                "name": "liuguang/liuguang_26"
+              },
+              {
+                "time": 1.2,
+                "name": "liuguang/liuguang_25"
+              },
+              {
+                "time": 1.2333,
+                "name": "liuguang/liuguang_24"
+              },
+              {
+                "time": 1.2667,
+                "name": "liuguang/liuguang_23"
+              },
+              {
+                "time": 1.3,
+                "name": "liuguang/liuguang_22"
+              },
+              {
+                "time": 1.3333,
+                "name": "liuguang/liuguang_21"
+              },
+              {
+                "time": 1.3667,
+                "name": "liuguang/liuguang_20"
+              },
+              {
+                "time": 1.4,
+                "name": "liuguang/liuguang_19"
+              },
+              {
+                "time": 1.4333,
+                "name": "liuguang/liuguang_18"
+              },
+              {
+                "time": 1.4667,
+                "name": "liuguang/liuguang_17"
+              },
+              {
+                "time": 1.5,
+                "name": "liuguang/liuguang_16"
+              },
+              {
+                "time": 1.5333,
+                "name": "liuguang/liuguang_15"
+              },
+              {
+                "time": 1.5667,
+                "name": "liuguang/liuguang_14"
+              },
+              {
+                "time": 1.6,
+                "name": "liuguang/liuguang_13"
+              },
+              {
+                "time": 1.6333,
+                "name": "liuguang/liuguang_12"
+              },
+              {
+                "time": 1.6667,
+                "name": "liuguang/liuguang_11"
+              },
+              {
+                "time": 1.7,
+                "name": "liuguang/liuguang_10"
+              },
+              {
+                "time": 1.7333,
+                "name": "liuguang/liuguang_9"
+              },
+              {
+                "time": 1.7667,
+                "name": "liuguang/liuguang_8"
+              },
+              {
+                "time": 1.8,
+                "name": "liuguang/liuguang_7"
+              },
+              {
+                "time": 1.8333,
+                "name": "liuguang/liuguang_6"
+              },
+              {
+                "time": 1.8667,
+                "name": "liuguang/liuguang_5"
+              },
+              {
+                "time": 1.9,
+                "name": "liuguang/liuguang_4"
+              },
+              {
+                "time": 1.9333,
+                "name": "liuguang/liuguang_3"
+              },
+              {
+                "time": 1.9667,
+                "name": "liuguang/liuguang_2"
+              },
+              {
+                "time": 2,
+                "name": "liuguang/liuguang_1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "1": {
+            "scale": [
+              {
+                "time": 1.2667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5667,
+                "x": 1.247,
+                "y": 1.247,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.8,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "11": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.046,
+                "y": 1.01
+              }
+            ]
+          },
+          "gaoliang1": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.809,
+                "y": 0.809
+              }
+            ]
+          },
+          "liuguang_1": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.742
+              }
+            ]
+          },
+          "w": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.1667,
+                "angle": 180,
+                "curve": [
+                  0.051,
+                  0.05,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.59,
+                "y": -21.7
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.897,
+                "y": 0.876,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 1.095,
+                "y": 1.401,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3,
+                "x": 1.14,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 0.897,
+                "y": 0.876
+              }
+            ]
+          },
+          "i": {
+            "rotate": [
+              {
+                "time": 0.3,
+                "angle": 0
+              },
+              {
+                "time": 0.4667,
+                "angle": 180,
+                "curve": [
+                  0.051,
+                  0.05,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.01,
+                "y": -7.97
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.88,
+                "y": 0.872,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3,
+                "x": 0.88,
+                "y": 0.872,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 1.361,
+                "y": 1.742,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "x": 1.14,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "x": 0.88,
+                "y": 0.872
+              }
+            ]
+          },
+          "l": {
+            "rotate": [
+              {
+                "time": 0.6,
+                "angle": 0
+              },
+              {
+                "time": 0.7667,
+                "angle": 180,
+                "curve": [
+                  0.051,
+                  0.05,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 1.14,
+                "y": 5.43
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.895,
+                "y": 0.868,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6,
+                "x": 0.895,
+                "y": 0.868,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "x": 1.361,
+                "y": 1.742,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.9,
+                "x": 1.14,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.0667,
+                "x": 0.895,
+                "y": 0.868
+              }
+            ]
+          },
+          "d": {
+            "rotate": [
+              {
+                "time": 0.9,
+                "angle": 0
+              },
+              {
+                "time": 1.0667,
+                "angle": 180,
+                "curve": [
+                  0.051,
+                  0.05,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.77,
+                "y": 19.89
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.897,
+                "y": 0.856,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9,
+                "x": 0.897,
+                "y": 0.856,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.0667,
+                "x": 1.361,
+                "y": 1.742,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2,
+                "x": 1.14,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3667,
+                "x": 0.897,
+                "y": 0.856
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "1": {
+              "1": [
+                {
+                  "time": 0,
+                  "offset": 1,
+                  "vertices": [
+                    -1.134,
+                    0,
+                    -1.134,
+                    0,
+                    1.467,
+                    0,
+                    1.467
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "drawOrder": [
+          {
+            "time": 0.0333,
+            "offsets": [
+              {
+                "slot": "w",
+                "offset": 3
+              }
+            ]
+          },
+          {
+            "time": 0.3333
+          },
+          {
+            "time": 0.4333,
+            "offsets": [
+              {
+                "slot": "i",
+                "offset": 1
+              }
+            ]
+          },
+          {
+            "time": 0.6667
+          },
+          {
+            "time": 0.7,
+            "offsets": [
+              {
+                "slot": "l",
+                "offset": 1
+              }
+            ]
+          },
+          {
+            "time": 0.9
+          }
+        ]
+      },
+      "animation4": {
+        "slots": {
+          "beijing": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/beijing"
+              }
+            ]
+          },
+          "beijing/beijing_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.0333,
+                "name": "beijing/beijing_2"
+              },
+              {
+                "time": 0.0667,
+                "name": "beijing/beijing_3"
+              },
+              {
+                "time": 0.1,
+                "name": "beijing/beijing_4"
+              },
+              {
+                "time": 0.1333,
+                "name": "beijing/beijing_5"
+              },
+              {
+                "time": 0.1667,
+                "name": "beijing/beijing_6"
+              },
+              {
+                "time": 0.2,
+                "name": "beijing/beijing_7"
+              },
+              {
+                "time": 0.2333,
+                "name": "beijing/beijing_8"
+              },
+              {
+                "time": 0.2667,
+                "name": "beijing/beijing_9"
+              },
+              {
+                "time": 0.3,
+                "name": "beijing/beijing_10"
+              },
+              {
+                "time": 0.3333,
+                "name": "beijing/beijing_11"
+              },
+              {
+                "time": 0.3667,
+                "name": "beijing/beijing_12"
+              },
+              {
+                "time": 0.4,
+                "name": "beijing/beijing_13"
+              },
+              {
+                "time": 0.4333,
+                "name": "beijing/beijing_14"
+              },
+              {
+                "time": 0.4667,
+                "name": "beijing/beijing_15"
+              },
+              {
+                "time": 0.5,
+                "name": "beijing/beijing_16"
+              },
+              {
+                "time": 0.5333,
+                "name": "beijing/beijing_17"
+              },
+              {
+                "time": 0.5667,
+                "name": "beijing/beijing_18"
+              },
+              {
+                "time": 0.6,
+                "name": "beijing/beijing_19"
+              },
+              {
+                "time": 0.6333,
+                "name": "beijing/beijing_20"
+              },
+              {
+                "time": 0.6667,
+                "name": "beijing/beijing_21"
+              },
+              {
+                "time": 0.7,
+                "name": "beijing/beijing_1"
+              },
+              {
+                "time": 0.7333,
+                "name": "beijing/beijing_2"
+              },
+              {
+                "time": 0.7667,
+                "name": "beijing/beijing_3"
+              },
+              {
+                "time": 0.8,
+                "name": "beijing/beijing_4"
+              },
+              {
+                "time": 0.8333,
+                "name": "beijing/beijing_5"
+              },
+              {
+                "time": 0.8667,
+                "name": "beijing/beijing_6"
+              },
+              {
+                "time": 0.9,
+                "name": "beijing/beijing_7"
+              },
+              {
+                "time": 0.9333,
+                "name": "beijing/beijing_8"
+              },
+              {
+                "time": 0.9667,
+                "name": "beijing/beijing_9"
+              },
+              {
+                "time": 1,
+                "name": "beijing/beijing_10"
+              },
+              {
+                "time": 1.0333,
+                "name": "beijing/beijing_11"
+              },
+              {
+                "time": 1.0667,
+                "name": "beijing/beijing_12"
+              },
+              {
+                "time": 1.1,
+                "name": "beijing/beijing_13"
+              },
+              {
+                "time": 1.1333,
+                "name": "beijing/beijing_14"
+              },
+              {
+                "time": 1.1667,
+                "name": "beijing/beijing_15"
+              },
+              {
+                "time": 1.2,
+                "name": "beijing/beijing_16"
+              },
+              {
+                "time": 1.2333,
+                "name": "beijing/beijing_17"
+              },
+              {
+                "time": 1.2667,
+                "name": "beijing/beijing_18"
+              },
+              {
+                "time": 1.3,
+                "name": "beijing/beijing_19"
+              },
+              {
+                "time": 1.3333,
+                "name": "beijing/beijing_20"
+              },
+              {
+                "time": 1.3667,
+                "name": "beijing/beijing_21"
+              },
+              {
+                "time": 1.4,
+                "name": "beijing/beijing_1"
+              },
+              {
+                "time": 1.4333,
+                "name": "beijing/beijing_2"
+              },
+              {
+                "time": 1.4667,
+                "name": "beijing/beijing_3"
+              },
+              {
+                "time": 1.5,
+                "name": "beijing/beijing_4"
+              },
+              {
+                "time": 1.5333,
+                "name": "beijing/beijing_5"
+              },
+              {
+                "time": 1.5667,
+                "name": "beijing/beijing_6"
+              },
+              {
+                "time": 1.6,
+                "name": "beijing/beijing_7"
+              },
+              {
+                "time": 1.6333,
+                "name": "beijing/beijing_8"
+              },
+              {
+                "time": 1.6667,
+                "name": "beijing/beijing_9"
+              },
+              {
+                "time": 1.7,
+                "name": "beijing/beijing_10"
+              },
+              {
+                "time": 1.7333,
+                "name": "beijing/beijing_11"
+              },
+              {
+                "time": 1.7667,
+                "name": "beijing/beijing_12"
+              },
+              {
+                "time": 1.8,
+                "name": "beijing/beijing_13"
+              },
+              {
+                "time": 1.8333,
+                "name": "beijing/beijing_14"
+              },
+              {
+                "time": 1.8667,
+                "name": "beijing/beijing_15"
+              },
+              {
+                "time": 1.9,
+                "name": "beijing/beijing_16"
+              },
+              {
+                "time": 1.9333,
+                "name": "beijing/beijing_17"
+              },
+              {
+                "time": 1.9667,
+                "name": "beijing/beijing_18"
+              }
+            ]
+          },
+          "biankuang4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/biankuang4"
+              }
+            ]
+          },
+          "gaoliang1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.2667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.8,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "liuguang/liuguang_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "liuguang/liuguang_1"
+              },
+              {
+                "time": 0.0333,
+                "name": "liuguang/liuguang_2"
+              },
+              {
+                "time": 0.0667,
+                "name": "liuguang/liuguang_3"
+              },
+              {
+                "time": 0.1,
+                "name": "liuguang/liuguang_4"
+              },
+              {
+                "time": 0.1333,
+                "name": "liuguang/liuguang_5"
+              },
+              {
+                "time": 0.1667,
+                "name": "liuguang/liuguang_6"
+              },
+              {
+                "time": 0.2,
+                "name": "liuguang/liuguang_7"
+              },
+              {
+                "time": 0.2333,
+                "name": "liuguang/liuguang_8"
+              },
+              {
+                "time": 0.2667,
+                "name": "liuguang/liuguang_9"
+              },
+              {
+                "time": 0.3,
+                "name": "liuguang/liuguang_10"
+              },
+              {
+                "time": 0.3333,
+                "name": "liuguang/liuguang_11"
+              },
+              {
+                "time": 0.3667,
+                "name": "liuguang/liuguang_12"
+              },
+              {
+                "time": 0.4,
+                "name": "liuguang/liuguang_13"
+              },
+              {
+                "time": 0.4333,
+                "name": "liuguang/liuguang_14"
+              },
+              {
+                "time": 0.4667,
+                "name": "liuguang/liuguang_15"
+              },
+              {
+                "time": 0.5,
+                "name": "liuguang/liuguang_16"
+              },
+              {
+                "time": 0.5333,
+                "name": "liuguang/liuguang_17"
+              },
+              {
+                "time": 0.5667,
+                "name": "liuguang/liuguang_18"
+              },
+              {
+                "time": 0.6,
+                "name": "liuguang/liuguang_19"
+              },
+              {
+                "time": 0.6333,
+                "name": "liuguang/liuguang_20"
+              },
+              {
+                "time": 0.6667,
+                "name": "liuguang/liuguang_21"
+              },
+              {
+                "time": 0.7,
+                "name": "liuguang/liuguang_22"
+              },
+              {
+                "time": 0.7333,
+                "name": "liuguang/liuguang_23"
+              },
+              {
+                "time": 0.7667,
+                "name": "liuguang/liuguang_24"
+              },
+              {
+                "time": 0.8,
+                "name": "liuguang/liuguang_25"
+              },
+              {
+                "time": 0.8333,
+                "name": "liuguang/liuguang_26"
+              },
+              {
+                "time": 0.8667,
+                "name": "liuguang/liuguang_27"
+              },
+              {
+                "time": 0.9,
+                "name": "liuguang/liuguang_28"
+              },
+              {
+                "time": 0.9333,
+                "name": "liuguang/liuguang_29"
+              },
+              {
+                "time": 0.9667,
+                "name": "liuguang/liuguang_30"
+              },
+              {
+                "time": 1,
+                "name": "liuguang/liuguang_31"
+              },
+              {
+                "time": 1.0333,
+                "name": "liuguang/liuguang_30"
+              },
+              {
+                "time": 1.0667,
+                "name": "liuguang/liuguang_29"
+              },
+              {
+                "time": 1.1,
+                "name": "liuguang/liuguang_28"
+              },
+              {
+                "time": 1.1333,
+                "name": "liuguang/liuguang_27"
+              },
+              {
+                "time": 1.1667,
+                "name": "liuguang/liuguang_26"
+              },
+              {
+                "time": 1.2,
+                "name": "liuguang/liuguang_25"
+              },
+              {
+                "time": 1.2333,
+                "name": "liuguang/liuguang_24"
+              },
+              {
+                "time": 1.2667,
+                "name": "liuguang/liuguang_23"
+              },
+              {
+                "time": 1.3,
+                "name": "liuguang/liuguang_22"
+              },
+              {
+                "time": 1.3333,
+                "name": "liuguang/liuguang_21"
+              },
+              {
+                "time": 1.3667,
+                "name": "liuguang/liuguang_20"
+              },
+              {
+                "time": 1.4,
+                "name": "liuguang/liuguang_19"
+              },
+              {
+                "time": 1.4333,
+                "name": "liuguang/liuguang_18"
+              },
+              {
+                "time": 1.4667,
+                "name": "liuguang/liuguang_17"
+              },
+              {
+                "time": 1.5,
+                "name": "liuguang/liuguang_16"
+              },
+              {
+                "time": 1.5333,
+                "name": "liuguang/liuguang_15"
+              },
+              {
+                "time": 1.5667,
+                "name": "liuguang/liuguang_14"
+              },
+              {
+                "time": 1.6,
+                "name": "liuguang/liuguang_13"
+              },
+              {
+                "time": 1.6333,
+                "name": "liuguang/liuguang_12"
+              },
+              {
+                "time": 1.6667,
+                "name": "liuguang/liuguang_11"
+              },
+              {
+                "time": 1.7,
+                "name": "liuguang/liuguang_10"
+              },
+              {
+                "time": 1.7333,
+                "name": "liuguang/liuguang_9"
+              },
+              {
+                "time": 1.7667,
+                "name": "liuguang/liuguang_8"
+              },
+              {
+                "time": 1.8,
+                "name": "liuguang/liuguang_7"
+              },
+              {
+                "time": 1.8333,
+                "name": "liuguang/liuguang_6"
+              },
+              {
+                "time": 1.8667,
+                "name": "liuguang/liuguang_5"
+              },
+              {
+                "time": 1.9,
+                "name": "liuguang/liuguang_4"
+              },
+              {
+                "time": 1.9333,
+                "name": "liuguang/liuguang_3"
+              },
+              {
+                "time": 1.9667,
+                "name": "liuguang/liuguang_2"
+              },
+              {
+                "time": 2,
+                "name": "liuguang/liuguang_1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "1": {
+            "scale": [
+              {
+                "time": 1.2667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5667,
+                "x": 1.247,
+                "y": 1.247,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.8,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "11": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.046,
+                "y": 1.01
+              }
+            ]
+          },
+          "w": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.1667,
+                "angle": 180,
+                "curve": [
+                  0.051,
+                  0.05,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 1.361,
+                "y": 1.742,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3,
+                "x": 1.14,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "i": {
+            "rotate": [
+              {
+                "time": 0.3,
+                "angle": 0
+              },
+              {
+                "time": 0.4667,
+                "angle": 180,
+                "curve": [
+                  0.051,
+                  0.05,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 1.361,
+                "y": 1.742,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "x": 1.14,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "l": {
+            "rotate": [
+              {
+                "time": 0.6,
+                "angle": 0
+              },
+              {
+                "time": 0.7667,
+                "angle": 180,
+                "curve": [
+                  0.051,
+                  0.05,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.6,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "x": 1.361,
+                "y": 1.742,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.9,
+                "x": 1.14,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.0667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "d": {
+            "rotate": [
+              {
+                "time": 0.9,
+                "angle": 0
+              },
+              {
+                "time": 1.0667,
+                "angle": 180,
+                "curve": [
+                  0.051,
+                  0.05,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.9,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.0667,
+                "x": 1.361,
+                "y": 1.742,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2,
+                "x": 1.14,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "1": {
+              "1": [
+                {
+                  "time": 0,
+                  "vertices": [
+                    2.439,
+                    49.29195,
+                    0.249,
+                    48.79397,
+                    0,
+                    -50.00092,
+                    1.194,
+                    -49.50294
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "drawOrder": [
+          {
+            "time": 0.0333,
+            "offsets": [
+              {
+                "slot": "w",
+                "offset": 3
+              }
+            ]
+          },
+          {
+            "time": 0.3333
+          },
+          {
+            "time": 0.4333,
+            "offsets": [
+              {
+                "slot": "i",
+                "offset": 1
+              }
+            ]
+          },
+          {
+            "time": 0.6667
+          },
+          {
+            "time": 0.7,
+            "offsets": [
+              {
+                "slot": "l",
+                "offset": 1
+              }
+            ]
+          },
+          {
+            "time": 0.9
+          }
+        ]
+      },
+      "animation3_1": {
+        "slots": {
+          "beijing/beijing_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "gaoliang1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "liuguang/liuguang_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "liuguang/liuguang_1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "1": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "11": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.046,
+                "y": 1.01
+              }
+            ]
+          },
+          "gaoliang1": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.809,
+                "y": 0.809
+              }
+            ]
+          },
+          "liuguang_1": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.742
+              }
+            ]
+          },
+          "w": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.59,
+                "y": -21.7
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.897,
+                "y": 0.876
+              }
+            ]
+          },
+          "i": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.01,
+                "y": -7.97
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.88,
+                "y": 0.872
+              }
+            ]
+          },
+          "l": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 1.14,
+                "y": 5.43
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.895,
+                "y": 0.868
+              }
+            ]
+          },
+          "d": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.77,
+                "y": 19.89
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.897,
+                "y": 0.856
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "1": {
+              "1": [
+                {
+                  "time": 0,
+                  "offset": 1,
+                  "vertices": [
+                    -1.134,
+                    0,
+                    -1.134,
+                    0,
+                    1.467,
+                    0,
+                    1.467
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "drawOrder": [
+          {
+            "time": 0
+          }
+        ]
+      },
+      "animation4_1": {
+        "slots": {
+          "1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "1"
+              }
+            ]
+          },
+          "beijing": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/beijing"
+              }
+            ]
+          },
+          "beijing/beijing_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "biankuang4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/biankuang4"
+              }
+            ]
+          },
+          "gaoliang1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "liuguang/liuguang_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "liuguang/liuguang_1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "1": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "11": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.046,
+                "y": 1.01
+              }
+            ]
+          },
+          "w": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "i": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "l": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "d": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "1": {
+              "1": [
+                {
+                  "time": 0,
+                  "vertices": [
+                    2.30402,
+                    47.58096,
+                    -0.36999,
+                    47.21098,
+                    -0.73,
+                    -47.61495,
+                    0.099,
+                    -47.24996
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "drawOrder": [
+          {
+            "time": 0
+          }
+        ]
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 2048,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbeijing/beijing_1\n  rotate: true\n  xy: 244, 92\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_10\n  rotate: true\n  xy: 1621, 111\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_11\n  rotate: true\n  xy: 244, 24\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_12\n  rotate: false\n  xy: 353, 17\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_13\n  rotate: false\n  xy: 387, 17\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_14\n  rotate: false\n  xy: 421, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_15\n  rotate: false\n  xy: 455, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_16\n  rotate: false\n  xy: 489, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_17\n  rotate: false\n  xy: 523, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_18\n  rotate: false\n  xy: 557, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_19\n  rotate: false\n  xy: 591, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_2\n  rotate: true\n  xy: 1736, 222\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_20\n  rotate: false\n  xy: 625, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_21\n  rotate: false\n  xy: 659, 2\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_3\n  rotate: true\n  xy: 244, 58\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_4\n  rotate: true\n  xy: 1736, 188\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_5\n  rotate: true\n  xy: 1845, 222\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_6\n  rotate: true\n  xy: 1845, 188\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_7\n  rotate: true\n  xy: 1626, 145\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_8\n  rotate: true\n  xy: 133, 5\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\nbeijing/beijing_9\n  rotate: true\n  xy: 1512, 113\n  size: 32, 107\n  orig: 32, 107\n  offset: 0, 0\n  index: -1\ngaoliang1\n  rotate: false\n  xy: 1954, 193\n  size: 23, 61\n  orig: 23, 61\n  offset: 0, 0\n  index: -1\nimages/beijing\n  rotate: true\n  xy: 434, 127\n  size: 127, 429\n  orig: 127, 429\n  offset: 0, 0\n  index: -1\nimages/beijing2\n  rotate: true\n  xy: 1189, 127\n  size: 127, 321\n  orig: 127, 321\n  offset: 0, 0\n  index: -1\nimages/biankuang3\n  rotate: true\n  xy: 865, 126\n  size: 128, 322\n  orig: 128, 322\n  offset: 0, 0\n  index: -1\nimages/biankuang4\n  rotate: true\n  xy: 2, 126\n  size: 128, 430\n  orig: 128, 430\n  offset: 0, 0\n  index: -1\nimages/d\n  rotate: false\n  xy: 1512, 147\n  size: 112, 107\n  orig: 112, 107\n  offset: 0, 0\n  index: -1\nimages/i\n  rotate: true\n  xy: 1626, 179\n  size: 75, 108\n  orig: 75, 108\n  offset: 0, 0\n  index: -1\nimages/l\n  rotate: true\n  xy: 133, 39\n  size: 85, 109\n  orig: 85, 109\n  offset: 0, 0\n  index: -1\nimages/w\n  rotate: false\n  xy: 2, 19\n  size: 129, 105\n  orig: 129, 105\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_1\n  rotate: true\n  xy: 421, 115\n  size: 9, 11\n  orig: 9, 11\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_10\n  rotate: true\n  xy: 1868, 146\n  size: 19, 39\n  orig: 19, 39\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_11\n  rotate: true\n  xy: 1781, 146\n  size: 19, 42\n  orig: 19, 42\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_12\n  rotate: true\n  xy: 1887, 167\n  size: 19, 45\n  orig: 19, 45\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_13\n  rotate: true\n  xy: 1788, 167\n  size: 19, 48\n  orig: 19, 48\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_14\n  rotate: true\n  xy: 297, 3\n  size: 19, 52\n  orig: 19, 52\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_15\n  rotate: false\n  xy: 2021, 199\n  size: 19, 55\n  orig: 19, 55\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_16\n  rotate: false\n  xy: 1979, 198\n  size: 19, 56\n  orig: 19, 56\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_17\n  rotate: false\n  xy: 2000, 198\n  size: 19, 56\n  orig: 19, 56\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_18\n  rotate: true\n  xy: 242, 3\n  size: 19, 53\n  orig: 19, 53\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_19\n  rotate: true\n  xy: 1736, 167\n  size: 19, 50\n  orig: 19, 50\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_2\n  rotate: false\n  xy: 455, 111\n  size: 11, 14\n  orig: 11, 14\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_20\n  rotate: true\n  xy: 1838, 167\n  size: 19, 47\n  orig: 19, 47\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_21\n  rotate: true\n  xy: 1735, 146\n  size: 19, 44\n  orig: 19, 44\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_22\n  rotate: true\n  xy: 1825, 146\n  size: 19, 41\n  orig: 19, 41\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_23\n  rotate: false\n  xy: 693, 87\n  size: 19, 38\n  orig: 19, 38\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_24\n  rotate: false\n  xy: 693, 50\n  size: 19, 35\n  orig: 19, 35\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_25\n  rotate: false\n  xy: 714, 56\n  size: 19, 31\n  orig: 19, 31\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_26\n  rotate: false\n  xy: 756, 97\n  size: 19, 28\n  orig: 19, 28\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_27\n  rotate: false\n  xy: 735, 65\n  size: 18, 25\n  orig: 18, 25\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_28\n  rotate: false\n  xy: 777, 103\n  size: 17, 22\n  orig: 17, 22\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_29\n  rotate: true\n  xy: 434, 111\n  size: 14, 19\n  orig: 14, 19\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_3\n  rotate: true\n  xy: 351, 2\n  size: 13, 17\n  orig: 13, 17\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_30\n  rotate: true\n  xy: 2, 5\n  size: 12, 16\n  orig: 12, 16\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_31\n  rotate: false\n  xy: 370, 2\n  size: 10, 13\n  orig: 10, 13\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_4\n  rotate: false\n  xy: 796, 105\n  size: 16, 20\n  orig: 16, 20\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_5\n  rotate: false\n  xy: 714, 31\n  size: 18, 23\n  orig: 18, 23\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_6\n  rotate: true\n  xy: 1909, 146\n  size: 19, 26\n  orig: 19, 26\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_7\n  rotate: false\n  xy: 693, 19\n  size: 19, 29\n  orig: 19, 29\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_8\n  rotate: false\n  xy: 735, 92\n  size: 19, 33\n  orig: 19, 33\n  offset: 0, 0\n  index: -1\nliuguang/liuguang_9\n  rotate: false\n  xy: 714, 89\n  size: 19, 36\n  orig: 19, 36\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "4fKwShk/9EYKH6EBzSHn+9"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

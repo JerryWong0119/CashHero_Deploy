@@ -1,1 +1,364 @@
-{"__type__":"sp.SkeletonData","_name":"TingPai","_skeletonJson":{"skeleton":{"hash":"ZXpNtcoBmNqPpYiebMOlFIfvHe8","spine":"3.6.53","width":0,"height":0,"images":""},"bones":[{"name":"root"},{"name":"All","parent":"root"},{"name":"tp","parent":"All","scaleX":2,"scaleY":2},{"name":"tp2","parent":"All","scaleX":2,"scaleY":2}],"slots":[{"name":"tp","bone":"tp","blend":"additive"},{"name":"tp2","bone":"tp2","blend":"additive"}],"skins":{"default":{"tp":{"images/tp/tp_000":{"width":60,"height":220},"images/tp/tp_001":{"width":60,"height":220},"images/tp/tp_002":{"width":60,"height":220},"images/tp/tp_003":{"width":60,"height":220},"images/tp/tp_004":{"width":60,"height":220},"images/tp/tp_005":{"width":60,"height":220},"images/tp/tp_006":{"width":60,"height":220},"images/tp/tp_007":{"width":60,"height":220},"images/tp/tp_008":{"width":60,"height":220},"images/tp/tp_009":{"width":60,"height":220}},"tp2":{"images/tp/tp_000":{"width":60,"height":220},"images/tp/tp_001":{"width":60,"height":220},"images/tp/tp_002":{"width":60,"height":220},"images/tp/tp_003":{"width":60,"height":220},"images/tp/tp_004":{"width":60,"height":220},"images/tp/tp_005":{"width":60,"height":220},"images/tp/tp_006":{"width":60,"height":220},"images/tp/tp_007":{"width":60,"height":220},"images/tp/tp_008":{"width":60,"height":220},"images/tp/tp_009":{"width":60,"height":220}}}},"animations":{"TingPai":{"slots":{"tp":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/tp/tp_000"},{"time":0.0667,"name":"images/tp/tp_001"},{"time":0.1,"name":"images/tp/tp_002"},{"time":0.1667,"name":"images/tp/tp_003"},{"time":0.2,"name":"images/tp/tp_004"},{"time":0.2667,"name":"images/tp/tp_005"},{"time":0.3,"name":"images/tp/tp_006"},{"time":0.3667,"name":"images/tp/tp_007"},{"time":0.4,"name":"images/tp/tp_008"},{"time":0.4667,"name":"images/tp/tp_009"},{"time":0.5,"name":"images/tp/tp_000"},{"time":0.5667,"name":"images/tp/tp_001"},{"time":0.6,"name":"images/tp/tp_002"},{"time":0.6667,"name":"images/tp/tp_003"},{"time":0.7,"name":"images/tp/tp_004"},{"time":0.7667,"name":"images/tp/tp_005"},{"time":0.8,"name":"images/tp/tp_006"},{"time":0.8667,"name":"images/tp/tp_007"},{"time":0.9,"name":"images/tp/tp_008"},{"time":0.9667,"name":"images/tp/tp_009"},{"time":1,"name":"images/tp/tp_000"}]},"tp2":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/tp/tp_000"},{"time":0.0667,"name":"images/tp/tp_001"},{"time":0.1,"name":"images/tp/tp_002"},{"time":0.1667,"name":"images/tp/tp_003"},{"time":0.2,"name":"images/tp/tp_004"},{"time":0.2667,"name":"images/tp/tp_005"},{"time":0.3,"name":"images/tp/tp_006"},{"time":0.3667,"name":"images/tp/tp_007"},{"time":0.4,"name":"images/tp/tp_008"},{"time":0.4667,"name":"images/tp/tp_009"},{"time":0.5,"name":"images/tp/tp_000"},{"time":0.5667,"name":"images/tp/tp_001"},{"time":0.6,"name":"images/tp/tp_002"},{"time":0.6667,"name":"images/tp/tp_003"},{"time":0.7,"name":"images/tp/tp_004"},{"time":0.7667,"name":"images/tp/tp_005"},{"time":0.8,"name":"images/tp/tp_006"},{"time":0.8667,"name":"images/tp/tp_007"},{"time":0.9,"name":"images/tp/tp_008"},{"time":0.9667,"name":"images/tp/tp_009"},{"time":1,"name":"images/tp/tp_000"}]}},"bones":{"tp":{"translate":[{"time":0,"x":-60,"y":0}]},"tp2":{"translate":[{"time":0,"x":60,"y":0}],"scale":[{"time":0,"x":-1,"y":1}]}}}}},"_atlasText":"\nTingPai.png\nsize: 548,220\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/tp/tp_000\n  rotate: true\n  xy: 277, 169\n  size: 49, 215\n  orig: 60, 220\n  offset: 6, 5\n  index: -1\nimages/tp/tp_001\n  rotate: true\n  xy: 277, 66\n  size: 49, 213\n  orig: 60, 220\n  offset: 6, 5\n  index: -1\nimages/tp/tp_002\n  rotate: true\n  xy: 277, 117\n  size: 50, 213\n  orig: 60, 220\n  offset: 5, 5\n  index: -1\nimages/tp/tp_003\n  rotate: false\n  xy: 113, 3\n  size: 52, 215\n  orig: 60, 220\n  offset: 3, 5\n  index: -1\nimages/tp/tp_004\n  rotate: false\n  xy: 58, 3\n  size: 53, 215\n  orig: 60, 220\n  offset: 3, 5\n  index: -1\nimages/tp/tp_005\n  rotate: false\n  xy: 2, 2\n  size: 54, 216\n  orig: 60, 220\n  offset: 2, 4\n  index: -1\nimages/tp/tp_006\n  rotate: false\n  xy: 221, 7\n  size: 54, 211\n  orig: 60, 220\n  offset: 2, 6\n  index: -1\nimages/tp/tp_007\n  rotate: false\n  xy: 167, 4\n  size: 52, 214\n  orig: 60, 220\n  offset: 3, 6\n  index: -1\nimages/tp/tp_008\n  rotate: false\n  xy: 494, 7\n  size: 52, 211\n  orig: 60, 220\n  offset: 3, 5\n  index: -1\nimages/tp/tp_009\n  rotate: true\n  xy: 277, 14\n  size: 50, 211\n  orig: 60, 220\n  offset: 5, 6\n  index: -1\n","textures":[{"__uuid__":"e6nqbPseNGaoMakhy0PmJ3"}],"textureNames":["TingPai.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "TingPai",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "ZXpNtcoBmNqPpYiebMOlFIfvHe8",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "All",
+        "parent": "root"
+      },
+      {
+        "name": "tp",
+        "parent": "All",
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "tp2",
+        "parent": "All",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "tp",
+        "bone": "tp",
+        "blend": "additive"
+      },
+      {
+        "name": "tp2",
+        "bone": "tp2",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "tp": {
+          "images/tp/tp_000": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_001": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_002": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_003": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_004": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_005": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_006": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_007": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_008": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_009": {
+            "width": 60,
+            "height": 220
+          }
+        },
+        "tp2": {
+          "images/tp/tp_000": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_001": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_002": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_003": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_004": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_005": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_006": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_007": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_008": {
+            "width": 60,
+            "height": 220
+          },
+          "images/tp/tp_009": {
+            "width": 60,
+            "height": 220
+          }
+        }
+      }
+    },
+    "animations": {
+      "TingPai": {
+        "slots": {
+          "tp": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/tp/tp_000"
+              },
+              {
+                "time": 0.0667,
+                "name": "images/tp/tp_001"
+              },
+              {
+                "time": 0.1,
+                "name": "images/tp/tp_002"
+              },
+              {
+                "time": 0.1667,
+                "name": "images/tp/tp_003"
+              },
+              {
+                "time": 0.2,
+                "name": "images/tp/tp_004"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/tp/tp_005"
+              },
+              {
+                "time": 0.3,
+                "name": "images/tp/tp_006"
+              },
+              {
+                "time": 0.3667,
+                "name": "images/tp/tp_007"
+              },
+              {
+                "time": 0.4,
+                "name": "images/tp/tp_008"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/tp/tp_009"
+              },
+              {
+                "time": 0.5,
+                "name": "images/tp/tp_000"
+              },
+              {
+                "time": 0.5667,
+                "name": "images/tp/tp_001"
+              },
+              {
+                "time": 0.6,
+                "name": "images/tp/tp_002"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/tp/tp_003"
+              },
+              {
+                "time": 0.7,
+                "name": "images/tp/tp_004"
+              },
+              {
+                "time": 0.7667,
+                "name": "images/tp/tp_005"
+              },
+              {
+                "time": 0.8,
+                "name": "images/tp/tp_006"
+              },
+              {
+                "time": 0.8667,
+                "name": "images/tp/tp_007"
+              },
+              {
+                "time": 0.9,
+                "name": "images/tp/tp_008"
+              },
+              {
+                "time": 0.9667,
+                "name": "images/tp/tp_009"
+              },
+              {
+                "time": 1,
+                "name": "images/tp/tp_000"
+              }
+            ]
+          },
+          "tp2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/tp/tp_000"
+              },
+              {
+                "time": 0.0667,
+                "name": "images/tp/tp_001"
+              },
+              {
+                "time": 0.1,
+                "name": "images/tp/tp_002"
+              },
+              {
+                "time": 0.1667,
+                "name": "images/tp/tp_003"
+              },
+              {
+                "time": 0.2,
+                "name": "images/tp/tp_004"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/tp/tp_005"
+              },
+              {
+                "time": 0.3,
+                "name": "images/tp/tp_006"
+              },
+              {
+                "time": 0.3667,
+                "name": "images/tp/tp_007"
+              },
+              {
+                "time": 0.4,
+                "name": "images/tp/tp_008"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/tp/tp_009"
+              },
+              {
+                "time": 0.5,
+                "name": "images/tp/tp_000"
+              },
+              {
+                "time": 0.5667,
+                "name": "images/tp/tp_001"
+              },
+              {
+                "time": 0.6,
+                "name": "images/tp/tp_002"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/tp/tp_003"
+              },
+              {
+                "time": 0.7,
+                "name": "images/tp/tp_004"
+              },
+              {
+                "time": 0.7667,
+                "name": "images/tp/tp_005"
+              },
+              {
+                "time": 0.8,
+                "name": "images/tp/tp_006"
+              },
+              {
+                "time": 0.8667,
+                "name": "images/tp/tp_007"
+              },
+              {
+                "time": 0.9,
+                "name": "images/tp/tp_008"
+              },
+              {
+                "time": 0.9667,
+                "name": "images/tp/tp_009"
+              },
+              {
+                "time": 1,
+                "name": "images/tp/tp_000"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "tp": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -60,
+                "y": 0
+              }
+            ]
+          },
+          "tp2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 60,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": -1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nTingPai.png\nsize: 548,220\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/tp/tp_000\n  rotate: true\n  xy: 277, 169\n  size: 49, 215\n  orig: 60, 220\n  offset: 6, 5\n  index: -1\nimages/tp/tp_001\n  rotate: true\n  xy: 277, 66\n  size: 49, 213\n  orig: 60, 220\n  offset: 6, 5\n  index: -1\nimages/tp/tp_002\n  rotate: true\n  xy: 277, 117\n  size: 50, 213\n  orig: 60, 220\n  offset: 5, 5\n  index: -1\nimages/tp/tp_003\n  rotate: false\n  xy: 113, 3\n  size: 52, 215\n  orig: 60, 220\n  offset: 3, 5\n  index: -1\nimages/tp/tp_004\n  rotate: false\n  xy: 58, 3\n  size: 53, 215\n  orig: 60, 220\n  offset: 3, 5\n  index: -1\nimages/tp/tp_005\n  rotate: false\n  xy: 2, 2\n  size: 54, 216\n  orig: 60, 220\n  offset: 2, 4\n  index: -1\nimages/tp/tp_006\n  rotate: false\n  xy: 221, 7\n  size: 54, 211\n  orig: 60, 220\n  offset: 2, 6\n  index: -1\nimages/tp/tp_007\n  rotate: false\n  xy: 167, 4\n  size: 52, 214\n  orig: 60, 220\n  offset: 3, 6\n  index: -1\nimages/tp/tp_008\n  rotate: false\n  xy: 494, 7\n  size: 52, 211\n  orig: 60, 220\n  offset: 3, 5\n  index: -1\nimages/tp/tp_009\n  rotate: true\n  xy: 277, 14\n  size: 50, 211\n  orig: 60, 220\n  offset: 5, 6\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "e6nqbPseNGaoMakhy0PmJ3"
+    }
+  ],
+  "textureNames": [
+    "TingPai.png"
+  ]
+}

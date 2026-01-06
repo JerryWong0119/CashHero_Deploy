@@ -1,1 +1,206 @@
-{"__type__":"sp.SkeletonData","_name":"Map_jiangliban","_skeletonJson":{"skeleton":{"hash":"bQtG0xEfAKFlH3TNKMYDJOcQNIs","spine":"3.6.53","width":720,"height":1560,"images":"./images/"},"bones":[{"name":"root"},{"name":"all","parent":"root"},{"name":"tx","parent":"all","scaleX":2,"scaleY":2}],"slots":[{"name":"tx","bone":"tx"}],"skins":{"default":{"tx":{"tx/tx_00":{"width":150,"height":100},"tx/tx_01":{"width":150,"height":100},"tx/tx_02":{"width":150,"height":100},"tx/tx_03":{"width":150,"height":100},"tx/tx_04":{"width":150,"height":100},"tx/tx_05":{"width":150,"height":100},"tx/tx_06":{"width":150,"height":100},"tx/tx_07":{"width":150,"height":100},"tx/tx_08":{"width":150,"height":100},"tx/tx_09":{"width":150,"height":100},"tx/tx_10":{"width":150,"height":100},"tx/tx_11":{"width":150,"height":100},"tx/tx_12":{"width":150,"height":100},"tx/tx_13":{"width":150,"height":100},"tx/tx_14":{"width":150,"height":100},"tx/tx_15":{"width":150,"height":100}}}},"animations":{"Map_jiangliban":{"slots":{"tx":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"tx/tx_00"},{"time":0.0667,"name":"tx/tx_01"},{"time":0.1,"name":"tx/tx_02"},{"time":0.1333,"name":"tx/tx_03"},{"time":0.1667,"name":"tx/tx_04"},{"time":0.2,"name":"tx/tx_05"},{"time":0.2333,"name":"tx/tx_06"},{"time":0.2667,"name":"tx/tx_07"},{"time":0.3,"name":"tx/tx_08"},{"time":0.3333,"name":"tx/tx_09"},{"time":0.3667,"name":"tx/tx_10"},{"time":0.4,"name":"tx/tx_11"},{"time":0.4333,"name":"tx/tx_12"},{"time":0.4667,"name":"tx/tx_13"},{"time":0.5,"name":"tx/tx_14"},{"time":0.5333,"name":"tx/tx_15"},{"time":0.5667,"name":null}]}},"bones":{"all":{"translate":[{"time":0,"x":-26.59,"y":0}]}}}}},"_atlasText":"\nMap_jiangliban.png\nsize: 191,276\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntx/tx_00\n  rotate: false\n  xy: 130, 78\n  size: 47, 35\n  orig: 150, 100\n  offset: 66, 36\n  index: -1\ntx/tx_01\n  rotate: true\n  xy: 47, 4\n  size: 51, 40\n  orig: 150, 100\n  offset: 64, 33\n  index: -1\ntx/tx_02\n  rotate: true\n  xy: 2, 2\n  size: 53, 43\n  orig: 150, 100\n  offset: 63, 30\n  index: -1\ntx/tx_03\n  rotate: true\n  xy: 132, 164\n  size: 54, 46\n  orig: 150, 100\n  offset: 63, 28\n  index: -1\ntx/tx_04\n  rotate: false\n  xy: 129, 115\n  size: 56, 47\n  orig: 150, 100\n  offset: 62, 27\n  index: -1\ntx/tx_05\n  rotate: false\n  xy: 69, 119\n  size: 58, 48\n  orig: 150, 100\n  offset: 61, 26\n  index: -1\ntx/tx_06\n  rotate: false\n  xy: 70, 169\n  size: 60, 49\n  orig: 150, 100\n  offset: 60, 25\n  index: -1\ntx/tx_07\n  rotate: false\n  xy: 67, 57\n  size: 61, 51\n  orig: 150, 100\n  offset: 59, 24\n  index: -1\ntx/tx_08\n  rotate: false\n  xy: 2, 57\n  size: 63, 51\n  orig: 150, 100\n  offset: 58, 24\n  index: -1\ntx/tx_09\n  rotate: false\n  xy: 2, 110\n  size: 64, 52\n  orig: 150, 100\n  offset: 58, 23\n  index: -1\ntx/tx_10\n  rotate: false\n  xy: 2, 164\n  size: 65, 53\n  orig: 150, 100\n  offset: 57, 22\n  index: -1\ntx/tx_11\n  rotate: false\n  xy: 2, 219\n  size: 66, 55\n  orig: 150, 100\n  offset: 57, 21\n  index: -1\ntx/tx_12\n  rotate: false\n  xy: 70, 220\n  size: 64, 54\n  orig: 150, 100\n  offset: 59, 21\n  index: -1\ntx/tx_13\n  rotate: false\n  xy: 136, 223\n  size: 53, 51\n  orig: 150, 100\n  offset: 59, 22\n  index: -1\ntx/tx_14\n  rotate: false\n  xy: 89, 5\n  size: 48, 50\n  orig: 150, 100\n  offset: 60, 23\n  index: -1\ntx/tx_15\n  rotate: false\n  xy: 139, 48\n  size: 38, 28\n  orig: 150, 100\n  offset: 65, 26\n  index: -1\n","textures":[{"__uuid__":"d0pi5Gh9BH1bPe1UldaHGW"}],"textureNames":["Map_jiangliban.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Map_jiangliban",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "bQtG0xEfAKFlH3TNKMYDJOcQNIs",
+      "spine": "3.6.53",
+      "width": 720,
+      "height": 1560,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "all",
+        "parent": "root"
+      },
+      {
+        "name": "tx",
+        "parent": "all",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "tx",
+        "bone": "tx"
+      }
+    ],
+    "skins": {
+      "default": {
+        "tx": {
+          "tx/tx_00": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_01": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_02": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_03": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_04": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_05": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_06": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_07": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_08": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_09": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_10": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_11": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_12": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_13": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_14": {
+            "width": 150,
+            "height": 100
+          },
+          "tx/tx_15": {
+            "width": 150,
+            "height": 100
+          }
+        }
+      }
+    },
+    "animations": {
+      "Map_jiangliban": {
+        "slots": {
+          "tx": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "tx/tx_00"
+              },
+              {
+                "time": 0.0667,
+                "name": "tx/tx_01"
+              },
+              {
+                "time": 0.1,
+                "name": "tx/tx_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "tx/tx_03"
+              },
+              {
+                "time": 0.1667,
+                "name": "tx/tx_04"
+              },
+              {
+                "time": 0.2,
+                "name": "tx/tx_05"
+              },
+              {
+                "time": 0.2333,
+                "name": "tx/tx_06"
+              },
+              {
+                "time": 0.2667,
+                "name": "tx/tx_07"
+              },
+              {
+                "time": 0.3,
+                "name": "tx/tx_08"
+              },
+              {
+                "time": 0.3333,
+                "name": "tx/tx_09"
+              },
+              {
+                "time": 0.3667,
+                "name": "tx/tx_10"
+              },
+              {
+                "time": 0.4,
+                "name": "tx/tx_11"
+              },
+              {
+                "time": 0.4333,
+                "name": "tx/tx_12"
+              },
+              {
+                "time": 0.4667,
+                "name": "tx/tx_13"
+              },
+              {
+                "time": 0.5,
+                "name": "tx/tx_14"
+              },
+              {
+                "time": 0.5333,
+                "name": "tx/tx_15"
+              },
+              {
+                "time": 0.5667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "all": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -26.59,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nMap_jiangliban.png\nsize: 191,276\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntx/tx_00\n  rotate: false\n  xy: 130, 78\n  size: 47, 35\n  orig: 150, 100\n  offset: 66, 36\n  index: -1\ntx/tx_01\n  rotate: true\n  xy: 47, 4\n  size: 51, 40\n  orig: 150, 100\n  offset: 64, 33\n  index: -1\ntx/tx_02\n  rotate: true\n  xy: 2, 2\n  size: 53, 43\n  orig: 150, 100\n  offset: 63, 30\n  index: -1\ntx/tx_03\n  rotate: true\n  xy: 132, 164\n  size: 54, 46\n  orig: 150, 100\n  offset: 63, 28\n  index: -1\ntx/tx_04\n  rotate: false\n  xy: 129, 115\n  size: 56, 47\n  orig: 150, 100\n  offset: 62, 27\n  index: -1\ntx/tx_05\n  rotate: false\n  xy: 69, 119\n  size: 58, 48\n  orig: 150, 100\n  offset: 61, 26\n  index: -1\ntx/tx_06\n  rotate: false\n  xy: 70, 169\n  size: 60, 49\n  orig: 150, 100\n  offset: 60, 25\n  index: -1\ntx/tx_07\n  rotate: false\n  xy: 67, 57\n  size: 61, 51\n  orig: 150, 100\n  offset: 59, 24\n  index: -1\ntx/tx_08\n  rotate: false\n  xy: 2, 57\n  size: 63, 51\n  orig: 150, 100\n  offset: 58, 24\n  index: -1\ntx/tx_09\n  rotate: false\n  xy: 2, 110\n  size: 64, 52\n  orig: 150, 100\n  offset: 58, 23\n  index: -1\ntx/tx_10\n  rotate: false\n  xy: 2, 164\n  size: 65, 53\n  orig: 150, 100\n  offset: 57, 22\n  index: -1\ntx/tx_11\n  rotate: false\n  xy: 2, 219\n  size: 66, 55\n  orig: 150, 100\n  offset: 57, 21\n  index: -1\ntx/tx_12\n  rotate: false\n  xy: 70, 220\n  size: 64, 54\n  orig: 150, 100\n  offset: 59, 21\n  index: -1\ntx/tx_13\n  rotate: false\n  xy: 136, 223\n  size: 53, 51\n  orig: 150, 100\n  offset: 59, 22\n  index: -1\ntx/tx_14\n  rotate: false\n  xy: 89, 5\n  size: 48, 50\n  orig: 150, 100\n  offset: 60, 23\n  index: -1\ntx/tx_15\n  rotate: false\n  xy: 139, 48\n  size: 38, 28\n  orig: 150, 100\n  offset: 65, 26\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "d0pi5Gh9BH1bPe1UldaHGW"
+    }
+  ],
+  "textureNames": [
+    "Map_jiangliban.png"
+  ]
+}

@@ -1,1 +1,194 @@
-{"__type__":"sp.SkeletonData","_name":"beicheng_cx","_skeletonJson":{"skeleton":{"hash":"1nAmM1wEltvlmx0wfqt8LXX5liE","spine":"3.6.53","width":1060,"height":1560,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"zong","parent":"root"},{"name":"cx","parent":"zong","x":1.29,"y":-2.58,"scaleX":0.729,"scaleY":0.729}],"slots":[{"name":"map_base3","bone":"root"},{"name":"cx","bone":"cx","attachment":"ksan_01"}],"skins":{"default":{"cx":{"ksan_01":{"width":250,"height":250},"ksan_03":{"width":250,"height":250},"ksan_05":{"width":250,"height":250},"ksan_07":{"width":250,"height":250},"ksan_09":{"width":250,"height":250},"ksan_11":{"width":250,"height":250},"ksan_13":{"width":250,"height":250},"ksan_16":{"width":250,"height":250},"ksan_18":{"width":250,"height":250},"ksan_20":{"width":250,"height":250},"ksan_22":{"width":250,"height":250},"ksan_24":{"width":250,"height":250},"ksan_28":{"width":250,"height":250},"ksan_33":{"width":250,"height":250},"ksan_37":{"width":250,"height":250},"ksan_41":{"width":250,"height":250}}}},"animations":{"animation":{"slots":{"cx":{"attachment":[{"time":0,"name":"ksan_01"},{"time":0.0667,"name":"ksan_03"},{"time":0.1333,"name":"ksan_05"},{"time":0.2,"name":"ksan_07"},{"time":0.2667,"name":"ksan_09"},{"time":0.3333,"name":"ksan_11"},{"time":0.4,"name":"ksan_13"},{"time":0.4667,"name":"ksan_16"},{"time":0.5333,"name":"ksan_18"},{"time":0.6,"name":"ksan_20"},{"time":0.6667,"name":"ksan_22"},{"time":0.7333,"name":"ksan_24"},{"time":0.8,"name":"ksan_28"},{"time":0.8667,"name":"ksan_33"},{"time":0.9333,"name":"ksan_37"},{"time":1,"name":"ksan_41"}]}}}}},"_atlasText":"\nbeicheng_cx.png\nsize: 531,531\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nksan_01\n  rotate: false\n  xy: 361, 2\n  size: 68, 67\n  orig: 200, 200\n  offset: 66, 69\n  index: -1\nksan_03\n  rotate: false\n  xy: 361, 71\n  size: 85, 83\n  orig: 200, 200\n  offset: 59, 61\n  index: -1\nksan_05\n  rotate: false\n  xy: 415, 430\n  size: 104, 99\n  orig: 200, 200\n  offset: 50, 53\n  index: -1\nksan_07\n  rotate: false\n  xy: 401, 156\n  size: 115, 112\n  orig: 200, 200\n  offset: 45, 47\n  index: -1\nksan_09\n  rotate: false\n  xy: 2, 2\n  size: 117, 123\n  orig: 200, 200\n  offset: 39, 41\n  index: -1\nksan_11\n  rotate: false\n  xy: 139, 129\n  size: 128, 132\n  orig: 200, 200\n  offset: 33, 35\n  index: -1\nksan_13\n  rotate: false\n  xy: 2, 398\n  size: 141, 131\n  orig: 200, 200\n  offset: 28, 41\n  index: -1\nksan_16\n  rotate: false\n  xy: 2, 262\n  size: 134, 134\n  orig: 200, 200\n  offset: 29, 34\n  index: -1\nksan_18\n  rotate: false\n  xy: 145, 397\n  size: 133, 132\n  orig: 200, 200\n  offset: 32, 37\n  index: -1\nksan_20\n  rotate: false\n  xy: 2, 127\n  size: 135, 133\n  orig: 200, 200\n  offset: 31, 37\n  index: -1\nksan_22\n  rotate: false\n  xy: 280, 396\n  size: 133, 133\n  orig: 200, 200\n  offset: 32, 37\n  index: -1\nksan_24\n  rotate: false\n  xy: 138, 263\n  size: 131, 132\n  orig: 200, 200\n  offset: 33, 37\n  index: -1\nksan_28\n  rotate: false\n  xy: 271, 266\n  size: 128, 128\n  orig: 200, 200\n  offset: 35, 39\n  index: -1\nksan_33\n  rotate: false\n  xy: 401, 270\n  size: 123, 124\n  orig: 200, 200\n  offset: 37, 41\n  index: -1\nksan_37\n  rotate: false\n  xy: 121, 6\n  size: 120, 119\n  orig: 200, 200\n  offset: 39, 44\n  index: -1\nksan_41\n  rotate: false\n  xy: 243, 12\n  size: 116, 115\n  orig: 200, 200\n  offset: 41, 46\n  index: -1\n","textures":[{"__uuid__":"eb/HCC3VBEAaOy8cbfuzox"}],"textureNames":["beicheng_cx.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "beicheng_cx",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "1nAmM1wEltvlmx0wfqt8LXX5liE",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root"
+      },
+      {
+        "name": "cx",
+        "parent": "zong",
+        "x": 1.29,
+        "y": -2.58,
+        "scaleX": 0.729,
+        "scaleY": 0.729
+      }
+    ],
+    "slots": [
+      {
+        "name": "map_base3",
+        "bone": "root"
+      },
+      {
+        "name": "cx",
+        "bone": "cx",
+        "attachment": "ksan_01"
+      }
+    ],
+    "skins": {
+      "default": {
+        "cx": {
+          "ksan_01": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_03": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_05": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_07": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_09": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_11": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_13": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_16": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_18": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_20": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_22": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_24": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_28": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_33": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_37": {
+            "width": 250,
+            "height": 250
+          },
+          "ksan_41": {
+            "width": 250,
+            "height": 250
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "cx": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "ksan_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "ksan_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "ksan_05"
+              },
+              {
+                "time": 0.2,
+                "name": "ksan_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "ksan_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "ksan_11"
+              },
+              {
+                "time": 0.4,
+                "name": "ksan_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "ksan_16"
+              },
+              {
+                "time": 0.5333,
+                "name": "ksan_18"
+              },
+              {
+                "time": 0.6,
+                "name": "ksan_20"
+              },
+              {
+                "time": 0.6667,
+                "name": "ksan_22"
+              },
+              {
+                "time": 0.7333,
+                "name": "ksan_24"
+              },
+              {
+                "time": 0.8,
+                "name": "ksan_28"
+              },
+              {
+                "time": 0.8667,
+                "name": "ksan_33"
+              },
+              {
+                "time": 0.9333,
+                "name": "ksan_37"
+              },
+              {
+                "time": 1,
+                "name": "ksan_41"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbeicheng_cx.png\nsize: 531,531\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nksan_01\n  rotate: false\n  xy: 361, 2\n  size: 68, 67\n  orig: 200, 200\n  offset: 66, 69\n  index: -1\nksan_03\n  rotate: false\n  xy: 361, 71\n  size: 85, 83\n  orig: 200, 200\n  offset: 59, 61\n  index: -1\nksan_05\n  rotate: false\n  xy: 415, 430\n  size: 104, 99\n  orig: 200, 200\n  offset: 50, 53\n  index: -1\nksan_07\n  rotate: false\n  xy: 401, 156\n  size: 115, 112\n  orig: 200, 200\n  offset: 45, 47\n  index: -1\nksan_09\n  rotate: false\n  xy: 2, 2\n  size: 117, 123\n  orig: 200, 200\n  offset: 39, 41\n  index: -1\nksan_11\n  rotate: false\n  xy: 139, 129\n  size: 128, 132\n  orig: 200, 200\n  offset: 33, 35\n  index: -1\nksan_13\n  rotate: false\n  xy: 2, 398\n  size: 141, 131\n  orig: 200, 200\n  offset: 28, 41\n  index: -1\nksan_16\n  rotate: false\n  xy: 2, 262\n  size: 134, 134\n  orig: 200, 200\n  offset: 29, 34\n  index: -1\nksan_18\n  rotate: false\n  xy: 145, 397\n  size: 133, 132\n  orig: 200, 200\n  offset: 32, 37\n  index: -1\nksan_20\n  rotate: false\n  xy: 2, 127\n  size: 135, 133\n  orig: 200, 200\n  offset: 31, 37\n  index: -1\nksan_22\n  rotate: false\n  xy: 280, 396\n  size: 133, 133\n  orig: 200, 200\n  offset: 32, 37\n  index: -1\nksan_24\n  rotate: false\n  xy: 138, 263\n  size: 131, 132\n  orig: 200, 200\n  offset: 33, 37\n  index: -1\nksan_28\n  rotate: false\n  xy: 271, 266\n  size: 128, 128\n  orig: 200, 200\n  offset: 35, 39\n  index: -1\nksan_33\n  rotate: false\n  xy: 401, 270\n  size: 123, 124\n  orig: 200, 200\n  offset: 37, 41\n  index: -1\nksan_37\n  rotate: false\n  xy: 121, 6\n  size: 120, 119\n  orig: 200, 200\n  offset: 39, 44\n  index: -1\nksan_41\n  rotate: false\n  xy: 243, 12\n  size: 116, 115\n  orig: 200, 200\n  offset: 41, 46\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "eb/HCC3VBEAaOy8cbfuzox"
+    }
+  ],
+  "textureNames": [
+    "beicheng_cx.png"
+  ]
+}

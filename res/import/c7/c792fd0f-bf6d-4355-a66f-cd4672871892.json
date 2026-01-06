@@ -1,1 +1,99 @@
-{"__type__":"sp.SkeletonData","_name":"tubiaotiao","_skeletonJson":{"skeleton":{"hash":"2qrrWtzY5CGpmEPje48qhSoak+E","spine":"3.6.53","width":115,"height":163,"images":"./img/"},"bones":[{"name":"root"},{"name":"tubiao","parent":"root","y":81.6}],"slots":[{"name":"tubiao","bone":"tubiao","attachment":"theme175_map_m1"}],"skins":{"default":{"tubiao":{"theme175_map_m1":{"width":115,"height":163}}}},"animations":{"animation":{"bones":{"tubiao":{"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.5333,"x":0,"y":77.3,"curve":[0.25,0,0.75,1]},{"time":1.3333,"x":0,"y":0}]}}},"animation2":{"bones":{"tubiao":{"translate":[{"time":0,"x":0,"y":0}]}}}}},"_atlasText":"\ntubiaotiao.png\nsize: 128,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme175_map_m1\n  rotate: false\n  xy: 2, 2\n  size: 96, 142\n  orig: 115, 163\n  offset: 8, 5\n  index: -1\n","textures":[{"__uuid__":"33SvuU0+VIaYEWo+zI2IMg"}],"textureNames":["tubiaotiao.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "tubiaotiao",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "2qrrWtzY5CGpmEPje48qhSoak+E",
+      "spine": "3.6.53",
+      "width": 115,
+      "height": 163,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "tubiao",
+        "parent": "root",
+        "y": 81.6
+      }
+    ],
+    "slots": [
+      {
+        "name": "tubiao",
+        "bone": "tubiao",
+        "attachment": "theme175_map_m1"
+      }
+    ],
+    "skins": {
+      "default": {
+        "tubiao": {
+          "theme175_map_m1": {
+            "width": 115,
+            "height": 163
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "bones": {
+          "tubiao": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5333,
+                "x": 0,
+                "y": 77.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "bones": {
+          "tubiao": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ntubiaotiao.png\nsize: 128,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme175_map_m1\n  rotate: false\n  xy: 2, 2\n  size: 96, 142\n  orig: 115, 163\n  offset: 8, 5\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "33SvuU0+VIaYEWo+zI2IMg"
+    }
+  ],
+  "textureNames": [
+    "tubiaotiao.png"
+  ]
+}

@@ -1,1 +1,694 @@
-{"__type__":"sp.SkeletonData","_name":"bianshen","_skeletonJson":{"skeleton":{"hash":"V6OWDdDUzb5IlwVTmKf5HLceMaE","spine":"3.6.53","width":1060,"height":1789.91},"bones":[{"name":"root"},{"name":"bb","parent":"root","scaleX":2,"scaleY":2},{"name":"glow","parent":"root"},{"name":"glow2","parent":"root","y":-177.48},{"name":"sd","parent":"root","y":177.38,"scaleX":1.17,"scaleY":1.17},{"name":"yun","parent":"root","y":749.94,"scaleX":2,"scaleY":2},{"name":"骨骼","parent":"root"}],"slots":[{"name":"tuitu_beishujieguo","bone":"骨骼"},{"name":"sd","bone":"sd"},{"name":"bb","bone":"bb"},{"name":"glow","bone":"glow","blend":"additive"},{"name":"yun","bone":"yun","attachment":"yun/yun_00"},{"name":"glow2","bone":"glow2","blend":"additive"}],"skins":{"default":{"bb":{"bb/bb_00":{"width":552,"height":473},"bb/bb_01":{"width":552,"height":473},"bb/bb_02":{"width":552,"height":473},"bb/bb_03":{"width":552,"height":473},"bb/bb_04":{"width":552,"height":473},"bb/bb_05":{"width":552,"height":473},"bb/bb_06":{"width":552,"height":473},"bb/bb_07":{"width":552,"height":473},"bb/bb_08":{"width":552,"height":473},"bb/bb_09":{"width":552,"height":473},"bb/bb_10":{"width":552,"height":473},"bb/bb_11":{"width":552,"height":473},"bb/bb_12":{"width":552,"height":473},"bb/bb_13":{"width":552,"height":473},"bb/bb_14":{"width":552,"height":473},"bb/bb_15":{"width":552,"height":473},"bb/bb_16":{"width":552,"height":473},"bb/bb_17":{"width":552,"height":473},"bb/bb_18":{"width":552,"height":473},"bb/bb_19":{"width":552,"height":473}},"glow":{"glow":{"width":128,"height":128}},"glow2":{"glow_00":{"width":814,"height":851}},"sd":{"xialuoshandian/xialuoshandian_00":{"width":1060,"height":1560},"xialuoshandian/xialuoshandian_01":{"width":1060,"height":1560},"xialuoshandian/xialuoshandian_02":{"width":1060,"height":1560},"xialuoshandian/xialuoshandian_03":{"width":1060,"height":1560},"xialuoshandian/xialuoshandian_04":{"width":1060,"height":1560},"xialuoshandian/xialuoshandian_05":{"width":1060,"height":1560},"xialuoshandian/xialuoshandian_06":{"width":1060,"height":1560},"xialuoshandian/xialuoshandian_07":{"width":1060,"height":1560},"xialuoshandian/xialuoshandian_08":{"width":1060,"height":1560},"xialuoshandian/xialuoshandian_09":{"width":1060,"height":1560}},"yun":{"yun/yun_00":{"y":0.49,"width":428,"height":259},"yun/yun_02":{"y":0.49,"width":428,"height":259},"yun/yun_04":{"y":0.49,"width":428,"height":259},"yun/yun_06":{"y":0.49,"width":428,"height":259},"yun/yun_08":{"y":0.49,"width":428,"height":259},"yun/yun_10":{"y":0.49,"width":428,"height":259},"yun/yun_12":{"y":0.49,"width":428,"height":259},"yun/yun_14":{"y":0.49,"width":428,"height":259},"yun/yun_16":{"y":0.49,"width":428,"height":259},"yun/yun_18":{"y":0.49,"width":428,"height":259}}}},"animations":{"animation":{"slots":{"bb":{"color":[{"time":1.3333,"color":"ffffffff"},{"time":1.4667,"color":"ffffff00"}],"attachment":[{"time":0.7333,"name":"bb/bb_00"},{"time":0.7667,"name":"bb/bb_01"},{"time":0.8,"name":"bb/bb_02"},{"time":0.8333,"name":"bb/bb_03"},{"time":0.8667,"name":"bb/bb_04"},{"time":0.9,"name":"bb/bb_05"},{"time":0.9333,"name":"bb/bb_06"},{"time":0.9667,"name":"bb/bb_07"},{"time":1,"name":"bb/bb_08"},{"time":1.0333,"name":"bb/bb_09"},{"time":1.0667,"name":"bb/bb_10"},{"time":1.1,"name":"bb/bb_11"},{"time":1.1333,"name":"bb/bb_12"},{"time":1.1667,"name":"bb/bb_13"},{"time":1.2,"name":"bb/bb_14"},{"time":1.2333,"name":"bb/bb_15"},{"time":1.2667,"name":"bb/bb_16"},{"time":1.3,"name":"bb/bb_17"},{"time":1.3333,"name":"bb/bb_18"},{"time":1.3667,"name":"bb/bb_19"}]},"glow":{"color":[{"time":0.6333,"color":"0069ff00","curve":"stepped"},{"time":0.7,"color":"0069ff00"},{"time":0.7333,"color":"0069ffff"},{"time":1.0333,"color":"0069ff00"}],"attachment":[{"time":0.6333,"name":"glow"}]},"glow2":{"color":[{"time":0,"color":"e1edff00","curve":"stepped"},{"time":0.6333,"color":"e1edff00","curve":"stepped"},{"time":0.7,"color":"e1edff00"},{"time":1,"color":"e1edffff"},{"time":1.2,"color":"0069ff00"}],"attachment":[{"time":0,"name":"glow_00"}]},"sd":{"color":[{"time":0.9333,"color":"ffffffff"},{"time":1.0667,"color":"ffffff00"}],"attachment":[{"time":0.6333,"name":"xialuoshandian/xialuoshandian_00"},{"time":0.6667,"name":"xialuoshandian/xialuoshandian_01"},{"time":0.7,"name":"xialuoshandian/xialuoshandian_02"},{"time":0.7333,"name":"xialuoshandian/xialuoshandian_03"},{"time":0.7667,"name":"xialuoshandian/xialuoshandian_04"},{"time":0.8,"name":"xialuoshandian/xialuoshandian_05"},{"time":0.8333,"name":"xialuoshandian/xialuoshandian_06"},{"time":0.8667,"name":"xialuoshandian/xialuoshandian_07"},{"time":0.9,"name":"xialuoshandian/xialuoshandian_08"},{"time":0.9333,"name":"xialuoshandian/xialuoshandian_09"},{"time":1.0667,"name":null}]},"yun":{"color":[{"time":1.1333,"color":"ffffffff"},{"time":1.3,"color":"ffffff00"}],"attachment":[{"time":0,"name":"yun/yun_00"},{"time":0.0667,"name":"yun/yun_02"},{"time":0.1333,"name":"yun/yun_04"},{"time":0.2,"name":"yun/yun_06"},{"time":0.2667,"name":"yun/yun_08"},{"time":0.3333,"name":"yun/yun_10"},{"time":0.4,"name":"yun/yun_12"},{"time":0.4667,"name":"yun/yun_14"},{"time":0.5333,"name":"yun/yun_16"},{"time":0.6,"name":"yun/yun_18"},{"time":0.6667,"name":"yun/yun_00"},{"time":0.7333,"name":"yun/yun_02"},{"time":0.8,"name":"yun/yun_04"},{"time":0.8667,"name":"yun/yun_06"},{"time":0.9333,"name":"yun/yun_08"},{"time":1,"name":"yun/yun_10"},{"time":1.0667,"name":"yun/yun_12"},{"time":1.1333,"name":"yun/yun_14"},{"time":1.2,"name":"yun/yun_16"},{"time":1.2667,"name":"yun/yun_18"},{"time":1.3333,"name":null}]}},"bones":{"sd":{"translate":[{"time":0,"x":0,"y":-214.72}],"scale":[{"time":0,"x":0.742,"y":0.742}]},"bb":{"translate":[{"time":0,"x":0,"y":-211.31}],"scale":[{"time":0,"x":1.246,"y":1.246}]},"glow":{"translate":[{"time":0.6333,"x":0,"y":-213.5}],"scale":[{"time":0.6333,"x":8.697,"y":8.697}]},"yun":{"translate":[{"time":0,"x":15.17,"y":-140.31}],"scale":[{"time":0,"x":0.4,"y":0.4},{"time":0.3333,"x":1.265,"y":1.265}]},"glow2":{"translate":[{"time":0,"x":0,"y":7.54,"curve":"stepped"},{"time":0.6333,"x":0,"y":7.54}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.6333,"x":1,"y":1}]}}}}},"_atlasText":"\nbianshen.png\nsize: 2025,784\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbb/bb_00\n  rotate: false\n  xy: 1524, 347\n  size: 115, 127\n  orig: 276, 237\n  offset: 72, 54\n  index: -1\nbb/bb_01\n  rotate: false\n  xy: 915, 0\n  size: 128, 137\n  orig: 276, 237\n  offset: 66, 47\n  index: -1\nbb/bb_02\n  rotate: false\n  xy: 1623, 56\n  size: 138, 147\n  orig: 276, 237\n  offset: 62, 41\n  index: -1\nbb/bb_03\n  rotate: false\n  xy: 1272, 467\n  size: 223, 157\n  orig: 276, 237\n  offset: 3, 34\n  index: -1\nbb/bb_04\n  rotate: false\n  xy: 1258, 49\n  size: 215, 160\n  orig: 276, 237\n  offset: 14, 34\n  index: -1\nbb/bb_05\n  rotate: false\n  xy: 1045, 40\n  size: 211, 164\n  orig: 276, 237\n  offset: 15, 32\n  index: -1\nbb/bb_06\n  rotate: false\n  xy: 742, 139\n  size: 216, 166\n  orig: 276, 237\n  offset: 8, 31\n  index: -1\nbb/bb_07\n  rotate: false\n  xy: 116, 131\n  size: 210, 168\n  orig: 276, 237\n  offset: 13, 30\n  index: -1\nbb/bb_08\n  rotate: false\n  xy: 538, 135\n  size: 202, 168\n  orig: 276, 237\n  offset: 18, 30\n  index: -1\nbb/bb_09\n  rotate: false\n  xy: 328, 132\n  size: 208, 168\n  orig: 276, 237\n  offset: 12, 31\n  index: -1\nbb/bb_10\n  rotate: false\n  xy: 960, 206\n  size: 199, 166\n  orig: 276, 237\n  offset: 17, 33\n  index: -1\nbb/bb_11\n  rotate: false\n  xy: 1161, 211\n  size: 195, 161\n  orig: 276, 237\n  offset: 21, 38\n  index: -1\nbb/bb_12\n  rotate: false\n  xy: 1272, 626\n  size: 199, 158\n  orig: 276, 237\n  offset: 19, 41\n  index: -1\nbb/bb_13\n  rotate: false\n  xy: 1473, 630\n  size: 187, 154\n  orig: 276, 237\n  offset: 29, 45\n  index: -1\nbb/bb_14\n  rotate: false\n  xy: 1358, 312\n  size: 164, 153\n  orig: 276, 237\n  offset: 52, 46\n  index: -1\nbb/bb_15\n  rotate: false\n  xy: 1497, 476\n  size: 164, 152\n  orig: 276, 237\n  offset: 52, 47\n  index: -1\nbb/bb_16\n  rotate: false\n  xy: 1662, 633\n  size: 164, 151\n  orig: 276, 237\n  offset: 52, 47\n  index: -1\nbb/bb_17\n  rotate: false\n  xy: 1663, 482\n  size: 162, 149\n  orig: 276, 237\n  offset: 52, 48\n  index: -1\nbb/bb_18\n  rotate: false\n  xy: 1663, 333\n  size: 156, 147\n  orig: 276, 237\n  offset: 53, 48\n  index: -1\nbb/bb_19\n  rotate: false\n  xy: 1475, 2\n  size: 146, 142\n  orig: 276, 237\n  offset: 54, 50\n  index: -1\nglow\n  rotate: false\n  xy: 0, 9\n  size: 53, 53\n  orig: 64, 64\n  offset: 6, 5\n  index: -1\nglow_00\n  rotate: false\n  xy: 863, 374\n  size: 407, 410\n  orig: 407, 426\n  offset: 0, 0\n  index: -1\nxialuoshandian/xialuoshandian_00\n  rotate: false\n  xy: 1272, 377\n  size: 41, 88\n  orig: 530, 780\n  offset: 250, 692\n  index: -1\nxialuoshandian/xialuoshandian_01\n  rotate: false\n  xy: 1524, 201\n  size: 93, 144\n  orig: 530, 780\n  offset: 223, 636\n  index: -1\nxialuoshandian/xialuoshandian_02\n  rotate: false\n  xy: 0, 64\n  size: 114, 234\n  orig: 530, 780\n  offset: 210, 546\n  index: -1\nxialuoshandian/xialuoshandian_03\n  rotate: false\n  xy: 0, 300\n  size: 112, 484\n  orig: 530, 780\n  offset: 217, 296\n  index: -1\nxialuoshandian/xialuoshandian_04\n  rotate: false\n  xy: 253, 302\n  size: 126, 482\n  orig: 530, 780\n  offset: 210, 298\n  index: -1\nxialuoshandian/xialuoshandian_05\n  rotate: false\n  xy: 381, 304\n  size: 129, 480\n  orig: 530, 780\n  offset: 213, 300\n  index: -1\nxialuoshandian/xialuoshandian_06\n  rotate: false\n  xy: 114, 301\n  size: 137, 483\n  orig: 530, 780\n  offset: 204, 297\n  index: -1\nxialuoshandian/xialuoshandian_07\n  rotate: false\n  xy: 512, 305\n  size: 118, 479\n  orig: 530, 780\n  offset: 220, 301\n  index: -1\nxialuoshandian/xialuoshandian_08\n  rotate: false\n  xy: 632, 307\n  size: 123, 477\n  orig: 530, 780\n  offset: 214, 303\n  index: -1\nxialuoshandian/xialuoshandian_09\n  rotate: false\n  xy: 757, 310\n  size: 104, 474\n  orig: 530, 780\n  offset: 229, 306\n  index: -1\nyun/yun_00\n  rotate: false\n  xy: 1815, 146\n  size: 190, 123\n  orig: 214, 130\n  offset: 12, 5\n  index: -1\nyun/yun_02\n  rotate: false\n  xy: 1619, 205\n  size: 194, 126\n  orig: 214, 130\n  offset: 10, 4\n  index: -1\nyun/yun_04\n  rotate: false\n  xy: 1827, 397\n  size: 196, 127\n  orig: 214, 130\n  offset: 9, 3\n  index: -1\nyun/yun_06\n  rotate: false\n  xy: 1828, 656\n  size: 197, 128\n  orig: 214, 130\n  offset: 8, 2\n  index: -1\nyun/yun_08\n  rotate: false\n  xy: 515, 2\n  size: 198, 128\n  orig: 214, 130\n  offset: 7, 2\n  index: -1\nyun/yun_10\n  rotate: false\n  xy: 116, 0\n  size: 198, 129\n  orig: 214, 130\n  offset: 7, 1\n  index: -1\nyun/yun_12\n  rotate: false\n  xy: 1828, 526\n  size: 196, 128\n  orig: 214, 130\n  offset: 9, 2\n  index: -1\nyun/yun_14\n  rotate: false\n  xy: 715, 5\n  size: 198, 128\n  orig: 214, 130\n  offset: 7, 2\n  index: -1\nyun/yun_16\n  rotate: false\n  xy: 316, 0\n  size: 197, 129\n  orig: 214, 130\n  offset: 8, 1\n  index: -1\nyun/yun_18\n  rotate: false\n  xy: 1821, 271\n  size: 195, 124\n  orig: 214, 130\n  offset: 10, 6\n  index: -1\n","textures":[{"__uuid__":"10yL6W7ppFVqNigeZ45W25"}],"textureNames":["bianshen.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "bianshen",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "V6OWDdDUzb5IlwVTmKf5HLceMaE",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1789.91
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bb",
+        "parent": "root",
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "glow",
+        "parent": "root"
+      },
+      {
+        "name": "glow2",
+        "parent": "root",
+        "y": -177.48
+      },
+      {
+        "name": "sd",
+        "parent": "root",
+        "y": 177.38,
+        "scaleX": 1.17,
+        "scaleY": 1.17
+      },
+      {
+        "name": "yun",
+        "parent": "root",
+        "y": 749.94,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "tuitu_beishujieguo",
+        "bone": "骨骼"
+      },
+      {
+        "name": "sd",
+        "bone": "sd"
+      },
+      {
+        "name": "bb",
+        "bone": "bb"
+      },
+      {
+        "name": "glow",
+        "bone": "glow",
+        "blend": "additive"
+      },
+      {
+        "name": "yun",
+        "bone": "yun",
+        "attachment": "yun/yun_00"
+      },
+      {
+        "name": "glow2",
+        "bone": "glow2",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "bb": {
+          "bb/bb_00": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_01": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_02": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_03": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_04": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_05": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_06": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_07": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_08": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_09": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_10": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_11": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_12": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_13": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_14": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_15": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_16": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_17": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_18": {
+            "width": 552,
+            "height": 473
+          },
+          "bb/bb_19": {
+            "width": 552,
+            "height": 473
+          }
+        },
+        "glow": {
+          "glow": {
+            "width": 128,
+            "height": 128
+          }
+        },
+        "glow2": {
+          "glow_00": {
+            "width": 814,
+            "height": 851
+          }
+        },
+        "sd": {
+          "xialuoshandian/xialuoshandian_00": {
+            "width": 1060,
+            "height": 1560
+          },
+          "xialuoshandian/xialuoshandian_01": {
+            "width": 1060,
+            "height": 1560
+          },
+          "xialuoshandian/xialuoshandian_02": {
+            "width": 1060,
+            "height": 1560
+          },
+          "xialuoshandian/xialuoshandian_03": {
+            "width": 1060,
+            "height": 1560
+          },
+          "xialuoshandian/xialuoshandian_04": {
+            "width": 1060,
+            "height": 1560
+          },
+          "xialuoshandian/xialuoshandian_05": {
+            "width": 1060,
+            "height": 1560
+          },
+          "xialuoshandian/xialuoshandian_06": {
+            "width": 1060,
+            "height": 1560
+          },
+          "xialuoshandian/xialuoshandian_07": {
+            "width": 1060,
+            "height": 1560
+          },
+          "xialuoshandian/xialuoshandian_08": {
+            "width": 1060,
+            "height": 1560
+          },
+          "xialuoshandian/xialuoshandian_09": {
+            "width": 1060,
+            "height": 1560
+          }
+        },
+        "yun": {
+          "yun/yun_00": {
+            "y": 0.49,
+            "width": 428,
+            "height": 259
+          },
+          "yun/yun_02": {
+            "y": 0.49,
+            "width": 428,
+            "height": 259
+          },
+          "yun/yun_04": {
+            "y": 0.49,
+            "width": 428,
+            "height": 259
+          },
+          "yun/yun_06": {
+            "y": 0.49,
+            "width": 428,
+            "height": 259
+          },
+          "yun/yun_08": {
+            "y": 0.49,
+            "width": 428,
+            "height": 259
+          },
+          "yun/yun_10": {
+            "y": 0.49,
+            "width": 428,
+            "height": 259
+          },
+          "yun/yun_12": {
+            "y": 0.49,
+            "width": 428,
+            "height": 259
+          },
+          "yun/yun_14": {
+            "y": 0.49,
+            "width": 428,
+            "height": 259
+          },
+          "yun/yun_16": {
+            "y": 0.49,
+            "width": 428,
+            "height": 259
+          },
+          "yun/yun_18": {
+            "y": 0.49,
+            "width": 428,
+            "height": 259
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "bb": {
+            "color": [
+              {
+                "time": 1.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.4667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.7333,
+                "name": "bb/bb_00"
+              },
+              {
+                "time": 0.7667,
+                "name": "bb/bb_01"
+              },
+              {
+                "time": 0.8,
+                "name": "bb/bb_02"
+              },
+              {
+                "time": 0.8333,
+                "name": "bb/bb_03"
+              },
+              {
+                "time": 0.8667,
+                "name": "bb/bb_04"
+              },
+              {
+                "time": 0.9,
+                "name": "bb/bb_05"
+              },
+              {
+                "time": 0.9333,
+                "name": "bb/bb_06"
+              },
+              {
+                "time": 0.9667,
+                "name": "bb/bb_07"
+              },
+              {
+                "time": 1,
+                "name": "bb/bb_08"
+              },
+              {
+                "time": 1.0333,
+                "name": "bb/bb_09"
+              },
+              {
+                "time": 1.0667,
+                "name": "bb/bb_10"
+              },
+              {
+                "time": 1.1,
+                "name": "bb/bb_11"
+              },
+              {
+                "time": 1.1333,
+                "name": "bb/bb_12"
+              },
+              {
+                "time": 1.1667,
+                "name": "bb/bb_13"
+              },
+              {
+                "time": 1.2,
+                "name": "bb/bb_14"
+              },
+              {
+                "time": 1.2333,
+                "name": "bb/bb_15"
+              },
+              {
+                "time": 1.2667,
+                "name": "bb/bb_16"
+              },
+              {
+                "time": 1.3,
+                "name": "bb/bb_17"
+              },
+              {
+                "time": 1.3333,
+                "name": "bb/bb_18"
+              },
+              {
+                "time": 1.3667,
+                "name": "bb/bb_19"
+              }
+            ]
+          },
+          "glow": {
+            "color": [
+              {
+                "time": 0.6333,
+                "color": "0069ff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7,
+                "color": "0069ff00"
+              },
+              {
+                "time": 0.7333,
+                "color": "0069ffff"
+              },
+              {
+                "time": 1.0333,
+                "color": "0069ff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.6333,
+                "name": "glow"
+              }
+            ]
+          },
+          "glow2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "e1edff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333,
+                "color": "e1edff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7,
+                "color": "e1edff00"
+              },
+              {
+                "time": 1,
+                "color": "e1edffff"
+              },
+              {
+                "time": 1.2,
+                "color": "0069ff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow_00"
+              }
+            ]
+          },
+          "sd": {
+            "color": [
+              {
+                "time": 0.9333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.0667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.6333,
+                "name": "xialuoshandian/xialuoshandian_00"
+              },
+              {
+                "time": 0.6667,
+                "name": "xialuoshandian/xialuoshandian_01"
+              },
+              {
+                "time": 0.7,
+                "name": "xialuoshandian/xialuoshandian_02"
+              },
+              {
+                "time": 0.7333,
+                "name": "xialuoshandian/xialuoshandian_03"
+              },
+              {
+                "time": 0.7667,
+                "name": "xialuoshandian/xialuoshandian_04"
+              },
+              {
+                "time": 0.8,
+                "name": "xialuoshandian/xialuoshandian_05"
+              },
+              {
+                "time": 0.8333,
+                "name": "xialuoshandian/xialuoshandian_06"
+              },
+              {
+                "time": 0.8667,
+                "name": "xialuoshandian/xialuoshandian_07"
+              },
+              {
+                "time": 0.9,
+                "name": "xialuoshandian/xialuoshandian_08"
+              },
+              {
+                "time": 0.9333,
+                "name": "xialuoshandian/xialuoshandian_09"
+              },
+              {
+                "time": 1.0667,
+                "name": null
+              }
+            ]
+          },
+          "yun": {
+            "color": [
+              {
+                "time": 1.1333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "yun/yun_00"
+              },
+              {
+                "time": 0.0667,
+                "name": "yun/yun_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "yun/yun_04"
+              },
+              {
+                "time": 0.2,
+                "name": "yun/yun_06"
+              },
+              {
+                "time": 0.2667,
+                "name": "yun/yun_08"
+              },
+              {
+                "time": 0.3333,
+                "name": "yun/yun_10"
+              },
+              {
+                "time": 0.4,
+                "name": "yun/yun_12"
+              },
+              {
+                "time": 0.4667,
+                "name": "yun/yun_14"
+              },
+              {
+                "time": 0.5333,
+                "name": "yun/yun_16"
+              },
+              {
+                "time": 0.6,
+                "name": "yun/yun_18"
+              },
+              {
+                "time": 0.6667,
+                "name": "yun/yun_00"
+              },
+              {
+                "time": 0.7333,
+                "name": "yun/yun_02"
+              },
+              {
+                "time": 0.8,
+                "name": "yun/yun_04"
+              },
+              {
+                "time": 0.8667,
+                "name": "yun/yun_06"
+              },
+              {
+                "time": 0.9333,
+                "name": "yun/yun_08"
+              },
+              {
+                "time": 1,
+                "name": "yun/yun_10"
+              },
+              {
+                "time": 1.0667,
+                "name": "yun/yun_12"
+              },
+              {
+                "time": 1.1333,
+                "name": "yun/yun_14"
+              },
+              {
+                "time": 1.2,
+                "name": "yun/yun_16"
+              },
+              {
+                "time": 1.2667,
+                "name": "yun/yun_18"
+              },
+              {
+                "time": 1.3333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sd": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -214.72
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.742,
+                "y": 0.742
+              }
+            ]
+          },
+          "bb": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -211.31
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.246,
+                "y": 1.246
+              }
+            ]
+          },
+          "glow": {
+            "translate": [
+              {
+                "time": 0.6333,
+                "x": 0,
+                "y": -213.5
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.6333,
+                "x": 8.697,
+                "y": 8.697
+              }
+            ]
+          },
+          "yun": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 15.17,
+                "y": -140.31
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.4,
+                "y": 0.4
+              },
+              {
+                "time": 0.3333,
+                "x": 1.265,
+                "y": 1.265
+              }
+            ]
+          },
+          "glow2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 7.54,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333,
+                "x": 0,
+                "y": 7.54
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbianshen.png\nsize: 2025,784\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbb/bb_00\n  rotate: false\n  xy: 1524, 347\n  size: 115, 127\n  orig: 276, 237\n  offset: 72, 54\n  index: -1\nbb/bb_01\n  rotate: false\n  xy: 915, 0\n  size: 128, 137\n  orig: 276, 237\n  offset: 66, 47\n  index: -1\nbb/bb_02\n  rotate: false\n  xy: 1623, 56\n  size: 138, 147\n  orig: 276, 237\n  offset: 62, 41\n  index: -1\nbb/bb_03\n  rotate: false\n  xy: 1272, 467\n  size: 223, 157\n  orig: 276, 237\n  offset: 3, 34\n  index: -1\nbb/bb_04\n  rotate: false\n  xy: 1258, 49\n  size: 215, 160\n  orig: 276, 237\n  offset: 14, 34\n  index: -1\nbb/bb_05\n  rotate: false\n  xy: 1045, 40\n  size: 211, 164\n  orig: 276, 237\n  offset: 15, 32\n  index: -1\nbb/bb_06\n  rotate: false\n  xy: 742, 139\n  size: 216, 166\n  orig: 276, 237\n  offset: 8, 31\n  index: -1\nbb/bb_07\n  rotate: false\n  xy: 116, 131\n  size: 210, 168\n  orig: 276, 237\n  offset: 13, 30\n  index: -1\nbb/bb_08\n  rotate: false\n  xy: 538, 135\n  size: 202, 168\n  orig: 276, 237\n  offset: 18, 30\n  index: -1\nbb/bb_09\n  rotate: false\n  xy: 328, 132\n  size: 208, 168\n  orig: 276, 237\n  offset: 12, 31\n  index: -1\nbb/bb_10\n  rotate: false\n  xy: 960, 206\n  size: 199, 166\n  orig: 276, 237\n  offset: 17, 33\n  index: -1\nbb/bb_11\n  rotate: false\n  xy: 1161, 211\n  size: 195, 161\n  orig: 276, 237\n  offset: 21, 38\n  index: -1\nbb/bb_12\n  rotate: false\n  xy: 1272, 626\n  size: 199, 158\n  orig: 276, 237\n  offset: 19, 41\n  index: -1\nbb/bb_13\n  rotate: false\n  xy: 1473, 630\n  size: 187, 154\n  orig: 276, 237\n  offset: 29, 45\n  index: -1\nbb/bb_14\n  rotate: false\n  xy: 1358, 312\n  size: 164, 153\n  orig: 276, 237\n  offset: 52, 46\n  index: -1\nbb/bb_15\n  rotate: false\n  xy: 1497, 476\n  size: 164, 152\n  orig: 276, 237\n  offset: 52, 47\n  index: -1\nbb/bb_16\n  rotate: false\n  xy: 1662, 633\n  size: 164, 151\n  orig: 276, 237\n  offset: 52, 47\n  index: -1\nbb/bb_17\n  rotate: false\n  xy: 1663, 482\n  size: 162, 149\n  orig: 276, 237\n  offset: 52, 48\n  index: -1\nbb/bb_18\n  rotate: false\n  xy: 1663, 333\n  size: 156, 147\n  orig: 276, 237\n  offset: 53, 48\n  index: -1\nbb/bb_19\n  rotate: false\n  xy: 1475, 2\n  size: 146, 142\n  orig: 276, 237\n  offset: 54, 50\n  index: -1\nglow\n  rotate: false\n  xy: 0, 9\n  size: 53, 53\n  orig: 64, 64\n  offset: 6, 5\n  index: -1\nglow_00\n  rotate: false\n  xy: 863, 374\n  size: 407, 410\n  orig: 407, 426\n  offset: 0, 0\n  index: -1\nxialuoshandian/xialuoshandian_00\n  rotate: false\n  xy: 1272, 377\n  size: 41, 88\n  orig: 530, 780\n  offset: 250, 692\n  index: -1\nxialuoshandian/xialuoshandian_01\n  rotate: false\n  xy: 1524, 201\n  size: 93, 144\n  orig: 530, 780\n  offset: 223, 636\n  index: -1\nxialuoshandian/xialuoshandian_02\n  rotate: false\n  xy: 0, 64\n  size: 114, 234\n  orig: 530, 780\n  offset: 210, 546\n  index: -1\nxialuoshandian/xialuoshandian_03\n  rotate: false\n  xy: 0, 300\n  size: 112, 484\n  orig: 530, 780\n  offset: 217, 296\n  index: -1\nxialuoshandian/xialuoshandian_04\n  rotate: false\n  xy: 253, 302\n  size: 126, 482\n  orig: 530, 780\n  offset: 210, 298\n  index: -1\nxialuoshandian/xialuoshandian_05\n  rotate: false\n  xy: 381, 304\n  size: 129, 480\n  orig: 530, 780\n  offset: 213, 300\n  index: -1\nxialuoshandian/xialuoshandian_06\n  rotate: false\n  xy: 114, 301\n  size: 137, 483\n  orig: 530, 780\n  offset: 204, 297\n  index: -1\nxialuoshandian/xialuoshandian_07\n  rotate: false\n  xy: 512, 305\n  size: 118, 479\n  orig: 530, 780\n  offset: 220, 301\n  index: -1\nxialuoshandian/xialuoshandian_08\n  rotate: false\n  xy: 632, 307\n  size: 123, 477\n  orig: 530, 780\n  offset: 214, 303\n  index: -1\nxialuoshandian/xialuoshandian_09\n  rotate: false\n  xy: 757, 310\n  size: 104, 474\n  orig: 530, 780\n  offset: 229, 306\n  index: -1\nyun/yun_00\n  rotate: false\n  xy: 1815, 146\n  size: 190, 123\n  orig: 214, 130\n  offset: 12, 5\n  index: -1\nyun/yun_02\n  rotate: false\n  xy: 1619, 205\n  size: 194, 126\n  orig: 214, 130\n  offset: 10, 4\n  index: -1\nyun/yun_04\n  rotate: false\n  xy: 1827, 397\n  size: 196, 127\n  orig: 214, 130\n  offset: 9, 3\n  index: -1\nyun/yun_06\n  rotate: false\n  xy: 1828, 656\n  size: 197, 128\n  orig: 214, 130\n  offset: 8, 2\n  index: -1\nyun/yun_08\n  rotate: false\n  xy: 515, 2\n  size: 198, 128\n  orig: 214, 130\n  offset: 7, 2\n  index: -1\nyun/yun_10\n  rotate: false\n  xy: 116, 0\n  size: 198, 129\n  orig: 214, 130\n  offset: 7, 1\n  index: -1\nyun/yun_12\n  rotate: false\n  xy: 1828, 526\n  size: 196, 128\n  orig: 214, 130\n  offset: 9, 2\n  index: -1\nyun/yun_14\n  rotate: false\n  xy: 715, 5\n  size: 198, 128\n  orig: 214, 130\n  offset: 7, 2\n  index: -1\nyun/yun_16\n  rotate: false\n  xy: 316, 0\n  size: 197, 129\n  orig: 214, 130\n  offset: 8, 1\n  index: -1\nyun/yun_18\n  rotate: false\n  xy: 1821, 271\n  size: 195, 124\n  orig: 214, 130\n  offset: 10, 6\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "10yL6W7ppFVqNigeZ45W25"
+    }
+  ],
+  "textureNames": [
+    "bianshen.png"
+  ]
+}

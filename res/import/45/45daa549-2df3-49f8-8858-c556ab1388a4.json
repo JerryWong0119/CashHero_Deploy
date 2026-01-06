@@ -1,1 +1,373 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"7ypyq0CnGpbvya13lBs6xPjlaBU","spine":"3.6.53","width":0,"height":0},"bones":[{"name":"root"},{"name":"zong","parent":"root","scaleX":0.5,"scaleY":0.5},{"name":"fozuguang","parent":"zong","y":129.58,"scaleX":3.619,"scaleY":3.619},{"name":"骨骼","parent":"root"}],"slots":[{"name":"congratulations1","bone":"骨骼"},{"name":"fozuguang11","bone":"zong","attachment":"fozuguang11"},{"name":"fozuguang","bone":"fozuguang","additive":1}],"skins":{"default":{"fozuguang":{"fozuguang2":{"width":243,"height":247}},"fozuguang11":{"fozuguang11":{"type":"clipping","end":"fozuguang11","vertexCount":21,"vertices":[-483.63,363.86,-499.89,316.83,-481.62,225.39,-486.83,109.36,-494.86,-64.23,-357.88,-85.24,-229.14,-100.21,-106.39,-121.17,88.22,-124.16,216.97,-112.18,354.69,-79.25,432.53,-82.24,501.39,-25.36,495.41,79.43,507.38,223.14,510.43,345.69,462.47,399.79,375.65,414.76,49.3,438.71,-160.28,438.71,-363.87,423.74]}}}},"animations":{"animation1":{"slots":{"fozuguang":{"color":[{"time":0,"color":"ffffff94"}],"attachment":[{"time":0,"name":"fozuguang2"}]}},"bones":{"fozuguang":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":120},{"time":4,"angle":-120},{"time":6,"angle":0}],"scale":[{"time":0,"x":1.359,"y":1.359}]}}},"animation2":{"slots":{"fozuguang":{"color":[{"time":0,"color":"ffffff7a"}],"attachment":[{"time":0,"name":"fozuguang2"}]}},"bones":{"fozuguang":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":120},{"time":4,"angle":-120},{"time":6,"angle":0}],"scale":[{"time":0,"x":1.359,"y":1.359}]}},"deform":{"default":{"fozuguang11":{"fozuguang11":[{"time":0,"vertices":[261.65198,-85.43797,247.88785,-89.94203,218.36389,-68.01412,225.89003,-13.41602,254.624,116.47394,134.79596,103.47192,6.56805,92.47993,23.84016,112.39795,-3.18804,111.19201,-35.45601,100.256,-110.92804,69.15195,-188.89597,104.08197,-234.87201,84.74608,-214.7879,28.89999,-222.75812,-51.99194,-241.88597,-114.76805,-218.37802,-119.54999,-129.11404,-100.42194,-1.99598,-119.56396,27.09802,-119.54999,140.27197,-105.20392]}]}}}},"animation3":{"slots":{"fozuguang":{"color":[{"time":0,"color":"ffffff7a"}],"attachment":[{"time":0,"name":"fozuguang2"}]}},"bones":{"fozuguang":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":120},{"time":4,"angle":-120},{"time":6,"angle":0}],"scale":[{"time":0,"x":1.359,"y":1.359}]}},"deform":{"default":{"fozuguang11":{"fozuguang11":[{"time":0,"vertices":[261.65198,-85.43797,247.88785,-89.94203,218.36389,-68.01412,225.89003,-13.41602,254.624,116.47394,134.79596,103.47192,6.56805,92.47993,23.84016,112.39795,-3.18804,111.19201,-35.45601,100.256,-110.92804,69.15195,-188.89597,104.08197,-234.87201,84.74608,-214.7879,28.89999,-222.75812,-51.99194,-241.88597,-114.76805,-218.37802,-119.54999,-129.11404,-100.42194,-1.99598,-119.56396,27.09802,-119.54999,140.27197,-105.20392]}]}}}}}},"_atlasText":"\nfozuguang.png\nsize: 121,124\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nfozuguang2\n  rotate: false\n  xy: 0, 0\n  size: 121, 124\n  orig: 122, 124\n  offset: 1, 0\n  index: -1\n","textures":[{"__uuid__":"4bEO5SE5tPRpEdIR27NB5t"}],"textureNames":["fozuguang.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "7ypyq0CnGpbvya13lBs6xPjlaBU",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "fozuguang",
+        "parent": "zong",
+        "y": 129.58,
+        "scaleX": 3.619,
+        "scaleY": 3.619
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "congratulations1",
+        "bone": "骨骼"
+      },
+      {
+        "name": "fozuguang11",
+        "bone": "zong",
+        "attachment": "fozuguang11"
+      },
+      {
+        "name": "fozuguang",
+        "bone": "fozuguang",
+        "additive": 1
+      }
+    ],
+    "skins": {
+      "default": {
+        "fozuguang": {
+          "fozuguang2": {
+            "width": 243,
+            "height": 247
+          }
+        },
+        "fozuguang11": {
+          "fozuguang11": {
+            "type": "clipping",
+            "end": "fozuguang11",
+            "vertexCount": 21,
+            "vertices": [
+              -483.63,
+              363.86,
+              -499.89,
+              316.83,
+              -481.62,
+              225.39,
+              -486.83,
+              109.36,
+              -494.86,
+              -64.23,
+              -357.88,
+              -85.24,
+              -229.14,
+              -100.21,
+              -106.39,
+              -121.17,
+              88.22,
+              -124.16,
+              216.97,
+              -112.18,
+              354.69,
+              -79.25,
+              432.53,
+              -82.24,
+              501.39,
+              -25.36,
+              495.41,
+              79.43,
+              507.38,
+              223.14,
+              510.43,
+              345.69,
+              462.47,
+              399.79,
+              375.65,
+              414.76,
+              49.3,
+              438.71,
+              -160.28,
+              438.71,
+              -363.87,
+              423.74
+            ]
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "fozuguang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff94"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "fozuguang2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "fozuguang": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": 120
+              },
+              {
+                "time": 4,
+                "angle": -120
+              },
+              {
+                "time": 6,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.359,
+                "y": 1.359
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "fozuguang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff7a"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "fozuguang2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "fozuguang": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": 120
+              },
+              {
+                "time": 4,
+                "angle": -120
+              },
+              {
+                "time": 6,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.359,
+                "y": 1.359
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "fozuguang11": {
+              "fozuguang11": [
+                {
+                  "time": 0,
+                  "vertices": [
+                    261.65198,
+                    -85.43797,
+                    247.88785,
+                    -89.94203,
+                    218.36389,
+                    -68.01412,
+                    225.89003,
+                    -13.41602,
+                    254.624,
+                    116.47394,
+                    134.79596,
+                    103.47192,
+                    6.56805,
+                    92.47993,
+                    23.84016,
+                    112.39795,
+                    -3.18804,
+                    111.19201,
+                    -35.45601,
+                    100.256,
+                    -110.92804,
+                    69.15195,
+                    -188.89597,
+                    104.08197,
+                    -234.87201,
+                    84.74608,
+                    -214.7879,
+                    28.89999,
+                    -222.75812,
+                    -51.99194,
+                    -241.88597,
+                    -114.76805,
+                    -218.37802,
+                    -119.54999,
+                    -129.11404,
+                    -100.42194,
+                    -1.99598,
+                    -119.56396,
+                    27.09802,
+                    -119.54999,
+                    140.27197,
+                    -105.20392
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "animation3": {
+        "slots": {
+          "fozuguang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff7a"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "fozuguang2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "fozuguang": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": 120
+              },
+              {
+                "time": 4,
+                "angle": -120
+              },
+              {
+                "time": 6,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.359,
+                "y": 1.359
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "fozuguang11": {
+              "fozuguang11": [
+                {
+                  "time": 0,
+                  "vertices": [
+                    261.65198,
+                    -85.43797,
+                    247.88785,
+                    -89.94203,
+                    218.36389,
+                    -68.01412,
+                    225.89003,
+                    -13.41602,
+                    254.624,
+                    116.47394,
+                    134.79596,
+                    103.47192,
+                    6.56805,
+                    92.47993,
+                    23.84016,
+                    112.39795,
+                    -3.18804,
+                    111.19201,
+                    -35.45601,
+                    100.256,
+                    -110.92804,
+                    69.15195,
+                    -188.89597,
+                    104.08197,
+                    -234.87201,
+                    84.74608,
+                    -214.7879,
+                    28.89999,
+                    -222.75812,
+                    -51.99194,
+                    -241.88597,
+                    -114.76805,
+                    -218.37802,
+                    -119.54999,
+                    -129.11404,
+                    -100.42194,
+                    -1.99598,
+                    -119.56396,
+                    27.09802,
+                    -119.54999,
+                    140.27197,
+                    -105.20392
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nfozuguang.png\nsize: 121,124\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nfozuguang2\n  rotate: false\n  xy: 0, 0\n  size: 121, 124\n  orig: 122, 124\n  offset: 1, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "4bEO5SE5tPRpEdIR27NB5t"
+    }
+  ],
+  "textureNames": [
+    "fozuguang.png"
+  ]
+}

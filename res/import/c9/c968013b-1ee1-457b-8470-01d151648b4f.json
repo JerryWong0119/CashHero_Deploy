@@ -1,1 +1,133 @@
-{"__type__":"sp.SkeletonData","_name":"jackpot_suo_04","_skeletonJson":{"skeleton":{"hash":"qPEoGepc7JP4nzWc5vcHsA8ZPWE","spine":"3.6.52","width":35,"height":41,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"suo","parent":"root","x":3.6,"y":15.71}],"slots":[{"name":"them113_bg_unlocksuo","bone":"suo","attachment":"them113_bg_unlocksuo"}],"skins":{"default":{"them113_bg_unlocksuo":{"them113_bg_unlocksuo":{"x":-3.89,"y":-15.88,"width":35,"height":41}}}},"animations":{"animation1":{"bones":{"suo":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":0.1333,"angle":-21.51,"curve":[0.25,0,0.75,1]},{"time":0.2333,"angle":14.91,"curve":[0.25,0,0.75,1]},{"time":0.3667,"angle":-15.77,"curve":[0.25,0,0.75,1]},{"time":0.5333,"angle":9.36,"curve":[0.25,0,0.75,1]},{"time":0.6667,"angle":0,"curve":"stepped"},{"time":2,"angle":0}]}}},"animation2":{"bones":{"root":{"rotate":[{"time":0,"angle":0}]}}}}},"_atlasText":"\njackpot_suo_04.png\nsize: 39,45\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nthem113_bg_unlocksuo\n  rotate: false\n  xy: 2, 2\n  size: 35, 41\n  orig: 35, 41\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"eehAELD1pLGoqZ85rETV1J"}],"textureNames":["jackpot_suo_04.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "jackpot_suo_04",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "qPEoGepc7JP4nzWc5vcHsA8ZPWE",
+      "spine": "3.6.52",
+      "width": 35,
+      "height": 41,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "suo",
+        "parent": "root",
+        "x": 3.6,
+        "y": 15.71
+      }
+    ],
+    "slots": [
+      {
+        "name": "them113_bg_unlocksuo",
+        "bone": "suo",
+        "attachment": "them113_bg_unlocksuo"
+      }
+    ],
+    "skins": {
+      "default": {
+        "them113_bg_unlocksuo": {
+          "them113_bg_unlocksuo": {
+            "x": -3.89,
+            "y": -15.88,
+            "width": 35,
+            "height": 41
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "bones": {
+          "suo": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "angle": -21.51,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "angle": 14.91,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3667,
+                "angle": -15.77,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5333,
+                "angle": 9.36,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "bones": {
+          "root": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\njackpot_suo_04.png\nsize: 39,45\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nthem113_bg_unlocksuo\n  rotate: false\n  xy: 2, 2\n  size: 35, 41\n  orig: 35, 41\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "eehAELD1pLGoqZ85rETV1J"
+    }
+  ],
+  "textureNames": [
+    "jackpot_suo_04.png"
+  ]
+}

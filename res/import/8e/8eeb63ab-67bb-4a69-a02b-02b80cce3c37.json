@@ -1,1 +1,203 @@
-{"__type__":"sp.SkeletonData","_name":"jp_sandian_01","_skeletonJson":{"skeleton":{"hash":"IoEL8oolEWTFKpwXJ+J/XEr6LoM","spine":"3.6.53","width":224,"height":50,"images":"./img/"},"bones":[{"name":"root"},{"name":"aaa","parent":"root","y":2.75},{"name":"aaa2","parent":"root","y":2.75},{"name":"aaa3","parent":"root","y":2.75},{"name":"aaa4","parent":"root","y":2.75}],"slots":[{"name":"1","bone":"root"},{"name":"cankao01","bone":"aaa","color":"ffffffa0","blend":"additive"},{"name":"cankao3","bone":"aaa4","color":"ffffffa0","blend":"additive"},{"name":"cankao1","bone":"aaa2","color":"ffffffa0","blend":"additive"},{"name":"cankao2","bone":"aaa3","color":"ffffffa0","blend":"additive"}],"skins":{"default":{"cankao01":{"aaa":{"width":234,"height":55}},"cankao1":{"aaar":{"width":174,"height":55}},"cankao2":{"aaar":{"width":174,"height":55}},"cankao3":{"aaa":{"width":234,"height":55}}}},"animations":{"animation1":{"slots":{"cankao01":{"color":[{"time":0,"color":"ffffff59"},{"time":0.6667,"color":"ffffffad"},{"time":1.3333,"color":"ffffff59"}],"attachment":[{"time":0,"name":"aaa"}]},"cankao3":{"color":[{"time":0,"color":"ffffff59"},{"time":0.6667,"color":"ffffffad"},{"time":1.3333,"color":"ffffff59"}],"attachment":[{"time":0,"name":"aaa"}]}}},"animation4":{"slots":{"cankao1":{"color":[{"time":0,"color":"ffffff59"},{"time":0.6667,"color":"ffffffad"},{"time":1.3333,"color":"ffffff59"}],"attachment":[{"time":0,"name":"aaar"}]},"cankao2":{"color":[{"time":0,"color":"ffffff59"},{"time":0.6667,"color":"ffffffad"},{"time":1.3333,"color":"ffffff59"}],"attachment":[{"time":0,"name":"aaar"}]}}}}},"_atlasText":"\njp_sandian_01.png\nsize: 238,236\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\naaa\n  rotate: false\n  xy: 2, 179\n  size: 234, 55\n  orig: 234, 55\n  offset: 0, 0\n  index: -1\naaar\n  rotate: false\n  xy: 2, 122\n  size: 174, 55\n  orig: 174, 55\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"65JBVxPhlOv59pmuVmyvBH"}],"textureNames":["jp_sandian_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "jp_sandian_01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "IoEL8oolEWTFKpwXJ+J/XEr6LoM",
+      "spine": "3.6.53",
+      "width": 224,
+      "height": 50,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "aaa",
+        "parent": "root",
+        "y": 2.75
+      },
+      {
+        "name": "aaa2",
+        "parent": "root",
+        "y": 2.75
+      },
+      {
+        "name": "aaa3",
+        "parent": "root",
+        "y": 2.75
+      },
+      {
+        "name": "aaa4",
+        "parent": "root",
+        "y": 2.75
+      }
+    ],
+    "slots": [
+      {
+        "name": "1",
+        "bone": "root"
+      },
+      {
+        "name": "cankao01",
+        "bone": "aaa",
+        "color": "ffffffa0",
+        "blend": "additive"
+      },
+      {
+        "name": "cankao3",
+        "bone": "aaa4",
+        "color": "ffffffa0",
+        "blend": "additive"
+      },
+      {
+        "name": "cankao1",
+        "bone": "aaa2",
+        "color": "ffffffa0",
+        "blend": "additive"
+      },
+      {
+        "name": "cankao2",
+        "bone": "aaa3",
+        "color": "ffffffa0",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "cankao01": {
+          "aaa": {
+            "width": 234,
+            "height": 55
+          }
+        },
+        "cankao1": {
+          "aaar": {
+            "width": 174,
+            "height": 55
+          }
+        },
+        "cankao2": {
+          "aaar": {
+            "width": 174,
+            "height": 55
+          }
+        },
+        "cankao3": {
+          "aaa": {
+            "width": 234,
+            "height": 55
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "cankao01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff59"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffad"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff59"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "aaa"
+              }
+            ]
+          },
+          "cankao3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff59"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffad"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff59"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "aaa"
+              }
+            ]
+          }
+        }
+      },
+      "animation4": {
+        "slots": {
+          "cankao1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff59"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffad"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff59"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "aaar"
+              }
+            ]
+          },
+          "cankao2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff59"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffad"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff59"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "aaar"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\njp_sandian_01.png\nsize: 238,236\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\naaa\n  rotate: false\n  xy: 2, 179\n  size: 234, 55\n  orig: 234, 55\n  offset: 0, 0\n  index: -1\naaar\n  rotate: false\n  xy: 2, 122\n  size: 174, 55\n  orig: 174, 55\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "65JBVxPhlOv59pmuVmyvBH"
+    }
+  ],
+  "textureNames": [
+    "jp_sandian_01.png"
+  ]
+}

@@ -1,1 +1,225 @@
-[{"__type__":"cc.Prefab","_name":"effect","data":{"__id__":1},"optimizationPolicy":2},{"__type__":"cc.Node","_name":"effect","_children":[{"__id__":2},{"__id__":3},{"__id__":4}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"04+pIPL6NEa7xc0wUF1SzI"},"fileId":"44H7GTaJZE/pdTRLo/AMs+"},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,0,0,0,0,0,1,1,1,1]}},{"__type__":"cc.Node","_name":"frame_01","_parent":{"__id__":1},"_active":false,"_components":[{"__type__":"sp.Skeleton","node":{"__id__":2},"_materials":[{"__uuid__":"7a/QZLET9IDreTiBfRn2PD"}],"defaultSkin":"default","_preCacheMode":0,"premultipliedAlpha":false,"_N$skeletonData":{"__uuid__":"e7gvm1B9tF9omsViVYDTtD"}}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"04+pIPL6NEa7xc0wUF1SzI"},"fileId":"56bqBCQOREsbcOy8RRJCIB"},"_contentSize":{"__type__":"cc.Size","width":1060,"height":1560},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,0,0,0,0,0,1,1,1,1]}},{"__type__":"cc.Node","_name":"frame_02","_parent":{"__id__":1},"_active":false,"_components":[{"__type__":"sp.Skeleton","node":{"__id__":3},"_materials":[{"__uuid__":"7a/QZLET9IDreTiBfRn2PD"}],"defaultSkin":"default","_preCacheMode":0,"premultipliedAlpha":false,"_N$skeletonData":{"__uuid__":"37sqfXsphFNr7bkWo4NkR4"}}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"04+pIPL6NEa7xc0wUF1SzI"},"fileId":"206FTmArpGiL32xQc7iXIr"},"_contentSize":{"__type__":"cc.Size","width":1060,"height":1560},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,0,0,0,0,0,1,1,1,1]}},{"__type__":"cc.Node","_name":"lankuang","_parent":{"__id__":1},"_active":false,"_components":[{"__type__":"sp.Skeleton","node":{"__id__":4},"_materials":[{"__uuid__":"7a/QZLET9IDreTiBfRn2PD"}],"defaultSkin":"default","_preCacheMode":0,"premultipliedAlpha":false,"_N$skeletonData":{"__uuid__":"19Cq7Rb7hOF6rq4VCmiuGW"}}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"04+pIPL6NEa7xc0wUF1SzI"},"fileId":"04zSlzNv5LEK3FjH0R8K4l"},"_contentSize":{"__type__":"cc.Size","width":165.78,"height":112.05},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,0,0,0,0,0,1,1,1,1]}}]
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "effect",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 2
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "effect",
+    "_children": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "04+pIPL6NEa7xc0wUF1SzI"
+      },
+      "fileId": "44H7GTaJZE/pdTRLo/AMs+"
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "frame_01",
+    "_parent": {
+      "__id__": 1
+    },
+    "_active": false,
+    "_components": [
+      {
+        "__type__": "sp.Skeleton",
+        "node": {
+          "__id__": 2
+        },
+        "_materials": [
+          {
+            "__uuid__": "7a/QZLET9IDreTiBfRn2PD"
+          }
+        ],
+        "defaultSkin": "default",
+        "_preCacheMode": 0,
+        "premultipliedAlpha": false,
+        "_N$skeletonData": {
+          "__uuid__": "e7gvm1B9tF9omsViVYDTtD"
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "04+pIPL6NEa7xc0wUF1SzI"
+      },
+      "fileId": "56bqBCQOREsbcOy8RRJCIB"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1060,
+      "height": 1560
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "frame_02",
+    "_parent": {
+      "__id__": 1
+    },
+    "_active": false,
+    "_components": [
+      {
+        "__type__": "sp.Skeleton",
+        "node": {
+          "__id__": 3
+        },
+        "_materials": [
+          {
+            "__uuid__": "7a/QZLET9IDreTiBfRn2PD"
+          }
+        ],
+        "defaultSkin": "default",
+        "_preCacheMode": 0,
+        "premultipliedAlpha": false,
+        "_N$skeletonData": {
+          "__uuid__": "37sqfXsphFNr7bkWo4NkR4"
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "04+pIPL6NEa7xc0wUF1SzI"
+      },
+      "fileId": "206FTmArpGiL32xQc7iXIr"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1060,
+      "height": 1560
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "lankuang",
+    "_parent": {
+      "__id__": 1
+    },
+    "_active": false,
+    "_components": [
+      {
+        "__type__": "sp.Skeleton",
+        "node": {
+          "__id__": 4
+        },
+        "_materials": [
+          {
+            "__uuid__": "7a/QZLET9IDreTiBfRn2PD"
+          }
+        ],
+        "defaultSkin": "default",
+        "_preCacheMode": 0,
+        "premultipliedAlpha": false,
+        "_N$skeletonData": {
+          "__uuid__": "19Cq7Rb7hOF6rq4VCmiuGW"
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "04+pIPL6NEa7xc0wUF1SzI"
+      },
+      "fileId": "04zSlzNv5LEK3FjH0R8K4l"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 165.78,
+      "height": 112.05
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  }
+]

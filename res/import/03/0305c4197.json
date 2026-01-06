@@ -1,1 +1,221 @@
-[{"__type__":"cc.BitmapFont","_name":"pop_win_num","spriteFrame":{"__uuid__":"90og+AmeRG4aetvrx1WF40"},"fontSize":32,"_fntConfig":{"commonHeight":32,"fontSize":32,"atlasName":"pop_win_num.png","fontDefDictionary":{"44":{"rect":{"x":393,"y":95,"width":37,"height":94},"xOffset":0,"yOffset":0,"xAdvance":37},"46":{"rect":{"x":431,"y":95,"width":34,"height":94},"xOffset":0,"yOffset":0,"xAdvance":34},"48":{"rect":{"x":303,"y":0,"width":64,"height":94},"xOffset":0,"yOffset":0,"xAdvance":64},"49":{"rect":{"x":348,"y":95,"width":44,"height":94},"xOffset":0,"yOffset":0,"xAdvance":44},"50":{"rect":{"x":180,"y":95,"width":55,"height":94},"xOffset":0,"yOffset":0,"xAdvance":55},"51":{"rect":{"x":236,"y":95,"width":55,"height":94},"xOffset":0,"yOffset":0,"xAdvance":55},"52":{"rect":{"x":368,"y":0,"width":63,"height":94},"xOffset":0,"yOffset":0,"xAdvance":63},"53":{"rect":{"x":123,"y":95,"width":56,"height":94},"xOffset":0,"yOffset":0,"xAdvance":56},"54":{"rect":{"x":432,"y":0,"width":62,"height":94},"xOffset":0,"yOffset":0,"xAdvance":62},"55":{"rect":{"x":292,"y":95,"width":55,"height":94},"xOffset":0,"yOffset":0,"xAdvance":55},"56":{"rect":{"x":62,"y":95,"width":60,"height":94},"xOffset":0,"yOffset":0,"xAdvance":60},"57":{"rect":{"x":0,"y":95,"width":61,"height":94},"xOffset":0,"yOffset":0,"xAdvance":61},"66":{"rect":{"x":236,"y":0,"width":66,"height":94},"xOffset":0,"yOffset":0,"xAdvance":66},"75":{"rect":{"x":165,"y":0,"width":70,"height":94},"xOffset":0,"yOffset":0,"xAdvance":70},"77":{"rect":{"x":0,"y":0,"width":92,"height":94},"xOffset":0,"yOffset":0,"xAdvance":92},"84":{"rect":{"x":93,"y":0,"width":71,"height":94},"xOffset":0,"yOffset":0,"xAdvance":71}},"kerningDict":{}}},{"__type__":"cc.SpriteFrame","content":{"name":"pop_win_num","texture":"fe+e2DH1JPQoXhHUQf87ox","rect":[0,0,494,189],"offset":[-9,33.5],"originalSize":[512,256],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.BitmapFont",
+    "_name": "pop_win_num",
+    "spriteFrame": {
+      "__uuid__": "90og+AmeRG4aetvrx1WF40"
+    },
+    "fontSize": 32,
+    "_fntConfig": {
+      "commonHeight": 32,
+      "fontSize": 32,
+      "atlasName": "pop_win_num.png",
+      "fontDefDictionary": {
+        "44": {
+          "rect": {
+            "x": 393,
+            "y": 95,
+            "width": 37,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 37
+        },
+        "46": {
+          "rect": {
+            "x": 431,
+            "y": 95,
+            "width": 34,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 34
+        },
+        "48": {
+          "rect": {
+            "x": 303,
+            "y": 0,
+            "width": 64,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 64
+        },
+        "49": {
+          "rect": {
+            "x": 348,
+            "y": 95,
+            "width": 44,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 44
+        },
+        "50": {
+          "rect": {
+            "x": 180,
+            "y": 95,
+            "width": 55,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 55
+        },
+        "51": {
+          "rect": {
+            "x": 236,
+            "y": 95,
+            "width": 55,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 55
+        },
+        "52": {
+          "rect": {
+            "x": 368,
+            "y": 0,
+            "width": 63,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 63
+        },
+        "53": {
+          "rect": {
+            "x": 123,
+            "y": 95,
+            "width": 56,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 56
+        },
+        "54": {
+          "rect": {
+            "x": 432,
+            "y": 0,
+            "width": 62,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 62
+        },
+        "55": {
+          "rect": {
+            "x": 292,
+            "y": 95,
+            "width": 55,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 55
+        },
+        "56": {
+          "rect": {
+            "x": 62,
+            "y": 95,
+            "width": 60,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 60
+        },
+        "57": {
+          "rect": {
+            "x": 0,
+            "y": 95,
+            "width": 61,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 61
+        },
+        "66": {
+          "rect": {
+            "x": 236,
+            "y": 0,
+            "width": 66,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 66
+        },
+        "75": {
+          "rect": {
+            "x": 165,
+            "y": 0,
+            "width": 70,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 70
+        },
+        "77": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 92,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 92
+        },
+        "84": {
+          "rect": {
+            "x": 93,
+            "y": 0,
+            "width": 71,
+            "height": 94
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 71
+        }
+      },
+      "kerningDict": {}
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "pop_win_num",
+      "texture": "fe+e2DH1JPQoXhHUQf87ox",
+      "rect": [
+        0,
+        0,
+        494,
+        189
+      ],
+      "offset": [
+        -9,
+        33.5
+      ],
+      "originalSize": [
+        512,
+        256
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

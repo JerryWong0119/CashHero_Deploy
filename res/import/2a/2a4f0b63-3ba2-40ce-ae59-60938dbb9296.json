@@ -1,1 +1,2562 @@
-{"__type__":"sp.SkeletonData","_name":"DT_diban1","_skeletonJson":{"skeleton":{"hash":"+8k/iL4YspCxGv64Lw6ZCyOWdbQ","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"diban","parent":"root","x":-155.13},{"name":"diban1","parent":"root","x":-147.02,"y":7.05,"scaleX":4,"scaleY":4},{"name":"diban2","parent":"root","x":154.58,"scaleX":-1},{"name":"diban3","parent":"root","x":146.01,"y":7.05,"scaleX":-4,"scaleY":4},{"name":"sui","parent":"root","x":-317.96,"y":33.37},{"name":"sui2","parent":"sui","length":13.94,"rotation":-86.19,"x":-2.17,"y":164.44},{"name":"sui3","parent":"sui2","length":29.66,"rotation":-3.81,"x":13.94},{"name":"sui4","parent":"sui3","length":24.1,"x":29.66},{"name":"sui5","parent":"sui4","length":20.39,"x":24.1},{"name":"sui6","parent":"sui5","length":47.16,"rotation":-0.8,"x":93.36,"y":0.71},{"name":"sui7","parent":"sui6","length":29.5,"rotation":-1.75,"x":47.16},{"name":"sui8","parent":"sui7","length":35.42,"rotation":-0.64,"x":30.81,"y":0.06},{"name":"sui9","parent":"sui8","length":22.92,"rotation":3.18,"x":36.7,"y":0.73},{"name":"sui10","parent":"sui9","length":17.68,"x":22.92},{"name":"sui11","parent":"root","x":319.36,"y":33.37,"scaleX":-1},{"name":"sui12","parent":"sui11","length":13.94,"rotation":-86.19,"x":-2.17,"y":164.44},{"name":"sui13","parent":"sui12","length":29.66,"rotation":-3.81,"x":13.94},{"name":"sui14","parent":"sui13","length":24.1,"x":29.66},{"name":"sui15","parent":"sui14","length":20.39,"x":24.1},{"name":"sui16","parent":"sui15","length":47.16,"rotation":-0.8,"x":93.36,"y":0.71},{"name":"sui17","parent":"sui16","length":29.5,"rotation":-1.75,"x":47.16},{"name":"sui18","parent":"sui17","length":35.42,"rotation":-0.64,"x":30.81,"y":0.06},{"name":"sui19","parent":"sui18","length":22.92,"rotation":3.18,"x":36.7,"y":0.73},{"name":"sui20","parent":"sui19","length":17.68,"x":22.92},{"name":"wuding","parent":"root","x":-173.79,"y":225.7},{"name":"wuding2","parent":"root","x":172.91,"y":225.7,"scaleX":-1},{"name":"wudingsg","parent":"root","x":-179.9,"y":233.94,"scaleX":4,"scaleY":4},{"name":"wudingsg2","parent":"root","x":180.21,"y":233.94,"scaleX":-4,"scaleY":4}],"slots":[{"name":"beiban","bone":"diban"},{"name":"beiban2","bone":"diban2"},{"name":"diban1","bone":"diban1","color":"fff4a7ff","blend":"additive"},{"name":"diban2","bone":"diban3","color":"fff4a7ff","blend":"additive"},{"name":"wuding","bone":"wuding"},{"name":"wuding2","bone":"wuding2"},{"name":"wudingsg","bone":"wudingsg","blend":"additive"},{"name":"wudingsg2","bone":"wudingsg2","blend":"additive"},{"name":"diaozhui","bone":"sui"},{"name":"diaozhui2","bone":"sui11"}],"skins":{"default":{"beiban":{"beiban":{"width":311,"height":431}},"beiban2":{"beiban":{"width":311,"height":431}},"diaozhui":{"diaozhui":{"type":"mesh","uvs":[1,0.03464,1,0.1155,1,0.18626,1,0.25499,1,0.4895,1,0.6209,1,0.71794,1,0.82711,1,0.91202,1,1,0,1,0,0.91202,0,0.82509,0,0.72198,0,0.62495,0,0.49556,0,0.25702,0,0.19232,0,0.1155,0,0.03262,0,0,1,0],"triangles":[10,11,8,10,8,9,11,7,8,13,14,6,7,12,13,7,13,6,11,12,7,15,16,4,15,4,5,14,15,5,14,5,6,17,2,3,16,17,3,16,3,4,18,1,2,17,18,2,19,21,0,18,19,0,1,18,0,19,20,21],"vertices":[3,6,15.77,31.19,0.39297,7,-0.24,31.24,0.57833,8,-29.91,31.24,0.0287,4,6,41.91,29.45,0.02787,7,25.96,31.24,0.53896,8,-3.71,31.24,0.40836,9,-27.81,31.24,0.02481,4,7,48.88,31.24,0.08731,8,19.22,31.24,0.53093,9,-4.89,31.24,0.38176,10,-98.66,29.16,0,4,7,71.15,31.24,0.00022,8,41.49,31.24,0.1064,9,17.38,31.24,0.85969,10,-76.4,29.47,0.03368,3,9,93.36,31.24,0.06061,10,-0.42,30.53,0.93907,11,-48.5,29.06,0.00032,4,10,42.15,31.12,0.60185,11,-5.97,30.95,0.38504,12,-37.12,30.48,0.00825,13,-72.05,33.81,0.00485,4,10,73.58,31.56,0.02994,11,25.44,32.35,0.43616,12,-5.73,32.23,0.38898,13,-40.61,33.81,0.14493,4,11,60.78,33.92,0.00045,12,29.59,34.19,0.20233,13,-5.24,33.81,0.76115,14,-28.16,33.81,0.03607,2,13,22.27,33.81,0.56343,14,-0.65,33.81,0.43657,2,13,50.78,33.81,0.13774,14,27.85,33.81,0.86226,2,12,88.85,-22.61,0.02733,14,27.85,-26.19,0.97267,3,12,60.38,-24.19,0.31491,13,22.27,-26.19,0.20687,14,-0.66,-26.19,0.47822,2,12,32.26,-25.75,0.9939,14,-28.82,-26.19,0.0061,3,10,75.73,-28.42,0.00875,11,29.42,-27.54,0.29282,12,-1.09,-27.61,0.69843,3,10,44.29,-28.86,0.57079,11,-1.99,-28.93,0.34668,12,-32.48,-29.35,0.08253,2,9,95.33,-28.76,0.0457,10,2.37,-29.44,0.9543,3,8,42.14,-28.76,0.10168,9,18.04,-28.76,0.87085,10,-74.91,-30.51,0.02747,3,7,50.85,-28.76,0.04223,8,21.18,-28.76,0.56534,9,-2.92,-28.76,0.39242,4,6,37.92,-30.42,0.05098,7,25.96,-28.76,0.48768,8,-3.71,-28.76,0.4509,9,-27.81,-28.76,0.01044,3,6,11.13,-28.63,0.55941,7,-0.9,-28.76,0.41331,8,-30.56,-28.76,0.02728,3,6,0.58,-27.93,0.70076,7,-11.47,-28.76,0.29722,8,-41.13,-28.76,0.00202,3,6,4.57,31.94,0.51384,7,-11.47,31.24,0.48367,8,-41.13,31.24,0.00248],"hull":22,"edges":[18,20,40,42,38,40,0,42,38,0,36,38,0,2,36,2,34,36,2,4,34,4,32,34,4,6,32,6,30,32,6,8,30,8,28,30,8,10,28,10,26,28,10,12,26,12,24,26,12,14,24,14,20,22,22,24,14,16,16,18,22,16],"width":60,"height":324}},"diaozhui2":{"diaozhui":{"type":"mesh","uvs":[1,0.03464,1,0.1155,1,0.18626,1,0.25499,1,0.4895,1,0.6209,1,0.71794,1,0.82711,1,0.91202,1,1,0,1,0,0.91202,0,0.82509,0,0.72198,0,0.62495,0,0.49556,0,0.25702,0,0.19232,0,0.1155,0,0.03262,0,0,1,0],"triangles":[10,11,8,10,8,9,11,7,8,13,14,6,7,12,13,7,13,6,11,12,7,15,16,4,15,4,5,14,15,5,14,5,6,17,2,3,16,17,3,16,3,4,18,1,2,17,18,2,19,21,0,18,19,0,1,18,0,19,20,21],"vertices":[3,16,15.77,31.19,0.39297,17,-0.24,31.24,0.57833,18,-29.91,31.24,0.0287,4,16,41.91,29.45,0.02787,17,25.96,31.24,0.53896,18,-3.71,31.24,0.40836,19,-27.81,31.24,0.02481,4,17,48.88,31.24,0.08731,18,19.22,31.24,0.53093,19,-4.89,31.24,0.38176,20,-98.66,29.16,0,4,17,71.15,31.24,0.00022,18,41.49,31.24,0.1064,19,17.38,31.24,0.85969,20,-76.4,29.47,0.03368,3,19,93.36,31.24,0.06061,20,-0.42,30.53,0.93907,21,-48.5,29.06,0.00032,4,20,42.15,31.12,0.60185,21,-5.97,30.95,0.38504,22,-37.12,30.48,0.00825,23,-72.05,33.81,0.00485,4,20,73.58,31.56,0.02994,21,25.44,32.35,0.43616,22,-5.73,32.23,0.38898,23,-40.61,33.81,0.14493,4,21,60.78,33.92,0.00045,22,29.59,34.19,0.20233,23,-5.24,33.81,0.76115,24,-28.16,33.81,0.03607,2,23,22.27,33.81,0.56343,24,-0.65,33.81,0.43657,2,23,50.78,33.81,0.13774,24,27.85,33.81,0.86226,2,22,88.85,-22.61,0.02733,24,27.85,-26.19,0.97267,3,22,60.38,-24.19,0.31491,23,22.27,-26.19,0.20687,24,-0.66,-26.19,0.47822,2,22,32.26,-25.75,0.9939,24,-28.82,-26.19,0.0061,3,20,75.73,-28.42,0.00875,21,29.42,-27.54,0.29282,22,-1.09,-27.61,0.69843,3,20,44.29,-28.86,0.57079,21,-1.99,-28.93,0.34668,22,-32.48,-29.35,0.08253,2,19,95.33,-28.76,0.0457,20,2.37,-29.44,0.9543,3,18,42.14,-28.76,0.10168,19,18.04,-28.76,0.87085,20,-74.91,-30.51,0.02747,3,17,50.85,-28.76,0.04223,18,21.18,-28.76,0.56534,19,-2.92,-28.76,0.39242,4,16,37.92,-30.42,0.05098,17,25.96,-28.76,0.48768,18,-3.71,-28.76,0.4509,19,-27.81,-28.76,0.01044,3,16,11.13,-28.63,0.55941,17,-0.9,-28.76,0.41331,18,-30.56,-28.76,0.02728,3,16,0.58,-27.93,0.70076,17,-11.47,-28.76,0.29722,18,-41.13,-28.76,0.00202,3,16,4.57,31.94,0.51384,17,-11.47,31.24,0.48367,18,-41.13,31.24,0.00248],"hull":22,"edges":[18,20,40,42,38,40,0,42,38,0,36,38,0,2,36,2,34,36,2,4,34,4,32,34,4,6,32,6,30,32,6,8,30,8,28,30,8,10,28,10,26,28,10,12,26,12,24,26,12,14,24,14,20,22,22,24,14,16,16,18,22,16],"width":60,"height":324}},"diban1":{"diban1/diban1_00000":{"width":84,"height":112},"diban1/diban1_00001":{"width":84,"height":112},"diban1/diban1_00002":{"width":84,"height":112},"diban1/diban1_00003":{"width":84,"height":112},"diban1/diban1_00004":{"width":84,"height":112},"diban1/diban1_00005":{"width":84,"height":112},"diban1/diban1_00006":{"width":84,"height":112},"diban1/diban1_00007":{"width":84,"height":112},"diban1/diban1_00008":{"width":84,"height":112},"diban1/diban1_00009":{"width":84,"height":112},"diban1/diban1_00010":{"width":84,"height":112},"diban1/diban1_00011":{"width":84,"height":112},"diban1/diban1_00012":{"width":84,"height":112},"diban1/diban1_00013":{"width":84,"height":112},"diban1/diban1_00014":{"width":84,"height":112}},"diban2":{"diban1/diban1_00000":{"width":84,"height":112},"diban1/diban1_00001":{"width":84,"height":112},"diban1/diban1_00002":{"width":84,"height":112},"diban1/diban1_00003":{"width":84,"height":112},"diban1/diban1_00004":{"width":84,"height":112},"diban1/diban1_00005":{"width":84,"height":112},"diban1/diban1_00006":{"width":84,"height":112},"diban1/diban1_00007":{"width":84,"height":112},"diban1/diban1_00008":{"width":84,"height":112},"diban1/diban1_00009":{"width":84,"height":112},"diban1/diban1_00010":{"width":84,"height":112},"diban1/diban1_00011":{"width":84,"height":112},"diban1/diban1_00012":{"width":84,"height":112},"diban1/diban1_00013":{"width":84,"height":112},"diban1/diban1_00014":{"width":84,"height":112}},"wuding":{"wuding":{"width":347,"height":131}},"wuding2":{"wuding":{"width":347,"height":131}},"wudingsg":{"wuding1/wuding_00000":{"width":93,"height":40},"wuding1/wuding_00001":{"width":93,"height":40},"wuding1/wuding_00002":{"width":93,"height":40},"wuding1/wuding_00003":{"width":93,"height":40},"wuding1/wuding_00004":{"width":93,"height":40},"wuding1/wuding_00005":{"width":93,"height":40},"wuding1/wuding_00006":{"width":93,"height":40},"wuding1/wuding_00007":{"width":93,"height":40},"wuding1/wuding_00008":{"width":93,"height":40},"wuding1/wuding_00009":{"width":93,"height":40},"wuding1/wuding_00010":{"width":93,"height":40},"wuding1/wuding_00011":{"width":93,"height":40},"wuding1/wuding_00012":{"width":93,"height":40},"wuding1/wuding_00013":{"width":93,"height":40},"wuding1/wuding_00014":{"width":93,"height":40},"wuding1/wuding_00015":{"width":93,"height":40},"wuding1/wuding_00016":{"width":93,"height":40},"wuding1/wuding_00017":{"width":93,"height":40},"wuding1/wuding_00018":{"width":93,"height":40},"wuding1/wuding_00019":{"width":93,"height":40}},"wudingsg2":{"wuding1/wuding_00000":{"width":93,"height":40},"wuding1/wuding_00001":{"width":93,"height":40},"wuding1/wuding_00002":{"width":93,"height":40},"wuding1/wuding_00003":{"width":93,"height":40},"wuding1/wuding_00004":{"width":93,"height":40},"wuding1/wuding_00005":{"width":93,"height":40},"wuding1/wuding_00006":{"width":93,"height":40},"wuding1/wuding_00007":{"width":93,"height":40},"wuding1/wuding_00008":{"width":93,"height":40},"wuding1/wuding_00009":{"width":93,"height":40},"wuding1/wuding_00010":{"width":93,"height":40},"wuding1/wuding_00011":{"width":93,"height":40},"wuding1/wuding_00012":{"width":93,"height":40},"wuding1/wuding_00013":{"width":93,"height":40},"wuding1/wuding_00014":{"width":93,"height":40},"wuding1/wuding_00015":{"width":93,"height":40},"wuding1/wuding_00016":{"width":93,"height":40},"wuding1/wuding_00017":{"width":93,"height":40},"wuding1/wuding_00018":{"width":93,"height":40},"wuding1/wuding_00019":{"width":93,"height":40}}}},"animations":{"diban":{"slots":{"beiban":{"attachment":[{"time":0,"name":"beiban"}]},"beiban2":{"attachment":[{"time":0,"name":"beiban"}]},"diaozhui":{"attachment":[{"time":0,"name":"diaozhui"}]},"diaozhui2":{"attachment":[{"time":0,"name":"diaozhui"}]},"diban1":{"color":[{"time":0,"color":"fff3a7ff"}],"attachment":[{"time":0,"name":null},{"time":0.2,"name":"diban1/diban1_00000"},{"time":0.2333,"name":"diban1/diban1_00001"},{"time":0.3,"name":"diban1/diban1_00002"},{"time":0.3333,"name":"diban1/diban1_00003"},{"time":0.4,"name":"diban1/diban1_00004"},{"time":0.4333,"name":"diban1/diban1_00005"},{"time":0.5,"name":"diban1/diban1_00006"},{"time":0.5333,"name":"diban1/diban1_00007"},{"time":0.6,"name":"diban1/diban1_00008"},{"time":0.6333,"name":"diban1/diban1_00009"},{"time":0.7,"name":"diban1/diban1_00010"},{"time":0.7333,"name":"diban1/diban1_00011"},{"time":0.8,"name":"diban1/diban1_00012"},{"time":0.8333,"name":"diban1/diban1_00013"},{"time":0.9,"name":"diban1/diban1_00014"},{"time":0.9333,"name":null}]},"diban2":{"color":[{"time":0,"color":"fff3a7ff"}],"attachment":[{"time":0,"name":null},{"time":0.2,"name":"diban1/diban1_00000"},{"time":0.2333,"name":"diban1/diban1_00001"},{"time":0.3,"name":"diban1/diban1_00002"},{"time":0.3333,"name":"diban1/diban1_00003"},{"time":0.4,"name":"diban1/diban1_00004"},{"time":0.4333,"name":"diban1/diban1_00005"},{"time":0.5,"name":"diban1/diban1_00006"},{"time":0.5333,"name":"diban1/diban1_00007"},{"time":0.6,"name":"diban1/diban1_00008"},{"time":0.6333,"name":"diban1/diban1_00009"},{"time":0.7,"name":"diban1/diban1_00010"},{"time":0.7333,"name":"diban1/diban1_00011"},{"time":0.8,"name":"diban1/diban1_00012"},{"time":0.8333,"name":"diban1/diban1_00013"},{"time":0.9,"name":"diban1/diban1_00014"},{"time":0.9333,"name":null}]},"wuding":{"attachment":[{"time":0,"name":"wuding"}]},"wuding2":{"attachment":[{"time":0,"name":"wuding"}]},"wudingsg":{"color":[{"time":0,"color":"fff3a7ff"}],"attachment":[{"time":0,"name":null},{"time":0.6667,"name":"wuding1/wuding_00000"},{"time":0.7,"name":"wuding1/wuding_00001"},{"time":0.7667,"name":"wuding1/wuding_00002"},{"time":0.8,"name":"wuding1/wuding_00003"},{"time":0.8667,"name":"wuding1/wuding_00004"},{"time":0.9,"name":"wuding1/wuding_00005"},{"time":0.9667,"name":"wuding1/wuding_00006"},{"time":1,"name":"wuding1/wuding_00007"},{"time":1.0667,"name":"wuding1/wuding_00008"},{"time":1.1,"name":"wuding1/wuding_00009"},{"time":1.1667,"name":"wuding1/wuding_00010"},{"time":1.2,"name":"wuding1/wuding_00011"},{"time":1.2667,"name":"wuding1/wuding_00012"},{"time":1.3,"name":"wuding1/wuding_00013"},{"time":1.3667,"name":"wuding1/wuding_00014"},{"time":1.4,"name":"wuding1/wuding_00015"},{"time":1.4667,"name":"wuding1/wuding_00016"},{"time":1.5,"name":"wuding1/wuding_00017"},{"time":1.5667,"name":"wuding1/wuding_00018"},{"time":1.6,"name":"wuding1/wuding_00019"},{"time":1.6667,"name":null},{"time":2,"name":null}]},"wudingsg2":{"color":[{"time":0,"color":"fff3a7ff"}],"attachment":[{"time":0,"name":null},{"time":0.6667,"name":"wuding1/wuding_00000"},{"time":0.7,"name":"wuding1/wuding_00001"},{"time":0.7667,"name":"wuding1/wuding_00002"},{"time":0.8,"name":"wuding1/wuding_00003"},{"time":0.8667,"name":"wuding1/wuding_00004"},{"time":0.9,"name":"wuding1/wuding_00005"},{"time":0.9667,"name":"wuding1/wuding_00006"},{"time":1,"name":"wuding1/wuding_00007"},{"time":1.0667,"name":"wuding1/wuding_00008"},{"time":1.1,"name":"wuding1/wuding_00009"},{"time":1.1667,"name":"wuding1/wuding_00010"},{"time":1.2,"name":"wuding1/wuding_00011"},{"time":1.2667,"name":"wuding1/wuding_00012"},{"time":1.3,"name":"wuding1/wuding_00013"},{"time":1.3667,"name":"wuding1/wuding_00014"},{"time":1.4,"name":"wuding1/wuding_00015"},{"time":1.4667,"name":"wuding1/wuding_00016"},{"time":1.5,"name":"wuding1/wuding_00017"},{"time":1.5667,"name":"wuding1/wuding_00018"},{"time":1.6,"name":"wuding1/wuding_00019"},{"time":1.6667,"name":null},{"time":2,"name":null}]}},"bones":{"sui3":{"rotate":[{"time":0,"angle":-2.48,"curve":[0.371,0.62,0.71,1]},{"time":0.1667,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":1.1667,"angle":3.21,"curve":[0.243,0,0.689,0.75]},{"time":2,"angle":-2.48}]},"sui10":{"rotate":[{"time":0,"angle":1.43,"curve":[0.382,0.57,0.735,1]},{"time":0.3333,"angle":3.21,"curve":[0.25,0,0.75,1]},{"time":1.3333,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":2,"angle":1.43}]},"sui9":{"rotate":[{"time":0,"angle":2.61,"curve":[0.371,0.62,0.71,1]},{"time":0.1667,"angle":3.21,"curve":[0.25,0,0.75,1]},{"time":1.1667,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":2,"angle":2.61}]},"sui8":{"rotate":[{"time":0,"angle":3.21,"curve":[0.25,0,0.75,1]},{"time":1,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":2,"angle":3.21}]},"sui7":{"rotate":[{"time":0,"angle":2.61,"curve":[0.311,0.25,0.757,1]},{"time":0.8333,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":1.8333,"angle":3.21,"curve":[0.29,0,0.629,0.38]},{"time":2,"angle":2.61}]},"sui6":{"rotate":[{"time":0,"angle":1.43,"curve":[0.351,0.4,0.757,1]},{"time":0.6667,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":1.6667,"angle":3.21,"curve":[0.265,0,0.618,0.43]},{"time":2,"angle":1.43}]},"sui5":{"rotate":[{"time":0,"angle":0.06,"curve":[0.375,0.5,0.75,1]},{"time":0.5,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":1.5,"angle":3.21,"curve":[0.25,0,0.625,0.5]},{"time":2,"angle":0.06}]},"sui4":{"rotate":[{"time":0,"angle":-1.04,"curve":[0.382,0.56,0.739,1]},{"time":0.3667,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":1.3667,"angle":3.21,"curve":[0.244,0,0.643,0.58]},{"time":2,"angle":-1.04}]},"sui20":{"rotate":[{"time":0,"angle":1.43,"curve":[0.382,0.57,0.735,1]},{"time":0.3333,"angle":3.21,"curve":[0.25,0,0.75,1]},{"time":1.3333,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":2,"angle":1.43}]},"sui19":{"rotate":[{"time":0,"angle":2.61,"curve":[0.371,0.62,0.71,1]},{"time":0.1667,"angle":3.21,"curve":[0.25,0,0.75,1]},{"time":1.1667,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":2,"angle":2.61}]},"sui18":{"rotate":[{"time":0,"angle":3.21,"curve":[0.25,0,0.75,1]},{"time":1,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":2,"angle":3.21}]},"sui17":{"rotate":[{"time":0,"angle":2.61,"curve":[0.311,0.25,0.757,1]},{"time":0.8333,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":1.8333,"angle":3.21,"curve":[0.29,0,0.629,0.38]},{"time":2,"angle":2.61}]},"sui16":{"rotate":[{"time":0,"angle":1.43,"curve":[0.351,0.4,0.757,1]},{"time":0.6667,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":1.6667,"angle":3.21,"curve":[0.265,0,0.618,0.43]},{"time":2,"angle":1.43}]},"sui15":{"rotate":[{"time":0,"angle":0.06,"curve":[0.375,0.5,0.75,1]},{"time":0.5,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":1.5,"angle":3.21,"curve":[0.25,0,0.625,0.5]},{"time":2,"angle":0.06}]},"sui14":{"rotate":[{"time":0,"angle":-1.04,"curve":[0.382,0.56,0.739,1]},{"time":0.3667,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":1.3667,"angle":3.21,"curve":[0.244,0,0.643,0.58]},{"time":2,"angle":-1.04}]},"sui13":{"rotate":[{"time":0,"angle":-2.48,"curve":[0.371,0.62,0.71,1]},{"time":0.1667,"angle":-3.09,"curve":[0.25,0,0.75,1]},{"time":1.1667,"angle":3.21,"curve":[0.243,0,0.689,0.75]},{"time":2,"angle":-2.48}]},"diban2":{"translate":[{"time":0,"x":0,"y":0}]},"diban3":{"translate":[{"time":0,"x":2,"y":0}]}}}}},"_atlasText":"\nDT_diban1.png\nsize: 857,521\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbeiban\n  rotate: false\n  xy: 2, 88\n  size: 311, 431\n  orig: 311, 431\n  offset: 0, 0\n  index: -1\ndiaozhui\n  rotate: true\n  xy: 315, 326\n  size: 60, 324\n  orig: 60, 324\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00000\n  rotate: true\n  xy: 2, 2\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00001\n  rotate: false\n  xy: 664, 407\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00002\n  rotate: false\n  xy: 315, 212\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00003\n  rotate: true\n  xy: 116, 2\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00004\n  rotate: false\n  xy: 750, 407\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00005\n  rotate: false\n  xy: 315, 98\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00006\n  rotate: false\n  xy: 401, 212\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00007\n  rotate: false\n  xy: 401, 98\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00008\n  rotate: false\n  xy: 487, 212\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00009\n  rotate: false\n  xy: 487, 98\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00010\n  rotate: false\n  xy: 573, 212\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00011\n  rotate: false\n  xy: 573, 98\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00012\n  rotate: true\n  xy: 230, 2\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00013\n  rotate: true\n  xy: 344, 12\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00014\n  rotate: true\n  xy: 458, 12\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\nwuding\n  rotate: false\n  xy: 315, 388\n  size: 347, 131\n  orig: 347, 131\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00000\n  rotate: false\n  xy: 572, 56\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00001\n  rotate: false\n  xy: 572, 14\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00002\n  rotate: false\n  xy: 664, 365\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00003\n  rotate: false\n  xy: 759, 365\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00004\n  rotate: false\n  xy: 667, 323\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00005\n  rotate: false\n  xy: 762, 323\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00006\n  rotate: false\n  xy: 659, 281\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00007\n  rotate: false\n  xy: 754, 281\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00008\n  rotate: false\n  xy: 659, 239\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00009\n  rotate: false\n  xy: 754, 239\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00010\n  rotate: false\n  xy: 659, 197\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00011\n  rotate: false\n  xy: 754, 197\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00012\n  rotate: false\n  xy: 659, 155\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00013\n  rotate: false\n  xy: 754, 155\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00014\n  rotate: false\n  xy: 659, 113\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00015\n  rotate: false\n  xy: 754, 113\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00016\n  rotate: false\n  xy: 667, 71\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00017\n  rotate: false\n  xy: 667, 29\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00018\n  rotate: false\n  xy: 762, 71\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00019\n  rotate: false\n  xy: 762, 29\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"1fdrrZ6P5CWbYChSze8yEq"}],"textureNames":["DT_diban1.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "DT_diban1",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "+8k/iL4YspCxGv64Lw6ZCyOWdbQ",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "diban",
+        "parent": "root",
+        "x": -155.13
+      },
+      {
+        "name": "diban1",
+        "parent": "root",
+        "x": -147.02,
+        "y": 7.05,
+        "scaleX": 4,
+        "scaleY": 4
+      },
+      {
+        "name": "diban2",
+        "parent": "root",
+        "x": 154.58,
+        "scaleX": -1
+      },
+      {
+        "name": "diban3",
+        "parent": "root",
+        "x": 146.01,
+        "y": 7.05,
+        "scaleX": -4,
+        "scaleY": 4
+      },
+      {
+        "name": "sui",
+        "parent": "root",
+        "x": -317.96,
+        "y": 33.37
+      },
+      {
+        "name": "sui2",
+        "parent": "sui",
+        "length": 13.94,
+        "rotation": -86.19,
+        "x": -2.17,
+        "y": 164.44
+      },
+      {
+        "name": "sui3",
+        "parent": "sui2",
+        "length": 29.66,
+        "rotation": -3.81,
+        "x": 13.94
+      },
+      {
+        "name": "sui4",
+        "parent": "sui3",
+        "length": 24.1,
+        "x": 29.66
+      },
+      {
+        "name": "sui5",
+        "parent": "sui4",
+        "length": 20.39,
+        "x": 24.1
+      },
+      {
+        "name": "sui6",
+        "parent": "sui5",
+        "length": 47.16,
+        "rotation": -0.8,
+        "x": 93.36,
+        "y": 0.71
+      },
+      {
+        "name": "sui7",
+        "parent": "sui6",
+        "length": 29.5,
+        "rotation": -1.75,
+        "x": 47.16
+      },
+      {
+        "name": "sui8",
+        "parent": "sui7",
+        "length": 35.42,
+        "rotation": -0.64,
+        "x": 30.81,
+        "y": 0.06
+      },
+      {
+        "name": "sui9",
+        "parent": "sui8",
+        "length": 22.92,
+        "rotation": 3.18,
+        "x": 36.7,
+        "y": 0.73
+      },
+      {
+        "name": "sui10",
+        "parent": "sui9",
+        "length": 17.68,
+        "x": 22.92
+      },
+      {
+        "name": "sui11",
+        "parent": "root",
+        "x": 319.36,
+        "y": 33.37,
+        "scaleX": -1
+      },
+      {
+        "name": "sui12",
+        "parent": "sui11",
+        "length": 13.94,
+        "rotation": -86.19,
+        "x": -2.17,
+        "y": 164.44
+      },
+      {
+        "name": "sui13",
+        "parent": "sui12",
+        "length": 29.66,
+        "rotation": -3.81,
+        "x": 13.94
+      },
+      {
+        "name": "sui14",
+        "parent": "sui13",
+        "length": 24.1,
+        "x": 29.66
+      },
+      {
+        "name": "sui15",
+        "parent": "sui14",
+        "length": 20.39,
+        "x": 24.1
+      },
+      {
+        "name": "sui16",
+        "parent": "sui15",
+        "length": 47.16,
+        "rotation": -0.8,
+        "x": 93.36,
+        "y": 0.71
+      },
+      {
+        "name": "sui17",
+        "parent": "sui16",
+        "length": 29.5,
+        "rotation": -1.75,
+        "x": 47.16
+      },
+      {
+        "name": "sui18",
+        "parent": "sui17",
+        "length": 35.42,
+        "rotation": -0.64,
+        "x": 30.81,
+        "y": 0.06
+      },
+      {
+        "name": "sui19",
+        "parent": "sui18",
+        "length": 22.92,
+        "rotation": 3.18,
+        "x": 36.7,
+        "y": 0.73
+      },
+      {
+        "name": "sui20",
+        "parent": "sui19",
+        "length": 17.68,
+        "x": 22.92
+      },
+      {
+        "name": "wuding",
+        "parent": "root",
+        "x": -173.79,
+        "y": 225.7
+      },
+      {
+        "name": "wuding2",
+        "parent": "root",
+        "x": 172.91,
+        "y": 225.7,
+        "scaleX": -1
+      },
+      {
+        "name": "wudingsg",
+        "parent": "root",
+        "x": -179.9,
+        "y": 233.94,
+        "scaleX": 4,
+        "scaleY": 4
+      },
+      {
+        "name": "wudingsg2",
+        "parent": "root",
+        "x": 180.21,
+        "y": 233.94,
+        "scaleX": -4,
+        "scaleY": 4
+      }
+    ],
+    "slots": [
+      {
+        "name": "beiban",
+        "bone": "diban"
+      },
+      {
+        "name": "beiban2",
+        "bone": "diban2"
+      },
+      {
+        "name": "diban1",
+        "bone": "diban1",
+        "color": "fff4a7ff",
+        "blend": "additive"
+      },
+      {
+        "name": "diban2",
+        "bone": "diban3",
+        "color": "fff4a7ff",
+        "blend": "additive"
+      },
+      {
+        "name": "wuding",
+        "bone": "wuding"
+      },
+      {
+        "name": "wuding2",
+        "bone": "wuding2"
+      },
+      {
+        "name": "wudingsg",
+        "bone": "wudingsg",
+        "blend": "additive"
+      },
+      {
+        "name": "wudingsg2",
+        "bone": "wudingsg2",
+        "blend": "additive"
+      },
+      {
+        "name": "diaozhui",
+        "bone": "sui"
+      },
+      {
+        "name": "diaozhui2",
+        "bone": "sui11"
+      }
+    ],
+    "skins": {
+      "default": {
+        "beiban": {
+          "beiban": {
+            "width": 311,
+            "height": 431
+          }
+        },
+        "beiban2": {
+          "beiban": {
+            "width": 311,
+            "height": 431
+          }
+        },
+        "diaozhui": {
+          "diaozhui": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              0.03464,
+              1,
+              0.1155,
+              1,
+              0.18626,
+              1,
+              0.25499,
+              1,
+              0.4895,
+              1,
+              0.6209,
+              1,
+              0.71794,
+              1,
+              0.82711,
+              1,
+              0.91202,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0.91202,
+              0,
+              0.82509,
+              0,
+              0.72198,
+              0,
+              0.62495,
+              0,
+              0.49556,
+              0,
+              0.25702,
+              0,
+              0.19232,
+              0,
+              0.1155,
+              0,
+              0.03262,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              10,
+              11,
+              8,
+              10,
+              8,
+              9,
+              11,
+              7,
+              8,
+              13,
+              14,
+              6,
+              7,
+              12,
+              13,
+              7,
+              13,
+              6,
+              11,
+              12,
+              7,
+              15,
+              16,
+              4,
+              15,
+              4,
+              5,
+              14,
+              15,
+              5,
+              14,
+              5,
+              6,
+              17,
+              2,
+              3,
+              16,
+              17,
+              3,
+              16,
+              3,
+              4,
+              18,
+              1,
+              2,
+              17,
+              18,
+              2,
+              19,
+              21,
+              0,
+              18,
+              19,
+              0,
+              1,
+              18,
+              0,
+              19,
+              20,
+              21
+            ],
+            "vertices": [
+              3,
+              6,
+              15.77,
+              31.19,
+              0.39297,
+              7,
+              -0.24,
+              31.24,
+              0.57833,
+              8,
+              -29.91,
+              31.24,
+              0.0287,
+              4,
+              6,
+              41.91,
+              29.45,
+              0.02787,
+              7,
+              25.96,
+              31.24,
+              0.53896,
+              8,
+              -3.71,
+              31.24,
+              0.40836,
+              9,
+              -27.81,
+              31.24,
+              0.02481,
+              4,
+              7,
+              48.88,
+              31.24,
+              0.08731,
+              8,
+              19.22,
+              31.24,
+              0.53093,
+              9,
+              -4.89,
+              31.24,
+              0.38176,
+              10,
+              -98.66,
+              29.16,
+              0,
+              4,
+              7,
+              71.15,
+              31.24,
+              0.00022,
+              8,
+              41.49,
+              31.24,
+              0.1064,
+              9,
+              17.38,
+              31.24,
+              0.85969,
+              10,
+              -76.4,
+              29.47,
+              0.03368,
+              3,
+              9,
+              93.36,
+              31.24,
+              0.06061,
+              10,
+              -0.42,
+              30.53,
+              0.93907,
+              11,
+              -48.5,
+              29.06,
+              0.00032,
+              4,
+              10,
+              42.15,
+              31.12,
+              0.60185,
+              11,
+              -5.97,
+              30.95,
+              0.38504,
+              12,
+              -37.12,
+              30.48,
+              0.00825,
+              13,
+              -72.05,
+              33.81,
+              0.00485,
+              4,
+              10,
+              73.58,
+              31.56,
+              0.02994,
+              11,
+              25.44,
+              32.35,
+              0.43616,
+              12,
+              -5.73,
+              32.23,
+              0.38898,
+              13,
+              -40.61,
+              33.81,
+              0.14493,
+              4,
+              11,
+              60.78,
+              33.92,
+              0.00045,
+              12,
+              29.59,
+              34.19,
+              0.20233,
+              13,
+              -5.24,
+              33.81,
+              0.76115,
+              14,
+              -28.16,
+              33.81,
+              0.03607,
+              2,
+              13,
+              22.27,
+              33.81,
+              0.56343,
+              14,
+              -0.65,
+              33.81,
+              0.43657,
+              2,
+              13,
+              50.78,
+              33.81,
+              0.13774,
+              14,
+              27.85,
+              33.81,
+              0.86226,
+              2,
+              12,
+              88.85,
+              -22.61,
+              0.02733,
+              14,
+              27.85,
+              -26.19,
+              0.97267,
+              3,
+              12,
+              60.38,
+              -24.19,
+              0.31491,
+              13,
+              22.27,
+              -26.19,
+              0.20687,
+              14,
+              -0.66,
+              -26.19,
+              0.47822,
+              2,
+              12,
+              32.26,
+              -25.75,
+              0.9939,
+              14,
+              -28.82,
+              -26.19,
+              0.0061,
+              3,
+              10,
+              75.73,
+              -28.42,
+              0.00875,
+              11,
+              29.42,
+              -27.54,
+              0.29282,
+              12,
+              -1.09,
+              -27.61,
+              0.69843,
+              3,
+              10,
+              44.29,
+              -28.86,
+              0.57079,
+              11,
+              -1.99,
+              -28.93,
+              0.34668,
+              12,
+              -32.48,
+              -29.35,
+              0.08253,
+              2,
+              9,
+              95.33,
+              -28.76,
+              0.0457,
+              10,
+              2.37,
+              -29.44,
+              0.9543,
+              3,
+              8,
+              42.14,
+              -28.76,
+              0.10168,
+              9,
+              18.04,
+              -28.76,
+              0.87085,
+              10,
+              -74.91,
+              -30.51,
+              0.02747,
+              3,
+              7,
+              50.85,
+              -28.76,
+              0.04223,
+              8,
+              21.18,
+              -28.76,
+              0.56534,
+              9,
+              -2.92,
+              -28.76,
+              0.39242,
+              4,
+              6,
+              37.92,
+              -30.42,
+              0.05098,
+              7,
+              25.96,
+              -28.76,
+              0.48768,
+              8,
+              -3.71,
+              -28.76,
+              0.4509,
+              9,
+              -27.81,
+              -28.76,
+              0.01044,
+              3,
+              6,
+              11.13,
+              -28.63,
+              0.55941,
+              7,
+              -0.9,
+              -28.76,
+              0.41331,
+              8,
+              -30.56,
+              -28.76,
+              0.02728,
+              3,
+              6,
+              0.58,
+              -27.93,
+              0.70076,
+              7,
+              -11.47,
+              -28.76,
+              0.29722,
+              8,
+              -41.13,
+              -28.76,
+              0.00202,
+              3,
+              6,
+              4.57,
+              31.94,
+              0.51384,
+              7,
+              -11.47,
+              31.24,
+              0.48367,
+              8,
+              -41.13,
+              31.24,
+              0.00248
+            ],
+            "hull": 22,
+            "edges": [
+              18,
+              20,
+              40,
+              42,
+              38,
+              40,
+              0,
+              42,
+              38,
+              0,
+              36,
+              38,
+              0,
+              2,
+              36,
+              2,
+              34,
+              36,
+              2,
+              4,
+              34,
+              4,
+              32,
+              34,
+              4,
+              6,
+              32,
+              6,
+              30,
+              32,
+              6,
+              8,
+              30,
+              8,
+              28,
+              30,
+              8,
+              10,
+              28,
+              10,
+              26,
+              28,
+              10,
+              12,
+              26,
+              12,
+              24,
+              26,
+              12,
+              14,
+              24,
+              14,
+              20,
+              22,
+              22,
+              24,
+              14,
+              16,
+              16,
+              18,
+              22,
+              16
+            ],
+            "width": 60,
+            "height": 324
+          }
+        },
+        "diaozhui2": {
+          "diaozhui": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              0.03464,
+              1,
+              0.1155,
+              1,
+              0.18626,
+              1,
+              0.25499,
+              1,
+              0.4895,
+              1,
+              0.6209,
+              1,
+              0.71794,
+              1,
+              0.82711,
+              1,
+              0.91202,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0.91202,
+              0,
+              0.82509,
+              0,
+              0.72198,
+              0,
+              0.62495,
+              0,
+              0.49556,
+              0,
+              0.25702,
+              0,
+              0.19232,
+              0,
+              0.1155,
+              0,
+              0.03262,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              10,
+              11,
+              8,
+              10,
+              8,
+              9,
+              11,
+              7,
+              8,
+              13,
+              14,
+              6,
+              7,
+              12,
+              13,
+              7,
+              13,
+              6,
+              11,
+              12,
+              7,
+              15,
+              16,
+              4,
+              15,
+              4,
+              5,
+              14,
+              15,
+              5,
+              14,
+              5,
+              6,
+              17,
+              2,
+              3,
+              16,
+              17,
+              3,
+              16,
+              3,
+              4,
+              18,
+              1,
+              2,
+              17,
+              18,
+              2,
+              19,
+              21,
+              0,
+              18,
+              19,
+              0,
+              1,
+              18,
+              0,
+              19,
+              20,
+              21
+            ],
+            "vertices": [
+              3,
+              16,
+              15.77,
+              31.19,
+              0.39297,
+              17,
+              -0.24,
+              31.24,
+              0.57833,
+              18,
+              -29.91,
+              31.24,
+              0.0287,
+              4,
+              16,
+              41.91,
+              29.45,
+              0.02787,
+              17,
+              25.96,
+              31.24,
+              0.53896,
+              18,
+              -3.71,
+              31.24,
+              0.40836,
+              19,
+              -27.81,
+              31.24,
+              0.02481,
+              4,
+              17,
+              48.88,
+              31.24,
+              0.08731,
+              18,
+              19.22,
+              31.24,
+              0.53093,
+              19,
+              -4.89,
+              31.24,
+              0.38176,
+              20,
+              -98.66,
+              29.16,
+              0,
+              4,
+              17,
+              71.15,
+              31.24,
+              0.00022,
+              18,
+              41.49,
+              31.24,
+              0.1064,
+              19,
+              17.38,
+              31.24,
+              0.85969,
+              20,
+              -76.4,
+              29.47,
+              0.03368,
+              3,
+              19,
+              93.36,
+              31.24,
+              0.06061,
+              20,
+              -0.42,
+              30.53,
+              0.93907,
+              21,
+              -48.5,
+              29.06,
+              0.00032,
+              4,
+              20,
+              42.15,
+              31.12,
+              0.60185,
+              21,
+              -5.97,
+              30.95,
+              0.38504,
+              22,
+              -37.12,
+              30.48,
+              0.00825,
+              23,
+              -72.05,
+              33.81,
+              0.00485,
+              4,
+              20,
+              73.58,
+              31.56,
+              0.02994,
+              21,
+              25.44,
+              32.35,
+              0.43616,
+              22,
+              -5.73,
+              32.23,
+              0.38898,
+              23,
+              -40.61,
+              33.81,
+              0.14493,
+              4,
+              21,
+              60.78,
+              33.92,
+              0.00045,
+              22,
+              29.59,
+              34.19,
+              0.20233,
+              23,
+              -5.24,
+              33.81,
+              0.76115,
+              24,
+              -28.16,
+              33.81,
+              0.03607,
+              2,
+              23,
+              22.27,
+              33.81,
+              0.56343,
+              24,
+              -0.65,
+              33.81,
+              0.43657,
+              2,
+              23,
+              50.78,
+              33.81,
+              0.13774,
+              24,
+              27.85,
+              33.81,
+              0.86226,
+              2,
+              22,
+              88.85,
+              -22.61,
+              0.02733,
+              24,
+              27.85,
+              -26.19,
+              0.97267,
+              3,
+              22,
+              60.38,
+              -24.19,
+              0.31491,
+              23,
+              22.27,
+              -26.19,
+              0.20687,
+              24,
+              -0.66,
+              -26.19,
+              0.47822,
+              2,
+              22,
+              32.26,
+              -25.75,
+              0.9939,
+              24,
+              -28.82,
+              -26.19,
+              0.0061,
+              3,
+              20,
+              75.73,
+              -28.42,
+              0.00875,
+              21,
+              29.42,
+              -27.54,
+              0.29282,
+              22,
+              -1.09,
+              -27.61,
+              0.69843,
+              3,
+              20,
+              44.29,
+              -28.86,
+              0.57079,
+              21,
+              -1.99,
+              -28.93,
+              0.34668,
+              22,
+              -32.48,
+              -29.35,
+              0.08253,
+              2,
+              19,
+              95.33,
+              -28.76,
+              0.0457,
+              20,
+              2.37,
+              -29.44,
+              0.9543,
+              3,
+              18,
+              42.14,
+              -28.76,
+              0.10168,
+              19,
+              18.04,
+              -28.76,
+              0.87085,
+              20,
+              -74.91,
+              -30.51,
+              0.02747,
+              3,
+              17,
+              50.85,
+              -28.76,
+              0.04223,
+              18,
+              21.18,
+              -28.76,
+              0.56534,
+              19,
+              -2.92,
+              -28.76,
+              0.39242,
+              4,
+              16,
+              37.92,
+              -30.42,
+              0.05098,
+              17,
+              25.96,
+              -28.76,
+              0.48768,
+              18,
+              -3.71,
+              -28.76,
+              0.4509,
+              19,
+              -27.81,
+              -28.76,
+              0.01044,
+              3,
+              16,
+              11.13,
+              -28.63,
+              0.55941,
+              17,
+              -0.9,
+              -28.76,
+              0.41331,
+              18,
+              -30.56,
+              -28.76,
+              0.02728,
+              3,
+              16,
+              0.58,
+              -27.93,
+              0.70076,
+              17,
+              -11.47,
+              -28.76,
+              0.29722,
+              18,
+              -41.13,
+              -28.76,
+              0.00202,
+              3,
+              16,
+              4.57,
+              31.94,
+              0.51384,
+              17,
+              -11.47,
+              31.24,
+              0.48367,
+              18,
+              -41.13,
+              31.24,
+              0.00248
+            ],
+            "hull": 22,
+            "edges": [
+              18,
+              20,
+              40,
+              42,
+              38,
+              40,
+              0,
+              42,
+              38,
+              0,
+              36,
+              38,
+              0,
+              2,
+              36,
+              2,
+              34,
+              36,
+              2,
+              4,
+              34,
+              4,
+              32,
+              34,
+              4,
+              6,
+              32,
+              6,
+              30,
+              32,
+              6,
+              8,
+              30,
+              8,
+              28,
+              30,
+              8,
+              10,
+              28,
+              10,
+              26,
+              28,
+              10,
+              12,
+              26,
+              12,
+              24,
+              26,
+              12,
+              14,
+              24,
+              14,
+              20,
+              22,
+              22,
+              24,
+              14,
+              16,
+              16,
+              18,
+              22,
+              16
+            ],
+            "width": 60,
+            "height": 324
+          }
+        },
+        "diban1": {
+          "diban1/diban1_00000": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00001": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00002": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00003": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00004": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00005": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00006": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00007": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00008": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00009": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00010": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00011": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00012": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00013": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00014": {
+            "width": 84,
+            "height": 112
+          }
+        },
+        "diban2": {
+          "diban1/diban1_00000": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00001": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00002": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00003": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00004": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00005": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00006": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00007": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00008": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00009": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00010": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00011": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00012": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00013": {
+            "width": 84,
+            "height": 112
+          },
+          "diban1/diban1_00014": {
+            "width": 84,
+            "height": 112
+          }
+        },
+        "wuding": {
+          "wuding": {
+            "width": 347,
+            "height": 131
+          }
+        },
+        "wuding2": {
+          "wuding": {
+            "width": 347,
+            "height": 131
+          }
+        },
+        "wudingsg": {
+          "wuding1/wuding_00000": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00001": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00002": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00003": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00004": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00005": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00006": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00007": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00008": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00009": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00010": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00011": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00012": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00013": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00014": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00015": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00016": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00017": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00018": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00019": {
+            "width": 93,
+            "height": 40
+          }
+        },
+        "wudingsg2": {
+          "wuding1/wuding_00000": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00001": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00002": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00003": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00004": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00005": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00006": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00007": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00008": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00009": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00010": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00011": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00012": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00013": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00014": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00015": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00016": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00017": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00018": {
+            "width": 93,
+            "height": 40
+          },
+          "wuding1/wuding_00019": {
+            "width": 93,
+            "height": 40
+          }
+        }
+      }
+    },
+    "animations": {
+      "diban": {
+        "slots": {
+          "beiban": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "beiban"
+              }
+            ]
+          },
+          "beiban2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "beiban"
+              }
+            ]
+          },
+          "diaozhui": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "diaozhui"
+              }
+            ]
+          },
+          "diaozhui2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "diaozhui"
+              }
+            ]
+          },
+          "diban1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fff3a7ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "diban1/diban1_00000"
+              },
+              {
+                "time": 0.2333,
+                "name": "diban1/diban1_00001"
+              },
+              {
+                "time": 0.3,
+                "name": "diban1/diban1_00002"
+              },
+              {
+                "time": 0.3333,
+                "name": "diban1/diban1_00003"
+              },
+              {
+                "time": 0.4,
+                "name": "diban1/diban1_00004"
+              },
+              {
+                "time": 0.4333,
+                "name": "diban1/diban1_00005"
+              },
+              {
+                "time": 0.5,
+                "name": "diban1/diban1_00006"
+              },
+              {
+                "time": 0.5333,
+                "name": "diban1/diban1_00007"
+              },
+              {
+                "time": 0.6,
+                "name": "diban1/diban1_00008"
+              },
+              {
+                "time": 0.6333,
+                "name": "diban1/diban1_00009"
+              },
+              {
+                "time": 0.7,
+                "name": "diban1/diban1_00010"
+              },
+              {
+                "time": 0.7333,
+                "name": "diban1/diban1_00011"
+              },
+              {
+                "time": 0.8,
+                "name": "diban1/diban1_00012"
+              },
+              {
+                "time": 0.8333,
+                "name": "diban1/diban1_00013"
+              },
+              {
+                "time": 0.9,
+                "name": "diban1/diban1_00014"
+              },
+              {
+                "time": 0.9333,
+                "name": null
+              }
+            ]
+          },
+          "diban2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fff3a7ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "diban1/diban1_00000"
+              },
+              {
+                "time": 0.2333,
+                "name": "diban1/diban1_00001"
+              },
+              {
+                "time": 0.3,
+                "name": "diban1/diban1_00002"
+              },
+              {
+                "time": 0.3333,
+                "name": "diban1/diban1_00003"
+              },
+              {
+                "time": 0.4,
+                "name": "diban1/diban1_00004"
+              },
+              {
+                "time": 0.4333,
+                "name": "diban1/diban1_00005"
+              },
+              {
+                "time": 0.5,
+                "name": "diban1/diban1_00006"
+              },
+              {
+                "time": 0.5333,
+                "name": "diban1/diban1_00007"
+              },
+              {
+                "time": 0.6,
+                "name": "diban1/diban1_00008"
+              },
+              {
+                "time": 0.6333,
+                "name": "diban1/diban1_00009"
+              },
+              {
+                "time": 0.7,
+                "name": "diban1/diban1_00010"
+              },
+              {
+                "time": 0.7333,
+                "name": "diban1/diban1_00011"
+              },
+              {
+                "time": 0.8,
+                "name": "diban1/diban1_00012"
+              },
+              {
+                "time": 0.8333,
+                "name": "diban1/diban1_00013"
+              },
+              {
+                "time": 0.9,
+                "name": "diban1/diban1_00014"
+              },
+              {
+                "time": 0.9333,
+                "name": null
+              }
+            ]
+          },
+          "wuding": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "wuding"
+              }
+            ]
+          },
+          "wuding2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "wuding"
+              }
+            ]
+          },
+          "wudingsg": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fff3a7ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "wuding1/wuding_00000"
+              },
+              {
+                "time": 0.7,
+                "name": "wuding1/wuding_00001"
+              },
+              {
+                "time": 0.7667,
+                "name": "wuding1/wuding_00002"
+              },
+              {
+                "time": 0.8,
+                "name": "wuding1/wuding_00003"
+              },
+              {
+                "time": 0.8667,
+                "name": "wuding1/wuding_00004"
+              },
+              {
+                "time": 0.9,
+                "name": "wuding1/wuding_00005"
+              },
+              {
+                "time": 0.9667,
+                "name": "wuding1/wuding_00006"
+              },
+              {
+                "time": 1,
+                "name": "wuding1/wuding_00007"
+              },
+              {
+                "time": 1.0667,
+                "name": "wuding1/wuding_00008"
+              },
+              {
+                "time": 1.1,
+                "name": "wuding1/wuding_00009"
+              },
+              {
+                "time": 1.1667,
+                "name": "wuding1/wuding_00010"
+              },
+              {
+                "time": 1.2,
+                "name": "wuding1/wuding_00011"
+              },
+              {
+                "time": 1.2667,
+                "name": "wuding1/wuding_00012"
+              },
+              {
+                "time": 1.3,
+                "name": "wuding1/wuding_00013"
+              },
+              {
+                "time": 1.3667,
+                "name": "wuding1/wuding_00014"
+              },
+              {
+                "time": 1.4,
+                "name": "wuding1/wuding_00015"
+              },
+              {
+                "time": 1.4667,
+                "name": "wuding1/wuding_00016"
+              },
+              {
+                "time": 1.5,
+                "name": "wuding1/wuding_00017"
+              },
+              {
+                "time": 1.5667,
+                "name": "wuding1/wuding_00018"
+              },
+              {
+                "time": 1.6,
+                "name": "wuding1/wuding_00019"
+              },
+              {
+                "time": 1.6667,
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          },
+          "wudingsg2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fff3a7ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "wuding1/wuding_00000"
+              },
+              {
+                "time": 0.7,
+                "name": "wuding1/wuding_00001"
+              },
+              {
+                "time": 0.7667,
+                "name": "wuding1/wuding_00002"
+              },
+              {
+                "time": 0.8,
+                "name": "wuding1/wuding_00003"
+              },
+              {
+                "time": 0.8667,
+                "name": "wuding1/wuding_00004"
+              },
+              {
+                "time": 0.9,
+                "name": "wuding1/wuding_00005"
+              },
+              {
+                "time": 0.9667,
+                "name": "wuding1/wuding_00006"
+              },
+              {
+                "time": 1,
+                "name": "wuding1/wuding_00007"
+              },
+              {
+                "time": 1.0667,
+                "name": "wuding1/wuding_00008"
+              },
+              {
+                "time": 1.1,
+                "name": "wuding1/wuding_00009"
+              },
+              {
+                "time": 1.1667,
+                "name": "wuding1/wuding_00010"
+              },
+              {
+                "time": 1.2,
+                "name": "wuding1/wuding_00011"
+              },
+              {
+                "time": 1.2667,
+                "name": "wuding1/wuding_00012"
+              },
+              {
+                "time": 1.3,
+                "name": "wuding1/wuding_00013"
+              },
+              {
+                "time": 1.3667,
+                "name": "wuding1/wuding_00014"
+              },
+              {
+                "time": 1.4,
+                "name": "wuding1/wuding_00015"
+              },
+              {
+                "time": 1.4667,
+                "name": "wuding1/wuding_00016"
+              },
+              {
+                "time": 1.5,
+                "name": "wuding1/wuding_00017"
+              },
+              {
+                "time": 1.5667,
+                "name": "wuding1/wuding_00018"
+              },
+              {
+                "time": 1.6,
+                "name": "wuding1/wuding_00019"
+              },
+              {
+                "time": 1.6667,
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sui3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -2.48,
+                "curve": [
+                  0.371,
+                  0.62,
+                  0.71,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "angle": 3.21,
+                "curve": [
+                  0.243,
+                  0,
+                  0.689,
+                  0.75
+                ]
+              },
+              {
+                "time": 2,
+                "angle": -2.48
+              }
+            ]
+          },
+          "sui10": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 1.43,
+                "curve": [
+                  0.382,
+                  0.57,
+                  0.735,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "angle": 3.21,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 1.43
+              }
+            ]
+          },
+          "sui9": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 2.61,
+                "curve": [
+                  0.371,
+                  0.62,
+                  0.71,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "angle": 3.21,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 2.61
+              }
+            ]
+          },
+          "sui8": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 3.21,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 3.21
+              }
+            ]
+          },
+          "sui7": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 2.61,
+                "curve": [
+                  0.311,
+                  0.25,
+                  0.757,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.8333,
+                "angle": 3.21,
+                "curve": [
+                  0.29,
+                  0,
+                  0.629,
+                  0.38
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 2.61
+              }
+            ]
+          },
+          "sui6": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 1.43,
+                "curve": [
+                  0.351,
+                  0.4,
+                  0.757,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "angle": 3.21,
+                "curve": [
+                  0.265,
+                  0,
+                  0.618,
+                  0.43
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 1.43
+              }
+            ]
+          },
+          "sui5": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0.06,
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "angle": 3.21,
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 0.06
+              }
+            ]
+          },
+          "sui4": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -1.04,
+                "curve": [
+                  0.382,
+                  0.56,
+                  0.739,
+                  1
+                ]
+              },
+              {
+                "time": 0.3667,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3667,
+                "angle": 3.21,
+                "curve": [
+                  0.244,
+                  0,
+                  0.643,
+                  0.58
+                ]
+              },
+              {
+                "time": 2,
+                "angle": -1.04
+              }
+            ]
+          },
+          "sui20": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 1.43,
+                "curve": [
+                  0.382,
+                  0.57,
+                  0.735,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "angle": 3.21,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 1.43
+              }
+            ]
+          },
+          "sui19": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 2.61,
+                "curve": [
+                  0.371,
+                  0.62,
+                  0.71,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "angle": 3.21,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 2.61
+              }
+            ]
+          },
+          "sui18": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 3.21,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 3.21
+              }
+            ]
+          },
+          "sui17": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 2.61,
+                "curve": [
+                  0.311,
+                  0.25,
+                  0.757,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.8333,
+                "angle": 3.21,
+                "curve": [
+                  0.29,
+                  0,
+                  0.629,
+                  0.38
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 2.61
+              }
+            ]
+          },
+          "sui16": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 1.43,
+                "curve": [
+                  0.351,
+                  0.4,
+                  0.757,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "angle": 3.21,
+                "curve": [
+                  0.265,
+                  0,
+                  0.618,
+                  0.43
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 1.43
+              }
+            ]
+          },
+          "sui15": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0.06,
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "angle": 3.21,
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 0.06
+              }
+            ]
+          },
+          "sui14": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -1.04,
+                "curve": [
+                  0.382,
+                  0.56,
+                  0.739,
+                  1
+                ]
+              },
+              {
+                "time": 0.3667,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3667,
+                "angle": 3.21,
+                "curve": [
+                  0.244,
+                  0,
+                  0.643,
+                  0.58
+                ]
+              },
+              {
+                "time": 2,
+                "angle": -1.04
+              }
+            ]
+          },
+          "sui13": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -2.48,
+                "curve": [
+                  0.371,
+                  0.62,
+                  0.71,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "angle": -3.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "angle": 3.21,
+                "curve": [
+                  0.243,
+                  0,
+                  0.689,
+                  0.75
+                ]
+              },
+              {
+                "time": 2,
+                "angle": -2.48
+              }
+            ]
+          },
+          "diban2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "diban3": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 2,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nDT_diban1.png\nsize: 857,521\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbeiban\n  rotate: false\n  xy: 2, 88\n  size: 311, 431\n  orig: 311, 431\n  offset: 0, 0\n  index: -1\ndiaozhui\n  rotate: true\n  xy: 315, 326\n  size: 60, 324\n  orig: 60, 324\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00000\n  rotate: true\n  xy: 2, 2\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00001\n  rotate: false\n  xy: 664, 407\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00002\n  rotate: false\n  xy: 315, 212\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00003\n  rotate: true\n  xy: 116, 2\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00004\n  rotate: false\n  xy: 750, 407\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00005\n  rotate: false\n  xy: 315, 98\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00006\n  rotate: false\n  xy: 401, 212\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00007\n  rotate: false\n  xy: 401, 98\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00008\n  rotate: false\n  xy: 487, 212\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00009\n  rotate: false\n  xy: 487, 98\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00010\n  rotate: false\n  xy: 573, 212\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00011\n  rotate: false\n  xy: 573, 98\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00012\n  rotate: true\n  xy: 230, 2\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00013\n  rotate: true\n  xy: 344, 12\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\ndiban1/diban1_00014\n  rotate: true\n  xy: 458, 12\n  size: 84, 112\n  orig: 84, 112\n  offset: 0, 0\n  index: -1\nwuding\n  rotate: false\n  xy: 315, 388\n  size: 347, 131\n  orig: 347, 131\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00000\n  rotate: false\n  xy: 572, 56\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00001\n  rotate: false\n  xy: 572, 14\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00002\n  rotate: false\n  xy: 664, 365\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00003\n  rotate: false\n  xy: 759, 365\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00004\n  rotate: false\n  xy: 667, 323\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00005\n  rotate: false\n  xy: 762, 323\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00006\n  rotate: false\n  xy: 659, 281\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00007\n  rotate: false\n  xy: 754, 281\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00008\n  rotate: false\n  xy: 659, 239\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00009\n  rotate: false\n  xy: 754, 239\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00010\n  rotate: false\n  xy: 659, 197\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00011\n  rotate: false\n  xy: 754, 197\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00012\n  rotate: false\n  xy: 659, 155\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00013\n  rotate: false\n  xy: 754, 155\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00014\n  rotate: false\n  xy: 659, 113\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00015\n  rotate: false\n  xy: 754, 113\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00016\n  rotate: false\n  xy: 667, 71\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00017\n  rotate: false\n  xy: 667, 29\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00018\n  rotate: false\n  xy: 762, 71\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\nwuding1/wuding_00019\n  rotate: false\n  xy: 762, 29\n  size: 93, 40\n  orig: 93, 40\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "1fdrrZ6P5CWbYChSze8yEq"
+    }
+  ],
+  "textureNames": [
+    "DT_diban1.png"
+  ]
+}

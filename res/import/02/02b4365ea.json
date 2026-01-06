@@ -1,1 +1,254 @@
-[{"__type__":"cc.BitmapFont","_name":"theme230_wheel","spriteFrame":{"__uuid__":"b9z/9eEwlK64GEsmYPnwP+"},"fontSize":36,"_fntConfig":{"commonHeight":77,"fontSize":36,"atlasName":"theme230_wheel.png","fontDefDictionary":{"44":{"rect":{"x":483,"y":0,"width":31,"height":77},"xOffset":0,"yOffset":0,"xAdvance":30},"46":{"rect":{"x":515,"y":0,"width":23,"height":77},"xOffset":0,"yOffset":0,"xAdvance":22},"48":{"rect":{"x":70,"y":0,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"49":{"rect":{"x":129,"y":0,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"50":{"rect":{"x":188,"y":0,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"51":{"rect":{"x":247,"y":0,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"52":{"rect":{"x":306,"y":0,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"53":{"rect":{"x":365,"y":0,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"54":{"rect":{"x":424,"y":0,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"55":{"rect":{"x":0,"y":78,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"56":{"rect":{"x":59,"y":78,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"57":{"rect":{"x":118,"y":78,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"66":{"rect":{"x":177,"y":78,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"75":{"rect":{"x":236,"y":78,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"77":{"rect":{"x":295,"y":78,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"79":{"rect":{"x":354,"y":78,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"81":{"rect":{"x":0,"y":0,"width":69,"height":77},"xOffset":0,"yOffset":0,"xAdvance":68},"83":{"rect":{"x":413,"y":78,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57},"84":{"rect":{"x":472,"y":78,"width":58,"height":77},"xOffset":0,"yOffset":0,"xAdvance":57}},"kerningDict":{}}},{"__type__":"cc.SpriteFrame","content":{"name":"theme230_wheel","texture":"f8jOPgDZZEr7EKcEPEMFRH","rect":[0,8,536,147],"offset":[-2,-3.5],"originalSize":[540,156],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.BitmapFont",
+    "_name": "theme230_wheel",
+    "spriteFrame": {
+      "__uuid__": "b9z/9eEwlK64GEsmYPnwP+"
+    },
+    "fontSize": 36,
+    "_fntConfig": {
+      "commonHeight": 77,
+      "fontSize": 36,
+      "atlasName": "theme230_wheel.png",
+      "fontDefDictionary": {
+        "44": {
+          "rect": {
+            "x": 483,
+            "y": 0,
+            "width": 31,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 30
+        },
+        "46": {
+          "rect": {
+            "x": 515,
+            "y": 0,
+            "width": 23,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 22
+        },
+        "48": {
+          "rect": {
+            "x": 70,
+            "y": 0,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "49": {
+          "rect": {
+            "x": 129,
+            "y": 0,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "50": {
+          "rect": {
+            "x": 188,
+            "y": 0,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "51": {
+          "rect": {
+            "x": 247,
+            "y": 0,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "52": {
+          "rect": {
+            "x": 306,
+            "y": 0,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "53": {
+          "rect": {
+            "x": 365,
+            "y": 0,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "54": {
+          "rect": {
+            "x": 424,
+            "y": 0,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "55": {
+          "rect": {
+            "x": 0,
+            "y": 78,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "56": {
+          "rect": {
+            "x": 59,
+            "y": 78,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "57": {
+          "rect": {
+            "x": 118,
+            "y": 78,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "66": {
+          "rect": {
+            "x": 177,
+            "y": 78,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "75": {
+          "rect": {
+            "x": 236,
+            "y": 78,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "77": {
+          "rect": {
+            "x": 295,
+            "y": 78,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "79": {
+          "rect": {
+            "x": 354,
+            "y": 78,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "81": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 69,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 68
+        },
+        "83": {
+          "rect": {
+            "x": 413,
+            "y": 78,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "84": {
+          "rect": {
+            "x": 472,
+            "y": 78,
+            "width": 58,
+            "height": 77
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        }
+      },
+      "kerningDict": {}
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme230_wheel",
+      "texture": "f8jOPgDZZEr7EKcEPEMFRH",
+      "rect": [
+        0,
+        8,
+        536,
+        147
+      ],
+      "offset": [
+        -2,
+        -3.5
+      ],
+      "originalSize": [
+        540,
+        156
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

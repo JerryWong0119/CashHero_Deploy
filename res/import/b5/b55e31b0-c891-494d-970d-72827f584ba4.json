@@ -1,1 +1,226 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"boG3XAvHj9cwGPYGYZiGauzyPoo","spine":"3.8.99","x":-111.1,"y":-89.5,"width":197.1,"height":179.5,"images":"./img/","audio":"D:/lybAnimation/2020.10.22 Cash Hero"},"bones":[{"name":"root"},{"name":"dian","parent":"root","length":50,"rotation":45,"x":36.75,"y":49.27,"scaleX":1.4,"scaleY":1.4},{"name":"avatar2","parent":"root","length":100,"y":4}],"slots":[{"name":"avatar","bone":"root","attachment":"avatar"},{"name":"dian","bone":"dian","attachment":"Effect_hly_dianBlue_01","blend":"additive"},{"name":"line","bone":"root","attachment":"line"},{"name":"avatar2","bone":"avatar2","attachment":"avatar2","blend":"additive"}],"path":[{"name":"line","bones":["dian"],"target":"line","positionMode":"fixed","position":-400}],"skins":[{"name":"default","attachments":{"avatar":{"avatar":{"width":172,"height":179}},"avatar2":{"avatar2":{"width":172,"height":172}},"dian":{"Effect_hly_dianBlue_01":{"scaleX":0.8,"scaleY":0.8,"width":64,"height":64}},"line":{"line":{"type":"path","closed":true,"lengths":[132.4,259.27,385.21,517.53],"vertexCount":12,"vertices":[27.48,85.92,-0.31,86.25,-36.74,86.68,-84.28,57.37,-83.08,0.15,-82.31,-36.59,-52.95,-79.25,0.15,-79.54,52.28,-79.83,83.69,-30.98,83.24,0.19,82.29,65.61]}}}}],"animations":{"animation":{"slots":{"avatar2":{"color":[{"color":"ffffff00"},{"time":1.6667,"color":"ffffffdd"},{"time":3.3333,"color":"ffffff00"},{"time":5,"color":"ffffffd9"},{"time":6.6667,"color":"ffffff00"}]},"dian":{"color":[{"color":"ffffff00"},{"time":1.3333,"color":"ffffffff","curve":"stepped"},{"time":5.3333,"color":"ffffffff"},{"time":6.6667,"color":"ffffff00"}]}},"bones":{"avatar2":{"rotate":[{"angle":90},{"time":3.3333,"angle":-90},{"time":6.6667,"angle":90}]}},"path":{"line":{"position":[{"position":-80},{"time":6.6667,"position":320}]}}}}},"_atlasText":"\nspine.png\nsize: 407,176\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nEffect_hly_dianBlue_01\n  rotate: false\n  xy: 357, 126\n  size: 48, 48\n  orig: 64, 64\n  offset: 8, 8\n  index: -1\navatar\n  rotate: true\n  xy: 2, 2\n  size: 172, 179\n  orig: 172, 179\n  offset: 0, 0\n  index: -1\navatar2\n  rotate: false\n  xy: 183, 2\n  size: 172, 172\n  orig: 172, 172\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"05w0XT+6BMT4uUB8SDg20n"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "boG3XAvHj9cwGPYGYZiGauzyPoo",
+      "spine": "3.8.99",
+      "x": -111.1,
+      "y": -89.5,
+      "width": 197.1,
+      "height": 179.5,
+      "images": "./img/",
+      "audio": "D:/lybAnimation/2020.10.22 Cash Hero"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "dian",
+        "parent": "root",
+        "length": 50,
+        "rotation": 45,
+        "x": 36.75,
+        "y": 49.27,
+        "scaleX": 1.4,
+        "scaleY": 1.4
+      },
+      {
+        "name": "avatar2",
+        "parent": "root",
+        "length": 100,
+        "y": 4
+      }
+    ],
+    "slots": [
+      {
+        "name": "avatar",
+        "bone": "root",
+        "attachment": "avatar"
+      },
+      {
+        "name": "dian",
+        "bone": "dian",
+        "attachment": "Effect_hly_dianBlue_01",
+        "blend": "additive"
+      },
+      {
+        "name": "line",
+        "bone": "root",
+        "attachment": "line"
+      },
+      {
+        "name": "avatar2",
+        "bone": "avatar2",
+        "attachment": "avatar2",
+        "blend": "additive"
+      }
+    ],
+    "path": [
+      {
+        "name": "line",
+        "bones": [
+          "dian"
+        ],
+        "target": "line",
+        "positionMode": "fixed",
+        "position": -400
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "avatar": {
+            "avatar": {
+              "width": 172,
+              "height": 179
+            }
+          },
+          "avatar2": {
+            "avatar2": {
+              "width": 172,
+              "height": 172
+            }
+          },
+          "dian": {
+            "Effect_hly_dianBlue_01": {
+              "scaleX": 0.8,
+              "scaleY": 0.8,
+              "width": 64,
+              "height": 64
+            }
+          },
+          "line": {
+            "line": {
+              "type": "path",
+              "closed": true,
+              "lengths": [
+                132.4,
+                259.27,
+                385.21,
+                517.53
+              ],
+              "vertexCount": 12,
+              "vertices": [
+                27.48,
+                85.92,
+                -0.31,
+                86.25,
+                -36.74,
+                86.68,
+                -84.28,
+                57.37,
+                -83.08,
+                0.15,
+                -82.31,
+                -36.59,
+                -52.95,
+                -79.25,
+                0.15,
+                -79.54,
+                52.28,
+                -79.83,
+                83.69,
+                -30.98,
+                83.24,
+                0.19,
+                82.29,
+                65.61
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "animation": {
+        "slots": {
+          "avatar2": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffdd"
+              },
+              {
+                "time": 3.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 5,
+                "color": "ffffffd9"
+              },
+              {
+                "time": 6.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "dian": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 5.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 6.6667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "avatar2": {
+            "rotate": [
+              {
+                "angle": 90
+              },
+              {
+                "time": 3.3333,
+                "angle": -90
+              },
+              {
+                "time": 6.6667,
+                "angle": 90
+              }
+            ]
+          }
+        },
+        "path": {
+          "line": {
+            "position": [
+              {
+                "position": -80
+              },
+              {
+                "time": 6.6667,
+                "position": 320
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 407,176\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nEffect_hly_dianBlue_01\n  rotate: false\n  xy: 357, 126\n  size: 48, 48\n  orig: 64, 64\n  offset: 8, 8\n  index: -1\navatar\n  rotate: true\n  xy: 2, 2\n  size: 172, 179\n  orig: 172, 179\n  offset: 0, 0\n  index: -1\navatar2\n  rotate: false\n  xy: 183, 2\n  size: 172, 172\n  orig: 172, 172\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "05w0XT+6BMT4uUB8SDg20n"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

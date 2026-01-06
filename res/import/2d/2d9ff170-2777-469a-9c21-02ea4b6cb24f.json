@@ -1,1 +1,160 @@
-{"__type__":"sp.SkeletonData","_name":"zjts_01","_skeletonJson":{"skeleton":{"hash":"UJqNjifQsK1A968viApHudDMkiQ","spine":"3.6.53","width":312,"height":168,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"gaoliang01","parent":"root","y":0.41,"scaleX":2,"scaleY":2},{"name":"骨骼2","parent":"root","scaleX":1.25,"scaleY":1.25}],"slots":[{"name":"theme159_b_jp11","bone":"骨骼2"},{"name":"gaoliang01","bone":"gaoliang01","attachment":"gaoliang01","blend":"additive"}],"skins":{"default":{"gaoliang01":{"gaoliang01":{"width":156,"height":84},"gaoliang02":{"width":252,"height":87}}}},"animations":{"animation1":{"slots":{"gaoliang01":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}]}},"bones":{"gaoliang01":{"translate":[{"time":0,"x":0,"y":10.57}]}}},"animation2":{"slots":{"gaoliang01":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"gaoliang02"}]}},"bones":{"gaoliang01":{"translate":[{"time":0,"x":0,"y":11.68}]}}}}},"_atlasText":"\nzjts_01.png\nsize: 333,74\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngaoliang01\n  rotate: false\n  xy: 206, 5\n  size: 125, 67\n  orig: 125, 67\n  offset: 0, 0\n  index: -1\ngaoliang02\n  rotate: false\n  xy: 2, 2\n  size: 202, 70\n  orig: 202, 70\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"4bgkNeDAlDRbx7IDS1Wl3J"}],"textureNames":["zjts_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "zjts_01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "UJqNjifQsK1A968viApHudDMkiQ",
+      "spine": "3.6.53",
+      "width": 312,
+      "height": 168,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "gaoliang01",
+        "parent": "root",
+        "y": 0.41,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "骨骼2",
+        "parent": "root",
+        "scaleX": 1.25,
+        "scaleY": 1.25
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme159_b_jp11",
+        "bone": "骨骼2"
+      },
+      {
+        "name": "gaoliang01",
+        "bone": "gaoliang01",
+        "attachment": "gaoliang01",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "gaoliang01": {
+          "gaoliang01": {
+            "width": 156,
+            "height": 84
+          },
+          "gaoliang02": {
+            "width": 252,
+            "height": 87
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "gaoliang01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "gaoliang01": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 10.57
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "gaoliang01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gaoliang02"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "gaoliang01": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 11.68
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nzjts_01.png\nsize: 333,74\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngaoliang01\n  rotate: false\n  xy: 206, 5\n  size: 125, 67\n  orig: 125, 67\n  offset: 0, 0\n  index: -1\ngaoliang02\n  rotate: false\n  xy: 2, 2\n  size: 202, 70\n  orig: 202, 70\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "4bgkNeDAlDRbx7IDS1Wl3J"
+    }
+  ],
+  "textureNames": [
+    "zjts_01.png"
+  ]
+}

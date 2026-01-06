@@ -1,1 +1,221 @@
-[{"__type__":"cc.BitmapFont","_name":"jpNum","spriteFrame":{"__uuid__":"ac2SHnz8hG87kPW0TWYQcx"},"fontSize":32,"_fntConfig":{"commonHeight":48,"fontSize":32,"atlasName":"jpNum.png","fontDefDictionary":{"44":{"rect":{"x":408,"y":0,"width":12,"height":48},"xOffset":0,"yOffset":0,"xAdvance":10},"46":{"rect":{"x":421,"y":0,"width":12,"height":48},"xOffset":0,"yOffset":0,"xAdvance":10},"48":{"rect":{"x":35,"y":0,"width":28,"height":48},"xOffset":0,"yOffset":0,"xAdvance":26},"49":{"rect":{"x":64,"y":0,"width":28,"height":48},"xOffset":0,"yOffset":0,"xAdvance":26},"50":{"rect":{"x":93,"y":0,"width":28,"height":48},"xOffset":0,"yOffset":0,"xAdvance":26},"51":{"rect":{"x":122,"y":0,"width":28,"height":48},"xOffset":0,"yOffset":0,"xAdvance":26},"52":{"rect":{"x":151,"y":0,"width":28,"height":48},"xOffset":0,"yOffset":0,"xAdvance":26},"53":{"rect":{"x":180,"y":0,"width":28,"height":48},"xOffset":0,"yOffset":0,"xAdvance":26},"54":{"rect":{"x":209,"y":0,"width":28,"height":48},"xOffset":0,"yOffset":0,"xAdvance":26},"55":{"rect":{"x":238,"y":0,"width":28,"height":48},"xOffset":0,"yOffset":0,"xAdvance":26},"56":{"rect":{"x":267,"y":0,"width":28,"height":48},"xOffset":0,"yOffset":0,"xAdvance":26},"57":{"rect":{"x":296,"y":0,"width":28,"height":48},"xOffset":0,"yOffset":0,"xAdvance":26},"66":{"rect":{"x":354,"y":0,"width":27,"height":48},"xOffset":0,"yOffset":0,"xAdvance":25},"75":{"rect":{"x":325,"y":0,"width":28,"height":48},"xOffset":0,"yOffset":0,"xAdvance":26},"77":{"rect":{"x":0,"y":0,"width":34,"height":48},"xOffset":0,"yOffset":0,"xAdvance":32},"84":{"rect":{"x":382,"y":0,"width":25,"height":48},"xOffset":0,"yOffset":0,"xAdvance":23}},"kerningDict":{}}},{"__type__":"cc.SpriteFrame","content":{"name":"jpNum","texture":"21C1bfz+tHpYzSFe4KZW1s","rect":[0,3,433,45],"offset":[-23.5,7],"originalSize":[480,65],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.BitmapFont",
+    "_name": "jpNum",
+    "spriteFrame": {
+      "__uuid__": "ac2SHnz8hG87kPW0TWYQcx"
+    },
+    "fontSize": 32,
+    "_fntConfig": {
+      "commonHeight": 48,
+      "fontSize": 32,
+      "atlasName": "jpNum.png",
+      "fontDefDictionary": {
+        "44": {
+          "rect": {
+            "x": 408,
+            "y": 0,
+            "width": 12,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 10
+        },
+        "46": {
+          "rect": {
+            "x": 421,
+            "y": 0,
+            "width": 12,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 10
+        },
+        "48": {
+          "rect": {
+            "x": 35,
+            "y": 0,
+            "width": 28,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 26
+        },
+        "49": {
+          "rect": {
+            "x": 64,
+            "y": 0,
+            "width": 28,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 26
+        },
+        "50": {
+          "rect": {
+            "x": 93,
+            "y": 0,
+            "width": 28,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 26
+        },
+        "51": {
+          "rect": {
+            "x": 122,
+            "y": 0,
+            "width": 28,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 26
+        },
+        "52": {
+          "rect": {
+            "x": 151,
+            "y": 0,
+            "width": 28,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 26
+        },
+        "53": {
+          "rect": {
+            "x": 180,
+            "y": 0,
+            "width": 28,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 26
+        },
+        "54": {
+          "rect": {
+            "x": 209,
+            "y": 0,
+            "width": 28,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 26
+        },
+        "55": {
+          "rect": {
+            "x": 238,
+            "y": 0,
+            "width": 28,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 26
+        },
+        "56": {
+          "rect": {
+            "x": 267,
+            "y": 0,
+            "width": 28,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 26
+        },
+        "57": {
+          "rect": {
+            "x": 296,
+            "y": 0,
+            "width": 28,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 26
+        },
+        "66": {
+          "rect": {
+            "x": 354,
+            "y": 0,
+            "width": 27,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 25
+        },
+        "75": {
+          "rect": {
+            "x": 325,
+            "y": 0,
+            "width": 28,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 26
+        },
+        "77": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 34,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 32
+        },
+        "84": {
+          "rect": {
+            "x": 382,
+            "y": 0,
+            "width": 25,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 23
+        }
+      },
+      "kerningDict": {}
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "jpNum",
+      "texture": "21C1bfz+tHpYzSFe4KZW1s",
+      "rect": [
+        0,
+        3,
+        433,
+        45
+      ],
+      "offset": [
+        -23.5,
+        7
+      ],
+      "originalSize": [
+        480,
+        65
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

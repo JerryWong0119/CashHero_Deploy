@@ -1,1 +1,152 @@
-{"__type__":"sp.SkeletonData","_name":"k2","_skeletonJson":{"skeleton":{"hash":"BV2MAX9I9S2Q7dP0W6urWb5GJt8","spine":"3.6.53","width":1060,"height":1840},"bones":[{"name":"root"},{"name":"zong","parent":"root"},{"name":"s","parent":"zong","x":-252.11,"y":48.93,"scaleX":1.104,"scaleY":2.404}],"slots":[{"name":"bg_base","bone":"root","color":"ffffff67"},{"name":"g_00","bone":"s","attachment":"g_00","blend":"additive"}],"skins":{"default":{"g_00":{"g_00":{"x":-0.54,"y":-0.27,"scaleX":0.128,"scaleY":0.128,"width":512,"height":512}}}},"animations":{"animation":{"slots":{"g_00":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff"}],"attachment":[{"time":0,"name":"g_00"}]}},"bones":{"s":{"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":2,"x":-82.56,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1,"x":1.771,"y":1,"curve":[0.25,0,0.75,1]},{"time":2,"x":0.606,"y":0,"curve":"stepped"},{"time":4,"x":0.606,"y":0}]}}}}},"_atlasText":"\nk2.png\nsize: 516,514\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ng_00\n  rotate: false\n  xy: 2, 278\n  size: 512, 234\n  orig: 512, 512\n  offset: 0, 140\n  index: -1\n","textures":[{"__uuid__":"6cVdSJmGtKpZp+L3bqzAA/"}],"textureNames":["k2.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "k2",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "BV2MAX9I9S2Q7dP0W6urWb5GJt8",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1840
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root"
+      },
+      {
+        "name": "s",
+        "parent": "zong",
+        "x": -252.11,
+        "y": 48.93,
+        "scaleX": 1.104,
+        "scaleY": 2.404
+      }
+    ],
+    "slots": [
+      {
+        "name": "bg_base",
+        "bone": "root",
+        "color": "ffffff67"
+      },
+      {
+        "name": "g_00",
+        "bone": "s",
+        "attachment": "g_00",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "g_00": {
+          "g_00": {
+            "x": -0.54,
+            "y": -0.27,
+            "scaleX": 0.128,
+            "scaleY": 0.128,
+            "width": 512,
+            "height": 512
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "g_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "g_00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "s": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": -82.56,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1.771,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 0.606,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 4,
+                "x": 0.606,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nk2.png\nsize: 516,514\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ng_00\n  rotate: false\n  xy: 2, 278\n  size: 512, 234\n  orig: 512, 512\n  offset: 0, 140\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "6cVdSJmGtKpZp+L3bqzAA/"
+    }
+  ],
+  "textureNames": [
+    "k2.png"
+  ]
+}

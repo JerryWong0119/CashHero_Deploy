@@ -1,1 +1,221 @@
-[{"__type__":"cc.BitmapFont","_name":"winNum","spriteFrame":{"__uuid__":"98XWMb9AhJ7YuRMqNlg+P4"},"fontSize":32,"_fntConfig":{"commonHeight":74,"fontSize":32,"atlasName":"winNum.png","fontDefDictionary":{"44":{"rect":{"x":250,"y":75,"width":20,"height":74},"xOffset":0,"yOffset":0,"xAdvance":19},"46":{"rect":{"x":271,"y":75,"width":20,"height":74},"xOffset":0,"yOffset":0,"xAdvance":19},"48":{"rect":{"x":0,"y":75,"width":43,"height":74},"xOffset":0,"yOffset":0,"xAdvance":42},"49":{"rect":{"x":218,"y":75,"width":31,"height":74},"xOffset":0,"yOffset":0,"xAdvance":30},"50":{"rect":{"x":44,"y":75,"width":43,"height":74},"xOffset":0,"yOffset":0,"xAdvance":42},"51":{"rect":{"x":132,"y":75,"width":42,"height":74},"xOffset":0,"yOffset":0,"xAdvance":41},"52":{"rect":{"x":209,"y":0,"width":46,"height":74},"xOffset":0,"yOffset":0,"xAdvance":45},"53":{"rect":{"x":175,"y":75,"width":42,"height":74},"xOffset":0,"yOffset":0,"xAdvance":41},"54":{"rect":{"x":256,"y":0,"width":44,"height":74},"xOffset":0,"yOffset":0,"xAdvance":43},"55":{"rect":{"x":88,"y":75,"width":43,"height":74},"xOffset":0,"yOffset":0,"xAdvance":42},"56":{"rect":{"x":301,"y":0,"width":44,"height":74},"xOffset":0,"yOffset":0,"xAdvance":43},"57":{"rect":{"x":346,"y":0,"width":44,"height":74},"xOffset":0,"yOffset":0,"xAdvance":43},"66":{"rect":{"x":111,"y":0,"width":48,"height":74},"xOffset":0,"yOffset":0,"xAdvance":47},"75":{"rect":{"x":160,"y":0,"width":48,"height":74},"xOffset":0,"yOffset":0,"xAdvance":47},"77":{"rect":{"x":0,"y":0,"width":58,"height":74},"xOffset":0,"yOffset":0,"xAdvance":57},"84":{"rect":{"x":59,"y":0,"width":51,"height":74},"xOffset":0,"yOffset":0,"xAdvance":50}},"kerningDict":{}}},{"__type__":"cc.SpriteFrame","content":{"name":"winNum","texture":"aceZlHMM1DopsyTquzWP8f","rect":[0,9,390,140],"offset":[-5,11],"originalSize":[400,180],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.BitmapFont",
+    "_name": "winNum",
+    "spriteFrame": {
+      "__uuid__": "98XWMb9AhJ7YuRMqNlg+P4"
+    },
+    "fontSize": 32,
+    "_fntConfig": {
+      "commonHeight": 74,
+      "fontSize": 32,
+      "atlasName": "winNum.png",
+      "fontDefDictionary": {
+        "44": {
+          "rect": {
+            "x": 250,
+            "y": 75,
+            "width": 20,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 19
+        },
+        "46": {
+          "rect": {
+            "x": 271,
+            "y": 75,
+            "width": 20,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 19
+        },
+        "48": {
+          "rect": {
+            "x": 0,
+            "y": 75,
+            "width": 43,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 42
+        },
+        "49": {
+          "rect": {
+            "x": 218,
+            "y": 75,
+            "width": 31,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 30
+        },
+        "50": {
+          "rect": {
+            "x": 44,
+            "y": 75,
+            "width": 43,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 42
+        },
+        "51": {
+          "rect": {
+            "x": 132,
+            "y": 75,
+            "width": 42,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 41
+        },
+        "52": {
+          "rect": {
+            "x": 209,
+            "y": 0,
+            "width": 46,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 45
+        },
+        "53": {
+          "rect": {
+            "x": 175,
+            "y": 75,
+            "width": 42,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 41
+        },
+        "54": {
+          "rect": {
+            "x": 256,
+            "y": 0,
+            "width": 44,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 43
+        },
+        "55": {
+          "rect": {
+            "x": 88,
+            "y": 75,
+            "width": 43,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 42
+        },
+        "56": {
+          "rect": {
+            "x": 301,
+            "y": 0,
+            "width": 44,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 43
+        },
+        "57": {
+          "rect": {
+            "x": 346,
+            "y": 0,
+            "width": 44,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 43
+        },
+        "66": {
+          "rect": {
+            "x": 111,
+            "y": 0,
+            "width": 48,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 47
+        },
+        "75": {
+          "rect": {
+            "x": 160,
+            "y": 0,
+            "width": 48,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 47
+        },
+        "77": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 58,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "84": {
+          "rect": {
+            "x": 59,
+            "y": 0,
+            "width": 51,
+            "height": 74
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 50
+        }
+      },
+      "kerningDict": {}
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "winNum",
+      "texture": "aceZlHMM1DopsyTquzWP8f",
+      "rect": [
+        0,
+        9,
+        390,
+        140
+      ],
+      "offset": [
+        -5,
+        11
+      ],
+      "originalSize": [
+        400,
+        180
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

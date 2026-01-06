@@ -1,1 +1,187 @@
-{"__type__":"sp.SkeletonData","_name":"TingPai","_skeletonJson":{"skeleton":{"hash":"INS6tAchW0UGY/URAzmN3QRsUMA","spine":"3.6.53","width":0,"height":0,"images":""},"bones":[{"name":"root"},{"name":"All","parent":"root"},{"name":"tp","parent":"All"}],"slots":[{"name":"tp","bone":"tp"}],"skins":{"default":{"tp":{"images/tp_000":{"width":210,"height":540},"images/tp_001":{"width":210,"height":540},"images/tp_002":{"width":210,"height":540},"images/tp_003":{"width":210,"height":540},"images/tp_004":{"width":210,"height":540},"images/tp_005":{"width":210,"height":540},"images/tp_006":{"width":210,"height":540},"images/tp_007":{"width":210,"height":540},"images/tp_008":{"width":210,"height":540},"images/tp_009":{"width":210,"height":540}}}},"animations":{"TingPai":{"slots":{"tp":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/tp_000"},{"time":0.0667,"name":"images/tp_001"},{"time":0.1,"name":"images/tp_002"},{"time":0.1667,"name":"images/tp_003"},{"time":0.2,"name":"images/tp_004"},{"time":0.2667,"name":"images/tp_005"},{"time":0.3,"name":"images/tp_006"},{"time":0.3667,"name":"images/tp_007"},{"time":0.4,"name":"images/tp_008"},{"time":0.4667,"name":"images/tp_009"},{"time":0.5,"name":"images/tp_000"},{"time":0.5667,"name":"images/tp_001"},{"time":0.6,"name":"images/tp_002"},{"time":0.6667,"name":"images/tp_003"},{"time":0.7,"name":"images/tp_004"},{"time":0.7667,"name":"images/tp_005"},{"time":0.8,"name":"images/tp_006"},{"time":0.8667,"name":"images/tp_007"},{"time":0.9,"name":"images/tp_008"},{"time":0.9667,"name":"images/tp_009"},{"time":1,"name":"images/tp_000"}]}}}}},"_atlasText":"\nTingPai.png\nsize: 1898,544\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/tp_000\n  rotate: false\n  xy: 2, 2\n  size: 189, 540\n  orig: 210, 540\n  offset: 11, 0\n  index: -1\nimages/tp_001\n  rotate: false\n  xy: 193, 3\n  size: 190, 539\n  orig: 210, 540\n  offset: 10, 0\n  index: -1\nimages/tp_002\n  rotate: false\n  xy: 385, 8\n  size: 190, 534\n  orig: 210, 540\n  offset: 10, 2\n  index: -1\nimages/tp_003\n  rotate: false\n  xy: 577, 9\n  size: 190, 533\n  orig: 210, 540\n  offset: 10, 3\n  index: -1\nimages/tp_004\n  rotate: false\n  xy: 960, 13\n  size: 189, 529\n  orig: 210, 540\n  offset: 11, 9\n  index: -1\nimages/tp_005\n  rotate: false\n  xy: 769, 11\n  size: 189, 531\n  orig: 210, 540\n  offset: 11, 7\n  index: -1\nimages/tp_006\n  rotate: false\n  xy: 1151, 13\n  size: 189, 529\n  orig: 210, 540\n  offset: 11, 5\n  index: -1\nimages/tp_007\n  rotate: false\n  xy: 1342, 30\n  size: 182, 512\n  orig: 210, 540\n  offset: 15, 14\n  index: -1\nimages/tp_008\n  rotate: false\n  xy: 1712, 34\n  size: 184, 508\n  orig: 210, 540\n  offset: 13, 19\n  index: -1\nimages/tp_009\n  rotate: false\n  xy: 1526, 34\n  size: 184, 508\n  orig: 210, 540\n  offset: 13, 19\n  index: -1\n","textures":[{"__uuid__":"27gfqMTYRMvoWSsb4uqRUL"}],"textureNames":["TingPai.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "TingPai",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "INS6tAchW0UGY/URAzmN3QRsUMA",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "All",
+        "parent": "root"
+      },
+      {
+        "name": "tp",
+        "parent": "All"
+      }
+    ],
+    "slots": [
+      {
+        "name": "tp",
+        "bone": "tp"
+      }
+    ],
+    "skins": {
+      "default": {
+        "tp": {
+          "images/tp_000": {
+            "width": 210,
+            "height": 540
+          },
+          "images/tp_001": {
+            "width": 210,
+            "height": 540
+          },
+          "images/tp_002": {
+            "width": 210,
+            "height": 540
+          },
+          "images/tp_003": {
+            "width": 210,
+            "height": 540
+          },
+          "images/tp_004": {
+            "width": 210,
+            "height": 540
+          },
+          "images/tp_005": {
+            "width": 210,
+            "height": 540
+          },
+          "images/tp_006": {
+            "width": 210,
+            "height": 540
+          },
+          "images/tp_007": {
+            "width": 210,
+            "height": 540
+          },
+          "images/tp_008": {
+            "width": 210,
+            "height": 540
+          },
+          "images/tp_009": {
+            "width": 210,
+            "height": 540
+          }
+        }
+      }
+    },
+    "animations": {
+      "TingPai": {
+        "slots": {
+          "tp": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/tp_000"
+              },
+              {
+                "time": 0.0667,
+                "name": "images/tp_001"
+              },
+              {
+                "time": 0.1,
+                "name": "images/tp_002"
+              },
+              {
+                "time": 0.1667,
+                "name": "images/tp_003"
+              },
+              {
+                "time": 0.2,
+                "name": "images/tp_004"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/tp_005"
+              },
+              {
+                "time": 0.3,
+                "name": "images/tp_006"
+              },
+              {
+                "time": 0.3667,
+                "name": "images/tp_007"
+              },
+              {
+                "time": 0.4,
+                "name": "images/tp_008"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/tp_009"
+              },
+              {
+                "time": 0.5,
+                "name": "images/tp_000"
+              },
+              {
+                "time": 0.5667,
+                "name": "images/tp_001"
+              },
+              {
+                "time": 0.6,
+                "name": "images/tp_002"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/tp_003"
+              },
+              {
+                "time": 0.7,
+                "name": "images/tp_004"
+              },
+              {
+                "time": 0.7667,
+                "name": "images/tp_005"
+              },
+              {
+                "time": 0.8,
+                "name": "images/tp_006"
+              },
+              {
+                "time": 0.8667,
+                "name": "images/tp_007"
+              },
+              {
+                "time": 0.9,
+                "name": "images/tp_008"
+              },
+              {
+                "time": 0.9667,
+                "name": "images/tp_009"
+              },
+              {
+                "time": 1,
+                "name": "images/tp_000"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nTingPai.png\nsize: 1898,544\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/tp_000\n  rotate: false\n  xy: 2, 2\n  size: 189, 540\n  orig: 210, 540\n  offset: 11, 0\n  index: -1\nimages/tp_001\n  rotate: false\n  xy: 193, 3\n  size: 190, 539\n  orig: 210, 540\n  offset: 10, 0\n  index: -1\nimages/tp_002\n  rotate: false\n  xy: 385, 8\n  size: 190, 534\n  orig: 210, 540\n  offset: 10, 2\n  index: -1\nimages/tp_003\n  rotate: false\n  xy: 577, 9\n  size: 190, 533\n  orig: 210, 540\n  offset: 10, 3\n  index: -1\nimages/tp_004\n  rotate: false\n  xy: 960, 13\n  size: 189, 529\n  orig: 210, 540\n  offset: 11, 9\n  index: -1\nimages/tp_005\n  rotate: false\n  xy: 769, 11\n  size: 189, 531\n  orig: 210, 540\n  offset: 11, 7\n  index: -1\nimages/tp_006\n  rotate: false\n  xy: 1151, 13\n  size: 189, 529\n  orig: 210, 540\n  offset: 11, 5\n  index: -1\nimages/tp_007\n  rotate: false\n  xy: 1342, 30\n  size: 182, 512\n  orig: 210, 540\n  offset: 15, 14\n  index: -1\nimages/tp_008\n  rotate: false\n  xy: 1712, 34\n  size: 184, 508\n  orig: 210, 540\n  offset: 13, 19\n  index: -1\nimages/tp_009\n  rotate: false\n  xy: 1526, 34\n  size: 184, 508\n  orig: 210, 540\n  offset: 13, 19\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "27gfqMTYRMvoWSsb4uqRUL"
+    }
+  ],
+  "textureNames": [
+    "TingPai.png"
+  ]
+}

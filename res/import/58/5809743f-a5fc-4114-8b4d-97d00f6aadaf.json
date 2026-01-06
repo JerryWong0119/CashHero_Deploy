@@ -1,1 +1,294 @@
-{"__type__":"sp.SkeletonData","_name":"kuloushouzhi","_skeletonJson":{"skeleton":{"hash":"JAwTW0KdwtxQh74FLLmbByUOoxg","spine":"3.6.53","width":0,"height":0,"images":"../sucai/"},"bones":[{"name":"root"},{"name":"you","parent":"root"},{"name":"shouzhi","parent":"you","x":328.25,"y":-97.89},{"name":"you2","parent":"root","scaleX":-1},{"name":"shouzhi2","parent":"you2","x":328.25,"y":-97.89},{"name":"骨骼","parent":"root"}],"slots":[{"name":"jp_reel","bone":"骨骼"},{"name":"shouzhi","bone":"shouzhi"},{"name":"shouzhi2","bone":"shouzhi2"}],"skins":{"default":{"shouzhi":{"theme214_reelbonus3":{"x":-82.76,"y":-25.56,"width":180,"height":153}},"shouzhi2":{"theme214_reelbonus3":{"x":-82.76,"y":-25.56,"width":180,"height":153}}}},"animations":{"animation":{"slots":{"shouzhi":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3,"color":"ffffffff"}],"attachment":[{"time":0,"name":"theme214_reelbonus3"}]},"shouzhi2":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3,"color":"ffffffff"}],"attachment":[{"time":0,"name":"theme214_reelbonus3"}]}},"bones":{"shouzhi":{"rotate":[{"time":0,"angle":-60.27,"curve":[0.25,0,0.75,1]},{"time":0.3,"angle":7.98,"curve":[0.25,0,0.75,1]},{"time":0.4667,"angle":14.02,"curve":[0.25,0,0.75,1]},{"time":0.6667,"angle":-45.49,"curve":[0.25,0,0.75,1]},{"time":0.8,"angle":28.15,"curve":[0.25,0,0.75,1]},{"time":1.1667,"angle":0}]},"you":{"translate":[{"time":0,"x":69.97,"y":47.27},{"time":0.3,"x":0,"y":0}]},"shouzhi2":{"rotate":[{"time":0,"angle":-60.27,"curve":[0.25,0,0.75,1]},{"time":0.3,"angle":7.98,"curve":[0.25,0,0.75,1]},{"time":0.4667,"angle":14.02,"curve":[0.25,0,0.75,1]},{"time":0.6667,"angle":-45.49,"curve":[0.25,0,0.75,1]},{"time":0.8,"angle":28.15,"curve":[0.25,0,0.75,1]},{"time":1.1667,"angle":0}]},"you2":{"translate":[{"time":0,"x":-68.08,"y":58.62},{"time":0.3,"x":0,"y":0}]}}},"animation2":{"slots":{"shouzhi":{"attachment":[{"time":0,"name":"theme214_reelbonus3"}]},"shouzhi2":{"attachment":[{"time":0,"name":"theme214_reelbonus3"}]}}}}},"_atlasText":"\nkuloushouzhi.png\nsize: 183,181\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme214_reelbonus3\n  rotate: false\n  xy: 2, 26\n  size: 179, 153\n  orig: 180, 153\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"b3sl+3QDdP8o/BvpJ9zv+M"}],"textureNames":["kuloushouzhi.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "kuloushouzhi",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "JAwTW0KdwtxQh74FLLmbByUOoxg",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "../sucai/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "you",
+        "parent": "root"
+      },
+      {
+        "name": "shouzhi",
+        "parent": "you",
+        "x": 328.25,
+        "y": -97.89
+      },
+      {
+        "name": "you2",
+        "parent": "root",
+        "scaleX": -1
+      },
+      {
+        "name": "shouzhi2",
+        "parent": "you2",
+        "x": 328.25,
+        "y": -97.89
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "jp_reel",
+        "bone": "骨骼"
+      },
+      {
+        "name": "shouzhi",
+        "bone": "shouzhi"
+      },
+      {
+        "name": "shouzhi2",
+        "bone": "shouzhi2"
+      }
+    ],
+    "skins": {
+      "default": {
+        "shouzhi": {
+          "theme214_reelbonus3": {
+            "x": -82.76,
+            "y": -25.56,
+            "width": 180,
+            "height": 153
+          }
+        },
+        "shouzhi2": {
+          "theme214_reelbonus3": {
+            "x": -82.76,
+            "y": -25.56,
+            "width": 180,
+            "height": 153
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "shouzhi": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme214_reelbonus3"
+              }
+            ]
+          },
+          "shouzhi2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme214_reelbonus3"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "shouzhi": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -60.27,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3,
+                "angle": 7.98,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "angle": 14.02,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "angle": -45.49,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8,
+                "angle": 28.15,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "angle": 0
+              }
+            ]
+          },
+          "you": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 69.97,
+                "y": 47.27
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "shouzhi2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -60.27,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3,
+                "angle": 7.98,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "angle": 14.02,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "angle": -45.49,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8,
+                "angle": 28.15,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "angle": 0
+              }
+            ]
+          },
+          "you2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -68.08,
+                "y": 58.62
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "shouzhi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme214_reelbonus3"
+              }
+            ]
+          },
+          "shouzhi2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme214_reelbonus3"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nkuloushouzhi.png\nsize: 183,181\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme214_reelbonus3\n  rotate: false\n  xy: 2, 26\n  size: 179, 153\n  orig: 180, 153\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "b3sl+3QDdP8o/BvpJ9zv+M"
+    }
+  ],
+  "textureNames": [
+    "kuloushouzhi.png"
+  ]
+}

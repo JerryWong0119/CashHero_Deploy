@@ -1,1 +1,644 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"Kzydv7s4NEeteOp3KByl8S+jSYw","spine":"3.6.53","width":223.42,"height":159.63,"images":"C:/Users/mayn/Desktop/suo_01"},"bones":[{"name":"root"},{"name":"suo","parent":"root","rotation":19.56},{"name":"2","parent":"suo"},{"name":"suo/suoti","parent":"2","x":31.48,"y":-142.51},{"name":"suo/suotou","parent":"2","rotation":22.61,"x":13.89,"y":-75.52},{"name":"suo/tielian02","parent":"suo","rotation":-13.34,"x":-63.4,"y":-60.19},{"name":"suo/tielian03","parent":"suo","x":68.95,"y":-6.89}],"slots":[{"name":"suo/suoti","bone":"suo/suoti","attachment":"suo/suoti"},{"name":"suo/suotou","bone":"suo/suotou","attachment":"suo/suotou"},{"name":"suo/tielian02","bone":"suo/tielian02","attachment":"suo/tielian02"},{"name":"suo/tielian03","bone":"suo/tielian03","attachment":"suo/tielian03"}],"skins":{"default":{"suo/suoti":{"suo/suoti":{"x":-8.1,"y":6,"width":47,"height":39}},"suo/suotou":{"suo/suotou":{"x":-8.57,"y":15.55,"rotation":-22.61,"width":38,"height":28}},"suo/tielian02":{"suo/tielian02":{"x":-1.38,"y":-12.51,"rotation":13.34,"width":27,"height":35}},"suo/tielian03":{"suo/tielian03":{"x":31.54,"y":-11.44,"scaleX":1.045,"scaleY":1.045,"width":80,"height":42}}}},"animations":{"animation1":{"slots":{"suo/suoti":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.6667,"color":"ffffffff"}]},"suo/suotou":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.6667,"color":"ffffffff"}]},"suo/tielian02":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.6667,"color":"ffffffff"}]},"suo/tielian03":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.6667,"color":"ffffffff"}]}},"bones":{"2":{"translate":[{"time":0,"x":7.46,"y":-7.46},{"time":0.3333,"x":-2.8,"y":6.53},{"time":0.4,"x":0,"y":0,"curve":"stepped"},{"time":0.6667,"x":0,"y":0}]},"suo/suoti":{"rotate":[{"time":0,"angle":3.04,"curve":"stepped"},{"time":0.6667,"angle":3.04}],"translate":[{"time":0,"x":-271.55,"y":254.36,"curve":"stepped"},{"time":0.5333,"x":-271.55,"y":254.36},{"time":0.6667,"x":-274.58,"y":261.18}]},"suo/suotou":{"translate":[{"time":0,"x":-256.08,"y":209.02,"curve":"stepped"},{"time":0.6667,"x":-256.08,"y":209.02}],"scale":[{"time":0,"x":-1.04,"y":1,"curve":"stepped"},{"time":0.2667,"x":-1.04,"y":1},{"time":0.3333,"x":1,"y":1,"curve":"stepped"},{"time":0.6667,"x":1,"y":1}]},"suo/tielian02":{"rotate":[{"time":0,"angle":28.01},{"time":0.3333,"angle":0,"curve":"stepped"},{"time":0.6667,"angle":0}],"translate":[{"time":0,"x":-170.37,"y":232.19,"curve":"stepped"},{"time":0.6667,"x":-170.37,"y":232.19}],"scale":[{"time":0,"x":0.755,"y":0.644},{"time":0.3333,"x":1,"y":1,"curve":"stepped"},{"time":0.6667,"x":1,"y":1}]},"suo/tielian03":{"rotate":[{"time":0,"angle":-17.96},{"time":0.3333,"angle":0,"curve":"stepped"},{"time":0.6667,"angle":0}],"translate":[{"time":0,"x":-399.84,"y":176.62,"curve":"stepped"},{"time":0.6667,"x":-399.84,"y":176.62}],"scale":[{"time":0,"x":1.059,"y":1.059}]}},"drawOrder":[{"time":0,"offsets":[{"slot":"suo/suoti","offset":3}]},{"time":0.6667,"offsets":[{"slot":"suo/suoti","offset":3}]}]},"animation2":{"slots":{"suo/suoti":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.6667,"color":"ffffff00"}]},"suo/suotou":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.6667,"color":"ffffff00"}]},"suo/tielian02":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.6667,"color":"ffffff00"}]},"suo/tielian03":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.6667,"color":"ffffff00"}]}},"bones":{"2":{"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.2667,"x":0,"y":0},{"time":0.3333,"x":-2.8,"y":6.53},{"time":0.6667,"x":7.46,"y":-7.46}]},"suo/suoti":{"rotate":[{"time":0,"angle":3.04}],"translate":[{"time":0,"x":-274.58,"y":261.18},{"time":0.1333,"x":-271.55,"y":254.36}]},"suo/suotou":{"translate":[{"time":0,"x":-256.08,"y":209.02}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.3333,"x":1,"y":1},{"time":0.4,"x":-1.04,"y":1}]},"suo/tielian02":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":0.3333,"angle":0,"curve":[0.072,0.25,0.75,1]},{"time":0.6667,"angle":28.01}],"translate":[{"time":0,"x":-170.37,"y":232.19}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.3333,"x":1,"y":1,"curve":[0.072,0.25,0.75,1]},{"time":0.6667,"x":0.755,"y":0.644}]},"suo/tielian03":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":0.3333,"angle":0},{"time":0.6667,"angle":-17.96}],"translate":[{"time":0,"x":-399.84,"y":176.62}]}},"drawOrder":[{"time":0,"offsets":[{"slot":"suo/suoti","offset":3}]},{"time":0.5,"offsets":[{"slot":"suo/suoti","offset":3}]}]}}},"_atlasText":"\nspine.png\nsize: 256,64\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nsuo/suoti\n  rotate: false\n  xy: 84, 5\n  size: 47, 39\n  orig: 47, 39\n  offset: 0, 0\n  index: -1\nsuo/suotou\n  rotate: false\n  xy: 133, 16\n  size: 38, 28\n  orig: 38, 28\n  offset: 0, 0\n  index: -1\nsuo/tielian02\n  rotate: true\n  xy: 173, 17\n  size: 27, 35\n  orig: 27, 35\n  offset: 0, 0\n  index: -1\nsuo/tielian03\n  rotate: false\n  xy: 2, 2\n  size: 80, 42\n  orig: 80, 42\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"1cFVXfowpEeoPKDF+uR2AA"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Kzydv7s4NEeteOp3KByl8S+jSYw",
+      "spine": "3.6.53",
+      "width": 223.42,
+      "height": 159.63,
+      "images": "C:/Users/mayn/Desktop/suo_01"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "suo",
+        "parent": "root",
+        "rotation": 19.56
+      },
+      {
+        "name": "2",
+        "parent": "suo"
+      },
+      {
+        "name": "suo/suoti",
+        "parent": "2",
+        "x": 31.48,
+        "y": -142.51
+      },
+      {
+        "name": "suo/suotou",
+        "parent": "2",
+        "rotation": 22.61,
+        "x": 13.89,
+        "y": -75.52
+      },
+      {
+        "name": "suo/tielian02",
+        "parent": "suo",
+        "rotation": -13.34,
+        "x": -63.4,
+        "y": -60.19
+      },
+      {
+        "name": "suo/tielian03",
+        "parent": "suo",
+        "x": 68.95,
+        "y": -6.89
+      }
+    ],
+    "slots": [
+      {
+        "name": "suo/suoti",
+        "bone": "suo/suoti",
+        "attachment": "suo/suoti"
+      },
+      {
+        "name": "suo/suotou",
+        "bone": "suo/suotou",
+        "attachment": "suo/suotou"
+      },
+      {
+        "name": "suo/tielian02",
+        "bone": "suo/tielian02",
+        "attachment": "suo/tielian02"
+      },
+      {
+        "name": "suo/tielian03",
+        "bone": "suo/tielian03",
+        "attachment": "suo/tielian03"
+      }
+    ],
+    "skins": {
+      "default": {
+        "suo/suoti": {
+          "suo/suoti": {
+            "x": -8.1,
+            "y": 6,
+            "width": 47,
+            "height": 39
+          }
+        },
+        "suo/suotou": {
+          "suo/suotou": {
+            "x": -8.57,
+            "y": 15.55,
+            "rotation": -22.61,
+            "width": 38,
+            "height": 28
+          }
+        },
+        "suo/tielian02": {
+          "suo/tielian02": {
+            "x": -1.38,
+            "y": -12.51,
+            "rotation": 13.34,
+            "width": 27,
+            "height": 35
+          }
+        },
+        "suo/tielian03": {
+          "suo/tielian03": {
+            "x": 31.54,
+            "y": -11.44,
+            "scaleX": 1.045,
+            "scaleY": 1.045,
+            "width": 80,
+            "height": 42
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "suo/suoti": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "suo/suotou": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "suo/tielian02": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "suo/tielian03": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 7.46,
+                "y": -7.46
+              },
+              {
+                "time": 0.3333,
+                "x": -2.8,
+                "y": 6.53
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "suo/suoti": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 3.04,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "angle": 3.04
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -271.55,
+                "y": 254.36,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5333,
+                "x": -271.55,
+                "y": 254.36
+              },
+              {
+                "time": 0.6667,
+                "x": -274.58,
+                "y": 261.18
+              }
+            ]
+          },
+          "suo/suotou": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -256.08,
+                "y": 209.02,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "x": -256.08,
+                "y": 209.02
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": -1.04,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2667,
+                "x": -1.04,
+                "y": 1
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "suo/tielian02": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 28.01
+              },
+              {
+                "time": 0.3333,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -170.37,
+                "y": 232.19,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "x": -170.37,
+                "y": 232.19
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.755,
+                "y": 0.644
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "suo/tielian03": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -17.96
+              },
+              {
+                "time": 0.3333,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -399.84,
+                "y": 176.62,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "x": -399.84,
+                "y": 176.62
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.059,
+                "y": 1.059
+              }
+            ]
+          }
+        },
+        "drawOrder": [
+          {
+            "time": 0,
+            "offsets": [
+              {
+                "slot": "suo/suoti",
+                "offset": 3
+              }
+            ]
+          },
+          {
+            "time": 0.6667,
+            "offsets": [
+              {
+                "slot": "suo/suoti",
+                "offset": 3
+              }
+            ]
+          }
+        ]
+      },
+      "animation2": {
+        "slots": {
+          "suo/suoti": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "suo/suotou": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "suo/tielian02": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "suo/tielian03": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.3333,
+                "x": -2.8,
+                "y": 6.53
+              },
+              {
+                "time": 0.6667,
+                "x": 7.46,
+                "y": -7.46
+              }
+            ]
+          },
+          "suo/suoti": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 3.04
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -274.58,
+                "y": 261.18
+              },
+              {
+                "time": 0.1333,
+                "x": -271.55,
+                "y": 254.36
+              }
+            ]
+          },
+          "suo/suotou": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -256.08,
+                "y": 209.02
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.4,
+                "x": -1.04,
+                "y": 1
+              }
+            ]
+          },
+          "suo/tielian02": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "angle": 0,
+                "curve": [
+                  0.072,
+                  0.25,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "angle": 28.01
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -170.37,
+                "y": 232.19
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.072,
+                  0.25,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0.755,
+                "y": 0.644
+              }
+            ]
+          },
+          "suo/tielian03": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "angle": 0
+              },
+              {
+                "time": 0.6667,
+                "angle": -17.96
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -399.84,
+                "y": 176.62
+              }
+            ]
+          }
+        },
+        "drawOrder": [
+          {
+            "time": 0,
+            "offsets": [
+              {
+                "slot": "suo/suoti",
+                "offset": 3
+              }
+            ]
+          },
+          {
+            "time": 0.5,
+            "offsets": [
+              {
+                "slot": "suo/suoti",
+                "offset": 3
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 256,64\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nsuo/suoti\n  rotate: false\n  xy: 84, 5\n  size: 47, 39\n  orig: 47, 39\n  offset: 0, 0\n  index: -1\nsuo/suotou\n  rotate: false\n  xy: 133, 16\n  size: 38, 28\n  orig: 38, 28\n  offset: 0, 0\n  index: -1\nsuo/tielian02\n  rotate: true\n  xy: 173, 17\n  size: 27, 35\n  orig: 27, 35\n  offset: 0, 0\n  index: -1\nsuo/tielian03\n  rotate: false\n  xy: 2, 2\n  size: 80, 42\n  orig: 80, 42\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "1cFVXfowpEeoPKDF+uR2AA"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

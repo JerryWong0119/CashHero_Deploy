@@ -1,1 +1,210 @@
-[{"__type__":"cc.BitmapFont","_name":"font_orange","spriteFrame":{"__uuid__":"f721rRUzlBY6a8NTHY6MAT"},"fontSize":22,"_fntConfig":{"commonHeight":14,"fontSize":22,"atlasName":"font_orange.png","fontDefDictionary":{"32":{"rect":{"x":92,"y":0,"width":6,"height":14},"xOffset":0,"yOffset":0,"xAdvance":6},"48":{"rect":{"x":14,"y":0,"width":11,"height":14},"xOffset":0,"yOffset":0,"xAdvance":11},"49":{"rect":{"x":27,"y":0,"width":11,"height":14},"xOffset":0,"yOffset":0,"xAdvance":11},"50":{"rect":{"x":40,"y":0,"width":11,"height":14},"xOffset":0,"yOffset":0,"xAdvance":11},"51":{"rect":{"x":53,"y":0,"width":11,"height":14},"xOffset":0,"yOffset":0,"xAdvance":11},"52":{"rect":{"x":66,"y":0,"width":11,"height":14},"xOffset":0,"yOffset":0,"xAdvance":11},"53":{"rect":{"x":79,"y":0,"width":11,"height":14},"xOffset":0,"yOffset":0,"xAdvance":11},"54":{"rect":{"x":0,"y":16,"width":11,"height":14},"xOffset":0,"yOffset":0,"xAdvance":11},"55":{"rect":{"x":13,"y":16,"width":11,"height":14},"xOffset":0,"yOffset":0,"xAdvance":11},"56":{"rect":{"x":26,"y":16,"width":11,"height":14},"xOffset":0,"yOffset":0,"xAdvance":11},"57":{"rect":{"x":39,"y":16,"width":11,"height":14},"xOffset":0,"yOffset":0,"xAdvance":11},"73":{"rect":{"x":78,"y":16,"width":7,"height":14},"xOffset":0,"yOffset":0,"xAdvance":7},"78":{"rect":{"x":52,"y":16,"width":11,"height":14},"xOffset":0,"yOffset":0,"xAdvance":11},"80":{"rect":{"x":65,"y":16,"width":11,"height":14},"xOffset":0,"yOffset":0,"xAdvance":11},"83":{"rect":{"x":0,"y":0,"width":12,"height":14},"xOffset":0,"yOffset":0,"xAdvance":12}},"kerningDict":{}}},{"__type__":"cc.SpriteFrame","content":{"name":"font_orange","texture":"05OEqbCBBJZ5Bh7dLaBV4h","rect":[0,0,90,30],"offset":[-5,5],"originalSize":[100,40],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.BitmapFont",
+    "_name": "font_orange",
+    "spriteFrame": {
+      "__uuid__": "f721rRUzlBY6a8NTHY6MAT"
+    },
+    "fontSize": 22,
+    "_fntConfig": {
+      "commonHeight": 14,
+      "fontSize": 22,
+      "atlasName": "font_orange.png",
+      "fontDefDictionary": {
+        "32": {
+          "rect": {
+            "x": 92,
+            "y": 0,
+            "width": 6,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 6
+        },
+        "48": {
+          "rect": {
+            "x": 14,
+            "y": 0,
+            "width": 11,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 11
+        },
+        "49": {
+          "rect": {
+            "x": 27,
+            "y": 0,
+            "width": 11,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 11
+        },
+        "50": {
+          "rect": {
+            "x": 40,
+            "y": 0,
+            "width": 11,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 11
+        },
+        "51": {
+          "rect": {
+            "x": 53,
+            "y": 0,
+            "width": 11,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 11
+        },
+        "52": {
+          "rect": {
+            "x": 66,
+            "y": 0,
+            "width": 11,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 11
+        },
+        "53": {
+          "rect": {
+            "x": 79,
+            "y": 0,
+            "width": 11,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 11
+        },
+        "54": {
+          "rect": {
+            "x": 0,
+            "y": 16,
+            "width": 11,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 11
+        },
+        "55": {
+          "rect": {
+            "x": 13,
+            "y": 16,
+            "width": 11,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 11
+        },
+        "56": {
+          "rect": {
+            "x": 26,
+            "y": 16,
+            "width": 11,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 11
+        },
+        "57": {
+          "rect": {
+            "x": 39,
+            "y": 16,
+            "width": 11,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 11
+        },
+        "73": {
+          "rect": {
+            "x": 78,
+            "y": 16,
+            "width": 7,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 7
+        },
+        "78": {
+          "rect": {
+            "x": 52,
+            "y": 16,
+            "width": 11,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 11
+        },
+        "80": {
+          "rect": {
+            "x": 65,
+            "y": 16,
+            "width": 11,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 11
+        },
+        "83": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 14
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 12
+        }
+      },
+      "kerningDict": {}
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "font_orange",
+      "texture": "05OEqbCBBJZ5Bh7dLaBV4h",
+      "rect": [
+        0,
+        0,
+        90,
+        30
+      ],
+      "offset": [
+        -5,
+        5
+      ],
+      "originalSize": [
+        100,
+        40
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

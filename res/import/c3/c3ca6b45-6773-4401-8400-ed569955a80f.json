@@ -1,1 +1,288 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"16I2ve7OGx+7VXpcqtrANxPLOTE","spine":"3.6.53","width":1060,"height":1560},"bones":[{"name":"root"},{"name":"zong","parent":"root"},{"name":"1","parent":"zong","rotation":18.62,"scaleX":0.813,"scaleY":0.296},{"name":"b","parent":"zong","x":1.06,"y":0.53,"scaleX":0.899,"scaleY":0.899},{"name":"quan","parent":"1","rotation":-18.62},{"name":"yuan","parent":"zong"}],"slots":[{"name":"194-power-shot1","bone":"root"},{"name":"quan_0","bone":"quan","additive":1},{"name":"yuan_0","bone":"yuan","additive":1},{"name":"b","bone":"b","additive":1}],"skins":{"default":{"b":{"ju_1":{"width":150,"height":150},"ju_2":{"width":150,"height":150},"ju_3":{"width":150,"height":150},"ju_4":{"width":150,"height":150},"ju_5":{"width":150,"height":150},"ju_6":{"width":150,"height":150},"ju_7":{"width":150,"height":150},"ju_8":{"width":150,"height":150},"ju_9":{"width":150,"height":150}},"quan_0":{"quan_0":{"width":150,"height":150}},"yuan_0":{"yuan_0":{"width":75,"height":75}}}},"animations":{"animation":{"slots":{"b":{"color":[{"time":0,"color":"ffffff00"},{"time":0.0667,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.3667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"ju_9"},{"time":0.0667,"name":"ju_9"},{"time":0.1,"name":"ju_8"},{"time":0.1333,"name":"ju_7"},{"time":0.1667,"name":"ju_6"},{"time":0.2,"name":"ju_5"},{"time":0.2333,"name":"ju_4"},{"time":0.2667,"name":"ju_3"},{"time":0.3,"name":"ju_2"},{"time":0.3333,"name":"ju_1"}]},"quan_0":{"color":[{"time":0,"color":"ffffff00","curve":[0.258,0,0.619,0.45]},{"time":0.3333,"color":"ffffffff","curve":[0.363,0.44,0.755,1]},{"time":0.6667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"quan_0"}]},"yuan_0":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.4333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"yuan_0"}]}},"bones":{"quan":{"scale":[{"time":0,"x":0.908,"y":0.908,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1.571,"y":1.571}]}}}}},"_atlasText":"\nsjt_z.png\nsize: 389,387\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nju_1\n  rotate: false\n  xy: 2, 162\n  size: 118, 101\n  orig: 120, 120\n  offset: 1, 3\n  index: -1\nju_2\n  rotate: false\n  xy: 242, 274\n  size: 116, 111\n  orig: 120, 120\n  offset: 2, 5\n  index: -1\nju_3\n  rotate: false\n  xy: 124, 271\n  size: 116, 114\n  orig: 120, 120\n  offset: 2, 2\n  index: -1\nju_4\n  rotate: false\n  xy: 242, 159\n  size: 112, 113\n  orig: 120, 120\n  offset: 3, 2\n  index: -1\nju_5\n  rotate: false\n  xy: 124, 159\n  size: 108, 110\n  orig: 120, 120\n  offset: 5, 3\n  index: -1\nju_6\n  rotate: false\n  xy: 2, 54\n  size: 101, 106\n  orig: 120, 120\n  offset: 9, 6\n  index: -1\nju_7\n  rotate: false\n  xy: 105, 58\n  size: 95, 99\n  orig: 120, 120\n  offset: 12, 10\n  index: -1\nju_8\n  rotate: false\n  xy: 202, 65\n  size: 94, 92\n  orig: 120, 120\n  offset: 15, 14\n  index: -1\nju_9\n  rotate: false\n  xy: 298, 72\n  size: 89, 85\n  orig: 120, 120\n  offset: 18, 17\n  index: -1\nquan_0\n  rotate: false\n  xy: 2, 265\n  size: 120, 120\n  orig: 120, 120\n  offset: 0, 0\n  index: -1\nyuan_0\n  rotate: false\n  xy: 298, 10\n  size: 60, 60\n  orig: 60, 60\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"4aK2NXRnBPDpa3BHKhq/gj"}],"textureNames":["sjt_z.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "16I2ve7OGx+7VXpcqtrANxPLOTE",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root"
+      },
+      {
+        "name": "1",
+        "parent": "zong",
+        "rotation": 18.62,
+        "scaleX": 0.813,
+        "scaleY": 0.296
+      },
+      {
+        "name": "b",
+        "parent": "zong",
+        "x": 1.06,
+        "y": 0.53,
+        "scaleX": 0.899,
+        "scaleY": 0.899
+      },
+      {
+        "name": "quan",
+        "parent": "1",
+        "rotation": -18.62
+      },
+      {
+        "name": "yuan",
+        "parent": "zong"
+      }
+    ],
+    "slots": [
+      {
+        "name": "194-power-shot1",
+        "bone": "root"
+      },
+      {
+        "name": "quan_0",
+        "bone": "quan",
+        "additive": 1
+      },
+      {
+        "name": "yuan_0",
+        "bone": "yuan",
+        "additive": 1
+      },
+      {
+        "name": "b",
+        "bone": "b",
+        "additive": 1
+      }
+    ],
+    "skins": {
+      "default": {
+        "b": {
+          "ju_1": {
+            "width": 150,
+            "height": 150
+          },
+          "ju_2": {
+            "width": 150,
+            "height": 150
+          },
+          "ju_3": {
+            "width": 150,
+            "height": 150
+          },
+          "ju_4": {
+            "width": 150,
+            "height": 150
+          },
+          "ju_5": {
+            "width": 150,
+            "height": 150
+          },
+          "ju_6": {
+            "width": 150,
+            "height": 150
+          },
+          "ju_7": {
+            "width": 150,
+            "height": 150
+          },
+          "ju_8": {
+            "width": 150,
+            "height": 150
+          },
+          "ju_9": {
+            "width": 150,
+            "height": 150
+          }
+        },
+        "quan_0": {
+          "quan_0": {
+            "width": 150,
+            "height": 150
+          }
+        },
+        "yuan_0": {
+          "yuan_0": {
+            "width": 75,
+            "height": 75
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "b": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.3667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "ju_9"
+              },
+              {
+                "time": 0.0667,
+                "name": "ju_9"
+              },
+              {
+                "time": 0.1,
+                "name": "ju_8"
+              },
+              {
+                "time": 0.1333,
+                "name": "ju_7"
+              },
+              {
+                "time": 0.1667,
+                "name": "ju_6"
+              },
+              {
+                "time": 0.2,
+                "name": "ju_5"
+              },
+              {
+                "time": 0.2333,
+                "name": "ju_4"
+              },
+              {
+                "time": 0.2667,
+                "name": "ju_3"
+              },
+              {
+                "time": 0.3,
+                "name": "ju_2"
+              },
+              {
+                "time": 0.3333,
+                "name": "ju_1"
+              }
+            ]
+          },
+          "quan_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.258,
+                  0,
+                  0.619,
+                  0.45
+                ]
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": [
+                  0.363,
+                  0.44,
+                  0.755,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "quan_0"
+              }
+            ]
+          },
+          "yuan_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "yuan_0"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "quan": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.908,
+                "y": 0.908,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1.571,
+                "y": 1.571
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nsjt_z.png\nsize: 389,387\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nju_1\n  rotate: false\n  xy: 2, 162\n  size: 118, 101\n  orig: 120, 120\n  offset: 1, 3\n  index: -1\nju_2\n  rotate: false\n  xy: 242, 274\n  size: 116, 111\n  orig: 120, 120\n  offset: 2, 5\n  index: -1\nju_3\n  rotate: false\n  xy: 124, 271\n  size: 116, 114\n  orig: 120, 120\n  offset: 2, 2\n  index: -1\nju_4\n  rotate: false\n  xy: 242, 159\n  size: 112, 113\n  orig: 120, 120\n  offset: 3, 2\n  index: -1\nju_5\n  rotate: false\n  xy: 124, 159\n  size: 108, 110\n  orig: 120, 120\n  offset: 5, 3\n  index: -1\nju_6\n  rotate: false\n  xy: 2, 54\n  size: 101, 106\n  orig: 120, 120\n  offset: 9, 6\n  index: -1\nju_7\n  rotate: false\n  xy: 105, 58\n  size: 95, 99\n  orig: 120, 120\n  offset: 12, 10\n  index: -1\nju_8\n  rotate: false\n  xy: 202, 65\n  size: 94, 92\n  orig: 120, 120\n  offset: 15, 14\n  index: -1\nju_9\n  rotate: false\n  xy: 298, 72\n  size: 89, 85\n  orig: 120, 120\n  offset: 18, 17\n  index: -1\nquan_0\n  rotate: false\n  xy: 2, 265\n  size: 120, 120\n  orig: 120, 120\n  offset: 0, 0\n  index: -1\nyuan_0\n  rotate: false\n  xy: 298, 10\n  size: 60, 60\n  orig: 60, 60\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "4aK2NXRnBPDpa3BHKhq/gj"
+    }
+  ],
+  "textureNames": [
+    "sjt_z.png"
+  ]
+}

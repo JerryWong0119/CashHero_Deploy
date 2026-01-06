@@ -1,1 +1,254 @@
-[{"__type__":"cc.BitmapFont","_name":"free_games_zi","spriteFrame":{"__uuid__":"60VoDKpxpCUo0DCkW4okJR"},"fontSize":32,"_fntConfig":{"commonHeight":76,"fontSize":32,"atlasName":"free_games_zi.png","fontDefDictionary":{"9":{"rect":{"x":0,"y":0,"width":0,"height":0},"xOffset":0,"yOffset":0,"xAdvance":112},"32":{"rect":{"x":0,"y":0,"width":0,"height":0},"xOffset":0,"yOffset":0,"xAdvance":14},"44":{"rect":{"x":0,"y":217,"width":36,"height":44},"xOffset":0,"yOffset":39,"xAdvance":28},"46":{"rect":{"x":37,"y":217,"width":34,"height":39},"xOffset":0,"yOffset":37,"xAdvance":26},"47":{"rect":{"x":226,"y":67,"width":38,"height":75},"xOffset":0,"yOffset":4,"xAdvance":30},"48":{"rect":{"x":0,"y":144,"width":59,"height":66},"xOffset":0,"yOffset":10,"xAdvance":51},"49":{"rect":{"x":225,"y":200,"width":37,"height":65},"xOffset":0,"yOffset":10,"xAdvance":29},"50":{"rect":{"x":125,"y":0,"width":53,"height":66},"xOffset":0,"yOffset":10,"xAdvance":45},"51":{"rect":{"x":179,"y":0,"width":50,"height":66},"xOffset":0,"yOffset":10,"xAdvance":42},"52":{"rect":{"x":117,"y":67,"width":54,"height":66},"xOffset":0,"yOffset":9,"xAdvance":46},"53":{"rect":{"x":174,"y":134,"width":51,"height":65},"xOffset":0,"yOffset":11,"xAdvance":43},"54":{"rect":{"x":61,"y":72,"width":55,"height":66},"xOffset":0,"yOffset":10,"xAdvance":47},"55":{"rect":{"x":174,"y":200,"width":50,"height":65},"xOffset":0,"yOffset":10,"xAdvance":42},"56":{"rect":{"x":172,"y":67,"width":51,"height":66},"xOffset":0,"yOffset":10,"xAdvance":43},"57":{"rect":{"x":70,"y":0,"width":54,"height":66},"xOffset":0,"yOffset":10,"xAdvance":46},"66":{"rect":{"x":60,"y":144,"width":59,"height":72},"xOffset":0,"yOffset":4,"xAdvance":51},"75":{"rect":{"x":0,"y":72,"width":60,"height":71},"xOffset":0,"yOffset":4,"xAdvance":52},"77":{"rect":{"x":0,"y":0,"width":69,"height":71},"xOffset":0,"yOffset":4,"xAdvance":61},"84":{"rect":{"x":120,"y":134,"width":53,"height":71},"xOffset":0,"yOffset":4,"xAdvance":45}},"kerningDict":{}}},{"__type__":"cc.SpriteFrame","content":{"name":"free_games_zi","texture":"18V5Cpc7FFk67ZvfzabqnG","rect":[0,0,264,265],"offset":[-0.5,0.5],"originalSize":[265,266],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.BitmapFont",
+    "_name": "free_games_zi",
+    "spriteFrame": {
+      "__uuid__": "60VoDKpxpCUo0DCkW4okJR"
+    },
+    "fontSize": 32,
+    "_fntConfig": {
+      "commonHeight": 76,
+      "fontSize": 32,
+      "atlasName": "free_games_zi.png",
+      "fontDefDictionary": {
+        "9": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 112
+        },
+        "32": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 14
+        },
+        "44": {
+          "rect": {
+            "x": 0,
+            "y": 217,
+            "width": 36,
+            "height": 44
+          },
+          "xOffset": 0,
+          "yOffset": 39,
+          "xAdvance": 28
+        },
+        "46": {
+          "rect": {
+            "x": 37,
+            "y": 217,
+            "width": 34,
+            "height": 39
+          },
+          "xOffset": 0,
+          "yOffset": 37,
+          "xAdvance": 26
+        },
+        "47": {
+          "rect": {
+            "x": 226,
+            "y": 67,
+            "width": 38,
+            "height": 75
+          },
+          "xOffset": 0,
+          "yOffset": 4,
+          "xAdvance": 30
+        },
+        "48": {
+          "rect": {
+            "x": 0,
+            "y": 144,
+            "width": 59,
+            "height": 66
+          },
+          "xOffset": 0,
+          "yOffset": 10,
+          "xAdvance": 51
+        },
+        "49": {
+          "rect": {
+            "x": 225,
+            "y": 200,
+            "width": 37,
+            "height": 65
+          },
+          "xOffset": 0,
+          "yOffset": 10,
+          "xAdvance": 29
+        },
+        "50": {
+          "rect": {
+            "x": 125,
+            "y": 0,
+            "width": 53,
+            "height": 66
+          },
+          "xOffset": 0,
+          "yOffset": 10,
+          "xAdvance": 45
+        },
+        "51": {
+          "rect": {
+            "x": 179,
+            "y": 0,
+            "width": 50,
+            "height": 66
+          },
+          "xOffset": 0,
+          "yOffset": 10,
+          "xAdvance": 42
+        },
+        "52": {
+          "rect": {
+            "x": 117,
+            "y": 67,
+            "width": 54,
+            "height": 66
+          },
+          "xOffset": 0,
+          "yOffset": 9,
+          "xAdvance": 46
+        },
+        "53": {
+          "rect": {
+            "x": 174,
+            "y": 134,
+            "width": 51,
+            "height": 65
+          },
+          "xOffset": 0,
+          "yOffset": 11,
+          "xAdvance": 43
+        },
+        "54": {
+          "rect": {
+            "x": 61,
+            "y": 72,
+            "width": 55,
+            "height": 66
+          },
+          "xOffset": 0,
+          "yOffset": 10,
+          "xAdvance": 47
+        },
+        "55": {
+          "rect": {
+            "x": 174,
+            "y": 200,
+            "width": 50,
+            "height": 65
+          },
+          "xOffset": 0,
+          "yOffset": 10,
+          "xAdvance": 42
+        },
+        "56": {
+          "rect": {
+            "x": 172,
+            "y": 67,
+            "width": 51,
+            "height": 66
+          },
+          "xOffset": 0,
+          "yOffset": 10,
+          "xAdvance": 43
+        },
+        "57": {
+          "rect": {
+            "x": 70,
+            "y": 0,
+            "width": 54,
+            "height": 66
+          },
+          "xOffset": 0,
+          "yOffset": 10,
+          "xAdvance": 46
+        },
+        "66": {
+          "rect": {
+            "x": 60,
+            "y": 144,
+            "width": 59,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 4,
+          "xAdvance": 51
+        },
+        "75": {
+          "rect": {
+            "x": 0,
+            "y": 72,
+            "width": 60,
+            "height": 71
+          },
+          "xOffset": 0,
+          "yOffset": 4,
+          "xAdvance": 52
+        },
+        "77": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 69,
+            "height": 71
+          },
+          "xOffset": 0,
+          "yOffset": 4,
+          "xAdvance": 61
+        },
+        "84": {
+          "rect": {
+            "x": 120,
+            "y": 134,
+            "width": 53,
+            "height": 71
+          },
+          "xOffset": 0,
+          "yOffset": 4,
+          "xAdvance": 45
+        }
+      },
+      "kerningDict": {}
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "free_games_zi",
+      "texture": "18V5Cpc7FFk67ZvfzabqnG",
+      "rect": [
+        0,
+        0,
+        264,
+        265
+      ],
+      "offset": [
+        -0.5,
+        0.5
+      ],
+      "originalSize": [
+        265,
+        266
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

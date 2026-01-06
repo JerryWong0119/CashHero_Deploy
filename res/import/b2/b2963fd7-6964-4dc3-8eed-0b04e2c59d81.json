@@ -1,1 +1,886 @@
-{"__type__":"sp.SkeletonData","_name":"respin_js_01","_skeletonJson":{"skeleton":{"hash":"pCGxZQu7WT/jHNYa6ZOLGTQ3q5E","spine":"3.6.53","width":588,"height":124,"images":"./img/"},"bones":[{"name":"root"},{"name":"jieshou_2","parent":"root","x":157.93,"scaleX":-2},{"name":"jieshou_3","parent":"root","x":-156.95,"scaleX":2}],"slots":[{"name":"UI","bone":"root"},{"name":"jieshou/jieshou_2","bone":"jieshou_2","blend":"additive"},{"name":"jieshou/jieshou_3","bone":"jieshou_3","attachment":"jieshou/jieshou_1","blend":"additive"}],"skins":{"default":{"jieshou/jieshou_2":{"jieshou/jieshou_1":{"x":-0.25,"y":5.52,"width":44,"height":101},"jieshou/jieshou_2":{"x":-0.75,"y":6.02,"width":58,"height":104},"jieshou/jieshou_3":{"x":-0.5,"y":4.02,"width":70,"height":107},"jieshou/jieshou_4":{"x":-1.76,"y":5.02,"width":80,"height":110},"jieshou/jieshou_5":{"x":-0.5,"y":4.52,"width":89,"height":114},"jieshou/jieshou_6":{"x":0.25,"y":5.52,"width":98,"height":107},"jieshou/jieshou_7":{"x":-0.25,"y":4.02,"width":106,"height":109},"jieshou/jieshou_8":{"x":-0.75,"y":4.02,"width":114,"height":109},"jieshou/jieshou_9":{"x":-0.5,"y":5.52,"width":122,"height":119},"jieshou/jieshou_10":{"x":2.51,"y":3.51,"width":126,"height":120},"jieshou/jieshou_11":{"x":5.27,"y":2.01,"width":134,"height":118},"jieshou/jieshou_12":{"x":5.77,"y":1,"width":141,"height":108},"jieshou/jieshou_13":{"x":10.79,"y":5.02,"width":152,"height":106},"jieshou/jieshou_14":{"x":15.31,"y":4.52,"width":154,"height":105},"jieshou/jieshou_15":{"x":16.82,"y":6.02,"width":156,"height":105},"jieshou/jieshou_16":{"x":14.81,"y":6.53,"width":156,"height":105},"jieshou/jieshou_17":{"x":19.08,"y":6.53,"width":163,"height":106},"jieshou/jieshou_18":{"x":16.32,"y":5.52,"width":168,"height":105},"jieshou/jieshou_19":{"x":19.08,"y":6.02,"width":165,"height":105},"jieshou/jieshou_20":{"x":7.53,"y":6.53,"width":137,"height":105},"jieshou/jieshou_21":{"x":1.26,"y":5.02,"width":125,"height":105},"jieshou/jieshou_22":{"x":-0.75,"y":3.01,"width":122,"height":106},"jieshou/jieshou_23":{"x":-3.26,"y":4.52,"width":116,"height":105},"jieshou/jieshou_24":{"x":-12.3,"y":7.03,"width":98,"height":101},"jieshou/jieshou_25":{"x":-14.56,"y":5.02,"width":101,"height":101},"jieshou/jieshou_26":{"x":-8.28,"y":7.03,"width":96,"height":100},"jieshou/jieshou_27":{"x":-10.04,"y":3.01,"width":96,"height":98},"jieshou/jieshou_28":{"x":-26.61,"y":1,"width":58,"height":96},"jieshou/jieshou_29":{"x":-23.59,"y":2.01,"width":57,"height":95},"jieshou/jieshou_30":{"x":-26.1,"y":2.51,"width":55,"height":97},"jieshou/jieshou_31":{"x":-31.12,"y":6.53,"width":47,"height":89},"jieshou/jieshou_32":{"x":-33.63,"y":6.53,"width":42,"height":88},"jieshou/jieshou_33":{"x":-34.39,"y":7.03,"width":41,"height":86},"jieshou/jieshou_34":{"x":-31.37,"y":7.53,"width":42,"height":86},"jieshou/jieshou_35":{"x":-32.88,"y":6.53,"width":40,"height":84},"jieshou/jieshou_36":{"x":-26.86,"y":5.02,"width":43,"height":68},"jieshou/jieshou_37":{"x":-37.9,"y":8.53,"width":28,"height":65},"jieshou/jieshou_38":{"x":-37.4,"y":8.03,"width":21,"height":62},"jieshou/jieshou_39":{"x":-39.66,"y":3.01,"width":1,"height":1},"jieshou/jieshou_40":{"x":-42.92,"y":4.02,"width":1,"height":1}},"jieshou/jieshou_3":{"jieshou/jieshou_1":{"x":-0.25,"y":5.52,"width":44,"height":101},"jieshou/jieshou_2":{"x":-0.75,"y":6.02,"width":58,"height":104},"jieshou/jieshou_3":{"x":-0.5,"y":4.02,"width":70,"height":107},"jieshou/jieshou_4":{"x":-1.76,"y":5.02,"width":80,"height":110},"jieshou/jieshou_5":{"x":-0.5,"y":4.52,"width":89,"height":114},"jieshou/jieshou_6":{"x":0.25,"y":5.52,"width":98,"height":107},"jieshou/jieshou_7":{"x":-0.25,"y":4.02,"width":106,"height":109},"jieshou/jieshou_8":{"x":-0.75,"y":4.02,"width":114,"height":109},"jieshou/jieshou_9":{"x":-0.5,"y":5.52,"width":122,"height":119},"jieshou/jieshou_10":{"x":2.51,"y":3.51,"width":126,"height":120},"jieshou/jieshou_11":{"x":5.27,"y":2.01,"width":134,"height":118},"jieshou/jieshou_12":{"x":5.77,"y":1,"width":141,"height":108},"jieshou/jieshou_13":{"x":10.79,"y":5.02,"width":152,"height":106},"jieshou/jieshou_14":{"x":15.31,"y":4.52,"width":154,"height":105},"jieshou/jieshou_15":{"x":16.82,"y":6.02,"width":156,"height":105},"jieshou/jieshou_16":{"x":14.81,"y":6.53,"width":156,"height":105},"jieshou/jieshou_17":{"x":19.08,"y":6.53,"width":163,"height":106},"jieshou/jieshou_18":{"x":16.32,"y":5.52,"width":168,"height":105},"jieshou/jieshou_19":{"x":19.08,"y":6.02,"width":165,"height":105},"jieshou/jieshou_20":{"x":7.53,"y":6.53,"width":137,"height":105},"jieshou/jieshou_21":{"x":1.26,"y":5.02,"width":125,"height":105},"jieshou/jieshou_22":{"x":-0.75,"y":3.01,"width":122,"height":106},"jieshou/jieshou_23":{"x":-3.26,"y":4.52,"width":116,"height":105},"jieshou/jieshou_24":{"x":-12.3,"y":7.03,"width":98,"height":101},"jieshou/jieshou_25":{"x":-14.56,"y":5.02,"width":101,"height":101},"jieshou/jieshou_26":{"x":-8.28,"y":7.03,"width":96,"height":100},"jieshou/jieshou_27":{"x":-10.04,"y":3.01,"width":96,"height":98},"jieshou/jieshou_28":{"x":-26.61,"y":1,"width":58,"height":96},"jieshou/jieshou_29":{"x":-23.59,"y":2.01,"width":57,"height":95},"jieshou/jieshou_30":{"x":-26.1,"y":2.51,"width":55,"height":97},"jieshou/jieshou_31":{"x":-31.12,"y":6.53,"width":47,"height":89},"jieshou/jieshou_32":{"x":-33.63,"y":6.53,"width":42,"height":88},"jieshou/jieshou_33":{"x":-34.39,"y":7.03,"width":41,"height":86},"jieshou/jieshou_34":{"x":-31.37,"y":7.53,"width":42,"height":86},"jieshou/jieshou_35":{"x":-32.88,"y":6.53,"width":40,"height":84},"jieshou/jieshou_36":{"x":-26.86,"y":5.02,"width":43,"height":68},"jieshou/jieshou_37":{"x":-37.9,"y":8.53,"width":28,"height":65},"jieshou/jieshou_38":{"x":-37.4,"y":8.03,"width":21,"height":62},"jieshou/jieshou_39":{"x":-39.66,"y":3.01,"width":1,"height":1},"jieshou/jieshou_40":{"x":-42.92,"y":4.02,"width":1,"height":1}}}},"animations":{"animation":{"slots":{"jieshou/jieshou_2":{"attachment":[{"time":0,"name":"jieshou/jieshou_1"},{"time":0.0333,"name":"jieshou/jieshou_2"},{"time":0.0667,"name":"jieshou/jieshou_3"},{"time":0.1,"name":"jieshou/jieshou_4"},{"time":0.1333,"name":"jieshou/jieshou_5"},{"time":0.1667,"name":"jieshou/jieshou_6"},{"time":0.2,"name":"jieshou/jieshou_7"},{"time":0.2333,"name":"jieshou/jieshou_8"},{"time":0.2667,"name":"jieshou/jieshou_9"},{"time":0.3,"name":"jieshou/jieshou_10"},{"time":0.3333,"name":"jieshou/jieshou_11"},{"time":0.3667,"name":"jieshou/jieshou_12"},{"time":0.4,"name":"jieshou/jieshou_13"},{"time":0.4333,"name":"jieshou/jieshou_14"},{"time":0.4667,"name":"jieshou/jieshou_15"},{"time":0.5,"name":"jieshou/jieshou_16"},{"time":0.5333,"name":"jieshou/jieshou_17"},{"time":0.5667,"name":"jieshou/jieshou_18"},{"time":0.6,"name":"jieshou/jieshou_19"},{"time":0.6333,"name":"jieshou/jieshou_20"},{"time":0.6667,"name":"jieshou/jieshou_21"},{"time":0.7,"name":"jieshou/jieshou_22"},{"time":0.7333,"name":"jieshou/jieshou_23"},{"time":0.7667,"name":"jieshou/jieshou_24"},{"time":0.8,"name":"jieshou/jieshou_25"},{"time":0.8333,"name":"jieshou/jieshou_26"},{"time":0.8667,"name":"jieshou/jieshou_27"},{"time":0.9,"name":"jieshou/jieshou_28"},{"time":0.9333,"name":"jieshou/jieshou_29"},{"time":0.9667,"name":"jieshou/jieshou_30"},{"time":1,"name":"jieshou/jieshou_31"},{"time":1.0333,"name":"jieshou/jieshou_32"},{"time":1.0667,"name":"jieshou/jieshou_33"},{"time":1.1,"name":"jieshou/jieshou_34"},{"time":1.1333,"name":"jieshou/jieshou_35"},{"time":1.1667,"name":"jieshou/jieshou_36"},{"time":1.2,"name":"jieshou/jieshou_37"},{"time":1.2333,"name":"jieshou/jieshou_38"},{"time":1.2667,"name":"jieshou/jieshou_39"},{"time":1.3,"name":"jieshou/jieshou_40"},{"time":1.3333,"name":null}]},"jieshou/jieshou_3":{"attachment":[{"time":0,"name":"jieshou/jieshou_1"},{"time":0.0333,"name":"jieshou/jieshou_2"},{"time":0.0667,"name":"jieshou/jieshou_3"},{"time":0.1,"name":"jieshou/jieshou_4"},{"time":0.1333,"name":"jieshou/jieshou_5"},{"time":0.1667,"name":"jieshou/jieshou_6"},{"time":0.2,"name":"jieshou/jieshou_7"},{"time":0.2333,"name":"jieshou/jieshou_8"},{"time":0.2667,"name":"jieshou/jieshou_9"},{"time":0.3,"name":"jieshou/jieshou_10"},{"time":0.3333,"name":"jieshou/jieshou_11"},{"time":0.3667,"name":"jieshou/jieshou_12"},{"time":0.4,"name":"jieshou/jieshou_13"},{"time":0.4333,"name":"jieshou/jieshou_14"},{"time":0.4667,"name":"jieshou/jieshou_15"},{"time":0.5,"name":"jieshou/jieshou_16"},{"time":0.5333,"name":"jieshou/jieshou_17"},{"time":0.5667,"name":"jieshou/jieshou_18"},{"time":0.6,"name":"jieshou/jieshou_19"},{"time":0.6333,"name":"jieshou/jieshou_20"},{"time":0.6667,"name":"jieshou/jieshou_21"},{"time":0.7,"name":"jieshou/jieshou_22"},{"time":0.7333,"name":"jieshou/jieshou_23"},{"time":0.7667,"name":"jieshou/jieshou_24"},{"time":0.8,"name":"jieshou/jieshou_25"},{"time":0.8333,"name":"jieshou/jieshou_26"},{"time":0.8667,"name":"jieshou/jieshou_27"},{"time":0.9,"name":"jieshou/jieshou_28"},{"time":0.9333,"name":"jieshou/jieshou_29"},{"time":0.9667,"name":"jieshou/jieshou_30"},{"time":1,"name":"jieshou/jieshou_31"},{"time":1.0333,"name":"jieshou/jieshou_32"},{"time":1.0667,"name":"jieshou/jieshou_33"},{"time":1.1,"name":"jieshou/jieshou_34"},{"time":1.1333,"name":"jieshou/jieshou_35"},{"time":1.1667,"name":"jieshou/jieshou_36"},{"time":1.2,"name":"jieshou/jieshou_37"},{"time":1.2333,"name":"jieshou/jieshou_38"},{"time":1.2667,"name":"jieshou/jieshou_39"},{"time":1.3,"name":"jieshou/jieshou_40"},{"time":1.3333,"name":null}]}}}}},"_atlasText":"\nrespin_js_01.png\nsize: 2048,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\njieshou/jieshou_1\n  rotate: false\n  xy: 2002, 153\n  size: 44, 101\n  orig: 44, 101\n  offset: 0, 0\n  index: -1\njieshou/jieshou_10\n  rotate: false\n  xy: 1242, 134\n  size: 126, 120\n  orig: 126, 120\n  offset: 0, 0\n  index: -1\njieshou/jieshou_11\n  rotate: false\n  xy: 1106, 136\n  size: 134, 118\n  orig: 134, 118\n  offset: 0, 0\n  index: -1\njieshou/jieshou_12\n  rotate: false\n  xy: 963, 146\n  size: 141, 108\n  orig: 141, 108\n  offset: 0, 0\n  index: -1\njieshou/jieshou_13\n  rotate: false\n  xy: 809, 148\n  size: 152, 106\n  orig: 152, 106\n  offset: 0, 0\n  index: -1\njieshou/jieshou_14\n  rotate: false\n  xy: 653, 149\n  size: 154, 105\n  orig: 154, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_15\n  rotate: false\n  xy: 337, 149\n  size: 156, 105\n  orig: 156, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_16\n  rotate: false\n  xy: 495, 149\n  size: 156, 105\n  orig: 156, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_17\n  rotate: false\n  xy: 172, 148\n  size: 163, 106\n  orig: 163, 106\n  offset: 0, 0\n  index: -1\njieshou/jieshou_18\n  rotate: false\n  xy: 2, 149\n  size: 168, 105\n  orig: 168, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_19\n  rotate: false\n  xy: 2, 42\n  size: 165, 105\n  orig: 165, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_2\n  rotate: false\n  xy: 897, 42\n  size: 58, 104\n  orig: 58, 104\n  offset: 0, 0\n  index: -1\njieshou/jieshou_20\n  rotate: false\n  xy: 1370, 149\n  size: 137, 105\n  orig: 137, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_21\n  rotate: false\n  xy: 1509, 149\n  size: 125, 105\n  orig: 125, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_22\n  rotate: false\n  xy: 1760, 148\n  size: 122, 106\n  orig: 122, 106\n  offset: 0, 0\n  index: -1\njieshou/jieshou_23\n  rotate: false\n  xy: 1884, 149\n  size: 116, 105\n  orig: 116, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_24\n  rotate: true\n  xy: 691, 49\n  size: 98, 101\n  orig: 98, 101\n  offset: 0, 0\n  index: -1\njieshou/jieshou_25\n  rotate: false\n  xy: 794, 45\n  size: 101, 101\n  orig: 101, 101\n  offset: 0, 0\n  index: -1\njieshou/jieshou_26\n  rotate: false\n  xy: 957, 44\n  size: 96, 100\n  orig: 96, 100\n  offset: 0, 0\n  index: -1\njieshou/jieshou_27\n  rotate: true\n  xy: 1055, 38\n  size: 96, 98\n  orig: 96, 98\n  offset: 0, 0\n  index: -1\njieshou/jieshou_28\n  rotate: false\n  xy: 1227, 36\n  size: 58, 96\n  orig: 58, 96\n  offset: 0, 0\n  index: -1\njieshou/jieshou_29\n  rotate: false\n  xy: 1287, 37\n  size: 57, 95\n  orig: 57, 95\n  offset: 0, 0\n  index: -1\njieshou/jieshou_3\n  rotate: false\n  xy: 1155, 27\n  size: 70, 107\n  orig: 70, 107\n  offset: 0, 0\n  index: -1\njieshou/jieshou_30\n  rotate: false\n  xy: 1346, 35\n  size: 55, 97\n  orig: 55, 97\n  offset: 0, 0\n  index: -1\njieshou/jieshou_31\n  rotate: false\n  xy: 1403, 58\n  size: 47, 89\n  orig: 47, 89\n  offset: 0, 0\n  index: -1\njieshou/jieshou_32\n  rotate: false\n  xy: 1452, 59\n  size: 42, 88\n  orig: 42, 88\n  offset: 0, 0\n  index: -1\njieshou/jieshou_33\n  rotate: false\n  xy: 1540, 61\n  size: 41, 86\n  orig: 41, 86\n  offset: 0, 0\n  index: -1\njieshou/jieshou_34\n  rotate: false\n  xy: 1496, 61\n  size: 42, 86\n  orig: 42, 86\n  offset: 0, 0\n  index: -1\njieshou/jieshou_35\n  rotate: true\n  xy: 957, 2\n  size: 40, 84\n  orig: 40, 84\n  offset: 0, 0\n  index: -1\njieshou/jieshou_36\n  rotate: false\n  xy: 1583, 79\n  size: 43, 68\n  orig: 43, 68\n  offset: 0, 0\n  index: -1\njieshou/jieshou_37\n  rotate: true\n  xy: 2, 12\n  size: 28, 65\n  orig: 28, 65\n  offset: 0, 0\n  index: -1\njieshou/jieshou_38\n  rotate: true\n  xy: 69, 19\n  size: 21, 62\n  orig: 21, 62\n  offset: 0, 0\n  index: -1\njieshou/jieshou_39\n  rotate: false\n  xy: 1760, 145\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\njieshou/jieshou_4\n  rotate: false\n  xy: 285, 36\n  size: 80, 110\n  orig: 80, 110\n  offset: 0, 0\n  index: -1\njieshou/jieshou_40\n  rotate: false\n  xy: 2002, 150\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\njieshou/jieshou_5\n  rotate: true\n  xy: 575, 58\n  size: 89, 114\n  orig: 89, 114\n  offset: 0, 0\n  index: -1\njieshou/jieshou_6\n  rotate: false\n  xy: 475, 40\n  size: 98, 107\n  orig: 98, 107\n  offset: 0, 0\n  index: -1\njieshou/jieshou_7\n  rotate: false\n  xy: 367, 38\n  size: 106, 109\n  orig: 106, 109\n  offset: 0, 0\n  index: -1\njieshou/jieshou_8\n  rotate: false\n  xy: 169, 37\n  size: 114, 109\n  orig: 114, 109\n  offset: 0, 0\n  index: -1\njieshou/jieshou_9\n  rotate: false\n  xy: 1636, 135\n  size: 122, 119\n  orig: 122, 119\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"e4kJZGHgVJ0ZVcORzGSGoV"}],"textureNames":["respin_js_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "respin_js_01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "pCGxZQu7WT/jHNYa6ZOLGTQ3q5E",
+      "spine": "3.6.53",
+      "width": 588,
+      "height": 124,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "jieshou_2",
+        "parent": "root",
+        "x": 157.93,
+        "scaleX": -2
+      },
+      {
+        "name": "jieshou_3",
+        "parent": "root",
+        "x": -156.95,
+        "scaleX": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "UI",
+        "bone": "root"
+      },
+      {
+        "name": "jieshou/jieshou_2",
+        "bone": "jieshou_2",
+        "blend": "additive"
+      },
+      {
+        "name": "jieshou/jieshou_3",
+        "bone": "jieshou_3",
+        "attachment": "jieshou/jieshou_1",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "jieshou/jieshou_2": {
+          "jieshou/jieshou_1": {
+            "x": -0.25,
+            "y": 5.52,
+            "width": 44,
+            "height": 101
+          },
+          "jieshou/jieshou_2": {
+            "x": -0.75,
+            "y": 6.02,
+            "width": 58,
+            "height": 104
+          },
+          "jieshou/jieshou_3": {
+            "x": -0.5,
+            "y": 4.02,
+            "width": 70,
+            "height": 107
+          },
+          "jieshou/jieshou_4": {
+            "x": -1.76,
+            "y": 5.02,
+            "width": 80,
+            "height": 110
+          },
+          "jieshou/jieshou_5": {
+            "x": -0.5,
+            "y": 4.52,
+            "width": 89,
+            "height": 114
+          },
+          "jieshou/jieshou_6": {
+            "x": 0.25,
+            "y": 5.52,
+            "width": 98,
+            "height": 107
+          },
+          "jieshou/jieshou_7": {
+            "x": -0.25,
+            "y": 4.02,
+            "width": 106,
+            "height": 109
+          },
+          "jieshou/jieshou_8": {
+            "x": -0.75,
+            "y": 4.02,
+            "width": 114,
+            "height": 109
+          },
+          "jieshou/jieshou_9": {
+            "x": -0.5,
+            "y": 5.52,
+            "width": 122,
+            "height": 119
+          },
+          "jieshou/jieshou_10": {
+            "x": 2.51,
+            "y": 3.51,
+            "width": 126,
+            "height": 120
+          },
+          "jieshou/jieshou_11": {
+            "x": 5.27,
+            "y": 2.01,
+            "width": 134,
+            "height": 118
+          },
+          "jieshou/jieshou_12": {
+            "x": 5.77,
+            "y": 1,
+            "width": 141,
+            "height": 108
+          },
+          "jieshou/jieshou_13": {
+            "x": 10.79,
+            "y": 5.02,
+            "width": 152,
+            "height": 106
+          },
+          "jieshou/jieshou_14": {
+            "x": 15.31,
+            "y": 4.52,
+            "width": 154,
+            "height": 105
+          },
+          "jieshou/jieshou_15": {
+            "x": 16.82,
+            "y": 6.02,
+            "width": 156,
+            "height": 105
+          },
+          "jieshou/jieshou_16": {
+            "x": 14.81,
+            "y": 6.53,
+            "width": 156,
+            "height": 105
+          },
+          "jieshou/jieshou_17": {
+            "x": 19.08,
+            "y": 6.53,
+            "width": 163,
+            "height": 106
+          },
+          "jieshou/jieshou_18": {
+            "x": 16.32,
+            "y": 5.52,
+            "width": 168,
+            "height": 105
+          },
+          "jieshou/jieshou_19": {
+            "x": 19.08,
+            "y": 6.02,
+            "width": 165,
+            "height": 105
+          },
+          "jieshou/jieshou_20": {
+            "x": 7.53,
+            "y": 6.53,
+            "width": 137,
+            "height": 105
+          },
+          "jieshou/jieshou_21": {
+            "x": 1.26,
+            "y": 5.02,
+            "width": 125,
+            "height": 105
+          },
+          "jieshou/jieshou_22": {
+            "x": -0.75,
+            "y": 3.01,
+            "width": 122,
+            "height": 106
+          },
+          "jieshou/jieshou_23": {
+            "x": -3.26,
+            "y": 4.52,
+            "width": 116,
+            "height": 105
+          },
+          "jieshou/jieshou_24": {
+            "x": -12.3,
+            "y": 7.03,
+            "width": 98,
+            "height": 101
+          },
+          "jieshou/jieshou_25": {
+            "x": -14.56,
+            "y": 5.02,
+            "width": 101,
+            "height": 101
+          },
+          "jieshou/jieshou_26": {
+            "x": -8.28,
+            "y": 7.03,
+            "width": 96,
+            "height": 100
+          },
+          "jieshou/jieshou_27": {
+            "x": -10.04,
+            "y": 3.01,
+            "width": 96,
+            "height": 98
+          },
+          "jieshou/jieshou_28": {
+            "x": -26.61,
+            "y": 1,
+            "width": 58,
+            "height": 96
+          },
+          "jieshou/jieshou_29": {
+            "x": -23.59,
+            "y": 2.01,
+            "width": 57,
+            "height": 95
+          },
+          "jieshou/jieshou_30": {
+            "x": -26.1,
+            "y": 2.51,
+            "width": 55,
+            "height": 97
+          },
+          "jieshou/jieshou_31": {
+            "x": -31.12,
+            "y": 6.53,
+            "width": 47,
+            "height": 89
+          },
+          "jieshou/jieshou_32": {
+            "x": -33.63,
+            "y": 6.53,
+            "width": 42,
+            "height": 88
+          },
+          "jieshou/jieshou_33": {
+            "x": -34.39,
+            "y": 7.03,
+            "width": 41,
+            "height": 86
+          },
+          "jieshou/jieshou_34": {
+            "x": -31.37,
+            "y": 7.53,
+            "width": 42,
+            "height": 86
+          },
+          "jieshou/jieshou_35": {
+            "x": -32.88,
+            "y": 6.53,
+            "width": 40,
+            "height": 84
+          },
+          "jieshou/jieshou_36": {
+            "x": -26.86,
+            "y": 5.02,
+            "width": 43,
+            "height": 68
+          },
+          "jieshou/jieshou_37": {
+            "x": -37.9,
+            "y": 8.53,
+            "width": 28,
+            "height": 65
+          },
+          "jieshou/jieshou_38": {
+            "x": -37.4,
+            "y": 8.03,
+            "width": 21,
+            "height": 62
+          },
+          "jieshou/jieshou_39": {
+            "x": -39.66,
+            "y": 3.01,
+            "width": 1,
+            "height": 1
+          },
+          "jieshou/jieshou_40": {
+            "x": -42.92,
+            "y": 4.02,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "jieshou/jieshou_3": {
+          "jieshou/jieshou_1": {
+            "x": -0.25,
+            "y": 5.52,
+            "width": 44,
+            "height": 101
+          },
+          "jieshou/jieshou_2": {
+            "x": -0.75,
+            "y": 6.02,
+            "width": 58,
+            "height": 104
+          },
+          "jieshou/jieshou_3": {
+            "x": -0.5,
+            "y": 4.02,
+            "width": 70,
+            "height": 107
+          },
+          "jieshou/jieshou_4": {
+            "x": -1.76,
+            "y": 5.02,
+            "width": 80,
+            "height": 110
+          },
+          "jieshou/jieshou_5": {
+            "x": -0.5,
+            "y": 4.52,
+            "width": 89,
+            "height": 114
+          },
+          "jieshou/jieshou_6": {
+            "x": 0.25,
+            "y": 5.52,
+            "width": 98,
+            "height": 107
+          },
+          "jieshou/jieshou_7": {
+            "x": -0.25,
+            "y": 4.02,
+            "width": 106,
+            "height": 109
+          },
+          "jieshou/jieshou_8": {
+            "x": -0.75,
+            "y": 4.02,
+            "width": 114,
+            "height": 109
+          },
+          "jieshou/jieshou_9": {
+            "x": -0.5,
+            "y": 5.52,
+            "width": 122,
+            "height": 119
+          },
+          "jieshou/jieshou_10": {
+            "x": 2.51,
+            "y": 3.51,
+            "width": 126,
+            "height": 120
+          },
+          "jieshou/jieshou_11": {
+            "x": 5.27,
+            "y": 2.01,
+            "width": 134,
+            "height": 118
+          },
+          "jieshou/jieshou_12": {
+            "x": 5.77,
+            "y": 1,
+            "width": 141,
+            "height": 108
+          },
+          "jieshou/jieshou_13": {
+            "x": 10.79,
+            "y": 5.02,
+            "width": 152,
+            "height": 106
+          },
+          "jieshou/jieshou_14": {
+            "x": 15.31,
+            "y": 4.52,
+            "width": 154,
+            "height": 105
+          },
+          "jieshou/jieshou_15": {
+            "x": 16.82,
+            "y": 6.02,
+            "width": 156,
+            "height": 105
+          },
+          "jieshou/jieshou_16": {
+            "x": 14.81,
+            "y": 6.53,
+            "width": 156,
+            "height": 105
+          },
+          "jieshou/jieshou_17": {
+            "x": 19.08,
+            "y": 6.53,
+            "width": 163,
+            "height": 106
+          },
+          "jieshou/jieshou_18": {
+            "x": 16.32,
+            "y": 5.52,
+            "width": 168,
+            "height": 105
+          },
+          "jieshou/jieshou_19": {
+            "x": 19.08,
+            "y": 6.02,
+            "width": 165,
+            "height": 105
+          },
+          "jieshou/jieshou_20": {
+            "x": 7.53,
+            "y": 6.53,
+            "width": 137,
+            "height": 105
+          },
+          "jieshou/jieshou_21": {
+            "x": 1.26,
+            "y": 5.02,
+            "width": 125,
+            "height": 105
+          },
+          "jieshou/jieshou_22": {
+            "x": -0.75,
+            "y": 3.01,
+            "width": 122,
+            "height": 106
+          },
+          "jieshou/jieshou_23": {
+            "x": -3.26,
+            "y": 4.52,
+            "width": 116,
+            "height": 105
+          },
+          "jieshou/jieshou_24": {
+            "x": -12.3,
+            "y": 7.03,
+            "width": 98,
+            "height": 101
+          },
+          "jieshou/jieshou_25": {
+            "x": -14.56,
+            "y": 5.02,
+            "width": 101,
+            "height": 101
+          },
+          "jieshou/jieshou_26": {
+            "x": -8.28,
+            "y": 7.03,
+            "width": 96,
+            "height": 100
+          },
+          "jieshou/jieshou_27": {
+            "x": -10.04,
+            "y": 3.01,
+            "width": 96,
+            "height": 98
+          },
+          "jieshou/jieshou_28": {
+            "x": -26.61,
+            "y": 1,
+            "width": 58,
+            "height": 96
+          },
+          "jieshou/jieshou_29": {
+            "x": -23.59,
+            "y": 2.01,
+            "width": 57,
+            "height": 95
+          },
+          "jieshou/jieshou_30": {
+            "x": -26.1,
+            "y": 2.51,
+            "width": 55,
+            "height": 97
+          },
+          "jieshou/jieshou_31": {
+            "x": -31.12,
+            "y": 6.53,
+            "width": 47,
+            "height": 89
+          },
+          "jieshou/jieshou_32": {
+            "x": -33.63,
+            "y": 6.53,
+            "width": 42,
+            "height": 88
+          },
+          "jieshou/jieshou_33": {
+            "x": -34.39,
+            "y": 7.03,
+            "width": 41,
+            "height": 86
+          },
+          "jieshou/jieshou_34": {
+            "x": -31.37,
+            "y": 7.53,
+            "width": 42,
+            "height": 86
+          },
+          "jieshou/jieshou_35": {
+            "x": -32.88,
+            "y": 6.53,
+            "width": 40,
+            "height": 84
+          },
+          "jieshou/jieshou_36": {
+            "x": -26.86,
+            "y": 5.02,
+            "width": 43,
+            "height": 68
+          },
+          "jieshou/jieshou_37": {
+            "x": -37.9,
+            "y": 8.53,
+            "width": 28,
+            "height": 65
+          },
+          "jieshou/jieshou_38": {
+            "x": -37.4,
+            "y": 8.03,
+            "width": 21,
+            "height": 62
+          },
+          "jieshou/jieshou_39": {
+            "x": -39.66,
+            "y": 3.01,
+            "width": 1,
+            "height": 1
+          },
+          "jieshou/jieshou_40": {
+            "x": -42.92,
+            "y": 4.02,
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "jieshou/jieshou_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "jieshou/jieshou_1"
+              },
+              {
+                "time": 0.0333,
+                "name": "jieshou/jieshou_2"
+              },
+              {
+                "time": 0.0667,
+                "name": "jieshou/jieshou_3"
+              },
+              {
+                "time": 0.1,
+                "name": "jieshou/jieshou_4"
+              },
+              {
+                "time": 0.1333,
+                "name": "jieshou/jieshou_5"
+              },
+              {
+                "time": 0.1667,
+                "name": "jieshou/jieshou_6"
+              },
+              {
+                "time": 0.2,
+                "name": "jieshou/jieshou_7"
+              },
+              {
+                "time": 0.2333,
+                "name": "jieshou/jieshou_8"
+              },
+              {
+                "time": 0.2667,
+                "name": "jieshou/jieshou_9"
+              },
+              {
+                "time": 0.3,
+                "name": "jieshou/jieshou_10"
+              },
+              {
+                "time": 0.3333,
+                "name": "jieshou/jieshou_11"
+              },
+              {
+                "time": 0.3667,
+                "name": "jieshou/jieshou_12"
+              },
+              {
+                "time": 0.4,
+                "name": "jieshou/jieshou_13"
+              },
+              {
+                "time": 0.4333,
+                "name": "jieshou/jieshou_14"
+              },
+              {
+                "time": 0.4667,
+                "name": "jieshou/jieshou_15"
+              },
+              {
+                "time": 0.5,
+                "name": "jieshou/jieshou_16"
+              },
+              {
+                "time": 0.5333,
+                "name": "jieshou/jieshou_17"
+              },
+              {
+                "time": 0.5667,
+                "name": "jieshou/jieshou_18"
+              },
+              {
+                "time": 0.6,
+                "name": "jieshou/jieshou_19"
+              },
+              {
+                "time": 0.6333,
+                "name": "jieshou/jieshou_20"
+              },
+              {
+                "time": 0.6667,
+                "name": "jieshou/jieshou_21"
+              },
+              {
+                "time": 0.7,
+                "name": "jieshou/jieshou_22"
+              },
+              {
+                "time": 0.7333,
+                "name": "jieshou/jieshou_23"
+              },
+              {
+                "time": 0.7667,
+                "name": "jieshou/jieshou_24"
+              },
+              {
+                "time": 0.8,
+                "name": "jieshou/jieshou_25"
+              },
+              {
+                "time": 0.8333,
+                "name": "jieshou/jieshou_26"
+              },
+              {
+                "time": 0.8667,
+                "name": "jieshou/jieshou_27"
+              },
+              {
+                "time": 0.9,
+                "name": "jieshou/jieshou_28"
+              },
+              {
+                "time": 0.9333,
+                "name": "jieshou/jieshou_29"
+              },
+              {
+                "time": 0.9667,
+                "name": "jieshou/jieshou_30"
+              },
+              {
+                "time": 1,
+                "name": "jieshou/jieshou_31"
+              },
+              {
+                "time": 1.0333,
+                "name": "jieshou/jieshou_32"
+              },
+              {
+                "time": 1.0667,
+                "name": "jieshou/jieshou_33"
+              },
+              {
+                "time": 1.1,
+                "name": "jieshou/jieshou_34"
+              },
+              {
+                "time": 1.1333,
+                "name": "jieshou/jieshou_35"
+              },
+              {
+                "time": 1.1667,
+                "name": "jieshou/jieshou_36"
+              },
+              {
+                "time": 1.2,
+                "name": "jieshou/jieshou_37"
+              },
+              {
+                "time": 1.2333,
+                "name": "jieshou/jieshou_38"
+              },
+              {
+                "time": 1.2667,
+                "name": "jieshou/jieshou_39"
+              },
+              {
+                "time": 1.3,
+                "name": "jieshou/jieshou_40"
+              },
+              {
+                "time": 1.3333,
+                "name": null
+              }
+            ]
+          },
+          "jieshou/jieshou_3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "jieshou/jieshou_1"
+              },
+              {
+                "time": 0.0333,
+                "name": "jieshou/jieshou_2"
+              },
+              {
+                "time": 0.0667,
+                "name": "jieshou/jieshou_3"
+              },
+              {
+                "time": 0.1,
+                "name": "jieshou/jieshou_4"
+              },
+              {
+                "time": 0.1333,
+                "name": "jieshou/jieshou_5"
+              },
+              {
+                "time": 0.1667,
+                "name": "jieshou/jieshou_6"
+              },
+              {
+                "time": 0.2,
+                "name": "jieshou/jieshou_7"
+              },
+              {
+                "time": 0.2333,
+                "name": "jieshou/jieshou_8"
+              },
+              {
+                "time": 0.2667,
+                "name": "jieshou/jieshou_9"
+              },
+              {
+                "time": 0.3,
+                "name": "jieshou/jieshou_10"
+              },
+              {
+                "time": 0.3333,
+                "name": "jieshou/jieshou_11"
+              },
+              {
+                "time": 0.3667,
+                "name": "jieshou/jieshou_12"
+              },
+              {
+                "time": 0.4,
+                "name": "jieshou/jieshou_13"
+              },
+              {
+                "time": 0.4333,
+                "name": "jieshou/jieshou_14"
+              },
+              {
+                "time": 0.4667,
+                "name": "jieshou/jieshou_15"
+              },
+              {
+                "time": 0.5,
+                "name": "jieshou/jieshou_16"
+              },
+              {
+                "time": 0.5333,
+                "name": "jieshou/jieshou_17"
+              },
+              {
+                "time": 0.5667,
+                "name": "jieshou/jieshou_18"
+              },
+              {
+                "time": 0.6,
+                "name": "jieshou/jieshou_19"
+              },
+              {
+                "time": 0.6333,
+                "name": "jieshou/jieshou_20"
+              },
+              {
+                "time": 0.6667,
+                "name": "jieshou/jieshou_21"
+              },
+              {
+                "time": 0.7,
+                "name": "jieshou/jieshou_22"
+              },
+              {
+                "time": 0.7333,
+                "name": "jieshou/jieshou_23"
+              },
+              {
+                "time": 0.7667,
+                "name": "jieshou/jieshou_24"
+              },
+              {
+                "time": 0.8,
+                "name": "jieshou/jieshou_25"
+              },
+              {
+                "time": 0.8333,
+                "name": "jieshou/jieshou_26"
+              },
+              {
+                "time": 0.8667,
+                "name": "jieshou/jieshou_27"
+              },
+              {
+                "time": 0.9,
+                "name": "jieshou/jieshou_28"
+              },
+              {
+                "time": 0.9333,
+                "name": "jieshou/jieshou_29"
+              },
+              {
+                "time": 0.9667,
+                "name": "jieshou/jieshou_30"
+              },
+              {
+                "time": 1,
+                "name": "jieshou/jieshou_31"
+              },
+              {
+                "time": 1.0333,
+                "name": "jieshou/jieshou_32"
+              },
+              {
+                "time": 1.0667,
+                "name": "jieshou/jieshou_33"
+              },
+              {
+                "time": 1.1,
+                "name": "jieshou/jieshou_34"
+              },
+              {
+                "time": 1.1333,
+                "name": "jieshou/jieshou_35"
+              },
+              {
+                "time": 1.1667,
+                "name": "jieshou/jieshou_36"
+              },
+              {
+                "time": 1.2,
+                "name": "jieshou/jieshou_37"
+              },
+              {
+                "time": 1.2333,
+                "name": "jieshou/jieshou_38"
+              },
+              {
+                "time": 1.2667,
+                "name": "jieshou/jieshou_39"
+              },
+              {
+                "time": 1.3,
+                "name": "jieshou/jieshou_40"
+              },
+              {
+                "time": 1.3333,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nrespin_js_01.png\nsize: 2048,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\njieshou/jieshou_1\n  rotate: false\n  xy: 2002, 153\n  size: 44, 101\n  orig: 44, 101\n  offset: 0, 0\n  index: -1\njieshou/jieshou_10\n  rotate: false\n  xy: 1242, 134\n  size: 126, 120\n  orig: 126, 120\n  offset: 0, 0\n  index: -1\njieshou/jieshou_11\n  rotate: false\n  xy: 1106, 136\n  size: 134, 118\n  orig: 134, 118\n  offset: 0, 0\n  index: -1\njieshou/jieshou_12\n  rotate: false\n  xy: 963, 146\n  size: 141, 108\n  orig: 141, 108\n  offset: 0, 0\n  index: -1\njieshou/jieshou_13\n  rotate: false\n  xy: 809, 148\n  size: 152, 106\n  orig: 152, 106\n  offset: 0, 0\n  index: -1\njieshou/jieshou_14\n  rotate: false\n  xy: 653, 149\n  size: 154, 105\n  orig: 154, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_15\n  rotate: false\n  xy: 337, 149\n  size: 156, 105\n  orig: 156, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_16\n  rotate: false\n  xy: 495, 149\n  size: 156, 105\n  orig: 156, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_17\n  rotate: false\n  xy: 172, 148\n  size: 163, 106\n  orig: 163, 106\n  offset: 0, 0\n  index: -1\njieshou/jieshou_18\n  rotate: false\n  xy: 2, 149\n  size: 168, 105\n  orig: 168, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_19\n  rotate: false\n  xy: 2, 42\n  size: 165, 105\n  orig: 165, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_2\n  rotate: false\n  xy: 897, 42\n  size: 58, 104\n  orig: 58, 104\n  offset: 0, 0\n  index: -1\njieshou/jieshou_20\n  rotate: false\n  xy: 1370, 149\n  size: 137, 105\n  orig: 137, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_21\n  rotate: false\n  xy: 1509, 149\n  size: 125, 105\n  orig: 125, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_22\n  rotate: false\n  xy: 1760, 148\n  size: 122, 106\n  orig: 122, 106\n  offset: 0, 0\n  index: -1\njieshou/jieshou_23\n  rotate: false\n  xy: 1884, 149\n  size: 116, 105\n  orig: 116, 105\n  offset: 0, 0\n  index: -1\njieshou/jieshou_24\n  rotate: true\n  xy: 691, 49\n  size: 98, 101\n  orig: 98, 101\n  offset: 0, 0\n  index: -1\njieshou/jieshou_25\n  rotate: false\n  xy: 794, 45\n  size: 101, 101\n  orig: 101, 101\n  offset: 0, 0\n  index: -1\njieshou/jieshou_26\n  rotate: false\n  xy: 957, 44\n  size: 96, 100\n  orig: 96, 100\n  offset: 0, 0\n  index: -1\njieshou/jieshou_27\n  rotate: true\n  xy: 1055, 38\n  size: 96, 98\n  orig: 96, 98\n  offset: 0, 0\n  index: -1\njieshou/jieshou_28\n  rotate: false\n  xy: 1227, 36\n  size: 58, 96\n  orig: 58, 96\n  offset: 0, 0\n  index: -1\njieshou/jieshou_29\n  rotate: false\n  xy: 1287, 37\n  size: 57, 95\n  orig: 57, 95\n  offset: 0, 0\n  index: -1\njieshou/jieshou_3\n  rotate: false\n  xy: 1155, 27\n  size: 70, 107\n  orig: 70, 107\n  offset: 0, 0\n  index: -1\njieshou/jieshou_30\n  rotate: false\n  xy: 1346, 35\n  size: 55, 97\n  orig: 55, 97\n  offset: 0, 0\n  index: -1\njieshou/jieshou_31\n  rotate: false\n  xy: 1403, 58\n  size: 47, 89\n  orig: 47, 89\n  offset: 0, 0\n  index: -1\njieshou/jieshou_32\n  rotate: false\n  xy: 1452, 59\n  size: 42, 88\n  orig: 42, 88\n  offset: 0, 0\n  index: -1\njieshou/jieshou_33\n  rotate: false\n  xy: 1540, 61\n  size: 41, 86\n  orig: 41, 86\n  offset: 0, 0\n  index: -1\njieshou/jieshou_34\n  rotate: false\n  xy: 1496, 61\n  size: 42, 86\n  orig: 42, 86\n  offset: 0, 0\n  index: -1\njieshou/jieshou_35\n  rotate: true\n  xy: 957, 2\n  size: 40, 84\n  orig: 40, 84\n  offset: 0, 0\n  index: -1\njieshou/jieshou_36\n  rotate: false\n  xy: 1583, 79\n  size: 43, 68\n  orig: 43, 68\n  offset: 0, 0\n  index: -1\njieshou/jieshou_37\n  rotate: true\n  xy: 2, 12\n  size: 28, 65\n  orig: 28, 65\n  offset: 0, 0\n  index: -1\njieshou/jieshou_38\n  rotate: true\n  xy: 69, 19\n  size: 21, 62\n  orig: 21, 62\n  offset: 0, 0\n  index: -1\njieshou/jieshou_39\n  rotate: false\n  xy: 1760, 145\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\njieshou/jieshou_4\n  rotate: false\n  xy: 285, 36\n  size: 80, 110\n  orig: 80, 110\n  offset: 0, 0\n  index: -1\njieshou/jieshou_40\n  rotate: false\n  xy: 2002, 150\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\njieshou/jieshou_5\n  rotate: true\n  xy: 575, 58\n  size: 89, 114\n  orig: 89, 114\n  offset: 0, 0\n  index: -1\njieshou/jieshou_6\n  rotate: false\n  xy: 475, 40\n  size: 98, 107\n  orig: 98, 107\n  offset: 0, 0\n  index: -1\njieshou/jieshou_7\n  rotate: false\n  xy: 367, 38\n  size: 106, 109\n  orig: 106, 109\n  offset: 0, 0\n  index: -1\njieshou/jieshou_8\n  rotate: false\n  xy: 169, 37\n  size: 114, 109\n  orig: 114, 109\n  offset: 0, 0\n  index: -1\njieshou/jieshou_9\n  rotate: false\n  xy: 1636, 135\n  size: 122, 119\n  orig: 122, 119\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "e4kJZGHgVJ0ZVcORzGSGoV"
+    }
+  ],
+  "textureNames": [
+    "respin_js_01.png"
+  ]
+}

@@ -1,1 +1,939 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"OBCXOjrZiIiqw2qG4h9W+hFiJLc","spine":"3.6.53","width":200,"height":200,"images":"../../scatter1/texiao/"},"bones":[{"name":"root"},{"name":"zong","parent":"root","scaleX":0.1,"scaleY":0.1},{"name":"yuandi","parent":"zong"},{"name":"coin","parent":"yuandi","x":45,"y":170},{"name":"boom","parent":"coin","x":-72.9,"y":-255.15},{"name":"di","parent":"yuandi"},{"name":"shoujibao","parent":"zong","scaleX":10,"scaleY":10},{"name":"guang","parent":"shoujibao","scaleX":0.51,"scaleY":0.51,"transform":"onlyTranslation"},{"name":"jackpot","parent":"yuandi"}],"slots":[{"name":"images/guang_0","bone":"guang","attachment":"images/guang_0"},{"name":"shoujibao","bone":"shoujibao","attachment":"images/shoujibao_0","blend":"additive"},{"name":"di","bone":"di","attachment":"images/di"},{"name":"coin","bone":"coin","attachment":"images/coin"},{"name":"boom","bone":"boom","attachment":"images/boom"},{"name":"jackpot","bone":"jackpot","attachment":"images/grand"}],"skins":{"default":{"boom":{"images/boom":{"path":"images/BOOM","x":-8.53,"y":-54.86,"width":996,"height":366}},"coin":{"images/coin":{"path":"images/COIN","x":-7.43,"y":-51.01,"width":998,"height":426}},"di":{"images/di":{"width":1151,"height":1035}},"images/guang_0":{"images/guang_0":{"width":278,"height":250}},"jackpot":{"images/grand":{"width":1047,"height":354},"images/major":{"width":1062,"height":348},"images/minor":{"width":1047,"height":348}},"shoujibao":{"images/shoujibao_0":{"width":200,"height":200},"images/shoujibao_1":{"width":200,"height":200},"images/shoujibao_2":{"width":200,"height":200},"images/shoujibao_3":{"width":200,"height":200},"images/shoujibao_4":{"width":200,"height":200},"images/shoujibao_5":{"width":200,"height":200},"images/shoujibao_6":{"width":200,"height":200},"images/shoujibao_7":{"width":200,"height":200},"images/shoujibao_8":{"width":200,"height":200},"images/shoujibao_9":{"width":200,"height":200},"images/shoujibao_10":{"width":200,"height":200}}}},"animations":{"animation1":{"slots":{"boom":{"attachment":[{"time":0,"name":"images/boom"},{"time":0.8333,"name":null}]},"coin":{"attachment":[{"time":0,"name":"images/coin"},{"time":0.8333,"name":null}]},"di":{"attachment":[{"time":0.8333,"name":null}]},"images/guang_0":{"color":[{"time":0,"color":"ffffff00"}]},"jackpot":{"attachment":[{"time":0,"name":null}]},"shoujibao":{"color":[{"time":0,"color":"ffffff00"}]}},"bones":{"yuandi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.1333,"x":1.252,"y":1.252,"curve":[0.25,0,0.75,1]},{"time":0.2667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":0.8,"y":0.8,"curve":[0.25,0,1,0.85]},{"time":0.8,"x":0.646,"y":0.646}]},"shoujibao":{"rotate":[{"time":0,"angle":-92.14}],"translate":[{"time":0,"x":-8.2,"y":-0.74}],"scale":[{"time":0,"x":0.689,"y":0.689}]},"guang":{"translate":[{"time":0,"x":-1.79,"y":13.05}]}}},"animation2":{"slots":{"boom":{"attachment":[{"time":0,"name":null},{"time":0.8333,"name":null}]},"coin":{"attachment":[{"time":0,"name":null},{"time":0.8333,"name":null}]},"di":{"attachment":[{"time":0.8333,"name":null}]},"images/guang_0":{"color":[{"time":0,"color":"ffffff00"}]},"jackpot":{"attachment":[{"time":0,"name":"images/grand"},{"time":0.8333,"name":null}]},"shoujibao":{"color":[{"time":0,"color":"ffffff00"}]}},"bones":{"yuandi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.1333,"x":1.252,"y":1.252,"curve":[0.25,0,0.75,1]},{"time":0.2667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":0.8,"y":0.8,"curve":[0.25,0,1,0.85]},{"time":0.8,"x":0.646,"y":0.646}]},"shoujibao":{"rotate":[{"time":0,"angle":-92.14}],"translate":[{"time":0,"x":-8.2,"y":-0.74}],"scale":[{"time":0,"x":0.689,"y":0.689}]},"guang":{"translate":[{"time":0,"x":-1.79,"y":13.05}]}}},"animation3":{"slots":{"boom":{"attachment":[{"time":0,"name":null},{"time":0.8333,"name":null}]},"coin":{"attachment":[{"time":0,"name":null},{"time":0.8333,"name":null}]},"di":{"attachment":[{"time":0.8333,"name":null}]},"images/guang_0":{"color":[{"time":0,"color":"ffffff00"}]},"jackpot":{"attachment":[{"time":0,"name":"images/major"},{"time":0.8333,"name":null}]},"shoujibao":{"color":[{"time":0,"color":"ffffff00"}]}},"bones":{"yuandi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.1333,"x":1.252,"y":1.252,"curve":[0.25,0,0.75,1]},{"time":0.2667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":0.8,"y":0.8,"curve":[0.25,0,1,0.85]},{"time":0.8,"x":0.646,"y":0.646}]},"shoujibao":{"rotate":[{"time":0,"angle":-92.14}],"translate":[{"time":0,"x":-8.2,"y":-0.74}],"scale":[{"time":0,"x":0.689,"y":0.689}]},"guang":{"translate":[{"time":0,"x":-1.79,"y":13.05}]}}},"animation4":{"slots":{"boom":{"attachment":[{"time":0,"name":null},{"time":0.8333,"name":null}]},"coin":{"attachment":[{"time":0,"name":null},{"time":0.8333,"name":null}]},"di":{"attachment":[{"time":0.8333,"name":null}]},"images/guang_0":{"color":[{"time":0,"color":"ffffff00"}]},"jackpot":{"attachment":[{"time":0,"name":"images/minor"},{"time":0.8333,"name":null}]},"shoujibao":{"color":[{"time":0,"color":"ffffff00"}]}},"bones":{"yuandi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.1333,"x":1.252,"y":1.252,"curve":[0.25,0,0.75,1]},{"time":0.2667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":0.8,"y":0.8,"curve":[0.25,0,1,0.85]},{"time":0.8,"x":0.646,"y":0.646}]},"shoujibao":{"rotate":[{"time":0,"angle":-92.14}],"translate":[{"time":0,"x":-8.2,"y":-0.74}],"scale":[{"time":0,"x":0.689,"y":0.689}]},"guang":{"translate":[{"time":0,"x":-1.79,"y":13.05}]}}},"animation5":{"slots":{"boom":{"attachment":[{"time":0,"name":null}]},"coin":{"attachment":[{"time":0,"name":null}]},"di":{"attachment":[{"time":0,"name":null}]},"images/guang_0":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.0333,"color":"ffffff00"},{"time":0.0667,"color":"ffffffff"},{"time":0.2333,"color":"ffffff00"}]},"jackpot":{"attachment":[{"time":0,"name":null}]},"shoujibao":{"color":[{"time":0,"color":"ffffff00"},{"time":0.0333,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.4,"color":"ffffff00"}],"attachment":[{"time":0.0333,"name":"images/shoujibao_0"},{"time":0.0667,"name":"images/shoujibao_1"},{"time":0.1,"name":"images/shoujibao_2"},{"time":0.1333,"name":"images/shoujibao_3"},{"time":0.1667,"name":"images/shoujibao_4"},{"time":0.2,"name":"images/shoujibao_5"},{"time":0.2333,"name":"images/shoujibao_6"},{"time":0.2667,"name":"images/shoujibao_7"},{"time":0.3,"name":"images/shoujibao_8"},{"time":0.3333,"name":"images/shoujibao_9"},{"time":0.3667,"name":"images/shoujibao_10"}]}},"bones":{"shoujibao":{"translate":[{"time":0,"x":-8.2,"y":-0.74}]},"guang":{"translate":[{"time":0,"x":-1.79,"y":13.05}]}}}}},"_atlasText":"\nscatter1jieshou.png\nsize: 377,113\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/BOOM\n  rotate: false\n  xy: 117, 31\n  size: 100, 37\n  orig: 100, 37\n  offset: 0, 0\n  index: -1\nimages/COIN\n  rotate: false\n  xy: 117, 70\n  size: 100, 43\n  orig: 100, 43\n  offset: 0, 0\n  index: -1\nimages/di\n  rotate: false\n  xy: 0, 9\n  size: 115, 104\n  orig: 115, 104\n  offset: 0, 0\n  index: -1\nimages/grand\n  rotate: false\n  xy: 219, 41\n  size: 105, 35\n  orig: 105, 35\n  offset: 0, 0\n  index: -1\nimages/guang_0\n  rotate: false\n  xy: 327, 88\n  size: 28, 25\n  orig: 28, 25\n  offset: 0, 0\n  index: -1\nimages/major\n  rotate: false\n  xy: 219, 78\n  size: 106, 35\n  orig: 106, 35\n  offset: 0, 0\n  index: -1\nimages/minor\n  rotate: false\n  xy: 219, 4\n  size: 105, 35\n  orig: 105, 35\n  offset: 0, 0\n  index: -1\nimages/shoujibao_0\n  rotate: false\n  xy: 117, 9\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_1\n  rotate: false\n  xy: 357, 93\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_10\n  rotate: false\n  xy: 348, 44\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_2\n  rotate: false\n  xy: 139, 9\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_3\n  rotate: false\n  xy: 161, 9\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_4\n  rotate: false\n  xy: 183, 9\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_5\n  rotate: false\n  xy: 327, 66\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_6\n  rotate: false\n  xy: 326, 44\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_7\n  rotate: false\n  xy: 326, 22\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_8\n  rotate: false\n  xy: 326, 0\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_9\n  rotate: false\n  xy: 349, 66\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"fdwPFyrrxEiLXAT9DpVKfu"}],"textureNames":["scatter1jieshou.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "OBCXOjrZiIiqw2qG4h9W+hFiJLc",
+      "spine": "3.6.53",
+      "width": 200,
+      "height": 200,
+      "images": "../../scatter1/texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root",
+        "scaleX": 0.1,
+        "scaleY": 0.1
+      },
+      {
+        "name": "yuandi",
+        "parent": "zong"
+      },
+      {
+        "name": "coin",
+        "parent": "yuandi",
+        "x": 45,
+        "y": 170
+      },
+      {
+        "name": "boom",
+        "parent": "coin",
+        "x": -72.9,
+        "y": -255.15
+      },
+      {
+        "name": "di",
+        "parent": "yuandi"
+      },
+      {
+        "name": "shoujibao",
+        "parent": "zong",
+        "scaleX": 10,
+        "scaleY": 10
+      },
+      {
+        "name": "guang",
+        "parent": "shoujibao",
+        "scaleX": 0.51,
+        "scaleY": 0.51,
+        "transform": "onlyTranslation"
+      },
+      {
+        "name": "jackpot",
+        "parent": "yuandi"
+      }
+    ],
+    "slots": [
+      {
+        "name": "images/guang_0",
+        "bone": "guang",
+        "attachment": "images/guang_0"
+      },
+      {
+        "name": "shoujibao",
+        "bone": "shoujibao",
+        "attachment": "images/shoujibao_0",
+        "blend": "additive"
+      },
+      {
+        "name": "di",
+        "bone": "di",
+        "attachment": "images/di"
+      },
+      {
+        "name": "coin",
+        "bone": "coin",
+        "attachment": "images/coin"
+      },
+      {
+        "name": "boom",
+        "bone": "boom",
+        "attachment": "images/boom"
+      },
+      {
+        "name": "jackpot",
+        "bone": "jackpot",
+        "attachment": "images/grand"
+      }
+    ],
+    "skins": {
+      "default": {
+        "boom": {
+          "images/boom": {
+            "path": "images/BOOM",
+            "x": -8.53,
+            "y": -54.86,
+            "width": 996,
+            "height": 366
+          }
+        },
+        "coin": {
+          "images/coin": {
+            "path": "images/COIN",
+            "x": -7.43,
+            "y": -51.01,
+            "width": 998,
+            "height": 426
+          }
+        },
+        "di": {
+          "images/di": {
+            "width": 1151,
+            "height": 1035
+          }
+        },
+        "images/guang_0": {
+          "images/guang_0": {
+            "width": 278,
+            "height": 250
+          }
+        },
+        "jackpot": {
+          "images/grand": {
+            "width": 1047,
+            "height": 354
+          },
+          "images/major": {
+            "width": 1062,
+            "height": 348
+          },
+          "images/minor": {
+            "width": 1047,
+            "height": 348
+          }
+        },
+        "shoujibao": {
+          "images/shoujibao_0": {
+            "width": 200,
+            "height": 200
+          },
+          "images/shoujibao_1": {
+            "width": 200,
+            "height": 200
+          },
+          "images/shoujibao_2": {
+            "width": 200,
+            "height": 200
+          },
+          "images/shoujibao_3": {
+            "width": 200,
+            "height": 200
+          },
+          "images/shoujibao_4": {
+            "width": 200,
+            "height": 200
+          },
+          "images/shoujibao_5": {
+            "width": 200,
+            "height": 200
+          },
+          "images/shoujibao_6": {
+            "width": 200,
+            "height": 200
+          },
+          "images/shoujibao_7": {
+            "width": 200,
+            "height": 200
+          },
+          "images/shoujibao_8": {
+            "width": 200,
+            "height": 200
+          },
+          "images/shoujibao_9": {
+            "width": 200,
+            "height": 200
+          },
+          "images/shoujibao_10": {
+            "width": 200,
+            "height": 200
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "boom": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/boom"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/coin"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "di": {
+            "attachment": [
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "images/guang_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "jackpot": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "shoujibao": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "yuandi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 1.252,
+                "y": 1.252,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  1,
+                  0.85
+                ]
+              },
+              {
+                "time": 0.8,
+                "x": 0.646,
+                "y": 0.646
+              }
+            ]
+          },
+          "shoujibao": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -92.14
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -8.2,
+                "y": -0.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.689,
+                "y": 0.689
+              }
+            ]
+          },
+          "guang": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -1.79,
+                "y": 13.05
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "boom": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "di": {
+            "attachment": [
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "images/guang_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "jackpot": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/grand"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "shoujibao": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "yuandi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 1.252,
+                "y": 1.252,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  1,
+                  0.85
+                ]
+              },
+              {
+                "time": 0.8,
+                "x": 0.646,
+                "y": 0.646
+              }
+            ]
+          },
+          "shoujibao": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -92.14
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -8.2,
+                "y": -0.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.689,
+                "y": 0.689
+              }
+            ]
+          },
+          "guang": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -1.79,
+                "y": 13.05
+              }
+            ]
+          }
+        }
+      },
+      "animation3": {
+        "slots": {
+          "boom": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "di": {
+            "attachment": [
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "images/guang_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "jackpot": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/major"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "shoujibao": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "yuandi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 1.252,
+                "y": 1.252,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  1,
+                  0.85
+                ]
+              },
+              {
+                "time": 0.8,
+                "x": 0.646,
+                "y": 0.646
+              }
+            ]
+          },
+          "shoujibao": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -92.14
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -8.2,
+                "y": -0.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.689,
+                "y": 0.689
+              }
+            ]
+          },
+          "guang": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -1.79,
+                "y": 13.05
+              }
+            ]
+          }
+        }
+      },
+      "animation4": {
+        "slots": {
+          "boom": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "di": {
+            "attachment": [
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "images/guang_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "jackpot": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/minor"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "shoujibao": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "yuandi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 1.252,
+                "y": 1.252,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  1,
+                  0.85
+                ]
+              },
+              {
+                "time": 0.8,
+                "x": 0.646,
+                "y": 0.646
+              }
+            ]
+          },
+          "shoujibao": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -92.14
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -8.2,
+                "y": -0.74
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.689,
+                "y": 0.689
+              }
+            ]
+          },
+          "guang": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -1.79,
+                "y": 13.05
+              }
+            ]
+          }
+        }
+      },
+      "animation5": {
+        "slots": {
+          "boom": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "di": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "images/guang_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "jackpot": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "shoujibao": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.0333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.0333,
+                "name": "images/shoujibao_0"
+              },
+              {
+                "time": 0.0667,
+                "name": "images/shoujibao_1"
+              },
+              {
+                "time": 0.1,
+                "name": "images/shoujibao_2"
+              },
+              {
+                "time": 0.1333,
+                "name": "images/shoujibao_3"
+              },
+              {
+                "time": 0.1667,
+                "name": "images/shoujibao_4"
+              },
+              {
+                "time": 0.2,
+                "name": "images/shoujibao_5"
+              },
+              {
+                "time": 0.2333,
+                "name": "images/shoujibao_6"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/shoujibao_7"
+              },
+              {
+                "time": 0.3,
+                "name": "images/shoujibao_8"
+              },
+              {
+                "time": 0.3333,
+                "name": "images/shoujibao_9"
+              },
+              {
+                "time": 0.3667,
+                "name": "images/shoujibao_10"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "shoujibao": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -8.2,
+                "y": -0.74
+              }
+            ]
+          },
+          "guang": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -1.79,
+                "y": 13.05
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nscatter1jieshou.png\nsize: 377,113\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/BOOM\n  rotate: false\n  xy: 117, 31\n  size: 100, 37\n  orig: 100, 37\n  offset: 0, 0\n  index: -1\nimages/COIN\n  rotate: false\n  xy: 117, 70\n  size: 100, 43\n  orig: 100, 43\n  offset: 0, 0\n  index: -1\nimages/di\n  rotate: false\n  xy: 0, 9\n  size: 115, 104\n  orig: 115, 104\n  offset: 0, 0\n  index: -1\nimages/grand\n  rotate: false\n  xy: 219, 41\n  size: 105, 35\n  orig: 105, 35\n  offset: 0, 0\n  index: -1\nimages/guang_0\n  rotate: false\n  xy: 327, 88\n  size: 28, 25\n  orig: 28, 25\n  offset: 0, 0\n  index: -1\nimages/major\n  rotate: false\n  xy: 219, 78\n  size: 106, 35\n  orig: 106, 35\n  offset: 0, 0\n  index: -1\nimages/minor\n  rotate: false\n  xy: 219, 4\n  size: 105, 35\n  orig: 105, 35\n  offset: 0, 0\n  index: -1\nimages/shoujibao_0\n  rotate: false\n  xy: 117, 9\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_1\n  rotate: false\n  xy: 357, 93\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_10\n  rotate: false\n  xy: 348, 44\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_2\n  rotate: false\n  xy: 139, 9\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_3\n  rotate: false\n  xy: 161, 9\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_4\n  rotate: false\n  xy: 183, 9\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_5\n  rotate: false\n  xy: 327, 66\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_6\n  rotate: false\n  xy: 326, 44\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_7\n  rotate: false\n  xy: 326, 22\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_8\n  rotate: false\n  xy: 326, 0\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\nimages/shoujibao_9\n  rotate: false\n  xy: 349, 66\n  size: 20, 20\n  orig: 20, 20\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "fdwPFyrrxEiLXAT9DpVKfu"
+    }
+  ],
+  "textureNames": [
+    "scatter1jieshou.png"
+  ]
+}

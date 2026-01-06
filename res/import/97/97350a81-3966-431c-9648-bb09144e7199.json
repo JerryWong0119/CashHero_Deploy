@@ -1,1 +1,85 @@
-{"__type__":"sp.SkeletonData","_name":"tc_03","_skeletonJson":{"skeleton":{"hash":"VC/Kq2HtDh5VXp4kutocJUtuCHk","spine":"3.6.53","width":367,"height":58,"images":"../素材/"},"bones":[{"name":"root"},{"name":"acti","parent":"root"}],"slots":[{"name":"theme158_dialog_text1","bone":"acti","attachment":"theme158_dialog_text1"}],"skins":{"default":{"theme158_dialog_text1":{"theme158_dialog_text1":{"width":367,"height":58}}}},"animations":{"animation":{"bones":{"acti":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.7,"x":1.1,"y":1.1,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":1,"y":1}]}}}}},"_atlasText":"\ntc_03.png\nsize: 367,58\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme158_dialog_text1\n  rotate: false\n  xy: 0, 0\n  size: 367, 58\n  orig: 367, 58\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"beIy/pTI1JO6mrQiR+Tq0V"}],"textureNames":["tc_03.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "tc_03",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "VC/Kq2HtDh5VXp4kutocJUtuCHk",
+      "spine": "3.6.53",
+      "width": 367,
+      "height": 58,
+      "images": "../素材/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "acti",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme158_dialog_text1",
+        "bone": "acti",
+        "attachment": "theme158_dialog_text1"
+      }
+    ],
+    "skins": {
+      "default": {
+        "theme158_dialog_text1": {
+          "theme158_dialog_text1": {
+            "width": 367,
+            "height": 58
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "bones": {
+          "acti": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ntc_03.png\nsize: 367,58\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme158_dialog_text1\n  rotate: false\n  xy: 0, 0\n  size: 367, 58\n  orig: 367, 58\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "beIy/pTI1JO6mrQiR+Tq0V"
+    }
+  ],
+  "textureNames": [
+    "tc_03.png"
+  ]
+}

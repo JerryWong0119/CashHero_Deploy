@@ -1,1 +1,494 @@
-{"__type__":"sp.SkeletonData","_name":"zhuanpanzhongjiang_2","_skeletonJson":{"skeleton":{"hash":"EK3rnV+tRYrZjUxHElVAe2Wmcc0","spine":"3.6.53","width":1060,"height":1560,"images":"../素材/"},"bones":[{"name":"root"},{"name":"kuang","parent":"root","x":-1.06,"y":290.94},{"name":"kuang2","parent":"root","x":-1.5,"y":212.88},{"name":"kuang3","parent":"root","x":-1.06,"y":139.23},{"name":"骨骼","parent":"root"},{"name":"骨骼2","parent":"root","scaleX":1.25,"scaleY":1.25},{"name":"骨骼3","parent":"root"},{"name":"骨骼4","parent":"root"}],"slots":[{"name":"game_4_1","bone":"root"},{"name":"root","bone":"root"},{"name":"theme141_game4_lun2","bone":"骨骼2"},{"name":"theme141_game4_lun3","bone":"骨骼3"},{"name":"theme141_game4_10","bone":"骨骼"},{"name":"theme141_game4_spin_1","bone":"骨骼4"},{"name":"quan1","bone":"kuang"},{"name":"quan4","bone":"kuang","blend":"additive"},{"name":"quan2","bone":"kuang2"},{"name":"quan5","bone":"kuang2","blend":"additive"},{"name":"quan3","bone":"kuang3"},{"name":"quan6","bone":"kuang3","blend":"additive"}],"skins":{"default":{"quan1":{"quan1":{"width":227,"height":123}},"quan2":{"quan2":{"width":178,"height":117}},"quan3":{"quan3":{"width":124,"height":107}},"quan4":{"quan1":{"width":227,"height":123}},"quan5":{"quan2":{"width":178,"height":117}},"quan6":{"quan3":{"width":124,"height":107}}}},"animations":{"animation1":{"slots":{"quan1":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.4667,"color":"ffffffb9","curve":[0.25,0,0.75,1]},{"time":0.7667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"quan1"}]},"quan4":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2667,"color":"ffffff69","curve":[0.25,0,0.75,1]},{"time":0.4667,"color":"ffffff40","curve":[0.25,0,0.75,1]},{"time":0.7667,"color":"ffffff69","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"quan1"}]}}},"animation2":{"slots":{"quan2":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.4667,"color":"ffffffb9","curve":[0.25,0,0.75,1]},{"time":0.7667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"quan2"}]},"quan5":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2667,"color":"ffffff69","curve":[0.25,0,0.75,1]},{"time":0.4667,"color":"ffffff40","curve":[0.25,0,0.75,1]},{"time":0.7667,"color":"ffffff69","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"quan2"}]}}},"animation3":{"slots":{"quan3":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.4667,"color":"ffffffb9","curve":[0.25,0,0.75,1]},{"time":0.7667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"quan3"}]},"quan6":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2667,"color":"ffffff69","curve":[0.25,0,0.75,1]},{"time":0.4667,"color":"ffffff40","curve":[0.25,0,0.75,1]},{"time":0.7667,"color":"ffffff69","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"quan3"}]}}}}},"_atlasText":"\nzhuanpanzhongjiang_2.png\nsize: 533,123\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nquan1\n  rotate: false\n  xy: 0, 0\n  size: 227, 123\n  orig: 227, 123\n  offset: 0, 0\n  index: -1\nquan2\n  rotate: false\n  xy: 229, 6\n  size: 178, 117\n  orig: 178, 117\n  offset: 0, 0\n  index: -1\nquan3\n  rotate: false\n  xy: 409, 16\n  size: 124, 107\n  orig: 124, 107\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"99H0ZFz45FdLI4Gitp8Ld9"}],"textureNames":["zhuanpanzhongjiang_2.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "zhuanpanzhongjiang_2",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "EK3rnV+tRYrZjUxHElVAe2Wmcc0",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../素材/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "kuang",
+        "parent": "root",
+        "x": -1.06,
+        "y": 290.94
+      },
+      {
+        "name": "kuang2",
+        "parent": "root",
+        "x": -1.5,
+        "y": 212.88
+      },
+      {
+        "name": "kuang3",
+        "parent": "root",
+        "x": -1.06,
+        "y": 139.23
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼2",
+        "parent": "root",
+        "scaleX": 1.25,
+        "scaleY": 1.25
+      },
+      {
+        "name": "骨骼3",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼4",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "game_4_1",
+        "bone": "root"
+      },
+      {
+        "name": "root",
+        "bone": "root"
+      },
+      {
+        "name": "theme141_game4_lun2",
+        "bone": "骨骼2"
+      },
+      {
+        "name": "theme141_game4_lun3",
+        "bone": "骨骼3"
+      },
+      {
+        "name": "theme141_game4_10",
+        "bone": "骨骼"
+      },
+      {
+        "name": "theme141_game4_spin_1",
+        "bone": "骨骼4"
+      },
+      {
+        "name": "quan1",
+        "bone": "kuang"
+      },
+      {
+        "name": "quan4",
+        "bone": "kuang",
+        "blend": "additive"
+      },
+      {
+        "name": "quan2",
+        "bone": "kuang2"
+      },
+      {
+        "name": "quan5",
+        "bone": "kuang2",
+        "blend": "additive"
+      },
+      {
+        "name": "quan3",
+        "bone": "kuang3"
+      },
+      {
+        "name": "quan6",
+        "bone": "kuang3",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "quan1": {
+          "quan1": {
+            "width": 227,
+            "height": 123
+          }
+        },
+        "quan2": {
+          "quan2": {
+            "width": 178,
+            "height": 117
+          }
+        },
+        "quan3": {
+          "quan3": {
+            "width": 124,
+            "height": 107
+          }
+        },
+        "quan4": {
+          "quan1": {
+            "width": 227,
+            "height": 123
+          }
+        },
+        "quan5": {
+          "quan2": {
+            "width": 178,
+            "height": 117
+          }
+        },
+        "quan6": {
+          "quan3": {
+            "width": 124,
+            "height": 107
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "quan1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffffb9",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "quan1"
+              }
+            ]
+          },
+          "quan4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffff69",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffff40",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "color": "ffffff69",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "quan1"
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "quan2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffffb9",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "quan2"
+              }
+            ]
+          },
+          "quan5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffff69",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffff40",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "color": "ffffff69",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "quan2"
+              }
+            ]
+          }
+        }
+      },
+      "animation3": {
+        "slots": {
+          "quan3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffffb9",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "quan3"
+              }
+            ]
+          },
+          "quan6": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffff69",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffff40",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "color": "ffffff69",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "quan3"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nzhuanpanzhongjiang_2.png\nsize: 533,123\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nquan1\n  rotate: false\n  xy: 0, 0\n  size: 227, 123\n  orig: 227, 123\n  offset: 0, 0\n  index: -1\nquan2\n  rotate: false\n  xy: 229, 6\n  size: 178, 117\n  orig: 178, 117\n  offset: 0, 0\n  index: -1\nquan3\n  rotate: false\n  xy: 409, 16\n  size: 124, 107\n  orig: 124, 107\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "99H0ZFz45FdLI4Gitp8Ld9"
+    }
+  ],
+  "textureNames": [
+    "zhuanpanzhongjiang_2.png"
+  ]
+}

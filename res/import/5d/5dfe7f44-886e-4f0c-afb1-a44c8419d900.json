@@ -1,1 +1,637 @@
-{"__type__":"sp.SkeletonData","_name":"map_sanchaji","_skeletonJson":{"skeleton":{"hash":"juvV/NgTmQxEsr4qzsU0UhxejW8","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"all","parent":"root","scaleX":0.5,"scaleY":0.5},{"name":"sanchaji","parent":"all","x":-0.68,"y":3.7,"scaleX":0.26,"scaleY":0.26},{"name":"1","parent":"sanchaji","scaleX":2,"scaleY":2},{"name":"glow1","parent":"all"},{"name":"glow3","parent":"all"},{"name":"glwo2","parent":"all"}],"slots":[{"name":"glow2","bone":"glwo2","blend":"additive"},{"name":"glow4","bone":"glow3","blend":"additive"},{"name":"sanchaji","bone":"sanchaji"},{"name":"sanchaji_00","bone":"1","blend":"additive"},{"name":"glow1","bone":"glow1","blend":"additive"}],"skins":{"default":{"glow1":{"glow1":{"width":256,"height":256}},"glow2":{"glow2":{"width":326,"height":300}},"glow4":{"glow4":{"width":300,"height":300}},"sanchaji":{"sanchaji":{"width":593,"height":591}},"sanchaji_00":{"sanchaji_00":{"width":500,"height":500}}}},"animations":{"sanchaji_guochang":{"slots":{"glow1":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":1.5,"color":"ffffff00"},{"time":1.6667,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow1"}]},"glow2":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.3333,"color":"ffffff00"},{"time":1.5,"color":"ffffffff","curve":"stepped"},{"time":1.6667,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow2"}]},"glow4":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.3333,"color":"ffffff00"},{"time":1.5,"color":"ffffffff","curve":"stepped"},{"time":1.6667,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow4"}]},"sanchaji":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":1.5,"color":"ffffffff"},{"time":1.8333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"sanchaji"}]},"sanchaji_00":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.3333,"color":"ffffff00"},{"time":1.5,"color":"ffffffff"},{"time":1.8333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"sanchaji_00"}]}},"bones":{"sanchaji":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":0.3333,"angle":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"angle":5,"curve":[0.25,0,0.75,1]},{"time":0.6667,"angle":-5,"curve":[0.25,0,0.75,1]},{"time":0.8333,"angle":5,"curve":[0.25,0,0.75,1]},{"time":1,"angle":-5,"curve":[0.25,0,0.75,1]},{"time":1.1667,"angle":5,"curve":[0.25,0,0.75,1]},{"time":1.3333,"angle":-5,"curve":[0.25,0,0.75,1]},{"time":1.5,"angle":0}],"scale":[{"time":0,"x":1,"y":1},{"time":0.3333,"x":3.846,"y":3.846,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":6.538,"y":6.538,"curve":[0.25,0,0.75,1]},{"time":1.8333,"x":9.231,"y":9.231}]},"glwo2":{"rotate":[{"time":0,"angle":60,"curve":"stepped"},{"time":0.3333,"angle":60},{"time":2,"angle":-121}],"scale":[{"time":0,"x":3,"y":3,"curve":"stepped"},{"time":0.3333,"x":3,"y":3,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":10,"y":10,"curve":[0.25,0,0.75,1]},{"time":1.8333,"x":20,"y":20}]},"glow3":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":0.3333,"angle":0},{"time":2,"angle":180}],"scale":[{"time":0,"x":8,"y":8,"curve":"stepped"},{"time":0.3333,"x":8,"y":8},{"time":1.5,"x":15.21,"y":15.21},{"time":1.8333,"x":20,"y":20}]},"glow1":{"scale":[{"time":0,"x":10,"y":10,"curve":"stepped"},{"time":1.5,"x":10,"y":10,"curve":[0.25,0,0.75,1]},{"time":1.8333,"x":30,"y":30}]}}},"sanchaji_intro":{"slots":{"glow1":{"attachment":[{"time":0,"name":null}]},"glow2":{"attachment":[{"time":0,"name":null}]},"glow4":{"attachment":[{"time":0,"name":null}]},"sanchaji":{"attachment":[{"time":0,"name":"sanchaji"}]},"sanchaji_00":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.6667,"color":"ffffff00"},{"time":1,"color":"ffffffff"},{"time":1.3333,"color":"ffffff00"},{"time":1.6667,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"sanchaji_00"}]}},"bones":{"sanchaji":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":1.731,"y":1.731,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":0.885,"y":0.885,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1.038,"y":1.038,"curve":[0.25,0,0.75,1]},{"time":0.8333,"x":1,"y":1}]}}}}},"_atlasText":"\nmap_sanchaji.png\nsize: 657,300\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nglow1\n  rotate: false\n  xy: 301, 12\n  size: 124, 91\n  orig: 128, 128\n  offset: 1, 20\n  index: -1\nglow2\n  rotate: false\n  xy: 500, 148\n  size: 155, 150\n  orig: 163, 150\n  offset: 4, 0\n  index: -1\nglow4\n  rotate: false\n  xy: 500, 26\n  size: 131, 120\n  orig: 150, 150\n  offset: 9, 14\n  index: -1\nsanchaji\n  rotate: false\n  xy: 2, 2\n  size: 297, 296\n  orig: 297, 296\n  offset: 0, 0\n  index: -1\nsanchaji_00\n  rotate: false\n  xy: 301, 105\n  size: 197, 193\n  orig: 250, 250\n  offset: 27, 29\n  index: -1\n","textures":[{"__uuid__":"00P25//m1Kmb6M3o/Nc9Du"}],"textureNames":["map_sanchaji.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "map_sanchaji",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "juvV/NgTmQxEsr4qzsU0UhxejW8",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "all",
+        "parent": "root",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "sanchaji",
+        "parent": "all",
+        "x": -0.68,
+        "y": 3.7,
+        "scaleX": 0.26,
+        "scaleY": 0.26
+      },
+      {
+        "name": "1",
+        "parent": "sanchaji",
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "glow1",
+        "parent": "all"
+      },
+      {
+        "name": "glow3",
+        "parent": "all"
+      },
+      {
+        "name": "glwo2",
+        "parent": "all"
+      }
+    ],
+    "slots": [
+      {
+        "name": "glow2",
+        "bone": "glwo2",
+        "blend": "additive"
+      },
+      {
+        "name": "glow4",
+        "bone": "glow3",
+        "blend": "additive"
+      },
+      {
+        "name": "sanchaji",
+        "bone": "sanchaji"
+      },
+      {
+        "name": "sanchaji_00",
+        "bone": "1",
+        "blend": "additive"
+      },
+      {
+        "name": "glow1",
+        "bone": "glow1",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "glow1": {
+          "glow1": {
+            "width": 256,
+            "height": 256
+          }
+        },
+        "glow2": {
+          "glow2": {
+            "width": 326,
+            "height": 300
+          }
+        },
+        "glow4": {
+          "glow4": {
+            "width": 300,
+            "height": 300
+          }
+        },
+        "sanchaji": {
+          "sanchaji": {
+            "width": 593,
+            "height": 591
+          }
+        },
+        "sanchaji_00": {
+          "sanchaji_00": {
+            "width": 500,
+            "height": 500
+          }
+        }
+      }
+    },
+    "animations": {
+      "sanchaji_guochang": {
+        "slots": {
+          "glow1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow1"
+              }
+            ]
+          },
+          "glow2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow2"
+              }
+            ]
+          },
+          "glow4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow4"
+              }
+            ]
+          },
+          "sanchaji": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.8333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "sanchaji"
+              }
+            ]
+          },
+          "sanchaji_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.8333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "sanchaji_00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sanchaji": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "angle": 5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "angle": -5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "angle": 5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "angle": -5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "angle": 5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "angle": -5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.3333,
+                "x": 3.846,
+                "y": 3.846,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 6.538,
+                "y": 6.538,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.8333,
+                "x": 9.231,
+                "y": 9.231
+              }
+            ]
+          },
+          "glwo2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 60,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "angle": 60
+              },
+              {
+                "time": 2,
+                "angle": -121
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 3,
+                "y": 3,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 3,
+                "y": 3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 10,
+                "y": 10,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.8333,
+                "x": 20,
+                "y": 20
+              }
+            ]
+          },
+          "glow3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": 180
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 8,
+                "y": 8,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 8,
+                "y": 8
+              },
+              {
+                "time": 1.5,
+                "x": 15.21,
+                "y": 15.21
+              },
+              {
+                "time": 1.8333,
+                "x": 20,
+                "y": 20
+              }
+            ]
+          },
+          "glow1": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 10,
+                "y": 10,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "x": 10,
+                "y": 10,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.8333,
+                "x": 30,
+                "y": 30
+              }
+            ]
+          }
+        }
+      },
+      "sanchaji_intro": {
+        "slots": {
+          "glow1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "glow2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "glow4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "sanchaji": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "sanchaji"
+              }
+            ]
+          },
+          "sanchaji_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "sanchaji_00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sanchaji": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.731,
+                "y": 1.731,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.885,
+                "y": 0.885,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1.038,
+                "y": 1.038,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nmap_sanchaji.png\nsize: 657,300\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nglow1\n  rotate: false\n  xy: 301, 12\n  size: 124, 91\n  orig: 128, 128\n  offset: 1, 20\n  index: -1\nglow2\n  rotate: false\n  xy: 500, 148\n  size: 155, 150\n  orig: 163, 150\n  offset: 4, 0\n  index: -1\nglow4\n  rotate: false\n  xy: 500, 26\n  size: 131, 120\n  orig: 150, 150\n  offset: 9, 14\n  index: -1\nsanchaji\n  rotate: false\n  xy: 2, 2\n  size: 297, 296\n  orig: 297, 296\n  offset: 0, 0\n  index: -1\nsanchaji_00\n  rotate: false\n  xy: 301, 105\n  size: 197, 193\n  orig: 250, 250\n  offset: 27, 29\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "00P25//m1Kmb6M3o/Nc9Du"
+    }
+  ],
+  "textureNames": [
+    "map_sanchaji.png"
+  ]
+}

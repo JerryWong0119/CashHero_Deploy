@@ -1,1 +1,3984 @@
-window.__require=function e(t,n,a){function o(c,r){if(!n[c]){if(!t[c]){var s=c.split("/");if(s=s[s.length-1],!t[s]){var m="function"==typeof __require&&__require;if(!r&&m)return m(s,!0);if(i)return i(s,!0);throw new Error("Cannot find module '"+c+"'")}c=s}var l=n[c]={exports:{}};t[c][0].call(l.exports,function(e){return o(t[c][1][e]||e)},l,l.exports,e,t,n,a)}return n[c].exports}for(var i="function"==typeof __require&&__require,c=0;c<a.length;c++)o(a[c]);return o}({VampireCount_Cfg:[function(e,t,n){"use strict";var a;function o(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}cc._RF.push(t,"507faWD3kJOyYK2PbPp6xTi","VampireCount_Cfg");var i={symbol:(a={},o(a,1,{node:"symbol_1",win_node:"animation_1",win_ani:{name:"animation",zIndex:300}}),o(a,2,{node:"symbol_2",win_node:"animation_2",stop_ani:{name:"animation",zIndex:100},trigger_ani:{name:"animation3",zIndex:300},idle_ani:{name:"animation2",zIndex:200}}),o(a,3,{node:"symbol_3"}),o(a,4,{node:"symbol_4",win_node:"animation_4",win_ani:{name:"animation",zIndex:300}}),o(a,5,{node:"symbol_5",win_node:"animation_5",win_ani:{name:"animation",zIndex:300}}),o(a,6,{node:"symbol_6",win_node:"animation_6",win_ani:{name:"animation",zIndex:300}}),o(a,7,{node:"symbol_7",win_node:"animation_7",win_ani:{name:"animation",zIndex:300}}),o(a,8,{node:"symbol_8",win_node:"animation_8",win_ani:{name:"animation",zIndex:300}}),o(a,9,{node:"symbol_9",win_node:"animation_9",win_ani:{name:"animation",zIndex:300}}),o(a,10,{node:"symbol_10",win_node:"animation_10",win_ani:{name:"animation",zIndex:300}}),o(a,101,{node:"symbol_101",win_node:"animation_101",win_ani:{name:"animation2",zIndex:300}}),o(a,201,{node:"symbol_201"}),o(a,202,{node:"symbol_202",win_node:"animation_202",stop_ani:{name:"animation",zIndex:200},trigger_ani:{name:"animation3",zIndex:400}}),o(a,203,{node:"symbol_203"}),o(a,301,{node:"symbol_301",win_node:"animation_301",stop_ani:{name:"animation",zIndex:100},trigger_ani:{name:"animation3",zIndex:300},idle_ani:{name:"animation2",zIndex:200}}),a),BonusType:{Coin:1,Double:2,JackpotWheel:3},MapType:{PickBooster:1,SuperFreeGame:2},MapBoostType:{ExtraFreeCnt:1,WildPaysDouble:2,AddRow:3,ExtraWild:4,ExtraBonus:5,Coin:6},MapConfig:[{id:1,type:1,pickCnt:2,nextSlotsId:3,index:1},{id:2,type:1,pickCnt:2,nextSlotsId:3,index:1},{id:3,type:2,boosters:[1,2],animationName:"animation1",nextSlotsId:7,index:1},{id:4,type:1,pickCnt:2,nextSlotsId:7,index:2},{id:5,type:1,pickCnt:2,nextSlotsId:7,index:2},{id:6,type:1,pickCnt:2,nextSlotsId:7,index:2},{id:7,type:2,boosters:[1,2,3],animationName:"animation2",nextSlotsId:12,index:2},{id:8,type:1,pickCnt:2,nextSlotsId:12,index:3},{id:9,type:1,pickCnt:2,nextSlotsId:12,index:3},{id:10,type:1,pickCnt:2,nextSlotsId:12,index:3},{id:11,type:1,pickCnt:2,nextSlotsId:12,index:3},{id:12,type:2,boosters:[1,2,3,4],animationName:"animation3",nextSlotsId:18,index:3},{id:13,type:1,pickCnt:3,nextSlotsId:18,index:4},{id:14,type:1,pickCnt:3,nextSlotsId:18,index:4},{id:15,type:1,pickCnt:3,nextSlotsId:18,index:4},{id:16,type:1,pickCnt:3,nextSlotsId:18,index:4},{id:17,type:1,pickCnt:3,nextSlotsId:18,index:4},{id:18,type:2,boosters:[1,2,3,4],animationName:"animation4",nextSlotsId:25,index:4},{id:19,type:1,pickCnt:3,nextSlotsId:25,index:5},{id:20,type:1,pickCnt:3,nextSlotsId:25,index:5},{id:21,type:1,pickCnt:3,nextSlotsId:25,index:5},{id:22,type:1,pickCnt:3,nextSlotsId:25,index:5},{id:23,type:1,pickCnt:3,nextSlotsId:25,index:5},{id:24,type:1,pickCnt:3,nextSlotsId:25,index:5},{id:25,type:2,boosters:[1,2,3,4,5],animationName:"animation5",nextSlotsId:33,index:5},{id:26,type:1,pickCnt:3,nextSlotsId:33,index:6},{id:27,type:1,pickCnt:3,nextSlotsId:33,index:6},{id:28,type:1,pickCnt:3,nextSlotsId:33,index:6},{id:29,type:1,pickCnt:3,nextSlotsId:33,index:6},{id:30,type:1,pickCnt:3,nextSlotsId:33,index:6},{id:31,type:1,pickCnt:3,nextSlotsId:33,index:6},{id:32,type:1,pickCnt:3,nextSlotsId:33,index:6},{id:33,type:2,boosters:[1,2,3,4,5],animationName:"animation6",nextSlotsId:3,index:6}],scripts:{Top:"LMSlots_Top_Base",Bottom:"LMSlots_Bottom_Base",Slots:"VampireCount_Slots",Reels:"VampireCount_Reel",Symbols:"VampireCount_Symbol"},col:5,row:3,symbolPrefab:"symbol",symbolSize:{width:112,height:103},randomSymbols:[1,3,4,5,6,7,8,9,10],wildId:1,scatterId:2,bonusId:3,collectSymbolId:4,pumpkinManId:202,extraSpinId:301,kuang:"kuang",speed:3e3,reelStopInter:.2,auto_stop_time:1,bounceInfo:{distance:30,time:.1},autoModelDelay:1,AddAntiTime:1.5,reelStateInfo:[{id:[2],mini:3,counts:[1,1,1,1,1],antiNode:"node_anti",path:"games/VampireCount/",reelStopSound:"reel_stop",symbolStopSound:"scatter_landing",antSound:"anticipation1",antSpeed:2e3}],helpItems:["games/VampireCount/prefab/help_item_1","games/VampireCount/prefab/help_item_2","games/VampireCount/prefab/help_item_3","games/VampireCount/prefab/help_item_4","games/VampireCount/prefab/help_item_5","games/VampireCount/prefab/help_item_6","games/VampireCount/prefab/help_item_7"],commEffect:{path:"games/VampireCount/",win1:["win1","win1end"],win2:["win2","win2end"]},normalBgm:"base_bgm"};t.exports=i,cc._RF.pop()},{}],VampireCount_Logic:[function(e,t,n){"use strict";cc._RF.push(t,"b58f2KlGipPHIFRJ7AT27ZY","VampireCount_Logic"),cc.Class({extends:e("LMSlots_Logic_Base"),properties:{_pickBonusData:null,_lockBonus:!1,_leftSpiderCount:0,_rightSpiderCount:0},onLoad:function(){this._super();var e=cc.vv.gameData.getDeskInfo();this._lockBonus=e.needBet>e.currmult,Global.registerEvent(cc.vv.gameData._EventId.SLOT_TOTALBET_UPDATED,this.onUpdateBet,this)},onUpdateBet:function(){var e=cc.vv.gameData.getDeskInfo(),t=cc.find("safe_node/slots/collect_node/bonus_node/lock",this.node).getComponent(sp.Skeleton);e.needBet<=cc.vv.gameData.GetBetIdx()&&this._lockBonus?(cc.vv.AudioManager.playEff("games/VampireCount/","unlock",!0),this._lockBonus=!1,t.clearTracks(),t.setToSetupPose(),t.setAnimation(0,"animation3",!1)):e.needBet>cc.vv.gameData.GetBetIdx()&&!this._lockBonus&&(cc.vv.AudioManager.playEff("games/VampireCount/","lock",!0),this._lockBonus=!0,t.clearTracks(),t.setToSetupPose(),t.setAnimation(0,"animation1",!1)),cc.vv.gameData.GetSlotsScript().setPumpkinInfo(e.bonusInfos)},playSpiderAndGhostAnimation:function(e){var t=this,n=cc.find("safe_node/bg/spider",this.node).getComponent(sp.Skeleton);n.clearTracks(),n.setToSetupPose(),n.setAnimation(0,"animation2_"+e+"_1",!1),n.setCompleteListener(function(a){var o=a.animation?a.animation.name:"";o==="animation2_"+e+"_1"?(t._rightSpiderCount++,t._rightSpiderCount>=3&&(n.clearTracks(),n.setToSetupPose(),n.setAnimation(0,"animation2_"+e+"_2",!1),t._rightSpiderCount=0)):o==="animation2_"+e+"_2"&&(t._leftSpiderCount++,t._leftSpiderCount>=2&&(n.clearTracks(),n.setToSetupPose(),n.setAnimation(0,"animation2_"+e+"_1",!1),t._leftSpiderCount=0))});var a=cc.find("safe_node/bg/ghost",this.node).getComponent(sp.Skeleton);a.clearTracks(),a.setToSetupPose(),a.setAnimation(0,"animation4_"+e+"_1",!1),a.setCompleteListener(function(t){var n=t.animation?t.animation.name:"";n==="animation4_"+e+"_1"?(a.clearTracks(),a.setToSetupPose(),a.setAnimation(0,"animation4_"+e+"_2",!1)):n==="animation4_"+e+"_2"&&(a.clearTracks(),a.setToSetupPose(),a.setAnimation(0,"animation4_"+e+"_1",!1))})}}),cc._RF.pop()},{LMSlots_Logic_Base:void 0}],VampireCount_Map:[function(e,t,n){"use strict";function a(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=o(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,i,c=!0,r=!1;return{s:function(){a=e[Symbol.iterator]()},n:function(){var e=a.next();return c=e.done,e},e:function(e){r=!0,i=e},f:function(){try{c||null==a.return||a.return()}finally{if(r)throw i}}}}function o(e,t){if(e){if("string"==typeof e)return i(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?i(e,t):void 0}}function i(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,a=new Array(t);n<t;n++)a[n]=e[n];return a}function c(e,t,n,a,o,i,c){try{var r=e[i](c),s=r.value}catch(e){return void n(e)}r.done?t(s):Promise.resolve(s).then(a,o)}function r(e){return function(){var t=this,n=arguments;return new Promise(function(a,o){var i=e.apply(t,n);function r(e){c(i,a,o,r,s,"next",e)}function s(e){c(i,a,o,r,s,"throw",e)}r(void 0)})}}cc._RF.push(t,"d53bbPqIoVM0JogletkJfM5","VampireCount_Map"),cc.Class({extends:cc.Component,properties:{role:cc.Node,points:[cc.Node],map:cc.Node,start_node:cc.Node,btn_back:cc.Node},initMap:function(e){this.node.active=!0,this.map.y=cc.winSize.height;for(var t=cc.vv.gameData.getGameCfg(),n=0;n<t.MapConfig.length;n++){var a=t.MapConfig[n],o=this.points[n],i=o.getChildByName("spine").getComponent(sp.Skeleton);if(a.type===t.MapType.PickBooster)n<e.currId?(i.clearTracks(),i.setToSetupPose(),i.setAnimation(0,"animation4",!0)):(i.clearTracks(),i.setToSetupPose(),i.setAnimation(0,"animation3",!0));else if(a.type===t.MapType.SuperFreeGame){var c=o.getChildByName("common"),r=o.getChildByName("finish");c.active=n>=e.currId,r.active=n<e.currId,n<e.currId?i.setAnimation(0,"animation"+a.index+"_3",!0):i.setAnimation(0,"animation"+a.index+"_2",!0);for(var s=1;s<6;s++){var m=c.getChildByName("tips_"+s);m&&(m.getChildByName("no").active=!1,m.getChildByName("yes").active=!1)}}}var l=e.currId>=1?t.MapConfig[e.currId-1].nextSlotsId-1:t.MapConfig[0].nextSlotsId-1,u=(t.MapConfig[l],this.points[l]);if(u){var p=u.getChildByName("common");if(p){for(var d=1;d<6;d++){var f=p.getChildByName("tips_"+d);f&&(f.getChildByName("no").active=!1,f.getChildByName("yes").active=-1!==e.nextUnlockBoosters.indexOf(d))}p.getChildByName("num").getComponent(cc.Label).string=e.nextUnlockBoosters.length}}var g=e.currId<=0?this.start_node:this.points[e.currId-1];this.role.active=!0,this.role.position=g.position},openMap:function(e){var t=this;this.node.active=!0,this.map.y=cc.winSize.height,cc.vv.AudioManager.playEff("games/VampireCount/","map_open",!0),cc.tween(this.map).to(.5,{y:0}).start(),e&&(this.btn_back.active=!0,this.btn_back.scale=0,cc.tween(this.btn_back).delay(.6).to(.5,{scale:1},{easing:"backOut"}).start(),this.btn_back.on("click",function(){t.btn_back.off("click"),cc.vv.AudioManager.playEff("games/VampireCount/","map_close",!0),cc.tween(t.btn_back).to(.2,{scale:0}).start(),cc.tween(t.map).to(.5,{y:cc.winSize.height}).call(function(){cc.vv.gameData.GetSlotsScript().CanDoNextRound(),t.node.active=!1}).start()}))},showMap:function(e){var t=this;return r(regeneratorRuntime.mark(function n(){var o,i,c,r,s,m,l,u,p,d,f,g,v,_,h,y,S,k,C,b,w,x,I;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:if(t.node.active=!0,o=cc.vv.gameData.getGameCfg(),t.initMap(e),i=o.MapConfig[e.currId-1],c=t.points[e.currId-1],r=c.getChildByName("spine").getComponent(sp.Skeleton),i.type===o.MapType.PickBooster)r.clearTracks(),r.setToSetupPose(),r.setAnimation(0,"animation3",!0);else if(i.type===o.MapType.SuperFreeGame)for(s=c.getChildByName("common"),m=c.getChildByName("finish"),s.active=!0,m.active=!1,r.setAnimation(0,"animation"+i.index+"_2",!0),l=1;l<6;l++)(u=s.getChildByName("tips_"+l))&&(u.getChildByName("no").active=-1===e.nextUnlockBoosters.indexOf(l),u.getChildByName("yes").active=-1!==e.nextUnlockBoosters.indexOf(l));return t.openMap(!1),n.next=10,cc.vv.gameData.awaitTime(.5);case 10:return p=c.convertToWorldSpaceAR(cc.v2(0,0)),(d=p.y/cc.winSize.height-.15)<0?d=0:d>1&&(d=1),t.map.getComponent(cc.ScrollView).scrollToPercentVertical(d),f=e.currId-1<=0?t.start_node:t.points[e.currId-2],g=t.points[e.currId-1],t.role.active=!0,t.role.position=f.position,cc.vv.AudioManager.playEff("games/VampireCount/","map_move",!0),t.role.getComponent(sp.Skeleton).setAnimation(0,"animation2",!1),t.role.getComponent(sp.Skeleton).setCompleteListener(function(){t.role.getComponent(sp.Skeleton).setCompleteListener(null),t.role.active=!1}),cc.tween(t.role).delay(.5).then(cc.jumpTo(1,g.position.x,g.position.y,50,1)).start(),n.next=24,cc.vv.gameData.awaitTime(2);case 24:if((v=o.MapConfig[e.currId-1]).type!==o.MapType.PickBooster){n.next=55;break}return(_=g.getChildByName("spine").getComponent(sp.Skeleton)).setAnimation(0,"animation1",!1),_.addAnimation(0,"animation2",!0),n.next=31,cc.vv.gameData.awaitTime(1);case 31:return t.cutScenePick(),n.next=34,cc.vv.gameData.awaitTime(1.8);case 34:return h=cc.find("pick_game",t.node.parent).getComponent("VampireCount_PickGame"),n.next=37,h.enterPickGame(v.index,v.pickCnt,cc.vv.gameData.getGameInfo()?cc.vv.gameData.getGameInfo().pickBoosterGame:cc.vv.gameData.getDeskInfo().pickBoosterGame);case 37:return t.cutScenePick(),n.next=40,cc.vv.gameData.awaitTime(1.8);case 40:cc.find("pick_game",t.node.parent).active=!1,Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playNormalBgm(),y=h.getResult(),S=0,k=a(y.pickBoosterGame.choiceItems);try{for(k.s();!(C=k.n()).done;)C.value.type!==o.MapBoostType.Coin&&S++}catch(e){k.e(e)}finally{k.f()}if(0!==S){n.next=52;break}t.map.getComponent(cc.ScrollView).scrollToPercentVertical(d),t.map.y=cc.winSize.height,n.next=53;break;case 52:return n.delegateYield(regeneratorRuntime.mark(function e(){var n,i,c,r,s,m,l;return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return e.next=2,cc.vv.gameData.awaitTime(.5);case 2:n=t.points[v.nextSlotsId-1],cc.find("common/num",n).getComponent(cc.Label).string=S,i=a(y.pickBoosterGame.choiceItems),e.prev=5,r=regeneratorRuntime.mark(function e(){var a,i,r,s;return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:if((a=c.value).type===o.MapBoostType.Coin){e.next=17;break}return(i=cc.instantiate(cc.find("boostervx",t.node))).active=!0,i.parent=t.node,r=n.getChildByName("common").convertToWorldSpaceAR(cc.v2(0,0)),r=t.node.convertToNodeSpaceAR(r),i.position=r,i.getComponent(sp.Skeleton).setAnimation(0,"animation1",!1),i.getComponent(sp.Skeleton).addAnimation(0,"animation3",!0),e.next=12,cc.vv.gameData.awaitTime(1);case 12:return s=cc.find("common/tips_"+a.type+"/yes",n).convertToWorldSpaceAR(cc.v2(0,0)),s=t.node.convertToNodeSpaceAR(s),cc.tween(i).to(.3,{position:s}).call(function(){cc.find("common/tips_"+a.type+"/yes",n).active=!0,i.x=r.x,i.getComponent(sp.Skeleton).setAnimation(0,"animation5",!1),i.getComponent(sp.Skeleton).setCompleteListener(function(){i.removeFromParent()})}).start(),e.next=17,cc.vv.gameData.awaitTime(.2);case 17:case"end":return e.stop()}},e)}),i.s();case 8:if((c=i.n()).done){e.next=12;break}return e.delegateYield(r(),"t0",10);case 10:e.next=8;break;case 12:e.next=17;break;case 14:e.prev=14,e.t1=e.catch(5),i.e(e.t1);case 17:return e.prev=17,i.f(),e.finish(17);case 20:for(s=v.nextSlotsId-1;s<t.points.length;s++)m=t.points[s],(l=o.MapConfig[s]).type===o.MapType.SuperFreeGame&&m.getChildByName("spine").getComponent(sp.Skeleton).setAnimation(0,"animation"+l.index+"_4",!0);return e.next=23,cc.vv.gameData.awaitTime(2);case 23:return cc.vv.AudioManager.playEff("games/VampireCount/","map_close",!0),cc.tween(t.map).to(.5,{y:cc.winSize.height}).call(function(){t.map.getComponent(cc.ScrollView).scrollToPercentVertical(d)}).start(),e.next=27,cc.vv.gameData.awaitTime(.5);case 27:case"end":return e.stop()}},e,null,[[5,14,17,20]])})(),"t0",53);case 53:n.next=63;break;case 55:if(v.type!==o.MapType.SuperFreeGame){n.next=63;break}for(b=0;b<o.MapConfig.length;b++)(w=o.MapConfig[b]).type===o.MapType.SuperFreeGame&&(x=t.points[b],I=x.getChildByName("spine").getComponent(sp.Skeleton),b>=e.currId-1&&(I.setAnimation(0,"animation"+w.index+"_4",!1),e.currId===b+1?(cc.vv.AudioManager.playEff("games/VampireCount/","map_node",!0),I.addAnimation(0,"animation"+w.index+"_1",!1),I.addAnimation(0,"animation"+w.index+"_3",!0)):I.addAnimation(0,"animation"+w.index+"_2",!0)));return n.next=59,cc.vv.gameData.awaitTime(5);case 59:return cc.vv.AudioManager.playEff("games/VampireCount/","map_close",!0),cc.tween(t.map).to(.5,{y:cc.winSize.height}).start(),n.next=63,cc.vv.gameData.awaitTime(.5);case 63:case"end":return n.stop()}},n)}))()},cutScenePick:function(){cc.vv.AudioManager.playEff("games/VampireCount/","transition3",!0);var e=cc.find("pick_qieping",this.node.parent);e.active=!0;var t=e.getComponent(sp.Skeleton);t.setToSetupPose(),t.setAnimation(0,"animation",!1),t.setCompleteListener(function(){t.setCompleteListener(null),e.active=!1})}}),cc._RF.pop()},{}],VampireCount_PickGame:[function(e,t,n){"use strict";function a(e,t,n,a,o,i,c){try{var r=e[i](c),s=r.value}catch(e){return void n(e)}r.done?t(s):Promise.resolve(s).then(a,o)}function o(e){return function(){var t=this,n=arguments;return new Promise(function(o,i){var c=e.apply(t,n);function r(e){a(c,o,i,r,s,"next",e)}function s(e){a(c,o,i,r,s,"throw",e)}r(void 0)})}}function i(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=c(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,o,i=!0,r=!1;return{s:function(){a=e[Symbol.iterator]()},n:function(){var e=a.next();return i=e.done,e},e:function(e){r=!0,o=e},f:function(){try{i||null==a.return||a.return()}finally{if(r)throw o}}}}function c(e,t){if(e){if("string"==typeof e)return r(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?r(e,t):void 0}}function r(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,a=new Array(t);n<t;n++)a[n]=e[n];return a}cc._RF.push(t,"56fa9xaHTlG068ymE7Yx4be","VampireCount_PickGame"),cc.Class({extends:cc.Component,properties:{bg:cc.Node,top_bg:cc.Node,pick_times:sp.Skeleton,tips:sp.Skeleton,role:sp.Skeleton,items:[cc.Node],black_bg:cc.Node,_haveOpenReward:[],_canSelect:!0,_index:1,_result:null,_successCallback:null,_unlockBooster:[]},onLoad:function(){cc.vv.NetManager.registerMsg(MsgId.SLOT_SUBGAME_DATA,this.onRcvSubGameData,this)},changeBg:function(e,t){this._index=e;var n=cc.vv.gameData.GetAtlasByName("pick");this.top_bg.getComponent(cc.Sprite).spriteFrame=n.getSpriteFrame("theme214_pick_top"+(4===e?3:e)),this.pick_times.setAnimation(0,"animation"+(t-1),!0),this.tips.setAnimation(0,"animation"+e,!0);for(var a=1;a<9;a++){var o=cc.find("item_"+a,this.node),c=cc.find("spine",o).getComponent(sp.Skeleton);c.node.active=!0,c.setAnimation(0,"animation"+e+"_1",!0);for(var r=1;r<7;r++){var s=o.getChildByName("result_"+r);s.active=!1,s.color=cc.Color.WHITE;var m,l=i(s.children);try{for(l.s();!(m=l.n()).done;){m.value.color=cc.Color.WHITE}}catch(e){l.e(e)}finally{l.f()}}}},enterPickGame:function(e,t,n){var a=this;return o(regeneratorRuntime.mark(function o(){return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:return o.abrupt("return",new Promise(function(o){a._successCallback=o,a.node.active=!0,a.reset(),a.changeBg(e,t);for(var i=0;i<n.choiceIdxs.length;i++){var c=n.choiceIdxs[i],r=cc.find("item_"+c,a.node);a.showReward(r,!1,n.choiceItems[i]),a._haveOpenReward.push(c)}Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playBgm("pick_bgm");for(var s=function(e){var t=cc.find("item_"+e,a.node);t.off(cc.Node.EventType.TOUCH_END),t.on(cc.Node.EventType.TOUCH_END,function(){t.stopAllActions(),a.onClickItem(e)})},m=1;m<9;m++)s(m);a.setAutoPlay()}));case 1:case"end":return o.stop()}},o)}))()},onClickItem:function(e){if(cc.find("item_"+e,this.node).off(cc.Node.EventType.TOUCH_END),this._canSelect&&!(this._haveOpenReward.indexOf(e)>=0)){for(var t=1;t<9;t++){cc.find("item_"+t,this.node).stopAllActions()}this._canSelect=!1;var n={c:MsgId.SLOT_SUBGAME_DATA};n.uid=Global.playerData.uid,n.gameid=cc.vv.gameData._gameId,n.data={},n.data.rtype=1,n.data.choiceId=e,cc.vv.NetManager.send(n)}},setAutoPlay:function(){for(var e=[],t=1;t<9;t++){cc.find("item_"+t,this.node);0!=this._haveOpenReward.indexOf(t)&&e.push(t)}var n=Global.random(0,e.length-1),a=this;cc.vv.gameData.checkAutoPlay(cc.find("item_"+e[n],this.node),function(){a.onClickItem(e[n])})},reset:function(){this._haveOpenReward=[],this._result=null,this._index=1,this._canSelect=!0,this._unlockBooster=[]},onRcvSubGameData:function(e){var t=this;return o(regeneratorRuntime.mark(function n(){var a,o,i,c,r,s,m;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:if(200===e.code){n.next=3;break}return t._canSelect=!0,n.abrupt("return");case 3:if(a=cc.vv.gameData.getGameCfg(),o=e.data,t._result=o,t._haveOpenReward.push(o.choiceId),o.choiceItem.type!==a.MapBoostType.Coin&&t._unlockBooster.push(o.choiceItem.type),!o.pickBoosterGame.isEnd){n.next=23;break}return i=t.items[o.choiceId-1],t.showReward(i,!1,o.choiceItem),n.next=13,cc.vv.gameData.awaitTime(.8);case 13:for(cc.vv.AudioManager.playEff("games/VampireCount/","pick_end",!0),c=0,r=0;r<t.items.length;r++)-1===t._haveOpenReward.indexOf(r+1)&&(s=t.items[r],t.showReward(s,!0,o.pickBoosterGame.totalItems[c]),c++);return n.next=18,cc.vv.gameData.awaitTime(2);case 18:return n.next=20,t.popResult();case 20:t._successCallback(),n.next=27;break;case 23:t._canSelect=!0,m=t.items[o.choiceId-1],t.showReward(m,!1,o.choiceItem),t.setAutoPlay();case 27:case"end":return n.stop()}},n)}))()},getResult:function(){return this._result},showReward:function(e,t,n){var a=this;return o(regeneratorRuntime.mark(function o(){var c,r,s,m,l;return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:return c=cc.vv.gameData.getGameCfg(),(r=e.getChildByName("spine").getComponent(sp.Skeleton)).node.active=!0,r.setAnimation(0,"animation"+a._index+"_2"),r.setCompleteListener(function(){r.setCompleteListener(null),r.node.active=!1}),t||(n.type===c.MapBoostType.Coin?cc.vv.AudioManager.playEff("games/VampireCount/","pick_coin",!0):cc.vv.AudioManager.playEff("games/VampireCount/","pick_booster",!0)),o.next=8,cc.vv.gameData.awaitTime(.8);case 8:if(s=cc.find("result_"+n.type,e)){s.active=!0,s.scale=2.1,s.color=t?cc.Color.GRAY:cc.Color.WHITE,m=i(s.children);try{for(m.s();!(l=m.n()).done;)l.value.color=t?cc.Color.GRAY:cc.Color.WHITE}catch(e){m.e(e)}finally{m.f()}n.type===c.MapBoostType.Coin&&(cc.find("coin",s).getComponent(cc.Label).string=Global.formatNumShort(n.coin,0)),cc.tween(s).to(.5,{scale:2},{easing:"backOut"}).start()}case 10:case"end":return o.stop()}},o)}))()},popResult:function(){var e=this;return o(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.abrupt("return",new Promise(function(t){var n=cc.vv.gameData.getGameCfg();if(e._result){var a,o=0,c=i(e._result.pickBoosterGame.choiceItems);try{for(c.s();!(a=c.n()).done;){a.value.type!==n.MapBoostType.Coin&&o++}}catch(e){c.e(e)}finally{c.f()}cc.vv.AudioManager.playEff("games/VampireCount/","pick_end_show",!0);var r=[2,1,3];e.black_bg.active=!0;var s=cc.find("booster_result_"+o,e.node);s.active=!0;var m=s.getComponent(sp.Skeleton);m.setAnimation(0,"animation"+r[o],!1),m.addAnimation(0,"animation"+r[o]+"_1",!0);var l=cc.find("coin",s);l.scale=0,Global.doRoallNumEff(l,0,e._result.pickBoosterGame.winCoin,1.5,null,null,0,!0),cc.tween(l).delay(.2).to(.5,{scale:1},{easing:"backOut"}).start();var u=cc.find("btn_collect",s);u.scale=0,cc.tween(u).delay(.4).to(.5,{scale:1},{easing:"backOut"}).start();var p=cc.find("booster_1",s);if(p){p.scale=0;var d=cc.vv.gameData.GetAtlasByName("popup");p.getComponent(cc.Sprite).spriteFrame=d.getSpriteFrame("theme214_pop_booster"+e._unlockBooster[0]),cc.tween(p).delay(.3).to(.5,{scale:1===o?1:.8},{easing:"backOut"}).start()}var f=cc.find("booster_2",s);if(f){var g=cc.vv.gameData.GetAtlasByName("popup");p.getComponent(cc.Sprite).spriteFrame=g.getSpriteFrame("theme214_pop_booster"+e._unlockBooster[1]),f.scale=0,cc.tween(f).delay(.3).to(.5,{scale:1===o?1:.8},{easing:"backOut"}).start()}var v=cc.find("index_1",s);v&&(v.scale=0,cc.tween(v).delay(.3).to(.5,{scale:.8},{easing:"backOut"}).start());var _=cc.find("index_2",s);_&&(_.scale=0,cc.tween(_).delay(.3).to(.5,{scale:.8},{easing:"backOut"}).start());var h=function(){cc.vv.AudioManager.playEff("games/VampireCount/","click",!0),cc.vv.gameData.GetSlotsScript()._bottomScript.SetWin(e._result.pickBoosterGame.winCoin),u.off("click"),cc.tween(l).to(.5,{scale:0},{easing:"backIn"}).start(),cc.tween(u).to(.5,{scale:0},{easing:"backIn"}).start(),p&&cc.tween(p).to(.5,{scale:0},{easing:"backOut"}).start(),f&&cc.tween(f).to(.5,{scale:0},{easing:"backOut"}).start(),v&&cc.tween(v).to(.5,{scale:0},{easing:"backOut"}).start(),_&&cc.tween(_).to(.5,{scale:0},{easing:"backOut"}).start(),m.setAnimation(0,"animation"+r[o]+"_2",!1),m.setCompleteListener(function(){m.setCompleteListener(null),e.black_bg.active=!1,s.active=!1,t()})};cc.vv.gameData.checkAutoPlay(u,h),u.on("click",function(){u.stopAllActions(),h()})}}));case 1:case"end":return t.stop()}},t)}))()},onDestroy:function(){cc.vv.NetManager.unregisterMsg(MsgId.SLOT_SUBGAME_DATA,this.onRcvSubGameData,!1,this)}}),cc._RF.pop()},{}],VampireCount_PrizePool:[function(e,t,n){"use strict";cc._RF.push(t,"b5a7eRDRwZDba/3+IefZjsl","VampireCount_PrizePool"),cc.Class({extends:e("LMSlots_PrizePool_Base"),properties:{gray_font:cc.Font,yellow_font:cc.Font},ShowNodeLockByNode:function(e,t,n,a,o){if(e){var i=cc.find("lock",e),c=cc.find("image",i),r=cc.find("unlock",e),s=cc.find("image",r),m=cc.find("jp_suo",e).getComponent(sp.Skeleton),l=cc.find("lbl_num",e).getComponent(cc.Label);t?(l.font=this.gray_font,o?(i.active=!0,r.active=!1,c.scale=0):(cc.vv.AudioManager.playEff("games/VampireCount/","jp_lock",!0),m.clearTracks(),m.setToSetupPose(),m.setAnimation(0,"animation"+(4-a)+"_2",!1),i.active=!0,r.active=!1,c.scale=0,cc.tween(c).to(.1,{scale:.7},{easing:"backOut"}).delay(2).to(.1,{scale:0},{easing:"backIn"}).start())):(l.font=this.yellow_font,o?(i.active=!1,r.active=!0,s.scale=0):(cc.vv.AudioManager.playEff("games/VampireCount/","jp_unlock",!0),m.clearTracks(),m.setToSetupPose(),m.setAnimation(0,"animation"+(4-a)+"_1",!1),i.active=!1,r.active=!0,s.scale=0,cc.tween(s).to(.1,{scale:.7},{easing:"backOut"}).delay(2).to(.1,{scale:0},{easing:"backIn"}).start()))}}}),cc._RF.pop()},{LMSlots_PrizePool_Base:void 0}],VampireCount_Reel:[function(e,t,n){"use strict";function a(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=o(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,i,c=!0,r=!1;return{s:function(){a=e[Symbol.iterator]()},n:function(){var e=a.next();return c=e.done,e},e:function(e){r=!0,i=e},f:function(){try{c||null==a.return||a.return()}finally{if(r)throw i}}}}function o(e,t){if(e){if("string"==typeof e)return i(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?i(e,t):void 0}}function i(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,a=new Array(t);n<t;n++)a[n]=e[n];return a}cc._RF.push(t,"8f3b5iVn5lP94rrLFPHEVSm","VampireCount_Reel"),cc.Class({extends:e("LMSlots_Reel_Base"),properties:{},StartMove:function(){this._super()},OnReelSpinEnd:function(){this._super(),this.checkPumpkinMan()},playReelStop:function(){if(this._super(),this._originResult)for(var e=0;e<this._originResult.length;e++){var t=this._symbols[e];t.GetShowId()===this._cfg.extraSpinId&&(cc.vv.AudioManager.playEff("games/VampireCount/","extra_free",!0),t.playStopAnimation())}},checkPumpkinMan:function(){var e,t=this,n=cc.vv.gameData.getGameInfo().resultCards,o=a(this._symbols);try{for(o.s();!(e=o.n()).done;){var i=e.value;i.GetShowId()===this._cfg.pumpkinManId&&i.GetSymbolIdx()>0&&i.GetSymbolIdx()<n.length/this._cfg.col-1&&cc.vv.gameData.getGameInfo().pumpkinGame&&(cc.vv.AudioManager.playEff("games/VampireCount/","bonus_landing",!0),i.playStopAnimation(),cc.vv.gameData.getGameInfo().pumpkinGame.double&&function(){var e=cc.find("pumpkin_"+(t._reelIdx+1),t.node.parent.parent),n=cc.vv.gameData.GetSlotsScript().getPumpkinInfo()[t._reelIdx];if(e){var a=cc.find("double",e).getComponent(sp.Skeleton);a.clearTracks(),a.setToSetupPose(),a.setAnimation(0,"animation3",!1),a.setCompleteListener(function(t){"animation3"===(t.animation?t.animation.name:"")&&(Global.doRoallNumEff(cc.find("coin",e),n.coin,2*n.coin,1,null,null,1,!0,!0),n.coin*=2)})}}())}}catch(e){o.e(e)}finally{o.f()}},AppendSymbol:function(e,t){for(var n=0;n<e.length;n++){var a=cc.instantiate(this._symbolTemplete);a.parent=this._holderNode;var o=a.addComponent(this._cfg.scripts.Symbols);if(o.SetSymbolReelIdx(this._reelIdx),1===t){var i=-1-n;a.position=this.GetSymbolPosByRow(i),o.Init(i,this._topAniNode),this._symbols.unshift(o)}else if(2===t){var c=this._symbols.length-1;o.Init(c,this._topAniNode),this._symbols.splice(c,0,o)}o.ShowById(e[n].id,e[n].data)}2===t&&this.ReLayOut()},deleteSymbol:function(e){var t=this._symbols[e];this._symbols.splice(e,1),t.setAnimationToTop(!1),t.ShowKuang(!1),t.node.destroy()},clearLastSymbol:function(){var e=this._symbols[this._symbols.length-1];e&&(e.setAnimationToTop(!1),e.ShowKuang(!1))},GetResizeHeightObjs:function(){var e=[],t=cc.find("mask",this.node);t&&e.push(t);var n=cc.find("reels_bg/reel_bg"+(this._reelIdx+1),this.node.parent.parent);if(n&&e.push(n),0===this._reelIdx){var a=cc.find("reels_frame/left_bg",this.node.parent.parent);a&&e.push(a);var o=cc.find("reels_frame/right_bg",this.node.parent.parent);o&&e.push(o);for(var i=1;i<5;i++){var c=cc.find("reels_frame/line_"+i,this.node.parent.parent);c&&e.push(c)}var r=cc.find("black_bg",this.node.parent.parent);r&&e.push(r)}return e},GetResizeMoveingObjs:function(){var e=[];if(0===this._reelIdx){var t=cc.find("reels_frame/top_bg",this.node.parent.parent);t&&e.push(t)}return e}}),cc._RF.pop()},{LMSlots_Reel_Base:void 0}],VampireCount_Slots:[function(e,t,n){"use strict";function a(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=o(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,i,c=!0,r=!1;return{s:function(){a=e[Symbol.iterator]()},n:function(){var e=a.next();return c=e.done,e},e:function(e){r=!0,i=e},f:function(){try{c||null==a.return||a.return()}finally{if(r)throw i}}}}function o(e,t){if(e){if("string"==typeof e)return i(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?i(e,t):void 0}}function i(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,a=new Array(t);n<t;n++)a[n]=e[n];return a}function c(e,t,n,a,o,i,c){try{var r=e[i](c),s=r.value}catch(e){return void n(e)}r.done?t(s):Promise.resolve(s).then(a,o)}function r(e){return function(){var t=this,n=arguments;return new Promise(function(a,o){var i=e.apply(t,n);function r(e){c(i,a,o,r,s,"next",e)}function s(e){c(i,a,o,r,s,"throw",e)}r(void 0)})}}cc._RF.push(t,"3c1caSN+nNIvKr3GiCe2zh9","VampireCount_Slots"),cc.Class({extends:e("LMSlots_Slots_Base"),properties:{_wheel_script:null,_curFreeLevel:0,_pumpkinInfo:null,_leftSpiderCount:0,_rightSpiderCount:0},Init:function(){var e=this;this._super(),this.setPumpkinInfo(cc.vv.gameData.getDeskInfo().bonusInfos),this._pumpkinInfo=cc.vv.gameData.getDeskInfo().bonusInfos[cc.vv.gameData.GetBetIdx()-1];var t=cc.find("collect_node/bonus_node",this.node),n=cc.vv.gameData.getDeskInfo();t.on(cc.Node.EventType.TOUCH_END,function(){n.needBet>n.currmult&&"idle"===cc.vv.gameData.GetSlotState()&&e._bottomScript.SetBetIdx(n.needBet)});var a=cc.find("lock",t).getComponent(sp.Skeleton);a.setCompleteListener(function(e){"animation1"===(e.animation?e.animation.name:"")&&(a.clearTracks(),a.setToSetupPose(),a.setAnimation(0,"animation2",!0))}),n.needBet<=n.currmult?(cc.vv.AudioManager.playEff("games/VampireCount/","unlock",!0),a.clearTracks(),a.setToSetupPose(),a.setAnimation(0,"animation3",!1)):(cc.vv.AudioManager.playEff("games/VampireCount/","lock",!0),a.clearTracks(),a.setToSetupPose(),a.setAnimation(0,"animation1",!1)),this.updateCollectProgress(n.mapInfo,!1);var o=cc.find("collect_node/spine_map/touch",this.node);o.off(cc.Node.EventType.TOUCH_END),o.on(cc.Node.EventType.TOUCH_END,function(){"idle"===cc.vv.gameData.GetSlotState()&&(e._bottomScript.ShowBtnsByState("moveing_1"),cc.find("mapControl",e.node.parent).getComponent("VampireCount_Map").initMap(e._gameInfo?e._gameInfo.mapInfo:n.mapInfo),cc.find("mapControl",e.node.parent).getComponent("VampireCount_Map").openMap(!0))})},getPumpkinInfo:function(){return this._pumpkinInfo},StartMove:function(){this._super(),Global.SlotsSoundMgr.playNormalBgm()},ReconnectShow:function(){var e=this;return r(regeneratorRuntime.mark(function t(){var n,o,i,c,r,s,m,l,u,p;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(n=cc.vv.gameData.getDeskInfo(),!cc.vv.gameData.GetFreeTime()){t.next=10;break}if(2===n.mapInfo.state)if(-1!==n.mapInfo.nextUnlockBoosters.indexOf(e._cfg.MapBoostType.AddRow)){o=a(e._reels);try{for(o.s();!(i=o.n()).done;)i.value.AddCount(4,.01)}catch(e){o.e(e)}finally{o.f()}}else{c=a(e._reels);try{for(c.s();!(r=c.n()).done;)r.value.AddCount(3,.01)}catch(e){c.e(e)}finally{c.f()}}else{s=a(e._reels);try{for(s.s();!(m=s.n()).done;)m.value.AddCount(3,.01)}catch(e){s.e(e)}finally{s.f()}}return t.next=6,cc.vv.gameData.awaitTime(.2);case 6:e.ShowGameview(!0),e.CanDoNextRound(),t.next=30;break;case 10:if(e.ShowGameview(!1),1!==n.mapInfo.state){t.next=30;break}return t.next=14,cc.vv.gameData.awaitTime(.5);case 14:return cc.vv.AudioManager.playEff("games/VampireCount/","meter_full",!0),(l=cc.find("collect_node/progress/scale_node/finish",e.node).getComponent(sp.Skeleton)).node.active=!0,l.setToSetupPose(),l.setAnimation(0,"animation2",!1),l.setCompleteListener(function(){l.node.active=!1}),t.next=22,cc.vv.gameData.awaitTime(1);case 22:return u=cc.find("mapControl",e.node.parent).getComponent("VampireCount_Map"),t.next=25,u.showMap(n.mapInfo);case 25:if(e._cfg.MapConfig[n.mapInfo.currId-1].type!==e._cfg.MapType.PickBooster){t.next=30;break}return p=cc.find("pick_game",e.node.parent).getComponent("VampireCount_PickGame").getResult().pickBoosterGame.winCoin,t.next=30,e.ShowBottomWin(p,p,!0,function(){e.CanDoNextRound()});case 30:case"end":return t.stop()}},t)}))()},onMsgSpine:function(e){var t=this;return r(regeneratorRuntime.mark(function n(){var a,o,i,c,r,s,m;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:if(t._gameInfo=e,a=e.resultCards,t.SetSlotsResult(e.bonusResultCards.length>0?e.bonusResultCards[0].cards:a),t.SetReelStateInfo(a),!t._gameInfo.randEvent||cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!==cc.vv.gameData.GetFreeTime()||(t.SetStopTime(3),cc.vv.AudioManager.playEff("games/VampireCount/","anticipation2",!0),(o=cc.find("jilidonghua",t.node).getComponent(sp.Skeleton)).node.active=!0,o.setToSetupPose(),o.setAnimation(0,"animation1",!1),o.setCompleteListener(function(){o.setCompleteListener(null),o.node.active=!1})),!(2===t._gameInfo.mapInfo.state&&cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()-cc.vv.gameData.GetFreeTime()==1)){n.next=33;break}if(i=0,-1!==t._gameInfo.mapInfo.nextUnlockBoosters.indexOf(t._cfg.MapBoostType.ExtraWild)&&(i+=3),-1!==t._gameInfo.mapInfo.nextUnlockBoosters.indexOf(t._cfg.MapBoostType.ExtraBonus)&&(i+=3),i>0&&t.SetStopTime(i),-1===t._gameInfo.mapInfo.nextUnlockBoosters.indexOf(t._cfg.MapBoostType.ExtraWild)){n.next=21;break}cc.find("black_bg",t.node).active=!0,c=0;case 13:if(!(c<2)){n.next=21;break}for(cc.vv.AudioManager.playEff("games/VampireCount/","wild_add",!0),r=0;r<a.length;r++)Math.random()>=.3&&function(){var e=cc.instantiate(cc.find("wild_01",t.node));e.active=!0,e.parent=cc.find("wild_animation",t.node),e.position=cc.v2(r%5*112-224,103*Math.floor(r/5)+51.5),e.getComponent(sp.Skeleton).setAnimation(0,"animation",!1),e.getComponent(sp.Skeleton).setCompleteListener(function(){e.removeFromParent()})}();return n.next=18,cc.vv.gameData.awaitTime(1.5);case 18:c++,n.next=13;break;case 21:if(-1===t._gameInfo.mapInfo.nextUnlockBoosters.indexOf(t._cfg.MapBoostType.ExtraBonus)){n.next=32;break}cc.find("black_bg",t.node).active=!0,s=0;case 24:if(!(s<3)){n.next=32;break}for(cc.vv.AudioManager.playEff("games/VampireCount/","coin_add",!0),m=0;m<a.length;m++)Math.random()>=.6&&function(){var e=cc.instantiate(cc.find("jinbi_01",t.node));e.active=!0,e.parent=cc.find("wild_animation",t.node),e.position=cc.v2(m%5*112-224,103*Math.floor(m/5)+51.5),e.getComponent(sp.Skeleton).setAnimation(0,"animation",!1),e.getComponent(sp.Skeleton).setCompleteListener(function(){e.removeFromParent()})}();return n.next=29,cc.vv.gameData.awaitTime(.5);case 29:s++,n.next=24;break;case 32:cc.find("black_bg",t.node).active=!1;case 33:case"end":return n.stop()}},n)}))()},SetSlotsResult:function(e){for(var t=e.length/this._col,n=[],a=0;a<e.length;a++){Math.floor(a/t);var o=a%this._col;if(this._cfg.symbol[e[a]]){var i={};if(i.sid=e[a],e[a]===this._cfg.bonusId){var c=this._gameInfo.bonusResultCards[0].bonusIdxs.indexOf(a+1);-1!==c&&(i.data=this._gameInfo.bonusResultCards[0].bonusItems[c])}n[o]||(n[o]=[]),n[o].unshift(i)}}for(var r=0;r<this._reels.length;r++){var s=this._reels[r],m=n[r];s.SetResult(m)}},CheckEnterFreeGame:function(){return cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetFreeTime()===cc.vv.gameData.GetTotalFree()},CheckExtraFreeGame:function(){return!!(this._gameInfo.freeResult&&this._gameInfo.freeResult.freeInfo&&this._gameInfo.freeResult.freeInfo.freeCnt>0)},CheckExitFreeGame:function(){return cc.vv.gameData.GetTotalFree()>0&&0===cc.vv.gameData.GetFreeTime()},ShowWinTrace:function(){for(var e=[],t=0;t<this._gameInfo.zjLuXian.length;t++)for(var n=this._gameInfo.zjLuXian[t],a=0;a<n.indexs.length;a++)e[n.indexs[a]]=1;if(this._gameInfo.scatterZJLuXian&&this._gameInfo.scatterZJLuXian.indexs)for(var o=0;o<this._gameInfo.scatterZJLuXian.indexs.length;o++){e[this._gameInfo.scatterZJLuXian.indexs[o]]=1}for(var i in e){var c=this.GetSymbolByIdx(Number(i));c&&(c.playWinAnimation(),c.GetShowId()!==this._cfg.scatterId&&c.ShowKuang())}},OnSpinEnd:function(){var e=this;return r(regeneratorRuntime.mark(function t(){var n,o,i;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,e.collectCoin();case 2:return t.next=4,e.collectSymbol();case 4:e.ShowWinTrace(),n=cc.vv.gameData.GetGameWin(),o=cc.vv.gameData.GetGameWin(),cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!==cc.vv.gameData.GetFreeTime()&&(o=cc.vv.gameData.GetGameTotalFreeWin()),i=!0,e._gameInfo.pumpkinGame&&(n-=e._gameInfo.pumpkinGame.winCoin,o-=e._gameInfo.pumpkinGame.winCoin,i=!1),e.ShowBottomWin(n,o,i,r(regeneratorRuntime.mark(function t(){var n,o,i,c,r,s,m,l;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(!e._gameInfo.pumpkinGame){t.next=7;break}if(e._bottomScript.ShowBtnsByState("moveing_1"),e._gameInfo.pumpkinGame.idxs.sort(function(e,t){return e-t}),!(n=e.GetSymbolByIdx(e._gameInfo.pumpkinGame.idxs[1]))||n.GetShowId()!==e._cfg.pumpkinManId){t.next=7;break}return t.next=7,new Promise(function(t){n.playTriggerAnimation(function(n){e.triggerPumpkinGame(n,t)})});case 7:if(!(0!==e._gameInfo.mapInfo.state&&e._gameInfo.mapInfo.progressData.currCnt>0)){t.next=56;break}return e._bottomScript.ShowBtnsByState("moveing_1"),t.next=11,cc.vv.gameData.awaitTime(.5);case 11:return cc.vv.AudioManager.playEff("games/VampireCount/","meter_full",!0),(o=cc.find("collect_node/progress/scale_node/finish",e.node).getComponent(sp.Skeleton)).node.active=!0,o.setToSetupPose(),o.setAnimation(0,"animation2",!1),o.setCompleteListener(function(){o.node.active=!1}),t.next=19,cc.vv.gameData.awaitTime(1);case 19:return i=cc.find("mapControl",e.node.parent).getComponent("VampireCount_Map"),t.next=22,i.showMap(e._gameInfo.mapInfo);case 22:if((c=e._cfg.MapConfig[e._gameInfo.mapInfo.currId-1]).type!==e._cfg.MapType.PickBooster){t.next=30;break}return e.clearCollectProgress(),r=cc.find("pick_game",e.node.parent).getComponent("VampireCount_PickGame").getResult().pickBoosterGame.winCoin,t.next=28,e.ShowBottomWin(r,r,!0,function(){e.CanDoNextRound()});case 28:t.next=54;break;case 30:if(c.type!==e._cfg.MapType.SuperFreeGame){t.next=54;break}return t.next=33,e.popMapFreeDialog(e._gameInfo.mapInfo);case 33:return e.cutSceneBat(),t.next=36,cc.vv.gameData.awaitTime(2);case 36:e.ShowGameview(!0),cc.find("LMSlots_PrizePool_1",e.node.parent).active=!1,e.clearCollectProgress(),s=-1===e._gameInfo.mapInfo.nextUnlockBoosters.indexOf(e._cfg.MapBoostType.AddRow)?3:4,m=a(e._reels);try{for(m.s();!(l=m.n()).done;)l.value.AddCount(s,.01)}catch(e){m.e(e)}finally{m.f()}return cc.find("reels_frame/left_20",e.node).active=!1,cc.find("reels_frame/right_20",e.node).active=!1,cc.find("reels_frame/left_56",e.node).active=3===s,cc.find("reels_frame/right_56",e.node).active=3===s,cc.find("reels_frame/left_68",e.node).active=4===s,cc.find("reels_frame/right_68",e.node).active=4===s,cc.find("xixuegui",e.node.parent).active=!1,t.next=51,cc.vv.gameData.awaitTime(2);case 51:Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playBgm("free_bgm"),e.CanDoNextRound();case 54:t.next=57;break;case 56:e.CheckEnterFreeGame()?e.triggerFreeGame():e.CheckExtraFreeGame()?e.triggerExtraFreeGame():e.CheckExitFreeGame()?e.triggerExitFreeGame():e.CanDoNextRound();case 57:case"end":return t.stop()}},t)})));case 11:case"end":return t.stop()}},t)}))()},ShowGameview:function(e){this._super(e),cc.find("collect_node",this.node).active=!e,cc.find("reels_frame/left_20",this.node).active=!e,cc.find("reels_frame/right_20",this.node).active=!e,cc.find("reels_frame/left_56",this.node).active=e,cc.find("reels_frame/right_56",this.node).active=e},collectSymbol:function(){var e=this;return r(regeneratorRuntime.mark(function t(){var n,a,o,i,c,r,s,m;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(!(cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!==cc.vv.gameData.GetFreeTime())){t.next=2;break}return t.abrupt("return");case 2:if(0!==e._gameInfo.mapInfo.progressData.currCnt){t.next=4;break}return t.abrupt("return");case 4:for(n=cc.find("collect_node/sjt_m1",e.node),a=!1,o=0;o<e._gameInfo.resultCards.length;o++)e._gameInfo.resultCards[o]===e._cfg.collectSymbolId&&(i=e.GetSymbolByIdx(o+1))&&(a=!0,(c=cc.instantiate(cc.find("particle_fly",e.node.parent))).active=!0,c.parent=e.node.parent,r=i.node.convertToWorldSpaceAR(cc.v2(0,0)),r=e.node.parent.convertToNodeSpaceAR(r),c.position=r,s=n.convertToWorldSpaceAR(cc.v2(0,0)),s=e.node.parent.convertToNodeSpaceAR(s),cc.tween(c).to(.5,{position:s}).removeSelf().start());if(!a){t.next=17;break}return cc.vv.AudioManager.playEff("games/VampireCount/","symbol_fly",!0),cc.tween(n).delay(.5).call(function(){var e=n.getComponent(sp.Skeleton);e.clearTracks(),e.setToSetupPose(),e.setAnimation(0,"animation2",!1),e.setCompleteListener(function(t){"animation2"===(t.animation?t.animation.name:"")&&(e.clearTracks(),e.setToSetupPose(),e.setAnimation(0,"animation1",!0))})}).start(),(m=cc.find("collect_node/sjt_b",e.node).getComponent(sp.Skeleton)).node.active=!0,cc.tween(m.node).delay(.5).call(function(){m.setToSetupPose(),m.setAnimation(0,"animation",!1),m.setCompleteListener(function(){m.node.active=!1})}).start(),t.next=15,cc.vv.gameData.awaitTime(.5);case 15:return t.next=17,e.updateCollectProgress(e._gameInfo.mapInfo,!0);case 17:case"end":return t.stop()}},t)}))()},triggerPumpkinGame:function(e,t){var n=this;return r(regeneratorRuntime.mark(function a(){var o,i,c,s,m,l,u,p,d;return regeneratorRuntime.wrap(function(a){for(;;)switch(a.prev=a.next){case 0:return(o=cc.find("wheel",e)).active=!0,o.angle=0,a.next=5,n._rotateWheel(n._gameInfo.pumpkinGame.wheel.id-1,o);case 5:return cc.find("zhongjiang",o).active=!0,a.next=8,cc.vv.gameData.awaitTime(1);case 8:return cc.find("zhongjiang",o).active=!1,(i=cc.instantiate(cc.find("rotate_node/index_"+n._gameInfo.pumpkinGame.wheel.id,o))).parent=cc.find("result_parent",o),i.position=cc.v2(0,0),i.angle=0,c=(n._gameInfo.pumpkinGame.idxs[1]-1)%n._cfg.col,s=c+1,m=cc.find("pumpkin_"+s,n.node),cc.tween(i).to(.2,{scale:1}).call(function(){var e=cc.find("zhuanpanlizi",o);e.active=!0;var t=cc.find("pumpkin_"+s,n.node).convertToWorldSpaceAR(cc.v2(0,0));t=o.convertToNodeSpaceAR(t),cc.vv.AudioManager.playEff("games/VampireCount/","pot_multi",!0),cc.tween(e).to(.5,{position:t}).call(function(){e.active=!1,e.y=65,cc.vv.AudioManager.playEff("games/VampireCount/","pot_recive",!0);var t=m.getComponent(sp.Skeleton);t.clearTracks(),t.setToSetupPose(),t.setAnimation(0,"animation2",!1)}).start()}).start(),a.next=19,cc.vv.gameData.awaitTime(1.5);case 19:return l=n._pumpkinInfo[c],Global.doRoallNumEff(cc.find("coin",m),l.coin,n._gameInfo.pumpkinGame.winCoin,1,null,null,1,!0,!0),a.next=23,cc.vv.gameData.awaitTime(1.5);case 23:return cc.tween(i).to(.3,{scale:.8}).removeSelf().start(),a.next=26,cc.vv.gameData.awaitTime(.3);case 26:return o.getChildByName("rotate_node").angle+=2160,cc.tween(o).to(.3,{scale:.7}).start(),cc.tween(o.getChildByName("rotate_node")).to(.3,{angle:0}).start(),a.next=31,cc.vv.gameData.awaitTime(.3);case 31:return o.active=!1,cc.vv.AudioManager.playEff("games/VampireCount/","pot_congratulate",!0),(u=m.getComponent(sp.Skeleton)).clearTracks(),u.setToSetupPose(),u.setAnimation(0,"animation3",!1),p=cc.find("coin",m),cc.tween(p).to(.2,{scale:0}).start(),d=n._gameInfo.pumpkinGame.jackpotWheel?n._gameInfo.pumpkinGame.winCoin-n._gameInfo.pumpkinGame.jackpot.value:n._gameInfo.pumpkinGame.winCoin,n.ShowBottomWin(d,d,!0,r(regeneratorRuntime.mark(function e(){var a,o,i;return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:n._gameInfo.pumpkinGame.jackpotWheel?(cc.find("wheel",m).getComponent(sp.Skeleton).setAnimation(0,"animation3",!1),(a=cc.find("free_dialog",n.node.parent)).active=!0,(o=cc.find("zhuanpanzhongjiangtanchuang",a)).active=!0,(i=o.getComponent(sp.Skeleton)).setAnimation(0,"animation1",!1),i.setCompleteListener(r(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return i.setCompleteListener(null),o.active=!1,a.active=!1,n.cutSceneLight(),e.next=6,cc.vv.gameData.awaitTime(2);case 6:return cc.find("wheel/LMSlots_PrizePool_1",n.node.parent).getComponent("LMSlots_PrizePool_Base").PausePool([{prizeType:0,pauseNum:n._gameInfo.pumpkinGame.jackpotValues[0]},{prizeType:1,pauseNum:n._gameInfo.pumpkinGame.jackpotValues[1]},{prizeType:2,pauseNum:n._gameInfo.pumpkinGame.jackpotValues[2]},{prizeType:3,pauseNum:n._gameInfo.pumpkinGame.jackpotValues[3]}]),e.next=9,new Promise(function(e){cc.find("wheel",n.node.parent).getComponent("VampireCount_Wheel").enterWheelGame(e,n._gameInfo.pumpkinGame.jackpot)});case 9:return n.cutSceneLight(),e.next=12,cc.vv.gameData.awaitTime(2.5);case 12:return cc.find("wheel",n.node.parent).active=!1,Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playNormalBgm(),e.next=17,cc.vv.gameData.awaitTime(1);case 17:n.ShowBottomWin(n._gameInfo.pumpkinGame.jackpot.value,n._gameInfo.pumpkinGame.winCoin,!0,function(){t()});case 18:case"end":return e.stop()}},e)})))):t();case 1:case"end":return e.stop()}},e)}))),a.next=43,cc.vv.gameData.awaitTime(2);case 43:n._pumpkinInfo=n._gameInfo.bonusInfo,p.getComponent(cc.Label).string=Global.formatNumShort(n._pumpkinInfo[c].coin),p.scale=1;case 46:case"end":return a.stop()}},a)}))()},cutSceneLight:function(){var e=cc.find("wuyun",this.node.parent);e.active=!0;var t=e.getComponent(sp.Skeleton);t.setToSetupPose(),t.setAnimation(0,"animation",!1),t.setCompleteListener(function(){t.setCompleteListener(null),e.active=!1}),cc.vv.AudioManager.playEff("games/VampireCount/","transition1",!0)},cutSceneBat:function(){var e=cc.find("bianfu",this.node.parent);e.active=!0;var t=e.getComponent(sp.Skeleton);t.setToSetupPose(),t.setAnimation(0,"animation",!1),t.setCompleteListener(function(){t.setCompleteListener(null),e.active=!1}),cc.vv.AudioManager.playEff("games/VampireCount/","transition2",!0)},triggerFreeGame:function(){var e=this;return r(regeneratorRuntime.mark(function t(){var n,o,i;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:for(e._bottomScript.ShowBtnsByState("moveing_1"),n=0;n<e._gameInfo.resultCards.length;n++)e._gameInfo.resultCards[n]===e._cfg.scatterId&&e.GetSymbolByIdx(n+1).playTriggerAnimation();return cc.vv.AudioManager.playEff("games/VampireCount/","bell",!0),t.next=5,cc.vv.gameData.awaitTime(2);case 5:return t.next=7,e.popFreeDialog(!1);case 7:return e.cutSceneBat(),t.next=10,cc.vv.gameData.awaitTime(2);case 10:e.Backup(),e.ShowGameview(!0),o=a(e._reels);try{for(o.s();!(i=o.n()).done;)i.value.AddCount(3,.01)}catch(e){o.e(e)}finally{o.f()}return cc.find("reels_frame/left_20",e.node).active=!1,cc.find("reels_frame/right_20",e.node).active=!1,cc.find("reels_frame/left_56",e.node).active=!0,cc.find("reels_frame/right_56",e.node).active=!0,cc.find("xixuegui",e.node.parent).active=!1,t.next=21,cc.vv.gameData.awaitTime(2);case 21:Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playBgm("free_bgm"),e.CanDoNextRound();case 24:case"end":return t.stop()}},t)}))()},triggerExtraFreeGame:function(){var e=this;return r(regeneratorRuntime.mark(function t(){var n;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:for(e._bottomScript.ShowBtnsByState("moveing_1"),n=0;n<e._gameInfo.resultCards.length;n++)e._gameInfo.resultCards[n]===e._cfg.extraSpinId&&e.GetSymbolByIdx(n+1).playTriggerAnimation();return cc.vv.AudioManager.playEff("games/VampireCount/","bell",!0),t.next=5,cc.vv.gameData.awaitTime(2);case 5:return t.next=7,e.popFreeDialog(!0);case 7:e.CanDoNextRound();case 8:case"end":return t.stop()}},t)}))()},triggerExitFreeGame:function(){var e=this;return r(regeneratorRuntime.mark(function t(){var n,o,i,c;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return e._bottomScript.ShowBtnsByState("moveing_1"),t.next=3,cc.vv.gameData.awaitTime(1);case 3:return t.next=5,e.popFreeResultDialog(2===e._gameInfo.mapInfo.state);case 5:return e.cutSceneBat(),t.next=8,cc.vv.gameData.awaitTime(2);case 8:n=a(e._reels);try{for(n.s();!(o=n.n()).done;)o.value.StartRecycleSymbol(.01)}catch(e){n.e(e)}finally{n.f()}return cc.find("reels_frame/left_20",e.node).active=!0,cc.find("reels_frame/right_20",e.node).active=!0,cc.find("reels_frame/left_56",e.node).active=!1,cc.find("reels_frame/right_56",e.node).active=!1,cc.find("reels_frame/left_68",e.node).active=!1,cc.find("reels_frame/right_68",e.node).active=!1,cc.find("xixuegui",e.node.parent).active=!0,t.next=19,cc.vv.gameData.awaitTime(.02);case 19:i=a(e._reels);try{for(i.s();!(c=i.n()).done;)c.value.clearLastSymbol()}catch(e){i.e(e)}finally{i.f()}2!==e._gameInfo.mapInfo.state&&e.Resume(),e.ShowGameview(!1),cc.find("LMSlots_PrizePool_1",e.node.parent).active=!0,e.ShowBottomWin(cc.vv.gameData.GetGameTotalFreeWin(),cc.vv.gameData.GetGameTotalFreeWin(),!0,function(){Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playNormalBgm(),e.CanDoNextRound()});case 25:case"end":return t.stop()}},t)}))()},popFreeDialog:function(e){var t=this;return new Promise(function(){var n=r(regeneratorRuntime.mark(function n(a){var o,i,c,s,m,l,u,p,d;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:if((o=cc.find("free_dialog",t.node.parent)).active=!0,(i=cc.find("free_dialog_bg",o)).opacity=0,i.runAction(cc.fadeTo(.2,200)),c=cc.find("common_enter_node",o),s="animation2",e&&(c=cc.find("extra_node",o)),c.active=!0,(m=cc.find("times",c)).scale=0,(l=cc.find("freetanchuang",c).getComponent(sp.Skeleton)).node.active=!0,!e){n.next=31;break}return cc.vv.AudioManager.playEff("games/VampireCount/","fg_retrigger",!0),l.setAnimation(0,"animation",!1),l.setCompleteListener(function(){c.active=!1,o.active=!1,l.node.active=!1,a()}),(u=cc.find("add",c)).scale=0,n.next=21,cc.vv.gameData.awaitTime(.3);case 21:return m.getComponent(cc.Label).string=t._gameInfo.freeResult.freeInfo.freeCnt,cc.tween(m).to(.2,{scale:1}).start(),cc.tween(u).to(.2,{scale:1}).start(),n.next=26,cc.vv.gameData.awaitTime(1.5);case 26:cc.tween(i).to(.2,{opacity:0}).start(),cc.tween(m).to(.2,{scale:0}).start(),cc.tween(u).to(.2,{scale:0}).start(),n.next=52;break;case 31:return cc.vv.AudioManager.playEff("games/VampireCount/","free_dialog_start_show",!0),l.clearTracks(),l.setToSetupPose(),l.setAnimation(0,s,!1),l.setCompleteListener(function(e){var t=e.animation?e.animation.name:"";t===s?(l.clearTracks(),l.setToSetupPose(),l.setAnimation(0,"animation2_1",!0)):"animation2_2"===t&&(c.active=!1,o.active=!1,l.node.active=!1,a())}),(p=cc.find("btn_start",c)).scale=0,n.next=40,cc.vv.gameData.awaitTime(.3);case 40:return m.getComponent(cc.Label).string=cc.vv.gameData.GetTotalFree(),cc.tween(m).to(.2,{scale:1}).start(),n.next=44,cc.vv.gameData.awaitTime(.2);case 44:return cc.tween(p).to(.2,{scale:1}).start(),p.off("click"),n.next=48,cc.vv.gameData.awaitTime(.2);case 48:d=function(){var e=r(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return p.off("click"),cc.vv.AudioManager.playEff("games/VampireCount/","click",!0),cc.tween(p).to(.2,{scale:0}).start(),cc.tween(i).to(.2,{opacity:0}).start(),l.clearTracks(),l.setToSetupPose(),l.setAnimation(0,"animation2_2",!1),e.next=9,cc.vv.gameData.awaitTime(.3);case 9:cc.tween(m).to(.2,{scale:0}).start();case 10:case"end":return e.stop()}},e)}));return function(){return e.apply(this,arguments)}}(),cc.vv.gameData.checkAutoPlay(p,d),p.on("click",r(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return p.stopAllActions(),e.next=3,d();case 3:case"end":return e.stop()}},e)}))),cc.vv.gameData.isNeedAutoPlay()||(p.stopAllActions(),cc.tween(p).delay(cc.vv.gameData.getManualAutoPlayTime()).call(function(){d()}).start());case 52:case"end":return n.stop()}},n)}));return function(e){return n.apply(this,arguments)}}())},popFreeResultDialog:function(e){var t=this;return new Promise(function(){var n=r(regeneratorRuntime.mark(function n(a){var o,i,c,s,m,l,u;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return(o=cc.find("free_dialog",t.node.parent)).active=!0,(i=cc.find("free_dialog_bg",o)).opacity=0,i.runAction(cc.fadeTo(.2,200)),(c=e?cc.find("map_free_result_node",o):cc.find("result_node",o)).active=!0,(s=cc.find("freetanchuang",c).getComponent(sp.Skeleton)).node.active=!0,(m=cc.find("coin",c)).scale=0,m.getComponent(cc.Label).string="",e&&cc.vv.AudioManager.playEff("games/VampireCount/","mapfree_end_show",!0),s.setAnimation(0,e?"animation2":"animation3",!1),s.addAnimation(0,e?"animation2_1":"animation3_1",!0),(l=cc.find("btn_collect",c)).scale=0,n.next=19,cc.vv.gameData.awaitTime(.3);case 19:return Global.doRoallNumEff(m,0,cc.vv.gameData.GetGameTotalFreeWin(),3,null,null,0,!0),cc.tween(m).to(.2,{scale:1}).start(),n.next=23,cc.vv.gameData.awaitTime(.2);case 23:return cc.tween(l).to(.2,{scale:1}).start(),l.off("click"),n.next=27,cc.vv.gameData.awaitTime(.2);case 27:u=function(){var t=r(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return l.off("click"),cc.vv.AudioManager.playEff("games/VampireCount/","click",!0),cc.vv.AudioManager.playEff("games/VampireCount/","free_dialog_collect_close",!0),cc.tween(l).to(.2,{scale:0}).start(),cc.tween(i).to(.2,{opacity:0}).start(),s.setAnimation(0,e?"animation2_2":"animation3_2",!1),s.setCompleteListener(function(){s.setCompleteListener(null),c.active=!1,o.active=!1,s.node.active=!1,a()}),t.next=9,cc.vv.gameData.awaitTime(.3);case 9:cc.tween(m).to(.2,{scale:0}).start();case 10:case"end":return t.stop()}},t)}));return function(){return t.apply(this,arguments)}}(),cc.vv.gameData.checkAutoPlay(l,u),l.on("click",r(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return l.stopAllActions(),e.next=3,u();case 3:case"end":return e.stop()}},e)}))),cc.vv.gameData.isNeedAutoPlay()||(l.stopAllActions(),cc.tween(l).delay(cc.vv.gameData.getManualAutoPlayTime()).call(function(){u()}).start());case 31:case"end":return n.stop()}},n)}));return function(e){return n.apply(this,arguments)}}())},popMapFreeDialog:function(e){var t=this;return r(regeneratorRuntime.mark(function n(){return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return n.abrupt("return",new Promise(function(){var n=r(regeneratorRuntime.mark(function n(a){var o,i,c,s,m,l,u,p,d,f,g;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:for((o=cc.find("free_dialog",t.node.parent)).active=!0,(i=cc.find("free_dialog_bg",o)).opacity=0,i.runAction(cc.fadeTo(.2,200)),(c=cc.find("map_free_node",o)).active=!0,(s=cc.find("superbonustanchuang",c).getComponent(sp.Skeleton)).node.active=!0,(m=cc.find("times_"+e.nextSpinCount,c)).scale=0,cc.find("times_10",c).active=10===e.nextSpinCount,cc.find("times_15",c).active=15===e.nextSpinCount,l=1;l<6;l++)(u=cc.find("booster_"+l,c)).active=-1!==e.nextBoosters.indexOf(l),cc.find("black_bg",u).active=-1===e.nextUnlockBoosters.indexOf(l),u.scale=0;return cc.vv.AudioManager.playEff("games/VampireCount/","mapfree_start_show",!0),s.setAnimation(0,"animation4",!1),s.addAnimation(0,"animation4_1",!0),(p=cc.find("btn_start",c)).scale=0,n.next=21,cc.vv.gameData.awaitTime(.3);case 21:return cc.tween(m).to(.2,{scale:1}).start(),n.next=24,cc.vv.gameData.awaitTime(.2);case 24:for(cc.tween(p).to(.2,{scale:1}).start(),d=1;d<6;d++)f=cc.find("booster_"+d,c),cc.tween(f).to(.2,{scale:1}).start();return n.next=28,cc.vv.gameData.awaitTime(.2);case 28:p.off("click"),g=function(){var e=r(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return p.off("click"),cc.vv.AudioManager.playEff("games/VampireCount/","click",!0),cc.tween(p).to(.2,{scale:0}).start(),cc.tween(i).to(.2,{opacity:0}).start(),s.setAnimation(0,"animation4_2",!1),s.setCompleteListener(function(e){s.setCompleteListener(null),c.active=!1,o.active=!1,s.node.active=!1,a()}),e.next=8,cc.vv.gameData.awaitTime(.3);case 8:cc.tween(m).to(.2,{scale:0}).start();case 9:case"end":return e.stop()}},e)}));return function(){return e.apply(this,arguments)}}(),cc.vv.gameData.checkAutoPlay(p,g),p.on("click",r(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return p.stopAllActions(),e.next=3,g();case 3:case"end":return e.stop()}},e)})));case 32:case"end":return n.stop()}},n)}));return function(e){return n.apply(this,arguments)}}()));case 1:case"end":return n.stop()}},n)}))()},setPumpkinInfo:function(e){for(var t=e[cc.vv.gameData.GetBetIdx()-1],n=0;n<t.length;n++){var a=t[n],o=cc.find("pumpkin_"+(n+1),this.node);if(o){cc.find("coin",o).getComponent(cc.Label).string=Global.formatNumShort(a.coin,0);var i=cc.find("double",o),c=i.getComponent(sp.Skeleton);a.double?(i.active=!0,c.clearTracks(),c.setToSetupPose(),c.setAnimation(0,"animation2",!0)):i.active=!1;var r=cc.find("wheel",o),s=r.getComponent(sp.Skeleton);a.jackpotWheel?(r.active=!0,s.clearTracks(),s.setToSetupPose(),s.setAnimation(0,"animation2",!0)):r.active=!1}}},GetSymbolByIdx:function(e){var t=(e-1)%this._col,n=this._gameInfo.resultCards.length/this._cfg.col-Math.floor((e-1)/this._col)-1;return this._reels[t].GetSymbolByRow(n)},collectCoin:function(){var e=this;return r(regeneratorRuntime.mark(function t(){var n,o,i,c,r,s,m,l,u;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(!(e._gameInfo.bonusResultCards&&e._gameInfo.bonusResultCards.length>0)){t.next=19;break}n=0;case 2:if(!(n<e._gameInfo.bonusResultCards.length-1)){t.next=18;break}o=e._gameInfo.bonusResultCards[n],i=[0,0,0,0,0],c=!1,r=a(o.bonusIdxs);try{for(m=function(){var t=s.value,n=o.bonusItems[o.bonusIdxs.indexOf(t)],a=(t-1)%5,r=e.GetSymbolByIdx(t);r&&(c=!0,r.playCoinAnimation()),i[a]++;var m=cc.instantiate(cc.find("spine_coin",e.node.parent)).getComponent(sp.Skeleton),l=r.node.convertToWorldSpaceAR(cc.v2(0,0));l=e.node.parent.convertToNodeSpaceAR(l),m.node.active=!0,m.node.parent=e.node.parent,m.node.position=l,m.setAnimation(0,"animation",!1);var u=cc.find("pumpkin_"+(a+1),e.node).convertToWorldSpaceAR(cc.v2(0,0));u=e.node.parent.convertToNodeSpaceAR(u),cc.tween(m.node).to(.6,{opacity:100,position:u}).removeSelf().start(),cc.tween(e.node).delay(.5).call(function(){var t=cc.find("pumpkin_"+(a+1),e.node).getComponent(sp.Skeleton);t.clearTracks(),t.setToSetupPose(),t.setAnimation(0,"animation2",!1),t.setCompleteListener(function(e){"animation2"===(e.animation?e.animation.name:"")&&(t.clearTracks(),t.setToSetupPose(),t.setAnimation(0,"animation1",!0))});var o=e._pumpkinInfo[a];if(n.type===e._cfg.BonusType.Coin)o.coin+=n.coin,cc.find("pumpkin_"+(a+1)+"/coin",e.node).getComponent(cc.Label).string=Global.formatNumShort(o.coin,0);else if(n.type===e._cfg.BonusType.Double){o.double=!0;var i=cc.find("pumpkin_"+(a+1)+"/double",e.node),c=i.getComponent(sp.Skeleton);i.active=!0,c.clearTracks(),c.setToSetupPose(),c.setAnimation(0,"animation1",!1)}else if(n.type===e._cfg.BonusType.JackpotWheel){o.jackpotWheel=!0;var r=cc.find("pumpkin_"+(a+1)+"/wheel",e.node),s=r.getComponent(sp.Skeleton);r.active=!0,s.clearTracks(),s.setToSetupPose(),s.setAnimation(0,"animation1",!1)}}).start()},r.s();!(s=r.n()).done;)m()}catch(e){r.e(e)}finally{r.f()}return c&&(cc.vv.AudioManager.playEff("games/VampireCount/","symbol_collect",!0),e.scheduleOnce(function(){},.5)),t.next=11,cc.vv.gameData.awaitTime(.6);case 11:for(l=function(t){var c=i[t],r=[],s=e._reels[t],m=e._gameInfo.bonusResultCards[n+1].cards;if(c>0){for(var l=0;l<c;l++){var u=m[e._cfg.col*l+t],p=null;if(u===e._cfg.bonusId){var d=e._gameInfo.bonusResultCards[n+1].bonusIdxs.indexOf(e._cfg.col*l+t+1);-1!==d&&(p=e._gameInfo.bonusResultCards[n+1].bonusItems[d])}r.push({id:u,data:p})}o.bonusIdxs.sort(function(e,t){return e-t}),r.reverse(),s.AppendSymbol(r,2);var f,g=a(o.bonusIdxs);try{for(g.s();!(f=g.n()).done;){var v=f.value,_=(v-1)%5;if(_===t)if(e.GetSymbolByIdx(v)){var h=e._reels[_],y=Math.floor(o.cards.length/e._cfg.col)-(Math.floor((v-1)/5)+1);cc.log(y),h.deleteSymbol(y)}}}catch(e){g.e(e)}finally{g.f()}for(var S=0;S<m.length/e._cfg.col;S++){var k=s.GetSymbolByRow(S);cc.tween(k.node).to(.2,{y:(S+.5)*e._cfg.symbolSize.height}).start()}cc.tween(s.node).delay(.2).call(function(){s.ReLayOut()}).start()}},u=0;u<i.length;u++)l(u);return t.next=15,cc.vv.gameData.awaitTime(.3);case 15:n++,t.next=2;break;case 18:e._pumpkinInfo=e._gameInfo.bonusInfo;case 19:case"end":return t.stop()}},t)}))()},updateCollectProgress:function(e,t){var n=this;return r(regeneratorRuntime.mark(function a(){var o,i,c,r,s,m;return regeneratorRuntime.wrap(function(a){for(;;)switch(a.prev=a.next){case 0:o=cc.find("collect_node/spine_purpose",n.node).getComponent(sp.Skeleton),e.progressData.totalCnt/e.progressData.needCnt<1&&((i=n._cfg.MapConfig[e.nextId-1]).animationName?(o.clearTracks(),o.setToSetupPose(),o.setAnimation(0,i.animationName,!0)):(o.clearTracks(),o.setToSetupPose(),o.setAnimation(0,"animation8",!0))),c=cc.find("collect_node/progress",n.node),r=cc.find("scale_node",c),s=cc.find("sjt",r),t?(cc.tween(s).to(.3,{x:388*(e.progressData.totalCnt/e.progressData.needCnt>1?1:e.progressData.totalCnt/e.progressData.needCnt)-194}).start(),(m=cc.find("collect",s).getComponent(sp.Skeleton)).node.active=!0,m.setToSetupPose(),m.setAnimation(0,"animation1",!1),m.setCompleteListener(function(){m.node.active=!1})):s.x=388*(e.progressData.totalCnt/e.progressData.needCnt>1?1:e.progressData.totalCnt/e.progressData.needCnt)-194;case 6:case"end":return a.stop()}},a)}))()},clearCollectProgress:function(){var e=cc.find("collect_node/spine_purpose",this.node).getComponent(sp.Skeleton),t=cc.find("collect_node/progress",this.node),n=cc.find("scale_node",t),a=cc.find("sjt",n),o=this._gameInfo?this._gameInfo.mapInfo:cc.vv.gameData.getDeskInfo().mapInfo,i=this._cfg.MapConfig[o.nextId-1];i.animationName?(e.clearTracks(),e.setToSetupPose(),e.setAnimation(0,i.animationName,!0)):(e.clearTracks(),e.setToSetupPose(),e.setAnimation(0,"animation8",!0)),a.x=-194},changeBgAnimation:function(e){var t=this;this._rightSpiderCount=0,this._leftSpiderCount=0;var n=cc.find("bg/spider",this.node.parent).getComponent(sp.Skeleton);n.clearTracks(),n.setToSetupPose(),n.setAnimation(0,"animation2_"+e+"_1",!0),n.setCompleteListener(function(a){var o=a.animation?a.animation.name:"";o==="animation2_"+e+"_1"?(t._rightSpiderCount++,t._rightSpiderCount>=3&&(n.clearTracks(),n.setToSetupPose(),n.setAnimation(0,"animation2_"+e+"_2",!0),t._rightSpiderCount=0)):o==="animation2_"+e+"_2"&&(t._leftSpiderCount++,t._leftSpiderCount>=2&&(n.clearTracks(),n.setToSetupPose(),n.setAnimation(0,"animation2_"+e+"_1",!0),t._leftSpiderCount=0))});var a=cc.find("bg/ghost",this.node.parent).getComponent(sp.Skeleton);a.clearTracks(),a.setToSetupPose(),a.setAnimation(0,"animation4_"+e+"_1",!1),a.setCompleteListener(function(t){var n=t.animation?t.animation.name:"";n==="animation4_"+e+"_1"?(a.clearTracks(),a.setToSetupPose(),a.setAnimation(0,"animation4_"+e+"_2",!1)):n==="animation4_"+e+"_2"&&(a.clearTracks(),a.setToSetupPose(),a.setAnimation(0,"animation4_"+e+"_1",!1))});var o=cc.find("bg/tree",this.node.parent).getComponent(sp.Skeleton);o.clearTracks(),o.setToSetupPose(),o.setAnimation(0,"animation6_"+e,!0);var i=cc.find("bg/frog",this.node.parent).getComponent(sp.Skeleton);i.clearTracks(),i.setToSetupPose(),i.setAnimation(0,"animation3_"+e,!0);var c=cc.find("bg/house_light",this.node.parent).getComponent(sp.Skeleton);c.clearTracks(),c.setToSetupPose(),c.setAnimation(0,"animation1_"+e,!0)},_rotateWheel:function(e,t){return r(regeneratorRuntime.mark(function n(){return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return n.abrupt("return",new Promise(function(){var n=r(regeneratorRuntime.mark(function n(a){var o,i;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:o=40*e-140-2160,cc.log(o),cc.vv.AudioManager.playEff("games/VampireCount/","wheel_spin",!0),i=cc.rotateBy(7,o).easing(cc.easeSineInOut()),t.getChildByName("rotate_node").runAction(cc.sequence(i,cc.callFunc(function(){cc.vv.AudioManager.playEff("games/VampireCount/","wheel_stop",!0),a()})));case 5:case"end":return n.stop()}},n)}));return function(e){return n.apply(this,arguments)}}()));case 1:case"end":return n.stop()}},n)}))()}}),cc._RF.pop()},{LMSlots_Slots_Base:void 0}],VampireCount_Symbol:[function(e,t,n){"use strict";cc._RF.push(t,"ee9e7ko7ZZPepJim4Uk/a0f","VampireCount_Symbol");var a=1,o=2,i=3;cc.Class({extends:e("LMSlots_Symbol_Base"),properties:{},StartMove:function(){this._super();var e=cc.vv.gameData.getGameCfg();this._id===e.pumpkinManId&&(this.node.zIndex=1e3),this._id===e.scatterId&&(this.node.zIndex=500)},ShowById:function(e,t){var n=cc.vv.gameData.getGameCfg();this._super(e,t),e===n.bonusId&&t&&(cc.find("coin_bg/coin",this._showNode).active=t.type===a,cc.find("coin_bg/double",this._showNode).active=t.type===o,cc.find("coin_bg/wheel",this._showNode).active=t.type===i,cc.find("coin_bg/coin",this._showNode).opacity=255,cc.find("coin_bg/double",this._showNode).opacity=255,cc.find("coin_bg/wheel",this._showNode).opacity=255,cc.find("coin_bg/coin",this._showNode).scale=1,cc.find("coin_bg/double",this._showNode).scale=1,cc.find("coin_bg/wheel",this._showNode).scale=1,cc.find("coin_bg",this._showNode).opacity=255,t.type===a&&(cc.find("coin_bg/coin",this._showNode).getComponent(cc.Label).string=Global.formatNumShort(t.coin,0)))},playCoinAnimation:function(){cc.find("icon",this._showNode).active=!1;var e=cc.find("coin_bg/coin",this._showNode);this._data.type===o?e=cc.find("coin_bg/double",this._showNode):this._data.type===i&&(e=cc.find("coin_bg/wheel",this._showNode));var t=cc.find("coin_bg",this._showNode);cc.tween(t).to(.2,{opacity:0}).start(),cc.tween(e).to(.5,{opacity:0,scale:1.1}).start()},playTriggerAnimation:function(e){var t=this,n=!1,a=this._id,o=cc.vv.gameData.getGameCfg();if(o.symbol[a]&&o.symbol[a].win_node&&o.symbol[a].trigger_ani){this._state="trigger",this._showNode&&(this._showNode.active=!1);var i=this.setAnimationToTop(!0);i.active=!0;var c=cc.find(o.symbol[a].win_node,i);if(c.active=!0,""!==o.symbol[a].trigger_ani.name){i.zIndex=o.symbol[a].trigger_ani.zIndex-this._symbolIdx+10*this._reelIdx,n=!0;var r=c.getComponent(sp.Skeleton);r&&(r.setAnimation(0,o.symbol[a].trigger_ani.name,!1),this._id===o.pumpkinManId&&cc.vv.AudioManager.playEff("games/VampireCount/","pumpkin_wheel",!0),r.setCompleteListener(function(n){(n.animation?n.animation.name:"")===o.symbol[a].trigger_ani.name&&(t._id===o.pumpkinManId&&(r.clearTracks(),r.setToSetupPose(),r.setAnimation(0,"animation2",!0)),t._id!==o.scatterId&&t._id!==o.extraSpinId||(r.clearTracks(),r.setToSetupPose(),r.setAnimation(0,o.symbol[a].idle_ani.name,!0)),e&&e(c))}))}}return n},SetSymbolIdx:function(e){this._super(e);var t=cc.vv.gameData.getGameCfg();this._id===t.pumpkinManId&&(this.node.zIndex=1e3),this._id===t.scatterId&&(this.node.zIndex=500)},GetSymbolIdx:function(){return this._symbolIdx}}),cc._RF.pop()},{LMSlots_Symbol_Base:void 0}],VampireCount_Wheel:[function(e,t,n){"use strict";function a(e,t,n,a,o,i,c){try{var r=e[i](c),s=r.value}catch(e){return void n(e)}r.done?t(s):Promise.resolve(s).then(a,o)}function o(e){return function(){var t=this,n=arguments;return new Promise(function(o,i){var c=e.apply(t,n);function r(e){a(c,o,i,r,s,"next",e)}function s(e){a(c,o,i,r,s,"throw",e)}r(void 0)})}}function i(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=c(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,o,i=!0,r=!1;return{s:function(){a=e[Symbol.iterator]()},n:function(){var e=a.next();return i=e.done,e},e:function(e){r=!0,o=e},f:function(){try{i||null==a.return||a.return()}finally{if(r)throw o}}}}function c(e,t){if(e){if("string"==typeof e)return r(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?r(e,t):void 0}}function r(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,a=new Array(t);n<t;n++)a[n]=e[n];return a}cc._RF.push(t,"829fcoWIoZJz5Wyei2cV1qn","VampireCount_Wheel"),cc.Class({extends:cc.Component,properties:{items:[cc.Node],jackpot_result:cc.Node,jptanchuang:sp.Skeleton,winCoin:cc.Label,btn_collect:cc.Node,kuang:sp.Skeleton,kuloushouzhi:sp.Skeleton,black_bg:cc.Node,press_node:sp.Skeleton,_startMove:!1,_newSpeed:1,_newMaxSpeed:20,_newMinSpeed:1,_newSpeedOffset:.25,_count:6,_needStop:!1,_bottomPosY:0,_backMove:!1,_resultItem:null,_successCallback:null,_hasPressed:!0,_wheelResult:null},onLoad:function(){var e=this;this.press_node.node.on(cc.Node.EventType.TOUCH_END,function(){e._hasPressed||(e._hasPressed=!0,e.press_node.node.stopAllActions(),cc.tween(e.black_bg).to(.2,{opacity:0}).start(),e.press_node.clearTracks(),e.press_node.setToSetupPose(),e.press_node.setAnimation(0,"animation3",!1),e.press_node.setCompleteListener(function(t){"animation3"===(t.animation?t.animation.name:"")&&(e._startMove=!0,cc.vv.AudioManager.playEff("games/VampireCount/","jp_spin",!0),e.press_node.active=!1,e.kuloushouzhi.node.active=!0,e.kuloushouzhi.setAnimation(0,"animation",!1),e.kuloushouzhi.addAnimation(0,"animation2",!0))}))}),this._bottomPosY=this.items[9].y-this.items[9].height},update:function(e){if(this._startMove){this._needStop?(this._newSpeed-=this._newSpeedOffset,this._newSpeed<=this._newMinSpeed&&(this._newSpeed=this._newMinSpeed)):(this._newSpeed+=this._newSpeedOffset,this._newSpeed>=this._newMaxSpeed&&(this._newSpeed=this._newMaxSpeed)),0===this._count&&this._resultItem.y<=5*this._resultItem.height&&(this._needStop=!0),this._needStop&&this._resultItem.y<0&&(this._startMove=!1,this._backMove=!0);var t,n=i(this.items);try{for(n.s();!(t=n.n()).done;){var a=t.value;a.y<=this._bottomPosY&&(a.y+=this.items.length*a.height,a===this._resultItem&&(this._count--,this._count<=0&&(this._count=0))),a.y-=this._newSpeed}}catch(e){n.e(e)}finally{n.f()}}if(this._backMove){var o,c=i(this.items);try{for(c.s();!(o=c.n()).done;){o.value.y+=this._newMinSpeed}}catch(e){c.e(e)}finally{c.f()}this._resultItem.y>-1&&this._resultItem.y<1&&(this._backMove=!1,this._moveEnd())}},_moveEnd:function(){var e=this;cc.vv.AudioManager.playEff("games/VampireCount/","jp_stop",!0),this.kuang.node.active=!0,this.kuang.clearTracks(),this.kuang.setToSetupPose(),this.kuang.setAnimation(0,"animation1",!1),this.kuang.setCompleteListener(function(){var t=o(regeneratorRuntime.mark(function t(n){var a,o,i,c,r;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if("animation1"!==(n.animation?n.animation.name:"")){t.next=29;break}return e.kuang.clearTracks(),e.kuang.setToSetupPose(),e.kuang.setAnimation(0,"animation2",!0),(a=cc.find("LMSlots_PrizePool_1",e.node.parent).getComponent("VampireCount_PrizePool")._GetPoolNodeByType(e._wheelResult.id-1))&&(o=cc.find("unlock/jpzhongjiang",a))&&(cc.vv.AudioManager.playEff("games/VampireCount/","jp_multi",!0),o.active=!0,e.scheduleOnce(function(){o.active=!1},1)),t.next=9,cc.vv.gameData.awaitTime(1);case 9:return i=[4,3,2,1],c=["wheel_mini","wheel_minor","wheel_major","wheel_grand"],cc.vv.AudioManager.playEff("games/VampireCount/",c[e._wheelResult.id-1],!0),e.jackpot_result.active=!0,e.jptanchuang.clearTracks(),e.jptanchuang.setToSetupPose(),e.jptanchuang.setAnimation(0,"animation"+i[e._wheelResult.id-1],!1),e.jptanchuang.setCompleteListener(function(t){(t.animation?t.animation.name:"")==="animation"+i[e._wheelResult.id-1]&&(e.jptanchuang.clearTracks(),e.jptanchuang.setToSetupPose(),e.jptanchuang.setAnimation(0,"animation"+i[e._wheelResult.id-1]+"_1",!0))}),e.winCoin.string="",e.btn_collect.scale=0,t.next=21,cc.vv.gameData.awaitTime(1);case 21:return Global.doRoallNumEff(e.winCoin.node,0,e._wheelResult.value,3,null,null,0,!0,!1),cc.tween(e.btn_collect).to(.5,{scale:1},{easing:"backOut"}).start(),t.next=25,cc.vv.gameData.awaitTime(.5);case 25:e.btn_collect.off("click"),r=function(){e.btn_collect.off("click"),cc.vv.AudioManager.playEff("games/VampireCount/","click",!0),cc.tween(e.btn_collect).to(.5,{scale:0},{easing:"backIn"}).start(),e.jptanchuang.clearTracks(),e.jptanchuang.setToSetupPose(),e.jptanchuang.setAnimation(0,"animation"+i[e._wheelResult.id-1]+"_2",!1),e.jptanchuang.setCompleteListener(function(t){(t.animation?t.animation.name:"")==="animation"+i[e._wheelResult.id-1]+"_2"&&(e.jackpot_result.active=!1,e.kuloushouzhi.node.active=!1,e._successCallback&&e._successCallback())})},cc.vv.gameData.checkAutoPlay(e.btn_collect,r),e.btn_collect.on("click",function(){e.btn_collect.stopAllActions(),r()});case 29:case"end":return t.stop()}},t)}));return function(e){return t.apply(this,arguments)}}())},enterWheelGame:function(e,t){var n=this;return o(regeneratorRuntime.mark(function a(){return regeneratorRuntime.wrap(function(a){for(;;)switch(a.prev=a.next){case 0:n._wheelResult=t,n._resultItem=cc.find("wheel_mask/index_"+t.idx,n.node),n.node.active=!0,n._successCallback=e,n.kuang.node.active=!1,Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playBgm("wheel_bgm"),cc.vv.AudioManager.playEff("games/VampireCount/","wheel_start_show",!0),n.reset(),n.black_bg.opacity=200,n.press_node.node.active=!0,n.press_node.clearTracks(),n.press_node.setToSetupPose(),n.press_node.setAnimation(0,"animation",!1),n.press_node.setCompleteListener(function(e){"animation"===(e.animation?e.animation.name:"")&&(n.press_node.clearTracks(),n.press_node.setToSetupPose(),n.press_node.setAnimation(0,"animation2",!0))}),cc.vv.gameData.checkAutoPlay(n.press_node.node,function(){n._hasPressed||(n._hasPressed=!0,cc.tween(n.black_bg).to(.2,{opacity:0}).start(),n.press_node.clearTracks(),n.press_node.setToSetupPose(),n.press_node.setAnimation(0,"animation3",!1),n.press_node.setCompleteListener(function(e){"animation3"===(e.animation?e.animation.name:"")&&(n._startMove=!0,cc.vv.AudioManager.playEff("games/VampireCount/","jp_spin",!0),n.press_node.active=!1,n.kuloushouzhi.node.active=!0,n.kuloushouzhi.setAnimation(0,"animation",!1),n.kuloushouzhi.addAnimation(0,"animation2",!0))}))});case 16:case"end":return a.stop()}},a)}))()},reset:function(){this._startMove=!1,this._newSpeed=1,this._needStop=!1,this._count=6,this._hasPressed=!1,this._backMove=!1}}),cc._RF.pop()},{}]},{},["VampireCount_Cfg","VampireCount_Logic","VampireCount_Map","VampireCount_PickGame","VampireCount_PrizePool","VampireCount_Reel","VampireCount_Slots","VampireCount_Symbol","VampireCount_Wheel"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  VampireCount_Cfg: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "507faWD3kJOyYK2PbPp6xTi", "VampireCount_Cfg");
+    "use strict";
+    var _symbol;
+    function _defineProperty(obj, key, value) {
+      key in obj ? Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+      }) : obj[key] = value;
+      return obj;
+    }
+    var Cfg = {
+      symbol: (_symbol = {}, _defineProperty(_symbol, 1, {
+        node: "symbol_1",
+        win_node: "animation_1",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 2, {
+        node: "symbol_2",
+        win_node: "animation_2",
+        stop_ani: {
+          name: "animation",
+          zIndex: 100
+        },
+        trigger_ani: {
+          name: "animation3",
+          zIndex: 300
+        },
+        idle_ani: {
+          name: "animation2",
+          zIndex: 200
+        }
+      }), _defineProperty(_symbol, 3, {
+        node: "symbol_3"
+      }), _defineProperty(_symbol, 4, {
+        node: "symbol_4",
+        win_node: "animation_4",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 5, {
+        node: "symbol_5",
+        win_node: "animation_5",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 6, {
+        node: "symbol_6",
+        win_node: "animation_6",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 7, {
+        node: "symbol_7",
+        win_node: "animation_7",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 8, {
+        node: "symbol_8",
+        win_node: "animation_8",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 9, {
+        node: "symbol_9",
+        win_node: "animation_9",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 10, {
+        node: "symbol_10",
+        win_node: "animation_10",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 101, {
+        node: "symbol_101",
+        win_node: "animation_101",
+        win_ani: {
+          name: "animation2",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 201, {
+        node: "symbol_201"
+      }), _defineProperty(_symbol, 202, {
+        node: "symbol_202",
+        win_node: "animation_202",
+        stop_ani: {
+          name: "animation",
+          zIndex: 200
+        },
+        trigger_ani: {
+          name: "animation3",
+          zIndex: 400
+        }
+      }), _defineProperty(_symbol, 203, {
+        node: "symbol_203"
+      }), _defineProperty(_symbol, 301, {
+        node: "symbol_301",
+        win_node: "animation_301",
+        stop_ani: {
+          name: "animation",
+          zIndex: 100
+        },
+        trigger_ani: {
+          name: "animation3",
+          zIndex: 300
+        },
+        idle_ani: {
+          name: "animation2",
+          zIndex: 200
+        }
+      }), _symbol),
+      BonusType: {
+        Coin: 1,
+        Double: 2,
+        JackpotWheel: 3
+      },
+      MapType: {
+        PickBooster: 1,
+        SuperFreeGame: 2
+      },
+      MapBoostType: {
+        ExtraFreeCnt: 1,
+        WildPaysDouble: 2,
+        AddRow: 3,
+        ExtraWild: 4,
+        ExtraBonus: 5,
+        Coin: 6
+      },
+      MapConfig: [ {
+        id: 1,
+        type: 1,
+        pickCnt: 2,
+        nextSlotsId: 3,
+        index: 1
+      }, {
+        id: 2,
+        type: 1,
+        pickCnt: 2,
+        nextSlotsId: 3,
+        index: 1
+      }, {
+        id: 3,
+        type: 2,
+        boosters: [ 1, 2 ],
+        animationName: "animation1",
+        nextSlotsId: 7,
+        index: 1
+      }, {
+        id: 4,
+        type: 1,
+        pickCnt: 2,
+        nextSlotsId: 7,
+        index: 2
+      }, {
+        id: 5,
+        type: 1,
+        pickCnt: 2,
+        nextSlotsId: 7,
+        index: 2
+      }, {
+        id: 6,
+        type: 1,
+        pickCnt: 2,
+        nextSlotsId: 7,
+        index: 2
+      }, {
+        id: 7,
+        type: 2,
+        boosters: [ 1, 2, 3 ],
+        animationName: "animation2",
+        nextSlotsId: 12,
+        index: 2
+      }, {
+        id: 8,
+        type: 1,
+        pickCnt: 2,
+        nextSlotsId: 12,
+        index: 3
+      }, {
+        id: 9,
+        type: 1,
+        pickCnt: 2,
+        nextSlotsId: 12,
+        index: 3
+      }, {
+        id: 10,
+        type: 1,
+        pickCnt: 2,
+        nextSlotsId: 12,
+        index: 3
+      }, {
+        id: 11,
+        type: 1,
+        pickCnt: 2,
+        nextSlotsId: 12,
+        index: 3
+      }, {
+        id: 12,
+        type: 2,
+        boosters: [ 1, 2, 3, 4 ],
+        animationName: "animation3",
+        nextSlotsId: 18,
+        index: 3
+      }, {
+        id: 13,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 18,
+        index: 4
+      }, {
+        id: 14,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 18,
+        index: 4
+      }, {
+        id: 15,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 18,
+        index: 4
+      }, {
+        id: 16,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 18,
+        index: 4
+      }, {
+        id: 17,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 18,
+        index: 4
+      }, {
+        id: 18,
+        type: 2,
+        boosters: [ 1, 2, 3, 4 ],
+        animationName: "animation4",
+        nextSlotsId: 25,
+        index: 4
+      }, {
+        id: 19,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 25,
+        index: 5
+      }, {
+        id: 20,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 25,
+        index: 5
+      }, {
+        id: 21,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 25,
+        index: 5
+      }, {
+        id: 22,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 25,
+        index: 5
+      }, {
+        id: 23,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 25,
+        index: 5
+      }, {
+        id: 24,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 25,
+        index: 5
+      }, {
+        id: 25,
+        type: 2,
+        boosters: [ 1, 2, 3, 4, 5 ],
+        animationName: "animation5",
+        nextSlotsId: 33,
+        index: 5
+      }, {
+        id: 26,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 33,
+        index: 6
+      }, {
+        id: 27,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 33,
+        index: 6
+      }, {
+        id: 28,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 33,
+        index: 6
+      }, {
+        id: 29,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 33,
+        index: 6
+      }, {
+        id: 30,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 33,
+        index: 6
+      }, {
+        id: 31,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 33,
+        index: 6
+      }, {
+        id: 32,
+        type: 1,
+        pickCnt: 3,
+        nextSlotsId: 33,
+        index: 6
+      }, {
+        id: 33,
+        type: 2,
+        boosters: [ 1, 2, 3, 4, 5 ],
+        animationName: "animation6",
+        nextSlotsId: 3,
+        index: 6
+      } ],
+      scripts: {
+        Top: "LMSlots_Top_Base",
+        Bottom: "LMSlots_Bottom_Base",
+        Slots: "VampireCount_Slots",
+        Reels: "VampireCount_Reel",
+        Symbols: "VampireCount_Symbol"
+      },
+      col: 5,
+      row: 3,
+      symbolPrefab: "symbol",
+      symbolSize: {
+        width: 112,
+        height: 103
+      },
+      randomSymbols: [ 1, 3, 4, 5, 6, 7, 8, 9, 10 ],
+      wildId: 1,
+      scatterId: 2,
+      bonusId: 3,
+      collectSymbolId: 4,
+      pumpkinManId: 202,
+      extraSpinId: 301,
+      kuang: "kuang",
+      speed: 3e3,
+      reelStopInter: .2,
+      auto_stop_time: 1,
+      bounceInfo: {
+        distance: 30,
+        time: .1
+      },
+      autoModelDelay: 1,
+      AddAntiTime: 1.5,
+      reelStateInfo: [ {
+        id: [ 2 ],
+        mini: 3,
+        counts: [ 1, 1, 1, 1, 1 ],
+        antiNode: "node_anti",
+        path: "games/VampireCount/",
+        reelStopSound: "reel_stop",
+        symbolStopSound: "scatter_landing",
+        antSound: "anticipation1",
+        antSpeed: 2e3
+      } ],
+      helpItems: [ "games/VampireCount/prefab/help_item_1", "games/VampireCount/prefab/help_item_2", "games/VampireCount/prefab/help_item_3", "games/VampireCount/prefab/help_item_4", "games/VampireCount/prefab/help_item_5", "games/VampireCount/prefab/help_item_6", "games/VampireCount/prefab/help_item_7" ],
+      commEffect: {
+        path: "games/VampireCount/",
+        win1: [ "win1", "win1end" ],
+        win2: [ "win2", "win2end" ]
+      },
+      normalBgm: "base_bgm"
+    };
+    module.exports = Cfg;
+    cc._RF.pop();
+  }, {} ],
+  VampireCount_Logic: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "b58f2KlGipPHIFRJ7AT27ZY", "VampireCount_Logic");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Logic_Base"),
+      properties: {
+        _pickBonusData: null,
+        _lockBonus: false,
+        _leftSpiderCount: 0,
+        _rightSpiderCount: 0
+      },
+      onLoad: function onLoad() {
+        this._super();
+        var deskInfo = cc.vv.gameData.getDeskInfo();
+        this._lockBonus = deskInfo.needBet > deskInfo.currmult;
+        Global.registerEvent(cc.vv.gameData._EventId.SLOT_TOTALBET_UPDATED, this.onUpdateBet, this);
+      },
+      onUpdateBet: function onUpdateBet() {
+        var deskInfo = cc.vv.gameData.getDeskInfo();
+        var script = cc.find("safe_node/slots/collect_node/bonus_node/lock", this.node).getComponent(sp.Skeleton);
+        if (deskInfo.needBet <= cc.vv.gameData.GetBetIdx() && this._lockBonus) {
+          cc.vv.AudioManager.playEff("games/VampireCount/", "unlock", true);
+          this._lockBonus = false;
+          script.clearTracks();
+          script.setToSetupPose();
+          script.setAnimation(0, "animation3", false);
+        } else if (deskInfo.needBet > cc.vv.gameData.GetBetIdx() && !this._lockBonus) {
+          cc.vv.AudioManager.playEff("games/VampireCount/", "lock", true);
+          this._lockBonus = true;
+          script.clearTracks();
+          script.setToSetupPose();
+          script.setAnimation(0, "animation1", false);
+        }
+        cc.vv.gameData.GetSlotsScript().setPumpkinInfo(deskInfo.bonusInfos);
+      },
+      playSpiderAndGhostAnimation: function playSpiderAndGhostAnimation(index) {
+        var _this = this;
+        var spider = cc.find("safe_node/bg/spider", this.node);
+        var spine = spider.getComponent(sp.Skeleton);
+        spine.clearTracks();
+        spine.setToSetupPose();
+        spine.setAnimation(0, "animation2_" + index + "_1", false);
+        spine.setCompleteListener(function(track) {
+          var name = track.animation ? track.animation.name : "";
+          if (name === "animation2_" + index + "_1") {
+            _this._rightSpiderCount++;
+            if (_this._rightSpiderCount >= 3) {
+              spine.clearTracks();
+              spine.setToSetupPose();
+              spine.setAnimation(0, "animation2_" + index + "_2", false);
+              _this._rightSpiderCount = 0;
+            }
+          } else if (name === "animation2_" + index + "_2") {
+            _this._leftSpiderCount++;
+            if (_this._leftSpiderCount >= 2) {
+              spine.clearTracks();
+              spine.setToSetupPose();
+              spine.setAnimation(0, "animation2_" + index + "_1", false);
+              _this._leftSpiderCount = 0;
+            }
+          }
+        });
+        var ghost = cc.find("safe_node/bg/ghost", this.node);
+        var ghost_spine = ghost.getComponent(sp.Skeleton);
+        ghost_spine.clearTracks();
+        ghost_spine.setToSetupPose();
+        ghost_spine.setAnimation(0, "animation4_" + index + "_1", false);
+        ghost_spine.setCompleteListener(function(track) {
+          var name = track.animation ? track.animation.name : "";
+          if (name === "animation4_" + index + "_1") {
+            ghost_spine.clearTracks();
+            ghost_spine.setToSetupPose();
+            ghost_spine.setAnimation(0, "animation4_" + index + "_2", false);
+          } else if (name === "animation4_" + index + "_2") {
+            ghost_spine.clearTracks();
+            ghost_spine.setToSetupPose();
+            ghost_spine.setAnimation(0, "animation4_" + index + "_1", false);
+          }
+        });
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Logic_Base: void 0
+  } ],
+  VampireCount_Map: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "d53bbPqIoVM0JogletkJfM5", "VampireCount_Map");
+    "use strict";
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        role: cc.Node,
+        points: [ cc.Node ],
+        map: cc.Node,
+        start_node: cc.Node,
+        btn_back: cc.Node
+      },
+      initMap: function initMap(mapInfo) {
+        this.node.active = true;
+        this.map.y = cc.winSize.height;
+        var cfg = cc.vv.gameData.getGameCfg();
+        for (var i = 0; i < cfg.MapConfig.length; i++) {
+          var pointCfg = cfg.MapConfig[i];
+          var point = this.points[i];
+          var spine = point.getChildByName("spine").getComponent(sp.Skeleton);
+          if (pointCfg.type === cfg.MapType.PickBooster) if (i < mapInfo.currId) {
+            spine.clearTracks();
+            spine.setToSetupPose();
+            spine.setAnimation(0, "animation4", true);
+          } else {
+            spine.clearTracks();
+            spine.setToSetupPose();
+            spine.setAnimation(0, "animation3", true);
+          } else if (pointCfg.type === cfg.MapType.SuperFreeGame) {
+            var common = point.getChildByName("common");
+            var finish = point.getChildByName("finish");
+            common.active = i >= mapInfo.currId;
+            finish.active = i < mapInfo.currId;
+            i < mapInfo.currId ? spine.setAnimation(0, "animation" + pointCfg.index + "_3", true) : spine.setAnimation(0, "animation" + pointCfg.index + "_2", true);
+            for (var _i = 1; _i < 6; _i++) {
+              var tips = common.getChildByName("tips_" + _i);
+              if (tips) {
+                tips.getChildByName("no").active = false;
+                tips.getChildByName("yes").active = false;
+              }
+            }
+          }
+        }
+        var nextFreeGameIndex = mapInfo.currId >= 1 ? cfg.MapConfig[mapInfo.currId - 1].nextSlotsId - 1 : cfg.MapConfig[0].nextSlotsId - 1;
+        var nextFreeGameCfg = cfg.MapConfig[nextFreeGameIndex];
+        var nextFreeGamePoint = this.points[nextFreeGameIndex];
+        if (nextFreeGamePoint) {
+          var _common = nextFreeGamePoint.getChildByName("common");
+          if (_common) {
+            for (var _i2 = 1; _i2 < 6; _i2++) {
+              var _tips = _common.getChildByName("tips_" + _i2);
+              if (_tips) {
+                _tips.getChildByName("no").active = false;
+                _tips.getChildByName("yes").active = -1 !== mapInfo.nextUnlockBoosters.indexOf(_i2);
+              }
+            }
+            _common.getChildByName("num").getComponent(cc.Label).string = mapInfo.nextUnlockBoosters.length;
+          }
+        }
+        var startPoint = mapInfo.currId <= 0 ? this.start_node : this.points[mapInfo.currId - 1];
+        this.role.active = true;
+        this.role.position = startPoint.position;
+      },
+      openMap: function openMap(showBtn) {
+        var _this = this;
+        this.node.active = true;
+        this.map.y = cc.winSize.height;
+        cc.vv.AudioManager.playEff("games/VampireCount/", "map_open", true);
+        cc.tween(this.map).to(.5, {
+          y: 0
+        }).start();
+        if (showBtn) {
+          this.btn_back.active = true;
+          this.btn_back.scale = 0;
+          cc.tween(this.btn_back).delay(.6).to(.5, {
+            scale: 1
+          }, {
+            easing: "backOut"
+          }).start();
+          this.btn_back.on("click", function() {
+            _this.btn_back.off("click");
+            cc.vv.AudioManager.playEff("games/VampireCount/", "map_close", true);
+            cc.tween(_this.btn_back).to(.2, {
+              scale: 0
+            }).start();
+            cc.tween(_this.map).to(.5, {
+              y: cc.winSize.height
+            }).call(function() {
+              cc.vv.gameData.GetSlotsScript().CanDoNextRound();
+              _this.node.active = false;
+            }).start();
+          });
+        }
+      },
+      showMap: function showMap(mapInfo) {
+        var _this2 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var cfg, pointCfg, point, spine, common, finish, i, tips, position, percentY, startPoint, endPoint, endPointCfg, _spine, script, result, num, _iterator, _step, choiceItem, _i4, _pointCfg2, _point2, _spine3;
+          return regeneratorRuntime.wrap(function _callee2$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              _this2.node.active = true;
+              cfg = cc.vv.gameData.getGameCfg();
+              _this2.initMap(mapInfo);
+              pointCfg = cfg.MapConfig[mapInfo.currId - 1];
+              point = _this2.points[mapInfo.currId - 1];
+              spine = point.getChildByName("spine").getComponent(sp.Skeleton);
+              if (pointCfg.type === cfg.MapType.PickBooster) {
+                spine.clearTracks();
+                spine.setToSetupPose();
+                spine.setAnimation(0, "animation3", true);
+              } else if (pointCfg.type === cfg.MapType.SuperFreeGame) {
+                common = point.getChildByName("common");
+                finish = point.getChildByName("finish");
+                common.active = true;
+                finish.active = false;
+                spine.setAnimation(0, "animation" + pointCfg.index + "_2", true);
+                for (i = 1; i < 6; i++) {
+                  tips = common.getChildByName("tips_" + i);
+                  if (tips) {
+                    tips.getChildByName("no").active = -1 === mapInfo.nextUnlockBoosters.indexOf(i);
+                    tips.getChildByName("yes").active = -1 !== mapInfo.nextUnlockBoosters.indexOf(i);
+                  }
+                }
+              }
+              _this2.openMap(false);
+              _context3.next = 10;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 10:
+              position = point.convertToWorldSpaceAR(cc.v2(0, 0));
+              percentY = position.y / cc.winSize.height - .15;
+              percentY < 0 ? percentY = 0 : percentY > 1 && (percentY = 1);
+              _this2.map.getComponent(cc.ScrollView).scrollToPercentVertical(percentY);
+              startPoint = mapInfo.currId - 1 <= 0 ? _this2.start_node : _this2.points[mapInfo.currId - 2];
+              endPoint = _this2.points[mapInfo.currId - 1];
+              _this2.role.active = true;
+              _this2.role.position = startPoint.position;
+              cc.vv.AudioManager.playEff("games/VampireCount/", "map_move", true);
+              _this2.role.getComponent(sp.Skeleton).setAnimation(0, "animation2", false);
+              _this2.role.getComponent(sp.Skeleton).setCompleteListener(function() {
+                _this2.role.getComponent(sp.Skeleton).setCompleteListener(null);
+                _this2.role.active = false;
+              });
+              cc.tween(_this2.role).delay(.5).then(cc.jumpTo(1, endPoint.position.x, endPoint.position.y, 50, 1)).start();
+              _context3.next = 24;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 24:
+              endPointCfg = cfg.MapConfig[mapInfo.currId - 1];
+              if (!(endPointCfg.type === cfg.MapType.PickBooster)) {
+                _context3.next = 55;
+                break;
+              }
+              _spine = endPoint.getChildByName("spine").getComponent(sp.Skeleton);
+              _spine.setAnimation(0, "animation1", false);
+              _spine.addAnimation(0, "animation2", true);
+              _context3.next = 31;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 31:
+              _this2.cutScenePick();
+              _context3.next = 34;
+              return cc.vv.gameData.awaitTime(1.8);
+
+             case 34:
+              script = cc.find("pick_game", _this2.node.parent).getComponent("VampireCount_PickGame");
+              _context3.next = 37;
+              return script.enterPickGame(endPointCfg.index, endPointCfg.pickCnt, cc.vv.gameData.getGameInfo() ? cc.vv.gameData.getGameInfo().pickBoosterGame : cc.vv.gameData.getDeskInfo().pickBoosterGame);
+
+             case 37:
+              _this2.cutScenePick();
+              _context3.next = 40;
+              return cc.vv.gameData.awaitTime(1.8);
+
+             case 40:
+              cc.find("pick_game", _this2.node.parent).active = false;
+              Global.SlotsSoundMgr.stopBgm();
+              Global.SlotsSoundMgr.playNormalBgm();
+              result = script.getResult();
+              num = 0;
+              _iterator = _createForOfIteratorHelper(result.pickBoosterGame.choiceItems);
+              try {
+                for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+                  choiceItem = _step.value;
+                  choiceItem.type !== cfg.MapBoostType.Coin && num++;
+                }
+              } catch (err) {
+                _iterator.e(err);
+              } finally {
+                _iterator.f();
+              }
+              if (!(0 === num)) {
+                _context3.next = 52;
+                break;
+              }
+              _this2.map.getComponent(cc.ScrollView).scrollToPercentVertical(percentY);
+              _this2.map.y = cc.winSize.height;
+              _context3.next = 53;
+              break;
+
+             case 52:
+              return _context3.delegateYield(regeneratorRuntime.mark(function _callee() {
+                var nextFreeGamePoint, _iterator2, _step2, _loop, _i3, _point, _pointCfg, _spine2;
+                return regeneratorRuntime.wrap(function _callee$(_context2) {
+                  while (1) switch (_context2.prev = _context2.next) {
+                   case 0:
+                    _context2.next = 2;
+                    return cc.vv.gameData.awaitTime(.5);
+
+                   case 2:
+                    nextFreeGamePoint = _this2.points[endPointCfg.nextSlotsId - 1];
+                    cc.find("common/num", nextFreeGamePoint).getComponent(cc.Label).string = num;
+                    _iterator2 = _createForOfIteratorHelper(result.pickBoosterGame.choiceItems);
+                    _context2.prev = 5;
+                    _loop = regeneratorRuntime.mark(function _loop() {
+                      var choiceItem, boosetervx, _position, endPos;
+                      return regeneratorRuntime.wrap(function _loop$(_context) {
+                        while (1) switch (_context.prev = _context.next) {
+                         case 0:
+                          choiceItem = _step2.value;
+                          if (!(choiceItem.type !== cfg.MapBoostType.Coin)) {
+                            _context.next = 17;
+                            break;
+                          }
+                          boosetervx = cc.instantiate(cc.find("boostervx", _this2.node));
+                          boosetervx.active = true;
+                          boosetervx.parent = _this2.node;
+                          _position = nextFreeGamePoint.getChildByName("common").convertToWorldSpaceAR(cc.v2(0, 0));
+                          _position = _this2.node.convertToNodeSpaceAR(_position);
+                          boosetervx.position = _position;
+                          boosetervx.getComponent(sp.Skeleton).setAnimation(0, "animation1", false);
+                          boosetervx.getComponent(sp.Skeleton).addAnimation(0, "animation3", true);
+                          _context.next = 12;
+                          return cc.vv.gameData.awaitTime(1);
+
+                         case 12:
+                          endPos = cc.find("common/tips_" + choiceItem.type + "/yes", nextFreeGamePoint).convertToWorldSpaceAR(cc.v2(0, 0));
+                          endPos = _this2.node.convertToNodeSpaceAR(endPos);
+                          cc.tween(boosetervx).to(.3, {
+                            position: endPos
+                          }).call(function() {
+                            cc.find("common/tips_" + choiceItem.type + "/yes", nextFreeGamePoint).active = true;
+                            boosetervx.x = _position.x;
+                            boosetervx.getComponent(sp.Skeleton).setAnimation(0, "animation5", false);
+                            boosetervx.getComponent(sp.Skeleton).setCompleteListener(function() {
+                              boosetervx.removeFromParent();
+                            });
+                          }).start();
+                          _context.next = 17;
+                          return cc.vv.gameData.awaitTime(.2);
+
+                         case 17:
+                         case "end":
+                          return _context.stop();
+                        }
+                      }, _loop);
+                    });
+                    _iterator2.s();
+
+                   case 8:
+                    if ((_step2 = _iterator2.n()).done) {
+                      _context2.next = 12;
+                      break;
+                    }
+                    return _context2.delegateYield(_loop(), "t0", 10);
+
+                   case 10:
+                    _context2.next = 8;
+                    break;
+
+                   case 12:
+                    _context2.next = 17;
+                    break;
+
+                   case 14:
+                    _context2.prev = 14;
+                    _context2.t1 = _context2["catch"](5);
+                    _iterator2.e(_context2.t1);
+
+                   case 17:
+                    _context2.prev = 17;
+                    _iterator2.f();
+                    return _context2.finish(17);
+
+                   case 20:
+                    for (_i3 = endPointCfg.nextSlotsId - 1; _i3 < _this2.points.length; _i3++) {
+                      _point = _this2.points[_i3];
+                      _pointCfg = cfg.MapConfig[_i3];
+                      if (_pointCfg.type === cfg.MapType.SuperFreeGame) {
+                        _spine2 = _point.getChildByName("spine").getComponent(sp.Skeleton);
+                        _spine2.setAnimation(0, "animation" + _pointCfg.index + "_4", true);
+                      }
+                    }
+                    _context2.next = 23;
+                    return cc.vv.gameData.awaitTime(2);
+
+                   case 23:
+                    cc.vv.AudioManager.playEff("games/VampireCount/", "map_close", true);
+                    cc.tween(_this2.map).to(.5, {
+                      y: cc.winSize.height
+                    }).call(function() {
+                      _this2.map.getComponent(cc.ScrollView).scrollToPercentVertical(percentY);
+                    }).start();
+                    _context2.next = 27;
+                    return cc.vv.gameData.awaitTime(.5);
+
+                   case 27:
+                   case "end":
+                    return _context2.stop();
+                  }
+                }, _callee, null, [ [ 5, 14, 17, 20 ] ]);
+              })(), "t0", 53);
+
+             case 53:
+              _context3.next = 63;
+              break;
+
+             case 55:
+              if (!(endPointCfg.type === cfg.MapType.SuperFreeGame)) {
+                _context3.next = 63;
+                break;
+              }
+              for (_i4 = 0; _i4 < cfg.MapConfig.length; _i4++) {
+                _pointCfg2 = cfg.MapConfig[_i4];
+                if (_pointCfg2.type === cfg.MapType.SuperFreeGame) {
+                  _point2 = _this2.points[_i4];
+                  _spine3 = _point2.getChildByName("spine").getComponent(sp.Skeleton);
+                  if (_i4 >= mapInfo.currId - 1) {
+                    _spine3.setAnimation(0, "animation" + _pointCfg2.index + "_4", false);
+                    if (mapInfo.currId === _i4 + 1) {
+                      cc.vv.AudioManager.playEff("games/VampireCount/", "map_node", true);
+                      _spine3.addAnimation(0, "animation" + _pointCfg2.index + "_1", false);
+                      _spine3.addAnimation(0, "animation" + _pointCfg2.index + "_3", true);
+                    } else _spine3.addAnimation(0, "animation" + _pointCfg2.index + "_2", true);
+                  }
+                }
+              }
+              _context3.next = 59;
+              return cc.vv.gameData.awaitTime(5);
+
+             case 59:
+              cc.vv.AudioManager.playEff("games/VampireCount/", "map_close", true);
+              cc.tween(_this2.map).to(.5, {
+                y: cc.winSize.height
+              }).start();
+              _context3.next = 63;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 63:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      cutScenePick: function cutScenePick() {
+        cc.vv.AudioManager.playEff("games/VampireCount/", "transition3", true);
+        var pick_qieping = cc.find("pick_qieping", this.node.parent);
+        pick_qieping.active = true;
+        var spine = pick_qieping.getComponent(sp.Skeleton);
+        spine.setToSetupPose();
+        spine.setAnimation(0, "animation", false);
+        spine.setCompleteListener(function() {
+          spine.setCompleteListener(null);
+          pick_qieping.active = false;
+        });
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  VampireCount_PickGame: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "56fa9xaHTlG068ymE7Yx4be", "VampireCount_PickGame");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        bg: cc.Node,
+        top_bg: cc.Node,
+        pick_times: sp.Skeleton,
+        tips: sp.Skeleton,
+        role: sp.Skeleton,
+        items: [ cc.Node ],
+        black_bg: cc.Node,
+        _haveOpenReward: [],
+        _canSelect: true,
+        _index: 1,
+        _result: null,
+        _successCallback: null,
+        _unlockBooster: []
+      },
+      onLoad: function onLoad() {
+        cc.vv.NetManager.registerMsg(MsgId.SLOT_SUBGAME_DATA, this.onRcvSubGameData, this);
+      },
+      changeBg: function changeBg(index, times) {
+        this._index = index;
+        var atlas = cc.vv.gameData.GetAtlasByName("pick");
+        this.top_bg.getComponent(cc.Sprite).spriteFrame = atlas.getSpriteFrame("theme214_pick_top" + (4 === index ? 3 : index));
+        this.pick_times.setAnimation(0, "animation" + (times - 1), true);
+        this.tips.setAnimation(0, "animation" + index, true);
+        for (var i = 1; i < 9; i++) {
+          var item = cc.find("item_" + i, this.node);
+          var spine = cc.find("spine", item).getComponent(sp.Skeleton);
+          spine.node.active = true;
+          spine.setAnimation(0, "animation" + index + "_1", true);
+          for (var j = 1; j < 7; j++) {
+            var result = item.getChildByName("result_" + j);
+            result.active = false;
+            result.color = cc.Color.WHITE;
+            var _iterator = _createForOfIteratorHelper(result.children), _step;
+            try {
+              for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+                var child = _step.value;
+                child.color = cc.Color.WHITE;
+              }
+            } catch (err) {
+              _iterator.e(err);
+            } finally {
+              _iterator.f();
+            }
+          }
+        }
+      },
+      enterPickGame: function enterPickGame(index, times, pickBoosterGame) {
+        var _this = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              return _context.abrupt("return", new Promise(function(success) {
+                _this._successCallback = success;
+                _this.node.active = true;
+                _this.reset();
+                _this.changeBg(index, times);
+                for (var i = 0; i < pickBoosterGame.choiceIdxs.length; i++) {
+                  var _index = pickBoosterGame.choiceIdxs[i];
+                  var item = cc.find("item_" + _index, _this.node);
+                  _this.showReward(item, false, pickBoosterGame.choiceItems[i]);
+                  _this._haveOpenReward.push(_index);
+                }
+                Global.SlotsSoundMgr.stopBgm();
+                Global.SlotsSoundMgr.playBgm("pick_bgm");
+                var _loop = function _loop(_i) {
+                  var item = cc.find("item_" + _i, _this.node);
+                  item.off(cc.Node.EventType.TOUCH_END);
+                  item.on(cc.Node.EventType.TOUCH_END, function() {
+                    item.stopAllActions();
+                    _this.onClickItem(_i);
+                  });
+                };
+                for (var _i = 1; _i < 9; _i++) _loop(_i);
+                _this.setAutoPlay();
+              }));
+
+             case 1:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      onClickItem: function onClickItem(i) {
+        var item = cc.find("item_" + i, this.node);
+        item.off(cc.Node.EventType.TOUCH_END);
+        if (!this._canSelect) return;
+        if (this._haveOpenReward.indexOf(i) >= 0) return;
+        for (var _i2 = 1; _i2 < 9; _i2++) {
+          var _item = cc.find("item_" + _i2, this.node);
+          _item.stopAllActions();
+        }
+        this._canSelect = false;
+        var req = {
+          c: MsgId.SLOT_SUBGAME_DATA
+        };
+        req.uid = Global.playerData.uid;
+        req.gameid = cc.vv.gameData._gameId;
+        req.data = {};
+        req.data.rtype = 1;
+        req.data.choiceId = i;
+        cc.vv.NetManager.send(req);
+      },
+      setAutoPlay: function setAutoPlay() {
+        var list = [];
+        for (var i = 1; i < 9; i++) {
+          var item = cc.find("item_" + i, this.node);
+          0 != this._haveOpenReward.indexOf(i) && list.push(i);
+        }
+        var randomIdx = Global.random(0, list.length - 1);
+        var self = this;
+        cc.vv.gameData.checkAutoPlay(cc.find("item_" + list[randomIdx], this.node), function() {
+          self.onClickItem(list[randomIdx]);
+        });
+      },
+      reset: function reset() {
+        this._haveOpenReward = [];
+        this._result = null;
+        this._index = 1;
+        this._canSelect = true;
+        this._unlockBooster = [];
+      },
+      onRcvSubGameData: function onRcvSubGameData(msg) {
+        var _this2 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var cfg, data, item, resultIndex, i, _item2, _item3;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              if (!(200 !== msg.code)) {
+                _context2.next = 3;
+                break;
+              }
+              _this2._canSelect = true;
+              return _context2.abrupt("return");
+
+             case 3:
+              cfg = cc.vv.gameData.getGameCfg();
+              data = msg.data;
+              _this2._result = data;
+              _this2._haveOpenReward.push(data.choiceId);
+              data.choiceItem.type !== cfg.MapBoostType.Coin && _this2._unlockBooster.push(data.choiceItem.type);
+              if (!data.pickBoosterGame.isEnd) {
+                _context2.next = 23;
+                break;
+              }
+              item = _this2.items[data.choiceId - 1];
+              _this2.showReward(item, false, data.choiceItem);
+              _context2.next = 13;
+              return cc.vv.gameData.awaitTime(.8);
+
+             case 13:
+              cc.vv.AudioManager.playEff("games/VampireCount/", "pick_end", true);
+              resultIndex = 0;
+              for (i = 0; i < _this2.items.length; i++) if (-1 === _this2._haveOpenReward.indexOf(i + 1)) {
+                _item2 = _this2.items[i];
+                _this2.showReward(_item2, true, data.pickBoosterGame.totalItems[resultIndex]);
+                resultIndex++;
+              }
+              _context2.next = 18;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 18:
+              _context2.next = 20;
+              return _this2.popResult();
+
+             case 20:
+              _this2._successCallback();
+              _context2.next = 27;
+              break;
+
+             case 23:
+              _this2._canSelect = true;
+              _item3 = _this2.items[data.choiceId - 1];
+              _this2.showReward(_item3, false, data.choiceItem);
+              _this2.setAutoPlay();
+
+             case 27:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      getResult: function getResult() {
+        return this._result;
+      },
+      showReward: function showReward(item, isGray, reward) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          var cfg, spine, result_node, _iterator2, _step2, child;
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              cfg = cc.vv.gameData.getGameCfg();
+              spine = item.getChildByName("spine").getComponent(sp.Skeleton);
+              spine.node.active = true;
+              spine.setAnimation(0, "animation" + _this3._index + "_2");
+              spine.setCompleteListener(function() {
+                spine.setCompleteListener(null);
+                spine.node.active = false;
+              });
+              isGray || (reward.type === cfg.MapBoostType.Coin ? cc.vv.AudioManager.playEff("games/VampireCount/", "pick_coin", true) : cc.vv.AudioManager.playEff("games/VampireCount/", "pick_booster", true));
+              _context3.next = 8;
+              return cc.vv.gameData.awaitTime(.8);
+
+             case 8:
+              result_node = cc.find("result_" + reward.type, item);
+              if (result_node) {
+                result_node.active = true;
+                result_node.scale = 2.1;
+                result_node.color = isGray ? cc.Color.GRAY : cc.Color.WHITE;
+                _iterator2 = _createForOfIteratorHelper(result_node.children);
+                try {
+                  for (_iterator2.s(); !(_step2 = _iterator2.n()).done; ) {
+                    child = _step2.value;
+                    child.color = isGray ? cc.Color.GRAY : cc.Color.WHITE;
+                  }
+                } catch (err) {
+                  _iterator2.e(err);
+                } finally {
+                  _iterator2.f();
+                }
+                reward.type === cfg.MapBoostType.Coin && (cc.find("coin", result_node).getComponent(cc.Label).string = Global.formatNumShort(reward.coin, 0));
+                cc.tween(result_node).to(.5, {
+                  scale: 2
+                }, {
+                  easing: "backOut"
+                }).start();
+              }
+
+             case 10:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      },
+      popResult: function popResult() {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee4() {
+          return regeneratorRuntime.wrap(function _callee4$(_context4) {
+            while (1) switch (_context4.prev = _context4.next) {
+             case 0:
+              return _context4.abrupt("return", new Promise(function(success) {
+                var cfg = cc.vv.gameData.getGameCfg();
+                if (_this4._result) {
+                  var boosterNum = 0;
+                  var _iterator3 = _createForOfIteratorHelper(_this4._result.pickBoosterGame.choiceItems), _step3;
+                  try {
+                    for (_iterator3.s(); !(_step3 = _iterator3.n()).done; ) {
+                      var item = _step3.value;
+                      item.type !== cfg.MapBoostType.Coin && boosterNum++;
+                    }
+                  } catch (err) {
+                    _iterator3.e(err);
+                  } finally {
+                    _iterator3.f();
+                  }
+                  cc.vv.AudioManager.playEff("games/VampireCount/", "pick_end_show", true);
+                  var animationIndex = [ 2, 1, 3 ];
+                  _this4.black_bg.active = true;
+                  var node = cc.find("booster_result_" + boosterNum, _this4.node);
+                  node.active = true;
+                  var spine = node.getComponent(sp.Skeleton);
+                  spine.setAnimation(0, "animation" + animationIndex[boosterNum], false);
+                  spine.addAnimation(0, "animation" + animationIndex[boosterNum] + "_1", true);
+                  var coin = cc.find("coin", node);
+                  coin.scale = 0;
+                  Global.doRoallNumEff(coin, 0, _this4._result.pickBoosterGame.winCoin, 1.5, null, null, 0, true);
+                  cc.tween(coin).delay(.2).to(.5, {
+                    scale: 1
+                  }, {
+                    easing: "backOut"
+                  }).start();
+                  var btn_collect = cc.find("btn_collect", node);
+                  btn_collect.scale = 0;
+                  cc.tween(btn_collect).delay(.4).to(.5, {
+                    scale: 1
+                  }, {
+                    easing: "backOut"
+                  }).start();
+                  var booster_1 = cc.find("booster_1", node);
+                  if (booster_1) {
+                    booster_1.scale = 0;
+                    var atlas = cc.vv.gameData.GetAtlasByName("popup");
+                    booster_1.getComponent(cc.Sprite).spriteFrame = atlas.getSpriteFrame("theme214_pop_booster" + _this4._unlockBooster[0]);
+                    cc.tween(booster_1).delay(.3).to(.5, {
+                      scale: 1 === boosterNum ? 1 : .8
+                    }, {
+                      easing: "backOut"
+                    }).start();
+                  }
+                  var booster_2 = cc.find("booster_2", node);
+                  if (booster_2) {
+                    var _atlas = cc.vv.gameData.GetAtlasByName("popup");
+                    booster_1.getComponent(cc.Sprite).spriteFrame = _atlas.getSpriteFrame("theme214_pop_booster" + _this4._unlockBooster[1]);
+                    booster_2.scale = 0;
+                    cc.tween(booster_2).delay(.3).to(.5, {
+                      scale: 1 === boosterNum ? 1 : .8
+                    }, {
+                      easing: "backOut"
+                    }).start();
+                  }
+                  var index_1 = cc.find("index_1", node);
+                  if (index_1) {
+                    index_1.scale = 0;
+                    cc.tween(index_1).delay(.3).to(.5, {
+                      scale: .8
+                    }, {
+                      easing: "backOut"
+                    }).start();
+                  }
+                  var index_2 = cc.find("index_2", node);
+                  if (index_2) {
+                    index_2.scale = 0;
+                    cc.tween(index_2).delay(.3).to(.5, {
+                      scale: .8
+                    }, {
+                      easing: "backOut"
+                    }).start();
+                  }
+                  var func = function func() {
+                    cc.vv.AudioManager.playEff("games/VampireCount/", "click", true);
+                    cc.vv.gameData.GetSlotsScript()._bottomScript.SetWin(_this4._result.pickBoosterGame.winCoin);
+                    btn_collect.off("click");
+                    cc.tween(coin).to(.5, {
+                      scale: 0
+                    }, {
+                      easing: "backIn"
+                    }).start();
+                    cc.tween(btn_collect).to(.5, {
+                      scale: 0
+                    }, {
+                      easing: "backIn"
+                    }).start();
+                    booster_1 && cc.tween(booster_1).to(.5, {
+                      scale: 0
+                    }, {
+                      easing: "backOut"
+                    }).start();
+                    booster_2 && cc.tween(booster_2).to(.5, {
+                      scale: 0
+                    }, {
+                      easing: "backOut"
+                    }).start();
+                    index_1 && cc.tween(index_1).to(.5, {
+                      scale: 0
+                    }, {
+                      easing: "backOut"
+                    }).start();
+                    index_2 && cc.tween(index_2).to(.5, {
+                      scale: 0
+                    }, {
+                      easing: "backOut"
+                    }).start();
+                    spine.setAnimation(0, "animation" + animationIndex[boosterNum] + "_2", false);
+                    spine.setCompleteListener(function() {
+                      spine.setCompleteListener(null);
+                      _this4.black_bg.active = false;
+                      node.active = false;
+                      success();
+                    });
+                  };
+                  cc.vv.gameData.checkAutoPlay(btn_collect, func);
+                  btn_collect.on("click", function() {
+                    btn_collect.stopAllActions();
+                    func();
+                  });
+                }
+              }));
+
+             case 1:
+             case "end":
+              return _context4.stop();
+            }
+          }, _callee4);
+        }))();
+      },
+      onDestroy: function onDestroy() {
+        cc.vv.NetManager.unregisterMsg(MsgId.SLOT_SUBGAME_DATA, this.onRcvSubGameData, false, this);
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  VampireCount_PrizePool: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "b5a7eRDRwZDba/3+IefZjsl", "VampireCount_PrizePool");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_PrizePool_Base"),
+      properties: {
+        gray_font: cc.Font,
+        yellow_font: cc.Font
+      },
+      ShowNodeLockByNode: function ShowNodeLockByNode(node, bLock, unLockBet, poolType, bInit) {
+        if (node) {
+          var lockNode = cc.find("lock", node);
+          var lockTips = cc.find("image", lockNode);
+          var unlockNode = cc.find("unlock", node);
+          var unlockTips = cc.find("image", unlockNode);
+          var spine = cc.find("jp_suo", node).getComponent(sp.Skeleton);
+          var text = cc.find("lbl_num", node).getComponent(cc.Label);
+          if (bLock) {
+            text.font = this.gray_font;
+            if (bInit) {
+              lockNode.active = true;
+              unlockNode.active = false;
+              lockTips.scale = 0;
+            } else {
+              cc.vv.AudioManager.playEff("games/VampireCount/", "jp_lock", true);
+              spine.clearTracks();
+              spine.setToSetupPose();
+              spine.setAnimation(0, "animation" + (4 - poolType) + "_2", false);
+              lockNode.active = true;
+              unlockNode.active = false;
+              lockTips.scale = 0;
+              cc.tween(lockTips).to(.1, {
+                scale: .7
+              }, {
+                easing: "backOut"
+              }).delay(2).to(.1, {
+                scale: 0
+              }, {
+                easing: "backIn"
+              }).start();
+            }
+          } else {
+            text.font = this.yellow_font;
+            if (bInit) {
+              lockNode.active = false;
+              unlockNode.active = true;
+              unlockTips.scale = 0;
+            } else {
+              cc.vv.AudioManager.playEff("games/VampireCount/", "jp_unlock", true);
+              spine.clearTracks();
+              spine.setToSetupPose();
+              spine.setAnimation(0, "animation" + (4 - poolType) + "_1", false);
+              lockNode.active = false;
+              unlockNode.active = true;
+              unlockTips.scale = 0;
+              cc.tween(unlockTips).to(.1, {
+                scale: .7
+              }, {
+                easing: "backOut"
+              }).delay(2).to(.1, {
+                scale: 0
+              }, {
+                easing: "backIn"
+              }).start();
+            }
+          }
+        }
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_PrizePool_Base: void 0
+  } ],
+  VampireCount_Reel: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "8f3b5iVn5lP94rrLFPHEVSm", "VampireCount_Reel");
+    "use strict";
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    cc.Class({
+      extends: require("LMSlots_Reel_Base"),
+      properties: {},
+      StartMove: function StartMove() {
+        this._super();
+      },
+      OnReelSpinEnd: function OnReelSpinEnd() {
+        this._super();
+        this.checkPumpkinMan();
+      },
+      playReelStop: function playReelStop() {
+        this._super();
+        if (this._originResult) for (var i = 0; i < this._originResult.length; i++) {
+          var item = this._symbols[i];
+          if (item.GetShowId() === this._cfg.extraSpinId) {
+            cc.vv.AudioManager.playEff("games/VampireCount/", "extra_free", true);
+            item.playStopAnimation();
+          }
+        }
+      },
+      checkPumpkinMan: function checkPumpkinMan() {
+        var _this = this;
+        var cards = cc.vv.gameData.getGameInfo().resultCards;
+        var _iterator = _createForOfIteratorHelper(this._symbols), _step;
+        try {
+          for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+            var symbol = _step.value;
+            if (symbol.GetShowId() === this._cfg.pumpkinManId && symbol.GetSymbolIdx() > 0 && symbol.GetSymbolIdx() < cards.length / this._cfg.col - 1 && cc.vv.gameData.getGameInfo().pumpkinGame) {
+              cc.vv.AudioManager.playEff("games/VampireCount/", "bonus_landing", true);
+              symbol.playStopAnimation();
+              cc.vv.gameData.getGameInfo().pumpkinGame["double"] && function() {
+                var pumpkin = cc.find("pumpkin_" + (_this._reelIdx + 1), _this.node.parent.parent);
+                var info = cc.vv.gameData.GetSlotsScript().getPumpkinInfo()[_this._reelIdx];
+                if (pumpkin) {
+                  var double_spine = cc.find("double", pumpkin).getComponent(sp.Skeleton);
+                  double_spine.clearTracks();
+                  double_spine.setToSetupPose();
+                  double_spine.setAnimation(0, "animation3", false);
+                  double_spine.setCompleteListener(function(track) {
+                    var name = track.animation ? track.animation.name : "";
+                    if ("animation3" === name) {
+                      Global.doRoallNumEff(cc.find("coin", pumpkin), info.coin, 2 * info.coin, 1, null, null, 1, true, true);
+                      info.coin *= 2;
+                    }
+                  });
+                }
+              }();
+            }
+          }
+        } catch (err) {
+          _iterator.e(err);
+        } finally {
+          _iterator.f();
+        }
+      },
+      AppendSymbol: function AppendSymbol(symbolArray, dir) {
+        for (var i = 0; i < symbolArray.length; i++) {
+          var node = cc.instantiate(this._symbolTemplete);
+          node.parent = this._holderNode;
+          var scp = node.addComponent(this._cfg.scripts.Symbols);
+          scp.SetSymbolReelIdx(this._reelIdx);
+          if (1 === dir) {
+            var idx = -1 - i;
+            node.position = this.GetSymbolPosByRow(idx);
+            scp.Init(idx, this._topAniNode);
+            this._symbols.unshift(scp);
+          } else if (2 === dir) {
+            var _idx = this._symbols.length - 1;
+            scp.Init(_idx, this._topAniNode);
+            this._symbols.splice(_idx, 0, scp);
+          }
+          scp.ShowById(symbolArray[i].id, symbolArray[i].data);
+        }
+        2 === dir && this.ReLayOut();
+      },
+      deleteSymbol: function deleteSymbol(index) {
+        var symbol = this._symbols[index];
+        this._symbols.splice(index, 1);
+        symbol.setAnimationToTop(false);
+        symbol.ShowKuang(false);
+        symbol.node.destroy();
+      },
+      clearLastSymbol: function clearLastSymbol() {
+        var symbol = this._symbols[this._symbols.length - 1];
+        if (symbol) {
+          symbol.setAnimationToTop(false);
+          symbol.ShowKuang(false);
+        }
+      },
+      GetResizeHeightObjs: function GetResizeHeightObjs() {
+        var objs = [];
+        var mask = cc.find("mask", this.node);
+        mask && objs.push(mask);
+        var bg = cc.find("reels_bg/reel_bg" + (this._reelIdx + 1), this.node.parent.parent);
+        bg && objs.push(bg);
+        if (0 === this._reelIdx) {
+          var left_bg = cc.find("reels_frame/left_bg", this.node.parent.parent);
+          left_bg && objs.push(left_bg);
+          var right_bg = cc.find("reels_frame/right_bg", this.node.parent.parent);
+          right_bg && objs.push(right_bg);
+          for (var i = 1; i < 5; i++) {
+            var line = cc.find("reels_frame/line_" + i, this.node.parent.parent);
+            line && objs.push(line);
+          }
+          var black_bg = cc.find("black_bg", this.node.parent.parent);
+          black_bg && objs.push(black_bg);
+        }
+        return objs;
+      },
+      GetResizeMoveingObjs: function GetResizeMoveingObjs() {
+        var objs = [];
+        if (0 === this._reelIdx) {
+          var frameTop = cc.find("reels_frame/top_bg", this.node.parent.parent);
+          frameTop && objs.push(frameTop);
+        }
+        return objs;
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Reel_Base: void 0
+  } ],
+  VampireCount_Slots: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "3c1caSN+nNIvKr3GiCe2zh9", "VampireCount_Slots");
+    "use strict";
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    cc.Class({
+      extends: require("LMSlots_Slots_Base"),
+      properties: {
+        _wheel_script: null,
+        _curFreeLevel: 0,
+        _pumpkinInfo: null,
+        _leftSpiderCount: 0,
+        _rightSpiderCount: 0
+      },
+      Init: function Init() {
+        var _this = this;
+        this._super();
+        this.setPumpkinInfo(cc.vv.gameData.getDeskInfo().bonusInfos);
+        this._pumpkinInfo = cc.vv.gameData.getDeskInfo().bonusInfos[cc.vv.gameData.GetBetIdx() - 1];
+        var bonus_node = cc.find("collect_node/bonus_node", this.node);
+        var deskInfo = cc.vv.gameData.getDeskInfo();
+        bonus_node.on(cc.Node.EventType.TOUCH_END, function() {
+          deskInfo.needBet > deskInfo.currmult && "idle" === cc.vv.gameData.GetSlotState() && _this._bottomScript.SetBetIdx(deskInfo.needBet);
+        });
+        var script = cc.find("lock", bonus_node).getComponent(sp.Skeleton);
+        script.setCompleteListener(function(track) {
+          var name = track.animation ? track.animation.name : "";
+          if ("animation1" === name) {
+            script.clearTracks();
+            script.setToSetupPose();
+            script.setAnimation(0, "animation2", true);
+          }
+        });
+        if (deskInfo.needBet <= deskInfo.currmult) {
+          cc.vv.AudioManager.playEff("games/VampireCount/", "unlock", true);
+          script.clearTracks();
+          script.setToSetupPose();
+          script.setAnimation(0, "animation3", false);
+        } else {
+          cc.vv.AudioManager.playEff("games/VampireCount/", "lock", true);
+          script.clearTracks();
+          script.setToSetupPose();
+          script.setAnimation(0, "animation1", false);
+        }
+        this.updateCollectProgress(deskInfo.mapInfo, false);
+        var touch_map = cc.find("collect_node/spine_map/touch", this.node);
+        touch_map.off(cc.Node.EventType.TOUCH_END);
+        touch_map.on(cc.Node.EventType.TOUCH_END, function() {
+          if ("idle" !== cc.vv.gameData.GetSlotState()) return;
+          _this._bottomScript.ShowBtnsByState("moveing_1");
+          cc.find("mapControl", _this.node.parent).getComponent("VampireCount_Map").initMap(_this._gameInfo ? _this._gameInfo.mapInfo : deskInfo.mapInfo);
+          cc.find("mapControl", _this.node.parent).getComponent("VampireCount_Map").openMap(true);
+        });
+      },
+      getPumpkinInfo: function getPumpkinInfo() {
+        return this._pumpkinInfo;
+      },
+      StartMove: function StartMove() {
+        this._super();
+        Global.SlotsSoundMgr.playNormalBgm();
+      },
+      ReconnectShow: function ReconnectShow() {
+        var _this2 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          var deskInfo, rest, _iterator, _step, reel, _iterator2, _step2, _reel, _iterator3, _step3, _reel2, spine_finish, script, endPointCfg, winCoin;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              deskInfo = cc.vv.gameData.getDeskInfo();
+              rest = cc.vv.gameData.GetFreeTime();
+              if (!rest) {
+                _context.next = 10;
+                break;
+              }
+              if (2 === deskInfo.mapInfo.state) if (-1 !== deskInfo.mapInfo.nextUnlockBoosters.indexOf(_this2._cfg.MapBoostType.AddRow)) {
+                _iterator = _createForOfIteratorHelper(_this2._reels);
+                try {
+                  for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+                    reel = _step.value;
+                    reel.AddCount(4, .01);
+                  }
+                } catch (err) {
+                  _iterator.e(err);
+                } finally {
+                  _iterator.f();
+                }
+              } else {
+                _iterator2 = _createForOfIteratorHelper(_this2._reels);
+                try {
+                  for (_iterator2.s(); !(_step2 = _iterator2.n()).done; ) {
+                    _reel = _step2.value;
+                    _reel.AddCount(3, .01);
+                  }
+                } catch (err) {
+                  _iterator2.e(err);
+                } finally {
+                  _iterator2.f();
+                }
+              } else {
+                _iterator3 = _createForOfIteratorHelper(_this2._reels);
+                try {
+                  for (_iterator3.s(); !(_step3 = _iterator3.n()).done; ) {
+                    _reel2 = _step3.value;
+                    _reel2.AddCount(3, .01);
+                  }
+                } catch (err) {
+                  _iterator3.e(err);
+                } finally {
+                  _iterator3.f();
+                }
+              }
+              _context.next = 6;
+              return cc.vv.gameData.awaitTime(.2);
+
+             case 6:
+              _this2.ShowGameview(true);
+              _this2.CanDoNextRound();
+              _context.next = 30;
+              break;
+
+             case 10:
+              _this2.ShowGameview(false);
+              if (!(1 === deskInfo.mapInfo.state)) {
+                _context.next = 30;
+                break;
+              }
+              _context.next = 14;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 14:
+              cc.vv.AudioManager.playEff("games/VampireCount/", "meter_full", true);
+              spine_finish = cc.find("collect_node/progress/scale_node/finish", _this2.node).getComponent(sp.Skeleton);
+              spine_finish.node.active = true;
+              spine_finish.setToSetupPose();
+              spine_finish.setAnimation(0, "animation2", false);
+              spine_finish.setCompleteListener(function() {
+                spine_finish.node.active = false;
+              });
+              _context.next = 22;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 22:
+              script = cc.find("mapControl", _this2.node.parent).getComponent("VampireCount_Map");
+              _context.next = 25;
+              return script.showMap(deskInfo.mapInfo);
+
+             case 25:
+              endPointCfg = _this2._cfg.MapConfig[deskInfo.mapInfo.currId - 1];
+              if (!(endPointCfg.type === _this2._cfg.MapType.PickBooster)) {
+                _context.next = 30;
+                break;
+              }
+              winCoin = cc.find("pick_game", _this2.node.parent).getComponent("VampireCount_PickGame").getResult().pickBoosterGame.winCoin;
+              _context.next = 30;
+              return _this2.ShowBottomWin(winCoin, winCoin, true, function() {
+                _this2.CanDoNextRound();
+              });
+
+             case 30:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      onMsgSpine: function onMsgSpine(msg) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var cards, spine, stopTime, i, j, _i, _j;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              _this3._gameInfo = msg;
+              cards = msg.resultCards;
+              _this3.SetSlotsResult(msg.bonusResultCards.length > 0 ? msg.bonusResultCards[0].cards : cards);
+              _this3.SetReelStateInfo(cards);
+              if (_this3._gameInfo.randEvent && !(cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() !== cc.vv.gameData.GetFreeTime())) {
+                _this3.SetStopTime(3);
+                cc.vv.AudioManager.playEff("games/VampireCount/", "anticipation2", true);
+                spine = cc.find("jilidonghua", _this3.node).getComponent(sp.Skeleton);
+                spine.node.active = true;
+                spine.setToSetupPose();
+                spine.setAnimation(0, "animation1", false);
+                spine.setCompleteListener(function() {
+                  spine.setCompleteListener(null);
+                  spine.node.active = false;
+                });
+              }
+              if (!(2 === _this3._gameInfo.mapInfo.state && cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() - cc.vv.gameData.GetFreeTime() === 1)) {
+                _context2.next = 33;
+                break;
+              }
+              stopTime = 0;
+              -1 !== _this3._gameInfo.mapInfo.nextUnlockBoosters.indexOf(_this3._cfg.MapBoostType.ExtraWild) && (stopTime += 3);
+              -1 !== _this3._gameInfo.mapInfo.nextUnlockBoosters.indexOf(_this3._cfg.MapBoostType.ExtraBonus) && (stopTime += 3);
+              stopTime > 0 && _this3.SetStopTime(stopTime);
+              if (!(-1 !== _this3._gameInfo.mapInfo.nextUnlockBoosters.indexOf(_this3._cfg.MapBoostType.ExtraWild))) {
+                _context2.next = 21;
+                break;
+              }
+              cc.find("black_bg", _this3.node).active = true;
+              i = 0;
+
+             case 13:
+              if (!(i < 2)) {
+                _context2.next = 21;
+                break;
+              }
+              cc.vv.AudioManager.playEff("games/VampireCount/", "wild_add", true);
+              for (j = 0; j < cards.length; j++) Math.random() >= .3 && function() {
+                var spine = cc.instantiate(cc.find("wild_01", _this3.node));
+                spine.active = true;
+                spine.parent = cc.find("wild_animation", _this3.node);
+                spine.position = cc.v2(j % 5 * 112 - 224, 103 * Math.floor(j / 5) + 51.5);
+                spine.getComponent(sp.Skeleton).setAnimation(0, "animation", false);
+                spine.getComponent(sp.Skeleton).setCompleteListener(function() {
+                  spine.removeFromParent();
+                });
+              }();
+              _context2.next = 18;
+              return cc.vv.gameData.awaitTime(1.5);
+
+             case 18:
+              i++;
+              _context2.next = 13;
+              break;
+
+             case 21:
+              if (!(-1 !== _this3._gameInfo.mapInfo.nextUnlockBoosters.indexOf(_this3._cfg.MapBoostType.ExtraBonus))) {
+                _context2.next = 32;
+                break;
+              }
+              cc.find("black_bg", _this3.node).active = true;
+              _i = 0;
+
+             case 24:
+              if (!(_i < 3)) {
+                _context2.next = 32;
+                break;
+              }
+              cc.vv.AudioManager.playEff("games/VampireCount/", "coin_add", true);
+              for (_j = 0; _j < cards.length; _j++) Math.random() >= .6 && function() {
+                var spine = cc.instantiate(cc.find("jinbi_01", _this3.node));
+                spine.active = true;
+                spine.parent = cc.find("wild_animation", _this3.node);
+                spine.position = cc.v2(_j % 5 * 112 - 224, 103 * Math.floor(_j / 5) + 51.5);
+                spine.getComponent(sp.Skeleton).setAnimation(0, "animation", false);
+                spine.getComponent(sp.Skeleton).setCompleteListener(function() {
+                  spine.removeFromParent();
+                });
+              }();
+              _context2.next = 29;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 29:
+              _i++;
+              _context2.next = 24;
+              break;
+
+             case 32:
+              cc.find("black_bg", _this3.node).active = false;
+
+             case 33:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      SetSlotsResult: function SetSlotsResult(cards) {
+        var acRow = cards.length / this._col;
+        var reelResults = [];
+        for (var i = 0; i < cards.length; i++) {
+          var row = Math.floor(i / acRow);
+          var col = i % this._col;
+          if (this._cfg.symbol[cards[i]]) {
+            var res = {};
+            res.sid = cards[i];
+            if (cards[i] === this._cfg.bonusId) {
+              var index = this._gameInfo.bonusResultCards[0].bonusIdxs.indexOf(i + 1);
+              -1 !== index && (res.data = this._gameInfo.bonusResultCards[0].bonusItems[index]);
+            }
+            reelResults[col] || (reelResults[col] = []);
+            reelResults[col].unshift(res);
+          }
+        }
+        for (var _i2 = 0; _i2 < this._reels.length; _i2++) {
+          var item = this._reels[_i2];
+          var reelRes = reelResults[_i2];
+          item.SetResult(reelRes);
+        }
+      },
+      CheckEnterFreeGame: function CheckEnterFreeGame() {
+        return cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetFreeTime() === cc.vv.gameData.GetTotalFree();
+      },
+      CheckExtraFreeGame: function CheckExtraFreeGame() {
+        return !!(this._gameInfo.freeResult && this._gameInfo.freeResult.freeInfo && this._gameInfo.freeResult.freeInfo.freeCnt > 0);
+      },
+      CheckExitFreeGame: function CheckExitFreeGame() {
+        return cc.vv.gameData.GetTotalFree() > 0 && 0 === cc.vv.gameData.GetFreeTime();
+      },
+      ShowWinTrace: function ShowWinTrace() {
+        var allWinIdx = [];
+        for (var i = 0; i < this._gameInfo.zjLuXian.length; i++) {
+          var item = this._gameInfo.zjLuXian[i];
+          for (var idx = 0; idx < item.indexs.length; idx++) allWinIdx[item.indexs[idx]] = 1;
+        }
+        if (this._gameInfo.scatterZJLuXian && this._gameInfo.scatterZJLuXian.indexs) for (var _i3 = 0; _i3 < this._gameInfo.scatterZJLuXian.indexs.length; _i3++) {
+          var val = this._gameInfo.scatterZJLuXian.indexs[_i3];
+          allWinIdx[val] = 1;
+        }
+        for (var key in allWinIdx) {
+          var symbol = this.GetSymbolByIdx(Number(key));
+          if (symbol) {
+            symbol.playWinAnimation();
+            symbol.GetShowId() !== this._cfg.scatterId && symbol.ShowKuang();
+          }
+        }
+      },
+      OnSpinEnd: function OnSpinEnd() {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee4() {
+          var winCoin, totalWinCoin, updateUserCoin;
+          return regeneratorRuntime.wrap(function _callee4$(_context4) {
+            while (1) switch (_context4.prev = _context4.next) {
+             case 0:
+              _context4.next = 2;
+              return _this4.collectCoin();
+
+             case 2:
+              _context4.next = 4;
+              return _this4.collectSymbol();
+
+             case 4:
+              _this4.ShowWinTrace();
+              winCoin = cc.vv.gameData.GetGameWin();
+              totalWinCoin = cc.vv.gameData.GetGameWin();
+              cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() !== cc.vv.gameData.GetFreeTime() && (totalWinCoin = cc.vv.gameData.GetGameTotalFreeWin());
+              updateUserCoin = true;
+              if (_this4._gameInfo.pumpkinGame) {
+                winCoin -= _this4._gameInfo.pumpkinGame.winCoin;
+                totalWinCoin -= _this4._gameInfo.pumpkinGame.winCoin;
+                updateUserCoin = false;
+              }
+              _this4.ShowBottomWin(winCoin, totalWinCoin, updateUserCoin, _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+                var symbol, spine_finish, script, endPointCfg, _winCoin, addCount, _iterator4, _step4, reel;
+                return regeneratorRuntime.wrap(function _callee3$(_context3) {
+                  while (1) switch (_context3.prev = _context3.next) {
+                   case 0:
+                    if (!_this4._gameInfo.pumpkinGame) {
+                      _context3.next = 7;
+                      break;
+                    }
+                    _this4._bottomScript.ShowBtnsByState("moveing_1");
+                    _this4._gameInfo.pumpkinGame.idxs.sort(function(a, b) {
+                      return a - b;
+                    });
+                    symbol = _this4.GetSymbolByIdx(_this4._gameInfo.pumpkinGame.idxs[1]);
+                    if (!(symbol && symbol.GetShowId() === _this4._cfg.pumpkinManId)) {
+                      _context3.next = 7;
+                      break;
+                    }
+                    _context3.next = 7;
+                    return new Promise(function(success) {
+                      symbol.playTriggerAnimation(function(node) {
+                        _this4.triggerPumpkinGame(node, success);
+                      });
+                    });
+
+                   case 7:
+                    if (!(0 !== _this4._gameInfo.mapInfo.state && _this4._gameInfo.mapInfo.progressData.currCnt > 0)) {
+                      _context3.next = 56;
+                      break;
+                    }
+                    _this4._bottomScript.ShowBtnsByState("moveing_1");
+                    _context3.next = 11;
+                    return cc.vv.gameData.awaitTime(.5);
+
+                   case 11:
+                    cc.vv.AudioManager.playEff("games/VampireCount/", "meter_full", true);
+                    spine_finish = cc.find("collect_node/progress/scale_node/finish", _this4.node).getComponent(sp.Skeleton);
+                    spine_finish.node.active = true;
+                    spine_finish.setToSetupPose();
+                    spine_finish.setAnimation(0, "animation2", false);
+                    spine_finish.setCompleteListener(function() {
+                      spine_finish.node.active = false;
+                    });
+                    _context3.next = 19;
+                    return cc.vv.gameData.awaitTime(1);
+
+                   case 19:
+                    script = cc.find("mapControl", _this4.node.parent).getComponent("VampireCount_Map");
+                    _context3.next = 22;
+                    return script.showMap(_this4._gameInfo.mapInfo);
+
+                   case 22:
+                    endPointCfg = _this4._cfg.MapConfig[_this4._gameInfo.mapInfo.currId - 1];
+                    if (!(endPointCfg.type === _this4._cfg.MapType.PickBooster)) {
+                      _context3.next = 30;
+                      break;
+                    }
+                    _this4.clearCollectProgress();
+                    _winCoin = cc.find("pick_game", _this4.node.parent).getComponent("VampireCount_PickGame").getResult().pickBoosterGame.winCoin;
+                    _context3.next = 28;
+                    return _this4.ShowBottomWin(_winCoin, _winCoin, true, function() {
+                      _this4.CanDoNextRound();
+                    });
+
+                   case 28:
+                    _context3.next = 54;
+                    break;
+
+                   case 30:
+                    if (!(endPointCfg.type === _this4._cfg.MapType.SuperFreeGame)) {
+                      _context3.next = 54;
+                      break;
+                    }
+                    _context3.next = 33;
+                    return _this4.popMapFreeDialog(_this4._gameInfo.mapInfo);
+
+                   case 33:
+                    _this4.cutSceneBat();
+                    _context3.next = 36;
+                    return cc.vv.gameData.awaitTime(2);
+
+                   case 36:
+                    _this4.ShowGameview(true);
+                    cc.find("LMSlots_PrizePool_1", _this4.node.parent).active = false;
+                    _this4.clearCollectProgress();
+                    addCount = -1 === _this4._gameInfo.mapInfo.nextUnlockBoosters.indexOf(_this4._cfg.MapBoostType.AddRow) ? 3 : 4;
+                    _iterator4 = _createForOfIteratorHelper(_this4._reels);
+                    try {
+                      for (_iterator4.s(); !(_step4 = _iterator4.n()).done; ) {
+                        reel = _step4.value;
+                        reel.AddCount(addCount, .01);
+                      }
+                    } catch (err) {
+                      _iterator4.e(err);
+                    } finally {
+                      _iterator4.f();
+                    }
+                    cc.find("reels_frame/left_20", _this4.node).active = false;
+                    cc.find("reels_frame/right_20", _this4.node).active = false;
+                    cc.find("reels_frame/left_56", _this4.node).active = 3 === addCount;
+                    cc.find("reels_frame/right_56", _this4.node).active = 3 === addCount;
+                    cc.find("reels_frame/left_68", _this4.node).active = 4 === addCount;
+                    cc.find("reels_frame/right_68", _this4.node).active = 4 === addCount;
+                    cc.find("xixuegui", _this4.node.parent).active = false;
+                    _context3.next = 51;
+                    return cc.vv.gameData.awaitTime(2);
+
+                   case 51:
+                    Global.SlotsSoundMgr.stopBgm();
+                    Global.SlotsSoundMgr.playBgm("free_bgm");
+                    _this4.CanDoNextRound();
+
+                   case 54:
+                    _context3.next = 57;
+                    break;
+
+                   case 56:
+                    _this4.CheckEnterFreeGame() ? _this4.triggerFreeGame() : _this4.CheckExtraFreeGame() ? _this4.triggerExtraFreeGame() : _this4.CheckExitFreeGame() ? _this4.triggerExitFreeGame() : _this4.CanDoNextRound();
+
+                   case 57:
+                   case "end":
+                    return _context3.stop();
+                  }
+                }, _callee3);
+              })));
+
+             case 11:
+             case "end":
+              return _context4.stop();
+            }
+          }, _callee4);
+        }))();
+      },
+      ShowGameview: function ShowGameview(bFree) {
+        this._super(bFree);
+        cc.find("collect_node", this.node).active = !bFree;
+        cc.find("reels_frame/left_20", this.node).active = !bFree;
+        cc.find("reels_frame/right_20", this.node).active = !bFree;
+        cc.find("reels_frame/left_56", this.node).active = bFree;
+        cc.find("reels_frame/right_56", this.node).active = bFree;
+      },
+      collectSymbol: function collectSymbol() {
+        var _this5 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee5() {
+          var sjt_m1, haveCollect, i, card, symbol, particle, startPos, endPos, spine_sjt_b;
+          return regeneratorRuntime.wrap(function _callee5$(_context5) {
+            while (1) switch (_context5.prev = _context5.next) {
+             case 0:
+              if (!(cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() !== cc.vv.gameData.GetFreeTime())) {
+                _context5.next = 2;
+                break;
+              }
+              return _context5.abrupt("return");
+
+             case 2:
+              if (!(0 === _this5._gameInfo.mapInfo.progressData.currCnt)) {
+                _context5.next = 4;
+                break;
+              }
+              return _context5.abrupt("return");
+
+             case 4:
+              sjt_m1 = cc.find("collect_node/sjt_m1", _this5.node);
+              haveCollect = false;
+              for (i = 0; i < _this5._gameInfo.resultCards.length; i++) {
+                card = _this5._gameInfo.resultCards[i];
+                if (card === _this5._cfg.collectSymbolId) {
+                  symbol = _this5.GetSymbolByIdx(i + 1);
+                  if (symbol) {
+                    haveCollect = true;
+                    particle = cc.instantiate(cc.find("particle_fly", _this5.node.parent));
+                    particle.active = true;
+                    particle.parent = _this5.node.parent;
+                    startPos = symbol.node.convertToWorldSpaceAR(cc.v2(0, 0));
+                    startPos = _this5.node.parent.convertToNodeSpaceAR(startPos);
+                    particle.position = startPos;
+                    endPos = sjt_m1.convertToWorldSpaceAR(cc.v2(0, 0));
+                    endPos = _this5.node.parent.convertToNodeSpaceAR(endPos);
+                    cc.tween(particle).to(.5, {
+                      position: endPos
+                    }).removeSelf().start();
+                  }
+                }
+              }
+              if (!haveCollect) {
+                _context5.next = 17;
+                break;
+              }
+              cc.vv.AudioManager.playEff("games/VampireCount/", "symbol_fly", true);
+              cc.tween(sjt_m1).delay(.5).call(function() {
+                var spine = sjt_m1.getComponent(sp.Skeleton);
+                spine.clearTracks();
+                spine.setToSetupPose();
+                spine.setAnimation(0, "animation2", false);
+                spine.setCompleteListener(function(track) {
+                  var name = track.animation ? track.animation.name : "";
+                  if ("animation2" === name) {
+                    spine.clearTracks();
+                    spine.setToSetupPose();
+                    spine.setAnimation(0, "animation1", true);
+                  }
+                });
+              }).start();
+              spine_sjt_b = cc.find("collect_node/sjt_b", _this5.node).getComponent(sp.Skeleton);
+              spine_sjt_b.node.active = true;
+              cc.tween(spine_sjt_b.node).delay(.5).call(function() {
+                spine_sjt_b.setToSetupPose();
+                spine_sjt_b.setAnimation(0, "animation", false);
+                spine_sjt_b.setCompleteListener(function() {
+                  spine_sjt_b.node.active = false;
+                });
+              }).start();
+              _context5.next = 15;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 15:
+              _context5.next = 17;
+              return _this5.updateCollectProgress(_this5._gameInfo.mapInfo, true);
+
+             case 17:
+             case "end":
+              return _context5.stop();
+            }
+          }, _callee5);
+        }))();
+      },
+      triggerPumpkinGame: function triggerPumpkinGame(node, success) {
+        var _this6 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee8() {
+          var wheel, result_node, reelIndex, pumpkinIndex, pumpkin, info, spine, coin, winCoin;
+          return regeneratorRuntime.wrap(function _callee8$(_context8) {
+            while (1) switch (_context8.prev = _context8.next) {
+             case 0:
+              wheel = cc.find("wheel", node);
+              wheel.active = true;
+              wheel.angle = 0;
+              _context8.next = 5;
+              return _this6._rotateWheel(_this6._gameInfo.pumpkinGame.wheel.id - 1, wheel);
+
+             case 5:
+              cc.find("zhongjiang", wheel).active = true;
+              _context8.next = 8;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 8:
+              cc.find("zhongjiang", wheel).active = false;
+              result_node = cc.instantiate(cc.find("rotate_node/index_" + _this6._gameInfo.pumpkinGame.wheel.id, wheel));
+              result_node.parent = cc.find("result_parent", wheel);
+              result_node.position = cc.v2(0, 0);
+              result_node.angle = 0;
+              reelIndex = (_this6._gameInfo.pumpkinGame.idxs[1] - 1) % _this6._cfg.col;
+              pumpkinIndex = reelIndex + 1;
+              pumpkin = cc.find("pumpkin_" + pumpkinIndex, _this6.node);
+              cc.tween(result_node).to(.2, {
+                scale: 1
+              }).call(function() {
+                var particle = cc.find("zhuanpanlizi", wheel);
+                particle.active = true;
+                var endPos = cc.find("pumpkin_" + pumpkinIndex, _this6.node).convertToWorldSpaceAR(cc.v2(0, 0));
+                endPos = wheel.convertToNodeSpaceAR(endPos);
+                cc.vv.AudioManager.playEff("games/VampireCount/", "pot_multi", true);
+                cc.tween(particle).to(.5, {
+                  position: endPos
+                }).call(function() {
+                  particle.active = false;
+                  particle.y = 65;
+                  cc.vv.AudioManager.playEff("games/VampireCount/", "pot_recive", true);
+                  var spine = pumpkin.getComponent(sp.Skeleton);
+                  spine.clearTracks();
+                  spine.setToSetupPose();
+                  spine.setAnimation(0, "animation2", false);
+                }).start();
+              }).start();
+              _context8.next = 19;
+              return cc.vv.gameData.awaitTime(1.5);
+
+             case 19:
+              info = _this6._pumpkinInfo[reelIndex];
+              Global.doRoallNumEff(cc.find("coin", pumpkin), info.coin, _this6._gameInfo.pumpkinGame.winCoin, 1, null, null, 1, true, true);
+              _context8.next = 23;
+              return cc.vv.gameData.awaitTime(1.5);
+
+             case 23:
+              cc.tween(result_node).to(.3, {
+                scale: .8
+              }).removeSelf().start();
+              _context8.next = 26;
+              return cc.vv.gameData.awaitTime(.3);
+
+             case 26:
+              wheel.getChildByName("rotate_node").angle += 2160;
+              cc.tween(wheel).to(.3, {
+                scale: .7
+              }).start();
+              cc.tween(wheel.getChildByName("rotate_node")).to(.3, {
+                angle: 0
+              }).start();
+              _context8.next = 31;
+              return cc.vv.gameData.awaitTime(.3);
+
+             case 31:
+              wheel.active = false;
+              cc.vv.AudioManager.playEff("games/VampireCount/", "pot_congratulate", true);
+              spine = pumpkin.getComponent(sp.Skeleton);
+              spine.clearTracks();
+              spine.setToSetupPose();
+              spine.setAnimation(0, "animation3", false);
+              coin = cc.find("coin", pumpkin);
+              cc.tween(coin).to(.2, {
+                scale: 0
+              }).start();
+              winCoin = _this6._gameInfo.pumpkinGame.jackpotWheel ? _this6._gameInfo.pumpkinGame.winCoin - _this6._gameInfo.pumpkinGame.jackpot.value : _this6._gameInfo.pumpkinGame.winCoin;
+              _this6.ShowBottomWin(winCoin, winCoin, true, _asyncToGenerator(regeneratorRuntime.mark(function _callee7() {
+                var jackpot_wheel_spine, free_dialog, zhuanpanzhongjiangtanchuang, _spine;
+                return regeneratorRuntime.wrap(function _callee7$(_context7) {
+                  while (1) switch (_context7.prev = _context7.next) {
+                   case 0:
+                    if (_this6._gameInfo.pumpkinGame.jackpotWheel) {
+                      jackpot_wheel_spine = cc.find("wheel", pumpkin).getComponent(sp.Skeleton);
+                      jackpot_wheel_spine.setAnimation(0, "animation3", false);
+                      free_dialog = cc.find("free_dialog", _this6.node.parent);
+                      free_dialog.active = true;
+                      zhuanpanzhongjiangtanchuang = cc.find("zhuanpanzhongjiangtanchuang", free_dialog);
+                      zhuanpanzhongjiangtanchuang.active = true;
+                      _spine = zhuanpanzhongjiangtanchuang.getComponent(sp.Skeleton);
+                      _spine.setAnimation(0, "animation1", false);
+                      _spine.setCompleteListener(_asyncToGenerator(regeneratorRuntime.mark(function _callee6() {
+                        return regeneratorRuntime.wrap(function _callee6$(_context6) {
+                          while (1) switch (_context6.prev = _context6.next) {
+                           case 0:
+                            _spine.setCompleteListener(null);
+                            zhuanpanzhongjiangtanchuang.active = false;
+                            free_dialog.active = false;
+                            _this6.cutSceneLight();
+                            _context6.next = 6;
+                            return cc.vv.gameData.awaitTime(2);
+
+                           case 6:
+                            cc.find("wheel/LMSlots_PrizePool_1", _this6.node.parent).getComponent("LMSlots_PrizePool_Base").PausePool([ {
+                              prizeType: 0,
+                              pauseNum: _this6._gameInfo.pumpkinGame.jackpotValues[0]
+                            }, {
+                              prizeType: 1,
+                              pauseNum: _this6._gameInfo.pumpkinGame.jackpotValues[1]
+                            }, {
+                              prizeType: 2,
+                              pauseNum: _this6._gameInfo.pumpkinGame.jackpotValues[2]
+                            }, {
+                              prizeType: 3,
+                              pauseNum: _this6._gameInfo.pumpkinGame.jackpotValues[3]
+                            } ]);
+                            _context6.next = 9;
+                            return new Promise(function(success) {
+                              cc.find("wheel", _this6.node.parent).getComponent("VampireCount_Wheel").enterWheelGame(success, _this6._gameInfo.pumpkinGame.jackpot);
+                            });
+
+                           case 9:
+                            _this6.cutSceneLight();
+                            _context6.next = 12;
+                            return cc.vv.gameData.awaitTime(2.5);
+
+                           case 12:
+                            cc.find("wheel", _this6.node.parent).active = false;
+                            Global.SlotsSoundMgr.stopBgm();
+                            Global.SlotsSoundMgr.playNormalBgm();
+                            _context6.next = 17;
+                            return cc.vv.gameData.awaitTime(1);
+
+                           case 17:
+                            _this6.ShowBottomWin(_this6._gameInfo.pumpkinGame.jackpot.value, _this6._gameInfo.pumpkinGame.winCoin, true, function() {
+                              success();
+                            });
+
+                           case 18:
+                           case "end":
+                            return _context6.stop();
+                          }
+                        }, _callee6);
+                      })));
+                    } else success();
+
+                   case 1:
+                   case "end":
+                    return _context7.stop();
+                  }
+                }, _callee7);
+              })));
+              _context8.next = 43;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 43:
+              _this6._pumpkinInfo = _this6._gameInfo.bonusInfo;
+              coin.getComponent(cc.Label).string = Global.formatNumShort(_this6._pumpkinInfo[reelIndex].coin);
+              coin.scale = 1;
+
+             case 46:
+             case "end":
+              return _context8.stop();
+            }
+          }, _callee8);
+        }))();
+      },
+      cutSceneLight: function cutSceneLight() {
+        var wuyun = cc.find("wuyun", this.node.parent);
+        wuyun.active = true;
+        var spine = wuyun.getComponent(sp.Skeleton);
+        spine.setToSetupPose();
+        spine.setAnimation(0, "animation", false);
+        spine.setCompleteListener(function() {
+          spine.setCompleteListener(null);
+          wuyun.active = false;
+        });
+        cc.vv.AudioManager.playEff("games/VampireCount/", "transition1", true);
+      },
+      cutSceneBat: function cutSceneBat() {
+        var bianfu = cc.find("bianfu", this.node.parent);
+        bianfu.active = true;
+        var spine = bianfu.getComponent(sp.Skeleton);
+        spine.setToSetupPose();
+        spine.setAnimation(0, "animation", false);
+        spine.setCompleteListener(function() {
+          spine.setCompleteListener(null);
+          bianfu.active = false;
+        });
+        cc.vv.AudioManager.playEff("games/VampireCount/", "transition2", true);
+      },
+      triggerFreeGame: function triggerFreeGame() {
+        var _this7 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee9() {
+          var i, card, symbol, _iterator5, _step5, reel;
+          return regeneratorRuntime.wrap(function _callee9$(_context9) {
+            while (1) switch (_context9.prev = _context9.next) {
+             case 0:
+              _this7._bottomScript.ShowBtnsByState("moveing_1");
+              for (i = 0; i < _this7._gameInfo.resultCards.length; i++) {
+                card = _this7._gameInfo.resultCards[i];
+                if (card === _this7._cfg.scatterId) {
+                  symbol = _this7.GetSymbolByIdx(i + 1);
+                  symbol.playTriggerAnimation();
+                }
+              }
+              cc.vv.AudioManager.playEff("games/VampireCount/", "bell", true);
+              _context9.next = 5;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 5:
+              _context9.next = 7;
+              return _this7.popFreeDialog(false);
+
+             case 7:
+              _this7.cutSceneBat();
+              _context9.next = 10;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 10:
+              _this7.Backup();
+              _this7.ShowGameview(true);
+              _iterator5 = _createForOfIteratorHelper(_this7._reels);
+              try {
+                for (_iterator5.s(); !(_step5 = _iterator5.n()).done; ) {
+                  reel = _step5.value;
+                  reel.AddCount(3, .01);
+                }
+              } catch (err) {
+                _iterator5.e(err);
+              } finally {
+                _iterator5.f();
+              }
+              cc.find("reels_frame/left_20", _this7.node).active = false;
+              cc.find("reels_frame/right_20", _this7.node).active = false;
+              cc.find("reels_frame/left_56", _this7.node).active = true;
+              cc.find("reels_frame/right_56", _this7.node).active = true;
+              cc.find("xixuegui", _this7.node.parent).active = false;
+              _context9.next = 21;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 21:
+              Global.SlotsSoundMgr.stopBgm();
+              Global.SlotsSoundMgr.playBgm("free_bgm");
+              _this7.CanDoNextRound();
+
+             case 24:
+             case "end":
+              return _context9.stop();
+            }
+          }, _callee9);
+        }))();
+      },
+      triggerExtraFreeGame: function triggerExtraFreeGame() {
+        var _this8 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee10() {
+          var i, card, symbol;
+          return regeneratorRuntime.wrap(function _callee10$(_context10) {
+            while (1) switch (_context10.prev = _context10.next) {
+             case 0:
+              _this8._bottomScript.ShowBtnsByState("moveing_1");
+              for (i = 0; i < _this8._gameInfo.resultCards.length; i++) {
+                card = _this8._gameInfo.resultCards[i];
+                if (card === _this8._cfg.extraSpinId) {
+                  symbol = _this8.GetSymbolByIdx(i + 1);
+                  symbol.playTriggerAnimation();
+                }
+              }
+              cc.vv.AudioManager.playEff("games/VampireCount/", "bell", true);
+              _context10.next = 5;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 5:
+              _context10.next = 7;
+              return _this8.popFreeDialog(true);
+
+             case 7:
+              _this8.CanDoNextRound();
+
+             case 8:
+             case "end":
+              return _context10.stop();
+            }
+          }, _callee10);
+        }))();
+      },
+      triggerExitFreeGame: function triggerExitFreeGame() {
+        var _this9 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee11() {
+          var _iterator6, _step6, reel, _iterator7, _step7, _reel3;
+          return regeneratorRuntime.wrap(function _callee11$(_context11) {
+            while (1) switch (_context11.prev = _context11.next) {
+             case 0:
+              _this9._bottomScript.ShowBtnsByState("moveing_1");
+              _context11.next = 3;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 3:
+              _context11.next = 5;
+              return _this9.popFreeResultDialog(2 === _this9._gameInfo.mapInfo.state);
+
+             case 5:
+              _this9.cutSceneBat();
+              _context11.next = 8;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 8:
+              _iterator6 = _createForOfIteratorHelper(_this9._reels);
+              try {
+                for (_iterator6.s(); !(_step6 = _iterator6.n()).done; ) {
+                  reel = _step6.value;
+                  reel.StartRecycleSymbol(.01);
+                }
+              } catch (err) {
+                _iterator6.e(err);
+              } finally {
+                _iterator6.f();
+              }
+              cc.find("reels_frame/left_20", _this9.node).active = true;
+              cc.find("reels_frame/right_20", _this9.node).active = true;
+              cc.find("reels_frame/left_56", _this9.node).active = false;
+              cc.find("reels_frame/right_56", _this9.node).active = false;
+              cc.find("reels_frame/left_68", _this9.node).active = false;
+              cc.find("reels_frame/right_68", _this9.node).active = false;
+              cc.find("xixuegui", _this9.node.parent).active = true;
+              _context11.next = 19;
+              return cc.vv.gameData.awaitTime(.02);
+
+             case 19:
+              _iterator7 = _createForOfIteratorHelper(_this9._reels);
+              try {
+                for (_iterator7.s(); !(_step7 = _iterator7.n()).done; ) {
+                  _reel3 = _step7.value;
+                  _reel3.clearLastSymbol();
+                }
+              } catch (err) {
+                _iterator7.e(err);
+              } finally {
+                _iterator7.f();
+              }
+              2 !== _this9._gameInfo.mapInfo.state && _this9.Resume();
+              _this9.ShowGameview(false);
+              cc.find("LMSlots_PrizePool_1", _this9.node.parent).active = true;
+              _this9.ShowBottomWin(cc.vv.gameData.GetGameTotalFreeWin(), cc.vv.gameData.GetGameTotalFreeWin(), true, function() {
+                Global.SlotsSoundMgr.stopBgm();
+                Global.SlotsSoundMgr.playNormalBgm();
+                _this9.CanDoNextRound();
+              });
+
+             case 25:
+             case "end":
+              return _context11.stop();
+            }
+          }, _callee11);
+        }))();
+      },
+      popFreeDialog: function popFreeDialog(isExtra) {
+        var _this10 = this;
+        return new Promise(function() {
+          var _ref4 = _asyncToGenerator(regeneratorRuntime.mark(function _callee14(success) {
+            var free_dialog, free_bg, dialog, animationName, times, freetanchuang_spine, add, btn_start, func;
+            return regeneratorRuntime.wrap(function _callee14$(_context14) {
+              while (1) switch (_context14.prev = _context14.next) {
+               case 0:
+                free_dialog = cc.find("free_dialog", _this10.node.parent);
+                free_dialog.active = true;
+                free_bg = cc.find("free_dialog_bg", free_dialog);
+                free_bg.opacity = 0;
+                free_bg.runAction(cc.fadeTo(.2, 200));
+                dialog = cc.find("common_enter_node", free_dialog);
+                animationName = "animation2";
+                isExtra && (dialog = cc.find("extra_node", free_dialog));
+                dialog.active = true;
+                times = cc.find("times", dialog);
+                times.scale = 0;
+                freetanchuang_spine = cc.find("freetanchuang", dialog).getComponent(sp.Skeleton);
+                freetanchuang_spine.node.active = true;
+                if (!isExtra) {
+                  _context14.next = 31;
+                  break;
+                }
+                cc.vv.AudioManager.playEff("games/VampireCount/", "fg_retrigger", true);
+                freetanchuang_spine.setAnimation(0, "animation", false);
+                freetanchuang_spine.setCompleteListener(function() {
+                  dialog.active = false;
+                  free_dialog.active = false;
+                  freetanchuang_spine.node.active = false;
+                  success();
+                });
+                add = cc.find("add", dialog);
+                add.scale = 0;
+                _context14.next = 21;
+                return cc.vv.gameData.awaitTime(.3);
+
+               case 21:
+                times.getComponent(cc.Label).string = _this10._gameInfo.freeResult.freeInfo.freeCnt;
+                cc.tween(times).to(.2, {
+                  scale: 1
+                }).start();
+                cc.tween(add).to(.2, {
+                  scale: 1
+                }).start();
+                _context14.next = 26;
+                return cc.vv.gameData.awaitTime(1.5);
+
+               case 26:
+                cc.tween(free_bg).to(.2, {
+                  opacity: 0
+                }).start();
+                cc.tween(times).to(.2, {
+                  scale: 0
+                }).start();
+                cc.tween(add).to(.2, {
+                  scale: 0
+                }).start();
+                _context14.next = 52;
+                break;
+
+               case 31:
+                cc.vv.AudioManager.playEff("games/VampireCount/", "free_dialog_start_show", true);
+                freetanchuang_spine.clearTracks();
+                freetanchuang_spine.setToSetupPose();
+                freetanchuang_spine.setAnimation(0, animationName, false);
+                freetanchuang_spine.setCompleteListener(function(track) {
+                  var name = track.animation ? track.animation.name : "";
+                  if (name === animationName) {
+                    freetanchuang_spine.clearTracks();
+                    freetanchuang_spine.setToSetupPose();
+                    freetanchuang_spine.setAnimation(0, "animation2_1", true);
+                  } else if ("animation2_2" === name) {
+                    dialog.active = false;
+                    free_dialog.active = false;
+                    freetanchuang_spine.node.active = false;
+                    success();
+                  }
+                });
+                btn_start = cc.find("btn_start", dialog);
+                btn_start.scale = 0;
+                _context14.next = 40;
+                return cc.vv.gameData.awaitTime(.3);
+
+               case 40:
+                times.getComponent(cc.Label).string = cc.vv.gameData.GetTotalFree();
+                cc.tween(times).to(.2, {
+                  scale: 1
+                }).start();
+                _context14.next = 44;
+                return cc.vv.gameData.awaitTime(.2);
+
+               case 44:
+                cc.tween(btn_start).to(.2, {
+                  scale: 1
+                }).start();
+                btn_start.off("click");
+                _context14.next = 48;
+                return cc.vv.gameData.awaitTime(.2);
+
+               case 48:
+                func = function() {
+                  var _ref5 = _asyncToGenerator(regeneratorRuntime.mark(function _callee12() {
+                    return regeneratorRuntime.wrap(function _callee12$(_context12) {
+                      while (1) switch (_context12.prev = _context12.next) {
+                       case 0:
+                        btn_start.off("click");
+                        cc.vv.AudioManager.playEff("games/VampireCount/", "click", true);
+                        cc.tween(btn_start).to(.2, {
+                          scale: 0
+                        }).start();
+                        cc.tween(free_bg).to(.2, {
+                          opacity: 0
+                        }).start();
+                        freetanchuang_spine.clearTracks();
+                        freetanchuang_spine.setToSetupPose();
+                        freetanchuang_spine.setAnimation(0, "animation2_2", false);
+                        _context12.next = 9;
+                        return cc.vv.gameData.awaitTime(.3);
+
+                       case 9:
+                        cc.tween(times).to(.2, {
+                          scale: 0
+                        }).start();
+
+                       case 10:
+                       case "end":
+                        return _context12.stop();
+                      }
+                    }, _callee12);
+                  }));
+                  return function func() {
+                    return _ref5.apply(this, arguments);
+                  };
+                }();
+                cc.vv.gameData.checkAutoPlay(btn_start, func);
+                btn_start.on("click", _asyncToGenerator(regeneratorRuntime.mark(function _callee13() {
+                  return regeneratorRuntime.wrap(function _callee13$(_context13) {
+                    while (1) switch (_context13.prev = _context13.next) {
+                     case 0:
+                      btn_start.stopAllActions();
+                      _context13.next = 3;
+                      return func();
+
+                     case 3:
+                     case "end":
+                      return _context13.stop();
+                    }
+                  }, _callee13);
+                })));
+                if (!cc.vv.gameData.isNeedAutoPlay()) {
+                  btn_start.stopAllActions();
+                  cc.tween(btn_start).delay(cc.vv.gameData.getManualAutoPlayTime()).call(function() {
+                    func();
+                  }).start();
+                }
+
+               case 52:
+               case "end":
+                return _context14.stop();
+              }
+            }, _callee14);
+          }));
+          return function(_x) {
+            return _ref4.apply(this, arguments);
+          };
+        }());
+      },
+      popFreeResultDialog: function popFreeResultDialog(isMap) {
+        var _this11 = this;
+        return new Promise(function() {
+          var _ref7 = _asyncToGenerator(regeneratorRuntime.mark(function _callee17(success) {
+            var free_dialog, free_bg, dialog, freetanchuang_spine, coin, btn_collect, func;
+            return regeneratorRuntime.wrap(function _callee17$(_context17) {
+              while (1) switch (_context17.prev = _context17.next) {
+               case 0:
+                free_dialog = cc.find("free_dialog", _this11.node.parent);
+                free_dialog.active = true;
+                free_bg = cc.find("free_dialog_bg", free_dialog);
+                free_bg.opacity = 0;
+                free_bg.runAction(cc.fadeTo(.2, 200));
+                dialog = isMap ? cc.find("map_free_result_node", free_dialog) : cc.find("result_node", free_dialog);
+                dialog.active = true;
+                freetanchuang_spine = cc.find("freetanchuang", dialog).getComponent(sp.Skeleton);
+                freetanchuang_spine.node.active = true;
+                coin = cc.find("coin", dialog);
+                coin.scale = 0;
+                coin.getComponent(cc.Label).string = "";
+                isMap && cc.vv.AudioManager.playEff("games/VampireCount/", "mapfree_end_show", true);
+                freetanchuang_spine.setAnimation(0, isMap ? "animation2" : "animation3", false);
+                freetanchuang_spine.addAnimation(0, isMap ? "animation2_1" : "animation3_1", true);
+                btn_collect = cc.find("btn_collect", dialog);
+                btn_collect.scale = 0;
+                _context17.next = 19;
+                return cc.vv.gameData.awaitTime(.3);
+
+               case 19:
+                Global.doRoallNumEff(coin, 0, cc.vv.gameData.GetGameTotalFreeWin(), 3, null, null, 0, true);
+                cc.tween(coin).to(.2, {
+                  scale: 1
+                }).start();
+                _context17.next = 23;
+                return cc.vv.gameData.awaitTime(.2);
+
+               case 23:
+                cc.tween(btn_collect).to(.2, {
+                  scale: 1
+                }).start();
+                btn_collect.off("click");
+                _context17.next = 27;
+                return cc.vv.gameData.awaitTime(.2);
+
+               case 27:
+                func = function() {
+                  var _ref8 = _asyncToGenerator(regeneratorRuntime.mark(function _callee15() {
+                    return regeneratorRuntime.wrap(function _callee15$(_context15) {
+                      while (1) switch (_context15.prev = _context15.next) {
+                       case 0:
+                        btn_collect.off("click");
+                        cc.vv.AudioManager.playEff("games/VampireCount/", "click", true);
+                        cc.vv.AudioManager.playEff("games/VampireCount/", "free_dialog_collect_close", true);
+                        cc.tween(btn_collect).to(.2, {
+                          scale: 0
+                        }).start();
+                        cc.tween(free_bg).to(.2, {
+                          opacity: 0
+                        }).start();
+                        freetanchuang_spine.setAnimation(0, isMap ? "animation2_2" : "animation3_2", false);
+                        freetanchuang_spine.setCompleteListener(function() {
+                          freetanchuang_spine.setCompleteListener(null);
+                          dialog.active = false;
+                          free_dialog.active = false;
+                          freetanchuang_spine.node.active = false;
+                          success();
+                        });
+                        _context15.next = 9;
+                        return cc.vv.gameData.awaitTime(.3);
+
+                       case 9:
+                        cc.tween(coin).to(.2, {
+                          scale: 0
+                        }).start();
+
+                       case 10:
+                       case "end":
+                        return _context15.stop();
+                      }
+                    }, _callee15);
+                  }));
+                  return function func() {
+                    return _ref8.apply(this, arguments);
+                  };
+                }();
+                cc.vv.gameData.checkAutoPlay(btn_collect, func);
+                btn_collect.on("click", _asyncToGenerator(regeneratorRuntime.mark(function _callee16() {
+                  return regeneratorRuntime.wrap(function _callee16$(_context16) {
+                    while (1) switch (_context16.prev = _context16.next) {
+                     case 0:
+                      btn_collect.stopAllActions();
+                      _context16.next = 3;
+                      return func();
+
+                     case 3:
+                     case "end":
+                      return _context16.stop();
+                    }
+                  }, _callee16);
+                })));
+                if (!cc.vv.gameData.isNeedAutoPlay()) {
+                  btn_collect.stopAllActions();
+                  cc.tween(btn_collect).delay(cc.vv.gameData.getManualAutoPlayTime()).call(function() {
+                    func();
+                  }).start();
+                }
+
+               case 31:
+               case "end":
+                return _context17.stop();
+              }
+            }, _callee17);
+          }));
+          return function(_x2) {
+            return _ref7.apply(this, arguments);
+          };
+        }());
+      },
+      popMapFreeDialog: function popMapFreeDialog(mapInfo) {
+        var _this12 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee21() {
+          return regeneratorRuntime.wrap(function _callee21$(_context21) {
+            while (1) switch (_context21.prev = _context21.next) {
+             case 0:
+              return _context21.abrupt("return", new Promise(function() {
+                var _ref10 = _asyncToGenerator(regeneratorRuntime.mark(function _callee20(success) {
+                  var free_dialog, free_bg, dialog, superbonustanchuang_spine, times, i, booster, btn_start, _i4, _booster, func;
+                  return regeneratorRuntime.wrap(function _callee20$(_context20) {
+                    while (1) switch (_context20.prev = _context20.next) {
+                     case 0:
+                      free_dialog = cc.find("free_dialog", _this12.node.parent);
+                      free_dialog.active = true;
+                      free_bg = cc.find("free_dialog_bg", free_dialog);
+                      free_bg.opacity = 0;
+                      free_bg.runAction(cc.fadeTo(.2, 200));
+                      dialog = cc.find("map_free_node", free_dialog);
+                      dialog.active = true;
+                      superbonustanchuang_spine = cc.find("superbonustanchuang", dialog).getComponent(sp.Skeleton);
+                      superbonustanchuang_spine.node.active = true;
+                      times = cc.find("times_" + mapInfo.nextSpinCount, dialog);
+                      times.scale = 0;
+                      cc.find("times_10", dialog).active = 10 === mapInfo.nextSpinCount;
+                      cc.find("times_15", dialog).active = 15 === mapInfo.nextSpinCount;
+                      for (i = 1; i < 6; i++) {
+                        booster = cc.find("booster_" + i, dialog);
+                        booster.active = -1 !== mapInfo.nextBoosters.indexOf(i);
+                        cc.find("black_bg", booster).active = -1 === mapInfo.nextUnlockBoosters.indexOf(i);
+                        booster.scale = 0;
+                      }
+                      cc.vv.AudioManager.playEff("games/VampireCount/", "mapfree_start_show", true);
+                      superbonustanchuang_spine.setAnimation(0, "animation4", false);
+                      superbonustanchuang_spine.addAnimation(0, "animation4_1", true);
+                      btn_start = cc.find("btn_start", dialog);
+                      btn_start.scale = 0;
+                      _context20.next = 21;
+                      return cc.vv.gameData.awaitTime(.3);
+
+                     case 21:
+                      cc.tween(times).to(.2, {
+                        scale: 1
+                      }).start();
+                      _context20.next = 24;
+                      return cc.vv.gameData.awaitTime(.2);
+
+                     case 24:
+                      cc.tween(btn_start).to(.2, {
+                        scale: 1
+                      }).start();
+                      for (_i4 = 1; _i4 < 6; _i4++) {
+                        _booster = cc.find("booster_" + _i4, dialog);
+                        cc.tween(_booster).to(.2, {
+                          scale: 1
+                        }).start();
+                      }
+                      _context20.next = 28;
+                      return cc.vv.gameData.awaitTime(.2);
+
+                     case 28:
+                      btn_start.off("click");
+                      func = function() {
+                        var _ref11 = _asyncToGenerator(regeneratorRuntime.mark(function _callee18() {
+                          return regeneratorRuntime.wrap(function _callee18$(_context18) {
+                            while (1) switch (_context18.prev = _context18.next) {
+                             case 0:
+                              btn_start.off("click");
+                              cc.vv.AudioManager.playEff("games/VampireCount/", "click", true);
+                              cc.tween(btn_start).to(.2, {
+                                scale: 0
+                              }).start();
+                              cc.tween(free_bg).to(.2, {
+                                opacity: 0
+                              }).start();
+                              superbonustanchuang_spine.setAnimation(0, "animation4_2", false);
+                              superbonustanchuang_spine.setCompleteListener(function(track) {
+                                superbonustanchuang_spine.setCompleteListener(null);
+                                dialog.active = false;
+                                free_dialog.active = false;
+                                superbonustanchuang_spine.node.active = false;
+                                success();
+                              });
+                              _context18.next = 8;
+                              return cc.vv.gameData.awaitTime(.3);
+
+                             case 8:
+                              cc.tween(times).to(.2, {
+                                scale: 0
+                              }).start();
+
+                             case 9:
+                             case "end":
+                              return _context18.stop();
+                            }
+                          }, _callee18);
+                        }));
+                        return function func() {
+                          return _ref11.apply(this, arguments);
+                        };
+                      }();
+                      cc.vv.gameData.checkAutoPlay(btn_start, func);
+                      btn_start.on("click", _asyncToGenerator(regeneratorRuntime.mark(function _callee19() {
+                        return regeneratorRuntime.wrap(function _callee19$(_context19) {
+                          while (1) switch (_context19.prev = _context19.next) {
+                           case 0:
+                            btn_start.stopAllActions();
+                            _context19.next = 3;
+                            return func();
+
+                           case 3:
+                           case "end":
+                            return _context19.stop();
+                          }
+                        }, _callee19);
+                      })));
+
+                     case 32:
+                     case "end":
+                      return _context20.stop();
+                    }
+                  }, _callee20);
+                }));
+                return function(_x3) {
+                  return _ref10.apply(this, arguments);
+                };
+              }()));
+
+             case 1:
+             case "end":
+              return _context21.stop();
+            }
+          }, _callee21);
+        }))();
+      },
+      setPumpkinInfo: function setPumpkinInfo(bonusInfos) {
+        var bonusInfo = bonusInfos[cc.vv.gameData.GetBetIdx() - 1];
+        for (var i = 0; i < bonusInfo.length; i++) {
+          var info = bonusInfo[i];
+          var pumpkin = cc.find("pumpkin_" + (i + 1), this.node);
+          if (pumpkin) {
+            cc.find("coin", pumpkin).getComponent(cc.Label).string = Global.formatNumShort(info.coin, 0);
+            var _double = cc.find("double", pumpkin);
+            var doubleSpine = _double.getComponent(sp.Skeleton);
+            if (info["double"]) {
+              _double.active = true;
+              doubleSpine.clearTracks();
+              doubleSpine.setToSetupPose();
+              doubleSpine.setAnimation(0, "animation2", true);
+            } else _double.active = false;
+            var wheel = cc.find("wheel", pumpkin);
+            var wheelSpine = wheel.getComponent(sp.Skeleton);
+            if (info.jackpotWheel) {
+              wheel.active = true;
+              wheelSpine.clearTracks();
+              wheelSpine.setToSetupPose();
+              wheelSpine.setAnimation(0, "animation2", true);
+            } else wheel.active = false;
+          }
+        }
+      },
+      GetSymbolByIdx: function GetSymbolByIdx(idx) {
+        var col = (idx - 1) % this._col;
+        var row = this._gameInfo.resultCards.length / this._cfg.col - Math.floor((idx - 1) / this._col) - 1;
+        return this._reels[col].GetSymbolByRow(row);
+      },
+      collectCoin: function collectCoin() {
+        var _this13 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee22() {
+          var i, bonusResultCards, needAddSymbolArray, haveCoin, _iterator8, _step8, _loop2, _loop, j;
+          return regeneratorRuntime.wrap(function _callee22$(_context22) {
+            while (1) switch (_context22.prev = _context22.next) {
+             case 0:
+              if (!(_this13._gameInfo.bonusResultCards && _this13._gameInfo.bonusResultCards.length > 0)) {
+                _context22.next = 19;
+                break;
+              }
+              i = 0;
+
+             case 2:
+              if (!(i < _this13._gameInfo.bonusResultCards.length - 1)) {
+                _context22.next = 18;
+                break;
+              }
+              bonusResultCards = _this13._gameInfo.bonusResultCards[i];
+              needAddSymbolArray = [ 0, 0, 0, 0, 0 ];
+              haveCoin = false;
+              _iterator8 = _createForOfIteratorHelper(bonusResultCards.bonusIdxs);
+              try {
+                _loop2 = function _loop2() {
+                  var index = _step8.value;
+                  var item = bonusResultCards.bonusItems[bonusResultCards.bonusIdxs.indexOf(index)];
+                  var reelIndex = (index - 1) % 5;
+                  var symbol = _this13.GetSymbolByIdx(index);
+                  if (symbol) {
+                    haveCoin = true;
+                    symbol.playCoinAnimation();
+                  }
+                  needAddSymbolArray[reelIndex]++;
+                  var spine_coin = cc.instantiate(cc.find("spine_coin", _this13.node.parent)).getComponent(sp.Skeleton);
+                  var position = symbol.node.convertToWorldSpaceAR(cc.v2(0, 0));
+                  position = _this13.node.parent.convertToNodeSpaceAR(position);
+                  spine_coin.node.active = true;
+                  spine_coin.node.parent = _this13.node.parent;
+                  spine_coin.node.position = position;
+                  spine_coin.setAnimation(0, "animation", false);
+                  var endPos = cc.find("pumpkin_" + (reelIndex + 1), _this13.node).convertToWorldSpaceAR(cc.v2(0, 0));
+                  endPos = _this13.node.parent.convertToNodeSpaceAR(endPos);
+                  cc.tween(spine_coin.node).to(.6, {
+                    opacity: 100,
+                    position: endPos
+                  }).removeSelf().start();
+                  cc.tween(_this13.node).delay(.5).call(function() {
+                    var spine_pumpkin = cc.find("pumpkin_" + (reelIndex + 1), _this13.node).getComponent(sp.Skeleton);
+                    spine_pumpkin.clearTracks();
+                    spine_pumpkin.setToSetupPose();
+                    spine_pumpkin.setAnimation(0, "animation2", false);
+                    spine_pumpkin.setCompleteListener(function(track) {
+                      var name = track.animation ? track.animation.name : "";
+                      if ("animation2" === name) {
+                        spine_pumpkin.clearTracks();
+                        spine_pumpkin.setToSetupPose();
+                        spine_pumpkin.setAnimation(0, "animation1", true);
+                      }
+                    });
+                    var pumpkinInfo = _this13._pumpkinInfo[reelIndex];
+                    if (item.type === _this13._cfg.BonusType.Coin) {
+                      pumpkinInfo.coin += item.coin;
+                      cc.find("pumpkin_" + (reelIndex + 1) + "/coin", _this13.node).getComponent(cc.Label).string = Global.formatNumShort(pumpkinInfo.coin, 0);
+                    } else if (item.type === _this13._cfg.BonusType.Double) {
+                      pumpkinInfo["double"] = true;
+                      var _double2 = cc.find("pumpkin_" + (reelIndex + 1) + "/double", _this13.node);
+                      var doubleSpine = _double2.getComponent(sp.Skeleton);
+                      _double2.active = true;
+                      doubleSpine.clearTracks();
+                      doubleSpine.setToSetupPose();
+                      doubleSpine.setAnimation(0, "animation1", false);
+                    } else if (item.type === _this13._cfg.BonusType.JackpotWheel) {
+                      pumpkinInfo.jackpotWheel = true;
+                      var wheel = cc.find("pumpkin_" + (reelIndex + 1) + "/wheel", _this13.node);
+                      var wheelSpine = wheel.getComponent(sp.Skeleton);
+                      wheel.active = true;
+                      wheelSpine.clearTracks();
+                      wheelSpine.setToSetupPose();
+                      wheelSpine.setAnimation(0, "animation1", false);
+                    }
+                  }).start();
+                };
+                for (_iterator8.s(); !(_step8 = _iterator8.n()).done; ) _loop2();
+              } catch (err) {
+                _iterator8.e(err);
+              } finally {
+                _iterator8.f();
+              }
+              if (haveCoin) {
+                cc.vv.AudioManager.playEff("games/VampireCount/", "symbol_collect", true);
+                _this13.scheduleOnce(function() {}, .5);
+              }
+              _context22.next = 11;
+              return cc.vv.gameData.awaitTime(.6);
+
+             case 11:
+              _loop = function _loop(j) {
+                var addNum = needAddSymbolArray[j];
+                var symbolArray = [];
+                var reel = _this13._reels[j];
+                var nextCards = _this13._gameInfo.bonusResultCards[i + 1].cards;
+                if (addNum > 0) {
+                  for (var k = 0; k < addNum; k++) {
+                    var card = nextCards[_this13._cfg.col * k + j];
+                    var data = null;
+                    if (card === _this13._cfg.bonusId) {
+                      var index = _this13._gameInfo.bonusResultCards[i + 1].bonusIdxs.indexOf(_this13._cfg.col * k + j + 1);
+                      -1 !== index && (data = _this13._gameInfo.bonusResultCards[i + 1].bonusItems[index]);
+                    }
+                    symbolArray.push({
+                      id: card,
+                      data: data
+                    });
+                  }
+                  bonusResultCards.bonusIdxs.sort(function(a, b) {
+                    return a - b;
+                  });
+                  symbolArray.reverse();
+                  reel.AppendSymbol(symbolArray, 2);
+                  var _iterator9 = _createForOfIteratorHelper(bonusResultCards.bonusIdxs), _step9;
+                  try {
+                    for (_iterator9.s(); !(_step9 = _iterator9.n()).done; ) {
+                      var _index = _step9.value;
+                      var reelIndex = (_index - 1) % 5;
+                      if (reelIndex === j) {
+                        var _symbol = _this13.GetSymbolByIdx(_index);
+                        if (_symbol) {
+                          var _reel4 = _this13._reels[reelIndex];
+                          var idx = Math.floor(bonusResultCards.cards.length / _this13._cfg.col) - (Math.floor((_index - 1) / 5) + 1);
+                          cc.log(idx);
+                          _reel4.deleteSymbol(idx);
+                        }
+                      }
+                    }
+                  } catch (err) {
+                    _iterator9.e(err);
+                  } finally {
+                    _iterator9.f();
+                  }
+                  for (var _k = 0; _k < nextCards.length / _this13._cfg.col; _k++) {
+                    var symbol = reel.GetSymbolByRow(_k);
+                    cc.tween(symbol.node).to(.2, {
+                      y: (_k + .5) * _this13._cfg.symbolSize.height
+                    }).start();
+                  }
+                  cc.tween(reel.node).delay(.2).call(function() {
+                    reel.ReLayOut();
+                  }).start();
+                }
+              };
+              for (j = 0; j < needAddSymbolArray.length; j++) _loop(j);
+              _context22.next = 15;
+              return cc.vv.gameData.awaitTime(.3);
+
+             case 15:
+              i++;
+              _context22.next = 2;
+              break;
+
+             case 18:
+              _this13._pumpkinInfo = _this13._gameInfo.bonusInfo;
+
+             case 19:
+             case "end":
+              return _context22.stop();
+            }
+          }, _callee22);
+        }))();
+      },
+      updateCollectProgress: function updateCollectProgress(mapInfo, isAdd) {
+        var _this14 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee23() {
+          var spine_purpose, config, progress, scale_node, sjt, spine_collect;
+          return regeneratorRuntime.wrap(function _callee23$(_context23) {
+            while (1) switch (_context23.prev = _context23.next) {
+             case 0:
+              spine_purpose = cc.find("collect_node/spine_purpose", _this14.node).getComponent(sp.Skeleton);
+              if (mapInfo.progressData.totalCnt / mapInfo.progressData.needCnt < 1) {
+                config = _this14._cfg.MapConfig[mapInfo.nextId - 1];
+                if (config.animationName) {
+                  spine_purpose.clearTracks();
+                  spine_purpose.setToSetupPose();
+                  spine_purpose.setAnimation(0, config.animationName, true);
+                } else {
+                  spine_purpose.clearTracks();
+                  spine_purpose.setToSetupPose();
+                  spine_purpose.setAnimation(0, "animation8", true);
+                }
+              }
+              progress = cc.find("collect_node/progress", _this14.node);
+              scale_node = cc.find("scale_node", progress);
+              sjt = cc.find("sjt", scale_node);
+              if (isAdd) {
+                cc.tween(sjt).to(.3, {
+                  x: 388 * (mapInfo.progressData.totalCnt / mapInfo.progressData.needCnt > 1 ? 1 : mapInfo.progressData.totalCnt / mapInfo.progressData.needCnt) - 194
+                }).start();
+                spine_collect = cc.find("collect", sjt).getComponent(sp.Skeleton);
+                spine_collect.node.active = true;
+                spine_collect.setToSetupPose();
+                spine_collect.setAnimation(0, "animation1", false);
+                spine_collect.setCompleteListener(function() {
+                  spine_collect.node.active = false;
+                });
+              } else sjt.x = 388 * (mapInfo.progressData.totalCnt / mapInfo.progressData.needCnt > 1 ? 1 : mapInfo.progressData.totalCnt / mapInfo.progressData.needCnt) - 194;
+
+             case 6:
+             case "end":
+              return _context23.stop();
+            }
+          }, _callee23);
+        }))();
+      },
+      clearCollectProgress: function clearCollectProgress() {
+        var spine_purpose = cc.find("collect_node/spine_purpose", this.node).getComponent(sp.Skeleton);
+        var progress = cc.find("collect_node/progress", this.node);
+        var scale_node = cc.find("scale_node", progress);
+        var sjt = cc.find("sjt", scale_node);
+        var mapInfo = this._gameInfo ? this._gameInfo.mapInfo : cc.vv.gameData.getDeskInfo().mapInfo;
+        var config = this._cfg.MapConfig[mapInfo.nextId - 1];
+        if (config.animationName) {
+          spine_purpose.clearTracks();
+          spine_purpose.setToSetupPose();
+          spine_purpose.setAnimation(0, config.animationName, true);
+        } else {
+          spine_purpose.clearTracks();
+          spine_purpose.setToSetupPose();
+          spine_purpose.setAnimation(0, "animation8", true);
+        }
+        sjt.x = -194;
+      },
+      changeBgAnimation: function changeBgAnimation(index) {
+        var _this15 = this;
+        this._rightSpiderCount = 0;
+        this._leftSpiderCount = 0;
+        var spider = cc.find("bg/spider", this.node.parent);
+        var spine = spider.getComponent(sp.Skeleton);
+        spine.clearTracks();
+        spine.setToSetupPose();
+        spine.setAnimation(0, "animation2_" + index + "_1", true);
+        spine.setCompleteListener(function(track) {
+          var name = track.animation ? track.animation.name : "";
+          if (name === "animation2_" + index + "_1") {
+            _this15._rightSpiderCount++;
+            if (_this15._rightSpiderCount >= 3) {
+              spine.clearTracks();
+              spine.setToSetupPose();
+              spine.setAnimation(0, "animation2_" + index + "_2", true);
+              _this15._rightSpiderCount = 0;
+            }
+          } else if (name === "animation2_" + index + "_2") {
+            _this15._leftSpiderCount++;
+            if (_this15._leftSpiderCount >= 2) {
+              spine.clearTracks();
+              spine.setToSetupPose();
+              spine.setAnimation(0, "animation2_" + index + "_1", true);
+              _this15._leftSpiderCount = 0;
+            }
+          }
+        });
+        var ghost = cc.find("bg/ghost", this.node.parent);
+        var ghost_spine = ghost.getComponent(sp.Skeleton);
+        ghost_spine.clearTracks();
+        ghost_spine.setToSetupPose();
+        ghost_spine.setAnimation(0, "animation4_" + index + "_1", false);
+        ghost_spine.setCompleteListener(function(track) {
+          var name = track.animation ? track.animation.name : "";
+          if (name === "animation4_" + index + "_1") {
+            ghost_spine.clearTracks();
+            ghost_spine.setToSetupPose();
+            ghost_spine.setAnimation(0, "animation4_" + index + "_2", false);
+          } else if (name === "animation4_" + index + "_2") {
+            ghost_spine.clearTracks();
+            ghost_spine.setToSetupPose();
+            ghost_spine.setAnimation(0, "animation4_" + index + "_1", false);
+          }
+        });
+        var tree = cc.find("bg/tree", this.node.parent);
+        var tree_spine = tree.getComponent(sp.Skeleton);
+        tree_spine.clearTracks();
+        tree_spine.setToSetupPose();
+        tree_spine.setAnimation(0, "animation6_" + index, true);
+        var frog = cc.find("bg/frog", this.node.parent);
+        var frog_spine = frog.getComponent(sp.Skeleton);
+        frog_spine.clearTracks();
+        frog_spine.setToSetupPose();
+        frog_spine.setAnimation(0, "animation3_" + index, true);
+        var house_light = cc.find("bg/house_light", this.node.parent);
+        var house_light_spine = house_light.getComponent(sp.Skeleton);
+        house_light_spine.clearTracks();
+        house_light_spine.setToSetupPose();
+        house_light_spine.setAnimation(0, "animation1_" + index, true);
+      },
+      _rotateWheel: function _rotateWheel(endIndex, node) {
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee25() {
+          return regeneratorRuntime.wrap(function _callee25$(_context25) {
+            while (1) switch (_context25.prev = _context25.next) {
+             case 0:
+              return _context25.abrupt("return", new Promise(function() {
+                var _ref13 = _asyncToGenerator(regeneratorRuntime.mark(function _callee24(success) {
+                  var angle, action;
+                  return regeneratorRuntime.wrap(function _callee24$(_context24) {
+                    while (1) switch (_context24.prev = _context24.next) {
+                     case 0:
+                      angle = 40 * endIndex - 140 - 2160;
+                      cc.log(angle);
+                      cc.vv.AudioManager.playEff("games/VampireCount/", "wheel_spin", true);
+                      action = cc.rotateBy(7, angle).easing(cc.easeSineInOut());
+                      node.getChildByName("rotate_node").runAction(cc.sequence(action, cc.callFunc(function() {
+                        cc.vv.AudioManager.playEff("games/VampireCount/", "wheel_stop", true);
+                        success();
+                      })));
+
+                     case 5:
+                     case "end":
+                      return _context24.stop();
+                    }
+                  }, _callee24);
+                }));
+                return function(_x4) {
+                  return _ref13.apply(this, arguments);
+                };
+              }()));
+
+             case 1:
+             case "end":
+              return _context25.stop();
+            }
+          }, _callee25);
+        }))();
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Slots_Base: void 0
+  } ],
+  VampireCount_Symbol: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "ee9e7ko7ZZPepJim4Uk/a0f", "VampireCount_Symbol");
+    "use strict";
+    var BonusType = {
+      Coin: 1,
+      Double: 2,
+      JackpotWheel: 3
+    };
+    cc.Class({
+      extends: require("LMSlots_Symbol_Base"),
+      properties: {},
+      StartMove: function StartMove() {
+        this._super();
+        var cfg = cc.vv.gameData.getGameCfg();
+        this._id === cfg.pumpkinManId && (this.node.zIndex = 1e3);
+        this._id === cfg.scatterId && (this.node.zIndex = 500);
+      },
+      ShowById: function ShowById(id, data) {
+        var cfg = cc.vv.gameData.getGameCfg();
+        this._super(id, data);
+        if (id === cfg.bonusId && data) {
+          cc.find("coin_bg/coin", this._showNode).active = data.type === BonusType.Coin;
+          cc.find("coin_bg/double", this._showNode).active = data.type === BonusType.Double;
+          cc.find("coin_bg/wheel", this._showNode).active = data.type === BonusType.JackpotWheel;
+          cc.find("coin_bg/coin", this._showNode).opacity = 255;
+          cc.find("coin_bg/double", this._showNode).opacity = 255;
+          cc.find("coin_bg/wheel", this._showNode).opacity = 255;
+          cc.find("coin_bg/coin", this._showNode).scale = 1;
+          cc.find("coin_bg/double", this._showNode).scale = 1;
+          cc.find("coin_bg/wheel", this._showNode).scale = 1;
+          cc.find("coin_bg", this._showNode).opacity = 255;
+          data.type === BonusType.Coin && (cc.find("coin_bg/coin", this._showNode).getComponent(cc.Label).string = Global.formatNumShort(data.coin, 0));
+        }
+      },
+      playCoinAnimation: function playCoinAnimation() {
+        cc.find("icon", this._showNode).active = false;
+        var node = cc.find("coin_bg/coin", this._showNode);
+        this._data.type === BonusType.Double ? node = cc.find("coin_bg/double", this._showNode) : this._data.type === BonusType.JackpotWheel && (node = cc.find("coin_bg/wheel", this._showNode));
+        var bg = cc.find("coin_bg", this._showNode);
+        cc.tween(bg).to(.2, {
+          opacity: 0
+        }).start();
+        cc.tween(node).to(.5, {
+          opacity: 0,
+          scale: 1.1
+        }).start();
+      },
+      playTriggerAnimation: function playTriggerAnimation(callback) {
+        var _this = this;
+        var isPlay = false;
+        var id = this._id;
+        var cfg = cc.vv.gameData.getGameCfg();
+        if (cfg.symbol[id] && cfg.symbol[id].win_node && cfg.symbol[id].trigger_ani) {
+          this._state = "trigger";
+          this._showNode && (this._showNode.active = false);
+          var aniNode = this.setAnimationToTop(true);
+          aniNode.active = true;
+          var topShowNode = cc.find(cfg.symbol[id].win_node, aniNode);
+          topShowNode.active = true;
+          if ("" !== cfg.symbol[id].trigger_ani.name) {
+            aniNode.zIndex = cfg.symbol[id].trigger_ani.zIndex - this._symbolIdx + 10 * this._reelIdx;
+            isPlay = true;
+            var nodeSp = topShowNode.getComponent(sp.Skeleton);
+            if (nodeSp) {
+              nodeSp.setAnimation(0, cfg.symbol[id].trigger_ani.name, false);
+              this._id === cfg.pumpkinManId && cc.vv.AudioManager.playEff("games/VampireCount/", "pumpkin_wheel", true);
+              nodeSp.setCompleteListener(function(track) {
+                var name = track.animation ? track.animation.name : "";
+                if (name === cfg.symbol[id].trigger_ani.name) {
+                  if (_this._id === cfg.pumpkinManId) {
+                    nodeSp.clearTracks();
+                    nodeSp.setToSetupPose();
+                    nodeSp.setAnimation(0, "animation2", true);
+                  }
+                  if (_this._id === cfg.scatterId || _this._id === cfg.extraSpinId) {
+                    nodeSp.clearTracks();
+                    nodeSp.setToSetupPose();
+                    nodeSp.setAnimation(0, cfg.symbol[id].idle_ani.name, true);
+                  }
+                  callback && callback(topShowNode);
+                }
+              });
+            }
+          }
+        }
+        return isPlay;
+      },
+      SetSymbolIdx: function SetSymbolIdx(idx) {
+        this._super(idx);
+        var cfg = cc.vv.gameData.getGameCfg();
+        this._id === cfg.pumpkinManId && (this.node.zIndex = 1e3);
+        this._id === cfg.scatterId && (this.node.zIndex = 500);
+      },
+      GetSymbolIdx: function GetSymbolIdx() {
+        return this._symbolIdx;
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Symbol_Base: void 0
+  } ],
+  VampireCount_Wheel: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "829fcoWIoZJz5Wyei2cV1qn", "VampireCount_Wheel");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        items: [ cc.Node ],
+        jackpot_result: cc.Node,
+        jptanchuang: sp.Skeleton,
+        winCoin: cc.Label,
+        btn_collect: cc.Node,
+        kuang: sp.Skeleton,
+        kuloushouzhi: sp.Skeleton,
+        black_bg: cc.Node,
+        press_node: sp.Skeleton,
+        _startMove: false,
+        _newSpeed: 1,
+        _newMaxSpeed: 20,
+        _newMinSpeed: 1,
+        _newSpeedOffset: .25,
+        _count: 6,
+        _needStop: false,
+        _bottomPosY: 0,
+        _backMove: false,
+        _resultItem: null,
+        _successCallback: null,
+        _hasPressed: true,
+        _wheelResult: null
+      },
+      onLoad: function onLoad() {
+        var _this = this;
+        this.press_node.node.on(cc.Node.EventType.TOUCH_END, function() {
+          if (_this._hasPressed) return;
+          _this._hasPressed = true;
+          _this.press_node.node.stopAllActions();
+          cc.tween(_this.black_bg).to(.2, {
+            opacity: 0
+          }).start();
+          _this.press_node.clearTracks();
+          _this.press_node.setToSetupPose();
+          _this.press_node.setAnimation(0, "animation3", false);
+          _this.press_node.setCompleteListener(function(track) {
+            var name = track.animation ? track.animation.name : "";
+            if ("animation3" === name) {
+              _this._startMove = true;
+              cc.vv.AudioManager.playEff("games/VampireCount/", "jp_spin", true);
+              _this.press_node.active = false;
+              _this.kuloushouzhi.node.active = true;
+              _this.kuloushouzhi.setAnimation(0, "animation", false);
+              _this.kuloushouzhi.addAnimation(0, "animation2", true);
+            }
+          });
+        });
+        this._bottomPosY = this.items[9].y - this.items[9].height;
+      },
+      update: function update(dt) {
+        if (this._startMove) {
+          if (this._needStop) {
+            this._newSpeed -= this._newSpeedOffset;
+            this._newSpeed <= this._newMinSpeed && (this._newSpeed = this._newMinSpeed);
+          } else {
+            this._newSpeed += this._newSpeedOffset;
+            this._newSpeed >= this._newMaxSpeed && (this._newSpeed = this._newMaxSpeed);
+          }
+          0 === this._count && this._resultItem.y <= 5 * this._resultItem.height && (this._needStop = true);
+          if (this._needStop && this._resultItem.y < 0) {
+            this._startMove = false;
+            this._backMove = true;
+          }
+          var _iterator = _createForOfIteratorHelper(this.items), _step;
+          try {
+            for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+              var item = _step.value;
+              if (item.y <= this._bottomPosY) {
+                item.y += this.items.length * item.height;
+                if (item === this._resultItem) {
+                  this._count--;
+                  this._count <= 0 && (this._count = 0);
+                }
+              }
+              item.y -= this._newSpeed;
+            }
+          } catch (err) {
+            _iterator.e(err);
+          } finally {
+            _iterator.f();
+          }
+        }
+        if (this._backMove) {
+          var _iterator2 = _createForOfIteratorHelper(this.items), _step2;
+          try {
+            for (_iterator2.s(); !(_step2 = _iterator2.n()).done; ) {
+              var _item = _step2.value;
+              _item.y += this._newMinSpeed;
+            }
+          } catch (err) {
+            _iterator2.e(err);
+          } finally {
+            _iterator2.f();
+          }
+          if (this._resultItem.y > -1 && this._resultItem.y < 1) {
+            this._backMove = false;
+            this._moveEnd();
+          }
+        }
+      },
+      _moveEnd: function _moveEnd() {
+        var _this2 = this;
+        cc.vv.AudioManager.playEff("games/VampireCount/", "jp_stop", true);
+        this.kuang.node.active = true;
+        this.kuang.clearTracks();
+        this.kuang.setToSetupPose();
+        this.kuang.setAnimation(0, "animation1", false);
+        this.kuang.setCompleteListener(function() {
+          var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(track) {
+            var name, prizePool, jpzhongjiang, animationIndex, sound, func;
+            return regeneratorRuntime.wrap(function _callee$(_context) {
+              while (1) switch (_context.prev = _context.next) {
+               case 0:
+                name = track.animation ? track.animation.name : "";
+                if (!("animation1" === name)) {
+                  _context.next = 29;
+                  break;
+                }
+                _this2.kuang.clearTracks();
+                _this2.kuang.setToSetupPose();
+                _this2.kuang.setAnimation(0, "animation2", true);
+                prizePool = cc.find("LMSlots_PrizePool_1", _this2.node.parent).getComponent("VampireCount_PrizePool")._GetPoolNodeByType(_this2._wheelResult.id - 1);
+                if (prizePool) {
+                  jpzhongjiang = cc.find("unlock/jpzhongjiang", prizePool);
+                  if (jpzhongjiang) {
+                    cc.vv.AudioManager.playEff("games/VampireCount/", "jp_multi", true);
+                    jpzhongjiang.active = true;
+                    _this2.scheduleOnce(function() {
+                      jpzhongjiang.active = false;
+                    }, 1);
+                  }
+                }
+                _context.next = 9;
+                return cc.vv.gameData.awaitTime(1);
+
+               case 9:
+                animationIndex = [ 4, 3, 2, 1 ];
+                sound = [ "wheel_mini", "wheel_minor", "wheel_major", "wheel_grand" ];
+                cc.vv.AudioManager.playEff("games/VampireCount/", sound[_this2._wheelResult.id - 1], true);
+                _this2.jackpot_result.active = true;
+                _this2.jptanchuang.clearTracks();
+                _this2.jptanchuang.setToSetupPose();
+                _this2.jptanchuang.setAnimation(0, "animation" + animationIndex[_this2._wheelResult.id - 1], false);
+                _this2.jptanchuang.setCompleteListener(function(track) {
+                  var name = track.animation ? track.animation.name : "";
+                  if (name === "animation" + animationIndex[_this2._wheelResult.id - 1]) {
+                    _this2.jptanchuang.clearTracks();
+                    _this2.jptanchuang.setToSetupPose();
+                    _this2.jptanchuang.setAnimation(0, "animation" + animationIndex[_this2._wheelResult.id - 1] + "_1", true);
+                  }
+                });
+                _this2.winCoin.string = "";
+                _this2.btn_collect.scale = 0;
+                _context.next = 21;
+                return cc.vv.gameData.awaitTime(1);
+
+               case 21:
+                Global.doRoallNumEff(_this2.winCoin.node, 0, _this2._wheelResult.value, 3, null, null, 0, true, false);
+                cc.tween(_this2.btn_collect).to(.5, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                _context.next = 25;
+                return cc.vv.gameData.awaitTime(.5);
+
+               case 25:
+                _this2.btn_collect.off("click");
+                func = function func() {
+                  _this2.btn_collect.off("click");
+                  cc.vv.AudioManager.playEff("games/VampireCount/", "click", true);
+                  cc.tween(_this2.btn_collect).to(.5, {
+                    scale: 0
+                  }, {
+                    easing: "backIn"
+                  }).start();
+                  _this2.jptanchuang.clearTracks();
+                  _this2.jptanchuang.setToSetupPose();
+                  _this2.jptanchuang.setAnimation(0, "animation" + animationIndex[_this2._wheelResult.id - 1] + "_2", false);
+                  _this2.jptanchuang.setCompleteListener(function(track) {
+                    var name = track.animation ? track.animation.name : "";
+                    if (name === "animation" + animationIndex[_this2._wheelResult.id - 1] + "_2") {
+                      _this2.jackpot_result.active = false;
+                      _this2.kuloushouzhi.node.active = false;
+                      _this2._successCallback && _this2._successCallback();
+                    }
+                  });
+                };
+                cc.vv.gameData.checkAutoPlay(_this2.btn_collect, func);
+                _this2.btn_collect.on("click", function() {
+                  _this2.btn_collect.stopAllActions();
+                  func();
+                });
+
+               case 29:
+               case "end":
+                return _context.stop();
+              }
+            }, _callee);
+          }));
+          return function(_x) {
+            return _ref.apply(this, arguments);
+          };
+        }());
+      },
+      enterWheelGame: function enterWheelGame(successCallback, result) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              _this3._wheelResult = result;
+              _this3._resultItem = cc.find("wheel_mask/index_" + result.idx, _this3.node);
+              _this3.node.active = true;
+              _this3._successCallback = successCallback;
+              _this3.kuang.node.active = false;
+              Global.SlotsSoundMgr.stopBgm();
+              Global.SlotsSoundMgr.playBgm("wheel_bgm");
+              cc.vv.AudioManager.playEff("games/VampireCount/", "wheel_start_show", true);
+              _this3.reset();
+              _this3.black_bg.opacity = 200;
+              _this3.press_node.node.active = true;
+              _this3.press_node.clearTracks();
+              _this3.press_node.setToSetupPose();
+              _this3.press_node.setAnimation(0, "animation", false);
+              _this3.press_node.setCompleteListener(function(track) {
+                var name = track.animation ? track.animation.name : "";
+                if ("animation" === name) {
+                  _this3.press_node.clearTracks();
+                  _this3.press_node.setToSetupPose();
+                  _this3.press_node.setAnimation(0, "animation2", true);
+                }
+              });
+              cc.vv.gameData.checkAutoPlay(_this3.press_node.node, function() {
+                if (_this3._hasPressed) return;
+                _this3._hasPressed = true;
+                cc.tween(_this3.black_bg).to(.2, {
+                  opacity: 0
+                }).start();
+                _this3.press_node.clearTracks();
+                _this3.press_node.setToSetupPose();
+                _this3.press_node.setAnimation(0, "animation3", false);
+                _this3.press_node.setCompleteListener(function(track) {
+                  var name = track.animation ? track.animation.name : "";
+                  if ("animation3" === name) {
+                    _this3._startMove = true;
+                    cc.vv.AudioManager.playEff("games/VampireCount/", "jp_spin", true);
+                    _this3.press_node.active = false;
+                    _this3.kuloushouzhi.node.active = true;
+                    _this3.kuloushouzhi.setAnimation(0, "animation", false);
+                    _this3.kuloushouzhi.addAnimation(0, "animation2", true);
+                  }
+                });
+              });
+
+             case 16:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      reset: function reset() {
+        this._startMove = false;
+        this._newSpeed = 1;
+        this._needStop = false;
+        this._count = 6;
+        this._hasPressed = false;
+        this._backMove = false;
+      }
+    });
+    cc._RF.pop();
+  }, {} ]
+}, {}, [ "VampireCount_Cfg", "VampireCount_Logic", "VampireCount_Map", "VampireCount_PickGame", "VampireCount_PrizePool", "VampireCount_Reel", "VampireCount_Slots", "VampireCount_Symbol", "VampireCount_Wheel" ]);

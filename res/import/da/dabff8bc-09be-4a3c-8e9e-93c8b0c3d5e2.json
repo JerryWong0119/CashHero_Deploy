@@ -1,1 +1,194 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"QyAvLMd4UCA5iPEYZcGfMXNJfw0","spine":"3.6.53","width":1461.22,"height":1460.73,"images":"../素材/"},"bones":[{"name":"root"},{"name":"1","parent":"root","scaleX":1.513,"scaleY":1.513},{"name":"guangci","parent":"1"},{"name":"guangci2","parent":"1"}],"slots":[{"name":"guangci","bone":"guangci","color":"9121ffff","attachment":"guangyun_00000","blend":"additive"},{"name":"guangci3","bone":"guangci2","color":"9121ffff","attachment":"guangyun_00000"},{"name":"guangci2","bone":"guangci","color":"e4bfffff","attachment":"guangyun_00000","blend":"additive"},{"name":"guangci4","bone":"guangci2","color":"9300ffff","attachment":"guangyun_00000","blend":"additive"}],"skins":{"default":{"guangci":{"guangyun_00000":{"scaleX":2.55,"scaleY":2.55,"rotation":-42.42,"width":269,"height":267}},"guangci2":{"guangyun_00000":{"scaleX":2.5,"scaleY":2.5,"rotation":-48.66,"width":269,"height":267}},"guangci3":{"guangyun_00000":{"scaleX":2.55,"scaleY":2.55,"rotation":-42.42,"width":269,"height":267}},"guangci4":{"guangyun_00000":{"scaleX":2.5,"scaleY":2.5,"rotation":-48.66,"width":269,"height":267}}}},"animations":{"animation":{"slots":{"guangci":{"color":[{"time":0,"color":"b76effff"}]},"guangci2":{"color":[{"time":0,"color":"f7edffff"}]}},"bones":{"guangci":{"rotate":[{"time":0,"angle":0},{"time":1.3333,"angle":180},{"time":2.6667,"angle":0}],"translate":[{"time":0,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1}]},"guangci2":{"rotate":[{"time":0,"angle":5},{"time":1.3333,"angle":180},{"time":2.6667,"angle":-5}],"translate":[{"time":0,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1}]}}}}},"_atlasText":"\nguangci.png\nsize: 269,267\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguangyun_00000\n  rotate: false\n  xy: 0, 0\n  size: 269, 267\n  orig: 269, 267\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"f9Q+OrXkJGea5BW4xryEX4"}],"textureNames":["guangci.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "QyAvLMd4UCA5iPEYZcGfMXNJfw0",
+      "spine": "3.6.53",
+      "width": 1461.22,
+      "height": 1460.73,
+      "images": "../素材/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "1",
+        "parent": "root",
+        "scaleX": 1.513,
+        "scaleY": 1.513
+      },
+      {
+        "name": "guangci",
+        "parent": "1"
+      },
+      {
+        "name": "guangci2",
+        "parent": "1"
+      }
+    ],
+    "slots": [
+      {
+        "name": "guangci",
+        "bone": "guangci",
+        "color": "9121ffff",
+        "attachment": "guangyun_00000",
+        "blend": "additive"
+      },
+      {
+        "name": "guangci3",
+        "bone": "guangci2",
+        "color": "9121ffff",
+        "attachment": "guangyun_00000"
+      },
+      {
+        "name": "guangci2",
+        "bone": "guangci",
+        "color": "e4bfffff",
+        "attachment": "guangyun_00000",
+        "blend": "additive"
+      },
+      {
+        "name": "guangci4",
+        "bone": "guangci2",
+        "color": "9300ffff",
+        "attachment": "guangyun_00000",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "guangci": {
+          "guangyun_00000": {
+            "scaleX": 2.55,
+            "scaleY": 2.55,
+            "rotation": -42.42,
+            "width": 269,
+            "height": 267
+          }
+        },
+        "guangci2": {
+          "guangyun_00000": {
+            "scaleX": 2.5,
+            "scaleY": 2.5,
+            "rotation": -48.66,
+            "width": 269,
+            "height": 267
+          }
+        },
+        "guangci3": {
+          "guangyun_00000": {
+            "scaleX": 2.55,
+            "scaleY": 2.55,
+            "rotation": -42.42,
+            "width": 269,
+            "height": 267
+          }
+        },
+        "guangci4": {
+          "guangyun_00000": {
+            "scaleX": 2.5,
+            "scaleY": 2.5,
+            "rotation": -48.66,
+            "width": 269,
+            "height": 267
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "guangci": {
+            "color": [
+              {
+                "time": 0,
+                "color": "b76effff"
+              }
+            ]
+          },
+          "guangci2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "f7edffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "guangci": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 1.3333,
+                "angle": 180
+              },
+              {
+                "time": 2.6667,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "guangci2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 5
+              },
+              {
+                "time": 1.3333,
+                "angle": 180
+              },
+              {
+                "time": 2.6667,
+                "angle": -5
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nguangci.png\nsize: 269,267\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguangyun_00000\n  rotate: false\n  xy: 0, 0\n  size: 269, 267\n  orig: 269, 267\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "f9Q+OrXkJGea5BW4xryEX4"
+    }
+  ],
+  "textureNames": [
+    "guangci.png"
+  ]
+}

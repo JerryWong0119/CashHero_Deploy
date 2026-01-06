@@ -1,1 +1,198 @@
-[{"__type__":"cc.Prefab","_name":"map_item_1","data":{"__id__":1}},{"__type__":"cc.Node","_name":"item","_children":[{"__id__":2},{"__id__":3},{"__type__":"cc.Node","_name":"pos","_parent":{"__id__":1},"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"bc6hcwRxBL1KKVVA0TmifW"},"fileId":"c3GoJF1KRDEb1yRReZZsgi"},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,65.659,0,0,0,0,1,1,1,1]}}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"bc6hcwRxBL1KKVVA0TmifW"},"fileId":"6ft4jKNh9CFJMK5uUe4zEM"},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,0,0,0,0,0,1,1,1,1]}},{"__type__":"cc.Node","_name":"spine","_parent":{"__id__":1},"_components":[{"__type__":"sp.Skeleton","_name":"spine<Skeleton>","node":{"__id__":2},"_materials":[{"__uuid__":"7a/QZLET9IDreTiBfRn2PD"}],"defaultSkin":"default","defaultAnimation":"animation1_1","_preCacheMode":0,"premultipliedAlpha":false,"_animationName":"animation1_1","_N$skeletonData":{"__uuid__":"d2/Klw0lxKIJNiR4Dcpdnt"}}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"bc6hcwRxBL1KKVVA0TmifW"},"fileId":"dd4yVzR5pIX6sylVsbcWqN"},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,0,0,0,0,0,1,1,1,1]}},{"__type__":"cc.Node","_name":"label_step","_parent":{"__id__":1},"_components":[{"__type__":"cc.Label","_name":"label_step<Label>","node":{"__id__":3},"_materials":[{"__uuid__":"ecpdLyjvZBwrvm+cedCcQy"}],"_useOriginalSize":false,"_string":"1","_N$string":"1","_fontSize":26,"_lineHeight":26,"_N$file":{"__uuid__":"29TOkg7W5AW7sYiJPA6yaj"},"_isSystemFontUsed":false,"_N$horizontalAlign":1,"_N$verticalAlign":1}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"bc6hcwRxBL1KKVVA0TmifW"},"fileId":"b6O+q0a+BAp4EgQZK5truI"},"_contentSize":{"__type__":"cc.Size","width":19,"height":26},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[-4,10.795,0,0,0,0,1,1,1,1]}}]
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "map_item_1",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "item",
+    "_children": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__type__": "cc.Node",
+        "_name": "pos",
+        "_parent": {
+          "__id__": 1
+        },
+        "_prefab": {
+          "__type__": "cc.PrefabInfo",
+          "root": {
+            "__id__": 1
+          },
+          "asset": {
+            "__uuid__": "bc6hcwRxBL1KKVVA0TmifW"
+          },
+          "fileId": "c3GoJF1KRDEb1yRReZZsgi"
+        },
+        "_trs": {
+          "__type__": "TypedArray",
+          "ctor": "Float64Array",
+          "array": [
+            0,
+            65.659,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "bc6hcwRxBL1KKVVA0TmifW"
+      },
+      "fileId": "6ft4jKNh9CFJMK5uUe4zEM"
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "spine",
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__type__": "sp.Skeleton",
+        "_name": "spine<Skeleton>",
+        "node": {
+          "__id__": 2
+        },
+        "_materials": [
+          {
+            "__uuid__": "7a/QZLET9IDreTiBfRn2PD"
+          }
+        ],
+        "defaultSkin": "default",
+        "defaultAnimation": "animation1_1",
+        "_preCacheMode": 0,
+        "premultipliedAlpha": false,
+        "_animationName": "animation1_1",
+        "_N$skeletonData": {
+          "__uuid__": "d2/Klw0lxKIJNiR4Dcpdnt"
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "bc6hcwRxBL1KKVVA0TmifW"
+      },
+      "fileId": "dd4yVzR5pIX6sylVsbcWqN"
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "label_step",
+    "_parent": {
+      "__id__": 1
+    },
+    "_components": [
+      {
+        "__type__": "cc.Label",
+        "_name": "label_step<Label>",
+        "node": {
+          "__id__": 3
+        },
+        "_materials": [
+          {
+            "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+          }
+        ],
+        "_useOriginalSize": false,
+        "_string": "1",
+        "_N$string": "1",
+        "_fontSize": 26,
+        "_lineHeight": 26,
+        "_N$file": {
+          "__uuid__": "29TOkg7W5AW7sYiJPA6yaj"
+        },
+        "_isSystemFontUsed": false,
+        "_N$horizontalAlign": 1,
+        "_N$verticalAlign": 1
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "bc6hcwRxBL1KKVVA0TmifW"
+      },
+      "fileId": "b6O+q0a+BAp4EgQZK5truI"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 19,
+      "height": 26
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -4,
+        10.795,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  }
+]

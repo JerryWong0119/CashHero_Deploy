@@ -1,1 +1,90 @@
-{"__type__":"sp.SkeletonData","_name":"pick_huxi","_skeletonJson":{"skeleton":{"hash":"mlxRLNAeEhMk4OW6jG/U2cpIW68","spine":"3.6.53","width":1060,"height":1560,"images":"../素材/"},"bones":[{"name":"root"},{"name":"pick","parent":"root"}],"slots":[{"name":"saaa-cc拷贝","bone":"root","color":"3b3b3bff"},{"name":"YOU-WIN----","bone":"pick","attachment":"YOU-WIN----"}],"skins":{"default":{"YOU-WIN----":{"YOU-WIN----":{"width":613,"height":266}}}},"animations":{"animation":{"bones":{"pick":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.1,"x":1.099,"y":1.099,"curve":[0.25,0,0.75,1]},{"time":2.5,"x":1,"y":1}]}}}}},"_atlasText":"\npick_huxi.png\nsize: 307,133\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nYOU-WIN----\n  rotate: false\n  xy: 0, 0\n  size: 307, 133\n  orig: 307, 133\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"465ZU8j/FA1b78k4Ll0+l5"}],"textureNames":["pick_huxi.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "pick_huxi",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "mlxRLNAeEhMk4OW6jG/U2cpIW68",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../素材/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "pick",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "saaa-cc拷贝",
+        "bone": "root",
+        "color": "3b3b3bff"
+      },
+      {
+        "name": "YOU-WIN----",
+        "bone": "pick",
+        "attachment": "YOU-WIN----"
+      }
+    ],
+    "skins": {
+      "default": {
+        "YOU-WIN----": {
+          "YOU-WIN----": {
+            "width": 613,
+            "height": 266
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "bones": {
+          "pick": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1,
+                "x": 1.099,
+                "y": 1.099,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\npick_huxi.png\nsize: 307,133\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nYOU-WIN----\n  rotate: false\n  xy: 0, 0\n  size: 307, 133\n  orig: 307, 133\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "465ZU8j/FA1b78k4Ll0+l5"
+    }
+  ],
+  "textureNames": [
+    "pick_huxi.png"
+  ]
+}

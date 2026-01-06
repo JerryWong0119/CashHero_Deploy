@@ -1,1 +1,391 @@
-{"__type__":"sp.SkeletonData","_name":"Symbol_ChilliFiesta_8","_skeletonJson":{"skeleton":{"hash":"x0s+AMrWt7wy1M0N0YR7q4J+xRo","spine":"3.6.53","width":199,"height":165.06,"images":"./img/"},"bones":[{"name":"root"},{"name":"bone","parent":"root"},{"name":"bone2","parent":"bone"},{"name":"bone3","parent":"bone"},{"name":"bone4","parent":"bone","rotation":1.5,"x":-0.7,"y":0.5,"color":"f60b0bff"},{"name":"wbo","parent":"bone4","length":73.93,"rotation":-87.57,"x":26.67,"y":8.73,"color":"f60b0bff"}],"slots":[{"name":"bj","bone":"root","attachment":"bj"},{"name":"wbo","bone":"wbo","attachment":"wbo"},{"name":"wbo2","bone":"bone3","attachment":"wbo"},{"name":"ChilliFiesta_8","bone":"bone4","attachment":"mz"},{"name":"ChilliFiesta_9","bone":"bone3","attachment":"mz"}],"skins":{"default":{"ChilliFiesta_8":{"mz":{"x":2.21,"y":-3.15,"rotation":-1.5,"width":199,"height":145}},"ChilliFiesta_9":{"mz":{"path":"1","x":1.59,"y":-2.59,"width":199,"height":145}},"bj":{"bj":{"width":180,"height":160}},"wbo":{"wbo":{"x":24.44,"y":-1.39,"rotation":86.07,"width":92,"height":141}},"wbo2":{"wbo":{"path":"2","x":26.02,"y":-14.56,"width":92,"height":141}}}},"animations":{"Dack":{"slots":{"ChilliFiesta_8":{"color":[{"time":0,"color":"ffffff00"}],"attachment":[{"time":0,"name":null}]},"ChilliFiesta_9":{"color":[{"time":0,"color":"ffffffff"}]},"wbo":{"attachment":[{"time":0,"name":null}]}}},"actionframe":{"slots":{"ChilliFiesta_9":{"attachment":[{"time":0,"name":null}]},"wbo2":{"attachment":[{"time":0,"name":null}]}},"bones":{"bone4":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":0.3333,"angle":0},{"time":1,"angle":-13.2},{"time":1.6667,"angle":0,"curve":"stepped"},{"time":2,"angle":0}],"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.3333,"x":0,"y":0,"curve":"stepped"},{"time":1.6667,"x":0,"y":0,"curve":"stepped"},{"time":2,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.3333,"x":1,"y":1,"curve":"stepped"},{"time":1.6667,"x":1,"y":1,"curve":"stepped"},{"time":2,"x":1,"y":1}]},"bone":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":0.3333,"angle":0},{"time":1,"angle":-18},{"time":1.6667,"angle":0,"curve":"stepped"},{"time":2,"angle":0}],"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.3333,"x":0,"y":0,"curve":"stepped"},{"time":1.6667,"x":0,"y":0,"curve":"stepped"},{"time":2,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.3333,"x":1,"y":1},{"time":1,"x":1.1,"y":1.1},{"time":1.6667,"x":1,"y":1,"curve":"stepped"},{"time":2,"x":1,"y":1}]},"wbo":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.625,0.5]},{"time":1,"angle":8.16,"curve":[0.375,0.5,0.75,1]},{"time":2,"angle":0}]}}},"idleframe":{"slots":{"ChilliFiesta_9":{"attachment":[{"time":0,"name":null}]},"wbo2":{"attachment":[{"time":0,"name":null}]}}}}},"_atlasText":"\nSymbol_ChilliFiesta_8.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 203, 96\n  size: 199, 145\n  orig: 199, 145\n  offset: 0, 0\n  index: -1\n2\n  rotate: false\n  xy: 586, 100\n  size: 92, 141\n  orig: 92, 141\n  offset: 0, 0\n  index: -1\nbj\n  rotate: false\n  xy: 404, 81\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nmz\n  rotate: false\n  xy: 2, 96\n  size: 199, 145\n  orig: 199, 145\n  offset: 0, 0\n  index: -1\nwbo\n  rotate: true\n  xy: 2, 2\n  size: 92, 141\n  orig: 92, 141\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"efbt3dyilD54t+OYQ/Mx7o"}],"textureNames":["Symbol_ChilliFiesta_8.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Symbol_ChilliFiesta_8",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "x0s+AMrWt7wy1M0N0YR7q4J+xRo",
+      "spine": "3.6.53",
+      "width": 199,
+      "height": 165.06,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root"
+      },
+      {
+        "name": "bone2",
+        "parent": "bone"
+      },
+      {
+        "name": "bone3",
+        "parent": "bone"
+      },
+      {
+        "name": "bone4",
+        "parent": "bone",
+        "rotation": 1.5,
+        "x": -0.7,
+        "y": 0.5,
+        "color": "f60b0bff"
+      },
+      {
+        "name": "wbo",
+        "parent": "bone4",
+        "length": 73.93,
+        "rotation": -87.57,
+        "x": 26.67,
+        "y": 8.73,
+        "color": "f60b0bff"
+      }
+    ],
+    "slots": [
+      {
+        "name": "bj",
+        "bone": "root",
+        "attachment": "bj"
+      },
+      {
+        "name": "wbo",
+        "bone": "wbo",
+        "attachment": "wbo"
+      },
+      {
+        "name": "wbo2",
+        "bone": "bone3",
+        "attachment": "wbo"
+      },
+      {
+        "name": "ChilliFiesta_8",
+        "bone": "bone4",
+        "attachment": "mz"
+      },
+      {
+        "name": "ChilliFiesta_9",
+        "bone": "bone3",
+        "attachment": "mz"
+      }
+    ],
+    "skins": {
+      "default": {
+        "ChilliFiesta_8": {
+          "mz": {
+            "x": 2.21,
+            "y": -3.15,
+            "rotation": -1.5,
+            "width": 199,
+            "height": 145
+          }
+        },
+        "ChilliFiesta_9": {
+          "mz": {
+            "path": "1",
+            "x": 1.59,
+            "y": -2.59,
+            "width": 199,
+            "height": 145
+          }
+        },
+        "bj": {
+          "bj": {
+            "width": 180,
+            "height": 160
+          }
+        },
+        "wbo": {
+          "wbo": {
+            "x": 24.44,
+            "y": -1.39,
+            "rotation": 86.07,
+            "width": 92,
+            "height": 141
+          }
+        },
+        "wbo2": {
+          "wbo": {
+            "path": "2",
+            "x": 26.02,
+            "y": -14.56,
+            "width": 92,
+            "height": 141
+          }
+        }
+      }
+    },
+    "animations": {
+      "Dack": {
+        "slots": {
+          "ChilliFiesta_8": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ChilliFiesta_9": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "wbo": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "actionframe": {
+        "slots": {
+          "ChilliFiesta_9": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "wbo2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone4": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "angle": 0
+              },
+              {
+                "time": 1,
+                "angle": -13.2
+              },
+              {
+                "time": 1.6667,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "bone": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "angle": 0
+              },
+              {
+                "time": 1,
+                "angle": -18
+              },
+              {
+                "time": 1.6667,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 1,
+                "x": 1.1,
+                "y": 1.1
+              },
+              {
+                "time": 1.6667,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "wbo": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "angle": 8.16,
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          }
+        }
+      },
+      "idleframe": {
+        "slots": {
+          "ChilliFiesta_9": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "wbo2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nSymbol_ChilliFiesta_8.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 203, 96\n  size: 199, 145\n  orig: 199, 145\n  offset: 0, 0\n  index: -1\n2\n  rotate: false\n  xy: 586, 100\n  size: 92, 141\n  orig: 92, 141\n  offset: 0, 0\n  index: -1\nbj\n  rotate: false\n  xy: 404, 81\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nmz\n  rotate: false\n  xy: 2, 96\n  size: 199, 145\n  orig: 199, 145\n  offset: 0, 0\n  index: -1\nwbo\n  rotate: true\n  xy: 2, 2\n  size: 92, 141\n  orig: 92, 141\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "efbt3dyilD54t+OYQ/Mx7o"
+    }
+  ],
+  "textureNames": [
+    "Symbol_ChilliFiesta_8.png"
+  ]
+}

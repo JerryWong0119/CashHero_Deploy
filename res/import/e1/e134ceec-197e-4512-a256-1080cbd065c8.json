@@ -1,1 +1,197 @@
-{"__type__":"sp.SkeletonData","_name":"yifenkuang","_skeletonJson":{"skeleton":{"hash":"2rmkRSwG4RxafIBY/hDS1bMR+3k","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"g","parent":"root","x":2,"y":7.79,"scaleX":2,"scaleY":2},{"name":"kuang","parent":"root","x":-162},{"name":"kuang2","parent":"root","x":164,"scaleX":-1},{"name":"zhuangshi","parent":"root","x":-322.57},{"name":"zhuangshi2","parent":"root","x":322.57,"scaleX":-1}],"slots":[{"name":"yingfenkuang","bone":"kuang"},{"name":"yingfenkuang2","bone":"kuang2"},{"name":"kuangshi","bone":"zhuangshi"},{"name":"kuangshi2","bone":"zhuangshi2"},{"name":"g","bone":"g","blend":"additive"}],"skins":{"default":{"g":{"kuang_00":{"width":434,"height":127}},"kuangshi":{"kuangshi":{"width":52,"height":142}},"kuangshi2":{"kuangshi":{"width":52,"height":142}},"yingfenkuang":{"yingfenkuang":{"width":326,"height":139}},"yingfenkuang2":{"yingfenkuang":{"width":326,"height":139}}}},"animations":{"yingfenkuang":{"slots":{"g":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"kuang_00"}]},"kuangshi":{"attachment":[{"time":0,"name":"kuangshi"}]},"kuangshi2":{"attachment":[{"time":0,"name":"kuangshi"}]},"yingfenkuang":{"attachment":[{"time":0,"name":"yingfenkuang"}]},"yingfenkuang2":{"attachment":[{"time":0,"name":"yingfenkuang"}]}},"bones":{"kuang2":{"translate":[{"time":0,"x":-1,"y":0}]}}}}},"_atlasText":"\nyifenkuang.png\nsize: 820,146\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nkuang_00\n  rotate: false\n  xy: 2, 17\n  size: 434, 127\n  orig: 434, 127\n  offset: 0, 0\n  index: -1\nkuangshi\n  rotate: false\n  xy: 766, 2\n  size: 52, 142\n  orig: 52, 142\n  offset: 0, 0\n  index: -1\nyingfenkuang\n  rotate: false\n  xy: 438, 5\n  size: 326, 139\n  orig: 326, 139\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"39TtXZHO1Go51odmRFiVpo"}],"textureNames":["yifenkuang.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "yifenkuang",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "2rmkRSwG4RxafIBY/hDS1bMR+3k",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "g",
+        "parent": "root",
+        "x": 2,
+        "y": 7.79,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "kuang",
+        "parent": "root",
+        "x": -162
+      },
+      {
+        "name": "kuang2",
+        "parent": "root",
+        "x": 164,
+        "scaleX": -1
+      },
+      {
+        "name": "zhuangshi",
+        "parent": "root",
+        "x": -322.57
+      },
+      {
+        "name": "zhuangshi2",
+        "parent": "root",
+        "x": 322.57,
+        "scaleX": -1
+      }
+    ],
+    "slots": [
+      {
+        "name": "yingfenkuang",
+        "bone": "kuang"
+      },
+      {
+        "name": "yingfenkuang2",
+        "bone": "kuang2"
+      },
+      {
+        "name": "kuangshi",
+        "bone": "zhuangshi"
+      },
+      {
+        "name": "kuangshi2",
+        "bone": "zhuangshi2"
+      },
+      {
+        "name": "g",
+        "bone": "g",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "g": {
+          "kuang_00": {
+            "width": 434,
+            "height": 127
+          }
+        },
+        "kuangshi": {
+          "kuangshi": {
+            "width": 52,
+            "height": 142
+          }
+        },
+        "kuangshi2": {
+          "kuangshi": {
+            "width": 52,
+            "height": 142
+          }
+        },
+        "yingfenkuang": {
+          "yingfenkuang": {
+            "width": 326,
+            "height": 139
+          }
+        },
+        "yingfenkuang2": {
+          "yingfenkuang": {
+            "width": 326,
+            "height": 139
+          }
+        }
+      }
+    },
+    "animations": {
+      "yingfenkuang": {
+        "slots": {
+          "g": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "kuang_00"
+              }
+            ]
+          },
+          "kuangshi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "kuangshi"
+              }
+            ]
+          },
+          "kuangshi2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "kuangshi"
+              }
+            ]
+          },
+          "yingfenkuang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "yingfenkuang"
+              }
+            ]
+          },
+          "yingfenkuang2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "yingfenkuang"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "kuang2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -1,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nyifenkuang.png\nsize: 820,146\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nkuang_00\n  rotate: false\n  xy: 2, 17\n  size: 434, 127\n  orig: 434, 127\n  offset: 0, 0\n  index: -1\nkuangshi\n  rotate: false\n  xy: 766, 2\n  size: 52, 142\n  orig: 52, 142\n  offset: 0, 0\n  index: -1\nyingfenkuang\n  rotate: false\n  xy: 438, 5\n  size: 326, 139\n  orig: 326, 139\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "39TtXZHO1Go51odmRFiVpo"
+    }
+  ],
+  "textureNames": [
+    "yifenkuang.png"
+  ]
+}

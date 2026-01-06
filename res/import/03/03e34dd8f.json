@@ -1,1 +1,433 @@
-[{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle_14_6","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[714,144,138,236],"offset":[0,0],"originalSize":[246,246],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle14_bg","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[2,2,570,434],"offset":[0,0],"originalSize":[570,434],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle_14_4","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[658,524,188,140],"offset":[-25,0],"originalSize":[246,246],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle_14_2","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[418,438,238,140],"offset":[0,0],"originalSize":[246,246],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle_14_12","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[418,580,188,140],"offset":[-25,1],"originalSize":[246,246],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle_14_1","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[748,806,138,188],"offset":[0,-25],"originalSize":[246,246],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle_14_8","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[658,384,138,236],"offset":[0,0],"originalSize":[246,246],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle_14_3","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[608,806,138,188],"offset":[0,-25],"originalSize":[246,246],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle_14_11","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[418,862,138,188],"offset":[0,25],"originalSize":[246,246],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle14_full","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[2,438,550,414],"offset":[0,0],"originalSize":[550,414],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteAtlas","_name":"puzzle_14.plist","_spriteFrames":{"theme_store_puzzle14_bg":{"__uuid__":"10JjqC4/1Jco/RXmziE+b4"},"theme_store_puzzle14_full":{"__uuid__":"ba27ECLl9PsqPcVrK5/16n"},"theme_store_puzzle_14_1":{"__uuid__":"38dPtxu3BE97nCLSHKQK6F"},"theme_store_puzzle_14_10":{"__uuid__":"f9XLicyydLY7ntxRDU+HcQ"},"theme_store_puzzle_14_11":{"__uuid__":"b7Bjqkw2tHpp08KVRdEVw3"},"theme_store_puzzle_14_12":{"__uuid__":"26ezSbLYJPLbwjTZoewugQ"},"theme_store_puzzle_14_2":{"__uuid__":"1cZ6rMBTFIuJl0fR5zQ6Mn"},"theme_store_puzzle_14_3":{"__uuid__":"54pY+ZYQdPzJH2iNNOag4M"},"theme_store_puzzle_14_4":{"__uuid__":"1a8fHIW0hJc7GRHQlMPTzg"},"theme_store_puzzle_14_5":{"__uuid__":"e1I1Yf2JZEe5JkcmxGG0eB"},"theme_store_puzzle_14_6":{"__uuid__":"0djoRbcT1B4pJdHSpeE4+v"},"theme_store_puzzle_14_7":{"__uuid__":"dfunlZ3QtFyIp7jrVQCEAU"},"theme_store_puzzle_14_8":{"__uuid__":"5279PH6K5DyJntf4pEIgJ0"},"theme_store_puzzle_14_9":{"__uuid__":"db6H4z3uJCm59nsKEi2zh9"}}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle_14_9","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[418,722,138,188],"offset":[0,25],"originalSize":[246,246],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle_14_7","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[574,144,238,138],"offset":[-1,0],"originalSize":[246,246],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle_14_5","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[608,666,188,138],"offset":[24,0],"originalSize":[246,246],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_store_puzzle_14_10","texture":"35DpFQq3pCrpE/i7NRsWdQ","rect":[574,2,238,140],"offset":[0,1],"originalSize":[246,246],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle_14_6",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        714,
+        144,
+        138,
+        236
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        246,
+        246
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle14_bg",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        2,
+        2,
+        570,
+        434
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        570,
+        434
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle_14_4",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        658,
+        524,
+        188,
+        140
+      ],
+      "offset": [
+        -25,
+        0
+      ],
+      "originalSize": [
+        246,
+        246
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle_14_2",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        418,
+        438,
+        238,
+        140
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        246,
+        246
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle_14_12",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        418,
+        580,
+        188,
+        140
+      ],
+      "offset": [
+        -25,
+        1
+      ],
+      "originalSize": [
+        246,
+        246
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle_14_1",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        748,
+        806,
+        138,
+        188
+      ],
+      "offset": [
+        0,
+        -25
+      ],
+      "originalSize": [
+        246,
+        246
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle_14_8",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        658,
+        384,
+        138,
+        236
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        246,
+        246
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle_14_3",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        608,
+        806,
+        138,
+        188
+      ],
+      "offset": [
+        0,
+        -25
+      ],
+      "originalSize": [
+        246,
+        246
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle_14_11",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        418,
+        862,
+        138,
+        188
+      ],
+      "offset": [
+        0,
+        25
+      ],
+      "originalSize": [
+        246,
+        246
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle14_full",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        2,
+        438,
+        550,
+        414
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        550,
+        414
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "puzzle_14.plist",
+    "_spriteFrames": {
+      "theme_store_puzzle14_bg": {
+        "__uuid__": "10JjqC4/1Jco/RXmziE+b4"
+      },
+      "theme_store_puzzle14_full": {
+        "__uuid__": "ba27ECLl9PsqPcVrK5/16n"
+      },
+      "theme_store_puzzle_14_1": {
+        "__uuid__": "38dPtxu3BE97nCLSHKQK6F"
+      },
+      "theme_store_puzzle_14_10": {
+        "__uuid__": "f9XLicyydLY7ntxRDU+HcQ"
+      },
+      "theme_store_puzzle_14_11": {
+        "__uuid__": "b7Bjqkw2tHpp08KVRdEVw3"
+      },
+      "theme_store_puzzle_14_12": {
+        "__uuid__": "26ezSbLYJPLbwjTZoewugQ"
+      },
+      "theme_store_puzzle_14_2": {
+        "__uuid__": "1cZ6rMBTFIuJl0fR5zQ6Mn"
+      },
+      "theme_store_puzzle_14_3": {
+        "__uuid__": "54pY+ZYQdPzJH2iNNOag4M"
+      },
+      "theme_store_puzzle_14_4": {
+        "__uuid__": "1a8fHIW0hJc7GRHQlMPTzg"
+      },
+      "theme_store_puzzle_14_5": {
+        "__uuid__": "e1I1Yf2JZEe5JkcmxGG0eB"
+      },
+      "theme_store_puzzle_14_6": {
+        "__uuid__": "0djoRbcT1B4pJdHSpeE4+v"
+      },
+      "theme_store_puzzle_14_7": {
+        "__uuid__": "dfunlZ3QtFyIp7jrVQCEAU"
+      },
+      "theme_store_puzzle_14_8": {
+        "__uuid__": "5279PH6K5DyJntf4pEIgJ0"
+      },
+      "theme_store_puzzle_14_9": {
+        "__uuid__": "db6H4z3uJCm59nsKEi2zh9"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle_14_9",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        418,
+        722,
+        138,
+        188
+      ],
+      "offset": [
+        0,
+        25
+      ],
+      "originalSize": [
+        246,
+        246
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle_14_7",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        574,
+        144,
+        238,
+        138
+      ],
+      "offset": [
+        -1,
+        0
+      ],
+      "originalSize": [
+        246,
+        246
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle_14_5",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        608,
+        666,
+        188,
+        138
+      ],
+      "offset": [
+        24,
+        0
+      ],
+      "originalSize": [
+        246,
+        246
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_store_puzzle_14_10",
+      "texture": "35DpFQq3pCrpE/i7NRsWdQ",
+      "rect": [
+        574,
+        2,
+        238,
+        140
+      ],
+      "offset": [
+        0,
+        1
+      ],
+      "originalSize": [
+        246,
+        246
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

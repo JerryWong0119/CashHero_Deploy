@@ -1,1 +1,166 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"raBQvSm/5oMOGIfgWiEsq4Scuow","spine":"3.6.53","width":124,"height":100,"images":"./img/"},"bones":[{"name":"root"},{"name":"theme194_s_1","parent":"root"},{"name":"qgaoliang","parent":"theme194_s_1","x":-0.62,"y":4},{"name":"骨骼","parent":"root","x":-246.93,"y":315.85}],"slots":[{"name":"194-power-shot1","bone":"骨骼"},{"name":"theme194_s_1","bone":"theme194_s_1","attachment":"theme194_s_9"},{"name":"qgaoliang","bone":"qgaoliang","attachment":"ddd"}],"skins":{"default":{"qgaoliang":{"ddd":{"y":-4.98,"width":60,"height":80}},"theme194_s_1":{"theme194_s_9":{"x":-0.45,"y":-0.15,"width":124,"height":100}}}},"animations":{"animation":{"slots":{"qgaoliang":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff"},{"time":0.8333,"color":"ffffff00"}]},"theme194_s_1":{"color":[{"time":0,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffb2"},{"time":0.7667,"color":"ffffffff"}]}},"bones":{"theme194_s_1":{"scale":[{"time":0.5,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.8333,"x":1.345,"y":1.345,"curve":[0.25,0,0.75,1]},{"time":1.1667,"x":0.885,"y":0.885,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":1,"y":1}]}}}}},"_atlasText":"\nspine.png\nsize: 115,113\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nddd\n  rotate: false\n  xy: 2, 31\n  size: 60, 80\n  orig: 60, 80\n  offset: 0, 0\n  index: -1\ntheme194_s_9\n  rotate: false\n  xy: 64, 38\n  size: 49, 73\n  orig: 124, 100\n  offset: 38, 11\n  index: -1\n","textures":[{"__uuid__":"8aeEs0lZVHDKblPLl+Ikxo"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "raBQvSm/5oMOGIfgWiEsq4Scuow",
+      "spine": "3.6.53",
+      "width": 124,
+      "height": 100,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "theme194_s_1",
+        "parent": "root"
+      },
+      {
+        "name": "qgaoliang",
+        "parent": "theme194_s_1",
+        "x": -0.62,
+        "y": 4
+      },
+      {
+        "name": "骨骼",
+        "parent": "root",
+        "x": -246.93,
+        "y": 315.85
+      }
+    ],
+    "slots": [
+      {
+        "name": "194-power-shot1",
+        "bone": "骨骼"
+      },
+      {
+        "name": "theme194_s_1",
+        "bone": "theme194_s_1",
+        "attachment": "theme194_s_9"
+      },
+      {
+        "name": "qgaoliang",
+        "bone": "qgaoliang",
+        "attachment": "ddd"
+      }
+    ],
+    "skins": {
+      "default": {
+        "qgaoliang": {
+          "ddd": {
+            "y": -4.98,
+            "width": 60,
+            "height": 80
+          }
+        },
+        "theme194_s_1": {
+          "theme194_s_9": {
+            "x": -0.45,
+            "y": -0.15,
+            "width": 124,
+            "height": 100
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "qgaoliang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "theme194_s_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffb2"
+              },
+              {
+                "time": 0.7667,
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "theme194_s_1": {
+            "scale": [
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 1.345,
+                "y": 1.345,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 0.885,
+                "y": 0.885,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 115,113\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nddd\n  rotate: false\n  xy: 2, 31\n  size: 60, 80\n  orig: 60, 80\n  offset: 0, 0\n  index: -1\ntheme194_s_9\n  rotate: false\n  xy: 64, 38\n  size: 49, 73\n  orig: 124, 100\n  offset: 38, 11\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "8aeEs0lZVHDKblPLl+Ikxo"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

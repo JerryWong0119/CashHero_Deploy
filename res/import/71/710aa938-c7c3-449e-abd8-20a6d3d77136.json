@@ -1,1 +1,186 @@
-{"__type__":"sp.SkeletonData","_name":"base_jl2","_skeletonJson":{"skeleton":{"hash":"NTPQjEb0WXnh9a5/sLJTQbs0iRo","spine":"3.6.53","width":1060,"height":1840,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"zong","parent":"root","scaleX":2,"scaleY":2},{"name":"jg","parent":"zong"},{"name":"quan","parent":"zong","y":5.11,"scaleX":0.554,"scaleY":0.554}],"slots":[{"name":"0base_0","bone":"root"},{"name":"jg_0","bone":"jg"},{"name":"quan_0","bone":"quan","blend":"additive"}],"skins":{"default":{"jg_0":{"jg_0":{"width":530,"height":780}},"quan_0":{"quan_0":{"width":435,"height":436}}}},"animations":{"animation":{"slots":{"jg_0":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.1667,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.8333,"color":"ffffffff","curve":"stepped"},{"time":1.3333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"jg_0"}]},"quan_0":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.6667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"quan_0"}]}},"bones":{"quan":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1,"x":2.806,"y":2.806}]}}}}},"_atlasText":"\nbase_jl2.png\nsize: 971,969\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\njg_0\n  rotate: false\n  xy: 2, 187\n  size: 530, 780\n  orig: 530, 780\n  offset: 0, 0\n  index: -1\nquan_0\n  rotate: false\n  xy: 534, 531\n  size: 435, 436\n  orig: 435, 436\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"4fPr1b66JDbpfugdYjGTXe"}],"textureNames":["base_jl2.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "base_jl2",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "NTPQjEb0WXnh9a5/sLJTQbs0iRo",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1840,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root",
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "jg",
+        "parent": "zong"
+      },
+      {
+        "name": "quan",
+        "parent": "zong",
+        "y": 5.11,
+        "scaleX": 0.554,
+        "scaleY": 0.554
+      }
+    ],
+    "slots": [
+      {
+        "name": "0base_0",
+        "bone": "root"
+      },
+      {
+        "name": "jg_0",
+        "bone": "jg"
+      },
+      {
+        "name": "quan_0",
+        "bone": "quan",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "jg_0": {
+          "jg_0": {
+            "width": 530,
+            "height": 780
+          }
+        },
+        "quan_0": {
+          "quan_0": {
+            "width": 435,
+            "height": 436
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "jg_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "jg_0"
+              }
+            ]
+          },
+          "quan_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "quan_0"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "quan": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 2.806,
+                "y": 2.806
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbase_jl2.png\nsize: 971,969\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\njg_0\n  rotate: false\n  xy: 2, 187\n  size: 530, 780\n  orig: 530, 780\n  offset: 0, 0\n  index: -1\nquan_0\n  rotate: false\n  xy: 534, 531\n  size: 435, 436\n  orig: 435, 436\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "4fPr1b66JDbpfugdYjGTXe"
+    }
+  ],
+  "textureNames": [
+    "base_jl2.png"
+  ]
+}

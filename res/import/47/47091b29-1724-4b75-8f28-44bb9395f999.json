@@ -1,1 +1,662 @@
-{"__type__":"sp.SkeletonData","_name":"collectbar","_skeletonJson":{"skeleton":{"hash":"cBcLzivVLsxIHnQ+l8s8RGTbhSs","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"bar","parent":"root"},{"name":"bar_full","parent":"root"},{"name":"bar_glow","parent":"root","scaleX":1.25,"scaleY":1.25},{"name":"lizi","parent":"root"}],"slots":[{"name":"collectbar","bone":"bar"},{"name":"bar_glow","bone":"bar_glow","blend":"screen"},{"name":"lizi","bone":"lizi","blend":"screen"},{"name":"bar_full","bone":"bar_full","blend":"additive"}],"skins":{"default":{"bar_full":{"full/full_01":{"width":300,"height":50},"full/full_02":{"width":300,"height":50},"full/full_03":{"width":300,"height":50},"full/full_04":{"width":300,"height":50},"full/full_05":{"width":300,"height":50},"full/full_06":{"width":300,"height":50},"full/full_07":{"width":300,"height":50},"full/full_08":{"width":300,"height":50},"full/full_09":{"width":300,"height":50},"full/full_10":{"width":300,"height":50},"full/full_11":{"width":300,"height":50},"full/full_12":{"width":300,"height":50},"full/full_13":{"width":300,"height":50},"full/full_14":{"width":300,"height":50},"full/full_15":{"width":300,"height":50},"full/full_16":{"width":300,"height":50},"full/full_17":{"width":300,"height":50},"full/full_18":{"width":300,"height":50},"full/full_19":{"width":300,"height":50}},"bar_glow":{"bar_glow/bar_glow_00":{"width":323,"height":24},"bar_glow/bar_glow_01":{"width":323,"height":24},"bar_glow/bar_glow_02":{"width":323,"height":24},"bar_glow/bar_glow_03":{"width":323,"height":24},"bar_glow/bar_glow_04":{"width":323,"height":24},"bar_glow/bar_glow_05":{"width":323,"height":24},"bar_glow/bar_glow_06":{"width":323,"height":24},"bar_glow/bar_glow_07":{"width":323,"height":24},"bar_glow/bar_glow_08":{"width":323,"height":24},"bar_glow/bar_glow_09":{"width":323,"height":24},"bar_glow/bar_glow_10":{"width":323,"height":24},"bar_glow/bar_glow_11":{"width":323,"height":24},"bar_glow/bar_glow_12":{"width":323,"height":24},"bar_glow/bar_glow_13":{"width":323,"height":24},"bar_glow/bar_glow_14":{"width":323,"height":24}},"collectbar":{"collectbar":{"width":404,"height":30}},"lizi":{"lizi/lizi_01":{"width":160,"height":80},"lizi/lizi_02":{"width":160,"height":80},"lizi/lizi_03":{"width":160,"height":80},"lizi/lizi_04":{"width":160,"height":80},"lizi/lizi_05":{"width":160,"height":80},"lizi/lizi_06":{"width":160,"height":80},"lizi/lizi_07":{"width":160,"height":80},"lizi/lizi_08":{"width":160,"height":80},"lizi/lizi_09":{"width":160,"height":80},"lizi/lizi_10":{"width":160,"height":80},"lizi/lizi_11":{"width":160,"height":80},"lizi/lizi_12":{"width":160,"height":80},"lizi/lizi_13":{"width":160,"height":80},"lizi/lizi_14":{"width":160,"height":80},"lizi/lizi_15":{"width":160,"height":80},"lizi/lizi_16":{"width":160,"height":80},"lizi/lizi_17":{"width":160,"height":80},"lizi/lizi_18":{"width":160,"height":80},"lizi/lizi_19":{"width":160,"height":80},"lizi/lizi_20":{"width":160,"height":80},"lizi/lizi_21":{"width":160,"height":80}}}},"animations":{"bar_full":{"slots":{"bar_full":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"full/full_01"},{"time":0.0667,"name":"full/full_02"},{"time":0.1,"name":"full/full_03"},{"time":0.1333,"name":"full/full_04"},{"time":0.1667,"name":"full/full_05"},{"time":0.2,"name":"full/full_06"},{"time":0.2333,"name":"full/full_07"},{"time":0.2667,"name":"full/full_08"},{"time":0.3,"name":"full/full_09"},{"time":0.3333,"name":"full/full_10"},{"time":0.3667,"name":"full/full_11"},{"time":0.4,"name":"full/full_12"},{"time":0.4333,"name":"full/full_13"},{"time":0.4667,"name":"full/full_14"},{"time":0.5,"name":"full/full_15"},{"time":0.5333,"name":"full/full_16"},{"time":0.5667,"name":"full/full_17"},{"time":0.6,"name":"full/full_18"},{"time":0.6333,"name":"full/full_19"},{"time":0.6667,"name":null}]},"bar_glow":{"attachment":[{"time":0,"name":null}]},"collectbar":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null}]}},"bones":{"bar_full":{"scale":[{"time":0,"x":2,"y":2}]}}},"bar_idle":{"slots":{"bar_full":{"attachment":[{"time":0,"name":null}]},"bar_glow":{"attachment":[{"time":0,"name":"bar_glow/bar_glow_00"},{"time":0.0667,"name":"bar_glow/bar_glow_01"},{"time":0.1333,"name":"bar_glow/bar_glow_02"},{"time":0.2,"name":"bar_glow/bar_glow_03"},{"time":0.2667,"name":"bar_glow/bar_glow_04"},{"time":0.3333,"name":"bar_glow/bar_glow_05"},{"time":0.4,"name":"bar_glow/bar_glow_06"},{"time":0.4667,"name":"bar_glow/bar_glow_07"},{"time":0.5333,"name":"bar_glow/bar_glow_08"},{"time":0.6,"name":"bar_glow/bar_glow_09"},{"time":0.6667,"name":"bar_glow/bar_glow_10"},{"time":0.7333,"name":"bar_glow/bar_glow_11"},{"time":0.8,"name":"bar_glow/bar_glow_12"},{"time":0.8667,"name":"bar_glow/bar_glow_13"},{"time":0.9333,"name":"bar_glow/bar_glow_14"},{"time":1,"name":"bar_glow/bar_glow_00"}]},"collectbar":{"attachment":[{"time":0,"name":"collectbar"}]},"lizi":{"attachment":[{"time":0,"name":null}]}}},"collect":{"slots":{"bar_full":{"attachment":[{"time":0,"name":null}]},"bar_glow":{"attachment":[{"time":0,"name":null}]},"collectbar":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"lizi/lizi_01"},{"time":0.0667,"name":"lizi/lizi_02"},{"time":0.1,"name":"lizi/lizi_03"},{"time":0.1333,"name":"lizi/lizi_04"},{"time":0.1667,"name":"lizi/lizi_05"},{"time":0.2,"name":"lizi/lizi_06"},{"time":0.2333,"name":"lizi/lizi_07"},{"time":0.2667,"name":"lizi/lizi_08"},{"time":0.3,"name":"lizi/lizi_09"},{"time":0.3333,"name":"lizi/lizi_10"},{"time":0.3667,"name":"lizi/lizi_11"},{"time":0.4,"name":"lizi/lizi_12"},{"time":0.4333,"name":"lizi/lizi_13"},{"time":0.4667,"name":"lizi/lizi_14"},{"time":0.5,"name":"lizi/lizi_15"},{"time":0.5333,"name":"lizi/lizi_16"},{"time":0.5667,"name":"lizi/lizi_17"},{"time":0.6,"name":"lizi/lizi_18"},{"time":0.6333,"name":"lizi/lizi_19"},{"time":0.6667,"name":"lizi/lizi_20"},{"time":0.7,"name":"lizi/lizi_21"},{"time":0.7333,"name":null}]}},"bones":{"lizi":{"scale":[{"time":0,"x":1.25,"y":1.25}]}}}}},"_atlasText":"\ncollectbar.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbar_glow/bar_glow_00\n  rotate: false\n  xy: 2, 441\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_01\n  rotate: false\n  xy: 408, 472\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_02\n  rotate: false\n  xy: 2, 415\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_03\n  rotate: false\n  xy: 2, 389\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_04\n  rotate: false\n  xy: 2, 363\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_05\n  rotate: false\n  xy: 2, 337\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_06\n  rotate: false\n  xy: 2, 311\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_07\n  rotate: false\n  xy: 2, 285\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_08\n  rotate: false\n  xy: 2, 259\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_09\n  rotate: false\n  xy: 2, 233\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_10\n  rotate: false\n  xy: 2, 207\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_11\n  rotate: false\n  xy: 2, 181\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_12\n  rotate: false\n  xy: 2, 155\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_13\n  rotate: false\n  xy: 2, 129\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_14\n  rotate: true\n  xy: 327, 142\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\ncollectbar\n  rotate: false\n  xy: 2, 467\n  size: 404, 29\n  orig: 404, 30\n  offset: 0, 1\n  index: -1\nfull/full_01\n  rotate: false\n  xy: 353, 119\n  size: 212, 27\n  orig: 300, 50\n  offset: 44, 12\n  index: -1\nfull/full_02\n  rotate: false\n  xy: 353, 148\n  size: 215, 30\n  orig: 300, 50\n  offset: 42, 11\n  index: -1\nfull/full_03\n  rotate: false\n  xy: 353, 180\n  size: 218, 31\n  orig: 300, 50\n  offset: 41, 10\n  index: -1\nfull/full_04\n  rotate: false\n  xy: 430, 213\n  size: 220, 32\n  orig: 300, 50\n  offset: 40, 9\n  index: -1\nfull/full_05\n  rotate: false\n  xy: 430, 247\n  size: 222, 33\n  orig: 300, 50\n  offset: 39, 9\n  index: -1\nfull/full_06\n  rotate: false\n  xy: 430, 318\n  size: 222, 34\n  orig: 300, 50\n  offset: 39, 8\n  index: -1\nfull/full_07\n  rotate: false\n  xy: 430, 282\n  size: 223, 34\n  orig: 300, 50\n  offset: 39, 8\n  index: -1\nfull/full_08\n  rotate: false\n  xy: 733, 462\n  size: 224, 34\n  orig: 300, 50\n  offset: 38, 8\n  index: -1\nfull/full_09\n  rotate: true\n  xy: 393, 241\n  size: 224, 35\n  orig: 300, 50\n  offset: 38, 8\n  index: -1\nfull/full_10\n  rotate: false\n  xy: 2, 90\n  size: 226, 37\n  orig: 300, 50\n  offset: 37, 7\n  index: -1\nfull/full_11\n  rotate: false\n  xy: 2, 13\n  size: 223, 37\n  orig: 300, 50\n  offset: 40, 7\n  index: -1\nfull/full_12\n  rotate: false\n  xy: 2, 52\n  size: 225, 36\n  orig: 300, 50\n  offset: 39, 7\n  index: -1\nfull/full_13\n  rotate: true\n  xy: 353, 241\n  size: 224, 38\n  orig: 300, 50\n  offset: 39, 6\n  index: -1\nfull/full_14\n  rotate: false\n  xy: 430, 432\n  size: 222, 38\n  orig: 300, 50\n  offset: 38, 6\n  index: -1\nfull/full_15\n  rotate: false\n  xy: 430, 393\n  size: 221, 37\n  orig: 300, 50\n  offset: 39, 7\n  index: -1\nfull/full_16\n  rotate: false\n  xy: 430, 354\n  size: 221, 37\n  orig: 300, 50\n  offset: 39, 7\n  index: -1\nfull/full_17\n  rotate: false\n  xy: 654, 424\n  size: 209, 36\n  orig: 300, 50\n  offset: 52, 6\n  index: -1\nfull/full_18\n  rotate: false\n  xy: 653, 391\n  size: 208, 31\n  orig: 300, 50\n  offset: 53, 13\n  index: -1\nfull/full_19\n  rotate: false\n  xy: 2, 2\n  size: 9, 9\n  orig: 300, 50\n  offset: 66, 26\n  index: -1\nlizi/lizi_01\n  rotate: true\n  xy: 704, 283\n  size: 27, 33\n  orig: 160, 80\n  offset: 65, 23\n  index: -1\nlizi/lizi_02\n  rotate: false\n  xy: 993, 423\n  size: 29, 34\n  orig: 160, 80\n  offset: 62, 23\n  index: -1\nlizi/lizi_03\n  rotate: false\n  xy: 956, 422\n  size: 35, 35\n  orig: 160, 80\n  offset: 58, 23\n  index: -1\nlizi/lizi_04\n  rotate: false\n  xy: 918, 424\n  size: 36, 36\n  orig: 160, 80\n  offset: 55, 23\n  index: -1\nlizi/lizi_05\n  rotate: false\n  xy: 284, 91\n  size: 41, 36\n  orig: 160, 80\n  offset: 53, 23\n  index: -1\nlizi/lizi_06\n  rotate: false\n  xy: 704, 312\n  size: 44, 35\n  orig: 160, 80\n  offset: 50, 23\n  index: -1\nlizi/lizi_07\n  rotate: false\n  xy: 655, 283\n  size: 47, 35\n  orig: 160, 80\n  offset: 47, 23\n  index: -1\nlizi/lizi_08\n  rotate: false\n  xy: 227, 8\n  size: 49, 39\n  orig: 160, 80\n  offset: 45, 21\n  index: -1\nlizi/lizi_09\n  rotate: false\n  xy: 865, 422\n  size: 51, 38\n  orig: 160, 80\n  offset: 42, 21\n  index: -1\nlizi/lizi_10\n  rotate: false\n  xy: 230, 87\n  size: 52, 40\n  orig: 160, 80\n  offset: 41, 18\n  index: -1\nlizi/lizi_11\n  rotate: false\n  xy: 706, 349\n  size: 50, 40\n  orig: 160, 80\n  offset: 43, 18\n  index: -1\nlizi/lizi_12\n  rotate: false\n  xy: 758, 350\n  size: 50, 39\n  orig: 160, 80\n  offset: 42, 19\n  index: -1\nlizi/lizi_13\n  rotate: false\n  xy: 810, 350\n  size: 50, 39\n  orig: 160, 80\n  offset: 42, 19\n  index: -1\nlizi/lizi_14\n  rotate: false\n  xy: 959, 459\n  size: 50, 37\n  orig: 160, 80\n  offset: 41, 20\n  index: -1\nlizi/lizi_15\n  rotate: false\n  xy: 229, 49\n  size: 50, 36\n  orig: 160, 80\n  offset: 41, 21\n  index: -1\nlizi/lizi_16\n  rotate: false\n  xy: 653, 354\n  size: 51, 35\n  orig: 160, 80\n  offset: 40, 22\n  index: -1\nlizi/lizi_17\n  rotate: false\n  xy: 654, 320\n  size: 48, 32\n  orig: 160, 80\n  offset: 42, 25\n  index: -1\nlizi/lizi_18\n  rotate: false\n  xy: 573, 181\n  size: 44, 30\n  orig: 160, 80\n  offset: 42, 26\n  index: -1\nlizi/lizi_19\n  rotate: false\n  xy: 993, 392\n  size: 29, 29\n  orig: 160, 80\n  offset: 42, 26\n  index: -1\nlizi/lizi_20\n  rotate: false\n  xy: 353, 217\n  size: 25, 22\n  orig: 160, 80\n  offset: 42, 28\n  index: -1\nlizi/lizi_21\n  rotate: false\n  xy: 327, 120\n  size: 18, 20\n  orig: 160, 80\n  offset: 45, 28\n  index: -1\n","textures":[{"__uuid__":"78uTMjyhpFG5lHI2aAQsps"}],"textureNames":["collectbar.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "collectbar",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "cBcLzivVLsxIHnQ+l8s8RGTbhSs",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bar",
+        "parent": "root"
+      },
+      {
+        "name": "bar_full",
+        "parent": "root"
+      },
+      {
+        "name": "bar_glow",
+        "parent": "root",
+        "scaleX": 1.25,
+        "scaleY": 1.25
+      },
+      {
+        "name": "lizi",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "collectbar",
+        "bone": "bar"
+      },
+      {
+        "name": "bar_glow",
+        "bone": "bar_glow",
+        "blend": "screen"
+      },
+      {
+        "name": "lizi",
+        "bone": "lizi",
+        "blend": "screen"
+      },
+      {
+        "name": "bar_full",
+        "bone": "bar_full",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "bar_full": {
+          "full/full_01": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_02": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_03": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_04": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_05": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_06": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_07": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_08": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_09": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_10": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_11": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_12": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_13": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_14": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_15": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_16": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_17": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_18": {
+            "width": 300,
+            "height": 50
+          },
+          "full/full_19": {
+            "width": 300,
+            "height": 50
+          }
+        },
+        "bar_glow": {
+          "bar_glow/bar_glow_00": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_01": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_02": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_03": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_04": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_05": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_06": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_07": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_08": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_09": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_10": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_11": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_12": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_13": {
+            "width": 323,
+            "height": 24
+          },
+          "bar_glow/bar_glow_14": {
+            "width": 323,
+            "height": 24
+          }
+        },
+        "collectbar": {
+          "collectbar": {
+            "width": 404,
+            "height": 30
+          }
+        },
+        "lizi": {
+          "lizi/lizi_01": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_02": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_03": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_04": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_05": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_06": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_07": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_08": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_09": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_10": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_11": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_12": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_13": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_14": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_15": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_16": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_17": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_18": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_19": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_20": {
+            "width": 160,
+            "height": 80
+          },
+          "lizi/lizi_21": {
+            "width": 160,
+            "height": 80
+          }
+        }
+      }
+    },
+    "animations": {
+      "bar_full": {
+        "slots": {
+          "bar_full": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "full/full_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "full/full_02"
+              },
+              {
+                "time": 0.1,
+                "name": "full/full_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "full/full_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "full/full_05"
+              },
+              {
+                "time": 0.2,
+                "name": "full/full_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "full/full_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "full/full_08"
+              },
+              {
+                "time": 0.3,
+                "name": "full/full_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "full/full_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "full/full_11"
+              },
+              {
+                "time": 0.4,
+                "name": "full/full_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "full/full_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "full/full_14"
+              },
+              {
+                "time": 0.5,
+                "name": "full/full_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "full/full_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "full/full_17"
+              },
+              {
+                "time": 0.6,
+                "name": "full/full_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "full/full_19"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          },
+          "bar_glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "collectbar": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bar_full": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 2,
+                "y": 2
+              }
+            ]
+          }
+        }
+      },
+      "bar_idle": {
+        "slots": {
+          "bar_full": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "bar_glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "bar_glow/bar_glow_00"
+              },
+              {
+                "time": 0.0667,
+                "name": "bar_glow/bar_glow_01"
+              },
+              {
+                "time": 0.1333,
+                "name": "bar_glow/bar_glow_02"
+              },
+              {
+                "time": 0.2,
+                "name": "bar_glow/bar_glow_03"
+              },
+              {
+                "time": 0.2667,
+                "name": "bar_glow/bar_glow_04"
+              },
+              {
+                "time": 0.3333,
+                "name": "bar_glow/bar_glow_05"
+              },
+              {
+                "time": 0.4,
+                "name": "bar_glow/bar_glow_06"
+              },
+              {
+                "time": 0.4667,
+                "name": "bar_glow/bar_glow_07"
+              },
+              {
+                "time": 0.5333,
+                "name": "bar_glow/bar_glow_08"
+              },
+              {
+                "time": 0.6,
+                "name": "bar_glow/bar_glow_09"
+              },
+              {
+                "time": 0.6667,
+                "name": "bar_glow/bar_glow_10"
+              },
+              {
+                "time": 0.7333,
+                "name": "bar_glow/bar_glow_11"
+              },
+              {
+                "time": 0.8,
+                "name": "bar_glow/bar_glow_12"
+              },
+              {
+                "time": 0.8667,
+                "name": "bar_glow/bar_glow_13"
+              },
+              {
+                "time": 0.9333,
+                "name": "bar_glow/bar_glow_14"
+              },
+              {
+                "time": 1,
+                "name": "bar_glow/bar_glow_00"
+              }
+            ]
+          },
+          "collectbar": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "collectbar"
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "collect": {
+        "slots": {
+          "bar_full": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "bar_glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "collectbar": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "lizi/lizi_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "lizi/lizi_02"
+              },
+              {
+                "time": 0.1,
+                "name": "lizi/lizi_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "lizi/lizi_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "lizi/lizi_05"
+              },
+              {
+                "time": 0.2,
+                "name": "lizi/lizi_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "lizi/lizi_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "lizi/lizi_08"
+              },
+              {
+                "time": 0.3,
+                "name": "lizi/lizi_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "lizi/lizi_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "lizi/lizi_11"
+              },
+              {
+                "time": 0.4,
+                "name": "lizi/lizi_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "lizi/lizi_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "lizi/lizi_14"
+              },
+              {
+                "time": 0.5,
+                "name": "lizi/lizi_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "lizi/lizi_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "lizi/lizi_17"
+              },
+              {
+                "time": 0.6,
+                "name": "lizi/lizi_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "lizi/lizi_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "lizi/lizi_20"
+              },
+              {
+                "time": 0.7,
+                "name": "lizi/lizi_21"
+              },
+              {
+                "time": 0.7333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "lizi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.25,
+                "y": 1.25
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ncollectbar.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbar_glow/bar_glow_00\n  rotate: false\n  xy: 2, 441\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_01\n  rotate: false\n  xy: 408, 472\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_02\n  rotate: false\n  xy: 2, 415\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_03\n  rotate: false\n  xy: 2, 389\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_04\n  rotate: false\n  xy: 2, 363\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_05\n  rotate: false\n  xy: 2, 337\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_06\n  rotate: false\n  xy: 2, 311\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_07\n  rotate: false\n  xy: 2, 285\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_08\n  rotate: false\n  xy: 2, 259\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_09\n  rotate: false\n  xy: 2, 233\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_10\n  rotate: false\n  xy: 2, 207\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_11\n  rotate: false\n  xy: 2, 181\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_12\n  rotate: false\n  xy: 2, 155\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_13\n  rotate: false\n  xy: 2, 129\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\nbar_glow/bar_glow_14\n  rotate: true\n  xy: 327, 142\n  size: 323, 24\n  orig: 323, 24\n  offset: 0, 0\n  index: -1\ncollectbar\n  rotate: false\n  xy: 2, 467\n  size: 404, 29\n  orig: 404, 30\n  offset: 0, 1\n  index: -1\nfull/full_01\n  rotate: false\n  xy: 353, 119\n  size: 212, 27\n  orig: 300, 50\n  offset: 44, 12\n  index: -1\nfull/full_02\n  rotate: false\n  xy: 353, 148\n  size: 215, 30\n  orig: 300, 50\n  offset: 42, 11\n  index: -1\nfull/full_03\n  rotate: false\n  xy: 353, 180\n  size: 218, 31\n  orig: 300, 50\n  offset: 41, 10\n  index: -1\nfull/full_04\n  rotate: false\n  xy: 430, 213\n  size: 220, 32\n  orig: 300, 50\n  offset: 40, 9\n  index: -1\nfull/full_05\n  rotate: false\n  xy: 430, 247\n  size: 222, 33\n  orig: 300, 50\n  offset: 39, 9\n  index: -1\nfull/full_06\n  rotate: false\n  xy: 430, 318\n  size: 222, 34\n  orig: 300, 50\n  offset: 39, 8\n  index: -1\nfull/full_07\n  rotate: false\n  xy: 430, 282\n  size: 223, 34\n  orig: 300, 50\n  offset: 39, 8\n  index: -1\nfull/full_08\n  rotate: false\n  xy: 733, 462\n  size: 224, 34\n  orig: 300, 50\n  offset: 38, 8\n  index: -1\nfull/full_09\n  rotate: true\n  xy: 393, 241\n  size: 224, 35\n  orig: 300, 50\n  offset: 38, 8\n  index: -1\nfull/full_10\n  rotate: false\n  xy: 2, 90\n  size: 226, 37\n  orig: 300, 50\n  offset: 37, 7\n  index: -1\nfull/full_11\n  rotate: false\n  xy: 2, 13\n  size: 223, 37\n  orig: 300, 50\n  offset: 40, 7\n  index: -1\nfull/full_12\n  rotate: false\n  xy: 2, 52\n  size: 225, 36\n  orig: 300, 50\n  offset: 39, 7\n  index: -1\nfull/full_13\n  rotate: true\n  xy: 353, 241\n  size: 224, 38\n  orig: 300, 50\n  offset: 39, 6\n  index: -1\nfull/full_14\n  rotate: false\n  xy: 430, 432\n  size: 222, 38\n  orig: 300, 50\n  offset: 38, 6\n  index: -1\nfull/full_15\n  rotate: false\n  xy: 430, 393\n  size: 221, 37\n  orig: 300, 50\n  offset: 39, 7\n  index: -1\nfull/full_16\n  rotate: false\n  xy: 430, 354\n  size: 221, 37\n  orig: 300, 50\n  offset: 39, 7\n  index: -1\nfull/full_17\n  rotate: false\n  xy: 654, 424\n  size: 209, 36\n  orig: 300, 50\n  offset: 52, 6\n  index: -1\nfull/full_18\n  rotate: false\n  xy: 653, 391\n  size: 208, 31\n  orig: 300, 50\n  offset: 53, 13\n  index: -1\nfull/full_19\n  rotate: false\n  xy: 2, 2\n  size: 9, 9\n  orig: 300, 50\n  offset: 66, 26\n  index: -1\nlizi/lizi_01\n  rotate: true\n  xy: 704, 283\n  size: 27, 33\n  orig: 160, 80\n  offset: 65, 23\n  index: -1\nlizi/lizi_02\n  rotate: false\n  xy: 993, 423\n  size: 29, 34\n  orig: 160, 80\n  offset: 62, 23\n  index: -1\nlizi/lizi_03\n  rotate: false\n  xy: 956, 422\n  size: 35, 35\n  orig: 160, 80\n  offset: 58, 23\n  index: -1\nlizi/lizi_04\n  rotate: false\n  xy: 918, 424\n  size: 36, 36\n  orig: 160, 80\n  offset: 55, 23\n  index: -1\nlizi/lizi_05\n  rotate: false\n  xy: 284, 91\n  size: 41, 36\n  orig: 160, 80\n  offset: 53, 23\n  index: -1\nlizi/lizi_06\n  rotate: false\n  xy: 704, 312\n  size: 44, 35\n  orig: 160, 80\n  offset: 50, 23\n  index: -1\nlizi/lizi_07\n  rotate: false\n  xy: 655, 283\n  size: 47, 35\n  orig: 160, 80\n  offset: 47, 23\n  index: -1\nlizi/lizi_08\n  rotate: false\n  xy: 227, 8\n  size: 49, 39\n  orig: 160, 80\n  offset: 45, 21\n  index: -1\nlizi/lizi_09\n  rotate: false\n  xy: 865, 422\n  size: 51, 38\n  orig: 160, 80\n  offset: 42, 21\n  index: -1\nlizi/lizi_10\n  rotate: false\n  xy: 230, 87\n  size: 52, 40\n  orig: 160, 80\n  offset: 41, 18\n  index: -1\nlizi/lizi_11\n  rotate: false\n  xy: 706, 349\n  size: 50, 40\n  orig: 160, 80\n  offset: 43, 18\n  index: -1\nlizi/lizi_12\n  rotate: false\n  xy: 758, 350\n  size: 50, 39\n  orig: 160, 80\n  offset: 42, 19\n  index: -1\nlizi/lizi_13\n  rotate: false\n  xy: 810, 350\n  size: 50, 39\n  orig: 160, 80\n  offset: 42, 19\n  index: -1\nlizi/lizi_14\n  rotate: false\n  xy: 959, 459\n  size: 50, 37\n  orig: 160, 80\n  offset: 41, 20\n  index: -1\nlizi/lizi_15\n  rotate: false\n  xy: 229, 49\n  size: 50, 36\n  orig: 160, 80\n  offset: 41, 21\n  index: -1\nlizi/lizi_16\n  rotate: false\n  xy: 653, 354\n  size: 51, 35\n  orig: 160, 80\n  offset: 40, 22\n  index: -1\nlizi/lizi_17\n  rotate: false\n  xy: 654, 320\n  size: 48, 32\n  orig: 160, 80\n  offset: 42, 25\n  index: -1\nlizi/lizi_18\n  rotate: false\n  xy: 573, 181\n  size: 44, 30\n  orig: 160, 80\n  offset: 42, 26\n  index: -1\nlizi/lizi_19\n  rotate: false\n  xy: 993, 392\n  size: 29, 29\n  orig: 160, 80\n  offset: 42, 26\n  index: -1\nlizi/lizi_20\n  rotate: false\n  xy: 353, 217\n  size: 25, 22\n  orig: 160, 80\n  offset: 42, 28\n  index: -1\nlizi/lizi_21\n  rotate: false\n  xy: 327, 120\n  size: 18, 20\n  orig: 160, 80\n  offset: 45, 28\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "78uTMjyhpFG5lHI2aAQsps"
+    }
+  ],
+  "textureNames": [
+    "collectbar.png"
+  ]
+}

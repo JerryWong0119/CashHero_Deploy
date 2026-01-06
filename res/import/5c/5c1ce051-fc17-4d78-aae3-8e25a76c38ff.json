@@ -1,1 +1,138 @@
-{"__type__":"sp.SkeletonData","_name":"dianji","_skeletonJson":{"skeleton":{"hash":"1HRy8HNYmjj90geMSBL/UjhQFu0","spine":"3.6.53","width":1060,"height":1840,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"zong","parent":"root"},{"name":"1","parent":"zong","scaleX":0.74,"scaleY":0.74}],"slots":[{"name":"pick","bone":"root"},{"name":"1","bone":"1","attachment":"abc_001"}],"skins":{"default":{"1":{"abc_000":{"width":300,"height":300},"abc_001":{"width":300,"height":300},"abc_002":{"width":300,"height":300},"abc_003":{"width":300,"height":300},"abc_004":{"width":300,"height":300},"abc_005":{"width":300,"height":300},"abc_006":{"width":300,"height":300},"abc_007":{"width":300,"height":300}}}},"animations":{"animation":{"slots":{"1":{"color":[{"time":0.4667,"color":"ffffffff"},{"time":0.5,"color":"ffffff00"}],"attachment":[{"time":0,"name":"abc_000"},{"time":0.0667,"name":"abc_001"},{"time":0.1333,"name":"abc_002"},{"time":0.2,"name":"abc_003"},{"time":0.2667,"name":"abc_004"},{"time":0.3333,"name":"abc_005"},{"time":0.4,"name":"abc_006"},{"time":0.4667,"name":"abc_007"}]}}}}},"_atlasText":"\ndianji.png\nsize: 875,875\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nabc_000\n  rotate: false\n  xy: 606, 293\n  size: 154, 154\n  orig: 300, 300\n  offset: 69, 79\n  index: -1\nabc_001\n  rotate: false\n  xy: 304, 292\n  size: 300, 289\n  orig: 300, 300\n  offset: 0, 8\n  index: -1\nabc_002\n  rotate: false\n  xy: 2, 581\n  size: 300, 292\n  orig: 300, 300\n  offset: 0, 8\n  index: -1\nabc_003\n  rotate: false\n  xy: 2, 287\n  size: 300, 292\n  orig: 300, 300\n  offset: 0, 8\n  index: -1\nabc_004\n  rotate: false\n  xy: 304, 583\n  size: 300, 290\n  orig: 300, 300\n  offset: 0, 8\n  index: -1\nabc_005\n  rotate: false\n  xy: 2, 2\n  size: 283, 283\n  orig: 300, 300\n  offset: 10, 10\n  index: -1\nabc_006\n  rotate: false\n  xy: 606, 632\n  size: 238, 241\n  orig: 300, 300\n  offset: 31, 31\n  index: -1\nabc_007\n  rotate: false\n  xy: 606, 449\n  size: 195, 181\n  orig: 300, 300\n  offset: 50, 75\n  index: -1\n","textures":[{"__uuid__":"31f3lOFx1JC4OBAo++woH2"}],"textureNames":["dianji.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "dianji",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "1HRy8HNYmjj90geMSBL/UjhQFu0",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1840,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root"
+      },
+      {
+        "name": "1",
+        "parent": "zong",
+        "scaleX": 0.74,
+        "scaleY": 0.74
+      }
+    ],
+    "slots": [
+      {
+        "name": "pick",
+        "bone": "root"
+      },
+      {
+        "name": "1",
+        "bone": "1",
+        "attachment": "abc_001"
+      }
+    ],
+    "skins": {
+      "default": {
+        "1": {
+          "abc_000": {
+            "width": 300,
+            "height": 300
+          },
+          "abc_001": {
+            "width": 300,
+            "height": 300
+          },
+          "abc_002": {
+            "width": 300,
+            "height": 300
+          },
+          "abc_003": {
+            "width": 300,
+            "height": 300
+          },
+          "abc_004": {
+            "width": 300,
+            "height": 300
+          },
+          "abc_005": {
+            "width": 300,
+            "height": 300
+          },
+          "abc_006": {
+            "width": 300,
+            "height": 300
+          },
+          "abc_007": {
+            "width": 300,
+            "height": 300
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "1": {
+            "color": [
+              {
+                "time": 0.4667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "abc_000"
+              },
+              {
+                "time": 0.0667,
+                "name": "abc_001"
+              },
+              {
+                "time": 0.1333,
+                "name": "abc_002"
+              },
+              {
+                "time": 0.2,
+                "name": "abc_003"
+              },
+              {
+                "time": 0.2667,
+                "name": "abc_004"
+              },
+              {
+                "time": 0.3333,
+                "name": "abc_005"
+              },
+              {
+                "time": 0.4,
+                "name": "abc_006"
+              },
+              {
+                "time": 0.4667,
+                "name": "abc_007"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ndianji.png\nsize: 875,875\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nabc_000\n  rotate: false\n  xy: 606, 293\n  size: 154, 154\n  orig: 300, 300\n  offset: 69, 79\n  index: -1\nabc_001\n  rotate: false\n  xy: 304, 292\n  size: 300, 289\n  orig: 300, 300\n  offset: 0, 8\n  index: -1\nabc_002\n  rotate: false\n  xy: 2, 581\n  size: 300, 292\n  orig: 300, 300\n  offset: 0, 8\n  index: -1\nabc_003\n  rotate: false\n  xy: 2, 287\n  size: 300, 292\n  orig: 300, 300\n  offset: 0, 8\n  index: -1\nabc_004\n  rotate: false\n  xy: 304, 583\n  size: 300, 290\n  orig: 300, 300\n  offset: 0, 8\n  index: -1\nabc_005\n  rotate: false\n  xy: 2, 2\n  size: 283, 283\n  orig: 300, 300\n  offset: 10, 10\n  index: -1\nabc_006\n  rotate: false\n  xy: 606, 632\n  size: 238, 241\n  orig: 300, 300\n  offset: 31, 31\n  index: -1\nabc_007\n  rotate: false\n  xy: 606, 449\n  size: 195, 181\n  orig: 300, 300\n  offset: 50, 75\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "31f3lOFx1JC4OBAo++woH2"
+    }
+  ],
+  "textureNames": [
+    "dianji.png"
+  ]
+}

@@ -1,1 +1,142 @@
-{"__type__":"sp.SkeletonData","_name":"wangzixialuo","_skeletonJson":{"skeleton":{"hash":"dDQGSRdHOW/+BkpbHZIs2aZuR/A","spine":"3.6.53","width":0,"height":0},"bones":[{"name":"root"},{"name":"xialuo","parent":"root","x":6.13,"y":103.16},{"name":"骨骼","parent":"root"}],"slots":[{"name":"theme161_s_11","bone":"骨骼"},{"name":"xialuo","bone":"xialuo","blend":"additive"}],"skins":{"default":{"xialuo":{"wangzixialuo/wangzixialuo_00":{"width":324,"height":771},"wangzixialuo/wangzixialuo_01":{"width":324,"height":771},"wangzixialuo/wangzixialuo_02":{"width":324,"height":771},"wangzixialuo/wangzixialuo_03":{"width":324,"height":771},"wangzixialuo/wangzixialuo_04":{"width":324,"height":771},"wangzixialuo/wangzixialuo_05":{"width":324,"height":771},"wangzixialuo/wangzixialuo_06":{"width":324,"height":771},"wangzixialuo/wangzixialuo_07":{"width":324,"height":771}}}},"animations":{"animation":{"slots":{"xialuo":{"attachment":[{"time":0,"name":"wangzixialuo/wangzixialuo_00"},{"time":0.0333,"name":"wangzixialuo/wangzixialuo_01"},{"time":0.0667,"name":"wangzixialuo/wangzixialuo_02"},{"time":0.1,"name":"wangzixialuo/wangzixialuo_03"},{"time":0.1333,"name":"wangzixialuo/wangzixialuo_04"},{"time":0.1667,"name":"wangzixialuo/wangzixialuo_05"},{"time":0.2,"name":"wangzixialuo/wangzixialuo_06"},{"time":0.2333,"name":"wangzixialuo/wangzixialuo_07"},{"time":0.2667,"name":null}]}},"bones":{"xialuo":{"translate":[{"time":0,"x":-7.61,"y":202.72}]}}}}},"_atlasText":"\nwangzixialuo.png\nsize: 1027,351\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nwangzixialuo/wangzixialuo_00\n  rotate: false\n  xy: 907, 58\n  size: 120, 293\n  orig: 162, 386\n  offset: 22, 7\n  index: -1\nwangzixialuo/wangzixialuo_01\n  rotate: false\n  xy: 383, 14\n  size: 123, 337\n  orig: 162, 386\n  offset: 19, 7\n  index: -1\nwangzixialuo/wangzixialuo_02\n  rotate: false\n  xy: 260, 4\n  size: 121, 347\n  orig: 162, 386\n  offset: 22, 7\n  index: -1\nwangzixialuo/wangzixialuo_03\n  rotate: false\n  xy: 130, 7\n  size: 128, 344\n  orig: 162, 386\n  offset: 17, 3\n  index: -1\nwangzixialuo/wangzixialuo_04\n  rotate: false\n  xy: 0, 0\n  size: 128, 351\n  orig: 162, 386\n  offset: 17, 4\n  index: -1\nwangzixialuo/wangzixialuo_05\n  rotate: false\n  xy: 773, 60\n  size: 132, 291\n  orig: 162, 386\n  offset: 12, 7\n  index: -1\nwangzixialuo/wangzixialuo_06\n  rotate: false\n  xy: 639, 50\n  size: 132, 301\n  orig: 162, 386\n  offset: 11, 7\n  index: -1\nwangzixialuo/wangzixialuo_07\n  rotate: false\n  xy: 508, 43\n  size: 129, 308\n  orig: 162, 386\n  offset: 13, 7\n  index: -1\n","textures":[{"__uuid__":"9f3Mw1AdRHpKVjL4rX2g8A"}],"textureNames":["wangzixialuo.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "wangzixialuo",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "dDQGSRdHOW/+BkpbHZIs2aZuR/A",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "xialuo",
+        "parent": "root",
+        "x": 6.13,
+        "y": 103.16
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme161_s_11",
+        "bone": "骨骼"
+      },
+      {
+        "name": "xialuo",
+        "bone": "xialuo",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "xialuo": {
+          "wangzixialuo/wangzixialuo_00": {
+            "width": 324,
+            "height": 771
+          },
+          "wangzixialuo/wangzixialuo_01": {
+            "width": 324,
+            "height": 771
+          },
+          "wangzixialuo/wangzixialuo_02": {
+            "width": 324,
+            "height": 771
+          },
+          "wangzixialuo/wangzixialuo_03": {
+            "width": 324,
+            "height": 771
+          },
+          "wangzixialuo/wangzixialuo_04": {
+            "width": 324,
+            "height": 771
+          },
+          "wangzixialuo/wangzixialuo_05": {
+            "width": 324,
+            "height": 771
+          },
+          "wangzixialuo/wangzixialuo_06": {
+            "width": 324,
+            "height": 771
+          },
+          "wangzixialuo/wangzixialuo_07": {
+            "width": 324,
+            "height": 771
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "xialuo": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "wangzixialuo/wangzixialuo_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "wangzixialuo/wangzixialuo_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "wangzixialuo/wangzixialuo_02"
+              },
+              {
+                "time": 0.1,
+                "name": "wangzixialuo/wangzixialuo_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "wangzixialuo/wangzixialuo_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "wangzixialuo/wangzixialuo_05"
+              },
+              {
+                "time": 0.2,
+                "name": "wangzixialuo/wangzixialuo_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "wangzixialuo/wangzixialuo_07"
+              },
+              {
+                "time": 0.2667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "xialuo": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -7.61,
+                "y": 202.72
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nwangzixialuo.png\nsize: 1027,351\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nwangzixialuo/wangzixialuo_00\n  rotate: false\n  xy: 907, 58\n  size: 120, 293\n  orig: 162, 386\n  offset: 22, 7\n  index: -1\nwangzixialuo/wangzixialuo_01\n  rotate: false\n  xy: 383, 14\n  size: 123, 337\n  orig: 162, 386\n  offset: 19, 7\n  index: -1\nwangzixialuo/wangzixialuo_02\n  rotate: false\n  xy: 260, 4\n  size: 121, 347\n  orig: 162, 386\n  offset: 22, 7\n  index: -1\nwangzixialuo/wangzixialuo_03\n  rotate: false\n  xy: 130, 7\n  size: 128, 344\n  orig: 162, 386\n  offset: 17, 3\n  index: -1\nwangzixialuo/wangzixialuo_04\n  rotate: false\n  xy: 0, 0\n  size: 128, 351\n  orig: 162, 386\n  offset: 17, 4\n  index: -1\nwangzixialuo/wangzixialuo_05\n  rotate: false\n  xy: 773, 60\n  size: 132, 291\n  orig: 162, 386\n  offset: 12, 7\n  index: -1\nwangzixialuo/wangzixialuo_06\n  rotate: false\n  xy: 639, 50\n  size: 132, 301\n  orig: 162, 386\n  offset: 11, 7\n  index: -1\nwangzixialuo/wangzixialuo_07\n  rotate: false\n  xy: 508, 43\n  size: 129, 308\n  orig: 162, 386\n  offset: 13, 7\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "9f3Mw1AdRHpKVjL4rX2g8A"
+    }
+  ],
+  "textureNames": [
+    "wangzixialuo.png"
+  ]
+}

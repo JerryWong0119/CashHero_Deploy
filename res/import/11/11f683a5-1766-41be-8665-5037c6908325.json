@@ -1,1 +1,243 @@
-{"__type__":"sp.SkeletonData","_name":"BG_yingfen","_skeletonJson":{"skeleton":{"hash":"fRPWt1C0I6jvhgqIy5hUGA9R+8A","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"all","parent":"root","scaleX":0.5,"scaleY":0.5},{"name":"yingfen","parent":"all"}],"slots":[{"name":"yingfen","bone":"yingfen"}],"skins":{"default":{"yingfen":{"yf/yf_00":{"width":300,"height":300},"yf/yf_01":{"width":300,"height":300},"yf/yf_02":{"width":300,"height":300},"yf/yf_03":{"width":300,"height":300},"yf/yf_04":{"width":300,"height":300},"yf/yf_05":{"width":300,"height":300},"yf/yf_06":{"width":300,"height":300},"yf/yf_07":{"width":300,"height":300},"yf/yf_08":{"width":300,"height":300},"yf/yf_09":{"width":300,"height":300},"yf/yf_10":{"width":300,"height":300},"yf/yf_11":{"width":300,"height":300},"yf/yf_12":{"width":300,"height":300},"yf/yf_13":{"width":300,"height":300},"yf/yf_14":{"width":300,"height":300}}}},"animations":{"yingfen":{"slots":{"yingfen":{"attachment":[{"time":0,"name":"yf/yf_00"},{"time":0.0333,"name":"yf/yf_01"},{"time":0.0667,"name":"yf/yf_02"},{"time":0.1,"name":"yf/yf_03"},{"time":0.1333,"name":"yf/yf_04"},{"time":0.1667,"name":"yf/yf_05"},{"time":0.2,"name":"yf/yf_06"},{"time":0.2333,"name":"yf/yf_07"},{"time":0.2667,"name":"yf/yf_08"},{"time":0.3,"name":"yf/yf_09"},{"time":0.3333,"name":"yf/yf_10"},{"time":0.3667,"name":"yf/yf_11"},{"time":0.4,"name":"yf/yf_12"},{"time":0.4333,"name":"yf/yf_13"},{"time":0.4667,"name":"yf/yf_14"},{"time":0.5,"name":"yf/yf_00"},{"time":0.5333,"name":"yf/yf_01"},{"time":0.5667,"name":"yf/yf_02"},{"time":0.6,"name":"yf/yf_03"},{"time":0.6333,"name":"yf/yf_04"},{"time":0.6667,"name":"yf/yf_05"},{"time":0.7,"name":"yf/yf_06"},{"time":0.7333,"name":"yf/yf_07"},{"time":0.7667,"name":"yf/yf_08"},{"time":0.8,"name":"yf/yf_09"},{"time":0.8333,"name":"yf/yf_10"},{"time":0.8667,"name":"yf/yf_11"},{"time":0.9,"name":"yf/yf_12"},{"time":0.9333,"name":"yf/yf_13"},{"time":0.9667,"name":"yf/yf_14"},{"time":1,"name":"yf/yf_00"}]}}}}},"_atlasText":"\nBG_yingfen.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nyf/yf_00\n  rotate: false\n  xy: 2, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_01\n  rotate: false\n  xy: 132, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_02\n  rotate: false\n  xy: 132, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_03\n  rotate: false\n  xy: 262, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_04\n  rotate: false\n  xy: 262, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_05\n  rotate: false\n  xy: 392, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_06\n  rotate: false\n  xy: 392, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_07\n  rotate: false\n  xy: 522, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_08\n  rotate: false\n  xy: 522, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_09\n  rotate: false\n  xy: 652, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_10\n  rotate: false\n  xy: 652, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_11\n  rotate: false\n  xy: 782, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_12\n  rotate: false\n  xy: 782, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_13\n  rotate: true\n  xy: 912, 92\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_14\n  rotate: false\n  xy: 2, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\n","textures":[{"__uuid__":"fbmYrZf71PbYXHPqoifuEM"}],"textureNames":["BG_yingfen.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "BG_yingfen",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "fRPWt1C0I6jvhgqIy5hUGA9R+8A",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "all",
+        "parent": "root",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "yingfen",
+        "parent": "all"
+      }
+    ],
+    "slots": [
+      {
+        "name": "yingfen",
+        "bone": "yingfen"
+      }
+    ],
+    "skins": {
+      "default": {
+        "yingfen": {
+          "yf/yf_00": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_01": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_02": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_03": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_04": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_05": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_06": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_07": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_08": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_09": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_10": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_11": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_12": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_13": {
+            "width": 300,
+            "height": 300
+          },
+          "yf/yf_14": {
+            "width": 300,
+            "height": 300
+          }
+        }
+      }
+    },
+    "animations": {
+      "yingfen": {
+        "slots": {
+          "yingfen": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "yf/yf_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "yf/yf_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "yf/yf_02"
+              },
+              {
+                "time": 0.1,
+                "name": "yf/yf_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "yf/yf_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "yf/yf_05"
+              },
+              {
+                "time": 0.2,
+                "name": "yf/yf_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "yf/yf_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "yf/yf_08"
+              },
+              {
+                "time": 0.3,
+                "name": "yf/yf_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "yf/yf_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "yf/yf_11"
+              },
+              {
+                "time": 0.4,
+                "name": "yf/yf_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "yf/yf_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "yf/yf_14"
+              },
+              {
+                "time": 0.5,
+                "name": "yf/yf_00"
+              },
+              {
+                "time": 0.5333,
+                "name": "yf/yf_01"
+              },
+              {
+                "time": 0.5667,
+                "name": "yf/yf_02"
+              },
+              {
+                "time": 0.6,
+                "name": "yf/yf_03"
+              },
+              {
+                "time": 0.6333,
+                "name": "yf/yf_04"
+              },
+              {
+                "time": 0.6667,
+                "name": "yf/yf_05"
+              },
+              {
+                "time": 0.7,
+                "name": "yf/yf_06"
+              },
+              {
+                "time": 0.7333,
+                "name": "yf/yf_07"
+              },
+              {
+                "time": 0.7667,
+                "name": "yf/yf_08"
+              },
+              {
+                "time": 0.8,
+                "name": "yf/yf_09"
+              },
+              {
+                "time": 0.8333,
+                "name": "yf/yf_10"
+              },
+              {
+                "time": 0.8667,
+                "name": "yf/yf_11"
+              },
+              {
+                "time": 0.9,
+                "name": "yf/yf_12"
+              },
+              {
+                "time": 0.9333,
+                "name": "yf/yf_13"
+              },
+              {
+                "time": 0.9667,
+                "name": "yf/yf_14"
+              },
+              {
+                "time": 1,
+                "name": "yf/yf_00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nBG_yingfen.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nyf/yf_00\n  rotate: false\n  xy: 2, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_01\n  rotate: false\n  xy: 132, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_02\n  rotate: false\n  xy: 132, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_03\n  rotate: false\n  xy: 262, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_04\n  rotate: false\n  xy: 262, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_05\n  rotate: false\n  xy: 392, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_06\n  rotate: false\n  xy: 392, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_07\n  rotate: false\n  xy: 522, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_08\n  rotate: false\n  xy: 522, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_09\n  rotate: false\n  xy: 652, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_10\n  rotate: false\n  xy: 652, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_11\n  rotate: false\n  xy: 782, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_12\n  rotate: false\n  xy: 782, 2\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_13\n  rotate: true\n  xy: 912, 92\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\nyf/yf_14\n  rotate: false\n  xy: 2, 112\n  size: 128, 108\n  orig: 150, 150\n  offset: 11, 21\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "fbmYrZf71PbYXHPqoifuEM"
+    }
+  ],
+  "textureNames": [
+    "BG_yingfen.png"
+  ]
+}

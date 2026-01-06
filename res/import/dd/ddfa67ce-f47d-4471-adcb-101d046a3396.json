@@ -1,1 +1,613 @@
-{"__type__":"sp.SkeletonData","_name":"scatter_xunhuan","_skeletonJson":{"skeleton":{"hash":"2NDRpZTq0Kf6ZN3PUyxH9hKZ9dU","spine":"3.6.53","width":143,"height":152,"images":"./img1/"},"bones":[{"name":"root"},{"name":"zz","parent":"root","x":-0.15},{"name":"g","parent":"zz","x":-1,"y":-0.2,"scaleX":2,"scaleY":2},{"name":"tyguang","parent":"zz","x":7.76,"y":11.05,"scaleX":1.39,"scaleY":1.195},{"name":"wfg","parent":"zz","x":-1.48,"y":-0.16},{"name":"骨骼","parent":"root"}],"slots":[{"name":"scatter/wfg","bone":"wfg","attachment":"scatter/wfg","blend":"additive"},{"name":"scatterx4","bone":"骨骼","attachment":"1"},{"name":"scatter_guang_00","bone":"g","blend":"additive"},{"name":"tyguang","bone":"tyguang","attachment":"ef/tyguang/tyguang_38","blend":"additive"},{"name":"1","bone":"root"}],"skins":{"default":{"scatter/wfg":{"scatter/wfg":{"x":7.34,"y":0.31,"width":143,"height":152}},"scatter_guang_00":{"scatter_guang_00":{"width":90,"height":84}},"scatterx4":{"1":{"x":3.49,"y":-0.63,"width":114,"height":125}},"tyguang":{"ef/tyguang/tyguang_00":{"width":36,"height":36},"ef/tyguang/tyguang_01":{"width":36,"height":33},"ef/tyguang/tyguang_02":{"width":35,"height":33},"ef/tyguang/tyguang_03":{"width":35,"height":32},"ef/tyguang/tyguang_04":{"width":37,"height":33},"ef/tyguang/tyguang_05":{"width":37,"height":33},"ef/tyguang/tyguang_06":{"width":37,"height":34},"ef/tyguang/tyguang_07":{"width":37,"height":34},"ef/tyguang/tyguang_08":{"width":37,"height":34},"ef/tyguang/tyguang_09":{"width":37,"height":35},"ef/tyguang/tyguang_10":{"width":37,"height":35},"ef/tyguang/tyguang_11":{"width":37,"height":35},"ef/tyguang/tyguang_12":{"width":37,"height":35},"ef/tyguang/tyguang_13":{"width":37,"height":36},"ef/tyguang/tyguang_14":{"width":37,"height":36},"ef/tyguang/tyguang_15":{"width":37,"height":37},"ef/tyguang/tyguang_16":{"width":36,"height":37},"ef/tyguang/tyguang_17":{"width":36,"height":37},"ef/tyguang/tyguang_18":{"width":35,"height":37},"ef/tyguang/tyguang_19":{"width":34,"height":37},"ef/tyguang/tyguang_20":{"width":37,"height":37},"ef/tyguang/tyguang_21":{"width":37,"height":37},"ef/tyguang/tyguang_22":{"width":38,"height":39},"ef/tyguang/tyguang_23":{"width":40,"height":41},"ef/tyguang/tyguang_24":{"width":42,"height":43},"ef/tyguang/tyguang_25":{"width":44,"height":45},"ef/tyguang/tyguang_26":{"width":46,"height":47},"ef/tyguang/tyguang_27":{"width":48,"height":49},"ef/tyguang/tyguang_28":{"width":50,"height":51},"ef/tyguang/tyguang_29":{"width":52,"height":51},"ef/tyguang/tyguang_30":{"width":53,"height":53},"ef/tyguang/tyguang_31":{"width":55,"height":55},"ef/tyguang/tyguang_32":{"width":57,"height":57},"ef/tyguang/tyguang_33":{"width":58,"height":59},"ef/tyguang/tyguang_34":{"width":60,"height":61},"ef/tyguang/tyguang_35":{"width":62,"height":63},"ef/tyguang/tyguang_36":{"width":64,"height":65},"ef/tyguang/tyguang_37":{"width":65,"height":65},"ef/tyguang/tyguang_38":{"width":67,"height":66},"ef/tyguang/tyguang_39":{"width":69,"height":67},"ef/tyguang/tyguang_40":{"width":70,"height":67},"ef/tyguang/tyguang_41":{"width":70,"height":67},"ef/tyguang/tyguang_42":{"width":70,"height":67},"ef/tyguang/tyguang_43":{"width":70,"height":67},"ef/tyguang/tyguang_44":{"width":70,"height":66},"ef/tyguang/tyguang_45":{"width":70,"height":66},"ef/tyguang/tyguang_46":{"width":70,"height":66}}}},"animations":{"animation":{"slots":{"scatter/wfg":{"attachment":[{"time":0,"name":"scatter/wfg"}]},"scatter_guang_00":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.5,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1.1667,"color":"ffffff7b","curve":[0.25,0,0.75,1]},{"time":1.7667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"scatter_guang_00"}]},"scatterx4":{"attachment":[{"time":0,"name":"1"}]},"tyguang":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.4,"color":"ffffffff"}],"attachment":[{"time":0,"name":"ef/tyguang/tyguang_00"},{"time":0.0333,"name":"ef/tyguang/tyguang_01"},{"time":0.0667,"name":"ef/tyguang/tyguang_02"},{"time":0.1,"name":"ef/tyguang/tyguang_03"},{"time":0.1333,"name":"ef/tyguang/tyguang_04"},{"time":0.1667,"name":"ef/tyguang/tyguang_05"},{"time":0.2,"name":"ef/tyguang/tyguang_06"},{"time":0.2333,"name":"ef/tyguang/tyguang_07"},{"time":0.2667,"name":"ef/tyguang/tyguang_08"},{"time":0.3,"name":"ef/tyguang/tyguang_09"},{"time":0.3333,"name":"ef/tyguang/tyguang_10"},{"time":0.3667,"name":"ef/tyguang/tyguang_11"},{"time":0.4,"name":"ef/tyguang/tyguang_12"},{"time":0.4333,"name":"ef/tyguang/tyguang_13"},{"time":0.4667,"name":"ef/tyguang/tyguang_14"},{"time":0.5,"name":"ef/tyguang/tyguang_15"},{"time":0.5333,"name":"ef/tyguang/tyguang_16"},{"time":0.5667,"name":"ef/tyguang/tyguang_17"},{"time":0.6,"name":"ef/tyguang/tyguang_18"},{"time":0.6333,"name":"ef/tyguang/tyguang_19"},{"time":0.6667,"name":"ef/tyguang/tyguang_20"},{"time":0.7,"name":"ef/tyguang/tyguang_21"},{"time":0.7333,"name":"ef/tyguang/tyguang_22"},{"time":0.7667,"name":"ef/tyguang/tyguang_23"},{"time":0.8,"name":"ef/tyguang/tyguang_24"},{"time":0.8333,"name":"ef/tyguang/tyguang_25"},{"time":0.8667,"name":"ef/tyguang/tyguang_26"},{"time":0.9,"name":"ef/tyguang/tyguang_27"},{"time":0.9333,"name":"ef/tyguang/tyguang_28"},{"time":0.9667,"name":"ef/tyguang/tyguang_29"},{"time":1,"name":"ef/tyguang/tyguang_30"},{"time":1.0333,"name":"ef/tyguang/tyguang_31"},{"time":1.0667,"name":"ef/tyguang/tyguang_32"},{"time":1.1,"name":"ef/tyguang/tyguang_33"},{"time":1.1333,"name":"ef/tyguang/tyguang_34"},{"time":1.1667,"name":"ef/tyguang/tyguang_35"},{"time":1.2,"name":"ef/tyguang/tyguang_36"},{"time":1.2333,"name":"ef/tyguang/tyguang_37"},{"time":1.2667,"name":"ef/tyguang/tyguang_38"},{"time":1.3,"name":"ef/tyguang/tyguang_39"},{"time":1.3333,"name":"ef/tyguang/tyguang_40"},{"time":1.3667,"name":"ef/tyguang/tyguang_41"},{"time":1.4,"name":"ef/tyguang/tyguang_42"},{"time":1.4333,"name":"ef/tyguang/tyguang_43"},{"time":1.4667,"name":"ef/tyguang/tyguang_44"},{"time":1.5,"name":"ef/tyguang/tyguang_45"},{"time":1.5333,"name":"ef/tyguang/tyguang_46"},{"time":1.5667,"name":null},{"time":2,"name":null}]}},"bones":{"骨骼":{"translate":[{"time":0,"x":-0.13,"y":-0.03}]}}},"animation2":{"slots":{"scatter/wfg":{"attachment":[{"time":0,"name":"scatter/wfg"}]}},"bones":{"骨骼":{"translate":[{"time":0,"x":-0.13,"y":-0.03}]}}}}},"_atlasText":"\nscatter_xunhuan.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 147, 129\n  size: 114, 125\n  orig: 114, 125\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_00\n  rotate: false\n  xy: 340, 84\n  size: 36, 36\n  orig: 36, 36\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_01\n  rotate: true\n  xy: 378, 84\n  size: 36, 33\n  orig: 36, 33\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_02\n  rotate: false\n  xy: 283, 8\n  size: 35, 33\n  orig: 35, 33\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_03\n  rotate: true\n  xy: 229, 92\n  size: 35, 32\n  orig: 35, 32\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_04\n  rotate: true\n  xy: 953, 150\n  size: 37, 33\n  orig: 37, 33\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_05\n  rotate: true\n  xy: 136, 6\n  size: 37, 33\n  orig: 37, 33\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_06\n  rotate: true\n  xy: 988, 166\n  size: 37, 34\n  orig: 37, 34\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_07\n  rotate: true\n  xy: 988, 127\n  size: 37, 34\n  orig: 37, 34\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_08\n  rotate: true\n  xy: 229, 53\n  size: 37, 34\n  orig: 37, 34\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_09\n  rotate: true\n  xy: 171, 12\n  size: 37, 35\n  orig: 37, 35\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_10\n  rotate: true\n  xy: 246, 14\n  size: 37, 35\n  orig: 37, 35\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_11\n  rotate: true\n  xy: 303, 82\n  size: 37, 35\n  orig: 37, 35\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_12\n  rotate: false\n  xy: 413, 87\n  size: 37, 35\n  orig: 37, 35\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_13\n  rotate: false\n  xy: 190, 91\n  size: 37, 36\n  orig: 37, 36\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_14\n  rotate: false\n  xy: 190, 53\n  size: 37, 36\n  orig: 37, 36\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_15\n  rotate: false\n  xy: 914, 150\n  size: 37, 37\n  orig: 37, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_16\n  rotate: false\n  xy: 208, 14\n  size: 36, 37\n  orig: 36, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_17\n  rotate: false\n  xy: 265, 82\n  size: 36, 37\n  orig: 36, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_18\n  rotate: false\n  xy: 283, 43\n  size: 35, 37\n  orig: 35, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_19\n  rotate: false\n  xy: 320, 43\n  size: 34, 37\n  orig: 34, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_20\n  rotate: false\n  xy: 151, 90\n  size: 37, 37\n  orig: 37, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_21\n  rotate: false\n  xy: 151, 51\n  size: 37, 37\n  orig: 37, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_22\n  rotate: false\n  xy: 874, 147\n  size: 38, 39\n  orig: 38, 39\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_23\n  rotate: false\n  xy: 94, 2\n  size: 40, 41\n  orig: 40, 41\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_24\n  rotate: false\n  xy: 830, 143\n  size: 42, 43\n  orig: 42, 43\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_25\n  rotate: false\n  xy: 784, 141\n  size: 44, 45\n  orig: 44, 45\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_26\n  rotate: false\n  xy: 736, 139\n  size: 46, 47\n  orig: 46, 47\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_27\n  rotate: false\n  xy: 974, 205\n  size: 48, 49\n  orig: 48, 49\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_28\n  rotate: false\n  xy: 684, 135\n  size: 50, 51\n  orig: 50, 51\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_29\n  rotate: false\n  xy: 630, 135\n  size: 52, 51\n  orig: 52, 51\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_30\n  rotate: false\n  xy: 575, 132\n  size: 53, 53\n  orig: 53, 53\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_31\n  rotate: false\n  xy: 94, 45\n  size: 55, 55\n  orig: 55, 55\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_32\n  rotate: false\n  xy: 516, 128\n  size: 57, 57\n  orig: 57, 57\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_33\n  rotate: false\n  xy: 456, 126\n  size: 58, 59\n  orig: 58, 59\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_34\n  rotate: false\n  xy: 394, 124\n  size: 60, 61\n  orig: 60, 61\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_35\n  rotate: false\n  xy: 330, 122\n  size: 62, 63\n  orig: 62, 63\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_36\n  rotate: true\n  xy: 263, 121\n  size: 64, 65\n  orig: 64, 65\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_37\n  rotate: false\n  xy: 907, 189\n  size: 65, 65\n  orig: 65, 65\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_38\n  rotate: false\n  xy: 838, 188\n  size: 67, 66\n  orig: 67, 66\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_39\n  rotate: false\n  xy: 551, 187\n  size: 69, 67\n  orig: 69, 67\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_40\n  rotate: false\n  xy: 263, 187\n  size: 70, 67\n  orig: 70, 67\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_41\n  rotate: false\n  xy: 335, 187\n  size: 70, 67\n  orig: 70, 67\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_42\n  rotate: false\n  xy: 407, 187\n  size: 70, 67\n  orig: 70, 67\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_43\n  rotate: false\n  xy: 479, 187\n  size: 70, 67\n  orig: 70, 67\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_44\n  rotate: false\n  xy: 622, 188\n  size: 70, 66\n  orig: 70, 66\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_45\n  rotate: false\n  xy: 694, 188\n  size: 70, 66\n  orig: 70, 66\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_46\n  rotate: false\n  xy: 766, 188\n  size: 70, 66\n  orig: 70, 66\n  offset: 0, 0\n  index: -1\nscatter/wfg\n  rotate: false\n  xy: 2, 102\n  size: 143, 152\n  orig: 143, 152\n  offset: 0, 0\n  index: -1\nscatter_guang_00\n  rotate: false\n  xy: 2, 16\n  size: 90, 84\n  orig: 90, 84\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"de+Ut3fcZBxKurbR6VRQMf"}],"textureNames":["scatter_xunhuan.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "scatter_xunhuan",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "2NDRpZTq0Kf6ZN3PUyxH9hKZ9dU",
+      "spine": "3.6.53",
+      "width": 143,
+      "height": 152,
+      "images": "./img1/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zz",
+        "parent": "root",
+        "x": -0.15
+      },
+      {
+        "name": "g",
+        "parent": "zz",
+        "x": -1,
+        "y": -0.2,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "tyguang",
+        "parent": "zz",
+        "x": 7.76,
+        "y": 11.05,
+        "scaleX": 1.39,
+        "scaleY": 1.195
+      },
+      {
+        "name": "wfg",
+        "parent": "zz",
+        "x": -1.48,
+        "y": -0.16
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "scatter/wfg",
+        "bone": "wfg",
+        "attachment": "scatter/wfg",
+        "blend": "additive"
+      },
+      {
+        "name": "scatterx4",
+        "bone": "骨骼",
+        "attachment": "1"
+      },
+      {
+        "name": "scatter_guang_00",
+        "bone": "g",
+        "blend": "additive"
+      },
+      {
+        "name": "tyguang",
+        "bone": "tyguang",
+        "attachment": "ef/tyguang/tyguang_38",
+        "blend": "additive"
+      },
+      {
+        "name": "1",
+        "bone": "root"
+      }
+    ],
+    "skins": {
+      "default": {
+        "scatter/wfg": {
+          "scatter/wfg": {
+            "x": 7.34,
+            "y": 0.31,
+            "width": 143,
+            "height": 152
+          }
+        },
+        "scatter_guang_00": {
+          "scatter_guang_00": {
+            "width": 90,
+            "height": 84
+          }
+        },
+        "scatterx4": {
+          "1": {
+            "x": 3.49,
+            "y": -0.63,
+            "width": 114,
+            "height": 125
+          }
+        },
+        "tyguang": {
+          "ef/tyguang/tyguang_00": {
+            "width": 36,
+            "height": 36
+          },
+          "ef/tyguang/tyguang_01": {
+            "width": 36,
+            "height": 33
+          },
+          "ef/tyguang/tyguang_02": {
+            "width": 35,
+            "height": 33
+          },
+          "ef/tyguang/tyguang_03": {
+            "width": 35,
+            "height": 32
+          },
+          "ef/tyguang/tyguang_04": {
+            "width": 37,
+            "height": 33
+          },
+          "ef/tyguang/tyguang_05": {
+            "width": 37,
+            "height": 33
+          },
+          "ef/tyguang/tyguang_06": {
+            "width": 37,
+            "height": 34
+          },
+          "ef/tyguang/tyguang_07": {
+            "width": 37,
+            "height": 34
+          },
+          "ef/tyguang/tyguang_08": {
+            "width": 37,
+            "height": 34
+          },
+          "ef/tyguang/tyguang_09": {
+            "width": 37,
+            "height": 35
+          },
+          "ef/tyguang/tyguang_10": {
+            "width": 37,
+            "height": 35
+          },
+          "ef/tyguang/tyguang_11": {
+            "width": 37,
+            "height": 35
+          },
+          "ef/tyguang/tyguang_12": {
+            "width": 37,
+            "height": 35
+          },
+          "ef/tyguang/tyguang_13": {
+            "width": 37,
+            "height": 36
+          },
+          "ef/tyguang/tyguang_14": {
+            "width": 37,
+            "height": 36
+          },
+          "ef/tyguang/tyguang_15": {
+            "width": 37,
+            "height": 37
+          },
+          "ef/tyguang/tyguang_16": {
+            "width": 36,
+            "height": 37
+          },
+          "ef/tyguang/tyguang_17": {
+            "width": 36,
+            "height": 37
+          },
+          "ef/tyguang/tyguang_18": {
+            "width": 35,
+            "height": 37
+          },
+          "ef/tyguang/tyguang_19": {
+            "width": 34,
+            "height": 37
+          },
+          "ef/tyguang/tyguang_20": {
+            "width": 37,
+            "height": 37
+          },
+          "ef/tyguang/tyguang_21": {
+            "width": 37,
+            "height": 37
+          },
+          "ef/tyguang/tyguang_22": {
+            "width": 38,
+            "height": 39
+          },
+          "ef/tyguang/tyguang_23": {
+            "width": 40,
+            "height": 41
+          },
+          "ef/tyguang/tyguang_24": {
+            "width": 42,
+            "height": 43
+          },
+          "ef/tyguang/tyguang_25": {
+            "width": 44,
+            "height": 45
+          },
+          "ef/tyguang/tyguang_26": {
+            "width": 46,
+            "height": 47
+          },
+          "ef/tyguang/tyguang_27": {
+            "width": 48,
+            "height": 49
+          },
+          "ef/tyguang/tyguang_28": {
+            "width": 50,
+            "height": 51
+          },
+          "ef/tyguang/tyguang_29": {
+            "width": 52,
+            "height": 51
+          },
+          "ef/tyguang/tyguang_30": {
+            "width": 53,
+            "height": 53
+          },
+          "ef/tyguang/tyguang_31": {
+            "width": 55,
+            "height": 55
+          },
+          "ef/tyguang/tyguang_32": {
+            "width": 57,
+            "height": 57
+          },
+          "ef/tyguang/tyguang_33": {
+            "width": 58,
+            "height": 59
+          },
+          "ef/tyguang/tyguang_34": {
+            "width": 60,
+            "height": 61
+          },
+          "ef/tyguang/tyguang_35": {
+            "width": 62,
+            "height": 63
+          },
+          "ef/tyguang/tyguang_36": {
+            "width": 64,
+            "height": 65
+          },
+          "ef/tyguang/tyguang_37": {
+            "width": 65,
+            "height": 65
+          },
+          "ef/tyguang/tyguang_38": {
+            "width": 67,
+            "height": 66
+          },
+          "ef/tyguang/tyguang_39": {
+            "width": 69,
+            "height": 67
+          },
+          "ef/tyguang/tyguang_40": {
+            "width": 70,
+            "height": 67
+          },
+          "ef/tyguang/tyguang_41": {
+            "width": 70,
+            "height": 67
+          },
+          "ef/tyguang/tyguang_42": {
+            "width": 70,
+            "height": 67
+          },
+          "ef/tyguang/tyguang_43": {
+            "width": 70,
+            "height": 67
+          },
+          "ef/tyguang/tyguang_44": {
+            "width": 70,
+            "height": 66
+          },
+          "ef/tyguang/tyguang_45": {
+            "width": 70,
+            "height": 66
+          },
+          "ef/tyguang/tyguang_46": {
+            "width": 70,
+            "height": 66
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "scatter/wfg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "scatter/wfg"
+              }
+            ]
+          },
+          "scatter_guang_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffff7b",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.7667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "scatter_guang_00"
+              }
+            ]
+          },
+          "scatterx4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "1"
+              }
+            ]
+          },
+          "tyguang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "ef/tyguang/tyguang_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "ef/tyguang/tyguang_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "ef/tyguang/tyguang_02"
+              },
+              {
+                "time": 0.1,
+                "name": "ef/tyguang/tyguang_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "ef/tyguang/tyguang_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "ef/tyguang/tyguang_05"
+              },
+              {
+                "time": 0.2,
+                "name": "ef/tyguang/tyguang_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "ef/tyguang/tyguang_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "ef/tyguang/tyguang_08"
+              },
+              {
+                "time": 0.3,
+                "name": "ef/tyguang/tyguang_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "ef/tyguang/tyguang_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "ef/tyguang/tyguang_11"
+              },
+              {
+                "time": 0.4,
+                "name": "ef/tyguang/tyguang_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "ef/tyguang/tyguang_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "ef/tyguang/tyguang_14"
+              },
+              {
+                "time": 0.5,
+                "name": "ef/tyguang/tyguang_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "ef/tyguang/tyguang_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "ef/tyguang/tyguang_17"
+              },
+              {
+                "time": 0.6,
+                "name": "ef/tyguang/tyguang_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "ef/tyguang/tyguang_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "ef/tyguang/tyguang_20"
+              },
+              {
+                "time": 0.7,
+                "name": "ef/tyguang/tyguang_21"
+              },
+              {
+                "time": 0.7333,
+                "name": "ef/tyguang/tyguang_22"
+              },
+              {
+                "time": 0.7667,
+                "name": "ef/tyguang/tyguang_23"
+              },
+              {
+                "time": 0.8,
+                "name": "ef/tyguang/tyguang_24"
+              },
+              {
+                "time": 0.8333,
+                "name": "ef/tyguang/tyguang_25"
+              },
+              {
+                "time": 0.8667,
+                "name": "ef/tyguang/tyguang_26"
+              },
+              {
+                "time": 0.9,
+                "name": "ef/tyguang/tyguang_27"
+              },
+              {
+                "time": 0.9333,
+                "name": "ef/tyguang/tyguang_28"
+              },
+              {
+                "time": 0.9667,
+                "name": "ef/tyguang/tyguang_29"
+              },
+              {
+                "time": 1,
+                "name": "ef/tyguang/tyguang_30"
+              },
+              {
+                "time": 1.0333,
+                "name": "ef/tyguang/tyguang_31"
+              },
+              {
+                "time": 1.0667,
+                "name": "ef/tyguang/tyguang_32"
+              },
+              {
+                "time": 1.1,
+                "name": "ef/tyguang/tyguang_33"
+              },
+              {
+                "time": 1.1333,
+                "name": "ef/tyguang/tyguang_34"
+              },
+              {
+                "time": 1.1667,
+                "name": "ef/tyguang/tyguang_35"
+              },
+              {
+                "time": 1.2,
+                "name": "ef/tyguang/tyguang_36"
+              },
+              {
+                "time": 1.2333,
+                "name": "ef/tyguang/tyguang_37"
+              },
+              {
+                "time": 1.2667,
+                "name": "ef/tyguang/tyguang_38"
+              },
+              {
+                "time": 1.3,
+                "name": "ef/tyguang/tyguang_39"
+              },
+              {
+                "time": 1.3333,
+                "name": "ef/tyguang/tyguang_40"
+              },
+              {
+                "time": 1.3667,
+                "name": "ef/tyguang/tyguang_41"
+              },
+              {
+                "time": 1.4,
+                "name": "ef/tyguang/tyguang_42"
+              },
+              {
+                "time": 1.4333,
+                "name": "ef/tyguang/tyguang_43"
+              },
+              {
+                "time": 1.4667,
+                "name": "ef/tyguang/tyguang_44"
+              },
+              {
+                "time": 1.5,
+                "name": "ef/tyguang/tyguang_45"
+              },
+              {
+                "time": 1.5333,
+                "name": "ef/tyguang/tyguang_46"
+              },
+              {
+                "time": 1.5667,
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "骨骼": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.13,
+                "y": -0.03
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "scatter/wfg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "scatter/wfg"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "骨骼": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.13,
+                "y": -0.03
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nscatter_xunhuan.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 147, 129\n  size: 114, 125\n  orig: 114, 125\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_00\n  rotate: false\n  xy: 340, 84\n  size: 36, 36\n  orig: 36, 36\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_01\n  rotate: true\n  xy: 378, 84\n  size: 36, 33\n  orig: 36, 33\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_02\n  rotate: false\n  xy: 283, 8\n  size: 35, 33\n  orig: 35, 33\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_03\n  rotate: true\n  xy: 229, 92\n  size: 35, 32\n  orig: 35, 32\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_04\n  rotate: true\n  xy: 953, 150\n  size: 37, 33\n  orig: 37, 33\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_05\n  rotate: true\n  xy: 136, 6\n  size: 37, 33\n  orig: 37, 33\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_06\n  rotate: true\n  xy: 988, 166\n  size: 37, 34\n  orig: 37, 34\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_07\n  rotate: true\n  xy: 988, 127\n  size: 37, 34\n  orig: 37, 34\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_08\n  rotate: true\n  xy: 229, 53\n  size: 37, 34\n  orig: 37, 34\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_09\n  rotate: true\n  xy: 171, 12\n  size: 37, 35\n  orig: 37, 35\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_10\n  rotate: true\n  xy: 246, 14\n  size: 37, 35\n  orig: 37, 35\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_11\n  rotate: true\n  xy: 303, 82\n  size: 37, 35\n  orig: 37, 35\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_12\n  rotate: false\n  xy: 413, 87\n  size: 37, 35\n  orig: 37, 35\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_13\n  rotate: false\n  xy: 190, 91\n  size: 37, 36\n  orig: 37, 36\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_14\n  rotate: false\n  xy: 190, 53\n  size: 37, 36\n  orig: 37, 36\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_15\n  rotate: false\n  xy: 914, 150\n  size: 37, 37\n  orig: 37, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_16\n  rotate: false\n  xy: 208, 14\n  size: 36, 37\n  orig: 36, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_17\n  rotate: false\n  xy: 265, 82\n  size: 36, 37\n  orig: 36, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_18\n  rotate: false\n  xy: 283, 43\n  size: 35, 37\n  orig: 35, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_19\n  rotate: false\n  xy: 320, 43\n  size: 34, 37\n  orig: 34, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_20\n  rotate: false\n  xy: 151, 90\n  size: 37, 37\n  orig: 37, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_21\n  rotate: false\n  xy: 151, 51\n  size: 37, 37\n  orig: 37, 37\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_22\n  rotate: false\n  xy: 874, 147\n  size: 38, 39\n  orig: 38, 39\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_23\n  rotate: false\n  xy: 94, 2\n  size: 40, 41\n  orig: 40, 41\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_24\n  rotate: false\n  xy: 830, 143\n  size: 42, 43\n  orig: 42, 43\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_25\n  rotate: false\n  xy: 784, 141\n  size: 44, 45\n  orig: 44, 45\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_26\n  rotate: false\n  xy: 736, 139\n  size: 46, 47\n  orig: 46, 47\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_27\n  rotate: false\n  xy: 974, 205\n  size: 48, 49\n  orig: 48, 49\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_28\n  rotate: false\n  xy: 684, 135\n  size: 50, 51\n  orig: 50, 51\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_29\n  rotate: false\n  xy: 630, 135\n  size: 52, 51\n  orig: 52, 51\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_30\n  rotate: false\n  xy: 575, 132\n  size: 53, 53\n  orig: 53, 53\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_31\n  rotate: false\n  xy: 94, 45\n  size: 55, 55\n  orig: 55, 55\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_32\n  rotate: false\n  xy: 516, 128\n  size: 57, 57\n  orig: 57, 57\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_33\n  rotate: false\n  xy: 456, 126\n  size: 58, 59\n  orig: 58, 59\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_34\n  rotate: false\n  xy: 394, 124\n  size: 60, 61\n  orig: 60, 61\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_35\n  rotate: false\n  xy: 330, 122\n  size: 62, 63\n  orig: 62, 63\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_36\n  rotate: true\n  xy: 263, 121\n  size: 64, 65\n  orig: 64, 65\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_37\n  rotate: false\n  xy: 907, 189\n  size: 65, 65\n  orig: 65, 65\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_38\n  rotate: false\n  xy: 838, 188\n  size: 67, 66\n  orig: 67, 66\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_39\n  rotate: false\n  xy: 551, 187\n  size: 69, 67\n  orig: 69, 67\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_40\n  rotate: false\n  xy: 263, 187\n  size: 70, 67\n  orig: 70, 67\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_41\n  rotate: false\n  xy: 335, 187\n  size: 70, 67\n  orig: 70, 67\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_42\n  rotate: false\n  xy: 407, 187\n  size: 70, 67\n  orig: 70, 67\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_43\n  rotate: false\n  xy: 479, 187\n  size: 70, 67\n  orig: 70, 67\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_44\n  rotate: false\n  xy: 622, 188\n  size: 70, 66\n  orig: 70, 66\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_45\n  rotate: false\n  xy: 694, 188\n  size: 70, 66\n  orig: 70, 66\n  offset: 0, 0\n  index: -1\nef/tyguang/tyguang_46\n  rotate: false\n  xy: 766, 188\n  size: 70, 66\n  orig: 70, 66\n  offset: 0, 0\n  index: -1\nscatter/wfg\n  rotate: false\n  xy: 2, 102\n  size: 143, 152\n  orig: 143, 152\n  offset: 0, 0\n  index: -1\nscatter_guang_00\n  rotate: false\n  xy: 2, 16\n  size: 90, 84\n  orig: 90, 84\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "de+Ut3fcZBxKurbR6VRQMf"
+    }
+  ],
+  "textureNames": [
+    "scatter_xunhuan.png"
+  ]
+}

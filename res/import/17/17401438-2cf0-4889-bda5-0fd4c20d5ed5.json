@@ -1,1 +1,149 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"1OBeqzyGwPH3L77v7KLzabaynig","spine":"3.6.53","width":88.06,"height":89.43},"bones":[{"name":"root"},{"name":"zong","parent":"root"},{"name":"fangkuai","parent":"zong"},{"name":"guang","parent":"fangkuai","y":2.19}],"slots":[{"name":"fangkuai","bone":"fangkuai","attachment":"images/fangkuai"},{"name":"images/guang_0","bone":"guang","attachment":"images/guang_0","blend":"additive"}],"skins":{"default":{"fangkuai":{"images/fangkuai":{"x":0.09,"y":-0.36,"width":87,"height":89}},"images/guang_0":{"images/guang_0":{"x":1.15,"y":-2.12,"width":87,"height":89}}}},"animations":{"animation":{"slots":{"images/guang_0":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.1667,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffc5","curve":"stepped"},{"time":0.8333,"color":"ffffffc5","curve":[0.276,0,0.621,0.4]},{"time":1,"color":"ffffff00"}]}},"bones":{"fangkuai":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":1.07,"y":1.07,"curve":[0.25,0,0.75,1]},{"time":1,"x":1,"y":1}]}}}}},"_atlasText":"\nspine.png\nsize: 256,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/fangkuai\n  rotate: false\n  xy: 2, 2\n  size: 87, 89\n  orig: 87, 89\n  offset: 0, 0\n  index: -1\nimages/guang_0\n  rotate: false\n  xy: 91, 2\n  size: 87, 89\n  orig: 87, 89\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"14XrdplWdCoKnkG4ziY7VL"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "1OBeqzyGwPH3L77v7KLzabaynig",
+      "spine": "3.6.53",
+      "width": 88.06,
+      "height": 89.43
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root"
+      },
+      {
+        "name": "fangkuai",
+        "parent": "zong"
+      },
+      {
+        "name": "guang",
+        "parent": "fangkuai",
+        "y": 2.19
+      }
+    ],
+    "slots": [
+      {
+        "name": "fangkuai",
+        "bone": "fangkuai",
+        "attachment": "images/fangkuai"
+      },
+      {
+        "name": "images/guang_0",
+        "bone": "guang",
+        "attachment": "images/guang_0",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "fangkuai": {
+          "images/fangkuai": {
+            "x": 0.09,
+            "y": -0.36,
+            "width": 87,
+            "height": 89
+          }
+        },
+        "images/guang_0": {
+          "images/guang_0": {
+            "x": 1.15,
+            "y": -2.12,
+            "width": 87,
+            "height": 89
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "images/guang_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffc5",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffffc5",
+                "curve": [
+                  0.276,
+                  0,
+                  0.621,
+                  0.4
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "fangkuai": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1.07,
+                "y": 1.07,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 256,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/fangkuai\n  rotate: false\n  xy: 2, 2\n  size: 87, 89\n  orig: 87, 89\n  offset: 0, 0\n  index: -1\nimages/guang_0\n  rotate: false\n  xy: 91, 2\n  size: 87, 89\n  orig: 87, 89\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "14XrdplWdCoKnkG4ziY7VL"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

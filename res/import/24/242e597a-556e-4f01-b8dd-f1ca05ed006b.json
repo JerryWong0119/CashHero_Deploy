@@ -1,1 +1,187 @@
-{"__type__":"sp.SkeletonData","_name":"JP_KongCaoTingPai","_skeletonJson":{"skeleton":{"hash":"pnVjeYSES9vg6Gn6diIDbrDM+wY","spine":"3.6.53","width":0,"height":0,"images":""},"bones":[{"name":"root"},{"name":"All","parent":"root"},{"name":"kong1","parent":"All"}],"slots":[{"name":"kong1","bone":"kong1"}],"skins":{"default":{"kong1":{"images/kong/kong1_000":{"width":180,"height":170},"images/kong/kong1_001":{"width":180,"height":170},"images/kong/kong1_002":{"width":180,"height":170},"images/kong/kong1_003":{"width":180,"height":170},"images/kong/kong1_004":{"width":180,"height":170},"images/kong/kong1_005":{"width":180,"height":170},"images/kong/kong1_006":{"width":180,"height":170},"images/kong/kong1_007":{"width":180,"height":170},"images/kong/kong1_008":{"width":180,"height":170},"images/kong/kong1_009":{"width":180,"height":170}}}},"animations":{"JP_KongCaoTingPai":{"slots":{"kong1":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/kong/kong1_000"},{"time":0.0667,"name":"images/kong/kong1_001"},{"time":0.1,"name":"images/kong/kong1_002"},{"time":0.1667,"name":"images/kong/kong1_003"},{"time":0.2,"name":"images/kong/kong1_004"},{"time":0.2667,"name":"images/kong/kong1_005"},{"time":0.3,"name":"images/kong/kong1_006"},{"time":0.3667,"name":"images/kong/kong1_007"},{"time":0.4,"name":"images/kong/kong1_008"},{"time":0.4667,"name":"images/kong/kong1_009"},{"time":0.5,"name":"images/kong/kong1_000"},{"time":0.5667,"name":"images/kong/kong1_001"},{"time":0.6,"name":"images/kong/kong1_002"},{"time":0.6667,"name":"images/kong/kong1_003"},{"time":0.7,"name":"images/kong/kong1_004"},{"time":0.7667,"name":"images/kong/kong1_005"},{"time":0.8,"name":"images/kong/kong1_006"},{"time":0.8667,"name":"images/kong/kong1_007"},{"time":0.9,"name":"images/kong/kong1_008"},{"time":0.9667,"name":"images/kong/kong1_009"},{"time":1,"name":"images/kong/kong1_000"}]}}}}},"_atlasText":"\nJP_KongCaoTingPai.png\nsize: 1489,169\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/kong/kong1_000\n  rotate: true\n  xy: 752, 7\n  size: 160, 146\n  orig: 180, 170\n  offset: 8, 13\n  index: -1\nimages/kong/kong1_001\n  rotate: true\n  xy: 603, 7\n  size: 160, 147\n  orig: 180, 170\n  offset: 8, 13\n  index: -1\nimages/kong/kong1_002\n  rotate: true\n  xy: 1050, 7\n  size: 160, 145\n  orig: 180, 170\n  offset: 10, 16\n  index: -1\nimages/kong/kong1_003\n  rotate: true\n  xy: 305, 4\n  size: 163, 148\n  orig: 180, 170\n  offset: 9, 13\n  index: -1\nimages/kong/kong1_004\n  rotate: true\n  xy: 2, 3\n  size: 164, 150\n  orig: 180, 170\n  offset: 8, 12\n  index: -1\nimages/kong/kong1_005\n  rotate: true\n  xy: 154, 4\n  size: 163, 149\n  orig: 180, 170\n  offset: 10, 14\n  index: -1\nimages/kong/kong1_006\n  rotate: true\n  xy: 455, 2\n  size: 165, 146\n  orig: 180, 170\n  offset: 8, 15\n  index: -1\nimages/kong/kong1_007\n  rotate: true\n  xy: 1344, 6\n  size: 161, 143\n  orig: 180, 170\n  offset: 11, 16\n  index: -1\nimages/kong/kong1_008\n  rotate: true\n  xy: 1197, 7\n  size: 160, 145\n  orig: 180, 170\n  offset: 11, 17\n  index: -1\nimages/kong/kong1_009\n  rotate: true\n  xy: 900, 10\n  size: 157, 148\n  orig: 180, 170\n  offset: 11, 16\n  index: -1\n","textures":[{"__uuid__":"bdnkoo03JEOLnZl7t09BGx"}],"textureNames":["JP_KongCaoTingPai.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "JP_KongCaoTingPai",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "pnVjeYSES9vg6Gn6diIDbrDM+wY",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "All",
+        "parent": "root"
+      },
+      {
+        "name": "kong1",
+        "parent": "All"
+      }
+    ],
+    "slots": [
+      {
+        "name": "kong1",
+        "bone": "kong1"
+      }
+    ],
+    "skins": {
+      "default": {
+        "kong1": {
+          "images/kong/kong1_000": {
+            "width": 180,
+            "height": 170
+          },
+          "images/kong/kong1_001": {
+            "width": 180,
+            "height": 170
+          },
+          "images/kong/kong1_002": {
+            "width": 180,
+            "height": 170
+          },
+          "images/kong/kong1_003": {
+            "width": 180,
+            "height": 170
+          },
+          "images/kong/kong1_004": {
+            "width": 180,
+            "height": 170
+          },
+          "images/kong/kong1_005": {
+            "width": 180,
+            "height": 170
+          },
+          "images/kong/kong1_006": {
+            "width": 180,
+            "height": 170
+          },
+          "images/kong/kong1_007": {
+            "width": 180,
+            "height": 170
+          },
+          "images/kong/kong1_008": {
+            "width": 180,
+            "height": 170
+          },
+          "images/kong/kong1_009": {
+            "width": 180,
+            "height": 170
+          }
+        }
+      }
+    },
+    "animations": {
+      "JP_KongCaoTingPai": {
+        "slots": {
+          "kong1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/kong/kong1_000"
+              },
+              {
+                "time": 0.0667,
+                "name": "images/kong/kong1_001"
+              },
+              {
+                "time": 0.1,
+                "name": "images/kong/kong1_002"
+              },
+              {
+                "time": 0.1667,
+                "name": "images/kong/kong1_003"
+              },
+              {
+                "time": 0.2,
+                "name": "images/kong/kong1_004"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/kong/kong1_005"
+              },
+              {
+                "time": 0.3,
+                "name": "images/kong/kong1_006"
+              },
+              {
+                "time": 0.3667,
+                "name": "images/kong/kong1_007"
+              },
+              {
+                "time": 0.4,
+                "name": "images/kong/kong1_008"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/kong/kong1_009"
+              },
+              {
+                "time": 0.5,
+                "name": "images/kong/kong1_000"
+              },
+              {
+                "time": 0.5667,
+                "name": "images/kong/kong1_001"
+              },
+              {
+                "time": 0.6,
+                "name": "images/kong/kong1_002"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/kong/kong1_003"
+              },
+              {
+                "time": 0.7,
+                "name": "images/kong/kong1_004"
+              },
+              {
+                "time": 0.7667,
+                "name": "images/kong/kong1_005"
+              },
+              {
+                "time": 0.8,
+                "name": "images/kong/kong1_006"
+              },
+              {
+                "time": 0.8667,
+                "name": "images/kong/kong1_007"
+              },
+              {
+                "time": 0.9,
+                "name": "images/kong/kong1_008"
+              },
+              {
+                "time": 0.9667,
+                "name": "images/kong/kong1_009"
+              },
+              {
+                "time": 1,
+                "name": "images/kong/kong1_000"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nJP_KongCaoTingPai.png\nsize: 1489,169\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/kong/kong1_000\n  rotate: true\n  xy: 752, 7\n  size: 160, 146\n  orig: 180, 170\n  offset: 8, 13\n  index: -1\nimages/kong/kong1_001\n  rotate: true\n  xy: 603, 7\n  size: 160, 147\n  orig: 180, 170\n  offset: 8, 13\n  index: -1\nimages/kong/kong1_002\n  rotate: true\n  xy: 1050, 7\n  size: 160, 145\n  orig: 180, 170\n  offset: 10, 16\n  index: -1\nimages/kong/kong1_003\n  rotate: true\n  xy: 305, 4\n  size: 163, 148\n  orig: 180, 170\n  offset: 9, 13\n  index: -1\nimages/kong/kong1_004\n  rotate: true\n  xy: 2, 3\n  size: 164, 150\n  orig: 180, 170\n  offset: 8, 12\n  index: -1\nimages/kong/kong1_005\n  rotate: true\n  xy: 154, 4\n  size: 163, 149\n  orig: 180, 170\n  offset: 10, 14\n  index: -1\nimages/kong/kong1_006\n  rotate: true\n  xy: 455, 2\n  size: 165, 146\n  orig: 180, 170\n  offset: 8, 15\n  index: -1\nimages/kong/kong1_007\n  rotate: true\n  xy: 1344, 6\n  size: 161, 143\n  orig: 180, 170\n  offset: 11, 16\n  index: -1\nimages/kong/kong1_008\n  rotate: true\n  xy: 1197, 7\n  size: 160, 145\n  orig: 180, 170\n  offset: 11, 17\n  index: -1\nimages/kong/kong1_009\n  rotate: true\n  xy: 900, 10\n  size: 157, 148\n  orig: 180, 170\n  offset: 11, 16\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "bdnkoo03JEOLnZl7t09BGx"
+    }
+  ],
+  "textureNames": [
+    "JP_KongCaoTingPai.png"
+  ]
+}

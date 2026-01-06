@@ -1,1 +1,3902 @@
-{"__type__":"sp.SkeletonData","_name":"Socre_AZTEC_4","_skeletonJson":{"skeleton":{"hash":"aN6NaM2qwcDum9ebZozjAbhaEiY","spine":"3.6.53","width":263,"height":222,"images":"./img/"},"bones":[{"name":"root"},{"name":"bone","parent":"root"},{"name":"bone4","parent":"bone","y":0.63},{"name":"bone2","parent":"bone4"},{"name":"bone3","parent":"bone4"},{"name":"tx","parent":"bone3"},{"name":"bone5","parent":"tx","rotation":90,"x":-5.78,"y":25.02,"scaleX":5.225,"scaleY":5.225},{"name":"zhuti","parent":"bone3","length":22.94,"rotation":91.82,"x":0.34,"y":-119.89},{"name":"shenti","parent":"zhuti","length":140.02,"rotation":0.26,"x":55.11,"y":2.82},{"name":"shenti2","parent":"shenti","length":76.61,"rotation":-168.68,"x":110.25,"y":-51.68},{"name":"shenti3","parent":"shenti2","length":42.95,"rotation":-1.82,"x":76.61},{"name":"shenti4","parent":"shenti","length":49.62,"rotation":166.73,"x":49.54,"y":65.17},{"name":"star","parent":"tx","rotation":90},{"name":"star_1","parent":"star","x":38.05,"y":22.48},{"name":"star_2","parent":"star","x":44.04,"y":12.73},{"name":"star_3","parent":"star","x":44.04,"y":-15.12},{"name":"star_4","parent":"star","x":56.99,"y":-1.62},{"name":"star_5","parent":"star","x":15.76,"y":28.77},{"name":"star_6","parent":"star","x":-2.59,"y":32.62},{"name":"star_7","parent":"star","x":23.8,"y":-29.94},{"name":"star_8","parent":"star","x":-3.81,"y":-29.94},{"name":"tx2","parent":"tx","scaleX":2,"scaleY":2}],"slots":[{"name":"h1_biankuang_2","bone":"bone2","attachment":"h1_biankuang_1_1"},{"name":"zhezhao2","bone":"bone3","attachment":"zhezhao"},{"name":"bg_lizi_1/bg_lizi_1_00","bone":"tx2","blend":"additive"},{"name":"shenti","bone":"shenti","attachment":"shenti"},{"name":"h1_biankuang_3","bone":"bone2","attachment":"h1_biankuang_1"},{"name":"zhezhao","bone":"bone3","attachment":"zhezhao"},{"name":"toushi_saoguang_1_","bone":"bone5","attachment":"shenti2","blend":"additive"},{"name":"star_with_glow","bone":"star_1","blend":"additive"},{"name":"star_with_glow2","bone":"star_2","blend":"additive"},{"name":"star_with_glow3","bone":"star_3","blend":"additive"},{"name":"star_with_glow4","bone":"star_4","blend":"additive"},{"name":"star_with_glow5","bone":"star_5","blend":"additive"},{"name":"star_with_glow6","bone":"star_6","blend":"additive"},{"name":"star_with_glow7","bone":"star_7","blend":"additive"},{"name":"star_with_glow8","bone":"star_8","blend":"additive"}],"skins":{"default":{"bg_lizi_1/bg_lizi_1_00":{"bg_lizi_1/bg_lizi_1_00":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_01":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_02":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_03":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_04":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_05":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_06":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_07":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_08":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_09":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_10":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_11":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_12":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_13":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_14":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_15":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_16":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_17":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_18":{"width":57,"height":48},"bg_lizi_1/bg_lizi_1_19":{"width":57,"height":48}},"h1_biankuang_2":{"h1_biankuang_1_1":{"y":-0.46,"width":249,"height":216}},"h1_biankuang_3":{"h1_biankuang_1":{"path":"h1_biankuang_4","y":-2.5,"width":263,"height":222}},"shenti":{"shenti":{"type":"mesh","uvs":[0.78311,0.12604,0.78621,0.26863,0.81404,0.28289,0.82486,0.37557,0.85733,0.3827,0.86351,0.45756,0.89444,0.48786,0.94701,0.63224,1,0.75523,1,0.81761,1,1,0.08777,1,0,1,0,0.73918,0.10743,0.74988,0.13062,0.47004,0.03785,0.48073,0.03321,0.25972,0.11362,0.28824,0.17237,0.14743,0.11825,0,0.7089,0,0.8496,0.9299,0.65169,0.96198,0.58829,0.95842,0.55428,0.86752,0.53572,0.74453,0.52181,0.5752,0.51562,0.454,0.48006,0.43439,0.48315,0.34349,0.37028,0.38092,0.26514,0.40231,0.16619,0.40766,0.19671,0.40601,0.20777,0.4602,0.19577,0.52322,0.22777,0.59546,0.24243,0.68307,0.26777,0.74301,0.2731,0.78451,0.29977,0.81064,0.37843,0.81218,0.4731,0.7799,0.08243,0.91209,0.2171,0.7384,0.2091,0.87059,0.21177,0.9459,0.67737,0.34963,0.7103,0.52806,0.76793,0.6894,0.80086,0.80329],"triangles":[44,14,46,44,13,14,40,46,45,46,14,45,38,45,14,15,36,14,35,33,34,33,35,15,15,16,33,16,17,18,33,16,18,33,18,34,34,18,32,19,32,18,23,22,10,47,46,41,24,47,42,24,42,25,11,24,23,23,24,25,11,47,24,44,46,47,11,44,47,10,11,23,12,44,11,12,13,44,35,34,32,36,15,35,37,14,36,36,35,37,38,14,37,31,38,37,40,45,39,46,40,41,47,41,42,42,43,25,43,26,25,43,42,39,26,43,27,27,43,38,50,26,27,28,27,29,31,29,27,31,27,38,27,28,49,29,30,28,28,30,48,29,31,30,31,32,19,30,31,19,30,19,21,19,20,21,39,42,41,41,40,39,39,38,43,45,38,39,31,37,32,37,35,32,50,27,49,6,49,5,4,5,3,3,5,49,50,49,6,28,48,49,2,3,1,1,3,48,48,3,49,1,48,0,48,30,0,30,21,0,22,9,10,22,23,51,51,23,25,22,51,9,51,26,50,51,25,26,51,8,9,51,7,8,51,50,7,50,6,7],"vertices":[3,9,-23.8,33.99,0.93726,8,140.26,-80.34,0.06274,11,-121.69,120.81,0,2,9,6.35,27.65,1,11,-91.64,127.59,0,2,9,10.94,33.69,1,11,-89.98,134.99,0,3,10,-46.55,30.24,0.00677,9,31.04,31.71,0.99323,11,-70.87,141.55,0,3,10,-43.43,37.86,0.01708,9,34.4,39.22,0.98292,11,-70.94,149.78,0,3,10,-27.28,36.15,0.10628,9,50.49,37,0.89372,11,-55.39,154.45,0,3,10,-19.33,42.39,0.22791,9,58.63,42.98,0.77209,11,-50.48,163.29,0,3,10,13.83,49.01,0.74163,9,91.99,48.55,0.25837,11,-22.45,182.23,0,2,10,42.5,56.65,0.95696,9,120.88,55.28,0.04304,3,10,55.7,53.97,0.71743,9,134,52.18,0.01057,7,44.79,-126.37,0.272,1,7,5.41,-125.18,1,1,7,12.27,101.86,1,1,7,12.93,123.7,1,2,7,69.24,122,0.44,11,46.34,-44.5,0.56,1,11,43.37,-17.82,1,2,8,71.63,84.6,0.08895,11,-17.03,-23.98,0.91105,2,8,70.12,107.77,0.08293,11,-10.25,-46.18,0.91707,2,8,117.87,107.27,0.17074,11,-56.84,-56.66,0.82926,2,8,111.02,87.47,0.2904,11,-54.72,-35.82,0.7096,2,8,140.91,71.8,0.73653,11,-87.41,-27.42,0.26347,2,8,173.2,84.16,0.84016,11,-116,-46.87,0.15984,2,9,-54.55,22.27,0.7385,8,168.11,-62.82,0.2615,3,10,72.01,12.44,0.96875,7,21.67,-88.21,0.03125,11,45.34,171.02,0,4,10,68.99,-37.23,0.33222,8,-39.06,-41.38,0.0178,7,16.23,-38.74,0.64995,11,61.78,124.05,0.00003,4,10,65.09,-52.55,0.23609,8,-37.75,-25.63,0.03382,7,17.48,-22.99,0.73003,11,64.12,108.42,0.00007,4,10,44.16,-56.94,0.15413,9,118.95,-58.31,0.00005,8,-17.83,-17.85,0.32846,7,37.36,-15.11,0.51736,5,10,17.21,-56.18,0.10444,9,92.03,-56.7,0.01778,8,8.88,-14.15,0.84296,7,64.05,-11.3,0.03483,11,21.37,86.54,0,3,10,-19.32,-52.29,0.01417,9,55.64,-51.65,0.09947,8,45.55,-11.96,0.88636,2,9,29.81,-47.13,0.12222,8,71.77,-11.32,0.87778,2,9,23.65,-54.77,0.01528,8,76.31,-2.62,0.98472,2,9,4.72,-49.5,0.03148,8,95.9,-4.07,0.96852,2,8,88.8,24.3,0.81956,11,-47.59,30.77,0.18044,2,8,85.09,50.62,0.45522,11,-37.94,6,0.54478,2,8,84.79,75.29,0.20368,11,-31.98,-17.93,0.79632,2,8,84.88,67.68,0.26274,11,-33.82,-10.55,0.73726,1,8,73.09,65.33,1,1,8,59.59,68.79,1,1,8,43.71,61.37,1,1,8,24.68,58.37,1,1,8,11.52,52.52,1,1,8,2.51,51.5,1,1,8,-3.36,45.06,1,4,10,23.73,-97.47,0,8,-4.37,25.5,0.55702,7,50.63,28.29,0.1775,11,43.37,50.99,0.26548,2,8,1.78,1.7,0.99359,11,31.92,72.74,0.00641,3,10,30.2,-173.99,0,7,31.29,102.61,0.4619,11,78.95,-17.06,0.5381,4,10,0.12,-133.66,0,8,12.95,65.09,0.04877,7,67.77,67.96,0.00862,11,35.6,8.48,0.94261,4,10,27.7,-141.3,0,8,-15.52,68.07,0.02592,7,39.3,70.82,0.49169,11,63.99,12.11,0.48239,1,7,23.01,70.65,1,2,9,17.14,-2.75,0.98224,8,92.9,-52.36,0.01776,2,9,56.53,-3.63,0.9786,8,54.1,-59.21,0.0214,3,10,17.06,2.85,0.9929,9,93.75,2.31,0.0071,11,-1.62,140.91,0,2,10,42.8,5.99,0.99909,9,119.58,4.63,0.00091],"hull":22,"edges":[24,26,26,28,28,30,30,32,32,34,34,36,36,38,38,40,40,42,42,0,0,2,2,4,4,6,6,8,8,10,10,12,12,14,14,16,16,18,18,20,18,44,44,46,46,48,48,50,50,52,52,54,54,56,56,58,58,60,60,62,62,64,64,68,68,66,68,70,70,72,72,74,74,76,76,78,78,80,80,82,82,84,84,86,86,52,28,88,20,22,22,24,88,22],"width":249,"height":216}},"star_with_glow":{"star_with_glow":{"x":-0.55,"y":0.05,"width":26,"height":27}},"star_with_glow2":{"star_with_glow":{"x":-0.55,"y":0.05,"width":26,"height":27}},"star_with_glow3":{"star_with_glow":{"x":-0.55,"y":0.05,"width":26,"height":27}},"star_with_glow4":{"star_with_glow":{"x":-0.55,"y":0.05,"width":26,"height":27}},"star_with_glow5":{"star_with_glow":{"x":-0.55,"y":0.05,"width":26,"height":27}},"star_with_glow6":{"star_with_glow":{"x":-0.55,"y":0.05,"width":26,"height":27}},"star_with_glow7":{"star_with_glow":{"x":-0.55,"y":0.05,"width":26,"height":27}},"star_with_glow8":{"star_with_glow":{"x":-0.55,"y":0.05,"width":26,"height":27}},"toushi_saoguang_1_":{"shenti2":{"type":"mesh","path":"shenti","uvs":[0.78311,0.12604,0.78621,0.26863,0.81404,0.28289,0.82486,0.37557,0.85733,0.3827,0.86351,0.45756,0.89444,0.48786,0.94701,0.63224,1,0.75523,1,0.81761,1,1,0.08777,1,0,1,0,0.73918,0.10743,0.74988,0.13062,0.47004,0.03785,0.48073,0.03321,0.25972,0.11362,0.28824,0.17237,0.14743,0.11825,0,0.7089,0,0.8496,0.9299,0.65169,0.96198,0.58829,0.95842,0.55428,0.86752,0.53572,0.74453,0.52181,0.5752,0.51562,0.454,0.48006,0.43439,0.48315,0.34349,0.37028,0.38092,0.26514,0.40231,0.16619,0.40766,0.19671,0.40601,0.20777,0.4602,0.19577,0.52322,0.22777,0.59546,0.24243,0.68307,0.26777,0.74301,0.2731,0.78451,0.29977,0.81064,0.37843,0.81218,0.4731,0.7799,0.08243,0.91209,0.2171,0.7384,0.2091,0.87059,0.21177,0.9459,0.67737,0.34963,0.7103,0.52806,0.76793,0.6894,0.80086,0.80329],"triangles":[19,32,18,34,18,32,33,18,34,33,16,18,16,17,18,15,16,33,33,35,15,35,33,34,15,36,14,38,45,14,46,14,45,40,46,45,44,13,14,44,14,46,12,13,44,12,44,11,10,11,23,11,44,47,44,46,47,11,47,24,23,24,25,11,24,23,24,42,25,24,47,42,47,46,41,23,22,10,37,35,32,31,37,32,45,38,39,39,38,43,41,40,39,39,42,41,19,20,21,30,19,21,30,31,19,31,32,19,29,31,30,28,30,48,29,30,28,27,28,49,31,27,38,31,29,27,28,27,29,50,26,27,27,43,38,26,43,27,43,42,39,43,26,25,42,43,25,47,41,42,46,40,41,40,45,39,31,38,37,38,14,37,36,35,37,37,14,36,36,15,35,35,34,32,30,21,0,48,30,0,1,48,0,48,3,49,1,3,48,2,3,1,28,48,49,50,49,6,3,5,49,4,5,3,6,49,5,50,27,49,50,6,7,51,50,7,51,7,8,51,8,9,51,25,26,51,26,50,22,51,9,51,23,25,22,23,51,22,9,10],"vertices":[3,9,-23.8,33.99,0.93726,8,140.26,-80.34,0.06274,11,-121.69,120.81,0,2,9,6.35,27.65,1,11,-91.64,127.59,0,2,9,10.94,33.69,1,11,-89.98,134.99,0,3,10,-46.55,30.24,0.00677,9,31.04,31.71,0.99323,11,-70.87,141.55,0,3,10,-43.43,37.86,0.01708,9,34.4,39.22,0.98292,11,-70.94,149.78,0,3,10,-27.28,36.15,0.10628,9,50.49,37,0.89372,11,-55.39,154.45,0,3,10,-19.33,42.39,0.22791,9,58.63,42.98,0.77209,11,-50.48,163.29,0,3,10,13.83,49.01,0.74163,9,91.99,48.55,0.25837,11,-22.45,182.23,0,2,10,42.5,56.65,0.95696,9,120.88,55.28,0.04304,3,10,55.7,53.97,0.71743,9,134,52.18,0.01057,7,44.79,-126.37,0.272,1,7,5.41,-125.18,1,1,7,12.27,101.86,1,1,7,12.93,123.7,1,2,7,69.24,122,0.44,11,46.34,-44.5,0.56,1,11,43.37,-17.82,1,2,8,71.63,84.6,0.08895,11,-17.03,-23.98,0.91105,2,8,70.12,107.77,0.08293,11,-10.25,-46.18,0.91707,2,8,117.87,107.27,0.17074,11,-56.84,-56.66,0.82926,2,8,111.02,87.47,0.2904,11,-54.72,-35.82,0.7096,2,8,140.91,71.8,0.73653,11,-87.41,-27.42,0.26347,2,8,173.2,84.16,0.84016,11,-116,-46.87,0.15984,2,9,-54.55,22.27,0.7385,8,168.11,-62.82,0.2615,3,10,72.01,12.44,0.96875,7,21.67,-88.21,0.03125,11,45.34,171.02,0,4,10,68.99,-37.23,0.33222,8,-39.06,-41.38,0.0178,7,16.23,-38.74,0.64995,11,61.78,124.05,0.00003,4,10,65.09,-52.55,0.23609,8,-37.75,-25.63,0.03382,7,17.48,-22.99,0.73003,11,64.12,108.42,0.00007,4,10,44.16,-56.94,0.15413,9,118.95,-58.31,0.00005,8,-17.83,-17.85,0.32846,7,37.36,-15.11,0.51736,5,10,17.21,-56.18,0.10444,9,92.03,-56.7,0.01778,8,8.88,-14.15,0.84296,7,64.05,-11.3,0.03483,11,21.37,86.54,0,3,10,-19.32,-52.29,0.01417,9,55.64,-51.65,0.09947,8,45.55,-11.96,0.88636,2,9,29.81,-47.13,0.12222,8,71.77,-11.32,0.87778,2,9,23.65,-54.77,0.01528,8,76.31,-2.62,0.98472,2,9,4.72,-49.5,0.03148,8,95.9,-4.07,0.96852,2,8,88.8,24.3,0.81956,11,-47.59,30.77,0.18044,2,8,85.09,50.62,0.45522,11,-37.94,6,0.54478,2,8,84.79,75.29,0.20368,11,-31.98,-17.93,0.79632,2,8,84.88,67.68,0.26274,11,-33.82,-10.55,0.73726,1,8,73.09,65.33,1,1,8,59.59,68.79,1,1,8,43.71,61.37,1,1,8,24.68,58.37,1,1,8,11.52,52.52,1,1,8,2.51,51.5,1,1,8,-3.36,45.06,1,4,10,23.73,-97.47,0,8,-4.37,25.5,0.55702,7,50.63,28.29,0.1775,11,43.37,50.99,0.26548,2,8,1.78,1.7,0.99359,11,31.92,72.74,0.00641,3,10,30.2,-173.99,0,7,31.29,102.61,0.4619,11,78.95,-17.06,0.5381,4,10,0.12,-133.66,0,8,12.95,65.09,0.04877,7,67.77,67.96,0.00862,11,35.6,8.48,0.94261,4,10,27.7,-141.3,0,8,-15.52,68.07,0.02592,7,39.3,70.82,0.49169,11,63.99,12.11,0.48239,1,7,23.01,70.65,1,2,9,17.14,-2.75,0.98224,8,92.9,-52.36,0.01776,2,9,56.53,-3.63,0.9786,8,54.1,-59.21,0.0214,3,10,17.06,2.85,0.9929,9,93.75,2.31,0.0071,11,-1.62,140.91,0,2,10,42.8,5.99,0.99909,9,119.58,4.63,0.00091],"hull":22,"edges":[24,26,26,28,28,30,30,32,32,34,34,36,36,38,38,40,40,42,42,0,0,2,2,4,4,6,6,8,8,10,10,12,12,14,14,16,16,18,18,20,18,44,44,46,46,48,48,50,50,52,52,54,54,56,56,58,58,60,60,62,62,64,64,68,68,66,68,70,70,72,72,74,74,76,76,78,78,80,80,82,82,84,84,86,86,52,28,88,20,22,22,24,88,22],"width":249,"height":216}},"zhezhao":{"zhezhao":{"type":"clipping","end":"zhezhao","vertexCount":12,"vertices":[96.09,107.32,-97.41,106.64,-97.93,94,-129.57,94.54,-129.49,-98.18,-97.11,-99.64,-97.13,-111.74,96.49,-110.3,96.55,-98.82,129.93,-98.94,129.93,92.74,95.97,93.64],"color":"3a3acdff"}},"zhezhao2":{"zhezhao":{"type":"clipping","end":"shenti","vertexCount":12,"vertices":[97.39,106.06,-97.21,106.76,-97.21,94.12,-129.31,94.66,-129.23,-98.64,-97.35,-98.68,-97.37,-111.62,96.93,-110.18,96.99,-98.64,129.19,-97.88,129.61,93.8,97.17,93.78],"color":"3a3acdff"}}}},"animations":{"actionframe":{"slots":{"bg_lizi_1/bg_lizi_1_00":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.3333,"color":"ffffff00"},{"time":0.5,"color":"ffffffff","curve":"stepped"},{"time":2.6667,"color":"ffffffff"},{"time":2.8333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"bg_lizi_1/bg_lizi_1_00"},{"time":0.0333,"name":"bg_lizi_1/bg_lizi_1_01"},{"time":0.0667,"name":"bg_lizi_1/bg_lizi_1_02"},{"time":0.1,"name":"bg_lizi_1/bg_lizi_1_03"},{"time":0.1333,"name":"bg_lizi_1/bg_lizi_1_04"},{"time":0.1667,"name":"bg_lizi_1/bg_lizi_1_05"},{"time":0.2,"name":"bg_lizi_1/bg_lizi_1_06"},{"time":0.2333,"name":"bg_lizi_1/bg_lizi_1_07"},{"time":0.2667,"name":"bg_lizi_1/bg_lizi_1_08"},{"time":0.3,"name":"bg_lizi_1/bg_lizi_1_09"},{"time":0.3333,"name":"bg_lizi_1/bg_lizi_1_10"},{"time":0.3667,"name":"bg_lizi_1/bg_lizi_1_11"},{"time":0.4,"name":"bg_lizi_1/bg_lizi_1_12"},{"time":0.4333,"name":"bg_lizi_1/bg_lizi_1_13"},{"time":0.4667,"name":"bg_lizi_1/bg_lizi_1_14"},{"time":0.5,"name":"bg_lizi_1/bg_lizi_1_15"},{"time":0.5333,"name":"bg_lizi_1/bg_lizi_1_16"},{"time":0.5667,"name":"bg_lizi_1/bg_lizi_1_17"},{"time":0.6,"name":"bg_lizi_1/bg_lizi_1_18"},{"time":0.6333,"name":"bg_lizi_1/bg_lizi_1_19"},{"time":0.6667,"name":"bg_lizi_1/bg_lizi_1_00"},{"time":0.7,"name":"bg_lizi_1/bg_lizi_1_01"},{"time":0.7333,"name":"bg_lizi_1/bg_lizi_1_02"},{"time":0.7667,"name":"bg_lizi_1/bg_lizi_1_03"},{"time":0.8,"name":"bg_lizi_1/bg_lizi_1_04"},{"time":0.8333,"name":"bg_lizi_1/bg_lizi_1_05"},{"time":0.8667,"name":"bg_lizi_1/bg_lizi_1_06"},{"time":0.9,"name":"bg_lizi_1/bg_lizi_1_07"},{"time":0.9333,"name":"bg_lizi_1/bg_lizi_1_08"},{"time":0.9667,"name":"bg_lizi_1/bg_lizi_1_09"},{"time":1,"name":"bg_lizi_1/bg_lizi_1_10"},{"time":1.0333,"name":"bg_lizi_1/bg_lizi_1_11"},{"time":1.0667,"name":"bg_lizi_1/bg_lizi_1_12"},{"time":1.1,"name":"bg_lizi_1/bg_lizi_1_13"},{"time":1.1333,"name":"bg_lizi_1/bg_lizi_1_14"},{"time":1.1667,"name":"bg_lizi_1/bg_lizi_1_15"},{"time":1.2,"name":"bg_lizi_1/bg_lizi_1_16"},{"time":1.2333,"name":"bg_lizi_1/bg_lizi_1_17"},{"time":1.2667,"name":"bg_lizi_1/bg_lizi_1_18"},{"time":1.3,"name":"bg_lizi_1/bg_lizi_1_19"},{"time":1.3333,"name":"bg_lizi_1/bg_lizi_1_00"},{"time":1.3667,"name":"bg_lizi_1/bg_lizi_1_01"},{"time":1.4,"name":"bg_lizi_1/bg_lizi_1_02"},{"time":1.4333,"name":"bg_lizi_1/bg_lizi_1_03"},{"time":1.4667,"name":"bg_lizi_1/bg_lizi_1_04"},{"time":1.5,"name":"bg_lizi_1/bg_lizi_1_05"},{"time":1.5333,"name":"bg_lizi_1/bg_lizi_1_06"},{"time":1.5667,"name":"bg_lizi_1/bg_lizi_1_07"},{"time":1.6,"name":"bg_lizi_1/bg_lizi_1_08"},{"time":1.6333,"name":"bg_lizi_1/bg_lizi_1_09"},{"time":1.6667,"name":"bg_lizi_1/bg_lizi_1_10"},{"time":1.7,"name":"bg_lizi_1/bg_lizi_1_11"},{"time":1.7333,"name":"bg_lizi_1/bg_lizi_1_12"},{"time":1.7667,"name":"bg_lizi_1/bg_lizi_1_13"},{"time":1.8,"name":"bg_lizi_1/bg_lizi_1_14"},{"time":1.8333,"name":"bg_lizi_1/bg_lizi_1_15"},{"time":1.8667,"name":"bg_lizi_1/bg_lizi_1_16"},{"time":1.9,"name":"bg_lizi_1/bg_lizi_1_17"},{"time":1.9333,"name":"bg_lizi_1/bg_lizi_1_18"},{"time":1.9667,"name":"bg_lizi_1/bg_lizi_1_19"},{"time":2,"name":"bg_lizi_1/bg_lizi_1_00"},{"time":2.0333,"name":"bg_lizi_1/bg_lizi_1_01"},{"time":2.0667,"name":"bg_lizi_1/bg_lizi_1_02"},{"time":2.1,"name":"bg_lizi_1/bg_lizi_1_03"},{"time":2.1333,"name":"bg_lizi_1/bg_lizi_1_04"},{"time":2.1667,"name":"bg_lizi_1/bg_lizi_1_05"},{"time":2.2,"name":"bg_lizi_1/bg_lizi_1_06"},{"time":2.2333,"name":"bg_lizi_1/bg_lizi_1_07"},{"time":2.2667,"name":"bg_lizi_1/bg_lizi_1_08"},{"time":2.3,"name":"bg_lizi_1/bg_lizi_1_09"},{"time":2.3333,"name":"bg_lizi_1/bg_lizi_1_10"},{"time":2.3667,"name":"bg_lizi_1/bg_lizi_1_11"},{"time":2.4,"name":"bg_lizi_1/bg_lizi_1_12"},{"time":2.4333,"name":"bg_lizi_1/bg_lizi_1_13"},{"time":2.4667,"name":"bg_lizi_1/bg_lizi_1_14"},{"time":2.5,"name":"bg_lizi_1/bg_lizi_1_15"},{"time":2.5333,"name":"bg_lizi_1/bg_lizi_1_16"},{"time":2.5667,"name":"bg_lizi_1/bg_lizi_1_17"},{"time":2.6,"name":"bg_lizi_1/bg_lizi_1_18"},{"time":2.6333,"name":"bg_lizi_1/bg_lizi_1_19"},{"time":2.6667,"name":"bg_lizi_1/bg_lizi_1_00"},{"time":2.7,"name":"bg_lizi_1/bg_lizi_1_01"},{"time":2.7333,"name":"bg_lizi_1/bg_lizi_1_02"},{"time":2.7667,"name":"bg_lizi_1/bg_lizi_1_03"},{"time":2.8,"name":"bg_lizi_1/bg_lizi_1_04"},{"time":2.8333,"name":"bg_lizi_1/bg_lizi_1_05"},{"time":2.8667,"name":"bg_lizi_1/bg_lizi_1_06"},{"time":2.9,"name":"bg_lizi_1/bg_lizi_1_07"},{"time":2.9333,"name":"bg_lizi_1/bg_lizi_1_08"},{"time":2.9667,"name":"bg_lizi_1/bg_lizi_1_09"},{"time":3,"name":"bg_lizi_1/bg_lizi_1_10"}]},"h1_biankuang_2":{"attachment":[{"time":0,"name":"h1_biankuang_1_1"}]},"h1_biankuang_3":{"attachment":[{"time":0,"name":"h1_biankuang_1"}]},"shenti":{"attachment":[{"time":0,"name":"shenti"},{"time":3,"name":"shenti"}]},"star_with_glow":{"attachment":[{"time":0,"name":"star_with_glow"},{"time":1.6667,"name":"star_with_glow"}]},"star_with_glow2":{"attachment":[{"time":0,"name":"star_with_glow"}]},"star_with_glow3":{"attachment":[{"time":0,"name":"star_with_glow"}]},"star_with_glow4":{"attachment":[{"time":0,"name":"star_with_glow"}]},"star_with_glow5":{"attachment":[{"time":0,"name":"star_with_glow"}]},"star_with_glow6":{"attachment":[{"time":0,"name":"star_with_glow"}]},"star_with_glow7":{"attachment":[{"time":0,"name":"star_with_glow"}]},"star_with_glow8":{"attachment":[{"time":0,"name":"star_with_glow"}]},"toushi_saoguang_1_":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":1.2667,"color":"ffffff00"},{"time":1.6333,"color":"ffffffff","curve":"stepped"},{"time":2.1,"color":"ffffffff"},{"time":2.5333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"shenti2"}]}},"bones":{"zhuti":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":3,"angle":0}],"translate":[{"time":0,"x":0,"y":0,"curve":[0.041,0.11,0.75,1]},{"time":0.5,"x":-0.05,"y":1.42,"curve":[0.073,0.15,0.712,0.92]},{"time":2,"x":0,"y":0,"curve":[0,0.12,0.75,1]},{"time":2.5,"x":-0.05,"y":1.42,"curve":[0.03,0.15,0.75,1]},{"time":3,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":3,"x":1,"y":1}],"shear":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":3,"x":0,"y":0}]},"star_1":{"rotate":[{"time":1.5,"angle":0},{"time":2,"angle":30}],"translate":[{"time":0,"x":-2.65,"y":-30.1,"curve":"stepped"},{"time":1.5,"x":-2.65,"y":-30.1},{"time":1.7333,"x":-2.93,"y":-28.96}],"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.5,"x":0,"y":0},{"time":1.7333,"x":3,"y":3},{"time":2,"x":0,"y":0}]},"star_2":{"rotate":[{"time":1.5667,"angle":0},{"time":2.0667,"angle":30}],"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.5667,"x":0,"y":0},{"time":1.8,"x":0,"y":-5.38}],"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.5667,"x":0,"y":0},{"time":1.8,"x":1.5,"y":1.5},{"time":2.0667,"x":0,"y":0}]},"star_3":{"rotate":[{"time":1.8333,"angle":0},{"time":2.4333,"angle":30}],"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.8333,"x":0,"y":0},{"time":2.1333,"x":0,"y":-2.8}],"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.8333,"x":0,"y":0},{"time":2.1333,"x":1.5,"y":1.5},{"time":2.4333,"x":0,"y":0}]},"star_4":{"rotate":[{"time":1.5,"angle":30},{"time":2,"angle":-60}],"translate":[{"time":0,"x":0,"y":-4.66}],"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.5,"x":0,"y":0},{"time":1.7333,"x":1,"y":1},{"time":2,"x":0,"y":0}]},"star_5":{"rotate":[{"time":1.5667,"angle":0},{"time":2.0667,"angle":30}],"translate":[{"time":0,"x":-0.11,"y":-2.37}],"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.5667,"x":0,"y":0},{"time":1.8,"x":1.5,"y":1.5},{"time":2.0667,"x":0,"y":0}]},"star_6":{"rotate":[{"time":1.7667,"angle":0},{"time":2.2667,"angle":30}],"translate":[{"time":0,"x":0,"y":-3}],"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.7667,"x":0,"y":0},{"time":2,"x":0.6,"y":0.6},{"time":2.2667,"x":0,"y":0}]},"star_7":{"rotate":[{"time":1.5667,"angle":0},{"time":2.0667,"angle":30}],"translate":[{"time":0,"x":-9.81,"y":0}],"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.5667,"x":0,"y":0},{"time":1.8,"x":1.5,"y":1.5},{"time":2.0667,"x":0,"y":0}]},"star_8":{"rotate":[{"time":1.5667,"angle":0},{"time":2.0667,"angle":30}],"translate":[{"time":0,"x":0.74,"y":-2.71}],"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.5667,"x":0,"y":0},{"time":1.8,"x":0.6,"y":0.6},{"time":2.0667,"x":0,"y":0}]},"bone5":{"translate":[{"time":0,"x":0.83,"y":-6.2}]},"star":{"translate":[{"time":0,"x":-10.54,"y":-67.56}],"scale":[{"time":0,"x":2.336,"y":2.336}]},"shenti":{"rotate":[{"time":0,"angle":0.64,"curve":[0.372,0.48,0.752,1]},{"time":0.8,"angle":0,"curve":[0.25,0,0.75,1]},{"time":2.3,"angle":1.18,"curve":[0.252,0,0.622,0.48]},{"time":3,"angle":0.64}],"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":3,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":3,"x":1,"y":1}],"shear":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":3,"x":0,"y":0}]},"shenti4":{"rotate":[{"time":0,"angle":-1.15,"curve":[0.332,0.33,0.758,1]},{"time":1.1333,"angle":0,"curve":[0.25,0,0.75,1]},{"time":2.6333,"angle":-1.4,"curve":[0.277,0,0.621,0.4]},{"time":3,"angle":-1.15}],"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":3,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":3,"x":1,"y":1}],"shear":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":3,"x":0,"y":0}]},"shenti3":{"rotate":[{"time":0,"angle":3.35,"curve":[0.3,0.21,0.756,1]},{"time":1.3,"angle":0,"curve":[0.25,0,0.75,1]},{"time":2.8,"angle":3.6,"curve":[0.297,0,0.634,0.37]},{"time":3,"angle":3.35}],"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":3,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":3,"x":1,"y":1}],"shear":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":3,"x":0,"y":0}]},"shenti2":{"rotate":[{"time":0,"angle":0.59,"curve":[0.332,0.33,0.758,1]},{"time":1.1333,"angle":0,"curve":[0.25,0,0.75,1]},{"time":2.6333,"angle":0.71,"curve":[0.277,0,0.621,0.4]},{"time":3,"angle":0.59}],"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":3,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":3,"x":1,"y":1}],"shear":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":3,"x":0,"y":0}]}}},"idleframe":{"slots":{"toushi_saoguang_1_":{"attachment":[{"time":0,"name":null}]}},"bones":{"zhuti":{"rotate":[{"time":0,"angle":0}],"translate":[{"time":0,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1}],"shear":[{"time":0,"x":0,"y":0}]},"shenti":{"rotate":[{"time":0,"angle":0}],"translate":[{"time":0,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1}],"shear":[{"time":0,"x":0,"y":0}]},"shenti2":{"rotate":[{"time":0,"angle":0}],"translate":[{"time":0,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1}],"shear":[{"time":0,"x":0,"y":0}]},"shenti3":{"rotate":[{"time":0,"angle":0}],"translate":[{"time":0,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1}],"shear":[{"time":0,"x":0,"y":0}]},"shenti4":{"rotate":[{"time":0,"angle":0}],"translate":[{"time":0,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1}],"shear":[{"time":0,"x":0,"y":0}]}}}}},"_atlasText":"\nSocre_AZTEC_4.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbg_lizi_1/bg_lizi_1_00\n  rotate: false\n  xy: 769, 205\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_01\n  rotate: false\n  xy: 769, 155\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_02\n  rotate: false\n  xy: 828, 205\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_03\n  rotate: false\n  xy: 769, 105\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_04\n  rotate: false\n  xy: 828, 155\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_05\n  rotate: false\n  xy: 887, 205\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_06\n  rotate: false\n  xy: 769, 55\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_07\n  rotate: false\n  xy: 828, 105\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_08\n  rotate: false\n  xy: 887, 155\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_09\n  rotate: false\n  xy: 946, 205\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_10\n  rotate: false\n  xy: 828, 55\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_11\n  rotate: false\n  xy: 887, 105\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_12\n  rotate: false\n  xy: 946, 155\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_13\n  rotate: false\n  xy: 887, 55\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_14\n  rotate: false\n  xy: 946, 105\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_15\n  rotate: false\n  xy: 946, 55\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_16\n  rotate: false\n  xy: 769, 5\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_17\n  rotate: false\n  xy: 828, 5\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_18\n  rotate: false\n  xy: 887, 5\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_19\n  rotate: false\n  xy: 946, 5\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nh1_biankuang_1_1\n  rotate: false\n  xy: 267, 37\n  size: 249, 216\n  orig: 249, 216\n  offset: 0, 0\n  index: -1\nh1_biankuang_4\n  rotate: false\n  xy: 2, 31\n  size: 263, 222\n  orig: 263, 222\n  offset: 0, 0\n  index: -1\nshenti\n  rotate: false\n  xy: 518, 37\n  size: 249, 216\n  orig: 249, 216\n  offset: 0, 0\n  index: -1\nstar_with_glow\n  rotate: false\n  xy: 2, 2\n  size: 26, 27\n  orig: 26, 27\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"37Qxv1mmRC4IM1sgcHcLcR"}],"textureNames":["Socre_AZTEC_4.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Socre_AZTEC_4",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "aN6NaM2qwcDum9ebZozjAbhaEiY",
+      "spine": "3.6.53",
+      "width": 263,
+      "height": 222,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root"
+      },
+      {
+        "name": "bone4",
+        "parent": "bone",
+        "y": 0.63
+      },
+      {
+        "name": "bone2",
+        "parent": "bone4"
+      },
+      {
+        "name": "bone3",
+        "parent": "bone4"
+      },
+      {
+        "name": "tx",
+        "parent": "bone3"
+      },
+      {
+        "name": "bone5",
+        "parent": "tx",
+        "rotation": 90,
+        "x": -5.78,
+        "y": 25.02,
+        "scaleX": 5.225,
+        "scaleY": 5.225
+      },
+      {
+        "name": "zhuti",
+        "parent": "bone3",
+        "length": 22.94,
+        "rotation": 91.82,
+        "x": 0.34,
+        "y": -119.89
+      },
+      {
+        "name": "shenti",
+        "parent": "zhuti",
+        "length": 140.02,
+        "rotation": 0.26,
+        "x": 55.11,
+        "y": 2.82
+      },
+      {
+        "name": "shenti2",
+        "parent": "shenti",
+        "length": 76.61,
+        "rotation": -168.68,
+        "x": 110.25,
+        "y": -51.68
+      },
+      {
+        "name": "shenti3",
+        "parent": "shenti2",
+        "length": 42.95,
+        "rotation": -1.82,
+        "x": 76.61
+      },
+      {
+        "name": "shenti4",
+        "parent": "shenti",
+        "length": 49.62,
+        "rotation": 166.73,
+        "x": 49.54,
+        "y": 65.17
+      },
+      {
+        "name": "star",
+        "parent": "tx",
+        "rotation": 90
+      },
+      {
+        "name": "star_1",
+        "parent": "star",
+        "x": 38.05,
+        "y": 22.48
+      },
+      {
+        "name": "star_2",
+        "parent": "star",
+        "x": 44.04,
+        "y": 12.73
+      },
+      {
+        "name": "star_3",
+        "parent": "star",
+        "x": 44.04,
+        "y": -15.12
+      },
+      {
+        "name": "star_4",
+        "parent": "star",
+        "x": 56.99,
+        "y": -1.62
+      },
+      {
+        "name": "star_5",
+        "parent": "star",
+        "x": 15.76,
+        "y": 28.77
+      },
+      {
+        "name": "star_6",
+        "parent": "star",
+        "x": -2.59,
+        "y": 32.62
+      },
+      {
+        "name": "star_7",
+        "parent": "star",
+        "x": 23.8,
+        "y": -29.94
+      },
+      {
+        "name": "star_8",
+        "parent": "star",
+        "x": -3.81,
+        "y": -29.94
+      },
+      {
+        "name": "tx2",
+        "parent": "tx",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "h1_biankuang_2",
+        "bone": "bone2",
+        "attachment": "h1_biankuang_1_1"
+      },
+      {
+        "name": "zhezhao2",
+        "bone": "bone3",
+        "attachment": "zhezhao"
+      },
+      {
+        "name": "bg_lizi_1/bg_lizi_1_00",
+        "bone": "tx2",
+        "blend": "additive"
+      },
+      {
+        "name": "shenti",
+        "bone": "shenti",
+        "attachment": "shenti"
+      },
+      {
+        "name": "h1_biankuang_3",
+        "bone": "bone2",
+        "attachment": "h1_biankuang_1"
+      },
+      {
+        "name": "zhezhao",
+        "bone": "bone3",
+        "attachment": "zhezhao"
+      },
+      {
+        "name": "toushi_saoguang_1_",
+        "bone": "bone5",
+        "attachment": "shenti2",
+        "blend": "additive"
+      },
+      {
+        "name": "star_with_glow",
+        "bone": "star_1",
+        "blend": "additive"
+      },
+      {
+        "name": "star_with_glow2",
+        "bone": "star_2",
+        "blend": "additive"
+      },
+      {
+        "name": "star_with_glow3",
+        "bone": "star_3",
+        "blend": "additive"
+      },
+      {
+        "name": "star_with_glow4",
+        "bone": "star_4",
+        "blend": "additive"
+      },
+      {
+        "name": "star_with_glow5",
+        "bone": "star_5",
+        "blend": "additive"
+      },
+      {
+        "name": "star_with_glow6",
+        "bone": "star_6",
+        "blend": "additive"
+      },
+      {
+        "name": "star_with_glow7",
+        "bone": "star_7",
+        "blend": "additive"
+      },
+      {
+        "name": "star_with_glow8",
+        "bone": "star_8",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "bg_lizi_1/bg_lizi_1_00": {
+          "bg_lizi_1/bg_lizi_1_00": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_01": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_02": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_03": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_04": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_05": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_06": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_07": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_08": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_09": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_10": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_11": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_12": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_13": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_14": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_15": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_16": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_17": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_18": {
+            "width": 57,
+            "height": 48
+          },
+          "bg_lizi_1/bg_lizi_1_19": {
+            "width": 57,
+            "height": 48
+          }
+        },
+        "h1_biankuang_2": {
+          "h1_biankuang_1_1": {
+            "y": -0.46,
+            "width": 249,
+            "height": 216
+          }
+        },
+        "h1_biankuang_3": {
+          "h1_biankuang_1": {
+            "path": "h1_biankuang_4",
+            "y": -2.5,
+            "width": 263,
+            "height": 222
+          }
+        },
+        "shenti": {
+          "shenti": {
+            "type": "mesh",
+            "uvs": [
+              0.78311,
+              0.12604,
+              0.78621,
+              0.26863,
+              0.81404,
+              0.28289,
+              0.82486,
+              0.37557,
+              0.85733,
+              0.3827,
+              0.86351,
+              0.45756,
+              0.89444,
+              0.48786,
+              0.94701,
+              0.63224,
+              1,
+              0.75523,
+              1,
+              0.81761,
+              1,
+              1,
+              0.08777,
+              1,
+              0,
+              1,
+              0,
+              0.73918,
+              0.10743,
+              0.74988,
+              0.13062,
+              0.47004,
+              0.03785,
+              0.48073,
+              0.03321,
+              0.25972,
+              0.11362,
+              0.28824,
+              0.17237,
+              0.14743,
+              0.11825,
+              0,
+              0.7089,
+              0,
+              0.8496,
+              0.9299,
+              0.65169,
+              0.96198,
+              0.58829,
+              0.95842,
+              0.55428,
+              0.86752,
+              0.53572,
+              0.74453,
+              0.52181,
+              0.5752,
+              0.51562,
+              0.454,
+              0.48006,
+              0.43439,
+              0.48315,
+              0.34349,
+              0.37028,
+              0.38092,
+              0.26514,
+              0.40231,
+              0.16619,
+              0.40766,
+              0.19671,
+              0.40601,
+              0.20777,
+              0.4602,
+              0.19577,
+              0.52322,
+              0.22777,
+              0.59546,
+              0.24243,
+              0.68307,
+              0.26777,
+              0.74301,
+              0.2731,
+              0.78451,
+              0.29977,
+              0.81064,
+              0.37843,
+              0.81218,
+              0.4731,
+              0.7799,
+              0.08243,
+              0.91209,
+              0.2171,
+              0.7384,
+              0.2091,
+              0.87059,
+              0.21177,
+              0.9459,
+              0.67737,
+              0.34963,
+              0.7103,
+              0.52806,
+              0.76793,
+              0.6894,
+              0.80086,
+              0.80329
+            ],
+            "triangles": [
+              44,
+              14,
+              46,
+              44,
+              13,
+              14,
+              40,
+              46,
+              45,
+              46,
+              14,
+              45,
+              38,
+              45,
+              14,
+              15,
+              36,
+              14,
+              35,
+              33,
+              34,
+              33,
+              35,
+              15,
+              15,
+              16,
+              33,
+              16,
+              17,
+              18,
+              33,
+              16,
+              18,
+              33,
+              18,
+              34,
+              34,
+              18,
+              32,
+              19,
+              32,
+              18,
+              23,
+              22,
+              10,
+              47,
+              46,
+              41,
+              24,
+              47,
+              42,
+              24,
+              42,
+              25,
+              11,
+              24,
+              23,
+              23,
+              24,
+              25,
+              11,
+              47,
+              24,
+              44,
+              46,
+              47,
+              11,
+              44,
+              47,
+              10,
+              11,
+              23,
+              12,
+              44,
+              11,
+              12,
+              13,
+              44,
+              35,
+              34,
+              32,
+              36,
+              15,
+              35,
+              37,
+              14,
+              36,
+              36,
+              35,
+              37,
+              38,
+              14,
+              37,
+              31,
+              38,
+              37,
+              40,
+              45,
+              39,
+              46,
+              40,
+              41,
+              47,
+              41,
+              42,
+              42,
+              43,
+              25,
+              43,
+              26,
+              25,
+              43,
+              42,
+              39,
+              26,
+              43,
+              27,
+              27,
+              43,
+              38,
+              50,
+              26,
+              27,
+              28,
+              27,
+              29,
+              31,
+              29,
+              27,
+              31,
+              27,
+              38,
+              27,
+              28,
+              49,
+              29,
+              30,
+              28,
+              28,
+              30,
+              48,
+              29,
+              31,
+              30,
+              31,
+              32,
+              19,
+              30,
+              31,
+              19,
+              30,
+              19,
+              21,
+              19,
+              20,
+              21,
+              39,
+              42,
+              41,
+              41,
+              40,
+              39,
+              39,
+              38,
+              43,
+              45,
+              38,
+              39,
+              31,
+              37,
+              32,
+              37,
+              35,
+              32,
+              50,
+              27,
+              49,
+              6,
+              49,
+              5,
+              4,
+              5,
+              3,
+              3,
+              5,
+              49,
+              50,
+              49,
+              6,
+              28,
+              48,
+              49,
+              2,
+              3,
+              1,
+              1,
+              3,
+              48,
+              48,
+              3,
+              49,
+              1,
+              48,
+              0,
+              48,
+              30,
+              0,
+              30,
+              21,
+              0,
+              22,
+              9,
+              10,
+              22,
+              23,
+              51,
+              51,
+              23,
+              25,
+              22,
+              51,
+              9,
+              51,
+              26,
+              50,
+              51,
+              25,
+              26,
+              51,
+              8,
+              9,
+              51,
+              7,
+              8,
+              51,
+              50,
+              7,
+              50,
+              6,
+              7
+            ],
+            "vertices": [
+              3,
+              9,
+              -23.8,
+              33.99,
+              0.93726,
+              8,
+              140.26,
+              -80.34,
+              0.06274,
+              11,
+              -121.69,
+              120.81,
+              0,
+              2,
+              9,
+              6.35,
+              27.65,
+              1,
+              11,
+              -91.64,
+              127.59,
+              0,
+              2,
+              9,
+              10.94,
+              33.69,
+              1,
+              11,
+              -89.98,
+              134.99,
+              0,
+              3,
+              10,
+              -46.55,
+              30.24,
+              0.00677,
+              9,
+              31.04,
+              31.71,
+              0.99323,
+              11,
+              -70.87,
+              141.55,
+              0,
+              3,
+              10,
+              -43.43,
+              37.86,
+              0.01708,
+              9,
+              34.4,
+              39.22,
+              0.98292,
+              11,
+              -70.94,
+              149.78,
+              0,
+              3,
+              10,
+              -27.28,
+              36.15,
+              0.10628,
+              9,
+              50.49,
+              37,
+              0.89372,
+              11,
+              -55.39,
+              154.45,
+              0,
+              3,
+              10,
+              -19.33,
+              42.39,
+              0.22791,
+              9,
+              58.63,
+              42.98,
+              0.77209,
+              11,
+              -50.48,
+              163.29,
+              0,
+              3,
+              10,
+              13.83,
+              49.01,
+              0.74163,
+              9,
+              91.99,
+              48.55,
+              0.25837,
+              11,
+              -22.45,
+              182.23,
+              0,
+              2,
+              10,
+              42.5,
+              56.65,
+              0.95696,
+              9,
+              120.88,
+              55.28,
+              0.04304,
+              3,
+              10,
+              55.7,
+              53.97,
+              0.71743,
+              9,
+              134,
+              52.18,
+              0.01057,
+              7,
+              44.79,
+              -126.37,
+              0.272,
+              1,
+              7,
+              5.41,
+              -125.18,
+              1,
+              1,
+              7,
+              12.27,
+              101.86,
+              1,
+              1,
+              7,
+              12.93,
+              123.7,
+              1,
+              2,
+              7,
+              69.24,
+              122,
+              0.44,
+              11,
+              46.34,
+              -44.5,
+              0.56,
+              1,
+              11,
+              43.37,
+              -17.82,
+              1,
+              2,
+              8,
+              71.63,
+              84.6,
+              0.08895,
+              11,
+              -17.03,
+              -23.98,
+              0.91105,
+              2,
+              8,
+              70.12,
+              107.77,
+              0.08293,
+              11,
+              -10.25,
+              -46.18,
+              0.91707,
+              2,
+              8,
+              117.87,
+              107.27,
+              0.17074,
+              11,
+              -56.84,
+              -56.66,
+              0.82926,
+              2,
+              8,
+              111.02,
+              87.47,
+              0.2904,
+              11,
+              -54.72,
+              -35.82,
+              0.7096,
+              2,
+              8,
+              140.91,
+              71.8,
+              0.73653,
+              11,
+              -87.41,
+              -27.42,
+              0.26347,
+              2,
+              8,
+              173.2,
+              84.16,
+              0.84016,
+              11,
+              -116,
+              -46.87,
+              0.15984,
+              2,
+              9,
+              -54.55,
+              22.27,
+              0.7385,
+              8,
+              168.11,
+              -62.82,
+              0.2615,
+              3,
+              10,
+              72.01,
+              12.44,
+              0.96875,
+              7,
+              21.67,
+              -88.21,
+              0.03125,
+              11,
+              45.34,
+              171.02,
+              0,
+              4,
+              10,
+              68.99,
+              -37.23,
+              0.33222,
+              8,
+              -39.06,
+              -41.38,
+              0.0178,
+              7,
+              16.23,
+              -38.74,
+              0.64995,
+              11,
+              61.78,
+              124.05,
+              0.00003,
+              4,
+              10,
+              65.09,
+              -52.55,
+              0.23609,
+              8,
+              -37.75,
+              -25.63,
+              0.03382,
+              7,
+              17.48,
+              -22.99,
+              0.73003,
+              11,
+              64.12,
+              108.42,
+              0.00007,
+              4,
+              10,
+              44.16,
+              -56.94,
+              0.15413,
+              9,
+              118.95,
+              -58.31,
+              0.00005,
+              8,
+              -17.83,
+              -17.85,
+              0.32846,
+              7,
+              37.36,
+              -15.11,
+              0.51736,
+              5,
+              10,
+              17.21,
+              -56.18,
+              0.10444,
+              9,
+              92.03,
+              -56.7,
+              0.01778,
+              8,
+              8.88,
+              -14.15,
+              0.84296,
+              7,
+              64.05,
+              -11.3,
+              0.03483,
+              11,
+              21.37,
+              86.54,
+              0,
+              3,
+              10,
+              -19.32,
+              -52.29,
+              0.01417,
+              9,
+              55.64,
+              -51.65,
+              0.09947,
+              8,
+              45.55,
+              -11.96,
+              0.88636,
+              2,
+              9,
+              29.81,
+              -47.13,
+              0.12222,
+              8,
+              71.77,
+              -11.32,
+              0.87778,
+              2,
+              9,
+              23.65,
+              -54.77,
+              0.01528,
+              8,
+              76.31,
+              -2.62,
+              0.98472,
+              2,
+              9,
+              4.72,
+              -49.5,
+              0.03148,
+              8,
+              95.9,
+              -4.07,
+              0.96852,
+              2,
+              8,
+              88.8,
+              24.3,
+              0.81956,
+              11,
+              -47.59,
+              30.77,
+              0.18044,
+              2,
+              8,
+              85.09,
+              50.62,
+              0.45522,
+              11,
+              -37.94,
+              6,
+              0.54478,
+              2,
+              8,
+              84.79,
+              75.29,
+              0.20368,
+              11,
+              -31.98,
+              -17.93,
+              0.79632,
+              2,
+              8,
+              84.88,
+              67.68,
+              0.26274,
+              11,
+              -33.82,
+              -10.55,
+              0.73726,
+              1,
+              8,
+              73.09,
+              65.33,
+              1,
+              1,
+              8,
+              59.59,
+              68.79,
+              1,
+              1,
+              8,
+              43.71,
+              61.37,
+              1,
+              1,
+              8,
+              24.68,
+              58.37,
+              1,
+              1,
+              8,
+              11.52,
+              52.52,
+              1,
+              1,
+              8,
+              2.51,
+              51.5,
+              1,
+              1,
+              8,
+              -3.36,
+              45.06,
+              1,
+              4,
+              10,
+              23.73,
+              -97.47,
+              0,
+              8,
+              -4.37,
+              25.5,
+              0.55702,
+              7,
+              50.63,
+              28.29,
+              0.1775,
+              11,
+              43.37,
+              50.99,
+              0.26548,
+              2,
+              8,
+              1.78,
+              1.7,
+              0.99359,
+              11,
+              31.92,
+              72.74,
+              0.00641,
+              3,
+              10,
+              30.2,
+              -173.99,
+              0,
+              7,
+              31.29,
+              102.61,
+              0.4619,
+              11,
+              78.95,
+              -17.06,
+              0.5381,
+              4,
+              10,
+              0.12,
+              -133.66,
+              0,
+              8,
+              12.95,
+              65.09,
+              0.04877,
+              7,
+              67.77,
+              67.96,
+              0.00862,
+              11,
+              35.6,
+              8.48,
+              0.94261,
+              4,
+              10,
+              27.7,
+              -141.3,
+              0,
+              8,
+              -15.52,
+              68.07,
+              0.02592,
+              7,
+              39.3,
+              70.82,
+              0.49169,
+              11,
+              63.99,
+              12.11,
+              0.48239,
+              1,
+              7,
+              23.01,
+              70.65,
+              1,
+              2,
+              9,
+              17.14,
+              -2.75,
+              0.98224,
+              8,
+              92.9,
+              -52.36,
+              0.01776,
+              2,
+              9,
+              56.53,
+              -3.63,
+              0.9786,
+              8,
+              54.1,
+              -59.21,
+              0.0214,
+              3,
+              10,
+              17.06,
+              2.85,
+              0.9929,
+              9,
+              93.75,
+              2.31,
+              0.0071,
+              11,
+              -1.62,
+              140.91,
+              0,
+              2,
+              10,
+              42.8,
+              5.99,
+              0.99909,
+              9,
+              119.58,
+              4.63,
+              0.00091
+            ],
+            "hull": 22,
+            "edges": [
+              24,
+              26,
+              26,
+              28,
+              28,
+              30,
+              30,
+              32,
+              32,
+              34,
+              34,
+              36,
+              36,
+              38,
+              38,
+              40,
+              40,
+              42,
+              42,
+              0,
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              10,
+              12,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              18,
+              44,
+              44,
+              46,
+              46,
+              48,
+              48,
+              50,
+              50,
+              52,
+              52,
+              54,
+              54,
+              56,
+              56,
+              58,
+              58,
+              60,
+              60,
+              62,
+              62,
+              64,
+              64,
+              68,
+              68,
+              66,
+              68,
+              70,
+              70,
+              72,
+              72,
+              74,
+              74,
+              76,
+              76,
+              78,
+              78,
+              80,
+              80,
+              82,
+              82,
+              84,
+              84,
+              86,
+              86,
+              52,
+              28,
+              88,
+              20,
+              22,
+              22,
+              24,
+              88,
+              22
+            ],
+            "width": 249,
+            "height": 216
+          }
+        },
+        "star_with_glow": {
+          "star_with_glow": {
+            "x": -0.55,
+            "y": 0.05,
+            "width": 26,
+            "height": 27
+          }
+        },
+        "star_with_glow2": {
+          "star_with_glow": {
+            "x": -0.55,
+            "y": 0.05,
+            "width": 26,
+            "height": 27
+          }
+        },
+        "star_with_glow3": {
+          "star_with_glow": {
+            "x": -0.55,
+            "y": 0.05,
+            "width": 26,
+            "height": 27
+          }
+        },
+        "star_with_glow4": {
+          "star_with_glow": {
+            "x": -0.55,
+            "y": 0.05,
+            "width": 26,
+            "height": 27
+          }
+        },
+        "star_with_glow5": {
+          "star_with_glow": {
+            "x": -0.55,
+            "y": 0.05,
+            "width": 26,
+            "height": 27
+          }
+        },
+        "star_with_glow6": {
+          "star_with_glow": {
+            "x": -0.55,
+            "y": 0.05,
+            "width": 26,
+            "height": 27
+          }
+        },
+        "star_with_glow7": {
+          "star_with_glow": {
+            "x": -0.55,
+            "y": 0.05,
+            "width": 26,
+            "height": 27
+          }
+        },
+        "star_with_glow8": {
+          "star_with_glow": {
+            "x": -0.55,
+            "y": 0.05,
+            "width": 26,
+            "height": 27
+          }
+        },
+        "toushi_saoguang_1_": {
+          "shenti2": {
+            "type": "mesh",
+            "path": "shenti",
+            "uvs": [
+              0.78311,
+              0.12604,
+              0.78621,
+              0.26863,
+              0.81404,
+              0.28289,
+              0.82486,
+              0.37557,
+              0.85733,
+              0.3827,
+              0.86351,
+              0.45756,
+              0.89444,
+              0.48786,
+              0.94701,
+              0.63224,
+              1,
+              0.75523,
+              1,
+              0.81761,
+              1,
+              1,
+              0.08777,
+              1,
+              0,
+              1,
+              0,
+              0.73918,
+              0.10743,
+              0.74988,
+              0.13062,
+              0.47004,
+              0.03785,
+              0.48073,
+              0.03321,
+              0.25972,
+              0.11362,
+              0.28824,
+              0.17237,
+              0.14743,
+              0.11825,
+              0,
+              0.7089,
+              0,
+              0.8496,
+              0.9299,
+              0.65169,
+              0.96198,
+              0.58829,
+              0.95842,
+              0.55428,
+              0.86752,
+              0.53572,
+              0.74453,
+              0.52181,
+              0.5752,
+              0.51562,
+              0.454,
+              0.48006,
+              0.43439,
+              0.48315,
+              0.34349,
+              0.37028,
+              0.38092,
+              0.26514,
+              0.40231,
+              0.16619,
+              0.40766,
+              0.19671,
+              0.40601,
+              0.20777,
+              0.4602,
+              0.19577,
+              0.52322,
+              0.22777,
+              0.59546,
+              0.24243,
+              0.68307,
+              0.26777,
+              0.74301,
+              0.2731,
+              0.78451,
+              0.29977,
+              0.81064,
+              0.37843,
+              0.81218,
+              0.4731,
+              0.7799,
+              0.08243,
+              0.91209,
+              0.2171,
+              0.7384,
+              0.2091,
+              0.87059,
+              0.21177,
+              0.9459,
+              0.67737,
+              0.34963,
+              0.7103,
+              0.52806,
+              0.76793,
+              0.6894,
+              0.80086,
+              0.80329
+            ],
+            "triangles": [
+              19,
+              32,
+              18,
+              34,
+              18,
+              32,
+              33,
+              18,
+              34,
+              33,
+              16,
+              18,
+              16,
+              17,
+              18,
+              15,
+              16,
+              33,
+              33,
+              35,
+              15,
+              35,
+              33,
+              34,
+              15,
+              36,
+              14,
+              38,
+              45,
+              14,
+              46,
+              14,
+              45,
+              40,
+              46,
+              45,
+              44,
+              13,
+              14,
+              44,
+              14,
+              46,
+              12,
+              13,
+              44,
+              12,
+              44,
+              11,
+              10,
+              11,
+              23,
+              11,
+              44,
+              47,
+              44,
+              46,
+              47,
+              11,
+              47,
+              24,
+              23,
+              24,
+              25,
+              11,
+              24,
+              23,
+              24,
+              42,
+              25,
+              24,
+              47,
+              42,
+              47,
+              46,
+              41,
+              23,
+              22,
+              10,
+              37,
+              35,
+              32,
+              31,
+              37,
+              32,
+              45,
+              38,
+              39,
+              39,
+              38,
+              43,
+              41,
+              40,
+              39,
+              39,
+              42,
+              41,
+              19,
+              20,
+              21,
+              30,
+              19,
+              21,
+              30,
+              31,
+              19,
+              31,
+              32,
+              19,
+              29,
+              31,
+              30,
+              28,
+              30,
+              48,
+              29,
+              30,
+              28,
+              27,
+              28,
+              49,
+              31,
+              27,
+              38,
+              31,
+              29,
+              27,
+              28,
+              27,
+              29,
+              50,
+              26,
+              27,
+              27,
+              43,
+              38,
+              26,
+              43,
+              27,
+              43,
+              42,
+              39,
+              43,
+              26,
+              25,
+              42,
+              43,
+              25,
+              47,
+              41,
+              42,
+              46,
+              40,
+              41,
+              40,
+              45,
+              39,
+              31,
+              38,
+              37,
+              38,
+              14,
+              37,
+              36,
+              35,
+              37,
+              37,
+              14,
+              36,
+              36,
+              15,
+              35,
+              35,
+              34,
+              32,
+              30,
+              21,
+              0,
+              48,
+              30,
+              0,
+              1,
+              48,
+              0,
+              48,
+              3,
+              49,
+              1,
+              3,
+              48,
+              2,
+              3,
+              1,
+              28,
+              48,
+              49,
+              50,
+              49,
+              6,
+              3,
+              5,
+              49,
+              4,
+              5,
+              3,
+              6,
+              49,
+              5,
+              50,
+              27,
+              49,
+              50,
+              6,
+              7,
+              51,
+              50,
+              7,
+              51,
+              7,
+              8,
+              51,
+              8,
+              9,
+              51,
+              25,
+              26,
+              51,
+              26,
+              50,
+              22,
+              51,
+              9,
+              51,
+              23,
+              25,
+              22,
+              23,
+              51,
+              22,
+              9,
+              10
+            ],
+            "vertices": [
+              3,
+              9,
+              -23.8,
+              33.99,
+              0.93726,
+              8,
+              140.26,
+              -80.34,
+              0.06274,
+              11,
+              -121.69,
+              120.81,
+              0,
+              2,
+              9,
+              6.35,
+              27.65,
+              1,
+              11,
+              -91.64,
+              127.59,
+              0,
+              2,
+              9,
+              10.94,
+              33.69,
+              1,
+              11,
+              -89.98,
+              134.99,
+              0,
+              3,
+              10,
+              -46.55,
+              30.24,
+              0.00677,
+              9,
+              31.04,
+              31.71,
+              0.99323,
+              11,
+              -70.87,
+              141.55,
+              0,
+              3,
+              10,
+              -43.43,
+              37.86,
+              0.01708,
+              9,
+              34.4,
+              39.22,
+              0.98292,
+              11,
+              -70.94,
+              149.78,
+              0,
+              3,
+              10,
+              -27.28,
+              36.15,
+              0.10628,
+              9,
+              50.49,
+              37,
+              0.89372,
+              11,
+              -55.39,
+              154.45,
+              0,
+              3,
+              10,
+              -19.33,
+              42.39,
+              0.22791,
+              9,
+              58.63,
+              42.98,
+              0.77209,
+              11,
+              -50.48,
+              163.29,
+              0,
+              3,
+              10,
+              13.83,
+              49.01,
+              0.74163,
+              9,
+              91.99,
+              48.55,
+              0.25837,
+              11,
+              -22.45,
+              182.23,
+              0,
+              2,
+              10,
+              42.5,
+              56.65,
+              0.95696,
+              9,
+              120.88,
+              55.28,
+              0.04304,
+              3,
+              10,
+              55.7,
+              53.97,
+              0.71743,
+              9,
+              134,
+              52.18,
+              0.01057,
+              7,
+              44.79,
+              -126.37,
+              0.272,
+              1,
+              7,
+              5.41,
+              -125.18,
+              1,
+              1,
+              7,
+              12.27,
+              101.86,
+              1,
+              1,
+              7,
+              12.93,
+              123.7,
+              1,
+              2,
+              7,
+              69.24,
+              122,
+              0.44,
+              11,
+              46.34,
+              -44.5,
+              0.56,
+              1,
+              11,
+              43.37,
+              -17.82,
+              1,
+              2,
+              8,
+              71.63,
+              84.6,
+              0.08895,
+              11,
+              -17.03,
+              -23.98,
+              0.91105,
+              2,
+              8,
+              70.12,
+              107.77,
+              0.08293,
+              11,
+              -10.25,
+              -46.18,
+              0.91707,
+              2,
+              8,
+              117.87,
+              107.27,
+              0.17074,
+              11,
+              -56.84,
+              -56.66,
+              0.82926,
+              2,
+              8,
+              111.02,
+              87.47,
+              0.2904,
+              11,
+              -54.72,
+              -35.82,
+              0.7096,
+              2,
+              8,
+              140.91,
+              71.8,
+              0.73653,
+              11,
+              -87.41,
+              -27.42,
+              0.26347,
+              2,
+              8,
+              173.2,
+              84.16,
+              0.84016,
+              11,
+              -116,
+              -46.87,
+              0.15984,
+              2,
+              9,
+              -54.55,
+              22.27,
+              0.7385,
+              8,
+              168.11,
+              -62.82,
+              0.2615,
+              3,
+              10,
+              72.01,
+              12.44,
+              0.96875,
+              7,
+              21.67,
+              -88.21,
+              0.03125,
+              11,
+              45.34,
+              171.02,
+              0,
+              4,
+              10,
+              68.99,
+              -37.23,
+              0.33222,
+              8,
+              -39.06,
+              -41.38,
+              0.0178,
+              7,
+              16.23,
+              -38.74,
+              0.64995,
+              11,
+              61.78,
+              124.05,
+              0.00003,
+              4,
+              10,
+              65.09,
+              -52.55,
+              0.23609,
+              8,
+              -37.75,
+              -25.63,
+              0.03382,
+              7,
+              17.48,
+              -22.99,
+              0.73003,
+              11,
+              64.12,
+              108.42,
+              0.00007,
+              4,
+              10,
+              44.16,
+              -56.94,
+              0.15413,
+              9,
+              118.95,
+              -58.31,
+              0.00005,
+              8,
+              -17.83,
+              -17.85,
+              0.32846,
+              7,
+              37.36,
+              -15.11,
+              0.51736,
+              5,
+              10,
+              17.21,
+              -56.18,
+              0.10444,
+              9,
+              92.03,
+              -56.7,
+              0.01778,
+              8,
+              8.88,
+              -14.15,
+              0.84296,
+              7,
+              64.05,
+              -11.3,
+              0.03483,
+              11,
+              21.37,
+              86.54,
+              0,
+              3,
+              10,
+              -19.32,
+              -52.29,
+              0.01417,
+              9,
+              55.64,
+              -51.65,
+              0.09947,
+              8,
+              45.55,
+              -11.96,
+              0.88636,
+              2,
+              9,
+              29.81,
+              -47.13,
+              0.12222,
+              8,
+              71.77,
+              -11.32,
+              0.87778,
+              2,
+              9,
+              23.65,
+              -54.77,
+              0.01528,
+              8,
+              76.31,
+              -2.62,
+              0.98472,
+              2,
+              9,
+              4.72,
+              -49.5,
+              0.03148,
+              8,
+              95.9,
+              -4.07,
+              0.96852,
+              2,
+              8,
+              88.8,
+              24.3,
+              0.81956,
+              11,
+              -47.59,
+              30.77,
+              0.18044,
+              2,
+              8,
+              85.09,
+              50.62,
+              0.45522,
+              11,
+              -37.94,
+              6,
+              0.54478,
+              2,
+              8,
+              84.79,
+              75.29,
+              0.20368,
+              11,
+              -31.98,
+              -17.93,
+              0.79632,
+              2,
+              8,
+              84.88,
+              67.68,
+              0.26274,
+              11,
+              -33.82,
+              -10.55,
+              0.73726,
+              1,
+              8,
+              73.09,
+              65.33,
+              1,
+              1,
+              8,
+              59.59,
+              68.79,
+              1,
+              1,
+              8,
+              43.71,
+              61.37,
+              1,
+              1,
+              8,
+              24.68,
+              58.37,
+              1,
+              1,
+              8,
+              11.52,
+              52.52,
+              1,
+              1,
+              8,
+              2.51,
+              51.5,
+              1,
+              1,
+              8,
+              -3.36,
+              45.06,
+              1,
+              4,
+              10,
+              23.73,
+              -97.47,
+              0,
+              8,
+              -4.37,
+              25.5,
+              0.55702,
+              7,
+              50.63,
+              28.29,
+              0.1775,
+              11,
+              43.37,
+              50.99,
+              0.26548,
+              2,
+              8,
+              1.78,
+              1.7,
+              0.99359,
+              11,
+              31.92,
+              72.74,
+              0.00641,
+              3,
+              10,
+              30.2,
+              -173.99,
+              0,
+              7,
+              31.29,
+              102.61,
+              0.4619,
+              11,
+              78.95,
+              -17.06,
+              0.5381,
+              4,
+              10,
+              0.12,
+              -133.66,
+              0,
+              8,
+              12.95,
+              65.09,
+              0.04877,
+              7,
+              67.77,
+              67.96,
+              0.00862,
+              11,
+              35.6,
+              8.48,
+              0.94261,
+              4,
+              10,
+              27.7,
+              -141.3,
+              0,
+              8,
+              -15.52,
+              68.07,
+              0.02592,
+              7,
+              39.3,
+              70.82,
+              0.49169,
+              11,
+              63.99,
+              12.11,
+              0.48239,
+              1,
+              7,
+              23.01,
+              70.65,
+              1,
+              2,
+              9,
+              17.14,
+              -2.75,
+              0.98224,
+              8,
+              92.9,
+              -52.36,
+              0.01776,
+              2,
+              9,
+              56.53,
+              -3.63,
+              0.9786,
+              8,
+              54.1,
+              -59.21,
+              0.0214,
+              3,
+              10,
+              17.06,
+              2.85,
+              0.9929,
+              9,
+              93.75,
+              2.31,
+              0.0071,
+              11,
+              -1.62,
+              140.91,
+              0,
+              2,
+              10,
+              42.8,
+              5.99,
+              0.99909,
+              9,
+              119.58,
+              4.63,
+              0.00091
+            ],
+            "hull": 22,
+            "edges": [
+              24,
+              26,
+              26,
+              28,
+              28,
+              30,
+              30,
+              32,
+              32,
+              34,
+              34,
+              36,
+              36,
+              38,
+              38,
+              40,
+              40,
+              42,
+              42,
+              0,
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              10,
+              12,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              18,
+              44,
+              44,
+              46,
+              46,
+              48,
+              48,
+              50,
+              50,
+              52,
+              52,
+              54,
+              54,
+              56,
+              56,
+              58,
+              58,
+              60,
+              60,
+              62,
+              62,
+              64,
+              64,
+              68,
+              68,
+              66,
+              68,
+              70,
+              70,
+              72,
+              72,
+              74,
+              74,
+              76,
+              76,
+              78,
+              78,
+              80,
+              80,
+              82,
+              82,
+              84,
+              84,
+              86,
+              86,
+              52,
+              28,
+              88,
+              20,
+              22,
+              22,
+              24,
+              88,
+              22
+            ],
+            "width": 249,
+            "height": 216
+          }
+        },
+        "zhezhao": {
+          "zhezhao": {
+            "type": "clipping",
+            "end": "zhezhao",
+            "vertexCount": 12,
+            "vertices": [
+              96.09,
+              107.32,
+              -97.41,
+              106.64,
+              -97.93,
+              94,
+              -129.57,
+              94.54,
+              -129.49,
+              -98.18,
+              -97.11,
+              -99.64,
+              -97.13,
+              -111.74,
+              96.49,
+              -110.3,
+              96.55,
+              -98.82,
+              129.93,
+              -98.94,
+              129.93,
+              92.74,
+              95.97,
+              93.64
+            ],
+            "color": "3a3acdff"
+          }
+        },
+        "zhezhao2": {
+          "zhezhao": {
+            "type": "clipping",
+            "end": "shenti",
+            "vertexCount": 12,
+            "vertices": [
+              97.39,
+              106.06,
+              -97.21,
+              106.76,
+              -97.21,
+              94.12,
+              -129.31,
+              94.66,
+              -129.23,
+              -98.64,
+              -97.35,
+              -98.68,
+              -97.37,
+              -111.62,
+              96.93,
+              -110.18,
+              96.99,
+              -98.64,
+              129.19,
+              -97.88,
+              129.61,
+              93.8,
+              97.17,
+              93.78
+            ],
+            "color": "3a3acdff"
+          }
+        }
+      }
+    },
+    "animations": {
+      "actionframe": {
+        "slots": {
+          "bg_lizi_1/bg_lizi_1_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 2.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2.8333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "bg_lizi_1/bg_lizi_1_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "bg_lizi_1/bg_lizi_1_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "bg_lizi_1/bg_lizi_1_02"
+              },
+              {
+                "time": 0.1,
+                "name": "bg_lizi_1/bg_lizi_1_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "bg_lizi_1/bg_lizi_1_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "bg_lizi_1/bg_lizi_1_05"
+              },
+              {
+                "time": 0.2,
+                "name": "bg_lizi_1/bg_lizi_1_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "bg_lizi_1/bg_lizi_1_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "bg_lizi_1/bg_lizi_1_08"
+              },
+              {
+                "time": 0.3,
+                "name": "bg_lizi_1/bg_lizi_1_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "bg_lizi_1/bg_lizi_1_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "bg_lizi_1/bg_lizi_1_11"
+              },
+              {
+                "time": 0.4,
+                "name": "bg_lizi_1/bg_lizi_1_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "bg_lizi_1/bg_lizi_1_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "bg_lizi_1/bg_lizi_1_14"
+              },
+              {
+                "time": 0.5,
+                "name": "bg_lizi_1/bg_lizi_1_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "bg_lizi_1/bg_lizi_1_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "bg_lizi_1/bg_lizi_1_17"
+              },
+              {
+                "time": 0.6,
+                "name": "bg_lizi_1/bg_lizi_1_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "bg_lizi_1/bg_lizi_1_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "bg_lizi_1/bg_lizi_1_00"
+              },
+              {
+                "time": 0.7,
+                "name": "bg_lizi_1/bg_lizi_1_01"
+              },
+              {
+                "time": 0.7333,
+                "name": "bg_lizi_1/bg_lizi_1_02"
+              },
+              {
+                "time": 0.7667,
+                "name": "bg_lizi_1/bg_lizi_1_03"
+              },
+              {
+                "time": 0.8,
+                "name": "bg_lizi_1/bg_lizi_1_04"
+              },
+              {
+                "time": 0.8333,
+                "name": "bg_lizi_1/bg_lizi_1_05"
+              },
+              {
+                "time": 0.8667,
+                "name": "bg_lizi_1/bg_lizi_1_06"
+              },
+              {
+                "time": 0.9,
+                "name": "bg_lizi_1/bg_lizi_1_07"
+              },
+              {
+                "time": 0.9333,
+                "name": "bg_lizi_1/bg_lizi_1_08"
+              },
+              {
+                "time": 0.9667,
+                "name": "bg_lizi_1/bg_lizi_1_09"
+              },
+              {
+                "time": 1,
+                "name": "bg_lizi_1/bg_lizi_1_10"
+              },
+              {
+                "time": 1.0333,
+                "name": "bg_lizi_1/bg_lizi_1_11"
+              },
+              {
+                "time": 1.0667,
+                "name": "bg_lizi_1/bg_lizi_1_12"
+              },
+              {
+                "time": 1.1,
+                "name": "bg_lizi_1/bg_lizi_1_13"
+              },
+              {
+                "time": 1.1333,
+                "name": "bg_lizi_1/bg_lizi_1_14"
+              },
+              {
+                "time": 1.1667,
+                "name": "bg_lizi_1/bg_lizi_1_15"
+              },
+              {
+                "time": 1.2,
+                "name": "bg_lizi_1/bg_lizi_1_16"
+              },
+              {
+                "time": 1.2333,
+                "name": "bg_lizi_1/bg_lizi_1_17"
+              },
+              {
+                "time": 1.2667,
+                "name": "bg_lizi_1/bg_lizi_1_18"
+              },
+              {
+                "time": 1.3,
+                "name": "bg_lizi_1/bg_lizi_1_19"
+              },
+              {
+                "time": 1.3333,
+                "name": "bg_lizi_1/bg_lizi_1_00"
+              },
+              {
+                "time": 1.3667,
+                "name": "bg_lizi_1/bg_lizi_1_01"
+              },
+              {
+                "time": 1.4,
+                "name": "bg_lizi_1/bg_lizi_1_02"
+              },
+              {
+                "time": 1.4333,
+                "name": "bg_lizi_1/bg_lizi_1_03"
+              },
+              {
+                "time": 1.4667,
+                "name": "bg_lizi_1/bg_lizi_1_04"
+              },
+              {
+                "time": 1.5,
+                "name": "bg_lizi_1/bg_lizi_1_05"
+              },
+              {
+                "time": 1.5333,
+                "name": "bg_lizi_1/bg_lizi_1_06"
+              },
+              {
+                "time": 1.5667,
+                "name": "bg_lizi_1/bg_lizi_1_07"
+              },
+              {
+                "time": 1.6,
+                "name": "bg_lizi_1/bg_lizi_1_08"
+              },
+              {
+                "time": 1.6333,
+                "name": "bg_lizi_1/bg_lizi_1_09"
+              },
+              {
+                "time": 1.6667,
+                "name": "bg_lizi_1/bg_lizi_1_10"
+              },
+              {
+                "time": 1.7,
+                "name": "bg_lizi_1/bg_lizi_1_11"
+              },
+              {
+                "time": 1.7333,
+                "name": "bg_lizi_1/bg_lizi_1_12"
+              },
+              {
+                "time": 1.7667,
+                "name": "bg_lizi_1/bg_lizi_1_13"
+              },
+              {
+                "time": 1.8,
+                "name": "bg_lizi_1/bg_lizi_1_14"
+              },
+              {
+                "time": 1.8333,
+                "name": "bg_lizi_1/bg_lizi_1_15"
+              },
+              {
+                "time": 1.8667,
+                "name": "bg_lizi_1/bg_lizi_1_16"
+              },
+              {
+                "time": 1.9,
+                "name": "bg_lizi_1/bg_lizi_1_17"
+              },
+              {
+                "time": 1.9333,
+                "name": "bg_lizi_1/bg_lizi_1_18"
+              },
+              {
+                "time": 1.9667,
+                "name": "bg_lizi_1/bg_lizi_1_19"
+              },
+              {
+                "time": 2,
+                "name": "bg_lizi_1/bg_lizi_1_00"
+              },
+              {
+                "time": 2.0333,
+                "name": "bg_lizi_1/bg_lizi_1_01"
+              },
+              {
+                "time": 2.0667,
+                "name": "bg_lizi_1/bg_lizi_1_02"
+              },
+              {
+                "time": 2.1,
+                "name": "bg_lizi_1/bg_lizi_1_03"
+              },
+              {
+                "time": 2.1333,
+                "name": "bg_lizi_1/bg_lizi_1_04"
+              },
+              {
+                "time": 2.1667,
+                "name": "bg_lizi_1/bg_lizi_1_05"
+              },
+              {
+                "time": 2.2,
+                "name": "bg_lizi_1/bg_lizi_1_06"
+              },
+              {
+                "time": 2.2333,
+                "name": "bg_lizi_1/bg_lizi_1_07"
+              },
+              {
+                "time": 2.2667,
+                "name": "bg_lizi_1/bg_lizi_1_08"
+              },
+              {
+                "time": 2.3,
+                "name": "bg_lizi_1/bg_lizi_1_09"
+              },
+              {
+                "time": 2.3333,
+                "name": "bg_lizi_1/bg_lizi_1_10"
+              },
+              {
+                "time": 2.3667,
+                "name": "bg_lizi_1/bg_lizi_1_11"
+              },
+              {
+                "time": 2.4,
+                "name": "bg_lizi_1/bg_lizi_1_12"
+              },
+              {
+                "time": 2.4333,
+                "name": "bg_lizi_1/bg_lizi_1_13"
+              },
+              {
+                "time": 2.4667,
+                "name": "bg_lizi_1/bg_lizi_1_14"
+              },
+              {
+                "time": 2.5,
+                "name": "bg_lizi_1/bg_lizi_1_15"
+              },
+              {
+                "time": 2.5333,
+                "name": "bg_lizi_1/bg_lizi_1_16"
+              },
+              {
+                "time": 2.5667,
+                "name": "bg_lizi_1/bg_lizi_1_17"
+              },
+              {
+                "time": 2.6,
+                "name": "bg_lizi_1/bg_lizi_1_18"
+              },
+              {
+                "time": 2.6333,
+                "name": "bg_lizi_1/bg_lizi_1_19"
+              },
+              {
+                "time": 2.6667,
+                "name": "bg_lizi_1/bg_lizi_1_00"
+              },
+              {
+                "time": 2.7,
+                "name": "bg_lizi_1/bg_lizi_1_01"
+              },
+              {
+                "time": 2.7333,
+                "name": "bg_lizi_1/bg_lizi_1_02"
+              },
+              {
+                "time": 2.7667,
+                "name": "bg_lizi_1/bg_lizi_1_03"
+              },
+              {
+                "time": 2.8,
+                "name": "bg_lizi_1/bg_lizi_1_04"
+              },
+              {
+                "time": 2.8333,
+                "name": "bg_lizi_1/bg_lizi_1_05"
+              },
+              {
+                "time": 2.8667,
+                "name": "bg_lizi_1/bg_lizi_1_06"
+              },
+              {
+                "time": 2.9,
+                "name": "bg_lizi_1/bg_lizi_1_07"
+              },
+              {
+                "time": 2.9333,
+                "name": "bg_lizi_1/bg_lizi_1_08"
+              },
+              {
+                "time": 2.9667,
+                "name": "bg_lizi_1/bg_lizi_1_09"
+              },
+              {
+                "time": 3,
+                "name": "bg_lizi_1/bg_lizi_1_10"
+              }
+            ]
+          },
+          "h1_biankuang_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "h1_biankuang_1_1"
+              }
+            ]
+          },
+          "h1_biankuang_3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "h1_biankuang_1"
+              }
+            ]
+          },
+          "shenti": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "shenti"
+              },
+              {
+                "time": 3,
+                "name": "shenti"
+              }
+            ]
+          },
+          "star_with_glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "star_with_glow"
+              },
+              {
+                "time": 1.6667,
+                "name": "star_with_glow"
+              }
+            ]
+          },
+          "star_with_glow2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "star_with_glow"
+              }
+            ]
+          },
+          "star_with_glow3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "star_with_glow"
+              }
+            ]
+          },
+          "star_with_glow4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "star_with_glow"
+              }
+            ]
+          },
+          "star_with_glow5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "star_with_glow"
+              }
+            ]
+          },
+          "star_with_glow6": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "star_with_glow"
+              }
+            ]
+          },
+          "star_with_glow7": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "star_with_glow"
+              }
+            ]
+          },
+          "star_with_glow8": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "star_with_glow"
+              }
+            ]
+          },
+          "toushi_saoguang_1_": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.2667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.6333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 2.1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2.5333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "shenti2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zhuti": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.041,
+                  0.11,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": -0.05,
+                "y": 1.42,
+                "curve": [
+                  0.073,
+                  0.15,
+                  0.712,
+                  0.92
+                ]
+              },
+              {
+                "time": 2,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0,
+                  0.12,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.5,
+                "x": -0.05,
+                "y": 1.42,
+                "curve": [
+                  0.03,
+                  0.15,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "star_1": {
+            "rotate": [
+              {
+                "time": 1.5,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": 30
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -2.65,
+                "y": -30.1,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "x": -2.65,
+                "y": -30.1
+              },
+              {
+                "time": 1.7333,
+                "x": -2.93,
+                "y": -28.96
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.7333,
+                "x": 3,
+                "y": 3
+              },
+              {
+                "time": 2,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "star_2": {
+            "rotate": [
+              {
+                "time": 1.5667,
+                "angle": 0
+              },
+              {
+                "time": 2.0667,
+                "angle": 30
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.8,
+                "x": 0,
+                "y": -5.38
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.8,
+                "x": 1.5,
+                "y": 1.5
+              },
+              {
+                "time": 2.0667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "star_3": {
+            "rotate": [
+              {
+                "time": 1.8333,
+                "angle": 0
+              },
+              {
+                "time": 2.4333,
+                "angle": 30
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.8333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 2.1333,
+                "x": 0,
+                "y": -2.8
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.8333,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 2.1333,
+                "x": 1.5,
+                "y": 1.5
+              },
+              {
+                "time": 2.4333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "star_4": {
+            "rotate": [
+              {
+                "time": 1.5,
+                "angle": 30
+              },
+              {
+                "time": 2,
+                "angle": -60
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -4.66
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.7333,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 2,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "star_5": {
+            "rotate": [
+              {
+                "time": 1.5667,
+                "angle": 0
+              },
+              {
+                "time": 2.0667,
+                "angle": 30
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -0.11,
+                "y": -2.37
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.8,
+                "x": 1.5,
+                "y": 1.5
+              },
+              {
+                "time": 2.0667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "star_6": {
+            "rotate": [
+              {
+                "time": 1.7667,
+                "angle": 0
+              },
+              {
+                "time": 2.2667,
+                "angle": 30
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -3
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.7667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 2,
+                "x": 0.6,
+                "y": 0.6
+              },
+              {
+                "time": 2.2667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "star_7": {
+            "rotate": [
+              {
+                "time": 1.5667,
+                "angle": 0
+              },
+              {
+                "time": 2.0667,
+                "angle": 30
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -9.81,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.8,
+                "x": 1.5,
+                "y": 1.5
+              },
+              {
+                "time": 2.0667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "star_8": {
+            "rotate": [
+              {
+                "time": 1.5667,
+                "angle": 0
+              },
+              {
+                "time": 2.0667,
+                "angle": 30
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.74,
+                "y": -2.71
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5667,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.8,
+                "x": 0.6,
+                "y": 0.6
+              },
+              {
+                "time": 2.0667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "bone5": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0.83,
+                "y": -6.2
+              }
+            ]
+          },
+          "star": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -10.54,
+                "y": -67.56
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 2.336,
+                "y": 2.336
+              }
+            ]
+          },
+          "shenti": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0.64,
+                "curve": [
+                  0.372,
+                  0.48,
+                  0.752,
+                  1
+                ]
+              },
+              {
+                "time": 0.8,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.3,
+                "angle": 1.18,
+                "curve": [
+                  0.252,
+                  0,
+                  0.622,
+                  0.48
+                ]
+              },
+              {
+                "time": 3,
+                "angle": 0.64
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "shenti4": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -1.15,
+                "curve": [
+                  0.332,
+                  0.33,
+                  0.758,
+                  1
+                ]
+              },
+              {
+                "time": 1.1333,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.6333,
+                "angle": -1.4,
+                "curve": [
+                  0.277,
+                  0,
+                  0.621,
+                  0.4
+                ]
+              },
+              {
+                "time": 3,
+                "angle": -1.15
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "shenti3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 3.35,
+                "curve": [
+                  0.3,
+                  0.21,
+                  0.756,
+                  1
+                ]
+              },
+              {
+                "time": 1.3,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.8,
+                "angle": 3.6,
+                "curve": [
+                  0.297,
+                  0,
+                  0.634,
+                  0.37
+                ]
+              },
+              {
+                "time": 3,
+                "angle": 3.35
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "shenti2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0.59,
+                "curve": [
+                  0.332,
+                  0.33,
+                  0.758,
+                  1
+                ]
+              },
+              {
+                "time": 1.1333,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.6333,
+                "angle": 0.71,
+                "curve": [
+                  0.277,
+                  0,
+                  0.621,
+                  0.4
+                ]
+              },
+              {
+                "time": 3,
+                "angle": 0.59
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "idleframe": {
+        "slots": {
+          "toushi_saoguang_1_": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zhuti": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "shenti": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "shenti2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "shenti3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "shenti4": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nSocre_AZTEC_4.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbg_lizi_1/bg_lizi_1_00\n  rotate: false\n  xy: 769, 205\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_01\n  rotate: false\n  xy: 769, 155\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_02\n  rotate: false\n  xy: 828, 205\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_03\n  rotate: false\n  xy: 769, 105\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_04\n  rotate: false\n  xy: 828, 155\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_05\n  rotate: false\n  xy: 887, 205\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_06\n  rotate: false\n  xy: 769, 55\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_07\n  rotate: false\n  xy: 828, 105\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_08\n  rotate: false\n  xy: 887, 155\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_09\n  rotate: false\n  xy: 946, 205\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_10\n  rotate: false\n  xy: 828, 55\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_11\n  rotate: false\n  xy: 887, 105\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_12\n  rotate: false\n  xy: 946, 155\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_13\n  rotate: false\n  xy: 887, 55\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_14\n  rotate: false\n  xy: 946, 105\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_15\n  rotate: false\n  xy: 946, 55\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_16\n  rotate: false\n  xy: 769, 5\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_17\n  rotate: false\n  xy: 828, 5\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_18\n  rotate: false\n  xy: 887, 5\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nbg_lizi_1/bg_lizi_1_19\n  rotate: false\n  xy: 946, 5\n  size: 57, 48\n  orig: 57, 48\n  offset: 0, 0\n  index: -1\nh1_biankuang_1_1\n  rotate: false\n  xy: 267, 37\n  size: 249, 216\n  orig: 249, 216\n  offset: 0, 0\n  index: -1\nh1_biankuang_4\n  rotate: false\n  xy: 2, 31\n  size: 263, 222\n  orig: 263, 222\n  offset: 0, 0\n  index: -1\nshenti\n  rotate: false\n  xy: 518, 37\n  size: 249, 216\n  orig: 249, 216\n  offset: 0, 0\n  index: -1\nstar_with_glow\n  rotate: false\n  xy: 2, 2\n  size: 26, 27\n  orig: 26, 27\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "37Qxv1mmRC4IM1sgcHcLcR"
+    }
+  ],
+  "textureNames": [
+    "Socre_AZTEC_4.png"
+  ]
+}

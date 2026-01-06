@@ -1,1 +1,238 @@
-{"__type__":"sp.SkeletonData","_name":"yingfen","_skeletonJson":{"skeleton":{"hash":"CbiEurHSJqQPCiGpWp9uHg3Ltqo","spine":"3.6.53","width":0,"height":0,"images":"./img/"},"bones":[{"name":"root"},{"name":"bone","parent":"root"}],"slots":[{"name":"1","bone":"bone","blend":"additive"}],"skins":{"default":{"1":{"payline_00000":{"width":138,"height":124},"payline_00001":{"width":138,"height":125},"payline_00002":{"width":138,"height":125},"payline_00003":{"width":138,"height":124},"payline_00004":{"width":138,"height":124},"payline_00005":{"width":137,"height":124},"payline_00006":{"width":136,"height":124},"payline_00007":{"width":136,"height":124},"payline_00008":{"width":136,"height":124},"payline_00009":{"width":138,"height":124},"payline_00010":{"width":138,"height":124},"payline_00011":{"width":138,"height":124},"payline_00012":{"width":138,"height":124},"payline_00013":{"width":138,"height":124},"payline_00014":{"width":138,"height":124}}}},"animations":{"yingfen":{"slots":{"1":{"attachment":[{"time":0,"name":"payline_00000"},{"time":0.0333,"name":"payline_00001"},{"time":0.0667,"name":"payline_00002"},{"time":0.1,"name":"payline_00003"},{"time":0.1333,"name":"payline_00004"},{"time":0.1667,"name":"payline_00005"},{"time":0.2,"name":"payline_00006"},{"time":0.2333,"name":"payline_00007"},{"time":0.2667,"name":"payline_00008"},{"time":0.3,"name":"payline_00009"},{"time":0.3333,"name":"payline_00010"},{"time":0.3667,"name":"payline_00011"},{"time":0.4,"name":"payline_00012"},{"time":0.4333,"name":"payline_00013"},{"time":0.4667,"name":"payline_00014"},{"time":0.5,"name":"payline_00000"},{"time":0.5333,"name":"payline_00001"},{"time":0.5667,"name":"payline_00002"},{"time":0.6,"name":"payline_00003"},{"time":0.6333,"name":"payline_00004"},{"time":0.6667,"name":"payline_00005"},{"time":0.7,"name":"payline_00006"},{"time":0.7333,"name":"payline_00007"},{"time":0.7667,"name":"payline_00008"},{"time":0.8,"name":"payline_00009"},{"time":0.8333,"name":"payline_00010"},{"time":0.8667,"name":"payline_00011"},{"time":0.9,"name":"payline_00012"},{"time":0.9333,"name":"payline_00013"},{"time":0.9667,"name":"payline_00014"},{"time":1,"name":"payline_00000"}]}}}}},"_atlasText":"\nyingfen.png\nsize: 2048,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\npayline_00000\n  rotate: false\n  xy: 142, 130\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00001\n  rotate: false\n  xy: 2, 129\n  size: 138, 125\n  orig: 138, 125\n  offset: 0, 0\n  index: -1\npayline_00002\n  rotate: false\n  xy: 2, 2\n  size: 138, 125\n  orig: 138, 125\n  offset: 0, 0\n  index: -1\npayline_00003\n  rotate: false\n  xy: 142, 4\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00004\n  rotate: false\n  xy: 282, 130\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00005\n  rotate: false\n  xy: 702, 4\n  size: 137, 124\n  orig: 137, 124\n  offset: 0, 0\n  index: -1\npayline_00006\n  rotate: false\n  xy: 842, 130\n  size: 136, 124\n  orig: 136, 124\n  offset: 0, 0\n  index: -1\npayline_00007\n  rotate: false\n  xy: 841, 4\n  size: 136, 124\n  orig: 136, 124\n  offset: 0, 0\n  index: -1\npayline_00008\n  rotate: false\n  xy: 980, 130\n  size: 136, 124\n  orig: 136, 124\n  offset: 0, 0\n  index: -1\npayline_00009\n  rotate: false\n  xy: 282, 4\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00010\n  rotate: false\n  xy: 422, 130\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00011\n  rotate: false\n  xy: 422, 4\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00012\n  rotate: false\n  xy: 562, 130\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00013\n  rotate: false\n  xy: 562, 4\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00014\n  rotate: false\n  xy: 702, 130\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"75GAg5QWdNkrvmMfRkiWmo"}],"textureNames":["yingfen.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "yingfen",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "CbiEurHSJqQPCiGpWp9uHg3Ltqo",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "1",
+        "bone": "bone",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "1": {
+          "payline_00000": {
+            "width": 138,
+            "height": 124
+          },
+          "payline_00001": {
+            "width": 138,
+            "height": 125
+          },
+          "payline_00002": {
+            "width": 138,
+            "height": 125
+          },
+          "payline_00003": {
+            "width": 138,
+            "height": 124
+          },
+          "payline_00004": {
+            "width": 138,
+            "height": 124
+          },
+          "payline_00005": {
+            "width": 137,
+            "height": 124
+          },
+          "payline_00006": {
+            "width": 136,
+            "height": 124
+          },
+          "payline_00007": {
+            "width": 136,
+            "height": 124
+          },
+          "payline_00008": {
+            "width": 136,
+            "height": 124
+          },
+          "payline_00009": {
+            "width": 138,
+            "height": 124
+          },
+          "payline_00010": {
+            "width": 138,
+            "height": 124
+          },
+          "payline_00011": {
+            "width": 138,
+            "height": 124
+          },
+          "payline_00012": {
+            "width": 138,
+            "height": 124
+          },
+          "payline_00013": {
+            "width": 138,
+            "height": 124
+          },
+          "payline_00014": {
+            "width": 138,
+            "height": 124
+          }
+        }
+      }
+    },
+    "animations": {
+      "yingfen": {
+        "slots": {
+          "1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "payline_00000"
+              },
+              {
+                "time": 0.0333,
+                "name": "payline_00001"
+              },
+              {
+                "time": 0.0667,
+                "name": "payline_00002"
+              },
+              {
+                "time": 0.1,
+                "name": "payline_00003"
+              },
+              {
+                "time": 0.1333,
+                "name": "payline_00004"
+              },
+              {
+                "time": 0.1667,
+                "name": "payline_00005"
+              },
+              {
+                "time": 0.2,
+                "name": "payline_00006"
+              },
+              {
+                "time": 0.2333,
+                "name": "payline_00007"
+              },
+              {
+                "time": 0.2667,
+                "name": "payline_00008"
+              },
+              {
+                "time": 0.3,
+                "name": "payline_00009"
+              },
+              {
+                "time": 0.3333,
+                "name": "payline_00010"
+              },
+              {
+                "time": 0.3667,
+                "name": "payline_00011"
+              },
+              {
+                "time": 0.4,
+                "name": "payline_00012"
+              },
+              {
+                "time": 0.4333,
+                "name": "payline_00013"
+              },
+              {
+                "time": 0.4667,
+                "name": "payline_00014"
+              },
+              {
+                "time": 0.5,
+                "name": "payline_00000"
+              },
+              {
+                "time": 0.5333,
+                "name": "payline_00001"
+              },
+              {
+                "time": 0.5667,
+                "name": "payline_00002"
+              },
+              {
+                "time": 0.6,
+                "name": "payline_00003"
+              },
+              {
+                "time": 0.6333,
+                "name": "payline_00004"
+              },
+              {
+                "time": 0.6667,
+                "name": "payline_00005"
+              },
+              {
+                "time": 0.7,
+                "name": "payline_00006"
+              },
+              {
+                "time": 0.7333,
+                "name": "payline_00007"
+              },
+              {
+                "time": 0.7667,
+                "name": "payline_00008"
+              },
+              {
+                "time": 0.8,
+                "name": "payline_00009"
+              },
+              {
+                "time": 0.8333,
+                "name": "payline_00010"
+              },
+              {
+                "time": 0.8667,
+                "name": "payline_00011"
+              },
+              {
+                "time": 0.9,
+                "name": "payline_00012"
+              },
+              {
+                "time": 0.9333,
+                "name": "payline_00013"
+              },
+              {
+                "time": 0.9667,
+                "name": "payline_00014"
+              },
+              {
+                "time": 1,
+                "name": "payline_00000"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nyingfen.png\nsize: 2048,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\npayline_00000\n  rotate: false\n  xy: 142, 130\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00001\n  rotate: false\n  xy: 2, 129\n  size: 138, 125\n  orig: 138, 125\n  offset: 0, 0\n  index: -1\npayline_00002\n  rotate: false\n  xy: 2, 2\n  size: 138, 125\n  orig: 138, 125\n  offset: 0, 0\n  index: -1\npayline_00003\n  rotate: false\n  xy: 142, 4\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00004\n  rotate: false\n  xy: 282, 130\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00005\n  rotate: false\n  xy: 702, 4\n  size: 137, 124\n  orig: 137, 124\n  offset: 0, 0\n  index: -1\npayline_00006\n  rotate: false\n  xy: 842, 130\n  size: 136, 124\n  orig: 136, 124\n  offset: 0, 0\n  index: -1\npayline_00007\n  rotate: false\n  xy: 841, 4\n  size: 136, 124\n  orig: 136, 124\n  offset: 0, 0\n  index: -1\npayline_00008\n  rotate: false\n  xy: 980, 130\n  size: 136, 124\n  orig: 136, 124\n  offset: 0, 0\n  index: -1\npayline_00009\n  rotate: false\n  xy: 282, 4\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00010\n  rotate: false\n  xy: 422, 130\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00011\n  rotate: false\n  xy: 422, 4\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00012\n  rotate: false\n  xy: 562, 130\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00013\n  rotate: false\n  xy: 562, 4\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\npayline_00014\n  rotate: false\n  xy: 702, 130\n  size: 138, 124\n  orig: 138, 124\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "75GAg5QWdNkrvmMfRkiWmo"
+    }
+  ],
+  "textureNames": [
+    "yingfen.png"
+  ]
+}

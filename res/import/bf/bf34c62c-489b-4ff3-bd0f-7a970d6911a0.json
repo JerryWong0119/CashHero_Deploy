@@ -1,1 +1,207 @@
-{"__type__":"sp.SkeletonData","_name":"chilun","_skeletonJson":{"skeleton":{"hash":"hTcpd/RxutHnxtHZee/4ICgG8uU","spine":"3.6.53","width":0,"height":0},"bones":[{"name":"root"},{"name":"chilun","parent":"root","scaleX":0.5,"scaleY":0.5},{"name":"gaoguang","parent":"root","y":14.36,"scaleX":0.5,"scaleY":0.5},{"name":"spin","parent":"root","y":-12.78,"scaleX":0.5,"scaleY":0.5},{"name":"骨骼","parent":"root"},{"name":"骨骼2","parent":"root"}],"slots":[{"name":"theme178_wheel_img","bone":"骨骼"},{"name":"theme178_wheel_img2","bone":"骨骼2"},{"name":"chilun","bone":"chilun"},{"name":"gaoguang","bone":"gaoguang"},{"name":"spin","bone":"spin"}],"skins":{"default":{"chilun":{"chilun":{"width":610,"height":611}},"gaoguang":{"gaoguang":{"width":295,"height":253}},"spin":{"spin":{"x":-1.83,"width":426,"height":268}}}},"animations":{"animation":{"slots":{"chilun":{"attachment":[{"time":0,"name":"chilun"}]},"gaoguang":{"attachment":[{"time":0,"name":"gaoguang"}]},"spin":{"attachment":[{"time":0,"name":"spin"}]}},"bones":{"chilun":{"rotate":[{"time":0,"angle":0},{"time":1,"angle":120},{"time":2,"angle":-120},{"time":3,"angle":0}]},"gaoguang":{"translate":[{"time":0,"x":0,"y":1.27}]}}},"animation2":{"slots":{"chilun":{"attachment":[{"time":0,"name":"chilun"}]},"gaoguang":{"attachment":[{"time":0,"name":"gaoguang"}]},"spin":{"attachment":[{"time":0,"name":"spin"}]}},"bones":{"chilun":{"rotate":[{"time":0,"angle":0}]},"gaoguang":{"translate":[{"time":0,"x":0,"y":1.27}]}}}}},"_atlasText":"\nchilun.png\nsize: 520,306\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nchilun\n  rotate: false\n  xy: 0, 0\n  size: 305, 306\n  orig: 305, 306\n  offset: 0, 0\n  index: -1\ngaoguang\n  rotate: false\n  xy: 307, 43\n  size: 148, 127\n  orig: 148, 127\n  offset: 0, 0\n  index: -1\nspin\n  rotate: false\n  xy: 307, 172\n  size: 213, 134\n  orig: 213, 134\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"80yAyXfgRJGoZkAqpThp87"}],"textureNames":["chilun.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "chilun",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "hTcpd/RxutHnxtHZee/4ICgG8uU",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "chilun",
+        "parent": "root",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "gaoguang",
+        "parent": "root",
+        "y": 14.36,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "spin",
+        "parent": "root",
+        "y": -12.78,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼2",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme178_wheel_img",
+        "bone": "骨骼"
+      },
+      {
+        "name": "theme178_wheel_img2",
+        "bone": "骨骼2"
+      },
+      {
+        "name": "chilun",
+        "bone": "chilun"
+      },
+      {
+        "name": "gaoguang",
+        "bone": "gaoguang"
+      },
+      {
+        "name": "spin",
+        "bone": "spin"
+      }
+    ],
+    "skins": {
+      "default": {
+        "chilun": {
+          "chilun": {
+            "width": 610,
+            "height": 611
+          }
+        },
+        "gaoguang": {
+          "gaoguang": {
+            "width": 295,
+            "height": 253
+          }
+        },
+        "spin": {
+          "spin": {
+            "x": -1.83,
+            "width": 426,
+            "height": 268
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "chilun": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "chilun"
+              }
+            ]
+          },
+          "gaoguang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gaoguang"
+              }
+            ]
+          },
+          "spin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "spin"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "chilun": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 1,
+                "angle": 120
+              },
+              {
+                "time": 2,
+                "angle": -120
+              },
+              {
+                "time": 3,
+                "angle": 0
+              }
+            ]
+          },
+          "gaoguang": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 1.27
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "chilun": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "chilun"
+              }
+            ]
+          },
+          "gaoguang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gaoguang"
+              }
+            ]
+          },
+          "spin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "spin"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "chilun": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ]
+          },
+          "gaoguang": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 1.27
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nchilun.png\nsize: 520,306\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nchilun\n  rotate: false\n  xy: 0, 0\n  size: 305, 306\n  orig: 305, 306\n  offset: 0, 0\n  index: -1\ngaoguang\n  rotate: false\n  xy: 307, 43\n  size: 148, 127\n  orig: 148, 127\n  offset: 0, 0\n  index: -1\nspin\n  rotate: false\n  xy: 307, 172\n  size: 213, 134\n  orig: 213, 134\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "80yAyXfgRJGoZkAqpThp87"
+    }
+  ],
+  "textureNames": [
+    "chilun.png"
+  ]
+}

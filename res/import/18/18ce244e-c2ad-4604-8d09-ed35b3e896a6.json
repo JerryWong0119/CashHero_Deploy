@@ -1,1 +1,336 @@
-{"__type__":"sp.SkeletonData","_name":"map_guochang","_skeletonJson":{"skeleton":{"hash":"rmiUZL50hV8ADya8ANSdHTlu/u0","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"glow","parent":"root"},{"name":"shui","parent":"root","y":48.09,"scaleX":4.5,"scaleY":4.3}],"slots":[{"name":"zhezhao","bone":"root","attachment":"zhezhao"},{"name":"glow4","bone":"glow","blend":"additive"},{"name":"shui","bone":"shui"}],"skins":{"default":{"glow4":{"glow4":{"width":300,"height":300}},"shui":{"shui/shui_00":{"width":170,"height":322},"shui/shui_01":{"width":170,"height":322},"shui/shui_02":{"width":170,"height":322},"shui/shui_03":{"width":170,"height":322},"shui/shui_04":{"width":170,"height":322},"shui/shui_05":{"width":170,"height":322},"shui/shui_06":{"width":170,"height":322},"shui/shui_07":{"width":170,"height":322},"shui/shui_08":{"width":170,"height":322},"shui/shui_09":{"width":170,"height":322},"shui/shui_10":{"width":170,"height":322},"shui/shui_11":{"width":170,"height":322},"shui/shui_12":{"width":170,"height":322},"shui/shui_13":{"width":170,"height":322},"shui/shui_14":{"width":170,"height":322},"shui/shui_15":{"width":170,"height":322},"shui/shui_16":{"width":170,"height":322},"shui/shui_17":{"width":170,"height":322},"shui/shui_18":{"width":170,"height":322},"shui/shui_19":{"width":170,"height":322},"shui/shui_20":{"width":170,"height":322}},"zhezhao":{"zhezhao":{"type":"clipping","end":"zhezhao","vertexCount":4,"vertices":[-368.54,644.11,364.26,644.83,364.96,-649.46,-364.76,-645.7],"color":"ce3a3a00"}}}},"animations":{"map_guochang":{"slots":{"glow4":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.8333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1.1667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1.5,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow4"}]},"shui":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":1,"color":"ffffffff"},{"time":1.1667,"color":"ffffff00"}],"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"shui/shui_00"},{"time":0.1,"name":"shui/shui_01"},{"time":0.1333,"name":"shui/shui_02"},{"time":0.2,"name":"shui/shui_03"},{"time":0.2333,"name":"shui/shui_04"},{"time":0.3,"name":"shui/shui_05"},{"time":0.3333,"name":"shui/shui_06"},{"time":0.4,"name":"shui/shui_07"},{"time":0.4333,"name":"shui/shui_08"},{"time":0.5,"name":"shui/shui_09"},{"time":0.5333,"name":"shui/shui_10"},{"time":0.6,"name":"shui/shui_11"},{"time":0.6333,"name":"shui/shui_12"},{"time":0.7,"name":"shui/shui_13"},{"time":0.7333,"name":"shui/shui_14"},{"time":0.8,"name":"shui/shui_15"},{"time":0.8333,"name":"shui/shui_16"},{"time":0.9,"name":"shui/shui_17"},{"time":0.9333,"name":"shui/shui_18"},{"time":1,"name":"shui/shui_19"},{"time":1.0333,"name":"shui/shui_20"}]}},"bones":{"glow":{"scale":[{"time":0,"x":8,"y":8},{"time":1.1667,"x":10,"y":15}]}}}}},"_atlasText":"\nmap_guochang.png\nsize: 1347,133\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nglow4\n  rotate: true\n  xy: 2, 30\n  size: 101, 95\n  orig: 120, 120\n  offset: 10, 12\n  index: -1\nshui/shui_00\n  rotate: false\n  xy: 1212, 7\n  size: 35, 43\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_01\n  rotate: false\n  xy: 1149, 9\n  size: 61, 41\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_02\n  rotate: false\n  xy: 1249, 5\n  size: 68, 56\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_03\n  rotate: true\n  xy: 1219, 63\n  size: 68, 62\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_04\n  rotate: true\n  xy: 1283, 63\n  size: 68, 62\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_05\n  rotate: false\n  xy: 1149, 52\n  size: 68, 79\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_06\n  rotate: false\n  xy: 1079, 20\n  size: 68, 111\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_07\n  rotate: false\n  xy: 1009, 14\n  size: 68, 117\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_08\n  rotate: false\n  xy: 99, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_09\n  rotate: false\n  xy: 169, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_10\n  rotate: false\n  xy: 239, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_11\n  rotate: false\n  xy: 309, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_12\n  rotate: false\n  xy: 379, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_13\n  rotate: false\n  xy: 449, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_14\n  rotate: false\n  xy: 519, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_15\n  rotate: false\n  xy: 589, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_16\n  rotate: false\n  xy: 659, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_17\n  rotate: false\n  xy: 729, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_18\n  rotate: false\n  xy: 799, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_19\n  rotate: false\n  xy: 869, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_20\n  rotate: false\n  xy: 939, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"0e/7xvfz5NUpc4zrFe/lx0"}],"textureNames":["map_guochang.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "map_guochang",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "rmiUZL50hV8ADya8ANSdHTlu/u0",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "glow",
+        "parent": "root"
+      },
+      {
+        "name": "shui",
+        "parent": "root",
+        "y": 48.09,
+        "scaleX": 4.5,
+        "scaleY": 4.3
+      }
+    ],
+    "slots": [
+      {
+        "name": "zhezhao",
+        "bone": "root",
+        "attachment": "zhezhao"
+      },
+      {
+        "name": "glow4",
+        "bone": "glow",
+        "blend": "additive"
+      },
+      {
+        "name": "shui",
+        "bone": "shui"
+      }
+    ],
+    "skins": {
+      "default": {
+        "glow4": {
+          "glow4": {
+            "width": 300,
+            "height": 300
+          }
+        },
+        "shui": {
+          "shui/shui_00": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_01": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_02": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_03": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_04": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_05": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_06": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_07": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_08": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_09": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_10": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_11": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_12": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_13": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_14": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_15": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_16": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_17": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_18": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_19": {
+            "width": 170,
+            "height": 322
+          },
+          "shui/shui_20": {
+            "width": 170,
+            "height": 322
+          }
+        },
+        "zhezhao": {
+          "zhezhao": {
+            "type": "clipping",
+            "end": "zhezhao",
+            "vertexCount": 4,
+            "vertices": [
+              -368.54,
+              644.11,
+              364.26,
+              644.83,
+              364.96,
+              -649.46,
+              -364.76,
+              -645.7
+            ],
+            "color": "ce3a3a00"
+          }
+        }
+      }
+    },
+    "animations": {
+      "map_guochang": {
+        "slots": {
+          "glow4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow4"
+              }
+            ]
+          },
+          "shui": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "shui/shui_00"
+              },
+              {
+                "time": 0.1,
+                "name": "shui/shui_01"
+              },
+              {
+                "time": 0.1333,
+                "name": "shui/shui_02"
+              },
+              {
+                "time": 0.2,
+                "name": "shui/shui_03"
+              },
+              {
+                "time": 0.2333,
+                "name": "shui/shui_04"
+              },
+              {
+                "time": 0.3,
+                "name": "shui/shui_05"
+              },
+              {
+                "time": 0.3333,
+                "name": "shui/shui_06"
+              },
+              {
+                "time": 0.4,
+                "name": "shui/shui_07"
+              },
+              {
+                "time": 0.4333,
+                "name": "shui/shui_08"
+              },
+              {
+                "time": 0.5,
+                "name": "shui/shui_09"
+              },
+              {
+                "time": 0.5333,
+                "name": "shui/shui_10"
+              },
+              {
+                "time": 0.6,
+                "name": "shui/shui_11"
+              },
+              {
+                "time": 0.6333,
+                "name": "shui/shui_12"
+              },
+              {
+                "time": 0.7,
+                "name": "shui/shui_13"
+              },
+              {
+                "time": 0.7333,
+                "name": "shui/shui_14"
+              },
+              {
+                "time": 0.8,
+                "name": "shui/shui_15"
+              },
+              {
+                "time": 0.8333,
+                "name": "shui/shui_16"
+              },
+              {
+                "time": 0.9,
+                "name": "shui/shui_17"
+              },
+              {
+                "time": 0.9333,
+                "name": "shui/shui_18"
+              },
+              {
+                "time": 1,
+                "name": "shui/shui_19"
+              },
+              {
+                "time": 1.0333,
+                "name": "shui/shui_20"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "glow": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 8,
+                "y": 8
+              },
+              {
+                "time": 1.1667,
+                "x": 10,
+                "y": 15
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nmap_guochang.png\nsize: 1347,133\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nglow4\n  rotate: true\n  xy: 2, 30\n  size: 101, 95\n  orig: 120, 120\n  offset: 10, 12\n  index: -1\nshui/shui_00\n  rotate: false\n  xy: 1212, 7\n  size: 35, 43\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_01\n  rotate: false\n  xy: 1149, 9\n  size: 61, 41\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_02\n  rotate: false\n  xy: 1249, 5\n  size: 68, 56\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_03\n  rotate: true\n  xy: 1219, 63\n  size: 68, 62\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_04\n  rotate: true\n  xy: 1283, 63\n  size: 68, 62\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_05\n  rotate: false\n  xy: 1149, 52\n  size: 68, 79\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_06\n  rotate: false\n  xy: 1079, 20\n  size: 68, 111\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_07\n  rotate: false\n  xy: 1009, 14\n  size: 68, 117\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_08\n  rotate: false\n  xy: 99, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_09\n  rotate: false\n  xy: 169, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_10\n  rotate: false\n  xy: 239, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_11\n  rotate: false\n  xy: 309, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_12\n  rotate: false\n  xy: 379, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_13\n  rotate: false\n  xy: 449, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_14\n  rotate: false\n  xy: 519, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_15\n  rotate: false\n  xy: 589, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_16\n  rotate: false\n  xy: 659, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_17\n  rotate: false\n  xy: 729, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_18\n  rotate: false\n  xy: 799, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_19\n  rotate: false\n  xy: 869, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\nshui/shui_20\n  rotate: false\n  xy: 939, 2\n  size: 68, 129\n  orig: 68, 129\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "0e/7xvfz5NUpc4zrFe/lx0"
+    }
+  ],
+  "textureNames": [
+    "map_guochang.png"
+  ]
+}

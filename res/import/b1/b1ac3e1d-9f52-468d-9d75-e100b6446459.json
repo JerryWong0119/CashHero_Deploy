@@ -1,1 +1,498 @@
-{"__type__":"sp.SkeletonData","_name":"baoshichuxian","_skeletonJson":{"skeleton":{"hash":"eSuaZyMw1K94und9Y36CWwM4DBU","spine":"3.6.53","width":0,"height":0,"images":"./img/"},"bones":[{"name":"root"},{"name":"st","parent":"root"},{"name":"glow","parent":"st","scaleX":0.925,"scaleY":0.925},{"name":"lizi","parent":"root"},{"name":"st2","parent":"root"}],"slots":[{"name":"st","bone":"st"},{"name":"st2","bone":"st2"},{"name":"baoshiglow_00","bone":"glow","blend":"additive"},{"name":"lizi","bone":"lizi"}],"skins":{"default":{"baoshiglow_00":{"baoshiglow_00":{"width":100,"height":100}},"lizi":{"baoshilizi/baoshilizi_00":{"width":35,"height":35},"baoshilizi/baoshilizi_01":{"width":51,"height":54},"baoshilizi/baoshilizi_02":{"width":63,"height":66},"baoshilizi/baoshilizi_03":{"width":73,"height":77},"baoshilizi/baoshilizi_04":{"width":82,"height":85},"baoshilizi/baoshilizi_05":{"width":88,"height":90},"baoshilizi/baoshilizi_06":{"width":91,"height":93},"baoshilizi/baoshilizi_07":{"width":94,"height":96},"baoshilizi/baoshilizi_08":{"width":95,"height":97},"baoshilizi/baoshilizi_09":{"width":97,"height":98},"baoshilizi/baoshilizi_10":{"width":98,"height":99},"baoshilizi/baoshilizi_11":{"width":98,"height":99},"baoshilizi/baoshilizi_12":{"width":98,"height":98},"baoshilizi/baoshilizi_13":{"width":97,"height":98},"baoshilizi/baoshilizi_14":{"width":97,"height":97},"baoshilizi/baoshilizi_15":{"width":96,"height":95},"baoshilizi/baoshilizi_16":{"width":94,"height":94},"baoshilizi/baoshilizi_17":{"width":91,"height":94},"baoshilizi/baoshilizi_18":{"width":86,"height":90},"baoshilizi/baoshilizi_19":{"width":80,"height":90}},"st":{"baoshi/theme197_base_bs":{"width":38,"height":39}},"st2":{"baoshi/theme197_base_bs_sel":{"width":57,"height":57}}}},"animations":{"animation1":{"slots":{"baoshiglow_00":{"color":[{"time":0,"color":"ffffff14"},{"time":0.1667,"color":"ffffffff"},{"time":0.4667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"baoshiglow_00"}]},"st":{"attachment":[{"time":0,"name":"baoshi/theme197_base_bs"}]}},"bones":{"st":{"scale":[{"time":0,"x":0.481,"y":0.481,"curve":[0.25,0,0.75,1]},{"time":0.1333,"x":1.093,"y":1.093,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":0.896,"y":0.896,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":1,"y":1}]},"st2":{"scale":[{"time":0,"x":0.481,"y":0.481,"curve":[0.25,0,0.75,1]},{"time":0.1333,"x":1.093,"y":1.093,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":0.896,"y":0.896,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":1,"y":1}]}}},"animation2":{"slots":{"baoshiglow_00":{"color":[{"time":0.5,"color":"ffffff14"},{"time":0.6667,"color":"ffffffff"},{"time":0.9667,"color":"ffffff00"}],"attachment":[{"time":0.5,"name":"baoshiglow_00"}]},"lizi":{"attachment":[{"time":0,"name":"baoshilizi/baoshilizi_19"},{"time":0.0333,"name":"baoshilizi/baoshilizi_18"},{"time":0.0667,"name":"baoshilizi/baoshilizi_17"},{"time":0.1,"name":"baoshilizi/baoshilizi_16"},{"time":0.1333,"name":"baoshilizi/baoshilizi_15"},{"time":0.1667,"name":"baoshilizi/baoshilizi_14"},{"time":0.2,"name":"baoshilizi/baoshilizi_13"},{"time":0.2333,"name":"baoshilizi/baoshilizi_12"},{"time":0.2667,"name":"baoshilizi/baoshilizi_11"},{"time":0.3,"name":"baoshilizi/baoshilizi_10"},{"time":0.3333,"name":"baoshilizi/baoshilizi_09"},{"time":0.3667,"name":"baoshilizi/baoshilizi_08"},{"time":0.4,"name":"baoshilizi/baoshilizi_07"},{"time":0.4333,"name":"baoshilizi/baoshilizi_06"},{"time":0.4667,"name":"baoshilizi/baoshilizi_05"},{"time":0.5,"name":"baoshilizi/baoshilizi_04"},{"time":0.5333,"name":"baoshilizi/baoshilizi_03"},{"time":0.5667,"name":"baoshilizi/baoshilizi_02"},{"time":0.6,"name":"baoshilizi/baoshilizi_01"},{"time":0.6333,"name":"baoshilizi/baoshilizi_00"},{"time":0.6667,"name":null}]},"st2":{"attachment":[{"time":0.5,"name":"baoshi/theme197_base_bs_sel"}]}},"bones":{"glow":{"scale":[{"time":0,"x":1.315,"y":1.315}]},"lizi":{"translate":[{"time":0,"x":0,"y":4.07}]},"st2":{"scale":[{"time":0.5,"x":0.481,"y":0.481,"curve":[0.25,0,0.75,1]},{"time":0.6333,"x":1.093,"y":1.093,"curve":[0.25,0,0.75,1]},{"time":0.8333,"x":0.896,"y":0.896,"curve":[0.25,0,0.75,1]},{"time":1.0667,"x":1,"y":1}]}}},"animation1_1":{"slots":{"st":{"attachment":[{"time":0,"name":"baoshi/theme197_base_bs"}]}}},"animation2_1":{"slots":{"st2":{"attachment":[{"time":0,"name":"baoshi/theme197_base_bs_sel"}]}}}}},"_atlasText":"\nbaoshichuxian.png\nsize: 451,449\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbaoshi/theme197_base_bs\n  rotate: false\n  xy: 2, 6\n  size: 38, 39\n  orig: 38, 39\n  offset: 0, 0\n  index: -1\nbaoshi/theme197_base_bs_sel\n  rotate: false\n  xy: 391, 297\n  size: 57, 57\n  orig: 57, 57\n  offset: 0, 0\n  index: -1\nbaoshiglow_00\n  rotate: false\n  xy: 200, 73\n  size: 86, 85\n  orig: 100, 100\n  offset: 7, 7\n  index: -1\nbaoshilizi/baoshilizi_00\n  rotate: false\n  xy: 42, 10\n  size: 35, 35\n  orig: 35, 35\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_01\n  rotate: true\n  xy: 394, 396\n  size: 51, 54\n  orig: 51, 54\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_02\n  rotate: false\n  xy: 200, 5\n  size: 63, 66\n  orig: 63, 66\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_03\n  rotate: true\n  xy: 372, 21\n  size: 73, 77\n  orig: 73, 77\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_04\n  rotate: false\n  xy: 288, 9\n  size: 82, 85\n  orig: 82, 85\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_05\n  rotate: true\n  xy: 299, 266\n  size: 88, 90\n  orig: 88, 90\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_06\n  rotate: true\n  xy: 299, 356\n  size: 91, 93\n  orig: 91, 93\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_07\n  rotate: true\n  xy: 102, 256\n  size: 94, 96\n  orig: 94, 96\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_08\n  rotate: false\n  xy: 102, 157\n  size: 95, 97\n  orig: 95, 97\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_09\n  rotate: false\n  xy: 2, 47\n  size: 97, 98\n  orig: 97, 98\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_10\n  rotate: false\n  xy: 2, 348\n  size: 98, 99\n  orig: 98, 99\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_11\n  rotate: false\n  xy: 2, 247\n  size: 98, 99\n  orig: 98, 99\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_12\n  rotate: false\n  xy: 2, 147\n  size: 98, 98\n  orig: 98, 98\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_13\n  rotate: false\n  xy: 101, 47\n  size: 97, 98\n  orig: 97, 98\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_14\n  rotate: false\n  xy: 200, 350\n  size: 97, 97\n  orig: 97, 97\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_15\n  rotate: false\n  xy: 102, 352\n  size: 96, 95\n  orig: 96, 95\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_16\n  rotate: false\n  xy: 199, 160\n  size: 94, 94\n  orig: 94, 94\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_17\n  rotate: true\n  xy: 200, 257\n  size: 91, 94\n  orig: 91, 94\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_18\n  rotate: true\n  xy: 296, 178\n  size: 86, 90\n  orig: 86, 90\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_19\n  rotate: true\n  xy: 295, 96\n  size: 80, 90\n  orig: 80, 90\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"cbg1ia+mtG5rHy4BkOseGV"}],"textureNames":["baoshichuxian.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "baoshichuxian",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "eSuaZyMw1K94und9Y36CWwM4DBU",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "st",
+        "parent": "root"
+      },
+      {
+        "name": "glow",
+        "parent": "st",
+        "scaleX": 0.925,
+        "scaleY": 0.925
+      },
+      {
+        "name": "lizi",
+        "parent": "root"
+      },
+      {
+        "name": "st2",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "st",
+        "bone": "st"
+      },
+      {
+        "name": "st2",
+        "bone": "st2"
+      },
+      {
+        "name": "baoshiglow_00",
+        "bone": "glow",
+        "blend": "additive"
+      },
+      {
+        "name": "lizi",
+        "bone": "lizi"
+      }
+    ],
+    "skins": {
+      "default": {
+        "baoshiglow_00": {
+          "baoshiglow_00": {
+            "width": 100,
+            "height": 100
+          }
+        },
+        "lizi": {
+          "baoshilizi/baoshilizi_00": {
+            "width": 35,
+            "height": 35
+          },
+          "baoshilizi/baoshilizi_01": {
+            "width": 51,
+            "height": 54
+          },
+          "baoshilizi/baoshilizi_02": {
+            "width": 63,
+            "height": 66
+          },
+          "baoshilizi/baoshilizi_03": {
+            "width": 73,
+            "height": 77
+          },
+          "baoshilizi/baoshilizi_04": {
+            "width": 82,
+            "height": 85
+          },
+          "baoshilizi/baoshilizi_05": {
+            "width": 88,
+            "height": 90
+          },
+          "baoshilizi/baoshilizi_06": {
+            "width": 91,
+            "height": 93
+          },
+          "baoshilizi/baoshilizi_07": {
+            "width": 94,
+            "height": 96
+          },
+          "baoshilizi/baoshilizi_08": {
+            "width": 95,
+            "height": 97
+          },
+          "baoshilizi/baoshilizi_09": {
+            "width": 97,
+            "height": 98
+          },
+          "baoshilizi/baoshilizi_10": {
+            "width": 98,
+            "height": 99
+          },
+          "baoshilizi/baoshilizi_11": {
+            "width": 98,
+            "height": 99
+          },
+          "baoshilizi/baoshilizi_12": {
+            "width": 98,
+            "height": 98
+          },
+          "baoshilizi/baoshilizi_13": {
+            "width": 97,
+            "height": 98
+          },
+          "baoshilizi/baoshilizi_14": {
+            "width": 97,
+            "height": 97
+          },
+          "baoshilizi/baoshilizi_15": {
+            "width": 96,
+            "height": 95
+          },
+          "baoshilizi/baoshilizi_16": {
+            "width": 94,
+            "height": 94
+          },
+          "baoshilizi/baoshilizi_17": {
+            "width": 91,
+            "height": 94
+          },
+          "baoshilizi/baoshilizi_18": {
+            "width": 86,
+            "height": 90
+          },
+          "baoshilizi/baoshilizi_19": {
+            "width": 80,
+            "height": 90
+          }
+        },
+        "st": {
+          "baoshi/theme197_base_bs": {
+            "width": 38,
+            "height": 39
+          }
+        },
+        "st2": {
+          "baoshi/theme197_base_bs_sel": {
+            "width": 57,
+            "height": 57
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "baoshiglow_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff14"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "baoshiglow_00"
+              }
+            ]
+          },
+          "st": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "baoshi/theme197_base_bs"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "st": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.481,
+                "y": 0.481,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 1.093,
+                "y": 1.093,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0.896,
+                "y": 0.896,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "st2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.481,
+                "y": 0.481,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 1.093,
+                "y": 1.093,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0.896,
+                "y": 0.896,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "baoshiglow_00": {
+            "color": [
+              {
+                "time": 0.5,
+                "color": "ffffff14"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.5,
+                "name": "baoshiglow_00"
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "baoshilizi/baoshilizi_19"
+              },
+              {
+                "time": 0.0333,
+                "name": "baoshilizi/baoshilizi_18"
+              },
+              {
+                "time": 0.0667,
+                "name": "baoshilizi/baoshilizi_17"
+              },
+              {
+                "time": 0.1,
+                "name": "baoshilizi/baoshilizi_16"
+              },
+              {
+                "time": 0.1333,
+                "name": "baoshilizi/baoshilizi_15"
+              },
+              {
+                "time": 0.1667,
+                "name": "baoshilizi/baoshilizi_14"
+              },
+              {
+                "time": 0.2,
+                "name": "baoshilizi/baoshilizi_13"
+              },
+              {
+                "time": 0.2333,
+                "name": "baoshilizi/baoshilizi_12"
+              },
+              {
+                "time": 0.2667,
+                "name": "baoshilizi/baoshilizi_11"
+              },
+              {
+                "time": 0.3,
+                "name": "baoshilizi/baoshilizi_10"
+              },
+              {
+                "time": 0.3333,
+                "name": "baoshilizi/baoshilizi_09"
+              },
+              {
+                "time": 0.3667,
+                "name": "baoshilizi/baoshilizi_08"
+              },
+              {
+                "time": 0.4,
+                "name": "baoshilizi/baoshilizi_07"
+              },
+              {
+                "time": 0.4333,
+                "name": "baoshilizi/baoshilizi_06"
+              },
+              {
+                "time": 0.4667,
+                "name": "baoshilizi/baoshilizi_05"
+              },
+              {
+                "time": 0.5,
+                "name": "baoshilizi/baoshilizi_04"
+              },
+              {
+                "time": 0.5333,
+                "name": "baoshilizi/baoshilizi_03"
+              },
+              {
+                "time": 0.5667,
+                "name": "baoshilizi/baoshilizi_02"
+              },
+              {
+                "time": 0.6,
+                "name": "baoshilizi/baoshilizi_01"
+              },
+              {
+                "time": 0.6333,
+                "name": "baoshilizi/baoshilizi_00"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          },
+          "st2": {
+            "attachment": [
+              {
+                "time": 0.5,
+                "name": "baoshi/theme197_base_bs_sel"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "glow": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.315,
+                "y": 1.315
+              }
+            ]
+          },
+          "lizi": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 4.07
+              }
+            ]
+          },
+          "st2": {
+            "scale": [
+              {
+                "time": 0.5,
+                "x": 0.481,
+                "y": 0.481,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6333,
+                "x": 1.093,
+                "y": 1.093,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 0.896,
+                "y": 0.896,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.0667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation1_1": {
+        "slots": {
+          "st": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "baoshi/theme197_base_bs"
+              }
+            ]
+          }
+        }
+      },
+      "animation2_1": {
+        "slots": {
+          "st2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "baoshi/theme197_base_bs_sel"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbaoshichuxian.png\nsize: 451,449\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbaoshi/theme197_base_bs\n  rotate: false\n  xy: 2, 6\n  size: 38, 39\n  orig: 38, 39\n  offset: 0, 0\n  index: -1\nbaoshi/theme197_base_bs_sel\n  rotate: false\n  xy: 391, 297\n  size: 57, 57\n  orig: 57, 57\n  offset: 0, 0\n  index: -1\nbaoshiglow_00\n  rotate: false\n  xy: 200, 73\n  size: 86, 85\n  orig: 100, 100\n  offset: 7, 7\n  index: -1\nbaoshilizi/baoshilizi_00\n  rotate: false\n  xy: 42, 10\n  size: 35, 35\n  orig: 35, 35\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_01\n  rotate: true\n  xy: 394, 396\n  size: 51, 54\n  orig: 51, 54\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_02\n  rotate: false\n  xy: 200, 5\n  size: 63, 66\n  orig: 63, 66\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_03\n  rotate: true\n  xy: 372, 21\n  size: 73, 77\n  orig: 73, 77\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_04\n  rotate: false\n  xy: 288, 9\n  size: 82, 85\n  orig: 82, 85\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_05\n  rotate: true\n  xy: 299, 266\n  size: 88, 90\n  orig: 88, 90\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_06\n  rotate: true\n  xy: 299, 356\n  size: 91, 93\n  orig: 91, 93\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_07\n  rotate: true\n  xy: 102, 256\n  size: 94, 96\n  orig: 94, 96\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_08\n  rotate: false\n  xy: 102, 157\n  size: 95, 97\n  orig: 95, 97\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_09\n  rotate: false\n  xy: 2, 47\n  size: 97, 98\n  orig: 97, 98\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_10\n  rotate: false\n  xy: 2, 348\n  size: 98, 99\n  orig: 98, 99\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_11\n  rotate: false\n  xy: 2, 247\n  size: 98, 99\n  orig: 98, 99\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_12\n  rotate: false\n  xy: 2, 147\n  size: 98, 98\n  orig: 98, 98\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_13\n  rotate: false\n  xy: 101, 47\n  size: 97, 98\n  orig: 97, 98\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_14\n  rotate: false\n  xy: 200, 350\n  size: 97, 97\n  orig: 97, 97\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_15\n  rotate: false\n  xy: 102, 352\n  size: 96, 95\n  orig: 96, 95\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_16\n  rotate: false\n  xy: 199, 160\n  size: 94, 94\n  orig: 94, 94\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_17\n  rotate: true\n  xy: 200, 257\n  size: 91, 94\n  orig: 91, 94\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_18\n  rotate: true\n  xy: 296, 178\n  size: 86, 90\n  orig: 86, 90\n  offset: 0, 0\n  index: -1\nbaoshilizi/baoshilizi_19\n  rotate: true\n  xy: 295, 96\n  size: 80, 90\n  orig: 80, 90\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "cbg1ia+mtG5rHy4BkOseGV"
+    }
+  ],
+  "textureNames": [
+    "baoshichuxian.png"
+  ]
+}

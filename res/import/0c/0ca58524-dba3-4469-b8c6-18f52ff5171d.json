@@ -1,1 +1,195 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"HJa5LjwvirLjN/5DpVGpZROJQoU","spine":"3.6.53","width":605,"height":605},"bones":[{"name":"root"},{"name":"yepian","parent":"root"},{"name":"骨骼","parent":"root"}],"slots":[{"name":"theme194_wheel_02","bone":"骨骼"},{"name":"yepian","bone":"yepian"}],"skins":{"default":{"yepian":{"yepian/yepian_00":{"width":482,"height":459},"yepian/yepian_01":{"width":482,"height":459},"yepian/yepian_02":{"width":482,"height":459},"yepian/yepian_03":{"width":482,"height":459},"yepian/yepian_04":{"width":482,"height":459},"yepian/yepian_05":{"width":482,"height":459},"yepian/yepian_06":{"width":482,"height":459},"yepian/yepian_07":{"width":482,"height":459},"yepian/yepian_08":{"width":482,"height":459},"yepian/yepian_09":{"width":482,"height":459},"yepian/yepian_10":{"width":482,"height":459},"yepian/yepian_11":{"width":482,"height":459},"yepian/yepian_12":{"width":482,"height":459},"yepian/yepian_13":{"width":482,"height":459},"yepian/yepian_14":{"width":482,"height":459}}}},"animations":{"animation":{"slots":{"yepian":{"attachment":[{"time":0,"name":"yepian/yepian_00"},{"time":0.0333,"name":"yepian/yepian_01"},{"time":0.0667,"name":"yepian/yepian_02"},{"time":0.1,"name":"yepian/yepian_03"},{"time":0.1333,"name":"yepian/yepian_04"},{"time":0.1667,"name":"yepian/yepian_05"},{"time":0.2,"name":"yepian/yepian_06"},{"time":0.2333,"name":"yepian/yepian_07"},{"time":0.2667,"name":"yepian/yepian_08"},{"time":0.3,"name":"yepian/yepian_09"},{"time":0.3333,"name":"yepian/yepian_10"},{"time":0.3667,"name":"yepian/yepian_11"},{"time":0.4,"name":"yepian/yepian_12"},{"time":0.4333,"name":"yepian/yepian_13"},{"time":0.4667,"name":"yepian/yepian_14"},{"time":0.5,"name":"yepian/yepian_00"}]}},"bones":{"yepian":{"translate":[{"time":0,"x":5.51,"y":171.12}]}}}}},"_atlasText":"\nlunpanxuanzhong.png\nsize: 1253,386\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nyepian/yepian_00\n  rotate: true\n  xy: 741, 2\n  size: 188, 153\n  orig: 241, 230\n  offset: 27, 42\n  index: -1\nyepian/yepian_01\n  rotate: true\n  xy: 585, 2\n  size: 188, 154\n  orig: 241, 230\n  offset: 27, 41\n  index: -1\nyepian/yepian_02\n  rotate: true\n  xy: 940, 195\n  size: 189, 156\n  orig: 241, 230\n  offset: 27, 40\n  index: -1\nyepian/yepian_03\n  rotate: true\n  xy: 896, 3\n  size: 187, 153\n  orig: 241, 230\n  offset: 28, 43\n  index: -1\nyepian/yepian_04\n  rotate: true\n  xy: 788, 192\n  size: 192, 150\n  orig: 241, 230\n  offset: 27, 46\n  index: -1\nyepian/yepian_05\n  rotate: true\n  xy: 160, 187\n  size: 197, 151\n  orig: 241, 230\n  offset: 25, 46\n  index: -1\nyepian/yepian_06\n  rotate: true\n  xy: 313, 188\n  size: 196, 155\n  orig: 241, 230\n  offset: 25, 46\n  index: -1\nyepian/yepian_07\n  rotate: true\n  xy: 470, 192\n  size: 192, 158\n  orig: 241, 230\n  offset: 25, 47\n  index: -1\nyepian/yepian_08\n  rotate: false\n  xy: 2, 24\n  size: 191, 161\n  orig: 241, 230\n  offset: 25, 46\n  index: -1\nyepian/yepian_09\n  rotate: false\n  xy: 195, 25\n  size: 191, 160\n  orig: 241, 230\n  offset: 24, 46\n  index: -1\nyepian/yepian_10\n  rotate: false\n  xy: 388, 28\n  size: 195, 158\n  orig: 241, 230\n  offset: 20, 45\n  index: -1\nyepian/yepian_11\n  rotate: true\n  xy: 2, 187\n  size: 197, 156\n  orig: 241, 230\n  offset: 18, 45\n  index: -1\nyepian/yepian_12\n  rotate: true\n  xy: 630, 192\n  size: 192, 156\n  orig: 241, 230\n  offset: 21, 45\n  index: -1\nyepian/yepian_13\n  rotate: true\n  xy: 1051, 4\n  size: 189, 155\n  orig: 241, 230\n  offset: 25, 45\n  index: -1\nyepian/yepian_14\n  rotate: true\n  xy: 1098, 198\n  size: 186, 153\n  orig: 241, 230\n  offset: 28, 42\n  index: -1\n","textures":[{"__uuid__":"cdeNM2UK9GP6V8AsrSCJut"}],"textureNames":["lunpanxuanzhong.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "HJa5LjwvirLjN/5DpVGpZROJQoU",
+      "spine": "3.6.53",
+      "width": 605,
+      "height": 605
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "yepian",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme194_wheel_02",
+        "bone": "骨骼"
+      },
+      {
+        "name": "yepian",
+        "bone": "yepian"
+      }
+    ],
+    "skins": {
+      "default": {
+        "yepian": {
+          "yepian/yepian_00": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_01": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_02": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_03": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_04": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_05": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_06": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_07": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_08": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_09": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_10": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_11": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_12": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_13": {
+            "width": 482,
+            "height": 459
+          },
+          "yepian/yepian_14": {
+            "width": 482,
+            "height": 459
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "yepian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "yepian/yepian_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "yepian/yepian_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "yepian/yepian_02"
+              },
+              {
+                "time": 0.1,
+                "name": "yepian/yepian_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "yepian/yepian_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "yepian/yepian_05"
+              },
+              {
+                "time": 0.2,
+                "name": "yepian/yepian_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "yepian/yepian_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "yepian/yepian_08"
+              },
+              {
+                "time": 0.3,
+                "name": "yepian/yepian_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "yepian/yepian_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "yepian/yepian_11"
+              },
+              {
+                "time": 0.4,
+                "name": "yepian/yepian_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "yepian/yepian_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "yepian/yepian_14"
+              },
+              {
+                "time": 0.5,
+                "name": "yepian/yepian_00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "yepian": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 5.51,
+                "y": 171.12
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nlunpanxuanzhong.png\nsize: 1253,386\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nyepian/yepian_00\n  rotate: true\n  xy: 741, 2\n  size: 188, 153\n  orig: 241, 230\n  offset: 27, 42\n  index: -1\nyepian/yepian_01\n  rotate: true\n  xy: 585, 2\n  size: 188, 154\n  orig: 241, 230\n  offset: 27, 41\n  index: -1\nyepian/yepian_02\n  rotate: true\n  xy: 940, 195\n  size: 189, 156\n  orig: 241, 230\n  offset: 27, 40\n  index: -1\nyepian/yepian_03\n  rotate: true\n  xy: 896, 3\n  size: 187, 153\n  orig: 241, 230\n  offset: 28, 43\n  index: -1\nyepian/yepian_04\n  rotate: true\n  xy: 788, 192\n  size: 192, 150\n  orig: 241, 230\n  offset: 27, 46\n  index: -1\nyepian/yepian_05\n  rotate: true\n  xy: 160, 187\n  size: 197, 151\n  orig: 241, 230\n  offset: 25, 46\n  index: -1\nyepian/yepian_06\n  rotate: true\n  xy: 313, 188\n  size: 196, 155\n  orig: 241, 230\n  offset: 25, 46\n  index: -1\nyepian/yepian_07\n  rotate: true\n  xy: 470, 192\n  size: 192, 158\n  orig: 241, 230\n  offset: 25, 47\n  index: -1\nyepian/yepian_08\n  rotate: false\n  xy: 2, 24\n  size: 191, 161\n  orig: 241, 230\n  offset: 25, 46\n  index: -1\nyepian/yepian_09\n  rotate: false\n  xy: 195, 25\n  size: 191, 160\n  orig: 241, 230\n  offset: 24, 46\n  index: -1\nyepian/yepian_10\n  rotate: false\n  xy: 388, 28\n  size: 195, 158\n  orig: 241, 230\n  offset: 20, 45\n  index: -1\nyepian/yepian_11\n  rotate: true\n  xy: 2, 187\n  size: 197, 156\n  orig: 241, 230\n  offset: 18, 45\n  index: -1\nyepian/yepian_12\n  rotate: true\n  xy: 630, 192\n  size: 192, 156\n  orig: 241, 230\n  offset: 21, 45\n  index: -1\nyepian/yepian_13\n  rotate: true\n  xy: 1051, 4\n  size: 189, 155\n  orig: 241, 230\n  offset: 25, 45\n  index: -1\nyepian/yepian_14\n  rotate: true\n  xy: 1098, 198\n  size: 186, 153\n  orig: 241, 230\n  offset: 28, 42\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "cdeNM2UK9GP6V8AsrSCJut"
+    }
+  ],
+  "textureNames": [
+    "lunpanxuanzhong.png"
+  ]
+}

@@ -1,1 +1,588 @@
-{"__type__":"sp.SkeletonData","_name":"press","_skeletonJson":{"skeleton":{"hash":"954rEZz8+aRsd1QcWtdQUjrC1dU","spine":"3.6.53","width":0,"height":0,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"texiao","parent":"root"},{"name":"glow","parent":"texiao","x":-17.9,"y":-269.4,"scaleX":3.1,"scaleY":3.1},{"name":"tanchuang","parent":"root"},{"name":"kuang","parent":"tanchuang","x":-17.9,"y":-269.45,"scaleX":1.25,"scaleY":1.25},{"name":"lg","parent":"texiao","x":-17.9,"y":-269.4,"scaleX":2.5,"scaleY":2.5},{"name":"xiaosan","parent":"texiao","x":-17.9,"y":-269.4,"scaleX":3,"scaleY":3},{"name":"骨骼","parent":"root"}],"slots":[{"name":"bj","bone":"骨骼","color":"8f8f8fff"},{"name":"kuang","bone":"kuang"},{"name":"lg","bone":"lg","blend":"additive"},{"name":"glow","bone":"glow","blend":"additive"},{"name":"xiaosan","bone":"xiaosan","blend":"additive"}],"skins":{"default":{"glow":{"glow_00":{"width":256,"height":256}},"kuang":{"theme185_respin_press":{"width":464,"height":280}},"lg":{"lg_00":{"width":232,"height":140},"lg_01":{"width":232,"height":140},"lg_02":{"width":232,"height":140},"lg_03":{"width":232,"height":140},"lg_04":{"width":232,"height":140},"lg_05":{"width":232,"height":140},"lg_06":{"width":232,"height":140},"lg_07":{"width":232,"height":140},"lg_08":{"width":232,"height":140},"lg_09":{"width":232,"height":140},"lg_10":{"width":232,"height":140},"lg_11":{"width":232,"height":140},"lg_12":{"width":232,"height":140},"lg_13":{"width":232,"height":140},"lg_14":{"width":232,"height":140}},"xiaosan":{"xs_00":{"width":512,"height":512},"xs_01":{"width":512,"height":512},"xs_02":{"width":512,"height":512},"xs_03":{"width":512,"height":512},"xs_04":{"width":512,"height":512},"xs_05":{"width":512,"height":512},"xs_06":{"width":512,"height":512},"xs_07":{"width":512,"height":512},"xs_08":{"width":512,"height":512},"xs_09":{"width":512,"height":512},"xs_10":{"width":512,"height":512},"xs_11":{"width":512,"height":512},"xs_12":{"width":512,"height":512},"xs_13":{"width":512,"height":512},"xs_14":{"width":512,"height":512},"xs_15":{"width":512,"height":512}}}},"animations":{"animation1":{"slots":{"kuang":{"attachment":[{"time":0,"name":"theme185_respin_press"}]},"lg":{"color":[{"time":0,"color":"ffebdbff"}],"attachment":[{"time":0,"name":null},{"time":0.0667,"name":"lg_00"},{"time":0.1333,"name":"lg_01"},{"time":0.2,"name":"lg_02"},{"time":0.2667,"name":"lg_03"},{"time":0.3333,"name":"lg_04"},{"time":0.4,"name":"lg_05"},{"time":0.4667,"name":"lg_06"},{"time":0.5333,"name":"lg_07"},{"time":0.6,"name":"lg_08"},{"time":0.6667,"name":"lg_09"},{"time":0.7333,"name":"lg_10"},{"time":0.8,"name":"lg_11"},{"time":0.8667,"name":"lg_12"},{"time":0.9333,"name":"lg_13"},{"time":1,"name":"lg_14"},{"time":1.0667,"name":null}]}},"bones":{"kuang":{"scale":[{"time":0,"x":1,"y":1},{"time":0.6333,"x":1.08,"y":1.08,"curve":[0.25,0,0.75,1]},{"time":1.6667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":2.3333,"x":1.08,"y":1.08,"curve":[0.25,0,0.75,1]},{"time":3.3333,"x":1,"y":1}]},"lg":{"scale":[{"time":0,"x":1,"y":1},{"time":0.6333,"x":1.08,"y":1.08,"curve":[0.25,0,0.75,1]},{"time":1.6667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":2.3333,"x":1.08,"y":1.08,"curve":[0.25,0,0.75,1]},{"time":3.3333,"x":1,"y":1}]}}},"animation2":{"slots":{"kuang":{"attachment":[{"time":0,"name":"theme185_respin_press"}]}},"bones":{"kuang":{"scale":[{"time":0,"x":0,"y":0},{"time":0.1667,"x":1.12,"y":1.12,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":1,"y":1}]}}},"animation3":{"slots":{"glow":{"color":[{"time":0,"color":"ffffff00"},{"time":0.0333,"color":"ffffffff"},{"time":0.1667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow_00"}]},"kuang":{"color":[{"time":0,"color":"ffffffff"},{"time":0.4,"color":"ffffff00"}],"attachment":[{"time":0,"name":"theme185_respin_press"}]},"xiaosan":{"attachment":[{"time":0,"name":null},{"time":0.0667,"name":"xs_00"},{"time":0.1,"name":"xs_01"},{"time":0.1333,"name":"xs_02"},{"time":0.2,"name":"xs_03"},{"time":0.2333,"name":"xs_04"},{"time":0.2667,"name":"xs_05"},{"time":0.3,"name":"xs_06"},{"time":0.3333,"name":"xs_07"},{"time":0.4,"name":"xs_08"},{"time":0.4333,"name":"xs_09"},{"time":0.4667,"name":"xs_10"},{"time":0.5,"name":"xs_11"},{"time":0.5333,"name":"xs_12"},{"time":0.5667,"name":"xs_13"},{"time":0.6333,"name":"xs_14"},{"time":0.6667,"name":"xs_15"},{"time":0.7,"name":null}]}}}}},"_atlasText":"\npress.png\nsize: 963,820\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nglow_00\n  rotate: true\n  xy: 836, 404\n  size: 198, 125\n  orig: 256, 256\n  offset: 29, 67\n  index: -1\nlg_00\n  rotate: false\n  xy: 525, 318\n  size: 42, 61\n  orig: 232, 140\n  offset: 2, 33\n  index: -1\nlg_01\n  rotate: true\n  xy: 419, 195\n  size: 58, 69\n  orig: 232, 140\n  offset: 2, 26\n  index: -1\nlg_02\n  rotate: true\n  xy: 419, 119\n  size: 71, 104\n  orig: 232, 140\n  offset: 4, 17\n  index: -1\nlg_03\n  rotate: true\n  xy: 784, 12\n  size: 82, 109\n  orig: 232, 140\n  offset: 8, 14\n  index: -1\nlg_04\n  rotate: false\n  xy: 610, 125\n  size: 93, 112\n  orig: 232, 140\n  offset: 13, 11\n  index: -1\nlg_05\n  rotate: false\n  xy: 610, 239\n  size: 93, 113\n  orig: 232, 140\n  offset: 28, 10\n  index: -1\nlg_06\n  rotate: true\n  xy: 811, 96\n  size: 94, 117\n  orig: 232, 140\n  offset: 43, 10\n  index: -1\nlg_07\n  rotate: false\n  xy: 515, 197\n  size: 93, 119\n  orig: 232, 140\n  offset: 59, 11\n  index: -1\nlg_08\n  rotate: false\n  xy: 419, 255\n  size: 94, 124\n  orig: 232, 140\n  offset: 73, 8\n  index: -1\nlg_09\n  rotate: false\n  xy: 739, 465\n  size: 93, 129\n  orig: 232, 140\n  offset: 89, 3\n  index: -1\nlg_10\n  rotate: false\n  xy: 739, 334\n  size: 93, 129\n  orig: 232, 140\n  offset: 104, 2\n  index: -1\nlg_11\n  rotate: true\n  xy: 168, 8\n  size: 93, 133\n  orig: 232, 140\n  offset: 119, 2\n  index: -1\nlg_12\n  rotate: true\n  xy: 578, 354\n  size: 86, 136\n  orig: 232, 140\n  offset: 135, 2\n  index: -1\nlg_13\n  rotate: false\n  xy: 705, 25\n  size: 77, 134\n  orig: 232, 140\n  offset: 150, 4\n  index: -1\nlg_14\n  rotate: true\n  xy: 284, 364\n  size: 65, 126\n  orig: 232, 140\n  offset: 165, 12\n  index: -1\ntheme185_respin_press\n  rotate: true\n  xy: 2, 354\n  size: 464, 280\n  orig: 464, 280\n  offset: 0, 0\n  index: -1\nxs_00\n  rotate: false\n  xy: 2, 12\n  size: 164, 89\n  orig: 512, 512\n  offset: 172, 212\n  index: -1\nxs_01\n  rotate: true\n  xy: 705, 161\n  size: 171, 104\n  orig: 512, 512\n  offset: 167, 207\n  index: -1\nxs_02\n  rotate: false\n  xy: 511, 6\n  size: 192, 111\n  orig: 512, 512\n  offset: 158, 204\n  index: -1\nxs_03\n  rotate: false\n  xy: 303, 2\n  size: 206, 115\n  orig: 512, 512\n  offset: 152, 200\n  index: -1\nxs_04\n  rotate: true\n  xy: 836, 604\n  size: 214, 123\n  orig: 512, 512\n  offset: 148, 197\n  index: -1\nxs_05\n  rotate: true\n  xy: 709, 596\n  size: 222, 125\n  orig: 512, 512\n  offset: 144, 197\n  index: -1\nxs_06\n  rotate: true\n  xy: 570, 592\n  size: 226, 137\n  orig: 512, 512\n  offset: 142, 187\n  index: -1\nxs_07\n  rotate: true\n  xy: 428, 586\n  size: 232, 140\n  orig: 512, 512\n  offset: 139, 185\n  index: -1\nxs_08\n  rotate: true\n  xy: 284, 580\n  size: 238, 142\n  orig: 512, 512\n  offset: 136, 184\n  index: -1\nxs_09\n  rotate: true\n  xy: 285, 119\n  size: 243, 132\n  orig: 512, 512\n  offset: 134, 195\n  index: -1\nxs_10\n  rotate: true\n  xy: 146, 103\n  size: 249, 137\n  orig: 512, 512\n  offset: 131, 192\n  index: -1\nxs_11\n  rotate: true\n  xy: 2, 103\n  size: 249, 142\n  orig: 512, 512\n  offset: 128, 190\n  index: -1\nxs_12\n  rotate: false\n  xy: 513, 442\n  size: 224, 142\n  orig: 512, 512\n  offset: 157, 192\n  index: -1\nxs_13\n  rotate: false\n  xy: 284, 431\n  size: 227, 147\n  orig: 512, 512\n  offset: 157, 191\n  index: -1\nxs_14\n  rotate: true\n  xy: 834, 192\n  size: 210, 107\n  orig: 512, 512\n  offset: 156, 200\n  index: -1\nxs_15\n  rotate: false\n  xy: 412, 381\n  size: 164, 48\n  orig: 512, 512\n  offset: 160, 229\n  index: -1\n","textures":[{"__uuid__":"44m7nrzMlAyYC4S0LRrLlD"}],"textureNames":["press.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "press",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "954rEZz8+aRsd1QcWtdQUjrC1dU",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "texiao",
+        "parent": "root"
+      },
+      {
+        "name": "glow",
+        "parent": "texiao",
+        "x": -17.9,
+        "y": -269.4,
+        "scaleX": 3.1,
+        "scaleY": 3.1
+      },
+      {
+        "name": "tanchuang",
+        "parent": "root"
+      },
+      {
+        "name": "kuang",
+        "parent": "tanchuang",
+        "x": -17.9,
+        "y": -269.45,
+        "scaleX": 1.25,
+        "scaleY": 1.25
+      },
+      {
+        "name": "lg",
+        "parent": "texiao",
+        "x": -17.9,
+        "y": -269.4,
+        "scaleX": 2.5,
+        "scaleY": 2.5
+      },
+      {
+        "name": "xiaosan",
+        "parent": "texiao",
+        "x": -17.9,
+        "y": -269.4,
+        "scaleX": 3,
+        "scaleY": 3
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "bj",
+        "bone": "骨骼",
+        "color": "8f8f8fff"
+      },
+      {
+        "name": "kuang",
+        "bone": "kuang"
+      },
+      {
+        "name": "lg",
+        "bone": "lg",
+        "blend": "additive"
+      },
+      {
+        "name": "glow",
+        "bone": "glow",
+        "blend": "additive"
+      },
+      {
+        "name": "xiaosan",
+        "bone": "xiaosan",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "glow": {
+          "glow_00": {
+            "width": 256,
+            "height": 256
+          }
+        },
+        "kuang": {
+          "theme185_respin_press": {
+            "width": 464,
+            "height": 280
+          }
+        },
+        "lg": {
+          "lg_00": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_01": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_02": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_03": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_04": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_05": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_06": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_07": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_08": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_09": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_10": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_11": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_12": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_13": {
+            "width": 232,
+            "height": 140
+          },
+          "lg_14": {
+            "width": 232,
+            "height": 140
+          }
+        },
+        "xiaosan": {
+          "xs_00": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_01": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_02": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_03": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_04": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_05": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_06": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_07": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_08": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_09": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_10": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_11": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_12": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_13": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_14": {
+            "width": 512,
+            "height": 512
+          },
+          "xs_15": {
+            "width": 512,
+            "height": 512
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "kuang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme185_respin_press"
+              }
+            ]
+          },
+          "lg": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffebdbff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "lg_00"
+              },
+              {
+                "time": 0.1333,
+                "name": "lg_01"
+              },
+              {
+                "time": 0.2,
+                "name": "lg_02"
+              },
+              {
+                "time": 0.2667,
+                "name": "lg_03"
+              },
+              {
+                "time": 0.3333,
+                "name": "lg_04"
+              },
+              {
+                "time": 0.4,
+                "name": "lg_05"
+              },
+              {
+                "time": 0.4667,
+                "name": "lg_06"
+              },
+              {
+                "time": 0.5333,
+                "name": "lg_07"
+              },
+              {
+                "time": 0.6,
+                "name": "lg_08"
+              },
+              {
+                "time": 0.6667,
+                "name": "lg_09"
+              },
+              {
+                "time": 0.7333,
+                "name": "lg_10"
+              },
+              {
+                "time": 0.8,
+                "name": "lg_11"
+              },
+              {
+                "time": 0.8667,
+                "name": "lg_12"
+              },
+              {
+                "time": 0.9333,
+                "name": "lg_13"
+              },
+              {
+                "time": 1,
+                "name": "lg_14"
+              },
+              {
+                "time": 1.0667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "kuang": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.6333,
+                "x": 1.08,
+                "y": 1.08,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.3333,
+                "x": 1.08,
+                "y": 1.08,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3.3333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "lg": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.6333,
+                "x": 1.08,
+                "y": 1.08,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.3333,
+                "x": 1.08,
+                "y": 1.08,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3.3333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "kuang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme185_respin_press"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "kuang": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 1.12,
+                "y": 1.12,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation3": {
+        "slots": {
+          "glow": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.0333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow_00"
+              }
+            ]
+          },
+          "kuang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme185_respin_press"
+              }
+            ]
+          },
+          "xiaosan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "xs_00"
+              },
+              {
+                "time": 0.1,
+                "name": "xs_01"
+              },
+              {
+                "time": 0.1333,
+                "name": "xs_02"
+              },
+              {
+                "time": 0.2,
+                "name": "xs_03"
+              },
+              {
+                "time": 0.2333,
+                "name": "xs_04"
+              },
+              {
+                "time": 0.2667,
+                "name": "xs_05"
+              },
+              {
+                "time": 0.3,
+                "name": "xs_06"
+              },
+              {
+                "time": 0.3333,
+                "name": "xs_07"
+              },
+              {
+                "time": 0.4,
+                "name": "xs_08"
+              },
+              {
+                "time": 0.4333,
+                "name": "xs_09"
+              },
+              {
+                "time": 0.4667,
+                "name": "xs_10"
+              },
+              {
+                "time": 0.5,
+                "name": "xs_11"
+              },
+              {
+                "time": 0.5333,
+                "name": "xs_12"
+              },
+              {
+                "time": 0.5667,
+                "name": "xs_13"
+              },
+              {
+                "time": 0.6333,
+                "name": "xs_14"
+              },
+              {
+                "time": 0.6667,
+                "name": "xs_15"
+              },
+              {
+                "time": 0.7,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\npress.png\nsize: 963,820\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nglow_00\n  rotate: true\n  xy: 836, 404\n  size: 198, 125\n  orig: 256, 256\n  offset: 29, 67\n  index: -1\nlg_00\n  rotate: false\n  xy: 525, 318\n  size: 42, 61\n  orig: 232, 140\n  offset: 2, 33\n  index: -1\nlg_01\n  rotate: true\n  xy: 419, 195\n  size: 58, 69\n  orig: 232, 140\n  offset: 2, 26\n  index: -1\nlg_02\n  rotate: true\n  xy: 419, 119\n  size: 71, 104\n  orig: 232, 140\n  offset: 4, 17\n  index: -1\nlg_03\n  rotate: true\n  xy: 784, 12\n  size: 82, 109\n  orig: 232, 140\n  offset: 8, 14\n  index: -1\nlg_04\n  rotate: false\n  xy: 610, 125\n  size: 93, 112\n  orig: 232, 140\n  offset: 13, 11\n  index: -1\nlg_05\n  rotate: false\n  xy: 610, 239\n  size: 93, 113\n  orig: 232, 140\n  offset: 28, 10\n  index: -1\nlg_06\n  rotate: true\n  xy: 811, 96\n  size: 94, 117\n  orig: 232, 140\n  offset: 43, 10\n  index: -1\nlg_07\n  rotate: false\n  xy: 515, 197\n  size: 93, 119\n  orig: 232, 140\n  offset: 59, 11\n  index: -1\nlg_08\n  rotate: false\n  xy: 419, 255\n  size: 94, 124\n  orig: 232, 140\n  offset: 73, 8\n  index: -1\nlg_09\n  rotate: false\n  xy: 739, 465\n  size: 93, 129\n  orig: 232, 140\n  offset: 89, 3\n  index: -1\nlg_10\n  rotate: false\n  xy: 739, 334\n  size: 93, 129\n  orig: 232, 140\n  offset: 104, 2\n  index: -1\nlg_11\n  rotate: true\n  xy: 168, 8\n  size: 93, 133\n  orig: 232, 140\n  offset: 119, 2\n  index: -1\nlg_12\n  rotate: true\n  xy: 578, 354\n  size: 86, 136\n  orig: 232, 140\n  offset: 135, 2\n  index: -1\nlg_13\n  rotate: false\n  xy: 705, 25\n  size: 77, 134\n  orig: 232, 140\n  offset: 150, 4\n  index: -1\nlg_14\n  rotate: true\n  xy: 284, 364\n  size: 65, 126\n  orig: 232, 140\n  offset: 165, 12\n  index: -1\ntheme185_respin_press\n  rotate: true\n  xy: 2, 354\n  size: 464, 280\n  orig: 464, 280\n  offset: 0, 0\n  index: -1\nxs_00\n  rotate: false\n  xy: 2, 12\n  size: 164, 89\n  orig: 512, 512\n  offset: 172, 212\n  index: -1\nxs_01\n  rotate: true\n  xy: 705, 161\n  size: 171, 104\n  orig: 512, 512\n  offset: 167, 207\n  index: -1\nxs_02\n  rotate: false\n  xy: 511, 6\n  size: 192, 111\n  orig: 512, 512\n  offset: 158, 204\n  index: -1\nxs_03\n  rotate: false\n  xy: 303, 2\n  size: 206, 115\n  orig: 512, 512\n  offset: 152, 200\n  index: -1\nxs_04\n  rotate: true\n  xy: 836, 604\n  size: 214, 123\n  orig: 512, 512\n  offset: 148, 197\n  index: -1\nxs_05\n  rotate: true\n  xy: 709, 596\n  size: 222, 125\n  orig: 512, 512\n  offset: 144, 197\n  index: -1\nxs_06\n  rotate: true\n  xy: 570, 592\n  size: 226, 137\n  orig: 512, 512\n  offset: 142, 187\n  index: -1\nxs_07\n  rotate: true\n  xy: 428, 586\n  size: 232, 140\n  orig: 512, 512\n  offset: 139, 185\n  index: -1\nxs_08\n  rotate: true\n  xy: 284, 580\n  size: 238, 142\n  orig: 512, 512\n  offset: 136, 184\n  index: -1\nxs_09\n  rotate: true\n  xy: 285, 119\n  size: 243, 132\n  orig: 512, 512\n  offset: 134, 195\n  index: -1\nxs_10\n  rotate: true\n  xy: 146, 103\n  size: 249, 137\n  orig: 512, 512\n  offset: 131, 192\n  index: -1\nxs_11\n  rotate: true\n  xy: 2, 103\n  size: 249, 142\n  orig: 512, 512\n  offset: 128, 190\n  index: -1\nxs_12\n  rotate: false\n  xy: 513, 442\n  size: 224, 142\n  orig: 512, 512\n  offset: 157, 192\n  index: -1\nxs_13\n  rotate: false\n  xy: 284, 431\n  size: 227, 147\n  orig: 512, 512\n  offset: 157, 191\n  index: -1\nxs_14\n  rotate: true\n  xy: 834, 192\n  size: 210, 107\n  orig: 512, 512\n  offset: 156, 200\n  index: -1\nxs_15\n  rotate: false\n  xy: 412, 381\n  size: 164, 48\n  orig: 512, 512\n  offset: 160, 229\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "44m7nrzMlAyYC4S0LRrLlD"
+    }
+  ],
+  "textureNames": [
+    "press.png"
+  ]
+}

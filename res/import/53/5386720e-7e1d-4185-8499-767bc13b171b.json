@@ -1,1 +1,67 @@
-{"__type__":"sp.SkeletonData","_name":"tc_jiubei","_skeletonJson":{"skeleton":{"hash":"UFDFOXOuYmGT/edegCIjy4Iuw/k","spine":"3.6.53","width":186,"height":137.5,"images":"./img22/"},"bones":[{"name":"root"},{"name":"z","parent":"root"},{"name":"jiubei","parent":"z","x":0.41,"y":-56.98,"scaleX":0.5,"scaleY":0.5},{"name":"骨骼","parent":"root"}],"slots":[{"name":"tc1","bone":"骨骼"},{"name":"jiubei","bone":"jiubei","attachment":"图层-11655105"}],"skins":{"default":{"jiubei":{"图层-11655105":{"width":347,"height":369}}}},"animations":{"animation":{}}},"_atlasText":"\ntc_jiubei.png\nsize: 512,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n图层-11655105\n  rotate: false\n  xy: 2, 2\n  size: 347, 369\n  orig: 347, 369\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"d9Bb0W/4JIK67txmtmm68a"}],"textureNames":["tc_jiubei.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "tc_jiubei",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "UFDFOXOuYmGT/edegCIjy4Iuw/k",
+      "spine": "3.6.53",
+      "width": 186,
+      "height": 137.5,
+      "images": "./img22/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "z",
+        "parent": "root"
+      },
+      {
+        "name": "jiubei",
+        "parent": "z",
+        "x": 0.41,
+        "y": -56.98,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "tc1",
+        "bone": "骨骼"
+      },
+      {
+        "name": "jiubei",
+        "bone": "jiubei",
+        "attachment": "图层-11655105"
+      }
+    ],
+    "skins": {
+      "default": {
+        "jiubei": {
+          "图层-11655105": {
+            "width": 347,
+            "height": 369
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {}
+    }
+  },
+  "_atlasText": "\ntc_jiubei.png\nsize: 512,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n图层-11655105\n  rotate: false\n  xy: 2, 2\n  size: 347, 369\n  orig: 347, 369\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "d9Bb0W/4JIK67txmtmm68a"
+    }
+  ],
+  "textureNames": [
+    "tc_jiubei.png"
+  ]
+}

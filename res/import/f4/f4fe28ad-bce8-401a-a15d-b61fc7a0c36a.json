@@ -1,1 +1,200 @@
-{"__type__":"sp.SkeletonData","_name":"zhuanguang_01","_skeletonJson":{"skeleton":{"hash":"hBaKfQCztWleJGAeF7vAkC0C0sk","spine":"3.6.53","width":1060,"height":1560,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"gaoliang01","parent":"root","scaleX":2.234,"scaleY":2.234},{"name":"gaoliang1","parent":"root","scaleX":2.234,"scaleY":2.234},{"name":"gaoliang02","parent":"root","scaleX":7.513,"scaleY":7.513},{"name":"骨骼","parent":"root"},{"name":"骨骼2","parent":"root"},{"name":"骨骼3","parent":"root","x":300.11,"y":139.29}],"slots":[{"name":"ppp","bone":"骨骼3"},{"name":"maisui","bone":"骨骼"},{"name":"gaoliang02","bone":"gaoliang02","attachment":"gaoliang02","blend":"additive"},{"name":"gaoliang01","bone":"gaoliang01","attachment":"gaoliang01","blend":"additive"},{"name":"gaoliang1","bone":"gaoliang1","attachment":"gaoliang01","blend":"additive"},{"name":"110X","bone":"骨骼2"}],"skins":{"default":{"gaoliang01":{"gaoliang01":{"width":115,"height":107}},"gaoliang02":{"gaoliang02":{"width":26,"height":27}},"gaoliang1":{"gaoliang01":{"width":115,"height":107}}}},"animations":{"animation":{"slots":{"gaoliang01":{"color":[{"time":0,"color":"ffffffff"},{"time":1,"color":"ffffff00"}]},"gaoliang1":{"color":[{"time":0,"color":"ffffff00"},{"time":1,"color":"ffffffff"}]},"gaoliang02":{"color":[{"time":0,"color":"f6ff00ff"}]}},"bones":{"gaoliang01":{"rotate":[{"time":0,"angle":35},{"time":1,"angle":70}],"scale":[{"time":0,"x":1.227,"y":1.227}]},"gaoliang1":{"rotate":[{"time":0,"angle":0},{"time":1,"angle":35}],"scale":[{"time":0,"x":1.227,"y":1.227}]},"gaoliang02":{"scale":[{"time":0,"x":1,"y":1}]}}}}},"_atlasText":"\nzhuanguang_01.png\nsize: 135,115\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngaoliang01\n  rotate: true\n  xy: 0, 0\n  size: 115, 107\n  orig: 115, 107\n  offset: 0, 0\n  index: -1\ngaoliang02\n  rotate: false\n  xy: 109, 88\n  size: 26, 27\n  orig: 26, 27\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"8cDq9IvgdNRZkSoCUrnjcA"}],"textureNames":["zhuanguang_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "zhuanguang_01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "hBaKfQCztWleJGAeF7vAkC0C0sk",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "gaoliang01",
+        "parent": "root",
+        "scaleX": 2.234,
+        "scaleY": 2.234
+      },
+      {
+        "name": "gaoliang1",
+        "parent": "root",
+        "scaleX": 2.234,
+        "scaleY": 2.234
+      },
+      {
+        "name": "gaoliang02",
+        "parent": "root",
+        "scaleX": 7.513,
+        "scaleY": 7.513
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼2",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼3",
+        "parent": "root",
+        "x": 300.11,
+        "y": 139.29
+      }
+    ],
+    "slots": [
+      {
+        "name": "ppp",
+        "bone": "骨骼3"
+      },
+      {
+        "name": "maisui",
+        "bone": "骨骼"
+      },
+      {
+        "name": "gaoliang02",
+        "bone": "gaoliang02",
+        "attachment": "gaoliang02",
+        "blend": "additive"
+      },
+      {
+        "name": "gaoliang01",
+        "bone": "gaoliang01",
+        "attachment": "gaoliang01",
+        "blend": "additive"
+      },
+      {
+        "name": "gaoliang1",
+        "bone": "gaoliang1",
+        "attachment": "gaoliang01",
+        "blend": "additive"
+      },
+      {
+        "name": "110X",
+        "bone": "骨骼2"
+      }
+    ],
+    "skins": {
+      "default": {
+        "gaoliang01": {
+          "gaoliang01": {
+            "width": 115,
+            "height": 107
+          }
+        },
+        "gaoliang02": {
+          "gaoliang02": {
+            "width": 26,
+            "height": 27
+          }
+        },
+        "gaoliang1": {
+          "gaoliang01": {
+            "width": 115,
+            "height": 107
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "gaoliang01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "gaoliang1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "gaoliang02": {
+            "color": [
+              {
+                "time": 0,
+                "color": "f6ff00ff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "gaoliang01": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 35
+              },
+              {
+                "time": 1,
+                "angle": 70
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.227,
+                "y": 1.227
+              }
+            ]
+          },
+          "gaoliang1": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 1,
+                "angle": 35
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.227,
+                "y": 1.227
+              }
+            ]
+          },
+          "gaoliang02": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nzhuanguang_01.png\nsize: 135,115\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngaoliang01\n  rotate: true\n  xy: 0, 0\n  size: 115, 107\n  orig: 115, 107\n  offset: 0, 0\n  index: -1\ngaoliang02\n  rotate: false\n  xy: 109, 88\n  size: 26, 27\n  orig: 26, 27\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "8cDq9IvgdNRZkSoCUrnjcA"
+    }
+  ],
+  "textureNames": [
+    "zhuanguang_01.png"
+  ]
+}

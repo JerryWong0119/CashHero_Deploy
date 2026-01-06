@@ -1,1 +1,94 @@
-{"__type__":"sp.SkeletonData","_name":"taishaniconguang","_skeletonJson":{"skeleton":{"hash":"ifM3D3j/n4ocu6TXc7vh/CEi89I","spine":"3.6.53","width":93,"height":97,"images":"./资源/"},"bones":[{"name":"root"},{"name":"z.","parent":"root"},{"name":"guang","parent":"z."},{"name":"骨骼","parent":"z."}],"slots":[{"name":"taishaniconguang_00","bone":"guang","attachment":"taishaniconguang_00_00"},{"name":"theme171_s_14","bone":"骨骼"}],"skins":{"default":{"taishaniconguang_00":{"taishaniconguang_00_00":{"width":93,"height":97}}}},"animations":{"animation":{"slots":{"taishaniconguang_00":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.4,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.8333,"color":"ffffff00"}]}}}}},"_atlasText":"\ntaishaniconguang.png\nsize: 97,97\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntaishaniconguang_00_00\n  rotate: false\n  xy: 0, 0\n  size: 93, 97\n  orig: 93, 97\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"7dnvb4KB9AzK/HE6i6sPbt"}],"textureNames":["taishaniconguang.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "taishaniconguang",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "ifM3D3j/n4ocu6TXc7vh/CEi89I",
+      "spine": "3.6.53",
+      "width": 93,
+      "height": 97,
+      "images": "./资源/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "z.",
+        "parent": "root"
+      },
+      {
+        "name": "guang",
+        "parent": "z."
+      },
+      {
+        "name": "骨骼",
+        "parent": "z."
+      }
+    ],
+    "slots": [
+      {
+        "name": "taishaniconguang_00",
+        "bone": "guang",
+        "attachment": "taishaniconguang_00_00"
+      },
+      {
+        "name": "theme171_s_14",
+        "bone": "骨骼"
+      }
+    ],
+    "skins": {
+      "default": {
+        "taishaniconguang_00": {
+          "taishaniconguang_00_00": {
+            "width": 93,
+            "height": 97
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "taishaniconguang_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ntaishaniconguang.png\nsize: 97,97\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntaishaniconguang_00_00\n  rotate: false\n  xy: 0, 0\n  size: 93, 97\n  orig: 93, 97\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "7dnvb4KB9AzK/HE6i6sPbt"
+    }
+  ],
+  "textureNames": [
+    "taishaniconguang.png"
+  ]
+}

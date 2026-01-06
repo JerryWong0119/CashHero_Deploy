@@ -1,1 +1,213 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"KrshPcjVLCYvIF1trR9yCqjREFo","spine":"3.6.53","width":115.4,"height":103.5,"images":"../../scatter1/texiao/"},"bones":[{"name":"root"},{"name":"zong","parent":"root","x":-2.12,"scaleX":0.1,"scaleY":0.1},{"name":"yuandi","parent":"zong"},{"name":"boom","parent":"yuandi","x":-3.96,"y":-300.61},{"name":"coin","parent":"yuandi","x":52.98,"y":300.92},{"name":"di","parent":"yuandi","x":24.71}],"slots":[{"name":"di","bone":"di","attachment":"images/di"},{"name":"coin","bone":"coin","attachment":"images/coin2"},{"name":"boom","bone":"boom","attachment":"images/boom2"},{"name":"images/theme160_s_13","bone":"root","color":"ffffff77"}],"skins":{"default":{"boom":{"images/boom2":{"x":-7.02,"y":-5.67,"width":625,"height":228}},"coin":{"images/coin2":{"width":607,"height":243}},"di":{"images/di":{"width":1151,"height":1035}}}},"animations":{"animation1":{"slots":{"boom":{"attachment":[{"time":0.3667,"name":"images/boom2"}]},"coin":{"attachment":[{"time":0.3667,"name":"images/coin2"}]},"di":{"attachment":[{"time":0.3333,"name":"images/di"},{"time":0.3667,"name":"images/di"}]}},"bones":{"coin":{"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,1,0.46]},{"time":0.3333,"x":-15.54,"y":-170.94}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,1,0.46]},{"time":0.3333,"x":1.661,"y":1.661}]},"boom":{"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,1,0.46]},{"time":0.3333,"x":-23.88,"y":174.6}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,1,0.46]},{"time":0.3333,"x":1.592,"y":1.592}]}}}}},"_atlasText":"\nscatterbianxing.png\nsize: 126,130\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/boom2\n  rotate: false\n  xy: 0, 1\n  size: 63, 23\n  orig: 63, 23\n  offset: 0, 0\n  index: -1\nimages/coin2\n  rotate: false\n  xy: 65, 0\n  size: 61, 24\n  orig: 61, 24\n  offset: 0, 0\n  index: -1\nimages/di\n  rotate: false\n  xy: 0, 26\n  size: 115, 104\n  orig: 115, 104\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"e5yFMNTpZOq4hrEj8C+1wP"}],"textureNames":["scatterbianxing.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "KrshPcjVLCYvIF1trR9yCqjREFo",
+      "spine": "3.6.53",
+      "width": 115.4,
+      "height": 103.5,
+      "images": "../../scatter1/texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root",
+        "x": -2.12,
+        "scaleX": 0.1,
+        "scaleY": 0.1
+      },
+      {
+        "name": "yuandi",
+        "parent": "zong"
+      },
+      {
+        "name": "boom",
+        "parent": "yuandi",
+        "x": -3.96,
+        "y": -300.61
+      },
+      {
+        "name": "coin",
+        "parent": "yuandi",
+        "x": 52.98,
+        "y": 300.92
+      },
+      {
+        "name": "di",
+        "parent": "yuandi",
+        "x": 24.71
+      }
+    ],
+    "slots": [
+      {
+        "name": "di",
+        "bone": "di",
+        "attachment": "images/di"
+      },
+      {
+        "name": "coin",
+        "bone": "coin",
+        "attachment": "images/coin2"
+      },
+      {
+        "name": "boom",
+        "bone": "boom",
+        "attachment": "images/boom2"
+      },
+      {
+        "name": "images/theme160_s_13",
+        "bone": "root",
+        "color": "ffffff77"
+      }
+    ],
+    "skins": {
+      "default": {
+        "boom": {
+          "images/boom2": {
+            "x": -7.02,
+            "y": -5.67,
+            "width": 625,
+            "height": 228
+          }
+        },
+        "coin": {
+          "images/coin2": {
+            "width": 607,
+            "height": 243
+          }
+        },
+        "di": {
+          "images/di": {
+            "width": 1151,
+            "height": 1035
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "boom": {
+            "attachment": [
+              {
+                "time": 0.3667,
+                "name": "images/boom2"
+              }
+            ]
+          },
+          "coin": {
+            "attachment": [
+              {
+                "time": 0.3667,
+                "name": "images/coin2"
+              }
+            ]
+          },
+          "di": {
+            "attachment": [
+              {
+                "time": 0.3333,
+                "name": "images/di"
+              },
+              {
+                "time": 0.3667,
+                "name": "images/di"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "coin": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  1,
+                  0.46
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": -15.54,
+                "y": -170.94
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  1,
+                  0.46
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.661,
+                "y": 1.661
+              }
+            ]
+          },
+          "boom": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  1,
+                  0.46
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": -23.88,
+                "y": 174.6
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  1,
+                  0.46
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.592,
+                "y": 1.592
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nscatterbianxing.png\nsize: 126,130\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/boom2\n  rotate: false\n  xy: 0, 1\n  size: 63, 23\n  orig: 63, 23\n  offset: 0, 0\n  index: -1\nimages/coin2\n  rotate: false\n  xy: 65, 0\n  size: 61, 24\n  orig: 61, 24\n  offset: 0, 0\n  index: -1\nimages/di\n  rotate: false\n  xy: 0, 26\n  size: 115, 104\n  orig: 115, 104\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "e5yFMNTpZOq4hrEj8C+1wP"
+    }
+  ],
+  "textureNames": [
+    "scatterbianxing.png"
+  ]
+}

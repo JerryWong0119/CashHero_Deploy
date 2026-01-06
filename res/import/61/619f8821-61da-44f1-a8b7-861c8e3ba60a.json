@@ -1,1 +1,225 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"i47HKOWJnv3Sbn6t0h7S7JSLHvk","spine":"3.6.53","width":140.6,"height":131.32,"images":"./img/"},"bones":[{"name":"root"},{"name":"gaoliang01","parent":"root","scaleX":1.545,"scaleY":1.545},{"name":"gaoliang1","parent":"root","scaleX":1.545,"scaleY":1.545},{"name":"theme185_s_10","parent":"root"},{"name":"骨骼","parent":"root","x":251.55,"y":144.5}],"slots":[{"name":"base","bone":"骨骼"},{"name":"gaoliang01","bone":"gaoliang01","attachment":"gaoliang01","blend":"additive"},{"name":"gaoliang1","bone":"gaoliang1","attachment":"gaoliang01","blend":"additive"},{"name":"theme185_s_10","bone":"theme185_s_10","attachment":"theme185_s_10"}],"skins":{"default":{"gaoliang01":{"gaoliang01":{"width":91,"height":85}},"gaoliang1":{"gaoliang01":{"width":91,"height":85}},"theme185_s_10":{"theme185_s_10":{"width":122,"height":80}}}},"animations":{"animation":{"slots":{"gaoliang01":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}]},"gaoliang1":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}]}},"bones":{"gaoliang01":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.625,0.5]},{"time":1,"angle":40}]},"gaoliang1":{"rotate":[{"time":0,"angle":80,"curve":[0.25,0,0.625,0.5]},{"time":1,"angle":40}]},"theme185_s_10":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":1.165,"y":1.165,"curve":[0.25,0,0.75,1]},{"time":1,"x":1,"y":1}]}}}}},"_atlasText":"\nspine.png\nsize: 256,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngaoliang01\n  rotate: false\n  xy: 2, 2\n  size: 91, 85\n  orig: 91, 85\n  offset: 0, 0\n  index: -1\ntheme185_s_10\n  rotate: false\n  xy: 95, 29\n  size: 64, 58\n  orig: 122, 80\n  offset: 29, 10\n  index: -1\n","textures":[{"__uuid__":"569WuUqyZHpo4J+mvxFYGF"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "i47HKOWJnv3Sbn6t0h7S7JSLHvk",
+      "spine": "3.6.53",
+      "width": 140.6,
+      "height": 131.32,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "gaoliang01",
+        "parent": "root",
+        "scaleX": 1.545,
+        "scaleY": 1.545
+      },
+      {
+        "name": "gaoliang1",
+        "parent": "root",
+        "scaleX": 1.545,
+        "scaleY": 1.545
+      },
+      {
+        "name": "theme185_s_10",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼",
+        "parent": "root",
+        "x": 251.55,
+        "y": 144.5
+      }
+    ],
+    "slots": [
+      {
+        "name": "base",
+        "bone": "骨骼"
+      },
+      {
+        "name": "gaoliang01",
+        "bone": "gaoliang01",
+        "attachment": "gaoliang01",
+        "blend": "additive"
+      },
+      {
+        "name": "gaoliang1",
+        "bone": "gaoliang1",
+        "attachment": "gaoliang01",
+        "blend": "additive"
+      },
+      {
+        "name": "theme185_s_10",
+        "bone": "theme185_s_10",
+        "attachment": "theme185_s_10"
+      }
+    ],
+    "skins": {
+      "default": {
+        "gaoliang01": {
+          "gaoliang01": {
+            "width": 91,
+            "height": 85
+          }
+        },
+        "gaoliang1": {
+          "gaoliang01": {
+            "width": 91,
+            "height": 85
+          }
+        },
+        "theme185_s_10": {
+          "theme185_s_10": {
+            "width": 122,
+            "height": 80
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "gaoliang01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "gaoliang1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "gaoliang01": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "angle": 40
+              }
+            ]
+          },
+          "gaoliang1": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 80,
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "angle": 40
+              }
+            ]
+          },
+          "theme185_s_10": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1.165,
+                "y": 1.165,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 256,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngaoliang01\n  rotate: false\n  xy: 2, 2\n  size: 91, 85\n  orig: 91, 85\n  offset: 0, 0\n  index: -1\ntheme185_s_10\n  rotate: false\n  xy: 95, 29\n  size: 64, 58\n  orig: 122, 80\n  offset: 29, 10\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "569WuUqyZHpo4J+mvxFYGF"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

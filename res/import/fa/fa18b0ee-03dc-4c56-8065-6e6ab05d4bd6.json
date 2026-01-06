@@ -1,1 +1,143 @@
-{"__type__":"sp.SkeletonData","_name":"letsgo","_skeletonJson":{"skeleton":{"hash":"RIj2G70rLuHEjcRrEZMaqMyu1iE","spine":"3.6.53","width":665.62,"height":250},"bones":[{"name":"root"},{"name":"骨骼","parent":"root","scaleX":1.249},{"name":"骨骼2","parent":"root"}],"slots":[{"name":"cq","bone":"root","attachment":"cq"},{"name":"theme163_d_choose_btn5","bone":"骨骼2"},{"name":"anniuguangtiao_00","bone":"骨骼","color":"ffad00ff","attachment":"anniuguangtiao_00","blend":"additive"}],"skins":{"default":{"anniuguangtiao_00":{"anniuguangtiao_00":{"scaleX":1.278,"width":417,"height":250}},"cq":{"cq":{"type":"clipping","end":"cq","vertexCount":20,"vertices":[-103.99,32.58,-108.48,31.32,-112.23,29.26,-116.19,24.89,-118.22,19.48,-118.48,-20.46,-116.92,-25.6,-113.73,-29.22,-109.77,-31.84,-104.75,-33.09,106.92,-33.18,110.82,-31.26,114.5,-28.35,116.97,-24.32,118.34,-20.91,118.41,19.55,117.12,23.8,114.67,27.27,111.07,30.41,105.37,32.53]}}}},"animations":{"animation":{"slots":{"anniuguangtiao_00":{"attachment":[{"time":0,"name":"anniuguangtiao_00"}]}},"bones":{"骨骼":{"translate":[{"time":0,"x":-211.34,"y":0},{"time":1,"x":206.86,"y":0}]}}}}},"_atlasText":"\nletsgo.png\nsize: 417,250\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nanniuguangtiao_00\n  rotate: false\n  xy: 0, 0\n  size: 417, 250\n  orig: 417, 250\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"c2n0aW8W5FYp40IDmHlEiU"}],"textureNames":["letsgo.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "letsgo",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "RIj2G70rLuHEjcRrEZMaqMyu1iE",
+      "spine": "3.6.53",
+      "width": 665.62,
+      "height": 250
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "骨骼",
+        "parent": "root",
+        "scaleX": 1.249
+      },
+      {
+        "name": "骨骼2",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "cq",
+        "bone": "root",
+        "attachment": "cq"
+      },
+      {
+        "name": "theme163_d_choose_btn5",
+        "bone": "骨骼2"
+      },
+      {
+        "name": "anniuguangtiao_00",
+        "bone": "骨骼",
+        "color": "ffad00ff",
+        "attachment": "anniuguangtiao_00",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "anniuguangtiao_00": {
+          "anniuguangtiao_00": {
+            "scaleX": 1.278,
+            "width": 417,
+            "height": 250
+          }
+        },
+        "cq": {
+          "cq": {
+            "type": "clipping",
+            "end": "cq",
+            "vertexCount": 20,
+            "vertices": [
+              -103.99,
+              32.58,
+              -108.48,
+              31.32,
+              -112.23,
+              29.26,
+              -116.19,
+              24.89,
+              -118.22,
+              19.48,
+              -118.48,
+              -20.46,
+              -116.92,
+              -25.6,
+              -113.73,
+              -29.22,
+              -109.77,
+              -31.84,
+              -104.75,
+              -33.09,
+              106.92,
+              -33.18,
+              110.82,
+              -31.26,
+              114.5,
+              -28.35,
+              116.97,
+              -24.32,
+              118.34,
+              -20.91,
+              118.41,
+              19.55,
+              117.12,
+              23.8,
+              114.67,
+              27.27,
+              111.07,
+              30.41,
+              105.37,
+              32.53
+            ]
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "anniuguangtiao_00": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "anniuguangtiao_00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "骨骼": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -211.34,
+                "y": 0
+              },
+              {
+                "time": 1,
+                "x": 206.86,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nletsgo.png\nsize: 417,250\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nanniuguangtiao_00\n  rotate: false\n  xy: 0, 0\n  size: 417, 250\n  orig: 417, 250\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "c2n0aW8W5FYp40IDmHlEiU"
+    }
+  ],
+  "textureNames": [
+    "letsgo.png"
+  ]
+}

@@ -1,1 +1,95 @@
-{"__type__":"sp.SkeletonData","_name":"TY_guochang","_skeletonJson":{"skeleton":{"hash":"CvYQi+dUPjZS/mT8BDRLPW5vcu4","spine":"3.6.53","width":0,"height":0,"images":""},"bones":[{"name":"root"},{"name":"glow_y","parent":"root"}],"slots":[{"name":"glow_y","bone":"glow_y","blend":"additive"}],"skins":{"default":{"glow_y":{"images/glow_y":{"width":500,"height":500}}}},"animations":{"TY_guochang":{"slots":{"glow_y":{"attachment":[{"time":0,"name":"images/glow_y"}]}},"bones":{"glow_y":{"scale":[{"time":0,"x":2,"y":2,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":50,"y":50,"curve":[0.25,0,0.75,1]},{"time":1,"x":0,"y":0}]}}}}},"_atlasText":"\nTY_guochang.png\nsize: 379,379\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/glow_y\n  rotate: false\n  xy: 2, 2\n  size: 375, 375\n  orig: 375, 375\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"dcbxdOdrVOfIGg6YWL0XKw"}],"textureNames":["TY_guochang.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "TY_guochang",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "CvYQi+dUPjZS/mT8BDRLPW5vcu4",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "glow_y",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "glow_y",
+        "bone": "glow_y",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "glow_y": {
+          "images/glow_y": {
+            "width": 500,
+            "height": 500
+          }
+        }
+      }
+    },
+    "animations": {
+      "TY_guochang": {
+        "slots": {
+          "glow_y": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/glow_y"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "glow_y": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 2,
+                "y": 2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 50,
+                "y": 50,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nTY_guochang.png\nsize: 379,379\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/glow_y\n  rotate: false\n  xy: 2, 2\n  size: 375, 375\n  orig: 375, 375\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "dcbxdOdrVOfIGg6YWL0XKw"
+    }
+  ],
+  "textureNames": [
+    "TY_guochang.png"
+  ]
+}

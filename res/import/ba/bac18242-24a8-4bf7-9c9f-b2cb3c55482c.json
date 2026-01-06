@@ -1,1 +1,5235 @@
-{"__type__":"sp.SkeletonData","_name":"Scatter","_skeletonJson":{"skeleton":{"hash":"iuKenqB0ngH3oJaPMXRuoXfXvR4","spine":"3.6.53","width":0,"height":0,"images":"./img2/"},"bones":[{"name":"root"},{"name":"all","parent":"root"},{"name":"zuanshi","parent":"all"},{"name":"M_zuanshi","parent":"zuanshi"},{"name":"M_zuanshi_sg","parent":"M_zuanshi","scaleX":2,"scaleY":2},{"name":"bj","parent":"all"},{"name":"zi2","parent":"all"},{"name":"zi","parent":"zi2","x":-7.5,"y":-15},{"name":"fg_sg","parent":"zi","x":2.63,"y":0.25,"scaleX":2,"scaleY":2},{"name":"glow","parent":"all"},{"name":"glow1","parent":"glow"},{"name":"glow2","parent":"glow"},{"name":"guang","parent":"all"},{"name":"lizi","parent":"all"},{"name":"xian","parent":"all"}],"slots":[{"name":"bj","bone":"bj"},{"name":"glow01","bone":"glow1","blend":"additive"},{"name":"glow1","bone":"glow2","blend":"additive"},{"name":"lizi","bone":"lizi","blend":"additive"},{"name":"1","bone":"all"},{"name":"M_zuanshi","bone":"M_zuanshi"},{"name":"M_zuanshi_add","bone":"M_zuanshi","blend":"additive"},{"name":"M_zuanshi_sg","bone":"M_zuanshi_sg","blend":"additive"},{"name":"guang","bone":"guang","blend":"additive"},{"name":"FreeGame","bone":"zi"},{"name":"FG_add","bone":"zi","blend":"additive"},{"name":"fg_sg","bone":"fg_sg","blend":"additive"},{"name":"xian","bone":"xian","blend":"additive"}],"skins":{"default":{"1":{"1":{"type":"clipping","end":"guang","vertexCount":4,"vertices":[-41,57.99,40.94,58.01,41,-58.01,-41.01,-58],"color":"ce3a3a00"}},"FG_add":{"FG_add":{"x":2.63,"y":0.25,"scaleX":2,"scaleY":2,"width":100,"height":100}},"FreeGame":{"FreeGame":{"x":2.63,"y":0.25,"width":133,"height":72}},"M_zuanshi":{"M_zuanshi":{"width":107,"height":167}},"M_zuanshi_add":{"M_zuanshi_add":{"type":"mesh","uvs":[0.79067,0.45409,0.73211,0.83839,0.53081,1,0.41735,1,0.32585,0.89329,0.18677,0.49801,0.28193,0.18325,0.41735,0,0.49421,0,0.59702,0,0.39905,0.26743,0.38075,0.63343,0.50153,0.89329,0.56375,0.61879,0.53813,0.18691],"triangles":[14,8,9,10,6,7,10,7,8,14,10,8,14,9,0,5,6,10,13,14,0,10,14,13,11,5,10,13,11,10,1,13,0,4,5,11,12,11,13,12,13,1,3,4,11,12,3,11,2,12,1,3,12,2],"vertices":[58.13,9.18,41.31,-56.67,-24.1,-78.78,-29.89,-72.1,-56.45,-35.82,-62.65,0.4,-43.61,63.35,-11.81,86.64,20.06,86.64,27.26,82.32,-20.19,46.51,-23.85,-26.69,-22.1,-70.8,12.75,-23.76,40.24,46.11],"hull":10,"edges":[18,0,0,2,2,4,4,6,6,8,8,10,10,12,12,14,14,16,16,18,16,20,20,22,22,6,24,26,26,28,28,18],"width":100,"height":100}},"M_zuanshi_sg":{"M_zuanshi_sg/M_zuanshi_sg_01":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_02":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_03":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_04":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_05":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_06":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_07":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_08":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_09":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_10":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_11":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_12":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_13":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_14":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_15":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_16":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_17":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_18":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_19":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_20":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_21":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_22":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_23":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_24":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_25":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_26":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_27":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_28":{"width":100,"height":100},"M_zuanshi_sg/M_zuanshi_sg_29":{"width":100,"height":100}},"bj":{"bj":{"width":164,"height":174},"bj_1x2":{"width":82,"height":116}},"fg_sg":{"fg_sg/fg_sg_01":{"width":100,"height":100},"fg_sg/fg_sg_02":{"width":100,"height":100},"fg_sg/fg_sg_03":{"width":100,"height":100},"fg_sg/fg_sg_04":{"width":100,"height":100},"fg_sg/fg_sg_05":{"width":100,"height":100},"fg_sg/fg_sg_06":{"width":100,"height":100},"fg_sg/fg_sg_07":{"width":100,"height":100},"fg_sg/fg_sg_08":{"width":100,"height":100},"fg_sg/fg_sg_09":{"width":100,"height":100},"fg_sg/fg_sg_10":{"width":100,"height":100},"fg_sg/fg_sg_11":{"width":100,"height":100},"fg_sg/fg_sg_12":{"width":100,"height":100},"fg_sg/fg_sg_13":{"width":100,"height":100},"fg_sg/fg_sg_14":{"width":100,"height":100},"fg_sg/fg_sg_15":{"width":100,"height":100},"fg_sg/fg_sg_16":{"width":100,"height":100},"fg_sg/fg_sg_17":{"width":100,"height":100},"fg_sg/fg_sg_18":{"width":100,"height":100},"fg_sg/fg_sg_19":{"width":100,"height":100},"fg_sg/fg_sg_20":{"width":100,"height":100},"fg_sg/fg_sg_21":{"width":100,"height":100},"fg_sg/fg_sg_22":{"width":100,"height":100},"fg_sg/fg_sg_23":{"width":100,"height":100},"fg_sg/fg_sg_24":{"width":100,"height":100},"fg_sg/fg_sg_25":{"width":100,"height":100},"fg_sg/fg_sg_26":{"width":100,"height":100},"fg_sg/fg_sg_27":{"width":100,"height":100},"fg_sg/fg_sg_28":{"width":100,"height":100},"fg_sg/fg_sg_29":{"width":100,"height":100}},"glow01":{"glow01":{"width":75,"height":75}},"glow1":{"glow01":{"width":75,"height":75}},"guang":{"guang":{"y":-0.25,"width":164,"height":174},"guang_1x2":{"width":82,"height":116}},"lizi":{"lizi/lizi_00":{"width":67,"height":67},"lizi/lizi_01":{"width":67,"height":67},"lizi/lizi_02":{"width":67,"height":67},"lizi/lizi_03":{"width":67,"height":67},"lizi/lizi_04":{"width":67,"height":67},"lizi/lizi_05":{"width":67,"height":67},"lizi/lizi_06":{"width":67,"height":67},"lizi/lizi_07":{"width":67,"height":67},"lizi/lizi_08":{"width":67,"height":67},"lizi/lizi_09":{"width":67,"height":67},"lizi/lizi_10":{"width":67,"height":67},"lizi/lizi_11":{"width":67,"height":67},"lizi/lizi_12":{"width":67,"height":67},"lizi/lizi_13":{"width":67,"height":67},"lizi/lizi_14":{"width":67,"height":67},"lizi/lizi_15":{"width":67,"height":67},"lizi/lizi_16":{"width":67,"height":67},"lizi/lizi_17":{"width":67,"height":67},"lizi/lizi_18":{"width":67,"height":67},"lizi/lizi_19":{"width":67,"height":67}},"xian":{"xian/xian_01":{"width":67,"height":67},"xian/xian_02":{"width":67,"height":67},"xian/xian_03":{"width":67,"height":67},"xian/xian_04":{"width":67,"height":67},"xian/xian_05":{"width":67,"height":67},"xian/xian_06":{"width":67,"height":67},"xian/xian_07":{"width":67,"height":67},"xian/xian_08":{"width":67,"height":67},"xian/xian_09":{"width":67,"height":67},"xian/xian_10":{"width":67,"height":67},"xian/xian_11":{"width":67,"height":67},"xian/xian_12":{"width":67,"height":67},"xian/xian_13":{"width":67,"height":67},"xian/xian_14":{"width":67,"height":67},"xian/xian_15":{"width":67,"height":67},"xian/xian_16":{"width":67,"height":67},"xian/xian_17":{"width":67,"height":67},"xian/xian_18":{"width":67,"height":67},"xian/xian_19":{"width":67,"height":67},"xian/xian_20":{"width":67,"height":67},"xian/xian_21":{"width":67,"height":67},"xian/xian_22":{"width":67,"height":67},"xian/xian_23":{"width":67,"height":67},"xian/xian_24":{"width":67,"height":67},"xian/xian_25":{"width":67,"height":67},"xian/xian_26":{"width":67,"height":67},"xian/xian_27":{"width":67,"height":67},"xian/xian_28":{"width":67,"height":67},"xian/xian_29":{"width":67,"height":67}}}},"animations":{"Scatter_1x2_01":{"slots":{"1":{"attachment":[{"time":0,"name":"1"},{"time":0.0333,"name":null},{"time":0.5333,"name":"1"}]},"FG_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.1333,"color":"ffffff00"},{"time":0.3,"color":"ffffffff","curve":"stepped"},{"time":0.6333,"color":"ffffffff"},{"time":0.9667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"FG_add"}]},"FreeGame":{"attachment":[{"time":0,"name":"FreeGame"}]},"M_zuanshi":{"attachment":[{"time":0,"name":"M_zuanshi"}]},"M_zuanshi_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.0667,"color":"ffffff00"},{"time":0.2333,"color":"ffffffff","curve":"stepped"},{"time":0.5667,"color":"ffffffff"},{"time":0.9,"color":"ffffff00"}],"attachment":[{"time":0,"name":"M_zuanshi_add"}]},"M_zuanshi_sg":{"attachment":[{"time":0,"name":null}]},"bj":{"attachment":[{"time":0,"name":"bj_1x2"}]},"fg_sg":{"attachment":[{"time":0,"name":null}]},"glow01":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.6667,"color":"ffffffff"},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow01"}]},"glow1":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.6667,"color":"ffffffff"},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow01"}]},"guang":{"color":[{"time":0,"color":"ffffffff"},{"time":0.1667,"color":"ffffff00","curve":"stepped"},{"time":0.6667,"color":"ffffff00"},{"time":0.8333,"color":"ffffffff"}],"attachment":[{"time":0,"name":"guang_1x2"}]},"lizi":{"attachment":[{"time":0,"name":null}]},"xian":{"attachment":[{"time":0,"name":null}]}},"bones":{"all":{"translate":[{"time":0,"x":0,"y":7.25}]},"zi":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.1333,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.4667,"x":1.5,"y":1.5,"curve":[0.25,0,0.75,1]},{"time":0.6333,"x":0.8,"y":0.8,"curve":[0.25,0,0.75,1]},{"time":0.8,"x":1.05,"y":1.05,"curve":[0.25,0,0.75,1]},{"time":0.9667,"x":1,"y":1,"curve":"stepped"},{"time":1,"x":1,"y":1}]},"M_zuanshi":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.0667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":1.5,"y":1.5,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":0.8,"y":0.8,"curve":[0.25,0,0.75,1]},{"time":0.7333,"x":1.05,"y":1.05,"curve":[0.25,0,0.75,1]},{"time":0.9,"x":1,"y":1}]},"glow1":{"rotate":[{"time":0,"angle":0},{"time":1,"angle":-90}],"scale":[{"time":0,"x":3,"y":3,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":5,"y":5,"curve":[0.25,0,0.75,1]},{"time":1,"x":3,"y":3}]},"glow2":{"rotate":[{"time":0,"angle":60},{"time":1,"angle":180}],"scale":[{"time":0,"x":3,"y":3,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":5,"y":5,"curve":[0.25,0,0.75,1]},{"time":1,"x":3,"y":3}]},"zuanshi":{"translate":[{"time":0,"x":1.25,"y":-0.75}],"scale":[{"time":0,"x":0.64,"y":0.64}]},"zi2":{"translate":[{"time":0,"x":3.25,"y":1.25}],"scale":[{"time":0,"x":0.65,"y":0.65}]},"glow":{"scale":[{"time":0,"x":0.64,"y":0.64}]}},"deform":{"default":{"M_zuanshi_add":{"M_zuanshi_add":[{"time":0}]}}}},"Scatter_1x2_02":{"slots":{"1":{"attachment":[{"time":0,"name":"1"}]},"FG_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.5,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1.1667,"color":"ffffff77","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"FG_add"}]},"FreeGame":{"attachment":[{"time":0,"name":"FreeGame"}]},"M_zuanshi":{"attachment":[{"time":0,"name":"M_zuanshi"}]},"M_zuanshi_add":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.6667,"color":"ffffff77","curve":[0.25,0,0.75,1]},{"time":1.5,"color":"ffffff00"}],"attachment":[{"time":0,"name":"M_zuanshi_add"}]},"M_zuanshi_sg":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"M_zuanshi_sg/M_zuanshi_sg_01"},{"time":0.1,"name":"M_zuanshi_sg/M_zuanshi_sg_02"},{"time":0.1333,"name":"M_zuanshi_sg/M_zuanshi_sg_03"},{"time":0.2,"name":"M_zuanshi_sg/M_zuanshi_sg_04"},{"time":0.2333,"name":"M_zuanshi_sg/M_zuanshi_sg_05"},{"time":0.3,"name":"M_zuanshi_sg/M_zuanshi_sg_06"},{"time":0.3333,"name":"M_zuanshi_sg/M_zuanshi_sg_07"},{"time":0.4,"name":"M_zuanshi_sg/M_zuanshi_sg_08"},{"time":0.4333,"name":"M_zuanshi_sg/M_zuanshi_sg_09"},{"time":0.5,"name":"M_zuanshi_sg/M_zuanshi_sg_10"},{"time":0.5333,"name":"M_zuanshi_sg/M_zuanshi_sg_11"},{"time":0.6,"name":"M_zuanshi_sg/M_zuanshi_sg_12"},{"time":0.6333,"name":"M_zuanshi_sg/M_zuanshi_sg_13"},{"time":0.7,"name":"M_zuanshi_sg/M_zuanshi_sg_14"},{"time":0.7333,"name":"M_zuanshi_sg/M_zuanshi_sg_15"},{"time":0.8,"name":"M_zuanshi_sg/M_zuanshi_sg_16"},{"time":0.8333,"name":"M_zuanshi_sg/M_zuanshi_sg_17"},{"time":0.9,"name":"M_zuanshi_sg/M_zuanshi_sg_18"},{"time":0.9333,"name":"M_zuanshi_sg/M_zuanshi_sg_19"},{"time":1,"name":"M_zuanshi_sg/M_zuanshi_sg_20"},{"time":1.0333,"name":"M_zuanshi_sg/M_zuanshi_sg_21"},{"time":1.1,"name":"M_zuanshi_sg/M_zuanshi_sg_22"},{"time":1.1333,"name":"M_zuanshi_sg/M_zuanshi_sg_23"},{"time":1.2,"name":"M_zuanshi_sg/M_zuanshi_sg_24"},{"time":1.2333,"name":"M_zuanshi_sg/M_zuanshi_sg_25"},{"time":1.3,"name":"M_zuanshi_sg/M_zuanshi_sg_26"},{"time":1.3333,"name":"M_zuanshi_sg/M_zuanshi_sg_27"},{"time":1.4,"name":"M_zuanshi_sg/M_zuanshi_sg_28"},{"time":1.4333,"name":"M_zuanshi_sg/M_zuanshi_sg_29"},{"time":1.5,"name":null}]},"bj":{"attachment":[{"time":0,"name":"bj_1x2"}]},"fg_sg":{"attachment":[{"time":0,"name":null},{"time":0.5,"name":null},{"time":0.5333,"name":"fg_sg/fg_sg_01"},{"time":0.6,"name":"fg_sg/fg_sg_02"},{"time":0.6333,"name":"fg_sg/fg_sg_03"},{"time":0.7,"name":"fg_sg/fg_sg_04"},{"time":0.7333,"name":"fg_sg/fg_sg_05"},{"time":0.8,"name":"fg_sg/fg_sg_06"},{"time":0.8333,"name":"fg_sg/fg_sg_07"},{"time":0.9,"name":"fg_sg/fg_sg_08"},{"time":0.9333,"name":"fg_sg/fg_sg_09"},{"time":1,"name":"fg_sg/fg_sg_10"},{"time":1.0333,"name":"fg_sg/fg_sg_11"},{"time":1.1,"name":"fg_sg/fg_sg_12"},{"time":1.1333,"name":"fg_sg/fg_sg_13"},{"time":1.2,"name":"fg_sg/fg_sg_14"},{"time":1.2333,"name":"fg_sg/fg_sg_15"},{"time":1.3,"name":"fg_sg/fg_sg_16"},{"time":1.3333,"name":"fg_sg/fg_sg_17"},{"time":1.4,"name":"fg_sg/fg_sg_18"},{"time":1.4333,"name":"fg_sg/fg_sg_19"},{"time":1.5,"name":"fg_sg/fg_sg_20"},{"time":1.5333,"name":"fg_sg/fg_sg_21"},{"time":1.6,"name":"fg_sg/fg_sg_22"},{"time":1.6333,"name":"fg_sg/fg_sg_23"},{"time":1.7,"name":"fg_sg/fg_sg_24"},{"time":1.7333,"name":"fg_sg/fg_sg_25"},{"time":1.8,"name":"fg_sg/fg_sg_26"},{"time":1.8333,"name":"fg_sg/fg_sg_27"},{"time":1.9,"name":"fg_sg/fg_sg_28"},{"time":1.9333,"name":"fg_sg/fg_sg_29"},{"time":2,"name":null}]},"glow01":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow01"}]},"glow1":{"attachment":[{"time":0,"name":null}]},"guang":{"attachment":[{"time":0,"name":"guang_1x2"}]},"lizi":{"attachment":[{"time":0,"name":null}]},"xian":{"color":[{"time":0,"color":"ffffff78"}],"attachment":[{"time":0,"name":null},{"time":0.0667,"name":"xian/xian_01"},{"time":0.1333,"name":"xian/xian_02"},{"time":0.2,"name":"xian/xian_03"},{"time":0.2667,"name":"xian/xian_04"},{"time":0.3333,"name":"xian/xian_05"},{"time":0.4,"name":"xian/xian_06"},{"time":0.4667,"name":"xian/xian_07"},{"time":0.5333,"name":"xian/xian_08"},{"time":0.6,"name":"xian/xian_09"},{"time":0.6667,"name":"xian/xian_10"},{"time":0.7333,"name":"xian/xian_11"},{"time":0.8,"name":"xian/xian_12"},{"time":0.8667,"name":"xian/xian_13"},{"time":0.9333,"name":"xian/xian_14"},{"time":1,"name":"xian/xian_15"},{"time":1.0667,"name":"xian/xian_16"},{"time":1.1333,"name":"xian/xian_17"},{"time":1.2,"name":"xian/xian_18"},{"time":1.2667,"name":"xian/xian_19"},{"time":1.3333,"name":"xian/xian_20"},{"time":1.4,"name":"xian/xian_21"},{"time":1.4667,"name":"xian/xian_22"},{"time":1.5333,"name":"xian/xian_23"},{"time":1.6,"name":"xian/xian_24"},{"time":1.6667,"name":"xian/xian_25"},{"time":1.7333,"name":"xian/xian_26"},{"time":1.8,"name":"xian/xian_27"},{"time":1.8667,"name":"xian/xian_28"},{"time":1.9333,"name":"xian/xian_29"},{"time":2,"name":null}]}},"bones":{"all":{"translate":[{"time":0,"x":0,"y":7.25}]},"zi":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.5,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.1667,"x":1.1,"y":1.1,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1}]},"M_zuanshi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1.1,"y":1.1,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":1,"y":1}]},"M_zuanshi_sg":{"scale":[{"time":0,"x":1,"y":0.887}],"shear":[{"time":0,"x":0,"y":-10.15}]},"glow1":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":-150}],"scale":[{"time":0,"x":3,"y":3,"curve":[0.25,0,0.75,1]},{"time":1,"x":4.5,"y":4.5,"curve":[0.25,0,0.75,1]},{"time":2,"x":3,"y":3}]},"xian":{"scale":[{"time":0,"x":1.6,"y":2}]},"zi2":{"translate":[{"time":0,"x":3.25,"y":1.25}],"scale":[{"time":0,"x":0.65,"y":0.65}]},"zuanshi":{"translate":[{"time":0,"x":1.25,"y":-0.75}],"scale":[{"time":0,"x":0.64,"y":0.64}]},"glow":{"scale":[{"time":0,"x":0.64,"y":0.64}]}}},"Scatter_1x2_03":{"slots":{"1":{"attachment":[{"time":0,"name":"1"},{"time":0.0333,"name":null},{"time":1.6667,"name":"1"}]},"FG_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.1667,"color":"ffffff00"},{"time":0.5,"color":"ffffffff"},{"time":1,"color":"ffffff00","curve":"stepped"},{"time":1.3333,"color":"ffffff00"},{"time":1.4333,"color":"ffffffff","curve":"stepped"},{"time":1.6667,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"FG_add"}]},"FreeGame":{"attachment":[{"time":0,"name":"FreeGame"}]},"M_zuanshi":{"attachment":[{"time":0,"name":"M_zuanshi"}]},"M_zuanshi_add":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff"},{"time":0.8333,"color":"ffffff00","curve":"stepped"},{"time":1.1667,"color":"ffffff00"},{"time":1.2667,"color":"ffffffff","curve":"stepped"},{"time":1.5,"color":"ffffffff"},{"time":1.8333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"M_zuanshi_add"}]},"M_zuanshi_sg":{"attachment":[{"time":0,"name":null},{"time":0.1667,"name":null},{"time":0.2,"name":"M_zuanshi_sg/M_zuanshi_sg_01"},{"time":0.2667,"name":"M_zuanshi_sg/M_zuanshi_sg_02"},{"time":0.3,"name":"M_zuanshi_sg/M_zuanshi_sg_03"},{"time":0.3667,"name":"M_zuanshi_sg/M_zuanshi_sg_04"},{"time":0.4,"name":"M_zuanshi_sg/M_zuanshi_sg_05"},{"time":0.4667,"name":"M_zuanshi_sg/M_zuanshi_sg_06"},{"time":0.5,"name":"M_zuanshi_sg/M_zuanshi_sg_07"},{"time":0.5667,"name":"M_zuanshi_sg/M_zuanshi_sg_08"},{"time":0.6,"name":"M_zuanshi_sg/M_zuanshi_sg_09"},{"time":0.6667,"name":"M_zuanshi_sg/M_zuanshi_sg_10"},{"time":0.7,"name":"M_zuanshi_sg/M_zuanshi_sg_11"},{"time":0.7667,"name":"M_zuanshi_sg/M_zuanshi_sg_12"},{"time":0.8,"name":"M_zuanshi_sg/M_zuanshi_sg_13"},{"time":0.8667,"name":"M_zuanshi_sg/M_zuanshi_sg_14"},{"time":0.9,"name":"M_zuanshi_sg/M_zuanshi_sg_15"},{"time":0.9667,"name":"M_zuanshi_sg/M_zuanshi_sg_16"},{"time":1,"name":"M_zuanshi_sg/M_zuanshi_sg_17"},{"time":1.0667,"name":"M_zuanshi_sg/M_zuanshi_sg_18"},{"time":1.1,"name":"M_zuanshi_sg/M_zuanshi_sg_19"},{"time":1.1667,"name":"M_zuanshi_sg/M_zuanshi_sg_20"},{"time":1.2,"name":"M_zuanshi_sg/M_zuanshi_sg_21"},{"time":1.2667,"name":"M_zuanshi_sg/M_zuanshi_sg_22"},{"time":1.3,"name":"M_zuanshi_sg/M_zuanshi_sg_23"},{"time":1.3667,"name":"M_zuanshi_sg/M_zuanshi_sg_24"},{"time":1.4,"name":"M_zuanshi_sg/M_zuanshi_sg_25"},{"time":1.4667,"name":"M_zuanshi_sg/M_zuanshi_sg_26"},{"time":1.5,"name":"M_zuanshi_sg/M_zuanshi_sg_27"},{"time":1.5667,"name":"M_zuanshi_sg/M_zuanshi_sg_28"},{"time":1.6,"name":"M_zuanshi_sg/M_zuanshi_sg_29"},{"time":1.6667,"name":null}]},"bj":{"attachment":[{"time":0,"name":"bj_1x2"}]},"fg_sg":{"attachment":[{"time":0,"name":null},{"time":0.3333,"name":null},{"time":0.3667,"name":"fg_sg/fg_sg_01"},{"time":0.4333,"name":"fg_sg/fg_sg_02"},{"time":0.4667,"name":"fg_sg/fg_sg_03"},{"time":0.5333,"name":"fg_sg/fg_sg_04"},{"time":0.5667,"name":"fg_sg/fg_sg_05"},{"time":0.6333,"name":"fg_sg/fg_sg_06"},{"time":0.6667,"name":"fg_sg/fg_sg_07"},{"time":0.7333,"name":"fg_sg/fg_sg_08"},{"time":0.7667,"name":"fg_sg/fg_sg_09"},{"time":0.8333,"name":"fg_sg/fg_sg_10"},{"time":0.8667,"name":"fg_sg/fg_sg_11"},{"time":0.9333,"name":"fg_sg/fg_sg_12"},{"time":0.9667,"name":"fg_sg/fg_sg_13"},{"time":1.0333,"name":"fg_sg/fg_sg_14"},{"time":1.0667,"name":"fg_sg/fg_sg_15"},{"time":1.1333,"name":"fg_sg/fg_sg_16"},{"time":1.1667,"name":"fg_sg/fg_sg_17"},{"time":1.2333,"name":"fg_sg/fg_sg_18"},{"time":1.2667,"name":"fg_sg/fg_sg_19"},{"time":1.3333,"name":"fg_sg/fg_sg_20"},{"time":1.3667,"name":"fg_sg/fg_sg_21"},{"time":1.4333,"name":"fg_sg/fg_sg_22"},{"time":1.4667,"name":"fg_sg/fg_sg_23"},{"time":1.5333,"name":"fg_sg/fg_sg_24"},{"time":1.5667,"name":"fg_sg/fg_sg_25"},{"time":1.6333,"name":"fg_sg/fg_sg_26"},{"time":1.6667,"name":"fg_sg/fg_sg_27"},{"time":1.7333,"name":"fg_sg/fg_sg_28"},{"time":1.7667,"name":"fg_sg/fg_sg_29"},{"time":1.8333,"name":null}]},"glow01":{"color":[{"time":0,"color":"ffffff00"},{"time":0.5,"color":"ffffffff","curve":"stepped"},{"time":1.5,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow01"}]},"glow1":{"color":[{"time":0,"color":"ffffff00"},{"time":0.5,"color":"ffffffff","curve":"stepped"},{"time":1.5,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow01"}]},"guang":{"color":[{"time":0,"color":"ffffffff"},{"time":0.3333,"color":"ffffff00","curve":"stepped"},{"time":1.6667,"color":"ffffff00"},{"time":2,"color":"ffffffff"}],"attachment":[{"time":0,"name":"guang_1x2"}]},"lizi":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":1.5,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"lizi/lizi_00"},{"time":0.0333,"name":"lizi/lizi_01"},{"time":0.1,"name":"lizi/lizi_02"},{"time":0.1333,"name":"lizi/lizi_03"},{"time":0.2,"name":"lizi/lizi_04"},{"time":0.2333,"name":"lizi/lizi_05"},{"time":0.3,"name":"lizi/lizi_06"},{"time":0.3333,"name":"lizi/lizi_07"},{"time":0.4,"name":"lizi/lizi_08"},{"time":0.4333,"name":"lizi/lizi_09"},{"time":0.5,"name":"lizi/lizi_10"},{"time":0.5333,"name":"lizi/lizi_11"},{"time":0.6,"name":"lizi/lizi_12"},{"time":0.6333,"name":"lizi/lizi_13"},{"time":0.7,"name":"lizi/lizi_14"},{"time":0.7333,"name":"lizi/lizi_15"},{"time":0.8,"name":"lizi/lizi_16"},{"time":0.8333,"name":"lizi/lizi_17"},{"time":0.9,"name":"lizi/lizi_18"},{"time":0.9333,"name":"lizi/lizi_19"},{"time":1,"name":"lizi/lizi_00"},{"time":1.0333,"name":"lizi/lizi_01"},{"time":1.1,"name":"lizi/lizi_02"},{"time":1.1333,"name":"lizi/lizi_03"},{"time":1.2,"name":"lizi/lizi_04"},{"time":1.2333,"name":"lizi/lizi_05"},{"time":1.3,"name":"lizi/lizi_06"},{"time":1.3333,"name":"lizi/lizi_07"},{"time":1.4,"name":"lizi/lizi_08"},{"time":1.4333,"name":"lizi/lizi_09"},{"time":1.5,"name":"lizi/lizi_10"},{"time":1.5333,"name":"lizi/lizi_11"},{"time":1.6,"name":"lizi/lizi_12"},{"time":1.6333,"name":"lizi/lizi_13"},{"time":1.7,"name":"lizi/lizi_14"},{"time":1.7333,"name":"lizi/lizi_15"},{"time":1.8,"name":"lizi/lizi_16"},{"time":1.8333,"name":"lizi/lizi_17"},{"time":1.9,"name":"lizi/lizi_18"},{"time":1.9333,"name":"lizi/lizi_19"},{"time":2,"name":"lizi/lizi_00"}]},"xian":{"attachment":[{"time":0,"name":null},{"time":0.0667,"name":"xian/xian_01"},{"time":0.1333,"name":"xian/xian_02"},{"time":0.2,"name":"xian/xian_03"},{"time":0.2667,"name":"xian/xian_04"},{"time":0.3333,"name":"xian/xian_05"},{"time":0.4,"name":"xian/xian_06"},{"time":0.4667,"name":"xian/xian_07"},{"time":0.5333,"name":"xian/xian_08"},{"time":0.6,"name":"xian/xian_09"},{"time":0.6667,"name":"xian/xian_10"},{"time":0.7333,"name":"xian/xian_11"},{"time":0.8,"name":"xian/xian_12"},{"time":0.8667,"name":"xian/xian_13"},{"time":0.9333,"name":"xian/xian_14"},{"time":1,"name":"xian/xian_15"},{"time":1.0667,"name":"xian/xian_16"},{"time":1.1333,"name":"xian/xian_17"},{"time":1.2,"name":"xian/xian_18"},{"time":1.2667,"name":"xian/xian_19"},{"time":1.3333,"name":"xian/xian_20"},{"time":1.4,"name":"xian/xian_21"},{"time":1.4667,"name":"xian/xian_22"},{"time":1.5333,"name":"xian/xian_23"},{"time":1.6,"name":"xian/xian_24"},{"time":1.6667,"name":"xian/xian_25"},{"time":1.7333,"name":"xian/xian_26"},{"time":1.8,"name":"xian/xian_27"},{"time":1.8667,"name":"xian/xian_28"},{"time":1.9333,"name":"xian/xian_29"},{"time":2,"name":null}]}},"bones":{"all":{"translate":[{"time":0,"x":0,"y":7.25}]},"zi":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.1667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":0.8,"y":0.8,"curve":[0,0.8,0.75,1]},{"time":1.3333,"x":1.35,"y":1.35,"curve":[0.25,0,0.75,1]},{"time":1.6667,"x":0.8,"y":0.8,"curve":[0.25,0,0.75,1]},{"time":1.8333,"x":1.05,"y":1.05,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1}]},"M_zuanshi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":0.8,"y":0.8,"curve":[0,0.8,0.75,1]},{"time":1.1667,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":0.8,"y":0.8,"curve":[0.25,0,0.75,1]},{"time":1.6667,"x":1.05,"y":1.05,"curve":[0.25,0,0.75,1]},{"time":1.8333,"x":1,"y":1}]},"glow1":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":-150}],"scale":[{"time":0,"x":4.5,"y":4.5}]},"glow2":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":150}],"scale":[{"time":0,"x":4.5,"y":4.5}]},"lizi":{"scale":[{"time":0,"x":2.876,"y":2.876}]},"xian":{"scale":[{"time":0,"x":2.3,"y":2.5}]},"zi2":{"translate":[{"time":0,"x":3.25,"y":1.25}],"scale":[{"time":0,"x":0.65,"y":0.65}]},"zuanshi":{"translate":[{"time":0,"x":1.25,"y":-0.75}],"scale":[{"time":0,"x":0.64,"y":0.64}]},"glow":{"scale":[{"time":0,"x":0.64,"y":0.64}]}}},"Scatter_2x3_01":{"slots":{"1":{"attachment":[{"time":0,"name":null}]},"FG_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.1333,"color":"ffffff00"},{"time":0.3,"color":"ffffffff","curve":"stepped"},{"time":0.6333,"color":"ffffffff"},{"time":0.9667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"FG_add"}]},"FreeGame":{"attachment":[{"time":0,"name":"FreeGame"}]},"M_zuanshi":{"attachment":[{"time":0,"name":"M_zuanshi"}]},"M_zuanshi_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.0667,"color":"ffffff00"},{"time":0.2333,"color":"ffffffff","curve":"stepped"},{"time":0.5667,"color":"ffffffff"},{"time":0.9,"color":"ffffff00"}],"attachment":[{"time":0,"name":"M_zuanshi_add"}]},"M_zuanshi_sg":{"attachment":[{"time":0,"name":null}]},"bj":{"attachment":[{"time":0,"name":"bj"}]},"fg_sg":{"attachment":[{"time":0,"name":null}]},"glow01":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.6667,"color":"ffffffff"},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow01"}]},"glow1":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.6667,"color":"ffffffff"},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow01"}]},"guang":{"color":[{"time":0,"color":"ffffffff"},{"time":0.1667,"color":"ffffff00","curve":"stepped"},{"time":0.6667,"color":"ffffff00"},{"time":0.8333,"color":"ffffffff"}],"attachment":[{"time":0,"name":"guang"}]},"lizi":{"attachment":[{"time":0,"name":null}]},"xian":{"attachment":[{"time":0,"name":null}]}},"bones":{"all":{"translate":[{"time":0,"x":0,"y":14.5}]},"zi":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.1333,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.4667,"x":1.5,"y":1.5,"curve":[0.25,0,0.75,1]},{"time":0.6333,"x":0.8,"y":0.8,"curve":[0.25,0,0.75,1]},{"time":0.8,"x":1.05,"y":1.05,"curve":[0.25,0,0.75,1]},{"time":0.9667,"x":1,"y":1,"curve":"stepped"},{"time":1,"x":1,"y":1}]},"M_zuanshi":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.0667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":1.5,"y":1.5,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":0.8,"y":0.8,"curve":[0.25,0,0.75,1]},{"time":0.7333,"x":1.05,"y":1.05,"curve":[0.25,0,0.75,1]},{"time":0.9,"x":1,"y":1}]},"glow1":{"rotate":[{"time":0,"angle":0},{"time":1,"angle":-90}],"scale":[{"time":0,"x":3,"y":3,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":5,"y":5,"curve":[0.25,0,0.75,1]},{"time":1,"x":3,"y":3}]},"glow2":{"rotate":[{"time":0,"angle":60},{"time":1,"angle":180}],"scale":[{"time":0,"x":3,"y":3,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":5,"y":5,"curve":[0.25,0,0.75,1]},{"time":1,"x":3,"y":3}]}}},"Scatter_2x3_02":{"slots":{"1":{"attachment":[{"time":0,"name":null}]},"FG_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.5,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1.1667,"color":"ffffff77","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"FG_add"}]},"FreeGame":{"attachment":[{"time":0,"name":"FreeGame"}]},"M_zuanshi":{"attachment":[{"time":0,"name":"M_zuanshi"}]},"M_zuanshi_add":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.6667,"color":"ffffff77","curve":[0.25,0,0.75,1]},{"time":1.5,"color":"ffffff00"}],"attachment":[{"time":0,"name":"M_zuanshi_add"}]},"M_zuanshi_sg":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"M_zuanshi_sg/M_zuanshi_sg_01"},{"time":0.1,"name":"M_zuanshi_sg/M_zuanshi_sg_02"},{"time":0.1333,"name":"M_zuanshi_sg/M_zuanshi_sg_03"},{"time":0.2,"name":"M_zuanshi_sg/M_zuanshi_sg_04"},{"time":0.2333,"name":"M_zuanshi_sg/M_zuanshi_sg_05"},{"time":0.3,"name":"M_zuanshi_sg/M_zuanshi_sg_06"},{"time":0.3333,"name":"M_zuanshi_sg/M_zuanshi_sg_07"},{"time":0.4,"name":"M_zuanshi_sg/M_zuanshi_sg_08"},{"time":0.4333,"name":"M_zuanshi_sg/M_zuanshi_sg_09"},{"time":0.5,"name":"M_zuanshi_sg/M_zuanshi_sg_10"},{"time":0.5333,"name":"M_zuanshi_sg/M_zuanshi_sg_11"},{"time":0.6,"name":"M_zuanshi_sg/M_zuanshi_sg_12"},{"time":0.6333,"name":"M_zuanshi_sg/M_zuanshi_sg_13"},{"time":0.7,"name":"M_zuanshi_sg/M_zuanshi_sg_14"},{"time":0.7333,"name":"M_zuanshi_sg/M_zuanshi_sg_15"},{"time":0.8,"name":"M_zuanshi_sg/M_zuanshi_sg_16"},{"time":0.8333,"name":"M_zuanshi_sg/M_zuanshi_sg_17"},{"time":0.9,"name":"M_zuanshi_sg/M_zuanshi_sg_18"},{"time":0.9333,"name":"M_zuanshi_sg/M_zuanshi_sg_19"},{"time":1,"name":"M_zuanshi_sg/M_zuanshi_sg_20"},{"time":1.0333,"name":"M_zuanshi_sg/M_zuanshi_sg_21"},{"time":1.1,"name":"M_zuanshi_sg/M_zuanshi_sg_22"},{"time":1.1333,"name":"M_zuanshi_sg/M_zuanshi_sg_23"},{"time":1.2,"name":"M_zuanshi_sg/M_zuanshi_sg_24"},{"time":1.2333,"name":"M_zuanshi_sg/M_zuanshi_sg_25"},{"time":1.3,"name":"M_zuanshi_sg/M_zuanshi_sg_26"},{"time":1.3333,"name":"M_zuanshi_sg/M_zuanshi_sg_27"},{"time":1.4,"name":"M_zuanshi_sg/M_zuanshi_sg_28"},{"time":1.4333,"name":"M_zuanshi_sg/M_zuanshi_sg_29"},{"time":1.5,"name":null}]},"bj":{"attachment":[{"time":0,"name":"bj"}]},"fg_sg":{"attachment":[{"time":0,"name":null},{"time":0.5,"name":null},{"time":0.5333,"name":"fg_sg/fg_sg_01"},{"time":0.6,"name":"fg_sg/fg_sg_02"},{"time":0.6333,"name":"fg_sg/fg_sg_03"},{"time":0.7,"name":"fg_sg/fg_sg_04"},{"time":0.7333,"name":"fg_sg/fg_sg_05"},{"time":0.8,"name":"fg_sg/fg_sg_06"},{"time":0.8333,"name":"fg_sg/fg_sg_07"},{"time":0.9,"name":"fg_sg/fg_sg_08"},{"time":0.9333,"name":"fg_sg/fg_sg_09"},{"time":1,"name":"fg_sg/fg_sg_10"},{"time":1.0333,"name":"fg_sg/fg_sg_11"},{"time":1.1,"name":"fg_sg/fg_sg_12"},{"time":1.1333,"name":"fg_sg/fg_sg_13"},{"time":1.2,"name":"fg_sg/fg_sg_14"},{"time":1.2333,"name":"fg_sg/fg_sg_15"},{"time":1.3,"name":"fg_sg/fg_sg_16"},{"time":1.3333,"name":"fg_sg/fg_sg_17"},{"time":1.4,"name":"fg_sg/fg_sg_18"},{"time":1.4333,"name":"fg_sg/fg_sg_19"},{"time":1.5,"name":"fg_sg/fg_sg_20"},{"time":1.5333,"name":"fg_sg/fg_sg_21"},{"time":1.6,"name":"fg_sg/fg_sg_22"},{"time":1.6333,"name":"fg_sg/fg_sg_23"},{"time":1.7,"name":"fg_sg/fg_sg_24"},{"time":1.7333,"name":"fg_sg/fg_sg_25"},{"time":1.8,"name":"fg_sg/fg_sg_26"},{"time":1.8333,"name":"fg_sg/fg_sg_27"},{"time":1.9,"name":"fg_sg/fg_sg_28"},{"time":1.9333,"name":"fg_sg/fg_sg_29"},{"time":2,"name":null}]},"glow01":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow01"}]},"glow1":{"attachment":[{"time":0,"name":null}]},"guang":{"attachment":[{"time":0,"name":"guang"}]},"lizi":{"attachment":[{"time":0,"name":null}]},"xian":{"color":[{"time":0,"color":"ffffff78"}],"attachment":[{"time":0,"name":null},{"time":0.0667,"name":"xian/xian_01"},{"time":0.1333,"name":"xian/xian_02"},{"time":0.2,"name":"xian/xian_03"},{"time":0.2667,"name":"xian/xian_04"},{"time":0.3333,"name":"xian/xian_05"},{"time":0.4,"name":"xian/xian_06"},{"time":0.4667,"name":"xian/xian_07"},{"time":0.5333,"name":"xian/xian_08"},{"time":0.6,"name":"xian/xian_09"},{"time":0.6667,"name":"xian/xian_10"},{"time":0.7333,"name":"xian/xian_11"},{"time":0.8,"name":"xian/xian_12"},{"time":0.8667,"name":"xian/xian_13"},{"time":0.9333,"name":"xian/xian_14"},{"time":1,"name":"xian/xian_15"},{"time":1.0667,"name":"xian/xian_16"},{"time":1.1333,"name":"xian/xian_17"},{"time":1.2,"name":"xian/xian_18"},{"time":1.2667,"name":"xian/xian_19"},{"time":1.3333,"name":"xian/xian_20"},{"time":1.4,"name":"xian/xian_21"},{"time":1.4667,"name":"xian/xian_22"},{"time":1.5333,"name":"xian/xian_23"},{"time":1.6,"name":"xian/xian_24"},{"time":1.6667,"name":"xian/xian_25"},{"time":1.7333,"name":"xian/xian_26"},{"time":1.8,"name":"xian/xian_27"},{"time":1.8667,"name":"xian/xian_28"},{"time":1.9333,"name":"xian/xian_29"},{"time":2,"name":null}]}},"bones":{"all":{"translate":[{"time":0,"x":0,"y":14.5}]},"zi":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.5,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.1667,"x":1.1,"y":1.1,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1}]},"M_zuanshi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1.1,"y":1.1,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":1,"y":1}]},"M_zuanshi_sg":{"scale":[{"time":0,"x":1,"y":0.863}],"shear":[{"time":0,"x":0,"y":-12.14}]},"glow1":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":-150}],"scale":[{"time":0,"x":3,"y":3,"curve":[0.25,0,0.75,1]},{"time":1,"x":4.5,"y":4.5,"curve":[0.25,0,0.75,1]},{"time":2,"x":3,"y":3}]},"xian":{"scale":[{"time":0,"x":3,"y":3}]}}},"Scatter_2x3_03":{"slots":{"1":{"attachment":[{"time":0,"name":null}]},"FG_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.1667,"color":"ffffff00"},{"time":0.5,"color":"ffffffff"},{"time":1,"color":"ffffff00","curve":"stepped"},{"time":1.3333,"color":"ffffff00"},{"time":1.4333,"color":"ffffffff","curve":"stepped"},{"time":1.6667,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"FG_add"}]},"FreeGame":{"attachment":[{"time":0,"name":"FreeGame"}]},"M_zuanshi":{"attachment":[{"time":0,"name":"M_zuanshi"}]},"M_zuanshi_add":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff"},{"time":0.8333,"color":"ffffff00","curve":"stepped"},{"time":1.1667,"color":"ffffff00"},{"time":1.2667,"color":"ffffffff","curve":"stepped"},{"time":1.5,"color":"ffffffff"},{"time":1.8333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"M_zuanshi_add"}]},"M_zuanshi_sg":{"attachment":[{"time":0,"name":null},{"time":0.1667,"name":null},{"time":0.2,"name":"M_zuanshi_sg/M_zuanshi_sg_01"},{"time":0.2667,"name":"M_zuanshi_sg/M_zuanshi_sg_02"},{"time":0.3,"name":"M_zuanshi_sg/M_zuanshi_sg_03"},{"time":0.3667,"name":"M_zuanshi_sg/M_zuanshi_sg_04"},{"time":0.4,"name":"M_zuanshi_sg/M_zuanshi_sg_05"},{"time":0.4667,"name":"M_zuanshi_sg/M_zuanshi_sg_06"},{"time":0.5,"name":"M_zuanshi_sg/M_zuanshi_sg_07"},{"time":0.5667,"name":"M_zuanshi_sg/M_zuanshi_sg_08"},{"time":0.6,"name":"M_zuanshi_sg/M_zuanshi_sg_09"},{"time":0.6667,"name":"M_zuanshi_sg/M_zuanshi_sg_10"},{"time":0.7,"name":"M_zuanshi_sg/M_zuanshi_sg_11"},{"time":0.7667,"name":"M_zuanshi_sg/M_zuanshi_sg_12"},{"time":0.8,"name":"M_zuanshi_sg/M_zuanshi_sg_13"},{"time":0.8667,"name":"M_zuanshi_sg/M_zuanshi_sg_14"},{"time":0.9,"name":"M_zuanshi_sg/M_zuanshi_sg_15"},{"time":0.9667,"name":"M_zuanshi_sg/M_zuanshi_sg_16"},{"time":1,"name":"M_zuanshi_sg/M_zuanshi_sg_17"},{"time":1.0667,"name":"M_zuanshi_sg/M_zuanshi_sg_18"},{"time":1.1,"name":"M_zuanshi_sg/M_zuanshi_sg_19"},{"time":1.1667,"name":"M_zuanshi_sg/M_zuanshi_sg_20"},{"time":1.2,"name":"M_zuanshi_sg/M_zuanshi_sg_21"},{"time":1.2667,"name":"M_zuanshi_sg/M_zuanshi_sg_22"},{"time":1.3,"name":"M_zuanshi_sg/M_zuanshi_sg_23"},{"time":1.3667,"name":"M_zuanshi_sg/M_zuanshi_sg_24"},{"time":1.4,"name":"M_zuanshi_sg/M_zuanshi_sg_25"},{"time":1.4667,"name":"M_zuanshi_sg/M_zuanshi_sg_26"},{"time":1.5,"name":"M_zuanshi_sg/M_zuanshi_sg_27"},{"time":1.5667,"name":"M_zuanshi_sg/M_zuanshi_sg_28"},{"time":1.6,"name":"M_zuanshi_sg/M_zuanshi_sg_29"},{"time":1.6667,"name":null}]},"bj":{"attachment":[{"time":0,"name":"bj"}]},"fg_sg":{"attachment":[{"time":0,"name":null},{"time":0.3333,"name":null},{"time":0.3667,"name":"fg_sg/fg_sg_01"},{"time":0.4333,"name":"fg_sg/fg_sg_02"},{"time":0.4667,"name":"fg_sg/fg_sg_03"},{"time":0.5333,"name":"fg_sg/fg_sg_04"},{"time":0.5667,"name":"fg_sg/fg_sg_05"},{"time":0.6333,"name":"fg_sg/fg_sg_06"},{"time":0.6667,"name":"fg_sg/fg_sg_07"},{"time":0.7333,"name":"fg_sg/fg_sg_08"},{"time":0.7667,"name":"fg_sg/fg_sg_09"},{"time":0.8333,"name":"fg_sg/fg_sg_10"},{"time":0.8667,"name":"fg_sg/fg_sg_11"},{"time":0.9333,"name":"fg_sg/fg_sg_12"},{"time":0.9667,"name":"fg_sg/fg_sg_13"},{"time":1.0333,"name":"fg_sg/fg_sg_14"},{"time":1.0667,"name":"fg_sg/fg_sg_15"},{"time":1.1333,"name":"fg_sg/fg_sg_16"},{"time":1.1667,"name":"fg_sg/fg_sg_17"},{"time":1.2333,"name":"fg_sg/fg_sg_18"},{"time":1.2667,"name":"fg_sg/fg_sg_19"},{"time":1.3333,"name":"fg_sg/fg_sg_20"},{"time":1.3667,"name":"fg_sg/fg_sg_21"},{"time":1.4333,"name":"fg_sg/fg_sg_22"},{"time":1.4667,"name":"fg_sg/fg_sg_23"},{"time":1.5333,"name":"fg_sg/fg_sg_24"},{"time":1.5667,"name":"fg_sg/fg_sg_25"},{"time":1.6333,"name":"fg_sg/fg_sg_26"},{"time":1.6667,"name":"fg_sg/fg_sg_27"},{"time":1.7333,"name":"fg_sg/fg_sg_28"},{"time":1.7667,"name":"fg_sg/fg_sg_29"},{"time":1.8333,"name":null}]},"glow01":{"color":[{"time":0,"color":"ffffff00"},{"time":0.5,"color":"ffffffff","curve":"stepped"},{"time":1.5,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow01"}]},"glow1":{"color":[{"time":0,"color":"ffffff00"},{"time":0.5,"color":"ffffffff","curve":"stepped"},{"time":1.5,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow01"}]},"guang":{"color":[{"time":0,"color":"ffffffff"},{"time":0.3333,"color":"ffffff00","curve":"stepped"},{"time":1.6667,"color":"ffffff00"},{"time":2,"color":"ffffffff"}],"attachment":[{"time":0,"name":"guang"}]},"lizi":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":1.5,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"lizi/lizi_00"},{"time":0.0333,"name":"lizi/lizi_01"},{"time":0.1,"name":"lizi/lizi_02"},{"time":0.1333,"name":"lizi/lizi_03"},{"time":0.2,"name":"lizi/lizi_04"},{"time":0.2333,"name":"lizi/lizi_05"},{"time":0.3,"name":"lizi/lizi_06"},{"time":0.3333,"name":"lizi/lizi_07"},{"time":0.4,"name":"lizi/lizi_08"},{"time":0.4333,"name":"lizi/lizi_09"},{"time":0.5,"name":"lizi/lizi_10"},{"time":0.5333,"name":"lizi/lizi_11"},{"time":0.6,"name":"lizi/lizi_12"},{"time":0.6333,"name":"lizi/lizi_13"},{"time":0.7,"name":"lizi/lizi_14"},{"time":0.7333,"name":"lizi/lizi_15"},{"time":0.8,"name":"lizi/lizi_16"},{"time":0.8333,"name":"lizi/lizi_17"},{"time":0.9,"name":"lizi/lizi_18"},{"time":0.9333,"name":"lizi/lizi_19"},{"time":1,"name":"lizi/lizi_00"},{"time":1.0333,"name":"lizi/lizi_01"},{"time":1.1,"name":"lizi/lizi_02"},{"time":1.1333,"name":"lizi/lizi_03"},{"time":1.2,"name":"lizi/lizi_04"},{"time":1.2333,"name":"lizi/lizi_05"},{"time":1.3,"name":"lizi/lizi_06"},{"time":1.3333,"name":"lizi/lizi_07"},{"time":1.4,"name":"lizi/lizi_08"},{"time":1.4333,"name":"lizi/lizi_09"},{"time":1.5,"name":"lizi/lizi_10"},{"time":1.5333,"name":"lizi/lizi_11"},{"time":1.6,"name":"lizi/lizi_12"},{"time":1.6333,"name":"lizi/lizi_13"},{"time":1.7,"name":"lizi/lizi_14"},{"time":1.7333,"name":"lizi/lizi_15"},{"time":1.8,"name":"lizi/lizi_16"},{"time":1.8333,"name":"lizi/lizi_17"},{"time":1.9,"name":"lizi/lizi_18"},{"time":1.9333,"name":"lizi/lizi_19"},{"time":2,"name":"lizi/lizi_00"}]},"xian":{"attachment":[{"time":0,"name":null},{"time":0.0667,"name":"xian/xian_01"},{"time":0.1333,"name":"xian/xian_02"},{"time":0.2,"name":"xian/xian_03"},{"time":0.2667,"name":"xian/xian_04"},{"time":0.3333,"name":"xian/xian_05"},{"time":0.4,"name":"xian/xian_06"},{"time":0.4667,"name":"xian/xian_07"},{"time":0.5333,"name":"xian/xian_08"},{"time":0.6,"name":"xian/xian_09"},{"time":0.6667,"name":"xian/xian_10"},{"time":0.7333,"name":"xian/xian_11"},{"time":0.8,"name":"xian/xian_12"},{"time":0.8667,"name":"xian/xian_13"},{"time":0.9333,"name":"xian/xian_14"},{"time":1,"name":"xian/xian_15"},{"time":1.0667,"name":"xian/xian_16"},{"time":1.1333,"name":"xian/xian_17"},{"time":1.2,"name":"xian/xian_18"},{"time":1.2667,"name":"xian/xian_19"},{"time":1.3333,"name":"xian/xian_20"},{"time":1.4,"name":"xian/xian_21"},{"time":1.4667,"name":"xian/xian_22"},{"time":1.5333,"name":"xian/xian_23"},{"time":1.6,"name":"xian/xian_24"},{"time":1.6667,"name":"xian/xian_25"},{"time":1.7333,"name":"xian/xian_26"},{"time":1.8,"name":"xian/xian_27"},{"time":1.8667,"name":"xian/xian_28"},{"time":1.9333,"name":"xian/xian_29"},{"time":2,"name":null}]}},"bones":{"all":{"translate":[{"time":0,"x":0,"y":14.5}]},"zi":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.1667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":0.8,"y":0.8,"curve":[0,0.8,0.75,1]},{"time":1.3333,"x":1.35,"y":1.35,"curve":[0.25,0,0.75,1]},{"time":1.6667,"x":0.8,"y":0.8,"curve":[0.25,0,0.75,1]},{"time":1.8333,"x":1.05,"y":1.05,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1}]},"M_zuanshi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":0.8,"y":0.8,"curve":[0,0.8,0.75,1]},{"time":1.1667,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":0.8,"y":0.8,"curve":[0.25,0,0.75,1]},{"time":1.6667,"x":1.05,"y":1.05,"curve":[0.25,0,0.75,1]},{"time":1.8333,"x":1,"y":1}]},"M_zuanshi_sg":{"scale":[{"time":0,"x":1,"y":0.887}],"shear":[{"time":0,"x":0,"y":-12.05}]},"glow1":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":-150}],"scale":[{"time":0,"x":4.5,"y":4.5}]},"glow2":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":150}],"scale":[{"time":0,"x":4.5,"y":4.5}]},"lizi":{"scale":[{"time":0,"x":4.3,"y":4.3}]},"xian":{"scale":[{"time":0,"x":3.5,"y":3.5}]}}}}},"_atlasText":"\nScatter.png\nsize: 2048,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nFG_add\n  rotate: false\n  xy: 168, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nFreeGame\n  rotate: true\n  xy: 1392, 377\n  size: 133, 72\n  orig: 133, 72\n  offset: 0, 0\n  index: -1\nM_zuanshi\n  rotate: true\n  xy: 2, 51\n  size: 107, 167\n  orig: 107, 167\n  offset: 0, 0\n  index: -1\nM_zuanshi_add\n  rotate: false\n  xy: 168, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_01\n  rotate: false\n  xy: 168, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_02\n  rotate: false\n  xy: 171, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_03\n  rotate: false\n  xy: 171, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_04\n  rotate: false\n  xy: 270, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_05\n  rotate: false\n  xy: 270, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_06\n  rotate: false\n  xy: 270, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_07\n  rotate: false\n  xy: 273, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_08\n  rotate: false\n  xy: 273, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_09\n  rotate: false\n  xy: 372, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_10\n  rotate: false\n  xy: 372, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_11\n  rotate: false\n  xy: 372, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_12\n  rotate: false\n  xy: 375, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_13\n  rotate: false\n  xy: 375, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_14\n  rotate: false\n  xy: 474, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_15\n  rotate: false\n  xy: 474, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_16\n  rotate: false\n  xy: 474, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_17\n  rotate: false\n  xy: 477, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_18\n  rotate: false\n  xy: 477, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_19\n  rotate: false\n  xy: 576, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_20\n  rotate: false\n  xy: 576, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_21\n  rotate: false\n  xy: 576, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_22\n  rotate: false\n  xy: 579, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_23\n  rotate: false\n  xy: 579, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_24\n  rotate: false\n  xy: 678, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_25\n  rotate: false\n  xy: 678, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_26\n  rotate: false\n  xy: 678, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_27\n  rotate: false\n  xy: 681, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_28\n  rotate: false\n  xy: 681, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_29\n  rotate: false\n  xy: 780, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbj\n  rotate: false\n  xy: 2, 336\n  size: 164, 174\n  orig: 164, 174\n  offset: 0, 0\n  index: -1\nbj_1x2\n  rotate: false\n  xy: 1392, 259\n  size: 82, 116\n  orig: 82, 116\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_01\n  rotate: false\n  xy: 780, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_02\n  rotate: false\n  xy: 780, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_03\n  rotate: false\n  xy: 783, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_04\n  rotate: false\n  xy: 783, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_05\n  rotate: false\n  xy: 882, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_06\n  rotate: false\n  xy: 882, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_07\n  rotate: false\n  xy: 882, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_08\n  rotate: false\n  xy: 885, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_09\n  rotate: false\n  xy: 885, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_10\n  rotate: false\n  xy: 984, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_11\n  rotate: false\n  xy: 984, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_12\n  rotate: false\n  xy: 984, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_13\n  rotate: false\n  xy: 987, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_14\n  rotate: false\n  xy: 987, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_15\n  rotate: false\n  xy: 1086, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_16\n  rotate: false\n  xy: 1086, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_17\n  rotate: false\n  xy: 1086, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_18\n  rotate: false\n  xy: 1089, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_19\n  rotate: false\n  xy: 1089, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_20\n  rotate: false\n  xy: 1188, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_21\n  rotate: false\n  xy: 1188, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_22\n  rotate: false\n  xy: 1188, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_23\n  rotate: false\n  xy: 1191, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_24\n  rotate: false\n  xy: 1191, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_25\n  rotate: false\n  xy: 1290, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_26\n  rotate: false\n  xy: 1290, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_27\n  rotate: false\n  xy: 1290, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_28\n  rotate: false\n  xy: 1293, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_29\n  rotate: false\n  xy: 1293, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nglow01\n  rotate: false\n  xy: 1395, 182\n  size: 75, 75\n  orig: 75, 75\n  offset: 0, 0\n  index: -1\nguang\n  rotate: false\n  xy: 2, 160\n  size: 164, 174\n  orig: 164, 174\n  offset: 0, 0\n  index: -1\nguang_1x2\n  rotate: false\n  xy: 1466, 394\n  size: 82, 116\n  orig: 82, 116\n  offset: 0, 0\n  index: -1\nlizi/lizi_00\n  rotate: false\n  xy: 1395, 113\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_01\n  rotate: false\n  xy: 1395, 44\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_02\n  rotate: false\n  xy: 1464, 113\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_03\n  rotate: false\n  xy: 1472, 190\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_04\n  rotate: false\n  xy: 1464, 44\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_05\n  rotate: false\n  xy: 1476, 325\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_06\n  rotate: false\n  xy: 1533, 121\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_07\n  rotate: false\n  xy: 1533, 52\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_08\n  rotate: false\n  xy: 1541, 256\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_09\n  rotate: false\n  xy: 1545, 325\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_10\n  rotate: false\n  xy: 1550, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_11\n  rotate: false\n  xy: 1602, 187\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_12\n  rotate: false\n  xy: 1610, 256\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_13\n  rotate: false\n  xy: 1614, 374\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_14\n  rotate: false\n  xy: 1619, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_15\n  rotate: false\n  xy: 1602, 118\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_16\n  rotate: false\n  xy: 1602, 49\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_17\n  rotate: false\n  xy: 1671, 187\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_18\n  rotate: false\n  xy: 1679, 305\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_19\n  rotate: false\n  xy: 1683, 374\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_01\n  rotate: false\n  xy: 1688, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_02\n  rotate: false\n  xy: 1671, 118\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_03\n  rotate: false\n  xy: 1671, 49\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_04\n  rotate: false\n  xy: 1740, 236\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_05\n  rotate: false\n  xy: 1748, 305\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_06\n  rotate: false\n  xy: 1752, 374\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_07\n  rotate: false\n  xy: 1757, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_08\n  rotate: false\n  xy: 1740, 167\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_09\n  rotate: false\n  xy: 1740, 98\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_10\n  rotate: false\n  xy: 1740, 29\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_11\n  rotate: false\n  xy: 1809, 236\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_12\n  rotate: false\n  xy: 1817, 305\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_13\n  rotate: false\n  xy: 1821, 374\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_14\n  rotate: false\n  xy: 1826, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_15\n  rotate: false\n  xy: 1878, 236\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_16\n  rotate: false\n  xy: 1886, 305\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_17\n  rotate: false\n  xy: 1890, 374\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_18\n  rotate: false\n  xy: 1895, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_19\n  rotate: false\n  xy: 1947, 236\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_20\n  rotate: false\n  xy: 1955, 305\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_21\n  rotate: false\n  xy: 1959, 374\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_22\n  rotate: false\n  xy: 1964, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_23\n  rotate: false\n  xy: 1809, 167\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_24\n  rotate: false\n  xy: 1809, 98\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_25\n  rotate: false\n  xy: 1809, 29\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_26\n  rotate: false\n  xy: 1878, 167\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_27\n  rotate: false\n  xy: 1947, 167\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_28\n  rotate: false\n  xy: 1878, 98\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_29\n  rotate: false\n  xy: 1878, 29\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"1aBYZ9VQVPnKv2KlGI7alh"}],"textureNames":["Scatter.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Scatter",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "iuKenqB0ngH3oJaPMXRuoXfXvR4",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./img2/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "all",
+        "parent": "root"
+      },
+      {
+        "name": "zuanshi",
+        "parent": "all"
+      },
+      {
+        "name": "M_zuanshi",
+        "parent": "zuanshi"
+      },
+      {
+        "name": "M_zuanshi_sg",
+        "parent": "M_zuanshi",
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "bj",
+        "parent": "all"
+      },
+      {
+        "name": "zi2",
+        "parent": "all"
+      },
+      {
+        "name": "zi",
+        "parent": "zi2",
+        "x": -7.5,
+        "y": -15
+      },
+      {
+        "name": "fg_sg",
+        "parent": "zi",
+        "x": 2.63,
+        "y": 0.25,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "glow",
+        "parent": "all"
+      },
+      {
+        "name": "glow1",
+        "parent": "glow"
+      },
+      {
+        "name": "glow2",
+        "parent": "glow"
+      },
+      {
+        "name": "guang",
+        "parent": "all"
+      },
+      {
+        "name": "lizi",
+        "parent": "all"
+      },
+      {
+        "name": "xian",
+        "parent": "all"
+      }
+    ],
+    "slots": [
+      {
+        "name": "bj",
+        "bone": "bj"
+      },
+      {
+        "name": "glow01",
+        "bone": "glow1",
+        "blend": "additive"
+      },
+      {
+        "name": "glow1",
+        "bone": "glow2",
+        "blend": "additive"
+      },
+      {
+        "name": "lizi",
+        "bone": "lizi",
+        "blend": "additive"
+      },
+      {
+        "name": "1",
+        "bone": "all"
+      },
+      {
+        "name": "M_zuanshi",
+        "bone": "M_zuanshi"
+      },
+      {
+        "name": "M_zuanshi_add",
+        "bone": "M_zuanshi",
+        "blend": "additive"
+      },
+      {
+        "name": "M_zuanshi_sg",
+        "bone": "M_zuanshi_sg",
+        "blend": "additive"
+      },
+      {
+        "name": "guang",
+        "bone": "guang",
+        "blend": "additive"
+      },
+      {
+        "name": "FreeGame",
+        "bone": "zi"
+      },
+      {
+        "name": "FG_add",
+        "bone": "zi",
+        "blend": "additive"
+      },
+      {
+        "name": "fg_sg",
+        "bone": "fg_sg",
+        "blend": "additive"
+      },
+      {
+        "name": "xian",
+        "bone": "xian",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "1": {
+          "1": {
+            "type": "clipping",
+            "end": "guang",
+            "vertexCount": 4,
+            "vertices": [
+              -41,
+              57.99,
+              40.94,
+              58.01,
+              41,
+              -58.01,
+              -41.01,
+              -58
+            ],
+            "color": "ce3a3a00"
+          }
+        },
+        "FG_add": {
+          "FG_add": {
+            "x": 2.63,
+            "y": 0.25,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 100,
+            "height": 100
+          }
+        },
+        "FreeGame": {
+          "FreeGame": {
+            "x": 2.63,
+            "y": 0.25,
+            "width": 133,
+            "height": 72
+          }
+        },
+        "M_zuanshi": {
+          "M_zuanshi": {
+            "width": 107,
+            "height": 167
+          }
+        },
+        "M_zuanshi_add": {
+          "M_zuanshi_add": {
+            "type": "mesh",
+            "uvs": [
+              0.79067,
+              0.45409,
+              0.73211,
+              0.83839,
+              0.53081,
+              1,
+              0.41735,
+              1,
+              0.32585,
+              0.89329,
+              0.18677,
+              0.49801,
+              0.28193,
+              0.18325,
+              0.41735,
+              0,
+              0.49421,
+              0,
+              0.59702,
+              0,
+              0.39905,
+              0.26743,
+              0.38075,
+              0.63343,
+              0.50153,
+              0.89329,
+              0.56375,
+              0.61879,
+              0.53813,
+              0.18691
+            ],
+            "triangles": [
+              14,
+              8,
+              9,
+              10,
+              6,
+              7,
+              10,
+              7,
+              8,
+              14,
+              10,
+              8,
+              14,
+              9,
+              0,
+              5,
+              6,
+              10,
+              13,
+              14,
+              0,
+              10,
+              14,
+              13,
+              11,
+              5,
+              10,
+              13,
+              11,
+              10,
+              1,
+              13,
+              0,
+              4,
+              5,
+              11,
+              12,
+              11,
+              13,
+              12,
+              13,
+              1,
+              3,
+              4,
+              11,
+              12,
+              3,
+              11,
+              2,
+              12,
+              1,
+              3,
+              12,
+              2
+            ],
+            "vertices": [
+              58.13,
+              9.18,
+              41.31,
+              -56.67,
+              -24.1,
+              -78.78,
+              -29.89,
+              -72.1,
+              -56.45,
+              -35.82,
+              -62.65,
+              0.4,
+              -43.61,
+              63.35,
+              -11.81,
+              86.64,
+              20.06,
+              86.64,
+              27.26,
+              82.32,
+              -20.19,
+              46.51,
+              -23.85,
+              -26.69,
+              -22.1,
+              -70.8,
+              12.75,
+              -23.76,
+              40.24,
+              46.11
+            ],
+            "hull": 10,
+            "edges": [
+              18,
+              0,
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              10,
+              12,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              16,
+              20,
+              20,
+              22,
+              22,
+              6,
+              24,
+              26,
+              26,
+              28,
+              28,
+              18
+            ],
+            "width": 100,
+            "height": 100
+          }
+        },
+        "M_zuanshi_sg": {
+          "M_zuanshi_sg/M_zuanshi_sg_01": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_02": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_03": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_04": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_05": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_06": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_07": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_08": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_09": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_10": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_11": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_12": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_13": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_14": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_15": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_16": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_17": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_18": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_19": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_20": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_21": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_22": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_23": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_24": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_25": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_26": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_27": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_28": {
+            "width": 100,
+            "height": 100
+          },
+          "M_zuanshi_sg/M_zuanshi_sg_29": {
+            "width": 100,
+            "height": 100
+          }
+        },
+        "bj": {
+          "bj": {
+            "width": 164,
+            "height": 174
+          },
+          "bj_1x2": {
+            "width": 82,
+            "height": 116
+          }
+        },
+        "fg_sg": {
+          "fg_sg/fg_sg_01": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_02": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_03": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_04": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_05": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_06": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_07": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_08": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_09": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_10": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_11": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_12": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_13": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_14": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_15": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_16": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_17": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_18": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_19": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_20": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_21": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_22": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_23": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_24": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_25": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_26": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_27": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_28": {
+            "width": 100,
+            "height": 100
+          },
+          "fg_sg/fg_sg_29": {
+            "width": 100,
+            "height": 100
+          }
+        },
+        "glow01": {
+          "glow01": {
+            "width": 75,
+            "height": 75
+          }
+        },
+        "glow1": {
+          "glow01": {
+            "width": 75,
+            "height": 75
+          }
+        },
+        "guang": {
+          "guang": {
+            "y": -0.25,
+            "width": 164,
+            "height": 174
+          },
+          "guang_1x2": {
+            "width": 82,
+            "height": 116
+          }
+        },
+        "lizi": {
+          "lizi/lizi_00": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_01": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_02": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_03": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_04": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_05": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_06": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_07": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_08": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_09": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_10": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_11": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_12": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_13": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_14": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_15": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_16": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_17": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_18": {
+            "width": 67,
+            "height": 67
+          },
+          "lizi/lizi_19": {
+            "width": 67,
+            "height": 67
+          }
+        },
+        "xian": {
+          "xian/xian_01": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_02": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_03": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_04": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_05": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_06": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_07": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_08": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_09": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_10": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_11": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_12": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_13": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_14": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_15": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_16": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_17": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_18": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_19": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_20": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_21": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_22": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_23": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_24": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_25": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_26": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_27": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_28": {
+            "width": 67,
+            "height": 67
+          },
+          "xian/xian_29": {
+            "width": 67,
+            "height": 67
+          }
+        }
+      }
+    },
+    "animations": {
+      "Scatter_1x2_01": {
+        "slots": {
+          "1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "1"
+              },
+              {
+                "time": 0.0333,
+                "name": null
+              },
+              {
+                "time": 0.5333,
+                "name": "1"
+              }
+            ]
+          },
+          "FG_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "FG_add"
+              }
+            ]
+          },
+          "FreeGame": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "FreeGame"
+              }
+            ]
+          },
+          "M_zuanshi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "M_zuanshi"
+              }
+            ]
+          },
+          "M_zuanshi_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.9,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "M_zuanshi_add"
+              }
+            ]
+          },
+          "M_zuanshi_sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "bj": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "bj_1x2"
+              }
+            ]
+          },
+          "fg_sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "glow01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow01"
+              }
+            ]
+          },
+          "glow1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow01"
+              }
+            ]
+          },
+          "guang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "guang_1x2"
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "xian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "all": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 7.25
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 1.5,
+                "y": 1.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6333,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8,
+                "x": 1.05,
+                "y": 1.05,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.9667,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "M_zuanshi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1.5,
+                "y": 1.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "x": 1.05,
+                "y": 1.05,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.9,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "glow1": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 1,
+                "angle": -90
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 3,
+                "y": 3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 5,
+                "y": 5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 3,
+                "y": 3
+              }
+            ]
+          },
+          "glow2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 60
+              },
+              {
+                "time": 1,
+                "angle": 180
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 3,
+                "y": 3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 5,
+                "y": 5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 3,
+                "y": 3
+              }
+            ]
+          },
+          "zuanshi": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 1.25,
+                "y": -0.75
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.64,
+                "y": 0.64
+              }
+            ]
+          },
+          "zi2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 3.25,
+                "y": 1.25
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.65,
+                "y": 0.65
+              }
+            ]
+          },
+          "glow": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.64,
+                "y": 0.64
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "M_zuanshi_add": {
+              "M_zuanshi_add": [
+                {
+                  "time": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Scatter_1x2_02": {
+        "slots": {
+          "1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "1"
+              }
+            ]
+          },
+          "FG_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffff77",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "FG_add"
+              }
+            ]
+          },
+          "FreeGame": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "FreeGame"
+              }
+            ]
+          },
+          "M_zuanshi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "M_zuanshi"
+              }
+            ]
+          },
+          "M_zuanshi_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff77",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "M_zuanshi_add"
+              }
+            ]
+          },
+          "M_zuanshi_sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_01"
+              },
+              {
+                "time": 0.1,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_03"
+              },
+              {
+                "time": 0.2,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_04"
+              },
+              {
+                "time": 0.2333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_05"
+              },
+              {
+                "time": 0.3,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_06"
+              },
+              {
+                "time": 0.3333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_07"
+              },
+              {
+                "time": 0.4,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_08"
+              },
+              {
+                "time": 0.4333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_09"
+              },
+              {
+                "time": 0.5,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_10"
+              },
+              {
+                "time": 0.5333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_11"
+              },
+              {
+                "time": 0.6,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_12"
+              },
+              {
+                "time": 0.6333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_13"
+              },
+              {
+                "time": 0.7,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_14"
+              },
+              {
+                "time": 0.7333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_15"
+              },
+              {
+                "time": 0.8,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_16"
+              },
+              {
+                "time": 0.8333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_17"
+              },
+              {
+                "time": 0.9,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_18"
+              },
+              {
+                "time": 0.9333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_19"
+              },
+              {
+                "time": 1,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_20"
+              },
+              {
+                "time": 1.0333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_21"
+              },
+              {
+                "time": 1.1,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_22"
+              },
+              {
+                "time": 1.1333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_23"
+              },
+              {
+                "time": 1.2,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_24"
+              },
+              {
+                "time": 1.2333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_25"
+              },
+              {
+                "time": 1.3,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_26"
+              },
+              {
+                "time": 1.3333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_27"
+              },
+              {
+                "time": 1.4,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_28"
+              },
+              {
+                "time": 1.4333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_29"
+              },
+              {
+                "time": 1.5,
+                "name": null
+              }
+            ]
+          },
+          "bj": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "bj_1x2"
+              }
+            ]
+          },
+          "fg_sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.5,
+                "name": null
+              },
+              {
+                "time": 0.5333,
+                "name": "fg_sg/fg_sg_01"
+              },
+              {
+                "time": 0.6,
+                "name": "fg_sg/fg_sg_02"
+              },
+              {
+                "time": 0.6333,
+                "name": "fg_sg/fg_sg_03"
+              },
+              {
+                "time": 0.7,
+                "name": "fg_sg/fg_sg_04"
+              },
+              {
+                "time": 0.7333,
+                "name": "fg_sg/fg_sg_05"
+              },
+              {
+                "time": 0.8,
+                "name": "fg_sg/fg_sg_06"
+              },
+              {
+                "time": 0.8333,
+                "name": "fg_sg/fg_sg_07"
+              },
+              {
+                "time": 0.9,
+                "name": "fg_sg/fg_sg_08"
+              },
+              {
+                "time": 0.9333,
+                "name": "fg_sg/fg_sg_09"
+              },
+              {
+                "time": 1,
+                "name": "fg_sg/fg_sg_10"
+              },
+              {
+                "time": 1.0333,
+                "name": "fg_sg/fg_sg_11"
+              },
+              {
+                "time": 1.1,
+                "name": "fg_sg/fg_sg_12"
+              },
+              {
+                "time": 1.1333,
+                "name": "fg_sg/fg_sg_13"
+              },
+              {
+                "time": 1.2,
+                "name": "fg_sg/fg_sg_14"
+              },
+              {
+                "time": 1.2333,
+                "name": "fg_sg/fg_sg_15"
+              },
+              {
+                "time": 1.3,
+                "name": "fg_sg/fg_sg_16"
+              },
+              {
+                "time": 1.3333,
+                "name": "fg_sg/fg_sg_17"
+              },
+              {
+                "time": 1.4,
+                "name": "fg_sg/fg_sg_18"
+              },
+              {
+                "time": 1.4333,
+                "name": "fg_sg/fg_sg_19"
+              },
+              {
+                "time": 1.5,
+                "name": "fg_sg/fg_sg_20"
+              },
+              {
+                "time": 1.5333,
+                "name": "fg_sg/fg_sg_21"
+              },
+              {
+                "time": 1.6,
+                "name": "fg_sg/fg_sg_22"
+              },
+              {
+                "time": 1.6333,
+                "name": "fg_sg/fg_sg_23"
+              },
+              {
+                "time": 1.7,
+                "name": "fg_sg/fg_sg_24"
+              },
+              {
+                "time": 1.7333,
+                "name": "fg_sg/fg_sg_25"
+              },
+              {
+                "time": 1.8,
+                "name": "fg_sg/fg_sg_26"
+              },
+              {
+                "time": 1.8333,
+                "name": "fg_sg/fg_sg_27"
+              },
+              {
+                "time": 1.9,
+                "name": "fg_sg/fg_sg_28"
+              },
+              {
+                "time": 1.9333,
+                "name": "fg_sg/fg_sg_29"
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          },
+          "glow01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow01"
+              }
+            ]
+          },
+          "glow1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "guang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "guang_1x2"
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "xian": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff78"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "xian/xian_01"
+              },
+              {
+                "time": 0.1333,
+                "name": "xian/xian_02"
+              },
+              {
+                "time": 0.2,
+                "name": "xian/xian_03"
+              },
+              {
+                "time": 0.2667,
+                "name": "xian/xian_04"
+              },
+              {
+                "time": 0.3333,
+                "name": "xian/xian_05"
+              },
+              {
+                "time": 0.4,
+                "name": "xian/xian_06"
+              },
+              {
+                "time": 0.4667,
+                "name": "xian/xian_07"
+              },
+              {
+                "time": 0.5333,
+                "name": "xian/xian_08"
+              },
+              {
+                "time": 0.6,
+                "name": "xian/xian_09"
+              },
+              {
+                "time": 0.6667,
+                "name": "xian/xian_10"
+              },
+              {
+                "time": 0.7333,
+                "name": "xian/xian_11"
+              },
+              {
+                "time": 0.8,
+                "name": "xian/xian_12"
+              },
+              {
+                "time": 0.8667,
+                "name": "xian/xian_13"
+              },
+              {
+                "time": 0.9333,
+                "name": "xian/xian_14"
+              },
+              {
+                "time": 1,
+                "name": "xian/xian_15"
+              },
+              {
+                "time": 1.0667,
+                "name": "xian/xian_16"
+              },
+              {
+                "time": 1.1333,
+                "name": "xian/xian_17"
+              },
+              {
+                "time": 1.2,
+                "name": "xian/xian_18"
+              },
+              {
+                "time": 1.2667,
+                "name": "xian/xian_19"
+              },
+              {
+                "time": 1.3333,
+                "name": "xian/xian_20"
+              },
+              {
+                "time": 1.4,
+                "name": "xian/xian_21"
+              },
+              {
+                "time": 1.4667,
+                "name": "xian/xian_22"
+              },
+              {
+                "time": 1.5333,
+                "name": "xian/xian_23"
+              },
+              {
+                "time": 1.6,
+                "name": "xian/xian_24"
+              },
+              {
+                "time": 1.6667,
+                "name": "xian/xian_25"
+              },
+              {
+                "time": 1.7333,
+                "name": "xian/xian_26"
+              },
+              {
+                "time": 1.8,
+                "name": "xian/xian_27"
+              },
+              {
+                "time": 1.8667,
+                "name": "xian/xian_28"
+              },
+              {
+                "time": 1.9333,
+                "name": "xian/xian_29"
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "all": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 7.25
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "M_zuanshi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "M_zuanshi_sg": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.887
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -10.15
+              }
+            ]
+          },
+          "glow1": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": -150
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 3,
+                "y": 3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 4.5,
+                "y": 4.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 3,
+                "y": 3
+              }
+            ]
+          },
+          "xian": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.6,
+                "y": 2
+              }
+            ]
+          },
+          "zi2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 3.25,
+                "y": 1.25
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.65,
+                "y": 0.65
+              }
+            ]
+          },
+          "zuanshi": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 1.25,
+                "y": -0.75
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.64,
+                "y": 0.64
+              }
+            ]
+          },
+          "glow": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.64,
+                "y": 0.64
+              }
+            ]
+          }
+        }
+      },
+      "Scatter_1x2_03": {
+        "slots": {
+          "1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "1"
+              },
+              {
+                "time": 0.0333,
+                "name": null
+              },
+              {
+                "time": 1.6667,
+                "name": "1"
+              }
+            ]
+          },
+          "FG_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.4333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "FG_add"
+              }
+            ]
+          },
+          "FreeGame": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "FreeGame"
+              }
+            ]
+          },
+          "M_zuanshi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "M_zuanshi"
+              }
+            ]
+          },
+          "M_zuanshi_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.2667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.8333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "M_zuanshi_add"
+              }
+            ]
+          },
+          "M_zuanshi_sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_01"
+              },
+              {
+                "time": 0.2667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_02"
+              },
+              {
+                "time": 0.3,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_03"
+              },
+              {
+                "time": 0.3667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_04"
+              },
+              {
+                "time": 0.4,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_05"
+              },
+              {
+                "time": 0.4667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_06"
+              },
+              {
+                "time": 0.5,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_07"
+              },
+              {
+                "time": 0.5667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_08"
+              },
+              {
+                "time": 0.6,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_09"
+              },
+              {
+                "time": 0.6667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_10"
+              },
+              {
+                "time": 0.7,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_11"
+              },
+              {
+                "time": 0.7667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_12"
+              },
+              {
+                "time": 0.8,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_13"
+              },
+              {
+                "time": 0.8667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_14"
+              },
+              {
+                "time": 0.9,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_15"
+              },
+              {
+                "time": 0.9667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_16"
+              },
+              {
+                "time": 1,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_17"
+              },
+              {
+                "time": 1.0667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_18"
+              },
+              {
+                "time": 1.1,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_19"
+              },
+              {
+                "time": 1.1667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_20"
+              },
+              {
+                "time": 1.2,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_21"
+              },
+              {
+                "time": 1.2667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_22"
+              },
+              {
+                "time": 1.3,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_23"
+              },
+              {
+                "time": 1.3667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_24"
+              },
+              {
+                "time": 1.4,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_25"
+              },
+              {
+                "time": 1.4667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_26"
+              },
+              {
+                "time": 1.5,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_27"
+              },
+              {
+                "time": 1.5667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_28"
+              },
+              {
+                "time": 1.6,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_29"
+              },
+              {
+                "time": 1.6667,
+                "name": null
+              }
+            ]
+          },
+          "bj": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "bj_1x2"
+              }
+            ]
+          },
+          "fg_sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": null
+              },
+              {
+                "time": 0.3667,
+                "name": "fg_sg/fg_sg_01"
+              },
+              {
+                "time": 0.4333,
+                "name": "fg_sg/fg_sg_02"
+              },
+              {
+                "time": 0.4667,
+                "name": "fg_sg/fg_sg_03"
+              },
+              {
+                "time": 0.5333,
+                "name": "fg_sg/fg_sg_04"
+              },
+              {
+                "time": 0.5667,
+                "name": "fg_sg/fg_sg_05"
+              },
+              {
+                "time": 0.6333,
+                "name": "fg_sg/fg_sg_06"
+              },
+              {
+                "time": 0.6667,
+                "name": "fg_sg/fg_sg_07"
+              },
+              {
+                "time": 0.7333,
+                "name": "fg_sg/fg_sg_08"
+              },
+              {
+                "time": 0.7667,
+                "name": "fg_sg/fg_sg_09"
+              },
+              {
+                "time": 0.8333,
+                "name": "fg_sg/fg_sg_10"
+              },
+              {
+                "time": 0.8667,
+                "name": "fg_sg/fg_sg_11"
+              },
+              {
+                "time": 0.9333,
+                "name": "fg_sg/fg_sg_12"
+              },
+              {
+                "time": 0.9667,
+                "name": "fg_sg/fg_sg_13"
+              },
+              {
+                "time": 1.0333,
+                "name": "fg_sg/fg_sg_14"
+              },
+              {
+                "time": 1.0667,
+                "name": "fg_sg/fg_sg_15"
+              },
+              {
+                "time": 1.1333,
+                "name": "fg_sg/fg_sg_16"
+              },
+              {
+                "time": 1.1667,
+                "name": "fg_sg/fg_sg_17"
+              },
+              {
+                "time": 1.2333,
+                "name": "fg_sg/fg_sg_18"
+              },
+              {
+                "time": 1.2667,
+                "name": "fg_sg/fg_sg_19"
+              },
+              {
+                "time": 1.3333,
+                "name": "fg_sg/fg_sg_20"
+              },
+              {
+                "time": 1.3667,
+                "name": "fg_sg/fg_sg_21"
+              },
+              {
+                "time": 1.4333,
+                "name": "fg_sg/fg_sg_22"
+              },
+              {
+                "time": 1.4667,
+                "name": "fg_sg/fg_sg_23"
+              },
+              {
+                "time": 1.5333,
+                "name": "fg_sg/fg_sg_24"
+              },
+              {
+                "time": 1.5667,
+                "name": "fg_sg/fg_sg_25"
+              },
+              {
+                "time": 1.6333,
+                "name": "fg_sg/fg_sg_26"
+              },
+              {
+                "time": 1.6667,
+                "name": "fg_sg/fg_sg_27"
+              },
+              {
+                "time": 1.7333,
+                "name": "fg_sg/fg_sg_28"
+              },
+              {
+                "time": 1.7667,
+                "name": "fg_sg/fg_sg_29"
+              },
+              {
+                "time": 1.8333,
+                "name": null
+              }
+            ]
+          },
+          "glow01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow01"
+              }
+            ]
+          },
+          "glow1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow01"
+              }
+            ]
+          },
+          "guang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 2,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "guang_1x2"
+              }
+            ]
+          },
+          "lizi": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lizi/lizi_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "lizi/lizi_01"
+              },
+              {
+                "time": 0.1,
+                "name": "lizi/lizi_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "lizi/lizi_03"
+              },
+              {
+                "time": 0.2,
+                "name": "lizi/lizi_04"
+              },
+              {
+                "time": 0.2333,
+                "name": "lizi/lizi_05"
+              },
+              {
+                "time": 0.3,
+                "name": "lizi/lizi_06"
+              },
+              {
+                "time": 0.3333,
+                "name": "lizi/lizi_07"
+              },
+              {
+                "time": 0.4,
+                "name": "lizi/lizi_08"
+              },
+              {
+                "time": 0.4333,
+                "name": "lizi/lizi_09"
+              },
+              {
+                "time": 0.5,
+                "name": "lizi/lizi_10"
+              },
+              {
+                "time": 0.5333,
+                "name": "lizi/lizi_11"
+              },
+              {
+                "time": 0.6,
+                "name": "lizi/lizi_12"
+              },
+              {
+                "time": 0.6333,
+                "name": "lizi/lizi_13"
+              },
+              {
+                "time": 0.7,
+                "name": "lizi/lizi_14"
+              },
+              {
+                "time": 0.7333,
+                "name": "lizi/lizi_15"
+              },
+              {
+                "time": 0.8,
+                "name": "lizi/lizi_16"
+              },
+              {
+                "time": 0.8333,
+                "name": "lizi/lizi_17"
+              },
+              {
+                "time": 0.9,
+                "name": "lizi/lizi_18"
+              },
+              {
+                "time": 0.9333,
+                "name": "lizi/lizi_19"
+              },
+              {
+                "time": 1,
+                "name": "lizi/lizi_00"
+              },
+              {
+                "time": 1.0333,
+                "name": "lizi/lizi_01"
+              },
+              {
+                "time": 1.1,
+                "name": "lizi/lizi_02"
+              },
+              {
+                "time": 1.1333,
+                "name": "lizi/lizi_03"
+              },
+              {
+                "time": 1.2,
+                "name": "lizi/lizi_04"
+              },
+              {
+                "time": 1.2333,
+                "name": "lizi/lizi_05"
+              },
+              {
+                "time": 1.3,
+                "name": "lizi/lizi_06"
+              },
+              {
+                "time": 1.3333,
+                "name": "lizi/lizi_07"
+              },
+              {
+                "time": 1.4,
+                "name": "lizi/lizi_08"
+              },
+              {
+                "time": 1.4333,
+                "name": "lizi/lizi_09"
+              },
+              {
+                "time": 1.5,
+                "name": "lizi/lizi_10"
+              },
+              {
+                "time": 1.5333,
+                "name": "lizi/lizi_11"
+              },
+              {
+                "time": 1.6,
+                "name": "lizi/lizi_12"
+              },
+              {
+                "time": 1.6333,
+                "name": "lizi/lizi_13"
+              },
+              {
+                "time": 1.7,
+                "name": "lizi/lizi_14"
+              },
+              {
+                "time": 1.7333,
+                "name": "lizi/lizi_15"
+              },
+              {
+                "time": 1.8,
+                "name": "lizi/lizi_16"
+              },
+              {
+                "time": 1.8333,
+                "name": "lizi/lizi_17"
+              },
+              {
+                "time": 1.9,
+                "name": "lizi/lizi_18"
+              },
+              {
+                "time": 1.9333,
+                "name": "lizi/lizi_19"
+              },
+              {
+                "time": 2,
+                "name": "lizi/lizi_00"
+              }
+            ]
+          },
+          "xian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "xian/xian_01"
+              },
+              {
+                "time": 0.1333,
+                "name": "xian/xian_02"
+              },
+              {
+                "time": 0.2,
+                "name": "xian/xian_03"
+              },
+              {
+                "time": 0.2667,
+                "name": "xian/xian_04"
+              },
+              {
+                "time": 0.3333,
+                "name": "xian/xian_05"
+              },
+              {
+                "time": 0.4,
+                "name": "xian/xian_06"
+              },
+              {
+                "time": 0.4667,
+                "name": "xian/xian_07"
+              },
+              {
+                "time": 0.5333,
+                "name": "xian/xian_08"
+              },
+              {
+                "time": 0.6,
+                "name": "xian/xian_09"
+              },
+              {
+                "time": 0.6667,
+                "name": "xian/xian_10"
+              },
+              {
+                "time": 0.7333,
+                "name": "xian/xian_11"
+              },
+              {
+                "time": 0.8,
+                "name": "xian/xian_12"
+              },
+              {
+                "time": 0.8667,
+                "name": "xian/xian_13"
+              },
+              {
+                "time": 0.9333,
+                "name": "xian/xian_14"
+              },
+              {
+                "time": 1,
+                "name": "xian/xian_15"
+              },
+              {
+                "time": 1.0667,
+                "name": "xian/xian_16"
+              },
+              {
+                "time": 1.1333,
+                "name": "xian/xian_17"
+              },
+              {
+                "time": 1.2,
+                "name": "xian/xian_18"
+              },
+              {
+                "time": 1.2667,
+                "name": "xian/xian_19"
+              },
+              {
+                "time": 1.3333,
+                "name": "xian/xian_20"
+              },
+              {
+                "time": 1.4,
+                "name": "xian/xian_21"
+              },
+              {
+                "time": 1.4667,
+                "name": "xian/xian_22"
+              },
+              {
+                "time": 1.5333,
+                "name": "xian/xian_23"
+              },
+              {
+                "time": 1.6,
+                "name": "xian/xian_24"
+              },
+              {
+                "time": 1.6667,
+                "name": "xian/xian_25"
+              },
+              {
+                "time": 1.7333,
+                "name": "xian/xian_26"
+              },
+              {
+                "time": 1.8,
+                "name": "xian/xian_27"
+              },
+              {
+                "time": 1.8667,
+                "name": "xian/xian_28"
+              },
+              {
+                "time": 1.9333,
+                "name": "xian/xian_29"
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "all": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 7.25
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0,
+                  0.8,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 1.35,
+                "y": 1.35,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.8333,
+                "x": 1.05,
+                "y": 1.05,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "M_zuanshi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0,
+                  0.8,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 1.05,
+                "y": 1.05,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.8333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "glow1": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": -150
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 4.5,
+                "y": 4.5
+              }
+            ]
+          },
+          "glow2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": 150
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 4.5,
+                "y": 4.5
+              }
+            ]
+          },
+          "lizi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 2.876,
+                "y": 2.876
+              }
+            ]
+          },
+          "xian": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 2.3,
+                "y": 2.5
+              }
+            ]
+          },
+          "zi2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 3.25,
+                "y": 1.25
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.65,
+                "y": 0.65
+              }
+            ]
+          },
+          "zuanshi": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 1.25,
+                "y": -0.75
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.64,
+                "y": 0.64
+              }
+            ]
+          },
+          "glow": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.64,
+                "y": 0.64
+              }
+            ]
+          }
+        }
+      },
+      "Scatter_2x3_01": {
+        "slots": {
+          "1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "FG_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "FG_add"
+              }
+            ]
+          },
+          "FreeGame": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "FreeGame"
+              }
+            ]
+          },
+          "M_zuanshi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "M_zuanshi"
+              }
+            ]
+          },
+          "M_zuanshi_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.9,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "M_zuanshi_add"
+              }
+            ]
+          },
+          "M_zuanshi_sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "bj": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "bj"
+              }
+            ]
+          },
+          "fg_sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "glow01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow01"
+              }
+            ]
+          },
+          "glow1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow01"
+              }
+            ]
+          },
+          "guang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "guang"
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "xian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "all": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 14.5
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 1.5,
+                "y": 1.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6333,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8,
+                "x": 1.05,
+                "y": 1.05,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.9667,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "M_zuanshi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1.5,
+                "y": 1.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "x": 1.05,
+                "y": 1.05,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.9,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "glow1": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 1,
+                "angle": -90
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 3,
+                "y": 3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 5,
+                "y": 5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 3,
+                "y": 3
+              }
+            ]
+          },
+          "glow2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 60
+              },
+              {
+                "time": 1,
+                "angle": 180
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 3,
+                "y": 3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 5,
+                "y": 5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 3,
+                "y": 3
+              }
+            ]
+          }
+        }
+      },
+      "Scatter_2x3_02": {
+        "slots": {
+          "1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "FG_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffff77",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "FG_add"
+              }
+            ]
+          },
+          "FreeGame": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "FreeGame"
+              }
+            ]
+          },
+          "M_zuanshi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "M_zuanshi"
+              }
+            ]
+          },
+          "M_zuanshi_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff77",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "M_zuanshi_add"
+              }
+            ]
+          },
+          "M_zuanshi_sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_01"
+              },
+              {
+                "time": 0.1,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_03"
+              },
+              {
+                "time": 0.2,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_04"
+              },
+              {
+                "time": 0.2333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_05"
+              },
+              {
+                "time": 0.3,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_06"
+              },
+              {
+                "time": 0.3333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_07"
+              },
+              {
+                "time": 0.4,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_08"
+              },
+              {
+                "time": 0.4333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_09"
+              },
+              {
+                "time": 0.5,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_10"
+              },
+              {
+                "time": 0.5333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_11"
+              },
+              {
+                "time": 0.6,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_12"
+              },
+              {
+                "time": 0.6333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_13"
+              },
+              {
+                "time": 0.7,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_14"
+              },
+              {
+                "time": 0.7333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_15"
+              },
+              {
+                "time": 0.8,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_16"
+              },
+              {
+                "time": 0.8333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_17"
+              },
+              {
+                "time": 0.9,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_18"
+              },
+              {
+                "time": 0.9333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_19"
+              },
+              {
+                "time": 1,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_20"
+              },
+              {
+                "time": 1.0333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_21"
+              },
+              {
+                "time": 1.1,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_22"
+              },
+              {
+                "time": 1.1333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_23"
+              },
+              {
+                "time": 1.2,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_24"
+              },
+              {
+                "time": 1.2333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_25"
+              },
+              {
+                "time": 1.3,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_26"
+              },
+              {
+                "time": 1.3333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_27"
+              },
+              {
+                "time": 1.4,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_28"
+              },
+              {
+                "time": 1.4333,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_29"
+              },
+              {
+                "time": 1.5,
+                "name": null
+              }
+            ]
+          },
+          "bj": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "bj"
+              }
+            ]
+          },
+          "fg_sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.5,
+                "name": null
+              },
+              {
+                "time": 0.5333,
+                "name": "fg_sg/fg_sg_01"
+              },
+              {
+                "time": 0.6,
+                "name": "fg_sg/fg_sg_02"
+              },
+              {
+                "time": 0.6333,
+                "name": "fg_sg/fg_sg_03"
+              },
+              {
+                "time": 0.7,
+                "name": "fg_sg/fg_sg_04"
+              },
+              {
+                "time": 0.7333,
+                "name": "fg_sg/fg_sg_05"
+              },
+              {
+                "time": 0.8,
+                "name": "fg_sg/fg_sg_06"
+              },
+              {
+                "time": 0.8333,
+                "name": "fg_sg/fg_sg_07"
+              },
+              {
+                "time": 0.9,
+                "name": "fg_sg/fg_sg_08"
+              },
+              {
+                "time": 0.9333,
+                "name": "fg_sg/fg_sg_09"
+              },
+              {
+                "time": 1,
+                "name": "fg_sg/fg_sg_10"
+              },
+              {
+                "time": 1.0333,
+                "name": "fg_sg/fg_sg_11"
+              },
+              {
+                "time": 1.1,
+                "name": "fg_sg/fg_sg_12"
+              },
+              {
+                "time": 1.1333,
+                "name": "fg_sg/fg_sg_13"
+              },
+              {
+                "time": 1.2,
+                "name": "fg_sg/fg_sg_14"
+              },
+              {
+                "time": 1.2333,
+                "name": "fg_sg/fg_sg_15"
+              },
+              {
+                "time": 1.3,
+                "name": "fg_sg/fg_sg_16"
+              },
+              {
+                "time": 1.3333,
+                "name": "fg_sg/fg_sg_17"
+              },
+              {
+                "time": 1.4,
+                "name": "fg_sg/fg_sg_18"
+              },
+              {
+                "time": 1.4333,
+                "name": "fg_sg/fg_sg_19"
+              },
+              {
+                "time": 1.5,
+                "name": "fg_sg/fg_sg_20"
+              },
+              {
+                "time": 1.5333,
+                "name": "fg_sg/fg_sg_21"
+              },
+              {
+                "time": 1.6,
+                "name": "fg_sg/fg_sg_22"
+              },
+              {
+                "time": 1.6333,
+                "name": "fg_sg/fg_sg_23"
+              },
+              {
+                "time": 1.7,
+                "name": "fg_sg/fg_sg_24"
+              },
+              {
+                "time": 1.7333,
+                "name": "fg_sg/fg_sg_25"
+              },
+              {
+                "time": 1.8,
+                "name": "fg_sg/fg_sg_26"
+              },
+              {
+                "time": 1.8333,
+                "name": "fg_sg/fg_sg_27"
+              },
+              {
+                "time": 1.9,
+                "name": "fg_sg/fg_sg_28"
+              },
+              {
+                "time": 1.9333,
+                "name": "fg_sg/fg_sg_29"
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          },
+          "glow01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow01"
+              }
+            ]
+          },
+          "glow1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "guang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "guang"
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "xian": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff78"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "xian/xian_01"
+              },
+              {
+                "time": 0.1333,
+                "name": "xian/xian_02"
+              },
+              {
+                "time": 0.2,
+                "name": "xian/xian_03"
+              },
+              {
+                "time": 0.2667,
+                "name": "xian/xian_04"
+              },
+              {
+                "time": 0.3333,
+                "name": "xian/xian_05"
+              },
+              {
+                "time": 0.4,
+                "name": "xian/xian_06"
+              },
+              {
+                "time": 0.4667,
+                "name": "xian/xian_07"
+              },
+              {
+                "time": 0.5333,
+                "name": "xian/xian_08"
+              },
+              {
+                "time": 0.6,
+                "name": "xian/xian_09"
+              },
+              {
+                "time": 0.6667,
+                "name": "xian/xian_10"
+              },
+              {
+                "time": 0.7333,
+                "name": "xian/xian_11"
+              },
+              {
+                "time": 0.8,
+                "name": "xian/xian_12"
+              },
+              {
+                "time": 0.8667,
+                "name": "xian/xian_13"
+              },
+              {
+                "time": 0.9333,
+                "name": "xian/xian_14"
+              },
+              {
+                "time": 1,
+                "name": "xian/xian_15"
+              },
+              {
+                "time": 1.0667,
+                "name": "xian/xian_16"
+              },
+              {
+                "time": 1.1333,
+                "name": "xian/xian_17"
+              },
+              {
+                "time": 1.2,
+                "name": "xian/xian_18"
+              },
+              {
+                "time": 1.2667,
+                "name": "xian/xian_19"
+              },
+              {
+                "time": 1.3333,
+                "name": "xian/xian_20"
+              },
+              {
+                "time": 1.4,
+                "name": "xian/xian_21"
+              },
+              {
+                "time": 1.4667,
+                "name": "xian/xian_22"
+              },
+              {
+                "time": 1.5333,
+                "name": "xian/xian_23"
+              },
+              {
+                "time": 1.6,
+                "name": "xian/xian_24"
+              },
+              {
+                "time": 1.6667,
+                "name": "xian/xian_25"
+              },
+              {
+                "time": 1.7333,
+                "name": "xian/xian_26"
+              },
+              {
+                "time": 1.8,
+                "name": "xian/xian_27"
+              },
+              {
+                "time": 1.8667,
+                "name": "xian/xian_28"
+              },
+              {
+                "time": 1.9333,
+                "name": "xian/xian_29"
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "all": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 14.5
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "M_zuanshi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "M_zuanshi_sg": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.863
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -12.14
+              }
+            ]
+          },
+          "glow1": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": -150
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 3,
+                "y": 3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 4.5,
+                "y": 4.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 3,
+                "y": 3
+              }
+            ]
+          },
+          "xian": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 3,
+                "y": 3
+              }
+            ]
+          }
+        }
+      },
+      "Scatter_2x3_03": {
+        "slots": {
+          "1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "FG_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.4333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "FG_add"
+              }
+            ]
+          },
+          "FreeGame": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "FreeGame"
+              }
+            ]
+          },
+          "M_zuanshi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "M_zuanshi"
+              }
+            ]
+          },
+          "M_zuanshi_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.2667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.8333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "M_zuanshi_add"
+              }
+            ]
+          },
+          "M_zuanshi_sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_01"
+              },
+              {
+                "time": 0.2667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_02"
+              },
+              {
+                "time": 0.3,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_03"
+              },
+              {
+                "time": 0.3667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_04"
+              },
+              {
+                "time": 0.4,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_05"
+              },
+              {
+                "time": 0.4667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_06"
+              },
+              {
+                "time": 0.5,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_07"
+              },
+              {
+                "time": 0.5667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_08"
+              },
+              {
+                "time": 0.6,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_09"
+              },
+              {
+                "time": 0.6667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_10"
+              },
+              {
+                "time": 0.7,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_11"
+              },
+              {
+                "time": 0.7667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_12"
+              },
+              {
+                "time": 0.8,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_13"
+              },
+              {
+                "time": 0.8667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_14"
+              },
+              {
+                "time": 0.9,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_15"
+              },
+              {
+                "time": 0.9667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_16"
+              },
+              {
+                "time": 1,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_17"
+              },
+              {
+                "time": 1.0667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_18"
+              },
+              {
+                "time": 1.1,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_19"
+              },
+              {
+                "time": 1.1667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_20"
+              },
+              {
+                "time": 1.2,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_21"
+              },
+              {
+                "time": 1.2667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_22"
+              },
+              {
+                "time": 1.3,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_23"
+              },
+              {
+                "time": 1.3667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_24"
+              },
+              {
+                "time": 1.4,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_25"
+              },
+              {
+                "time": 1.4667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_26"
+              },
+              {
+                "time": 1.5,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_27"
+              },
+              {
+                "time": 1.5667,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_28"
+              },
+              {
+                "time": 1.6,
+                "name": "M_zuanshi_sg/M_zuanshi_sg_29"
+              },
+              {
+                "time": 1.6667,
+                "name": null
+              }
+            ]
+          },
+          "bj": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "bj"
+              }
+            ]
+          },
+          "fg_sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": null
+              },
+              {
+                "time": 0.3667,
+                "name": "fg_sg/fg_sg_01"
+              },
+              {
+                "time": 0.4333,
+                "name": "fg_sg/fg_sg_02"
+              },
+              {
+                "time": 0.4667,
+                "name": "fg_sg/fg_sg_03"
+              },
+              {
+                "time": 0.5333,
+                "name": "fg_sg/fg_sg_04"
+              },
+              {
+                "time": 0.5667,
+                "name": "fg_sg/fg_sg_05"
+              },
+              {
+                "time": 0.6333,
+                "name": "fg_sg/fg_sg_06"
+              },
+              {
+                "time": 0.6667,
+                "name": "fg_sg/fg_sg_07"
+              },
+              {
+                "time": 0.7333,
+                "name": "fg_sg/fg_sg_08"
+              },
+              {
+                "time": 0.7667,
+                "name": "fg_sg/fg_sg_09"
+              },
+              {
+                "time": 0.8333,
+                "name": "fg_sg/fg_sg_10"
+              },
+              {
+                "time": 0.8667,
+                "name": "fg_sg/fg_sg_11"
+              },
+              {
+                "time": 0.9333,
+                "name": "fg_sg/fg_sg_12"
+              },
+              {
+                "time": 0.9667,
+                "name": "fg_sg/fg_sg_13"
+              },
+              {
+                "time": 1.0333,
+                "name": "fg_sg/fg_sg_14"
+              },
+              {
+                "time": 1.0667,
+                "name": "fg_sg/fg_sg_15"
+              },
+              {
+                "time": 1.1333,
+                "name": "fg_sg/fg_sg_16"
+              },
+              {
+                "time": 1.1667,
+                "name": "fg_sg/fg_sg_17"
+              },
+              {
+                "time": 1.2333,
+                "name": "fg_sg/fg_sg_18"
+              },
+              {
+                "time": 1.2667,
+                "name": "fg_sg/fg_sg_19"
+              },
+              {
+                "time": 1.3333,
+                "name": "fg_sg/fg_sg_20"
+              },
+              {
+                "time": 1.3667,
+                "name": "fg_sg/fg_sg_21"
+              },
+              {
+                "time": 1.4333,
+                "name": "fg_sg/fg_sg_22"
+              },
+              {
+                "time": 1.4667,
+                "name": "fg_sg/fg_sg_23"
+              },
+              {
+                "time": 1.5333,
+                "name": "fg_sg/fg_sg_24"
+              },
+              {
+                "time": 1.5667,
+                "name": "fg_sg/fg_sg_25"
+              },
+              {
+                "time": 1.6333,
+                "name": "fg_sg/fg_sg_26"
+              },
+              {
+                "time": 1.6667,
+                "name": "fg_sg/fg_sg_27"
+              },
+              {
+                "time": 1.7333,
+                "name": "fg_sg/fg_sg_28"
+              },
+              {
+                "time": 1.7667,
+                "name": "fg_sg/fg_sg_29"
+              },
+              {
+                "time": 1.8333,
+                "name": null
+              }
+            ]
+          },
+          "glow01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow01"
+              }
+            ]
+          },
+          "glow1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow01"
+              }
+            ]
+          },
+          "guang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 2,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "guang"
+              }
+            ]
+          },
+          "lizi": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lizi/lizi_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "lizi/lizi_01"
+              },
+              {
+                "time": 0.1,
+                "name": "lizi/lizi_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "lizi/lizi_03"
+              },
+              {
+                "time": 0.2,
+                "name": "lizi/lizi_04"
+              },
+              {
+                "time": 0.2333,
+                "name": "lizi/lizi_05"
+              },
+              {
+                "time": 0.3,
+                "name": "lizi/lizi_06"
+              },
+              {
+                "time": 0.3333,
+                "name": "lizi/lizi_07"
+              },
+              {
+                "time": 0.4,
+                "name": "lizi/lizi_08"
+              },
+              {
+                "time": 0.4333,
+                "name": "lizi/lizi_09"
+              },
+              {
+                "time": 0.5,
+                "name": "lizi/lizi_10"
+              },
+              {
+                "time": 0.5333,
+                "name": "lizi/lizi_11"
+              },
+              {
+                "time": 0.6,
+                "name": "lizi/lizi_12"
+              },
+              {
+                "time": 0.6333,
+                "name": "lizi/lizi_13"
+              },
+              {
+                "time": 0.7,
+                "name": "lizi/lizi_14"
+              },
+              {
+                "time": 0.7333,
+                "name": "lizi/lizi_15"
+              },
+              {
+                "time": 0.8,
+                "name": "lizi/lizi_16"
+              },
+              {
+                "time": 0.8333,
+                "name": "lizi/lizi_17"
+              },
+              {
+                "time": 0.9,
+                "name": "lizi/lizi_18"
+              },
+              {
+                "time": 0.9333,
+                "name": "lizi/lizi_19"
+              },
+              {
+                "time": 1,
+                "name": "lizi/lizi_00"
+              },
+              {
+                "time": 1.0333,
+                "name": "lizi/lizi_01"
+              },
+              {
+                "time": 1.1,
+                "name": "lizi/lizi_02"
+              },
+              {
+                "time": 1.1333,
+                "name": "lizi/lizi_03"
+              },
+              {
+                "time": 1.2,
+                "name": "lizi/lizi_04"
+              },
+              {
+                "time": 1.2333,
+                "name": "lizi/lizi_05"
+              },
+              {
+                "time": 1.3,
+                "name": "lizi/lizi_06"
+              },
+              {
+                "time": 1.3333,
+                "name": "lizi/lizi_07"
+              },
+              {
+                "time": 1.4,
+                "name": "lizi/lizi_08"
+              },
+              {
+                "time": 1.4333,
+                "name": "lizi/lizi_09"
+              },
+              {
+                "time": 1.5,
+                "name": "lizi/lizi_10"
+              },
+              {
+                "time": 1.5333,
+                "name": "lizi/lizi_11"
+              },
+              {
+                "time": 1.6,
+                "name": "lizi/lizi_12"
+              },
+              {
+                "time": 1.6333,
+                "name": "lizi/lizi_13"
+              },
+              {
+                "time": 1.7,
+                "name": "lizi/lizi_14"
+              },
+              {
+                "time": 1.7333,
+                "name": "lizi/lizi_15"
+              },
+              {
+                "time": 1.8,
+                "name": "lizi/lizi_16"
+              },
+              {
+                "time": 1.8333,
+                "name": "lizi/lizi_17"
+              },
+              {
+                "time": 1.9,
+                "name": "lizi/lizi_18"
+              },
+              {
+                "time": 1.9333,
+                "name": "lizi/lizi_19"
+              },
+              {
+                "time": 2,
+                "name": "lizi/lizi_00"
+              }
+            ]
+          },
+          "xian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0667,
+                "name": "xian/xian_01"
+              },
+              {
+                "time": 0.1333,
+                "name": "xian/xian_02"
+              },
+              {
+                "time": 0.2,
+                "name": "xian/xian_03"
+              },
+              {
+                "time": 0.2667,
+                "name": "xian/xian_04"
+              },
+              {
+                "time": 0.3333,
+                "name": "xian/xian_05"
+              },
+              {
+                "time": 0.4,
+                "name": "xian/xian_06"
+              },
+              {
+                "time": 0.4667,
+                "name": "xian/xian_07"
+              },
+              {
+                "time": 0.5333,
+                "name": "xian/xian_08"
+              },
+              {
+                "time": 0.6,
+                "name": "xian/xian_09"
+              },
+              {
+                "time": 0.6667,
+                "name": "xian/xian_10"
+              },
+              {
+                "time": 0.7333,
+                "name": "xian/xian_11"
+              },
+              {
+                "time": 0.8,
+                "name": "xian/xian_12"
+              },
+              {
+                "time": 0.8667,
+                "name": "xian/xian_13"
+              },
+              {
+                "time": 0.9333,
+                "name": "xian/xian_14"
+              },
+              {
+                "time": 1,
+                "name": "xian/xian_15"
+              },
+              {
+                "time": 1.0667,
+                "name": "xian/xian_16"
+              },
+              {
+                "time": 1.1333,
+                "name": "xian/xian_17"
+              },
+              {
+                "time": 1.2,
+                "name": "xian/xian_18"
+              },
+              {
+                "time": 1.2667,
+                "name": "xian/xian_19"
+              },
+              {
+                "time": 1.3333,
+                "name": "xian/xian_20"
+              },
+              {
+                "time": 1.4,
+                "name": "xian/xian_21"
+              },
+              {
+                "time": 1.4667,
+                "name": "xian/xian_22"
+              },
+              {
+                "time": 1.5333,
+                "name": "xian/xian_23"
+              },
+              {
+                "time": 1.6,
+                "name": "xian/xian_24"
+              },
+              {
+                "time": 1.6667,
+                "name": "xian/xian_25"
+              },
+              {
+                "time": 1.7333,
+                "name": "xian/xian_26"
+              },
+              {
+                "time": 1.8,
+                "name": "xian/xian_27"
+              },
+              {
+                "time": 1.8667,
+                "name": "xian/xian_28"
+              },
+              {
+                "time": 1.9333,
+                "name": "xian/xian_29"
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "all": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 14.5
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0,
+                  0.8,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 1.35,
+                "y": 1.35,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.8333,
+                "x": 1.05,
+                "y": 1.05,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "M_zuanshi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0,
+                  0.8,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 1.05,
+                "y": 1.05,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.8333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "M_zuanshi_sg": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.887
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -12.05
+              }
+            ]
+          },
+          "glow1": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": -150
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 4.5,
+                "y": 4.5
+              }
+            ]
+          },
+          "glow2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": 150
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 4.5,
+                "y": 4.5
+              }
+            ]
+          },
+          "lizi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 4.3,
+                "y": 4.3
+              }
+            ]
+          },
+          "xian": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 3.5,
+                "y": 3.5
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nScatter.png\nsize: 2048,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nFG_add\n  rotate: false\n  xy: 168, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nFreeGame\n  rotate: true\n  xy: 1392, 377\n  size: 133, 72\n  orig: 133, 72\n  offset: 0, 0\n  index: -1\nM_zuanshi\n  rotate: true\n  xy: 2, 51\n  size: 107, 167\n  orig: 107, 167\n  offset: 0, 0\n  index: -1\nM_zuanshi_add\n  rotate: false\n  xy: 168, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_01\n  rotate: false\n  xy: 168, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_02\n  rotate: false\n  xy: 171, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_03\n  rotate: false\n  xy: 171, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_04\n  rotate: false\n  xy: 270, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_05\n  rotate: false\n  xy: 270, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_06\n  rotate: false\n  xy: 270, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_07\n  rotate: false\n  xy: 273, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_08\n  rotate: false\n  xy: 273, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_09\n  rotate: false\n  xy: 372, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_10\n  rotate: false\n  xy: 372, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_11\n  rotate: false\n  xy: 372, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_12\n  rotate: false\n  xy: 375, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_13\n  rotate: false\n  xy: 375, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_14\n  rotate: false\n  xy: 474, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_15\n  rotate: false\n  xy: 474, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_16\n  rotate: false\n  xy: 474, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_17\n  rotate: false\n  xy: 477, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_18\n  rotate: false\n  xy: 477, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_19\n  rotate: false\n  xy: 576, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_20\n  rotate: false\n  xy: 576, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_21\n  rotate: false\n  xy: 576, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_22\n  rotate: false\n  xy: 579, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_23\n  rotate: false\n  xy: 579, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_24\n  rotate: false\n  xy: 678, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_25\n  rotate: false\n  xy: 678, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_26\n  rotate: false\n  xy: 678, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_27\n  rotate: false\n  xy: 681, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_28\n  rotate: false\n  xy: 681, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nM_zuanshi_sg/M_zuanshi_sg_29\n  rotate: false\n  xy: 780, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbj\n  rotate: false\n  xy: 2, 336\n  size: 164, 174\n  orig: 164, 174\n  offset: 0, 0\n  index: -1\nbj_1x2\n  rotate: false\n  xy: 1392, 259\n  size: 82, 116\n  orig: 82, 116\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_01\n  rotate: false\n  xy: 780, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_02\n  rotate: false\n  xy: 780, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_03\n  rotate: false\n  xy: 783, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_04\n  rotate: false\n  xy: 783, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_05\n  rotate: false\n  xy: 882, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_06\n  rotate: false\n  xy: 882, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_07\n  rotate: false\n  xy: 882, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_08\n  rotate: false\n  xy: 885, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_09\n  rotate: false\n  xy: 885, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_10\n  rotate: false\n  xy: 984, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_11\n  rotate: false\n  xy: 984, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_12\n  rotate: false\n  xy: 984, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_13\n  rotate: false\n  xy: 987, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_14\n  rotate: false\n  xy: 987, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_15\n  rotate: false\n  xy: 1086, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_16\n  rotate: false\n  xy: 1086, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_17\n  rotate: false\n  xy: 1086, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_18\n  rotate: false\n  xy: 1089, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_19\n  rotate: false\n  xy: 1089, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_20\n  rotate: false\n  xy: 1188, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_21\n  rotate: false\n  xy: 1188, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_22\n  rotate: false\n  xy: 1188, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_23\n  rotate: false\n  xy: 1191, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_24\n  rotate: false\n  xy: 1191, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_25\n  rotate: false\n  xy: 1290, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_26\n  rotate: false\n  xy: 1290, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_27\n  rotate: false\n  xy: 1290, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_28\n  rotate: false\n  xy: 1293, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nfg_sg/fg_sg_29\n  rotate: false\n  xy: 1293, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nglow01\n  rotate: false\n  xy: 1395, 182\n  size: 75, 75\n  orig: 75, 75\n  offset: 0, 0\n  index: -1\nguang\n  rotate: false\n  xy: 2, 160\n  size: 164, 174\n  orig: 164, 174\n  offset: 0, 0\n  index: -1\nguang_1x2\n  rotate: false\n  xy: 1466, 394\n  size: 82, 116\n  orig: 82, 116\n  offset: 0, 0\n  index: -1\nlizi/lizi_00\n  rotate: false\n  xy: 1395, 113\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_01\n  rotate: false\n  xy: 1395, 44\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_02\n  rotate: false\n  xy: 1464, 113\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_03\n  rotate: false\n  xy: 1472, 190\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_04\n  rotate: false\n  xy: 1464, 44\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_05\n  rotate: false\n  xy: 1476, 325\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_06\n  rotate: false\n  xy: 1533, 121\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_07\n  rotate: false\n  xy: 1533, 52\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_08\n  rotate: false\n  xy: 1541, 256\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_09\n  rotate: false\n  xy: 1545, 325\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_10\n  rotate: false\n  xy: 1550, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_11\n  rotate: false\n  xy: 1602, 187\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_12\n  rotate: false\n  xy: 1610, 256\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_13\n  rotate: false\n  xy: 1614, 374\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_14\n  rotate: false\n  xy: 1619, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_15\n  rotate: false\n  xy: 1602, 118\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_16\n  rotate: false\n  xy: 1602, 49\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_17\n  rotate: false\n  xy: 1671, 187\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_18\n  rotate: false\n  xy: 1679, 305\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nlizi/lizi_19\n  rotate: false\n  xy: 1683, 374\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_01\n  rotate: false\n  xy: 1688, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_02\n  rotate: false\n  xy: 1671, 118\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_03\n  rotate: false\n  xy: 1671, 49\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_04\n  rotate: false\n  xy: 1740, 236\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_05\n  rotate: false\n  xy: 1748, 305\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_06\n  rotate: false\n  xy: 1752, 374\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_07\n  rotate: false\n  xy: 1757, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_08\n  rotate: false\n  xy: 1740, 167\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_09\n  rotate: false\n  xy: 1740, 98\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_10\n  rotate: false\n  xy: 1740, 29\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_11\n  rotate: false\n  xy: 1809, 236\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_12\n  rotate: false\n  xy: 1817, 305\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_13\n  rotate: false\n  xy: 1821, 374\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_14\n  rotate: false\n  xy: 1826, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_15\n  rotate: false\n  xy: 1878, 236\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_16\n  rotate: false\n  xy: 1886, 305\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_17\n  rotate: false\n  xy: 1890, 374\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_18\n  rotate: false\n  xy: 1895, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_19\n  rotate: false\n  xy: 1947, 236\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_20\n  rotate: false\n  xy: 1955, 305\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_21\n  rotate: false\n  xy: 1959, 374\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_22\n  rotate: false\n  xy: 1964, 443\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_23\n  rotate: false\n  xy: 1809, 167\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_24\n  rotate: false\n  xy: 1809, 98\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_25\n  rotate: false\n  xy: 1809, 29\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_26\n  rotate: false\n  xy: 1878, 167\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_27\n  rotate: false\n  xy: 1947, 167\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_28\n  rotate: false\n  xy: 1878, 98\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\nxian/xian_29\n  rotate: false\n  xy: 1878, 29\n  size: 67, 67\n  orig: 67, 67\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "1aBYZ9VQVPnKv2KlGI7alh"
+    }
+  ],
+  "textureNames": [
+    "Scatter.png"
+  ]
+}

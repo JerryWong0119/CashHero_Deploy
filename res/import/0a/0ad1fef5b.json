@@ -1,1 +1,372 @@
-[{"__type__":"cc.SpriteFrame","content":{"name":"theme132_dialog_frame7","texture":"367BQcyZlFBpuU+K9qW8Zk","rect":[2,433,384,44],"offset":[0,0],"originalSize":[386,46],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme132_dialog_bg4","texture":"367BQcyZlFBpuU+K9qW8Zk","rect":[130,2,306,212],"offset":[0,0],"originalSize":[306,212],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme132_dialog_frame3","texture":"367BQcyZlFBpuU+K9qW8Zk","rect":[239,310,238,109],"offset":[0,0],"originalSize":[238,109],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme132_dialog_frame8","texture":"367BQcyZlFBpuU+K9qW8Zk","rect":[2,479,559,24],"offset":[0,0],"originalSize":[559,24],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme132_dialog_bg3","texture":"367BQcyZlFBpuU+K9qW8Zk","rect":[344,2,306,212],"offset":[0,0],"originalSize":[306,212],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme132_dialog_frame4","texture":"367BQcyZlFBpuU+K9qW8Zk","rect":[733,310,234,102],"offset":[0,0],"originalSize":[234,102],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme132_dialog_frame5","texture":"367BQcyZlFBpuU+K9qW8Zk","rect":[563,418,182,101],"offset":[0,0],"originalSize":[182,101],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme132_dialog_frame2","texture":"367BQcyZlFBpuU+K9qW8Zk","rect":[479,310,252,106],"offset":[0,0],"originalSize":[252,106],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme132_dialog_bg2","texture":"367BQcyZlFBpuU+K9qW8Zk","rect":[558,2,306,212],"offset":[0,0],"originalSize":[306,212],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme132_dialog_frame6","texture":"367BQcyZlFBpuU+K9qW8Zk","rect":[2,2,126,429],"offset":[0,0],"originalSize":[126,429],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme132_dialog_frame1","texture":"367BQcyZlFBpuU+K9qW8Zk","rect":[130,310,107,119],"offset":[0,0],"originalSize":[107,119],"capInsets":[40,40,40,40]}},{"__type__":"cc.SpriteAtlas","_name":"dialog1.plist","_spriteFrames":{"theme132_dialog_bg1":{"__uuid__":"f79NH1ZOJNG6Y0BHZ/dj9U"},"theme132_dialog_bg2":{"__uuid__":"af2+VwbU5PMJLB1yWl3j55"},"theme132_dialog_bg3":{"__uuid__":"35m5lVOxdDQaoQkGpIT26V"},"theme132_dialog_bg4":{"__uuid__":"0chpTqKT5J8IHuT07iybPL"},"theme132_dialog_frame1":{"__uuid__":"c6Ljo6cvBBaIaoH4y29A/x"},"theme132_dialog_frame2":{"__uuid__":"99h6zcS4FPI7QsVX9yFg1K"},"theme132_dialog_frame3":{"__uuid__":"13JzwXpmdE14KyHtNn99QG"},"theme132_dialog_frame4":{"__uuid__":"52KUErB1JBEKTrB+CNWHQ9"},"theme132_dialog_frame5":{"__uuid__":"77/3ZFby1O7rvW7JN/9WVB"},"theme132_dialog_frame6":{"__uuid__":"beuFJU/qpKq6mdHy/S0K0v"},"theme132_dialog_frame7":{"__uuid__":"01YO4M7b1JUYg0PgRN6Xbh"},"theme132_dialog_frame8":{"__uuid__":"2bKWuNO9tLaJyMtDqUGuqQ"}}},{"__type__":"cc.SpriteFrame","content":{"name":"theme132_dialog_bg1","texture":"367BQcyZlFBpuU+K9qW8Zk","rect":[772,2,306,212],"offset":[0,0],"originalSize":[306,212],"rotated":1,"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme132_dialog_frame7",
+      "texture": "367BQcyZlFBpuU+K9qW8Zk",
+      "rect": [
+        2,
+        433,
+        384,
+        44
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        386,
+        46
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme132_dialog_bg4",
+      "texture": "367BQcyZlFBpuU+K9qW8Zk",
+      "rect": [
+        130,
+        2,
+        306,
+        212
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        306,
+        212
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme132_dialog_frame3",
+      "texture": "367BQcyZlFBpuU+K9qW8Zk",
+      "rect": [
+        239,
+        310,
+        238,
+        109
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        238,
+        109
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme132_dialog_frame8",
+      "texture": "367BQcyZlFBpuU+K9qW8Zk",
+      "rect": [
+        2,
+        479,
+        559,
+        24
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        559,
+        24
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme132_dialog_bg3",
+      "texture": "367BQcyZlFBpuU+K9qW8Zk",
+      "rect": [
+        344,
+        2,
+        306,
+        212
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        306,
+        212
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme132_dialog_frame4",
+      "texture": "367BQcyZlFBpuU+K9qW8Zk",
+      "rect": [
+        733,
+        310,
+        234,
+        102
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        234,
+        102
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme132_dialog_frame5",
+      "texture": "367BQcyZlFBpuU+K9qW8Zk",
+      "rect": [
+        563,
+        418,
+        182,
+        101
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        182,
+        101
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme132_dialog_frame2",
+      "texture": "367BQcyZlFBpuU+K9qW8Zk",
+      "rect": [
+        479,
+        310,
+        252,
+        106
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        252,
+        106
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme132_dialog_bg2",
+      "texture": "367BQcyZlFBpuU+K9qW8Zk",
+      "rect": [
+        558,
+        2,
+        306,
+        212
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        306,
+        212
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme132_dialog_frame6",
+      "texture": "367BQcyZlFBpuU+K9qW8Zk",
+      "rect": [
+        2,
+        2,
+        126,
+        429
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        126,
+        429
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme132_dialog_frame1",
+      "texture": "367BQcyZlFBpuU+K9qW8Zk",
+      "rect": [
+        130,
+        310,
+        107,
+        119
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        107,
+        119
+      ],
+      "capInsets": [
+        40,
+        40,
+        40,
+        40
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "dialog1.plist",
+    "_spriteFrames": {
+      "theme132_dialog_bg1": {
+        "__uuid__": "f79NH1ZOJNG6Y0BHZ/dj9U"
+      },
+      "theme132_dialog_bg2": {
+        "__uuid__": "af2+VwbU5PMJLB1yWl3j55"
+      },
+      "theme132_dialog_bg3": {
+        "__uuid__": "35m5lVOxdDQaoQkGpIT26V"
+      },
+      "theme132_dialog_bg4": {
+        "__uuid__": "0chpTqKT5J8IHuT07iybPL"
+      },
+      "theme132_dialog_frame1": {
+        "__uuid__": "c6Ljo6cvBBaIaoH4y29A/x"
+      },
+      "theme132_dialog_frame2": {
+        "__uuid__": "99h6zcS4FPI7QsVX9yFg1K"
+      },
+      "theme132_dialog_frame3": {
+        "__uuid__": "13JzwXpmdE14KyHtNn99QG"
+      },
+      "theme132_dialog_frame4": {
+        "__uuid__": "52KUErB1JBEKTrB+CNWHQ9"
+      },
+      "theme132_dialog_frame5": {
+        "__uuid__": "77/3ZFby1O7rvW7JN/9WVB"
+      },
+      "theme132_dialog_frame6": {
+        "__uuid__": "beuFJU/qpKq6mdHy/S0K0v"
+      },
+      "theme132_dialog_frame7": {
+        "__uuid__": "01YO4M7b1JUYg0PgRN6Xbh"
+      },
+      "theme132_dialog_frame8": {
+        "__uuid__": "2bKWuNO9tLaJyMtDqUGuqQ"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme132_dialog_bg1",
+      "texture": "367BQcyZlFBpuU+K9qW8Zk",
+      "rect": [
+        772,
+        2,
+        306,
+        212
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        306,
+        212
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

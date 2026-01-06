@@ -1,1 +1,1777 @@
-window.__require=function e(t,n,a){function o(r,c){if(!n[r]){if(!t[r]){var s=r.split("/");if(s=s[s.length-1],!t[s]){var m="function"==typeof __require&&__require;if(!c&&m)return m(s,!0);if(i)return i(s,!0);throw new Error("Cannot find module '"+r+"'")}r=s}var l=n[r]={exports:{}};t[r][0].call(l.exports,function(e){return o(t[r][1][e]||e)},l,l.exports,e,t,n,a)}return n[r].exports}for(var i="function"==typeof __require&&__require,r=0;r<a.length;r++)o(a[r]);return o}({TheMammoth_Cfg:[function(e,t,n){"use strict";var a;function o(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}cc._RF.push(t,"21bd31rVotO07cHLuAHvkrn","TheMammoth_Cfg");var i={symbol:(a={},o(a,1,{node:"symbol_1",win_node:"animation_1",win_ani:{name:"animation",zIndex:300}}),o(a,2,{node:"symbol_2",win_node:"animation_2",win_ani:{name:"animation2",zIndex:300},stop_ani:{name:"animation1",zIndex:100}}),o(a,3,{node:"symbol_3",win_node:"animation_3",win_ani:{name:"animation2",zIndex:300}}),o(a,4,{node:"symbol_4",win_node:"animation_4",win_ani:{name:"animation",zIndex:300}}),o(a,5,{node:"symbol_5",win_node:"animation_5",win_ani:{name:"animation",zIndex:300}}),o(a,6,{node:"symbol_6",win_node:"animation_6",win_ani:{name:"animation",zIndex:300}}),o(a,7,{node:"symbol_7",win_node:"animation_7",win_ani:{name:"animation",zIndex:300}}),o(a,8,{node:"symbol_8"}),o(a,9,{node:"symbol_9"}),o(a,10,{node:"symbol_10"}),o(a,11,{node:"symbol_11"}),o(a,12,{node:"symbol_12"}),o(a,13,{node:"symbol_13"}),o(a,14,{node:"symbol_14",win_node:"animation_14",win_ani:{name:"animation2",zIndex:300},stop_ani:{name:"animation1",zIndex:100}}),a),puzzleCfg:{atlas:"puzzle_10",bg:"theme_store_puzzle10_bg",full:"theme_store_puzzle10_full",pieces:["theme_store_puzzle_10_1","theme_store_puzzle_10_2","theme_store_puzzle_10_3","theme_store_puzzle_10_4","theme_store_puzzle_10_5","theme_store_puzzle_10_6","theme_store_puzzle_10_7","theme_store_puzzle_10_8","theme_store_puzzle_10_9","theme_store_puzzle_10_10","theme_store_puzzle_10_11","theme_store_puzzle_10_12"]},scripts:{Top:"LMSlots_Top_Base",Bottom:"LMSlots_Bottom_Base",Slots:"TheMammoth_Slots",Reels:"TheMammoth_Reel",Symbols:"TheMammoth_Symbol"},col:5,row:4,symbolPrefab:"symbol",symbolSize:{width:124,height:94},randomSymbols:[1,3,4,5,6,7,8,9,10,11,12,13],wildId:1,scatterIds:[2,14],kuang:"kuang",autoModelDelay:.8,speed:3e3,reelStopInter:.2,auto_stop_time:1,bounce:!0,helpItems:["games/TheMammoth/prefab/help_item_1","games/TheMammoth/prefab/help_item_2","games/TheMammoth/prefab/help_item_3"],commEffect:{path:"games/TheMammoth/",win1:["win1","win1end"],win2:["win2","win2end"],win3:["win3","win3end"],win4:["win4","win4end"]},bounceInfo:{distance:30,time:.1},reelStateInfo:[{id:[2,14],mini:3,counts:[1,1,1,1,1],antiNode:"",path:"games/TheMammoth/",reelStopSound:"reel_stop",symbolStopSound:"scatter",antSound:"reel_notify",antSpeed:1500}],normalBgm:"base_bgm"};t.exports=i,cc._RF.pop()},{}],TheMammoth_Logic:[function(e,t,n){"use strict";cc._RF.push(t,"cea0bLPFPVAFa9N8OVwiSEz","TheMammoth_Logic"),cc.Class({extends:e("LMSlots_Logic_Base"),properties:{},onLoad:function(){window.SlotsFacade=this,this.dm=cc.vv.gameData,this.InitCommComponent();var e=cc.find("safe_node/wheel",this.node).getComponent("TheMammoth_Wheel");cc.vv.gameData.GetSlotsScript().setWheelScripts(e),this.wheel=e,this.topCmp=cc.vv.gameData.GetTopScript(),this.bottomCmp=cc.vv.gameData.GetBottomScript(),this.slots=cc.vv.gameData.GetSlotsScript(),Global.registerEvent(cc.vv.gameData._EventId.SLOT_TOTALBET_UPDATED,this.onUpdateBet,this)},onDestroy:function(){window.SlotsFacade=null,this.dm=null},delayTime:function(e){var t=this;return new Promise(function(n,a){t.scheduleOnce(function(){n()},e)})},onUpdateBet:function(){cc.vv.gameData.GetSlotsScript().updateFreePanel(cc.vv.gameData.GetBetIdx()-1)},playPrizePoolAnimation:function(){var e=cc.find("safe_node/LMSlots_PrizePool_1/prizePool_Grand",this.node);e.opacity=255;var t=cc.find("safe_node/LMSlots_PrizePool_1/prizePool_Major",this.node);t.opacity=0;var n=cc.find("safe_node/LMSlots_PrizePool_1/prizePool_Minor",this.node);n.opacity=0,e.runAction(cc.repeatForever(cc.sequence(cc.delayTime(4),cc.fadeOut(.5),cc.delayTime(8.5),cc.fadeIn(.5)))),t.runAction(cc.repeatForever(cc.sequence(cc.delayTime(4),cc.fadeIn(.5),cc.delayTime(4),cc.fadeOut(.5),cc.delayTime(4.5)))),n.runAction(cc.repeatForever(cc.sequence(cc.delayTime(8.5),cc.fadeIn(.5),cc.delayTime(4),cc.fadeOut(.5))))},start:function(){this._super(),this.playPrizePoolAnimation()}}),cc._RF.pop()},{LMSlots_Logic_Base:void 0}],TheMammoth_Reel:[function(e,t,n){"use strict";function a(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=o(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,i,r=!0,c=!1;return{s:function(){a=e[Symbol.iterator]()},n:function(){var e=a.next();return r=e.done,e},e:function(e){c=!0,i=e},f:function(){try{r||null==a.return||a.return()}finally{if(c)throw i}}}}function o(e,t){if(e){if("string"==typeof e)return i(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?i(e,t):void 0}}function i(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,a=new Array(t);n<t;n++)a[n]=e[n];return a}cc._RF.push(t,"93daafj7r1GtI9wsXHePOZ0","TheMammoth_Reel"),cc.Class({extends:e("LMSlots_Reel_Base"),properties:{},OnReelSpinEnd:function(){this._super()},playReelStop:function(){for(var e=0;e<this._originResult.length;e++){var t,n=this._symbols[e],o=a(this._reelState);try{for(o.s();!(t=o.n()).done;){var i=t.value;i.isStop&&i.id.includes(n.GetShowId())&&n.playStopAnimation()}}catch(e){o.e(e)}finally{o.f()}}if(this._cfg.reelStateInfo&&this._cfg.reelStateInfo[0]){var r,c="",s="",m=!1,l=a(this._reelState);try{for(l.s();!(r=l.n()).done;){var u=r.value;u.isStop?(s=u.symbolStopSound?u.symbolStopSound+(this._reelIdx+1):"",m=!0):c=u.reelStopSound?u.reelStopSound:""}}catch(e){l.e(e)}finally{l.f()}m&&(c=s),cc.vv.AudioManager.playEff(this._cfg.reelStateInfo[0].path,c,!0)}}}),cc._RF.pop()},{LMSlots_Reel_Base:void 0}],TheMammoth_Slots:[function(e,t,n){"use strict";function a(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=o(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,i,r=!0,c=!1;return{s:function(){a=e[Symbol.iterator]()},n:function(){var e=a.next();return r=e.done,e},e:function(e){c=!0,i=e},f:function(){try{r||null==a.return||a.return()}finally{if(c)throw i}}}}function o(e,t){if(e){if("string"==typeof e)return i(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?i(e,t):void 0}}function i(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,a=new Array(t);n<t;n++)a[n]=e[n];return a}function r(e,t,n,a,o,i,r){try{var c=e[i](r),s=c.value}catch(e){return void n(e)}c.done?t(s):Promise.resolve(s).then(a,o)}function c(e){return function(){var t=this,n=arguments;return new Promise(function(a,o){var i=e.apply(t,n);function c(e){r(i,a,o,c,s,"next",e)}function s(e){r(i,a,o,c,s,"throw",e)}c(void 0)})}}cc._RF.push(t,"ad542MnbZhAPoKJHJ1pLs4c","TheMammoth_Slots");var s=1,m=2,l=3;cc.Class({extends:e("LMSlots_Slots_Base"),properties:{_wheel_script:null,_wheel_result:null,_curFreeTimesPanel:null},Init:function(){var e=this;this._super(),this.updateFreePanel(cc.vv.gameData.GetBetIdx()-1),cc.winSize.height/cc.winSize.width>2.1?cc.find("logo",this.node.parent).active=!0:cc.find("logo",this.node.parent).active=!1,this.node.parent.parent.getComponent("LMSlots_Puzzle").setCallback(function(){var t=c(regeneratorRuntime.mark(function t(n,a){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return cc.vv.gameData.SetTotalFree(n.freeCnt),cc.vv.gameData.SetFreeTime(n.freeCnt),e.cutScenesElephant(),t.next=5,cc.vv.gameData.awaitTime(1.5);case 5:return e.ShowGameview(!0),e.changeFreeBg(!0),t.next=9,cc.vv.gameData.awaitTime(1.5);case 9:return t.next=11,e.popFreeDialog(!0);case 11:cc.vv.AudioManager.playBgm("games/TheMammoth/","free_bgm",!0),e.CanDoNextRound();case 13:case"end":return t.stop()}},t)}));return function(e,n){return t.apply(this,arguments)}}())},StartMove:function(){this._super(),Global.SlotsSoundMgr.playNormalBgm(),this._curFreeTimesPanel&&(cc.find("allTimes",this._curFreeTimesPanel).getComponent(cc.Label).string=cc.vv.gameData.GetTotalFree(),cc.find("curTimes",this._curFreeTimesPanel).getComponent(cc.Label).string=cc.vv.gameData.GetTotalFree()-cc.vv.gameData.GetFreeTime())},ReconnectShow:function(){var e=this;return c(regeneratorRuntime.mark(function t(){var n,a,o;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(n=cc.vv.gameData.getDeskInfo(),1!==(a=n.history.wheelGames[cc.vv.gameData.GetBetIdx()-1]).state){t.next=42;break}return t.next=5,new Promise(function(t){e._wheel_script.enterWheelGame(t,a.items)});case 5:if((o=a.items[e._wheel_result.itemId-1]).type!==m){t.next=16;break}return e.cutScenesIce(),t.next=10,cc.vv.gameData.awaitTime(1.5);case 10:e._wheel_script.reset(),e._wheel_script.node.active=!1,cc.vv.gameData.AddCoin(e._wheel_result.jackpot.value),e.ShowBottomWin(e._wheel_result.jackpot.value,e._wheel_result.jackpot.value,!0,function(){e.CanDoNextRound()}),t.next=40;break;case 16:if(o.type!==s){t.next=29;break}return e.cutScenesElephant(),e.ShowGameview(!0),e.changeFreeBg(!0),t.next=22,cc.vv.gameData.awaitTime(1.5);case 22:return e._wheel_script.reset(),e._wheel_script.node.active=!1,t.next=26,e.popFreeDialog(!0);case 26:e.CanDoNextRound(),t.next=40;break;case 29:if(o.type!==l){t.next=40;break}return e.cutScenesElephant(),e.ShowGameview(!0),e.changeFreeBg(!1,o.mult),t.next=35,cc.vv.gameData.awaitTime(1.5);case 35:return e._wheel_script.reset(),e._wheel_script.node.active=!1,t.next=39,e.popFreeDialog(!1,!1,o.mult);case 39:e.CanDoNextRound();case 40:t.next=43;break;case 42:cc.vv.gameData.GetFreeTime()>0?(1===n.addMult?e.changeFreeBg(!0):e.changeFreeBg(!1,n.addMult),e.ShowGameview(!0),e.CanDoNextRound()):e.ShowGameview(!1);case 43:case"end":return t.stop()}},t)}))()},onMsgSpine:function(e){var t=this;return c(regeneratorRuntime.mark(function n(){return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:t._super(e),t._gameInfo.mammothGame&&(t.SetStopTime(3),t.triggerRandomGame()),cc.vv.gameData.getDeskInfo().history.wheelGames[cc.vv.gameData.GetBetIdx()-1]=t._gameInfo.wheelGame;case 3:case"end":return n.stop()}},n)}))()},CheckEnterFreeGame:function(){return 1===this._gameInfo.wheelGame.state},CheckExtraFreeGame:function(){return!!(this._gameInfo.freeResult&&this._gameInfo.freeResult.freeInfo&&this._gameInfo.freeResult.freeInfo.freeCnt>0)},CheckExitFreeGame:function(){return cc.vv.gameData.GetTotalFree()>0&&0===cc.vv.gameData.GetFreeTime()},ShowWinTrace:function(){var e=this;return c(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.abrupt("return",new Promise(function(){var t=c(regeneratorRuntime.mark(function t(n){var a,o,i,r,c,s,m,l,u,p,h;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:for(a=[],o=0;o<e._gameInfo.zjLuXian.length;o++)for(i=e._gameInfo.zjLuXian[o],r=0;r<i.indexs.length;r++)a[i.indexs[r]]=1;if(e._gameInfo.scatterZJLuXian&&e._gameInfo.scatterZJLuXian.indexs)for(c=0;c<e._gameInfo.scatterZJLuXian.indexs.length;c++)s=e._gameInfo.scatterZJLuXian.indexs[c],a[s]=1;if(!(cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!==cc.vv.gameData.GetFreeTime())){t.next=10;break}for(l in m=!1,a)(u=e.GetSymbolByIdx(Number(l)))&&u.GetShowId()===e._cfg.wildId&&(m=!0,u.playWildAnimation(e._gameInfo.wildMult));if(!m){t.next=10;break}return cc.vv.AudioManager.playEff("games/TheMammoth/","wild_land_2",!0),t.next=10,cc.vv.gameData.awaitTime(1.5);case 10:for(p in a)(h=e.GetSymbolByIdx(Number(p)))&&(cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!==cc.vv.gameData.GetFreeTime()&&h.GetShowId()===e._cfg.wildId||h.playWinAnimation(),h.ShowKuang());n();case 12:case"end":return t.stop()}},t)}));return function(e){return t.apply(this,arguments)}}()));case 1:case"end":return t.stop()}},t)}))()},OnSpinEnd:function(){var e=this;return c(regeneratorRuntime.mark(function t(){var n,a;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,e.ShowWinTrace();case 2:e.playAddFreeTimesAnimation(),n=cc.vv.gameData.GetGameWin(),a=cc.vv.gameData.GetGameWin(),cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!==cc.vv.gameData.GetFreeTime()&&(a=cc.vv.gameData.GetGameTotalFreeWin()),e.ShowBottomWin(n,a,!0,c(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(!e.CheckEnterFreeGame()){t.next=4;break}e.triggerFreeGame(),t.next=15;break;case 4:if(!e.CheckExtraFreeGame()){t.next=8;break}e.triggerExtraFreeGame(),t.next=15;break;case 8:if(!e.CheckExitFreeGame()){t.next=12;break}e.triggerExitFreeGame(),t.next=15;break;case 12:return t.next=14,cc.vv.gameData.awaitTime(.1);case 14:e.CanDoNextRound();case 15:case"end":return t.stop()}},t)})));case 7:case"end":return t.stop()}},t)}))()},playAddFreeTimesAnimation:function(){var e=this;if(this._gameInfo.updateWheel){var t=1;3===this._gameInfo.updateWheel.mult?t=2:5===this._gameInfo.updateWheel.mult&&(t=3);var n=cc.find("free_panel/free_"+t+"/times",this.node.parent).convertToWorldSpaceAR(cc.v2(0,0));n=this.node.parent.convertToNodeSpaceAR(n),cc.vv.AudioManager.playEff("games/TheMammoth/","gem",!0);var a=cc.instantiate(cc.find("zhuanshi_01",this.node.parent));a.active=!0;for(var o=null,i=this._reels[4],r=0;r<this._cfg.row;r++){var c=i.GetSymbolByRow(r);if(14===c.GetShowId()){o=c.node.convertToWorldSpaceAR(cc.v2(0,0)),o=this.node.parent.convertToNodeSpaceAR(o);break}}a.position=o,a.parent=this.node.parent,a.getComponent(sp.Skeleton).setAnimation(0,"animation"+t,!1),a.getComponent(sp.Skeleton).setCompleteListener(function(o){(o.animation?o.animation.name:"")==="animation"+t&&(a.getComponent(sp.Skeleton).clearTracks(),a.getComponent(sp.Skeleton).setAnimation(0,"animation"+t+"_1",!1),a.runAction(cc.sequence(cc.moveTo(.5,n),cc.callFunc(function(){var t=cc.instantiate(cc.find("shuzizengjia_01",e.node.parent));t.active=!0,t.parent=e.node.parent,t.position=n,t.getComponent(sp.Skeleton).setAnimation(0,"animation",!1),t.getComponent(sp.Skeleton).setCompleteListener(function(){t.removeFromParent()}),e.updateFreePanel(cc.vv.gameData.GetBetIdx()-1),a.removeFromParent()}))))})}},triggerFreeGame:function(){var e=this;return c(regeneratorRuntime.mark(function t(){var n,a,o;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:for(e._bottomScript.ShowBtnsByState("moveing_1"),n=0;n<e._gameInfo.resultCards.length;n++)2!==(a=e._gameInfo.resultCards[n])&&14!==a||e.GetSymbolByIdx(n+1).playWinAnimation();return cc.vv.AudioManager.playEff("games/TheMammoth/","bell",!0),t.next=5,cc.vv.gameData.awaitTime(2);case 5:return e.cutScenesIce(),t.next=8,cc.vv.gameData.awaitTime(.5);case 8:return t.next=10,new Promise(function(t){e._wheel_script.enterWheelGame(t,e._gameInfo.wheelGame.items)});case 10:if((o=e._gameInfo.wheelGame.items[e._wheel_result.itemId-1]).type!==m){t.next=21;break}return e.cutScenesIce(),t.next=15,cc.vv.gameData.awaitTime(1.5);case 15:cc.vv.gameData.AddCoin(e._wheel_result.jackpot.value),e._wheel_script.reset(),e._wheel_script.node.active=!1,e.ShowBottomWin(e._wheel_result.jackpot.value,e._wheel_result.jackpot.value,!0,function(){e.CanDoNextRound()}),t.next=49;break;case 21:if(o.type!==s){t.next=36;break}return e.cutScenesElephant(),e.Backup(),e.ShowGameview(!0),e.changeFreeBg(!0),t.next=28,cc.vv.gameData.awaitTime(1.5);case 28:return e._wheel_script.reset(),e._wheel_script.node.active=!1,t.next=32,e.popFreeDialog(!0);case 32:cc.vv.AudioManager.playBgm("games/TheMammoth/","free_bgm",!0),e.CanDoNextRound(),t.next=49;break;case 36:if(o.type!==l){t.next=49;break}return e.cutScenesElephant(),e.Backup(),e.ShowGameview(!0),e.changeFreeBg(!1,o.mult),t.next=43,cc.vv.gameData.awaitTime(1.5);case 43:return e._wheel_script.reset(),e._wheel_script.node.active=!1,t.next=47,e.popFreeDialog(!1,!1,o.mult);case 47:cc.vv.AudioManager.playBgm("games/TheMammoth/","free_bgm",!0),e.CanDoNextRound();case 49:case"end":return t.stop()}},t)}))()},triggerExtraFreeGame:function(){var e=this;return c(regeneratorRuntime.mark(function t(){var n,a;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:for(e._bottomScript.ShowBtnsByState("stopped"),n=0;n<e._gameInfo.resultCards.length;n++)2!==(a=e._gameInfo.resultCards[n])&&14!==a||e.GetSymbolByIdx(n+1).playWinAnimation();return cc.vv.AudioManager.playEff("games/TheMammoth/","bell",!0),t.next=5,cc.vv.gameData.awaitTime(2);case 5:return t.next=7,e.popFreeDialog(!1,!0);case 7:e.CanDoNextRound();case 8:case"end":return t.stop()}},t)}))()},triggerExitFreeGame:function(){var e=this;return c(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return e._bottomScript.ShowBtnsByState("moveing_1"),t.next=3,cc.vv.gameData.awaitTime(1);case 3:return t.next=5,e.popFreeResultDialog();case 5:return e.cutScenesElephant(),e._curFreeTimesPanel=null,t.next=9,cc.vv.gameData.awaitTime(1.5);case 9:e.updateFreePanel(cc.vv.gameData.GetBetIdx()-1),e.ShowGameview(!1),e.Resume(),e.ShowBottomWin(cc.vv.gameData.GetGameTotalFreeWin(),cc.vv.gameData.GetGameTotalFreeWin(),!0,function(){Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playNormalBgm(),e.CanDoNextRound()});case 13:case"end":return t.stop()}},t)}))()},setWheelScripts:function(e){this._wheel_script=e},setWheelResult:function(e){this._wheel_result=e},cutScenesIce:function(){cc.vv.AudioManager.playEff("games/TheMammoth/","bonus_transiton",!0);var e=cc.find("qp_02",this.node.parent);e.active=!0,e.getComponent(sp.Skeleton).setToSetupPose(),e.getComponent(sp.Skeleton).setAnimation(0,"animation",!1)},cutScenesElephant:function(){cc.vv.AudioManager.playEff("games/TheMammoth/","fg_transiton",!0);var e=cc.find("QP_01",this.node.parent);e.active=!0,e.getComponent(sp.Skeleton).setToSetupPose(),e.getComponent(sp.Skeleton).setAnimation(0,"idle3",!1)},OnReelSpinEnd:function(e){this._super(e)},SetSlotsResult:function(e){this._super(e)},ShowGameview:function(e){this._super(e),cc.find("free_panel",this.node.parent).active=!e,cc.find("LMSlots_PrizePool_1",this.node.parent).active=!e,cc.find("free_times",this.node.parent).active=e,cc.find("LMSlots_Collect_Puzzle",this.node.parent).active=!e},update:function(e){this._super(e)},shake:function(){var e,t=a(this.node.parent.children);try{for(t.s();!(e=t.n()).done;){var n=e.value;if("LMSlots_Top"!==n.name&&"LMSlots_Bottom"!==n.name&&n.active){var o=cc.shake(3,15,15);n.runAction(o)}}}catch(e){t.e(e)}finally{t.f()}},triggerRandomGame:function(){cc.vv.AudioManager.playEff("games/TheMammoth/","big_win_transiton",!0);var e=cc.find("spine_randomgame",this.node);e.active=!0,e.getComponent(sp.Skeleton).setToSetupPose(),e.getComponent(sp.Skeleton).setAnimation(0,"animation",!1),this.shake()},updateFreePanel:function(e){var t=cc.vv.gameData.getDeskInfo().history;if(t&&t.wheelGames&&e<t.wheelGames.length){var n=t.wheelGames[e],a=cc.find("free_panel/free_1/times",this.node.parent),o=cc.find("free_panel/free_2/times",this.node.parent),i=cc.find("free_panel/free_3/times",this.node.parent);a.getComponent(cc.Label).string=n.greenItem.freeCnt,o.getComponent(cc.Label).string=n.purpleItem.freeCnt,i.getComponent(cc.Label).string=n.redItem.freeCnt}var r=cc.find("free_panel/tip/tip_1",this.node.parent),c=cc.find("free_panel/tip/tip_2",this.node.parent),s=cc.find("free_panel/tip/qiehuan_01",this.node.parent),m=s.getComponent(sp.Skeleton);e>=cc.vv.gameData.getDeskInfo().needBet?(c.active||(s.active=!0,m.setToSetupPose(),m.setAnimation(0,"animation",!1),m.setCompleteListener(function(){s.active=!1})),r.active=!1,c.active=!0):(r.active||(s.active=!0,m.setToSetupPose(),m.setAnimation(0,"animation",!1),m.setCompleteListener(function(){s.active=!1})),r.active=!0,c.active=!1)},changeFreeBg:function(e,t){cc.find("LMSlots_PrizePool_1",this.node.parent).active=!1;var n=cc.find("free_times",this.node.parent);n.active=!0,cc.find("common",n).active=!1,cc.find("mult_2",n).active=!1,cc.find("mult_3",n).active=!1,cc.find("mult_5",n).active=!1,e?(this._curFreeTimesPanel=cc.find("common",n),cc.find("common",n).active=!0,cc.find("common/allTimes",n).getComponent(cc.Label).string=cc.vv.gameData.GetTotalFree(),cc.find("common/curTimes",n).getComponent(cc.Label).string=cc.vv.gameData.GetTotalFree()-cc.vv.gameData.GetFreeTime()):(this._curFreeTimesPanel=cc.find("mult_"+t,n),cc.find("mult_"+t,n).active=!0,cc.find("mult_"+t+"/allTimes",n).getComponent(cc.Label).string=cc.vv.gameData.GetTotalFree(),cc.find("mult_"+t+"/curTimes",n).getComponent(cc.Label).string=cc.vv.gameData.GetTotalFree()-cc.vv.gameData.GetFreeTime())},popFreeDialog:function(e,t,n){var a=this;return new Promise(function(){var o=c(regeneratorRuntime.mark(function o(i){var r,s,m;return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:(r=cc.find("free_dialog",a.node.parent)).active=!0,(s=cc.find("free_dialog_bg",r)).opacity=0,s.runAction(cc.fadeTo(.2,200)),m=null,e?(m=cc.find("common_enter_node",r),cc.vv.AudioManager.playEff("games/TheMammoth/","fg_start",!0)):t?(m=cc.find("extra_node",r),cc.vv.AudioManager.playEff("games/TheMammoth/","retrigger_board_land",!0)):(cc.vv.AudioManager.playEff("games/TheMammoth/","fg_start",!0),m=cc.find("mult_enter_node_"+n,r)),m.active=!0,m.scale=0,cc.find("times",m).getComponent(cc.Label).string=t?a._gameInfo.freeResult.freeInfo.freeCnt:cc.vv.gameData.GetTotalFree(),cc.tween(m).to(.5,{scale:1},{easing:"backOut"}).call(c(regeneratorRuntime.mark(function e(){var t;return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:if(!cc.find("btn_start",m)){e.next=6;break}t=function(){var e=c(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return cc.find("btn_start",m).off("click"),cc.vv.AudioManager.playEff("games/TheMammoth/","fg_select",!0),cc.tween(m).to(.5,{scale:0}).start(),s.runAction(cc.fadeOut(.2)),e.next=6,cc.vv.gameData.awaitTime(.5);case 6:i(),m.active=!1,r.active=!1;case 9:case"end":return e.stop()}},e)}));return function(){return e.apply(this,arguments)}}(),cc.vv.gameData.checkAutoPlay(cc.find("btn_start",m),t),cc.find("btn_start",m).on("click",c(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return cc.find("btn_start",m).stopAllActions(),e.next=3,t();case 3:case"end":return e.stop()}},e)}))),e.next=15;break;case 6:return e.next=8,cc.vv.gameData.awaitTime(2);case 8:return cc.tween(m).to(.5,{scale:0}).start(),s.runAction(cc.fadeOut(.2)),e.next=12,cc.vv.gameData.awaitTime(.5);case 12:i(),m.active=!1,r.active=!1;case 15:case"end":return e.stop()}},e)}))).start();case 11:case"end":return o.stop()}},o)}));return function(e){return o.apply(this,arguments)}}())},popFreeResultDialog:function(){var e=this;return new Promise(function(){var t=c(regeneratorRuntime.mark(function t(n){var a,o,i,r;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return cc.vv.AudioManager.playEff("games/TheMammoth/","fg_end",!0),(a=cc.find("free_dialog",e.node.parent)).active=!0,(o=cc.find("free_dialog_bg",a)).opacity=0,o.runAction(cc.fadeTo(.2,200)),(i=cc.find("result_node",a)).active=!0,i.scale=0,cc.find("coin",i).getComponent(cc.Label).string="",cc.tween(i).to(.5,{scale:1},{easing:"backOut"}).start(),t.next=13,cc.vv.gameData.awaitTime(.5);case 13:Global.doRoallNumEff(cc.find("coin",i),0,cc.vv.gameData.GetGameTotalFreeWin(),3,null,null,0,!0),r=function(){var e=c(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return cc.find("btn_collect",i).off("click"),cc.vv.AudioManager.playEff("games/TheMammoth/","board_collect",!0),cc.tween(i).to(.5,{scale:0}).start(),o.runAction(cc.fadeOut(.2)),e.next=6,cc.vv.gameData.awaitTime(.5);case 6:n(),i.active=!1,a.active=!1;case 9:case"end":return e.stop()}},e)}));return function(){return e.apply(this,arguments)}}(),cc.vv.gameData.checkAutoPlay(cc.find("btn_collect",i),r),cc.find("btn_collect",i).on("click",c(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return cc.find("btn_collect",i).stopAllActions(),e.next=3,r();case 3:case"end":return e.stop()}},e)})));case 17:case"end":return t.stop()}},t)}));return function(e){return t.apply(this,arguments)}}())},awaitTime:function(e){var t=this;return new Promise(function(n,a){t.scheduleOnce(function(){n()},e)})}}),cc._RF.pop()},{LMSlots_Slots_Base:void 0}],TheMammoth_Symbol:[function(e,t,n){"use strict";cc._RF.push(t,"4e94bP7EwNALIDB2XjjpZib","TheMammoth_Symbol"),cc.Class({extends:e("LMSlots_Symbol_Base"),properties:{},StartMove:function(){this._super()},ShowById:function(e,t){this._super(e,t)},playWinAnimation:function(){this._showNode&&(this._showNode.active=!1);var e=this._id,t=cc.vv.gameData.getGameCfg();if(t.symbol[e]&&t.symbol[e].win_node){this._state="win",this._showNode&&(this._showNode.active=!1);var n=this.setAnimationToTop(!0);n.active=!0;var a=cc.find(t.symbol[e].win_node,n);if(a.active=!0,t.symbol[e].win_ani&&""!==t.symbol[e].win_ani.name){n.zIndex=t.symbol[e].win_ani.zIndex-this._symbolIdx+10*this._reelIdx;var o=a.getComponent(sp.Skeleton);o&&o.setAnimation(0,t.symbol[e].win_ani.name,!0)}}else this._showNode.active=!0,this.playWinTweenAction()},playWildAnimation:function(e){this._showNode&&(this._showNode.active=!1);var t=this._id,n=cc.vv.gameData.getGameCfg();this._state="win",this._showNode&&(this._showNode.active=!1);var a=this.setAnimationToTop(!0);if(a.active=!0,cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!==cc.vv.gameData.GetFreeTime()&&t===n.wildId){var o=cc.find("animation_1_"+e,a);o.active=!0,a.zIndex=300-this._symbolIdx+10*this._reelIdx;var i=o.getComponent(sp.Skeleton);i&&(i.setAnimation(0,"animation1",!1),i.setCompleteListener(function(e){"animation1"===(e.animation?e.animation.name:"")&&(i.clearTracks(),i.setAnimation(0,"animation",!0))}))}},playWinTweenAction:function(){this._showNode.cleanup(),this._showNodeOrgScale=this._showNode.scale,cc.tween(this._showNode).repeatForever(cc.tween().to(.35,{opacity:0}).to(.35,{opacity:255}).delay(1)).start()}}),cc._RF.pop()},{LMSlots_Symbol_Base:void 0}],TheMammoth_Wheel:[function(e,t,n){"use strict";function a(e,t,n,a,o,i,r){try{var c=e[i](r),s=c.value}catch(e){return void n(e)}c.done?t(s):Promise.resolve(s).then(a,o)}function o(e){return function(){var t=this,n=arguments;return new Promise(function(o,i){var r=e.apply(t,n);function c(e){a(r,o,i,c,s,"next",e)}function s(e){a(r,o,i,c,s,"throw",e)}c(void 0)})}}function i(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=r(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,o,i=!0,c=!1;return{s:function(){a=e[Symbol.iterator]()},n:function(){var e=a.next();return i=e.done,e},e:function(e){c=!0,o=e},f:function(){try{i||null==a.return||a.return()}finally{if(c)throw o}}}}function r(e,t){if(e){if("string"==typeof e)return c(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?c(e,t):void 0}}function c(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,a=new Array(t);n<t;n++)a[n]=e[n];return a}cc._RF.push(t,"59aaff3GE5IaJoPT4yjU0jK","TheMammoth_Wheel");var s=1,m=2,l=3;cc.Class({extends:cc.Component,properties:{type_1:cc.Node,type_2:cc.Node,btn_play:cc.Node,sanjiao:cc.Node,shuihua:cc.Node,jinse:cc.Node,zise:cc.Node,jackpot_result:cc.Node,jackpot_result_bg:cc.Node,minor:cc.Node,major:cc.Node,grand:cc.Node,items_1:[cc.Node],items_2:[cc.Node],speed:{default:1,tooltip:"\u65cb\u8f6c\u901f\u5ea6"},maxSpeed:{default:20,tooltip:"\u6700\u5927\u901f\u5ea6"},count:{default:2,tooltip:"\u9700\u8981\u8f6c\u51e0\u8f6e"},minSpeed:{default:1,tooltip:"\u6700\u5c0f\u901f\u5ea6"},speedOffset:{default:.25,tooltip:"\u901f\u5ea6\u53d8\u5316\u503c"},_startMove:!1,_needStop:!1,_backMove:!1,_resultItem:null,_bottomPosY:0,_successCallback:null,_hasPressed:!1,_result:null,_wheelConfig:null,_type:1,_items:null,_itemsHeight:0},onLoad:function(){var e=this;this.btn_play.on("click",function(){if(!e._hasPressed){e.btn_play.stopAllActions(),cc.vv.AudioManager.playEff("games/TheMammoth/","fg_select",!0),e._hasPressed=!0;var t={c:MsgId.SLOT_SUBGAME_DATA};t.gameid=cc.vv.gameData.getGameId(),t.data={},t.data.rtype=1,cc.vv.NetManager.send(t,!0),e.btn_play.runAction(cc.fadeOut(.2))}}),cc.vv.NetManager.registerMsg(MsgId.SLOT_SUBGAME_DATA,this.onRcvSubgameData,this)},update:function(e){if(this._startMove){this._needStop?(this.speed-=this.speedOffset,this.speed<=this.minSpeed&&(this.speed=this.minSpeed)):(this.speed+=this.speedOffset,this.speed>=this.maxSpeed&&(this.speed=this.maxSpeed)),0===this.count&&this._resultItem.y<=3*this._resultItem.height&&(this._needStop=!0),this._needStop&&this._resultItem.y<-180&&(this._startMove=!1,this._backMove=!0);var t,n=i(this._items);try{for(n.s();!(t=n.n()).done;){var a=t.value;a.y<=this._bottomPosY&&(a.y+=this._itemsHeight,a===this._resultItem&&(this.count--,this.count<=0&&(this.count=0))),a.y-=this.speed}}catch(e){n.e(e)}finally{n.f()}}if(this._backMove){var o,r=i(this._items);try{for(r.s();!(o=r.n()).done;){o.value.y+=this.minSpeed}}catch(e){r.e(e)}finally{r.f()}this._resultItem.y>-181&&this._resultItem.y<-179&&(this._backMove=!1,this.exitWheelGame())}},onRcvSubgameData:function(e){var t=this;if(200===e.code&&1===e.data.rtype){this._resultItem=this._items[e.data.itemId-1],this._result=e.data,cc.vv.gameData.GetSlotsScript().setWheelResult(this._result),this._startMove=!0,cc.vv.AudioManager.playEff("games/TheMammoth/","bonus_wheel_spin",!0);var n=this._wheelConfig[e.data.itemId-1];n.type!==s&&n.type!==l||(cc.vv.gameData.SetTotalFree(n.freeCnt),cc.vv.gameData.SetFreeTime(n.freeCnt)),this.shuihua.active=!0,this.shuihua.getComponent(sp.Skeleton).setAnimation(0,"animation1",!1),this.shuihua.getComponent(sp.Skeleton).setCompleteListener(function(e){"animation1"===(e.animation?e.animation.name:"")&&t.shuihua.getComponent(sp.Skeleton).setAnimation(0,"animation2",!0)})}},enterWheelGame:function(e,t){var n=this;return o(regeneratorRuntime.mark(function a(){var o,r,c,l,u,p,h,f;return regeneratorRuntime.wrap(function(a){for(;;)switch(a.prev=a.next){case 0:n.node.active=!0,n.reset(),n._successCallback=e,n._wheelConfig=t,cc.vv.AudioManager.playBgm("games/TheMammoth/","bonus_bgm",!0),o=cc.vv.gameData.getDeskInfo(),r=null,o.needBet>cc.vv.gameData.GetBetIdx()?(n._type=1,(r=cc.find("bg/wheel_mask/type_1",n.node)).active=!0,cc.find("bg/wheel_mask/type_2",n.node).active=!1):(n._type=2,(r=cc.find("bg/wheel_mask/type_2",n.node)).active=!0,cc.find("bg/wheel_mask/type_1",n.node).active=!1),n._items=1===n._type?n.items_1:n.items_2,n._itemsHeight=0,c=i(n._items);try{for(c.s();!(l=c.n()).done;)u=l.value,n._itemsHeight+=u.height}catch(e){c.e(e)}finally{c.f()}for(n._bottomPosY=-708,p=0;p<t.length;p++)h=t[p],f=cc.find("index_"+(p+1),r),h.type===s?cc.find("num",f).getComponent(cc.Label).string=h.freeCnt:h.type===m?cc.find("num",f).getComponent(cc.Label).string=Global.convertNumToShort(h.jackpotValue,null,0):cc.find("num",f).getComponent(cc.Label).string=h.freeCnt;cc.vv.gameData.checkAutoPlay(n.btn_play,function(){if(!n._hasPressed){cc.vv.AudioManager.playEff("games/TheMammoth/","fg_select",!0),n._hasPressed=!0;var e={c:MsgId.SLOT_SUBGAME_DATA};e.gameid=cc.vv.gameData.getGameId(),e.data={},e.data.rtype=1,cc.vv.NetManager.send(e,!0),n.btn_play.runAction(cc.fadeOut(.2))}});case 15:case"end":return a.stop()}},a)}))()},exitWheelGame:function(){var e=this;return o(regeneratorRuntime.mark(function t(){var n,a;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return cc.vv.AudioManager.playEff("games/TheMammoth/","bonus_active",!0),e.sanjiao.active=!0,e.sanjiao.getComponent(sp.Skeleton).setToSetupPose(),e.sanjiao.getComponent(sp.Skeleton).setAnimation(0,"animation",!1),e.shuihua.getComponent(sp.Skeleton).setAnimation(0,"animation3",!1),e.shuihua.getComponent(sp.Skeleton).setCompleteListener(function(t){"animation3"===(t.animation?t.animation.name:"")&&(e.shuihua.active=!1)}),t.next=8,e.awaitTime(1);case 8:return(n=e._wheelConfig[e._result.itemId-1]).type===s?(e.zise.active=!0,e.zise.getComponent(sp.Skeleton).setToSetupPose(),e.zise.getComponent(sp.Skeleton).setAnimation(0,"animation",!0)):n.type===m?(e.jinse.active=!0,e.jinse.getComponent(sp.Skeleton).setToSetupPose(),e.jinse.getComponent(sp.Skeleton).setAnimation(0,"animation2",!0)):(e.jinse.active=!0,e.jinse.getComponent(sp.Skeleton).setToSetupPose(),e.jinse.getComponent(sp.Skeleton).setAnimation(0,"animation1",!0)),t.next=12,e.awaitTime(2);case 12:n.type===m?(cc.vv.AudioManager.playEff("games/TheMammoth/","jp_board",!0),e.jackpot_result.active=!0,e.jackpot_result_bg.opacity=0,e.jackpot_result_bg.runAction(cc.fadeTo(.2,200)),e.minor.active=!1,e.major.active=!1,e.grand.active=!1,a=null,(a=2===e._result.jackpot.id?e.minor:3===e._result.jackpot.id?e.major:e.grand).active=!0,a.scale=0,a.runAction(cc.scaleTo(.4,1).easing(cc.easeBackOut())),Global.doRoallNumEff(a.getChildByName("num"),0,e._result.jackpot.value,3,null,null,0,!0),a.getChildByName("btn_collect").on("click",function(){e.jackpot_result_bg.runAction(cc.fadeOut(.2)),a.runAction(cc.sequence(cc.scaleTo(.4,0).easing(cc.easeBackIn()),cc.callFunc(function(){e._successCallback&&e._successCallback()})))})):e._successCallback&&e._successCallback();case 13:case"end":return t.stop()}},t)}))()},reset:function(){this._startMove=!1,this.speed=1,this._needStop=!1,this.count=2,this._hasPressed=!1,this._backMove=!1,this.zise.active=!1,this.jinse.active=!1,this.btn_play.opacity=255},onDestroy:function(){cc.vv.NetManager.unregisterMsg(MsgId.SLOT_SUBGAME_DATA,this.onRcvSubgameData,!1,this)},awaitTime:function(e){var t=this;return new Promise(function(n,a){t.scheduleOnce(function(){n()},e)})}}),cc._RF.pop()},{}]},{},["TheMammoth_Cfg","TheMammoth_Logic","TheMammoth_Reel","TheMammoth_Slots","TheMammoth_Symbol","TheMammoth_Wheel"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  TheMammoth_Cfg: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "21bd31rVotO07cHLuAHvkrn", "TheMammoth_Cfg");
+    "use strict";
+    var _symbol;
+    function _defineProperty(obj, key, value) {
+      key in obj ? Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+      }) : obj[key] = value;
+      return obj;
+    }
+    var Cfg = {
+      symbol: (_symbol = {}, _defineProperty(_symbol, 1, {
+        node: "symbol_1",
+        win_node: "animation_1",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 2, {
+        node: "symbol_2",
+        win_node: "animation_2",
+        win_ani: {
+          name: "animation2",
+          zIndex: 300
+        },
+        stop_ani: {
+          name: "animation1",
+          zIndex: 100
+        }
+      }), _defineProperty(_symbol, 3, {
+        node: "symbol_3",
+        win_node: "animation_3",
+        win_ani: {
+          name: "animation2",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 4, {
+        node: "symbol_4",
+        win_node: "animation_4",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 5, {
+        node: "symbol_5",
+        win_node: "animation_5",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 6, {
+        node: "symbol_6",
+        win_node: "animation_6",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 7, {
+        node: "symbol_7",
+        win_node: "animation_7",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 8, {
+        node: "symbol_8"
+      }), _defineProperty(_symbol, 9, {
+        node: "symbol_9"
+      }), _defineProperty(_symbol, 10, {
+        node: "symbol_10"
+      }), _defineProperty(_symbol, 11, {
+        node: "symbol_11"
+      }), _defineProperty(_symbol, 12, {
+        node: "symbol_12"
+      }), _defineProperty(_symbol, 13, {
+        node: "symbol_13"
+      }), _defineProperty(_symbol, 14, {
+        node: "symbol_14",
+        win_node: "animation_14",
+        win_ani: {
+          name: "animation2",
+          zIndex: 300
+        },
+        stop_ani: {
+          name: "animation1",
+          zIndex: 100
+        }
+      }), _symbol),
+      puzzleCfg: {
+        atlas: "puzzle_10",
+        bg: "theme_store_puzzle10_bg",
+        full: "theme_store_puzzle10_full",
+        pieces: [ "theme_store_puzzle_10_1", "theme_store_puzzle_10_2", "theme_store_puzzle_10_3", "theme_store_puzzle_10_4", "theme_store_puzzle_10_5", "theme_store_puzzle_10_6", "theme_store_puzzle_10_7", "theme_store_puzzle_10_8", "theme_store_puzzle_10_9", "theme_store_puzzle_10_10", "theme_store_puzzle_10_11", "theme_store_puzzle_10_12" ]
+      },
+      scripts: {
+        Top: "LMSlots_Top_Base",
+        Bottom: "LMSlots_Bottom_Base",
+        Slots: "TheMammoth_Slots",
+        Reels: "TheMammoth_Reel",
+        Symbols: "TheMammoth_Symbol"
+      },
+      col: 5,
+      row: 4,
+      symbolPrefab: "symbol",
+      symbolSize: {
+        width: 124,
+        height: 94
+      },
+      randomSymbols: [ 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ],
+      wildId: 1,
+      scatterIds: [ 2, 14 ],
+      kuang: "kuang",
+      autoModelDelay: .8,
+      speed: 3e3,
+      reelStopInter: .2,
+      auto_stop_time: 1,
+      bounce: true,
+      helpItems: [ "games/TheMammoth/prefab/help_item_1", "games/TheMammoth/prefab/help_item_2", "games/TheMammoth/prefab/help_item_3" ],
+      commEffect: {
+        path: "games/TheMammoth/",
+        win1: [ "win1", "win1end" ],
+        win2: [ "win2", "win2end" ],
+        win3: [ "win3", "win3end" ],
+        win4: [ "win4", "win4end" ]
+      },
+      bounceInfo: {
+        distance: 30,
+        time: .1
+      },
+      reelStateInfo: [ {
+        id: [ 2, 14 ],
+        mini: 3,
+        counts: [ 1, 1, 1, 1, 1 ],
+        antiNode: "",
+        path: "games/TheMammoth/",
+        reelStopSound: "reel_stop",
+        symbolStopSound: "scatter",
+        antSound: "reel_notify",
+        antSpeed: 1500
+      } ],
+      normalBgm: "base_bgm"
+    };
+    module.exports = Cfg;
+    cc._RF.pop();
+  }, {} ],
+  TheMammoth_Logic: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "cea0bLPFPVAFa9N8OVwiSEz", "TheMammoth_Logic");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Logic_Base"),
+      properties: {},
+      onLoad: function onLoad() {
+        window.SlotsFacade = this;
+        this.dm = cc.vv.gameData;
+        this.InitCommComponent();
+        var wheel_script = cc.find("safe_node/wheel", this.node).getComponent("TheMammoth_Wheel");
+        cc.vv.gameData.GetSlotsScript().setWheelScripts(wheel_script);
+        this.wheel = wheel_script;
+        this.topCmp = cc.vv.gameData.GetTopScript();
+        this.bottomCmp = cc.vv.gameData.GetBottomScript();
+        this.slots = cc.vv.gameData.GetSlotsScript();
+        Global.registerEvent(cc.vv.gameData._EventId.SLOT_TOTALBET_UPDATED, this.onUpdateBet, this);
+      },
+      onDestroy: function onDestroy() {
+        window.SlotsFacade = null;
+        this.dm = null;
+      },
+      delayTime: function delayTime(time) {
+        var _this = this;
+        return new Promise(function(res, rej) {
+          _this.scheduleOnce(function() {
+            res();
+          }, time);
+        });
+      },
+      onUpdateBet: function onUpdateBet() {
+        cc.vv.gameData.GetSlotsScript().updateFreePanel(cc.vv.gameData.GetBetIdx() - 1);
+      },
+      playPrizePoolAnimation: function playPrizePoolAnimation() {
+        var grand = cc.find("safe_node/LMSlots_PrizePool_1/prizePool_Grand", this.node);
+        grand.opacity = 255;
+        var major = cc.find("safe_node/LMSlots_PrizePool_1/prizePool_Major", this.node);
+        major.opacity = 0;
+        var minor = cc.find("safe_node/LMSlots_PrizePool_1/prizePool_Minor", this.node);
+        minor.opacity = 0;
+        grand.runAction(cc.repeatForever(cc.sequence(cc.delayTime(4), cc.fadeOut(.5), cc.delayTime(8.5), cc.fadeIn(.5))));
+        major.runAction(cc.repeatForever(cc.sequence(cc.delayTime(4), cc.fadeIn(.5), cc.delayTime(4), cc.fadeOut(.5), cc.delayTime(4.5))));
+        minor.runAction(cc.repeatForever(cc.sequence(cc.delayTime(8.5), cc.fadeIn(.5), cc.delayTime(4), cc.fadeOut(.5))));
+      },
+      start: function start() {
+        this._super();
+        this.playPrizePoolAnimation();
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Logic_Base: void 0
+  } ],
+  TheMammoth_Reel: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "93daafj7r1GtI9wsXHePOZ0", "TheMammoth_Reel");
+    "use strict";
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    cc.Class({
+      extends: require("LMSlots_Reel_Base"),
+      properties: {},
+      OnReelSpinEnd: function OnReelSpinEnd() {
+        this._super();
+      },
+      playReelStop: function playReelStop() {
+        for (var i = 0; i < this._originResult.length; i++) {
+          var item = this._symbols[i];
+          var _iterator = _createForOfIteratorHelper(this._reelState), _step;
+          try {
+            for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+              var info = _step.value;
+              info.isStop && info.id.includes(item.GetShowId()) && item.playStopAnimation();
+            }
+          } catch (err) {
+            _iterator.e(err);
+          } finally {
+            _iterator.f();
+          }
+        }
+        if (this._cfg.reelStateInfo && this._cfg.reelStateInfo[0]) {
+          var reelStopEffect = "";
+          var symbolEffect = "";
+          var hasSymbol = false;
+          var _iterator2 = _createForOfIteratorHelper(this._reelState), _step2;
+          try {
+            for (_iterator2.s(); !(_step2 = _iterator2.n()).done; ) {
+              var _info = _step2.value;
+              if (_info.isStop) {
+                symbolEffect = _info.symbolStopSound ? _info.symbolStopSound + (this._reelIdx + 1) : "";
+                hasSymbol = true;
+              } else reelStopEffect = _info.reelStopSound ? _info.reelStopSound : "";
+            }
+          } catch (err) {
+            _iterator2.e(err);
+          } finally {
+            _iterator2.f();
+          }
+          hasSymbol && (reelStopEffect = symbolEffect);
+          cc.vv.AudioManager.playEff(this._cfg.reelStateInfo[0].path, reelStopEffect, true);
+        }
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Reel_Base: void 0
+  } ],
+  TheMammoth_Slots: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "ad542MnbZhAPoKJHJ1pLs4c", "TheMammoth_Slots");
+    "use strict";
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    var WheelItemType = {
+      FreeGame: 1,
+      Jackpot: 2,
+      FreeGameMult: 3
+    };
+    cc.Class({
+      extends: require("LMSlots_Slots_Base"),
+      properties: {
+        _wheel_script: null,
+        _wheel_result: null,
+        _curFreeTimesPanel: null
+      },
+      Init: function Init() {
+        var _this = this;
+        this._super();
+        this.updateFreePanel(cc.vv.gameData.GetBetIdx() - 1);
+        cc.winSize.height / cc.winSize.width > 2.1 ? cc.find("logo", this.node.parent).active = true : cc.find("logo", this.node.parent).active = false;
+        this.node.parent.parent.getComponent("LMSlots_Puzzle").setCallback(function() {
+          var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(freeInfo, chipGame) {
+            return regeneratorRuntime.wrap(function _callee$(_context) {
+              while (1) switch (_context.prev = _context.next) {
+               case 0:
+                cc.vv.gameData.SetTotalFree(freeInfo.freeCnt);
+                cc.vv.gameData.SetFreeTime(freeInfo.freeCnt);
+                _this.cutScenesElephant();
+                _context.next = 5;
+                return cc.vv.gameData.awaitTime(1.5);
+
+               case 5:
+                _this.ShowGameview(true);
+                _this.changeFreeBg(true);
+                _context.next = 9;
+                return cc.vv.gameData.awaitTime(1.5);
+
+               case 9:
+                _context.next = 11;
+                return _this.popFreeDialog(true);
+
+               case 11:
+                cc.vv.AudioManager.playBgm("games/TheMammoth/", "free_bgm", true);
+                _this.CanDoNextRound();
+
+               case 13:
+               case "end":
+                return _context.stop();
+              }
+            }, _callee);
+          }));
+          return function(_x, _x2) {
+            return _ref.apply(this, arguments);
+          };
+        }());
+      },
+      StartMove: function StartMove() {
+        this._super();
+        Global.SlotsSoundMgr.playNormalBgm();
+        if (this._curFreeTimesPanel) {
+          cc.find("allTimes", this._curFreeTimesPanel).getComponent(cc.Label).string = cc.vv.gameData.GetTotalFree();
+          cc.find("curTimes", this._curFreeTimesPanel).getComponent(cc.Label).string = cc.vv.gameData.GetTotalFree() - cc.vv.gameData.GetFreeTime();
+        }
+      },
+      ReconnectShow: function ReconnectShow() {
+        var _this2 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var deskInfo, wheelGame, cfg;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              deskInfo = cc.vv.gameData.getDeskInfo();
+              wheelGame = deskInfo.history.wheelGames[cc.vv.gameData.GetBetIdx() - 1];
+              if (!(1 === wheelGame.state)) {
+                _context2.next = 42;
+                break;
+              }
+              _context2.next = 5;
+              return new Promise(function(success) {
+                _this2._wheel_script.enterWheelGame(success, wheelGame.items);
+              });
+
+             case 5:
+              cfg = wheelGame.items[_this2._wheel_result.itemId - 1];
+              if (!(cfg.type === WheelItemType.Jackpot)) {
+                _context2.next = 16;
+                break;
+              }
+              _this2.cutScenesIce();
+              _context2.next = 10;
+              return cc.vv.gameData.awaitTime(1.5);
+
+             case 10:
+              _this2._wheel_script.reset();
+              _this2._wheel_script.node.active = false;
+              cc.vv.gameData.AddCoin(_this2._wheel_result.jackpot.value);
+              _this2.ShowBottomWin(_this2._wheel_result.jackpot.value, _this2._wheel_result.jackpot.value, true, function() {
+                _this2.CanDoNextRound();
+              });
+              _context2.next = 40;
+              break;
+
+             case 16:
+              if (!(cfg.type === WheelItemType.FreeGame)) {
+                _context2.next = 29;
+                break;
+              }
+              _this2.cutScenesElephant();
+              _this2.ShowGameview(true);
+              _this2.changeFreeBg(true);
+              _context2.next = 22;
+              return cc.vv.gameData.awaitTime(1.5);
+
+             case 22:
+              _this2._wheel_script.reset();
+              _this2._wheel_script.node.active = false;
+              _context2.next = 26;
+              return _this2.popFreeDialog(true);
+
+             case 26:
+              _this2.CanDoNextRound();
+              _context2.next = 40;
+              break;
+
+             case 29:
+              if (!(cfg.type === WheelItemType.FreeGameMult)) {
+                _context2.next = 40;
+                break;
+              }
+              _this2.cutScenesElephant();
+              _this2.ShowGameview(true);
+              _this2.changeFreeBg(false, cfg.mult);
+              _context2.next = 35;
+              return cc.vv.gameData.awaitTime(1.5);
+
+             case 35:
+              _this2._wheel_script.reset();
+              _this2._wheel_script.node.active = false;
+              _context2.next = 39;
+              return _this2.popFreeDialog(false, false, cfg.mult);
+
+             case 39:
+              _this2.CanDoNextRound();
+
+             case 40:
+              _context2.next = 43;
+              break;
+
+             case 42:
+              if (cc.vv.gameData.GetFreeTime() > 0) {
+                1 === deskInfo.addMult ? _this2.changeFreeBg(true) : _this2.changeFreeBg(false, deskInfo.addMult);
+                _this2.ShowGameview(true);
+                _this2.CanDoNextRound();
+              } else _this2.ShowGameview(false);
+
+             case 43:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      onMsgSpine: function onMsgSpine(msg) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              _this3._super(msg);
+              if (_this3._gameInfo.mammothGame) {
+                _this3.SetStopTime(3);
+                _this3.triggerRandomGame();
+              }
+              cc.vv.gameData.getDeskInfo().history.wheelGames[cc.vv.gameData.GetBetIdx() - 1] = _this3._gameInfo.wheelGame;
+
+             case 3:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      },
+      CheckEnterFreeGame: function CheckEnterFreeGame() {
+        return 1 === this._gameInfo.wheelGame.state;
+      },
+      CheckExtraFreeGame: function CheckExtraFreeGame() {
+        return !!(this._gameInfo.freeResult && this._gameInfo.freeResult.freeInfo && this._gameInfo.freeResult.freeInfo.freeCnt > 0);
+      },
+      CheckExitFreeGame: function CheckExitFreeGame() {
+        return cc.vv.gameData.GetTotalFree() > 0 && 0 === cc.vv.gameData.GetFreeTime();
+      },
+      ShowWinTrace: function ShowWinTrace() {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee5() {
+          return regeneratorRuntime.wrap(function _callee5$(_context5) {
+            while (1) switch (_context5.prev = _context5.next) {
+             case 0:
+              return _context5.abrupt("return", new Promise(function() {
+                var _ref2 = _asyncToGenerator(regeneratorRuntime.mark(function _callee4(success) {
+                  var allWinIdx, i, item, idx, _i, val, hasWild, key, symbol, _key, _symbol;
+                  return regeneratorRuntime.wrap(function _callee4$(_context4) {
+                    while (1) switch (_context4.prev = _context4.next) {
+                     case 0:
+                      allWinIdx = [];
+                      for (i = 0; i < _this4._gameInfo.zjLuXian.length; i++) {
+                        item = _this4._gameInfo.zjLuXian[i];
+                        for (idx = 0; idx < item.indexs.length; idx++) allWinIdx[item.indexs[idx]] = 1;
+                      }
+                      if (_this4._gameInfo.scatterZJLuXian && _this4._gameInfo.scatterZJLuXian.indexs) for (_i = 0; _i < _this4._gameInfo.scatterZJLuXian.indexs.length; _i++) {
+                        val = _this4._gameInfo.scatterZJLuXian.indexs[_i];
+                        allWinIdx[val] = 1;
+                      }
+                      if (!(cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() !== cc.vv.gameData.GetFreeTime())) {
+                        _context4.next = 10;
+                        break;
+                      }
+                      hasWild = false;
+                      for (key in allWinIdx) {
+                        symbol = _this4.GetSymbolByIdx(Number(key));
+                        if (symbol && symbol.GetShowId() === _this4._cfg.wildId) {
+                          hasWild = true;
+                          symbol.playWildAnimation(_this4._gameInfo.wildMult);
+                        }
+                      }
+                      if (!hasWild) {
+                        _context4.next = 10;
+                        break;
+                      }
+                      cc.vv.AudioManager.playEff("games/TheMammoth/", "wild_land_2", true);
+                      _context4.next = 10;
+                      return cc.vv.gameData.awaitTime(1.5);
+
+                     case 10:
+                      for (_key in allWinIdx) {
+                        _symbol = _this4.GetSymbolByIdx(Number(_key));
+                        if (_symbol) {
+                          cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() !== cc.vv.gameData.GetFreeTime() && _symbol.GetShowId() === _this4._cfg.wildId || _symbol.playWinAnimation();
+                          _symbol.ShowKuang();
+                        }
+                      }
+                      success();
+
+                     case 12:
+                     case "end":
+                      return _context4.stop();
+                    }
+                  }, _callee4);
+                }));
+                return function(_x3) {
+                  return _ref2.apply(this, arguments);
+                };
+              }()));
+
+             case 1:
+             case "end":
+              return _context5.stop();
+            }
+          }, _callee5);
+        }))();
+      },
+      OnSpinEnd: function OnSpinEnd() {
+        var _this5 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee7() {
+          var winCoin, totalWinCoin;
+          return regeneratorRuntime.wrap(function _callee7$(_context7) {
+            while (1) switch (_context7.prev = _context7.next) {
+             case 0:
+              _context7.next = 2;
+              return _this5.ShowWinTrace();
+
+             case 2:
+              _this5.playAddFreeTimesAnimation();
+              winCoin = cc.vv.gameData.GetGameWin();
+              totalWinCoin = cc.vv.gameData.GetGameWin();
+              cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() !== cc.vv.gameData.GetFreeTime() && (totalWinCoin = cc.vv.gameData.GetGameTotalFreeWin());
+              _this5.ShowBottomWin(winCoin, totalWinCoin, true, _asyncToGenerator(regeneratorRuntime.mark(function _callee6() {
+                return regeneratorRuntime.wrap(function _callee6$(_context6) {
+                  while (1) switch (_context6.prev = _context6.next) {
+                   case 0:
+                    if (!_this5.CheckEnterFreeGame()) {
+                      _context6.next = 4;
+                      break;
+                    }
+                    _this5.triggerFreeGame();
+                    _context6.next = 15;
+                    break;
+
+                   case 4:
+                    if (!_this5.CheckExtraFreeGame()) {
+                      _context6.next = 8;
+                      break;
+                    }
+                    _this5.triggerExtraFreeGame();
+                    _context6.next = 15;
+                    break;
+
+                   case 8:
+                    if (!_this5.CheckExitFreeGame()) {
+                      _context6.next = 12;
+                      break;
+                    }
+                    _this5.triggerExitFreeGame();
+                    _context6.next = 15;
+                    break;
+
+                   case 12:
+                    _context6.next = 14;
+                    return cc.vv.gameData.awaitTime(.1);
+
+                   case 14:
+                    _this5.CanDoNextRound();
+
+                   case 15:
+                   case "end":
+                    return _context6.stop();
+                  }
+                }, _callee6);
+              })));
+
+             case 7:
+             case "end":
+              return _context7.stop();
+            }
+          }, _callee7);
+        }))();
+      },
+      playAddFreeTimesAnimation: function playAddFreeTimesAnimation() {
+        var _this6 = this;
+        if (this._gameInfo.updateWheel) {
+          var animationIndex = 1;
+          3 === this._gameInfo.updateWheel.mult ? animationIndex = 2 : 5 === this._gameInfo.updateWheel.mult && (animationIndex = 3);
+          var endPos = cc.find("free_panel/free_" + animationIndex + "/times", this.node.parent).convertToWorldSpaceAR(cc.v2(0, 0));
+          endPos = this.node.parent.convertToNodeSpaceAR(endPos);
+          cc.vv.AudioManager.playEff("games/TheMammoth/", "gem", true);
+          var spine = cc.instantiate(cc.find("zhuanshi_01", this.node.parent));
+          spine.active = true;
+          var position = null;
+          var reel = this._reels[4];
+          for (var i = 0; i < this._cfg.row; i++) {
+            var symbol = reel.GetSymbolByRow(i);
+            if (14 === symbol.GetShowId()) {
+              position = symbol.node.convertToWorldSpaceAR(cc.v2(0, 0));
+              position = this.node.parent.convertToNodeSpaceAR(position);
+              break;
+            }
+          }
+          spine.position = position;
+          spine.parent = this.node.parent;
+          spine.getComponent(sp.Skeleton).setAnimation(0, "animation" + animationIndex, false);
+          spine.getComponent(sp.Skeleton).setCompleteListener(function(track) {
+            var name = track.animation ? track.animation.name : "";
+            if (name === "animation" + animationIndex) {
+              spine.getComponent(sp.Skeleton).clearTracks();
+              spine.getComponent(sp.Skeleton).setAnimation(0, "animation" + animationIndex + "_1", false);
+              spine.runAction(cc.sequence(cc.moveTo(.5, endPos), cc.callFunc(function() {
+                var shuzizengjia = cc.instantiate(cc.find("shuzizengjia_01", _this6.node.parent));
+                shuzizengjia.active = true;
+                shuzizengjia.parent = _this6.node.parent;
+                shuzizengjia.position = endPos;
+                shuzizengjia.getComponent(sp.Skeleton).setAnimation(0, "animation", false);
+                shuzizengjia.getComponent(sp.Skeleton).setCompleteListener(function() {
+                  shuzizengjia.removeFromParent();
+                });
+                _this6.updateFreePanel(cc.vv.gameData.GetBetIdx() - 1);
+                spine.removeFromParent();
+              })));
+            }
+          });
+        }
+      },
+      triggerFreeGame: function triggerFreeGame() {
+        var _this7 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee8() {
+          var i, card, symbol, cfg;
+          return regeneratorRuntime.wrap(function _callee8$(_context8) {
+            while (1) switch (_context8.prev = _context8.next) {
+             case 0:
+              _this7._bottomScript.ShowBtnsByState("moveing_1");
+              for (i = 0; i < _this7._gameInfo.resultCards.length; i++) {
+                card = _this7._gameInfo.resultCards[i];
+                if (2 === card || 14 === card) {
+                  symbol = _this7.GetSymbolByIdx(i + 1);
+                  symbol.playWinAnimation();
+                }
+              }
+              cc.vv.AudioManager.playEff("games/TheMammoth/", "bell", true);
+              _context8.next = 5;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 5:
+              _this7.cutScenesIce();
+              _context8.next = 8;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 8:
+              _context8.next = 10;
+              return new Promise(function(success) {
+                _this7._wheel_script.enterWheelGame(success, _this7._gameInfo.wheelGame.items);
+              });
+
+             case 10:
+              cfg = _this7._gameInfo.wheelGame.items[_this7._wheel_result.itemId - 1];
+              if (!(cfg.type === WheelItemType.Jackpot)) {
+                _context8.next = 21;
+                break;
+              }
+              _this7.cutScenesIce();
+              _context8.next = 15;
+              return cc.vv.gameData.awaitTime(1.5);
+
+             case 15:
+              cc.vv.gameData.AddCoin(_this7._wheel_result.jackpot.value);
+              _this7._wheel_script.reset();
+              _this7._wheel_script.node.active = false;
+              _this7.ShowBottomWin(_this7._wheel_result.jackpot.value, _this7._wheel_result.jackpot.value, true, function() {
+                _this7.CanDoNextRound();
+              });
+              _context8.next = 49;
+              break;
+
+             case 21:
+              if (!(cfg.type === WheelItemType.FreeGame)) {
+                _context8.next = 36;
+                break;
+              }
+              _this7.cutScenesElephant();
+              _this7.Backup();
+              _this7.ShowGameview(true);
+              _this7.changeFreeBg(true);
+              _context8.next = 28;
+              return cc.vv.gameData.awaitTime(1.5);
+
+             case 28:
+              _this7._wheel_script.reset();
+              _this7._wheel_script.node.active = false;
+              _context8.next = 32;
+              return _this7.popFreeDialog(true);
+
+             case 32:
+              cc.vv.AudioManager.playBgm("games/TheMammoth/", "free_bgm", true);
+              _this7.CanDoNextRound();
+              _context8.next = 49;
+              break;
+
+             case 36:
+              if (!(cfg.type === WheelItemType.FreeGameMult)) {
+                _context8.next = 49;
+                break;
+              }
+              _this7.cutScenesElephant();
+              _this7.Backup();
+              _this7.ShowGameview(true);
+              _this7.changeFreeBg(false, cfg.mult);
+              _context8.next = 43;
+              return cc.vv.gameData.awaitTime(1.5);
+
+             case 43:
+              _this7._wheel_script.reset();
+              _this7._wheel_script.node.active = false;
+              _context8.next = 47;
+              return _this7.popFreeDialog(false, false, cfg.mult);
+
+             case 47:
+              cc.vv.AudioManager.playBgm("games/TheMammoth/", "free_bgm", true);
+              _this7.CanDoNextRound();
+
+             case 49:
+             case "end":
+              return _context8.stop();
+            }
+          }, _callee8);
+        }))();
+      },
+      triggerExtraFreeGame: function triggerExtraFreeGame() {
+        var _this8 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee9() {
+          var i, card, symbol;
+          return regeneratorRuntime.wrap(function _callee9$(_context9) {
+            while (1) switch (_context9.prev = _context9.next) {
+             case 0:
+              _this8._bottomScript.ShowBtnsByState("stopped");
+              for (i = 0; i < _this8._gameInfo.resultCards.length; i++) {
+                card = _this8._gameInfo.resultCards[i];
+                if (2 === card || 14 === card) {
+                  symbol = _this8.GetSymbolByIdx(i + 1);
+                  symbol.playWinAnimation();
+                }
+              }
+              cc.vv.AudioManager.playEff("games/TheMammoth/", "bell", true);
+              _context9.next = 5;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 5:
+              _context9.next = 7;
+              return _this8.popFreeDialog(false, true);
+
+             case 7:
+              _this8.CanDoNextRound();
+
+             case 8:
+             case "end":
+              return _context9.stop();
+            }
+          }, _callee9);
+        }))();
+      },
+      triggerExitFreeGame: function triggerExitFreeGame() {
+        var _this9 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee10() {
+          return regeneratorRuntime.wrap(function _callee10$(_context10) {
+            while (1) switch (_context10.prev = _context10.next) {
+             case 0:
+              _this9._bottomScript.ShowBtnsByState("moveing_1");
+              _context10.next = 3;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 3:
+              _context10.next = 5;
+              return _this9.popFreeResultDialog();
+
+             case 5:
+              _this9.cutScenesElephant();
+              _this9._curFreeTimesPanel = null;
+              _context10.next = 9;
+              return cc.vv.gameData.awaitTime(1.5);
+
+             case 9:
+              _this9.updateFreePanel(cc.vv.gameData.GetBetIdx() - 1);
+              _this9.ShowGameview(false);
+              _this9.Resume();
+              _this9.ShowBottomWin(cc.vv.gameData.GetGameTotalFreeWin(), cc.vv.gameData.GetGameTotalFreeWin(), true, function() {
+                Global.SlotsSoundMgr.stopBgm();
+                Global.SlotsSoundMgr.playNormalBgm();
+                _this9.CanDoNextRound();
+              });
+
+             case 13:
+             case "end":
+              return _context10.stop();
+            }
+          }, _callee10);
+        }))();
+      },
+      setWheelScripts: function setWheelScripts(script) {
+        this._wheel_script = script;
+      },
+      setWheelResult: function setWheelResult(result) {
+        this._wheel_result = result;
+      },
+      cutScenesIce: function cutScenesIce() {
+        cc.vv.AudioManager.playEff("games/TheMammoth/", "bonus_transiton", true);
+        var qp_02 = cc.find("qp_02", this.node.parent);
+        qp_02.active = true;
+        qp_02.getComponent(sp.Skeleton).setToSetupPose();
+        qp_02.getComponent(sp.Skeleton).setAnimation(0, "animation", false);
+      },
+      cutScenesElephant: function cutScenesElephant() {
+        cc.vv.AudioManager.playEff("games/TheMammoth/", "fg_transiton", true);
+        var QP_01 = cc.find("QP_01", this.node.parent);
+        QP_01.active = true;
+        QP_01.getComponent(sp.Skeleton).setToSetupPose();
+        QP_01.getComponent(sp.Skeleton).setAnimation(0, "idle3", false);
+      },
+      OnReelSpinEnd: function OnReelSpinEnd(colIdx) {
+        this._super(colIdx);
+      },
+      SetSlotsResult: function SetSlotsResult(cards) {
+        this._super(cards);
+      },
+      ShowGameview: function ShowGameview(bFree) {
+        this._super(bFree);
+        cc.find("free_panel", this.node.parent).active = !bFree;
+        cc.find("LMSlots_PrizePool_1", this.node.parent).active = !bFree;
+        var free_times = cc.find("free_times", this.node.parent);
+        free_times.active = bFree;
+        cc.find("LMSlots_Collect_Puzzle", this.node.parent).active = !bFree;
+      },
+      update: function update(dt) {
+        this._super(dt);
+      },
+      shake: function shake() {
+        var safe_node = this.node.parent;
+        var _iterator = _createForOfIteratorHelper(safe_node.children), _step;
+        try {
+          for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+            var child = _step.value;
+            if ("LMSlots_Top" !== child.name && "LMSlots_Bottom" !== child.name && child.active) {
+              var action = cc.shake(3, 15, 15);
+              child.runAction(action);
+            }
+          }
+        } catch (err) {
+          _iterator.e(err);
+        } finally {
+          _iterator.f();
+        }
+      },
+      triggerRandomGame: function triggerRandomGame() {
+        cc.vv.AudioManager.playEff("games/TheMammoth/", "big_win_transiton", true);
+        var spine = cc.find("spine_randomgame", this.node);
+        spine.active = true;
+        spine.getComponent(sp.Skeleton).setToSetupPose();
+        spine.getComponent(sp.Skeleton).setAnimation(0, "animation", false);
+        this.shake();
+      },
+      updateFreePanel: function updateFreePanel(curMult) {
+        var history = cc.vv.gameData.getDeskInfo().history;
+        if (history && history.wheelGames && curMult < history.wheelGames.length) {
+          var wheel = history.wheelGames[curMult];
+          var greenTimes = cc.find("free_panel/free_1/times", this.node.parent);
+          var purpleTimes = cc.find("free_panel/free_2/times", this.node.parent);
+          var redTimes = cc.find("free_panel/free_3/times", this.node.parent);
+          greenTimes.getComponent(cc.Label).string = wheel.greenItem.freeCnt;
+          purpleTimes.getComponent(cc.Label).string = wheel.purpleItem.freeCnt;
+          redTimes.getComponent(cc.Label).string = wheel.redItem.freeCnt;
+        }
+        var tip_1 = cc.find("free_panel/tip/tip_1", this.node.parent);
+        var tip_2 = cc.find("free_panel/tip/tip_2", this.node.parent);
+        var qiehuan = cc.find("free_panel/tip/qiehuan_01", this.node.parent);
+        var spine = qiehuan.getComponent(sp.Skeleton);
+        if (curMult >= cc.vv.gameData.getDeskInfo().needBet) {
+          if (!tip_2.active) {
+            qiehuan.active = true;
+            spine.setToSetupPose();
+            spine.setAnimation(0, "animation", false);
+            spine.setCompleteListener(function() {
+              qiehuan.active = false;
+            });
+          }
+          tip_1.active = false;
+          tip_2.active = true;
+        } else {
+          if (!tip_1.active) {
+            qiehuan.active = true;
+            spine.setToSetupPose();
+            spine.setAnimation(0, "animation", false);
+            spine.setCompleteListener(function() {
+              qiehuan.active = false;
+            });
+          }
+          tip_1.active = true;
+          tip_2.active = false;
+        }
+      },
+      changeFreeBg: function changeFreeBg(isCommon, mult) {
+        cc.find("LMSlots_PrizePool_1", this.node.parent).active = false;
+        var free_times = cc.find("free_times", this.node.parent);
+        free_times.active = true;
+        cc.find("common", free_times).active = false;
+        cc.find("mult_2", free_times).active = false;
+        cc.find("mult_3", free_times).active = false;
+        cc.find("mult_5", free_times).active = false;
+        if (isCommon) {
+          this._curFreeTimesPanel = cc.find("common", free_times);
+          cc.find("common", free_times).active = true;
+          cc.find("common/allTimes", free_times).getComponent(cc.Label).string = cc.vv.gameData.GetTotalFree();
+          cc.find("common/curTimes", free_times).getComponent(cc.Label).string = cc.vv.gameData.GetTotalFree() - cc.vv.gameData.GetFreeTime();
+        } else {
+          this._curFreeTimesPanel = cc.find("mult_" + mult, free_times);
+          cc.find("mult_" + mult, free_times).active = true;
+          cc.find("mult_" + mult + "/allTimes", free_times).getComponent(cc.Label).string = cc.vv.gameData.GetTotalFree();
+          cc.find("mult_" + mult + "/curTimes", free_times).getComponent(cc.Label).string = cc.vv.gameData.GetTotalFree() - cc.vv.gameData.GetFreeTime();
+        }
+      },
+      popFreeDialog: function popFreeDialog(isCommon, isExtra, mult) {
+        var _this10 = this;
+        return new Promise(function() {
+          var _ref4 = _asyncToGenerator(regeneratorRuntime.mark(function _callee14(success) {
+            var free_dialog, free_bg, dialog;
+            return regeneratorRuntime.wrap(function _callee14$(_context14) {
+              while (1) switch (_context14.prev = _context14.next) {
+               case 0:
+                free_dialog = cc.find("free_dialog", _this10.node.parent);
+                free_dialog.active = true;
+                free_bg = cc.find("free_dialog_bg", free_dialog);
+                free_bg.opacity = 0;
+                free_bg.runAction(cc.fadeTo(.2, 200));
+                dialog = null;
+                if (isCommon) {
+                  dialog = cc.find("common_enter_node", free_dialog);
+                  cc.vv.AudioManager.playEff("games/TheMammoth/", "fg_start", true);
+                } else if (isExtra) {
+                  dialog = cc.find("extra_node", free_dialog);
+                  cc.vv.AudioManager.playEff("games/TheMammoth/", "retrigger_board_land", true);
+                } else {
+                  cc.vv.AudioManager.playEff("games/TheMammoth/", "fg_start", true);
+                  dialog = cc.find("mult_enter_node_" + mult, free_dialog);
+                }
+                dialog.active = true;
+                dialog.scale = 0;
+                cc.find("times", dialog).getComponent(cc.Label).string = isExtra ? _this10._gameInfo.freeResult.freeInfo.freeCnt : cc.vv.gameData.GetTotalFree();
+                cc.tween(dialog).to(.5, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).call(_asyncToGenerator(regeneratorRuntime.mark(function _callee13() {
+                  var func;
+                  return regeneratorRuntime.wrap(function _callee13$(_context13) {
+                    while (1) switch (_context13.prev = _context13.next) {
+                     case 0:
+                      if (!cc.find("btn_start", dialog)) {
+                        _context13.next = 6;
+                        break;
+                      }
+                      func = function() {
+                        var _ref6 = _asyncToGenerator(regeneratorRuntime.mark(function _callee11() {
+                          return regeneratorRuntime.wrap(function _callee11$(_context11) {
+                            while (1) switch (_context11.prev = _context11.next) {
+                             case 0:
+                              cc.find("btn_start", dialog).off("click");
+                              cc.vv.AudioManager.playEff("games/TheMammoth/", "fg_select", true);
+                              cc.tween(dialog).to(.5, {
+                                scale: 0
+                              }).start();
+                              free_bg.runAction(cc.fadeOut(.2));
+                              _context11.next = 6;
+                              return cc.vv.gameData.awaitTime(.5);
+
+                             case 6:
+                              success();
+                              dialog.active = false;
+                              free_dialog.active = false;
+
+                             case 9:
+                             case "end":
+                              return _context11.stop();
+                            }
+                          }, _callee11);
+                        }));
+                        return function func() {
+                          return _ref6.apply(this, arguments);
+                        };
+                      }();
+                      cc.vv.gameData.checkAutoPlay(cc.find("btn_start", dialog), func);
+                      cc.find("btn_start", dialog).on("click", _asyncToGenerator(regeneratorRuntime.mark(function _callee12() {
+                        return regeneratorRuntime.wrap(function _callee12$(_context12) {
+                          while (1) switch (_context12.prev = _context12.next) {
+                           case 0:
+                            cc.find("btn_start", dialog).stopAllActions();
+                            _context12.next = 3;
+                            return func();
+
+                           case 3:
+                           case "end":
+                            return _context12.stop();
+                          }
+                        }, _callee12);
+                      })));
+                      _context13.next = 15;
+                      break;
+
+                     case 6:
+                      _context13.next = 8;
+                      return cc.vv.gameData.awaitTime(2);
+
+                     case 8:
+                      cc.tween(dialog).to(.5, {
+                        scale: 0
+                      }).start();
+                      free_bg.runAction(cc.fadeOut(.2));
+                      _context13.next = 12;
+                      return cc.vv.gameData.awaitTime(.5);
+
+                     case 12:
+                      success();
+                      dialog.active = false;
+                      free_dialog.active = false;
+
+                     case 15:
+                     case "end":
+                      return _context13.stop();
+                    }
+                  }, _callee13);
+                }))).start();
+
+               case 11:
+               case "end":
+                return _context14.stop();
+              }
+            }, _callee14);
+          }));
+          return function(_x4) {
+            return _ref4.apply(this, arguments);
+          };
+        }());
+      },
+      popFreeResultDialog: function popFreeResultDialog() {
+        var _this11 = this;
+        return new Promise(function() {
+          var _ref8 = _asyncToGenerator(regeneratorRuntime.mark(function _callee17(success) {
+            var free_dialog, free_bg, dialog, func;
+            return regeneratorRuntime.wrap(function _callee17$(_context17) {
+              while (1) switch (_context17.prev = _context17.next) {
+               case 0:
+                cc.vv.AudioManager.playEff("games/TheMammoth/", "fg_end", true);
+                free_dialog = cc.find("free_dialog", _this11.node.parent);
+                free_dialog.active = true;
+                free_bg = cc.find("free_dialog_bg", free_dialog);
+                free_bg.opacity = 0;
+                free_bg.runAction(cc.fadeTo(.2, 200));
+                dialog = cc.find("result_node", free_dialog);
+                dialog.active = true;
+                dialog.scale = 0;
+                cc.find("coin", dialog).getComponent(cc.Label).string = "";
+                cc.tween(dialog).to(.5, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                _context17.next = 13;
+                return cc.vv.gameData.awaitTime(.5);
+
+               case 13:
+                Global.doRoallNumEff(cc.find("coin", dialog), 0, cc.vv.gameData.GetGameTotalFreeWin(), 3, null, null, 0, true);
+                func = function() {
+                  var _ref9 = _asyncToGenerator(regeneratorRuntime.mark(function _callee15() {
+                    return regeneratorRuntime.wrap(function _callee15$(_context15) {
+                      while (1) switch (_context15.prev = _context15.next) {
+                       case 0:
+                        cc.find("btn_collect", dialog).off("click");
+                        cc.vv.AudioManager.playEff("games/TheMammoth/", "board_collect", true);
+                        cc.tween(dialog).to(.5, {
+                          scale: 0
+                        }).start();
+                        free_bg.runAction(cc.fadeOut(.2));
+                        _context15.next = 6;
+                        return cc.vv.gameData.awaitTime(.5);
+
+                       case 6:
+                        success();
+                        dialog.active = false;
+                        free_dialog.active = false;
+
+                       case 9:
+                       case "end":
+                        return _context15.stop();
+                      }
+                    }, _callee15);
+                  }));
+                  return function func() {
+                    return _ref9.apply(this, arguments);
+                  };
+                }();
+                cc.vv.gameData.checkAutoPlay(cc.find("btn_collect", dialog), func);
+                cc.find("btn_collect", dialog).on("click", _asyncToGenerator(regeneratorRuntime.mark(function _callee16() {
+                  return regeneratorRuntime.wrap(function _callee16$(_context16) {
+                    while (1) switch (_context16.prev = _context16.next) {
+                     case 0:
+                      cc.find("btn_collect", dialog).stopAllActions();
+                      _context16.next = 3;
+                      return func();
+
+                     case 3:
+                     case "end":
+                      return _context16.stop();
+                    }
+                  }, _callee16);
+                })));
+
+               case 17:
+               case "end":
+                return _context17.stop();
+              }
+            }, _callee17);
+          }));
+          return function(_x5) {
+            return _ref8.apply(this, arguments);
+          };
+        }());
+      },
+      awaitTime: function awaitTime(time) {
+        var _this12 = this;
+        return new Promise(function(success, failed) {
+          _this12.scheduleOnce(function() {
+            success();
+          }, time);
+        });
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Slots_Base: void 0
+  } ],
+  TheMammoth_Symbol: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "4e94bP7EwNALIDB2XjjpZib", "TheMammoth_Symbol");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Symbol_Base"),
+      properties: {},
+      StartMove: function StartMove() {
+        this._super();
+      },
+      ShowById: function ShowById(id, data) {
+        this._super(id, data);
+      },
+      playWinAnimation: function playWinAnimation() {
+        this._showNode && (this._showNode.active = false);
+        var id = this._id;
+        var cfg = cc.vv.gameData.getGameCfg();
+        if (cfg.symbol[id] && cfg.symbol[id].win_node) {
+          this._state = "win";
+          this._showNode && (this._showNode.active = false);
+          var aniNode = this.setAnimationToTop(true);
+          aniNode.active = true;
+          var topShowNode = cc.find(cfg.symbol[id].win_node, aniNode);
+          topShowNode.active = true;
+          if (cfg.symbol[id].win_ani && "" !== cfg.symbol[id].win_ani.name) {
+            aniNode.zIndex = cfg.symbol[id].win_ani.zIndex - this._symbolIdx + 10 * this._reelIdx;
+            var nodeSp = topShowNode.getComponent(sp.Skeleton);
+            nodeSp && nodeSp.setAnimation(0, cfg.symbol[id].win_ani.name, true);
+          }
+        } else {
+          this._showNode.active = true;
+          this.playWinTweenAction();
+        }
+      },
+      playWildAnimation: function playWildAnimation(rate) {
+        this._showNode && (this._showNode.active = false);
+        var id = this._id;
+        var cfg = cc.vv.gameData.getGameCfg();
+        this._state = "win";
+        this._showNode && (this._showNode.active = false);
+        var aniNode = this.setAnimationToTop(true);
+        aniNode.active = true;
+        if (cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() !== cc.vv.gameData.GetFreeTime() && id === cfg.wildId) {
+          var topShowNode = cc.find("animation_1_" + rate, aniNode);
+          topShowNode.active = true;
+          aniNode.zIndex = 300 - this._symbolIdx + 10 * this._reelIdx;
+          var nodeSp = topShowNode.getComponent(sp.Skeleton);
+          if (nodeSp) {
+            nodeSp.setAnimation(0, "animation1", false);
+            nodeSp.setCompleteListener(function(track) {
+              var name = track.animation ? track.animation.name : "";
+              if ("animation1" === name) {
+                nodeSp.clearTracks();
+                nodeSp.setAnimation(0, "animation", true);
+              }
+            });
+          }
+        }
+      },
+      playWinTweenAction: function playWinTweenAction() {
+        this._showNode.cleanup();
+        this._showNodeOrgScale = this._showNode.scale;
+        cc.tween(this._showNode).repeatForever(cc.tween().to(.35, {
+          opacity: 0
+        }).to(.35, {
+          opacity: 255
+        }).delay(1)).start();
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Symbol_Base: void 0
+  } ],
+  TheMammoth_Wheel: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "59aaff3GE5IaJoPT4yjU0jK", "TheMammoth_Wheel");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    var WheelItemType = {
+      FreeGame: 1,
+      Jackpot: 2,
+      FreeGameMult: 3
+    };
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        type_1: cc.Node,
+        type_2: cc.Node,
+        btn_play: cc.Node,
+        sanjiao: cc.Node,
+        shuihua: cc.Node,
+        jinse: cc.Node,
+        zise: cc.Node,
+        jackpot_result: cc.Node,
+        jackpot_result_bg: cc.Node,
+        minor: cc.Node,
+        major: cc.Node,
+        grand: cc.Node,
+        items_1: [ cc.Node ],
+        items_2: [ cc.Node ],
+        speed: {
+          default: 1,
+          tooltip: "\u65cb\u8f6c\u901f\u5ea6"
+        },
+        maxSpeed: {
+          default: 20,
+          tooltip: "\u6700\u5927\u901f\u5ea6"
+        },
+        count: {
+          default: 2,
+          tooltip: "\u9700\u8981\u8f6c\u51e0\u8f6e"
+        },
+        minSpeed: {
+          default: 1,
+          tooltip: "\u6700\u5c0f\u901f\u5ea6"
+        },
+        speedOffset: {
+          default: .25,
+          tooltip: "\u901f\u5ea6\u53d8\u5316\u503c"
+        },
+        _startMove: false,
+        _needStop: false,
+        _backMove: false,
+        _resultItem: null,
+        _bottomPosY: 0,
+        _successCallback: null,
+        _hasPressed: false,
+        _result: null,
+        _wheelConfig: null,
+        _type: 1,
+        _items: null,
+        _itemsHeight: 0
+      },
+      onLoad: function onLoad() {
+        var _this = this;
+        this.btn_play.on("click", function() {
+          if (_this._hasPressed) return;
+          _this.btn_play.stopAllActions();
+          cc.vv.AudioManager.playEff("games/TheMammoth/", "fg_select", true);
+          _this._hasPressed = true;
+          var req = {
+            c: MsgId.SLOT_SUBGAME_DATA
+          };
+          req.gameid = cc.vv.gameData.getGameId();
+          req.data = {};
+          req.data.rtype = 1;
+          cc.vv.NetManager.send(req, true);
+          _this.btn_play.runAction(cc.fadeOut(.2));
+        });
+        cc.vv.NetManager.registerMsg(MsgId.SLOT_SUBGAME_DATA, this.onRcvSubgameData, this);
+      },
+      update: function update(dt) {
+        if (this._startMove) {
+          if (this._needStop) {
+            this.speed -= this.speedOffset;
+            this.speed <= this.minSpeed && (this.speed = this.minSpeed);
+          } else {
+            this.speed += this.speedOffset;
+            this.speed >= this.maxSpeed && (this.speed = this.maxSpeed);
+          }
+          0 === this.count && this._resultItem.y <= 3 * this._resultItem.height && (this._needStop = true);
+          if (this._needStop && this._resultItem.y < -180) {
+            this._startMove = false;
+            this._backMove = true;
+          }
+          var _iterator = _createForOfIteratorHelper(this._items), _step;
+          try {
+            for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+              var item = _step.value;
+              if (item.y <= this._bottomPosY) {
+                item.y += this._itemsHeight;
+                if (item === this._resultItem) {
+                  this.count--;
+                  this.count <= 0 && (this.count = 0);
+                }
+              }
+              item.y -= this.speed;
+            }
+          } catch (err) {
+            _iterator.e(err);
+          } finally {
+            _iterator.f();
+          }
+        }
+        if (this._backMove) {
+          var _iterator2 = _createForOfIteratorHelper(this._items), _step2;
+          try {
+            for (_iterator2.s(); !(_step2 = _iterator2.n()).done; ) {
+              var _item = _step2.value;
+              _item.y += this.minSpeed;
+            }
+          } catch (err) {
+            _iterator2.e(err);
+          } finally {
+            _iterator2.f();
+          }
+          if (this._resultItem.y > -181 && this._resultItem.y < -179) {
+            this._backMove = false;
+            this.exitWheelGame();
+          }
+        }
+      },
+      onRcvSubgameData: function onRcvSubgameData(msg) {
+        var _this2 = this;
+        if (200 === msg.code && 1 === msg.data.rtype) {
+          this._resultItem = this._items[msg.data.itemId - 1];
+          this._result = msg.data;
+          cc.vv.gameData.GetSlotsScript().setWheelResult(this._result);
+          this._startMove = true;
+          cc.vv.AudioManager.playEff("games/TheMammoth/", "bonus_wheel_spin", true);
+          var cfg = this._wheelConfig[msg.data.itemId - 1];
+          if (cfg.type === WheelItemType.FreeGame || cfg.type === WheelItemType.FreeGameMult) {
+            cc.vv.gameData.SetTotalFree(cfg.freeCnt);
+            cc.vv.gameData.SetFreeTime(cfg.freeCnt);
+          }
+          this.shuihua.active = true;
+          this.shuihua.getComponent(sp.Skeleton).setAnimation(0, "animation1", false);
+          this.shuihua.getComponent(sp.Skeleton).setCompleteListener(function(track) {
+            var name = track.animation ? track.animation.name : "";
+            "animation1" === name && _this2.shuihua.getComponent(sp.Skeleton).setAnimation(0, "animation2", true);
+          });
+        }
+      },
+      enterWheelGame: function enterWheelGame(successCallback, wheelConfig) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          var deskInfo, parentType, _iterator3, _step3, item, i, cfg, node;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              _this3.node.active = true;
+              _this3.reset();
+              _this3._successCallback = successCallback;
+              _this3._wheelConfig = wheelConfig;
+              cc.vv.AudioManager.playBgm("games/TheMammoth/", "bonus_bgm", true);
+              deskInfo = cc.vv.gameData.getDeskInfo();
+              parentType = null;
+              if (deskInfo.needBet > cc.vv.gameData.GetBetIdx()) {
+                _this3._type = 1;
+                parentType = cc.find("bg/wheel_mask/type_1", _this3.node);
+                parentType.active = true;
+                cc.find("bg/wheel_mask/type_2", _this3.node).active = false;
+              } else {
+                _this3._type = 2;
+                parentType = cc.find("bg/wheel_mask/type_2", _this3.node);
+                parentType.active = true;
+                cc.find("bg/wheel_mask/type_1", _this3.node).active = false;
+              }
+              _this3._items = 1 === _this3._type ? _this3.items_1 : _this3.items_2;
+              _this3._itemsHeight = 0;
+              _iterator3 = _createForOfIteratorHelper(_this3._items);
+              try {
+                for (_iterator3.s(); !(_step3 = _iterator3.n()).done; ) {
+                  item = _step3.value;
+                  _this3._itemsHeight += item.height;
+                }
+              } catch (err) {
+                _iterator3.e(err);
+              } finally {
+                _iterator3.f();
+              }
+              _this3._bottomPosY = -708;
+              for (i = 0; i < wheelConfig.length; i++) {
+                cfg = wheelConfig[i];
+                node = cc.find("index_" + (i + 1), parentType);
+                cfg.type === WheelItemType.FreeGame ? cc.find("num", node).getComponent(cc.Label).string = cfg.freeCnt : cfg.type === WheelItemType.Jackpot ? cc.find("num", node).getComponent(cc.Label).string = Global.convertNumToShort(cfg.jackpotValue, null, 0) : cc.find("num", node).getComponent(cc.Label).string = cfg.freeCnt;
+              }
+              cc.vv.gameData.checkAutoPlay(_this3.btn_play, function() {
+                if (_this3._hasPressed) return;
+                cc.vv.AudioManager.playEff("games/TheMammoth/", "fg_select", true);
+                _this3._hasPressed = true;
+                var req = {
+                  c: MsgId.SLOT_SUBGAME_DATA
+                };
+                req.gameid = cc.vv.gameData.getGameId();
+                req.data = {};
+                req.data.rtype = 1;
+                cc.vv.NetManager.send(req, true);
+                _this3.btn_play.runAction(cc.fadeOut(.2));
+              });
+
+             case 15:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      exitWheelGame: function exitWheelGame() {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var cfg, result_node;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              cc.vv.AudioManager.playEff("games/TheMammoth/", "bonus_active", true);
+              _this4.sanjiao.active = true;
+              _this4.sanjiao.getComponent(sp.Skeleton).setToSetupPose();
+              _this4.sanjiao.getComponent(sp.Skeleton).setAnimation(0, "animation", false);
+              _this4.shuihua.getComponent(sp.Skeleton).setAnimation(0, "animation3", false);
+              _this4.shuihua.getComponent(sp.Skeleton).setCompleteListener(function(track) {
+                var name = track.animation ? track.animation.name : "";
+                "animation3" === name && (_this4.shuihua.active = false);
+              });
+              _context2.next = 8;
+              return _this4.awaitTime(1);
+
+             case 8:
+              cfg = _this4._wheelConfig[_this4._result.itemId - 1];
+              if (cfg.type === WheelItemType.FreeGame) {
+                _this4.zise.active = true;
+                _this4.zise.getComponent(sp.Skeleton).setToSetupPose();
+                _this4.zise.getComponent(sp.Skeleton).setAnimation(0, "animation", true);
+              } else if (cfg.type === WheelItemType.Jackpot) {
+                _this4.jinse.active = true;
+                _this4.jinse.getComponent(sp.Skeleton).setToSetupPose();
+                _this4.jinse.getComponent(sp.Skeleton).setAnimation(0, "animation2", true);
+              } else {
+                _this4.jinse.active = true;
+                _this4.jinse.getComponent(sp.Skeleton).setToSetupPose();
+                _this4.jinse.getComponent(sp.Skeleton).setAnimation(0, "animation1", true);
+              }
+              _context2.next = 12;
+              return _this4.awaitTime(2);
+
+             case 12:
+              if (cfg.type === WheelItemType.Jackpot) {
+                cc.vv.AudioManager.playEff("games/TheMammoth/", "jp_board", true);
+                _this4.jackpot_result.active = true;
+                _this4.jackpot_result_bg.opacity = 0;
+                _this4.jackpot_result_bg.runAction(cc.fadeTo(.2, 200));
+                _this4.minor.active = false;
+                _this4.major.active = false;
+                _this4.grand.active = false;
+                result_node = null;
+                result_node = 2 === _this4._result.jackpot.id ? _this4.minor : 3 === _this4._result.jackpot.id ? _this4.major : _this4.grand;
+                result_node.active = true;
+                result_node.scale = 0;
+                result_node.runAction(cc.scaleTo(.4, 1).easing(cc.easeBackOut()));
+                Global.doRoallNumEff(result_node.getChildByName("num"), 0, _this4._result.jackpot.value, 3, null, null, 0, true);
+                result_node.getChildByName("btn_collect").on("click", function() {
+                  _this4.jackpot_result_bg.runAction(cc.fadeOut(.2));
+                  result_node.runAction(cc.sequence(cc.scaleTo(.4, 0).easing(cc.easeBackIn()), cc.callFunc(function() {
+                    _this4._successCallback && _this4._successCallback();
+                  })));
+                });
+              } else _this4._successCallback && _this4._successCallback();
+
+             case 13:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      reset: function reset() {
+        this._startMove = false;
+        this.speed = 1;
+        this._needStop = false;
+        this.count = 2;
+        this._hasPressed = false;
+        this._backMove = false;
+        this.zise.active = false;
+        this.jinse.active = false;
+        this.btn_play.opacity = 255;
+      },
+      onDestroy: function onDestroy() {
+        cc.vv.NetManager.unregisterMsg(MsgId.SLOT_SUBGAME_DATA, this.onRcvSubgameData, false, this);
+      },
+      awaitTime: function awaitTime(dt) {
+        var _this5 = this;
+        return new Promise(function(success, failed) {
+          _this5.scheduleOnce(function() {
+            success();
+          }, dt);
+        });
+      }
+    });
+    cc._RF.pop();
+  }, {} ]
+}, {}, [ "TheMammoth_Cfg", "TheMammoth_Logic", "TheMammoth_Reel", "TheMammoth_Slots", "TheMammoth_Symbol", "TheMammoth_Wheel" ]);

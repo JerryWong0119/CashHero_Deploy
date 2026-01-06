@@ -1,1 +1,173 @@
-{"__type__":"sp.SkeletonData","_name":"BG_JinBiTiShi","_skeletonJson":{"skeleton":{"hash":"v4sInMXBktCGzkWWhI3QORjAPZA","spine":"3.6.53","width":0,"height":0,"images":""},"bones":[{"name":"root"},{"name":"All","parent":"root"},{"name":"ti","parent":"All","scaleX":4,"scaleY":4}],"slots":[{"name":"ti","bone":"ti","blend":"additive"}],"skins":{"default":{"ti":{"images/ti/ti_000":{"width":180,"height":180},"images/ti/ti_001":{"width":180,"height":180},"images/ti/ti_002":{"width":180,"height":180},"images/ti/ti_003":{"width":180,"height":180},"images/ti/ti_004":{"width":180,"height":180},"images/ti/ti_005":{"width":180,"height":180},"images/ti/ti_006":{"width":180,"height":180},"images/ti/ti_007":{"width":180,"height":180},"images/ti/ti_008":{"width":180,"height":180},"images/ti/ti_009":{"width":180,"height":180},"images/ti/ti_010":{"width":180,"height":180},"images/ti/ti_011":{"width":180,"height":180}}}},"animations":{"BG_JinBiTiShi":{"slots":{"ti":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/ti/ti_000"},{"time":0.0667,"name":"images/ti/ti_001"},{"time":0.1,"name":"images/ti/ti_002"},{"time":0.1667,"name":"images/ti/ti_003"},{"time":0.2,"name":"images/ti/ti_004"},{"time":0.2667,"name":"images/ti/ti_005"},{"time":0.3,"name":"images/ti/ti_006"},{"time":0.3667,"name":"images/ti/ti_007"},{"time":0.4,"name":"images/ti/ti_008"},{"time":0.4667,"name":"images/ti/ti_009"},{"time":0.5,"name":"images/ti/ti_010"},{"time":0.5667,"name":"images/ti/ti_011"}]}},"bones":{"All":{"scale":[{"time":0,"x":0.5,"y":0.5}]}}}}},"_atlasText":"\nBG_JinBiTiShi.png\nsize: 728,87\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/ti/ti_001\n  rotate: true\n  xy: 595, 13\n  size: 72, 66\n  orig: 90, 90\n  offset: 8, 14\n  index: -1\nimages/ti/ti_002\n  rotate: true\n  xy: 231, 6\n  size: 79, 73\n  orig: 90, 90\n  offset: 4, 11\n  index: -1\nimages/ti/ti_003\n  rotate: false\n  xy: 2, 5\n  size: 77, 80\n  orig: 90, 90\n  offset: 1, 8\n  index: -1\nimages/ti/ti_004\n  rotate: false\n  xy: 379, 9\n  size: 70, 76\n  orig: 90, 90\n  offset: 11, 5\n  index: -1\nimages/ti/ti_005\n  rotate: true\n  xy: 521, 12\n  size: 73, 72\n  orig: 90, 90\n  offset: 8, 8\n  index: -1\nimages/ti/ti_006\n  rotate: true\n  xy: 154, 8\n  size: 77, 75\n  orig: 90, 90\n  offset: 6, 5\n  index: -1\nimages/ti/ti_007\n  rotate: true\n  xy: 451, 7\n  size: 78, 68\n  orig: 90, 90\n  offset: 5, 10\n  index: -1\nimages/ti/ti_008\n  rotate: true\n  xy: 306, 5\n  size: 80, 71\n  orig: 90, 90\n  offset: 4, 7\n  index: -1\nimages/ti/ti_009\n  rotate: true\n  xy: 81, 3\n  size: 82, 71\n  orig: 90, 90\n  offset: 3, 8\n  index: -1\nimages/ti/ti_010\n  rotate: false\n  xy: 663, 28\n  size: 63, 57\n  orig: 90, 90\n  offset: 9, 16\n  index: -1\nimages/ti/ti_011\n  rotate: false\n  xy: 2, 2\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\nimages/ti/ti_000\n  rotate: false\n  xy: 2, 2\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"bdrNG2a5xKD6UtxL0TYKHE"}],"textureNames":["BG_JinBiTiShi.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "BG_JinBiTiShi",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "v4sInMXBktCGzkWWhI3QORjAPZA",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "All",
+        "parent": "root"
+      },
+      {
+        "name": "ti",
+        "parent": "All",
+        "scaleX": 4,
+        "scaleY": 4
+      }
+    ],
+    "slots": [
+      {
+        "name": "ti",
+        "bone": "ti",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "ti": {
+          "images/ti/ti_000": {
+            "width": 180,
+            "height": 180
+          },
+          "images/ti/ti_001": {
+            "width": 180,
+            "height": 180
+          },
+          "images/ti/ti_002": {
+            "width": 180,
+            "height": 180
+          },
+          "images/ti/ti_003": {
+            "width": 180,
+            "height": 180
+          },
+          "images/ti/ti_004": {
+            "width": 180,
+            "height": 180
+          },
+          "images/ti/ti_005": {
+            "width": 180,
+            "height": 180
+          },
+          "images/ti/ti_006": {
+            "width": 180,
+            "height": 180
+          },
+          "images/ti/ti_007": {
+            "width": 180,
+            "height": 180
+          },
+          "images/ti/ti_008": {
+            "width": 180,
+            "height": 180
+          },
+          "images/ti/ti_009": {
+            "width": 180,
+            "height": 180
+          },
+          "images/ti/ti_010": {
+            "width": 180,
+            "height": 180
+          },
+          "images/ti/ti_011": {
+            "width": 180,
+            "height": 180
+          }
+        }
+      }
+    },
+    "animations": {
+      "BG_JinBiTiShi": {
+        "slots": {
+          "ti": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/ti/ti_000"
+              },
+              {
+                "time": 0.0667,
+                "name": "images/ti/ti_001"
+              },
+              {
+                "time": 0.1,
+                "name": "images/ti/ti_002"
+              },
+              {
+                "time": 0.1667,
+                "name": "images/ti/ti_003"
+              },
+              {
+                "time": 0.2,
+                "name": "images/ti/ti_004"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/ti/ti_005"
+              },
+              {
+                "time": 0.3,
+                "name": "images/ti/ti_006"
+              },
+              {
+                "time": 0.3667,
+                "name": "images/ti/ti_007"
+              },
+              {
+                "time": 0.4,
+                "name": "images/ti/ti_008"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/ti/ti_009"
+              },
+              {
+                "time": 0.5,
+                "name": "images/ti/ti_010"
+              },
+              {
+                "time": 0.5667,
+                "name": "images/ti/ti_011"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "All": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.5,
+                "y": 0.5
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nBG_JinBiTiShi.png\nsize: 728,87\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/ti/ti_001\n  rotate: true\n  xy: 595, 13\n  size: 72, 66\n  orig: 90, 90\n  offset: 8, 14\n  index: -1\nimages/ti/ti_002\n  rotate: true\n  xy: 231, 6\n  size: 79, 73\n  orig: 90, 90\n  offset: 4, 11\n  index: -1\nimages/ti/ti_003\n  rotate: false\n  xy: 2, 5\n  size: 77, 80\n  orig: 90, 90\n  offset: 1, 8\n  index: -1\nimages/ti/ti_004\n  rotate: false\n  xy: 379, 9\n  size: 70, 76\n  orig: 90, 90\n  offset: 11, 5\n  index: -1\nimages/ti/ti_005\n  rotate: true\n  xy: 521, 12\n  size: 73, 72\n  orig: 90, 90\n  offset: 8, 8\n  index: -1\nimages/ti/ti_006\n  rotate: true\n  xy: 154, 8\n  size: 77, 75\n  orig: 90, 90\n  offset: 6, 5\n  index: -1\nimages/ti/ti_007\n  rotate: true\n  xy: 451, 7\n  size: 78, 68\n  orig: 90, 90\n  offset: 5, 10\n  index: -1\nimages/ti/ti_008\n  rotate: true\n  xy: 306, 5\n  size: 80, 71\n  orig: 90, 90\n  offset: 4, 7\n  index: -1\nimages/ti/ti_009\n  rotate: true\n  xy: 81, 3\n  size: 82, 71\n  orig: 90, 90\n  offset: 3, 8\n  index: -1\nimages/ti/ti_010\n  rotate: false\n  xy: 663, 28\n  size: 63, 57\n  orig: 90, 90\n  offset: 9, 16\n  index: -1\nimages/ti/ti_011\n  rotate: false\n  xy: 2, 2\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\nimages/ti/ti_000\n  rotate: false\n  xy: 2, 2\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "bdrNG2a5xKD6UtxL0TYKHE"
+    }
+  ],
+  "textureNames": [
+    "BG_JinBiTiShi.png"
+  ]
+}

@@ -1,1 +1,901 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"cN4uk6ohZlnF/0nJX/IxIxi5ymw","spine":"3.6.53","width":240,"height":238,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"PLATIMUM","parent":"root"},{"name":"PAY","parent":"PLATIMUM","x":-3.21,"y":-32.4},{"name":"PLATIMUM1","parent":"PLATIMUM","y":4.49},{"name":"RAPID","parent":"PLATIMUM","x":-2.15,"y":29.02},{"name":"XINGXING","parent":"PLATIMUM","x":-4.62,"y":24.08},{"name":"deng1","parent":"PLATIMUM"},{"name":"deng2","parent":"PLATIMUM"},{"name":"diban2","parent":"PLATIMUM"},{"name":"fangsheguang02","parent":"PLATIMUM","x":-0.9,"y":2.6,"scaleX":2,"scaleY":2},{"name":"fangsheguang2","parent":"PLATIMUM","x":-0.9,"y":2.6,"scaleX":2,"scaleY":2},{"name":"fangsheguang3","parent":"PLATIMUM","x":-0.9,"y":2.6,"scaleX":2,"scaleY":2}],"slots":[{"name":"fangsheguang02","bone":"fangsheguang02","attachment":"fangsheguang02","blend":"additive"},{"name":"fangsheguang2","bone":"fangsheguang2","attachment":"fangsheguang02","blend":"additive"},{"name":"fangsheguang3","bone":"fangsheguang3","attachment":"fangsheguang02","blend":"additive"},{"name":"diban","bone":"PLATIMUM","attachment":"images/diban"},{"name":"diban2","bone":"diban2","attachment":"images/diban","blend":"additive"},{"name":"deng2","bone":"deng2","attachment":"images/deng2"},{"name":"deng1","bone":"deng1","attachment":"images/deng1"},{"name":"XINGXING","bone":"XINGXING","attachment":"images/XINGXING"},{"name":"XINGXING2","bone":"XINGXING","attachment":"images/XINGXING","blend":"additive"},{"name":"PAY","bone":"PAY","attachment":"images/PAY"},{"name":"RAPID","bone":"RAPID","attachment":"images/RAPID"},{"name":"PLATIMUM","bone":"PLATIMUM1","attachment":"images/PLATIMUM"}],"skins":{"default":{"PAY":{"images/PAY":{"x":-3.38,"y":7.87,"width":87,"height":40}},"PLATIMUM":{"images/PLATIMUM":{"x":-0.09,"y":-3.54,"width":124,"height":25}},"RAPID":{"images/RAPID":{"x":-4.44,"y":8.94,"width":101,"height":41}},"XINGXING":{"images/XINGXING":{"x":4.53,"y":0.39,"width":126,"height":34}},"XINGXING2":{"images/XINGXING":{"x":4.53,"y":0.39,"width":126,"height":34}},"deng1":{"images/deng1":{"x":-1.59,"y":1.96,"width":113,"height":111}},"deng2":{"images/deng2":{"x":-1.09,"y":2.46,"width":116,"height":114}},"diban":{"images/diban":{"x":-4.59,"y":-0.04,"width":127,"height":119}},"diban2":{"images/diban":{"x":-4.59,"y":-0.04,"width":127,"height":119}},"fangsheguang02":{"fangsheguang02":{"width":120,"height":119}},"fangsheguang2":{"fangsheguang02":{"width":120,"height":119}},"fangsheguang3":{"fangsheguang02":{"width":120,"height":119}}}},"animations":{"animation1":{"slots":{"deng1":{"attachment":[{"time":0,"name":"images/deng1"}]},"deng2":{"attachment":[{"time":0,"name":"images/deng2"}]},"diban2":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3,"color":"ffffffff"},{"time":0.8333,"color":"ffffff00"}]},"fangsheguang02":{"attachment":[{"time":0,"name":null}]},"fangsheguang2":{"attachment":[{"time":0,"name":null}]},"fangsheguang3":{"attachment":[{"time":0,"name":null}]}},"bones":{"RAPID":{"scale":[{"time":0,"x":0.99,"y":0.99,"curve":[0.25,0,0.75,1]},{"time":0.2333,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1,"y":1}]},"PLATIMUM1":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.1667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":0.8333,"x":1,"y":1}]},"PAY":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.3333,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":1,"x":1,"y":1}]},"PLATIMUM":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.3,"x":1.237,"y":1.237,"curve":[0.25,0,0.75,1]},{"time":0.8333,"x":1,"y":1}]},"diban2":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.297,0.07,0.947,0.84]},{"time":0.8333,"x":1.652,"y":1.652}]}}},"animation2":{"slots":{"XINGXING2":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"fffffffa","curve":[0.25,0,0.75,1]},{"time":1.3333,"color":"ffffff00"}]},"deng1":{"attachment":[{"time":0,"name":null},{"time":0.1667,"name":"images/deng1"},{"time":0.3333,"name":null},{"time":0.5,"name":"images/deng1"},{"time":0.6667,"name":null},{"time":0.8333,"name":"images/deng1"},{"time":1,"name":null},{"time":1.1667,"name":"images/deng1"},{"time":1.3333,"name":null},{"time":1.5,"name":"images/deng1"},{"time":1.6667,"name":null},{"time":1.8333,"name":"images/deng1"},{"time":2,"name":null}]},"deng2":{"attachment":[{"time":0,"name":"images/deng2"},{"time":0.1667,"name":null},{"time":0.3333,"name":"images/deng2"},{"time":0.5,"name":null},{"time":0.6667,"name":"images/deng2"},{"time":0.8333,"name":null},{"time":1,"name":"images/deng2"},{"time":1.1667,"name":null},{"time":1.3333,"name":"images/deng2"},{"time":1.5,"name":null},{"time":1.6667,"name":"images/deng2"},{"time":1.8333,"name":null},{"time":2,"name":"images/deng2"}]},"diban2":{"attachment":[{"time":0,"name":null}]},"fangsheguang02":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.6667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1.4667,"color":"ffffff00"}]},"fangsheguang2":{"color":[{"time":0,"color":"ffffff00"},{"time":0.6667,"color":"ffffffff"},{"time":1.4667,"color":"ffffff00"}]},"fangsheguang3":{"color":[{"time":0,"color":"ffffffff"},{"time":0.3667,"color":"2674f0ff"},{"time":1.2,"color":"25dbf0ff"},{"time":1.4667,"color":"ffffff00"}]}},"bones":{"RAPID":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.2333,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1,"y":1}]},"PLATIMUM1":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.1667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":0.8333,"x":1,"y":1}]},"PAY":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.3333,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":1.3,"y":1.3,"curve":[0.25,0,0.75,1]},{"time":1,"x":1,"y":1}]},"fangsheguang02":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":1.4667,"angle":80}]},"fangsheguang2":{"rotate":[{"time":0,"angle":60,"curve":[0.25,0,0.75,1]},{"time":1.4667,"angle":0}]},"PLATIMUM":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"angle":-6.93,"curve":[0.25,0,0.75,1]},{"time":1.3333,"angle":0}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":1.175,"y":1.175,"curve":[0.25,0,0.75,1]},{"time":1.3333,"x":1,"y":1}]},"fangsheguang3":{"scale":[{"time":0,"x":0.661,"y":0.661},{"time":0.3667,"x":1,"y":1}]}}}}},"_atlasText":"\nsymbo_PLATIMUM.png\nsize: 282,276\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nfangsheguang02\n  rotate: false\n  xy: 2, 36\n  size: 120, 119\n  orig: 120, 119\n  offset: 0, 0\n  index: -1\nimages/PAY\n  rotate: true\n  xy: 242, 63\n  size: 85, 38\n  orig: 87, 40\n  offset: 1, 1\n  index: -1\nimages/PLATIMUM\n  rotate: true\n  xy: 245, 150\n  size: 124, 25\n  orig: 124, 25\n  offset: 0, 0\n  index: -1\nimages/RAPID\n  rotate: false\n  xy: 128, 10\n  size: 99, 39\n  orig: 101, 41\n  offset: 1, 1\n  index: -1\nimages/XINGXING\n  rotate: false\n  xy: 2, 2\n  size: 124, 32\n  orig: 126, 34\n  offset: 1, 1\n  index: -1\nimages/deng1\n  rotate: false\n  xy: 129, 51\n  size: 111, 109\n  orig: 113, 111\n  offset: 1, 1\n  index: -1\nimages/deng2\n  rotate: false\n  xy: 129, 162\n  size: 114, 112\n  orig: 116, 114\n  offset: 1, 1\n  index: -1\nimages/diban\n  rotate: false\n  xy: 2, 157\n  size: 125, 117\n  orig: 127, 119\n  offset: 1, 1\n  index: -1\n","textures":[{"__uuid__":"9aAmFPeG5EN5lyVeQBNmPS"}],"textureNames":["symbo_PLATIMUM.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "cN4uk6ohZlnF/0nJX/IxIxi5ymw",
+      "spine": "3.6.53",
+      "width": 240,
+      "height": 238,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "PLATIMUM",
+        "parent": "root"
+      },
+      {
+        "name": "PAY",
+        "parent": "PLATIMUM",
+        "x": -3.21,
+        "y": -32.4
+      },
+      {
+        "name": "PLATIMUM1",
+        "parent": "PLATIMUM",
+        "y": 4.49
+      },
+      {
+        "name": "RAPID",
+        "parent": "PLATIMUM",
+        "x": -2.15,
+        "y": 29.02
+      },
+      {
+        "name": "XINGXING",
+        "parent": "PLATIMUM",
+        "x": -4.62,
+        "y": 24.08
+      },
+      {
+        "name": "deng1",
+        "parent": "PLATIMUM"
+      },
+      {
+        "name": "deng2",
+        "parent": "PLATIMUM"
+      },
+      {
+        "name": "diban2",
+        "parent": "PLATIMUM"
+      },
+      {
+        "name": "fangsheguang02",
+        "parent": "PLATIMUM",
+        "x": -0.9,
+        "y": 2.6,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "fangsheguang2",
+        "parent": "PLATIMUM",
+        "x": -0.9,
+        "y": 2.6,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "fangsheguang3",
+        "parent": "PLATIMUM",
+        "x": -0.9,
+        "y": 2.6,
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "fangsheguang02",
+        "bone": "fangsheguang02",
+        "attachment": "fangsheguang02",
+        "blend": "additive"
+      },
+      {
+        "name": "fangsheguang2",
+        "bone": "fangsheguang2",
+        "attachment": "fangsheguang02",
+        "blend": "additive"
+      },
+      {
+        "name": "fangsheguang3",
+        "bone": "fangsheguang3",
+        "attachment": "fangsheguang02",
+        "blend": "additive"
+      },
+      {
+        "name": "diban",
+        "bone": "PLATIMUM",
+        "attachment": "images/diban"
+      },
+      {
+        "name": "diban2",
+        "bone": "diban2",
+        "attachment": "images/diban",
+        "blend": "additive"
+      },
+      {
+        "name": "deng2",
+        "bone": "deng2",
+        "attachment": "images/deng2"
+      },
+      {
+        "name": "deng1",
+        "bone": "deng1",
+        "attachment": "images/deng1"
+      },
+      {
+        "name": "XINGXING",
+        "bone": "XINGXING",
+        "attachment": "images/XINGXING"
+      },
+      {
+        "name": "XINGXING2",
+        "bone": "XINGXING",
+        "attachment": "images/XINGXING",
+        "blend": "additive"
+      },
+      {
+        "name": "PAY",
+        "bone": "PAY",
+        "attachment": "images/PAY"
+      },
+      {
+        "name": "RAPID",
+        "bone": "RAPID",
+        "attachment": "images/RAPID"
+      },
+      {
+        "name": "PLATIMUM",
+        "bone": "PLATIMUM1",
+        "attachment": "images/PLATIMUM"
+      }
+    ],
+    "skins": {
+      "default": {
+        "PAY": {
+          "images/PAY": {
+            "x": -3.38,
+            "y": 7.87,
+            "width": 87,
+            "height": 40
+          }
+        },
+        "PLATIMUM": {
+          "images/PLATIMUM": {
+            "x": -0.09,
+            "y": -3.54,
+            "width": 124,
+            "height": 25
+          }
+        },
+        "RAPID": {
+          "images/RAPID": {
+            "x": -4.44,
+            "y": 8.94,
+            "width": 101,
+            "height": 41
+          }
+        },
+        "XINGXING": {
+          "images/XINGXING": {
+            "x": 4.53,
+            "y": 0.39,
+            "width": 126,
+            "height": 34
+          }
+        },
+        "XINGXING2": {
+          "images/XINGXING": {
+            "x": 4.53,
+            "y": 0.39,
+            "width": 126,
+            "height": 34
+          }
+        },
+        "deng1": {
+          "images/deng1": {
+            "x": -1.59,
+            "y": 1.96,
+            "width": 113,
+            "height": 111
+          }
+        },
+        "deng2": {
+          "images/deng2": {
+            "x": -1.09,
+            "y": 2.46,
+            "width": 116,
+            "height": 114
+          }
+        },
+        "diban": {
+          "images/diban": {
+            "x": -4.59,
+            "y": -0.04,
+            "width": 127,
+            "height": 119
+          }
+        },
+        "diban2": {
+          "images/diban": {
+            "x": -4.59,
+            "y": -0.04,
+            "width": 127,
+            "height": 119
+          }
+        },
+        "fangsheguang02": {
+          "fangsheguang02": {
+            "width": 120,
+            "height": 119
+          }
+        },
+        "fangsheguang2": {
+          "fangsheguang02": {
+            "width": 120,
+            "height": 119
+          }
+        },
+        "fangsheguang3": {
+          "fangsheguang02": {
+            "width": 120,
+            "height": 119
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "deng1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/deng1"
+              }
+            ]
+          },
+          "deng2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/deng2"
+              }
+            ]
+          },
+          "diban2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fangsheguang02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "fangsheguang2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "fangsheguang3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "RAPID": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.99,
+                "y": 0.99,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "PLATIMUM1": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "PAY": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "PLATIMUM": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3,
+                "x": 1.237,
+                "y": 1.237,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "diban2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.297,
+                  0.07,
+                  0.947,
+                  0.84
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 1.652,
+                "y": 1.652
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "XINGXING2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "fffffffa",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "deng1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "images/deng1"
+              },
+              {
+                "time": 0.3333,
+                "name": null
+              },
+              {
+                "time": 0.5,
+                "name": "images/deng1"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "images/deng1"
+              },
+              {
+                "time": 1,
+                "name": null
+              },
+              {
+                "time": 1.1667,
+                "name": "images/deng1"
+              },
+              {
+                "time": 1.3333,
+                "name": null
+              },
+              {
+                "time": 1.5,
+                "name": "images/deng1"
+              },
+              {
+                "time": 1.6667,
+                "name": null
+              },
+              {
+                "time": 1.8333,
+                "name": "images/deng1"
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          },
+          "deng2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/deng2"
+              },
+              {
+                "time": 0.1667,
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": "images/deng2"
+              },
+              {
+                "time": 0.5,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "images/deng2"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              },
+              {
+                "time": 1,
+                "name": "images/deng2"
+              },
+              {
+                "time": 1.1667,
+                "name": null
+              },
+              {
+                "time": 1.3333,
+                "name": "images/deng2"
+              },
+              {
+                "time": 1.5,
+                "name": null
+              },
+              {
+                "time": 1.6667,
+                "name": "images/deng2"
+              },
+              {
+                "time": 1.8333,
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": "images/deng2"
+              }
+            ]
+          },
+          "diban2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "fangsheguang02": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fangsheguang2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.4667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fangsheguang3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.3667,
+                "color": "2674f0ff"
+              },
+              {
+                "time": 1.2,
+                "color": "25dbf0ff"
+              },
+              {
+                "time": 1.4667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "RAPID": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "PLATIMUM1": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "PAY": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1.3,
+                "y": 1.3,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "fangsheguang02": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4667,
+                "angle": 80
+              }
+            ]
+          },
+          "fangsheguang2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 60,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4667,
+                "angle": 0
+              }
+            ]
+          },
+          "PLATIMUM": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "angle": -6.93,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1.175,
+                "y": 1.175,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "fangsheguang3": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.661,
+                "y": 0.661
+              },
+              {
+                "time": 0.3667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nsymbo_PLATIMUM.png\nsize: 282,276\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nfangsheguang02\n  rotate: false\n  xy: 2, 36\n  size: 120, 119\n  orig: 120, 119\n  offset: 0, 0\n  index: -1\nimages/PAY\n  rotate: true\n  xy: 242, 63\n  size: 85, 38\n  orig: 87, 40\n  offset: 1, 1\n  index: -1\nimages/PLATIMUM\n  rotate: true\n  xy: 245, 150\n  size: 124, 25\n  orig: 124, 25\n  offset: 0, 0\n  index: -1\nimages/RAPID\n  rotate: false\n  xy: 128, 10\n  size: 99, 39\n  orig: 101, 41\n  offset: 1, 1\n  index: -1\nimages/XINGXING\n  rotate: false\n  xy: 2, 2\n  size: 124, 32\n  orig: 126, 34\n  offset: 1, 1\n  index: -1\nimages/deng1\n  rotate: false\n  xy: 129, 51\n  size: 111, 109\n  orig: 113, 111\n  offset: 1, 1\n  index: -1\nimages/deng2\n  rotate: false\n  xy: 129, 162\n  size: 114, 112\n  orig: 116, 114\n  offset: 1, 1\n  index: -1\nimages/diban\n  rotate: false\n  xy: 2, 157\n  size: 125, 117\n  orig: 127, 119\n  offset: 1, 1\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "9aAmFPeG5EN5lyVeQBNmPS"
+    }
+  ],
+  "textureNames": [
+    "symbo_PLATIMUM.png"
+  ]
+}

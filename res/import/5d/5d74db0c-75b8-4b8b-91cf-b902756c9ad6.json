@@ -1,1 +1,765 @@
-{"__type__":"sp.SkeletonData","_name":"Socre_Dragons_7","_skeletonJson":{"skeleton":{"hash":"wGu7/zgHdcSMpqJRbKU5ZywL8B4","spine":"3.6.53","width":116.5,"height":101.13,"images":"./img/"},"bones":[{"name":"root0.76"},{"name":"gen","parent":"root0.76","scaleX":0.5,"scaleY":0.5},{"name":"0.5","parent":"gen","x":-1.1,"y":-4.2},{"name":"zhengti","parent":"0.5","x":1.46,"y":0.73},{"name":"guang","parent":"zhengti","x":-0.36,"y":3.47},{"name":"tx_lizi","parent":"0.5","scaleX":2,"scaleY":2}],"slots":[{"name":"kuang","bone":"0.5","attachment":"kuang"},{"name":"tx/glow_40","bone":"0.5","blend":"additive"},{"name":"tx/lizi_27","bone":"tx_lizi"},{"name":"shen","bone":"zhengti","attachment":"shen"},{"name":"guang","bone":"guang","attachment":"guang","blend":"additive"}],"skins":{"default":{"guang":{"guang":{"scaleX":2,"scaleY":2,"width":93,"height":101}},"kuang":{"kuang":{"x":0.41,"y":4.45,"width":233,"height":202}},"shen":{"shen":{"type":"mesh","uvs":[1,0.1037,1,0.22143,0.9,0.24361,0.84682,0.28798,0.93799,0.37499,0.96458,0.44836,1,0.62751,1,1,0.88291,1,0.71196,0.91757,0.61889,0.89198,0.54672,0.91074,0.37577,0.94316,0.3074,0.9261,0.2998,0.87321,0.33019,0.78619,0.2846,0.64116,0.23712,0.76572,0.18204,0.82202,0.11556,0.92269,0,0.97558,0,0.23167,0.06238,0.10712,0.18394,0.03887,0.31879,0,0.84492,0,0.15925,0.66505,0.21433,0.47395,0.26751,0.25385,0.48784,0.15489,0.74425,0.14977,0.74235,0.3767,0.85631,0.58486,0.85631,0.83055,0.48974,0.43642,0.48974,0.64628,0.45935,0.79131],"triangles":[25,29,24,30,29,25,2,30,25,25,0,2,1,2,0,28,23,24,28,24,29,22,23,28,21,22,28,3,30,2,31,29,30,31,30,3,34,29,31,28,29,34,27,21,28,27,28,34,4,31,3,5,31,4,5,32,31,32,5,6,16,27,34,35,16,34,26,21,27,26,27,16,17,26,16,15,16,35,36,15,35,18,26,17,34,31,35,33,32,6,35,31,32,33,10,32,10,35,32,36,35,10,11,36,10,9,10,33,26,20,21,19,26,18,12,13,14,12,15,36,12,36,11,12,14,15,19,20,26,7,8,33,9,33,8,7,33,6],"vertices":[79.14,73.61,79.14,52.78,63.24,48.85,54.78,41,69.28,25.6,73.51,12.61,79.14,-19.1,79.14,-85.03,60.52,-85.03,33.34,-70.44,18.54,-65.91,7.07,-69.23,-20.11,-74.97,-30.98,-71.95,-32.19,-62.59,-27.36,-47.19,-34.61,-21.52,-42.16,-43.56,-50.92,-53.53,-61.49,-71.35,-79.86,-80.71,-79.86,50.96,-69.94,73.01,-50.61,85.09,-29.17,91.97,54.48,91.97,-54.54,-25.74,-45.78,8.08,-37.33,47.04,-2.29,64.55,38.48,65.46,38.17,25.29,56.29,-11.55,56.29,-55.04,-1.99,14.72,-1.99,-22.42,-6.82,-48.09],"hull":26,"edges":[50,0,0,2,2,4,4,6,6,8,8,10,12,14,10,12,14,16,16,18,18,20,20,22,22,24,24,26,26,28,28,30,30,32,32,34,34,36,36,38,38,40,40,42,42,44,44,46,48,50,46,48],"width":159,"height":177}},"tx/glow_40":{"tx/glow_40":{"scaleX":2,"scaleY":2,"width":127,"height":108}},"tx/lizi_27":{"tx/lizi_27":{"width":127,"height":108},"tx/lizi_28":{"width":127,"height":108},"tx/lizi_29":{"width":127,"height":108},"tx/lizi_30":{"width":127,"height":108},"tx/lizi_31":{"width":127,"height":108},"tx/lizi_32":{"width":127,"height":108},"tx/lizi_33":{"width":127,"height":108},"tx/lizi_34":{"width":127,"height":108},"tx/lizi_35":{"width":127,"height":108},"tx/lizi_36":{"width":127,"height":108},"tx/lizi_37":{"width":127,"height":108},"tx/lizi_38":{"width":127,"height":108},"tx/lizi_39":{"width":127,"height":108},"tx/lizi_40":{"width":127,"height":108},"tx/lizi_41":{"width":127,"height":108},"tx/lizi_42":{"width":127,"height":108},"tx/lizi_43":{"width":127,"height":108},"tx/lizi_44":{"width":127,"height":108},"tx/lizi_45":{"width":127,"height":108}}}},"animations":{"actionframe":{"slots":{"tx/glow_40":{"color":[{"time":1,"color":"ffffff00"},{"time":1.3333,"color":"ffffffab","curve":"stepped"},{"time":2.5,"color":"ffffffab"},{"time":3,"color":"ffffff00"}],"attachment":[{"time":1,"name":"tx/glow_40"},{"time":3,"name":null}]},"tx/lizi_27":{"attachment":[{"time":1.3333,"name":"tx/lizi_27"},{"time":1.4,"name":"tx/lizi_28"},{"time":1.4333,"name":"tx/lizi_29"},{"time":1.5,"name":"tx/lizi_30"},{"time":1.5333,"name":"tx/lizi_31"},{"time":1.6,"name":"tx/lizi_32"},{"time":1.6333,"name":"tx/lizi_33"},{"time":1.7,"name":"tx/lizi_34"},{"time":1.7333,"name":"tx/lizi_35"},{"time":1.8,"name":"tx/lizi_36"},{"time":1.8667,"name":"tx/lizi_37"},{"time":1.9,"name":"tx/lizi_38"},{"time":1.9667,"name":"tx/lizi_39"},{"time":2,"name":"tx/lizi_40"},{"time":2.0667,"name":"tx/lizi_41"},{"time":2.1,"name":"tx/lizi_42"},{"time":2.1667,"name":"tx/lizi_43"},{"time":2.2,"name":"tx/lizi_44"},{"time":2.2667,"name":"tx/lizi_45"},{"time":2.3,"name":null}]}},"bones":{"zhengti":{"rotate":[{"time":0,"angle":0},{"time":1.5,"angle":-9.6},{"time":3,"angle":0}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":0.85,"y":0.85,"curve":[0.25,0,0.75,1]},{"time":3,"x":1,"y":1}]}},"deform":{"default":{"shen":{"shen":[{"time":0},{"time":1.5,"offset":54,"vertices":[0.33405,0.05649,0.37449,-0.81723,-3.89756,-0.65923,-3.89756,-0.65923,-5.06686,-0.857,-5.06686,-0.857,-5.06686,-0.857,-5.06686,-0.857,-5.06686,-0.857,-5.06686,-0.857]},{"time":3}]}}}},"idleframe":{"bones":{"zhengti":{"scale":[{"time":0,"x":1,"y":1}]}}}}},"_atlasText":"\nSocre_Dragons_7.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguang\n  rotate: true\n  xy: 161, 90\n  size: 93, 101\n  orig: 93, 101\n  offset: 0, 0\n  index: -1\nkuang\n  rotate: false\n  xy: 1, 291\n  size: 233, 202\n  orig: 233, 202\n  offset: 0, 0\n  index: -1\nshen\n  rotate: false\n  xy: 1, 113\n  size: 159, 177\n  orig: 159, 177\n  offset: 0, 0\n  index: -1\ntx/glow_40\n  rotate: false\n  xy: 1, 16\n  size: 113, 96\n  orig: 127, 108\n  offset: 7, 6\n  index: -1\ntx/lizi_27\n  rotate: false\n  xy: 205, 6\n  size: 83, 82\n  orig: 127, 108\n  offset: 27, 7\n  index: -1\ntx/lizi_28\n  rotate: false\n  xy: 115, 1\n  size: 89, 88\n  orig: 127, 108\n  offset: 23, 5\n  index: -1\ntx/lizi_29\n  rotate: false\n  xy: 454, 110\n  size: 91, 90\n  orig: 127, 108\n  offset: 21, 5\n  index: -1\ntx/lizi_30\n  rotate: false\n  xy: 355, 108\n  size: 98, 92\n  orig: 127, 108\n  offset: 17, 5\n  index: -1\ntx/lizi_31\n  rotate: true\n  xy: 263, 89\n  size: 101, 91\n  orig: 127, 108\n  offset: 15, 8\n  index: -1\ntx/lizi_32\n  rotate: false\n  xy: 460, 201\n  size: 103, 93\n  orig: 127, 108\n  offset: 14, 7\n  index: -1\ntx/lizi_33\n  rotate: true\n  xy: 161, 184\n  size: 106, 95\n  orig: 127, 108\n  offset: 12, 6\n  index: -1\ntx/lizi_34\n  rotate: false\n  xy: 235, 298\n  size: 112, 97\n  orig: 127, 108\n  offset: 9, 5\n  index: -1\ntx/lizi_35\n  rotate: false\n  xy: 235, 396\n  size: 113, 97\n  orig: 127, 108\n  offset: 8, 5\n  index: -1\ntx/lizi_36\n  rotate: false\n  xy: 461, 394\n  size: 108, 99\n  orig: 127, 108\n  offset: 7, 4\n  index: -1\ntx/lizi_37\n  rotate: false\n  xy: 461, 295\n  size: 107, 98\n  orig: 127, 108\n  offset: 7, 5\n  index: -1\ntx/lizi_38\n  rotate: true\n  xy: 257, 191\n  size: 106, 96\n  orig: 127, 108\n  offset: 6, 5\n  index: -1\ntx/lizi_39\n  rotate: false\n  xy: 905, 398\n  size: 107, 95\n  orig: 127, 108\n  offset: 6, 8\n  index: -1\ntx/lizi_40\n  rotate: false\n  xy: 354, 201\n  size: 105, 97\n  orig: 127, 108\n  offset: 10, 6\n  index: -1\ntx/lizi_41\n  rotate: false\n  xy: 570, 396\n  size: 109, 97\n  orig: 127, 108\n  offset: 8, 5\n  index: -1\ntx/lizi_42\n  rotate: false\n  xy: 349, 396\n  size: 111, 97\n  orig: 127, 108\n  offset: 7, 5\n  index: -1\ntx/lizi_43\n  rotate: false\n  xy: 680, 399\n  size: 111, 94\n  orig: 127, 108\n  offset: 7, 8\n  index: -1\ntx/lizi_44\n  rotate: false\n  xy: 348, 299\n  size: 112, 96\n  orig: 127, 108\n  offset: 10, 7\n  index: -1\ntx/lizi_45\n  rotate: false\n  xy: 792, 401\n  size: 112, 92\n  orig: 127, 108\n  offset: 6, 10\n  index: -1\n","textures":[{"__uuid__":"35FESfx5NG8IFN/It14Lm6"}],"textureNames":["Socre_Dragons_7.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Socre_Dragons_7",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "wGu7/zgHdcSMpqJRbKU5ZywL8B4",
+      "spine": "3.6.53",
+      "width": 116.5,
+      "height": 101.13,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root0.76"
+      },
+      {
+        "name": "gen",
+        "parent": "root0.76",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "0.5",
+        "parent": "gen",
+        "x": -1.1,
+        "y": -4.2
+      },
+      {
+        "name": "zhengti",
+        "parent": "0.5",
+        "x": 1.46,
+        "y": 0.73
+      },
+      {
+        "name": "guang",
+        "parent": "zhengti",
+        "x": -0.36,
+        "y": 3.47
+      },
+      {
+        "name": "tx_lizi",
+        "parent": "0.5",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "kuang",
+        "bone": "0.5",
+        "attachment": "kuang"
+      },
+      {
+        "name": "tx/glow_40",
+        "bone": "0.5",
+        "blend": "additive"
+      },
+      {
+        "name": "tx/lizi_27",
+        "bone": "tx_lizi"
+      },
+      {
+        "name": "shen",
+        "bone": "zhengti",
+        "attachment": "shen"
+      },
+      {
+        "name": "guang",
+        "bone": "guang",
+        "attachment": "guang",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "guang": {
+          "guang": {
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 93,
+            "height": 101
+          }
+        },
+        "kuang": {
+          "kuang": {
+            "x": 0.41,
+            "y": 4.45,
+            "width": 233,
+            "height": 202
+          }
+        },
+        "shen": {
+          "shen": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              0.1037,
+              1,
+              0.22143,
+              0.9,
+              0.24361,
+              0.84682,
+              0.28798,
+              0.93799,
+              0.37499,
+              0.96458,
+              0.44836,
+              1,
+              0.62751,
+              1,
+              1,
+              0.88291,
+              1,
+              0.71196,
+              0.91757,
+              0.61889,
+              0.89198,
+              0.54672,
+              0.91074,
+              0.37577,
+              0.94316,
+              0.3074,
+              0.9261,
+              0.2998,
+              0.87321,
+              0.33019,
+              0.78619,
+              0.2846,
+              0.64116,
+              0.23712,
+              0.76572,
+              0.18204,
+              0.82202,
+              0.11556,
+              0.92269,
+              0,
+              0.97558,
+              0,
+              0.23167,
+              0.06238,
+              0.10712,
+              0.18394,
+              0.03887,
+              0.31879,
+              0,
+              0.84492,
+              0,
+              0.15925,
+              0.66505,
+              0.21433,
+              0.47395,
+              0.26751,
+              0.25385,
+              0.48784,
+              0.15489,
+              0.74425,
+              0.14977,
+              0.74235,
+              0.3767,
+              0.85631,
+              0.58486,
+              0.85631,
+              0.83055,
+              0.48974,
+              0.43642,
+              0.48974,
+              0.64628,
+              0.45935,
+              0.79131
+            ],
+            "triangles": [
+              25,
+              29,
+              24,
+              30,
+              29,
+              25,
+              2,
+              30,
+              25,
+              25,
+              0,
+              2,
+              1,
+              2,
+              0,
+              28,
+              23,
+              24,
+              28,
+              24,
+              29,
+              22,
+              23,
+              28,
+              21,
+              22,
+              28,
+              3,
+              30,
+              2,
+              31,
+              29,
+              30,
+              31,
+              30,
+              3,
+              34,
+              29,
+              31,
+              28,
+              29,
+              34,
+              27,
+              21,
+              28,
+              27,
+              28,
+              34,
+              4,
+              31,
+              3,
+              5,
+              31,
+              4,
+              5,
+              32,
+              31,
+              32,
+              5,
+              6,
+              16,
+              27,
+              34,
+              35,
+              16,
+              34,
+              26,
+              21,
+              27,
+              26,
+              27,
+              16,
+              17,
+              26,
+              16,
+              15,
+              16,
+              35,
+              36,
+              15,
+              35,
+              18,
+              26,
+              17,
+              34,
+              31,
+              35,
+              33,
+              32,
+              6,
+              35,
+              31,
+              32,
+              33,
+              10,
+              32,
+              10,
+              35,
+              32,
+              36,
+              35,
+              10,
+              11,
+              36,
+              10,
+              9,
+              10,
+              33,
+              26,
+              20,
+              21,
+              19,
+              26,
+              18,
+              12,
+              13,
+              14,
+              12,
+              15,
+              36,
+              12,
+              36,
+              11,
+              12,
+              14,
+              15,
+              19,
+              20,
+              26,
+              7,
+              8,
+              33,
+              9,
+              33,
+              8,
+              7,
+              33,
+              6
+            ],
+            "vertices": [
+              79.14,
+              73.61,
+              79.14,
+              52.78,
+              63.24,
+              48.85,
+              54.78,
+              41,
+              69.28,
+              25.6,
+              73.51,
+              12.61,
+              79.14,
+              -19.1,
+              79.14,
+              -85.03,
+              60.52,
+              -85.03,
+              33.34,
+              -70.44,
+              18.54,
+              -65.91,
+              7.07,
+              -69.23,
+              -20.11,
+              -74.97,
+              -30.98,
+              -71.95,
+              -32.19,
+              -62.59,
+              -27.36,
+              -47.19,
+              -34.61,
+              -21.52,
+              -42.16,
+              -43.56,
+              -50.92,
+              -53.53,
+              -61.49,
+              -71.35,
+              -79.86,
+              -80.71,
+              -79.86,
+              50.96,
+              -69.94,
+              73.01,
+              -50.61,
+              85.09,
+              -29.17,
+              91.97,
+              54.48,
+              91.97,
+              -54.54,
+              -25.74,
+              -45.78,
+              8.08,
+              -37.33,
+              47.04,
+              -2.29,
+              64.55,
+              38.48,
+              65.46,
+              38.17,
+              25.29,
+              56.29,
+              -11.55,
+              56.29,
+              -55.04,
+              -1.99,
+              14.72,
+              -1.99,
+              -22.42,
+              -6.82,
+              -48.09
+            ],
+            "hull": 26,
+            "edges": [
+              50,
+              0,
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              12,
+              14,
+              10,
+              12,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              20,
+              22,
+              22,
+              24,
+              24,
+              26,
+              26,
+              28,
+              28,
+              30,
+              30,
+              32,
+              32,
+              34,
+              34,
+              36,
+              36,
+              38,
+              38,
+              40,
+              40,
+              42,
+              42,
+              44,
+              44,
+              46,
+              48,
+              50,
+              46,
+              48
+            ],
+            "width": 159,
+            "height": 177
+          }
+        },
+        "tx/glow_40": {
+          "tx/glow_40": {
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 127,
+            "height": 108
+          }
+        },
+        "tx/lizi_27": {
+          "tx/lizi_27": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_28": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_29": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_30": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_31": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_32": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_33": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_34": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_35": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_36": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_37": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_38": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_39": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_40": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_41": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_42": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_43": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_44": {
+            "width": 127,
+            "height": 108
+          },
+          "tx/lizi_45": {
+            "width": 127,
+            "height": 108
+          }
+        }
+      }
+    },
+    "animations": {
+      "actionframe": {
+        "slots": {
+          "tx/glow_40": {
+            "color": [
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffffab",
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "color": "ffffffab"
+              },
+              {
+                "time": 3,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 1,
+                "name": "tx/glow_40"
+              },
+              {
+                "time": 3,
+                "name": null
+              }
+            ]
+          },
+          "tx/lizi_27": {
+            "attachment": [
+              {
+                "time": 1.3333,
+                "name": "tx/lizi_27"
+              },
+              {
+                "time": 1.4,
+                "name": "tx/lizi_28"
+              },
+              {
+                "time": 1.4333,
+                "name": "tx/lizi_29"
+              },
+              {
+                "time": 1.5,
+                "name": "tx/lizi_30"
+              },
+              {
+                "time": 1.5333,
+                "name": "tx/lizi_31"
+              },
+              {
+                "time": 1.6,
+                "name": "tx/lizi_32"
+              },
+              {
+                "time": 1.6333,
+                "name": "tx/lizi_33"
+              },
+              {
+                "time": 1.7,
+                "name": "tx/lizi_34"
+              },
+              {
+                "time": 1.7333,
+                "name": "tx/lizi_35"
+              },
+              {
+                "time": 1.8,
+                "name": "tx/lizi_36"
+              },
+              {
+                "time": 1.8667,
+                "name": "tx/lizi_37"
+              },
+              {
+                "time": 1.9,
+                "name": "tx/lizi_38"
+              },
+              {
+                "time": 1.9667,
+                "name": "tx/lizi_39"
+              },
+              {
+                "time": 2,
+                "name": "tx/lizi_40"
+              },
+              {
+                "time": 2.0667,
+                "name": "tx/lizi_41"
+              },
+              {
+                "time": 2.1,
+                "name": "tx/lizi_42"
+              },
+              {
+                "time": 2.1667,
+                "name": "tx/lizi_43"
+              },
+              {
+                "time": 2.2,
+                "name": "tx/lizi_44"
+              },
+              {
+                "time": 2.2667,
+                "name": "tx/lizi_45"
+              },
+              {
+                "time": 2.3,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zhengti": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 1.5,
+                "angle": -9.6
+              },
+              {
+                "time": 3,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 0.85,
+                "y": 0.85,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "shen": {
+              "shen": [
+                {
+                  "time": 0
+                },
+                {
+                  "time": 1.5,
+                  "offset": 54,
+                  "vertices": [
+                    0.33405,
+                    0.05649,
+                    0.37449,
+                    -0.81723,
+                    -3.89756,
+                    -0.65923,
+                    -3.89756,
+                    -0.65923,
+                    -5.06686,
+                    -0.857,
+                    -5.06686,
+                    -0.857,
+                    -5.06686,
+                    -0.857,
+                    -5.06686,
+                    -0.857,
+                    -5.06686,
+                    -0.857,
+                    -5.06686,
+                    -0.857
+                  ]
+                },
+                {
+                  "time": 3
+                }
+              ]
+            }
+          }
+        }
+      },
+      "idleframe": {
+        "bones": {
+          "zhengti": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nSocre_Dragons_7.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguang\n  rotate: true\n  xy: 161, 90\n  size: 93, 101\n  orig: 93, 101\n  offset: 0, 0\n  index: -1\nkuang\n  rotate: false\n  xy: 1, 291\n  size: 233, 202\n  orig: 233, 202\n  offset: 0, 0\n  index: -1\nshen\n  rotate: false\n  xy: 1, 113\n  size: 159, 177\n  orig: 159, 177\n  offset: 0, 0\n  index: -1\ntx/glow_40\n  rotate: false\n  xy: 1, 16\n  size: 113, 96\n  orig: 127, 108\n  offset: 7, 6\n  index: -1\ntx/lizi_27\n  rotate: false\n  xy: 205, 6\n  size: 83, 82\n  orig: 127, 108\n  offset: 27, 7\n  index: -1\ntx/lizi_28\n  rotate: false\n  xy: 115, 1\n  size: 89, 88\n  orig: 127, 108\n  offset: 23, 5\n  index: -1\ntx/lizi_29\n  rotate: false\n  xy: 454, 110\n  size: 91, 90\n  orig: 127, 108\n  offset: 21, 5\n  index: -1\ntx/lizi_30\n  rotate: false\n  xy: 355, 108\n  size: 98, 92\n  orig: 127, 108\n  offset: 17, 5\n  index: -1\ntx/lizi_31\n  rotate: true\n  xy: 263, 89\n  size: 101, 91\n  orig: 127, 108\n  offset: 15, 8\n  index: -1\ntx/lizi_32\n  rotate: false\n  xy: 460, 201\n  size: 103, 93\n  orig: 127, 108\n  offset: 14, 7\n  index: -1\ntx/lizi_33\n  rotate: true\n  xy: 161, 184\n  size: 106, 95\n  orig: 127, 108\n  offset: 12, 6\n  index: -1\ntx/lizi_34\n  rotate: false\n  xy: 235, 298\n  size: 112, 97\n  orig: 127, 108\n  offset: 9, 5\n  index: -1\ntx/lizi_35\n  rotate: false\n  xy: 235, 396\n  size: 113, 97\n  orig: 127, 108\n  offset: 8, 5\n  index: -1\ntx/lizi_36\n  rotate: false\n  xy: 461, 394\n  size: 108, 99\n  orig: 127, 108\n  offset: 7, 4\n  index: -1\ntx/lizi_37\n  rotate: false\n  xy: 461, 295\n  size: 107, 98\n  orig: 127, 108\n  offset: 7, 5\n  index: -1\ntx/lizi_38\n  rotate: true\n  xy: 257, 191\n  size: 106, 96\n  orig: 127, 108\n  offset: 6, 5\n  index: -1\ntx/lizi_39\n  rotate: false\n  xy: 905, 398\n  size: 107, 95\n  orig: 127, 108\n  offset: 6, 8\n  index: -1\ntx/lizi_40\n  rotate: false\n  xy: 354, 201\n  size: 105, 97\n  orig: 127, 108\n  offset: 10, 6\n  index: -1\ntx/lizi_41\n  rotate: false\n  xy: 570, 396\n  size: 109, 97\n  orig: 127, 108\n  offset: 8, 5\n  index: -1\ntx/lizi_42\n  rotate: false\n  xy: 349, 396\n  size: 111, 97\n  orig: 127, 108\n  offset: 7, 5\n  index: -1\ntx/lizi_43\n  rotate: false\n  xy: 680, 399\n  size: 111, 94\n  orig: 127, 108\n  offset: 7, 8\n  index: -1\ntx/lizi_44\n  rotate: false\n  xy: 348, 299\n  size: 112, 96\n  orig: 127, 108\n  offset: 10, 7\n  index: -1\ntx/lizi_45\n  rotate: false\n  xy: 792, 401\n  size: 112, 92\n  orig: 127, 108\n  offset: 6, 10\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "35FESfx5NG8IFN/It14Lm6"
+    }
+  ],
+  "textureNames": [
+    "Socre_Dragons_7.png"
+  ]
+}

@@ -1,1 +1,539 @@
-{"__type__":"sp.SkeletonData","_name":"sd_tc_03","_skeletonJson":{"skeleton":{"hash":"swHp0LYMOOSg45xNPWbsvMmmxx0","spine":"3.6.53","width":1060,"height":1560,"images":"../素材/"},"bones":[{"name":"root"},{"name":"quan","parent":"root","x":-3.08,"y":1.23}],"slots":[{"name":"dialog_6_1","bone":"root"},{"name":"root","bone":"root"},{"name":"1_0","bone":"quan","attachment":"1_0","blend":"additive"},{"name":"2_0","bone":"quan","attachment":"2_0","blend":"additive"},{"name":"3_0","bone":"quan","attachment":"3_0","blend":"additive"},{"name":"4_0","bone":"quan","attachment":"4_0","blend":"additive"},{"name":"5_0","bone":"quan","attachment":"5_0","blend":"additive"}],"skins":{"default":{"1_0":{"1_0":{"x":-148.85,"y":37.26,"width":258,"height":245}},"2_0":{"2_0":{"x":-67.74,"y":-152.05,"width":258,"height":245}},"3_0":{"3_0":{"x":130.89,"y":-122.28,"width":258,"height":245}},"4_0":{"4_0":{"x":167.59,"y":54.69,"width":258,"height":245}},"5_0":{"5_0":{"x":8.48,"y":156.18,"width":258,"height":245}}}},"animations":{"animation1":{"slots":{"1_0":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.4333,"color":"ffffff75","curve":[0.25,0,0.75,1]},{"time":0.6333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.8667,"color":"ffffff00"}]},"2_0":{"attachment":[{"time":0,"name":null}]},"3_0":{"attachment":[{"time":0,"name":null}]},"4_0":{"attachment":[{"time":0,"name":null}]},"5_0":{"attachment":[{"time":0,"name":null}]}}},"animation2":{"slots":{"1_0":{"attachment":[{"time":0,"name":null}]},"2_0":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.4333,"color":"ffffff75","curve":[0.25,0,0.75,1]},{"time":0.6333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.8667,"color":"ffffff00"}]},"3_0":{"attachment":[{"time":0,"name":null}]},"4_0":{"attachment":[{"time":0,"name":null}]},"5_0":{"attachment":[{"time":0,"name":null}]}}},"animation3":{"slots":{"1_0":{"attachment":[{"time":0,"name":null}]},"2_0":{"attachment":[{"time":0,"name":null}]},"3_0":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.4333,"color":"ffffff75","curve":[0.25,0,0.75,1]},{"time":0.6333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.8667,"color":"ffffff00"}]},"4_0":{"attachment":[{"time":0,"name":null}]},"5_0":{"attachment":[{"time":0,"name":null}]}}},"animation4":{"slots":{"1_0":{"attachment":[{"time":0,"name":null}]},"2_0":{"attachment":[{"time":0,"name":null}]},"3_0":{"attachment":[{"time":0,"name":null}]},"4_0":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.4333,"color":"ffffff75","curve":[0.25,0,0.75,1]},{"time":0.6333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.8667,"color":"ffffff00"}]},"5_0":{"attachment":[{"time":0,"name":null}]}}},"animation5":{"slots":{"1_0":{"attachment":[{"time":0,"name":null}]},"2_0":{"attachment":[{"time":0,"name":null}]},"3_0":{"attachment":[{"time":0,"name":null}]},"4_0":{"attachment":[{"time":0,"name":null}]},"5_0":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.4333,"color":"ffffff75","curve":[0.25,0,0.75,1]},{"time":0.6333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.8667,"color":"ffffff00"}]}}}}},"_atlasText":"\nsd_tc_03.png\nsize: 956,190\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1_0\n  rotate: false\n  xy: 198, 1\n  size: 192, 189\n  orig: 206, 196\n  offset: 8, 4\n  index: -1\n2_0\n  rotate: false\n  xy: 392, 2\n  size: 193, 188\n  orig: 206, 196\n  offset: 3, 5\n  index: -1\n3_0\n  rotate: false\n  xy: 777, 12\n  size: 179, 178\n  orig: 206, 196\n  offset: 13, 6\n  index: -1\n4_0\n  rotate: false\n  xy: 587, 9\n  size: 188, 181\n  orig: 206, 196\n  offset: 12, 6\n  index: -1\n5_0\n  rotate: false\n  xy: 0, 0\n  size: 196, 190\n  orig: 206, 196\n  offset: 10, 0\n  index: -1\n","textures":[{"__uuid__":"27LzjPqZlAmLSdzc8utgfM"}],"textureNames":["sd_tc_03.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "sd_tc_03",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "swHp0LYMOOSg45xNPWbsvMmmxx0",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../素材/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "quan",
+        "parent": "root",
+        "x": -3.08,
+        "y": 1.23
+      }
+    ],
+    "slots": [
+      {
+        "name": "dialog_6_1",
+        "bone": "root"
+      },
+      {
+        "name": "root",
+        "bone": "root"
+      },
+      {
+        "name": "1_0",
+        "bone": "quan",
+        "attachment": "1_0",
+        "blend": "additive"
+      },
+      {
+        "name": "2_0",
+        "bone": "quan",
+        "attachment": "2_0",
+        "blend": "additive"
+      },
+      {
+        "name": "3_0",
+        "bone": "quan",
+        "attachment": "3_0",
+        "blend": "additive"
+      },
+      {
+        "name": "4_0",
+        "bone": "quan",
+        "attachment": "4_0",
+        "blend": "additive"
+      },
+      {
+        "name": "5_0",
+        "bone": "quan",
+        "attachment": "5_0",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "1_0": {
+          "1_0": {
+            "x": -148.85,
+            "y": 37.26,
+            "width": 258,
+            "height": 245
+          }
+        },
+        "2_0": {
+          "2_0": {
+            "x": -67.74,
+            "y": -152.05,
+            "width": 258,
+            "height": 245
+          }
+        },
+        "3_0": {
+          "3_0": {
+            "x": 130.89,
+            "y": -122.28,
+            "width": 258,
+            "height": 245
+          }
+        },
+        "4_0": {
+          "4_0": {
+            "x": 167.59,
+            "y": 54.69,
+            "width": 258,
+            "height": 245
+          }
+        },
+        "5_0": {
+          "5_0": {
+            "x": 8.48,
+            "y": 156.18,
+            "width": 258,
+            "height": 245
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "1_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffff75",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "2_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "4_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "5_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "1_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "2_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffff75",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "3_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "4_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "5_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "animation3": {
+        "slots": {
+          "1_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "2_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffff75",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "4_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "5_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "animation4": {
+        "slots": {
+          "1_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "2_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "4_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffff75",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "5_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "animation5": {
+        "slots": {
+          "1_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "2_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "3_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "4_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "5_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffff75",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nsd_tc_03.png\nsize: 956,190\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1_0\n  rotate: false\n  xy: 198, 1\n  size: 192, 189\n  orig: 206, 196\n  offset: 8, 4\n  index: -1\n2_0\n  rotate: false\n  xy: 392, 2\n  size: 193, 188\n  orig: 206, 196\n  offset: 3, 5\n  index: -1\n3_0\n  rotate: false\n  xy: 777, 12\n  size: 179, 178\n  orig: 206, 196\n  offset: 13, 6\n  index: -1\n4_0\n  rotate: false\n  xy: 587, 9\n  size: 188, 181\n  orig: 206, 196\n  offset: 12, 6\n  index: -1\n5_0\n  rotate: false\n  xy: 0, 0\n  size: 196, 190\n  orig: 206, 196\n  offset: 10, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "27LzjPqZlAmLSdzc8utgfM"
+    }
+  ],
+  "textureNames": [
+    "sd_tc_03.png"
+  ]
+}

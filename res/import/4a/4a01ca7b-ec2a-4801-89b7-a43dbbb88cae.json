@@ -1,1 +1,3173 @@
-{"__type__":"sp.SkeletonData","_name":"FG_tang","_skeletonJson":{"skeleton":{"hash":"gDTzDh88jDA78S0gAqt95uJclU0","spine":"3.6.53","width":0,"height":0,"images":"./img1/"},"bones":[{"name":"root"},{"name":"all","parent":"root"},{"name":"glow","parent":"all"},{"name":"lizi","parent":"all"},{"name":"qiu","parent":"all"},{"name":"suipian","parent":"all"},{"name":"tang","parent":"all"},{"name":"yan","parent":"all"},{"name":"zhadan","parent":"all"}],"slots":[{"name":"qiu","bone":"qiu"},{"name":"qiu_add","bone":"qiu","blend":"additive"},{"name":"tang","bone":"tang"},{"name":"glow","bone":"glow","blend":"additive"},{"name":"suipian","bone":"suipian"},{"name":"lizi","bone":"lizi","blend":"additive"},{"name":"zhadan","bone":"zhadan"},{"name":"zhadan_add","bone":"zhadan","blend":"additive"},{"name":"yan","bone":"yan"}],"skins":{"default":{"glow":{"glow/glow_01":{"width":167,"height":167},"glow/glow_02":{"width":167,"height":167},"glow/glow_03":{"width":167,"height":167},"glow/glow_04":{"width":167,"height":167},"glow/glow_05":{"width":167,"height":167},"glow/glow_06":{"width":167,"height":167},"glow/glow_07":{"width":167,"height":167},"glow/glow_08":{"width":167,"height":167},"glow/glow_09":{"width":167,"height":167},"glow/glow_10":{"width":167,"height":167},"glow/glow_11":{"width":167,"height":167},"glow/glow_12":{"width":167,"height":167},"glow/glow_13":{"width":167,"height":167},"glow/glow_14":{"width":167,"height":167},"glow/glow_15":{"width":167,"height":167},"glow/glow_16":{"width":167,"height":167},"glow/glow_17":{"width":167,"height":167},"glow/glow_18":{"width":167,"height":167},"glow/glow_19":{"width":167,"height":167}},"lizi":{"lizi/lizi_00":{"width":100,"height":100},"lizi/lizi_01":{"width":100,"height":100},"lizi/lizi_02":{"width":100,"height":100},"lizi/lizi_03":{"width":100,"height":100},"lizi/lizi_04":{"width":100,"height":100},"lizi/lizi_05":{"width":100,"height":100},"lizi/lizi_06":{"width":100,"height":100},"lizi/lizi_07":{"width":100,"height":100},"lizi/lizi_08":{"width":100,"height":100},"lizi/lizi_09":{"width":100,"height":100},"lizi/lizi_10":{"width":100,"height":100},"lizi/lizi_11":{"width":100,"height":100},"lizi/lizi_12":{"width":100,"height":100},"lizi/lizi_13":{"width":100,"height":100},"lizi/lizi_14":{"width":100,"height":100},"lizi/lizi_15":{"width":100,"height":100},"lizi/lizi_16":{"width":100,"height":100},"lizi/lizi_17":{"width":100,"height":100},"lizi/lizi_18":{"width":100,"height":100},"lizi/lizi_19":{"width":100,"height":100}},"qiu":{"hong":{"width":84,"height":75},"lan":{"width":84,"height":75},"lv":{"width":84,"height":75},"zi":{"width":84,"height":75}},"qiu_add":{"hong_add":{"x":-0.44,"y":-3.99,"width":200,"height":200},"lan_add":{"x":0.89,"y":-1.77,"width":200,"height":200},"lv_add":{"x":0.87,"y":-3.88,"width":200,"height":200},"zi_add":{"x":0.48,"y":-2.71,"width":200,"height":200}},"suipian":{"suipian/suipian_01":{"width":250,"height":250},"suipian/suipian_02":{"width":250,"height":250},"suipian/suipian_03":{"width":250,"height":250},"suipian/suipian_04":{"width":250,"height":250},"suipian/suipian_05":{"width":250,"height":250},"suipian/suipian_06":{"width":250,"height":250},"suipian/suipian_07":{"width":250,"height":250},"suipian/suipian_08":{"width":250,"height":250},"suipian/suipian_09":{"width":250,"height":250},"suipian/suipian_10":{"width":250,"height":250},"suipian/suipian_11":{"width":250,"height":250},"suipian/suipian_12":{"width":250,"height":250},"suipian/suipian_13":{"width":250,"height":250},"suipian/suipian_14":{"width":250,"height":250},"suipian/suipian_15":{"width":250,"height":250},"suipian/suipian_16":{"width":250,"height":250},"suipian/suipian_17":{"width":250,"height":250}},"tang":{"tang":{"width":193,"height":228}},"yan":{"yan/yan_00":{"width":167,"height":167},"yan/yan_01":{"width":167,"height":167},"yan/yan_02":{"width":167,"height":167},"yan/yan_03":{"width":167,"height":167},"yan/yan_04":{"width":167,"height":167},"yan/yan_05":{"width":167,"height":167},"yan/yan_06":{"width":167,"height":167},"yan/yan_07":{"width":167,"height":167},"yan/yan_08":{"width":167,"height":167},"yan/yan_09":{"width":167,"height":167},"yan/yan_10":{"width":167,"height":167},"yan/yan_11":{"width":167,"height":167},"yan/yan_12":{"width":167,"height":167},"yan/yan_13":{"width":167,"height":167},"yan/yan_14":{"width":167,"height":167},"yan/yan_15":{"width":167,"height":167},"yan/yan_16":{"width":167,"height":167},"yan/yan_17":{"width":167,"height":167},"yan/yan_18":{"width":167,"height":167},"yan/yan_19":{"width":167,"height":167}},"zhadan":{"zhadan":{"width":262,"height":260}},"zhadan_add":{"zhadan_add":{"scaleX":2,"scaleY":2,"width":200,"height":200}}}},"animations":{"click":{"slots":{"glow":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"glow/glow_01"},{"time":0.1,"name":"glow/glow_02"},{"time":0.1333,"name":"glow/glow_03"},{"time":0.2,"name":"glow/glow_04"},{"time":0.2333,"name":"glow/glow_05"},{"time":0.3,"name":"glow/glow_06"},{"time":0.3333,"name":"glow/glow_07"},{"time":0.4,"name":"glow/glow_08"},{"time":0.4333,"name":"glow/glow_09"},{"time":0.5,"name":"glow/glow_10"},{"time":0.5333,"name":"glow/glow_11"},{"time":0.6,"name":"glow/glow_12"},{"time":0.6333,"name":"glow/glow_13"},{"time":0.7,"name":"glow/glow_14"},{"time":0.7333,"name":"glow/glow_15"},{"time":0.8,"name":"glow/glow_16"},{"time":0.8333,"name":"glow/glow_17"},{"time":0.9,"name":"glow/glow_18"},{"time":0.9333,"name":"glow/glow_19"},{"time":1,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null}]},"qiu":{"attachment":[{"time":0,"name":null}]},"qiu_add":{"attachment":[{"time":0,"name":null}]},"suipian":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"suipian/suipian_01"},{"time":0.1,"name":"suipian/suipian_02"},{"time":0.1333,"name":"suipian/suipian_03"},{"time":0.2,"name":"suipian/suipian_04"},{"time":0.2333,"name":"suipian/suipian_05"},{"time":0.3,"name":"suipian/suipian_06"},{"time":0.3333,"name":"suipian/suipian_07"},{"time":0.4,"name":"suipian/suipian_08"},{"time":0.4333,"name":"suipian/suipian_09"},{"time":0.5,"name":"suipian/suipian_10"},{"time":0.5333,"name":"suipian/suipian_11"},{"time":0.6,"name":"suipian/suipian_12"},{"time":0.6333,"name":"suipian/suipian_13"},{"time":0.7,"name":"suipian/suipian_14"},{"time":0.7333,"name":"suipian/suipian_15"},{"time":0.8,"name":"suipian/suipian_16"},{"time":0.8333,"name":"suipian/suipian_17"},{"time":0.9,"name":null}]},"tang":{"color":[{"time":0,"color":"ffffffff"},{"time":0.1667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"tang"}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"glow":{"scale":[{"time":0,"x":3,"y":3}]},"suipian":{"scale":[{"time":0,"x":2,"y":2}]},"tang":{"rotate":[{"time":0,"angle":0},{"time":0.1667,"angle":180}],"scale":[{"time":0,"x":1,"y":1},{"time":0.1667,"x":0,"y":0}]}}},"hong_intro1":{"slots":{"glow":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null}]},"qiu":{"attachment":[{"time":0,"name":"hong"}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.0667,"color":"ffffff00"},{"time":0.2333,"color":"ffffffff","curve":"stepped"},{"time":0.4,"color":"ffffffff"},{"time":0.7333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"hong_add"}]},"suipian":{"attachment":[{"time":0,"name":null}]},"tang":{"attachment":[{"time":0,"name":null}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"qiu":{"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.0667,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":2,"y":2,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":1.2,"y":1.2,"curve":[0.25,0,0.75,1]},{"time":0.7333,"x":1.5,"y":1.5}]}}},"hong_intro2":{"slots":{"glow":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"lizi/lizi_00"},{"time":0.0667,"name":"lizi/lizi_01"},{"time":0.1,"name":"lizi/lizi_02"},{"time":0.1333,"name":"lizi/lizi_03"},{"time":0.1667,"name":"lizi/lizi_04"},{"time":0.2,"name":"lizi/lizi_05"},{"time":0.2333,"name":"lizi/lizi_06"},{"time":0.2667,"name":"lizi/lizi_07"},{"time":0.3,"name":"lizi/lizi_08"},{"time":0.3333,"name":"lizi/lizi_09"},{"time":0.3667,"name":"lizi/lizi_10"},{"time":0.4,"name":"lizi/lizi_11"},{"time":0.4333,"name":"lizi/lizi_12"},{"time":0.4667,"name":"lizi/lizi_13"},{"time":0.5,"name":"lizi/lizi_14"},{"time":0.5333,"name":"lizi/lizi_15"},{"time":0.5667,"name":"lizi/lizi_16"},{"time":0.6,"name":"lizi/lizi_17"},{"time":0.6333,"name":"lizi/lizi_18"},{"time":0.6667,"name":"lizi/lizi_19"},{"time":0.7,"name":null}]},"qiu":{"attachment":[{"time":0,"name":"hong"}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.6667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"hong_add"}]},"suipian":{"attachment":[{"time":0,"name":null}]},"tang":{"attachment":[{"time":0,"name":null}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"lizi":{"scale":[{"time":0,"x":2.4,"y":2.4}]},"qiu":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":1.5,"y":1.5,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":0.9,"y":0.9,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1,"y":1}]}}},"hong_move":{"slots":{"lizi":{"attachment":[{"time":0,"name":null}]},"qiu":{"attachment":[{"time":0,"name":"hong"}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.5,"color":"ffffffff"}],"attachment":[{"time":0,"name":"hong_add"}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"qiu":{"scale":[{"time":0,"x":1.5,"y":1.5}]}}},"lan_intro1":{"slots":{"glow":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null}]},"qiu":{"attachment":[{"time":0,"name":"lan"}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.0667,"color":"ffffff00"},{"time":0.2333,"color":"ffffffff","curve":"stepped"},{"time":0.4,"color":"ffffffff"},{"time":0.7333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"lan_add"}]},"suipian":{"attachment":[{"time":0,"name":null}]},"tang":{"attachment":[{"time":0,"name":null}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"qiu":{"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.0667,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":2,"y":2,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":1.2,"y":1.2,"curve":[0.25,0,0.75,1]},{"time":0.7333,"x":1.5,"y":1.5}]}}},"lan_intro2":{"slots":{"glow":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"lizi/lizi_00"},{"time":0.0667,"name":"lizi/lizi_01"},{"time":0.1,"name":"lizi/lizi_02"},{"time":0.1333,"name":"lizi/lizi_03"},{"time":0.1667,"name":"lizi/lizi_04"},{"time":0.2,"name":"lizi/lizi_05"},{"time":0.2333,"name":"lizi/lizi_06"},{"time":0.2667,"name":"lizi/lizi_07"},{"time":0.3,"name":"lizi/lizi_08"},{"time":0.3333,"name":"lizi/lizi_09"},{"time":0.3667,"name":"lizi/lizi_10"},{"time":0.4,"name":"lizi/lizi_11"},{"time":0.4333,"name":"lizi/lizi_12"},{"time":0.4667,"name":"lizi/lizi_13"},{"time":0.5,"name":"lizi/lizi_14"},{"time":0.5333,"name":"lizi/lizi_15"},{"time":0.5667,"name":"lizi/lizi_16"},{"time":0.6,"name":"lizi/lizi_17"},{"time":0.6333,"name":"lizi/lizi_18"},{"time":0.6667,"name":"lizi/lizi_19"},{"time":0.7,"name":null}]},"qiu":{"attachment":[{"time":0,"name":"lan"}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.6667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"lan_add"}]},"suipian":{"attachment":[{"time":0,"name":null}]},"tang":{"attachment":[{"time":0,"name":null}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"lizi":{"scale":[{"time":0,"x":2.4,"y":2.4}]},"qiu":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":1.5,"y":1.5,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":0.9,"y":0.9,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1,"y":1}]}}},"lan_move":{"slots":{"lizi":{"attachment":[{"time":0,"name":null}]},"qiu":{"attachment":[{"time":0,"name":"lan"}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.5,"color":"ffffffff"}],"attachment":[{"time":0,"name":"lan_add"}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"qiu":{"scale":[{"time":0,"x":1.5,"y":1.5}]}}},"lv_intro1":{"slots":{"glow":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null}]},"qiu":{"attachment":[{"time":0,"name":"lv"}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.0667,"color":"ffffff00"},{"time":0.2333,"color":"ffffffff","curve":"stepped"},{"time":0.4,"color":"ffffffff"},{"time":0.7333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"lv_add"}]},"suipian":{"attachment":[{"time":0,"name":null}]},"tang":{"attachment":[{"time":0,"name":null}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"qiu":{"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.0667,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":2,"y":2,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":1.2,"y":1.2,"curve":[0.25,0,0.75,1]},{"time":0.7333,"x":1.5,"y":1.5}]}}},"lv_intro2":{"slots":{"glow":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"lizi/lizi_00"},{"time":0.0667,"name":"lizi/lizi_01"},{"time":0.1,"name":"lizi/lizi_02"},{"time":0.1333,"name":"lizi/lizi_03"},{"time":0.1667,"name":"lizi/lizi_04"},{"time":0.2,"name":"lizi/lizi_05"},{"time":0.2333,"name":"lizi/lizi_06"},{"time":0.2667,"name":"lizi/lizi_07"},{"time":0.3,"name":"lizi/lizi_08"},{"time":0.3333,"name":"lizi/lizi_09"},{"time":0.3667,"name":"lizi/lizi_10"},{"time":0.4,"name":"lizi/lizi_11"},{"time":0.4333,"name":"lizi/lizi_12"},{"time":0.4667,"name":"lizi/lizi_13"},{"time":0.5,"name":"lizi/lizi_14"},{"time":0.5333,"name":"lizi/lizi_15"},{"time":0.5667,"name":"lizi/lizi_16"},{"time":0.6,"name":"lizi/lizi_17"},{"time":0.6333,"name":"lizi/lizi_18"},{"time":0.6667,"name":"lizi/lizi_19"},{"time":0.7,"name":null}]},"qiu":{"attachment":[{"time":0,"name":"lv"}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.6667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"lv_add"}]},"suipian":{"attachment":[{"time":0,"name":null}]},"tang":{"attachment":[{"time":0,"name":null}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"lizi":{"scale":[{"time":0,"x":2.4,"y":2.4}]},"qiu":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":1.5,"y":1.5,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":0.9,"y":0.9,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1,"y":1}]}}},"lv_move":{"slots":{"lizi":{"attachment":[{"time":0,"name":null}]},"qiu":{"attachment":[{"time":0,"name":"lv"}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.5,"color":"ffffffff"}],"attachment":[{"time":0,"name":"lv_add"}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"qiu":{"scale":[{"time":0,"x":1.5,"y":1.5}]}}},"zhadan01":{"slots":{"glow":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null}]},"qiu":{"attachment":[{"time":0,"name":null}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.0667,"color":"ffffff00"},{"time":0.2333,"color":"ffffffff","curve":"stepped"},{"time":0.4,"color":"ffffffff"},{"time":0.7333,"color":"ffffff00"}],"attachment":[{"time":0,"name":null}]},"suipian":{"attachment":[{"time":0,"name":null}]},"tang":{"attachment":[{"time":0,"name":null}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":"zhadan"}]},"zhadan_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.0667,"color":"ffffff00"},{"time":0.2333,"color":"ffffffff","curve":"stepped"},{"time":0.4,"color":"ffffffff"},{"time":0.7333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"zhadan_add"}]}},"bones":{"qiu":{"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.0667,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":2,"y":2,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":1.2,"y":1.2,"curve":[0.25,0,0.75,1]},{"time":0.7333,"x":1.5,"y":1.5}]},"zhadan":{"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.0667,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":0.9,"y":0.9,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":0.6,"y":0.6,"curve":[0.25,0,0.75,1]},{"time":0.7333,"x":0.8,"y":0.8}]}}},"zhadan02":{"slots":{"glow":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null}]},"qiu":{"attachment":[{"time":0,"name":null}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.0667,"color":"ffffff00"},{"time":0.2333,"color":"ffffffff","curve":"stepped"},{"time":0.4,"color":"ffffffff"},{"time":0.7333,"color":"ffffff00"}],"attachment":[{"time":0,"name":null}]},"suipian":{"attachment":[{"time":0,"name":null}]},"tang":{"attachment":[{"time":0,"name":null}]},"yan":{"attachment":[{"time":0,"name":null},{"time":1,"name":"yan/yan_00"},{"time":1.0333,"name":"yan/yan_01"},{"time":1.1,"name":"yan/yan_02"},{"time":1.1333,"name":"yan/yan_03"},{"time":1.2,"name":"yan/yan_04"},{"time":1.2333,"name":"yan/yan_05"},{"time":1.3,"name":"yan/yan_06"},{"time":1.3333,"name":"yan/yan_07"},{"time":1.4,"name":"yan/yan_08"},{"time":1.4333,"name":"yan/yan_09"},{"time":1.5,"name":"yan/yan_10"},{"time":1.5333,"name":"yan/yan_11"},{"time":1.5667,"name":"yan/yan_12"},{"time":1.6,"name":"yan/yan_13"},{"time":1.6333,"name":"yan/yan_14"},{"time":1.6667,"name":"yan/yan_15"},{"time":1.7,"name":"yan/yan_16"},{"time":1.7333,"name":"yan/yan_17"},{"time":1.7667,"name":"yan/yan_18"},{"time":1.8,"name":"yan/yan_19"},{"time":1.8333,"name":null}]},"zhadan":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":1,"color":"ffffffff"},{"time":1.1667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"zhadan"}]},"zhadan_add":{"color":[{"time":0,"color":"ffffff00"},{"time":0.5,"color":"ffffffff","curve":"stepped"},{"time":1,"color":"ffffffff"},{"time":1.1667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"zhadan_add"}]}},"bones":{"qiu":{"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.0667,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":2,"y":2,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":1.2,"y":1.2,"curve":[0.25,0,0.75,1]},{"time":0.7333,"x":1.5,"y":1.5}]},"yan":{"translate":[{"time":0,"x":0,"y":50}],"scale":[{"time":0,"x":7,"y":7}]},"zhadan":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":0.5,"angle":0},{"time":0.6,"angle":5},{"time":0.7,"angle":-10},{"time":0.8,"angle":15},{"time":0.9,"angle":-20},{"time":1,"angle":0}],"scale":[{"time":0,"x":0.8,"y":0.8,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":2.5,"y":2.5,"curve":[0.25,0,0.75,1]},{"time":1,"x":2.8,"y":2.8}]}}},"zi_intro1":{"slots":{"glow":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null}]},"qiu":{"attachment":[{"time":0,"name":"zi"}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.0667,"color":"ffffff00"},{"time":0.2333,"color":"ffffffff","curve":"stepped"},{"time":0.4,"color":"ffffffff"},{"time":0.7333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"zi_add"}]},"suipian":{"attachment":[{"time":0,"name":null}]},"tang":{"attachment":[{"time":0,"name":null}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"qiu":{"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.0667,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":2,"y":2,"curve":[0.25,0,0.75,1]},{"time":0.5667,"x":1.2,"y":1.2,"curve":[0.25,0,0.75,1]},{"time":0.7333,"x":1.5,"y":1.5}]}}},"zi_intro2":{"slots":{"glow":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"lizi/lizi_00"},{"time":0.0667,"name":"lizi/lizi_01"},{"time":0.1,"name":"lizi/lizi_02"},{"time":0.1333,"name":"lizi/lizi_03"},{"time":0.1667,"name":"lizi/lizi_04"},{"time":0.2,"name":"lizi/lizi_05"},{"time":0.2333,"name":"lizi/lizi_06"},{"time":0.2667,"name":"lizi/lizi_07"},{"time":0.3,"name":"lizi/lizi_08"},{"time":0.3333,"name":"lizi/lizi_09"},{"time":0.3667,"name":"lizi/lizi_10"},{"time":0.4,"name":"lizi/lizi_11"},{"time":0.4333,"name":"lizi/lizi_12"},{"time":0.4667,"name":"lizi/lizi_13"},{"time":0.5,"name":"lizi/lizi_14"},{"time":0.5333,"name":"lizi/lizi_15"},{"time":0.5667,"name":"lizi/lizi_16"},{"time":0.6,"name":"lizi/lizi_17"},{"time":0.6333,"name":"lizi/lizi_18"},{"time":0.6667,"name":"lizi/lizi_19"},{"time":0.7,"name":null}]},"qiu":{"attachment":[{"time":0,"name":"zi"}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.6667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"zi_add"}]},"suipian":{"attachment":[{"time":0,"name":null}]},"tang":{"attachment":[{"time":0,"name":null}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"lizi":{"scale":[{"time":0,"x":2.4,"y":2.4}]},"qiu":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":1.5,"y":1.5,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":0.9,"y":0.9,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1,"y":1}]}}},"zi_move":{"slots":{"lizi":{"attachment":[{"time":0,"name":null}]},"qiu":{"attachment":[{"time":0,"name":"zi"}]},"qiu_add":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.5,"color":"ffffffff"}],"attachment":[{"time":0,"name":"zi_add"}]},"yan":{"attachment":[{"time":0,"name":null}]},"zhadan":{"attachment":[{"time":0,"name":null}]},"zhadan_add":{"attachment":[{"time":0,"name":null}]}},"bones":{"qiu":{"scale":[{"time":0,"x":1.5,"y":1.5}]}}}}},"_atlasText":"\nFG_tang.png\nsize: 2048,2048\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nglow/glow_01\n  rotate: false\n  xy: 254, 5\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_02\n  rotate: false\n  xy: 708, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_03\n  rotate: false\n  xy: 506, 1203\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_04\n  rotate: false\n  xy: 708, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_05\n  rotate: false\n  xy: 877, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_06\n  rotate: false\n  xy: 506, 1034\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_07\n  rotate: false\n  xy: 877, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_08\n  rotate: false\n  xy: 1046, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_09\n  rotate: false\n  xy: 1046, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_10\n  rotate: false\n  xy: 1215, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_11\n  rotate: false\n  xy: 1215, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_12\n  rotate: false\n  xy: 1384, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_13\n  rotate: false\n  xy: 1384, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_14\n  rotate: false\n  xy: 1553, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_15\n  rotate: false\n  xy: 1553, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_16\n  rotate: false\n  xy: 1722, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_17\n  rotate: false\n  xy: 1722, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_18\n  rotate: false\n  xy: 708, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_19\n  rotate: false\n  xy: 877, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nhong\n  rotate: true\n  xy: 423, 88\n  size: 84, 75\n  orig: 84, 75\n  offset: 0, 0\n  index: -1\nhong_add\n  rotate: false\n  xy: 254, 578\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nlan\n  rotate: true\n  xy: 423, 2\n  size: 84, 75\n  orig: 84, 75\n  offset: 0, 0\n  index: -1\nlan_add\n  rotate: false\n  xy: 254, 376\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nlizi/lizi_00\n  rotate: false\n  xy: 1891, 1674\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_01\n  rotate: false\n  xy: 1891, 1572\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_02\n  rotate: false\n  xy: 1891, 1470\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_03\n  rotate: false\n  xy: 1891, 1368\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_04\n  rotate: false\n  xy: 1891, 1266\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_05\n  rotate: false\n  xy: 1858, 1164\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_06\n  rotate: false\n  xy: 1858, 1062\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_07\n  rotate: false\n  xy: 1858, 960\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_08\n  rotate: false\n  xy: 675, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_09\n  rotate: false\n  xy: 777, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_10\n  rotate: false\n  xy: 879, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_11\n  rotate: false\n  xy: 981, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_12\n  rotate: false\n  xy: 1083, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_13\n  rotate: false\n  xy: 1185, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_14\n  rotate: false\n  xy: 1287, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_15\n  rotate: false\n  xy: 1389, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_16\n  rotate: false\n  xy: 1491, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_17\n  rotate: false\n  xy: 1593, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_18\n  rotate: false\n  xy: 1695, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_19\n  rotate: false\n  xy: 1797, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlv\n  rotate: true\n  xy: 1960, 1180\n  size: 84, 75\n  orig: 84, 75\n  offset: 0, 0\n  index: -1\nlv_add\n  rotate: false\n  xy: 254, 174\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nsuipian/suipian_01\n  rotate: false\n  xy: 2, 1514\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_02\n  rotate: false\n  xy: 266, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_03\n  rotate: false\n  xy: 2, 1262\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_04\n  rotate: false\n  xy: 518, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_05\n  rotate: false\n  xy: 2, 1010\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_06\n  rotate: false\n  xy: 770, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_07\n  rotate: false\n  xy: 2, 758\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_08\n  rotate: false\n  xy: 1022, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_09\n  rotate: false\n  xy: 2, 506\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_10\n  rotate: false\n  xy: 1274, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_11\n  rotate: false\n  xy: 2, 254\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_12\n  rotate: false\n  xy: 1526, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_13\n  rotate: false\n  xy: 2, 2\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_14\n  rotate: false\n  xy: 1778, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_15\n  rotate: false\n  xy: 254, 1514\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_16\n  rotate: false\n  xy: 254, 1262\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_17\n  rotate: false\n  xy: 254, 1010\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\ntang\n  rotate: false\n  xy: 254, 780\n  size: 193, 228\n  orig: 193, 228\n  offset: 0, 0\n  index: -1\nyan/yan_00\n  rotate: false\n  xy: 1046, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_01\n  rotate: false\n  xy: 1215, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_02\n  rotate: false\n  xy: 1384, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_03\n  rotate: false\n  xy: 1553, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_04\n  rotate: false\n  xy: 1722, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_05\n  rotate: false\n  xy: 675, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_06\n  rotate: false\n  xy: 844, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_07\n  rotate: false\n  xy: 1013, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_08\n  rotate: false\n  xy: 1182, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_09\n  rotate: false\n  xy: 1351, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_10\n  rotate: false\n  xy: 1520, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_11\n  rotate: false\n  xy: 1689, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_12\n  rotate: false\n  xy: 675, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_13\n  rotate: false\n  xy: 844, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_14\n  rotate: false\n  xy: 1013, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_15\n  rotate: false\n  xy: 1182, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_16\n  rotate: false\n  xy: 1351, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_17\n  rotate: false\n  xy: 1520, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_18\n  rotate: false\n  xy: 1689, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_19\n  rotate: false\n  xy: 506, 865\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nzhadan\n  rotate: false\n  xy: 2, 1766\n  size: 262, 260\n  orig: 262, 260\n  offset: 0, 0\n  index: -1\nzhadan_add\n  rotate: false\n  xy: 506, 1574\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nzi\n  rotate: true\n  xy: 1960, 1094\n  size: 84, 75\n  orig: 84, 75\n  offset: 0, 0\n  index: -1\nzi_add\n  rotate: false\n  xy: 506, 1372\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"85Cs8dggdCdqisWwo63YFM"}],"textureNames":["FG_tang.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "FG_tang",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "gDTzDh88jDA78S0gAqt95uJclU0",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./img1/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "all",
+        "parent": "root"
+      },
+      {
+        "name": "glow",
+        "parent": "all"
+      },
+      {
+        "name": "lizi",
+        "parent": "all"
+      },
+      {
+        "name": "qiu",
+        "parent": "all"
+      },
+      {
+        "name": "suipian",
+        "parent": "all"
+      },
+      {
+        "name": "tang",
+        "parent": "all"
+      },
+      {
+        "name": "yan",
+        "parent": "all"
+      },
+      {
+        "name": "zhadan",
+        "parent": "all"
+      }
+    ],
+    "slots": [
+      {
+        "name": "qiu",
+        "bone": "qiu"
+      },
+      {
+        "name": "qiu_add",
+        "bone": "qiu",
+        "blend": "additive"
+      },
+      {
+        "name": "tang",
+        "bone": "tang"
+      },
+      {
+        "name": "glow",
+        "bone": "glow",
+        "blend": "additive"
+      },
+      {
+        "name": "suipian",
+        "bone": "suipian"
+      },
+      {
+        "name": "lizi",
+        "bone": "lizi",
+        "blend": "additive"
+      },
+      {
+        "name": "zhadan",
+        "bone": "zhadan"
+      },
+      {
+        "name": "zhadan_add",
+        "bone": "zhadan",
+        "blend": "additive"
+      },
+      {
+        "name": "yan",
+        "bone": "yan"
+      }
+    ],
+    "skins": {
+      "default": {
+        "glow": {
+          "glow/glow_01": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_02": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_03": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_04": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_05": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_06": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_07": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_08": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_09": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_10": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_11": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_12": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_13": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_14": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_15": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_16": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_17": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_18": {
+            "width": 167,
+            "height": 167
+          },
+          "glow/glow_19": {
+            "width": 167,
+            "height": 167
+          }
+        },
+        "lizi": {
+          "lizi/lizi_00": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_01": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_02": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_03": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_04": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_05": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_06": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_07": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_08": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_09": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_10": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_11": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_12": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_13": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_14": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_15": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_16": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_17": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_18": {
+            "width": 100,
+            "height": 100
+          },
+          "lizi/lizi_19": {
+            "width": 100,
+            "height": 100
+          }
+        },
+        "qiu": {
+          "hong": {
+            "width": 84,
+            "height": 75
+          },
+          "lan": {
+            "width": 84,
+            "height": 75
+          },
+          "lv": {
+            "width": 84,
+            "height": 75
+          },
+          "zi": {
+            "width": 84,
+            "height": 75
+          }
+        },
+        "qiu_add": {
+          "hong_add": {
+            "x": -0.44,
+            "y": -3.99,
+            "width": 200,
+            "height": 200
+          },
+          "lan_add": {
+            "x": 0.89,
+            "y": -1.77,
+            "width": 200,
+            "height": 200
+          },
+          "lv_add": {
+            "x": 0.87,
+            "y": -3.88,
+            "width": 200,
+            "height": 200
+          },
+          "zi_add": {
+            "x": 0.48,
+            "y": -2.71,
+            "width": 200,
+            "height": 200
+          }
+        },
+        "suipian": {
+          "suipian/suipian_01": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_02": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_03": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_04": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_05": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_06": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_07": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_08": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_09": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_10": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_11": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_12": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_13": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_14": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_15": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_16": {
+            "width": 250,
+            "height": 250
+          },
+          "suipian/suipian_17": {
+            "width": 250,
+            "height": 250
+          }
+        },
+        "tang": {
+          "tang": {
+            "width": 193,
+            "height": 228
+          }
+        },
+        "yan": {
+          "yan/yan_00": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_01": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_02": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_03": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_04": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_05": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_06": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_07": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_08": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_09": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_10": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_11": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_12": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_13": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_14": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_15": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_16": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_17": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_18": {
+            "width": 167,
+            "height": 167
+          },
+          "yan/yan_19": {
+            "width": 167,
+            "height": 167
+          }
+        },
+        "zhadan": {
+          "zhadan": {
+            "width": 262,
+            "height": 260
+          }
+        },
+        "zhadan_add": {
+          "zhadan_add": {
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 200,
+            "height": 200
+          }
+        }
+      }
+    },
+    "animations": {
+      "click": {
+        "slots": {
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "glow/glow_01"
+              },
+              {
+                "time": 0.1,
+                "name": "glow/glow_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "glow/glow_03"
+              },
+              {
+                "time": 0.2,
+                "name": "glow/glow_04"
+              },
+              {
+                "time": 0.2333,
+                "name": "glow/glow_05"
+              },
+              {
+                "time": 0.3,
+                "name": "glow/glow_06"
+              },
+              {
+                "time": 0.3333,
+                "name": "glow/glow_07"
+              },
+              {
+                "time": 0.4,
+                "name": "glow/glow_08"
+              },
+              {
+                "time": 0.4333,
+                "name": "glow/glow_09"
+              },
+              {
+                "time": 0.5,
+                "name": "glow/glow_10"
+              },
+              {
+                "time": 0.5333,
+                "name": "glow/glow_11"
+              },
+              {
+                "time": 0.6,
+                "name": "glow/glow_12"
+              },
+              {
+                "time": 0.6333,
+                "name": "glow/glow_13"
+              },
+              {
+                "time": 0.7,
+                "name": "glow/glow_14"
+              },
+              {
+                "time": 0.7333,
+                "name": "glow/glow_15"
+              },
+              {
+                "time": 0.8,
+                "name": "glow/glow_16"
+              },
+              {
+                "time": 0.8333,
+                "name": "glow/glow_17"
+              },
+              {
+                "time": 0.9,
+                "name": "glow/glow_18"
+              },
+              {
+                "time": 0.9333,
+                "name": "glow/glow_19"
+              },
+              {
+                "time": 1,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "suipian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "suipian/suipian_01"
+              },
+              {
+                "time": 0.1,
+                "name": "suipian/suipian_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "suipian/suipian_03"
+              },
+              {
+                "time": 0.2,
+                "name": "suipian/suipian_04"
+              },
+              {
+                "time": 0.2333,
+                "name": "suipian/suipian_05"
+              },
+              {
+                "time": 0.3,
+                "name": "suipian/suipian_06"
+              },
+              {
+                "time": 0.3333,
+                "name": "suipian/suipian_07"
+              },
+              {
+                "time": 0.4,
+                "name": "suipian/suipian_08"
+              },
+              {
+                "time": 0.4333,
+                "name": "suipian/suipian_09"
+              },
+              {
+                "time": 0.5,
+                "name": "suipian/suipian_10"
+              },
+              {
+                "time": 0.5333,
+                "name": "suipian/suipian_11"
+              },
+              {
+                "time": 0.6,
+                "name": "suipian/suipian_12"
+              },
+              {
+                "time": 0.6333,
+                "name": "suipian/suipian_13"
+              },
+              {
+                "time": 0.7,
+                "name": "suipian/suipian_14"
+              },
+              {
+                "time": 0.7333,
+                "name": "suipian/suipian_15"
+              },
+              {
+                "time": 0.8,
+                "name": "suipian/suipian_16"
+              },
+              {
+                "time": 0.8333,
+                "name": "suipian/suipian_17"
+              },
+              {
+                "time": 0.9,
+                "name": null
+              }
+            ]
+          },
+          "tang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tang"
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "glow": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 3,
+                "y": 3
+              }
+            ]
+          },
+          "suipian": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 2,
+                "y": 2
+              }
+            ]
+          },
+          "tang": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.1667,
+                "angle": 180
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "hong_intro1": {
+        "slots": {
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "hong"
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "hong_add"
+              }
+            ]
+          },
+          "suipian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "tang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 2,
+                "y": 2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          }
+        }
+      },
+      "hong_intro2": {
+        "slots": {
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "lizi/lizi_00"
+              },
+              {
+                "time": 0.0667,
+                "name": "lizi/lizi_01"
+              },
+              {
+                "time": 0.1,
+                "name": "lizi/lizi_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "lizi/lizi_03"
+              },
+              {
+                "time": 0.1667,
+                "name": "lizi/lizi_04"
+              },
+              {
+                "time": 0.2,
+                "name": "lizi/lizi_05"
+              },
+              {
+                "time": 0.2333,
+                "name": "lizi/lizi_06"
+              },
+              {
+                "time": 0.2667,
+                "name": "lizi/lizi_07"
+              },
+              {
+                "time": 0.3,
+                "name": "lizi/lizi_08"
+              },
+              {
+                "time": 0.3333,
+                "name": "lizi/lizi_09"
+              },
+              {
+                "time": 0.3667,
+                "name": "lizi/lizi_10"
+              },
+              {
+                "time": 0.4,
+                "name": "lizi/lizi_11"
+              },
+              {
+                "time": 0.4333,
+                "name": "lizi/lizi_12"
+              },
+              {
+                "time": 0.4667,
+                "name": "lizi/lizi_13"
+              },
+              {
+                "time": 0.5,
+                "name": "lizi/lizi_14"
+              },
+              {
+                "time": 0.5333,
+                "name": "lizi/lizi_15"
+              },
+              {
+                "time": 0.5667,
+                "name": "lizi/lizi_16"
+              },
+              {
+                "time": 0.6,
+                "name": "lizi/lizi_17"
+              },
+              {
+                "time": 0.6333,
+                "name": "lizi/lizi_18"
+              },
+              {
+                "time": 0.6667,
+                "name": "lizi/lizi_19"
+              },
+              {
+                "time": 0.7,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "hong"
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "hong_add"
+              }
+            ]
+          },
+          "suipian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "tang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "lizi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 2.4,
+                "y": 2.4
+              }
+            ]
+          },
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.5,
+                "y": 1.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.9,
+                "y": 0.9,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "hong_move": {
+        "slots": {
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "hong"
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "hong_add"
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          }
+        }
+      },
+      "lan_intro1": {
+        "slots": {
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lan"
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lan_add"
+              }
+            ]
+          },
+          "suipian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "tang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 2,
+                "y": 2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          }
+        }
+      },
+      "lan_intro2": {
+        "slots": {
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "lizi/lizi_00"
+              },
+              {
+                "time": 0.0667,
+                "name": "lizi/lizi_01"
+              },
+              {
+                "time": 0.1,
+                "name": "lizi/lizi_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "lizi/lizi_03"
+              },
+              {
+                "time": 0.1667,
+                "name": "lizi/lizi_04"
+              },
+              {
+                "time": 0.2,
+                "name": "lizi/lizi_05"
+              },
+              {
+                "time": 0.2333,
+                "name": "lizi/lizi_06"
+              },
+              {
+                "time": 0.2667,
+                "name": "lizi/lizi_07"
+              },
+              {
+                "time": 0.3,
+                "name": "lizi/lizi_08"
+              },
+              {
+                "time": 0.3333,
+                "name": "lizi/lizi_09"
+              },
+              {
+                "time": 0.3667,
+                "name": "lizi/lizi_10"
+              },
+              {
+                "time": 0.4,
+                "name": "lizi/lizi_11"
+              },
+              {
+                "time": 0.4333,
+                "name": "lizi/lizi_12"
+              },
+              {
+                "time": 0.4667,
+                "name": "lizi/lizi_13"
+              },
+              {
+                "time": 0.5,
+                "name": "lizi/lizi_14"
+              },
+              {
+                "time": 0.5333,
+                "name": "lizi/lizi_15"
+              },
+              {
+                "time": 0.5667,
+                "name": "lizi/lizi_16"
+              },
+              {
+                "time": 0.6,
+                "name": "lizi/lizi_17"
+              },
+              {
+                "time": 0.6333,
+                "name": "lizi/lizi_18"
+              },
+              {
+                "time": 0.6667,
+                "name": "lizi/lizi_19"
+              },
+              {
+                "time": 0.7,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lan"
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lan_add"
+              }
+            ]
+          },
+          "suipian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "tang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "lizi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 2.4,
+                "y": 2.4
+              }
+            ]
+          },
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.5,
+                "y": 1.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.9,
+                "y": 0.9,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "lan_move": {
+        "slots": {
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lan"
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lan_add"
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          }
+        }
+      },
+      "lv_intro1": {
+        "slots": {
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lv"
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lv_add"
+              }
+            ]
+          },
+          "suipian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "tang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 2,
+                "y": 2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          }
+        }
+      },
+      "lv_intro2": {
+        "slots": {
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "lizi/lizi_00"
+              },
+              {
+                "time": 0.0667,
+                "name": "lizi/lizi_01"
+              },
+              {
+                "time": 0.1,
+                "name": "lizi/lizi_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "lizi/lizi_03"
+              },
+              {
+                "time": 0.1667,
+                "name": "lizi/lizi_04"
+              },
+              {
+                "time": 0.2,
+                "name": "lizi/lizi_05"
+              },
+              {
+                "time": 0.2333,
+                "name": "lizi/lizi_06"
+              },
+              {
+                "time": 0.2667,
+                "name": "lizi/lizi_07"
+              },
+              {
+                "time": 0.3,
+                "name": "lizi/lizi_08"
+              },
+              {
+                "time": 0.3333,
+                "name": "lizi/lizi_09"
+              },
+              {
+                "time": 0.3667,
+                "name": "lizi/lizi_10"
+              },
+              {
+                "time": 0.4,
+                "name": "lizi/lizi_11"
+              },
+              {
+                "time": 0.4333,
+                "name": "lizi/lizi_12"
+              },
+              {
+                "time": 0.4667,
+                "name": "lizi/lizi_13"
+              },
+              {
+                "time": 0.5,
+                "name": "lizi/lizi_14"
+              },
+              {
+                "time": 0.5333,
+                "name": "lizi/lizi_15"
+              },
+              {
+                "time": 0.5667,
+                "name": "lizi/lizi_16"
+              },
+              {
+                "time": 0.6,
+                "name": "lizi/lizi_17"
+              },
+              {
+                "time": 0.6333,
+                "name": "lizi/lizi_18"
+              },
+              {
+                "time": 0.6667,
+                "name": "lizi/lizi_19"
+              },
+              {
+                "time": 0.7,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lv"
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lv_add"
+              }
+            ]
+          },
+          "suipian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "tang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "lizi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 2.4,
+                "y": 2.4
+              }
+            ]
+          },
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.5,
+                "y": 1.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.9,
+                "y": 0.9,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "lv_move": {
+        "slots": {
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lv"
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lv_add"
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          }
+        }
+      },
+      "zhadan01": {
+        "slots": {
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "suipian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "tang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "zhadan"
+              }
+            ]
+          },
+          "zhadan_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "zhadan_add"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 2,
+                "y": 2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          },
+          "zhadan": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 0.9,
+                "y": 0.9,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 0.6,
+                "y": 0.6,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "x": 0.8,
+                "y": 0.8
+              }
+            ]
+          }
+        }
+      },
+      "zhadan02": {
+        "slots": {
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "suipian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "tang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 1,
+                "name": "yan/yan_00"
+              },
+              {
+                "time": 1.0333,
+                "name": "yan/yan_01"
+              },
+              {
+                "time": 1.1,
+                "name": "yan/yan_02"
+              },
+              {
+                "time": 1.1333,
+                "name": "yan/yan_03"
+              },
+              {
+                "time": 1.2,
+                "name": "yan/yan_04"
+              },
+              {
+                "time": 1.2333,
+                "name": "yan/yan_05"
+              },
+              {
+                "time": 1.3,
+                "name": "yan/yan_06"
+              },
+              {
+                "time": 1.3333,
+                "name": "yan/yan_07"
+              },
+              {
+                "time": 1.4,
+                "name": "yan/yan_08"
+              },
+              {
+                "time": 1.4333,
+                "name": "yan/yan_09"
+              },
+              {
+                "time": 1.5,
+                "name": "yan/yan_10"
+              },
+              {
+                "time": 1.5333,
+                "name": "yan/yan_11"
+              },
+              {
+                "time": 1.5667,
+                "name": "yan/yan_12"
+              },
+              {
+                "time": 1.6,
+                "name": "yan/yan_13"
+              },
+              {
+                "time": 1.6333,
+                "name": "yan/yan_14"
+              },
+              {
+                "time": 1.6667,
+                "name": "yan/yan_15"
+              },
+              {
+                "time": 1.7,
+                "name": "yan/yan_16"
+              },
+              {
+                "time": 1.7333,
+                "name": "yan/yan_17"
+              },
+              {
+                "time": 1.7667,
+                "name": "yan/yan_18"
+              },
+              {
+                "time": 1.8,
+                "name": "yan/yan_19"
+              },
+              {
+                "time": 1.8333,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "zhadan"
+              }
+            ]
+          },
+          "zhadan_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "zhadan_add"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 2,
+                "y": 2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          },
+          "yan": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 50
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 7,
+                "y": 7
+              }
+            ]
+          },
+          "zhadan": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "angle": 0
+              },
+              {
+                "time": 0.6,
+                "angle": 5
+              },
+              {
+                "time": 0.7,
+                "angle": -10
+              },
+              {
+                "time": 0.8,
+                "angle": 15
+              },
+              {
+                "time": 0.9,
+                "angle": -20
+              },
+              {
+                "time": 1,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.8,
+                "y": 0.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 2.5,
+                "y": 2.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 2.8,
+                "y": 2.8
+              }
+            ]
+          }
+        }
+      },
+      "zi_intro1": {
+        "slots": {
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "zi"
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "zi_add"
+              }
+            ]
+          },
+          "suipian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "tang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 2,
+                "y": 2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          }
+        }
+      },
+      "zi_intro2": {
+        "slots": {
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "lizi/lizi_00"
+              },
+              {
+                "time": 0.0667,
+                "name": "lizi/lizi_01"
+              },
+              {
+                "time": 0.1,
+                "name": "lizi/lizi_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "lizi/lizi_03"
+              },
+              {
+                "time": 0.1667,
+                "name": "lizi/lizi_04"
+              },
+              {
+                "time": 0.2,
+                "name": "lizi/lizi_05"
+              },
+              {
+                "time": 0.2333,
+                "name": "lizi/lizi_06"
+              },
+              {
+                "time": 0.2667,
+                "name": "lizi/lizi_07"
+              },
+              {
+                "time": 0.3,
+                "name": "lizi/lizi_08"
+              },
+              {
+                "time": 0.3333,
+                "name": "lizi/lizi_09"
+              },
+              {
+                "time": 0.3667,
+                "name": "lizi/lizi_10"
+              },
+              {
+                "time": 0.4,
+                "name": "lizi/lizi_11"
+              },
+              {
+                "time": 0.4333,
+                "name": "lizi/lizi_12"
+              },
+              {
+                "time": 0.4667,
+                "name": "lizi/lizi_13"
+              },
+              {
+                "time": 0.5,
+                "name": "lizi/lizi_14"
+              },
+              {
+                "time": 0.5333,
+                "name": "lizi/lizi_15"
+              },
+              {
+                "time": 0.5667,
+                "name": "lizi/lizi_16"
+              },
+              {
+                "time": 0.6,
+                "name": "lizi/lizi_17"
+              },
+              {
+                "time": 0.6333,
+                "name": "lizi/lizi_18"
+              },
+              {
+                "time": 0.6667,
+                "name": "lizi/lizi_19"
+              },
+              {
+                "time": 0.7,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "zi"
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "zi_add"
+              }
+            ]
+          },
+          "suipian": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "tang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "lizi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 2.4,
+                "y": 2.4
+              }
+            ]
+          },
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.5,
+                "y": 1.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.9,
+                "y": 0.9,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "zi_move": {
+        "slots": {
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "qiu": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "zi"
+              }
+            ]
+          },
+          "qiu_add": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "zi_add"
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "zhadan_add": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "qiu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nFG_tang.png\nsize: 2048,2048\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nglow/glow_01\n  rotate: false\n  xy: 254, 5\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_02\n  rotate: false\n  xy: 708, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_03\n  rotate: false\n  xy: 506, 1203\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_04\n  rotate: false\n  xy: 708, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_05\n  rotate: false\n  xy: 877, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_06\n  rotate: false\n  xy: 506, 1034\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_07\n  rotate: false\n  xy: 877, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_08\n  rotate: false\n  xy: 1046, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_09\n  rotate: false\n  xy: 1046, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_10\n  rotate: false\n  xy: 1215, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_11\n  rotate: false\n  xy: 1215, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_12\n  rotate: false\n  xy: 1384, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_13\n  rotate: false\n  xy: 1384, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_14\n  rotate: false\n  xy: 1553, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_15\n  rotate: false\n  xy: 1553, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_16\n  rotate: false\n  xy: 1722, 1607\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_17\n  rotate: false\n  xy: 1722, 1438\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_18\n  rotate: false\n  xy: 708, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nglow/glow_19\n  rotate: false\n  xy: 877, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nhong\n  rotate: true\n  xy: 423, 88\n  size: 84, 75\n  orig: 84, 75\n  offset: 0, 0\n  index: -1\nhong_add\n  rotate: false\n  xy: 254, 578\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nlan\n  rotate: true\n  xy: 423, 2\n  size: 84, 75\n  orig: 84, 75\n  offset: 0, 0\n  index: -1\nlan_add\n  rotate: false\n  xy: 254, 376\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nlizi/lizi_00\n  rotate: false\n  xy: 1891, 1674\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_01\n  rotate: false\n  xy: 1891, 1572\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_02\n  rotate: false\n  xy: 1891, 1470\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_03\n  rotate: false\n  xy: 1891, 1368\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_04\n  rotate: false\n  xy: 1891, 1266\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_05\n  rotate: false\n  xy: 1858, 1164\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_06\n  rotate: false\n  xy: 1858, 1062\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_07\n  rotate: false\n  xy: 1858, 960\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_08\n  rotate: false\n  xy: 675, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_09\n  rotate: false\n  xy: 777, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_10\n  rotate: false\n  xy: 879, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_11\n  rotate: false\n  xy: 981, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_12\n  rotate: false\n  xy: 1083, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_13\n  rotate: false\n  xy: 1185, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_14\n  rotate: false\n  xy: 1287, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_15\n  rotate: false\n  xy: 1389, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_16\n  rotate: false\n  xy: 1491, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_17\n  rotate: false\n  xy: 1593, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_18\n  rotate: false\n  xy: 1695, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlizi/lizi_19\n  rotate: false\n  xy: 1797, 829\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nlv\n  rotate: true\n  xy: 1960, 1180\n  size: 84, 75\n  orig: 84, 75\n  offset: 0, 0\n  index: -1\nlv_add\n  rotate: false\n  xy: 254, 174\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nsuipian/suipian_01\n  rotate: false\n  xy: 2, 1514\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_02\n  rotate: false\n  xy: 266, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_03\n  rotate: false\n  xy: 2, 1262\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_04\n  rotate: false\n  xy: 518, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_05\n  rotate: false\n  xy: 2, 1010\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_06\n  rotate: false\n  xy: 770, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_07\n  rotate: false\n  xy: 2, 758\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_08\n  rotate: false\n  xy: 1022, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_09\n  rotate: false\n  xy: 2, 506\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_10\n  rotate: false\n  xy: 1274, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_11\n  rotate: false\n  xy: 2, 254\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_12\n  rotate: false\n  xy: 1526, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_13\n  rotate: false\n  xy: 2, 2\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_14\n  rotate: false\n  xy: 1778, 1776\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_15\n  rotate: false\n  xy: 254, 1514\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_16\n  rotate: false\n  xy: 254, 1262\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\nsuipian/suipian_17\n  rotate: false\n  xy: 254, 1010\n  size: 250, 250\n  orig: 250, 250\n  offset: 0, 0\n  index: -1\ntang\n  rotate: false\n  xy: 254, 780\n  size: 193, 228\n  orig: 193, 228\n  offset: 0, 0\n  index: -1\nyan/yan_00\n  rotate: false\n  xy: 1046, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_01\n  rotate: false\n  xy: 1215, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_02\n  rotate: false\n  xy: 1384, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_03\n  rotate: false\n  xy: 1553, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_04\n  rotate: false\n  xy: 1722, 1269\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_05\n  rotate: false\n  xy: 675, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_06\n  rotate: false\n  xy: 844, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_07\n  rotate: false\n  xy: 1013, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_08\n  rotate: false\n  xy: 1182, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_09\n  rotate: false\n  xy: 1351, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_10\n  rotate: false\n  xy: 1520, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_11\n  rotate: false\n  xy: 1689, 1100\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_12\n  rotate: false\n  xy: 675, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_13\n  rotate: false\n  xy: 844, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_14\n  rotate: false\n  xy: 1013, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_15\n  rotate: false\n  xy: 1182, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_16\n  rotate: false\n  xy: 1351, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_17\n  rotate: false\n  xy: 1520, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_18\n  rotate: false\n  xy: 1689, 931\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nyan/yan_19\n  rotate: false\n  xy: 506, 865\n  size: 167, 167\n  orig: 167, 167\n  offset: 0, 0\n  index: -1\nzhadan\n  rotate: false\n  xy: 2, 1766\n  size: 262, 260\n  orig: 262, 260\n  offset: 0, 0\n  index: -1\nzhadan_add\n  rotate: false\n  xy: 506, 1574\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nzi\n  rotate: true\n  xy: 1960, 1094\n  size: 84, 75\n  orig: 84, 75\n  offset: 0, 0\n  index: -1\nzi_add\n  rotate: false\n  xy: 506, 1372\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "85Cs8dggdCdqisWwo63YFM"
+    }
+  ],
+  "textureNames": [
+    "FG_tang.png"
+  ]
+}

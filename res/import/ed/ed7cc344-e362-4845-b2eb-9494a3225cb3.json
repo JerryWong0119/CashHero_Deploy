@@ -1,1 +1,235 @@
-{"__type__":"sp.SkeletonData","_name":"FG_XiaLuo","_skeletonJson":{"skeleton":{"hash":"Gxxway/TkMFvyq2GrwsZU2JMSh0","spine":"3.6.53","width":0,"height":0,"images":"./img/"},"bones":[{"name":"root"},{"name":"All","parent":"root"},{"name":"1l","parent":"All","scaleX":2,"scaleY":2},{"name":"1l2","parent":"All","scaleX":2,"scaleY":2}],"slots":[{"name":"l1","bone":"1l"},{"name":"l2","bone":"1l2","blend":"additive"},{"name":"l3","bone":"1l2","blend":"additive"}],"skins":{"default":{"l1":{"images/Symbol11":{"width":96,"height":94}},"l2":{"images/sj_g1_000":{"width":90,"height":90}},"l3":{"images/sj_g1_000":{"width":90,"height":90}}}},"animations":{"FG_XiaLuo":{"slots":{"l1":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.0667,"color":"ffffffff","curve":"stepped"},{"time":0.1667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/Symbol11"}]},"l2":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.1667,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/sj_g1_000"}]},"l3":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.1667,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2667,"color":"ffffffa1","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/sj_g1_000"}]}},"bones":{"1l":{"scale":[{"time":0,"x":1.5,"y":1.5,"curve":[0.25,0,0.75,1]},{"time":0.2333,"x":0.65,"y":0.65}]},"1l2":{"scale":[{"time":0,"x":1.2,"y":1.2}]}}}}},"_atlasText":"\nFG_XiaLuo.png\nsize: 256,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/Symbol11\n  rotate: false\n  xy: 2, 2\n  size: 96, 94\n  orig: 96, 94\n  offset: 0, 0\n  index: -1\nimages/sj_g1_000\n  rotate: false\n  xy: 100, 22\n  size: 74, 74\n  orig: 90, 90\n  offset: 4, 7\n  index: -1\n","textures":[{"__uuid__":"5aLUYRWuRIg4U5Dpor5JOt"}],"textureNames":["FG_XiaLuo.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "FG_XiaLuo",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Gxxway/TkMFvyq2GrwsZU2JMSh0",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "All",
+        "parent": "root"
+      },
+      {
+        "name": "1l",
+        "parent": "All",
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "1l2",
+        "parent": "All",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "l1",
+        "bone": "1l"
+      },
+      {
+        "name": "l2",
+        "bone": "1l2",
+        "blend": "additive"
+      },
+      {
+        "name": "l3",
+        "bone": "1l2",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "l1": {
+          "images/Symbol11": {
+            "width": 96,
+            "height": 94
+          }
+        },
+        "l2": {
+          "images/sj_g1_000": {
+            "width": 90,
+            "height": 90
+          }
+        },
+        "l3": {
+          "images/sj_g1_000": {
+            "width": 90,
+            "height": 90
+          }
+        }
+      }
+    },
+    "animations": {
+      "FG_XiaLuo": {
+        "slots": {
+          "l1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/Symbol11"
+              }
+            ]
+          },
+          "l2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/sj_g1_000"
+              }
+            ]
+          },
+          "l3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffffa1",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/sj_g1_000"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "1l": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.5,
+                "y": 1.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "x": 0.65,
+                "y": 0.65
+              }
+            ]
+          },
+          "1l2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.2,
+                "y": 1.2
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nFG_XiaLuo.png\nsize: 256,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/Symbol11\n  rotate: false\n  xy: 2, 2\n  size: 96, 94\n  orig: 96, 94\n  offset: 0, 0\n  index: -1\nimages/sj_g1_000\n  rotate: false\n  xy: 100, 22\n  size: 74, 74\n  orig: 90, 90\n  offset: 4, 7\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "5aLUYRWuRIg4U5Dpor5JOt"
+    }
+  ],
+  "textureNames": [
+    "FG_XiaLuo.png"
+  ]
+}

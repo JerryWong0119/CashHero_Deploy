@@ -1,1 +1,176 @@
-{"__type__":"sp.SkeletonData","_name":"bonus_suo","_skeletonJson":{"skeleton":{"hash":"paA6iQRDStrXz/FPJP+XWgkK18E","spine":"3.6.53","width":0,"height":0},"bones":[{"name":"root"},{"name":"zong","parent":"root"},{"name":"mb","parent":"zong","scaleX":2},{"name":"qp","parent":"zong"},{"name":"suo","parent":"zong","y":28.13}],"slots":[{"name":"mengba","bone":"mb"},{"name":"suo","bone":"suo"},{"name":"qipao","bone":"qp"}],"skins":{"default":{"mengba":{"mengba":{"width":303,"height":273}},"qipao":{"qipao":{"width":609,"height":275}},"suo":{"suo":{"y":-28.13,"width":86,"height":93}}}},"animations":{"animation":{"slots":{"mengba":{"attachment":[{"time":0,"name":"mengba"}]},"qipao":{"attachment":[{"time":0,"name":"qipao"}]},"suo":{"attachment":[{"time":0,"name":"suo"}]}},"bones":{"suo":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":0.1667,"angle":-5.37,"curve":[0.25,0,0.75,1]},{"time":0.3333,"angle":4.75,"curve":[0.25,0,0.75,1]},{"time":0.5,"angle":-5.37,"curve":[0.25,0,0.75,1]},{"time":0.6667,"angle":4.75,"curve":[0.25,0,0.75,1]},{"time":0.8333,"angle":0,"curve":"stepped"},{"time":3,"angle":0}]}}}}},"_atlasText":"\nbonus_suo.png\nsize: 613,611\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nmengba\n  rotate: false\n  xy: 2, 59\n  size: 303, 273\n  orig: 303, 273\n  offset: 0, 0\n  index: -1\nqipao\n  rotate: false\n  xy: 2, 334\n  size: 609, 275\n  orig: 609, 275\n  offset: 0, 0\n  index: -1\nsuo\n  rotate: false\n  xy: 307, 239\n  size: 86, 93\n  orig: 86, 93\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"4aCqNHCddIFLm3zKefKu2x"}],"textureNames":["bonus_suo.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "bonus_suo",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "paA6iQRDStrXz/FPJP+XWgkK18E",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root"
+      },
+      {
+        "name": "mb",
+        "parent": "zong",
+        "scaleX": 2
+      },
+      {
+        "name": "qp",
+        "parent": "zong"
+      },
+      {
+        "name": "suo",
+        "parent": "zong",
+        "y": 28.13
+      }
+    ],
+    "slots": [
+      {
+        "name": "mengba",
+        "bone": "mb"
+      },
+      {
+        "name": "suo",
+        "bone": "suo"
+      },
+      {
+        "name": "qipao",
+        "bone": "qp"
+      }
+    ],
+    "skins": {
+      "default": {
+        "mengba": {
+          "mengba": {
+            "width": 303,
+            "height": 273
+          }
+        },
+        "qipao": {
+          "qipao": {
+            "width": 609,
+            "height": 275
+          }
+        },
+        "suo": {
+          "suo": {
+            "y": -28.13,
+            "width": 86,
+            "height": 93
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "mengba": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "mengba"
+              }
+            ]
+          },
+          "qipao": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "qipao"
+              }
+            ]
+          },
+          "suo": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "suo"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "suo": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "angle": -5.37,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "angle": 4.75,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "angle": -5.37,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "angle": 4.75,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "angle": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbonus_suo.png\nsize: 613,611\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nmengba\n  rotate: false\n  xy: 2, 59\n  size: 303, 273\n  orig: 303, 273\n  offset: 0, 0\n  index: -1\nqipao\n  rotate: false\n  xy: 2, 334\n  size: 609, 275\n  orig: 609, 275\n  offset: 0, 0\n  index: -1\nsuo\n  rotate: false\n  xy: 307, 239\n  size: 86, 93\n  orig: 86, 93\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "4aCqNHCddIFLm3zKefKu2x"
+    }
+  ],
+  "textureNames": [
+    "bonus_suo.png"
+  ]
+}

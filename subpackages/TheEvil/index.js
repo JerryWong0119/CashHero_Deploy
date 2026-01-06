@@ -1,1 +1,3972 @@
-window.__require=function e(t,n,o){function i(c,r){if(!n[c]){if(!t[c]){var s=c.split("/");if(s=s[s.length-1],!t[s]){var l="function"==typeof __require&&__require;if(!r&&l)return l(s,!0);if(a)return a(s,!0);throw new Error("Cannot find module '"+c+"'")}c=s}var u=n[c]={exports:{}};t[c][0].call(u.exports,function(e){return i(t[c][1][e]||e)},u,u.exports,e,t,n,o)}return n[c].exports}for(var a="function"==typeof __require&&__require,c=0;c<o.length;c++)i(o[c]);return i}({TheEvil_Bottom:[function(e,t,n){"use strict";cc._RF.push(t,"f99eb+LkIVOPYkvg5915jpb","TheEvil_Bottom"),cc.Class({extends:e("LMSlots_Bottom_Base"),properties:{},showTotalBet:function(e){cc.find("totalBetBg",this.node).active=e}}),cc._RF.pop()},{LMSlots_Bottom_Base:void 0}],TheEvil_BubbleCfg:[function(e,t,n){"use strict";var o;function i(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}cc._RF.push(t,"82aaa9HhY9F9IUhmc6A7CMA","TheEvil_BubbleCfg");var a={bubbleData:(o={},i(o,1,{size:.25,pickPosX:-250,pickPosY:-324,pickMoveAnimation:"animation4",route:[{x:-216,y:-324,point:[]},{x:-216,y:-162,point:[16]},{x:-216,y:-54,point:[11]},{x:-216,y:54,point:[6]},{x:-216,y:162,point:[1]}]}),i(o,2,{size:.25,pickPosX:-125,pickPosY:-324,pickMoveAnimation:"animation5",route:[{x:-108,y:-324,point:[]},{x:-108,y:-162,point:[17]},{x:-108,y:-54,point:[12]},{x:-108,y:54,point:[7]},{x:-108,y:162,point:[2]}]}),i(o,3,{size:.25,pickPosX:0,pickPosY:-324,pickMoveAnimation:"animation4",route:[{x:0,y:-324,point:[]},{x:0,y:-162,point:[18]},{x:0,y:-54,point:[13]},{x:0,y:54,point:[8]},{x:0,y:162,point:[3]}]}),i(o,4,{size:.25,pickPosX:125,pickPosY:-324,pickMoveAnimation:"animation5",route:[{x:108,y:-324,point:[]},{x:108,y:-162,point:[19]},{x:108,y:-54,point:[14]},{x:108,y:54,point:[9]},{x:108,y:162,point:[4]}]}),i(o,5,{size:.25,pickPosX:250,pickPosY:-324,pickMoveAnimation:"animation4",route:[{x:216,y:-324,point:[]},{x:216,y:-162,point:[20]},{x:216,y:-54,point:[15]},{x:216,y:54,point:[10]},{x:216,y:162,point:[5]}]}),i(o,6,{size:.5,pickPosX:-187.5,pickPosY:-378,pickMoveAnimation:"animation5",route:[{x:-162,y:-378,point:[]},{x:-162,y:-216,point:[16,17]},{x:-162,y:-108,point:[11,12,16,17]},{x:-162,y:0,point:[6,7,11,12]},{x:-162,y:108,point:[1,2,6,7]},{x:-162,y:216,point:[1,2]}]}),i(o,7,{size:.5,pickPosX:-62.5,pickPosY:-378,pickMoveAnimation:"animation4",route:[{x:-54,y:-378,point:[]},{x:-54,y:-216,point:[17,18]},{x:-54,y:-108,point:[12,13,17,18]},{x:-54,y:0,point:[7,8,12,13]},{x:-54,y:108,point:[2,3,7,8]},{x:-54,y:216,point:[2,3]}]}),i(o,8,{size:.5,pickPosX:62.5,pickPosY:-378,pickMoveAnimation:"animation5",route:[{x:54,y:-378,point:[]},{x:54,y:-216,point:[18,19]},{x:54,y:-108,point:[13,14,18,19]},{x:54,y:0,point:[8,9,13,14]},{x:54,y:108,point:[3,4,8,9]},{x:54,y:216,point:[3,4]}]}),i(o,9,{size:.5,pickPosX:187.5,pickPosY:-378,pickMoveAnimation:"animation4",route:[{x:162,y:-378,point:[]},{x:162,y:-216,point:[19,20]},{x:162,y:-108,point:[14,15,19,20]},{x:162,y:0,point:[9,10,14,15]},{x:162,y:108,point:[4,5,9,10]},{x:162,y:216,point:[4,5]}]}),i(o,10,{size:.75,pickPosX:-125,pickPosY:-432,pickMoveAnimation:"animation4",route:[{x:-108,y:-432,point:[]},{x:-108,y:-270,point:[16,17,18]},{x:-108,y:-162,point:[11,12,13,16,17,18]},{x:-108,y:-54,point:[6,7,8,11,12,13,16,17,18]},{x:-108,y:54,point:[1,2,3,6,7,8,11,12,13]},{x:-108,y:162,point:[1,2,3,6,7,8]},{x:-108,y:270,point:[1,2,3]}]}),i(o,11,{size:.75,pickPosX:0,pickPosY:-432,pickMoveAnimation:"animation5",route:[{x:0,y:-432,point:[]},{x:0,y:-270,point:[17,18,19]},{x:0,y:-162,point:[12,13,14,17,18,19]},{x:0,y:-54,point:[7,8,9,12,13,14,17,18,19]},{x:0,y:54,point:[2,3,4,7,8,9,12,13,14]},{x:0,y:162,point:[2,3,4,7,8,9]},{x:0,y:270,point:[2,3,4]}]}),i(o,12,{size:.75,pickPosX:125,pickPosY:-432,pickMoveAnimation:"animation4",route:[{x:108,y:-432,point:[]},{x:108,y:-270,point:[18,19,20]},{x:108,y:-162,point:[13,14,15,18,19,20]},{x:108,y:-54,point:[8,9,10,13,14,15,18,19,20]},{x:108,y:54,point:[3,4,5,8,9,10,13,14,15]},{x:108,y:162,point:[3,4,5,8,9,10]},{x:108,y:270,point:[3,4,5]}]}),i(o,13,{size:1,pickPosX:-62.5,pickPosY:-432,pickMoveAnimation:"animation5",route:[{x:-54,y:-486,point:[]},{x:-54,y:-324,point:[16,17,18,19]},{x:-54,y:-216,point:[11,12,13,14,16,17,18,19]},{x:-54,y:-108,point:[6,7,8,9,11,12,13,14,16,17,18,19]},{x:-54,y:0,point:[1,2,3,4,6,7,8,9,11,12,13,14,16,17,18,19]},{x:-54,y:108,point:[1,2,3,4,6,7,8,9,11,12,13,14]},{x:-54,y:216,point:[1,2,3,4,6,7,8,9]},{x:-54,y:324,point:[1,2,3,4]}]}),i(o,14,{size:1,pickPosX:62.5,pickPosY:-432,pickMoveAnimation:"animation4",route:[{x:54,y:-486,point:[]},{x:54,y:-324,point:[17,18,19,20]},{x:54,y:-216,point:[12,13,14,15,17,18,19,20]},{x:54,y:-108,point:[7,8,9,10,12,13,14,15,17,18,19,20]},{x:54,y:0,point:[2,3,4,5,7,8,9,10,12,13,14,15,17,18,19,20]},{x:54,y:108,point:[2,3,4,5,7,8,9,10,12,13,14,15]},{x:54,y:216,point:[2,3,4,5,7,8,9,10]},{x:54,y:324,point:[2,3,4,5]}]}),i(o,15,{size:1.25,pickPosX:0,pickPosY:-432,pickMoveAnimation:"animation4",route:[{x:0,y:-486,point:[]},{x:0,y:-378,point:[16,17,18,19,20]},{x:0,y:-270,point:[11,12,13,14,15,16,17,18,19,20]},{x:0,y:-162,point:[6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]},{x:0,y:-54,point:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]},{x:0,y:54,point:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]},{x:0,y:162,point:[1,2,3,4,5,6,7,8,9,10,11,12,13,14]},{x:0,y:270,point:[1,2,3,4,5,6,7,8,9,10]},{x:0,y:378,point:[1,2,3,4,5]}]}),o)};t.exports=a,cc._RF.pop()},{}],TheEvil_BubbleControl:[function(e,t,n){"use strict";function o(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=i(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var o,a,c=!0,r=!1;return{s:function(){o=e[Symbol.iterator]()},n:function(){var e=o.next();return c=e.done,e},e:function(e){r=!0,a=e},f:function(){try{c||null==o.return||o.return()}finally{if(r)throw a}}}}function i(e,t){if(e){if("string"==typeof e)return a(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?a(e,t):void 0}}function a(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,o=new Array(t);n<t;n++)o[n]=e[n];return o}function c(e,t,n,o,i,a,c){try{var r=e[a](c),s=r.value}catch(e){return void n(e)}r.done?t(s):Promise.resolve(s).then(o,i)}function r(e){return function(){var t=this,n=arguments;return new Promise(function(o,i){var a=e.apply(t,n);function r(e){c(a,o,i,r,s,"next",e)}function s(e){c(a,o,i,r,s,"throw",e)}r(void 0)})}}cc._RF.push(t,"df9f1In+aZAZa9FoT9RwkNk","TheEvil_BubbleControl"),cc.Class({extends:cc.Component,properties:{pick_bubble_node:{default:null,type:cc.Node},items_bubble_node:{default:null,type:cc.Node},items_bubble_mask_node:{default:null,type:cc.Node},_activeBubbleCmps:[],_bubbleTemplate:null,_pickIndex:0,_pickData:null,_pickBubbleList:[],_touchId:null,_pickBubbleCnt:0},awaitTime:function(e){var t=this;return new Promise(function(n,o){t.scheduleOnce(function(){n()},e)})},onLoad:function(){this._bubbleTemplate=cc.find("bubble",this.node),cc.vv.NetManager.registerMsg(MsgId.SLOT_SUBGAME_DATA,this.onRecvGameAction,this)},onDestroy:function(){cc.vv.NetManager.unregisterMsg(MsgId.SLOT_SUBGAME_DATA,this.onRecvGameAction,!1,this)},onRecvGameAction:function(e){return r(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:e.code;case 1:case"end":return t.stop()}},t)}))()},generateBubble:function(e){var t,n=o(e);try{for(n.s();!(t=n.n()).done;){var i=t.value;if(0==i.preIndex){var a=cc.instantiate(this._bubbleTemplate);a.parent=this.items_bubble_node,a.active=!0;var c=a.getComponent("TheEvil_Bubble");c.bindBubble(i.id,i.preIndex,i.currIndex,i.type,i.coin),this._activeBubbleCmps.push(c)}}}catch(e){n.e(e)}finally{n.f()}},creatCurrentBubble:function(){this.clearCurrentBubble();var e=cc.vv.gameData.GetBetIdx()-1,t=cc.vv.gameData.allBububbleInfo[e];this.createBubble(t)},createBubble:function(e){if(e&&e.length>0){var t,n=o(e);try{for(n.s();!(t=n.n()).done;){var i=t.value,a=cc.instantiate(this._bubbleTemplate);a.parent=this.items_bubble_node,a.active=!0;var c=a.getComponent("TheEvil_Bubble");c.bindBubble(i.id,i.currIndex,i.nextIndex,i.type,i.coin),this._activeBubbleCmps.push(c)}}catch(e){n.e(e)}finally{n.f()}}},clearCurrentBubble:function(){this._activeBubbleCmps=[],this.items_bubble_node.removeAllChildren(),this.items_bubble_mask_node.removeAllChildren()},updateActiveBubble:function(){for(var e=this._activeBubbleCmps.length-1;e>=0;e--)this._activeBubbleCmps[e].moveBubble()&&this._activeBubbleCmps.splice(e,1)},maskAllActiveBubble:function(e){if(e){var t,n=o(this._activeBubbleCmps);try{for(n.s();!(t=n.n()).done;){var i=t.value;i.node.parent=this.items_bubble_mask_node,i.setCoinActive(!1)}}catch(e){n.e(e)}finally{n.f()}}else{var a,c=o(this._activeBubbleCmps);try{for(c.s();!(a=c.n()).done;){var r=a.value;r.node.parent=this.items_bubble_node,r.setCoinActive(!0)}}catch(e){c.e(e)}finally{c.f()}}},showWinBubbleAnimation:function(e){for(var t=0;t<this._activeBubbleCmps.length;t++){this._activeBubbleCmps[t].showTriggerAnimation(e)}},hideAllBubbleAnimation:function(){for(var e=0;e<this._activeBubbleCmps.length;e++){this._activeBubbleCmps[e].stopTriggerAnimation()}},stopActiveBubble:function(){var e,t=o(this._activeBubbleCmps);try{for(t.s();!(e=t.n()).done;){e.value.stopBubble()}}catch(e){t.e(e)}finally{t.f()}},generatePickBubble:function(e,t){var n=cc.instantiate(this._bubbleTemplate);n.parent=this.pick_bubble_node,n.active=!0,n.getComponent("TheEvil_Bubble").creatPickBubble(e,t),this._pickBubbleList.push(n)},launchPickBubble:function(e){var t=this;return r(regeneratorRuntime.mark(function n(){var o,i,a;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:t._pickData=e.coinsData,t._pickIndex=e.pickIndex,o=[1,1,1,2,2,2,3,3,3,4,4,4,5,5,5,6,7,8,9],i=0,t._pickBubbleList=[],t._pickBubbleCnt=0;case 6:if(!(t._pickData.length>0)){n.next=16;break}return a=o[parseInt(Math.random()*o.length)],t.generatePickBubble(a,i),i++,t._pickBubbleCnt+=1,cc.vv.gameData.isNeedAutoPlay()&&t._pickBubbleCnt>10&&(t._pickBubbleCnt=0,t._pickBubbleList[Global.random(0,t._pickBubbleList.length-1)].emit(cc.Node.EventType.TOUCH_START)),n.next=14,t.awaitTime(.5);case 14:n.next=6;break;case 16:case"end":return n.stop()}},n)}))()},deleteBubble:function(e){for(var t=0;t<this._pickBubbleList.length;t++){if(this._pickBubbleList[t]==e)return void this._pickBubbleList.splice(t,1)}},clickPickBubble:function(){var e={};if(this._pickData.length>0){this._pickIndex=this._pickIndex+1;var t=this._pickData.splice(0,1);e.type=t[0].type,e.coin=t[0].coin,e.index=this._pickIndex;var n={c:MsgId.SLOT_SUBGAME_DATA};return n.uid=Global.playerData.uid,n.gameid=cc.vv.gameData.getGameId(),n.data={},n.data.rtype=1,cc.vv.NetManager.send(n),e}return null},stopPickBubble:function(){var e=this;return r(regeneratorRuntime.mark(function t(){var n,o;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:for(n=0;n<e._pickBubbleList.length;n++)(o=e._pickBubbleList[n])&&(o.parent=null);e._pickBubbleList=[];case 2:case"end":return t.stop()}},t)}))()}}),cc._RF.pop()},{}],TheEvil_Bubble:[function(e,t,n){"use strict";function o(e,t,n,o,i,a,c){try{var r=e[a](c),s=r.value}catch(e){return void n(e)}r.done?t(s):Promise.resolve(s).then(o,i)}function i(e){return function(){var t=this,n=arguments;return new Promise(function(i,a){var c=e.apply(t,n);function r(e){o(c,i,a,r,s,"next",e)}function s(e){o(c,i,a,r,s,"throw",e)}r(void 0)})}}cc._RF.push(t,"58d2131oetF/aa5qVJ/spoy","TheEvil_Bubble");var a=e("TheEvil_BubbleCfg");cc.Class({extends:cc.Component,properties:{_id:0,_type:0,_cfg:null,_moveNode:null,_pubbleItems:[],_currPosIndex:-1,_nextPosIndex:-1,_bubbleSpine:null,_baozaSpine:null,_smallCoinNode:0,_bigCoinNode:0,_coinNum:0,_isKeepMove:!0,_showTriggerAnimation:!1,_jackpot:null,_index:0,_click:!0},awaitTime:function(e){var t=this;return new Promise(function(n,o){t.scheduleOnce(function(){n()},e)})},onLoad:function(){this._moveNode=this.node.getChildByName("move_node"),this._coinNode=this._moveNode.getChildByName("coin"),this._smallCoinNode=this._coinNode.getChildByName("coin_small"),this._smallCoinNode.active=!1,this._bigCoinNode=this._coinNode.getChildByName("coin_big"),this._bigCoinNode.active=!1,this._pickCoinNode=this._coinNode.getChildByName("coin_pick"),this._pickCoinNode.active=!1,this._pubbleItems=[];for(var e=1;e<7;e++){var t=this._moveNode.getChildByName("bubble_"+e);t.active=!1,t.setPosition(cc.v2(0,0)),this._pubbleItems.push(t)}this.node.on(cc.Node.EventType.TOUCH_START,this.onEventStart,this)},bindBubble:function(e,t,n,o,i){if(this._id=e,this._type=o,this._cfg=a.bubbleData[e],this._currPosIndex=t,this.node.active=!0,this._click=!0,this._pubbleItems[this._type].active=!0,this._bubbleSpine=this._pubbleItems[this._type].getChildByName("bubble_spine"),this._bubbleSpine.active=!0,this._baozaSpine=this._pubbleItems[this._type].getChildByName("baoza_spine"),this._baozaSpine.active=!1,this._jackpot=this._pubbleItems[this._type].getChildByName("jackpot"),this._jackpot&&(this._jackpot.active=!0),this.node.setScale(this._cfg.size),this.node.setPosition(new cc.v2(this._cfg.route[this._currPosIndex].x,this._cfg.route[this._currPosIndex].y)),n>0?n<this._cfg.route.length?this._nextPosIndex=n:this._nextPosIndex=-1:this._currPosIndex+1<this._cfg.route.length?this._nextPosIndex=this._currPosIndex+1:this._nextPosIndex=-1,0==this._type){var c=Math.floor(i/cc.vv.gameData.GetTotalBet());this._coinNum=i,c<10?(this._bigCoinNode.active=!1,this._smallCoinNode.active=!0,this._smallCoinNode.getComponent(cc.Label).string=Global.convertNumToShort(i,1e3,1,null,1e3)):(this._smallCoinNode.active=!1,this._bigCoinNode.active=!0,this._bigCoinNode.getComponent(cc.Label).string=Global.convertNumToShort(i,1e3,1,null,1e3))}},moveBubble:function(){var e=this;if(this._coinNode.active=!0,this._nextPosIndex>=0){this._currPosIndex=this._nextPosIndex;var t=cc.v2(this._cfg.route[this._nextPosIndex].x,this._cfg.route[this._nextPosIndex].y);this.node.runAction(cc.sequence(cc.moveTo(2,t),cc.callFunc(function(){e._moveNode.stopAllActions(),e._moveNode.setPosition(cc.v2(0,0)),e._bubbleSpine.getComponent(sp.Skeleton).setAnimation(0,"animation1",!0)}))),this._moveNode.runAction(cc.repeatForever(cc.sequence(cc.moveBy(.5,cc.v2(-50,0)),cc.moveBy(1,cc.v2(100,0)),cc.moveBy(.5,cc.v2(-50,0)))));var n=this._id%2==0?"animation4":"animation5";return this._bubbleSpine.getComponent(sp.Skeleton).setAnimation(0,n,!0),this._currPosIndex+1<this._cfg.route.length?this._nextPosIndex=this._currPosIndex+1:this._nextPosIndex=-1,this._isKeepMove=!0,!1}var o=cc.v2(this._cfg.route[0].x,600),i=this.node.parent.convertToWorldSpaceAR(o);return this.node.runAction(cc.spawn(cc.moveTo(5,o),cc.sequence(cc.delayTime(2.8),cc.callFunc(function(){Global.TheEvilGameControl.collectBonusControl.shotBubble(i,1.2)}),cc.delayTime(2.2),cc.callFunc(function(){e.playbrokenBubble()})))),this._bubbleSpine.getComponent(sp.Skeleton).setAnimation(0,"animation3",!0),this._isKeepMove=!1,!0},stopBubble:function(){var e=this;return i(regeneratorRuntime.mark(function t(){var n;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:e._isKeepMove&&(n=cc.v2(e._cfg.route[e._currPosIndex].x,e._cfg.route[e._currPosIndex].y),e.node.stopAllActions(),e._moveNode.stopAllActions(),e._moveNode.setPosition(cc.v2(0,0)),e._bubbleSpine.getComponent(sp.Skeleton).setAnimation(0,"animation1",!0),e.node.setPosition(n));case 1:case"end":return t.stop()}},t)}))()},playbrokenBubble:function(){var e=this;return i(regeneratorRuntime.mark(function t(){var n;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:e._bubbleSpine.active=!1,e._smallCoinNode.active=!1,e._bigCoinNode.active=!1,e._baozaSpine.active=!0,e._jackpot&&(e._jackpot.active=!1),n=5==e._type?"animation1":"animation",e._baozaSpine.getComponent(sp.Skeleton).setAnimation(0,n,!1),e._baozaSpine.getComponent(sp.Skeleton).setCompleteListener(function(){e.node.removeFromParent(),e.node.destroy()});case 8:case"end":return t.stop()}},t)}))()},playActiveBubble:function(){var e=this;return i(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:e._coinNode.active=!1,e._bubbleSpine.getComponent(sp.Skeleton).setAnimation(0,"animation2",!0);case 2:case"end":return t.stop()}},t)}))()},setCoinActive:function(e){var t=this;return i(regeneratorRuntime.mark(function n(){return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:t._coinNode.active=e;case 1:case"end":return n.stop()}},n)}))()},creatPickBubble:function(e,t){var n=this;return i(regeneratorRuntime.mark(function o(){var i;return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:n._id=e,n._index=t||0,n._type=0,n._cfg=a.bubbleData[e],n.node.active=!0,n._click=!1,n._pubbleItems[n._type].active=!0,n._bubbleSpine=n._pubbleItems[n._type].getChildByName("bubble_spine"),n._bubbleSpine.active=!0,n._baozaSpine=n._pubbleItems[n._type].getChildByName("baoza_spine"),n._baozaSpine.active=!1,n.node.setScale(n._cfg.size),n.node.setPosition(new cc.v2(n._cfg.pickPosX,-cc.winSize.height/2)),n._bubbleSpine.getComponent(sp.Skeleton).setAnimation(0,n._cfg.pickMoveAnimation,!0),i=cc.v2(n._cfg.pickPosX,1300),n.node.runAction(cc.sequence(cc.moveTo(10,i),cc.callFunc(function(){Global.TheEvilGameControl.bubbleControl.deleteBubble(n.node),n.node.removeFromParent(),n.node.destroy()})));case 16:case"end":return o.stop()}},o)}))()},onClick:function(){var e=this;Global.TheEvilGameControl.bubbleControl._pickBubbleCnt=0,this.node.stopAllActions(),this._bubbleSpine.active=!1,this._baozaSpine.active=!0,this._baozaSpine.getComponent(sp.Skeleton).setAnimation(0,"animation",!1);var t=Global.TheEvilGameControl.bubbleControl.clickPickBubble();if(t)if(Global.TheEvilGameControl.bubbleControl.deleteBubble(this.node),0==t.type)19==t.index?Global.TheEvilGameControl.pickGameControl.updateTips(3,t.index):Global.TheEvilGameControl.pickGameControl.updateTips(2,t.index),Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bubble_reveal),this._pickCoinNode.active=!0,this._pickCoinNode.getComponent(cc.Label).string=Global.convertNumToShort(t.coin,1e3,1,null,1e3),this._baozaSpine.runAction(cc.sequence(cc.delayTime(.3),cc.callFunc(function(){var n=e.node.getPosition(),o=[cc.v2(n.x/2,n.y+100),cc.v2(n.x/2,n.y+100),cc.v2(0,-cc.winSize.height/2+180)];e.node.runAction(cc.bezierTo(.5,o)),e._pickCoinNode.runAction(cc.sequence(cc.scaleTo(.5,0).easing(cc.easeBackIn()),cc.callFunc(function(){var n=cc.vv.gameData.GetBottomScript().getCurrentWin();cc.vv.gameData.GetBottomScript().ShowWin(n+t.coin,.8,null,null),e.node.removeFromParent(),e.node.destroy()})))})));else if(1==t.type)Global.TheEvilGameControl.pickGameControl.updateTips(4,t.index),Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bubble_reveal),this._pickCoinNode.active=!0,this._pickCoinNode.getComponent(cc.Label).string=Global.convertNumToShort(t.coin,1e3,1,null,1e3),Global.TheEvilGameControl.bubbleControl.stopPickBubble(),this._baozaSpine.runAction(cc.sequence(cc.delayTime(.3),cc.callFunc(function(){var n=e.node.getPosition(),o=[cc.v2(n.x/2,n.y+100),cc.v2(n.x/2,n.y+100),cc.v2(0,-cc.winSize.height/2+180)];e.node.runAction(cc.bezierTo(.5,o)),e._pickCoinNode.runAction(cc.sequence(cc.scaleTo(.5,0).easing(cc.easeBackIn()),cc.callFunc(function(){var n=cc.vv.gameData.GetBottomScript().getCurrentWin();cc.vv.gameData.GetBottomScript().ShowWin(n+t.coin,.8,null,null),e.node.removeFromParent(),e.node.destroy(),Global.TheEvilGameControl.pickGameControl.showEndGame()})))})));else if(2==t.type){var n=this.node.convertToWorldSpaceAR(cc.v2(0));Global.TheEvilGameControl.pickGameControl.updateTips(4,t.index),Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bubble_scatter),Global.TheEvilGameControl.bubbleControl.stopPickBubble(),Global.TheEvilGameControl.pickGameControl.showEmoCoin(n,t.coin),this.scheduleOnce(function(){e.node.removeFromParent()},.3)}},showTriggerAnimation:function(e){if(!this._showTriggerAnimation)for(var t=this.node.position,n=0;n<this._cfg.route.length;n++){var o=this._cfg.route[n];if(o.x===t.x&&o.y===t.y){if(-1!==o.point.indexOf(e))if(this._showTriggerAnimation=!0,cc.tween(this.node).repeatForever(cc.tween(this.node).to(.3,{scale:1.2*this._cfg.size},{easing:"backOut"}).to(.2,{scale:this._cfg.size})).start(),this._type>0)cc.vv.gameData.GetSlotsScript().ShowJackpotEffect(!0);break}}},stopTriggerAnimation:function(){this.node.stopAllActions(),this.node.setScale(this._cfg.size),this._showTriggerAnimation=!1,cc.vv.gameData.GetSlotsScript().ShowJackpotEffect(!1)},onEventStart:function(e){this._click||(this._click=!0,this.onClick())}}),cc._RF.pop()},{TheEvil_BubbleCfg:"TheEvil_BubbleCfg"}],TheEvil_Cfg:[function(e,t,n){"use strict";var o;function i(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}cc._RF.push(t,"76c38o+71dAarGz88CV3b41","TheEvil_Cfg");var a={symbol:(o={},i(o,1,{node:"s1",win_node:"w1",idle_ani:{name:"animation2",zIndex:100},trigger_bubble:{name:"animation3",zIndex:400},trigger_bubble_idle:{name:"animation4",zIndex:400},disappear_ani:{name:"animation5",zIndex:200},coin:"coin"}),i(o,2,{node:"s2",win_node:"w2",win_ani:{name:"animation2",zIndex:300}}),i(o,3,{node:"s3",win_node:"w3",win_ani:{name:"animation2",zIndex:300}}),i(o,4,{node:"s4",win_node:"w4",win_ani:{name:"animation2",zIndex:300},isMask:!0}),i(o,5,{node:"s5",win_node:"w5",win_ani:{name:"animation2",zIndex:300},isMask:!0}),i(o,6,{node:"s6",win_node:"w6",win_ani:{name:"animation",zIndex:300},isMask:!0}),i(o,7,{node:"s7",win_node:"w7",win_ani:{name:"animation",zIndex:300},isMask:!0}),i(o,8,{node:"s8",win_node:"w8",win_ani:{name:"animation",zIndex:300},isMask:!0}),i(o,9,{node:"s9",win_node:"w9",win_ani:{name:"animation",zIndex:300},isMask:!0}),i(o,10,{node:"s10",win_node:"w10",stop_ani:{name:"animation1",zIndex:100},idle_ani:{name:"animation3",zIndex:100},trigger_ani:{name:"animation2",zIndex:400},disappear_ani:{name:"",zIndex:200}}),i(o,11,{node:"s11",win_node:"w11",stop_ani:{name:"animation1",zIndex:100},idle_ani:{name:"",zIndex:100},trigger_ani:{name:"animation2",zIndex:400},disappear_ani:{name:"",zIndex:200}}),o),scripts:{Top:"TheEvil_Top",Bottom:"TheEvil_Bottom",Slots:"TheEvil_Slots",Reels:"TheEvil_Reel",Symbols:"TheEvil_Symbol",Sound:"TheEvil_Sound"},col:5,row:4,symbolPrefab:"LMSlots_Symbol",symbolSize:{width:118,height:118},AddAntiTime:2,randomSymbols:[2,3,4,5,6,7,8,9],kuang:"kuang",normalBgm:"base_bgm",helpItems:["games/TheEvil/prefab/LMSlots_Help_item1","games/TheEvil/prefab/LMSlots_Help_item2","games/TheEvil/prefab/LMSlots_Help_item3","games/TheEvil/prefab/LMSlots_Help_item4","games/TheEvil/prefab/LMSlots_Help_item5","games/TheEvil/prefab/LMSlots_Help_item6","games/TheEvil/prefab/LMSlots_Help_item7"],speed:3e3,reelStopInter:.2,auto_stop_time:1,autoModelDelay:1,commEffect:{path:"games/TheEvil/",win1:["win1","win1end"],win2:["win2","win2end"]},bounceInfo:{distance:20,time:.1},reelStateInfo:[{id:[1],mini:15,counts:[1,1,1,1,1,15],path:"games/TheEvil/",reelStopSound:"reel_stop",symbolStopSound:"star_landing"},{id:[11],mini:3,counts:[1,1,1,1,1],antiNode:"node_bg",path:"games/TheEvil/",reelStopSound:"reel_stop",symbolStopSound:"anticipation2_1",antSound:"anticipation2_2",antSpeed:1800,isKeepShow:!0},{id:[10],mini:3,counts:[1,1,1,1,1],antiNode:"node_anti",path:"games/TheEvil/",reelStopSound:"reel_stop",symbolStopSound:"scatter1_landing",antSound:"anticipation1_2",antSpeed:1800}],sysFloatOffsetPos:cc.v2(0,20)};t.exports=a,cc._RF.pop()},{}],TheEvil_CollectBonusControl:[function(e,t,n){"use strict";function o(e,t,n,o,i,a,c){try{var r=e[a](c),s=r.value}catch(e){return void n(e)}r.done?t(s):Promise.resolve(s).then(o,i)}function i(e){return function(){var t=this,n=arguments;return new Promise(function(i,a){var c=e.apply(t,n);function r(e){o(c,i,a,r,s,"next",e)}function s(e){o(c,i,a,r,s,"throw",e)}r(void 0)})}}function a(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=c(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var o,i,a=!0,r=!1;return{s:function(){o=e[Symbol.iterator]()},n:function(){var e=o.next();return a=e.done,e},e:function(e){r=!0,i=e},f:function(){try{a||null==o.return||o.return()}finally{if(r)throw i}}}}function c(e,t){if(e){if("string"==typeof e)return r(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?r(e,t):void 0}}function r(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,o=new Array(t);n<t;n++)o[n]=e[n];return o}cc._RF.push(t,"feb87sYvodM7oaD45qkaQ5D","TheEvil_CollectBonusControl"),cc.Class({extends:cc.Component,properties:{particleNode:{default:null,type:cc.Node},_gameUI:null,_xiaoEmo:null,_logo:null,_collectAni:null,_itemNode:null,_itemList:[],_superText:null,_clickButton:null,_mask:null,_collectData:null,_particleList:[],_particleShotBubbleList:[]},awaitTime:function(e){var t=this;return new Promise(function(n,o){t.scheduleOnce(function(){n()},e)})},onLoad:function(){var e=this;this._xiaoEmo=cc.find("Canvas/safe_node/character"),this._s_fireNode=cc.find("fire_node",this._xiaoEmo),this._gameUI=cc.find("Game_UI",this.node),this._logo=cc.find("Game_UI/logo",this.node),this._collectAni=cc.find("Game_UI/collect_ani",this.node),this._itemNode=cc.find("Game_UI/item_node",this.node),this._superText=cc.find("Game_UI/item_node/super_text",this.node),this._clickButton=cc.find("Game_UI/button",this.node),this._mask=cc.find("Game_UI/mask",this.node),this._particleShotBubbleList=[],this._particleList=[];for(var t=1;t<6;t++){var n=cc.find("particle_"+t,this.particleNode);n.active=!1,this._particleList.push(n)}for(var o=1;o<5;o++){var i=cc.find("Game_UI/logo/sadantx_"+o,this.node);i.active=!1,this._particleShotBubbleList.push(i)}for(var a=1;a<11;a++){var c=cc.find("item_"+a,this._itemNode);c.getChildByName("icon").active=!1,this._itemList.push(c)}this._clickButton.on("click",function(){"idle"==cc.vv.gameData.GetSlotState()&&(cc.vv.gameData.GetAutoModelTime()>0||cc.vv.gameData.getNeedBet()<=cc.vv.gameData._deskInfo.mults.length&&(cc.vv.gameData.GetBottomScript().SetBetIdx(cc.vv.gameData.getNeedBet()),e.updataCollectState()))})},initData:function(){this._collectData=cc.vv.gameData.collectData;for(var e=0;e<this._collectData.num;e++)this._itemList[e].getChildByName("icon").active=!0;cc.vv.gameData.GetBetIdx()>=cc.vv.gameData.getNeedBet()?(this._isLock=!1,this.playMaskAnimation(1)):(this._isLock=!0,this.playMaskAnimation(3))},showFreeGameCollect:function(e){e?this._isLock?this.playMaskAnimation(3):this.playMaskAnimation(4):(this._collectData.num==this._collectData.max&&this.reSetCollect(),this._isLock?this.playMaskAnimation(3):(Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.unlock),this.playMaskAnimation(1)))},reSetCollect:function(){for(var e=0;e<10;e++)this._itemList[e].getChildByName("icon").active=!1;this._collectData.num=0},isSuperBonus:function(){return this._collectData.num==this._collectData.max},activeBonus:function(){cc.vv.gameData.GetBetIdx()>=cc.vv.gameData.getNeedBet()&&(Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.symbol_collect),this._collectData.num=this._collectData.num+1,this._itemList[this._collectData.num-1].getChildByName("icon").active=!0,this._collectData.num==this._collectData.max?(this._itemList[this._collectData.num-1].getChildByName("icon").getComponent(sp.Skeleton).setAnimation(0,"animation1_1",!1),this._itemList[this._collectData.num-1].getChildByName("icon").getComponent(sp.Skeleton).setAnimation(0,"animation2_2",!0),this._superText.getComponent(sp.Skeleton).setAnimation(0,"animation2",!1),this._superText.getComponent(sp.Skeleton).addAnimation(0,"animation1",!0)):(this._itemList[this._collectData.num-1].getChildByName("icon").getComponent(sp.Skeleton).setAnimation(0,"animation1",!1),this._itemList[this._collectData.num-1].getChildByName("icon").getComponent(sp.Skeleton).setAnimation(0,"animation2",!0)))},flyParticle:function(e){var t=this;if(cc.vv.gameData.GetBetIdx()>=cc.vv.gameData.getNeedBet()){var n,o=e.convertToWorldSpaceAR(cc.v2(0)),i=this._itemList[this._collectData.num].position,c=a(this._particleList);try{var r=function(){var e=n.value;if(0==e.active)return e.active=!0,e.position=t.particleNode.convertToNodeSpaceAR(o),e.runAction(cc.sequence(cc.moveTo(1,i),cc.callFunc(function(){e.active=!1}))),"break"};for(c.s();!(n=c.n()).done;){if("break"===r())break}}catch(e){c.e(e)}finally{c.f()}}},updataCollectState:function(){cc.vv.gameData.GetBetIdx()>=cc.vv.gameData.getNeedBet()?this._isLock&&(Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.unlock),this.playMaskAnimation(1)):this._isLock||(Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.lock),this.playMaskAnimation(2))},playMaskAnimation:function(e){var t=this._collectAni.getComponent(sp.Skeleton);this._collectAni.active=!0,1==e?(cc.tween(this._superText).to(1,{opacity:255}).start(),t.setAnimation(0,"animation1",!1),this._isLock=!1,this._clickButton.getComponent(cc.Button).interactable=!1):2==e?(t.setAnimation(0,"animation2",!1),t.addAnimation(0,"animation3",!0),cc.tween(this._superText).to(.5,{opacity:0}).start(),this._isLock=!0,this._clickButton.getComponent(cc.Button).interactable=!0):3==e?(t.setAnimation(0,"animation3",!0),cc.tween(this._superText).to(0,{opacity:0}).start(),this._isLock=!0,this._clickButton.getComponent(cc.Button).interactable=!0):4==e&&(t.setAnimation(0,"animation4",!0),cc.tween(this._superText).to(0,{opacity:0}).start(),this._clickButton.getComponent(cc.Button).interactable=!1)},setMask:function(e){this._mask.active=e},shotBubble:function(e,t){var n=this;return i(regeneratorRuntime.mark(function o(){var i,c,r,s,l;return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:return(i=n._xiaoEmo.getComponent(sp.Skeleton)).setAnimation(0,"skill02",!1),i.setCompleteListener(function(){i.setAnimation(0,"idle",!1)}),c=n._logo.convertToNodeSpaceAR(e),o.next=6,n.awaitTime(t);case 6:Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bubble_boom),r=a(n._particleShotBubbleList),o.prev=8,l=function(){var e=s.value;if(0==e.active){e.active=!0;var t=e.parent.convertToNodeSpaceAR(n._s_fireNode.convertToWorldSpaceAR(cc.v2(0,0)));e.setPosition(t);var o=cc.v2(c.x,c.y).sub(cc.v2(t.x,t.y)),i=o.mag(),a=o.signAngle(cc.v2(1,0));return e.angle=-a*cc.macro.DEG+90,e.scale=i/550,e.getComponent(sp.Skeleton).setAnimation(0,"skill02",!1),e.getComponent(sp.Skeleton).setCompleteListener(function(){e.active=!1}),"break"}},r.s();case 11:if((s=r.n()).done){o.next=17;break}if("break"!==l()){o.next=15;break}return o.abrupt("break",17);case 15:o.next=11;break;case 17:o.next=22;break;case 19:o.prev=19,o.t0=o.catch(8),r.e(o.t0);case 22:return o.prev=22,r.f(),o.finish(22);case 25:case"end":return o.stop()}},o,null,[[8,19,22,25]])}))()}}),cc._RF.pop()},{}],TheEvil_GameData:[function(e,t,n){"use strict";cc._RF.push(t,"252dbf5fkdCeq4IJjQCwFlp","TheEvil_GameData"),cc.Class({extends:e("LMSlots_GameData_Base"),properties:{_isBonusGame:!1,_isFreeGame:!1,pickInfo:[],isFreeState:!1,allBububbleInfo:[],currBububbleInfo:[],collectData:null},init:function(e,t,n){this._super(e,t,n),this._isFreeGame=this._deskInfo.restFreeCount>0,this.pickInfo=this._deskInfo.pickInfo,this.allBububbleInfo=this._deskInfo.allBububbleInfo,this.currBububbleInfo=this._deskInfo.bubbleInfo,this.collectData=this._deskInfo.collectData},OnRcvNetSpine:function(e){200==e.code&&(this.pickInfo=e.pickInfo,this.isFreeState=e.freeResult.isFreeState,this.allBububbleInfo=e.allBububbleInfo,this.currBububbleInfo=e.bubbleInfo),this._super(e)},setIsBonusGame:function(e){this._isBonusGame=e},isBonusGame:function(){return this._isBonusGame},setIsFreeGame:function(e){this._isFreeGame=e},isFreeGame:function(){return this._isFreeGame},getNeedBet:function(){return this._deskInfo.needBet}}),cc._RF.pop()},{LMSlots_GameData_Base:void 0}],TheEvil_Logic:[function(e,t,n){"use strict";cc._RF.push(t,"20f89k7dp1Ln7/D9jRbG/qT","TheEvil_Logic"),cc.Class({extends:e("LMSlots_Logic_Base"),properties:{popupUIControl:{default:null,visible:!1},bubbleControl:{default:null,visible:!1},pickGameControl:{default:null,visible:!1},collectBonusControl:{default:null,visible:!1}},InitCommComponent:function(){this._super(),this.popupUIControl=cc.find("Canvas/safe_node/Popup_UI").getComponent("TheEvil_PopupUIControl"),this.bubbleControl=cc.find("Canvas/safe_node/Bubble_Control").getComponent("TheEvil_BubbleControl"),this.pickGameControl=cc.find("Canvas/safe_node/Pick_Game_UI").getComponent("TheEvil_PickGameControl"),this.collectBonusControl=cc.find("Canvas/safe_node/Collect_Bonus_UI").getComponent("TheEvil_CollectBonusControl"),Global.TheEvilGameControl=this},onDestroy:function(){Global.TheEvilGameControl=null}}),cc._RF.pop()},{LMSlots_Logic_Base:void 0}],TheEvil_PickGameControl:[function(e,t,n){"use strict";function o(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=i(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var o,a,c=!0,r=!1;return{s:function(){o=e[Symbol.iterator]()},n:function(){var e=o.next();return c=e.done,e},e:function(e){r=!0,a=e},f:function(){try{c||null==o.return||o.return()}finally{if(r)throw a}}}}function i(e,t){if(e){if("string"==typeof e)return a(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?a(e,t):void 0}}function a(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,o=new Array(t);n<t;n++)o[n]=e[n];return o}function c(e,t,n,o,i,a,c){try{var r=e[a](c),s=r.value}catch(e){return void n(e)}r.done?t(s):Promise.resolve(s).then(o,i)}function r(e){return function(){var t=this,n=arguments;return new Promise(function(o,i){var a=e.apply(t,n);function r(e){c(a,o,i,r,s,"next",e)}function s(e){c(a,o,i,r,s,"throw",e)}r(void 0)})}}cc._RF.push(t,"8ddcfh7vxhPzojuRVpJytnR","TheEvil_PickGameControl"),cc.Class({extends:cc.Component,properties:{_gameUI:null,_pickKuang:null,_xiaoemo:null,_xiaoemoCoin:null,_coinLable:null,_suziLable:null,_textArr:[],_exitCallBack:null,_pickData:null,_bonusWinCoin:0,_activeTips:null,_tipText:null},awaitTime:function(e){var t=this;return new Promise(function(n,o){t.scheduleOnce(function(){n()},e)})},onLoad:function(){this._gameUI=cc.find("Game_UI",this.node),this._gameUI.active=!1,this._pickKuang=cc.find("Game_UI/pick_kuang",this.node),this._xiaoemo=cc.find("Game_UI/xiaoemo_node/xiaoemo",this.node),this._xiaoemoCoin=cc.find("Game_UI/xiaoemo_coin",this.node),this._coinLable=cc.find("Game_UI/xiaoemo_coin/coin",this.node),this._suziLable=cc.find("Game_UI/pick_kuang/text_2/suzi",this.node);for(var e=1;e<5;e++){var t=this._pickKuang.getChildByName("text_"+e);this._textArr.push(t)}this._tipText=cc.find("pick_a_bubble_text",this._gameUI)},initData:function(e){var t=this;return r(regeneratorRuntime.mark(function n(){return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return t._pickData=e,t._bonusWinCoin=t._pickData.totaolWinCoin,t._xiaoemoCoin.active=!1,t._coinLable.active=!1,t._xiaoemo.getComponent(sp.Skeleton).setAnimation(0,"idle",!0),t.updateTips(1,t._pickData.pickIndex),n.next=8,t.awaitTime(1);case 8:Global.TheEvilGameControl.bubbleControl.launchPickBubble(t._pickData);case 9:case"end":return n.stop()}},n)}))()},showEmoCoin:function(e,t){var n=this;return r(regeneratorRuntime.mark(function o(){var i,a,c,r;return regeneratorRuntime.wrap(function(o){for(;;)switch(o.prev=o.next){case 0:return i=n._gameUI.convertToNodeSpaceAR(e),n._xiaoemoCoin.active=!0,n._xiaoemoCoin.setPosition(i),n._xiaoemoCoin.setScale(.3),n._xiaoemoCoin.getComponent(sp.Skeleton).setAnimation(0,"animation1",!1),o.next=7,n.awaitTime(.8);case 7:return n._xiaoemoCoin.getComponent(sp.Skeleton).setAnimation(0,"animation2",!0),n._xiaoemoCoin.runAction(cc.spawn(cc.moveTo(.5,cc.v2(0,100)),cc.scaleTo(1,1))),n._xiaoemo.getComponent(sp.Skeleton).setAnimation(0,"skill02",!1),o.next=12,new Promise(function(e,t){n._xiaoemo.getComponent(sp.Skeleton).setCompleteListener(function(){e(),n._xiaoemo.getComponent(sp.Skeleton).setAnimation(0,"idle",!0)})});case 12:return Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.scatter_reveal),n._xiaoemoCoin.getComponent(sp.Skeleton).setAnimation(0,"animation3",!1),o.next=16,n.awaitTime(.8);case 16:return n._coinLable.active=!0,n._coinLable.getComponent(cc.Label).string=Global.convertNumToShort(t,1e3,1,null,1e3),n._xiaoemoCoin.getComponent(sp.Skeleton).setAnimation(0,"animation4",!1),o.next=21,n.awaitTime(.2);case 21:return a=n._xiaoemoCoin.getPosition(),c=[cc.v2(a.x/2,a.y+100),cc.v2(a.x/2,a.y+100),cc.v2(0,-cc.winSize.height/2+180)],n._xiaoemoCoin.runAction(cc.spawn(cc.bezierTo(.5,c),cc.scaleTo(.5,0).easing(cc.easeBackIn()))),o.next=26,n.awaitTime(.5);case 26:return r=cc.vv.gameData.GetBottomScript().getCurrentWin(),cc.vv.gameData.GetBottomScript().ShowWin(r+t,.8,null,null),o.next=30,n.awaitTime(.5);case 30:return o.next=32,Global.TheEvilGameControl.popupUIControl.showPickGameWinner(cc.vv.gameData.GetBottomScript().getCurrentWin());case 32:return Global.TheEvilGameControl.popupUIControl.playEmoAnimation(),o.next=35,n.awaitTime(2);case 35:n.exitGame();case 36:case"end":return o.stop()}},o)}))()},showEndGame:function(){var e=this;return r(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,e.awaitTime(.5);case 2:return t.next=4,Global.TheEvilGameControl.popupUIControl.showPickGameWinner(cc.vv.gameData.GetBottomScript().getCurrentWin());case 4:return Global.TheEvilGameControl.popupUIControl.playEmoAnimation(),t.next=7,e.awaitTime(2);case 7:e.exitGame();case 8:case"end":return t.stop()}},t)}))()},updateTips:function(e,t){var n=this;return r(regeneratorRuntime.mark(function i(){var a,c;return regeneratorRuntime.wrap(function(i){for(;;)switch(i.prev=i.next){case 0:a=o(n._textArr);try{for(a.s();!(c=a.n()).done;)c.value.active=!1}catch(e){a.e(e)}finally{a.f()}1==e?(n._textArr[0].active=!0,n._pickKuang.setScale(.1),n._pickKuang.runAction(cc.sequence(cc.scaleTo(.3,1),cc.delayTime(1.5),cc.scaleTo(.3,.1),cc.callFunc(function(){n._textArr[0].active=!1,n._textArr[1].active=!0,n._activeTips=n._textArr[1],n._suziLable.getComponent(cc.Label).string=20-t}),cc.scaleTo(.3,1)))):2==e?(n._textArr[1].active=!0,n._activeTips=n._textArr[1],n._suziLable.getComponent(cc.Label).string=20-t):3==e?(n._pickKuang.setScale(1),n._pickKuang.stopAllActions(),n._pickKuang.runAction(cc.sequence(cc.scaleTo(.3,.1),cc.callFunc(function(){n._textArr[1].active=!1,n._activeTips.active=!1,n._textArr[2].active=!0,n._activeTips=n._textArr[2]}),cc.scaleTo(.3,1)))):4==e&&(n._pickKuang.setScale(1),n._pickKuang.stopAllActions(),n._pickKuang.runAction(cc.sequence(cc.scaleTo(.3,.1),cc.callFunc(function(){n._textArr[3].active=!0,n._activeTips.active=!1,n._textArr[3].active=!0,n._activeTips=n._textArr[3]}),cc.scaleTo(.3,1),cc.delayTime(1.5),cc.scaleTo(.3,0))),n._tipText.active=!1);case 3:case"end":return i.stop()}},i)}))()},getBonusWinCoin:function(){return this._bonusWinCoin},exitGame:function(){cc.vv.gameData.isFreeGame()?Global.TheEvilGameControl.collectBonusControl.isSuperBonus()?Global.SlotsSoundMgr.playBgm(Global.SlotsSoundMgr.super_bgm):Global.SlotsSoundMgr.playBgm(Global.SlotsSoundMgr.free_bgm):Global.SlotsSoundMgr.playNormalBgm(!0),this._gameUI.active=!1,this._exitCallBack&&this._exitCallBack()},enterGame:function(e,t){Global.SlotsSoundMgr.playBgm(Global.SlotsSoundMgr.pick_bgm),this._exitCallBack=t,this._gameUI.active=!0,this.initData(e),this._tipText.active=!0}}),cc._RF.pop()},{}],TheEvil_PopupUIControl:[function(e,t,n){"use strict";function o(e,t,n,o,i,a,c){try{var r=e[a](c),s=r.value}catch(e){return void n(e)}r.done?t(s):Promise.resolve(s).then(o,i)}function i(e){return function(){var t=this,n=arguments;return new Promise(function(i,a){var c=e.apply(t,n);function r(e){o(c,i,a,r,s,"next",e)}function s(e){o(c,i,a,r,s,"throw",e)}r(void 0)})}}cc._RF.push(t,"8b07cyRESRIe7F47H0GlxPt","TheEvil_PopupUIControl"),cc.Class({extends:cc.Component,properties:{_showResultSpine:null,_popup:null,_transitionSpine1:null,_transitionSpine2:null},onLoad:function(){this._popup=cc.find("popup",this.node),this._popup.active=!1,this._transitionSpine1=cc.find("transition1",this.node),this._transitionSpine1.active=!1,this._transitionSpine2=cc.find("transition2",this.node),this._transitionSpine2.active=!1,this._qipaomaochu=cc.find("qipaomaochu",this.node),this._qipaomaochu.active=!1},awaitTime:function(e){var t=this;return new Promise(function(n,o){t.scheduleOnce(function(){n()},e)})},showPickGameTimes:function(){var e=this;return new Promise(function(){var t=i(regeneratorRuntime.mark(function t(n,o){var i,a,c,r,s,l,u,p;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.pick_start_show),e._popup.active=!0,(i=e._popup.getChildByName("show_pick_games_time")).active=!0,i.setScale(.1),i.runAction(cc.scaleTo(.5,1).easing(cc.easeBackOut())),(a=i.getChildByName("text1")).setScale(0),(c=i.getChildByName("text2")).setScale(0),(r=i.getChildByName("text3")).setScale(0),(s=i.getChildByName("text4")).setScale(0),(l=i.getChildByName("start")).setScale(0),t.next=18,e.awaitTime(.2);case 18:return a.runAction(cc.scaleTo(.6,1).easing(cc.easeBackOut())),c.runAction(cc.scaleTo(.9,1).easing(cc.easeBackOut())),r.runAction(cc.scaleTo(1.1,1).easing(cc.easeBackOut())),s.runAction(cc.scaleTo(.9,1).easing(cc.easeBackOut())),l.runAction(cc.scaleTo(.6,1).easing(cc.easeBackOut())),t.next=25,e.awaitTime(.6);case 25:u=e,p=function(){Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.click),l.off("click"),i.runAction(cc.sequence(cc.scaleTo(.4,.3).easing(cc.easeBackIn()),cc.callFunc(function(){u._popup.active=!1,i.active=!1,n()})))},cc.vv.gameData.checkAutoPlay(l,p),l.on("click",function(){l.stopAllActions(),p()});case 29:case"end":return t.stop()}},t)}));return function(e,n){return t.apply(this,arguments)}}())},showPickGameWinner:function(e){var t=this;return new Promise(function(){var n=i(regeneratorRuntime.mark(function n(o,i){var a,c,r,s,l,u,p,m;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.pick_end_show),t._popup.active=!0,(a=t._popup.getChildByName("show_pick_games_winner")).active=!0,a.setScale(.1),a.runAction(cc.scaleTo(.5,1).easing(cc.easeBackOut())),(c=a.getChildByName("text1")).setScale(0),(r=a.getChildByName("text2")).setScale(0),(s=a.getChildByName("text_bg")).setScale(0),(l=a.getChildByName("start")).setScale(0),(u=s.getChildByName("coin")).getComponent(cc.Label).string="",n.next=18,t.awaitTime(.2);case 18:return c.runAction(cc.scaleTo(.6,1).easing(cc.easeBackOut())),r.runAction(cc.scaleTo(.6,1).easing(cc.easeBackOut())),s.runAction(cc.scaleTo(.9,1).easing(cc.easeBackOut())),l.runAction(cc.scaleTo(.6,1).easing(cc.easeBackOut())),Global.doRoallNumEff(u,0,e,2,null,null,0,!0),n.next=25,t.awaitTime(.6);case 25:p=t,m=function(){Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.click),l.off("click"),a.runAction(cc.sequence(cc.scaleTo(.4,.3).easing(cc.easeBackIn()),cc.callFunc(function(){p._popup.active=!1,a.active=!1,o()})))},cc.vv.gameData.checkAutoPlay(l,m),l.on("click",function(){l.stopAllActions(),m()});case 29:case"end":return n.stop()}},n)}));return function(e,t){return n.apply(this,arguments)}}())},showFreeGameTimes:function(e){var t=this;return i(regeneratorRuntime.mark(function n(){return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return n.abrupt("return",new Promise(function(){var n=i(regeneratorRuntime.mark(function n(o,i){var a,c,r,s,l,u,p,m,b,h;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.free_dialog_start_show),t._popup.active=!0,(a=t._popup.getChildByName("show_free_games_time")).active=!0,(c=a.getChildByName("text1")).setScale(0),(r=a.getChildByName("text2")).getComponent(cc.Label).string=""+e,r.setScale(0),(s=a.getChildByName("text3")).setScale(0),(l=a.getChildByName("text4")).setScale(0),(u=a.getChildByName("start")).setScale(0),(p=a.getChildByName("dapaopao")).getComponent(sp.Skeleton).setAnimation(0,"animation1",!1),p.getComponent(sp.Skeleton).setCompleteListener(function(){p.getComponent(sp.Skeleton).setAnimation(0,"animation2",!0)}),(m=a.getChildByName("emo")).getComponent(sp.Skeleton).setAnimation(0,"animation1",!1),m.getComponent(sp.Skeleton).setCompleteListener(function(){m.getComponent(sp.Skeleton).setAnimation(0,"animation2",!0)}),m.setPosition(cc.v2(0,-300)),m.runAction(cc.moveTo(.5,cc.v2(0,175)).easing(cc.easeBackOut())),n.next=25,t.awaitTime(.5);case 25:return a.getChildByName("freeshuzi").getComponent(sp.Skeleton).setAnimation(0,"animation",!1),c.runAction(cc.scaleTo(.4,1).easing(cc.easeBackOut())),r.runAction(cc.scaleTo(.9,1).easing(cc.easeBackOut())),s.runAction(cc.scaleTo(.7,1).easing(cc.easeBackOut())),l.runAction(cc.scaleTo(.7,1).easing(cc.easeBackOut())),u.runAction(cc.scaleTo(.7,1).easing(cc.easeBackOut())),n.next=34,t.awaitTime(.5);case 34:b=t,h=function(){Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.click),u.off("click"),b._popup.active=!1,a.active=!1,o()},cc.vv.gameData.checkAutoPlay(u,h),u.on("click",function(){u.stopAllActions(),h()});case 38:case"end":return n.stop()}},n)}));return function(e,t){return n.apply(this,arguments)}}()));case 1:case"end":return n.stop()}},n)}))()},showAddFreeGameTimes:function(e){var t=this;return new Promise(function(){var n=i(regeneratorRuntime.mark(function n(o,i){var a,c,r,s,l,u;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.free_dialog_start_show),t._popup.active=!0,(a=t._popup.getChildByName("show_add_free_games_time")).active=!0,a.setScale(1),(c=a.getChildByName("text1")).setScale(0),(r=a.getChildByName("text2")).getComponent(cc.Label).string=""+e,r.setScale(0),(s=a.getChildByName("text3")).setScale(0),(l=a.getChildByName("dapaopao")).getComponent(sp.Skeleton).setAnimation(0,"animation1",!1),l.getComponent(sp.Skeleton).setCompleteListener(function(){l.getComponent(sp.Skeleton).setAnimation(0,"animation2",!0)}),(u=a.getChildByName("emo")).getComponent(sp.Skeleton).setAnimation(0,"animation1",!1),u.getComponent(sp.Skeleton).setCompleteListener(function(){u.getComponent(sp.Skeleton).setAnimation(0,"animation2",!0)}),u.setPosition(cc.v2(0,-300)),u.runAction(cc.moveTo(.5,cc.v2(0,175)).easing(cc.easeBackOut())),n.next=22,t.awaitTime(.5);case 22:return a.getChildByName("freeshuzi").getComponent(sp.Skeleton).setAnimation(0,"animation",!1),c.runAction(cc.scaleTo(.4,1).easing(cc.easeBackOut())),r.runAction(cc.scaleTo(.9,1).easing(cc.easeBackOut())),s.runAction(cc.scaleTo(.7,1).easing(cc.easeBackOut())),n.next=29,t.awaitTime(.8);case 29:a.runAction(cc.sequence(cc.scaleTo(.4,.3).easing(cc.easeBackIn()),cc.callFunc(function(){t._popup.active=!1,a.active=!1,o()})));case 30:case"end":return n.stop()}},n)}));return function(e,t){return n.apply(this,arguments)}}())},showFreeGameWinner:function(e){var t=this;return new Promise(function(){var n=i(regeneratorRuntime.mark(function n(o,i){var a,c,r,s,l,u,p,m,b,h;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.free_dialog_collect_show),t._popup.active=!0,(a=t._popup.getChildByName("show_free_games_winner")).active=!0,a.setScale(1),(c=a.getChildByName("text1")).setScale(0),(r=a.getChildByName("text2")).setScale(0),(s=a.getChildByName("text_bg")).setScale(0),(l=a.getChildByName("start")).setScale(0),(u=s.getChildByName("coin")).getComponent(cc.Label).string="",(p=a.getChildByName("dapaopao")).getComponent(sp.Skeleton).setAnimation(0,"animation1",!1),p.getComponent(sp.Skeleton).setCompleteListener(function(){p.getComponent(sp.Skeleton).setAnimation(0,"animation2",!0)}),(m=a.getChildByName("emo")).getComponent(sp.Skeleton).setAnimation(0,"animation1",!1),m.getComponent(sp.Skeleton).setCompleteListener(function(){m.getComponent(sp.Skeleton).setAnimation(0,"animation2",!0)}),m.setPosition(cc.v2(0,-300)),m.runAction(cc.moveTo(.5,cc.v2(0,175)).easing(cc.easeBackOut())),n.next=25,t.awaitTime(.5);case 25:return c.runAction(cc.scaleTo(.6,1).easing(cc.easeBackOut())),r.runAction(cc.scaleTo(.6,1).easing(cc.easeBackOut())),s.runAction(cc.scaleTo(.9,1).easing(cc.easeBackOut())),l.runAction(cc.scaleTo(.6,1).easing(cc.easeBackOut())),Global.doRoallNumEff(u,0,e,2,null,null,0,!0),n.next=32,t.awaitTime(.5);case 32:b=t,h=function(){Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.click),l.off("click"),a.runAction(cc.sequence(cc.scaleTo(.4,.3).easing(cc.easeBackIn()),cc.callFunc(function(){b._popup.active=!1,a.active=!1,o()})))},cc.vv.gameData.checkAutoPlay(l,h),l.on("click",function(){l.stopAllActions(),h()});case 36:case"end":return n.stop()}},n)}));return function(e,t){return n.apply(this,arguments)}}())},showSuperBonusGame:function(){var e=this;return new Promise(function(){var t=i(regeneratorRuntime.mark(function t(n,o){var i,a,c,r,s,l,u,p,m;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.super_popup),e._popup.active=!0,(i=e._popup.getChildByName("show_superBonus")).active=!0,i.setScale(1),(a=i.getChildByName("frame1")).setScale(0),(c=i.getChildByName("frame2")).setScale(0),(r=i.getChildByName("frame3")).setScale(0),(s=i.getChildByName("frame4")).setScale(0),(l=i.getChildByName("start")).setScale(0),(u=i.getChildByName("bg")).setScale(.8),cc.tween(u).to(.1,{scale:1},{easing:"backOut"}).start(),t.next=20,e.awaitTime(.1);case 20:return cc.tween(a).to(.6,{scale:1},{easing:"backOut"}).start(),cc.tween(c).to(.8,{scale:1},{easing:"backOut"}).start(),cc.tween(r).to(.6,{scale:1},{easing:"backOut"}).start(),cc.tween(s).to(.6,{scale:1},{easing:"backOut"}).start(),cc.tween(l).to(.6,{scale:1},{easing:"backOut"}).start(),t.next=27,e.awaitTime(.8);case 27:p=e,m=function(){Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.click),l.off("click"),p._popup.active=!1,i.active=!1,n()},cc.vv.gameData.checkAutoPlay(l,m),l.on("click",function(){l.stopAllActions(),m()});case 31:case"end":return t.stop()}},t)}));return function(e,n){return t.apply(this,arguments)}}())},showSuperBonusWinCoin:function(e){var t=this;return new Promise(function(){var n=i(regeneratorRuntime.mark(function n(o,i){var a,c,r,s,l,u,p,m,b;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.super_popclose),t._popup.active=!0,(a=t._popup.getChildByName("show_superBonusWinCoin")).active=!0,a.setScale(1),(c=a.getChildByName("frame1")).setScale(0),(r=a.getChildByName("text_bg")).setScale(0),(s=a.getChildByName("frame4")).setScale(0),(l=a.getChildByName("start")).setScale(0),(u=a.getChildByName("bg")).setScale(.8),cc.tween(u).to(.1,{scale:1},{easing:"backOut"}).start(),n.next=18,t.awaitTime(.1);case 18:return p=cc.find("coin",r),t._startAddCoin=!0,Global.doRoallNumEff(p,Math.floor(.1*e),e,2.5,function(){t._startAddCoin=!1},null,0,!0),cc.tween(c).to(.6,{scale:1},{easing:"backOut"}).start(),cc.tween(r).to(.8,{scale:1},{easing:"backOut"}).start(),cc.tween(s).to(.6,{scale:1},{easing:"backOut"}).start(),cc.tween(l).to(.6,{scale:1},{easing:"backOut"}).start(),n.next=27,t.awaitTime(.8);case 27:m=t,b=function(){(Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.click),l.off("click"),m._startAddCoin)&&(m._startAddCoin=!1,p.stopAllActions(),p.getComponent(cc.Label).string=Global.FormatNumToComma(e));a.runAction(cc.sequence(cc.scaleTo(.4,.3).easing(cc.easeBackIn()),cc.callFunc(function(){m._popup.active=!1,a.active=!1,o()})))},cc.vv.gameData.checkAutoPlay(l,b),l.on("click",function(){l.stopAllActions(),b()});case 31:case"end":return n.stop()}},n)}));return function(e,t){return n.apply(this,arguments)}}())},playEmoAnimation:function(){var e=arguments,t=this;return i(regeneratorRuntime.mark(function n(){var o,i,a,c;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:o=e.length>0&&void 0!==e[0]&&e[0],(i=cc.find("Canvas/safe_node/character")).active=!1,(a=cc.find("Canvas/safe_node/Pick_Game_UI/Game_UI/xiaoemo_node/xiaoemo")).active=!1,Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.transition2),t._transitionSpine2.active=!0,(c=t._transitionSpine2.getComponent(sp.Skeleton)).setAnimation(0,"skill01",!1),c.setCompleteListener(function(){if(o){c.setAnimation(0,"idle",!1);var e=t._transitionSpine2.scale,n=t._transitionSpine2.position,r=t._transitionSpine2.parent.convertToNodeSpaceAR(a.convertToWorldSpaceAR(cc.v2(0,0)));cc.tween(t._transitionSpine2).to(.5,{position:r,scale:a.scale}).call(function(){t._transitionSpine2.active=!1,t._transitionSpine2.scale=e,t._transitionSpine2.position=n,a.active=!0}).start()}else t._transitionSpine2.active=!1,i.active=!0,a.active=!0});case 10:case"end":return n.stop()}},n)}))()},playLunpanAnimation:function(){var e=this;Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.transition1),this._transitionSpine1.active=!0;var t=this._transitionSpine1.getComponent(sp.Skeleton);t.setAnimation(0,"animation",!1),t.setCompleteListener(function(){e._transitionSpine1.active=!1})},showQiPaoMaoChu:function(){var e=this;return new Promise(function(t,n){Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bubble_up),e._qipaomaochu.active=!0;var o=e._qipaomaochu.getComponent(sp.Skeleton);o.setAnimation(0,"animation",!1),o.setCompleteListener(function(){e._qipaomaochu.active=!1,t()})})}}),cc._RF.pop()},{}],TheEvil_Reel:[function(e,t,n){"use strict";function o(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=i(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var o,a,c=!0,r=!1;return{s:function(){o=e[Symbol.iterator]()},n:function(){var e=o.next();return c=e.done,e},e:function(e){r=!0,a=e},f:function(){try{c||null==o.return||o.return()}finally{if(r)throw a}}}}function i(e,t){if(e){if("string"==typeof e)return a(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?a(e,t):void 0}}function a(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,o=new Array(t);n<t;n++)o[n]=e[n];return o}cc._RF.push(t,"e9919TKnCVP56xfK86W3o29","TheEvil_Reel"),cc.Class({extends:e("LMSlots_Reel_Base"),properties:{},OnReelBounsActionDeep:function(){this._super();var e,t=o(this._reelState);try{for(t.s();!(e=t.n()).done;){var n=e.value;n.isStop&&n.isKeepShow}}catch(e){t.e(e)}finally{t.f()}}}),cc._RF.pop()},{LMSlots_Reel_Base:void 0}],TheEvil_Slots:[function(e,t,n){"use strict";function o(e,t,n,o,i,a,c){try{var r=e[a](c),s=r.value}catch(e){return void n(e)}r.done?t(s):Promise.resolve(s).then(o,i)}function i(e){return function(){var t=this,n=arguments;return new Promise(function(i,a){var c=e.apply(t,n);function r(e){o(c,i,a,r,s,"next",e)}function s(e){o(c,i,a,r,s,"throw",e)}r(void 0)})}}function a(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=c(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var o,i,a=!0,r=!1;return{s:function(){o=e[Symbol.iterator]()},n:function(){var e=o.next();return a=e.done,e},e:function(e){r=!0,i=e},f:function(){try{a||null==o.return||o.return()}finally{if(r)throw i}}}}function c(e,t){if(e){if("string"==typeof e)return r(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?r(e,t):void 0}}function r(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,o=new Array(t);n<t;n++)o[n]=e[n];return o}cc._RF.push(t,"3ec20v//HpAlr5n+cuEEeyC","TheEvil_Slots");var s=[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];cc.Class({extends:e("LMSlots_Slots_Base"),properties:{_slotsMask:null,_isBackUp:!1,_jpEffect:null},onLoad:function(){this._super(),this._slotsMask=cc.find("mask",this.node),this._slotsMask.active=!1,this._jpEffect=cc.find("jpeffect",this.node),Global.registerEvent(cc.vv.gameData._EventId.SLOT_TOTALBET_UPDATED,this.onEventTotalbetUpdated,this)},awaitTime:function(e){var t=this;return new Promise(function(n,o){t.scheduleOnce(function(){n()},e)})},StartMove:function(){this._super(),this._slotsMask.active=!1,Global.TheEvilGameControl.bubbleControl.maskAllActiveBubble(!1),Global.TheEvilGameControl.bubbleControl.hideAllBubbleAnimation(),Global.SlotsSoundMgr.playNormalBgm()},onMsgSpine:function(e){this._super(e),cc.vv.gameData.currBububbleInfo&&cc.vv.gameData.currBububbleInfo.length>0&&Global.TheEvilGameControl.bubbleControl.generateBubble(cc.vv.gameData.currBububbleInfo)},showMask:function(){for(var e=!1,t=Global.copy(s),n=0;n<this._gameInfo.zjLuXian.length;n++)for(var o=this._gameInfo.zjLuXian[n],i=0;i<o.indexs.length;i++)t[o.indexs[i]]=1,e=!0;if(this._gameInfo.bubbleInfo&&this._gameInfo.bubbleInfo.length>0){var c,r=a(this._gameInfo.bubbleInfo);try{for(r.s();!(c=r.n()).done;){var l,u=a(c.value.points);try{for(u.s();!(l=u.n()).done;){t[l.value]=1,e=!0}}catch(e){u.e(e)}finally{u.f()}}}catch(e){r.e(e)}finally{r.f()}}if(this._gameInfo.freeResult&&this._gameInfo.freeResult.freeInfo&&this._gameInfo.freeResult.freeInfo.idxs)for(var p=0;p<this._gameInfo.freeResult.freeInfo.idxs.length;p++){t[this._gameInfo.freeResult.freeInfo.idxs[p]]=1,e=!0}if(this._gameInfo.pickInfo.idxs&&this._gameInfo.pickInfo.idxs.length>0)for(var m=0;m<this._gameInfo.pickInfo.idxs.length;m++){t[this._gameInfo.pickInfo.idxs[m]]=1,e=!0}if(e){this._slotsMask.active=!0,Global.TheEvilGameControl.bubbleControl.maskAllActiveBubble(!0);for(var b=1;b<t.length;b++){var h=this.GetSymbolByIdx(b);h&&0==t[b]&&h.playDisappearAnimation()}}},OnReelBounsActionEnd:function(e){if(e==this.moveReelLastIdx){for(var t=0;t<this._reels.length;t++){this._reels[t].ShowAntiEffect(!1)}Global.TheEvilGameControl.bubbleControl.stopActiveBubble()}},OnReelReadyToStop:function(e){0==e&&Global.TheEvilGameControl.bubbleControl.updateActiveBubble()},OnSpinEnd:function(){var e=this;return i(regeneratorRuntime.mark(function t(){var n,o,i,c,r,s,l,u,p,m;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(e._bottomScript.ShowBtnsByState("moveing_1"),e.showMask(),e.ShowWinTrace(),!(e._gameInfo.bubbleInfo&&e._gameInfo.bubbleInfo.length>0)){t.next=11;break}n=[],o=a(e._gameInfo.bubbleInfo);try{for(o.s();!(i=o.n()).done;){c=i.value,r=a(c.points);try{for(r.s();!(s=r.n()).done;)l=s.value,Global.TheEvilGameControl.bubbleControl.showWinBubbleAnimation(l),n.push({index:l,coin:c.coin,type:c.type})}catch(e){r.e(e)}finally{r.f()}}}catch(e){o.e(e)}finally{o.f()}if(!(n.length>0)){t.next=11;break}return e.CheckActiveBubble(n),t.next=11,e.awaitTime(1);case 11:if(u=cc.vv.gameData.GetGameWin(),!cc.vv.gameData.isFreeGame()){t.next=17;break}return t.next=15,e.ShowWinCoin(u,cc.vv.gameData.GetGameTotalFreeWin(),!1);case 15:t.next=19;break;case 17:return t.next=19,e.ShowWinCoin(u,u,!0);case 19:if(!(e._gameInfo.freeResult&&e._gameInfo.freeResult.freeInfo&&e._gameInfo.freeResult.freeInfo.idxs)){t.next=27;break}if(!e._gameInfo.freeResult.isFreeState){t.next=25;break}return t.next=23,e.CheckFreeEnterFreeGame();case 23:t.next=27;break;case 25:return t.next=27,e.CheckEnterFreeGame();case 27:if(!(e._gameInfo.pickInfo.idxs&&e._gameInfo.pickInfo.idxs.length>0)){t.next=37;break}return t.next=30,e.CheckTriggerSubGame();case 30:return t.next=32,e.awaitTime(2);case 32:return p=e._bottomScript.getCurrentWin(),m=Global.TheEvilGameControl.pickGameControl.getBonusWinCoin(),cc.vv.gameData.AddCoin(m),t.next=37,e.ShowWinCoin(m,p,!0);case 37:if(!(cc.vv.gameData.GetTotalFree()>0&&0==cc.vv.gameData.GetFreeTime())){t.next=42;break}return t.next=40,e.CheckExitFreeGame();case 40:return t.next=42,e.ShowWinCoin(e._bottomScript.getCurrentWin(),e._bottomScript.getCurrentWin(),!0);case 42:e.CanDoNextRound();case 43:case"end":return t.stop()}},t)}))()},ShowWinCoin:function(e,t,n){var o=this;return new Promise(function(){var a=i(regeneratorRuntime.mark(function i(a,c){return regeneratorRuntime.wrap(function(i){for(;;)switch(i.prev=i.next){case 0:o.ShowBottomWin(e,t,n,a);case 1:case"end":return i.stop()}},i)}));return function(e,t){return a.apply(this,arguments)}}())},CheckActiveBubble:function(e){Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bubble_award);var t,n=a(e);try{for(n.s();!(t=n.n()).done;){var o=t.value,i=this.GetSymbolByIdx(o.index);i&&i.playBubbleAnimation(o.coin,o.type)}}catch(e){n.e(e)}finally{n.f()}},CheckExitFreeGame:function(){var e=this;return i(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.abrupt("return",new Promise(function(){var t=i(regeneratorRuntime.mark(function t(n,o){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(cc.vv.gameData.setIsFreeGame(!1),!Global.TheEvilGameControl.collectBonusControl.isSuperBonus()){t.next=6;break}return t.next=4,Global.TheEvilGameControl.popupUIControl.showSuperBonusWinCoin(cc.vv.gameData.GetGameTotalFreeWin());case 4:t.next=8;break;case 6:return t.next=8,Global.TheEvilGameControl.popupUIControl.showFreeGameWinner(cc.vv.gameData.GetGameTotalFreeWin());case 8:return Global.TheEvilGameControl.popupUIControl.playLunpanAnimation(),t.next=11,e.awaitTime(1.3);case 11:return e.Resume(),Global.TheEvilGameControl.bubbleControl.creatCurrentBubble(),e._isBackUp?(Global.TheEvilGameControl.bubbleControl.maskAllActiveBubble(!0),e._isBackUp=!1):e.clearSlots(),Global.TheEvilGameControl.bubbleControl.hideAllBubbleAnimation(),e.ShowGameview(!1),t.next=18,e.awaitTime(1);case 18:Global.SlotsSoundMgr.playNormalBgm(!0),n();case 20:case"end":return t.stop()}},t)}));return function(e,n){return t.apply(this,arguments)}}()));case 1:case"end":return t.stop()}},t)}))()},CheckFreeEnterFreeGame:function(){var e=this;return i(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.abrupt("return",new Promise(function(){var t=i(regeneratorRuntime.mark(function t(n,o){var i,c,r,s;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bell),i=a(e._gameInfo.freeResult.freeInfo.idxs);try{for(i.s();!(c=i.n()).done;)r=c.value,(s=e.GetSymbolByIdx(r))&&s.playTriggerAnimation()}catch(e){i.e(e)}finally{i.f()}return t.next=5,e.awaitTime(2.5);case 5:return t.next=7,Global.TheEvilGameControl.popupUIControl.showAddFreeGameTimes(e._gameInfo.freeResult.freeInfo.freeCnt);case 7:n();case 8:case"end":return t.stop()}},t)}));return function(e,n){return t.apply(this,arguments)}}()));case 1:case"end":return t.stop()}},t)}))()},CheckEnterFreeGame:function(){var e=this;return i(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.abrupt("return",new Promise(function(){var t=i(regeneratorRuntime.mark(function t(n,o){var i,c,r,s;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bell),i=a(e._gameInfo.freeResult.freeInfo.idxs);try{for(i.s();!(c=i.n()).done;)r=c.value,(s=e.GetSymbolByIdx(r))&&s.playTriggerAnimation(),Global.TheEvilGameControl.collectBonusControl.flyParticle(s.node)}catch(e){i.e(e)}finally{i.f()}return t.next=5,e.awaitTime(1);case 5:return Global.TheEvilGameControl.collectBonusControl.activeBonus(),t.next=8,e.awaitTime(1);case 8:if(cc.vv.gameData.setIsFreeGame(!0),!Global.TheEvilGameControl.collectBonusControl.isSuperBonus()){t.next=14;break}return t.next=12,Global.TheEvilGameControl.popupUIControl.showSuperBonusGame();case 12:t.next=16;break;case 14:return t.next=16,Global.TheEvilGameControl.popupUIControl.showFreeGameTimes(e._gameInfo.freeResult.freeInfo.freeCnt);case 16:return Global.TheEvilGameControl.popupUIControl.playLunpanAnimation(),t.next=19,e.awaitTime(1.5);case 19:return Global.TheEvilGameControl.bubbleControl.clearCurrentBubble(),e.ShowGameview(!0),t.next=23,e.awaitTime(.5);case 23:if(e.Backup(),e._isBackUp=!0,!Global.TheEvilGameControl.collectBonusControl.isSuperBonus()){t.next=31;break}return t.next=28,Global.TheEvilGameControl.popupUIControl.showQiPaoMaoChu();case 28:Global.SlotsSoundMgr.playBgm(Global.SlotsSoundMgr.super_bgm),t.next=32;break;case 31:Global.SlotsSoundMgr.playBgm(Global.SlotsSoundMgr.free_bgm);case 32:n();case 33:case"end":return t.stop()}},t)}));return function(e,n){return t.apply(this,arguments)}}()));case 1:case"end":return t.stop()}},t)}))()},CheckTriggerSubGame:function(){var e=this;return i(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.abrupt("return",new Promise(function(){var t=i(regeneratorRuntime.mark(function t(n,o){var i,c,r,s;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bell),i=a(e._gameInfo.pickInfo.idxs);try{for(i.s();!(c=i.n()).done;)r=c.value,(s=e.GetSymbolByIdx(r))&&s.playTriggerAnimation()}catch(e){i.e(e)}finally{i.f()}return cc.vv.gameData.isFreeGame()||e._bottomScript.DoHideWinAction(),t.next=6,e.awaitTime(1.5);case 6:return cc.vv.gameData.setIsBonusGame(!0),t.next=9,Global.TheEvilGameControl.popupUIControl.showPickGameTimes();case 9:return Global.TheEvilGameControl.popupUIControl.playEmoAnimation(!0),t.next=12,e.awaitTime(2);case 12:Global.TheEvilGameControl.pickGameControl.enterGame(cc.vv.gameData.pickInfo,n);case 13:case"end":return t.stop()}},t)}));return function(e,n){return t.apply(this,arguments)}}()));case 1:case"end":return t.stop()}},t)}))()},ReconnectShow:function(){var e=this;return i(regeneratorRuntime.mark(function t(){var n,o;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(Global.TheEvilGameControl.collectBonusControl.initData(),e.ShowGameview(cc.vv.gameData.isFreeGame()),cc.vv.gameData.isFreeGame()?(e._bottomScript.SetWin(cc.vv.gameData.GetTotalFreeWin()),Global.TheEvilGameControl.bubbleControl.createBubble(cc.vv.gameData._deskInfo.bubbleInfoInFree)):Global.TheEvilGameControl.bubbleControl.creatCurrentBubble(),!(cc.vv.gameData.pickInfo.idxs&&cc.vv.gameData.pickInfo.idxs.length>0)){t.next=17;break}return e._bottomScript.ShowBtnsByState("moveing_1"),Global.TheEvilGameControl.bubbleControl.maskAllActiveBubble(!0),n=e._bottomScript.getCurrentWin(),o=cc.vv.gameData.pickInfo.currWinCoin,e._bottomScript.SetWin(n+o),t.next=11,new Promise(function(){var e=i(regeneratorRuntime.mark(function e(t,n){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:Global.TheEvilGameControl.pickGameControl.enterGame(cc.vv.gameData.pickInfo,t);case 1:case"end":return e.stop()}},e)}));return function(t,n){return e.apply(this,arguments)}}());case 11:return t.next=13,e.awaitTime(2);case 13:return n=e._bottomScript.getCurrentWin(),o=Global.TheEvilGameControl.pickGameControl.getBonusWinCoin(),t.next=17,e.ShowWinCoin(o,n,!0);case 17:e.CanDoNextRound();case 18:case"end":return t.stop()}},t)}))()},onEventTotalbetUpdated:function(e){this.clearSlots(),Global.TheEvilGameControl.bubbleControl.maskAllActiveBubble(!1),Global.TheEvilGameControl.bubbleControl.creatCurrentBubble(),Global.TheEvilGameControl.collectBonusControl.updataCollectState()},clearSlots:function(){this._slotsMask.active=!1;for(var e=0;e<this._reels.length;e++)for(var t=this._reels[e],n=0;n<t._symbols.length;n++){var o=t._symbols[n];o.ShowNormal(),o.ShowKuang(!1)}},ShowGameview:function(e){if(e){var t=cc.vv.gameData.GetTotalFree(),n=cc.vv.gameData.GetFreeTime();this._bottomScript.ShowFreeModel(!0,t-n,t)}else this._bottomScript.ShowFreeModel(!1);Global.TheEvilGameControl.collectBonusControl.showFreeGameCollect(e),Global.TheEvilGameControl.collectBonusControl.isSuperBonus()?this._bottomScript.showTotalBet(!e):this._bottomScript.showTotalBet(!0);var o=cc.find("Canvas/safe_node/spr_bg_normal"),i=cc.find("Canvas/safe_node/spr_bg_free"),a=cc.find("Canvas/safe_node/spr_bg_superfree");i&&a&&(o&&(o.active=!e),Global.TheEvilGameControl.collectBonusControl.isSuperBonus()?(a.active=e,i.active=!1):(a.active=!1,i.active=e))},ShowJackpotEffect:function(e){this._jpEffect.active=e}}),cc._RF.pop()},{LMSlots_Slots_Base:void 0}],TheEvil_Sound:[function(e,t,n){"use strict";cc._RF.push(t,"155dbxiYZJAdZzh9BIMW+zv","TheEvil_Sound"),cc.Class({extends:e("LMSlots_Sound"),properties:{soundPath:{default:"games/TheEvil/",override:!0},anticipation1_1:"anticipation1_1",anticipation1_2:"anticipation1_2",anticipation2_1:"anticipation2_1",anticipation2_2:"anticipation2_2",base_bgm:"base_bgm",bell:"bell",click:"click",lock:"lock",reel_stop:"reel_stop",scatter_landing:"scatter_landing",scatter1_landing:"scatter1_landing",scatter2_landing:"scatter2_landing",star_landing:"star_landing",symbol_collect:"symbol_collect",transition1:"transition1",transition2:"transition2",unlock:"unlock",win1:"win1",win1end:"win1end",win2:"win2",win2end:"win2end",win3:"win3",win3end:"win3end",win4:"win4",win4end:"win4end",bubble_award:"bubble_award",bubble_boom:"bubble_boom",bubble_up:"bubble_up",free_bgm:"free_bgm",free_dialog_collect_show:"free_dialog_collect_show",free_dialog_start_show:"free_dialog_start_show",grand_jackpot:"grand_jackpot",major_jackpot:"major_jackpot",mini_jackpot:"mini_jackpot",minor_jackpot:"minor_jackpot",bubble_reveal:"bubble_reveal",bubble_scatter:"bubble_scatter",jp_popup:"jp_popup",pick_bgm:"pick_bgm",pick_end_show:"pick_end_show",pick_start_show:"pick_start_show",scatter_reveal:"scatter_reveal",super_bgm:"super_bgm",super_popclose:"super_popclose",super_popup:"super_popup"}}),cc._RF.pop()},{LMSlots_Sound:void 0}],TheEvil_Symbol:[function(e,t,n){"use strict";cc._RF.push(t,"fcbb4+5Sz1MipjUgIah4hZ3","TheEvil_Symbol");var o=["mini_jackpot","minor_jackpot","major_jackpot","grand_jackpot"];cc.Class({extends:e("LMSlots_Symbol_Base"),properties:{_bonusIndex:0,_BubbleCoin:0,_BubbleJpId:0},SetCoin:function(e){this._data=e;var t=cc.vv.gameData.getGameCfg(),n=cc.find("coin",this.node);t.symbol[this._id].coin?(n.active=!0,n.getComponent(cc.Label).string=Global.convertNumToShort(this._data,1e3,1,null,1e3)):n.active=!1},StopMoveEnd:function(){this._super(),this.playidleAnimation()},playidleAnimation:function(){var e=!1,t=this._id,n=cc.vv.gameData.getGameCfg();if(n.symbol[t]&&n.symbol[t].win_node&&n.symbol[t].idle_ani){this._showNode&&(this._showNode.active=!1),this._state="idle";var o=this.setAnimationToTop(!0);if(o.active=!0,o.zIndex=n.symbol[t].idle_ani.zIndex-this._symbolIdx+10*this._reelIdx,e=!0,""!=n.symbol[t].idle_ani.name){var i=cc.find(n.symbol[t].win_node,o);i.active=!0,o.zIndex=n.symbol[t].idle_ani.zIndex-this._symbolIdx+10*this._reelIdx;var a=i.getComponent(sp.Skeleton);a&&a.setAnimation(0,n.symbol[t].idle_ani.name,!0)}else cc.find(n.symbol[t].win_node,o).active=!1,cc.find(n.symbol[t].node,o).active=!0}return e},playTriggerAnimation:function(){var e=!1,t=this._id,n=cc.vv.gameData.getGameCfg();if(n.symbol[t]&&n.symbol[t].win_node&&n.symbol[t].trigger_ani){this._showNode&&(this._showNode.active=!1),this._state="trigger";var o=this.setAnimationToTop(!0);o.active=!0;var i=cc.find(n.symbol[t].win_node,o);if(i.active=!0,""!=n.symbol[t].trigger_ani.name){o.zIndex=n.symbol[t].trigger_ani.zIndex-this._symbolIdx+10*this._reelIdx,e=!0;var a=i.getComponent(sp.Skeleton);a&&a.setAnimation(0,n.symbol[t].trigger_ani.name,!0)}}return e},playDisappearAnimation:function(){var e=!1,t=this._id,n=cc.vv.gameData.getGameCfg();if(n.symbol[t]&&n.symbol[t].win_node&&n.symbol[t].disappear_ani)if(""!=n.symbol[t].disappear_ani.name){this._state="disappear";var o=this.setAnimationToTop(!0);o.active=!0;var i=cc.find(n.symbol[t].win_node,o);i.active=!0,o.zIndex=n.symbol[t].disappear_ani.zIndex-this._symbolIdx+10*this._reelIdx,e=!0;var a=i.getComponent(sp.Skeleton);a&&(this.node.active=!0,this._showNode&&(this._showNode.active=!0),a.setAnimation(0,n.symbol[t].disappear_ani.name,!1))}else this.setAnimationToTop(!1);return e},playBubbleAnimation:function(e,t){var n=!1,i=this._id;this._BubbleCoin=e,this._BubbleJpId=t;var a=cc.vv.gameData.getGameCfg();if(a.symbol[i]&&a.symbol[i].win_node&&a.symbol[i].trigger_bubble){n=!0,this._showNode&&(this._showNode.active=!1),this._state="bubbleAnimation";var c=this.setAnimationToTop(!0);c.active=!0,c.zIndex=a.symbol[i].trigger_bubble.zIndex-this._symbolIdx+10*this._reelIdx;var r=cc.find(a.symbol[i].win_node,c);r.active=!0;var s=r.getComponent(sp.Skeleton);switch(s.setAnimation(0,a.symbol[i].trigger_bubble.name,!1),s.addAnimation(0,a.symbol[i].trigger_bubble_idle.name,!0),t){case 1:case 2:case 3:case 4:var l=c.getChildByName("jp_"+t);l.active=!0,l.setScale(.9),l.runAction(cc.repeatForever(cc.sequence(cc.scaleTo(.7,1.1,1.1),cc.scaleTo(.7,.9,.9)))),Global.SlotsSoundMgr.playEffect(o[t-1]);break;default:var u=c.getChildByName("coin_small"),p=c.getChildByName("coin_big");Math.floor(e/cc.vv.gameData.GetTotalBet())<10?(u.active=!0,u.getComponent(cc.Label).string=Global.convertNumToShort(e,1e3,1,null,1e3),u.setScale(.9),u.runAction(cc.repeatForever(cc.sequence(cc.scaleTo(.7,1.1,1.1),cc.scaleTo(.7,.9,.9))))):(p.active=!0,p.getComponent(cc.Label).string=Global.convertNumToShort(e,1e3,1,null,1e3),p.setScale(.9),p.runAction(cc.repeatForever(cc.sequence(cc.scaleTo(.7,1.1,1.1),cc.scaleTo(.7,.9,.9)))))}}return n},setAnimationToTop:function(e){if(this._topAniNode){if(e){var t=cc.find(cc.js.formatStr("symbol_ani_%s_%s",this._symbolIdx,this._reelIdx),this._topAniNode);t&&(t.removeFromParent(),t.destroy()),t=cc.instantiate(this.node);var n=this.node.convertToWorldSpaceAR(cc.v2(0));return t.parent=this._topAniNode,t.name=cc.js.formatStr("symbol_ani_%s_%s",this._symbolIdx,this._reelIdx),t.position=this._topAniNode.convertToNodeSpaceAR(n),this.node.active=!1,t}var o=cc.find(cc.js.formatStr("symbol_ani_%s_%s",this._symbolIdx,this._reelIdx),this._topAniNode);o&&(o.removeFromParent(),o.destroy()),this.node.active=!0,this._showNode&&(this._showNode.active=!0)}return this.node},Backup:function(){var e={};return e.symbolIdx=this._symbolIdx,e.id=this._id,this._data&&(e.data=Global.copy(this._data)),e.isKuang=this._isKuang,e.state=this._state,e.BubbleCoin=this._BubbleCoin,e.BubbleJpId=this._BubbleJpId,e},Resume:function(e){if(e){this._symbolIdx=e.symbolIdx,this._id=e.id,this._data=Global.copy(e.data),this.ShowKuang(e.isKuang),this.ShowNormal();var t=e.state;"win"==t?this.playWinAnimation():"stop"==t?this.playStopAnimation():"idle"==t?this.playidleAnimation():"trigger"==t?this.playTriggerAnimation():"disappear"==t?this.playDisappearAnimation():"bubbleAnimation"==t&&this.playBubbleAnimation(e.BubbleCoin,e.BubbleJpId)}}}),cc._RF.pop()},{LMSlots_Symbol_Base:void 0}],TheEvil_Top:[function(e,t,n){"use strict";cc._RF.push(t,"e5862nDjeNDsaCPq6A0H1iI","TheEvil_Top"),cc.Class({extends:e("LMSlots_Top_Base"),properties:{},StartMove:function(){this._super(),Global.TheEvilGameControl.collectBonusControl.setMask(!0)},StopMove:function(){this._super(),Global.TheEvilGameControl.collectBonusControl.setMask(!1)}}),cc._RF.pop()},{LMSlots_Top_Base:void 0}]},{},["TheEvil_Bottom","TheEvil_Bubble","TheEvil_BubbleCfg","TheEvil_BubbleControl","TheEvil_Cfg","TheEvil_CollectBonusControl","TheEvil_GameData","TheEvil_Logic","TheEvil_PickGameControl","TheEvil_PopupUIControl","TheEvil_Reel","TheEvil_Slots","TheEvil_Sound","TheEvil_Symbol","TheEvil_Top"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  TheEvil_Bottom: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "f99eb+LkIVOPYkvg5915jpb", "TheEvil_Bottom");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Bottom_Base"),
+      properties: {},
+      showTotalBet: function showTotalBet(isShow) {
+        cc.find("totalBetBg", this.node).active = isShow;
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Bottom_Base: void 0
+  } ],
+  TheEvil_BubbleCfg: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "82aaa9HhY9F9IUhmc6A7CMA", "TheEvil_BubbleCfg");
+    "use strict";
+    var _bubbleData;
+    function _defineProperty(obj, key, value) {
+      key in obj ? Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+      }) : obj[key] = value;
+      return obj;
+    }
+    var bubbleCfg = {
+      bubbleData: (_bubbleData = {}, _defineProperty(_bubbleData, 1, {
+        size: .25,
+        pickPosX: -250,
+        pickPosY: -324,
+        pickMoveAnimation: "animation4",
+        route: [ {
+          x: -216,
+          y: -324,
+          point: []
+        }, {
+          x: -216,
+          y: -162,
+          point: [ 16 ]
+        }, {
+          x: -216,
+          y: -54,
+          point: [ 11 ]
+        }, {
+          x: -216,
+          y: 54,
+          point: [ 6 ]
+        }, {
+          x: -216,
+          y: 162,
+          point: [ 1 ]
+        } ]
+      }), _defineProperty(_bubbleData, 2, {
+        size: .25,
+        pickPosX: -125,
+        pickPosY: -324,
+        pickMoveAnimation: "animation5",
+        route: [ {
+          x: -108,
+          y: -324,
+          point: []
+        }, {
+          x: -108,
+          y: -162,
+          point: [ 17 ]
+        }, {
+          x: -108,
+          y: -54,
+          point: [ 12 ]
+        }, {
+          x: -108,
+          y: 54,
+          point: [ 7 ]
+        }, {
+          x: -108,
+          y: 162,
+          point: [ 2 ]
+        } ]
+      }), _defineProperty(_bubbleData, 3, {
+        size: .25,
+        pickPosX: 0,
+        pickPosY: -324,
+        pickMoveAnimation: "animation4",
+        route: [ {
+          x: 0,
+          y: -324,
+          point: []
+        }, {
+          x: 0,
+          y: -162,
+          point: [ 18 ]
+        }, {
+          x: 0,
+          y: -54,
+          point: [ 13 ]
+        }, {
+          x: 0,
+          y: 54,
+          point: [ 8 ]
+        }, {
+          x: 0,
+          y: 162,
+          point: [ 3 ]
+        } ]
+      }), _defineProperty(_bubbleData, 4, {
+        size: .25,
+        pickPosX: 125,
+        pickPosY: -324,
+        pickMoveAnimation: "animation5",
+        route: [ {
+          x: 108,
+          y: -324,
+          point: []
+        }, {
+          x: 108,
+          y: -162,
+          point: [ 19 ]
+        }, {
+          x: 108,
+          y: -54,
+          point: [ 14 ]
+        }, {
+          x: 108,
+          y: 54,
+          point: [ 9 ]
+        }, {
+          x: 108,
+          y: 162,
+          point: [ 4 ]
+        } ]
+      }), _defineProperty(_bubbleData, 5, {
+        size: .25,
+        pickPosX: 250,
+        pickPosY: -324,
+        pickMoveAnimation: "animation4",
+        route: [ {
+          x: 216,
+          y: -324,
+          point: []
+        }, {
+          x: 216,
+          y: -162,
+          point: [ 20 ]
+        }, {
+          x: 216,
+          y: -54,
+          point: [ 15 ]
+        }, {
+          x: 216,
+          y: 54,
+          point: [ 10 ]
+        }, {
+          x: 216,
+          y: 162,
+          point: [ 5 ]
+        } ]
+      }), _defineProperty(_bubbleData, 6, {
+        size: .5,
+        pickPosX: -187.5,
+        pickPosY: -378,
+        pickMoveAnimation: "animation5",
+        route: [ {
+          x: -162,
+          y: -378,
+          point: []
+        }, {
+          x: -162,
+          y: -216,
+          point: [ 16, 17 ]
+        }, {
+          x: -162,
+          y: -108,
+          point: [ 11, 12, 16, 17 ]
+        }, {
+          x: -162,
+          y: 0,
+          point: [ 6, 7, 11, 12 ]
+        }, {
+          x: -162,
+          y: 108,
+          point: [ 1, 2, 6, 7 ]
+        }, {
+          x: -162,
+          y: 216,
+          point: [ 1, 2 ]
+        } ]
+      }), _defineProperty(_bubbleData, 7, {
+        size: .5,
+        pickPosX: -62.5,
+        pickPosY: -378,
+        pickMoveAnimation: "animation4",
+        route: [ {
+          x: -54,
+          y: -378,
+          point: []
+        }, {
+          x: -54,
+          y: -216,
+          point: [ 17, 18 ]
+        }, {
+          x: -54,
+          y: -108,
+          point: [ 12, 13, 17, 18 ]
+        }, {
+          x: -54,
+          y: 0,
+          point: [ 7, 8, 12, 13 ]
+        }, {
+          x: -54,
+          y: 108,
+          point: [ 2, 3, 7, 8 ]
+        }, {
+          x: -54,
+          y: 216,
+          point: [ 2, 3 ]
+        } ]
+      }), _defineProperty(_bubbleData, 8, {
+        size: .5,
+        pickPosX: 62.5,
+        pickPosY: -378,
+        pickMoveAnimation: "animation5",
+        route: [ {
+          x: 54,
+          y: -378,
+          point: []
+        }, {
+          x: 54,
+          y: -216,
+          point: [ 18, 19 ]
+        }, {
+          x: 54,
+          y: -108,
+          point: [ 13, 14, 18, 19 ]
+        }, {
+          x: 54,
+          y: 0,
+          point: [ 8, 9, 13, 14 ]
+        }, {
+          x: 54,
+          y: 108,
+          point: [ 3, 4, 8, 9 ]
+        }, {
+          x: 54,
+          y: 216,
+          point: [ 3, 4 ]
+        } ]
+      }), _defineProperty(_bubbleData, 9, {
+        size: .5,
+        pickPosX: 187.5,
+        pickPosY: -378,
+        pickMoveAnimation: "animation4",
+        route: [ {
+          x: 162,
+          y: -378,
+          point: []
+        }, {
+          x: 162,
+          y: -216,
+          point: [ 19, 20 ]
+        }, {
+          x: 162,
+          y: -108,
+          point: [ 14, 15, 19, 20 ]
+        }, {
+          x: 162,
+          y: 0,
+          point: [ 9, 10, 14, 15 ]
+        }, {
+          x: 162,
+          y: 108,
+          point: [ 4, 5, 9, 10 ]
+        }, {
+          x: 162,
+          y: 216,
+          point: [ 4, 5 ]
+        } ]
+      }), _defineProperty(_bubbleData, 10, {
+        size: .75,
+        pickPosX: -125,
+        pickPosY: -432,
+        pickMoveAnimation: "animation4",
+        route: [ {
+          x: -108,
+          y: -432,
+          point: []
+        }, {
+          x: -108,
+          y: -270,
+          point: [ 16, 17, 18 ]
+        }, {
+          x: -108,
+          y: -162,
+          point: [ 11, 12, 13, 16, 17, 18 ]
+        }, {
+          x: -108,
+          y: -54,
+          point: [ 6, 7, 8, 11, 12, 13, 16, 17, 18 ]
+        }, {
+          x: -108,
+          y: 54,
+          point: [ 1, 2, 3, 6, 7, 8, 11, 12, 13 ]
+        }, {
+          x: -108,
+          y: 162,
+          point: [ 1, 2, 3, 6, 7, 8 ]
+        }, {
+          x: -108,
+          y: 270,
+          point: [ 1, 2, 3 ]
+        } ]
+      }), _defineProperty(_bubbleData, 11, {
+        size: .75,
+        pickPosX: 0,
+        pickPosY: -432,
+        pickMoveAnimation: "animation5",
+        route: [ {
+          x: 0,
+          y: -432,
+          point: []
+        }, {
+          x: 0,
+          y: -270,
+          point: [ 17, 18, 19 ]
+        }, {
+          x: 0,
+          y: -162,
+          point: [ 12, 13, 14, 17, 18, 19 ]
+        }, {
+          x: 0,
+          y: -54,
+          point: [ 7, 8, 9, 12, 13, 14, 17, 18, 19 ]
+        }, {
+          x: 0,
+          y: 54,
+          point: [ 2, 3, 4, 7, 8, 9, 12, 13, 14 ]
+        }, {
+          x: 0,
+          y: 162,
+          point: [ 2, 3, 4, 7, 8, 9 ]
+        }, {
+          x: 0,
+          y: 270,
+          point: [ 2, 3, 4 ]
+        } ]
+      }), _defineProperty(_bubbleData, 12, {
+        size: .75,
+        pickPosX: 125,
+        pickPosY: -432,
+        pickMoveAnimation: "animation4",
+        route: [ {
+          x: 108,
+          y: -432,
+          point: []
+        }, {
+          x: 108,
+          y: -270,
+          point: [ 18, 19, 20 ]
+        }, {
+          x: 108,
+          y: -162,
+          point: [ 13, 14, 15, 18, 19, 20 ]
+        }, {
+          x: 108,
+          y: -54,
+          point: [ 8, 9, 10, 13, 14, 15, 18, 19, 20 ]
+        }, {
+          x: 108,
+          y: 54,
+          point: [ 3, 4, 5, 8, 9, 10, 13, 14, 15 ]
+        }, {
+          x: 108,
+          y: 162,
+          point: [ 3, 4, 5, 8, 9, 10 ]
+        }, {
+          x: 108,
+          y: 270,
+          point: [ 3, 4, 5 ]
+        } ]
+      }), _defineProperty(_bubbleData, 13, {
+        size: 1,
+        pickPosX: -62.5,
+        pickPosY: -432,
+        pickMoveAnimation: "animation5",
+        route: [ {
+          x: -54,
+          y: -486,
+          point: []
+        }, {
+          x: -54,
+          y: -324,
+          point: [ 16, 17, 18, 19 ]
+        }, {
+          x: -54,
+          y: -216,
+          point: [ 11, 12, 13, 14, 16, 17, 18, 19 ]
+        }, {
+          x: -54,
+          y: -108,
+          point: [ 6, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 19 ]
+        }, {
+          x: -54,
+          y: 0,
+          point: [ 1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 19 ]
+        }, {
+          x: -54,
+          y: 108,
+          point: [ 1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14 ]
+        }, {
+          x: -54,
+          y: 216,
+          point: [ 1, 2, 3, 4, 6, 7, 8, 9 ]
+        }, {
+          x: -54,
+          y: 324,
+          point: [ 1, 2, 3, 4 ]
+        } ]
+      }), _defineProperty(_bubbleData, 14, {
+        size: 1,
+        pickPosX: 62.5,
+        pickPosY: -432,
+        pickMoveAnimation: "animation4",
+        route: [ {
+          x: 54,
+          y: -486,
+          point: []
+        }, {
+          x: 54,
+          y: -324,
+          point: [ 17, 18, 19, 20 ]
+        }, {
+          x: 54,
+          y: -216,
+          point: [ 12, 13, 14, 15, 17, 18, 19, 20 ]
+        }, {
+          x: 54,
+          y: -108,
+          point: [ 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19, 20 ]
+        }, {
+          x: 54,
+          y: 0,
+          point: [ 2, 3, 4, 5, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19, 20 ]
+        }, {
+          x: 54,
+          y: 108,
+          point: [ 2, 3, 4, 5, 7, 8, 9, 10, 12, 13, 14, 15 ]
+        }, {
+          x: 54,
+          y: 216,
+          point: [ 2, 3, 4, 5, 7, 8, 9, 10 ]
+        }, {
+          x: 54,
+          y: 324,
+          point: [ 2, 3, 4, 5 ]
+        } ]
+      }), _defineProperty(_bubbleData, 15, {
+        size: 1.25,
+        pickPosX: 0,
+        pickPosY: -432,
+        pickMoveAnimation: "animation4",
+        route: [ {
+          x: 0,
+          y: -486,
+          point: []
+        }, {
+          x: 0,
+          y: -378,
+          point: [ 16, 17, 18, 19, 20 ]
+        }, {
+          x: 0,
+          y: -270,
+          point: [ 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ]
+        }, {
+          x: 0,
+          y: -162,
+          point: [ 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ]
+        }, {
+          x: 0,
+          y: -54,
+          point: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ]
+        }, {
+          x: 0,
+          y: 54,
+          point: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ]
+        }, {
+          x: 0,
+          y: 162,
+          point: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+        }, {
+          x: 0,
+          y: 270,
+          point: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+        }, {
+          x: 0,
+          y: 378,
+          point: [ 1, 2, 3, 4, 5 ]
+        } ]
+      }), _bubbleData)
+    };
+    module.exports = bubbleCfg;
+    cc._RF.pop();
+  }, {} ],
+  TheEvil_BubbleControl: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "df9f1In+aZAZa9FoT9RwkNk", "TheEvil_BubbleControl");
+    "use strict";
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        pick_bubble_node: {
+          default: null,
+          type: cc.Node
+        },
+        items_bubble_node: {
+          default: null,
+          type: cc.Node
+        },
+        items_bubble_mask_node: {
+          default: null,
+          type: cc.Node
+        },
+        _activeBubbleCmps: [],
+        _bubbleTemplate: null,
+        _pickIndex: 0,
+        _pickData: null,
+        _pickBubbleList: [],
+        _touchId: null,
+        _pickBubbleCnt: 0
+      },
+      awaitTime: function awaitTime(time) {
+        var _this = this;
+        return new Promise(function(sucess, failed) {
+          _this.scheduleOnce(function() {
+            sucess();
+          }, time);
+        });
+      },
+      onLoad: function onLoad() {
+        this._bubbleTemplate = cc.find("bubble", this.node);
+        cc.vv.NetManager.registerMsg(MsgId.SLOT_SUBGAME_DATA, this.onRecvGameAction, this);
+      },
+      onDestroy: function onDestroy() {
+        cc.vv.NetManager.unregisterMsg(MsgId.SLOT_SUBGAME_DATA, this.onRecvGameAction, false, this);
+      },
+      onRecvGameAction: function onRecvGameAction(msg) {
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              200 == msg.code;
+
+             case 1:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      generateBubble: function generateBubble(bubbleData) {
+        var _iterator = _createForOfIteratorHelper(bubbleData), _step;
+        try {
+          for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+            var data = _step.value;
+            if (0 == data.preIndex) {
+              var bubbleItem = cc.instantiate(this._bubbleTemplate);
+              bubbleItem.parent = this.items_bubble_node;
+              bubbleItem.active = true;
+              var bubbleCmp = bubbleItem.getComponent("TheEvil_Bubble");
+              bubbleCmp.bindBubble(data.id, data.preIndex, data.currIndex, data.type, data.coin);
+              this._activeBubbleCmps.push(bubbleCmp);
+            }
+          }
+        } catch (err) {
+          _iterator.e(err);
+        } finally {
+          _iterator.f();
+        }
+      },
+      creatCurrentBubble: function creatCurrentBubble() {
+        this.clearCurrentBubble();
+        var index = cc.vv.gameData.GetBetIdx() - 1;
+        var bubbleInfo = cc.vv.gameData.allBububbleInfo[index];
+        this.createBubble(bubbleInfo);
+      },
+      createBubble: function createBubble(bubbleInfo) {
+        if (bubbleInfo && bubbleInfo.length > 0) {
+          var _iterator2 = _createForOfIteratorHelper(bubbleInfo), _step2;
+          try {
+            for (_iterator2.s(); !(_step2 = _iterator2.n()).done; ) {
+              var data = _step2.value;
+              var bubbleItem = cc.instantiate(this._bubbleTemplate);
+              bubbleItem.parent = this.items_bubble_node;
+              bubbleItem.active = true;
+              var bubbleCmp = bubbleItem.getComponent("TheEvil_Bubble");
+              bubbleCmp.bindBubble(data.id, data.currIndex, data.nextIndex, data.type, data.coin);
+              this._activeBubbleCmps.push(bubbleCmp);
+            }
+          } catch (err) {
+            _iterator2.e(err);
+          } finally {
+            _iterator2.f();
+          }
+        }
+      },
+      clearCurrentBubble: function clearCurrentBubble() {
+        this._activeBubbleCmps = [];
+        this.items_bubble_node.removeAllChildren();
+        this.items_bubble_mask_node.removeAllChildren();
+      },
+      updateActiveBubble: function updateActiveBubble() {
+        for (var index = this._activeBubbleCmps.length - 1; index >= 0; index--) this._activeBubbleCmps[index].moveBubble() && this._activeBubbleCmps.splice(index, 1);
+      },
+      maskAllActiveBubble: function maskAllActiveBubble(isMask) {
+        if (isMask) {
+          var _iterator3 = _createForOfIteratorHelper(this._activeBubbleCmps), _step3;
+          try {
+            for (_iterator3.s(); !(_step3 = _iterator3.n()).done; ) {
+              var cmp = _step3.value;
+              cmp.node.parent = this.items_bubble_mask_node;
+              cmp.setCoinActive(false);
+            }
+          } catch (err) {
+            _iterator3.e(err);
+          } finally {
+            _iterator3.f();
+          }
+        } else {
+          var _iterator4 = _createForOfIteratorHelper(this._activeBubbleCmps), _step4;
+          try {
+            for (_iterator4.s(); !(_step4 = _iterator4.n()).done; ) {
+              var _cmp = _step4.value;
+              _cmp.node.parent = this.items_bubble_node;
+              _cmp.setCoinActive(true);
+            }
+          } catch (err) {
+            _iterator4.e(err);
+          } finally {
+            _iterator4.f();
+          }
+        }
+      },
+      showWinBubbleAnimation: function showWinBubbleAnimation(pointIdx) {
+        for (var j = 0; j < this._activeBubbleCmps.length; j++) {
+          var bubble = this._activeBubbleCmps[j];
+          bubble.showTriggerAnimation(pointIdx);
+        }
+      },
+      hideAllBubbleAnimation: function hideAllBubbleAnimation() {
+        for (var j = 0; j < this._activeBubbleCmps.length; j++) {
+          var bubble = this._activeBubbleCmps[j];
+          bubble.stopTriggerAnimation();
+        }
+      },
+      stopActiveBubble: function stopActiveBubble() {
+        var _iterator5 = _createForOfIteratorHelper(this._activeBubbleCmps), _step5;
+        try {
+          for (_iterator5.s(); !(_step5 = _iterator5.n()).done; ) {
+            var cmp = _step5.value;
+            cmp.stopBubble();
+          }
+        } catch (err) {
+          _iterator5.e(err);
+        } finally {
+          _iterator5.f();
+        }
+      },
+      generatePickBubble: function generatePickBubble(id, idx) {
+        var bubbleItem = cc.instantiate(this._bubbleTemplate);
+        bubbleItem.parent = this.pick_bubble_node;
+        bubbleItem.active = true;
+        var bubbleCmp = bubbleItem.getComponent("TheEvil_Bubble");
+        bubbleCmp.creatPickBubble(id, idx);
+        this._pickBubbleList.push(bubbleItem);
+      },
+      launchPickBubble: function launchPickBubble(data) {
+        var _this2 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var idList, paopaoIndex, id, paopao;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              _this2._pickData = data.coinsData;
+              _this2._pickIndex = data.pickIndex;
+              idList = [ 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 7, 8, 9 ];
+              paopaoIndex = 0;
+              _this2._pickBubbleList = [];
+              _this2._pickBubbleCnt = 0;
+
+             case 6:
+              if (!(_this2._pickData.length > 0)) {
+                _context2.next = 16;
+                break;
+              }
+              id = idList[parseInt(Math.random() * idList.length)];
+              _this2.generatePickBubble(id, paopaoIndex);
+              paopaoIndex++;
+              _this2._pickBubbleCnt += 1;
+              if (cc.vv.gameData.isNeedAutoPlay() && _this2._pickBubbleCnt > 10) {
+                _this2._pickBubbleCnt = 0;
+                paopao = _this2._pickBubbleList[Global.random(0, _this2._pickBubbleList.length - 1)];
+                paopao.emit(cc.Node.EventType.TOUCH_START);
+              }
+              _context2.next = 14;
+              return _this2.awaitTime(.5);
+
+             case 14:
+              _context2.next = 6;
+              break;
+
+             case 16:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      deleteBubble: function deleteBubble(item) {
+        for (var i = 0; i < this._pickBubbleList.length; i++) {
+          var element = this._pickBubbleList[i];
+          if (element == item) {
+            this._pickBubbleList.splice(i, 1);
+            return;
+          }
+        }
+      },
+      clickPickBubble: function clickPickBubble() {
+        var info = {};
+        if (this._pickData.length > 0) {
+          this._pickIndex = this._pickIndex + 1;
+          var tempData = this._pickData.splice(0, 1);
+          info.type = tempData[0].type;
+          info.coin = tempData[0].coin;
+          info.index = this._pickIndex;
+          var req = {
+            c: MsgId.SLOT_SUBGAME_DATA
+          };
+          req.uid = Global.playerData.uid;
+          req.gameid = cc.vv.gameData.getGameId();
+          req.data = {};
+          req.data.rtype = 1;
+          cc.vv.NetManager.send(req);
+          return info;
+        }
+        return null;
+      },
+      stopPickBubble: function stopPickBubble() {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          var i, element;
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              for (i = 0; i < _this3._pickBubbleList.length; i++) {
+                element = _this3._pickBubbleList[i];
+                element && (element.parent = null);
+              }
+              _this3._pickBubbleList = [];
+
+             case 2:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  TheEvil_Bubble: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "58d2131oetF/aa5qVJ/spoy", "TheEvil_Bubble");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    var bubbleCfg = require("TheEvil_BubbleCfg");
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        _id: 0,
+        _type: 0,
+        _cfg: null,
+        _moveNode: null,
+        _pubbleItems: [],
+        _currPosIndex: -1,
+        _nextPosIndex: -1,
+        _bubbleSpine: null,
+        _baozaSpine: null,
+        _smallCoinNode: 0,
+        _bigCoinNode: 0,
+        _coinNum: 0,
+        _isKeepMove: true,
+        _showTriggerAnimation: false,
+        _jackpot: null,
+        _index: 0,
+        _click: true
+      },
+      awaitTime: function awaitTime(time) {
+        var _this = this;
+        return new Promise(function(sucess, failed) {
+          _this.scheduleOnce(function() {
+            sucess();
+          }, time);
+        });
+      },
+      onLoad: function onLoad() {
+        this._moveNode = this.node.getChildByName("move_node");
+        this._coinNode = this._moveNode.getChildByName("coin");
+        this._smallCoinNode = this._coinNode.getChildByName("coin_small");
+        this._smallCoinNode.active = false;
+        this._bigCoinNode = this._coinNode.getChildByName("coin_big");
+        this._bigCoinNode.active = false;
+        this._pickCoinNode = this._coinNode.getChildByName("coin_pick");
+        this._pickCoinNode.active = false;
+        this._pubbleItems = [];
+        for (var index = 1; index < 7; index++) {
+          var item = this._moveNode.getChildByName("bubble_" + index);
+          item.active = false;
+          item.setPosition(cc.v2(0, 0));
+          this._pubbleItems.push(item);
+        }
+        this.node.on(cc.Node.EventType.TOUCH_START, this.onEventStart, this);
+      },
+      bindBubble: function bindBubble(id, posIndex, nextIndex, type, coin) {
+        this._id = id;
+        this._type = type;
+        this._cfg = bubbleCfg.bubbleData[id];
+        this._currPosIndex = posIndex;
+        this.node.active = true;
+        this._click = true;
+        this._pubbleItems[this._type].active = true;
+        this._bubbleSpine = this._pubbleItems[this._type].getChildByName("bubble_spine");
+        this._bubbleSpine.active = true;
+        this._baozaSpine = this._pubbleItems[this._type].getChildByName("baoza_spine");
+        this._baozaSpine.active = false;
+        this._jackpot = this._pubbleItems[this._type].getChildByName("jackpot");
+        this._jackpot && (this._jackpot.active = true);
+        this.node.setScale(this._cfg.size);
+        this.node.setPosition(new cc.v2(this._cfg.route[this._currPosIndex].x, this._cfg.route[this._currPosIndex].y));
+        nextIndex > 0 ? nextIndex < this._cfg.route.length ? this._nextPosIndex = nextIndex : this._nextPosIndex = -1 : this._currPosIndex + 1 < this._cfg.route.length ? this._nextPosIndex = this._currPosIndex + 1 : this._nextPosIndex = -1;
+        if (0 == this._type) {
+          var mult = Math.floor(coin / cc.vv.gameData.GetTotalBet());
+          this._coinNum = coin;
+          if (mult < 10) {
+            this._bigCoinNode.active = false;
+            this._smallCoinNode.active = true;
+            this._smallCoinNode.getComponent(cc.Label).string = Global.convertNumToShort(coin, 1e3, 1, null, 1e3);
+          } else {
+            this._smallCoinNode.active = false;
+            this._bigCoinNode.active = true;
+            this._bigCoinNode.getComponent(cc.Label).string = Global.convertNumToShort(coin, 1e3, 1, null, 1e3);
+          }
+        }
+      },
+      moveBubble: function moveBubble() {
+        var _this2 = this;
+        this._coinNode.active = true;
+        if (this._nextPosIndex >= 0) {
+          this._currPosIndex = this._nextPosIndex;
+          var movePosition = cc.v2(this._cfg.route[this._nextPosIndex].x, this._cfg.route[this._nextPosIndex].y);
+          this.node.runAction(cc.sequence(cc.moveTo(2, movePosition), cc.callFunc(function() {
+            _this2._moveNode.stopAllActions();
+            _this2._moveNode.setPosition(cc.v2(0, 0));
+            _this2._bubbleSpine.getComponent(sp.Skeleton).setAnimation(0, "animation1", true);
+          })));
+          this._moveNode.runAction(cc.repeatForever(cc.sequence(cc.moveBy(.5, cc.v2(-50, 0)), cc.moveBy(1, cc.v2(100, 0)), cc.moveBy(.5, cc.v2(-50, 0)))));
+          var animationName = this._id % 2 == 0 ? "animation4" : "animation5";
+          this._bubbleSpine.getComponent(sp.Skeleton).setAnimation(0, animationName, true);
+          this._currPosIndex + 1 < this._cfg.route.length ? this._nextPosIndex = this._currPosIndex + 1 : this._nextPosIndex = -1;
+          this._isKeepMove = true;
+          return false;
+        }
+        var moveEndPosition = cc.v2(this._cfg.route[0].x, 600);
+        var posMoveSpace = this.node.parent.convertToWorldSpaceAR(moveEndPosition);
+        this.node.runAction(cc.spawn(cc.moveTo(5, moveEndPosition), cc.sequence(cc.delayTime(2.8), cc.callFunc(function() {
+          Global.TheEvilGameControl.collectBonusControl.shotBubble(posMoveSpace, 1.2);
+        }), cc.delayTime(2.2), cc.callFunc(function() {
+          _this2.playbrokenBubble();
+        }))));
+        this._bubbleSpine.getComponent(sp.Skeleton).setAnimation(0, "animation3", true);
+        this._isKeepMove = false;
+        return true;
+      },
+      stopBubble: function stopBubble() {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          var movePosition;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              if (_this3._isKeepMove) {
+                movePosition = cc.v2(_this3._cfg.route[_this3._currPosIndex].x, _this3._cfg.route[_this3._currPosIndex].y);
+                _this3.node.stopAllActions();
+                _this3._moveNode.stopAllActions();
+                _this3._moveNode.setPosition(cc.v2(0, 0));
+                _this3._bubbleSpine.getComponent(sp.Skeleton).setAnimation(0, "animation1", true);
+                _this3.node.setPosition(movePosition);
+              }
+
+             case 1:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      playbrokenBubble: function playbrokenBubble() {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var animationName;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              _this4._bubbleSpine.active = false;
+              _this4._smallCoinNode.active = false;
+              _this4._bigCoinNode.active = false;
+              _this4._baozaSpine.active = true;
+              _this4._jackpot && (_this4._jackpot.active = false);
+              animationName = 5 == _this4._type ? "animation1" : "animation";
+              _this4._baozaSpine.getComponent(sp.Skeleton).setAnimation(0, animationName, false);
+              _this4._baozaSpine.getComponent(sp.Skeleton).setCompleteListener(function() {
+                _this4.node.removeFromParent();
+                _this4.node.destroy();
+              });
+
+             case 8:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      playActiveBubble: function playActiveBubble() {
+        var _this5 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              _this5._coinNode.active = false;
+              _this5._bubbleSpine.getComponent(sp.Skeleton).setAnimation(0, "animation2", true);
+
+             case 2:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      },
+      setCoinActive: function setCoinActive(isActive) {
+        var _this6 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee4() {
+          return regeneratorRuntime.wrap(function _callee4$(_context4) {
+            while (1) switch (_context4.prev = _context4.next) {
+             case 0:
+              _this6._coinNode.active = isActive;
+
+             case 1:
+             case "end":
+              return _context4.stop();
+            }
+          }, _callee4);
+        }))();
+      },
+      creatPickBubble: function creatPickBubble(id, idx) {
+        var _this7 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee5() {
+          var movePosition;
+          return regeneratorRuntime.wrap(function _callee5$(_context5) {
+            while (1) switch (_context5.prev = _context5.next) {
+             case 0:
+              _this7._id = id;
+              _this7._index = idx || 0;
+              _this7._type = 0;
+              _this7._cfg = bubbleCfg.bubbleData[id];
+              _this7.node.active = true;
+              _this7._click = false;
+              _this7._pubbleItems[_this7._type].active = true;
+              _this7._bubbleSpine = _this7._pubbleItems[_this7._type].getChildByName("bubble_spine");
+              _this7._bubbleSpine.active = true;
+              _this7._baozaSpine = _this7._pubbleItems[_this7._type].getChildByName("baoza_spine");
+              _this7._baozaSpine.active = false;
+              _this7.node.setScale(_this7._cfg.size);
+              _this7.node.setPosition(new cc.v2(_this7._cfg.pickPosX, -cc.winSize.height / 2));
+              _this7._bubbleSpine.getComponent(sp.Skeleton).setAnimation(0, _this7._cfg.pickMoveAnimation, true);
+              movePosition = cc.v2(_this7._cfg.pickPosX, 1300);
+              _this7.node.runAction(cc.sequence(cc.moveTo(10, movePosition), cc.callFunc(function() {
+                Global.TheEvilGameControl.bubbleControl.deleteBubble(_this7.node);
+                _this7.node.removeFromParent();
+                _this7.node.destroy();
+              })));
+
+             case 16:
+             case "end":
+              return _context5.stop();
+            }
+          }, _callee5);
+        }))();
+      },
+      onClick: function onClick() {
+        var _this8 = this;
+        Global.TheEvilGameControl.bubbleControl._pickBubbleCnt = 0;
+        this.node.stopAllActions();
+        this._bubbleSpine.active = false;
+        this._baozaSpine.active = true;
+        this._baozaSpine.getComponent(sp.Skeleton).setAnimation(0, "animation", false);
+        var pickInfo = Global.TheEvilGameControl.bubbleControl.clickPickBubble();
+        if (pickInfo) {
+          Global.TheEvilGameControl.bubbleControl.deleteBubble(this.node);
+          if (0 == pickInfo.type) {
+            19 == pickInfo.index ? Global.TheEvilGameControl.pickGameControl.updateTips(3, pickInfo.index) : Global.TheEvilGameControl.pickGameControl.updateTips(2, pickInfo.index);
+            Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bubble_reveal);
+            this._pickCoinNode.active = true;
+            this._pickCoinNode.getComponent(cc.Label).string = Global.convertNumToShort(pickInfo.coin, 1e3, 1, null, 1e3);
+            this._baozaSpine.runAction(cc.sequence(cc.delayTime(.3), cc.callFunc(function() {
+              var startPos = _this8.node.getPosition();
+              var bezier = [ cc.v2(startPos.x / 2, startPos.y + 100), cc.v2(startPos.x / 2, startPos.y + 100), cc.v2(0, -cc.winSize.height / 2 + 180) ];
+              _this8.node.runAction(cc.bezierTo(.5, bezier));
+              _this8._pickCoinNode.runAction(cc.sequence(cc.scaleTo(.5, 0).easing(cc.easeBackIn()), cc.callFunc(function() {
+                var currentCoin = cc.vv.gameData.GetBottomScript().getCurrentWin();
+                cc.vv.gameData.GetBottomScript().ShowWin(currentCoin + pickInfo.coin, .8, null, null);
+                _this8.node.removeFromParent();
+                _this8.node.destroy();
+              })));
+            })));
+          } else if (1 == pickInfo.type) {
+            Global.TheEvilGameControl.pickGameControl.updateTips(4, pickInfo.index);
+            Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bubble_reveal);
+            this._pickCoinNode.active = true;
+            this._pickCoinNode.getComponent(cc.Label).string = Global.convertNumToShort(pickInfo.coin, 1e3, 1, null, 1e3);
+            Global.TheEvilGameControl.bubbleControl.stopPickBubble();
+            this._baozaSpine.runAction(cc.sequence(cc.delayTime(.3), cc.callFunc(function() {
+              var startPos = _this8.node.getPosition();
+              var bezier = [ cc.v2(startPos.x / 2, startPos.y + 100), cc.v2(startPos.x / 2, startPos.y + 100), cc.v2(0, -cc.winSize.height / 2 + 180) ];
+              _this8.node.runAction(cc.bezierTo(.5, bezier));
+              _this8._pickCoinNode.runAction(cc.sequence(cc.scaleTo(.5, 0).easing(cc.easeBackIn()), cc.callFunc(function() {
+                var currentCoin = cc.vv.gameData.GetBottomScript().getCurrentWin();
+                cc.vv.gameData.GetBottomScript().ShowWin(currentCoin + pickInfo.coin, .8, null, null);
+                _this8.node.removeFromParent();
+                _this8.node.destroy();
+                Global.TheEvilGameControl.pickGameControl.showEndGame();
+              })));
+            })));
+          } else if (2 == pickInfo.type) {
+            var posStartWorld = this.node.convertToWorldSpaceAR(cc.v2(0));
+            Global.TheEvilGameControl.pickGameControl.updateTips(4, pickInfo.index);
+            Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bubble_scatter);
+            Global.TheEvilGameControl.bubbleControl.stopPickBubble();
+            Global.TheEvilGameControl.pickGameControl.showEmoCoin(posStartWorld, pickInfo.coin);
+            this.scheduleOnce(function() {
+              _this8.node.removeFromParent();
+            }, .3);
+          }
+        }
+      },
+      showTriggerAnimation: function showTriggerAnimation(pointIdx) {
+        if (this._showTriggerAnimation) return;
+        var pos = this.node.position;
+        for (var i = 0; i < this._cfg.route.length; i++) {
+          var route = this._cfg.route[i];
+          if (route.x === pos.x && route.y === pos.y) {
+            if (-1 !== route.point.indexOf(pointIdx)) {
+              this._showTriggerAnimation = true;
+              cc.tween(this.node).repeatForever(cc.tween(this.node).to(.3, {
+                scale: 1.2 * this._cfg.size
+              }, {
+                easing: "backOut"
+              }).to(.2, {
+                scale: this._cfg.size
+              })).start();
+              if (this._type > 0) {
+                var slots = cc.vv.gameData.GetSlotsScript();
+                slots.ShowJackpotEffect(true);
+              }
+            }
+            break;
+          }
+        }
+      },
+      stopTriggerAnimation: function stopTriggerAnimation() {
+        this.node.stopAllActions();
+        this.node.setScale(this._cfg.size);
+        this._showTriggerAnimation = false;
+        var slots = cc.vv.gameData.GetSlotsScript();
+        slots.ShowJackpotEffect(false);
+      },
+      onEventStart: function onEventStart(event) {
+        if (this._click) return;
+        this._click = true;
+        this.onClick();
+      }
+    });
+    cc._RF.pop();
+  }, {
+    TheEvil_BubbleCfg: "TheEvil_BubbleCfg"
+  } ],
+  TheEvil_Cfg: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "76c38o+71dAarGz88CV3b41", "TheEvil_Cfg");
+    "use strict";
+    var _symbol;
+    function _defineProperty(obj, key, value) {
+      key in obj ? Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+      }) : obj[key] = value;
+      return obj;
+    }
+    var Cfg = {
+      symbol: (_symbol = {}, _defineProperty(_symbol, 1, {
+        node: "s1",
+        win_node: "w1",
+        idle_ani: {
+          name: "animation2",
+          zIndex: 100
+        },
+        trigger_bubble: {
+          name: "animation3",
+          zIndex: 400
+        },
+        trigger_bubble_idle: {
+          name: "animation4",
+          zIndex: 400
+        },
+        disappear_ani: {
+          name: "animation5",
+          zIndex: 200
+        },
+        coin: "coin"
+      }), _defineProperty(_symbol, 2, {
+        node: "s2",
+        win_node: "w2",
+        win_ani: {
+          name: "animation2",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 3, {
+        node: "s3",
+        win_node: "w3",
+        win_ani: {
+          name: "animation2",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 4, {
+        node: "s4",
+        win_node: "w4",
+        win_ani: {
+          name: "animation2",
+          zIndex: 300
+        },
+        isMask: true
+      }), _defineProperty(_symbol, 5, {
+        node: "s5",
+        win_node: "w5",
+        win_ani: {
+          name: "animation2",
+          zIndex: 300
+        },
+        isMask: true
+      }), _defineProperty(_symbol, 6, {
+        node: "s6",
+        win_node: "w6",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        },
+        isMask: true
+      }), _defineProperty(_symbol, 7, {
+        node: "s7",
+        win_node: "w7",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        },
+        isMask: true
+      }), _defineProperty(_symbol, 8, {
+        node: "s8",
+        win_node: "w8",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        },
+        isMask: true
+      }), _defineProperty(_symbol, 9, {
+        node: "s9",
+        win_node: "w9",
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        },
+        isMask: true
+      }), _defineProperty(_symbol, 10, {
+        node: "s10",
+        win_node: "w10",
+        stop_ani: {
+          name: "animation1",
+          zIndex: 100
+        },
+        idle_ani: {
+          name: "animation3",
+          zIndex: 100
+        },
+        trigger_ani: {
+          name: "animation2",
+          zIndex: 400
+        },
+        disappear_ani: {
+          name: "",
+          zIndex: 200
+        }
+      }), _defineProperty(_symbol, 11, {
+        node: "s11",
+        win_node: "w11",
+        stop_ani: {
+          name: "animation1",
+          zIndex: 100
+        },
+        idle_ani: {
+          name: "",
+          zIndex: 100
+        },
+        trigger_ani: {
+          name: "animation2",
+          zIndex: 400
+        },
+        disappear_ani: {
+          name: "",
+          zIndex: 200
+        }
+      }), _symbol),
+      scripts: {
+        Top: "TheEvil_Top",
+        Bottom: "TheEvil_Bottom",
+        Slots: "TheEvil_Slots",
+        Reels: "TheEvil_Reel",
+        Symbols: "TheEvil_Symbol",
+        Sound: "TheEvil_Sound"
+      },
+      col: 5,
+      row: 4,
+      symbolPrefab: "LMSlots_Symbol",
+      symbolSize: {
+        width: 118,
+        height: 118
+      },
+      AddAntiTime: 2,
+      randomSymbols: [ 2, 3, 4, 5, 6, 7, 8, 9 ],
+      kuang: "kuang",
+      normalBgm: "base_bgm",
+      helpItems: [ "games/TheEvil/prefab/LMSlots_Help_item1", "games/TheEvil/prefab/LMSlots_Help_item2", "games/TheEvil/prefab/LMSlots_Help_item3", "games/TheEvil/prefab/LMSlots_Help_item4", "games/TheEvil/prefab/LMSlots_Help_item5", "games/TheEvil/prefab/LMSlots_Help_item6", "games/TheEvil/prefab/LMSlots_Help_item7" ],
+      speed: 3e3,
+      reelStopInter: .2,
+      auto_stop_time: 1,
+      autoModelDelay: 1,
+      commEffect: {
+        path: "games/TheEvil/",
+        win1: [ "win1", "win1end" ],
+        win2: [ "win2", "win2end" ]
+      },
+      bounceInfo: {
+        distance: 20,
+        time: .1
+      },
+      reelStateInfo: [ {
+        id: [ 1 ],
+        mini: 15,
+        counts: [ 1, 1, 1, 1, 1, 15 ],
+        path: "games/TheEvil/",
+        reelStopSound: "reel_stop",
+        symbolStopSound: "star_landing"
+      }, {
+        id: [ 11 ],
+        mini: 3,
+        counts: [ 1, 1, 1, 1, 1 ],
+        antiNode: "node_bg",
+        path: "games/TheEvil/",
+        reelStopSound: "reel_stop",
+        symbolStopSound: "anticipation2_1",
+        antSound: "anticipation2_2",
+        antSpeed: 1800,
+        isKeepShow: true
+      }, {
+        id: [ 10 ],
+        mini: 3,
+        counts: [ 1, 1, 1, 1, 1 ],
+        antiNode: "node_anti",
+        path: "games/TheEvil/",
+        reelStopSound: "reel_stop",
+        symbolStopSound: "scatter1_landing",
+        antSound: "anticipation1_2",
+        antSpeed: 1800
+      } ],
+      sysFloatOffsetPos: cc.v2(0, 20)
+    };
+    module.exports = Cfg;
+    cc._RF.pop();
+  }, {} ],
+  TheEvil_CollectBonusControl: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "feb87sYvodM7oaD45qkaQ5D", "TheEvil_CollectBonusControl");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        particleNode: {
+          default: null,
+          type: cc.Node
+        },
+        _gameUI: null,
+        _xiaoEmo: null,
+        _logo: null,
+        _collectAni: null,
+        _itemNode: null,
+        _itemList: [],
+        _superText: null,
+        _clickButton: null,
+        _mask: null,
+        _collectData: null,
+        _particleList: [],
+        _particleShotBubbleList: []
+      },
+      awaitTime: function awaitTime(time) {
+        var _this = this;
+        return new Promise(function(sucess, failed) {
+          _this.scheduleOnce(function() {
+            sucess();
+          }, time);
+        });
+      },
+      onLoad: function onLoad() {
+        var _this2 = this;
+        this._xiaoEmo = cc.find("Canvas/safe_node/character");
+        this._s_fireNode = cc.find("fire_node", this._xiaoEmo);
+        this._gameUI = cc.find("Game_UI", this.node);
+        this._logo = cc.find("Game_UI/logo", this.node);
+        this._collectAni = cc.find("Game_UI/collect_ani", this.node);
+        this._itemNode = cc.find("Game_UI/item_node", this.node);
+        this._superText = cc.find("Game_UI/item_node/super_text", this.node);
+        this._clickButton = cc.find("Game_UI/button", this.node);
+        this._mask = cc.find("Game_UI/mask", this.node);
+        this._particleShotBubbleList = [];
+        this._particleList = [];
+        for (var idx = 1; idx < 6; idx++) {
+          var item = cc.find("particle_" + idx, this.particleNode);
+          item.active = false;
+          this._particleList.push(item);
+        }
+        for (var i = 1; i < 5; i++) {
+          var _item = cc.find("Game_UI/logo/sadantx_" + i, this.node);
+          _item.active = false;
+          this._particleShotBubbleList.push(_item);
+        }
+        for (var index = 1; index < 11; index++) {
+          var _item2 = cc.find("item_" + index, this._itemNode);
+          _item2.getChildByName("icon").active = false;
+          this._itemList.push(_item2);
+        }
+        this._clickButton.on("click", function() {
+          if ("idle" != cc.vv.gameData.GetSlotState()) return;
+          if (cc.vv.gameData.GetAutoModelTime() > 0) return;
+          if (cc.vv.gameData.getNeedBet() <= cc.vv.gameData._deskInfo.mults.length) {
+            var bottom = cc.vv.gameData.GetBottomScript();
+            bottom.SetBetIdx(cc.vv.gameData.getNeedBet());
+            _this2.updataCollectState();
+          }
+        });
+      },
+      initData: function initData() {
+        this._collectData = cc.vv.gameData.collectData;
+        for (var index = 0; index < this._collectData.num; index++) this._itemList[index].getChildByName("icon").active = true;
+        var currBetIndex = cc.vv.gameData.GetBetIdx();
+        if (currBetIndex >= cc.vv.gameData.getNeedBet()) {
+          this._isLock = false;
+          this.playMaskAnimation(1);
+        } else {
+          this._isLock = true;
+          this.playMaskAnimation(3);
+        }
+      },
+      showFreeGameCollect: function showFreeGameCollect(isShow) {
+        if (isShow) this._isLock ? this.playMaskAnimation(3) : this.playMaskAnimation(4); else {
+          this._collectData.num == this._collectData.max && this.reSetCollect();
+          if (this._isLock) this.playMaskAnimation(3); else {
+            Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.unlock);
+            this.playMaskAnimation(1);
+          }
+        }
+      },
+      reSetCollect: function reSetCollect() {
+        for (var index = 0; index < 10; index++) this._itemList[index].getChildByName("icon").active = false;
+        this._collectData.num = 0;
+      },
+      isSuperBonus: function isSuperBonus() {
+        return this._collectData.num == this._collectData.max;
+      },
+      activeBonus: function activeBonus() {
+        var currBetIndex = cc.vv.gameData.GetBetIdx();
+        if (currBetIndex >= cc.vv.gameData.getNeedBet()) {
+          Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.symbol_collect);
+          this._collectData.num = this._collectData.num + 1;
+          this._itemList[this._collectData.num - 1].getChildByName("icon").active = true;
+          if (this._collectData.num == this._collectData.max) {
+            this._itemList[this._collectData.num - 1].getChildByName("icon").getComponent(sp.Skeleton).setAnimation(0, "animation1_1", false);
+            this._itemList[this._collectData.num - 1].getChildByName("icon").getComponent(sp.Skeleton).setAnimation(0, "animation2_2", true);
+            this._superText.getComponent(sp.Skeleton).setAnimation(0, "animation2", false);
+            this._superText.getComponent(sp.Skeleton).addAnimation(0, "animation1", true);
+          } else {
+            this._itemList[this._collectData.num - 1].getChildByName("icon").getComponent(sp.Skeleton).setAnimation(0, "animation1", false);
+            this._itemList[this._collectData.num - 1].getChildByName("icon").getComponent(sp.Skeleton).setAnimation(0, "animation2", true);
+          }
+        }
+      },
+      flyParticle: function flyParticle(node) {
+        var _this3 = this;
+        var currBetIndex = cc.vv.gameData.GetBetIdx();
+        if (currBetIndex >= cc.vv.gameData.getNeedBet()) {
+          var wordPos = node.convertToWorldSpaceAR(cc.v2(0));
+          var endPos = this._itemList[this._collectData.num].position;
+          var _iterator = _createForOfIteratorHelper(this._particleList), _step;
+          try {
+            var _loop = function _loop() {
+              var par = _step.value;
+              if (false == par.active) {
+                par.active = true;
+                par.position = _this3.particleNode.convertToNodeSpaceAR(wordPos);
+                par.runAction(cc.sequence(cc.moveTo(1, endPos), cc.callFunc(function() {
+                  par.active = false;
+                })));
+                return "break";
+              }
+            };
+            for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+              var _ret = _loop();
+              if ("break" === _ret) break;
+            }
+          } catch (err) {
+            _iterator.e(err);
+          } finally {
+            _iterator.f();
+          }
+        }
+      },
+      updataCollectState: function updataCollectState() {
+        var currBetIndex = cc.vv.gameData.GetBetIdx();
+        if (currBetIndex >= cc.vv.gameData.getNeedBet()) {
+          if (this._isLock) {
+            Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.unlock);
+            this.playMaskAnimation(1);
+          }
+        } else if (!this._isLock) {
+          Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.lock);
+          this.playMaskAnimation(2);
+        }
+      },
+      playMaskAnimation: function playMaskAnimation(type) {
+        var spCollect = this._collectAni.getComponent(sp.Skeleton);
+        this._collectAni.active = true;
+        if (1 == type) {
+          cc.tween(this._superText).to(1, {
+            opacity: 255
+          }).start();
+          spCollect.setAnimation(0, "animation1", false);
+          this._isLock = false;
+          this._clickButton.getComponent(cc.Button).interactable = false;
+        } else if (2 == type) {
+          spCollect.setAnimation(0, "animation2", false);
+          spCollect.addAnimation(0, "animation3", true);
+          cc.tween(this._superText).to(.5, {
+            opacity: 0
+          }).start();
+          this._isLock = true;
+          this._clickButton.getComponent(cc.Button).interactable = true;
+        } else if (3 == type) {
+          spCollect.setAnimation(0, "animation3", true);
+          cc.tween(this._superText).to(0, {
+            opacity: 0
+          }).start();
+          this._isLock = true;
+          this._clickButton.getComponent(cc.Button).interactable = true;
+        } else if (4 == type) {
+          spCollect.setAnimation(0, "animation4", true);
+          cc.tween(this._superText).to(0, {
+            opacity: 0
+          }).start();
+          this._clickButton.getComponent(cc.Button).interactable = false;
+        }
+      },
+      setMask: function setMask(active) {
+        this._mask.active = active;
+      },
+      shotBubble: function shotBubble(posMoveWorld, time) {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          var animation, posMoveSpace, _iterator2, _step2, _loop2, _ret2;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              animation = _this4._xiaoEmo.getComponent(sp.Skeleton);
+              animation.setAnimation(0, "skill02", false);
+              animation.setCompleteListener(function() {
+                animation.setAnimation(0, "idle", false);
+              });
+              posMoveSpace = _this4._logo.convertToNodeSpaceAR(posMoveWorld);
+              _context.next = 6;
+              return _this4.awaitTime(time);
+
+             case 6:
+              Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bubble_boom);
+              _iterator2 = _createForOfIteratorHelper(_this4._particleShotBubbleList);
+              _context.prev = 8;
+              _loop2 = function _loop2() {
+                var par = _step2.value;
+                if (false == par.active) {
+                  par.active = true;
+                  var sPos = par.parent.convertToNodeSpaceAR(_this4._s_fireNode.convertToWorldSpaceAR(cc.v2(0, 0)));
+                  par.setPosition(sPos);
+                  var v = cc.v2(posMoveSpace.x, posMoveSpace.y).sub(cc.v2(sPos.x, sPos.y));
+                  var length = v.mag();
+                  var angle = v.signAngle(cc.v2(1, 0));
+                  par.angle = -angle * cc.macro.DEG + 90;
+                  par.scale = length / 550;
+                  par.getComponent(sp.Skeleton).setAnimation(0, "skill02", false);
+                  par.getComponent(sp.Skeleton).setCompleteListener(function() {
+                    par.active = false;
+                  });
+                  return "break";
+                }
+              };
+              _iterator2.s();
+
+             case 11:
+              if ((_step2 = _iterator2.n()).done) {
+                _context.next = 17;
+                break;
+              }
+              _ret2 = _loop2();
+              if (!("break" === _ret2)) {
+                _context.next = 15;
+                break;
+              }
+              return _context.abrupt("break", 17);
+
+             case 15:
+              _context.next = 11;
+              break;
+
+             case 17:
+              _context.next = 22;
+              break;
+
+             case 19:
+              _context.prev = 19;
+              _context.t0 = _context["catch"](8);
+              _iterator2.e(_context.t0);
+
+             case 22:
+              _context.prev = 22;
+              _iterator2.f();
+              return _context.finish(22);
+
+             case 25:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee, null, [ [ 8, 19, 22, 25 ] ]);
+        }))();
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  TheEvil_GameData: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "252dbf5fkdCeq4IJjQCwFlp", "TheEvil_GameData");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_GameData_Base"),
+      properties: {
+        _isBonusGame: false,
+        _isFreeGame: false,
+        pickInfo: [],
+        isFreeState: false,
+        allBububbleInfo: [],
+        currBububbleInfo: [],
+        collectData: null
+      },
+      init: function init(deskInfo, gameId, gameJackpot) {
+        this._super(deskInfo, gameId, gameJackpot);
+        this._isFreeGame = this._deskInfo.restFreeCount > 0;
+        this.pickInfo = this._deskInfo.pickInfo;
+        this.allBububbleInfo = this._deskInfo.allBububbleInfo;
+        this.currBububbleInfo = this._deskInfo.bubbleInfo;
+        this.collectData = this._deskInfo.collectData;
+      },
+      OnRcvNetSpine: function OnRcvNetSpine(msg) {
+        if (200 == msg.code) {
+          this.pickInfo = msg.pickInfo;
+          this.isFreeState = msg.freeResult.isFreeState;
+          this.allBububbleInfo = msg.allBububbleInfo;
+          this.currBububbleInfo = msg.bubbleInfo;
+        }
+        this._super(msg);
+      },
+      setIsBonusGame: function setIsBonusGame(isBonus) {
+        this._isBonusGame = isBonus;
+      },
+      isBonusGame: function isBonusGame() {
+        return this._isBonusGame;
+      },
+      setIsFreeGame: function setIsFreeGame(isFreeGame) {
+        this._isFreeGame = isFreeGame;
+      },
+      isFreeGame: function isFreeGame() {
+        return this._isFreeGame;
+      },
+      getNeedBet: function getNeedBet() {
+        return this._deskInfo.needBet;
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_GameData_Base: void 0
+  } ],
+  TheEvil_Logic: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "20f89k7dp1Ln7/D9jRbG/qT", "TheEvil_Logic");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Logic_Base"),
+      properties: {
+        popupUIControl: {
+          default: null,
+          visible: false
+        },
+        bubbleControl: {
+          default: null,
+          visible: false
+        },
+        pickGameControl: {
+          default: null,
+          visible: false
+        },
+        collectBonusControl: {
+          default: null,
+          visible: false
+        }
+      },
+      InitCommComponent: function InitCommComponent() {
+        this._super();
+        this.popupUIControl = cc.find("Canvas/safe_node/Popup_UI").getComponent("TheEvil_PopupUIControl");
+        this.bubbleControl = cc.find("Canvas/safe_node/Bubble_Control").getComponent("TheEvil_BubbleControl");
+        this.pickGameControl = cc.find("Canvas/safe_node/Pick_Game_UI").getComponent("TheEvil_PickGameControl");
+        this.collectBonusControl = cc.find("Canvas/safe_node/Collect_Bonus_UI").getComponent("TheEvil_CollectBonusControl");
+        Global.TheEvilGameControl = this;
+      },
+      onDestroy: function onDestroy() {
+        Global.TheEvilGameControl = null;
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Logic_Base: void 0
+  } ],
+  TheEvil_PickGameControl: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "8ddcfh7vxhPzojuRVpJytnR", "TheEvil_PickGameControl");
+    "use strict";
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        _gameUI: null,
+        _pickKuang: null,
+        _xiaoemo: null,
+        _xiaoemoCoin: null,
+        _coinLable: null,
+        _suziLable: null,
+        _textArr: [],
+        _exitCallBack: null,
+        _pickData: null,
+        _bonusWinCoin: 0,
+        _activeTips: null,
+        _tipText: null
+      },
+      awaitTime: function awaitTime(time) {
+        var _this = this;
+        return new Promise(function(sucess, failed) {
+          _this.scheduleOnce(function() {
+            sucess();
+          }, time);
+        });
+      },
+      onLoad: function onLoad() {
+        this._gameUI = cc.find("Game_UI", this.node);
+        this._gameUI.active = false;
+        this._pickKuang = cc.find("Game_UI/pick_kuang", this.node);
+        this._xiaoemo = cc.find("Game_UI/xiaoemo_node/xiaoemo", this.node);
+        this._xiaoemoCoin = cc.find("Game_UI/xiaoemo_coin", this.node);
+        this._coinLable = cc.find("Game_UI/xiaoemo_coin/coin", this.node);
+        this._suziLable = cc.find("Game_UI/pick_kuang/text_2/suzi", this.node);
+        for (var index = 1; index < 5; index++) {
+          var tempText = this._pickKuang.getChildByName("text_" + index);
+          this._textArr.push(tempText);
+        }
+        this._tipText = cc.find("pick_a_bubble_text", this._gameUI);
+      },
+      initData: function initData(data) {
+        var _this2 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              _this2._pickData = data;
+              _this2._bonusWinCoin = _this2._pickData.totaolWinCoin;
+              _this2._xiaoemoCoin.active = false;
+              _this2._coinLable.active = false;
+              _this2._xiaoemo.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+              _this2.updateTips(1, _this2._pickData.pickIndex);
+              _context.next = 8;
+              return _this2.awaitTime(1);
+
+             case 8:
+              Global.TheEvilGameControl.bubbleControl.launchPickBubble(_this2._pickData);
+
+             case 9:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      showEmoCoin: function showEmoCoin(startWorldNode, coin) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var posStartSpace, startPos, bezier, currentCoin;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              posStartSpace = _this3._gameUI.convertToNodeSpaceAR(startWorldNode);
+              _this3._xiaoemoCoin.active = true;
+              _this3._xiaoemoCoin.setPosition(posStartSpace);
+              _this3._xiaoemoCoin.setScale(.3);
+              _this3._xiaoemoCoin.getComponent(sp.Skeleton).setAnimation(0, "animation1", false);
+              _context2.next = 7;
+              return _this3.awaitTime(.8);
+
+             case 7:
+              _this3._xiaoemoCoin.getComponent(sp.Skeleton).setAnimation(0, "animation2", true);
+              _this3._xiaoemoCoin.runAction(cc.spawn(cc.moveTo(.5, cc.v2(0, 100)), cc.scaleTo(1, 1)));
+              _this3._xiaoemo.getComponent(sp.Skeleton).setAnimation(0, "skill02", false);
+              _context2.next = 12;
+              return new Promise(function(sucess, failed) {
+                _this3._xiaoemo.getComponent(sp.Skeleton).setCompleteListener(function() {
+                  sucess();
+                  _this3._xiaoemo.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+                });
+              });
+
+             case 12:
+              Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.scatter_reveal);
+              _this3._xiaoemoCoin.getComponent(sp.Skeleton).setAnimation(0, "animation3", false);
+              _context2.next = 16;
+              return _this3.awaitTime(.8);
+
+             case 16:
+              _this3._coinLable.active = true;
+              _this3._coinLable.getComponent(cc.Label).string = Global.convertNumToShort(coin, 1e3, 1, null, 1e3);
+              _this3._xiaoemoCoin.getComponent(sp.Skeleton).setAnimation(0, "animation4", false);
+              _context2.next = 21;
+              return _this3.awaitTime(.2);
+
+             case 21:
+              startPos = _this3._xiaoemoCoin.getPosition();
+              bezier = [ cc.v2(startPos.x / 2, startPos.y + 100), cc.v2(startPos.x / 2, startPos.y + 100), cc.v2(0, -cc.winSize.height / 2 + 180) ];
+              _this3._xiaoemoCoin.runAction(cc.spawn(cc.bezierTo(.5, bezier), cc.scaleTo(.5, 0).easing(cc.easeBackIn())));
+              _context2.next = 26;
+              return _this3.awaitTime(.5);
+
+             case 26:
+              currentCoin = cc.vv.gameData.GetBottomScript().getCurrentWin();
+              cc.vv.gameData.GetBottomScript().ShowWin(currentCoin + coin, .8, null, null);
+              _context2.next = 30;
+              return _this3.awaitTime(.5);
+
+             case 30:
+              _context2.next = 32;
+              return Global.TheEvilGameControl.popupUIControl.showPickGameWinner(cc.vv.gameData.GetBottomScript().getCurrentWin());
+
+             case 32:
+              Global.TheEvilGameControl.popupUIControl.playEmoAnimation();
+              _context2.next = 35;
+              return _this3.awaitTime(2);
+
+             case 35:
+              _this3.exitGame();
+
+             case 36:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      showEndGame: function showEndGame() {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              _context3.next = 2;
+              return _this4.awaitTime(.5);
+
+             case 2:
+              _context3.next = 4;
+              return Global.TheEvilGameControl.popupUIControl.showPickGameWinner(cc.vv.gameData.GetBottomScript().getCurrentWin());
+
+             case 4:
+              Global.TheEvilGameControl.popupUIControl.playEmoAnimation();
+              _context3.next = 7;
+              return _this4.awaitTime(2);
+
+             case 7:
+              _this4.exitGame();
+
+             case 8:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      },
+      updateTips: function updateTips(type, index) {
+        var _this5 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee4() {
+          var _iterator, _step, text;
+          return regeneratorRuntime.wrap(function _callee4$(_context4) {
+            while (1) switch (_context4.prev = _context4.next) {
+             case 0:
+              _iterator = _createForOfIteratorHelper(_this5._textArr);
+              try {
+                for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+                  text = _step.value;
+                  text.active = false;
+                }
+              } catch (err) {
+                _iterator.e(err);
+              } finally {
+                _iterator.f();
+              }
+              if (1 == type) {
+                _this5._textArr[0].active = true;
+                _this5._pickKuang.setScale(.1);
+                _this5._pickKuang.runAction(cc.sequence(cc.scaleTo(.3, 1), cc.delayTime(1.5), cc.scaleTo(.3, .1), cc.callFunc(function() {
+                  _this5._textArr[0].active = false;
+                  _this5._textArr[1].active = true;
+                  _this5._activeTips = _this5._textArr[1];
+                  _this5._suziLable.getComponent(cc.Label).string = 20 - index;
+                }), cc.scaleTo(.3, 1)));
+              } else if (2 == type) {
+                _this5._textArr[1].active = true;
+                _this5._activeTips = _this5._textArr[1];
+                _this5._suziLable.getComponent(cc.Label).string = 20 - index;
+              } else if (3 == type) {
+                _this5._pickKuang.setScale(1);
+                _this5._pickKuang.stopAllActions();
+                _this5._pickKuang.runAction(cc.sequence(cc.scaleTo(.3, .1), cc.callFunc(function() {
+                  _this5._textArr[1].active = false;
+                  _this5._activeTips.active = false;
+                  _this5._textArr[2].active = true;
+                  _this5._activeTips = _this5._textArr[2];
+                }), cc.scaleTo(.3, 1)));
+              } else if (4 == type) {
+                _this5._pickKuang.setScale(1);
+                _this5._pickKuang.stopAllActions();
+                _this5._pickKuang.runAction(cc.sequence(cc.scaleTo(.3, .1), cc.callFunc(function() {
+                  _this5._textArr[3].active = true;
+                  _this5._activeTips.active = false;
+                  _this5._textArr[3].active = true;
+                  _this5._activeTips = _this5._textArr[3];
+                }), cc.scaleTo(.3, 1), cc.delayTime(1.5), cc.scaleTo(.3, 0)));
+                _this5._tipText.active = false;
+              }
+
+             case 3:
+             case "end":
+              return _context4.stop();
+            }
+          }, _callee4);
+        }))();
+      },
+      getBonusWinCoin: function getBonusWinCoin() {
+        return this._bonusWinCoin;
+      },
+      exitGame: function exitGame() {
+        cc.vv.gameData.isFreeGame() ? Global.TheEvilGameControl.collectBonusControl.isSuperBonus() ? Global.SlotsSoundMgr.playBgm(Global.SlotsSoundMgr.super_bgm) : Global.SlotsSoundMgr.playBgm(Global.SlotsSoundMgr.free_bgm) : Global.SlotsSoundMgr.playNormalBgm(true);
+        this._gameUI.active = false;
+        this._exitCallBack && this._exitCallBack();
+      },
+      enterGame: function enterGame(data, exitCallBack) {
+        Global.SlotsSoundMgr.playBgm(Global.SlotsSoundMgr.pick_bgm);
+        this._exitCallBack = exitCallBack;
+        this._gameUI.active = true;
+        this.initData(data);
+        this._tipText.active = true;
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  TheEvil_PopupUIControl: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "8b07cyRESRIe7F47H0GlxPt", "TheEvil_PopupUIControl");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        _showResultSpine: null,
+        _popup: null,
+        _transitionSpine1: null,
+        _transitionSpine2: null
+      },
+      onLoad: function onLoad() {
+        this._popup = cc.find("popup", this.node);
+        this._popup.active = false;
+        this._transitionSpine1 = cc.find("transition1", this.node);
+        this._transitionSpine1.active = false;
+        this._transitionSpine2 = cc.find("transition2", this.node);
+        this._transitionSpine2.active = false;
+        this._qipaomaochu = cc.find("qipaomaochu", this.node);
+        this._qipaomaochu.active = false;
+      },
+      awaitTime: function awaitTime(time) {
+        var _this = this;
+        return new Promise(function(sucess, failed) {
+          _this.scheduleOnce(function() {
+            sucess();
+          }, time);
+        });
+      },
+      showPickGameTimes: function showPickGameTimes() {
+        var _this2 = this;
+        return new Promise(function() {
+          var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee(sucess, failed) {
+            var show_popup, text1, text2, text3, text4, startBtn, self, clickFunc;
+            return regeneratorRuntime.wrap(function _callee$(_context) {
+              while (1) switch (_context.prev = _context.next) {
+               case 0:
+                Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.pick_start_show);
+                _this2._popup.active = true;
+                show_popup = _this2._popup.getChildByName("show_pick_games_time");
+                show_popup.active = true;
+                show_popup.setScale(.1);
+                show_popup.runAction(cc.scaleTo(.5, 1).easing(cc.easeBackOut()));
+                text1 = show_popup.getChildByName("text1");
+                text1.setScale(0);
+                text2 = show_popup.getChildByName("text2");
+                text2.setScale(0);
+                text3 = show_popup.getChildByName("text3");
+                text3.setScale(0);
+                text4 = show_popup.getChildByName("text4");
+                text4.setScale(0);
+                startBtn = show_popup.getChildByName("start");
+                startBtn.setScale(0);
+                _context.next = 18;
+                return _this2.awaitTime(.2);
+
+               case 18:
+                text1.runAction(cc.scaleTo(.6, 1).easing(cc.easeBackOut()));
+                text2.runAction(cc.scaleTo(.9, 1).easing(cc.easeBackOut()));
+                text3.runAction(cc.scaleTo(1.1, 1).easing(cc.easeBackOut()));
+                text4.runAction(cc.scaleTo(.9, 1).easing(cc.easeBackOut()));
+                startBtn.runAction(cc.scaleTo(.6, 1).easing(cc.easeBackOut()));
+                _context.next = 25;
+                return _this2.awaitTime(.6);
+
+               case 25:
+                self = _this2;
+                clickFunc = function clickFunc() {
+                  Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.click);
+                  startBtn.off("click");
+                  show_popup.runAction(cc.sequence(cc.scaleTo(.4, .3).easing(cc.easeBackIn()), cc.callFunc(function() {
+                    self._popup.active = false;
+                    show_popup.active = false;
+                    sucess();
+                  })));
+                };
+                cc.vv.gameData.checkAutoPlay(startBtn, clickFunc);
+                startBtn.on("click", function() {
+                  startBtn.stopAllActions();
+                  clickFunc();
+                });
+
+               case 29:
+               case "end":
+                return _context.stop();
+              }
+            }, _callee);
+          }));
+          return function(_x, _x2) {
+            return _ref.apply(this, arguments);
+          };
+        }());
+      },
+      showPickGameWinner: function showPickGameWinner(num) {
+        var _this3 = this;
+        return new Promise(function() {
+          var _ref2 = _asyncToGenerator(regeneratorRuntime.mark(function _callee2(sucess, failed) {
+            var show_popup, text1, text2, textBg, startBtn, coinLable, self, clickFunc;
+            return regeneratorRuntime.wrap(function _callee2$(_context2) {
+              while (1) switch (_context2.prev = _context2.next) {
+               case 0:
+                Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.pick_end_show);
+                _this3._popup.active = true;
+                show_popup = _this3._popup.getChildByName("show_pick_games_winner");
+                show_popup.active = true;
+                show_popup.setScale(.1);
+                show_popup.runAction(cc.scaleTo(.5, 1).easing(cc.easeBackOut()));
+                text1 = show_popup.getChildByName("text1");
+                text1.setScale(0);
+                text2 = show_popup.getChildByName("text2");
+                text2.setScale(0);
+                textBg = show_popup.getChildByName("text_bg");
+                textBg.setScale(0);
+                startBtn = show_popup.getChildByName("start");
+                startBtn.setScale(0);
+                coinLable = textBg.getChildByName("coin");
+                coinLable.getComponent(cc.Label).string = "";
+                _context2.next = 18;
+                return _this3.awaitTime(.2);
+
+               case 18:
+                text1.runAction(cc.scaleTo(.6, 1).easing(cc.easeBackOut()));
+                text2.runAction(cc.scaleTo(.6, 1).easing(cc.easeBackOut()));
+                textBg.runAction(cc.scaleTo(.9, 1).easing(cc.easeBackOut()));
+                startBtn.runAction(cc.scaleTo(.6, 1).easing(cc.easeBackOut()));
+                Global.doRoallNumEff(coinLable, 0, num, 2, null, null, 0, true);
+                _context2.next = 25;
+                return _this3.awaitTime(.6);
+
+               case 25:
+                self = _this3;
+                clickFunc = function clickFunc() {
+                  Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.click);
+                  startBtn.off("click");
+                  show_popup.runAction(cc.sequence(cc.scaleTo(.4, .3).easing(cc.easeBackIn()), cc.callFunc(function() {
+                    self._popup.active = false;
+                    show_popup.active = false;
+                    sucess();
+                  })));
+                };
+                cc.vv.gameData.checkAutoPlay(startBtn, clickFunc);
+                startBtn.on("click", function() {
+                  startBtn.stopAllActions();
+                  clickFunc();
+                });
+
+               case 29:
+               case "end":
+                return _context2.stop();
+              }
+            }, _callee2);
+          }));
+          return function(_x3, _x4) {
+            return _ref2.apply(this, arguments);
+          };
+        }());
+      },
+      showFreeGameTimes: function showFreeGameTimes(num) {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee4() {
+          return regeneratorRuntime.wrap(function _callee4$(_context4) {
+            while (1) switch (_context4.prev = _context4.next) {
+             case 0:
+              return _context4.abrupt("return", new Promise(function() {
+                var _ref3 = _asyncToGenerator(regeneratorRuntime.mark(function _callee3(sucess, failed) {
+                  var show_popup, text1, text2, text3, text4, startBtn, dapaopao, emo, lizixiaoguo, self, clickFunc;
+                  return regeneratorRuntime.wrap(function _callee3$(_context3) {
+                    while (1) switch (_context3.prev = _context3.next) {
+                     case 0:
+                      Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.free_dialog_start_show);
+                      _this4._popup.active = true;
+                      show_popup = _this4._popup.getChildByName("show_free_games_time");
+                      show_popup.active = true;
+                      text1 = show_popup.getChildByName("text1");
+                      text1.setScale(0);
+                      text2 = show_popup.getChildByName("text2");
+                      text2.getComponent(cc.Label).string = "" + num;
+                      text2.setScale(0);
+                      text3 = show_popup.getChildByName("text3");
+                      text3.setScale(0);
+                      text4 = show_popup.getChildByName("text4");
+                      text4.setScale(0);
+                      startBtn = show_popup.getChildByName("start");
+                      startBtn.setScale(0);
+                      dapaopao = show_popup.getChildByName("dapaopao");
+                      dapaopao.getComponent(sp.Skeleton).setAnimation(0, "animation1", false);
+                      dapaopao.getComponent(sp.Skeleton).setCompleteListener(function() {
+                        dapaopao.getComponent(sp.Skeleton).setAnimation(0, "animation2", true);
+                      });
+                      emo = show_popup.getChildByName("emo");
+                      emo.getComponent(sp.Skeleton).setAnimation(0, "animation1", false);
+                      emo.getComponent(sp.Skeleton).setCompleteListener(function() {
+                        emo.getComponent(sp.Skeleton).setAnimation(0, "animation2", true);
+                      });
+                      emo.setPosition(cc.v2(0, -300));
+                      emo.runAction(cc.moveTo(.5, cc.v2(0, 175)).easing(cc.easeBackOut()));
+                      _context3.next = 25;
+                      return _this4.awaitTime(.5);
+
+                     case 25:
+                      lizixiaoguo = show_popup.getChildByName("freeshuzi");
+                      lizixiaoguo.getComponent(sp.Skeleton).setAnimation(0, "animation", false);
+                      text1.runAction(cc.scaleTo(.4, 1).easing(cc.easeBackOut()));
+                      text2.runAction(cc.scaleTo(.9, 1).easing(cc.easeBackOut()));
+                      text3.runAction(cc.scaleTo(.7, 1).easing(cc.easeBackOut()));
+                      text4.runAction(cc.scaleTo(.7, 1).easing(cc.easeBackOut()));
+                      startBtn.runAction(cc.scaleTo(.7, 1).easing(cc.easeBackOut()));
+                      _context3.next = 34;
+                      return _this4.awaitTime(.5);
+
+                     case 34:
+                      self = _this4;
+                      clickFunc = function clickFunc() {
+                        Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.click);
+                        startBtn.off("click");
+                        self._popup.active = false;
+                        show_popup.active = false;
+                        sucess();
+                      };
+                      cc.vv.gameData.checkAutoPlay(startBtn, clickFunc);
+                      startBtn.on("click", function() {
+                        startBtn.stopAllActions();
+                        clickFunc();
+                      });
+
+                     case 38:
+                     case "end":
+                      return _context3.stop();
+                    }
+                  }, _callee3);
+                }));
+                return function(_x5, _x6) {
+                  return _ref3.apply(this, arguments);
+                };
+              }()));
+
+             case 1:
+             case "end":
+              return _context4.stop();
+            }
+          }, _callee4);
+        }))();
+      },
+      showAddFreeGameTimes: function showAddFreeGameTimes(num) {
+        var _this5 = this;
+        return new Promise(function() {
+          var _ref4 = _asyncToGenerator(regeneratorRuntime.mark(function _callee5(sucess, failed) {
+            var show_popup, text1, text2, text3, dapaopao, emo, lizixiaoguo;
+            return regeneratorRuntime.wrap(function _callee5$(_context5) {
+              while (1) switch (_context5.prev = _context5.next) {
+               case 0:
+                Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.free_dialog_start_show);
+                _this5._popup.active = true;
+                show_popup = _this5._popup.getChildByName("show_add_free_games_time");
+                show_popup.active = true;
+                show_popup.setScale(1);
+                text1 = show_popup.getChildByName("text1");
+                text1.setScale(0);
+                text2 = show_popup.getChildByName("text2");
+                text2.getComponent(cc.Label).string = "" + num;
+                text2.setScale(0);
+                text3 = show_popup.getChildByName("text3");
+                text3.setScale(0);
+                dapaopao = show_popup.getChildByName("dapaopao");
+                dapaopao.getComponent(sp.Skeleton).setAnimation(0, "animation1", false);
+                dapaopao.getComponent(sp.Skeleton).setCompleteListener(function() {
+                  dapaopao.getComponent(sp.Skeleton).setAnimation(0, "animation2", true);
+                });
+                emo = show_popup.getChildByName("emo");
+                emo.getComponent(sp.Skeleton).setAnimation(0, "animation1", false);
+                emo.getComponent(sp.Skeleton).setCompleteListener(function() {
+                  emo.getComponent(sp.Skeleton).setAnimation(0, "animation2", true);
+                });
+                emo.setPosition(cc.v2(0, -300));
+                emo.runAction(cc.moveTo(.5, cc.v2(0, 175)).easing(cc.easeBackOut()));
+                _context5.next = 22;
+                return _this5.awaitTime(.5);
+
+               case 22:
+                lizixiaoguo = show_popup.getChildByName("freeshuzi");
+                lizixiaoguo.getComponent(sp.Skeleton).setAnimation(0, "animation", false);
+                text1.runAction(cc.scaleTo(.4, 1).easing(cc.easeBackOut()));
+                text2.runAction(cc.scaleTo(.9, 1).easing(cc.easeBackOut()));
+                text3.runAction(cc.scaleTo(.7, 1).easing(cc.easeBackOut()));
+                _context5.next = 29;
+                return _this5.awaitTime(.8);
+
+               case 29:
+                show_popup.runAction(cc.sequence(cc.scaleTo(.4, .3).easing(cc.easeBackIn()), cc.callFunc(function() {
+                  _this5._popup.active = false;
+                  show_popup.active = false;
+                  sucess();
+                })));
+
+               case 30:
+               case "end":
+                return _context5.stop();
+              }
+            }, _callee5);
+          }));
+          return function(_x7, _x8) {
+            return _ref4.apply(this, arguments);
+          };
+        }());
+      },
+      showFreeGameWinner: function showFreeGameWinner(num) {
+        var _this6 = this;
+        return new Promise(function() {
+          var _ref5 = _asyncToGenerator(regeneratorRuntime.mark(function _callee6(sucess, failed) {
+            var show_popup, text1, text2, textBg, startBtn, coinLable, dapaopao, emo, self, clickFunc;
+            return regeneratorRuntime.wrap(function _callee6$(_context6) {
+              while (1) switch (_context6.prev = _context6.next) {
+               case 0:
+                Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.free_dialog_collect_show);
+                _this6._popup.active = true;
+                show_popup = _this6._popup.getChildByName("show_free_games_winner");
+                show_popup.active = true;
+                show_popup.setScale(1);
+                text1 = show_popup.getChildByName("text1");
+                text1.setScale(0);
+                text2 = show_popup.getChildByName("text2");
+                text2.setScale(0);
+                textBg = show_popup.getChildByName("text_bg");
+                textBg.setScale(0);
+                startBtn = show_popup.getChildByName("start");
+                startBtn.setScale(0);
+                coinLable = textBg.getChildByName("coin");
+                coinLable.getComponent(cc.Label).string = "";
+                dapaopao = show_popup.getChildByName("dapaopao");
+                dapaopao.getComponent(sp.Skeleton).setAnimation(0, "animation1", false);
+                dapaopao.getComponent(sp.Skeleton).setCompleteListener(function() {
+                  dapaopao.getComponent(sp.Skeleton).setAnimation(0, "animation2", true);
+                });
+                emo = show_popup.getChildByName("emo");
+                emo.getComponent(sp.Skeleton).setAnimation(0, "animation1", false);
+                emo.getComponent(sp.Skeleton).setCompleteListener(function() {
+                  emo.getComponent(sp.Skeleton).setAnimation(0, "animation2", true);
+                });
+                emo.setPosition(cc.v2(0, -300));
+                emo.runAction(cc.moveTo(.5, cc.v2(0, 175)).easing(cc.easeBackOut()));
+                _context6.next = 25;
+                return _this6.awaitTime(.5);
+
+               case 25:
+                text1.runAction(cc.scaleTo(.6, 1).easing(cc.easeBackOut()));
+                text2.runAction(cc.scaleTo(.6, 1).easing(cc.easeBackOut()));
+                textBg.runAction(cc.scaleTo(.9, 1).easing(cc.easeBackOut()));
+                startBtn.runAction(cc.scaleTo(.6, 1).easing(cc.easeBackOut()));
+                Global.doRoallNumEff(coinLable, 0, num, 2, null, null, 0, true);
+                _context6.next = 32;
+                return _this6.awaitTime(.5);
+
+               case 32:
+                self = _this6;
+                clickFunc = function clickFunc() {
+                  Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.click);
+                  startBtn.off("click");
+                  show_popup.runAction(cc.sequence(cc.scaleTo(.4, .3).easing(cc.easeBackIn()), cc.callFunc(function() {
+                    self._popup.active = false;
+                    show_popup.active = false;
+                    sucess();
+                  })));
+                };
+                cc.vv.gameData.checkAutoPlay(startBtn, clickFunc);
+                startBtn.on("click", function() {
+                  startBtn.stopAllActions();
+                  clickFunc();
+                });
+
+               case 36:
+               case "end":
+                return _context6.stop();
+              }
+            }, _callee6);
+          }));
+          return function(_x9, _x10) {
+            return _ref5.apply(this, arguments);
+          };
+        }());
+      },
+      showSuperBonusGame: function showSuperBonusGame() {
+        var _this7 = this;
+        return new Promise(function() {
+          var _ref6 = _asyncToGenerator(regeneratorRuntime.mark(function _callee7(sucess, failed) {
+            var show_popup, frame1, frame2, frame3, frame4, start, bg, self, clickFunc;
+            return regeneratorRuntime.wrap(function _callee7$(_context7) {
+              while (1) switch (_context7.prev = _context7.next) {
+               case 0:
+                Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.super_popup);
+                _this7._popup.active = true;
+                show_popup = _this7._popup.getChildByName("show_superBonus");
+                show_popup.active = true;
+                show_popup.setScale(1);
+                frame1 = show_popup.getChildByName("frame1");
+                frame1.setScale(0);
+                frame2 = show_popup.getChildByName("frame2");
+                frame2.setScale(0);
+                frame3 = show_popup.getChildByName("frame3");
+                frame3.setScale(0);
+                frame4 = show_popup.getChildByName("frame4");
+                frame4.setScale(0);
+                start = show_popup.getChildByName("start");
+                start.setScale(0);
+                bg = show_popup.getChildByName("bg");
+                bg.setScale(.8);
+                cc.tween(bg).to(.1, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                _context7.next = 20;
+                return _this7.awaitTime(.1);
+
+               case 20:
+                cc.tween(frame1).to(.6, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                cc.tween(frame2).to(.8, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                cc.tween(frame3).to(.6, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                cc.tween(frame4).to(.6, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                cc.tween(start).to(.6, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                _context7.next = 27;
+                return _this7.awaitTime(.8);
+
+               case 27:
+                self = _this7;
+                clickFunc = function clickFunc() {
+                  Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.click);
+                  start.off("click");
+                  self._popup.active = false;
+                  show_popup.active = false;
+                  sucess();
+                };
+                cc.vv.gameData.checkAutoPlay(start, clickFunc);
+                start.on("click", function() {
+                  start.stopAllActions();
+                  clickFunc();
+                });
+
+               case 31:
+               case "end":
+                return _context7.stop();
+              }
+            }, _callee7);
+          }));
+          return function(_x11, _x12) {
+            return _ref6.apply(this, arguments);
+          };
+        }());
+      },
+      showSuperBonusWinCoin: function showSuperBonusWinCoin(num) {
+        var _this8 = this;
+        return new Promise(function() {
+          var _ref7 = _asyncToGenerator(regeneratorRuntime.mark(function _callee8(sucess, failed) {
+            var show_popup, frame1, text_bg, frame4, start, bg, winLable, self, clickFunc;
+            return regeneratorRuntime.wrap(function _callee8$(_context8) {
+              while (1) switch (_context8.prev = _context8.next) {
+               case 0:
+                Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.super_popclose);
+                _this8._popup.active = true;
+                show_popup = _this8._popup.getChildByName("show_superBonusWinCoin");
+                show_popup.active = true;
+                show_popup.setScale(1);
+                frame1 = show_popup.getChildByName("frame1");
+                frame1.setScale(0);
+                text_bg = show_popup.getChildByName("text_bg");
+                text_bg.setScale(0);
+                frame4 = show_popup.getChildByName("frame4");
+                frame4.setScale(0);
+                start = show_popup.getChildByName("start");
+                start.setScale(0);
+                bg = show_popup.getChildByName("bg");
+                bg.setScale(.8);
+                cc.tween(bg).to(.1, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                _context8.next = 18;
+                return _this8.awaitTime(.1);
+
+               case 18:
+                winLable = cc.find("coin", text_bg);
+                _this8._startAddCoin = true;
+                Global.doRoallNumEff(winLable, Math.floor(.1 * num), num, 2.5, function() {
+                  _this8._startAddCoin = false;
+                }, null, 0, true);
+                cc.tween(frame1).to(.6, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                cc.tween(text_bg).to(.8, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                cc.tween(frame4).to(.6, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                cc.tween(start).to(.6, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                _context8.next = 27;
+                return _this8.awaitTime(.8);
+
+               case 27:
+                self = _this8;
+                clickFunc = function clickFunc() {
+                  Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.click);
+                  start.off("click");
+                  if (self._startAddCoin) {
+                    self._startAddCoin = false;
+                    winLable.stopAllActions();
+                    var winCoinLabel = winLable.getComponent(cc.Label);
+                    winCoinLabel.string = Global.FormatNumToComma(num);
+                  }
+                  show_popup.runAction(cc.sequence(cc.scaleTo(.4, .3).easing(cc.easeBackIn()), cc.callFunc(function() {
+                    self._popup.active = false;
+                    show_popup.active = false;
+                    sucess();
+                  })));
+                };
+                cc.vv.gameData.checkAutoPlay(start, clickFunc);
+                start.on("click", function() {
+                  start.stopAllActions();
+                  clickFunc();
+                });
+
+               case 31:
+               case "end":
+                return _context8.stop();
+              }
+            }, _callee8);
+          }));
+          return function(_x13, _x14) {
+            return _ref7.apply(this, arguments);
+          };
+        }());
+      },
+      playEmoAnimation: function playEmoAnimation() {
+        var _arguments = arguments, _this9 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee9() {
+          var bShowSmall, character1, character2, animation;
+          return regeneratorRuntime.wrap(function _callee9$(_context9) {
+            while (1) switch (_context9.prev = _context9.next) {
+             case 0:
+              bShowSmall = _arguments.length > 0 && void 0 !== _arguments[0] && _arguments[0];
+              character1 = cc.find("Canvas/safe_node/character");
+              character1.active = false;
+              character2 = cc.find("Canvas/safe_node/Pick_Game_UI/Game_UI/xiaoemo_node/xiaoemo");
+              character2.active = false;
+              Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.transition2);
+              _this9._transitionSpine2.active = true;
+              animation = _this9._transitionSpine2.getComponent(sp.Skeleton);
+              animation.setAnimation(0, "skill01", false);
+              animation.setCompleteListener(function() {
+                if (bShowSmall) {
+                  animation.setAnimation(0, "idle", false);
+                  var norScale = _this9._transitionSpine2.scale;
+                  var norPos = _this9._transitionSpine2.position;
+                  var endPos = _this9._transitionSpine2.parent.convertToNodeSpaceAR(character2.convertToWorldSpaceAR(cc.v2(0, 0)));
+                  cc.tween(_this9._transitionSpine2).to(.5, {
+                    position: endPos,
+                    scale: character2.scale
+                  }).call(function() {
+                    _this9._transitionSpine2.active = false;
+                    _this9._transitionSpine2.scale = norScale;
+                    _this9._transitionSpine2.position = norPos;
+                    character2.active = true;
+                  }).start();
+                } else {
+                  _this9._transitionSpine2.active = false;
+                  character1.active = true;
+                  character2.active = true;
+                }
+              });
+
+             case 10:
+             case "end":
+              return _context9.stop();
+            }
+          }, _callee9);
+        }))();
+      },
+      playLunpanAnimation: function playLunpanAnimation() {
+        var _this10 = this;
+        Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.transition1);
+        this._transitionSpine1.active = true;
+        var animation = this._transitionSpine1.getComponent(sp.Skeleton);
+        animation.setAnimation(0, "animation", false);
+        animation.setCompleteListener(function() {
+          _this10._transitionSpine1.active = false;
+        });
+      },
+      showQiPaoMaoChu: function showQiPaoMaoChu() {
+        var _this11 = this;
+        return new Promise(function(sucess, failed) {
+          Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bubble_up);
+          _this11._qipaomaochu.active = true;
+          var qipaoSp = _this11._qipaomaochu.getComponent(sp.Skeleton);
+          qipaoSp.setAnimation(0, "animation", false);
+          qipaoSp.setCompleteListener(function() {
+            _this11._qipaomaochu.active = false;
+            sucess();
+          });
+        });
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  TheEvil_Reel: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "e9919TKnCVP56xfK86W3o29", "TheEvil_Reel");
+    "use strict";
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    cc.Class({
+      extends: require("LMSlots_Reel_Base"),
+      properties: {},
+      OnReelBounsActionDeep: function OnReelBounsActionDeep() {
+        this._super();
+        var _iterator = _createForOfIteratorHelper(this._reelState), _step;
+        try {
+          for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+            var info = _step.value;
+            info.isStop && info.isKeepShow;
+          }
+        } catch (err) {
+          _iterator.e(err);
+        } finally {
+          _iterator.f();
+        }
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Reel_Base: void 0
+  } ],
+  TheEvil_Slots: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "3ec20v//HpAlr5n+cuEEeyC", "TheEvil_Slots");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    var SLOTS_INDEX_ZERO = [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ];
+    cc.Class({
+      extends: require("LMSlots_Slots_Base"),
+      properties: {
+        _slotsMask: null,
+        _isBackUp: false,
+        _jpEffect: null
+      },
+      onLoad: function onLoad() {
+        this._super();
+        this._slotsMask = cc.find("mask", this.node);
+        this._slotsMask.active = false;
+        this._jpEffect = cc.find("jpeffect", this.node);
+        Global.registerEvent(cc.vv.gameData._EventId.SLOT_TOTALBET_UPDATED, this.onEventTotalbetUpdated, this);
+      },
+      awaitTime: function awaitTime(time) {
+        var _this = this;
+        return new Promise(function(sucess, failed) {
+          _this.scheduleOnce(function() {
+            sucess();
+          }, time);
+        });
+      },
+      StartMove: function StartMove() {
+        this._super();
+        this._slotsMask.active = false;
+        Global.TheEvilGameControl.bubbleControl.maskAllActiveBubble(false);
+        Global.TheEvilGameControl.bubbleControl.hideAllBubbleAnimation();
+        Global.SlotsSoundMgr.playNormalBgm();
+      },
+      onMsgSpine: function onMsgSpine(msg) {
+        this._super(msg);
+        cc.vv.gameData.currBububbleInfo && cc.vv.gameData.currBububbleInfo.length > 0 && Global.TheEvilGameControl.bubbleControl.generateBubble(cc.vv.gameData.currBububbleInfo);
+      },
+      showMask: function showMask() {
+        var isMask = false;
+        var allWinIdx = Global.copy(SLOTS_INDEX_ZERO);
+        for (var i = 0; i < this._gameInfo.zjLuXian.length; i++) {
+          var item = this._gameInfo.zjLuXian[i];
+          for (var idx = 0; idx < item.indexs.length; idx++) {
+            allWinIdx[item.indexs[idx]] = 1;
+            isMask = true;
+          }
+        }
+        if (this._gameInfo.bubbleInfo && this._gameInfo.bubbleInfo.length > 0) {
+          var _iterator = _createForOfIteratorHelper(this._gameInfo.bubbleInfo), _step;
+          try {
+            for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+              var info = _step.value;
+              var _iterator2 = _createForOfIteratorHelper(info.points), _step2;
+              try {
+                for (_iterator2.s(); !(_step2 = _iterator2.n()).done; ) {
+                  var _idx = _step2.value;
+                  allWinIdx[_idx] = 1;
+                  isMask = true;
+                }
+              } catch (err) {
+                _iterator2.e(err);
+              } finally {
+                _iterator2.f();
+              }
+            }
+          } catch (err) {
+            _iterator.e(err);
+          } finally {
+            _iterator.f();
+          }
+        }
+        if (this._gameInfo.freeResult && this._gameInfo.freeResult.freeInfo && this._gameInfo.freeResult.freeInfo.idxs) for (var _i = 0; _i < this._gameInfo.freeResult.freeInfo.idxs.length; _i++) {
+          var val = this._gameInfo.freeResult.freeInfo.idxs[_i];
+          allWinIdx[val] = 1;
+          isMask = true;
+        }
+        if (this._gameInfo.pickInfo.idxs && this._gameInfo.pickInfo.idxs.length > 0) for (var _i2 = 0; _i2 < this._gameInfo.pickInfo.idxs.length; _i2++) {
+          var _val = this._gameInfo.pickInfo.idxs[_i2];
+          allWinIdx[_val] = 1;
+          isMask = true;
+        }
+        if (isMask) {
+          this._slotsMask.active = true;
+          Global.TheEvilGameControl.bubbleControl.maskAllActiveBubble(true);
+          for (var index = 1; index < allWinIdx.length; index++) {
+            var symbol = this.GetSymbolByIdx(index);
+            symbol && 0 == allWinIdx[index] && symbol.playDisappearAnimation();
+          }
+        }
+      },
+      OnReelBounsActionEnd: function OnReelBounsActionEnd(colIdx) {
+        if (colIdx == this.moveReelLastIdx) {
+          for (var i = 0; i < this._reels.length; i++) {
+            var item = this._reels[i];
+            item.ShowAntiEffect(false);
+          }
+          Global.TheEvilGameControl.bubbleControl.stopActiveBubble();
+        }
+      },
+      OnReelReadyToStop: function OnReelReadyToStop(colIdx) {
+        0 == colIdx && Global.TheEvilGameControl.bubbleControl.updateActiveBubble();
+      },
+      OnSpinEnd: function OnSpinEnd() {
+        var _this2 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          var points, _iterator3, _step3, info, _iterator4, _step4, idx, nWin, currentCoin, bonusWinCoin;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              _this2._bottomScript.ShowBtnsByState("moveing_1");
+              _this2.showMask();
+              _this2.ShowWinTrace();
+              if (!(_this2._gameInfo.bubbleInfo && _this2._gameInfo.bubbleInfo.length > 0)) {
+                _context.next = 11;
+                break;
+              }
+              points = [];
+              _iterator3 = _createForOfIteratorHelper(_this2._gameInfo.bubbleInfo);
+              try {
+                for (_iterator3.s(); !(_step3 = _iterator3.n()).done; ) {
+                  info = _step3.value;
+                  _iterator4 = _createForOfIteratorHelper(info.points);
+                  try {
+                    for (_iterator4.s(); !(_step4 = _iterator4.n()).done; ) {
+                      idx = _step4.value;
+                      Global.TheEvilGameControl.bubbleControl.showWinBubbleAnimation(idx);
+                      points.push({
+                        index: idx,
+                        coin: info.coin,
+                        type: info.type
+                      });
+                    }
+                  } catch (err) {
+                    _iterator4.e(err);
+                  } finally {
+                    _iterator4.f();
+                  }
+                }
+              } catch (err) {
+                _iterator3.e(err);
+              } finally {
+                _iterator3.f();
+              }
+              if (!(points.length > 0)) {
+                _context.next = 11;
+                break;
+              }
+              _this2.CheckActiveBubble(points);
+              _context.next = 11;
+              return _this2.awaitTime(1);
+
+             case 11:
+              nWin = cc.vv.gameData.GetGameWin();
+              if (!cc.vv.gameData.isFreeGame()) {
+                _context.next = 17;
+                break;
+              }
+              _context.next = 15;
+              return _this2.ShowWinCoin(nWin, cc.vv.gameData.GetGameTotalFreeWin(), false);
+
+             case 15:
+              _context.next = 19;
+              break;
+
+             case 17:
+              _context.next = 19;
+              return _this2.ShowWinCoin(nWin, nWin, true);
+
+             case 19:
+              if (!(_this2._gameInfo.freeResult && _this2._gameInfo.freeResult.freeInfo && _this2._gameInfo.freeResult.freeInfo.idxs)) {
+                _context.next = 27;
+                break;
+              }
+              if (!_this2._gameInfo.freeResult.isFreeState) {
+                _context.next = 25;
+                break;
+              }
+              _context.next = 23;
+              return _this2.CheckFreeEnterFreeGame();
+
+             case 23:
+              _context.next = 27;
+              break;
+
+             case 25:
+              _context.next = 27;
+              return _this2.CheckEnterFreeGame();
+
+             case 27:
+              if (!(_this2._gameInfo.pickInfo.idxs && _this2._gameInfo.pickInfo.idxs.length > 0)) {
+                _context.next = 37;
+                break;
+              }
+              _context.next = 30;
+              return _this2.CheckTriggerSubGame();
+
+             case 30:
+              _context.next = 32;
+              return _this2.awaitTime(2);
+
+             case 32:
+              currentCoin = _this2._bottomScript.getCurrentWin();
+              bonusWinCoin = Global.TheEvilGameControl.pickGameControl.getBonusWinCoin();
+              cc.vv.gameData.AddCoin(bonusWinCoin);
+              _context.next = 37;
+              return _this2.ShowWinCoin(bonusWinCoin, currentCoin, true);
+
+             case 37:
+              if (!(cc.vv.gameData.GetTotalFree() > 0 && 0 == cc.vv.gameData.GetFreeTime())) {
+                _context.next = 42;
+                break;
+              }
+              _context.next = 40;
+              return _this2.CheckExitFreeGame();
+
+             case 40:
+              _context.next = 42;
+              return _this2.ShowWinCoin(_this2._bottomScript.getCurrentWin(), _this2._bottomScript.getCurrentWin(), true);
+
+             case 42:
+              _this2.CanDoNextRound();
+
+             case 43:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      ShowWinCoin: function ShowWinCoin(nAddWin, nTotalWin, bUpdateBalance) {
+        var _this3 = this;
+        return new Promise(function() {
+          var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee2(sucess, failed) {
+            return regeneratorRuntime.wrap(function _callee2$(_context2) {
+              while (1) switch (_context2.prev = _context2.next) {
+               case 0:
+                _this3.ShowBottomWin(nAddWin, nTotalWin, bUpdateBalance, sucess);
+
+               case 1:
+               case "end":
+                return _context2.stop();
+              }
+            }, _callee2);
+          }));
+          return function(_x, _x2) {
+            return _ref.apply(this, arguments);
+          };
+        }());
+      },
+      CheckActiveBubble: function CheckActiveBubble(infoData) {
+        Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bubble_award);
+        var _iterator5 = _createForOfIteratorHelper(infoData), _step5;
+        try {
+          for (_iterator5.s(); !(_step5 = _iterator5.n()).done; ) {
+            var info = _step5.value;
+            var symbol = this.GetSymbolByIdx(info.index);
+            symbol && symbol.playBubbleAnimation(info.coin, info.type);
+          }
+        } catch (err) {
+          _iterator5.e(err);
+        } finally {
+          _iterator5.f();
+        }
+      },
+      CheckExitFreeGame: function CheckExitFreeGame() {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee4() {
+          return regeneratorRuntime.wrap(function _callee4$(_context4) {
+            while (1) switch (_context4.prev = _context4.next) {
+             case 0:
+              return _context4.abrupt("return", new Promise(function() {
+                var _ref2 = _asyncToGenerator(regeneratorRuntime.mark(function _callee3(sucess, failed) {
+                  return regeneratorRuntime.wrap(function _callee3$(_context3) {
+                    while (1) switch (_context3.prev = _context3.next) {
+                     case 0:
+                      cc.vv.gameData.setIsFreeGame(false);
+                      if (!Global.TheEvilGameControl.collectBonusControl.isSuperBonus()) {
+                        _context3.next = 6;
+                        break;
+                      }
+                      _context3.next = 4;
+                      return Global.TheEvilGameControl.popupUIControl.showSuperBonusWinCoin(cc.vv.gameData.GetGameTotalFreeWin());
+
+                     case 4:
+                      _context3.next = 8;
+                      break;
+
+                     case 6:
+                      _context3.next = 8;
+                      return Global.TheEvilGameControl.popupUIControl.showFreeGameWinner(cc.vv.gameData.GetGameTotalFreeWin());
+
+                     case 8:
+                      Global.TheEvilGameControl.popupUIControl.playLunpanAnimation();
+                      _context3.next = 11;
+                      return _this4.awaitTime(1.3);
+
+                     case 11:
+                      _this4.Resume();
+                      Global.TheEvilGameControl.bubbleControl.creatCurrentBubble();
+                      if (_this4._isBackUp) {
+                        Global.TheEvilGameControl.bubbleControl.maskAllActiveBubble(true);
+                        _this4._isBackUp = false;
+                      } else _this4.clearSlots();
+                      Global.TheEvilGameControl.bubbleControl.hideAllBubbleAnimation();
+                      _this4.ShowGameview(false);
+                      _context3.next = 18;
+                      return _this4.awaitTime(1);
+
+                     case 18:
+                      Global.SlotsSoundMgr.playNormalBgm(true);
+                      sucess();
+
+                     case 20:
+                     case "end":
+                      return _context3.stop();
+                    }
+                  }, _callee3);
+                }));
+                return function(_x3, _x4) {
+                  return _ref2.apply(this, arguments);
+                };
+              }()));
+
+             case 1:
+             case "end":
+              return _context4.stop();
+            }
+          }, _callee4);
+        }))();
+      },
+      CheckFreeEnterFreeGame: function CheckFreeEnterFreeGame() {
+        var _this5 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee6() {
+          return regeneratorRuntime.wrap(function _callee6$(_context6) {
+            while (1) switch (_context6.prev = _context6.next) {
+             case 0:
+              return _context6.abrupt("return", new Promise(function() {
+                var _ref3 = _asyncToGenerator(regeneratorRuntime.mark(function _callee5(sucess, failed) {
+                  var _iterator6, _step6, id, symbol;
+                  return regeneratorRuntime.wrap(function _callee5$(_context5) {
+                    while (1) switch (_context5.prev = _context5.next) {
+                     case 0:
+                      Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bell);
+                      _iterator6 = _createForOfIteratorHelper(_this5._gameInfo.freeResult.freeInfo.idxs);
+                      try {
+                        for (_iterator6.s(); !(_step6 = _iterator6.n()).done; ) {
+                          id = _step6.value;
+                          symbol = _this5.GetSymbolByIdx(id);
+                          symbol && symbol.playTriggerAnimation();
+                        }
+                      } catch (err) {
+                        _iterator6.e(err);
+                      } finally {
+                        _iterator6.f();
+                      }
+                      _context5.next = 5;
+                      return _this5.awaitTime(2.5);
+
+                     case 5:
+                      _context5.next = 7;
+                      return Global.TheEvilGameControl.popupUIControl.showAddFreeGameTimes(_this5._gameInfo.freeResult.freeInfo.freeCnt);
+
+                     case 7:
+                      sucess();
+
+                     case 8:
+                     case "end":
+                      return _context5.stop();
+                    }
+                  }, _callee5);
+                }));
+                return function(_x5, _x6) {
+                  return _ref3.apply(this, arguments);
+                };
+              }()));
+
+             case 1:
+             case "end":
+              return _context6.stop();
+            }
+          }, _callee6);
+        }))();
+      },
+      CheckEnterFreeGame: function CheckEnterFreeGame() {
+        var _this6 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee8() {
+          return regeneratorRuntime.wrap(function _callee8$(_context8) {
+            while (1) switch (_context8.prev = _context8.next) {
+             case 0:
+              return _context8.abrupt("return", new Promise(function() {
+                var _ref4 = _asyncToGenerator(regeneratorRuntime.mark(function _callee7(sucess, failed) {
+                  var _iterator7, _step7, id, symbol;
+                  return regeneratorRuntime.wrap(function _callee7$(_context7) {
+                    while (1) switch (_context7.prev = _context7.next) {
+                     case 0:
+                      Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bell);
+                      _iterator7 = _createForOfIteratorHelper(_this6._gameInfo.freeResult.freeInfo.idxs);
+                      try {
+                        for (_iterator7.s(); !(_step7 = _iterator7.n()).done; ) {
+                          id = _step7.value;
+                          symbol = _this6.GetSymbolByIdx(id);
+                          symbol && symbol.playTriggerAnimation();
+                          Global.TheEvilGameControl.collectBonusControl.flyParticle(symbol.node);
+                        }
+                      } catch (err) {
+                        _iterator7.e(err);
+                      } finally {
+                        _iterator7.f();
+                      }
+                      _context7.next = 5;
+                      return _this6.awaitTime(1);
+
+                     case 5:
+                      Global.TheEvilGameControl.collectBonusControl.activeBonus();
+                      _context7.next = 8;
+                      return _this6.awaitTime(1);
+
+                     case 8:
+                      cc.vv.gameData.setIsFreeGame(true);
+                      if (!Global.TheEvilGameControl.collectBonusControl.isSuperBonus()) {
+                        _context7.next = 14;
+                        break;
+                      }
+                      _context7.next = 12;
+                      return Global.TheEvilGameControl.popupUIControl.showSuperBonusGame();
+
+                     case 12:
+                      _context7.next = 16;
+                      break;
+
+                     case 14:
+                      _context7.next = 16;
+                      return Global.TheEvilGameControl.popupUIControl.showFreeGameTimes(_this6._gameInfo.freeResult.freeInfo.freeCnt);
+
+                     case 16:
+                      Global.TheEvilGameControl.popupUIControl.playLunpanAnimation();
+                      _context7.next = 19;
+                      return _this6.awaitTime(1.5);
+
+                     case 19:
+                      Global.TheEvilGameControl.bubbleControl.clearCurrentBubble();
+                      _this6.ShowGameview(true);
+                      _context7.next = 23;
+                      return _this6.awaitTime(.5);
+
+                     case 23:
+                      _this6.Backup();
+                      _this6._isBackUp = true;
+                      if (!Global.TheEvilGameControl.collectBonusControl.isSuperBonus()) {
+                        _context7.next = 31;
+                        break;
+                      }
+                      _context7.next = 28;
+                      return Global.TheEvilGameControl.popupUIControl.showQiPaoMaoChu();
+
+                     case 28:
+                      Global.SlotsSoundMgr.playBgm(Global.SlotsSoundMgr.super_bgm);
+                      _context7.next = 32;
+                      break;
+
+                     case 31:
+                      Global.SlotsSoundMgr.playBgm(Global.SlotsSoundMgr.free_bgm);
+
+                     case 32:
+                      sucess();
+
+                     case 33:
+                     case "end":
+                      return _context7.stop();
+                    }
+                  }, _callee7);
+                }));
+                return function(_x7, _x8) {
+                  return _ref4.apply(this, arguments);
+                };
+              }()));
+
+             case 1:
+             case "end":
+              return _context8.stop();
+            }
+          }, _callee8);
+        }))();
+      },
+      CheckTriggerSubGame: function CheckTriggerSubGame() {
+        var _this7 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee10() {
+          return regeneratorRuntime.wrap(function _callee10$(_context10) {
+            while (1) switch (_context10.prev = _context10.next) {
+             case 0:
+              return _context10.abrupt("return", new Promise(function() {
+                var _ref5 = _asyncToGenerator(regeneratorRuntime.mark(function _callee9(sucess, failed) {
+                  var _iterator8, _step8, id, symbol;
+                  return regeneratorRuntime.wrap(function _callee9$(_context9) {
+                    while (1) switch (_context9.prev = _context9.next) {
+                     case 0:
+                      Global.SlotsSoundMgr.playEffect(Global.SlotsSoundMgr.bell);
+                      _iterator8 = _createForOfIteratorHelper(_this7._gameInfo.pickInfo.idxs);
+                      try {
+                        for (_iterator8.s(); !(_step8 = _iterator8.n()).done; ) {
+                          id = _step8.value;
+                          symbol = _this7.GetSymbolByIdx(id);
+                          symbol && symbol.playTriggerAnimation();
+                        }
+                      } catch (err) {
+                        _iterator8.e(err);
+                      } finally {
+                        _iterator8.f();
+                      }
+                      cc.vv.gameData.isFreeGame() || _this7._bottomScript.DoHideWinAction();
+                      _context9.next = 6;
+                      return _this7.awaitTime(1.5);
+
+                     case 6:
+                      cc.vv.gameData.setIsBonusGame(true);
+                      _context9.next = 9;
+                      return Global.TheEvilGameControl.popupUIControl.showPickGameTimes();
+
+                     case 9:
+                      Global.TheEvilGameControl.popupUIControl.playEmoAnimation(true);
+                      _context9.next = 12;
+                      return _this7.awaitTime(2);
+
+                     case 12:
+                      Global.TheEvilGameControl.pickGameControl.enterGame(cc.vv.gameData.pickInfo, sucess);
+
+                     case 13:
+                     case "end":
+                      return _context9.stop();
+                    }
+                  }, _callee9);
+                }));
+                return function(_x9, _x10) {
+                  return _ref5.apply(this, arguments);
+                };
+              }()));
+
+             case 1:
+             case "end":
+              return _context10.stop();
+            }
+          }, _callee10);
+        }))();
+      },
+      ReconnectShow: function ReconnectShow() {
+        var _this8 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee12() {
+          var currentCoin, bonusWinCoin;
+          return regeneratorRuntime.wrap(function _callee12$(_context12) {
+            while (1) switch (_context12.prev = _context12.next) {
+             case 0:
+              Global.TheEvilGameControl.collectBonusControl.initData();
+              _this8.ShowGameview(cc.vv.gameData.isFreeGame());
+              if (cc.vv.gameData.isFreeGame()) {
+                _this8._bottomScript.SetWin(cc.vv.gameData.GetTotalFreeWin());
+                Global.TheEvilGameControl.bubbleControl.createBubble(cc.vv.gameData._deskInfo.bubbleInfoInFree);
+              } else Global.TheEvilGameControl.bubbleControl.creatCurrentBubble();
+              if (!(cc.vv.gameData.pickInfo.idxs && cc.vv.gameData.pickInfo.idxs.length > 0)) {
+                _context12.next = 17;
+                break;
+              }
+              _this8._bottomScript.ShowBtnsByState("moveing_1");
+              Global.TheEvilGameControl.bubbleControl.maskAllActiveBubble(true);
+              currentCoin = _this8._bottomScript.getCurrentWin();
+              bonusWinCoin = cc.vv.gameData.pickInfo.currWinCoin;
+              _this8._bottomScript.SetWin(currentCoin + bonusWinCoin);
+              _context12.next = 11;
+              return new Promise(function() {
+                var _ref6 = _asyncToGenerator(regeneratorRuntime.mark(function _callee11(sucess, failed) {
+                  return regeneratorRuntime.wrap(function _callee11$(_context11) {
+                    while (1) switch (_context11.prev = _context11.next) {
+                     case 0:
+                      Global.TheEvilGameControl.pickGameControl.enterGame(cc.vv.gameData.pickInfo, sucess);
+
+                     case 1:
+                     case "end":
+                      return _context11.stop();
+                    }
+                  }, _callee11);
+                }));
+                return function(_x11, _x12) {
+                  return _ref6.apply(this, arguments);
+                };
+              }());
+
+             case 11:
+              _context12.next = 13;
+              return _this8.awaitTime(2);
+
+             case 13:
+              currentCoin = _this8._bottomScript.getCurrentWin();
+              bonusWinCoin = Global.TheEvilGameControl.pickGameControl.getBonusWinCoin();
+              _context12.next = 17;
+              return _this8.ShowWinCoin(bonusWinCoin, currentCoin, true);
+
+             case 17:
+              _this8.CanDoNextRound();
+
+             case 18:
+             case "end":
+              return _context12.stop();
+            }
+          }, _callee12);
+        }))();
+      },
+      onEventTotalbetUpdated: function onEventTotalbetUpdated(data) {
+        this.clearSlots();
+        Global.TheEvilGameControl.bubbleControl.maskAllActiveBubble(false);
+        Global.TheEvilGameControl.bubbleControl.creatCurrentBubble();
+        Global.TheEvilGameControl.collectBonusControl.updataCollectState();
+      },
+      clearSlots: function clearSlots() {
+        this._slotsMask.active = false;
+        for (var i = 0; i < this._reels.length; i++) {
+          var reel = this._reels[i];
+          for (var j = 0; j < reel._symbols.length; j++) {
+            var symbol = reel._symbols[j];
+            symbol.ShowNormal();
+            symbol.ShowKuang(false);
+          }
+        }
+      },
+      ShowGameview: function ShowGameview(bFree) {
+        if (bFree) {
+          var total = cc.vv.gameData.GetTotalFree();
+          var rest = cc.vv.gameData.GetFreeTime();
+          this._bottomScript.ShowFreeModel(true, total - rest, total);
+        } else this._bottomScript.ShowFreeModel(false);
+        Global.TheEvilGameControl.collectBonusControl.showFreeGameCollect(bFree);
+        Global.TheEvilGameControl.collectBonusControl.isSuperBonus() ? this._bottomScript.showTotalBet(!bFree) : this._bottomScript.showTotalBet(true);
+        var normalBg = cc.find("Canvas/safe_node/spr_bg_normal");
+        var normalFree = cc.find("Canvas/safe_node/spr_bg_free");
+        var superFree = cc.find("Canvas/safe_node/spr_bg_superfree");
+        if (normalFree && superFree) {
+          normalBg && (normalBg.active = !bFree);
+          if (Global.TheEvilGameControl.collectBonusControl.isSuperBonus()) {
+            superFree.active = bFree;
+            normalFree.active = false;
+          } else {
+            superFree.active = false;
+            normalFree.active = bFree;
+          }
+        }
+      },
+      ShowJackpotEffect: function ShowJackpotEffect(isShow) {
+        this._jpEffect.active = isShow;
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Slots_Base: void 0
+  } ],
+  TheEvil_Sound: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "155dbxiYZJAdZzh9BIMW+zv", "TheEvil_Sound");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Sound"),
+      properties: {
+        soundPath: {
+          default: "games/TheEvil/",
+          override: true
+        },
+        anticipation1_1: "anticipation1_1",
+        anticipation1_2: "anticipation1_2",
+        anticipation2_1: "anticipation2_1",
+        anticipation2_2: "anticipation2_2",
+        base_bgm: "base_bgm",
+        bell: "bell",
+        click: "click",
+        lock: "lock",
+        reel_stop: "reel_stop",
+        scatter_landing: "scatter_landing",
+        scatter1_landing: "scatter1_landing",
+        scatter2_landing: "scatter2_landing",
+        star_landing: "star_landing",
+        symbol_collect: "symbol_collect",
+        transition1: "transition1",
+        transition2: "transition2",
+        unlock: "unlock",
+        win1: "win1",
+        win1end: "win1end",
+        win2: "win2",
+        win2end: "win2end",
+        win3: "win3",
+        win3end: "win3end",
+        win4: "win4",
+        win4end: "win4end",
+        bubble_award: "bubble_award",
+        bubble_boom: "bubble_boom",
+        bubble_up: "bubble_up",
+        free_bgm: "free_bgm",
+        free_dialog_collect_show: "free_dialog_collect_show",
+        free_dialog_start_show: "free_dialog_start_show",
+        grand_jackpot: "grand_jackpot",
+        major_jackpot: "major_jackpot",
+        mini_jackpot: "mini_jackpot",
+        minor_jackpot: "minor_jackpot",
+        bubble_reveal: "bubble_reveal",
+        bubble_scatter: "bubble_scatter",
+        jp_popup: "jp_popup",
+        pick_bgm: "pick_bgm",
+        pick_end_show: "pick_end_show",
+        pick_start_show: "pick_start_show",
+        scatter_reveal: "scatter_reveal",
+        super_bgm: "super_bgm",
+        super_popclose: "super_popclose",
+        super_popup: "super_popup"
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Sound: void 0
+  } ],
+  TheEvil_Symbol: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "fcbb4+5Sz1MipjUgIah4hZ3", "TheEvil_Symbol");
+    "use strict";
+    var jackpotMusic = [ "mini_jackpot", "minor_jackpot", "major_jackpot", "grand_jackpot" ];
+    cc.Class({
+      extends: require("LMSlots_Symbol_Base"),
+      properties: {
+        _bonusIndex: 0,
+        _BubbleCoin: 0,
+        _BubbleJpId: 0
+      },
+      SetCoin: function SetCoin(coin) {
+        this._data = coin;
+        var cfg = cc.vv.gameData.getGameCfg();
+        var coinLable = cc.find("coin", this.node);
+        if (cfg.symbol[this._id].coin) {
+          coinLable.active = true;
+          coinLable.getComponent(cc.Label).string = Global.convertNumToShort(this._data, 1e3, 1, null, 1e3);
+        } else coinLable.active = false;
+      },
+      StopMoveEnd: function StopMoveEnd() {
+        this._super();
+        this.playidleAnimation();
+      },
+      playidleAnimation: function playidleAnimation() {
+        var isPlay = false;
+        var id = this._id;
+        var cfg = cc.vv.gameData.getGameCfg();
+        if (cfg.symbol[id] && cfg.symbol[id].win_node && cfg.symbol[id].idle_ani) {
+          this._showNode && (this._showNode.active = false);
+          this._state = "idle";
+          var aniNode = this.setAnimationToTop(true);
+          aniNode.active = true;
+          aniNode.zIndex = cfg.symbol[id].idle_ani.zIndex - this._symbolIdx + 10 * this._reelIdx;
+          isPlay = true;
+          if ("" != cfg.symbol[id].idle_ani.name) {
+            var topShowNode = cc.find(cfg.symbol[id].win_node, aniNode);
+            topShowNode.active = true;
+            aniNode.zIndex = cfg.symbol[id].idle_ani.zIndex - this._symbolIdx + 10 * this._reelIdx;
+            var nodeSp = topShowNode.getComponent(sp.Skeleton);
+            nodeSp && nodeSp.setAnimation(0, cfg.symbol[id].idle_ani.name, true);
+          } else {
+            cc.find(cfg.symbol[id].win_node, aniNode).active = false;
+            cc.find(cfg.symbol[id].node, aniNode).active = true;
+          }
+        }
+        return isPlay;
+      },
+      playTriggerAnimation: function playTriggerAnimation() {
+        var isPlay = false;
+        var id = this._id;
+        var cfg = cc.vv.gameData.getGameCfg();
+        if (cfg.symbol[id] && cfg.symbol[id].win_node && cfg.symbol[id].trigger_ani) {
+          this._showNode && (this._showNode.active = false);
+          this._state = "trigger";
+          var aniNode = this.setAnimationToTop(true);
+          aniNode.active = true;
+          var topShowNode = cc.find(cfg.symbol[id].win_node, aniNode);
+          topShowNode.active = true;
+          if ("" != cfg.symbol[id].trigger_ani.name) {
+            aniNode.zIndex = cfg.symbol[id].trigger_ani.zIndex - this._symbolIdx + 10 * this._reelIdx;
+            isPlay = true;
+            var nodeSp = topShowNode.getComponent(sp.Skeleton);
+            nodeSp && nodeSp.setAnimation(0, cfg.symbol[id].trigger_ani.name, true);
+          }
+        }
+        return isPlay;
+      },
+      playDisappearAnimation: function playDisappearAnimation() {
+        var isPlay = false;
+        var id = this._id;
+        var cfg = cc.vv.gameData.getGameCfg();
+        if (cfg.symbol[id] && cfg.symbol[id].win_node && cfg.symbol[id].disappear_ani) if ("" != cfg.symbol[id].disappear_ani.name) {
+          this._state = "disappear";
+          var aniNode = this.setAnimationToTop(true);
+          aniNode.active = true;
+          var topShowNode = cc.find(cfg.symbol[id].win_node, aniNode);
+          topShowNode.active = true;
+          aniNode.zIndex = cfg.symbol[id].disappear_ani.zIndex - this._symbolIdx + 10 * this._reelIdx;
+          isPlay = true;
+          var nodeSp = topShowNode.getComponent(sp.Skeleton);
+          if (nodeSp) {
+            this.node.active = true;
+            this._showNode && (this._showNode.active = true);
+            nodeSp.setAnimation(0, cfg.symbol[id].disappear_ani.name, false);
+          }
+        } else this.setAnimationToTop(false);
+        return isPlay;
+      },
+      playBubbleAnimation: function playBubbleAnimation(coin, jpId) {
+        var isPlay = false;
+        var id = this._id;
+        this._BubbleCoin = coin;
+        this._BubbleJpId = jpId;
+        var cfg = cc.vv.gameData.getGameCfg();
+        if (cfg.symbol[id] && cfg.symbol[id].win_node && cfg.symbol[id].trigger_bubble) {
+          isPlay = true;
+          this._showNode && (this._showNode.active = false);
+          this._state = "bubbleAnimation";
+          var aniNode = this.setAnimationToTop(true);
+          aniNode.active = true;
+          aniNode.zIndex = cfg.symbol[id].trigger_bubble.zIndex - this._symbolIdx + 10 * this._reelIdx;
+          var topShowNode = cc.find(cfg.symbol[id].win_node, aniNode);
+          topShowNode.active = true;
+          var nodeSp = topShowNode.getComponent(sp.Skeleton);
+          nodeSp.setAnimation(0, cfg.symbol[id].trigger_bubble.name, false);
+          nodeSp.addAnimation(0, cfg.symbol[id].trigger_bubble_idle.name, true);
+          switch (jpId) {
+           case 1:
+           case 2:
+           case 3:
+           case 4:
+            var jp = aniNode.getChildByName("jp_" + jpId);
+            jp.active = true;
+            jp.setScale(.9);
+            jp.runAction(cc.repeatForever(cc.sequence(cc.scaleTo(.7, 1.1, 1.1), cc.scaleTo(.7, .9, .9))));
+            Global.SlotsSoundMgr.playEffect(jackpotMusic[jpId - 1]);
+            break;
+
+           default:
+            var smallCoinNode = aniNode.getChildByName("coin_small");
+            var bigCoinNode = aniNode.getChildByName("coin_big");
+            var mult = Math.floor(coin / cc.vv.gameData.GetTotalBet());
+            if (mult < 10) {
+              smallCoinNode.active = true;
+              smallCoinNode.getComponent(cc.Label).string = Global.convertNumToShort(coin, 1e3, 1, null, 1e3);
+              smallCoinNode.setScale(.9);
+              smallCoinNode.runAction(cc.repeatForever(cc.sequence(cc.scaleTo(.7, 1.1, 1.1), cc.scaleTo(.7, .9, .9))));
+            } else {
+              bigCoinNode.active = true;
+              bigCoinNode.getComponent(cc.Label).string = Global.convertNumToShort(coin, 1e3, 1, null, 1e3);
+              bigCoinNode.setScale(.9);
+              bigCoinNode.runAction(cc.repeatForever(cc.sequence(cc.scaleTo(.7, 1.1, 1.1), cc.scaleTo(.7, .9, .9))));
+            }
+          }
+        }
+        return isPlay;
+      },
+      setAnimationToTop: function setAnimationToTop(isTop) {
+        if (this._topAniNode) {
+          if (isTop) {
+            var cloneNode = cc.find(cc.js.formatStr("symbol_ani_%s_%s", this._symbolIdx, this._reelIdx), this._topAniNode);
+            if (cloneNode) {
+              cloneNode.removeFromParent();
+              cloneNode.destroy();
+            }
+            cloneNode = cc.instantiate(this.node);
+            var wordPos = this.node.convertToWorldSpaceAR(cc.v2(0));
+            cloneNode.parent = this._topAniNode;
+            cloneNode.name = cc.js.formatStr("symbol_ani_%s_%s", this._symbolIdx, this._reelIdx);
+            cloneNode.position = this._topAniNode.convertToNodeSpaceAR(wordPos);
+            this.node.active = false;
+            return cloneNode;
+          }
+          var showNode = cc.find(cc.js.formatStr("symbol_ani_%s_%s", this._symbolIdx, this._reelIdx), this._topAniNode);
+          if (showNode) {
+            showNode.removeFromParent();
+            showNode.destroy();
+          }
+          this.node.active = true;
+          this._showNode && (this._showNode.active = true);
+        }
+        return this.node;
+      },
+      Backup: function Backup() {
+        var backup = {};
+        backup.symbolIdx = this._symbolIdx;
+        backup.id = this._id;
+        this._data && (backup.data = Global.copy(this._data));
+        backup.isKuang = this._isKuang;
+        backup.state = this._state;
+        backup.BubbleCoin = this._BubbleCoin;
+        backup.BubbleJpId = this._BubbleJpId;
+        return backup;
+      },
+      Resume: function Resume(backup) {
+        if (!backup) return;
+        this._symbolIdx = backup.symbolIdx;
+        this._id = backup.id;
+        this._data = Global.copy(backup.data);
+        this.ShowKuang(backup.isKuang);
+        this.ShowNormal();
+        var state = backup.state;
+        "win" == state ? this.playWinAnimation() : "stop" == state ? this.playStopAnimation() : "idle" == state ? this.playidleAnimation() : "trigger" == state ? this.playTriggerAnimation() : "disappear" == state ? this.playDisappearAnimation() : "bubbleAnimation" == state && this.playBubbleAnimation(backup.BubbleCoin, backup.BubbleJpId);
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Symbol_Base: void 0
+  } ],
+  TheEvil_Top: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "e5862nDjeNDsaCPq6A0H1iI", "TheEvil_Top");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Top_Base"),
+      properties: {},
+      StartMove: function StartMove() {
+        this._super();
+        Global.TheEvilGameControl.collectBonusControl.setMask(true);
+      },
+      StopMove: function StopMove() {
+        this._super();
+        Global.TheEvilGameControl.collectBonusControl.setMask(false);
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Top_Base: void 0
+  } ]
+}, {}, [ "TheEvil_Bottom", "TheEvil_Bubble", "TheEvil_BubbleCfg", "TheEvil_BubbleControl", "TheEvil_Cfg", "TheEvil_CollectBonusControl", "TheEvil_GameData", "TheEvil_Logic", "TheEvil_PickGameControl", "TheEvil_PopupUIControl", "TheEvil_Reel", "TheEvil_Slots", "TheEvil_Sound", "TheEvil_Symbol", "TheEvil_Top" ]);

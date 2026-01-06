@@ -1,1 +1,94 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"cYhVbXw8ozVELw7AIOTkY1YUoPM","spine":"3.6.53","width":1060,"height":1560,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"gaoliang01","parent":"root","y":3.49}],"slots":[{"name":"gaoliang01","bone":"gaoliang01","attachment":"gaoliang01","blend":"additive"}],"skins":{"default":{"gaoliang01":{"gaoliang01":{"width":115,"height":90}}}},"animations":{"animation":{"slots":{"gaoliang01":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.1667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.2,"color":"ffffffb3","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffff00"}]}}}}},"_atlasText":"\nxingxing_shan_01.png\nsize: 115,90\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngaoliang01\n  rotate: false\n  xy: 0, 0\n  size: 115, 90\n  orig: 115, 90\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"10ZaLiz3NKGogqC61Zg4G2"}],"textureNames":["xingxing_shan_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "cYhVbXw8ozVELw7AIOTkY1YUoPM",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "gaoliang01",
+        "parent": "root",
+        "y": 3.49
+      }
+    ],
+    "slots": [
+      {
+        "name": "gaoliang01",
+        "bone": "gaoliang01",
+        "attachment": "gaoliang01",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "gaoliang01": {
+          "gaoliang01": {
+            "width": 115,
+            "height": 90
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "gaoliang01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "color": "ffffffb3",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nxingxing_shan_01.png\nsize: 115,90\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngaoliang01\n  rotate: false\n  xy: 0, 0\n  size: 115, 90\n  orig: 115, 90\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "10ZaLiz3NKGogqC61Zg4G2"
+    }
+  ],
+  "textureNames": [
+    "xingxing_shan_01.png"
+  ]
+}

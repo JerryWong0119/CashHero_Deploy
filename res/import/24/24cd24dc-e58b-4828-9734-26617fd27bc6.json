@@ -1,1 +1,428 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"gYNVUovY6Mwo6s8mh+EniKvMC5I","spine":"3.6.53","width":475,"height":138,"images":"./img/"},"bones":[{"name":"root"},{"name":"logo","parent":"root"},{"name":"guang","parent":"logo","scaleX":2.04,"scaleY":2},{"name":"logo2","parent":"logo"}],"slots":[{"name":"logo2","bone":"logo2","color":"ffffff86","attachment":"logo","blend":"additive"},{"name":"logo","bone":"logo","attachment":"logo"},{"name":"guang","bone":"guang","blend":"additive"}],"skins":{"default":{"guang":{"logoll/logo_00001":{"width":233,"height":69},"logoll/logo_00002":{"width":233,"height":69},"logoll/logo_00003":{"width":233,"height":69},"logoll/logo_00004":{"width":233,"height":69},"logoll/logo_00005":{"width":233,"height":69},"logoll/logo_00006":{"width":233,"height":69},"logoll/logo_00007":{"width":233,"height":69},"logoll/logo_00008":{"width":233,"height":69},"logoll/logo_00009":{"width":233,"height":69},"logoll/logo_00010":{"width":233,"height":69},"logoll/logo_00011":{"width":233,"height":69},"logoll/logo_00012":{"width":233,"height":69},"logoll/logo_00013":{"width":233,"height":69},"logoll/logo_00014":{"width":233,"height":69},"logoll/logo_00015":{"width":233,"height":69},"logoll/logo_00016":{"width":233,"height":69},"logoll/logo_00017":{"width":233,"height":69},"logoll/logo_00018":{"width":233,"height":69},"logoll/logo_00019":{"width":233,"height":69},"logoll/logo_00020":{"width":233,"height":69},"logoll/logo_00021":{"width":233,"height":69},"logoll/logo_00022":{"width":233,"height":69},"logoll/logo_00023":{"width":233,"height":69},"logoll/logo_00024":{"width":233,"height":69}},"logo":{"logo":{"width":475,"height":138}},"logo2":{"logo":{"width":475,"height":138}}}},"animations":{"animation":{"slots":{"guang":{"attachment":[{"time":0,"name":"logoll/logo_00001"},{"time":0.0333,"name":"logoll/logo_00002"},{"time":0.0667,"name":"logoll/logo_00003"},{"time":0.1,"name":"logoll/logo_00004"},{"time":0.1333,"name":"logoll/logo_00005"},{"time":0.1667,"name":"logoll/logo_00006"},{"time":0.2,"name":"logoll/logo_00007"},{"time":0.2333,"name":"logoll/logo_00008"},{"time":0.2667,"name":"logoll/logo_00009"},{"time":0.3,"name":"logoll/logo_00010"},{"time":0.3333,"name":"logoll/logo_00011"},{"time":0.3667,"name":"logoll/logo_00012"},{"time":0.4,"name":"logoll/logo_00013"},{"time":0.4333,"name":"logoll/logo_00014"},{"time":0.4667,"name":"logoll/logo_00015"},{"time":0.5,"name":"logoll/logo_00016"},{"time":0.5333,"name":"logoll/logo_00017"},{"time":0.5667,"name":"logoll/logo_00018"},{"time":0.6,"name":"logoll/logo_00019"},{"time":0.6333,"name":"logoll/logo_00020"},{"time":0.6667,"name":"logoll/logo_00021"},{"time":0.7,"name":"logoll/logo_00022"},{"time":0.7333,"name":"logoll/logo_00023"},{"time":0.7667,"name":"logoll/logo_00024"},{"time":0.8,"name":null}]},"logo2":{"color":[{"time":0.1,"color":"ffffff86","curve":"stepped"},{"time":0.8333,"color":"ffffff86"},{"time":1.3333,"color":"ffffff00"}]}},"bones":{"logo":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":1.3333,"angle":0}],"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.3333,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1.01,"y":1.01,"curve":[0.25,0,0.75,1]},{"time":1.3333,"x":1,"y":1}],"shear":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.3333,"x":0,"y":0}]},"logo2":{"rotate":[{"time":0.1,"angle":0,"curve":"stepped"},{"time":1.3333,"angle":0}],"translate":[{"time":0.1,"x":0,"y":0,"curve":"stepped"},{"time":1.3333,"x":0,"y":0}],"scale":[{"time":0.1,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.3333,"x":1.02,"y":1.02}],"shear":[{"time":0.1,"x":0,"y":0,"curve":"stepped"},{"time":1.3333,"x":0,"y":0}]}}}}},"_atlasText":"\nspine.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nlogo\n  rotate: false\n  xy: 2, 359\n  size: 475, 138\n  orig: 475, 138\n  offset: 0, 0\n  index: -1\nlogoll/logo_00001\n  rotate: false\n  xy: 2, 288\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00002\n  rotate: false\n  xy: 479, 428\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00003\n  rotate: false\n  xy: 2, 217\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00004\n  rotate: false\n  xy: 237, 288\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00005\n  rotate: false\n  xy: 714, 428\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00006\n  rotate: false\n  xy: 2, 146\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00007\n  rotate: false\n  xy: 237, 217\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00008\n  rotate: false\n  xy: 2, 75\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00009\n  rotate: false\n  xy: 237, 146\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00010\n  rotate: false\n  xy: 2, 4\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00011\n  rotate: false\n  xy: 237, 75\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00012\n  rotate: false\n  xy: 237, 4\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00013\n  rotate: false\n  xy: 479, 357\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00014\n  rotate: false\n  xy: 714, 357\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00015\n  rotate: false\n  xy: 472, 286\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00016\n  rotate: false\n  xy: 472, 215\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00017\n  rotate: false\n  xy: 707, 286\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00018\n  rotate: false\n  xy: 472, 144\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00019\n  rotate: false\n  xy: 707, 215\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00020\n  rotate: false\n  xy: 472, 73\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00021\n  rotate: false\n  xy: 707, 144\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00022\n  rotate: false\n  xy: 707, 73\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00023\n  rotate: false\n  xy: 472, 2\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00024\n  rotate: false\n  xy: 707, 2\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"4djsFzrYBCb4LksQUWGfSV"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "gYNVUovY6Mwo6s8mh+EniKvMC5I",
+      "spine": "3.6.53",
+      "width": 475,
+      "height": 138,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "logo",
+        "parent": "root"
+      },
+      {
+        "name": "guang",
+        "parent": "logo",
+        "scaleX": 2.04,
+        "scaleY": 2
+      },
+      {
+        "name": "logo2",
+        "parent": "logo"
+      }
+    ],
+    "slots": [
+      {
+        "name": "logo2",
+        "bone": "logo2",
+        "color": "ffffff86",
+        "attachment": "logo",
+        "blend": "additive"
+      },
+      {
+        "name": "logo",
+        "bone": "logo",
+        "attachment": "logo"
+      },
+      {
+        "name": "guang",
+        "bone": "guang",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "guang": {
+          "logoll/logo_00001": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00002": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00003": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00004": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00005": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00006": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00007": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00008": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00009": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00010": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00011": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00012": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00013": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00014": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00015": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00016": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00017": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00018": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00019": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00020": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00021": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00022": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00023": {
+            "width": 233,
+            "height": 69
+          },
+          "logoll/logo_00024": {
+            "width": 233,
+            "height": 69
+          }
+        },
+        "logo": {
+          "logo": {
+            "width": 475,
+            "height": 138
+          }
+        },
+        "logo2": {
+          "logo": {
+            "width": 475,
+            "height": 138
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "guang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "logoll/logo_00001"
+              },
+              {
+                "time": 0.0333,
+                "name": "logoll/logo_00002"
+              },
+              {
+                "time": 0.0667,
+                "name": "logoll/logo_00003"
+              },
+              {
+                "time": 0.1,
+                "name": "logoll/logo_00004"
+              },
+              {
+                "time": 0.1333,
+                "name": "logoll/logo_00005"
+              },
+              {
+                "time": 0.1667,
+                "name": "logoll/logo_00006"
+              },
+              {
+                "time": 0.2,
+                "name": "logoll/logo_00007"
+              },
+              {
+                "time": 0.2333,
+                "name": "logoll/logo_00008"
+              },
+              {
+                "time": 0.2667,
+                "name": "logoll/logo_00009"
+              },
+              {
+                "time": 0.3,
+                "name": "logoll/logo_00010"
+              },
+              {
+                "time": 0.3333,
+                "name": "logoll/logo_00011"
+              },
+              {
+                "time": 0.3667,
+                "name": "logoll/logo_00012"
+              },
+              {
+                "time": 0.4,
+                "name": "logoll/logo_00013"
+              },
+              {
+                "time": 0.4333,
+                "name": "logoll/logo_00014"
+              },
+              {
+                "time": 0.4667,
+                "name": "logoll/logo_00015"
+              },
+              {
+                "time": 0.5,
+                "name": "logoll/logo_00016"
+              },
+              {
+                "time": 0.5333,
+                "name": "logoll/logo_00017"
+              },
+              {
+                "time": 0.5667,
+                "name": "logoll/logo_00018"
+              },
+              {
+                "time": 0.6,
+                "name": "logoll/logo_00019"
+              },
+              {
+                "time": 0.6333,
+                "name": "logoll/logo_00020"
+              },
+              {
+                "time": 0.6667,
+                "name": "logoll/logo_00021"
+              },
+              {
+                "time": 0.7,
+                "name": "logoll/logo_00022"
+              },
+              {
+                "time": 0.7333,
+                "name": "logoll/logo_00023"
+              },
+              {
+                "time": 0.7667,
+                "name": "logoll/logo_00024"
+              },
+              {
+                "time": 0.8,
+                "name": null
+              }
+            ]
+          },
+          "logo2": {
+            "color": [
+              {
+                "time": 0.1,
+                "color": "ffffff86",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff86"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "logo": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1.01,
+                "y": 1.01,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "logo2": {
+            "rotate": [
+              {
+                "time": 0.1,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.1,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.1,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 1.02,
+                "y": 1.02
+              }
+            ],
+            "shear": [
+              {
+                "time": 0.1,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nlogo\n  rotate: false\n  xy: 2, 359\n  size: 475, 138\n  orig: 475, 138\n  offset: 0, 0\n  index: -1\nlogoll/logo_00001\n  rotate: false\n  xy: 2, 288\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00002\n  rotate: false\n  xy: 479, 428\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00003\n  rotate: false\n  xy: 2, 217\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00004\n  rotate: false\n  xy: 237, 288\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00005\n  rotate: false\n  xy: 714, 428\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00006\n  rotate: false\n  xy: 2, 146\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00007\n  rotate: false\n  xy: 237, 217\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00008\n  rotate: false\n  xy: 2, 75\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00009\n  rotate: false\n  xy: 237, 146\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00010\n  rotate: false\n  xy: 2, 4\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00011\n  rotate: false\n  xy: 237, 75\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00012\n  rotate: false\n  xy: 237, 4\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00013\n  rotate: false\n  xy: 479, 357\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00014\n  rotate: false\n  xy: 714, 357\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00015\n  rotate: false\n  xy: 472, 286\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00016\n  rotate: false\n  xy: 472, 215\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00017\n  rotate: false\n  xy: 707, 286\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00018\n  rotate: false\n  xy: 472, 144\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00019\n  rotate: false\n  xy: 707, 215\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00020\n  rotate: false\n  xy: 472, 73\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00021\n  rotate: false\n  xy: 707, 144\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00022\n  rotate: false\n  xy: 707, 73\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00023\n  rotate: false\n  xy: 472, 2\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\nlogoll/logo_00024\n  rotate: false\n  xy: 707, 2\n  size: 233, 69\n  orig: 233, 69\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "4djsFzrYBCb4LksQUWGfSV"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

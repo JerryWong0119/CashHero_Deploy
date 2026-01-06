@@ -1,1 +1,273 @@
-{"__type__":"sp.SkeletonData","_name":"jackpot_xz_01","_skeletonJson":{"skeleton":{"hash":"Qz418L1uG9tQsci7AYxo+kzwgJs","spine":"3.6.53","width":347,"height":150,"images":"./img/"},"bones":[{"name":"root"},{"name":"gl","parent":"root"}],"slots":[{"name":"lvse","bone":"gl","attachment":"zise","blend":"additive"}],"skins":{"default":{"lvse":{"chengse":{"width":365,"height":188},"hongse":{"width":243,"height":115},"lanse":{"width":220,"height":110},"lvse":{"width":220,"height":110},"zise":{"width":238,"height":110}}}},"animations":{"animation1":{"slots":{"lvse":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"chengse"}]}},"bones":{"gl":{"translate":[{"time":0,"x":0,"y":-0.6}]}}},"animation2":{"slots":{"lvse":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"hongse"}]}}},"animation3":{"slots":{"lvse":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}]}},"bones":{"gl":{"translate":[{"time":0,"x":0,"y":-1.01}]}}},"animation4":{"slots":{"lvse":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"lanse"}]}}},"animation5":{"slots":{"lvse":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"lvse"}]}}}}},"_atlasText":"\njackpot_xz_01.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nchengse\n  rotate: false\n  xy: 2, 41\n  size: 365, 188\n  orig: 365, 188\n  offset: 0, 0\n  index: -1\nhongse\n  rotate: false\n  xy: 369, 114\n  size: 243, 115\n  orig: 243, 115\n  offset: 0, 0\n  index: -1\nlanse\n  rotate: false\n  xy: 369, 2\n  size: 220, 110\n  orig: 220, 110\n  offset: 0, 0\n  index: -1\nlvse\n  rotate: false\n  xy: 614, 7\n  size: 220, 110\n  orig: 220, 110\n  offset: 0, 0\n  index: -1\nzise\n  rotate: false\n  xy: 614, 119\n  size: 238, 110\n  orig: 238, 110\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"41xy5BDsxLPY80FL1hKTJp"}],"textureNames":["jackpot_xz_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "jackpot_xz_01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Qz418L1uG9tQsci7AYxo+kzwgJs",
+      "spine": "3.6.53",
+      "width": 347,
+      "height": 150,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "gl",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "lvse",
+        "bone": "gl",
+        "attachment": "zise",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "lvse": {
+          "chengse": {
+            "width": 365,
+            "height": 188
+          },
+          "hongse": {
+            "width": 243,
+            "height": 115
+          },
+          "lanse": {
+            "width": 220,
+            "height": 110
+          },
+          "lvse": {
+            "width": 220,
+            "height": 110
+          },
+          "zise": {
+            "width": 238,
+            "height": 110
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "lvse": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "chengse"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "gl": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -0.6
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "lvse": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "hongse"
+              }
+            ]
+          }
+        }
+      },
+      "animation3": {
+        "slots": {
+          "lvse": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "gl": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -1.01
+              }
+            ]
+          }
+        }
+      },
+      "animation4": {
+        "slots": {
+          "lvse": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lanse"
+              }
+            ]
+          }
+        }
+      },
+      "animation5": {
+        "slots": {
+          "lvse": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lvse"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\njackpot_xz_01.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nchengse\n  rotate: false\n  xy: 2, 41\n  size: 365, 188\n  orig: 365, 188\n  offset: 0, 0\n  index: -1\nhongse\n  rotate: false\n  xy: 369, 114\n  size: 243, 115\n  orig: 243, 115\n  offset: 0, 0\n  index: -1\nlanse\n  rotate: false\n  xy: 369, 2\n  size: 220, 110\n  orig: 220, 110\n  offset: 0, 0\n  index: -1\nlvse\n  rotate: false\n  xy: 614, 7\n  size: 220, 110\n  orig: 220, 110\n  offset: 0, 0\n  index: -1\nzise\n  rotate: false\n  xy: 614, 119\n  size: 238, 110\n  orig: 238, 110\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "41xy5BDsxLPY80FL1hKTJp"
+    }
+  ],
+  "textureNames": [
+    "jackpot_xz_01.png"
+  ]
+}

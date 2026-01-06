@@ -1,1 +1,183 @@
-{"__type__":"sp.SkeletonData","_name":"TaoXinShouJi","_skeletonJson":{"skeleton":{"hash":"SAH4btywl05PkxobFnHi+HyVWnM","spine":"3.6.53","width":0,"height":0,"images":""},"bones":[{"name":"root"},{"name":"All","parent":"root"},{"name":"fei","parent":"All"}],"slots":[{"name":"fei","bone":"fei"}],"skins":{"default":{"fei":{"images/fei/fei_000":{"width":150,"height":640},"images/fei/fei_001":{"width":150,"height":640},"images/fei/fei_002":{"width":150,"height":640},"images/fei/fei_003":{"width":150,"height":640},"images/fei/fei_004":{"width":150,"height":640},"images/fei/fei_005":{"width":150,"height":640},"images/fei/fei_006":{"width":150,"height":640},"images/fei/fei_007":{"width":150,"height":640},"images/fei/fei_008":{"width":150,"height":640},"images/fei/fei_009":{"width":150,"height":640},"images/fei/fei_010":{"width":150,"height":640},"images/fei/fei_011":{"width":150,"height":640},"images/fei/fei_012":{"width":150,"height":640},"images/fei/fei_013":{"width":150,"height":640},"images/fei/fei_014":{"width":150,"height":640}}}},"animations":{"TaoXinShouJi":{"slots":{"fei":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/fei/fei_000"},{"time":0.0667,"name":"images/fei/fei_001"},{"time":0.1,"name":"images/fei/fei_002"},{"time":0.1667,"name":"images/fei/fei_003"},{"time":0.2,"name":"images/fei/fei_004"},{"time":0.2667,"name":"images/fei/fei_005"},{"time":0.3,"name":"images/fei/fei_006"},{"time":0.3667,"name":"images/fei/fei_007"},{"time":0.4,"name":"images/fei/fei_008"},{"time":0.4667,"name":"images/fei/fei_009"},{"time":0.5,"name":"images/fei/fei_010"},{"time":0.5667,"name":"images/fei/fei_011"},{"time":0.6,"name":"images/fei/fei_012"},{"time":0.6667,"name":"images/fei/fei_013"},{"time":0.7,"name":"images/fei/fei_014"}]}}}}},"_atlasText":"\nTaoXinShouJi.png\nsize: 2048,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/fei/fei_001\n  rotate: true\n  xy: 1405, 259\n  size: 112, 130\n  orig: 150, 640\n  offset: 23, 2\n  index: -1\nimages/fei/fei_002\n  rotate: true\n  xy: 942, 252\n  size: 117, 207\n  orig: 150, 640\n  offset: 21, 9\n  index: -1\nimages/fei/fei_003\n  rotate: true\n  xy: 528, 19\n  size: 119, 290\n  orig: 150, 640\n  offset: 21, 18\n  index: -1\nimages/fei/fei_004\n  rotate: true\n  xy: 566, 248\n  size: 121, 374\n  orig: 150, 640\n  offset: 18, 27\n  index: -1\nimages/fei/fei_005\n  rotate: true\n  xy: 2, 5\n  size: 121, 445\n  orig: 150, 640\n  offset: 18, 37\n  index: -1\nimages/fei/fei_006\n  rotate: true\n  xy: 2, 128\n  size: 120, 524\n  orig: 150, 640\n  offset: 17, 49\n  index: -1\nimages/fei/fei_007\n  rotate: true\n  xy: 2, 368\n  size: 117, 562\n  orig: 150, 640\n  offset: 18, 59\n  index: -1\nimages/fei/fei_008\n  rotate: true\n  xy: 2, 250\n  size: 116, 554\n  orig: 150, 640\n  offset: 19, 69\n  index: -1\nimages/fei/fei_009\n  rotate: true\n  xy: 566, 371\n  size: 114, 544\n  orig: 150, 640\n  offset: 20, 80\n  index: -1\nimages/fei/fei_010\n  rotate: true\n  xy: 1112, 373\n  size: 112, 510\n  orig: 150, 640\n  offset: 22, 114\n  index: -1\nimages/fei/fei_011\n  rotate: true\n  xy: 1624, 376\n  size: 109, 421\n  orig: 150, 640\n  offset: 24, 203\n  index: -1\nimages/fei/fei_012\n  rotate: true\n  xy: 528, 140\n  size: 106, 332\n  orig: 150, 640\n  offset: 25, 290\n  index: -1\nimages/fei/fei_013\n  rotate: true\n  xy: 1151, 280\n  size: 91, 252\n  orig: 150, 640\n  offset: 35, 368\n  index: -1\nimages/fei/fei_014\n  rotate: false\n  xy: 2, 2\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\nimages/fei/fei_000\n  rotate: false\n  xy: 2, 2\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"dfRtHgniRB65mtthp9mTjH"}],"textureNames":["TaoXinShouJi.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "TaoXinShouJi",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "SAH4btywl05PkxobFnHi+HyVWnM",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "All",
+        "parent": "root"
+      },
+      {
+        "name": "fei",
+        "parent": "All"
+      }
+    ],
+    "slots": [
+      {
+        "name": "fei",
+        "bone": "fei"
+      }
+    ],
+    "skins": {
+      "default": {
+        "fei": {
+          "images/fei/fei_000": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_001": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_002": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_003": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_004": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_005": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_006": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_007": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_008": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_009": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_010": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_011": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_012": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_013": {
+            "width": 150,
+            "height": 640
+          },
+          "images/fei/fei_014": {
+            "width": 150,
+            "height": 640
+          }
+        }
+      }
+    },
+    "animations": {
+      "TaoXinShouJi": {
+        "slots": {
+          "fei": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/fei/fei_000"
+              },
+              {
+                "time": 0.0667,
+                "name": "images/fei/fei_001"
+              },
+              {
+                "time": 0.1,
+                "name": "images/fei/fei_002"
+              },
+              {
+                "time": 0.1667,
+                "name": "images/fei/fei_003"
+              },
+              {
+                "time": 0.2,
+                "name": "images/fei/fei_004"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/fei/fei_005"
+              },
+              {
+                "time": 0.3,
+                "name": "images/fei/fei_006"
+              },
+              {
+                "time": 0.3667,
+                "name": "images/fei/fei_007"
+              },
+              {
+                "time": 0.4,
+                "name": "images/fei/fei_008"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/fei/fei_009"
+              },
+              {
+                "time": 0.5,
+                "name": "images/fei/fei_010"
+              },
+              {
+                "time": 0.5667,
+                "name": "images/fei/fei_011"
+              },
+              {
+                "time": 0.6,
+                "name": "images/fei/fei_012"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/fei/fei_013"
+              },
+              {
+                "time": 0.7,
+                "name": "images/fei/fei_014"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nTaoXinShouJi.png\nsize: 2048,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/fei/fei_001\n  rotate: true\n  xy: 1405, 259\n  size: 112, 130\n  orig: 150, 640\n  offset: 23, 2\n  index: -1\nimages/fei/fei_002\n  rotate: true\n  xy: 942, 252\n  size: 117, 207\n  orig: 150, 640\n  offset: 21, 9\n  index: -1\nimages/fei/fei_003\n  rotate: true\n  xy: 528, 19\n  size: 119, 290\n  orig: 150, 640\n  offset: 21, 18\n  index: -1\nimages/fei/fei_004\n  rotate: true\n  xy: 566, 248\n  size: 121, 374\n  orig: 150, 640\n  offset: 18, 27\n  index: -1\nimages/fei/fei_005\n  rotate: true\n  xy: 2, 5\n  size: 121, 445\n  orig: 150, 640\n  offset: 18, 37\n  index: -1\nimages/fei/fei_006\n  rotate: true\n  xy: 2, 128\n  size: 120, 524\n  orig: 150, 640\n  offset: 17, 49\n  index: -1\nimages/fei/fei_007\n  rotate: true\n  xy: 2, 368\n  size: 117, 562\n  orig: 150, 640\n  offset: 18, 59\n  index: -1\nimages/fei/fei_008\n  rotate: true\n  xy: 2, 250\n  size: 116, 554\n  orig: 150, 640\n  offset: 19, 69\n  index: -1\nimages/fei/fei_009\n  rotate: true\n  xy: 566, 371\n  size: 114, 544\n  orig: 150, 640\n  offset: 20, 80\n  index: -1\nimages/fei/fei_010\n  rotate: true\n  xy: 1112, 373\n  size: 112, 510\n  orig: 150, 640\n  offset: 22, 114\n  index: -1\nimages/fei/fei_011\n  rotate: true\n  xy: 1624, 376\n  size: 109, 421\n  orig: 150, 640\n  offset: 24, 203\n  index: -1\nimages/fei/fei_012\n  rotate: true\n  xy: 528, 140\n  size: 106, 332\n  orig: 150, 640\n  offset: 25, 290\n  index: -1\nimages/fei/fei_013\n  rotate: true\n  xy: 1151, 280\n  size: 91, 252\n  orig: 150, 640\n  offset: 35, 368\n  index: -1\nimages/fei/fei_014\n  rotate: false\n  xy: 2, 2\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\nimages/fei/fei_000\n  rotate: false\n  xy: 2, 2\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "dfRtHgniRB65mtthp9mTjH"
+    }
+  ],
+  "textureNames": [
+    "TaoXinShouJi.png"
+  ]
+}

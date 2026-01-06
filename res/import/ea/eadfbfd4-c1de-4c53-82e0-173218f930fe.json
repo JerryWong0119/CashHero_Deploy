@@ -1,1 +1,232 @@
-{"__type__":"sp.SkeletonData","_name":"qe_dz01","_skeletonJson":{"skeleton":{"hash":"f+hzuJG3ssN4/gW4S6HGKUnn5oU","spine":"3.6.53","width":189,"height":207.9,"images":"D:/Lybwork/2022.05.18 Cash Hero Ⅱ/子游戏/2022.06.10 奥德修斯/老资源/spine/pick/qe_dz01/new/"},"bones":[{"name":"root"},{"name":"bg","parent":"root"},{"name":"scatter","parent":"root"},{"name":"zong","parent":"scatter"},{"name":"gem","parent":"zong","y":80.96,"scaleX":0.7,"scaleY":0.7},{"name":"xiangzi","parent":"root"}],"slots":[{"name":"theme234_pick_6","bone":"xiangzi"},{"name":"5_1","bone":"xiangzi"},{"name":"base","bone":"bg"},{"name":"gem","bone":"gem","attachment":"gem"}],"skins":{"default":{"gem":{"gem":{"x":4.93,"y":10.15,"width":270,"height":297}}}},"animations":{"animation1":{"slots":{"5_1":{"attachment":[{"time":0,"name":null}]}},"bones":{"zong":{"rotate":[{"time":1,"angle":0}],"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.3333,"x":0,"y":0}],"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":1.2,"y":1.2,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":0.95,"y":0.95,"curve":[0.25,0,0.75,1]},{"time":1,"x":1,"y":1}]}}},"animation2":{"bones":{"zong":{"rotate":[{"time":0,"angle":0},{"time":1,"angle":3},{"time":2,"angle":-3},{"time":3,"angle":0}],"scale":[{"time":0,"x":1,"y":1},{"time":1.5,"x":1.05,"y":1.05},{"time":3,"x":1,"y":1}]}}},"animation3":{"slots":{"gem":{"color":[{"time":0,"color":"ffffffff"},{"time":0.5,"color":"ffffff00"}]}},"bones":{"zong":{"rotate":[{"time":0,"angle":0}],"scale":[{"time":0,"x":1,"y":1}]}}}}},"_atlasText":"\nqe_dz01.png\nsize: 299,299\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngem\n  rotate: false\n  xy: 2, 2\n  size: 268, 295\n  orig: 270, 297\n  offset: 1, 1\n  index: -1\n","textures":[{"__uuid__":"8cVKC8SzhOb4z34R9/B0jN"}],"textureNames":["qe_dz01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "qe_dz01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "f+hzuJG3ssN4/gW4S6HGKUnn5oU",
+      "spine": "3.6.53",
+      "width": 189,
+      "height": 207.9,
+      "images": "D:/Lybwork/2022.05.18 Cash Hero Ⅱ/子游戏/2022.06.10 奥德修斯/老资源/spine/pick/qe_dz01/new/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bg",
+        "parent": "root"
+      },
+      {
+        "name": "scatter",
+        "parent": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "scatter"
+      },
+      {
+        "name": "gem",
+        "parent": "zong",
+        "y": 80.96,
+        "scaleX": 0.7,
+        "scaleY": 0.7
+      },
+      {
+        "name": "xiangzi",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme234_pick_6",
+        "bone": "xiangzi"
+      },
+      {
+        "name": "5_1",
+        "bone": "xiangzi"
+      },
+      {
+        "name": "base",
+        "bone": "bg"
+      },
+      {
+        "name": "gem",
+        "bone": "gem",
+        "attachment": "gem"
+      }
+    ],
+    "skins": {
+      "default": {
+        "gem": {
+          "gem": {
+            "x": 4.93,
+            "y": 10.15,
+            "width": 270,
+            "height": 297
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "5_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zong": {
+            "rotate": [
+              {
+                "time": 1,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0.95,
+                "y": 0.95,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "bones": {
+          "zong": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 1,
+                "angle": 3
+              },
+              {
+                "time": 2,
+                "angle": -3
+              },
+              {
+                "time": 3,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 1.5,
+                "x": 1.05,
+                "y": 1.05
+              },
+              {
+                "time": 3,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation3": {
+        "slots": {
+          "gem": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "zong": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nqe_dz01.png\nsize: 299,299\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngem\n  rotate: false\n  xy: 2, 2\n  size: 268, 295\n  orig: 270, 297\n  offset: 1, 1\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "8cVKC8SzhOb4z34R9/B0jN"
+    }
+  ],
+  "textureNames": [
+    "qe_dz01.png"
+  ]
+}

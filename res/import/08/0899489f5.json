@@ -1,1 +1,209 @@
-[{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"KIdNAYpuzi7QO4Fwf5X/t2XoDCg","spine":"3.6.53","width":145,"height":174,"images":""},"bones":[{"name":"root"},{"name":"weizhibiaozhi","parent":"root","length":163.36,"rotation":89.36,"x":1.35,"y":6.57}],"slots":[{"name":"weizhibiaozhi","bone":"weizhibiaozhi","attachment":"weizhibiaozhi"}],"skins":{"default":{"weizhibiaozhi":{"weizhibiaozhi":{"x":78.47,"y":1.13,"rotation":-89.36,"width":145,"height":174}}}},"animations":{"animation":{"bones":{"weizhibiaozhi":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":0.5,"angle":0,"curve":"stepped"},{"time":1,"angle":0}],"translate":[{"time":0,"x":-0.6,"y":-3.13,"curve":[0.372,0.48,0.752,1]},{"time":0.2667,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.7667,"x":-1.1,"y":-5.75,"curve":[0.252,0,0.622,0.48]},{"time":1,"x":-0.6,"y":-3.13}],"shear":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.5,"x":0,"y":0,"curve":"stepped"},{"time":1,"x":0,"y":0}]}}}}},"_atlasText":"\nspine.png\nsize: 256,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nweizhibiaozhi\n  rotate: false\n  xy: 2, 2\n  size: 145, 174\n  orig: 145, 174\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"ffF62k3ixLIJkpWlcZgvbI"}],"textureNames":["spine.png"]},[{"__type__":"cc.Prefab","_name":"explore_map_flag","data":{"__id__":1}},{"__type__":"cc.Node","_name":"explore_map_flag","_components":[{"__type__":"sp.Skeleton","node":{"__id__":1},"_materials":[{"__uuid__":"7a/QZLET9IDreTiBfRn2PD"}],"defaultSkin":"default","defaultAnimation":"animation","_preCacheMode":0,"premultipliedAlpha":false,"_animationName":"animation","_N$skeletonData":{"__uuid__":"25+6Q4OuhCjapmndm2zNXA"}}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"abOEuXrqJPoactHOm685TV"},"fileId":"4bfUBrkOVDRrz5S5dHnIlR"},"_contentSize":{"__type__":"cc.Size","width":145,"height":174},"_anchorPoint":{"__type__":"cc.Vec2","x":0.5},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[-7.468,86.718,0,0,0,0,1,1,1,1]}}]]
+[
+  {
+    "__type__": "sp.SkeletonData",
+    "_name": "spine",
+    "_skeletonJson": {
+      "skeleton": {
+        "hash": "KIdNAYpuzi7QO4Fwf5X/t2XoDCg",
+        "spine": "3.6.53",
+        "width": 145,
+        "height": 174,
+        "images": ""
+      },
+      "bones": [
+        {
+          "name": "root"
+        },
+        {
+          "name": "weizhibiaozhi",
+          "parent": "root",
+          "length": 163.36,
+          "rotation": 89.36,
+          "x": 1.35,
+          "y": 6.57
+        }
+      ],
+      "slots": [
+        {
+          "name": "weizhibiaozhi",
+          "bone": "weizhibiaozhi",
+          "attachment": "weizhibiaozhi"
+        }
+      ],
+      "skins": {
+        "default": {
+          "weizhibiaozhi": {
+            "weizhibiaozhi": {
+              "x": 78.47,
+              "y": 1.13,
+              "rotation": -89.36,
+              "width": 145,
+              "height": 174
+            }
+          }
+        }
+      },
+      "animations": {
+        "animation": {
+          "bones": {
+            "weizhibiaozhi": {
+              "rotate": [
+                {
+                  "time": 0,
+                  "angle": 0,
+                  "curve": "stepped"
+                },
+                {
+                  "time": 0.5,
+                  "angle": 0,
+                  "curve": "stepped"
+                },
+                {
+                  "time": 1,
+                  "angle": 0
+                }
+              ],
+              "translate": [
+                {
+                  "time": 0,
+                  "x": -0.6,
+                  "y": -3.13,
+                  "curve": [
+                    0.372,
+                    0.48,
+                    0.752,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.2667,
+                  "x": 0,
+                  "y": 0,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.7667,
+                  "x": -1.1,
+                  "y": -5.75,
+                  "curve": [
+                    0.252,
+                    0,
+                    0.622,
+                    0.48
+                  ]
+                },
+                {
+                  "time": 1,
+                  "x": -0.6,
+                  "y": -3.13
+                }
+              ],
+              "shear": [
+                {
+                  "time": 0,
+                  "x": 0,
+                  "y": 0,
+                  "curve": "stepped"
+                },
+                {
+                  "time": 0.5,
+                  "x": 0,
+                  "y": 0,
+                  "curve": "stepped"
+                },
+                {
+                  "time": 1,
+                  "x": 0,
+                  "y": 0
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "_atlasText": "\nspine.png\nsize: 256,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nweizhibiaozhi\n  rotate: false\n  xy: 2, 2\n  size: 145, 174\n  orig: 145, 174\n  offset: 0, 0\n  index: -1\n",
+    "textures": [
+      {
+        "__uuid__": "ffF62k3ixLIJkpWlcZgvbI"
+      }
+    ],
+    "textureNames": [
+      "spine.png"
+    ]
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "explore_map_flag",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "explore_map_flag",
+      "_components": [
+        {
+          "__type__": "sp.Skeleton",
+          "node": {
+            "__id__": 1
+          },
+          "_materials": [
+            {
+              "__uuid__": "7a/QZLET9IDreTiBfRn2PD"
+            }
+          ],
+          "defaultSkin": "default",
+          "defaultAnimation": "animation",
+          "_preCacheMode": 0,
+          "premultipliedAlpha": false,
+          "_animationName": "animation",
+          "_N$skeletonData": {
+            "__uuid__": "25+6Q4OuhCjapmndm2zNXA"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "abOEuXrqJPoactHOm685TV"
+        },
+        "fileId": "4bfUBrkOVDRrz5S5dHnIlR"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 145,
+        "height": 174
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2",
+        "x": 0.5
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          -7.468,
+          86.718,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  ]
+]

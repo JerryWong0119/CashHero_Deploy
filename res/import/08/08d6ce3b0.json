@@ -1,0 +1,217 @@
+[
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "LMSlots_Help_item6",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "LMSlots_Help_item6",
+      "_objFlags": 512,
+      "_children": [
+        {
+          "__id__": 2
+        },
+        {
+          "__id__": 3
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "412rdkVPFDsIddvoa44/QR"
+        },
+        "fileId": "dbDX/XivpHu5hhsn7646nO"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 720,
+        "height": 540
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Kangaroos_tanban_di",
+      "_parent": {
+        "__id__": 1
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 2
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "63XnvHUtdN46et1kGhveWE"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "412rdkVPFDsIddvoa44/QR"
+        },
+        "fileId": "65vdZCcwpMxZ8Fc2EGmdXD"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 364,
+        "height": 442
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Kangaroos_p1",
+      "_parent": {
+        "__id__": 1
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 3
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "66kk+GcPtLVq3PwOLWP/S4"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "412rdkVPFDsIddvoa44/QR"
+        },
+        "fileId": "831CW0qM1Am4HSoHw3wpIx"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 652,
+        "height": 671
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          15.053,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Kangaroos_tanban_di",
+      "texture": "50B5XyrDZGLrNFF6R5hmOH",
+      "rect": [
+        1,
+        0,
+        364,
+        442
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        365,
+        442
+      ],
+      "capInsets": [
+        48.5,
+        50,
+        48.5,
+        50
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Kangaroos_p6",
+      "texture": "f8+wuHXSVEMbsJ2lBRA/Gt",
+      "rect": [
+        1,
+        1,
+        652,
+        671
+      ],
+      "offset": [
+        0.5,
+        -0.5
+      ],
+      "originalSize": [
+        653,
+        672
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

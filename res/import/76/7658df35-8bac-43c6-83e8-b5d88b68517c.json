@@ -1,1 +1,832 @@
-{"__type__":"sp.SkeletonData","_name":"huoshouji","_skeletonJson":{"skeleton":{"hash":"dN/KBliul9NHzXZmwSHMhXS/E9c","spine":"3.6.53","width":1060,"height":1840,"images":"../sucai/"},"bones":[{"name":"root","scaleX":4,"scaleY":4},{"name":"bo","parent":"root"},{"name":"bo2","parent":"root"},{"name":"bo3","parent":"root"},{"name":"huoshouji","parent":"root"},{"name":"huoshouji2","parent":"root"},{"name":"kuosanguang","parent":"root"},{"name":"骨骼","parent":"root"},{"name":"骨骼2","parent":"root","y":-31.32}],"slots":[{"name":"baoshi2","bone":"骨骼2"},{"name":"baoshi","bone":"骨骼"},{"name":"cmn_burst04","bone":"bo"},{"name":"cmn_burst4","bone":"bo2","blend":"additive"},{"name":"cmn_burst5","bone":"bo3","blend":"additive"},{"name":"huoshouji","bone":"huoshouji"},{"name":"huoshouji2","bone":"huoshouji2","blend":"additive"},{"name":"kuosanguang","bone":"kuosanguang","blend":"additive"}],"skins":{"default":{"cmn_burst04":{"glow":{"width":128,"height":128}},"cmn_burst4":{"glow":{"width":128,"height":128}},"cmn_burst5":{"cmn_dis00":{"width":512,"height":512}},"huoshouji":{"huoshouji/huoshouji_00":{"width":816,"height":816},"huoshouji/huoshouji_01":{"width":816,"height":816},"huoshouji/huoshouji_02":{"width":816,"height":816},"huoshouji/huoshouji_03":{"width":816,"height":816},"huoshouji/huoshouji_04":{"width":816,"height":816},"huoshouji/huoshouji_05":{"width":816,"height":816},"huoshouji/huoshouji_06":{"width":816,"height":816},"huoshouji/huoshouji_07":{"width":816,"height":816},"huoshouji/huoshouji_08":{"width":816,"height":816},"huoshouji/huoshouji_09":{"width":816,"height":816},"huoshouji/huoshouji_10":{"width":816,"height":816},"huoshouji/huoshouji_11":{"width":816,"height":816},"huoshouji/huoshouji_12":{"width":816,"height":816},"huoshouji/huoshouji_13":{"width":816,"height":816},"huoshouji/huoshouji_14":{"width":816,"height":816},"huoshouji/huoshouji_15":{"width":816,"height":816},"huoshouji/huoshouji_16":{"width":816,"height":816},"huoshouji/huoshouji_17":{"width":816,"height":816},"huoshouji/huoshouji_18":{"width":816,"height":816},"huoshouji/huoshouji_19":{"width":816,"height":816},"huoshouji/huoshouji_20":{"width":816,"height":816},"huoshouji/huoshouji_21":{"width":816,"height":816},"huoshouji/huoshouji_22":{"width":816,"height":816},"huoshouji/huoshouji_23":{"width":816,"height":816},"huoshouji/huoshouji_24":{"width":816,"height":816},"huoshouji/huoshouji_25":{"width":816,"height":816}},"huoshouji2":{"huoshouji/huoshouji_00":{"width":816,"height":816},"huoshouji/huoshouji_01":{"width":816,"height":816},"huoshouji/huoshouji_02":{"width":816,"height":816},"huoshouji/huoshouji_03":{"width":816,"height":816},"huoshouji/huoshouji_04":{"width":816,"height":816},"huoshouji/huoshouji_05":{"width":816,"height":816},"huoshouji/huoshouji_06":{"width":816,"height":816},"huoshouji/huoshouji_07":{"width":816,"height":816},"huoshouji/huoshouji_08":{"width":816,"height":816},"huoshouji/huoshouji_09":{"width":816,"height":816},"huoshouji/huoshouji_10":{"width":816,"height":816},"huoshouji/huoshouji_11":{"width":816,"height":816},"huoshouji/huoshouji_12":{"width":816,"height":816},"huoshouji/huoshouji_13":{"width":816,"height":816},"huoshouji/huoshouji_14":{"width":816,"height":816},"huoshouji/huoshouji_15":{"width":816,"height":816},"huoshouji/huoshouji_16":{"width":816,"height":816},"huoshouji/huoshouji_17":{"width":816,"height":816},"huoshouji/huoshouji_18":{"width":816,"height":816},"huoshouji/huoshouji_19":{"width":816,"height":816},"huoshouji/huoshouji_20":{"width":816,"height":816},"huoshouji/huoshouji_21":{"width":816,"height":816},"huoshouji/huoshouji_22":{"width":816,"height":816},"huoshouji/huoshouji_23":{"width":816,"height":816},"huoshouji/huoshouji_24":{"width":816,"height":816},"huoshouji/huoshouji_25":{"width":816,"height":816}},"kuosanguang":{"kuosanguang/kuosanguang_00":{"width":816,"height":816},"kuosanguang/kuosanguang_01":{"width":816,"height":816},"kuosanguang/kuosanguang_02":{"width":816,"height":816},"kuosanguang/kuosanguang_03":{"width":816,"height":816},"kuosanguang/kuosanguang_04":{"width":816,"height":816},"kuosanguang/kuosanguang_05":{"width":816,"height":816},"kuosanguang/kuosanguang_06":{"width":816,"height":816},"kuosanguang/kuosanguang_07":{"width":816,"height":816},"kuosanguang/kuosanguang_08":{"width":816,"height":816},"kuosanguang/kuosanguang_09":{"width":816,"height":816},"kuosanguang/kuosanguang_10":{"width":816,"height":816},"kuosanguang/kuosanguang_11":{"width":816,"height":816},"kuosanguang/kuosanguang_12":{"width":816,"height":816},"kuosanguang/kuosanguang_13":{"width":816,"height":816}}}},"animations":{"animation":{"slots":{"cmn_burst04":{"color":[{"time":0,"color":"ffffffff"},{"time":0.0667,"color":"ffa90000"}],"attachment":[{"time":0,"name":"glow"}]},"cmn_burst4":{"color":[{"time":0,"color":"ffa900ff"},{"time":0.0667,"color":"ffa90000"}],"attachment":[{"time":0,"name":"glow"},{"time":0.0667,"name":null}]},"cmn_burst5":{"color":[{"time":0,"color":"ffa900ff"},{"time":0.2667,"color":"ffa90000"}],"attachment":[{"time":0,"name":"cmn_dis00"}]},"huoshouji":{"attachment":[{"time":0,"name":"huoshouji/huoshouji_00"},{"time":0.0333,"name":"huoshouji/huoshouji_01"},{"time":0.0667,"name":"huoshouji/huoshouji_02"},{"time":0.1,"name":"huoshouji/huoshouji_03"},{"time":0.1333,"name":"huoshouji/huoshouji_04"},{"time":0.1667,"name":"huoshouji/huoshouji_05"},{"time":0.2,"name":"huoshouji/huoshouji_06"},{"time":0.2333,"name":"huoshouji/huoshouji_07"},{"time":0.2667,"name":"huoshouji/huoshouji_08"},{"time":0.3,"name":"huoshouji/huoshouji_09"},{"time":0.3333,"name":"huoshouji/huoshouji_10"},{"time":0.3667,"name":"huoshouji/huoshouji_11"},{"time":0.4,"name":"huoshouji/huoshouji_12"},{"time":0.4333,"name":"huoshouji/huoshouji_13"},{"time":0.4667,"name":"huoshouji/huoshouji_14"},{"time":0.5,"name":"huoshouji/huoshouji_15"},{"time":0.5333,"name":"huoshouji/huoshouji_16"},{"time":0.5667,"name":"huoshouji/huoshouji_17"},{"time":0.6,"name":"huoshouji/huoshouji_18"},{"time":0.6333,"name":"huoshouji/huoshouji_19"},{"time":0.6667,"name":"huoshouji/huoshouji_20"},{"time":0.7,"name":"huoshouji/huoshouji_21"},{"time":0.7333,"name":"huoshouji/huoshouji_22"},{"time":0.7667,"name":"huoshouji/huoshouji_23"},{"time":0.8,"name":"huoshouji/huoshouji_24"},{"time":0.8333,"name":"huoshouji/huoshouji_25"},{"time":0.8667,"name":null}]},"huoshouji2":{"color":[{"time":0,"color":"ffffff6e"}],"attachment":[{"time":0,"name":"huoshouji/huoshouji_00"},{"time":0.0333,"name":"huoshouji/huoshouji_01"},{"time":0.0667,"name":"huoshouji/huoshouji_02"},{"time":0.1,"name":"huoshouji/huoshouji_03"},{"time":0.1333,"name":"huoshouji/huoshouji_04"},{"time":0.1667,"name":"huoshouji/huoshouji_05"},{"time":0.2,"name":"huoshouji/huoshouji_06"},{"time":0.2333,"name":"huoshouji/huoshouji_07"},{"time":0.2667,"name":"huoshouji/huoshouji_08"},{"time":0.3,"name":"huoshouji/huoshouji_09"},{"time":0.3333,"name":"huoshouji/huoshouji_10"},{"time":0.3667,"name":"huoshouji/huoshouji_11"},{"time":0.4,"name":"huoshouji/huoshouji_12"},{"time":0.4333,"name":"huoshouji/huoshouji_13"},{"time":0.4667,"name":"huoshouji/huoshouji_14"},{"time":0.5,"name":"huoshouji/huoshouji_15"},{"time":0.5333,"name":"huoshouji/huoshouji_16"},{"time":0.5667,"name":"huoshouji/huoshouji_17"},{"time":0.6,"name":"huoshouji/huoshouji_18"},{"time":0.6333,"name":"huoshouji/huoshouji_19"},{"time":0.6667,"name":"huoshouji/huoshouji_20"},{"time":0.7,"name":"huoshouji/huoshouji_21"},{"time":0.7333,"name":"huoshouji/huoshouji_22"},{"time":0.7667,"name":"huoshouji/huoshouji_23"},{"time":0.8,"name":"huoshouji/huoshouji_24"},{"time":0.8333,"name":"huoshouji/huoshouji_25"},{"time":0.8667,"name":null}]},"kuosanguang":{"attachment":[{"time":0,"name":"kuosanguang/kuosanguang_00"},{"time":0.0333,"name":"kuosanguang/kuosanguang_01"},{"time":0.0667,"name":"kuosanguang/kuosanguang_02"},{"time":0.1,"name":"kuosanguang/kuosanguang_03"},{"time":0.1333,"name":"kuosanguang/kuosanguang_04"},{"time":0.1667,"name":"kuosanguang/kuosanguang_05"},{"time":0.2,"name":"kuosanguang/kuosanguang_06"},{"time":0.2333,"name":"kuosanguang/kuosanguang_07"},{"time":0.2667,"name":"kuosanguang/kuosanguang_08"},{"time":0.3,"name":"kuosanguang/kuosanguang_09"},{"time":0.3333,"name":"kuosanguang/kuosanguang_10"},{"time":0.3667,"name":"kuosanguang/kuosanguang_11"},{"time":0.4,"name":"kuosanguang/kuosanguang_12"},{"time":0.4333,"name":"kuosanguang/kuosanguang_13"},{"time":0.4667,"name":null}]}},"bones":{"huoshouji":{"translate":[{"time":0,"x":5.23,"y":0.91}],"scale":[{"time":0,"x":0.263,"y":0.263}]},"huoshouji2":{"translate":[{"time":0,"x":5.23,"y":0.91}],"scale":[{"time":0,"x":0.263,"y":0.263}]},"bo":{"scale":[{"time":0,"x":0.172,"y":0.172}]},"kuosanguang":{"translate":[{"time":0,"x":3.89,"y":1.3}],"scale":[{"time":0,"x":0.25,"y":0.25}]},"bo2":{"scale":[{"time":0,"x":1.277,"y":1.277}]},"bo3":{"scale":[{"time":0,"x":0.074,"y":0.074},{"time":0.2667,"x":0.404,"y":0.404}]}}}}},"_atlasText":"\nhuoshouji.png\nsize: 1839,404\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ncmn_dis00\n  rotate: false\n  xy: 1629, 139\n  size: 128, 128\n  orig: 128, 128\n  offset: 0, 0\n  index: -1\nglow\n  rotate: false\n  xy: 243, 78\n  size: 27, 27\n  orig: 32, 32\n  offset: 3, 2\n  index: -1\nhuoshouji/huoshouji_00\n  rotate: true\n  xy: 2, 2\n  size: 103, 105\n  orig: 204, 204\n  offset: 42, 56\n  index: -1\nhuoshouji/huoshouji_01\n  rotate: true\n  xy: 690, 15\n  size: 105, 101\n  orig: 204, 204\n  offset: 39, 58\n  index: -1\nhuoshouji/huoshouji_02\n  rotate: true\n  xy: 1618, 30\n  size: 107, 108\n  orig: 204, 204\n  offset: 37, 51\n  index: -1\nhuoshouji/huoshouji_03\n  rotate: false\n  xy: 1184, 15\n  size: 111, 122\n  orig: 204, 204\n  offset: 36, 47\n  index: -1\nhuoshouji/huoshouji_04\n  rotate: true\n  xy: 560, 2\n  size: 118, 128\n  orig: 204, 204\n  offset: 34, 45\n  index: -1\nhuoshouji/huoshouji_05\n  rotate: true\n  xy: 1496, 147\n  size: 120, 131\n  orig: 204, 204\n  offset: 34, 45\n  index: -1\nhuoshouji/huoshouji_06\n  rotate: false\n  xy: 1044, 4\n  size: 138, 133\n  orig: 204, 204\n  offset: 21, 47\n  index: -1\nhuoshouji/huoshouji_07\n  rotate: true\n  xy: 292, 118\n  size: 143, 130\n  orig: 204, 204\n  offset: 18, 46\n  index: -1\nhuoshouji/huoshouji_08\n  rotate: false\n  xy: 1390, 270\n  size: 144, 132\n  orig: 204, 204\n  offset: 16, 48\n  index: -1\nhuoshouji/huoshouji_09\n  rotate: false\n  xy: 641, 260\n  size: 148, 142\n  orig: 204, 204\n  offset: 14, 43\n  index: -1\nhuoshouji/huoshouji_10\n  rotate: true\n  xy: 791, 255\n  size: 147, 148\n  orig: 204, 204\n  offset: 17, 43\n  index: -1\nhuoshouji/huoshouji_11\n  rotate: false\n  xy: 489, 263\n  size: 150, 139\n  orig: 204, 204\n  offset: 16, 43\n  index: -1\nhuoshouji/huoshouji_12\n  rotate: true\n  xy: 791, 126\n  size: 127, 142\n  orig: 204, 204\n  offset: 35, 44\n  index: -1\nhuoshouji/huoshouji_13\n  rotate: true\n  xy: 941, 139\n  size: 129, 144\n  orig: 204, 204\n  offset: 36, 45\n  index: -1\nhuoshouji/huoshouji_14\n  rotate: true\n  xy: 1243, 270\n  size: 132, 145\n  orig: 204, 204\n  offset: 36, 46\n  index: -1\nhuoshouji/huoshouji_15\n  rotate: true\n  xy: 1093, 271\n  size: 131, 148\n  orig: 204, 204\n  offset: 39, 48\n  index: -1\nhuoshouji/huoshouji_16\n  rotate: true\n  xy: 941, 270\n  size: 132, 150\n  orig: 204, 204\n  offset: 40, 50\n  index: -1\nhuoshouji/huoshouji_17\n  rotate: true\n  xy: 1682, 274\n  size: 128, 147\n  orig: 204, 204\n  offset: 45, 52\n  index: -1\nhuoshouji/huoshouji_18\n  rotate: false\n  xy: 165, 107\n  size: 125, 144\n  orig: 204, 204\n  offset: 47, 54\n  index: -1\nhuoshouji/huoshouji_19\n  rotate: false\n  xy: 935, 2\n  size: 107, 135\n  orig: 204, 204\n  offset: 47, 57\n  index: -1\nhuoshouji/huoshouji_20\n  rotate: true\n  xy: 109, 3\n  size: 102, 132\n  orig: 204, 204\n  offset: 47, 61\n  index: -1\nhuoshouji/huoshouji_21\n  rotate: false\n  xy: 1391, 27\n  size: 97, 116\n  orig: 204, 204\n  offset: 49, 63\n  index: -1\nhuoshouji/huoshouji_22\n  rotate: true\n  xy: 1496, 55\n  size: 90, 120\n  orig: 204, 204\n  offset: 55, 63\n  index: -1\nhuoshouji/huoshouji_23\n  rotate: false\n  xy: 1728, 29\n  size: 90, 108\n  orig: 204, 204\n  offset: 55, 73\n  index: -1\nhuoshouji/huoshouji_24\n  rotate: false\n  xy: 701, 149\n  size: 88, 109\n  orig: 204, 204\n  offset: 55, 76\n  index: -1\nhuoshouji/huoshouji_25\n  rotate: false\n  xy: 1759, 163\n  size: 78, 109\n  orig: 204, 204\n  offset: 56, 81\n  index: -1\nkuosanguang/kuosanguang_00\n  rotate: false\n  xy: 793, 37\n  size: 104, 87\n  orig: 204, 204\n  offset: 43, 54\n  index: -1\nkuosanguang/kuosanguang_01\n  rotate: true\n  xy: 421, 2\n  size: 114, 99\n  orig: 204, 204\n  offset: 40, 45\n  index: -1\nkuosanguang/kuosanguang_02\n  rotate: false\n  xy: 292, 2\n  size: 127, 114\n  orig: 204, 204\n  offset: 35, 39\n  index: -1\nkuosanguang/kuosanguang_03\n  rotate: false\n  xy: 1358, 145\n  size: 136, 123\n  orig: 204, 204\n  offset: 31, 35\n  index: -1\nkuosanguang/kuosanguang_04\n  rotate: false\n  xy: 1536, 269\n  size: 144, 133\n  orig: 204, 204\n  offset: 24, 30\n  index: -1\nkuosanguang/kuosanguang_05\n  rotate: false\n  xy: 174, 263\n  size: 157, 139\n  orig: 204, 204\n  offset: 18, 25\n  index: -1\nkuosanguang/kuosanguang_06\n  rotate: false\n  xy: 2, 253\n  size: 170, 149\n  orig: 204, 204\n  offset: 13, 20\n  index: -1\nkuosanguang/kuosanguang_07\n  rotate: false\n  xy: 2, 107\n  size: 161, 144\n  orig: 204, 204\n  offset: 23, 29\n  index: -1\nkuosanguang/kuosanguang_08\n  rotate: false\n  xy: 333, 264\n  size: 154, 138\n  orig: 204, 204\n  offset: 20, 31\n  index: -1\nkuosanguang/kuosanguang_09\n  rotate: false\n  xy: 560, 122\n  size: 139, 136\n  orig: 204, 204\n  offset: 28, 33\n  index: -1\nkuosanguang/kuosanguang_10\n  rotate: true\n  xy: 424, 118\n  size: 140, 134\n  orig: 204, 204\n  offset: 27, 37\n  index: -1\nkuosanguang/kuosanguang_11\n  rotate: false\n  xy: 1216, 141\n  size: 140, 127\n  orig: 204, 204\n  offset: 26, 37\n  index: -1\nkuosanguang/kuosanguang_12\n  rotate: true\n  xy: 1087, 139\n  size: 129, 127\n  orig: 204, 204\n  offset: 31, 38\n  index: -1\nkuosanguang/kuosanguang_13\n  rotate: true\n  xy: 1297, 17\n  size: 122, 92\n  orig: 204, 204\n  offset: 34, 39\n  index: -1\n","textures":[{"__uuid__":"66oXoToLVI0IeWUr5JVwcr"}],"textureNames":["huoshouji.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "huoshouji",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "dN/KBliul9NHzXZmwSHMhXS/E9c",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1840,
+      "images": "../sucai/"
+    },
+    "bones": [
+      {
+        "name": "root",
+        "scaleX": 4,
+        "scaleY": 4
+      },
+      {
+        "name": "bo",
+        "parent": "root"
+      },
+      {
+        "name": "bo2",
+        "parent": "root"
+      },
+      {
+        "name": "bo3",
+        "parent": "root"
+      },
+      {
+        "name": "huoshouji",
+        "parent": "root"
+      },
+      {
+        "name": "huoshouji2",
+        "parent": "root"
+      },
+      {
+        "name": "kuosanguang",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼2",
+        "parent": "root",
+        "y": -31.32
+      }
+    ],
+    "slots": [
+      {
+        "name": "baoshi2",
+        "bone": "骨骼2"
+      },
+      {
+        "name": "baoshi",
+        "bone": "骨骼"
+      },
+      {
+        "name": "cmn_burst04",
+        "bone": "bo"
+      },
+      {
+        "name": "cmn_burst4",
+        "bone": "bo2",
+        "blend": "additive"
+      },
+      {
+        "name": "cmn_burst5",
+        "bone": "bo3",
+        "blend": "additive"
+      },
+      {
+        "name": "huoshouji",
+        "bone": "huoshouji"
+      },
+      {
+        "name": "huoshouji2",
+        "bone": "huoshouji2",
+        "blend": "additive"
+      },
+      {
+        "name": "kuosanguang",
+        "bone": "kuosanguang",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "cmn_burst04": {
+          "glow": {
+            "width": 128,
+            "height": 128
+          }
+        },
+        "cmn_burst4": {
+          "glow": {
+            "width": 128,
+            "height": 128
+          }
+        },
+        "cmn_burst5": {
+          "cmn_dis00": {
+            "width": 512,
+            "height": 512
+          }
+        },
+        "huoshouji": {
+          "huoshouji/huoshouji_00": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_01": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_02": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_03": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_04": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_05": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_06": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_07": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_08": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_09": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_10": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_11": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_12": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_13": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_14": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_15": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_16": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_17": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_18": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_19": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_20": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_21": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_22": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_23": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_24": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_25": {
+            "width": 816,
+            "height": 816
+          }
+        },
+        "huoshouji2": {
+          "huoshouji/huoshouji_00": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_01": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_02": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_03": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_04": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_05": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_06": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_07": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_08": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_09": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_10": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_11": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_12": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_13": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_14": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_15": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_16": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_17": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_18": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_19": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_20": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_21": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_22": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_23": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_24": {
+            "width": 816,
+            "height": 816
+          },
+          "huoshouji/huoshouji_25": {
+            "width": 816,
+            "height": 816
+          }
+        },
+        "kuosanguang": {
+          "kuosanguang/kuosanguang_00": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_01": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_02": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_03": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_04": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_05": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_06": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_07": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_08": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_09": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_10": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_11": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_12": {
+            "width": 816,
+            "height": 816
+          },
+          "kuosanguang/kuosanguang_13": {
+            "width": 816,
+            "height": 816
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "cmn_burst04": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffa90000"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow"
+              }
+            ]
+          },
+          "cmn_burst4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffa900ff"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffa90000"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow"
+              },
+              {
+                "time": 0.0667,
+                "name": null
+              }
+            ]
+          },
+          "cmn_burst5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffa900ff"
+              },
+              {
+                "time": 0.2667,
+                "color": "ffa90000"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "cmn_dis00"
+              }
+            ]
+          },
+          "huoshouji": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "huoshouji/huoshouji_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "huoshouji/huoshouji_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "huoshouji/huoshouji_02"
+              },
+              {
+                "time": 0.1,
+                "name": "huoshouji/huoshouji_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "huoshouji/huoshouji_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "huoshouji/huoshouji_05"
+              },
+              {
+                "time": 0.2,
+                "name": "huoshouji/huoshouji_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "huoshouji/huoshouji_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "huoshouji/huoshouji_08"
+              },
+              {
+                "time": 0.3,
+                "name": "huoshouji/huoshouji_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "huoshouji/huoshouji_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "huoshouji/huoshouji_11"
+              },
+              {
+                "time": 0.4,
+                "name": "huoshouji/huoshouji_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "huoshouji/huoshouji_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "huoshouji/huoshouji_14"
+              },
+              {
+                "time": 0.5,
+                "name": "huoshouji/huoshouji_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "huoshouji/huoshouji_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "huoshouji/huoshouji_17"
+              },
+              {
+                "time": 0.6,
+                "name": "huoshouji/huoshouji_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "huoshouji/huoshouji_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "huoshouji/huoshouji_20"
+              },
+              {
+                "time": 0.7,
+                "name": "huoshouji/huoshouji_21"
+              },
+              {
+                "time": 0.7333,
+                "name": "huoshouji/huoshouji_22"
+              },
+              {
+                "time": 0.7667,
+                "name": "huoshouji/huoshouji_23"
+              },
+              {
+                "time": 0.8,
+                "name": "huoshouji/huoshouji_24"
+              },
+              {
+                "time": 0.8333,
+                "name": "huoshouji/huoshouji_25"
+              },
+              {
+                "time": 0.8667,
+                "name": null
+              }
+            ]
+          },
+          "huoshouji2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff6e"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "huoshouji/huoshouji_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "huoshouji/huoshouji_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "huoshouji/huoshouji_02"
+              },
+              {
+                "time": 0.1,
+                "name": "huoshouji/huoshouji_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "huoshouji/huoshouji_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "huoshouji/huoshouji_05"
+              },
+              {
+                "time": 0.2,
+                "name": "huoshouji/huoshouji_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "huoshouji/huoshouji_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "huoshouji/huoshouji_08"
+              },
+              {
+                "time": 0.3,
+                "name": "huoshouji/huoshouji_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "huoshouji/huoshouji_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "huoshouji/huoshouji_11"
+              },
+              {
+                "time": 0.4,
+                "name": "huoshouji/huoshouji_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "huoshouji/huoshouji_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "huoshouji/huoshouji_14"
+              },
+              {
+                "time": 0.5,
+                "name": "huoshouji/huoshouji_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "huoshouji/huoshouji_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "huoshouji/huoshouji_17"
+              },
+              {
+                "time": 0.6,
+                "name": "huoshouji/huoshouji_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "huoshouji/huoshouji_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "huoshouji/huoshouji_20"
+              },
+              {
+                "time": 0.7,
+                "name": "huoshouji/huoshouji_21"
+              },
+              {
+                "time": 0.7333,
+                "name": "huoshouji/huoshouji_22"
+              },
+              {
+                "time": 0.7667,
+                "name": "huoshouji/huoshouji_23"
+              },
+              {
+                "time": 0.8,
+                "name": "huoshouji/huoshouji_24"
+              },
+              {
+                "time": 0.8333,
+                "name": "huoshouji/huoshouji_25"
+              },
+              {
+                "time": 0.8667,
+                "name": null
+              }
+            ]
+          },
+          "kuosanguang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "kuosanguang/kuosanguang_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "kuosanguang/kuosanguang_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "kuosanguang/kuosanguang_02"
+              },
+              {
+                "time": 0.1,
+                "name": "kuosanguang/kuosanguang_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "kuosanguang/kuosanguang_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "kuosanguang/kuosanguang_05"
+              },
+              {
+                "time": 0.2,
+                "name": "kuosanguang/kuosanguang_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "kuosanguang/kuosanguang_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "kuosanguang/kuosanguang_08"
+              },
+              {
+                "time": 0.3,
+                "name": "kuosanguang/kuosanguang_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "kuosanguang/kuosanguang_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "kuosanguang/kuosanguang_11"
+              },
+              {
+                "time": 0.4,
+                "name": "kuosanguang/kuosanguang_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "kuosanguang/kuosanguang_13"
+              },
+              {
+                "time": 0.4667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "huoshouji": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 5.23,
+                "y": 0.91
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.263,
+                "y": 0.263
+              }
+            ]
+          },
+          "huoshouji2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 5.23,
+                "y": 0.91
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.263,
+                "y": 0.263
+              }
+            ]
+          },
+          "bo": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.172,
+                "y": 0.172
+              }
+            ]
+          },
+          "kuosanguang": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 3.89,
+                "y": 1.3
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.25,
+                "y": 0.25
+              }
+            ]
+          },
+          "bo2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.277,
+                "y": 1.277
+              }
+            ]
+          },
+          "bo3": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.074,
+                "y": 0.074
+              },
+              {
+                "time": 0.2667,
+                "x": 0.404,
+                "y": 0.404
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nhuoshouji.png\nsize: 1839,404\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ncmn_dis00\n  rotate: false\n  xy: 1629, 139\n  size: 128, 128\n  orig: 128, 128\n  offset: 0, 0\n  index: -1\nglow\n  rotate: false\n  xy: 243, 78\n  size: 27, 27\n  orig: 32, 32\n  offset: 3, 2\n  index: -1\nhuoshouji/huoshouji_00\n  rotate: true\n  xy: 2, 2\n  size: 103, 105\n  orig: 204, 204\n  offset: 42, 56\n  index: -1\nhuoshouji/huoshouji_01\n  rotate: true\n  xy: 690, 15\n  size: 105, 101\n  orig: 204, 204\n  offset: 39, 58\n  index: -1\nhuoshouji/huoshouji_02\n  rotate: true\n  xy: 1618, 30\n  size: 107, 108\n  orig: 204, 204\n  offset: 37, 51\n  index: -1\nhuoshouji/huoshouji_03\n  rotate: false\n  xy: 1184, 15\n  size: 111, 122\n  orig: 204, 204\n  offset: 36, 47\n  index: -1\nhuoshouji/huoshouji_04\n  rotate: true\n  xy: 560, 2\n  size: 118, 128\n  orig: 204, 204\n  offset: 34, 45\n  index: -1\nhuoshouji/huoshouji_05\n  rotate: true\n  xy: 1496, 147\n  size: 120, 131\n  orig: 204, 204\n  offset: 34, 45\n  index: -1\nhuoshouji/huoshouji_06\n  rotate: false\n  xy: 1044, 4\n  size: 138, 133\n  orig: 204, 204\n  offset: 21, 47\n  index: -1\nhuoshouji/huoshouji_07\n  rotate: true\n  xy: 292, 118\n  size: 143, 130\n  orig: 204, 204\n  offset: 18, 46\n  index: -1\nhuoshouji/huoshouji_08\n  rotate: false\n  xy: 1390, 270\n  size: 144, 132\n  orig: 204, 204\n  offset: 16, 48\n  index: -1\nhuoshouji/huoshouji_09\n  rotate: false\n  xy: 641, 260\n  size: 148, 142\n  orig: 204, 204\n  offset: 14, 43\n  index: -1\nhuoshouji/huoshouji_10\n  rotate: true\n  xy: 791, 255\n  size: 147, 148\n  orig: 204, 204\n  offset: 17, 43\n  index: -1\nhuoshouji/huoshouji_11\n  rotate: false\n  xy: 489, 263\n  size: 150, 139\n  orig: 204, 204\n  offset: 16, 43\n  index: -1\nhuoshouji/huoshouji_12\n  rotate: true\n  xy: 791, 126\n  size: 127, 142\n  orig: 204, 204\n  offset: 35, 44\n  index: -1\nhuoshouji/huoshouji_13\n  rotate: true\n  xy: 941, 139\n  size: 129, 144\n  orig: 204, 204\n  offset: 36, 45\n  index: -1\nhuoshouji/huoshouji_14\n  rotate: true\n  xy: 1243, 270\n  size: 132, 145\n  orig: 204, 204\n  offset: 36, 46\n  index: -1\nhuoshouji/huoshouji_15\n  rotate: true\n  xy: 1093, 271\n  size: 131, 148\n  orig: 204, 204\n  offset: 39, 48\n  index: -1\nhuoshouji/huoshouji_16\n  rotate: true\n  xy: 941, 270\n  size: 132, 150\n  orig: 204, 204\n  offset: 40, 50\n  index: -1\nhuoshouji/huoshouji_17\n  rotate: true\n  xy: 1682, 274\n  size: 128, 147\n  orig: 204, 204\n  offset: 45, 52\n  index: -1\nhuoshouji/huoshouji_18\n  rotate: false\n  xy: 165, 107\n  size: 125, 144\n  orig: 204, 204\n  offset: 47, 54\n  index: -1\nhuoshouji/huoshouji_19\n  rotate: false\n  xy: 935, 2\n  size: 107, 135\n  orig: 204, 204\n  offset: 47, 57\n  index: -1\nhuoshouji/huoshouji_20\n  rotate: true\n  xy: 109, 3\n  size: 102, 132\n  orig: 204, 204\n  offset: 47, 61\n  index: -1\nhuoshouji/huoshouji_21\n  rotate: false\n  xy: 1391, 27\n  size: 97, 116\n  orig: 204, 204\n  offset: 49, 63\n  index: -1\nhuoshouji/huoshouji_22\n  rotate: true\n  xy: 1496, 55\n  size: 90, 120\n  orig: 204, 204\n  offset: 55, 63\n  index: -1\nhuoshouji/huoshouji_23\n  rotate: false\n  xy: 1728, 29\n  size: 90, 108\n  orig: 204, 204\n  offset: 55, 73\n  index: -1\nhuoshouji/huoshouji_24\n  rotate: false\n  xy: 701, 149\n  size: 88, 109\n  orig: 204, 204\n  offset: 55, 76\n  index: -1\nhuoshouji/huoshouji_25\n  rotate: false\n  xy: 1759, 163\n  size: 78, 109\n  orig: 204, 204\n  offset: 56, 81\n  index: -1\nkuosanguang/kuosanguang_00\n  rotate: false\n  xy: 793, 37\n  size: 104, 87\n  orig: 204, 204\n  offset: 43, 54\n  index: -1\nkuosanguang/kuosanguang_01\n  rotate: true\n  xy: 421, 2\n  size: 114, 99\n  orig: 204, 204\n  offset: 40, 45\n  index: -1\nkuosanguang/kuosanguang_02\n  rotate: false\n  xy: 292, 2\n  size: 127, 114\n  orig: 204, 204\n  offset: 35, 39\n  index: -1\nkuosanguang/kuosanguang_03\n  rotate: false\n  xy: 1358, 145\n  size: 136, 123\n  orig: 204, 204\n  offset: 31, 35\n  index: -1\nkuosanguang/kuosanguang_04\n  rotate: false\n  xy: 1536, 269\n  size: 144, 133\n  orig: 204, 204\n  offset: 24, 30\n  index: -1\nkuosanguang/kuosanguang_05\n  rotate: false\n  xy: 174, 263\n  size: 157, 139\n  orig: 204, 204\n  offset: 18, 25\n  index: -1\nkuosanguang/kuosanguang_06\n  rotate: false\n  xy: 2, 253\n  size: 170, 149\n  orig: 204, 204\n  offset: 13, 20\n  index: -1\nkuosanguang/kuosanguang_07\n  rotate: false\n  xy: 2, 107\n  size: 161, 144\n  orig: 204, 204\n  offset: 23, 29\n  index: -1\nkuosanguang/kuosanguang_08\n  rotate: false\n  xy: 333, 264\n  size: 154, 138\n  orig: 204, 204\n  offset: 20, 31\n  index: -1\nkuosanguang/kuosanguang_09\n  rotate: false\n  xy: 560, 122\n  size: 139, 136\n  orig: 204, 204\n  offset: 28, 33\n  index: -1\nkuosanguang/kuosanguang_10\n  rotate: true\n  xy: 424, 118\n  size: 140, 134\n  orig: 204, 204\n  offset: 27, 37\n  index: -1\nkuosanguang/kuosanguang_11\n  rotate: false\n  xy: 1216, 141\n  size: 140, 127\n  orig: 204, 204\n  offset: 26, 37\n  index: -1\nkuosanguang/kuosanguang_12\n  rotate: true\n  xy: 1087, 139\n  size: 129, 127\n  orig: 204, 204\n  offset: 31, 38\n  index: -1\nkuosanguang/kuosanguang_13\n  rotate: true\n  xy: 1297, 17\n  size: 122, 92\n  orig: 204, 204\n  offset: 34, 39\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "66oXoToLVI0IeWUr5JVwcr"
+    }
+  ],
+  "textureNames": [
+    "huoshouji.png"
+  ]
+}

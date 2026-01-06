@@ -1,1 +1,4452 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"Eo0vAG/g32v1Gqp7gYhqgHhr5Y8","spine":"3.6.53","width":0,"height":0,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"zong","parent":"root","x":-0.7,"scaleX":0.52,"scaleY":0.52},{"name":"ff","parent":"zong","x":16.39,"y":-145.73},{"name":"fff","parent":"ff","x":-1.25,"y":-8.29},{"name":"st","parent":"zong","length":137.55,"rotation":98.22,"x":73.9,"y":-123.16},{"name":"t","parent":"st","length":149.66,"rotation":11.1,"x":127.76,"y":-1.53},{"name":"mz","parent":"t","length":92.94,"rotation":-13.47,"x":109.06,"y":13.46},{"name":"s","parent":"st","length":100,"rotation":-16.67,"x":21.2,"y":211.72},{"name":"s2","parent":"s","length":71.23,"rotation":6.15,"x":102.18,"y":-0.93},{"name":"ss","parent":"zong","x":-22.92,"y":-93.31},{"name":"sd","parent":"ss","x":-14.12,"y":2.86,"scaleX":1.229,"scaleY":1.681},{"name":"sd2","parent":"ff","x":-31.48,"y":4.31,"scaleX":0.938,"scaleY":1.283},{"name":"sd3","parent":"ss","x":-14.12,"y":2.86,"scaleX":1.229,"scaleY":1.681},{"name":"sd4","parent":"ff","x":-31.48,"y":4.31,"scaleX":0.938,"scaleY":1.283},{"name":"sss","parent":"ss","x":-1.62,"y":-16.19},{"name":"sta","parent":"ss","x":-141.6,"y":17.74},{"name":"sta2","parent":"ff","x":-101.53,"y":-30.21},{"name":"tf","parent":"t","rotation":-11.1,"x":160.17,"y":-16.8},{"name":"tf2","parent":"tf","length":59.58,"rotation":-153.17,"x":-33.82,"y":-35.57},{"name":"tf3","parent":"tf","length":59.74,"rotation":169.69,"x":-70.11,"y":69.7},{"name":"tf4","parent":"tf3","length":43.3,"rotation":-14.51,"x":67.98,"y":-6.25},{"name":"tf5","parent":"tf","length":55.1,"rotation":-141.61,"x":-163.19,"y":61.81},{"name":"tf6","parent":"tf5","length":41.78,"rotation":-69.15,"x":28.18,"y":-23.45},{"name":"tf7","parent":"tf6","length":39.61,"rotation":-13.48,"x":58.76,"y":-27.63},{"name":"tuan","parent":"zong","x":14.78,"y":-115.9}],"slots":[{"name":"st","bone":"st"},{"name":"t","bone":"t"},{"name":"tf","bone":"tf"},{"name":"mz","bone":"mz"},{"name":"s","bone":"s"},{"name":"tuan","bone":"tuan"},{"name":"sd","bone":"sd"},{"name":"sd3","bone":"sd3","additive":1},{"name":"ss","bone":"ss"},{"name":"sss","bone":"sss","additive":1},{"name":"sd2","bone":"sd2"},{"name":"sd4","bone":"sd4","additive":1},{"name":"ff","bone":"ff"},{"name":"images/g_1","bone":"sta2","additive":1},{"name":"images/ggg_0","bone":"sta","additive":1},{"name":"fff","bone":"fff","additive":1}],"skins":{"default":{"ff":{"images/ff":{"x":-1.52,"y":-8.46,"width":247,"height":71}},"fff":{"images/ff_0":{"width":247,"height":71},"images/ff_1":{"width":247,"height":71},"images/ff_2":{"width":247,"height":71},"images/ff_3":{"width":247,"height":71},"images/ff_4":{"width":247,"height":71},"images/ff_5":{"width":247,"height":71},"images/ff_6":{"width":247,"height":71},"images/ff_7":{"width":247,"height":71},"images/ff_8":{"width":247,"height":71},"images/ff_9":{"width":247,"height":71},"images/ff_10":{"width":247,"height":71},"images/ff_11":{"width":247,"height":71},"images/ff_12":{"width":247,"height":71},"images/ff_13":{"width":247,"height":71},"images/ff_14":{"width":247,"height":71}},"images/g_1":{"images/g_0":{"width":178,"height":100}},"images/ggg_0":{"images/ggg_0":{"width":178,"height":100}},"mz":{"images/mz":{"type":"mesh","uvs":[0.70269,0.50837,0.57633,0.55511,0.42492,0.70278,0.29514,0.86541,0.23253,0.96262,0.14942,1,0.0538,1,0,0.92336,0,0.79064,0.03672,0.69904,0.10275,0.69344,0.17788,0.714,0.21318,0.66727,0.20407,0.56071,0.22684,0.22237,0.2496,0.13451,0.46135,0,0.53762,0,0.60934,0.02422,0.67309,0.13077,0.70497,0.25975,0.80287,0.21676,0.92696,0.21302,0.9816,0.27845,1,0.35509,1,0.51398,0.98046,0.6224,0.9076,0.76073,0.80856,0.86728,0.7653,0.86728,0.77099,0.77195,0.75733,0.65044,0.7505,0.5252,0.33385,0.46912,0.51258,0.37565,0.61389,0.36257,0.48867,0.49716,0.4272,0.54576,0.2644,0.64857],"triangles":[18,19,17,35,19,20,19,34,16,17,19,16,35,34,19,15,16,34,14,15,34,33,14,34,36,33,34,36,34,35,0,35,20,1,36,35,24,21,23,32,20,21,0,20,32,21,22,23,24,32,21,37,33,36,0,1,35,13,14,33,25,26,32,24,25,32,38,13,33,38,33,37,31,32,26,12,13,38,2,38,37,37,36,1,2,37,1,27,31,26,30,31,27,3,38,2,11,12,38,3,11,38,28,30,27,29,30,28,10,7,8,4,11,3,9,10,8,11,7,10,11,5,7,6,7,5,11,4,5],"vertices":[15.88,-79.1,11.42,-41.93,-9.98,4.24,-34.64,44.47,-49.81,64.21,-53.91,88.78,-51.1,116.27,-36.1,130.36,-12.86,127.98,2.1,115.78,1.14,96.7,-4.68,75.47,2.47,64.48,21.39,65.19,79.96,52.58,94.67,44.46,111.99,-18.82,109.75,-40.75,103.4,-60.94,82.87,-77.36,59.34,-84.21,63.99,-113.13,60.99,-148.87,47.93,-163.4,33.97,-167.32,6.15,-164.47,-12.26,-156.91,-34.33,-133.49,-50.07,-103.1,-48.8,-90.67,-32.28,-94.01,-10.6,-92.26,11.53,-92.54,33.61,26.24,44.71,-26.82,44.02,-56.18,24.14,-17.77,17.44,0.78,4.23,49.42],"hull":33,"edges":[0,2,2,4,4,6,6,8,8,10,10,12,12,14,14,16,16,18,18,20,20,22,22,24,24,26,26,28,28,30,30,32,32,34,34,36,36,38,38,40,40,42,42,44,44,46,46,48,48,50,50,52,52,54,54,56,56,58,58,60,60,62,62,64,0,64,26,66,66,68,68,70,70,40,70,72,72,74,74,76,76,24],"width":289,"height":176}},"s":{"images/s":{"type":"mesh","uvs":[0.50906,0.53897,0.35483,0.94054,0.27283,0.93475,0.20644,0.92665,0.07173,0.84564,0.0483,0.81092,0.21035,0.50541,0.1303,0.37695,0.09125,0.24503,0.13421,0.17675,0.22792,0.1293,0.46221,0.08764,0.56763,0.0969,0.63792,0.13046,0.64963,0.19874,0.65549,0.34918,0.63011,0.4244],"triangles":[0,1,6,6,1,2,2,3,6,3,4,6,4,5,6,6,10,0,10,11,0,16,0,15,15,0,11,6,7,10,10,7,9,14,11,12,14,12,13,14,15,11,7,8,9],"vertices":[2,8,-8.72,-28.32,0.73884,7,96.54,-30.01,0.26116,1,7,-5.3,-22.23,1,1,7,-5.65,-10.09,1,1,7,-5.1,-0.15,1,1,7,11.86,22.39,1,1,7,19.87,27.07,1,2,8,-2.17,15.89,0.08207,7,98.32,14.65,0.91793,2,8,29.19,28.94,0.92676,7,128.1,30.97,0.07324,2,8,61.65,35.99,0.99976,7,159.62,41.46,0.00024,1,8,78.82,30.36,1,1,8,91.13,17.07,1,1,8,102.84,-16.92,1,1,8,101.17,-32.5,1,1,8,93.27,-43.16,1,1,8,76.42,-45.56,1,1,8,39.18,-47.93,1,1,8,20.39,-44.95,1],"hull":17,"edges":[0,2,2,4,4,6,6,8,8,10,10,12,12,14,14,16,16,18,18,20,20,22,22,24,24,26,26,28,28,30,30,32,0,32,0,12],"width":147,"height":248}},"sd":{"images/sudu_0":{"width":350,"height":100},"images/sudu_1":{"width":350,"height":100},"images/sudu_2":{"width":350,"height":100},"images/sudu_3":{"width":350,"height":100},"images/sudu_4":{"width":350,"height":100},"images/sudu_5":{"width":350,"height":100},"images/sudu_6":{"width":350,"height":100},"images/sudu_7":{"width":350,"height":100},"images/sudu_8":{"width":350,"height":100},"images/sudu_9":{"width":350,"height":100},"images/sudu_10":{"width":350,"height":100},"images/sudu_11":{"width":350,"height":100},"images/sudu_12":{"width":350,"height":100},"images/sudu_13":{"width":350,"height":100},"images/sudu_14":{"width":350,"height":100}},"sd2":{"images/sudu_0":{"width":350,"height":100},"images/sudu_1":{"width":350,"height":100},"images/sudu_2":{"width":350,"height":100},"images/sudu_3":{"width":350,"height":100},"images/sudu_4":{"width":350,"height":100},"images/sudu_5":{"width":350,"height":100},"images/sudu_6":{"width":350,"height":100},"images/sudu_7":{"width":350,"height":100},"images/sudu_8":{"width":350,"height":100},"images/sudu_9":{"width":350,"height":100},"images/sudu_10":{"width":350,"height":100},"images/sudu_11":{"width":350,"height":100},"images/sudu_12":{"width":350,"height":100},"images/sudu_13":{"width":350,"height":100},"images/sudu_14":{"width":350,"height":100}},"sd3":{"images/sudu_0":{"width":350,"height":100},"images/sudu_1":{"width":350,"height":100},"images/sudu_2":{"width":350,"height":100},"images/sudu_3":{"width":350,"height":100},"images/sudu_4":{"width":350,"height":100},"images/sudu_5":{"width":350,"height":100},"images/sudu_6":{"width":350,"height":100},"images/sudu_7":{"width":350,"height":100},"images/sudu_8":{"width":350,"height":100},"images/sudu_9":{"width":350,"height":100},"images/sudu_10":{"width":350,"height":100},"images/sudu_11":{"width":350,"height":100},"images/sudu_12":{"width":350,"height":100},"images/sudu_13":{"width":350,"height":100},"images/sudu_14":{"width":350,"height":100}},"sd4":{"images/sudu_0":{"width":350,"height":100},"images/sudu_1":{"width":350,"height":100},"images/sudu_2":{"width":350,"height":100},"images/sudu_3":{"width":350,"height":100},"images/sudu_4":{"width":350,"height":100},"images/sudu_5":{"width":350,"height":100},"images/sudu_6":{"width":350,"height":100},"images/sudu_7":{"width":350,"height":100},"images/sudu_8":{"width":350,"height":100},"images/sudu_9":{"width":350,"height":100},"images/sudu_10":{"width":350,"height":100},"images/sudu_11":{"width":350,"height":100},"images/sudu_12":{"width":350,"height":100},"images/sudu_13":{"width":350,"height":100},"images/sudu_14":{"width":350,"height":100}},"ss":{"images/ss":{"x":-2.2,"y":-17.38,"width":377,"height":80}},"sss":{"images/ss_0":{"width":377,"height":80},"images/ss_1":{"width":377,"height":80},"images/ss_2":{"width":377,"height":80},"images/ss_3":{"width":377,"height":80},"images/ss_4":{"width":377,"height":80},"images/ss_5":{"width":377,"height":80},"images/ss_6":{"width":377,"height":80},"images/ss_7":{"width":377,"height":80},"images/ss_8":{"width":377,"height":80},"images/ss_9":{"width":377,"height":80},"images/ss_10":{"width":377,"height":80},"images/ss_11":{"width":377,"height":80},"images/ss_12":{"width":377,"height":80},"images/ss_13":{"width":377,"height":80},"images/ss_14":{"width":377,"height":80}},"st":{"images/st":{"x":59.71,"y":39.4,"rotation":-98.22,"width":304,"height":256}},"t":{"images/t":{"type":"mesh","uvs":[0.86484,0.62478,0.85394,0.73284,0.72757,0.85863,0.57506,0.94572,0.43343,0.9812,0.35935,0.96668,0.30053,0.91024,0.07393,0.63285,0.01946,0.48447,0.01292,0.2603,0.10008,0.1087,0.35935,0,0.74718,0,0.88445,0.09903,0.97814,0.28449,0.96288,0.35707,1,0.40061,1,0.52963,0.95199,0.60543,0.8278,0.61994,0.80165,0.71671,0.68618,0.83605,0.49226,0.9312,0.37896,0.92959,0.25259,0.79735,0.12459,0.63484,0.10642,0.56657,0.04773,0.47866,0.06869,0.34627,0.12598,0.46314,0.21262,0.47659,0.26572,0.52313,0.27131,0.60691,0.24755,0.66897,0.26292,0.69173,0.32161,0.71552,0.40965,0.68242,0.42781,0.64622,0.34397,0.62967,0.3258,0.50969,0.31463,0.43832,0.49488,0.3535,0.61366,0.37419,0.57174,0.38454,0.52143,0.38247,0.44598,0.40522,0.37471,0.45797,0.34118,0.46004,0.39567,0.51486,0.42362,0.47659,0.51445,0.44453,0.62204,0.42591,0.58711,0.46418,0.53121,0.49831,0.4851,0.50658,0.26722,0.54568,0.19585,0.5221,0.12459,0.5221,0.0898,0.54167,0.14974,0.58002,0.20982,0.5583,0.29227,0.80653,0.31463,0.78792,0.36773,0.79516,0.41524,0.77344,0.51864,0.76102,0.38449,0.73827,0.34118,0.75792,0.31463,0.75482,0.32161,0.84067,0.39986,0.83963,0.47113,0.81895,0.84702,0.53141,0.72545,0.35144,0.541,0.28834],"triangles":[74,11,12,73,74,12,13,73,12,28,9,10,74,28,10,74,10,11,14,73,13,74,40,28,15,73,14,42,74,73,41,74,42,43,44,41,42,43,41,74,41,40,45,41,44,51,42,73,43,42,51,45,40,41,50,45,44,50,44,43,50,43,51,46,40,45,47,40,46,30,29,28,52,50,51,49,46,45,49,45,50,40,30,28,28,8,9,27,28,29,27,8,28,53,50,52,54,49,50,53,54,50,39,40,47,31,30,40,48,46,49,48,49,54,57,27,29,56,57,29,30,56,29,39,31,40,56,30,31,72,15,16,72,73,15,17,72,16,51,73,72,58,27,57,55,31,39,56,31,55,60,56,55,26,58,57,59,57,56,59,56,60,26,57,59,18,72,17,38,32,55,60,55,32,72,52,51,0,19,72,19,52,72,18,0,72,39,46,48,46,39,47,38,39,48,38,55,39,58,8,27,7,58,26,7,8,58,25,26,59,7,26,25,37,48,54,38,48,37,33,60,32,59,60,33,25,59,33,36,38,37,34,33,32,34,32,38,35,34,38,35,38,36,20,52,19,20,19,0,1,20,0,66,35,36,68,34,35,67,68,35,66,67,35,53,37,54,65,37,53,36,37,65,66,36,65,64,66,65,62,68,67,24,34,68,63,67,66,63,66,64,62,67,63,24,33,34,68,61,24,25,33,24,62,61,68,71,64,65,20,53,52,20,65,53,21,65,20,70,63,64,70,64,71,69,62,63,69,63,70,61,62,69,24,61,69,2,21,20,2,20,1,23,6,24,7,25,24,6,7,24,23,69,70,23,24,69,21,22,71,21,71,65,70,71,22,23,70,22,3,22,21,3,21,2,5,6,23,4,23,22,5,23,4,4,22,3],"vertices":[30.1,-42.14,9.84,-33.29,-8.06,-6.8,-17.21,20.81,-16.97,43.39,-10.47,52.97,3.33,57.54,68.05,71.11,99.34,68.86,142.82,54.67,167.65,32.02,175.63,-12.26,156.26,-67.53,130.34,-80.41,89.95,-81.24,76.74,-74.17,66.51,-76.52,41.67,-67.82,29.47,-55.86,32.88,-37.18,15.56,-26.93,-1.65,-2.42,-10.28,31.63,-4.31,47.67,27.46,56.75,65.14,64.03,79.19,62.01,99.05,64.44,123.49,52.52,98.12,52.24,91.21,40.81,79.6,36.38,63.19,41.24,52.43,48.81,47.28,48.15,39.77,41.4,41.74,26.62,47.8,21.59,55.18,32.42,79.18,26.91,93.48,23.69,100.8,-7.72,90.89,-23.25,90.99,-16.58,93.9,-9.55,93.29,2.74,86.7,16.45,87.97,21.37,74.7,17.3,80.67,10.74,82.3,-4.37,80.51,-20.96,74.89,-13.4,71.11,-3.13,71.82,4,75.18,37.69,83.28,46.27,86.84,56.42,84.81,62.7,74.44,56.75,75.62,46.72,23.71,51.72,26.18,47.28,22.13,40.2,23.94,31.96,21.16,16.39,32.25,33.97,30.63,41.47,32.55,45.04,15.67,49.84,11.96,38.62,12.39,27.07,48.97,-45.9,89.69,-40.72,111.05,-18.69],"hull":19,"edges":[0,2,2,4,4,6,6,8,8,10,10,12,12,14,14,16,16,18,18,20,20,22,22,24,24,26,26,28,28,30,30,32,32,34,34,36,0,36,38,40,40,42,42,44,44,46,46,48,48,50,50,52,54,56,54,58,58,60,60,62,64,66,66,68,68,70,70,72,72,74,74,76,76,78,78,80,80,82,82,84,84,86,86,88,88,90,90,92,92,94,94,80,96,98,98,100,100,102,102,104,104,106,106,108,108,96,62,110,110,64,110,112,112,114,52,116,116,54,114,116,52,118,118,120,120,110,48,122,122,124,124,126,126,128,128,130,130,132,132,134,134,136,136,48,48,138,138,140,140,142,142,130,38,144,144,146,146,148,148,56],"width":151,"height":204}},"tf":{"images/tf":{"type":"mesh","uvs":[0.67018,0.20129,0.576,0.24933,0.5099,0.26622,0.46033,0.31037,0.48181,0.3727,0.50825,0.44542,0.614,0.57268,0.66687,0.60645,0.67018,0.65449,0.67844,0.7441,0.58426,0.78305,0.58756,0.84149,0.57269,0.88824,0.50329,0.86357,0.49503,0.91032,0.44216,0.88824,0.39259,0.85188,0.32484,0.87785,0.36945,0.90252,0.34963,0.94278,0.32649,0.99292,0.14804,1,0.21909,0.95915,0.191,0.90332,0.18605,0.83319,0.26536,0.75138,0.35293,0.72541,0.27197,0.67087,0.23396,0.58646,0.24057,0.52543,0.29345,0.48647,0.38102,0.40466,0.36285,0.30596,0.36615,0.15663,0.40415,0.07247,0.51486,0.00884,0.67679,0,0.81558,0.00364,0.89324,0.08156,0.99238,0.18544,1,0.35426,0.90977,0.47763,0.85359,0.4101,0.80567,0.30102],"triangles":[0,35,36,1,35,0,34,35,1,2,33,34,1,2,34,37,0,36,38,0,37,43,38,39,38,43,0,43,39,40,42,43,40,41,42,40,3,32,33,2,3,33,31,32,3,31,3,4,31,4,5,5,30,31,30,28,29,27,28,30,5,26,30,27,30,26,6,26,5,8,10,6,8,6,7,10,8,9,10,26,6,13,16,26,10,13,26,11,13,10,15,16,13,12,13,11,14,15,13,17,25,26,17,26,16,24,25,17,23,24,17,19,17,18,22,23,17,22,17,19,20,22,19,21,22,20],"vertices":[3,19,-40.45,66.86,0.08743,18,-7.02,-32.6,0.49575,17,-42.28,-3.32,0.41683,3,19,-22.45,41.22,0.42706,18,-8.14,-63.91,0.07348,17,-55.4,25.13,0.49946,3,19,-15.78,23.01,0.68854,18,-13.83,-82.44,0.01644,17,-58.7,44.24,0.29503,3,19,0.38,9.77,0.9736,18,-8.94,-102.77,0.00063,17,-72.24,60.16,0.02577,2,21,-50.71,45.81,0.0035,19,22.28,16.56,0.9965,2,21,-27.62,32.12,0.19292,19,47.81,24.88,0.80708,2,21,24.86,19.56,0.99037,19,91.88,56.01,0.00963,1,21,43.82,20.99,1,1,21,56.2,9.23,1,2,22,7.93,52.14,0.27895,21,79.73,-12.3,0.72105,2,22,30.78,33.17,0.81508,21,70.14,-40.4,0.18492,2,22,49.59,41.98,0.97443,21,85.06,-54.85,0.02557,2,22,66.5,44.51,0.99392,21,93.45,-69.75,0.00608,3,23,-4.99,51.15,0.06606,22,65.84,23.27,0.93179,21,73.36,-76.69,0.00215,2,23,9.79,59.04,0.11508,22,82.05,27.5,0.88492,2,23,12.13,42.5,0.17838,22,80.47,10.87,0.82162,2,23,9.82,23.73,0.57518,22,73.85,-6.85,0.42482,2,23,28.4,13.86,0.98406,22,89.61,-20.77,0.01594,1,23,28.16,29.08,1,1,23,42.97,33.01,1,1,23,61.16,38.26,1,1,23,92.48,-0.52,1,1,23,69.09,6.98,1,1,23,57.67,-11.02,1,1,23,38.35,-26.78,1,3,23,1.85,-25.97,0.98805,22,54.5,-53.31,0.00228,20,96.12,-8.81,0.00967,3,23,-19.98,-11.63,0.4436,22,36.62,-34.28,0.2985,20,80.31,11.97,0.25789,3,23,-22.35,-41.29,0.05184,22,27.4,-62.57,0.04866,20,68.21,-15.21,0.89951,1,20,42.52,-33.94,1,1,20,21.23,-38.36,1,2,20,3.76,-28.18,0.96064,19,64.56,-34.48,0.03936,2,20,-31.05,-13.07,0.04193,19,34.64,-11.12,0.95807,2,19,0.13,-13.31,0.9929,17,-67.85,82.82,0.0071,2,19,-53.2,-18.49,0.51014,17,-14.46,78.37,0.48986,2,19,-83.44,-8.99,0.28865,17,13.59,63.61,0.71135,2,19,-107.14,21.06,0.08933,17,31.53,29.81,0.91067,2,18,-64.45,9.95,0.11457,17,28.18,-15.35,0.88543,2,18,-41.16,40.91,0.55212,17,21.37,-53.5,0.44788,2,18,-6.07,42.76,0.89114,17,-9.1,-70.99,0.10886,1,18,40.01,44.22,1,1,18,90.29,11.55,1,1,18,111.68,-34.21,1,1,18,83.06,-33.28,1,1,18,43.68,-21.98,1],"hull":44,"edges":[0,2,2,4,4,6,6,8,8,10,10,12,12,14,14,16,16,18,18,20,20,22,22,24,24,26,26,28,28,30,30,32,32,34,34,36,36,38,38,40,40,42,42,44,44,46,46,48,48,50,50,52,52,54,54,56,56,58,58,60,60,62,62,64,64,66,66,68,68,70,70,72,72,74,74,76,76,78,78,80,80,82,82,84,84,86,0,86],"width":279,"height":355}},"tuan":{"images/tuan":{"x":-18.39,"y":2.96,"width":378,"height":143}}}},"animations":{"animation":{"slots":{"ff":{"attachment":[{"time":0,"name":"images/ff"}]},"fff":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.4333,"color":"ffffff00"},{"time":0.5,"color":"ffffffff","curve":"stepped"},{"time":0.9667,"color":"ffffffff"},{"time":1.0333,"color":"ffffff00"}],"attachment":[{"time":0,"name":null},{"time":0.5,"name":"images/ff_0"},{"time":0.5333,"name":"images/ff_1"},{"time":0.5667,"name":"images/ff_2"},{"time":0.6,"name":"images/ff_3"},{"time":0.6333,"name":"images/ff_4"},{"time":0.6667,"name":"images/ff_5"},{"time":0.7,"name":"images/ff_6"},{"time":0.7333,"name":"images/ff_7"},{"time":0.7667,"name":"images/ff_8"},{"time":0.8,"name":"images/ff_9"},{"time":0.8333,"name":"images/ff_10"},{"time":0.8667,"name":"images/ff_11"},{"time":0.9,"name":"images/ff_12"},{"time":0.9333,"name":"images/ff_13"},{"time":0.9667,"name":"images/ff_14"}]},"images/g_1":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.2,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.6667,"color":"ffffffff","curve":"stepped"},{"time":1,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1.3333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/g_0"}]},"images/ggg_0":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.3667,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.9,"color":"ffffffff","curve":"stepped"},{"time":1.1667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1.4333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/ggg_0"},{"time":0.3667,"name":"images/ggg_0"}]},"mz":{"attachment":[{"time":0,"name":"images/mz"}]},"s":{"attachment":[{"time":0,"name":"images/s"}]},"sd":{"color":[{"time":0,"color":"0e77f2ff"}],"attachment":[{"time":0,"name":"images/sudu_0"},{"time":0.0667,"name":"images/sudu_1"},{"time":0.1333,"name":"images/sudu_2"},{"time":0.2,"name":"images/sudu_3"},{"time":0.2667,"name":"images/sudu_4"},{"time":0.3333,"name":"images/sudu_5"},{"time":0.4,"name":"images/sudu_6"},{"time":0.4667,"name":"images/sudu_7"},{"time":0.5333,"name":"images/sudu_8"},{"time":0.6,"name":"images/sudu_9"},{"time":0.6667,"name":"images/sudu_10"},{"time":0.7333,"name":"images/sudu_11"},{"time":0.8,"name":"images/sudu_12"},{"time":0.8667,"name":"images/sudu_13"},{"time":0.9333,"name":"images/sudu_14"},{"time":1,"name":"images/sudu_0"},{"time":1.0667,"name":"images/sudu_1"},{"time":1.1333,"name":"images/sudu_2"},{"time":1.2,"name":"images/sudu_3"},{"time":1.2667,"name":"images/sudu_4"},{"time":1.3333,"name":"images/sudu_5"},{"time":1.4,"name":"images/sudu_6"},{"time":1.4667,"name":"images/sudu_7"},{"time":1.5333,"name":"images/sudu_8"},{"time":1.6,"name":"images/sudu_9"},{"time":1.6667,"name":"images/sudu_10"},{"time":1.7333,"name":"images/sudu_11"},{"time":1.8,"name":"images/sudu_12"},{"time":1.8667,"name":"images/sudu_13"},{"time":1.9333,"name":"images/sudu_14"}]},"sd2":{"color":[{"time":0,"color":"ff8b00ff"}],"attachment":[{"time":0,"name":"images/sudu_0"},{"time":0.0667,"name":"images/sudu_1"},{"time":0.1333,"name":"images/sudu_2"},{"time":0.2,"name":"images/sudu_3"},{"time":0.2667,"name":"images/sudu_4"},{"time":0.3333,"name":"images/sudu_5"},{"time":0.4,"name":"images/sudu_6"},{"time":0.4667,"name":"images/sudu_7"},{"time":0.5333,"name":"images/sudu_8"},{"time":0.6,"name":"images/sudu_9"},{"time":0.6667,"name":"images/sudu_10"},{"time":0.7333,"name":"images/sudu_11"},{"time":0.8,"name":"images/sudu_12"},{"time":0.8667,"name":"images/sudu_13"},{"time":0.9333,"name":"images/sudu_14"},{"time":1,"name":"images/sudu_0"},{"time":1.0667,"name":"images/sudu_1"},{"time":1.1333,"name":"images/sudu_2"},{"time":1.2,"name":"images/sudu_3"},{"time":1.2667,"name":"images/sudu_4"},{"time":1.3333,"name":"images/sudu_5"},{"time":1.4,"name":"images/sudu_6"},{"time":1.4667,"name":"images/sudu_7"},{"time":1.5333,"name":"images/sudu_8"},{"time":1.6,"name":"images/sudu_9"},{"time":1.6667,"name":"images/sudu_10"},{"time":1.7333,"name":"images/sudu_11"},{"time":1.8,"name":"images/sudu_12"},{"time":1.8667,"name":"images/sudu_13"},{"time":1.9333,"name":"images/sudu_14"}]},"sd3":{"color":[{"time":0,"color":"0ef2ebff"}],"attachment":[{"time":0,"name":"images/sudu_0"},{"time":0.0667,"name":"images/sudu_1"},{"time":0.1333,"name":"images/sudu_2"},{"time":0.2,"name":"images/sudu_3"},{"time":0.2667,"name":"images/sudu_4"},{"time":0.3333,"name":"images/sudu_5"},{"time":0.4,"name":"images/sudu_6"},{"time":0.4667,"name":"images/sudu_7"},{"time":0.5333,"name":"images/sudu_8"},{"time":0.6,"name":"images/sudu_9"},{"time":0.6667,"name":"images/sudu_10"},{"time":0.7333,"name":"images/sudu_11"},{"time":0.8,"name":"images/sudu_12"},{"time":0.8667,"name":"images/sudu_13"},{"time":0.9333,"name":"images/sudu_14"},{"time":1,"name":"images/sudu_0"},{"time":1.0667,"name":"images/sudu_1"},{"time":1.1333,"name":"images/sudu_2"},{"time":1.2,"name":"images/sudu_3"},{"time":1.2667,"name":"images/sudu_4"},{"time":1.3333,"name":"images/sudu_5"},{"time":1.4,"name":"images/sudu_6"},{"time":1.4667,"name":"images/sudu_7"},{"time":1.5333,"name":"images/sudu_8"},{"time":1.6,"name":"images/sudu_9"},{"time":1.6667,"name":"images/sudu_10"},{"time":1.7333,"name":"images/sudu_11"},{"time":1.8,"name":"images/sudu_12"},{"time":1.8667,"name":"images/sudu_13"},{"time":1.9333,"name":"images/sudu_14"}]},"sd4":{"color":[{"time":0,"color":"fff200ff"}],"attachment":[{"time":0,"name":"images/sudu_0"},{"time":0.0667,"name":"images/sudu_1"},{"time":0.1333,"name":"images/sudu_2"},{"time":0.2,"name":"images/sudu_3"},{"time":0.2667,"name":"images/sudu_4"},{"time":0.3333,"name":"images/sudu_5"},{"time":0.4,"name":"images/sudu_6"},{"time":0.4667,"name":"images/sudu_7"},{"time":0.5333,"name":"images/sudu_8"},{"time":0.6,"name":"images/sudu_9"},{"time":0.6667,"name":"images/sudu_10"},{"time":0.7333,"name":"images/sudu_11"},{"time":0.8,"name":"images/sudu_12"},{"time":0.8667,"name":"images/sudu_13"},{"time":0.9333,"name":"images/sudu_14"},{"time":1,"name":"images/sudu_0"},{"time":1.0667,"name":"images/sudu_1"},{"time":1.1333,"name":"images/sudu_2"},{"time":1.2,"name":"images/sudu_3"},{"time":1.2667,"name":"images/sudu_4"},{"time":1.3333,"name":"images/sudu_5"},{"time":1.4,"name":"images/sudu_6"},{"time":1.4667,"name":"images/sudu_7"},{"time":1.5333,"name":"images/sudu_8"},{"time":1.6,"name":"images/sudu_9"},{"time":1.6667,"name":"images/sudu_10"},{"time":1.7333,"name":"images/sudu_11"},{"time":1.8,"name":"images/sudu_12"},{"time":1.8667,"name":"images/sudu_13"},{"time":1.9333,"name":"images/sudu_14"}]},"ss":{"attachment":[{"time":0,"name":"images/ss"}]},"sss":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.1667,"color":"ffffff00"},{"time":0.2333,"color":"ffffffff","curve":"stepped"},{"time":0.7,"color":"ffffffff"},{"time":0.7667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/ss_0"},{"time":0.1667,"name":"images/ss_0"},{"time":0.2333,"name":"images/ss_0"},{"time":0.2667,"name":"images/ss_1"},{"time":0.3,"name":"images/ss_2"},{"time":0.3333,"name":"images/ss_3"},{"time":0.3667,"name":"images/ss_4"},{"time":0.4,"name":"images/ss_5"},{"time":0.4333,"name":"images/ss_6"},{"time":0.4667,"name":"images/ss_7"},{"time":0.5,"name":"images/ss_8"},{"time":0.5333,"name":"images/ss_9"},{"time":0.5667,"name":"images/ss_10"},{"time":0.6,"name":"images/ss_11"},{"time":0.6333,"name":"images/ss_12"},{"time":0.6667,"name":"images/ss_13"},{"time":0.7,"name":"images/ss_14"}]},"st":{"attachment":[{"time":0,"name":"images/st"}]},"t":{"attachment":[{"time":0,"name":"images/t"}]},"tf":{"attachment":[{"time":0,"name":"images/tf"}]},"tuan":{"attachment":[{"time":0,"name":"images/tuan"}]}},"bones":{"st":{"rotate":[{"time":0,"angle":-1.46,"curve":[0.329,0.32,0.662,0.65]},{"time":0.5,"angle":-2.56,"curve":[0.329,0.32,0.664,0.66]},{"time":1.5,"angle":-0.44,"curve":[0.314,0.27,0.657,0.64]},{"time":2,"angle":-1.46}],"scale":[{"time":0,"x":1.036,"y":1.036,"curve":[0.329,0.32,0.662,0.65]},{"time":0.5,"x":1.069,"y":1.069,"curve":[0.329,0.32,0.664,0.66]},{"time":1.5,"x":1.006,"y":1.006,"curve":[0.314,0.27,0.657,0.64]},{"time":2,"x":1.036,"y":1.036}]},"tf3":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":2,"angle":0}]},"tf7":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":2,"angle":0}]},"tf6":{"rotate":[{"time":0,"angle":0,"curve":[0.29,0,0.629,0.38]},{"time":1,"angle":-7.64,"curve":[0.311,0.25,0.757,1]},{"time":2,"angle":0}]},"tf5":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":2,"angle":0}]},"tf4":{"rotate":[{"time":0,"angle":0,"curve":[0.29,0,0.629,0.38]},{"time":1,"angle":-7.64,"curve":[0.311,0.25,0.757,1]},{"time":2,"angle":0}]},"t":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":1,"angle":-4.44,"curve":[0.25,0,0.75,1]},{"time":2,"angle":0}]},"s":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":0.8333,"angle":6.1,"curve":"stepped"},{"time":1.1667,"angle":6.1,"curve":[0.25,0,0.75,1]},{"time":2,"angle":0}],"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.8333,"x":10.5,"y":-16.91,"curve":"stepped"},{"time":1.1667,"x":10.5,"y":-16.91,"curve":[0.25,0,0.75,1]},{"time":2,"x":0,"y":0}]},"mz":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.625,0.5]},{"time":1,"angle":-1.76,"curve":[0.375,0.5,0.75,1]},{"time":2,"angle":0}]},"ss":{"translate":[{"time":0,"x":0,"y":0},{"time":0.5,"x":5.89,"y":2.53},{"time":1,"x":-3.37,"y":3.37},{"time":2,"x":0,"y":0}]},"ff":{"translate":[{"time":0,"x":-1.68,"y":1.68},{"time":0.5,"x":0,"y":0},{"time":1,"x":5.89,"y":2.53},{"time":1.5,"x":-3.37,"y":3.37},{"time":2,"x":-1.68,"y":1.68}]},"s2":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.625,0.5]},{"time":0.8333,"angle":-7.15,"curve":"stepped"},{"time":1.1667,"angle":-7.15,"curve":[0.375,0.5,0.75,1]},{"time":2,"angle":0}]},"sta2":{"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.2,"x":0,"y":0},{"time":1.3333,"x":189.74,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.2,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.3333,"x":2.355,"y":0.883}]},"sta":{"translate":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.3667,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":1.4333,"x":289.56,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.3667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.4333,"x":1.815,"y":1}]}},"deform":{"default":{"t":{"images/t":[{"time":0,"curve":[0.265,0,0.618,0.43]},{"time":0.8333,"offset":40,"vertices":[0.45484,-0.40625,2.03392,-0.83539,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.2742,-2.03117,0.64651,-0.74095,0,0,0,0,1.79362,0.36034,1.79362,0.36034,1.05272,-0.28612,1.50758,-0.6925,1.50758,-0.6925,0,0,0,0,-2.70331,0.4519,1.2107,2.42612,3.62757,1.12549,2.63536,1.06672,1.55894,1.42115,-0.25967,1.19391,-2.70331,0.4519,-2.70331,0.4519,0,0,-1.91376,0.23727,-1.91376,0.23727,0,0,0,0,1.50755,-0.69238,1.3159,-0.35767,0,0,-1.10135,1.14705,-1.0527,0.28601,0,0,0.86106,0.04858,0,0,0,0,0,0,1.22151,-1.74508,-0.52349,-2.96661,1.553,-2.5151,0.43196,-1.53065,0.31181,-0.93263,-0.78954,0.2145,1.02984,-1.41039,2.27422,-2.03124,1.8194,-1.62506],"curve":"stepped"},{"time":1.3333,"offset":40,"vertices":[0.45484,-0.40625,2.03392,-0.83539,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.2742,-2.03117,0.64651,-0.74095,0,0,0,0,1.79362,0.36034,1.79362,0.36034,1.05272,-0.28612,1.50758,-0.6925,1.50758,-0.6925,0,0,0,0,-2.70331,0.4519,1.2107,2.42612,3.62757,1.12549,2.63536,1.06672,1.55894,1.42115,-0.25967,1.19391,-2.70331,0.4519,-2.70331,0.4519,0,0,-1.91376,0.23727,-1.91376,0.23727,0,0,0,0,1.50755,-0.69238,1.3159,-0.35767,0,0,-1.10135,1.14705,-1.0527,0.28601,0,0,0.86106,0.04858,0,0,0,0,0,0,1.22151,-1.74508,-0.52349,-2.96661,1.553,-2.5151,0.43196,-1.53065,0.31181,-0.93263,-0.78954,0.2145,1.02984,-1.41039,2.27422,-2.03124,1.8194,-1.62506],"curve":[0.351,0.4,0.757,1]},{"time":2}]}}}}}},"_atlasText":"\n183logo.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/ff\n  rotate: false\n  xy: 144, 344\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_0\n  rotate: false\n  xy: 144, 306\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_1\n  rotate: false\n  xy: 2, 18\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_10\n  rotate: false\n  xy: 254, 76\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_11\n  rotate: false\n  xy: 254, 38\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_12\n  rotate: false\n  xy: 380, 40\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_13\n  rotate: false\n  xy: 380, 2\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_14\n  rotate: false\n  xy: 506, 24\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_2\n  rotate: false\n  xy: 857, 286\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_3\n  rotate: false\n  xy: 843, 248\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_4\n  rotate: false\n  xy: 843, 210\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_5\n  rotate: false\n  xy: 800, 172\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_6\n  rotate: false\n  xy: 800, 134\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_7\n  rotate: false\n  xy: 786, 96\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_8\n  rotate: false\n  xy: 786, 58\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_9\n  rotate: false\n  xy: 128, 18\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/g_0\n  rotate: false\n  xy: 926, 158\n  size: 89, 50\n  orig: 89, 50\n  offset: 0, 0\n  index: -1\nimages/ggg_0\n  rotate: false\n  xy: 926, 106\n  size: 89, 50\n  orig: 89, 50\n  offset: 0, 0\n  index: -1\nimages/mz\n  rotate: false\n  xy: 489, 422\n  size: 145, 88\n  orig: 145, 88\n  offset: 0, 0\n  index: -1\nimages/s\n  rotate: false\n  xy: 2, 206\n  size: 74, 124\n  orig: 74, 124\n  offset: 0, 0\n  index: -1\nimages/ss\n  rotate: false\n  xy: 298, 396\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_0\n  rotate: false\n  xy: 636, 470\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_1\n  rotate: false\n  xy: 636, 428\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_10\n  rotate: false\n  xy: 461, 276\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_11\n  rotate: false\n  xy: 652, 260\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_12\n  rotate: false\n  xy: 461, 234\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_13\n  rotate: false\n  xy: 652, 218\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_14\n  rotate: false\n  xy: 78, 264\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_2\n  rotate: false\n  xy: 827, 470\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_3\n  rotate: false\n  xy: 827, 428\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_4\n  rotate: false\n  xy: 298, 354\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_5\n  rotate: false\n  xy: 666, 386\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_6\n  rotate: false\n  xy: 666, 344\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_7\n  rotate: false\n  xy: 666, 302\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_8\n  rotate: false\n  xy: 270, 312\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_9\n  rotate: false\n  xy: 270, 270\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/st\n  rotate: false\n  xy: 144, 382\n  size: 152, 128\n  orig: 152, 128\n  offset: 0, 0\n  index: -1\nimages/sudu_0\n  rotate: false\n  xy: 489, 370\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_1\n  rotate: false\n  xy: 489, 318\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_10\n  rotate: false\n  xy: 623, 166\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_11\n  rotate: false\n  xy: 609, 114\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_12\n  rotate: false\n  xy: 609, 62\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_13\n  rotate: false\n  xy: 2, 108\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_14\n  rotate: false\n  xy: 2, 56\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_2\n  rotate: false\n  xy: 78, 212\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_3\n  rotate: false\n  xy: 78, 160\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_4\n  rotate: false\n  xy: 269, 218\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_5\n  rotate: false\n  xy: 255, 166\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_6\n  rotate: false\n  xy: 255, 114\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_7\n  rotate: false\n  xy: 446, 182\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_8\n  rotate: false\n  xy: 432, 130\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_9\n  rotate: false\n  xy: 432, 78\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/t\n  rotate: false\n  xy: 857, 324\n  size: 76, 102\n  orig: 76, 102\n  offset: 0, 0\n  index: -1\nimages/tf\n  rotate: false\n  xy: 2, 332\n  size: 140, 178\n  orig: 140, 178\n  offset: 0, 0\n  index: -1\nimages/tuan\n  rotate: false\n  xy: 298, 438\n  size: 189, 72\n  orig: 189, 72\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"d4mPEl43hJ341F/fwZFd26"}],"textureNames":["183logo.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Eo0vAG/g32v1Gqp7gYhqgHhr5Y8",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root",
+        "x": -0.7,
+        "scaleX": 0.52,
+        "scaleY": 0.52
+      },
+      {
+        "name": "ff",
+        "parent": "zong",
+        "x": 16.39,
+        "y": -145.73
+      },
+      {
+        "name": "fff",
+        "parent": "ff",
+        "x": -1.25,
+        "y": -8.29
+      },
+      {
+        "name": "st",
+        "parent": "zong",
+        "length": 137.55,
+        "rotation": 98.22,
+        "x": 73.9,
+        "y": -123.16
+      },
+      {
+        "name": "t",
+        "parent": "st",
+        "length": 149.66,
+        "rotation": 11.1,
+        "x": 127.76,
+        "y": -1.53
+      },
+      {
+        "name": "mz",
+        "parent": "t",
+        "length": 92.94,
+        "rotation": -13.47,
+        "x": 109.06,
+        "y": 13.46
+      },
+      {
+        "name": "s",
+        "parent": "st",
+        "length": 100,
+        "rotation": -16.67,
+        "x": 21.2,
+        "y": 211.72
+      },
+      {
+        "name": "s2",
+        "parent": "s",
+        "length": 71.23,
+        "rotation": 6.15,
+        "x": 102.18,
+        "y": -0.93
+      },
+      {
+        "name": "ss",
+        "parent": "zong",
+        "x": -22.92,
+        "y": -93.31
+      },
+      {
+        "name": "sd",
+        "parent": "ss",
+        "x": -14.12,
+        "y": 2.86,
+        "scaleX": 1.229,
+        "scaleY": 1.681
+      },
+      {
+        "name": "sd2",
+        "parent": "ff",
+        "x": -31.48,
+        "y": 4.31,
+        "scaleX": 0.938,
+        "scaleY": 1.283
+      },
+      {
+        "name": "sd3",
+        "parent": "ss",
+        "x": -14.12,
+        "y": 2.86,
+        "scaleX": 1.229,
+        "scaleY": 1.681
+      },
+      {
+        "name": "sd4",
+        "parent": "ff",
+        "x": -31.48,
+        "y": 4.31,
+        "scaleX": 0.938,
+        "scaleY": 1.283
+      },
+      {
+        "name": "sss",
+        "parent": "ss",
+        "x": -1.62,
+        "y": -16.19
+      },
+      {
+        "name": "sta",
+        "parent": "ss",
+        "x": -141.6,
+        "y": 17.74
+      },
+      {
+        "name": "sta2",
+        "parent": "ff",
+        "x": -101.53,
+        "y": -30.21
+      },
+      {
+        "name": "tf",
+        "parent": "t",
+        "rotation": -11.1,
+        "x": 160.17,
+        "y": -16.8
+      },
+      {
+        "name": "tf2",
+        "parent": "tf",
+        "length": 59.58,
+        "rotation": -153.17,
+        "x": -33.82,
+        "y": -35.57
+      },
+      {
+        "name": "tf3",
+        "parent": "tf",
+        "length": 59.74,
+        "rotation": 169.69,
+        "x": -70.11,
+        "y": 69.7
+      },
+      {
+        "name": "tf4",
+        "parent": "tf3",
+        "length": 43.3,
+        "rotation": -14.51,
+        "x": 67.98,
+        "y": -6.25
+      },
+      {
+        "name": "tf5",
+        "parent": "tf",
+        "length": 55.1,
+        "rotation": -141.61,
+        "x": -163.19,
+        "y": 61.81
+      },
+      {
+        "name": "tf6",
+        "parent": "tf5",
+        "length": 41.78,
+        "rotation": -69.15,
+        "x": 28.18,
+        "y": -23.45
+      },
+      {
+        "name": "tf7",
+        "parent": "tf6",
+        "length": 39.61,
+        "rotation": -13.48,
+        "x": 58.76,
+        "y": -27.63
+      },
+      {
+        "name": "tuan",
+        "parent": "zong",
+        "x": 14.78,
+        "y": -115.9
+      }
+    ],
+    "slots": [
+      {
+        "name": "st",
+        "bone": "st"
+      },
+      {
+        "name": "t",
+        "bone": "t"
+      },
+      {
+        "name": "tf",
+        "bone": "tf"
+      },
+      {
+        "name": "mz",
+        "bone": "mz"
+      },
+      {
+        "name": "s",
+        "bone": "s"
+      },
+      {
+        "name": "tuan",
+        "bone": "tuan"
+      },
+      {
+        "name": "sd",
+        "bone": "sd"
+      },
+      {
+        "name": "sd3",
+        "bone": "sd3",
+        "additive": 1
+      },
+      {
+        "name": "ss",
+        "bone": "ss"
+      },
+      {
+        "name": "sss",
+        "bone": "sss",
+        "additive": 1
+      },
+      {
+        "name": "sd2",
+        "bone": "sd2"
+      },
+      {
+        "name": "sd4",
+        "bone": "sd4",
+        "additive": 1
+      },
+      {
+        "name": "ff",
+        "bone": "ff"
+      },
+      {
+        "name": "images/g_1",
+        "bone": "sta2",
+        "additive": 1
+      },
+      {
+        "name": "images/ggg_0",
+        "bone": "sta",
+        "additive": 1
+      },
+      {
+        "name": "fff",
+        "bone": "fff",
+        "additive": 1
+      }
+    ],
+    "skins": {
+      "default": {
+        "ff": {
+          "images/ff": {
+            "x": -1.52,
+            "y": -8.46,
+            "width": 247,
+            "height": 71
+          }
+        },
+        "fff": {
+          "images/ff_0": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_1": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_2": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_3": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_4": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_5": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_6": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_7": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_8": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_9": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_10": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_11": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_12": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_13": {
+            "width": 247,
+            "height": 71
+          },
+          "images/ff_14": {
+            "width": 247,
+            "height": 71
+          }
+        },
+        "images/g_1": {
+          "images/g_0": {
+            "width": 178,
+            "height": 100
+          }
+        },
+        "images/ggg_0": {
+          "images/ggg_0": {
+            "width": 178,
+            "height": 100
+          }
+        },
+        "mz": {
+          "images/mz": {
+            "type": "mesh",
+            "uvs": [
+              0.70269,
+              0.50837,
+              0.57633,
+              0.55511,
+              0.42492,
+              0.70278,
+              0.29514,
+              0.86541,
+              0.23253,
+              0.96262,
+              0.14942,
+              1,
+              0.0538,
+              1,
+              0,
+              0.92336,
+              0,
+              0.79064,
+              0.03672,
+              0.69904,
+              0.10275,
+              0.69344,
+              0.17788,
+              0.714,
+              0.21318,
+              0.66727,
+              0.20407,
+              0.56071,
+              0.22684,
+              0.22237,
+              0.2496,
+              0.13451,
+              0.46135,
+              0,
+              0.53762,
+              0,
+              0.60934,
+              0.02422,
+              0.67309,
+              0.13077,
+              0.70497,
+              0.25975,
+              0.80287,
+              0.21676,
+              0.92696,
+              0.21302,
+              0.9816,
+              0.27845,
+              1,
+              0.35509,
+              1,
+              0.51398,
+              0.98046,
+              0.6224,
+              0.9076,
+              0.76073,
+              0.80856,
+              0.86728,
+              0.7653,
+              0.86728,
+              0.77099,
+              0.77195,
+              0.75733,
+              0.65044,
+              0.7505,
+              0.5252,
+              0.33385,
+              0.46912,
+              0.51258,
+              0.37565,
+              0.61389,
+              0.36257,
+              0.48867,
+              0.49716,
+              0.4272,
+              0.54576,
+              0.2644,
+              0.64857
+            ],
+            "triangles": [
+              18,
+              19,
+              17,
+              35,
+              19,
+              20,
+              19,
+              34,
+              16,
+              17,
+              19,
+              16,
+              35,
+              34,
+              19,
+              15,
+              16,
+              34,
+              14,
+              15,
+              34,
+              33,
+              14,
+              34,
+              36,
+              33,
+              34,
+              36,
+              34,
+              35,
+              0,
+              35,
+              20,
+              1,
+              36,
+              35,
+              24,
+              21,
+              23,
+              32,
+              20,
+              21,
+              0,
+              20,
+              32,
+              21,
+              22,
+              23,
+              24,
+              32,
+              21,
+              37,
+              33,
+              36,
+              0,
+              1,
+              35,
+              13,
+              14,
+              33,
+              25,
+              26,
+              32,
+              24,
+              25,
+              32,
+              38,
+              13,
+              33,
+              38,
+              33,
+              37,
+              31,
+              32,
+              26,
+              12,
+              13,
+              38,
+              2,
+              38,
+              37,
+              37,
+              36,
+              1,
+              2,
+              37,
+              1,
+              27,
+              31,
+              26,
+              30,
+              31,
+              27,
+              3,
+              38,
+              2,
+              11,
+              12,
+              38,
+              3,
+              11,
+              38,
+              28,
+              30,
+              27,
+              29,
+              30,
+              28,
+              10,
+              7,
+              8,
+              4,
+              11,
+              3,
+              9,
+              10,
+              8,
+              11,
+              7,
+              10,
+              11,
+              5,
+              7,
+              6,
+              7,
+              5,
+              11,
+              4,
+              5
+            ],
+            "vertices": [
+              15.88,
+              -79.1,
+              11.42,
+              -41.93,
+              -9.98,
+              4.24,
+              -34.64,
+              44.47,
+              -49.81,
+              64.21,
+              -53.91,
+              88.78,
+              -51.1,
+              116.27,
+              -36.1,
+              130.36,
+              -12.86,
+              127.98,
+              2.1,
+              115.78,
+              1.14,
+              96.7,
+              -4.68,
+              75.47,
+              2.47,
+              64.48,
+              21.39,
+              65.19,
+              79.96,
+              52.58,
+              94.67,
+              44.46,
+              111.99,
+              -18.82,
+              109.75,
+              -40.75,
+              103.4,
+              -60.94,
+              82.87,
+              -77.36,
+              59.34,
+              -84.21,
+              63.99,
+              -113.13,
+              60.99,
+              -148.87,
+              47.93,
+              -163.4,
+              33.97,
+              -167.32,
+              6.15,
+              -164.47,
+              -12.26,
+              -156.91,
+              -34.33,
+              -133.49,
+              -50.07,
+              -103.1,
+              -48.8,
+              -90.67,
+              -32.28,
+              -94.01,
+              -10.6,
+              -92.26,
+              11.53,
+              -92.54,
+              33.61,
+              26.24,
+              44.71,
+              -26.82,
+              44.02,
+              -56.18,
+              24.14,
+              -17.77,
+              17.44,
+              0.78,
+              4.23,
+              49.42
+            ],
+            "hull": 33,
+            "edges": [
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              10,
+              12,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              20,
+              22,
+              22,
+              24,
+              24,
+              26,
+              26,
+              28,
+              28,
+              30,
+              30,
+              32,
+              32,
+              34,
+              34,
+              36,
+              36,
+              38,
+              38,
+              40,
+              40,
+              42,
+              42,
+              44,
+              44,
+              46,
+              46,
+              48,
+              48,
+              50,
+              50,
+              52,
+              52,
+              54,
+              54,
+              56,
+              56,
+              58,
+              58,
+              60,
+              60,
+              62,
+              62,
+              64,
+              0,
+              64,
+              26,
+              66,
+              66,
+              68,
+              68,
+              70,
+              70,
+              40,
+              70,
+              72,
+              72,
+              74,
+              74,
+              76,
+              76,
+              24
+            ],
+            "width": 289,
+            "height": 176
+          }
+        },
+        "s": {
+          "images/s": {
+            "type": "mesh",
+            "uvs": [
+              0.50906,
+              0.53897,
+              0.35483,
+              0.94054,
+              0.27283,
+              0.93475,
+              0.20644,
+              0.92665,
+              0.07173,
+              0.84564,
+              0.0483,
+              0.81092,
+              0.21035,
+              0.50541,
+              0.1303,
+              0.37695,
+              0.09125,
+              0.24503,
+              0.13421,
+              0.17675,
+              0.22792,
+              0.1293,
+              0.46221,
+              0.08764,
+              0.56763,
+              0.0969,
+              0.63792,
+              0.13046,
+              0.64963,
+              0.19874,
+              0.65549,
+              0.34918,
+              0.63011,
+              0.4244
+            ],
+            "triangles": [
+              0,
+              1,
+              6,
+              6,
+              1,
+              2,
+              2,
+              3,
+              6,
+              3,
+              4,
+              6,
+              4,
+              5,
+              6,
+              6,
+              10,
+              0,
+              10,
+              11,
+              0,
+              16,
+              0,
+              15,
+              15,
+              0,
+              11,
+              6,
+              7,
+              10,
+              10,
+              7,
+              9,
+              14,
+              11,
+              12,
+              14,
+              12,
+              13,
+              14,
+              15,
+              11,
+              7,
+              8,
+              9
+            ],
+            "vertices": [
+              2,
+              8,
+              -8.72,
+              -28.32,
+              0.73884,
+              7,
+              96.54,
+              -30.01,
+              0.26116,
+              1,
+              7,
+              -5.3,
+              -22.23,
+              1,
+              1,
+              7,
+              -5.65,
+              -10.09,
+              1,
+              1,
+              7,
+              -5.1,
+              -0.15,
+              1,
+              1,
+              7,
+              11.86,
+              22.39,
+              1,
+              1,
+              7,
+              19.87,
+              27.07,
+              1,
+              2,
+              8,
+              -2.17,
+              15.89,
+              0.08207,
+              7,
+              98.32,
+              14.65,
+              0.91793,
+              2,
+              8,
+              29.19,
+              28.94,
+              0.92676,
+              7,
+              128.1,
+              30.97,
+              0.07324,
+              2,
+              8,
+              61.65,
+              35.99,
+              0.99976,
+              7,
+              159.62,
+              41.46,
+              0.00024,
+              1,
+              8,
+              78.82,
+              30.36,
+              1,
+              1,
+              8,
+              91.13,
+              17.07,
+              1,
+              1,
+              8,
+              102.84,
+              -16.92,
+              1,
+              1,
+              8,
+              101.17,
+              -32.5,
+              1,
+              1,
+              8,
+              93.27,
+              -43.16,
+              1,
+              1,
+              8,
+              76.42,
+              -45.56,
+              1,
+              1,
+              8,
+              39.18,
+              -47.93,
+              1,
+              1,
+              8,
+              20.39,
+              -44.95,
+              1
+            ],
+            "hull": 17,
+            "edges": [
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              10,
+              12,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              20,
+              22,
+              22,
+              24,
+              24,
+              26,
+              26,
+              28,
+              28,
+              30,
+              30,
+              32,
+              0,
+              32,
+              0,
+              12
+            ],
+            "width": 147,
+            "height": 248
+          }
+        },
+        "sd": {
+          "images/sudu_0": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_1": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_2": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_3": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_4": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_5": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_6": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_7": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_8": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_9": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_10": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_11": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_12": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_13": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_14": {
+            "width": 350,
+            "height": 100
+          }
+        },
+        "sd2": {
+          "images/sudu_0": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_1": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_2": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_3": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_4": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_5": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_6": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_7": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_8": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_9": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_10": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_11": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_12": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_13": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_14": {
+            "width": 350,
+            "height": 100
+          }
+        },
+        "sd3": {
+          "images/sudu_0": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_1": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_2": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_3": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_4": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_5": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_6": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_7": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_8": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_9": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_10": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_11": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_12": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_13": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_14": {
+            "width": 350,
+            "height": 100
+          }
+        },
+        "sd4": {
+          "images/sudu_0": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_1": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_2": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_3": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_4": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_5": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_6": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_7": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_8": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_9": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_10": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_11": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_12": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_13": {
+            "width": 350,
+            "height": 100
+          },
+          "images/sudu_14": {
+            "width": 350,
+            "height": 100
+          }
+        },
+        "ss": {
+          "images/ss": {
+            "x": -2.2,
+            "y": -17.38,
+            "width": 377,
+            "height": 80
+          }
+        },
+        "sss": {
+          "images/ss_0": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_1": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_2": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_3": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_4": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_5": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_6": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_7": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_8": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_9": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_10": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_11": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_12": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_13": {
+            "width": 377,
+            "height": 80
+          },
+          "images/ss_14": {
+            "width": 377,
+            "height": 80
+          }
+        },
+        "st": {
+          "images/st": {
+            "x": 59.71,
+            "y": 39.4,
+            "rotation": -98.22,
+            "width": 304,
+            "height": 256
+          }
+        },
+        "t": {
+          "images/t": {
+            "type": "mesh",
+            "uvs": [
+              0.86484,
+              0.62478,
+              0.85394,
+              0.73284,
+              0.72757,
+              0.85863,
+              0.57506,
+              0.94572,
+              0.43343,
+              0.9812,
+              0.35935,
+              0.96668,
+              0.30053,
+              0.91024,
+              0.07393,
+              0.63285,
+              0.01946,
+              0.48447,
+              0.01292,
+              0.2603,
+              0.10008,
+              0.1087,
+              0.35935,
+              0,
+              0.74718,
+              0,
+              0.88445,
+              0.09903,
+              0.97814,
+              0.28449,
+              0.96288,
+              0.35707,
+              1,
+              0.40061,
+              1,
+              0.52963,
+              0.95199,
+              0.60543,
+              0.8278,
+              0.61994,
+              0.80165,
+              0.71671,
+              0.68618,
+              0.83605,
+              0.49226,
+              0.9312,
+              0.37896,
+              0.92959,
+              0.25259,
+              0.79735,
+              0.12459,
+              0.63484,
+              0.10642,
+              0.56657,
+              0.04773,
+              0.47866,
+              0.06869,
+              0.34627,
+              0.12598,
+              0.46314,
+              0.21262,
+              0.47659,
+              0.26572,
+              0.52313,
+              0.27131,
+              0.60691,
+              0.24755,
+              0.66897,
+              0.26292,
+              0.69173,
+              0.32161,
+              0.71552,
+              0.40965,
+              0.68242,
+              0.42781,
+              0.64622,
+              0.34397,
+              0.62967,
+              0.3258,
+              0.50969,
+              0.31463,
+              0.43832,
+              0.49488,
+              0.3535,
+              0.61366,
+              0.37419,
+              0.57174,
+              0.38454,
+              0.52143,
+              0.38247,
+              0.44598,
+              0.40522,
+              0.37471,
+              0.45797,
+              0.34118,
+              0.46004,
+              0.39567,
+              0.51486,
+              0.42362,
+              0.47659,
+              0.51445,
+              0.44453,
+              0.62204,
+              0.42591,
+              0.58711,
+              0.46418,
+              0.53121,
+              0.49831,
+              0.4851,
+              0.50658,
+              0.26722,
+              0.54568,
+              0.19585,
+              0.5221,
+              0.12459,
+              0.5221,
+              0.0898,
+              0.54167,
+              0.14974,
+              0.58002,
+              0.20982,
+              0.5583,
+              0.29227,
+              0.80653,
+              0.31463,
+              0.78792,
+              0.36773,
+              0.79516,
+              0.41524,
+              0.77344,
+              0.51864,
+              0.76102,
+              0.38449,
+              0.73827,
+              0.34118,
+              0.75792,
+              0.31463,
+              0.75482,
+              0.32161,
+              0.84067,
+              0.39986,
+              0.83963,
+              0.47113,
+              0.81895,
+              0.84702,
+              0.53141,
+              0.72545,
+              0.35144,
+              0.541,
+              0.28834
+            ],
+            "triangles": [
+              74,
+              11,
+              12,
+              73,
+              74,
+              12,
+              13,
+              73,
+              12,
+              28,
+              9,
+              10,
+              74,
+              28,
+              10,
+              74,
+              10,
+              11,
+              14,
+              73,
+              13,
+              74,
+              40,
+              28,
+              15,
+              73,
+              14,
+              42,
+              74,
+              73,
+              41,
+              74,
+              42,
+              43,
+              44,
+              41,
+              42,
+              43,
+              41,
+              74,
+              41,
+              40,
+              45,
+              41,
+              44,
+              51,
+              42,
+              73,
+              43,
+              42,
+              51,
+              45,
+              40,
+              41,
+              50,
+              45,
+              44,
+              50,
+              44,
+              43,
+              50,
+              43,
+              51,
+              46,
+              40,
+              45,
+              47,
+              40,
+              46,
+              30,
+              29,
+              28,
+              52,
+              50,
+              51,
+              49,
+              46,
+              45,
+              49,
+              45,
+              50,
+              40,
+              30,
+              28,
+              28,
+              8,
+              9,
+              27,
+              28,
+              29,
+              27,
+              8,
+              28,
+              53,
+              50,
+              52,
+              54,
+              49,
+              50,
+              53,
+              54,
+              50,
+              39,
+              40,
+              47,
+              31,
+              30,
+              40,
+              48,
+              46,
+              49,
+              48,
+              49,
+              54,
+              57,
+              27,
+              29,
+              56,
+              57,
+              29,
+              30,
+              56,
+              29,
+              39,
+              31,
+              40,
+              56,
+              30,
+              31,
+              72,
+              15,
+              16,
+              72,
+              73,
+              15,
+              17,
+              72,
+              16,
+              51,
+              73,
+              72,
+              58,
+              27,
+              57,
+              55,
+              31,
+              39,
+              56,
+              31,
+              55,
+              60,
+              56,
+              55,
+              26,
+              58,
+              57,
+              59,
+              57,
+              56,
+              59,
+              56,
+              60,
+              26,
+              57,
+              59,
+              18,
+              72,
+              17,
+              38,
+              32,
+              55,
+              60,
+              55,
+              32,
+              72,
+              52,
+              51,
+              0,
+              19,
+              72,
+              19,
+              52,
+              72,
+              18,
+              0,
+              72,
+              39,
+              46,
+              48,
+              46,
+              39,
+              47,
+              38,
+              39,
+              48,
+              38,
+              55,
+              39,
+              58,
+              8,
+              27,
+              7,
+              58,
+              26,
+              7,
+              8,
+              58,
+              25,
+              26,
+              59,
+              7,
+              26,
+              25,
+              37,
+              48,
+              54,
+              38,
+              48,
+              37,
+              33,
+              60,
+              32,
+              59,
+              60,
+              33,
+              25,
+              59,
+              33,
+              36,
+              38,
+              37,
+              34,
+              33,
+              32,
+              34,
+              32,
+              38,
+              35,
+              34,
+              38,
+              35,
+              38,
+              36,
+              20,
+              52,
+              19,
+              20,
+              19,
+              0,
+              1,
+              20,
+              0,
+              66,
+              35,
+              36,
+              68,
+              34,
+              35,
+              67,
+              68,
+              35,
+              66,
+              67,
+              35,
+              53,
+              37,
+              54,
+              65,
+              37,
+              53,
+              36,
+              37,
+              65,
+              66,
+              36,
+              65,
+              64,
+              66,
+              65,
+              62,
+              68,
+              67,
+              24,
+              34,
+              68,
+              63,
+              67,
+              66,
+              63,
+              66,
+              64,
+              62,
+              67,
+              63,
+              24,
+              33,
+              34,
+              68,
+              61,
+              24,
+              25,
+              33,
+              24,
+              62,
+              61,
+              68,
+              71,
+              64,
+              65,
+              20,
+              53,
+              52,
+              20,
+              65,
+              53,
+              21,
+              65,
+              20,
+              70,
+              63,
+              64,
+              70,
+              64,
+              71,
+              69,
+              62,
+              63,
+              69,
+              63,
+              70,
+              61,
+              62,
+              69,
+              24,
+              61,
+              69,
+              2,
+              21,
+              20,
+              2,
+              20,
+              1,
+              23,
+              6,
+              24,
+              7,
+              25,
+              24,
+              6,
+              7,
+              24,
+              23,
+              69,
+              70,
+              23,
+              24,
+              69,
+              21,
+              22,
+              71,
+              21,
+              71,
+              65,
+              70,
+              71,
+              22,
+              23,
+              70,
+              22,
+              3,
+              22,
+              21,
+              3,
+              21,
+              2,
+              5,
+              6,
+              23,
+              4,
+              23,
+              22,
+              5,
+              23,
+              4,
+              4,
+              22,
+              3
+            ],
+            "vertices": [
+              30.1,
+              -42.14,
+              9.84,
+              -33.29,
+              -8.06,
+              -6.8,
+              -17.21,
+              20.81,
+              -16.97,
+              43.39,
+              -10.47,
+              52.97,
+              3.33,
+              57.54,
+              68.05,
+              71.11,
+              99.34,
+              68.86,
+              142.82,
+              54.67,
+              167.65,
+              32.02,
+              175.63,
+              -12.26,
+              156.26,
+              -67.53,
+              130.34,
+              -80.41,
+              89.95,
+              -81.24,
+              76.74,
+              -74.17,
+              66.51,
+              -76.52,
+              41.67,
+              -67.82,
+              29.47,
+              -55.86,
+              32.88,
+              -37.18,
+              15.56,
+              -26.93,
+              -1.65,
+              -2.42,
+              -10.28,
+              31.63,
+              -4.31,
+              47.67,
+              27.46,
+              56.75,
+              65.14,
+              64.03,
+              79.19,
+              62.01,
+              99.05,
+              64.44,
+              123.49,
+              52.52,
+              98.12,
+              52.24,
+              91.21,
+              40.81,
+              79.6,
+              36.38,
+              63.19,
+              41.24,
+              52.43,
+              48.81,
+              47.28,
+              48.15,
+              39.77,
+              41.4,
+              41.74,
+              26.62,
+              47.8,
+              21.59,
+              55.18,
+              32.42,
+              79.18,
+              26.91,
+              93.48,
+              23.69,
+              100.8,
+              -7.72,
+              90.89,
+              -23.25,
+              90.99,
+              -16.58,
+              93.9,
+              -9.55,
+              93.29,
+              2.74,
+              86.7,
+              16.45,
+              87.97,
+              21.37,
+              74.7,
+              17.3,
+              80.67,
+              10.74,
+              82.3,
+              -4.37,
+              80.51,
+              -20.96,
+              74.89,
+              -13.4,
+              71.11,
+              -3.13,
+              71.82,
+              4,
+              75.18,
+              37.69,
+              83.28,
+              46.27,
+              86.84,
+              56.42,
+              84.81,
+              62.7,
+              74.44,
+              56.75,
+              75.62,
+              46.72,
+              23.71,
+              51.72,
+              26.18,
+              47.28,
+              22.13,
+              40.2,
+              23.94,
+              31.96,
+              21.16,
+              16.39,
+              32.25,
+              33.97,
+              30.63,
+              41.47,
+              32.55,
+              45.04,
+              15.67,
+              49.84,
+              11.96,
+              38.62,
+              12.39,
+              27.07,
+              48.97,
+              -45.9,
+              89.69,
+              -40.72,
+              111.05,
+              -18.69
+            ],
+            "hull": 19,
+            "edges": [
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              10,
+              12,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              20,
+              22,
+              22,
+              24,
+              24,
+              26,
+              26,
+              28,
+              28,
+              30,
+              30,
+              32,
+              32,
+              34,
+              34,
+              36,
+              0,
+              36,
+              38,
+              40,
+              40,
+              42,
+              42,
+              44,
+              44,
+              46,
+              46,
+              48,
+              48,
+              50,
+              50,
+              52,
+              54,
+              56,
+              54,
+              58,
+              58,
+              60,
+              60,
+              62,
+              64,
+              66,
+              66,
+              68,
+              68,
+              70,
+              70,
+              72,
+              72,
+              74,
+              74,
+              76,
+              76,
+              78,
+              78,
+              80,
+              80,
+              82,
+              82,
+              84,
+              84,
+              86,
+              86,
+              88,
+              88,
+              90,
+              90,
+              92,
+              92,
+              94,
+              94,
+              80,
+              96,
+              98,
+              98,
+              100,
+              100,
+              102,
+              102,
+              104,
+              104,
+              106,
+              106,
+              108,
+              108,
+              96,
+              62,
+              110,
+              110,
+              64,
+              110,
+              112,
+              112,
+              114,
+              52,
+              116,
+              116,
+              54,
+              114,
+              116,
+              52,
+              118,
+              118,
+              120,
+              120,
+              110,
+              48,
+              122,
+              122,
+              124,
+              124,
+              126,
+              126,
+              128,
+              128,
+              130,
+              130,
+              132,
+              132,
+              134,
+              134,
+              136,
+              136,
+              48,
+              48,
+              138,
+              138,
+              140,
+              140,
+              142,
+              142,
+              130,
+              38,
+              144,
+              144,
+              146,
+              146,
+              148,
+              148,
+              56
+            ],
+            "width": 151,
+            "height": 204
+          }
+        },
+        "tf": {
+          "images/tf": {
+            "type": "mesh",
+            "uvs": [
+              0.67018,
+              0.20129,
+              0.576,
+              0.24933,
+              0.5099,
+              0.26622,
+              0.46033,
+              0.31037,
+              0.48181,
+              0.3727,
+              0.50825,
+              0.44542,
+              0.614,
+              0.57268,
+              0.66687,
+              0.60645,
+              0.67018,
+              0.65449,
+              0.67844,
+              0.7441,
+              0.58426,
+              0.78305,
+              0.58756,
+              0.84149,
+              0.57269,
+              0.88824,
+              0.50329,
+              0.86357,
+              0.49503,
+              0.91032,
+              0.44216,
+              0.88824,
+              0.39259,
+              0.85188,
+              0.32484,
+              0.87785,
+              0.36945,
+              0.90252,
+              0.34963,
+              0.94278,
+              0.32649,
+              0.99292,
+              0.14804,
+              1,
+              0.21909,
+              0.95915,
+              0.191,
+              0.90332,
+              0.18605,
+              0.83319,
+              0.26536,
+              0.75138,
+              0.35293,
+              0.72541,
+              0.27197,
+              0.67087,
+              0.23396,
+              0.58646,
+              0.24057,
+              0.52543,
+              0.29345,
+              0.48647,
+              0.38102,
+              0.40466,
+              0.36285,
+              0.30596,
+              0.36615,
+              0.15663,
+              0.40415,
+              0.07247,
+              0.51486,
+              0.00884,
+              0.67679,
+              0,
+              0.81558,
+              0.00364,
+              0.89324,
+              0.08156,
+              0.99238,
+              0.18544,
+              1,
+              0.35426,
+              0.90977,
+              0.47763,
+              0.85359,
+              0.4101,
+              0.80567,
+              0.30102
+            ],
+            "triangles": [
+              0,
+              35,
+              36,
+              1,
+              35,
+              0,
+              34,
+              35,
+              1,
+              2,
+              33,
+              34,
+              1,
+              2,
+              34,
+              37,
+              0,
+              36,
+              38,
+              0,
+              37,
+              43,
+              38,
+              39,
+              38,
+              43,
+              0,
+              43,
+              39,
+              40,
+              42,
+              43,
+              40,
+              41,
+              42,
+              40,
+              3,
+              32,
+              33,
+              2,
+              3,
+              33,
+              31,
+              32,
+              3,
+              31,
+              3,
+              4,
+              31,
+              4,
+              5,
+              5,
+              30,
+              31,
+              30,
+              28,
+              29,
+              27,
+              28,
+              30,
+              5,
+              26,
+              30,
+              27,
+              30,
+              26,
+              6,
+              26,
+              5,
+              8,
+              10,
+              6,
+              8,
+              6,
+              7,
+              10,
+              8,
+              9,
+              10,
+              26,
+              6,
+              13,
+              16,
+              26,
+              10,
+              13,
+              26,
+              11,
+              13,
+              10,
+              15,
+              16,
+              13,
+              12,
+              13,
+              11,
+              14,
+              15,
+              13,
+              17,
+              25,
+              26,
+              17,
+              26,
+              16,
+              24,
+              25,
+              17,
+              23,
+              24,
+              17,
+              19,
+              17,
+              18,
+              22,
+              23,
+              17,
+              22,
+              17,
+              19,
+              20,
+              22,
+              19,
+              21,
+              22,
+              20
+            ],
+            "vertices": [
+              3,
+              19,
+              -40.45,
+              66.86,
+              0.08743,
+              18,
+              -7.02,
+              -32.6,
+              0.49575,
+              17,
+              -42.28,
+              -3.32,
+              0.41683,
+              3,
+              19,
+              -22.45,
+              41.22,
+              0.42706,
+              18,
+              -8.14,
+              -63.91,
+              0.07348,
+              17,
+              -55.4,
+              25.13,
+              0.49946,
+              3,
+              19,
+              -15.78,
+              23.01,
+              0.68854,
+              18,
+              -13.83,
+              -82.44,
+              0.01644,
+              17,
+              -58.7,
+              44.24,
+              0.29503,
+              3,
+              19,
+              0.38,
+              9.77,
+              0.9736,
+              18,
+              -8.94,
+              -102.77,
+              0.00063,
+              17,
+              -72.24,
+              60.16,
+              0.02577,
+              2,
+              21,
+              -50.71,
+              45.81,
+              0.0035,
+              19,
+              22.28,
+              16.56,
+              0.9965,
+              2,
+              21,
+              -27.62,
+              32.12,
+              0.19292,
+              19,
+              47.81,
+              24.88,
+              0.80708,
+              2,
+              21,
+              24.86,
+              19.56,
+              0.99037,
+              19,
+              91.88,
+              56.01,
+              0.00963,
+              1,
+              21,
+              43.82,
+              20.99,
+              1,
+              1,
+              21,
+              56.2,
+              9.23,
+              1,
+              2,
+              22,
+              7.93,
+              52.14,
+              0.27895,
+              21,
+              79.73,
+              -12.3,
+              0.72105,
+              2,
+              22,
+              30.78,
+              33.17,
+              0.81508,
+              21,
+              70.14,
+              -40.4,
+              0.18492,
+              2,
+              22,
+              49.59,
+              41.98,
+              0.97443,
+              21,
+              85.06,
+              -54.85,
+              0.02557,
+              2,
+              22,
+              66.5,
+              44.51,
+              0.99392,
+              21,
+              93.45,
+              -69.75,
+              0.00608,
+              3,
+              23,
+              -4.99,
+              51.15,
+              0.06606,
+              22,
+              65.84,
+              23.27,
+              0.93179,
+              21,
+              73.36,
+              -76.69,
+              0.00215,
+              2,
+              23,
+              9.79,
+              59.04,
+              0.11508,
+              22,
+              82.05,
+              27.5,
+              0.88492,
+              2,
+              23,
+              12.13,
+              42.5,
+              0.17838,
+              22,
+              80.47,
+              10.87,
+              0.82162,
+              2,
+              23,
+              9.82,
+              23.73,
+              0.57518,
+              22,
+              73.85,
+              -6.85,
+              0.42482,
+              2,
+              23,
+              28.4,
+              13.86,
+              0.98406,
+              22,
+              89.61,
+              -20.77,
+              0.01594,
+              1,
+              23,
+              28.16,
+              29.08,
+              1,
+              1,
+              23,
+              42.97,
+              33.01,
+              1,
+              1,
+              23,
+              61.16,
+              38.26,
+              1,
+              1,
+              23,
+              92.48,
+              -0.52,
+              1,
+              1,
+              23,
+              69.09,
+              6.98,
+              1,
+              1,
+              23,
+              57.67,
+              -11.02,
+              1,
+              1,
+              23,
+              38.35,
+              -26.78,
+              1,
+              3,
+              23,
+              1.85,
+              -25.97,
+              0.98805,
+              22,
+              54.5,
+              -53.31,
+              0.00228,
+              20,
+              96.12,
+              -8.81,
+              0.00967,
+              3,
+              23,
+              -19.98,
+              -11.63,
+              0.4436,
+              22,
+              36.62,
+              -34.28,
+              0.2985,
+              20,
+              80.31,
+              11.97,
+              0.25789,
+              3,
+              23,
+              -22.35,
+              -41.29,
+              0.05184,
+              22,
+              27.4,
+              -62.57,
+              0.04866,
+              20,
+              68.21,
+              -15.21,
+              0.89951,
+              1,
+              20,
+              42.52,
+              -33.94,
+              1,
+              1,
+              20,
+              21.23,
+              -38.36,
+              1,
+              2,
+              20,
+              3.76,
+              -28.18,
+              0.96064,
+              19,
+              64.56,
+              -34.48,
+              0.03936,
+              2,
+              20,
+              -31.05,
+              -13.07,
+              0.04193,
+              19,
+              34.64,
+              -11.12,
+              0.95807,
+              2,
+              19,
+              0.13,
+              -13.31,
+              0.9929,
+              17,
+              -67.85,
+              82.82,
+              0.0071,
+              2,
+              19,
+              -53.2,
+              -18.49,
+              0.51014,
+              17,
+              -14.46,
+              78.37,
+              0.48986,
+              2,
+              19,
+              -83.44,
+              -8.99,
+              0.28865,
+              17,
+              13.59,
+              63.61,
+              0.71135,
+              2,
+              19,
+              -107.14,
+              21.06,
+              0.08933,
+              17,
+              31.53,
+              29.81,
+              0.91067,
+              2,
+              18,
+              -64.45,
+              9.95,
+              0.11457,
+              17,
+              28.18,
+              -15.35,
+              0.88543,
+              2,
+              18,
+              -41.16,
+              40.91,
+              0.55212,
+              17,
+              21.37,
+              -53.5,
+              0.44788,
+              2,
+              18,
+              -6.07,
+              42.76,
+              0.89114,
+              17,
+              -9.1,
+              -70.99,
+              0.10886,
+              1,
+              18,
+              40.01,
+              44.22,
+              1,
+              1,
+              18,
+              90.29,
+              11.55,
+              1,
+              1,
+              18,
+              111.68,
+              -34.21,
+              1,
+              1,
+              18,
+              83.06,
+              -33.28,
+              1,
+              1,
+              18,
+              43.68,
+              -21.98,
+              1
+            ],
+            "hull": 44,
+            "edges": [
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              10,
+              12,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              20,
+              22,
+              22,
+              24,
+              24,
+              26,
+              26,
+              28,
+              28,
+              30,
+              30,
+              32,
+              32,
+              34,
+              34,
+              36,
+              36,
+              38,
+              38,
+              40,
+              40,
+              42,
+              42,
+              44,
+              44,
+              46,
+              46,
+              48,
+              48,
+              50,
+              50,
+              52,
+              52,
+              54,
+              54,
+              56,
+              56,
+              58,
+              58,
+              60,
+              60,
+              62,
+              62,
+              64,
+              64,
+              66,
+              66,
+              68,
+              68,
+              70,
+              70,
+              72,
+              72,
+              74,
+              74,
+              76,
+              76,
+              78,
+              78,
+              80,
+              80,
+              82,
+              82,
+              84,
+              84,
+              86,
+              0,
+              86
+            ],
+            "width": 279,
+            "height": 355
+          }
+        },
+        "tuan": {
+          "images/tuan": {
+            "x": -18.39,
+            "y": 2.96,
+            "width": 378,
+            "height": 143
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "ff": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/ff"
+              }
+            ]
+          },
+          "fff": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.0333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.5,
+                "name": "images/ff_0"
+              },
+              {
+                "time": 0.5333,
+                "name": "images/ff_1"
+              },
+              {
+                "time": 0.5667,
+                "name": "images/ff_2"
+              },
+              {
+                "time": 0.6,
+                "name": "images/ff_3"
+              },
+              {
+                "time": 0.6333,
+                "name": "images/ff_4"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/ff_5"
+              },
+              {
+                "time": 0.7,
+                "name": "images/ff_6"
+              },
+              {
+                "time": 0.7333,
+                "name": "images/ff_7"
+              },
+              {
+                "time": 0.7667,
+                "name": "images/ff_8"
+              },
+              {
+                "time": 0.8,
+                "name": "images/ff_9"
+              },
+              {
+                "time": 0.8333,
+                "name": "images/ff_10"
+              },
+              {
+                "time": 0.8667,
+                "name": "images/ff_11"
+              },
+              {
+                "time": 0.9,
+                "name": "images/ff_12"
+              },
+              {
+                "time": 0.9333,
+                "name": "images/ff_13"
+              },
+              {
+                "time": 0.9667,
+                "name": "images/ff_14"
+              }
+            ]
+          },
+          "images/g_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/g_0"
+              }
+            ]
+          },
+          "images/ggg_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.9,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/ggg_0"
+              },
+              {
+                "time": 0.3667,
+                "name": "images/ggg_0"
+              }
+            ]
+          },
+          "mz": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/mz"
+              }
+            ]
+          },
+          "s": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/s"
+              }
+            ]
+          },
+          "sd": {
+            "color": [
+              {
+                "time": 0,
+                "color": "0e77f2ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/sudu_0"
+              },
+              {
+                "time": 0.0667,
+                "name": "images/sudu_1"
+              },
+              {
+                "time": 0.1333,
+                "name": "images/sudu_2"
+              },
+              {
+                "time": 0.2,
+                "name": "images/sudu_3"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/sudu_4"
+              },
+              {
+                "time": 0.3333,
+                "name": "images/sudu_5"
+              },
+              {
+                "time": 0.4,
+                "name": "images/sudu_6"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/sudu_7"
+              },
+              {
+                "time": 0.5333,
+                "name": "images/sudu_8"
+              },
+              {
+                "time": 0.6,
+                "name": "images/sudu_9"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/sudu_10"
+              },
+              {
+                "time": 0.7333,
+                "name": "images/sudu_11"
+              },
+              {
+                "time": 0.8,
+                "name": "images/sudu_12"
+              },
+              {
+                "time": 0.8667,
+                "name": "images/sudu_13"
+              },
+              {
+                "time": 0.9333,
+                "name": "images/sudu_14"
+              },
+              {
+                "time": 1,
+                "name": "images/sudu_0"
+              },
+              {
+                "time": 1.0667,
+                "name": "images/sudu_1"
+              },
+              {
+                "time": 1.1333,
+                "name": "images/sudu_2"
+              },
+              {
+                "time": 1.2,
+                "name": "images/sudu_3"
+              },
+              {
+                "time": 1.2667,
+                "name": "images/sudu_4"
+              },
+              {
+                "time": 1.3333,
+                "name": "images/sudu_5"
+              },
+              {
+                "time": 1.4,
+                "name": "images/sudu_6"
+              },
+              {
+                "time": 1.4667,
+                "name": "images/sudu_7"
+              },
+              {
+                "time": 1.5333,
+                "name": "images/sudu_8"
+              },
+              {
+                "time": 1.6,
+                "name": "images/sudu_9"
+              },
+              {
+                "time": 1.6667,
+                "name": "images/sudu_10"
+              },
+              {
+                "time": 1.7333,
+                "name": "images/sudu_11"
+              },
+              {
+                "time": 1.8,
+                "name": "images/sudu_12"
+              },
+              {
+                "time": 1.8667,
+                "name": "images/sudu_13"
+              },
+              {
+                "time": 1.9333,
+                "name": "images/sudu_14"
+              }
+            ]
+          },
+          "sd2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ff8b00ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/sudu_0"
+              },
+              {
+                "time": 0.0667,
+                "name": "images/sudu_1"
+              },
+              {
+                "time": 0.1333,
+                "name": "images/sudu_2"
+              },
+              {
+                "time": 0.2,
+                "name": "images/sudu_3"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/sudu_4"
+              },
+              {
+                "time": 0.3333,
+                "name": "images/sudu_5"
+              },
+              {
+                "time": 0.4,
+                "name": "images/sudu_6"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/sudu_7"
+              },
+              {
+                "time": 0.5333,
+                "name": "images/sudu_8"
+              },
+              {
+                "time": 0.6,
+                "name": "images/sudu_9"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/sudu_10"
+              },
+              {
+                "time": 0.7333,
+                "name": "images/sudu_11"
+              },
+              {
+                "time": 0.8,
+                "name": "images/sudu_12"
+              },
+              {
+                "time": 0.8667,
+                "name": "images/sudu_13"
+              },
+              {
+                "time": 0.9333,
+                "name": "images/sudu_14"
+              },
+              {
+                "time": 1,
+                "name": "images/sudu_0"
+              },
+              {
+                "time": 1.0667,
+                "name": "images/sudu_1"
+              },
+              {
+                "time": 1.1333,
+                "name": "images/sudu_2"
+              },
+              {
+                "time": 1.2,
+                "name": "images/sudu_3"
+              },
+              {
+                "time": 1.2667,
+                "name": "images/sudu_4"
+              },
+              {
+                "time": 1.3333,
+                "name": "images/sudu_5"
+              },
+              {
+                "time": 1.4,
+                "name": "images/sudu_6"
+              },
+              {
+                "time": 1.4667,
+                "name": "images/sudu_7"
+              },
+              {
+                "time": 1.5333,
+                "name": "images/sudu_8"
+              },
+              {
+                "time": 1.6,
+                "name": "images/sudu_9"
+              },
+              {
+                "time": 1.6667,
+                "name": "images/sudu_10"
+              },
+              {
+                "time": 1.7333,
+                "name": "images/sudu_11"
+              },
+              {
+                "time": 1.8,
+                "name": "images/sudu_12"
+              },
+              {
+                "time": 1.8667,
+                "name": "images/sudu_13"
+              },
+              {
+                "time": 1.9333,
+                "name": "images/sudu_14"
+              }
+            ]
+          },
+          "sd3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "0ef2ebff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/sudu_0"
+              },
+              {
+                "time": 0.0667,
+                "name": "images/sudu_1"
+              },
+              {
+                "time": 0.1333,
+                "name": "images/sudu_2"
+              },
+              {
+                "time": 0.2,
+                "name": "images/sudu_3"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/sudu_4"
+              },
+              {
+                "time": 0.3333,
+                "name": "images/sudu_5"
+              },
+              {
+                "time": 0.4,
+                "name": "images/sudu_6"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/sudu_7"
+              },
+              {
+                "time": 0.5333,
+                "name": "images/sudu_8"
+              },
+              {
+                "time": 0.6,
+                "name": "images/sudu_9"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/sudu_10"
+              },
+              {
+                "time": 0.7333,
+                "name": "images/sudu_11"
+              },
+              {
+                "time": 0.8,
+                "name": "images/sudu_12"
+              },
+              {
+                "time": 0.8667,
+                "name": "images/sudu_13"
+              },
+              {
+                "time": 0.9333,
+                "name": "images/sudu_14"
+              },
+              {
+                "time": 1,
+                "name": "images/sudu_0"
+              },
+              {
+                "time": 1.0667,
+                "name": "images/sudu_1"
+              },
+              {
+                "time": 1.1333,
+                "name": "images/sudu_2"
+              },
+              {
+                "time": 1.2,
+                "name": "images/sudu_3"
+              },
+              {
+                "time": 1.2667,
+                "name": "images/sudu_4"
+              },
+              {
+                "time": 1.3333,
+                "name": "images/sudu_5"
+              },
+              {
+                "time": 1.4,
+                "name": "images/sudu_6"
+              },
+              {
+                "time": 1.4667,
+                "name": "images/sudu_7"
+              },
+              {
+                "time": 1.5333,
+                "name": "images/sudu_8"
+              },
+              {
+                "time": 1.6,
+                "name": "images/sudu_9"
+              },
+              {
+                "time": 1.6667,
+                "name": "images/sudu_10"
+              },
+              {
+                "time": 1.7333,
+                "name": "images/sudu_11"
+              },
+              {
+                "time": 1.8,
+                "name": "images/sudu_12"
+              },
+              {
+                "time": 1.8667,
+                "name": "images/sudu_13"
+              },
+              {
+                "time": 1.9333,
+                "name": "images/sudu_14"
+              }
+            ]
+          },
+          "sd4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fff200ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/sudu_0"
+              },
+              {
+                "time": 0.0667,
+                "name": "images/sudu_1"
+              },
+              {
+                "time": 0.1333,
+                "name": "images/sudu_2"
+              },
+              {
+                "time": 0.2,
+                "name": "images/sudu_3"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/sudu_4"
+              },
+              {
+                "time": 0.3333,
+                "name": "images/sudu_5"
+              },
+              {
+                "time": 0.4,
+                "name": "images/sudu_6"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/sudu_7"
+              },
+              {
+                "time": 0.5333,
+                "name": "images/sudu_8"
+              },
+              {
+                "time": 0.6,
+                "name": "images/sudu_9"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/sudu_10"
+              },
+              {
+                "time": 0.7333,
+                "name": "images/sudu_11"
+              },
+              {
+                "time": 0.8,
+                "name": "images/sudu_12"
+              },
+              {
+                "time": 0.8667,
+                "name": "images/sudu_13"
+              },
+              {
+                "time": 0.9333,
+                "name": "images/sudu_14"
+              },
+              {
+                "time": 1,
+                "name": "images/sudu_0"
+              },
+              {
+                "time": 1.0667,
+                "name": "images/sudu_1"
+              },
+              {
+                "time": 1.1333,
+                "name": "images/sudu_2"
+              },
+              {
+                "time": 1.2,
+                "name": "images/sudu_3"
+              },
+              {
+                "time": 1.2667,
+                "name": "images/sudu_4"
+              },
+              {
+                "time": 1.3333,
+                "name": "images/sudu_5"
+              },
+              {
+                "time": 1.4,
+                "name": "images/sudu_6"
+              },
+              {
+                "time": 1.4667,
+                "name": "images/sudu_7"
+              },
+              {
+                "time": 1.5333,
+                "name": "images/sudu_8"
+              },
+              {
+                "time": 1.6,
+                "name": "images/sudu_9"
+              },
+              {
+                "time": 1.6667,
+                "name": "images/sudu_10"
+              },
+              {
+                "time": 1.7333,
+                "name": "images/sudu_11"
+              },
+              {
+                "time": 1.8,
+                "name": "images/sudu_12"
+              },
+              {
+                "time": 1.8667,
+                "name": "images/sudu_13"
+              },
+              {
+                "time": 1.9333,
+                "name": "images/sudu_14"
+              }
+            ]
+          },
+          "ss": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/ss"
+              }
+            ]
+          },
+          "sss": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.7667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/ss_0"
+              },
+              {
+                "time": 0.1667,
+                "name": "images/ss_0"
+              },
+              {
+                "time": 0.2333,
+                "name": "images/ss_0"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/ss_1"
+              },
+              {
+                "time": 0.3,
+                "name": "images/ss_2"
+              },
+              {
+                "time": 0.3333,
+                "name": "images/ss_3"
+              },
+              {
+                "time": 0.3667,
+                "name": "images/ss_4"
+              },
+              {
+                "time": 0.4,
+                "name": "images/ss_5"
+              },
+              {
+                "time": 0.4333,
+                "name": "images/ss_6"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/ss_7"
+              },
+              {
+                "time": 0.5,
+                "name": "images/ss_8"
+              },
+              {
+                "time": 0.5333,
+                "name": "images/ss_9"
+              },
+              {
+                "time": 0.5667,
+                "name": "images/ss_10"
+              },
+              {
+                "time": 0.6,
+                "name": "images/ss_11"
+              },
+              {
+                "time": 0.6333,
+                "name": "images/ss_12"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/ss_13"
+              },
+              {
+                "time": 0.7,
+                "name": "images/ss_14"
+              }
+            ]
+          },
+          "st": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/st"
+              }
+            ]
+          },
+          "t": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/t"
+              }
+            ]
+          },
+          "tf": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/tf"
+              }
+            ]
+          },
+          "tuan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/tuan"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "st": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -1.46,
+                "curve": [
+                  0.329,
+                  0.32,
+                  0.662,
+                  0.65
+                ]
+              },
+              {
+                "time": 0.5,
+                "angle": -2.56,
+                "curve": [
+                  0.329,
+                  0.32,
+                  0.664,
+                  0.66
+                ]
+              },
+              {
+                "time": 1.5,
+                "angle": -0.44,
+                "curve": [
+                  0.314,
+                  0.27,
+                  0.657,
+                  0.64
+                ]
+              },
+              {
+                "time": 2,
+                "angle": -1.46
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.036,
+                "y": 1.036,
+                "curve": [
+                  0.329,
+                  0.32,
+                  0.662,
+                  0.65
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1.069,
+                "y": 1.069,
+                "curve": [
+                  0.329,
+                  0.32,
+                  0.664,
+                  0.66
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 1.006,
+                "y": 1.006,
+                "curve": [
+                  0.314,
+                  0.27,
+                  0.657,
+                  0.64
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1.036,
+                "y": 1.036
+              }
+            ]
+          },
+          "tf3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          },
+          "tf7": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          },
+          "tf6": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.29,
+                  0,
+                  0.629,
+                  0.38
+                ]
+              },
+              {
+                "time": 1,
+                "angle": -7.64,
+                "curve": [
+                  0.311,
+                  0.25,
+                  0.757,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          },
+          "tf5": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          },
+          "tf4": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.29,
+                  0,
+                  0.629,
+                  0.38
+                ]
+              },
+              {
+                "time": 1,
+                "angle": -7.64,
+                "curve": [
+                  0.311,
+                  0.25,
+                  0.757,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          },
+          "t": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "angle": -4.44,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          },
+          "s": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "angle": 6.1,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1667,
+                "angle": 6.1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 10.5,
+                "y": -16.91,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1667,
+                "x": 10.5,
+                "y": -16.91,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "mz": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 1,
+                "angle": -1.76,
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          },
+          "ss": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.5,
+                "x": 5.89,
+                "y": 2.53
+              },
+              {
+                "time": 1,
+                "x": -3.37,
+                "y": 3.37
+              },
+              {
+                "time": 2,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ff": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -1.68,
+                "y": 1.68
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1,
+                "x": 5.89,
+                "y": 2.53
+              },
+              {
+                "time": 1.5,
+                "x": -3.37,
+                "y": 3.37
+              },
+              {
+                "time": 2,
+                "x": -1.68,
+                "y": 1.68
+              }
+            ]
+          },
+          "s2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 0.8333,
+                "angle": -7.15,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1667,
+                "angle": -7.15,
+                "curve": [
+                  0.375,
+                  0.5,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          },
+          "sta2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.3333,
+                "x": 189.74,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 2.355,
+                "y": 0.883
+              }
+            ]
+          },
+          "sta": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4333,
+                "x": 289.56,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4333,
+                "x": 1.815,
+                "y": 1
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "t": {
+              "images/t": [
+                {
+                  "time": 0,
+                  "curve": [
+                    0.265,
+                    0,
+                    0.618,
+                    0.43
+                  ]
+                },
+                {
+                  "time": 0.8333,
+                  "offset": 40,
+                  "vertices": [
+                    0.45484,
+                    -0.40625,
+                    2.03392,
+                    -0.83539,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2.2742,
+                    -2.03117,
+                    0.64651,
+                    -0.74095,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1.79362,
+                    0.36034,
+                    1.79362,
+                    0.36034,
+                    1.05272,
+                    -0.28612,
+                    1.50758,
+                    -0.6925,
+                    1.50758,
+                    -0.6925,
+                    0,
+                    0,
+                    0,
+                    0,
+                    -2.70331,
+                    0.4519,
+                    1.2107,
+                    2.42612,
+                    3.62757,
+                    1.12549,
+                    2.63536,
+                    1.06672,
+                    1.55894,
+                    1.42115,
+                    -0.25967,
+                    1.19391,
+                    -2.70331,
+                    0.4519,
+                    -2.70331,
+                    0.4519,
+                    0,
+                    0,
+                    -1.91376,
+                    0.23727,
+                    -1.91376,
+                    0.23727,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1.50755,
+                    -0.69238,
+                    1.3159,
+                    -0.35767,
+                    0,
+                    0,
+                    -1.10135,
+                    1.14705,
+                    -1.0527,
+                    0.28601,
+                    0,
+                    0,
+                    0.86106,
+                    0.04858,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1.22151,
+                    -1.74508,
+                    -0.52349,
+                    -2.96661,
+                    1.553,
+                    -2.5151,
+                    0.43196,
+                    -1.53065,
+                    0.31181,
+                    -0.93263,
+                    -0.78954,
+                    0.2145,
+                    1.02984,
+                    -1.41039,
+                    2.27422,
+                    -2.03124,
+                    1.8194,
+                    -1.62506
+                  ],
+                  "curve": "stepped"
+                },
+                {
+                  "time": 1.3333,
+                  "offset": 40,
+                  "vertices": [
+                    0.45484,
+                    -0.40625,
+                    2.03392,
+                    -0.83539,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2.2742,
+                    -2.03117,
+                    0.64651,
+                    -0.74095,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1.79362,
+                    0.36034,
+                    1.79362,
+                    0.36034,
+                    1.05272,
+                    -0.28612,
+                    1.50758,
+                    -0.6925,
+                    1.50758,
+                    -0.6925,
+                    0,
+                    0,
+                    0,
+                    0,
+                    -2.70331,
+                    0.4519,
+                    1.2107,
+                    2.42612,
+                    3.62757,
+                    1.12549,
+                    2.63536,
+                    1.06672,
+                    1.55894,
+                    1.42115,
+                    -0.25967,
+                    1.19391,
+                    -2.70331,
+                    0.4519,
+                    -2.70331,
+                    0.4519,
+                    0,
+                    0,
+                    -1.91376,
+                    0.23727,
+                    -1.91376,
+                    0.23727,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1.50755,
+                    -0.69238,
+                    1.3159,
+                    -0.35767,
+                    0,
+                    0,
+                    -1.10135,
+                    1.14705,
+                    -1.0527,
+                    0.28601,
+                    0,
+                    0,
+                    0.86106,
+                    0.04858,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1.22151,
+                    -1.74508,
+                    -0.52349,
+                    -2.96661,
+                    1.553,
+                    -2.5151,
+                    0.43196,
+                    -1.53065,
+                    0.31181,
+                    -0.93263,
+                    -0.78954,
+                    0.2145,
+                    1.02984,
+                    -1.41039,
+                    2.27422,
+                    -2.03124,
+                    1.8194,
+                    -1.62506
+                  ],
+                  "curve": [
+                    0.351,
+                    0.4,
+                    0.757,
+                    1
+                  ]
+                },
+                {
+                  "time": 2
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\n183logo.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/ff\n  rotate: false\n  xy: 144, 344\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_0\n  rotate: false\n  xy: 144, 306\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_1\n  rotate: false\n  xy: 2, 18\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_10\n  rotate: false\n  xy: 254, 76\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_11\n  rotate: false\n  xy: 254, 38\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_12\n  rotate: false\n  xy: 380, 40\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_13\n  rotate: false\n  xy: 380, 2\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_14\n  rotate: false\n  xy: 506, 24\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_2\n  rotate: false\n  xy: 857, 286\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_3\n  rotate: false\n  xy: 843, 248\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_4\n  rotate: false\n  xy: 843, 210\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_5\n  rotate: false\n  xy: 800, 172\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_6\n  rotate: false\n  xy: 800, 134\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_7\n  rotate: false\n  xy: 786, 96\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_8\n  rotate: false\n  xy: 786, 58\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/ff_9\n  rotate: false\n  xy: 128, 18\n  size: 124, 36\n  orig: 124, 36\n  offset: 0, 0\n  index: -1\nimages/g_0\n  rotate: false\n  xy: 926, 158\n  size: 89, 50\n  orig: 89, 50\n  offset: 0, 0\n  index: -1\nimages/ggg_0\n  rotate: false\n  xy: 926, 106\n  size: 89, 50\n  orig: 89, 50\n  offset: 0, 0\n  index: -1\nimages/mz\n  rotate: false\n  xy: 489, 422\n  size: 145, 88\n  orig: 145, 88\n  offset: 0, 0\n  index: -1\nimages/s\n  rotate: false\n  xy: 2, 206\n  size: 74, 124\n  orig: 74, 124\n  offset: 0, 0\n  index: -1\nimages/ss\n  rotate: false\n  xy: 298, 396\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_0\n  rotate: false\n  xy: 636, 470\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_1\n  rotate: false\n  xy: 636, 428\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_10\n  rotate: false\n  xy: 461, 276\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_11\n  rotate: false\n  xy: 652, 260\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_12\n  rotate: false\n  xy: 461, 234\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_13\n  rotate: false\n  xy: 652, 218\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_14\n  rotate: false\n  xy: 78, 264\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_2\n  rotate: false\n  xy: 827, 470\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_3\n  rotate: false\n  xy: 827, 428\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_4\n  rotate: false\n  xy: 298, 354\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_5\n  rotate: false\n  xy: 666, 386\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_6\n  rotate: false\n  xy: 666, 344\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_7\n  rotate: false\n  xy: 666, 302\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_8\n  rotate: false\n  xy: 270, 312\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/ss_9\n  rotate: false\n  xy: 270, 270\n  size: 189, 40\n  orig: 189, 40\n  offset: 0, 0\n  index: -1\nimages/st\n  rotate: false\n  xy: 144, 382\n  size: 152, 128\n  orig: 152, 128\n  offset: 0, 0\n  index: -1\nimages/sudu_0\n  rotate: false\n  xy: 489, 370\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_1\n  rotate: false\n  xy: 489, 318\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_10\n  rotate: false\n  xy: 623, 166\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_11\n  rotate: false\n  xy: 609, 114\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_12\n  rotate: false\n  xy: 609, 62\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_13\n  rotate: false\n  xy: 2, 108\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_14\n  rotate: false\n  xy: 2, 56\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_2\n  rotate: false\n  xy: 78, 212\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_3\n  rotate: false\n  xy: 78, 160\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_4\n  rotate: false\n  xy: 269, 218\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_5\n  rotate: false\n  xy: 255, 166\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_6\n  rotate: false\n  xy: 255, 114\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_7\n  rotate: false\n  xy: 446, 182\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_8\n  rotate: false\n  xy: 432, 130\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/sudu_9\n  rotate: false\n  xy: 432, 78\n  size: 175, 50\n  orig: 175, 50\n  offset: 0, 0\n  index: -1\nimages/t\n  rotate: false\n  xy: 857, 324\n  size: 76, 102\n  orig: 76, 102\n  offset: 0, 0\n  index: -1\nimages/tf\n  rotate: false\n  xy: 2, 332\n  size: 140, 178\n  orig: 140, 178\n  offset: 0, 0\n  index: -1\nimages/tuan\n  rotate: false\n  xy: 298, 438\n  size: 189, 72\n  orig: 189, 72\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "d4mPEl43hJ341F/fwZFd26"
+    }
+  ],
+  "textureNames": [
+    "183logo.png"
+  ]
+}

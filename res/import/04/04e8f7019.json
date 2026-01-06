@@ -1,1 +1,279 @@
-[{"__type__":"cc.SpriteFrame","content":{"name":"symbol_shouhuan","texture":"48aMsBq71A5L4UY+k2wP+G","rect":[127,2,100,96],"offset":[0,-2],"originalSize":[100,100],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"symbol_xianglian","texture":"48aMsBq71A5L4UY+k2wP+G","rect":[2,203,98,90],"offset":[1,0],"originalSize":[100,100],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"symbol_wild","texture":"48aMsBq71A5L4UY+k2wP+G","rect":[2,383,98,66],"offset":[-1,-3],"originalSize":[100,100],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"symbol_flash","texture":"48aMsBq71A5L4UY+k2wP+G","rect":[102,292,98,88],"offset":[0,0],"originalSize":[100,100],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"symbol_gongdian","texture":"48aMsBq71A5L4UY+k2wP+G","rect":[2,111,100,90],"offset":[0,3],"originalSize":[100,100],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"symbol_ring","texture":"48aMsBq71A5L4UY+k2wP+G","rect":[104,198,98,92],"offset":[0,2],"originalSize":[100,100],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteAtlas","_name":"symbols.plist","_spriteFrames":{"symbol_flash":{"__uuid__":"4cwkkpeeJHpqkb4rdF8w4j"},"symbol_gezi":{"__uuid__":"d7NPKEYZBGOIfGyMsVTHuo"},"symbol_gongdian":{"__uuid__":"75rUgE6TBDnYpjW+PJanVH"},"symbol_ring":{"__uuid__":"8aQOuuUwFNm6iYuU16KLoM"},"symbol_shouhuan":{"__uuid__":"0dStgYwVJG44sYMvMd+Uzi"},"symbol_shuqin":{"__uuid__":"fdBtuwXTdM05wXg8AfWThS"},"symbol_wild":{"__uuid__":"44/JZgrHxNsKRq0uCCnG2r"},"symbol_xianglian":{"__uuid__":"25pg0FbNxBta076xGIVgip"},"symbol_zhousi":{"__uuid__":"eb1bPS7JlIBp97MknKR6vw"}}},{"__type__":"cc.SpriteFrame","content":{"name":"symbol_gezi","texture":"48aMsBq71A5L4UY+k2wP+G","rect":[127,100,100,96],"offset":[0,2],"originalSize":[100,100],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"symbol_zhousi","texture":"48aMsBq71A5L4UY+k2wP+G","rect":[2,2,123,107],"offset":[0,0],"originalSize":[123,107],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"symbol_shuqin","texture":"48aMsBq71A5L4UY+k2wP+G","rect":[2,295,98,86],"offset":[-1,-1],"originalSize":[100,100],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "symbol_shouhuan",
+      "texture": "48aMsBq71A5L4UY+k2wP+G",
+      "rect": [
+        127,
+        2,
+        100,
+        96
+      ],
+      "offset": [
+        0,
+        -2
+      ],
+      "originalSize": [
+        100,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "symbol_xianglian",
+      "texture": "48aMsBq71A5L4UY+k2wP+G",
+      "rect": [
+        2,
+        203,
+        98,
+        90
+      ],
+      "offset": [
+        1,
+        0
+      ],
+      "originalSize": [
+        100,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "symbol_wild",
+      "texture": "48aMsBq71A5L4UY+k2wP+G",
+      "rect": [
+        2,
+        383,
+        98,
+        66
+      ],
+      "offset": [
+        -1,
+        -3
+      ],
+      "originalSize": [
+        100,
+        100
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "symbol_flash",
+      "texture": "48aMsBq71A5L4UY+k2wP+G",
+      "rect": [
+        102,
+        292,
+        98,
+        88
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        100,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "symbol_gongdian",
+      "texture": "48aMsBq71A5L4UY+k2wP+G",
+      "rect": [
+        2,
+        111,
+        100,
+        90
+      ],
+      "offset": [
+        0,
+        3
+      ],
+      "originalSize": [
+        100,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "symbol_ring",
+      "texture": "48aMsBq71A5L4UY+k2wP+G",
+      "rect": [
+        104,
+        198,
+        98,
+        92
+      ],
+      "offset": [
+        0,
+        2
+      ],
+      "originalSize": [
+        100,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "symbols.plist",
+    "_spriteFrames": {
+      "symbol_flash": {
+        "__uuid__": "4cwkkpeeJHpqkb4rdF8w4j"
+      },
+      "symbol_gezi": {
+        "__uuid__": "d7NPKEYZBGOIfGyMsVTHuo"
+      },
+      "symbol_gongdian": {
+        "__uuid__": "75rUgE6TBDnYpjW+PJanVH"
+      },
+      "symbol_ring": {
+        "__uuid__": "8aQOuuUwFNm6iYuU16KLoM"
+      },
+      "symbol_shouhuan": {
+        "__uuid__": "0dStgYwVJG44sYMvMd+Uzi"
+      },
+      "symbol_shuqin": {
+        "__uuid__": "fdBtuwXTdM05wXg8AfWThS"
+      },
+      "symbol_wild": {
+        "__uuid__": "44/JZgrHxNsKRq0uCCnG2r"
+      },
+      "symbol_xianglian": {
+        "__uuid__": "25pg0FbNxBta076xGIVgip"
+      },
+      "symbol_zhousi": {
+        "__uuid__": "eb1bPS7JlIBp97MknKR6vw"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "symbol_gezi",
+      "texture": "48aMsBq71A5L4UY+k2wP+G",
+      "rect": [
+        127,
+        100,
+        100,
+        96
+      ],
+      "offset": [
+        0,
+        2
+      ],
+      "originalSize": [
+        100,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "symbol_zhousi",
+      "texture": "48aMsBq71A5L4UY+k2wP+G",
+      "rect": [
+        2,
+        2,
+        123,
+        107
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        123,
+        107
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "symbol_shuqin",
+      "texture": "48aMsBq71A5L4UY+k2wP+G",
+      "rect": [
+        2,
+        295,
+        98,
+        86
+      ],
+      "offset": [
+        -1,
+        -1
+      ],
+      "originalSize": [
+        100,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

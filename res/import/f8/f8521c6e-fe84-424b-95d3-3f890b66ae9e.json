@@ -1,1 +1,139 @@
-{"__type__":"sp.SkeletonData","_name":"zs_01","_skeletonJson":{"skeleton":{"hash":"ZzQU29B7N427UOi6dqVDDIApJtk","spine":"3.6.53","width":145,"height":133.75,"images":"./img/"},"bones":[{"name":"root"},{"name":"theme128_gouwu_fen_1","parent":"root","scaleX":1.25,"scaleY":1.25}],"slots":[{"name":"theme128_gouwu_fen_1","bone":"theme128_gouwu_fen_1","attachment":"theme128_gouwu_fen_1"}],"skins":{"default":{"theme128_gouwu_fen_1":{"theme128_gouwu_fen_1":{"width":116,"height":107}}}},"animations":{"animation":{"bones":{"theme128_gouwu_fen_1":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":0.1667,"angle":-9.54,"curve":[0.25,0,0.75,1]},{"time":0.3,"angle":7.88,"curve":[0.25,0,0.75,1]},{"time":0.4333,"angle":-7.83,"curve":[0.25,0,0.75,1]},{"time":0.5333,"angle":0}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.3,"x":1.077,"y":1.077,"curve":[0.25,0,0.75,1]},{"time":0.5333,"x":1,"y":1,"curve":"stepped"},{"time":2,"x":1,"y":1}]}}}}},"_atlasText":"\nzs_01.png\nsize: 128,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme128_gouwu_fen_1\n  rotate: false\n  xy: 2, 2\n  size: 116, 107\n  orig: 116, 107\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"f9+xP1169KbYhm10+qzHTf"}],"textureNames":["zs_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "zs_01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "ZzQU29B7N427UOi6dqVDDIApJtk",
+      "spine": "3.6.53",
+      "width": 145,
+      "height": 133.75,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "theme128_gouwu_fen_1",
+        "parent": "root",
+        "scaleX": 1.25,
+        "scaleY": 1.25
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme128_gouwu_fen_1",
+        "bone": "theme128_gouwu_fen_1",
+        "attachment": "theme128_gouwu_fen_1"
+      }
+    ],
+    "skins": {
+      "default": {
+        "theme128_gouwu_fen_1": {
+          "theme128_gouwu_fen_1": {
+            "width": 116,
+            "height": 107
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "bones": {
+          "theme128_gouwu_fen_1": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "angle": -9.54,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3,
+                "angle": 7.88,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "angle": -7.83,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5333,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3,
+                "x": 1.077,
+                "y": 1.077,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5333,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nzs_01.png\nsize: 128,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme128_gouwu_fen_1\n  rotate: false\n  xy: 2, 2\n  size: 116, 107\n  orig: 116, 107\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "f9+xP1169KbYhm10+qzHTf"
+    }
+  ],
+  "textureNames": [
+    "zs_01.png"
+  ]
+}

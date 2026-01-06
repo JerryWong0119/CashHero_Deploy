@@ -1,1 +1,553 @@
-{"__type__":"sp.SkeletonData","_name":"FG_GuoChang","_skeletonJson":{"skeleton":{"hash":"uIRXqGYp69cDeG4bV0mhHNqjFm4","spine":"3.6.53","width":0,"height":0,"images":""},"bones":[{"name":"root"},{"name":"All","parent":"root"},{"name":"y1","parent":"All","x":105,"y":70,"scaleX":2.02,"scaleY":2.02},{"name":"y2","parent":"All","x":-29,"y":360,"scaleX":-2.02,"scaleY":2.02},{"name":"y3","parent":"All","x":105,"y":70,"scaleX":2.02,"scaleY":2.02},{"name":"y4","parent":"All","x":-29,"y":360,"scaleX":-2.02,"scaleY":2.02}],"slots":[{"name":"y1","bone":"y1"},{"name":"y3","bone":"y3","blend":"additive"},{"name":"y2","bone":"y2"},{"name":"y4","bone":"y4","blend":"additive"}],"skins":{"default":{"y1":{"images/y1":{"width":770,"height":740}},"y2":{"images/y1":{"width":770,"height":740}},"y3":{"images/y1":{"width":770,"height":740}},"y4":{"images/y1":{"width":770,"height":740}}}},"animations":{"FG_GuoChang_End":{"slots":{"y1":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/y1"}]},"y2":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/y1"}]},"y3":{"color":[{"time":0,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/y1"}]},"y4":{"color":[{"time":0,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/y1"}]}},"bones":{"y2":{"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":1158.11,"y":0}]},"y1":{"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":-1245.7,"y":0}]},"y3":{"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":-1245.7,"y":0}]},"y4":{"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":1158.11,"y":0}]}}},"FG_GuoChang_Intro":{"slots":{"y1":{"color":[{"time":0,"color":"ffffff00"},{"time":0.0667,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/y1"}]},"y2":{"color":[{"time":0,"color":"ffffff00"},{"time":0.0667,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/y1"}]},"y3":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.3,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffff24","curve":[0.25,0,0.75,1]},{"time":0.8333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/y1"}]},"y4":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.3,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffff24","curve":[0.25,0,0.75,1]},{"time":0.8333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/y1"}]}},"bones":{"y2":{"translate":[{"time":0,"x":1158.11,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":0,"y":0}]},"y1":{"translate":[{"time":0,"x":-1245.7,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":0,"y":0}]},"y3":{"translate":[{"time":0,"x":-1245.7,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":0,"y":0}]},"y4":{"translate":[{"time":0,"x":1158.11,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":0,"y":0}]}}},"FG_GuoChang_Loop":{"slots":{"y1":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/y1"}]},"y2":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/y1"}]},"y3":{"color":[{"time":0,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/y1"}]},"y4":{"color":[{"time":0,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/y1"}]}},"bones":{"y2":{"translate":[{"time":0,"x":0,"y":0}]},"y1":{"translate":[{"time":0,"x":0,"y":0}]},"y3":{"translate":[{"time":0,"x":0,"y":0}]},"y4":{"translate":[{"time":0,"x":0,"y":0}]}}}}},"_atlasText":"\nFG_GuoChang.png\nsize: 774,744\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/y1\n  rotate: false\n  xy: 2, 2\n  size: 770, 740\n  orig: 770, 740\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"96zxWb6ndJa5B/j7vOWmsM"}],"textureNames":["FG_GuoChang.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "FG_GuoChang",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "uIRXqGYp69cDeG4bV0mhHNqjFm4",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "All",
+        "parent": "root"
+      },
+      {
+        "name": "y1",
+        "parent": "All",
+        "x": 105,
+        "y": 70,
+        "scaleX": 2.02,
+        "scaleY": 2.02
+      },
+      {
+        "name": "y2",
+        "parent": "All",
+        "x": -29,
+        "y": 360,
+        "scaleX": -2.02,
+        "scaleY": 2.02
+      },
+      {
+        "name": "y3",
+        "parent": "All",
+        "x": 105,
+        "y": 70,
+        "scaleX": 2.02,
+        "scaleY": 2.02
+      },
+      {
+        "name": "y4",
+        "parent": "All",
+        "x": -29,
+        "y": 360,
+        "scaleX": -2.02,
+        "scaleY": 2.02
+      }
+    ],
+    "slots": [
+      {
+        "name": "y1",
+        "bone": "y1"
+      },
+      {
+        "name": "y3",
+        "bone": "y3",
+        "blend": "additive"
+      },
+      {
+        "name": "y2",
+        "bone": "y2"
+      },
+      {
+        "name": "y4",
+        "bone": "y4",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "y1": {
+          "images/y1": {
+            "width": 770,
+            "height": 740
+          }
+        },
+        "y2": {
+          "images/y1": {
+            "width": 770,
+            "height": 740
+          }
+        },
+        "y3": {
+          "images/y1": {
+            "width": 770,
+            "height": 740
+          }
+        },
+        "y4": {
+          "images/y1": {
+            "width": 770,
+            "height": 740
+          }
+        }
+      }
+    },
+    "animations": {
+      "FG_GuoChang_End": {
+        "slots": {
+          "y1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/y1"
+              }
+            ]
+          },
+          "y2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/y1"
+              }
+            ]
+          },
+          "y3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/y1"
+              }
+            ]
+          },
+          "y4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/y1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "y2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1158.11,
+                "y": 0
+              }
+            ]
+          },
+          "y1": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": -1245.7,
+                "y": 0
+              }
+            ]
+          },
+          "y3": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": -1245.7,
+                "y": 0
+              }
+            ]
+          },
+          "y4": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1158.11,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "FG_GuoChang_Intro": {
+        "slots": {
+          "y1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/y1"
+              }
+            ]
+          },
+          "y2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/y1"
+              }
+            ]
+          },
+          "y3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff24",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/y1"
+              }
+            ]
+          },
+          "y4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff24",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/y1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "y2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 1158.11,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "y1": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -1245.7,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "y3": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -1245.7,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "y4": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 1158.11,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "FG_GuoChang_Loop": {
+        "slots": {
+          "y1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/y1"
+              }
+            ]
+          },
+          "y2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/y1"
+              }
+            ]
+          },
+          "y3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/y1"
+              }
+            ]
+          },
+          "y4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/y1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "y2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "y1": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "y3": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "y4": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nFG_GuoChang.png\nsize: 774,744\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/y1\n  rotate: false\n  xy: 2, 2\n  size: 770, 740\n  orig: 770, 740\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "96zxWb6ndJa5B/j7vOWmsM"
+    }
+  ],
+  "textureNames": [
+    "FG_GuoChang.png"
+  ]
+}

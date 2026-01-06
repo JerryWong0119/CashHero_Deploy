@@ -1,1 +1,127 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"Z1kOVhMukEyc1HcnrdLnpWIFVsw","spine":"3.6.53","width":0,"height":0},"bones":[{"name":"root"},{"name":"theme113_s_2","parent":"root","y":-35.99}],"slots":[{"name":"theme113_s_2","bone":"theme113_s_2"}],"skins":{"default":{"theme113_s_2":{"theme113_s_3":{"y":35.99,"width":104,"height":76}}}},"animations":{"animation":{"slots":{"theme113_s_2":{"attachment":[{"time":0,"name":"theme113_s_3"}]}},"bones":{"theme113_s_2":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"angle":-4.96,"curve":[0.25,0,0.75,1]},{"time":1,"angle":0}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":1.168,"y":1.168,"curve":[0.25,0,0.75,1]},{"time":1,"x":1,"y":1,"curve":"stepped"},{"time":2,"x":1,"y":1}]}}}}},"_atlasText":"\nspine.png\nsize: 128,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme113_s_3\n  rotate: false\n  xy: 1, 1\n  size: 79, 76\n  orig: 104, 76\n  offset: 13, 0\n  index: -1\n","textures":[{"__uuid__":"18VlQhBe9CLKe1EgFIx2/T"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Z1kOVhMukEyc1HcnrdLnpWIFVsw",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "theme113_s_2",
+        "parent": "root",
+        "y": -35.99
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme113_s_2",
+        "bone": "theme113_s_2"
+      }
+    ],
+    "skins": {
+      "default": {
+        "theme113_s_2": {
+          "theme113_s_3": {
+            "y": 35.99,
+            "width": 104,
+            "height": 76
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "theme113_s_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme113_s_3"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "theme113_s_2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "angle": -4.96,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1.168,
+                "y": 1.168,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 128,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme113_s_3\n  rotate: false\n  xy: 1, 1\n  size: 79, 76\n  orig: 104, 76\n  offset: 13, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "18VlQhBe9CLKe1EgFIx2/T"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

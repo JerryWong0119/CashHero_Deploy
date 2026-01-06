@@ -1,1 +1,221 @@
-[{"__type__":"cc.SpriteFrame","content":{"name":"coinNum","texture":"56YBmRJixEsJBU+0NC5a0j","rect":[0,0,511,177],"offset":[-0.5,39.5],"originalSize":[512,256],"capInsets":[0,0,0,0]}},{"__type__":"cc.BitmapFont","_name":"coinNum","spriteFrame":{"__uuid__":"8fX5UACiFAYLxNj4OgIbRw"},"fontSize":32,"_fntConfig":{"commonHeight":88,"fontSize":32,"atlasName":"coinNum.png","fontDefDictionary":{"44":{"rect":{"x":425,"y":89,"width":25,"height":88},"xOffset":0,"yOffset":0,"xAdvance":21},"46":{"rect":{"x":451,"y":89,"width":24,"height":88},"xOffset":0,"yOffset":0,"xAdvance":20},"48":{"rect":{"x":316,"y":0,"width":67,"height":88},"xOffset":0,"yOffset":0,"xAdvance":63},"49":{"rect":{"x":375,"y":89,"width":49,"height":88},"xOffset":0,"yOffset":0,"xAdvance":45},"50":{"rect":{"x":194,"y":89,"width":60,"height":88},"xOffset":0,"yOffset":0,"xAdvance":56},"51":{"rect":{"x":316,"y":89,"width":58,"height":88},"xOffset":0,"yOffset":0,"xAdvance":54},"52":{"rect":{"x":130,"y":89,"width":63,"height":88},"xOffset":0,"yOffset":0,"xAdvance":59},"53":{"rect":{"x":255,"y":89,"width":60,"height":88},"xOffset":0,"yOffset":0,"xAdvance":56},"54":{"rect":{"x":0,"y":89,"width":64,"height":88},"xOffset":0,"yOffset":0,"xAdvance":60},"55":{"rect":{"x":450,"y":0,"width":61,"height":88},"xOffset":0,"yOffset":0,"xAdvance":57},"56":{"rect":{"x":384,"y":0,"width":65,"height":88},"xOffset":0,"yOffset":0,"xAdvance":61},"57":{"rect":{"x":65,"y":89,"width":64,"height":88},"xOffset":0,"yOffset":0,"xAdvance":60},"66":{"rect":{"x":174,"y":0,"width":70,"height":88},"xOffset":0,"yOffset":0,"xAdvance":66},"75":{"rect":{"x":99,"y":0,"width":74,"height":88},"xOffset":0,"yOffset":0,"xAdvance":70},"77":{"rect":{"x":0,"y":0,"width":98,"height":88},"xOffset":0,"yOffset":0,"xAdvance":94},"84":{"rect":{"x":245,"y":0,"width":70,"height":88},"xOffset":0,"yOffset":0,"xAdvance":66}},"kerningDict":{}}}]
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "coinNum",
+      "texture": "56YBmRJixEsJBU+0NC5a0j",
+      "rect": [
+        0,
+        0,
+        511,
+        177
+      ],
+      "offset": [
+        -0.5,
+        39.5
+      ],
+      "originalSize": [
+        512,
+        256
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.BitmapFont",
+    "_name": "coinNum",
+    "spriteFrame": {
+      "__uuid__": "8fX5UACiFAYLxNj4OgIbRw"
+    },
+    "fontSize": 32,
+    "_fntConfig": {
+      "commonHeight": 88,
+      "fontSize": 32,
+      "atlasName": "coinNum.png",
+      "fontDefDictionary": {
+        "44": {
+          "rect": {
+            "x": 425,
+            "y": 89,
+            "width": 25,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 21
+        },
+        "46": {
+          "rect": {
+            "x": 451,
+            "y": 89,
+            "width": 24,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 20
+        },
+        "48": {
+          "rect": {
+            "x": 316,
+            "y": 0,
+            "width": 67,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 63
+        },
+        "49": {
+          "rect": {
+            "x": 375,
+            "y": 89,
+            "width": 49,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 45
+        },
+        "50": {
+          "rect": {
+            "x": 194,
+            "y": 89,
+            "width": 60,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 56
+        },
+        "51": {
+          "rect": {
+            "x": 316,
+            "y": 89,
+            "width": 58,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 54
+        },
+        "52": {
+          "rect": {
+            "x": 130,
+            "y": 89,
+            "width": 63,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 59
+        },
+        "53": {
+          "rect": {
+            "x": 255,
+            "y": 89,
+            "width": 60,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 56
+        },
+        "54": {
+          "rect": {
+            "x": 0,
+            "y": 89,
+            "width": 64,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 60
+        },
+        "55": {
+          "rect": {
+            "x": 450,
+            "y": 0,
+            "width": 61,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 57
+        },
+        "56": {
+          "rect": {
+            "x": 384,
+            "y": 0,
+            "width": 65,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 61
+        },
+        "57": {
+          "rect": {
+            "x": 65,
+            "y": 89,
+            "width": 64,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 60
+        },
+        "66": {
+          "rect": {
+            "x": 174,
+            "y": 0,
+            "width": 70,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 66
+        },
+        "75": {
+          "rect": {
+            "x": 99,
+            "y": 0,
+            "width": 74,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 70
+        },
+        "77": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 98,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 94
+        },
+        "84": {
+          "rect": {
+            "x": 245,
+            "y": 0,
+            "width": 70,
+            "height": 88
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 66
+        }
+      },
+      "kerningDict": {}
+    }
+  }
+]

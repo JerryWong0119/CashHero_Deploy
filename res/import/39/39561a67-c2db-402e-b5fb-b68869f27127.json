@@ -1,1 +1,413 @@
-{"__type__":"sp.SkeletonData","_name":"map_beike","_skeletonJson":{"skeleton":{"hash":"TmqE7WvZf+cVEG2GvkZNwy8Hn98","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"all","parent":"root"},{"name":"beike","parent":"all"},{"name":"1","parent":"beike","x":3.79,"scaleX":2,"scaleY":2},{"name":"glow","parent":"all"},{"name":"lizi","parent":"all","scaleX":2,"scaleY":2}],"slots":[{"name":"beike","bone":"beike"},{"name":"glow","bone":"glow","blend":"additive"},{"name":"lizi","bone":"lizi","blend":"additive"},{"name":"beike2","bone":"1","blend":"additive"}],"skins":{"default":{"beike":{"beike":{"width":79,"height":77}},"beike2":{"beike_add":{"x":-3.99,"y":0.44,"width":79,"height":77}},"glow":{"glow":{"width":150,"height":150}},"lizi":{"lizi/lizi_01":{"width":150,"height":150},"lizi/lizi_02":{"width":150,"height":150},"lizi/lizi_03":{"width":150,"height":150},"lizi/lizi_04":{"width":150,"height":150},"lizi/lizi_05":{"width":150,"height":150},"lizi/lizi_06":{"width":150,"height":150},"lizi/lizi_07":{"width":150,"height":150},"lizi/lizi_08":{"width":150,"height":150},"lizi/lizi_09":{"width":150,"height":150},"lizi/lizi_10":{"width":150,"height":150},"lizi/lizi_11":{"width":150,"height":150},"lizi/lizi_12":{"width":150,"height":150}}}},"animations":{"map_beike_inro":{"slots":{"beike":{"attachment":[{"time":0,"name":"beike"}]},"beike2":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.6667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"beike_add"}]},"glow":{"attachment":[{"time":0,"name":null}]},"lizi":{"attachment":[{"time":0,"name":null}]}},"bones":{"beike":{"scale":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":1.5,"y":1.5,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":0.9,"y":0.9,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1.05,"y":1.05,"curve":[0.25,0,0.75,1]},{"time":0.8333,"x":1,"y":1,"curve":"stepped"},{"time":1,"x":1,"y":1}]}}},"map_beike_open":{"slots":{"beike":{"attachment":[{"time":0,"name":"beike"}]},"beike2":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.6667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"beike_add"}]},"glow":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffffff","curve":"stepped"},{"time":0.3333,"color":"ffffffff"},{"time":0.6667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"glow"}]},"lizi":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"lizi/lizi_01"},{"time":0.1,"name":"lizi/lizi_02"},{"time":0.1333,"name":"lizi/lizi_03"},{"time":0.2,"name":"lizi/lizi_04"},{"time":0.2333,"name":"lizi/lizi_05"},{"time":0.3,"name":"lizi/lizi_06"},{"time":0.3333,"name":"lizi/lizi_07"},{"time":0.4,"name":"lizi/lizi_08"},{"time":0.4333,"name":"lizi/lizi_09"},{"time":0.5,"name":"lizi/lizi_10"},{"time":0.5333,"name":"lizi/lizi_11"},{"time":0.6,"name":"lizi/lizi_12"},{"time":0.6333,"name":null}]}},"bones":{"glow":{"scale":[{"time":0,"x":1.5,"y":1.5,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":2.5,"y":2.5}]}}}}},"_atlasText":"\nmap_beike.png\nsize: 634,279\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbeike\n  rotate: false\n  xy: 360, 2\n  size: 79, 77\n  orig: 79, 77\n  offset: 0, 0\n  index: -1\nbeike_add\n  rotate: false\n  xy: 441, 2\n  size: 79, 77\n  orig: 79, 77\n  offset: 0, 0\n  index: -1\nglow\n  rotate: true\n  xy: 2, 145\n  size: 132, 121\n  orig: 150, 150\n  offset: 9, 14\n  index: -1\nlizi/lizi_01\n  rotate: false\n  xy: 244, 2\n  size: 33, 32\n  orig: 150, 150\n  offset: 57, 60\n  index: -1\nlizi/lizi_02\n  rotate: false\n  xy: 570, 112\n  size: 62, 62\n  orig: 150, 150\n  offset: 43, 43\n  index: -1\nlizi/lizi_03\n  rotate: false\n  xy: 360, 82\n  size: 83, 84\n  orig: 150, 150\n  offset: 31, 30\n  index: -1\nlizi/lizi_04\n  rotate: false\n  xy: 471, 81\n  size: 97, 93\n  orig: 150, 150\n  offset: 24, 25\n  index: -1\nlizi/lizi_05\n  rotate: false\n  xy: 471, 176\n  size: 106, 101\n  orig: 150, 150\n  offset: 20, 21\n  index: -1\nlizi/lizi_06\n  rotate: false\n  xy: 360, 168\n  size: 109, 109\n  orig: 150, 150\n  offset: 17, 18\n  index: -1\nlizi/lizi_07\n  rotate: true\n  xy: 244, 36\n  size: 118, 114\n  orig: 150, 150\n  offset: 14, 16\n  index: -1\nlizi/lizi_08\n  rotate: true\n  xy: 241, 156\n  size: 121, 117\n  orig: 150, 150\n  offset: 13, 15\n  index: -1\nlizi/lizi_09\n  rotate: false\n  xy: 120, 21\n  size: 122, 122\n  orig: 150, 150\n  offset: 12, 13\n  index: -1\nlizi/lizi_10\n  rotate: true\n  xy: 2, 16\n  size: 127, 116\n  orig: 150, 150\n  offset: 10, 19\n  index: -1\nlizi/lizi_11\n  rotate: true\n  xy: 125, 155\n  size: 122, 114\n  orig: 150, 150\n  offset: 14, 24\n  index: -1\nlizi/lizi_12\n  rotate: true\n  xy: 522, 3\n  size: 76, 94\n  orig: 150, 150\n  offset: 24, 28\n  index: -1\n","textures":[{"__uuid__":"d4inZE/RdAZ59WjSZF95Ak"}],"textureNames":["map_beike.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "map_beike",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "TmqE7WvZf+cVEG2GvkZNwy8Hn98",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "all",
+        "parent": "root"
+      },
+      {
+        "name": "beike",
+        "parent": "all"
+      },
+      {
+        "name": "1",
+        "parent": "beike",
+        "x": 3.79,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "glow",
+        "parent": "all"
+      },
+      {
+        "name": "lizi",
+        "parent": "all",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "beike",
+        "bone": "beike"
+      },
+      {
+        "name": "glow",
+        "bone": "glow",
+        "blend": "additive"
+      },
+      {
+        "name": "lizi",
+        "bone": "lizi",
+        "blend": "additive"
+      },
+      {
+        "name": "beike2",
+        "bone": "1",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "beike": {
+          "beike": {
+            "width": 79,
+            "height": 77
+          }
+        },
+        "beike2": {
+          "beike_add": {
+            "x": -3.99,
+            "y": 0.44,
+            "width": 79,
+            "height": 77
+          }
+        },
+        "glow": {
+          "glow": {
+            "width": 150,
+            "height": 150
+          }
+        },
+        "lizi": {
+          "lizi/lizi_01": {
+            "width": 150,
+            "height": 150
+          },
+          "lizi/lizi_02": {
+            "width": 150,
+            "height": 150
+          },
+          "lizi/lizi_03": {
+            "width": 150,
+            "height": 150
+          },
+          "lizi/lizi_04": {
+            "width": 150,
+            "height": 150
+          },
+          "lizi/lizi_05": {
+            "width": 150,
+            "height": 150
+          },
+          "lizi/lizi_06": {
+            "width": 150,
+            "height": 150
+          },
+          "lizi/lizi_07": {
+            "width": 150,
+            "height": 150
+          },
+          "lizi/lizi_08": {
+            "width": 150,
+            "height": 150
+          },
+          "lizi/lizi_09": {
+            "width": 150,
+            "height": 150
+          },
+          "lizi/lizi_10": {
+            "width": 150,
+            "height": 150
+          },
+          "lizi/lizi_11": {
+            "width": 150,
+            "height": 150
+          },
+          "lizi/lizi_12": {
+            "width": 150,
+            "height": 150
+          }
+        }
+      }
+    },
+    "animations": {
+      "map_beike_inro": {
+        "slots": {
+          "beike": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "beike"
+              }
+            ]
+          },
+          "beike2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "beike_add"
+              }
+            ]
+          },
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "beike": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.5,
+                "y": 1.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.9,
+                "y": 0.9,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1.05,
+                "y": 1.05,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "map_beike_open": {
+        "slots": {
+          "beike": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "beike"
+              }
+            ]
+          },
+          "beike2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "beike_add"
+              }
+            ]
+          },
+          "glow": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow"
+              }
+            ]
+          },
+          "lizi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "lizi/lizi_01"
+              },
+              {
+                "time": 0.1,
+                "name": "lizi/lizi_02"
+              },
+              {
+                "time": 0.1333,
+                "name": "lizi/lizi_03"
+              },
+              {
+                "time": 0.2,
+                "name": "lizi/lizi_04"
+              },
+              {
+                "time": 0.2333,
+                "name": "lizi/lizi_05"
+              },
+              {
+                "time": 0.3,
+                "name": "lizi/lizi_06"
+              },
+              {
+                "time": 0.3333,
+                "name": "lizi/lizi_07"
+              },
+              {
+                "time": 0.4,
+                "name": "lizi/lizi_08"
+              },
+              {
+                "time": 0.4333,
+                "name": "lizi/lizi_09"
+              },
+              {
+                "time": 0.5,
+                "name": "lizi/lizi_10"
+              },
+              {
+                "time": 0.5333,
+                "name": "lizi/lizi_11"
+              },
+              {
+                "time": 0.6,
+                "name": "lizi/lizi_12"
+              },
+              {
+                "time": 0.6333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "glow": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.5,
+                "y": 1.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 2.5,
+                "y": 2.5
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nmap_beike.png\nsize: 634,279\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbeike\n  rotate: false\n  xy: 360, 2\n  size: 79, 77\n  orig: 79, 77\n  offset: 0, 0\n  index: -1\nbeike_add\n  rotate: false\n  xy: 441, 2\n  size: 79, 77\n  orig: 79, 77\n  offset: 0, 0\n  index: -1\nglow\n  rotate: true\n  xy: 2, 145\n  size: 132, 121\n  orig: 150, 150\n  offset: 9, 14\n  index: -1\nlizi/lizi_01\n  rotate: false\n  xy: 244, 2\n  size: 33, 32\n  orig: 150, 150\n  offset: 57, 60\n  index: -1\nlizi/lizi_02\n  rotate: false\n  xy: 570, 112\n  size: 62, 62\n  orig: 150, 150\n  offset: 43, 43\n  index: -1\nlizi/lizi_03\n  rotate: false\n  xy: 360, 82\n  size: 83, 84\n  orig: 150, 150\n  offset: 31, 30\n  index: -1\nlizi/lizi_04\n  rotate: false\n  xy: 471, 81\n  size: 97, 93\n  orig: 150, 150\n  offset: 24, 25\n  index: -1\nlizi/lizi_05\n  rotate: false\n  xy: 471, 176\n  size: 106, 101\n  orig: 150, 150\n  offset: 20, 21\n  index: -1\nlizi/lizi_06\n  rotate: false\n  xy: 360, 168\n  size: 109, 109\n  orig: 150, 150\n  offset: 17, 18\n  index: -1\nlizi/lizi_07\n  rotate: true\n  xy: 244, 36\n  size: 118, 114\n  orig: 150, 150\n  offset: 14, 16\n  index: -1\nlizi/lizi_08\n  rotate: true\n  xy: 241, 156\n  size: 121, 117\n  orig: 150, 150\n  offset: 13, 15\n  index: -1\nlizi/lizi_09\n  rotate: false\n  xy: 120, 21\n  size: 122, 122\n  orig: 150, 150\n  offset: 12, 13\n  index: -1\nlizi/lizi_10\n  rotate: true\n  xy: 2, 16\n  size: 127, 116\n  orig: 150, 150\n  offset: 10, 19\n  index: -1\nlizi/lizi_11\n  rotate: true\n  xy: 125, 155\n  size: 122, 114\n  orig: 150, 150\n  offset: 14, 24\n  index: -1\nlizi/lizi_12\n  rotate: true\n  xy: 522, 3\n  size: 76, 94\n  orig: 150, 150\n  offset: 24, 28\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "d4inZE/RdAZ59WjSZF95Ak"
+    }
+  ],
+  "textureNames": [
+    "map_beike.png"
+  ]
+}

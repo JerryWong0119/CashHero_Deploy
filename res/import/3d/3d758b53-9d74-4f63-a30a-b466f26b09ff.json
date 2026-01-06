@@ -1,1 +1,146 @@
-{"__type__":"sp.SkeletonData","_name":"beishuqubianhui","_skeletonJson":{"skeleton":{"hash":"QYUIRVOImPKI9T92tZwvrG3YLio","spine":"3.6.53","width":1060,"height":1560},"bones":[{"name":"root"},{"name":"骨骼","parent":"root","x":187.8,"y":-174.77},{"name":"骨骼3","parent":"root"}],"slots":[{"name":"take_it4","bone":"骨骼"},{"name":"tiaoguang_00","bone":"骨骼3","blend":"additive"},{"name":"tiaoguang_0","bone":"骨骼3","blend":"additive"}],"skins":{"default":{"tiaoguang_0":{"tiaoguang_00":{"width":142,"height":84}},"tiaoguang_00":{"tiaoguang_00":{"width":142,"height":84}}}},"animations":{"animation":{"slots":{"tiaoguang_00":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.4,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.6333,"color":"ffffff00"}],"attachment":[{"time":0,"name":"tiaoguang_00"}]},"tiaoguang_0":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.3333,"color":"ffffffff","curve":"stepped"},{"time":0.4,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.6333,"color":"ffffff00"}]}}}}},"_atlasText":"\nbeishuqubianhui.png\nsize: 140,83\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntiaoguang_00\n  rotate: false\n  xy: 0, 0\n  size: 140, 83\n  orig: 142, 84\n  offset: 1, 1\n  index: -1\n","textures":[{"__uuid__":"03bF6yLbpFlrSZUcgfvIA+"}],"textureNames":["beishuqubianhui.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "beishuqubianhui",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "QYUIRVOImPKI9T92tZwvrG3YLio",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "骨骼",
+        "parent": "root",
+        "x": 187.8,
+        "y": -174.77
+      },
+      {
+        "name": "骨骼3",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "take_it4",
+        "bone": "骨骼"
+      },
+      {
+        "name": "tiaoguang_00",
+        "bone": "骨骼3",
+        "blend": "additive"
+      },
+      {
+        "name": "tiaoguang_0",
+        "bone": "骨骼3",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "tiaoguang_0": {
+          "tiaoguang_00": {
+            "width": 142,
+            "height": 84
+          }
+        },
+        "tiaoguang_00": {
+          "tiaoguang_00": {
+            "width": 142,
+            "height": 84
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "tiaoguang_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tiaoguang_00"
+              }
+            ]
+          },
+          "tiaoguang_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6333,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbeishuqubianhui.png\nsize: 140,83\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntiaoguang_00\n  rotate: false\n  xy: 0, 0\n  size: 140, 83\n  orig: 142, 84\n  offset: 1, 1\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "03bF6yLbpFlrSZUcgfvIA+"
+    }
+  ],
+  "textureNames": [
+    "beishuqubianhui.png"
+  ]
+}

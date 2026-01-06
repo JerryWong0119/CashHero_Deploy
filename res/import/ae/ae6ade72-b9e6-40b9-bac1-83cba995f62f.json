@@ -1,1 +1,215 @@
-{"__type__":"sp.SkeletonData","_name":"B_Lsymbol","_skeletonJson":{"skeleton":{"hash":"mDjBsO6Bta/ih+46O7pM6ABcgBk","spine":"3.6.53","width":0,"height":0,"images":"./img/"},"bones":[{"name":"root","scaleX":0.5,"scaleY":0.5},{"name":"all","parent":"root"},{"name":"B_Lsymbol","parent":"all"}],"slots":[{"name":"B_Lsymbol","bone":"B_Lsymbol"},{"name":"B_Lsymbol2","bone":"B_Lsymbol","blend":"additive"}],"skins":{"default":{},"L1":{"B_Lsymbol":{"B_Lsymbol":{"name":"L1","width":580,"height":500}},"B_Lsymbol2":{"B_Lsymbol":{"name":"L1","width":580,"height":500}}},"L2":{"B_Lsymbol":{"B_Lsymbol":{"name":"L2","width":580,"height":500}},"B_Lsymbol2":{"B_Lsymbol":{"name":"L2","width":580,"height":500}}},"L3":{"B_Lsymbol":{"B_Lsymbol":{"name":"L3","width":580,"height":500}},"B_Lsymbol2":{"B_Lsymbol":{"name":"L3","width":580,"height":500}}},"L4":{"B_Lsymbol":{"B_Lsymbol":{"name":"L4","width":580,"height":500}},"B_Lsymbol2":{"B_Lsymbol":{"name":"L4","width":580,"height":500}}},"L5":{"B_Lsymbol":{"B_Lsymbol":{"name":"L5","width":580,"height":500}},"B_Lsymbol2":{"B_Lsymbol":{"name":"L5","width":580,"height":500}}},"L6":{"B_Lsymbol":{"B_Lsymbol":{"name":"L6","width":580,"height":500}},"B_Lsymbol2":{"B_Lsymbol":{"name":"L6","width":580,"height":500}}}},"animations":{"B_Lsymbol":{"slots":{"B_Lsymbol":{"attachment":[{"time":0,"name":"B_Lsymbol"}]},"B_Lsymbol2":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"B_Lsymbol"}]}}}}},"_atlasText":"\nB_Lsymbol.png\nsize: 2048,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nL1\n  rotate: false\n  xy: 2, 504\n  size: 580, 500\n  orig: 580, 500\n  offset: 0, 0\n  index: -1\nL2\n  rotate: false\n  xy: 2, 2\n  size: 580, 500\n  orig: 580, 500\n  offset: 0, 0\n  index: -1\nL3\n  rotate: false\n  xy: 584, 504\n  size: 580, 500\n  orig: 580, 500\n  offset: 0, 0\n  index: -1\nL4\n  rotate: false\n  xy: 584, 2\n  size: 580, 500\n  orig: 580, 500\n  offset: 0, 0\n  index: -1\nL5\n  rotate: false\n  xy: 1166, 504\n  size: 580, 500\n  orig: 580, 500\n  offset: 0, 0\n  index: -1\nL6\n  rotate: false\n  xy: 1166, 2\n  size: 580, 500\n  orig: 580, 500\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"adP5eWRWVBsKB4nWc7hAVy"}],"textureNames":["B_Lsymbol.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "B_Lsymbol",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "mDjBsO6Bta/ih+46O7pM6ABcgBk",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "all",
+        "parent": "root"
+      },
+      {
+        "name": "B_Lsymbol",
+        "parent": "all"
+      }
+    ],
+    "slots": [
+      {
+        "name": "B_Lsymbol",
+        "bone": "B_Lsymbol"
+      },
+      {
+        "name": "B_Lsymbol2",
+        "bone": "B_Lsymbol",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {},
+      "L1": {
+        "B_Lsymbol": {
+          "B_Lsymbol": {
+            "name": "L1",
+            "width": 580,
+            "height": 500
+          }
+        },
+        "B_Lsymbol2": {
+          "B_Lsymbol": {
+            "name": "L1",
+            "width": 580,
+            "height": 500
+          }
+        }
+      },
+      "L2": {
+        "B_Lsymbol": {
+          "B_Lsymbol": {
+            "name": "L2",
+            "width": 580,
+            "height": 500
+          }
+        },
+        "B_Lsymbol2": {
+          "B_Lsymbol": {
+            "name": "L2",
+            "width": 580,
+            "height": 500
+          }
+        }
+      },
+      "L3": {
+        "B_Lsymbol": {
+          "B_Lsymbol": {
+            "name": "L3",
+            "width": 580,
+            "height": 500
+          }
+        },
+        "B_Lsymbol2": {
+          "B_Lsymbol": {
+            "name": "L3",
+            "width": 580,
+            "height": 500
+          }
+        }
+      },
+      "L4": {
+        "B_Lsymbol": {
+          "B_Lsymbol": {
+            "name": "L4",
+            "width": 580,
+            "height": 500
+          }
+        },
+        "B_Lsymbol2": {
+          "B_Lsymbol": {
+            "name": "L4",
+            "width": 580,
+            "height": 500
+          }
+        }
+      },
+      "L5": {
+        "B_Lsymbol": {
+          "B_Lsymbol": {
+            "name": "L5",
+            "width": 580,
+            "height": 500
+          }
+        },
+        "B_Lsymbol2": {
+          "B_Lsymbol": {
+            "name": "L5",
+            "width": 580,
+            "height": 500
+          }
+        }
+      },
+      "L6": {
+        "B_Lsymbol": {
+          "B_Lsymbol": {
+            "name": "L6",
+            "width": 580,
+            "height": 500
+          }
+        },
+        "B_Lsymbol2": {
+          "B_Lsymbol": {
+            "name": "L6",
+            "width": 580,
+            "height": 500
+          }
+        }
+      }
+    },
+    "animations": {
+      "B_Lsymbol": {
+        "slots": {
+          "B_Lsymbol": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "B_Lsymbol"
+              }
+            ]
+          },
+          "B_Lsymbol2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "B_Lsymbol"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nB_Lsymbol.png\nsize: 2048,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nL1\n  rotate: false\n  xy: 2, 504\n  size: 580, 500\n  orig: 580, 500\n  offset: 0, 0\n  index: -1\nL2\n  rotate: false\n  xy: 2, 2\n  size: 580, 500\n  orig: 580, 500\n  offset: 0, 0\n  index: -1\nL3\n  rotate: false\n  xy: 584, 504\n  size: 580, 500\n  orig: 580, 500\n  offset: 0, 0\n  index: -1\nL4\n  rotate: false\n  xy: 584, 2\n  size: 580, 500\n  orig: 580, 500\n  offset: 0, 0\n  index: -1\nL5\n  rotate: false\n  xy: 1166, 504\n  size: 580, 500\n  orig: 580, 500\n  offset: 0, 0\n  index: -1\nL6\n  rotate: false\n  xy: 1166, 2\n  size: 580, 500\n  orig: 580, 500\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "adP5eWRWVBsKB4nWc7hAVy"
+    }
+  ],
+  "textureNames": [
+    "B_Lsymbol.png"
+  ]
+}

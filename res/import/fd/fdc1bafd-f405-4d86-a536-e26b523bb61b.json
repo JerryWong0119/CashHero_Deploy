@@ -1,1 +1,690 @@
-{"__type__":"sp.SkeletonData","_name":"map_nezha","_skeletonJson":{"skeleton":{"hash":"ctGvfb83+O+NQtoY1AnPL7PRhHo","spine":"3.6.53","width":83,"height":88,"images":"./img/"},"bones":[{"name":"root"},{"name":"ALL","parent":"root"},{"name":"ALL2","parent":"ALL","x":-3.62,"y":-18.12},{"name":"ALL3","parent":"ALL2","length":6.72,"rotation":94.01,"x":0.34,"y":-0.02},{"name":"shui","parent":"ALL","y":-27.62,"scaleX":2,"scaleY":2}],"slots":[{"name":"ddv","bone":"root","attachment":"ddv"},{"name":"lian","bone":"ALL3","attachment":"lian"},{"name":"shui","bone":"shui"}],"skins":{"default":{"ddv":{"ddv":{"type":"clipping","end":"lian","vertexCount":6,"vertices":[-88.57,11.93,-32.09,-53.16,35.27,-53.64,79.19,-6.08,97.72,73.57,-70.88,90.71],"color":"ce3a3a00"}},"lian":{"lian":{"type":"mesh","uvs":[0.72517,0.06626,0.80883,0.35371,0.75803,0.40444,0.91938,0.54535,0.91938,0.63835,1,0.66089,1,1,0,1,0,0.56507,0.1724,0.41571,0.26801,0.38471,0.24112,0.31989,0.37857,0,0.68334,0],"triangles":[6,7,4,10,4,7,7,9,10,10,0,2,4,10,2,2,3,4,4,5,6,10,12,0,12,13,0,7,8,9,2,0,1,10,11,12],"vertices":[1,3,70.45,-26.86,1,1,3,44.73,-32.01,1,1,3,40.57,-27.5,1,1,3,27.26,-39.99,1,1,3,19.1,-39.42,1,1,3,16.65,-45.95,1,1,3,-13.12,-43.87,1,1,3,-7.31,38.93,1,1,3,30.87,36.25,1,1,3,42.98,21.06,1,1,3,45.14,12.95,1,1,3,50.99,14.78,1,1,3,78.27,1.43,1,1,3,76.5,-23.8,1],"hull":14,"edges":[12,14,14,16,16,18,18,20,20,22,22,24,24,26,26,0,0,2,2,4,4,6,6,8,12,10,8,10],"width":83,"height":88}},"shui":{"shui/shui_00":{"width":51,"height":34},"shui/shui_01":{"width":51,"height":34},"shui/shui_02":{"width":51,"height":34},"shui/shui_03":{"width":51,"height":34},"shui/shui_04":{"width":51,"height":34},"shui/shui_05":{"width":51,"height":34},"shui/shui_06":{"width":51,"height":34},"shui/shui_07":{"width":51,"height":34},"shui/shui_08":{"width":51,"height":34},"shui/shui_09":{"width":51,"height":34},"shui/shui_10":{"width":51,"height":34},"shui/shui_11":{"width":51,"height":34},"shui/shui_12":{"width":51,"height":34},"shui/shui_13":{"width":51,"height":34},"shui/shui_14":{"width":51,"height":34},"shui/shui_15":{"width":51,"height":34},"shui/shui_16":{"width":51,"height":34},"shui/shui_17":{"width":51,"height":34}}}},"animations":{"nezha_down":{"slots":{"shui":{"attachment":[{"time":0,"name":"shui/shui_00"},{"time":0.0333,"name":"shui/shui_01"},{"time":0.0667,"name":"shui/shui_02"},{"time":0.1,"name":"shui/shui_03"},{"time":0.1333,"name":"shui/shui_04"},{"time":0.1667,"name":"shui/shui_05"},{"time":0.2,"name":"shui/shui_06"},{"time":0.2333,"name":"shui/shui_07"},{"time":0.2667,"name":"shui/shui_08"},{"time":0.3,"name":"shui/shui_09"},{"time":0.3333,"name":"shui/shui_10"},{"time":0.3667,"name":"shui/shui_11"},{"time":0.4,"name":"shui/shui_12"},{"time":0.4333,"name":"shui/shui_13"},{"time":0.4667,"name":"shui/shui_14"},{"time":0.5,"name":"shui/shui_15"},{"time":0.5333,"name":"shui/shui_17"},{"time":0.5667,"name":null}]}},"bones":{"shui":{"translate":[{"time":0,"x":1.82,"y":6.59}]},"ALL2":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":0.1667,"angle":-15}],"translate":[{"time":0,"x":0,"y":0.23,"curve":[0.371,0.62,0.71,1]},{"time":0.1667,"x":0.25,"y":4.32,"curve":[0.25,0,0.75,1]},{"time":1,"x":-6.55,"y":-109.54}]},"ALL3":{"rotate":[{"time":0,"angle":-0.19,"curve":[0.371,0.62,0.71,1]},{"time":0.1667,"angle":0,"curve":[0.25,0,0.75,1]},{"time":0.5,"angle":-4.01}],"translate":[{"time":0,"x":0,"y":0.02,"curve":[0.371,0.62,0.71,1]},{"time":0.1667,"x":0,"y":0,"curve":"stepped"},{"time":0.5,"x":0,"y":0}]}},"deform":{"default":{"ddv":{"ddv":[{"time":0,"offset":2,"vertices":[1.13399,5.66999,0,8.694]}]}}}},"nezha_idle":{"slots":{"shui":{"attachment":[{"time":0,"name":null}]}},"bones":{"ALL2":{"translate":[{"time":0,"x":0,"y":0.23,"curve":[0.371,0.62,0.71,1]},{"time":0.1667,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":1.1667,"x":0,"y":2.4,"curve":[0.243,0,0.689,0.75]},{"time":2,"x":0,"y":0.23}]},"ALL3":{"rotate":[{"time":0,"angle":-0.19,"curve":[0.371,0.62,0.71,1]},{"time":0.1667,"angle":0,"curve":[0.25,0,0.75,1]},{"time":1.1667,"angle":-2.01,"curve":[0.243,0,0.689,0.75]},{"time":2,"angle":-0.19}],"translate":[{"time":0,"x":0,"y":0.02,"curve":[0.371,0.62,0.71,1]},{"time":0.1667,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":1.1667,"x":-0.01,"y":0.2,"curve":[0.243,0,0.689,0.75]},{"time":2,"x":0,"y":0.02}]}}}}},"_atlasText":"\nmap_nezha.png\nsize: 512,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nlian\n  rotate: false\n  xy: 2, 38\n  size: 83, 88\n  orig: 83, 88\n  offset: 0, 0\n  index: -1\nshui/shui_00\n  rotate: false\n  xy: 2, 2\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_01\n  rotate: false\n  xy: 55, 2\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_02\n  rotate: false\n  xy: 87, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_03\n  rotate: false\n  xy: 87, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_04\n  rotate: false\n  xy: 140, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_05\n  rotate: false\n  xy: 140, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_06\n  rotate: false\n  xy: 193, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_07\n  rotate: false\n  xy: 193, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_08\n  rotate: false\n  xy: 246, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_09\n  rotate: false\n  xy: 246, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_10\n  rotate: false\n  xy: 299, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_11\n  rotate: false\n  xy: 299, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_12\n  rotate: false\n  xy: 352, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_13\n  rotate: false\n  xy: 352, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_14\n  rotate: false\n  xy: 405, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_15\n  rotate: false\n  xy: 405, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_16\n  rotate: false\n  xy: 458, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_17\n  rotate: false\n  xy: 458, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"17qnK7s3lLwIi+IwlVjExB"}],"textureNames":["map_nezha.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "map_nezha",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "ctGvfb83+O+NQtoY1AnPL7PRhHo",
+      "spine": "3.6.53",
+      "width": 83,
+      "height": 88,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "ALL",
+        "parent": "root"
+      },
+      {
+        "name": "ALL2",
+        "parent": "ALL",
+        "x": -3.62,
+        "y": -18.12
+      },
+      {
+        "name": "ALL3",
+        "parent": "ALL2",
+        "length": 6.72,
+        "rotation": 94.01,
+        "x": 0.34,
+        "y": -0.02
+      },
+      {
+        "name": "shui",
+        "parent": "ALL",
+        "y": -27.62,
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "ddv",
+        "bone": "root",
+        "attachment": "ddv"
+      },
+      {
+        "name": "lian",
+        "bone": "ALL3",
+        "attachment": "lian"
+      },
+      {
+        "name": "shui",
+        "bone": "shui"
+      }
+    ],
+    "skins": {
+      "default": {
+        "ddv": {
+          "ddv": {
+            "type": "clipping",
+            "end": "lian",
+            "vertexCount": 6,
+            "vertices": [
+              -88.57,
+              11.93,
+              -32.09,
+              -53.16,
+              35.27,
+              -53.64,
+              79.19,
+              -6.08,
+              97.72,
+              73.57,
+              -70.88,
+              90.71
+            ],
+            "color": "ce3a3a00"
+          }
+        },
+        "lian": {
+          "lian": {
+            "type": "mesh",
+            "uvs": [
+              0.72517,
+              0.06626,
+              0.80883,
+              0.35371,
+              0.75803,
+              0.40444,
+              0.91938,
+              0.54535,
+              0.91938,
+              0.63835,
+              1,
+              0.66089,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0.56507,
+              0.1724,
+              0.41571,
+              0.26801,
+              0.38471,
+              0.24112,
+              0.31989,
+              0.37857,
+              0,
+              0.68334,
+              0
+            ],
+            "triangles": [
+              6,
+              7,
+              4,
+              10,
+              4,
+              7,
+              7,
+              9,
+              10,
+              10,
+              0,
+              2,
+              4,
+              10,
+              2,
+              2,
+              3,
+              4,
+              4,
+              5,
+              6,
+              10,
+              12,
+              0,
+              12,
+              13,
+              0,
+              7,
+              8,
+              9,
+              2,
+              0,
+              1,
+              10,
+              11,
+              12
+            ],
+            "vertices": [
+              1,
+              3,
+              70.45,
+              -26.86,
+              1,
+              1,
+              3,
+              44.73,
+              -32.01,
+              1,
+              1,
+              3,
+              40.57,
+              -27.5,
+              1,
+              1,
+              3,
+              27.26,
+              -39.99,
+              1,
+              1,
+              3,
+              19.1,
+              -39.42,
+              1,
+              1,
+              3,
+              16.65,
+              -45.95,
+              1,
+              1,
+              3,
+              -13.12,
+              -43.87,
+              1,
+              1,
+              3,
+              -7.31,
+              38.93,
+              1,
+              1,
+              3,
+              30.87,
+              36.25,
+              1,
+              1,
+              3,
+              42.98,
+              21.06,
+              1,
+              1,
+              3,
+              45.14,
+              12.95,
+              1,
+              1,
+              3,
+              50.99,
+              14.78,
+              1,
+              1,
+              3,
+              78.27,
+              1.43,
+              1,
+              1,
+              3,
+              76.5,
+              -23.8,
+              1
+            ],
+            "hull": 14,
+            "edges": [
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              20,
+              22,
+              22,
+              24,
+              24,
+              26,
+              26,
+              0,
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              12,
+              10,
+              8,
+              10
+            ],
+            "width": 83,
+            "height": 88
+          }
+        },
+        "shui": {
+          "shui/shui_00": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_01": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_02": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_03": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_04": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_05": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_06": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_07": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_08": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_09": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_10": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_11": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_12": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_13": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_14": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_15": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_16": {
+            "width": 51,
+            "height": 34
+          },
+          "shui/shui_17": {
+            "width": 51,
+            "height": 34
+          }
+        }
+      }
+    },
+    "animations": {
+      "nezha_down": {
+        "slots": {
+          "shui": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "shui/shui_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "shui/shui_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "shui/shui_02"
+              },
+              {
+                "time": 0.1,
+                "name": "shui/shui_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "shui/shui_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "shui/shui_05"
+              },
+              {
+                "time": 0.2,
+                "name": "shui/shui_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "shui/shui_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "shui/shui_08"
+              },
+              {
+                "time": 0.3,
+                "name": "shui/shui_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "shui/shui_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "shui/shui_11"
+              },
+              {
+                "time": 0.4,
+                "name": "shui/shui_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "shui/shui_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "shui/shui_14"
+              },
+              {
+                "time": 0.5,
+                "name": "shui/shui_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "shui/shui_17"
+              },
+              {
+                "time": 0.5667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "shui": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 1.82,
+                "y": 6.59
+              }
+            ]
+          },
+          "ALL2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "angle": -15
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0.23,
+                "curve": [
+                  0.371,
+                  0.62,
+                  0.71,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0.25,
+                "y": 4.32,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": -6.55,
+                "y": -109.54
+              }
+            ]
+          },
+          "ALL3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -0.19,
+                "curve": [
+                  0.371,
+                  0.62,
+                  0.71,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "angle": -4.01
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0.02,
+                "curve": [
+                  0.371,
+                  0.62,
+                  0.71,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "ddv": {
+              "ddv": [
+                {
+                  "time": 0,
+                  "offset": 2,
+                  "vertices": [
+                    1.13399,
+                    5.66999,
+                    0,
+                    8.694
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "nezha_idle": {
+        "slots": {
+          "shui": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "ALL2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0.23,
+                "curve": [
+                  0.371,
+                  0.62,
+                  0.71,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 0,
+                "y": 2.4,
+                "curve": [
+                  0.243,
+                  0,
+                  0.689,
+                  0.75
+                ]
+              },
+              {
+                "time": 2,
+                "x": 0,
+                "y": 0.23
+              }
+            ]
+          },
+          "ALL3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -0.19,
+                "curve": [
+                  0.371,
+                  0.62,
+                  0.71,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "angle": -2.01,
+                "curve": [
+                  0.243,
+                  0,
+                  0.689,
+                  0.75
+                ]
+              },
+              {
+                "time": 2,
+                "angle": -0.19
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0.02,
+                "curve": [
+                  0.371,
+                  0.62,
+                  0.71,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": -0.01,
+                "y": 0.2,
+                "curve": [
+                  0.243,
+                  0,
+                  0.689,
+                  0.75
+                ]
+              },
+              {
+                "time": 2,
+                "x": 0,
+                "y": 0.02
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nmap_nezha.png\nsize: 512,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nlian\n  rotate: false\n  xy: 2, 38\n  size: 83, 88\n  orig: 83, 88\n  offset: 0, 0\n  index: -1\nshui/shui_00\n  rotate: false\n  xy: 2, 2\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_01\n  rotate: false\n  xy: 55, 2\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_02\n  rotate: false\n  xy: 87, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_03\n  rotate: false\n  xy: 87, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_04\n  rotate: false\n  xy: 140, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_05\n  rotate: false\n  xy: 140, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_06\n  rotate: false\n  xy: 193, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_07\n  rotate: false\n  xy: 193, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_08\n  rotate: false\n  xy: 246, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_09\n  rotate: false\n  xy: 246, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_10\n  rotate: false\n  xy: 299, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_11\n  rotate: false\n  xy: 299, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_12\n  rotate: false\n  xy: 352, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_13\n  rotate: false\n  xy: 352, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_14\n  rotate: false\n  xy: 405, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_15\n  rotate: false\n  xy: 405, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_16\n  rotate: false\n  xy: 458, 92\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\nshui/shui_17\n  rotate: false\n  xy: 458, 56\n  size: 51, 34\n  orig: 51, 34\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "17qnK7s3lLwIi+IwlVjExB"
+    }
+  ],
+  "textureNames": [
+    "map_nezha.png"
+  ]
+}

@@ -1,1 +1,251 @@
-{"__type__":"sp.SkeletonData","_name":"Socre_WildGorilla_8","_skeletonJson":{"skeleton":{"hash":"HSHOEUGjaXolABYAUiEu6pHaU0M","spine":"3.6.53","width":130,"height":120,"images":"./img/"},"bones":[{"name":"root"},{"name":"tq","parent":"root"},{"name":"body","parent":"tq","length":96.66,"rotation":91.18}],"slots":[{"name":"clip","bone":"root","attachment":"clip"},{"name":"di","bone":"root","attachment":"di"},{"name":"egde","bone":"root","attachment":"egde"},{"name":"body","bone":"body","attachment":"body"}],"skins":{"default":{"body":{"body":{"type":"mesh","uvs":[1,1,0,1,0,0,1,0],"triangles":[1,2,3,1,3,0],"vertices":[-61.33,-63.75,-58.65,66.22,61.33,63.75,58.65,-66.22],"hull":4,"edges":[0,2,2,4,4,6,0,6],"width":130,"height":120}},"clip":{"clip":{"type":"clipping","end":"body","vertexCount":4,"vertices":[-122.56,-103.6,124.13,-103.12,124.61,104.29,-123.04,104.29],"color":"3a3acdff"}},"di":{"di":{"width":130,"height":120}},"egde":{"egde":{"width":130,"height":120}}}},"animations":{"actionframe":{"bones":{"body":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":1.1667,"angle":12,"curve":[0.25,0,0.75,1]},{"time":2.5,"angle":0}],"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":1.1667,"x":0,"y":-1.09,"curve":[0.25,0,0.75,1]},{"time":2.5,"x":0,"y":0}],"scale":[{"time":0,"x":0.98,"y":0.98,"curve":[0.25,0,0.75,1]},{"time":1.1667,"x":1.05,"y":1.05,"curve":[0.25,0,0.75,1]},{"time":2.5,"x":0.98,"y":0.98}],"shear":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.1667,"x":0,"y":0,"curve":"stepped"},{"time":2.5,"x":0,"y":0}]}}},"idleframe":{}}},"_atlasText":"\nSocre_WildGorilla_8.png\nsize: 186,186\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbody\n  rotate: true\n  xy: 102, 98\n  size: 86, 78\n  orig: 98, 90\n  offset: 6, 5\n  index: -1\ndi\n  rotate: false\n  xy: 2, 94\n  size: 98, 90\n  orig: 98, 90\n  offset: 0, 0\n  index: -1\negde\n  rotate: false\n  xy: 2, 2\n  size: 98, 90\n  orig: 98, 90\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"708wHZkYdON6U5vXnv6AoY"}],"textureNames":["Socre_WildGorilla_8.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Socre_WildGorilla_8",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "HSHOEUGjaXolABYAUiEu6pHaU0M",
+      "spine": "3.6.53",
+      "width": 130,
+      "height": 120,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "tq",
+        "parent": "root"
+      },
+      {
+        "name": "body",
+        "parent": "tq",
+        "length": 96.66,
+        "rotation": 91.18
+      }
+    ],
+    "slots": [
+      {
+        "name": "clip",
+        "bone": "root",
+        "attachment": "clip"
+      },
+      {
+        "name": "di",
+        "bone": "root",
+        "attachment": "di"
+      },
+      {
+        "name": "egde",
+        "bone": "root",
+        "attachment": "egde"
+      },
+      {
+        "name": "body",
+        "bone": "body",
+        "attachment": "body"
+      }
+    ],
+    "skins": {
+      "default": {
+        "body": {
+          "body": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              -61.33,
+              -63.75,
+              -58.65,
+              66.22,
+              61.33,
+              63.75,
+              58.65,
+              -66.22
+            ],
+            "hull": 4,
+            "edges": [
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              0,
+              6
+            ],
+            "width": 130,
+            "height": 120
+          }
+        },
+        "clip": {
+          "clip": {
+            "type": "clipping",
+            "end": "body",
+            "vertexCount": 4,
+            "vertices": [
+              -122.56,
+              -103.6,
+              124.13,
+              -103.12,
+              124.61,
+              104.29,
+              -123.04,
+              104.29
+            ],
+            "color": "3a3acdff"
+          }
+        },
+        "di": {
+          "di": {
+            "width": 130,
+            "height": 120
+          }
+        },
+        "egde": {
+          "egde": {
+            "width": 130,
+            "height": 120
+          }
+        }
+      }
+    },
+    "animations": {
+      "actionframe": {
+        "bones": {
+          "body": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "angle": 12,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.5,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 0,
+                "y": -1.09,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.5,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.98,
+                "y": 0.98,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 1.05,
+                "y": 1.05,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.5,
+                "x": 0.98,
+                "y": 0.98
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1667,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "idleframe": {}
+    }
+  },
+  "_atlasText": "\nSocre_WildGorilla_8.png\nsize: 186,186\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbody\n  rotate: true\n  xy: 102, 98\n  size: 86, 78\n  orig: 98, 90\n  offset: 6, 5\n  index: -1\ndi\n  rotate: false\n  xy: 2, 94\n  size: 98, 90\n  orig: 98, 90\n  offset: 0, 0\n  index: -1\negde\n  rotate: false\n  xy: 2, 2\n  size: 98, 90\n  orig: 98, 90\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "708wHZkYdON6U5vXnv6AoY"
+    }
+  ],
+  "textureNames": [
+    "Socre_WildGorilla_8.png"
+  ]
+}

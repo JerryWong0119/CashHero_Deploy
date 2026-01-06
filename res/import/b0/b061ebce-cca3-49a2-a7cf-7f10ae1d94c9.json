@@ -1,1 +1,255 @@
-{"__type__":"sp.SkeletonData","_name":"FG_D_glow","_skeletonJson":{"skeleton":{"hash":"CywiTKJb3/CpkOHzHa4xbalM8Bw","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"D_glow","parent":"root"}],"slots":[{"name":"D_glow_red","bone":"D_glow","blend":"additive"},{"name":"D_glow_blue","bone":"D_glow","blend":"additive"},{"name":"D_glow_green","bone":"D_glow","blend":"additive"}],"skins":{"default":{"D_glow_blue":{"D_glow_blue":{"width":500,"height":500}},"D_glow_green":{"D_glow_green":{"width":500,"height":500}},"D_glow_red":{"D_glow_red":{"width":500,"height":500}}}},"animations":{"FG_D_blue":{"slots":{"D_glow_blue":{"attachment":[{"time":0,"name":"D_glow_blue"}]},"D_glow_green":{"attachment":[{"time":0,"name":null}]},"D_glow_red":{"attachment":[{"time":0,"name":null}]}},"bones":{"D_glow":{"scale":[{"time":0,"x":2,"y":2,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":70,"y":70,"curve":[0.25,0,0.75,1]},{"time":1,"x":0,"y":0}]}}},"FG_D_green":{"slots":{"D_glow_blue":{"attachment":[{"time":0,"name":null}]},"D_glow_green":{"attachment":[{"time":0,"name":"D_glow_green"}]},"D_glow_red":{"attachment":[{"time":0,"name":null}]}},"bones":{"D_glow":{"scale":[{"time":0,"x":2,"y":2,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":70,"y":70,"curve":[0.25,0,0.75,1]},{"time":1,"x":0,"y":0}]}}},"FG_D_red":{"slots":{"D_glow_blue":{"attachment":[{"time":0,"name":null}]},"D_glow_green":{"attachment":[{"time":0,"name":null}]},"D_glow_red":{"attachment":[{"time":0,"name":"D_glow_red"}]}},"bones":{"D_glow":{"scale":[{"time":0,"x":2,"y":2,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":80,"y":80,"curve":[0.25,0,0.75,1]},{"time":1,"x":0,"y":0}]}}}}},"_atlasText":"\nFG_D_glow.png\nsize: 1508,504\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nD_glow_blue\n  rotate: false\n  xy: 2, 2\n  size: 500, 500\n  orig: 500, 500\n  offset: 0, 0\n  index: -1\nD_glow_green\n  rotate: false\n  xy: 504, 2\n  size: 500, 500\n  orig: 500, 500\n  offset: 0, 0\n  index: -1\nD_glow_red\n  rotate: false\n  xy: 1006, 2\n  size: 500, 500\n  orig: 500, 500\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"dbfUkViVZGJYa8Zqe0NU2m"}],"textureNames":["FG_D_glow.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "FG_D_glow",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "CywiTKJb3/CpkOHzHa4xbalM8Bw",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "D_glow",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "D_glow_red",
+        "bone": "D_glow",
+        "blend": "additive"
+      },
+      {
+        "name": "D_glow_blue",
+        "bone": "D_glow",
+        "blend": "additive"
+      },
+      {
+        "name": "D_glow_green",
+        "bone": "D_glow",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "D_glow_blue": {
+          "D_glow_blue": {
+            "width": 500,
+            "height": 500
+          }
+        },
+        "D_glow_green": {
+          "D_glow_green": {
+            "width": 500,
+            "height": 500
+          }
+        },
+        "D_glow_red": {
+          "D_glow_red": {
+            "width": 500,
+            "height": 500
+          }
+        }
+      }
+    },
+    "animations": {
+      "FG_D_blue": {
+        "slots": {
+          "D_glow_blue": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "D_glow_blue"
+              }
+            ]
+          },
+          "D_glow_green": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "D_glow_red": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "D_glow": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 2,
+                "y": 2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 70,
+                "y": 70,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "FG_D_green": {
+        "slots": {
+          "D_glow_blue": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "D_glow_green": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "D_glow_green"
+              }
+            ]
+          },
+          "D_glow_red": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "D_glow": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 2,
+                "y": 2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 70,
+                "y": 70,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "FG_D_red": {
+        "slots": {
+          "D_glow_blue": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "D_glow_green": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "D_glow_red": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "D_glow_red"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "D_glow": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 2,
+                "y": 2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 80,
+                "y": 80,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nFG_D_glow.png\nsize: 1508,504\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nD_glow_blue\n  rotate: false\n  xy: 2, 2\n  size: 500, 500\n  orig: 500, 500\n  offset: 0, 0\n  index: -1\nD_glow_green\n  rotate: false\n  xy: 504, 2\n  size: 500, 500\n  orig: 500, 500\n  offset: 0, 0\n  index: -1\nD_glow_red\n  rotate: false\n  xy: 1006, 2\n  size: 500, 500\n  orig: 500, 500\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "dbfUkViVZGJYa8Zqe0NU2m"
+    }
+  ],
+  "textureNames": [
+    "FG_D_glow.png"
+  ]
+}

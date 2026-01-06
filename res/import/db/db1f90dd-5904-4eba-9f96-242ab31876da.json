@@ -1,1 +1,221 @@
-{"__type__":"sp.SkeletonData","_name":"FG_ShouJiLan","_skeletonJson":{"skeleton":{"hash":"zzlEs9MInnH9yicn26w3Hnw5tLM","spine":"3.6.53","width":0,"height":0,"images":""},"bones":[{"name":"root"},{"name":"All","parent":"root"},{"name":"kg","parent":"All","scaleX":2,"scaleY":2},{"name":"li","parent":"All","scaleX":2,"scaleY":2}],"slots":[{"name":"li","bone":"li","blend":"additive"},{"name":"kg","bone":"kg","blend":"additive"}],"skins":{"default":{"kg":{"images/g_000":{"width":370,"height":140}},"li":{"images/li/li_000":{"width":100,"height":100},"images/li/li_001":{"width":100,"height":100},"images/li/li_002":{"width":100,"height":100},"images/li/li_003":{"width":100,"height":100},"images/li/li_004":{"width":100,"height":100},"images/li/li_005":{"width":100,"height":100},"images/li/li_006":{"width":100,"height":100},"images/li/li_007":{"width":100,"height":100},"images/li/li_008":{"width":100,"height":100},"images/li/li_009":{"width":100,"height":100},"images/li/li_010":{"width":100,"height":100}}}},"animations":{"FG_ShouJiLan":{"slots":{"kg":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2,"color":"ffffffff","curve":"stepped"},{"time":0.2333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.5667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/g_000"}]},"li":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/li/li_000"},{"time":0.0333,"name":"images/li/li_001"},{"time":0.1,"name":"images/li/li_002"},{"time":0.1333,"name":"images/li/li_003"},{"time":0.2,"name":"images/li/li_004"},{"time":0.2333,"name":"images/li/li_005"},{"time":0.3,"name":"images/li/li_006"},{"time":0.3333,"name":"images/li/li_007"},{"time":0.4,"name":"images/li/li_008"},{"time":0.4333,"name":"images/li/li_009"},{"time":0.5,"name":"images/li/li_010"}]}},"bones":{"li":{"translate":[{"time":0,"x":-1.5,"y":-40}]}}}}},"_atlasText":"\nFG_ShouJiLan.png\nsize: 332,510\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/g_000\n  rotate: true\n  xy: 2, 138\n  size: 370, 129\n  orig: 370, 140\n  offset: 0, 9\n  index: -1\nimages/li/li_000\n  rotate: false\n  xy: 320, 405\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\nimages/li/li_010\n  rotate: false\n  xy: 320, 405\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\nimages/li/li_001\n  rotate: true\n  xy: 133, 104\n  size: 98, 100\n  orig: 100, 100\n  offset: 2, 0\n  index: -1\nimages/li/li_002\n  rotate: false\n  xy: 2, 36\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nimages/li/li_003\n  rotate: false\n  xy: 133, 408\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nimages/li/li_004\n  rotate: false\n  xy: 133, 306\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nimages/li/li_005\n  rotate: false\n  xy: 133, 204\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nimages/li/li_006\n  rotate: false\n  xy: 104, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nimages/li/li_007\n  rotate: false\n  xy: 206, 2\n  size: 96, 100\n  orig: 100, 100\n  offset: 1, 0\n  index: -1\nimages/li/li_008\n  rotate: false\n  xy: 235, 408\n  size: 95, 100\n  orig: 100, 100\n  offset: 2, 0\n  index: -1\nimages/li/li_009\n  rotate: false\n  xy: 235, 320\n  size: 83, 86\n  orig: 100, 100\n  offset: 6, 11\n  index: -1\n","textures":[{"__uuid__":"a0YQGFnvxEFYOBrfKpnUhA"}],"textureNames":["FG_ShouJiLan.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "FG_ShouJiLan",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "zzlEs9MInnH9yicn26w3Hnw5tLM",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "All",
+        "parent": "root"
+      },
+      {
+        "name": "kg",
+        "parent": "All",
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "li",
+        "parent": "All",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "li",
+        "bone": "li",
+        "blend": "additive"
+      },
+      {
+        "name": "kg",
+        "bone": "kg",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "kg": {
+          "images/g_000": {
+            "width": 370,
+            "height": 140
+          }
+        },
+        "li": {
+          "images/li/li_000": {
+            "width": 100,
+            "height": 100
+          },
+          "images/li/li_001": {
+            "width": 100,
+            "height": 100
+          },
+          "images/li/li_002": {
+            "width": 100,
+            "height": 100
+          },
+          "images/li/li_003": {
+            "width": 100,
+            "height": 100
+          },
+          "images/li/li_004": {
+            "width": 100,
+            "height": 100
+          },
+          "images/li/li_005": {
+            "width": 100,
+            "height": 100
+          },
+          "images/li/li_006": {
+            "width": 100,
+            "height": 100
+          },
+          "images/li/li_007": {
+            "width": 100,
+            "height": 100
+          },
+          "images/li/li_008": {
+            "width": 100,
+            "height": 100
+          },
+          "images/li/li_009": {
+            "width": 100,
+            "height": 100
+          },
+          "images/li/li_010": {
+            "width": 100,
+            "height": 100
+          }
+        }
+      }
+    },
+    "animations": {
+      "FG_ShouJiLan": {
+        "slots": {
+          "kg": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/g_000"
+              }
+            ]
+          },
+          "li": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/li/li_000"
+              },
+              {
+                "time": 0.0333,
+                "name": "images/li/li_001"
+              },
+              {
+                "time": 0.1,
+                "name": "images/li/li_002"
+              },
+              {
+                "time": 0.1333,
+                "name": "images/li/li_003"
+              },
+              {
+                "time": 0.2,
+                "name": "images/li/li_004"
+              },
+              {
+                "time": 0.2333,
+                "name": "images/li/li_005"
+              },
+              {
+                "time": 0.3,
+                "name": "images/li/li_006"
+              },
+              {
+                "time": 0.3333,
+                "name": "images/li/li_007"
+              },
+              {
+                "time": 0.4,
+                "name": "images/li/li_008"
+              },
+              {
+                "time": 0.4333,
+                "name": "images/li/li_009"
+              },
+              {
+                "time": 0.5,
+                "name": "images/li/li_010"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "li": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -1.5,
+                "y": -40
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nFG_ShouJiLan.png\nsize: 332,510\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/g_000\n  rotate: true\n  xy: 2, 138\n  size: 370, 129\n  orig: 370, 140\n  offset: 0, 9\n  index: -1\nimages/li/li_000\n  rotate: false\n  xy: 320, 405\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\nimages/li/li_010\n  rotate: false\n  xy: 320, 405\n  size: 1, 1\n  orig: 1, 1\n  offset: 0, 0\n  index: -1\nimages/li/li_001\n  rotate: true\n  xy: 133, 104\n  size: 98, 100\n  orig: 100, 100\n  offset: 2, 0\n  index: -1\nimages/li/li_002\n  rotate: false\n  xy: 2, 36\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nimages/li/li_003\n  rotate: false\n  xy: 133, 408\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nimages/li/li_004\n  rotate: false\n  xy: 133, 306\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nimages/li/li_005\n  rotate: false\n  xy: 133, 204\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nimages/li/li_006\n  rotate: false\n  xy: 104, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nimages/li/li_007\n  rotate: false\n  xy: 206, 2\n  size: 96, 100\n  orig: 100, 100\n  offset: 1, 0\n  index: -1\nimages/li/li_008\n  rotate: false\n  xy: 235, 408\n  size: 95, 100\n  orig: 100, 100\n  offset: 2, 0\n  index: -1\nimages/li/li_009\n  rotate: false\n  xy: 235, 320\n  size: 83, 86\n  orig: 100, 100\n  offset: 6, 11\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "a0YQGFnvxEFYOBrfKpnUhA"
+    }
+  ],
+  "textureNames": [
+    "FG_ShouJiLan.png"
+  ]
+}

@@ -1,1 +1,101 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"/gvw2aifxWRYZSeI4vNNL92mGsc","spine":"3.6.53","width":1060,"height":1560,"images":"../素材/"},"bones":[{"name":"root"},{"name":"guang","parent":"root","x":-26.93,"y":-4.49,"scaleX":2,"scaleY":2}],"slots":[{"name":"hec","bone":"root"},{"name":"root","bone":"root"},{"name":"root2","bone":"root"},{"name":"guang_1","bone":"guang","attachment":"guang","blend":"additive"}],"skins":{"default":{"guang_1":{"guang":{"x":7.15,"y":2.72,"width":206,"height":146}}}},"animations":{"animation":{"slots":{"guang_1":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1.2333,"color":"ffffff76","curve":[0.25,0,0.75,1]},{"time":2.4,"color":"ffffff00"}]}}}}},"_atlasText":"\nxiaodeng.png\nsize: 206,146\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguang\n  rotate: false\n  xy: 0, 0\n  size: 206, 146\n  orig: 206, 146\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"9dTMUpf6FIiIeMfUyu33QI"}],"textureNames":["xiaodeng.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "/gvw2aifxWRYZSeI4vNNL92mGsc",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../素材/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "guang",
+        "parent": "root",
+        "x": -26.93,
+        "y": -4.49,
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "hec",
+        "bone": "root"
+      },
+      {
+        "name": "root",
+        "bone": "root"
+      },
+      {
+        "name": "root2",
+        "bone": "root"
+      },
+      {
+        "name": "guang_1",
+        "bone": "guang",
+        "attachment": "guang",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "guang_1": {
+          "guang": {
+            "x": 7.15,
+            "y": 2.72,
+            "width": 206,
+            "height": 146
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "guang_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2333,
+                "color": "ffffff76",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nxiaodeng.png\nsize: 206,146\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguang\n  rotate: false\n  xy: 0, 0\n  size: 206, 146\n  orig: 206, 146\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "9dTMUpf6FIiIeMfUyu33QI"
+    }
+  ],
+  "textureNames": [
+    "xiaodeng.png"
+  ]
+}

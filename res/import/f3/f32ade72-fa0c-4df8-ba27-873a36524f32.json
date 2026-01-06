@@ -1,1 +1,305 @@
-{"__type__":"sp.SkeletonData","_name":"gouzi01","_skeletonJson":{"skeleton":{"hash":"Nz7ilgP8cAtPspIbL9jszKsx0sw","spine":"3.6.53","width":99,"height":117,"images":"../../../小游戏背景/"},"bones":[{"name":"root"},{"name":"SBDB","parent":"root","length":95.79,"rotation":88.64,"x":-0.67,"y":-48.28}],"slots":[{"name":"SBDB","bone":"SBDB","attachment":"SBDB"}],"skins":{"default":{"SBDB":{"SBDB":{"x":96.81,"y":1.63,"rotation":-88.64,"width":99,"height":117}}}},"animations":{"animation1":{"bones":{"SBDB":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":1,"angle":0,"curve":"stepped"},{"time":2,"angle":0}],"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":1,"x":0.37,"y":2.99,"curve":[0.25,0,0.75,1]},{"time":2,"x":0,"y":0}],"scale":[{"time":0,"x":0.958,"y":1.017,"curve":[0.381,0.55,0.742,1]},{"time":0.4,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.4,"x":0.885,"y":1.047,"curve":[0.245,0,0.637,0.56]},{"time":2,"x":0.958,"y":1.017}],"shear":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1,"x":0,"y":0,"curve":"stepped"},{"time":2,"x":0,"y":0}]}}},"animation2":{"bones":{"SBDB":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":0.3333,"angle":0,"curve":"stepped"},{"time":0.8333,"angle":0}],"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.1667,"x":0,"y":-3.82,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":0.37,"y":13.01,"curve":[0.256,0,0.619,0.46]},{"time":0.5,"x":0,"y":0,"curve":"stepped"},{"time":0.8333,"x":0,"y":0}],"scale":[{"time":0,"x":0.958,"y":1.017,"curve":[0.381,0.55,0.742,1]},{"time":0.1667,"x":0.914,"y":1,"curve":[0.245,0,0.64,0.57]},{"time":0.3333,"x":0.989,"y":1.031,"curve":[0.382,0.55,0.741,1]},{"time":0.5,"x":0.872,"y":1.047,"curve":[0.245,0,0.637,0.56]},{"time":0.8333,"x":0.958,"y":1.017}],"shear":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":0.3333,"x":0,"y":0,"curve":"stepped"},{"time":0.8333,"x":0,"y":0}]}}}}},"_atlasText":"\ngouzi01.png\nsize: 128,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nSBDB\n  rotate: false\n  xy: 2, 2\n  size: 99, 117\n  orig: 99, 117\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"5fCBT4BCZOBYw5dfvnpN9d"}],"textureNames":["gouzi01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "gouzi01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Nz7ilgP8cAtPspIbL9jszKsx0sw",
+      "spine": "3.6.53",
+      "width": 99,
+      "height": 117,
+      "images": "../../../小游戏背景/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "SBDB",
+        "parent": "root",
+        "length": 95.79,
+        "rotation": 88.64,
+        "x": -0.67,
+        "y": -48.28
+      }
+    ],
+    "slots": [
+      {
+        "name": "SBDB",
+        "bone": "SBDB",
+        "attachment": "SBDB"
+      }
+    ],
+    "skins": {
+      "default": {
+        "SBDB": {
+          "SBDB": {
+            "x": 96.81,
+            "y": 1.63,
+            "rotation": -88.64,
+            "width": 99,
+            "height": 117
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "bones": {
+          "SBDB": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0.37,
+                "y": 2.99,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.958,
+                "y": 1.017,
+                "curve": [
+                  0.381,
+                  0.55,
+                  0.742,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4,
+                "x": 0.885,
+                "y": 1.047,
+                "curve": [
+                  0.245,
+                  0,
+                  0.637,
+                  0.56
+                ]
+              },
+              {
+                "time": 2,
+                "x": 0.958,
+                "y": 1.017
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "bones": {
+          "SBDB": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": -3.82,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0.37,
+                "y": 13.01,
+                "curve": [
+                  0.256,
+                  0,
+                  0.619,
+                  0.46
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.958,
+                "y": 1.017,
+                "curve": [
+                  0.381,
+                  0.55,
+                  0.742,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0.914,
+                "y": 1,
+                "curve": [
+                  0.245,
+                  0,
+                  0.64,
+                  0.57
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0.989,
+                "y": 1.031,
+                "curve": [
+                  0.382,
+                  0.55,
+                  0.741,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0.872,
+                "y": 1.047,
+                "curve": [
+                  0.245,
+                  0,
+                  0.637,
+                  0.56
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 0.958,
+                "y": 1.017
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ngouzi01.png\nsize: 128,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nSBDB\n  rotate: false\n  xy: 2, 2\n  size: 99, 117\n  orig: 99, 117\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "5fCBT4BCZOBYw5dfvnpN9d"
+    }
+  ],
+  "textureNames": [
+    "gouzi01.png"
+  ]
+}

@@ -1,1 +1,195 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"l/0SEJSo7Mn3ojobR4PxJiYpdnM","spine":"3.6.53","width":0,"height":0,"images":"./img/"},"bones":[{"name":"root"},{"name":"zong","parent":"root","x":1.56,"y":-0.58},{"name":"l6","parent":"zong"},{"name":"star","parent":"l6","rotation":-47.97,"x":13.6,"y":23.32,"scaleX":0.462,"scaleY":0.462}],"slots":[{"name":"l6","bone":"l6"},{"name":"star","bone":"star","blend":"additive"}],"skins":{"default":{"l6":{"l6":{"x":-2.53,"y":0.46,"width":57,"height":64}},"star":{"star":{"x":1.46,"y":0.01,"rotation":-36.51,"width":40,"height":40}}}},"animations":{"animation":{"slots":{"l6":{"attachment":[{"time":0,"name":"l6"}]},"star":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.3333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.6667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"star"}]}},"bones":{"l6":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":1.2,"y":1.2,"curve":[0.25,0,0.75,1]},{"time":1,"x":1,"y":1}]},"star":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":0.6667,"angle":-29.07}],"scale":[{"time":0,"x":0.691,"y":0.691,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1,"y":1}]}}}}},"_atlasText":"\nspine.png\nsize: 128,64\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nl6\n  rotate: true\n  xy: 2, 2\n  size: 57, 64\n  orig: 57, 64\n  offset: 0, 0\n  index: -1\nstar\n  rotate: false\n  xy: 68, 19\n  size: 40, 40\n  orig: 40, 40\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"d4ik9yAiBOILXpOvoNI9h9"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "l/0SEJSo7Mn3ojobR4PxJiYpdnM",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root",
+        "x": 1.56,
+        "y": -0.58
+      },
+      {
+        "name": "l6",
+        "parent": "zong"
+      },
+      {
+        "name": "star",
+        "parent": "l6",
+        "rotation": -47.97,
+        "x": 13.6,
+        "y": 23.32,
+        "scaleX": 0.462,
+        "scaleY": 0.462
+      }
+    ],
+    "slots": [
+      {
+        "name": "l6",
+        "bone": "l6"
+      },
+      {
+        "name": "star",
+        "bone": "star",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "l6": {
+          "l6": {
+            "x": -2.53,
+            "y": 0.46,
+            "width": 57,
+            "height": 64
+          }
+        },
+        "star": {
+          "star": {
+            "x": 1.46,
+            "y": 0.01,
+            "rotation": -36.51,
+            "width": 40,
+            "height": 40
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "l6": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "l6"
+              }
+            ]
+          },
+          "star": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "star"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "l6": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "star": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "angle": -29.07
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.691,
+                "y": 0.691,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 128,64\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nl6\n  rotate: true\n  xy: 2, 2\n  size: 57, 64\n  orig: 57, 64\n  offset: 0, 0\n  index: -1\nstar\n  rotate: false\n  xy: 68, 19\n  size: 40, 40\n  orig: 40, 40\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "d4ik9yAiBOILXpOvoNI9h9"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

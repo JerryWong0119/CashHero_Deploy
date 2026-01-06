@@ -1,1 +1,227 @@
-{"__type__":"sp.SkeletonData","_name":"pick_logozi_01","_skeletonJson":{"skeleton":{"hash":"6wIqtyO62eNKGNjOcaeGj0Pff+M","spine":"3.6.53","width":482,"height":175,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"theme214_pick_toptip","parent":"root"},{"name":"logozigaoliang01","parent":"theme214_pick_toptip","y":-2.65}],"slots":[{"name":"theme214_pick_toptip","bone":"theme214_pick_toptip","attachment":"3"},{"name":"logozigaoliang01","bone":"logozigaoliang01","attachment":"logozigaoliang01","blend":"additive"}],"skins":{"default":{"logozigaoliang01":{"logozigaoliang01":{"width":482,"height":175}},"theme214_pick_toptip":{"3":{"width":429,"height":121},"theme214_pick_toptip":{"width":429,"height":121}}}},"animations":{"animation1":{"slots":{"logozigaoliang01":{"color":[{"time":0,"color":"ff000000","curve":[0.25,0,0.75,1]},{"time":1,"color":"edff00ff","curve":[0.25,0,0.75,1]},{"time":1.9667,"color":"ff000000","curve":"stepped"},{"time":3,"color":"ff000000"}]},"theme214_pick_toptip":{"attachment":[{"time":0,"name":"theme214_pick_toptip"}]}},"bones":{"theme214_pick_toptip":{"translate":[{"time":0,"x":7.43,"y":0,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":-7.43,"y":1.86,"curve":[0.25,0,0.75,1]},{"time":3,"x":7.43,"y":0}]}}},"animation2":{"slots":{"logozigaoliang01":{"color":[{"time":0,"color":"ff000000","curve":[0.25,0,0.75,1]},{"time":1,"color":"edff00ff","curve":[0.25,0,0.75,1]},{"time":1.9667,"color":"ff000000","curve":"stepped"},{"time":3,"color":"ff000000"}]},"theme214_pick_toptip":{"attachment":[{"time":0,"name":"3"}]}},"bones":{"theme214_pick_toptip":{"translate":[{"time":0,"x":7.43,"y":0,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":-7.43,"y":1.86,"curve":[0.25,0,0.75,1]},{"time":3,"x":7.43,"y":0}]}}}}},"_atlasText":"\npick_logozi_01.png\nsize: 486,484\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n3\n  rotate: false\n  xy: 2, 62\n  size: 429, 120\n  orig: 429, 121\n  offset: 0, 1\n  index: -1\nlogozigaoliang01\n  rotate: false\n  xy: 2, 307\n  size: 482, 175\n  orig: 482, 175\n  offset: 0, 0\n  index: -1\ntheme214_pick_toptip\n  rotate: false\n  xy: 2, 184\n  size: 429, 121\n  orig: 429, 121\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"ecry2FUapOFKG0zyVc2DJq"}],"textureNames":["pick_logozi_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "pick_logozi_01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "6wIqtyO62eNKGNjOcaeGj0Pff+M",
+      "spine": "3.6.53",
+      "width": 482,
+      "height": 175,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "theme214_pick_toptip",
+        "parent": "root"
+      },
+      {
+        "name": "logozigaoliang01",
+        "parent": "theme214_pick_toptip",
+        "y": -2.65
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme214_pick_toptip",
+        "bone": "theme214_pick_toptip",
+        "attachment": "3"
+      },
+      {
+        "name": "logozigaoliang01",
+        "bone": "logozigaoliang01",
+        "attachment": "logozigaoliang01",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "logozigaoliang01": {
+          "logozigaoliang01": {
+            "width": 482,
+            "height": 175
+          }
+        },
+        "theme214_pick_toptip": {
+          "3": {
+            "width": 429,
+            "height": 121
+          },
+          "theme214_pick_toptip": {
+            "width": 429,
+            "height": 121
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "logozigaoliang01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ff000000",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "edff00ff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.9667,
+                "color": "ff000000",
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "color": "ff000000"
+              }
+            ]
+          },
+          "theme214_pick_toptip": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme214_pick_toptip"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "theme214_pick_toptip": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 7.43,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": -7.43,
+                "y": 1.86,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3,
+                "x": 7.43,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "logozigaoliang01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ff000000",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "edff00ff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.9667,
+                "color": "ff000000",
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "color": "ff000000"
+              }
+            ]
+          },
+          "theme214_pick_toptip": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "3"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "theme214_pick_toptip": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 7.43,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": -7.43,
+                "y": 1.86,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3,
+                "x": 7.43,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\npick_logozi_01.png\nsize: 486,484\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n3\n  rotate: false\n  xy: 2, 62\n  size: 429, 120\n  orig: 429, 121\n  offset: 0, 1\n  index: -1\nlogozigaoliang01\n  rotate: false\n  xy: 2, 307\n  size: 482, 175\n  orig: 482, 175\n  offset: 0, 0\n  index: -1\ntheme214_pick_toptip\n  rotate: false\n  xy: 2, 184\n  size: 429, 121\n  orig: 429, 121\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "ecry2FUapOFKG0zyVc2DJq"
+    }
+  ],
+  "textureNames": [
+    "pick_logozi_01.png"
+  ]
+}

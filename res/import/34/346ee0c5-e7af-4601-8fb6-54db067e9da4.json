@@ -1,1 +1,104 @@
-{"__type__":"sp.SkeletonData","_name":"zhuanpandaohuxizi","_skeletonJson":{"skeleton":{"hash":"/f0t5ZW7oBR0ndZlPuz6WbDb9Hg","spine":"3.6.53","width":297,"height":34,"images":"./资源/"},"bones":[{"name":"root"},{"name":"huxizi","parent":"root"}],"slots":[{"name":"theme141_game4_7","bone":"huxizi","attachment":"theme141_game4_7"}],"skins":{"default":{"theme141_game4_7":{"theme141_game4_7":{"width":297,"height":34}}}},"animations":{"animation":{"bones":{"huxizi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.8333,"x":1.15,"y":1.15,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1,"curve":"stepped"},{"time":2.5,"x":1,"y":1}]}}},"animation2":{"bones":{"huxizi":{"scale":[{"time":0,"x":1,"y":1}]}}}}},"_atlasText":"\nzhuanpandaohuxizi.png\nsize: 301,38\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme141_game4_7\n  rotate: false\n  xy: 2, 2\n  size: 297, 34\n  orig: 297, 34\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"74X0eADs5B6oQGAx0bM25g"}],"textureNames":["zhuanpandaohuxizi.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "zhuanpandaohuxizi",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "/f0t5ZW7oBR0ndZlPuz6WbDb9Hg",
+      "spine": "3.6.53",
+      "width": 297,
+      "height": 34,
+      "images": "./资源/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "huxizi",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme141_game4_7",
+        "bone": "huxizi",
+        "attachment": "theme141_game4_7"
+      }
+    ],
+    "skins": {
+      "default": {
+        "theme141_game4_7": {
+          "theme141_game4_7": {
+            "width": 297,
+            "height": 34
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "bones": {
+          "huxizi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "bones": {
+          "huxizi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nzhuanpandaohuxizi.png\nsize: 301,38\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntheme141_game4_7\n  rotate: false\n  xy: 2, 2\n  size: 297, 34\n  orig: 297, 34\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "74X0eADs5B6oQGAx0bM25g"
+    }
+  ],
+  "textureNames": [
+    "zhuanpandaohuxizi.png"
+  ]
+}

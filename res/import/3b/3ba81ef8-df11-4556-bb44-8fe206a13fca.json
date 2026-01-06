@@ -1,1 +1,302 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"Yn/J+Q3va5YINcG5g1+QVbG8E1Q","spine":"3.6.53","width":135,"height":110.25,"images":"./img/"},"bones":[{"name":"root"},{"name":"bone","parent":"root","x":-6.09,"y":10.84},{"name":"xn","parent":"root"},{"name":"niushen","parent":"xn","length":43,"rotation":92.36,"x":3.98,"y":-30.37}],"slots":[{"name":"beijing","bone":"xn","attachment":"1"},{"name":"kuang","bone":"xn","attachment":"XBC"},{"name":"niushen","bone":"niushen","attachment":"2"},{"name":"kuang2","bone":"xn","attachment":"XBC"},{"name":"kuang3","bone":"bone","attachment":"XBC","blend":"additive"}],"skins":{"default":{"beijing":{"1":{"width":135,"height":101}},"kuang":{"XBC":{"width":135,"height":101}},"kuang2":{"XBC":{"type":"mesh","uvs":[1,1,0.50073,1,0.51199,0.81675,0.82049,0,1,0,0.79347,0.1937],"triangles":[5,2,3,5,3,4,0,5,4,2,5,0,1,2,0],"vertices":[67.5,-50.5,0.1,-50.5,1.62,-31.99,43.27,50.5,67.5,50.5,39.62,30.94],"hull":5,"edges":[0,8,6,8,6,10,10,4,0,2,4,2,4,6],"width":135,"height":101}},"kuang3":{"XBC":{"x":6.09,"y":-10.84,"width":135,"height":101}},"niushen":{"2":{"x":42.43,"y":6.47,"rotation":-92.36,"width":91,"height":96}}}},"animations":{"animation":{"slots":{"kuang3":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.4,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.6667,"color":"ffffff00"}]}},"bones":{"niushen":{"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":2.4,"y":-0.46,"curve":[0.25,0,0.75,1]},{"time":1,"x":0,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":1.096,"y":1.096,"curve":[0.25,0,0.75,1]},{"time":1,"x":1,"y":1}]},"bone":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.5333,"x":1.052,"y":1.052,"curve":[0.25,0,0.75,1]},{"time":1,"x":1,"y":1}]}}}}},"_atlasText":"\nspine.png\nsize: 512,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 2, 2\n  size: 135, 101\n  orig: 135, 101\n  offset: 0, 0\n  index: -1\n2\n  rotate: false\n  xy: 276, 7\n  size: 91, 96\n  orig: 91, 96\n  offset: 0, 0\n  index: -1\nXBC\n  rotate: false\n  xy: 139, 2\n  size: 135, 101\n  orig: 135, 101\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"14xlrFrrpNabLit/sT5q0q"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Yn/J+Q3va5YINcG5g1+QVbG8E1Q",
+      "spine": "3.6.53",
+      "width": 135,
+      "height": 110.25,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root",
+        "x": -6.09,
+        "y": 10.84
+      },
+      {
+        "name": "xn",
+        "parent": "root"
+      },
+      {
+        "name": "niushen",
+        "parent": "xn",
+        "length": 43,
+        "rotation": 92.36,
+        "x": 3.98,
+        "y": -30.37
+      }
+    ],
+    "slots": [
+      {
+        "name": "beijing",
+        "bone": "xn",
+        "attachment": "1"
+      },
+      {
+        "name": "kuang",
+        "bone": "xn",
+        "attachment": "XBC"
+      },
+      {
+        "name": "niushen",
+        "bone": "niushen",
+        "attachment": "2"
+      },
+      {
+        "name": "kuang2",
+        "bone": "xn",
+        "attachment": "XBC"
+      },
+      {
+        "name": "kuang3",
+        "bone": "bone",
+        "attachment": "XBC",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "beijing": {
+          "1": {
+            "width": 135,
+            "height": 101
+          }
+        },
+        "kuang": {
+          "XBC": {
+            "width": 135,
+            "height": 101
+          }
+        },
+        "kuang2": {
+          "XBC": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              1,
+              0.50073,
+              1,
+              0.51199,
+              0.81675,
+              0.82049,
+              0,
+              1,
+              0,
+              0.79347,
+              0.1937
+            ],
+            "triangles": [
+              5,
+              2,
+              3,
+              5,
+              3,
+              4,
+              0,
+              5,
+              4,
+              2,
+              5,
+              0,
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              67.5,
+              -50.5,
+              0.1,
+              -50.5,
+              1.62,
+              -31.99,
+              43.27,
+              50.5,
+              67.5,
+              50.5,
+              39.62,
+              30.94
+            ],
+            "hull": 5,
+            "edges": [
+              0,
+              8,
+              6,
+              8,
+              6,
+              10,
+              10,
+              4,
+              0,
+              2,
+              4,
+              2,
+              4,
+              6
+            ],
+            "width": 135,
+            "height": 101
+          }
+        },
+        "kuang3": {
+          "XBC": {
+            "x": 6.09,
+            "y": -10.84,
+            "width": 135,
+            "height": 101
+          }
+        },
+        "niushen": {
+          "2": {
+            "x": 42.43,
+            "y": 6.47,
+            "rotation": -92.36,
+            "width": 91,
+            "height": 96
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "kuang3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "niushen": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 2.4,
+                "y": -0.46,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.096,
+                "y": 1.096,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "bone": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5333,
+                "x": 1.052,
+                "y": 1.052,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 512,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 2, 2\n  size: 135, 101\n  orig: 135, 101\n  offset: 0, 0\n  index: -1\n2\n  rotate: false\n  xy: 276, 7\n  size: 91, 96\n  orig: 91, 96\n  offset: 0, 0\n  index: -1\nXBC\n  rotate: false\n  xy: 139, 2\n  size: 135, 101\n  orig: 135, 101\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "14xlrFrrpNabLit/sT5q0q"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

@@ -1,1 +1,810 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"hLPIxdllI+VDnAGRPkgkqhNFUZ8","spine":"3.6.53","width":189.76,"height":177.39,"images":"./img/"},"bones":[{"name":"root"},{"name":"shu1","parent":"root","x":-0.35},{"name":"1","parent":"shu1","x":0.46,"scaleX":0.938,"scaleY":0.938},{"name":"gaoliang01","parent":"1","scaleX":7.238,"scaleY":7.238},{"name":"shu","parent":"shu1","x":-1.22,"y":-1.12},{"name":"shubj","parent":"shu1"},{"name":"shuef_0","parent":"shu","x":1.69,"y":1.12},{"name":"shukuang","parent":"shu1"},{"name":"zhuanguang01","parent":"1","scaleX":2.199,"scaleY":2.199},{"name":"zhuanguang1","parent":"1","scaleX":2.199,"scaleY":2.199}],"slots":[{"name":"shubj","bone":"shubj","attachment":"bj"},{"name":"cj","bone":"root","attachment":"cj"},{"name":"zhuanguang01","bone":"zhuanguang01","attachment":"zhuanguang01","blend":"additive"},{"name":"zhuanguang1","bone":"zhuanguang1","attachment":"zhuanguang01","blend":"additive"},{"name":"gaoliang01","bone":"gaoliang01","attachment":"gaoliang01","blend":"additive"},{"name":"shuef_0/shuef_0","bone":"shuef_0","attachment":"shuef_0/shuef_9","blend":"additive"},{"name":"shukuang2","bone":"shukuang"},{"name":"shu","bone":"shu","attachment":"shu"},{"name":"shukuang","bone":"shukuang","attachment":"bk"}],"skins":{"default":{"cj":{"cj":{"type":"clipping","end":"shu","vertexCount":4,"vertices":[-59.57,38.16,59.3,38.39,58.17,-38.45,-58.22,-38],"color":"ce3a3aff"}},"gaoliang01":{"gaoliang01":{"width":21,"height":22}},"shu":{"shu":{"width":86,"height":74}},"shubj":{"bj":{"x":0.35,"width":116,"height":74}},"shuef_0/shuef_0":{"shuef_0/shuef_0":{"width":113,"height":81},"shuef_0/shuef_1":{"width":114,"height":85},"shuef_0/shuef_2":{"width":108,"height":88},"shuef_0/shuef_3":{"width":104,"height":88},"shuef_0/shuef_4":{"width":106,"height":88},"shuef_0/shuef_5":{"width":107,"height":89},"shuef_0/shuef_6":{"width":108,"height":90},"shuef_0/shuef_7":{"width":109,"height":90},"shuef_0/shuef_8":{"width":111,"height":91},"shuef_0/shuef_9":{"width":112,"height":91},"shuef_0/shuef_10":{"width":113,"height":91},"shuef_0/shuef_11":{"width":113,"height":90},"shuef_0/shuef_12":{"width":114,"height":86},"shuef_0/shuef_13":{"width":114,"height":85},"shuef_0/shuef_14":{"width":116,"height":84},"shuef_0/shuef_15":{"width":117,"height":85},"shuef_0/shuef_16":{"width":117,"height":85},"shuef_0/shuef_17":{"width":117,"height":82},"shuef_0/shuef_18":{"width":118,"height":78},"shuef_0/shuef_19":{"width":119,"height":81},"shuef_0/shuef_20":{"width":116,"height":83},"shuef_0/shuef_21":{"width":117,"height":83},"shuef_0/shuef_22":{"width":118,"height":85},"shuef_0/shuef_23":{"width":120,"height":86},"shuef_0/shuef_24":{"width":120,"height":86},"shuef_0/shuef_25":{"width":120,"height":85},"shuef_0/shuef_26":{"width":117,"height":85},"shuef_0/shuef_27":{"width":115,"height":84},"shuef_0/shuef_28":{"width":112,"height":80},"shuef_0/shuef_29":{"width":113,"height":81},"shuef_0/shuef_30":{"width":113,"height":81}},"shukuang":{"bk":{"x":0.35,"width":122,"height":80}},"shukuang2":{"bk":{"type":"mesh","uvs":[0.94262,0.33206,0.94262,0.99375,0.05738,0.99375,0.05738,0.32476],"triangles":[2,3,0,2,0,1],"vertices":[54.35,13.44,54.35,-39.5,-53.65,-39.5,-53.65,14.02],"hull":4,"edges":[2,4,4,6,2,0,6,0],"width":122,"height":80}},"zhuanguang01":{"zhuanguang01":{"width":92,"height":86}},"zhuanguang1":{"zhuanguang01":{"width":92,"height":86}}}},"animations":{"animation":{"slots":{"gaoliang01":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}]},"shuef_0/shuef_0":{"attachment":[{"time":0,"name":"shuef_0/shuef_0"},{"time":0.0333,"name":"shuef_0/shuef_1"},{"time":0.0667,"name":"shuef_0/shuef_2"},{"time":0.1,"name":"shuef_0/shuef_3"},{"time":0.1333,"name":"shuef_0/shuef_4"},{"time":0.1667,"name":"shuef_0/shuef_5"},{"time":0.2,"name":"shuef_0/shuef_6"},{"time":0.2333,"name":"shuef_0/shuef_7"},{"time":0.2667,"name":"shuef_0/shuef_8"},{"time":0.3,"name":"shuef_0/shuef_9"},{"time":0.3333,"name":"shuef_0/shuef_10"},{"time":0.3667,"name":"shuef_0/shuef_11"},{"time":0.4,"name":"shuef_0/shuef_12"},{"time":0.4333,"name":"shuef_0/shuef_13"},{"time":0.4667,"name":"shuef_0/shuef_14"},{"time":0.5,"name":"shuef_0/shuef_15"},{"time":0.5333,"name":"shuef_0/shuef_16"},{"time":0.5667,"name":"shuef_0/shuef_17"},{"time":0.6,"name":"shuef_0/shuef_18"},{"time":0.6333,"name":"shuef_0/shuef_19"},{"time":0.6667,"name":"shuef_0/shuef_20"},{"time":0.7,"name":"shuef_0/shuef_21"},{"time":0.7333,"name":"shuef_0/shuef_22"},{"time":0.7667,"name":"shuef_0/shuef_23"},{"time":0.8,"name":"shuef_0/shuef_24"},{"time":0.8333,"name":"shuef_0/shuef_25"},{"time":0.8667,"name":"shuef_0/shuef_26"},{"time":0.9,"name":"shuef_0/shuef_27"},{"time":0.9333,"name":"shuef_0/shuef_28"},{"time":0.9667,"name":"shuef_0/shuef_29"},{"time":1,"name":"shuef_0/shuef_30"},{"time":1.0333,"name":"shuef_0/shuef_0"},{"time":1.0667,"name":"shuef_0/shuef_1"},{"time":1.1,"name":"shuef_0/shuef_2"},{"time":1.1333,"name":"shuef_0/shuef_3"},{"time":1.1667,"name":"shuef_0/shuef_4"},{"time":1.2,"name":"shuef_0/shuef_5"},{"time":1.2333,"name":"shuef_0/shuef_6"},{"time":1.2667,"name":"shuef_0/shuef_7"},{"time":1.3,"name":"shuef_0/shuef_8"},{"time":1.3333,"name":"shuef_0/shuef_9"},{"time":1.3667,"name":"shuef_0/shuef_10"},{"time":1.4,"name":"shuef_0/shuef_11"},{"time":1.4333,"name":"shuef_0/shuef_12"},{"time":1.4667,"name":"shuef_0/shuef_13"},{"time":1.5,"name":"shuef_0/shuef_14"},{"time":1.5333,"name":"shuef_0/shuef_15"},{"time":1.5667,"name":"shuef_0/shuef_16"},{"time":1.6,"name":"shuef_0/shuef_17"},{"time":1.6333,"name":"shuef_0/shuef_18"},{"time":1.6667,"name":"shuef_0/shuef_19"},{"time":1.7,"name":"shuef_0/shuef_20"},{"time":1.7333,"name":"shuef_0/shuef_21"},{"time":1.7667,"name":"shuef_0/shuef_22"},{"time":1.8,"name":"shuef_0/shuef_23"},{"time":1.8333,"name":"shuef_0/shuef_24"},{"time":1.8667,"name":"shuef_0/shuef_25"},{"time":1.9,"name":"shuef_0/shuef_26"},{"time":1.9333,"name":"shuef_0/shuef_27"},{"time":1.9667,"name":"shuef_0/shuef_28"},{"time":2,"name":"shuef_0/shuef_29"},{"time":2.0333,"name":"shuef_0/shuef_30"}]},"zhuanguang01":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}]},"zhuanguang1":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}]}},"bones":{"1":{"scale":[{"time":0,"x":1.115,"y":0.874}]},"shuef_0":{"translate":[{"time":0,"x":0,"y":2.04}]},"zhuanguang01":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":2,"angle":60}]},"zhuanguang1":{"rotate":[{"time":0,"angle":60,"curve":[0.25,0,0.75,1]},{"time":2,"angle":0}]},"shu":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":1.266,"y":1.236,"curve":[0.25,0,0.75,1]},{"time":0.8333,"x":0.907,"y":0.89,"curve":[0.25,0,0.75,1]},{"time":1.3333,"x":1.035,"y":1.035,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1}]}}}}},"_atlasText":"\nspine.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbj\n  rotate: true\n  xy: 94, 3\n  size: 116, 74\n  orig: 116, 74\n  offset: 0, 0\n  index: -1\nbk\n  rotate: false\n  xy: 246, 401\n  size: 122, 80\n  orig: 122, 80\n  offset: 0, 0\n  index: -1\ngaoliang01\n  rotate: false\n  xy: 966, 459\n  size: 21, 22\n  orig: 21, 22\n  offset: 0, 0\n  index: -1\nshu\n  rotate: false\n  xy: 445, 60\n  size: 86, 74\n  orig: 86, 74\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_0\n  rotate: false\n  xy: 476, 228\n  size: 113, 81\n  orig: 113, 81\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_30\n  rotate: false\n  xy: 476, 228\n  size: 113, 81\n  orig: 113, 81\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_1\n  rotate: false\n  xy: 720, 309\n  size: 114, 85\n  orig: 114, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_10\n  rotate: false\n  xy: 2, 214\n  size: 113, 91\n  orig: 113, 91\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_11\n  rotate: true\n  xy: 2, 6\n  size: 113, 90\n  orig: 113, 90\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_12\n  rotate: false\n  xy: 244, 233\n  size: 114, 86\n  orig: 114, 86\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_13\n  rotate: false\n  xy: 360, 228\n  size: 114, 85\n  orig: 114, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_14\n  rotate: false\n  xy: 848, 397\n  size: 116, 84\n  orig: 116, 84\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_15\n  rotate: false\n  xy: 491, 396\n  size: 117, 85\n  orig: 117, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_16\n  rotate: false\n  xy: 610, 396\n  size: 117, 85\n  orig: 117, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_17\n  rotate: true\n  xy: 170, 2\n  size: 117, 82\n  orig: 117, 82\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_18\n  rotate: false\n  xy: 246, 321\n  size: 118, 78\n  orig: 118, 78\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_19\n  rotate: false\n  xy: 370, 400\n  size: 119, 81\n  orig: 119, 81\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_2\n  rotate: false\n  xy: 340, 138\n  size: 108, 88\n  orig: 108, 88\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_20\n  rotate: false\n  xy: 485, 311\n  size: 116, 83\n  orig: 116, 83\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_21\n  rotate: false\n  xy: 366, 315\n  size: 117, 83\n  orig: 117, 83\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_22\n  rotate: false\n  xy: 124, 309\n  size: 118, 85\n  orig: 118, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_23\n  rotate: false\n  xy: 2, 395\n  size: 120, 86\n  orig: 120, 86\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_24\n  rotate: false\n  xy: 2, 307\n  size: 120, 86\n  orig: 120, 86\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_25\n  rotate: false\n  xy: 124, 396\n  size: 120, 85\n  orig: 120, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_26\n  rotate: false\n  xy: 729, 396\n  size: 117, 85\n  orig: 117, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_27\n  rotate: false\n  xy: 603, 310\n  size: 115, 84\n  orig: 115, 84\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_28\n  rotate: false\n  xy: 706, 227\n  size: 112, 80\n  orig: 112, 80\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_29\n  rotate: false\n  xy: 591, 227\n  size: 113, 81\n  orig: 113, 81\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_3\n  rotate: false\n  xy: 339, 48\n  size: 104, 88\n  orig: 104, 88\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_4\n  rotate: false\n  xy: 669, 137\n  size: 106, 88\n  orig: 106, 88\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_5\n  rotate: false\n  xy: 560, 136\n  size: 107, 89\n  orig: 107, 89\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_6\n  rotate: false\n  xy: 450, 136\n  size: 108, 90\n  orig: 108, 90\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_7\n  rotate: false\n  xy: 229, 141\n  size: 109, 90\n  orig: 109, 90\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_8\n  rotate: false\n  xy: 116, 121\n  size: 111, 91\n  orig: 111, 91\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_9\n  rotate: false\n  xy: 2, 121\n  size: 112, 91\n  orig: 112, 91\n  offset: 0, 0\n  index: -1\nzhuanguang01\n  rotate: true\n  xy: 254, 50\n  size: 89, 83\n  orig: 92, 86\n  offset: 2, 1\n  index: -1\n","textures":[{"__uuid__":"698G1e4tZGdbPddxz7eOi6"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "hLPIxdllI+VDnAGRPkgkqhNFUZ8",
+      "spine": "3.6.53",
+      "width": 189.76,
+      "height": 177.39,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "shu1",
+        "parent": "root",
+        "x": -0.35
+      },
+      {
+        "name": "1",
+        "parent": "shu1",
+        "x": 0.46,
+        "scaleX": 0.938,
+        "scaleY": 0.938
+      },
+      {
+        "name": "gaoliang01",
+        "parent": "1",
+        "scaleX": 7.238,
+        "scaleY": 7.238
+      },
+      {
+        "name": "shu",
+        "parent": "shu1",
+        "x": -1.22,
+        "y": -1.12
+      },
+      {
+        "name": "shubj",
+        "parent": "shu1"
+      },
+      {
+        "name": "shuef_0",
+        "parent": "shu",
+        "x": 1.69,
+        "y": 1.12
+      },
+      {
+        "name": "shukuang",
+        "parent": "shu1"
+      },
+      {
+        "name": "zhuanguang01",
+        "parent": "1",
+        "scaleX": 2.199,
+        "scaleY": 2.199
+      },
+      {
+        "name": "zhuanguang1",
+        "parent": "1",
+        "scaleX": 2.199,
+        "scaleY": 2.199
+      }
+    ],
+    "slots": [
+      {
+        "name": "shubj",
+        "bone": "shubj",
+        "attachment": "bj"
+      },
+      {
+        "name": "cj",
+        "bone": "root",
+        "attachment": "cj"
+      },
+      {
+        "name": "zhuanguang01",
+        "bone": "zhuanguang01",
+        "attachment": "zhuanguang01",
+        "blend": "additive"
+      },
+      {
+        "name": "zhuanguang1",
+        "bone": "zhuanguang1",
+        "attachment": "zhuanguang01",
+        "blend": "additive"
+      },
+      {
+        "name": "gaoliang01",
+        "bone": "gaoliang01",
+        "attachment": "gaoliang01",
+        "blend": "additive"
+      },
+      {
+        "name": "shuef_0/shuef_0",
+        "bone": "shuef_0",
+        "attachment": "shuef_0/shuef_9",
+        "blend": "additive"
+      },
+      {
+        "name": "shukuang2",
+        "bone": "shukuang"
+      },
+      {
+        "name": "shu",
+        "bone": "shu",
+        "attachment": "shu"
+      },
+      {
+        "name": "shukuang",
+        "bone": "shukuang",
+        "attachment": "bk"
+      }
+    ],
+    "skins": {
+      "default": {
+        "cj": {
+          "cj": {
+            "type": "clipping",
+            "end": "shu",
+            "vertexCount": 4,
+            "vertices": [
+              -59.57,
+              38.16,
+              59.3,
+              38.39,
+              58.17,
+              -38.45,
+              -58.22,
+              -38
+            ],
+            "color": "ce3a3aff"
+          }
+        },
+        "gaoliang01": {
+          "gaoliang01": {
+            "width": 21,
+            "height": 22
+          }
+        },
+        "shu": {
+          "shu": {
+            "width": 86,
+            "height": 74
+          }
+        },
+        "shubj": {
+          "bj": {
+            "x": 0.35,
+            "width": 116,
+            "height": 74
+          }
+        },
+        "shuef_0/shuef_0": {
+          "shuef_0/shuef_0": {
+            "width": 113,
+            "height": 81
+          },
+          "shuef_0/shuef_1": {
+            "width": 114,
+            "height": 85
+          },
+          "shuef_0/shuef_2": {
+            "width": 108,
+            "height": 88
+          },
+          "shuef_0/shuef_3": {
+            "width": 104,
+            "height": 88
+          },
+          "shuef_0/shuef_4": {
+            "width": 106,
+            "height": 88
+          },
+          "shuef_0/shuef_5": {
+            "width": 107,
+            "height": 89
+          },
+          "shuef_0/shuef_6": {
+            "width": 108,
+            "height": 90
+          },
+          "shuef_0/shuef_7": {
+            "width": 109,
+            "height": 90
+          },
+          "shuef_0/shuef_8": {
+            "width": 111,
+            "height": 91
+          },
+          "shuef_0/shuef_9": {
+            "width": 112,
+            "height": 91
+          },
+          "shuef_0/shuef_10": {
+            "width": 113,
+            "height": 91
+          },
+          "shuef_0/shuef_11": {
+            "width": 113,
+            "height": 90
+          },
+          "shuef_0/shuef_12": {
+            "width": 114,
+            "height": 86
+          },
+          "shuef_0/shuef_13": {
+            "width": 114,
+            "height": 85
+          },
+          "shuef_0/shuef_14": {
+            "width": 116,
+            "height": 84
+          },
+          "shuef_0/shuef_15": {
+            "width": 117,
+            "height": 85
+          },
+          "shuef_0/shuef_16": {
+            "width": 117,
+            "height": 85
+          },
+          "shuef_0/shuef_17": {
+            "width": 117,
+            "height": 82
+          },
+          "shuef_0/shuef_18": {
+            "width": 118,
+            "height": 78
+          },
+          "shuef_0/shuef_19": {
+            "width": 119,
+            "height": 81
+          },
+          "shuef_0/shuef_20": {
+            "width": 116,
+            "height": 83
+          },
+          "shuef_0/shuef_21": {
+            "width": 117,
+            "height": 83
+          },
+          "shuef_0/shuef_22": {
+            "width": 118,
+            "height": 85
+          },
+          "shuef_0/shuef_23": {
+            "width": 120,
+            "height": 86
+          },
+          "shuef_0/shuef_24": {
+            "width": 120,
+            "height": 86
+          },
+          "shuef_0/shuef_25": {
+            "width": 120,
+            "height": 85
+          },
+          "shuef_0/shuef_26": {
+            "width": 117,
+            "height": 85
+          },
+          "shuef_0/shuef_27": {
+            "width": 115,
+            "height": 84
+          },
+          "shuef_0/shuef_28": {
+            "width": 112,
+            "height": 80
+          },
+          "shuef_0/shuef_29": {
+            "width": 113,
+            "height": 81
+          },
+          "shuef_0/shuef_30": {
+            "width": 113,
+            "height": 81
+          }
+        },
+        "shukuang": {
+          "bk": {
+            "x": 0.35,
+            "width": 122,
+            "height": 80
+          }
+        },
+        "shukuang2": {
+          "bk": {
+            "type": "mesh",
+            "uvs": [
+              0.94262,
+              0.33206,
+              0.94262,
+              0.99375,
+              0.05738,
+              0.99375,
+              0.05738,
+              0.32476
+            ],
+            "triangles": [
+              2,
+              3,
+              0,
+              2,
+              0,
+              1
+            ],
+            "vertices": [
+              54.35,
+              13.44,
+              54.35,
+              -39.5,
+              -53.65,
+              -39.5,
+              -53.65,
+              14.02
+            ],
+            "hull": 4,
+            "edges": [
+              2,
+              4,
+              4,
+              6,
+              2,
+              0,
+              6,
+              0
+            ],
+            "width": 122,
+            "height": 80
+          }
+        },
+        "zhuanguang01": {
+          "zhuanguang01": {
+            "width": 92,
+            "height": 86
+          }
+        },
+        "zhuanguang1": {
+          "zhuanguang01": {
+            "width": 92,
+            "height": 86
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "gaoliang01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "shuef_0/shuef_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "shuef_0/shuef_0"
+              },
+              {
+                "time": 0.0333,
+                "name": "shuef_0/shuef_1"
+              },
+              {
+                "time": 0.0667,
+                "name": "shuef_0/shuef_2"
+              },
+              {
+                "time": 0.1,
+                "name": "shuef_0/shuef_3"
+              },
+              {
+                "time": 0.1333,
+                "name": "shuef_0/shuef_4"
+              },
+              {
+                "time": 0.1667,
+                "name": "shuef_0/shuef_5"
+              },
+              {
+                "time": 0.2,
+                "name": "shuef_0/shuef_6"
+              },
+              {
+                "time": 0.2333,
+                "name": "shuef_0/shuef_7"
+              },
+              {
+                "time": 0.2667,
+                "name": "shuef_0/shuef_8"
+              },
+              {
+                "time": 0.3,
+                "name": "shuef_0/shuef_9"
+              },
+              {
+                "time": 0.3333,
+                "name": "shuef_0/shuef_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "shuef_0/shuef_11"
+              },
+              {
+                "time": 0.4,
+                "name": "shuef_0/shuef_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "shuef_0/shuef_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "shuef_0/shuef_14"
+              },
+              {
+                "time": 0.5,
+                "name": "shuef_0/shuef_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "shuef_0/shuef_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "shuef_0/shuef_17"
+              },
+              {
+                "time": 0.6,
+                "name": "shuef_0/shuef_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "shuef_0/shuef_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "shuef_0/shuef_20"
+              },
+              {
+                "time": 0.7,
+                "name": "shuef_0/shuef_21"
+              },
+              {
+                "time": 0.7333,
+                "name": "shuef_0/shuef_22"
+              },
+              {
+                "time": 0.7667,
+                "name": "shuef_0/shuef_23"
+              },
+              {
+                "time": 0.8,
+                "name": "shuef_0/shuef_24"
+              },
+              {
+                "time": 0.8333,
+                "name": "shuef_0/shuef_25"
+              },
+              {
+                "time": 0.8667,
+                "name": "shuef_0/shuef_26"
+              },
+              {
+                "time": 0.9,
+                "name": "shuef_0/shuef_27"
+              },
+              {
+                "time": 0.9333,
+                "name": "shuef_0/shuef_28"
+              },
+              {
+                "time": 0.9667,
+                "name": "shuef_0/shuef_29"
+              },
+              {
+                "time": 1,
+                "name": "shuef_0/shuef_30"
+              },
+              {
+                "time": 1.0333,
+                "name": "shuef_0/shuef_0"
+              },
+              {
+                "time": 1.0667,
+                "name": "shuef_0/shuef_1"
+              },
+              {
+                "time": 1.1,
+                "name": "shuef_0/shuef_2"
+              },
+              {
+                "time": 1.1333,
+                "name": "shuef_0/shuef_3"
+              },
+              {
+                "time": 1.1667,
+                "name": "shuef_0/shuef_4"
+              },
+              {
+                "time": 1.2,
+                "name": "shuef_0/shuef_5"
+              },
+              {
+                "time": 1.2333,
+                "name": "shuef_0/shuef_6"
+              },
+              {
+                "time": 1.2667,
+                "name": "shuef_0/shuef_7"
+              },
+              {
+                "time": 1.3,
+                "name": "shuef_0/shuef_8"
+              },
+              {
+                "time": 1.3333,
+                "name": "shuef_0/shuef_9"
+              },
+              {
+                "time": 1.3667,
+                "name": "shuef_0/shuef_10"
+              },
+              {
+                "time": 1.4,
+                "name": "shuef_0/shuef_11"
+              },
+              {
+                "time": 1.4333,
+                "name": "shuef_0/shuef_12"
+              },
+              {
+                "time": 1.4667,
+                "name": "shuef_0/shuef_13"
+              },
+              {
+                "time": 1.5,
+                "name": "shuef_0/shuef_14"
+              },
+              {
+                "time": 1.5333,
+                "name": "shuef_0/shuef_15"
+              },
+              {
+                "time": 1.5667,
+                "name": "shuef_0/shuef_16"
+              },
+              {
+                "time": 1.6,
+                "name": "shuef_0/shuef_17"
+              },
+              {
+                "time": 1.6333,
+                "name": "shuef_0/shuef_18"
+              },
+              {
+                "time": 1.6667,
+                "name": "shuef_0/shuef_19"
+              },
+              {
+                "time": 1.7,
+                "name": "shuef_0/shuef_20"
+              },
+              {
+                "time": 1.7333,
+                "name": "shuef_0/shuef_21"
+              },
+              {
+                "time": 1.7667,
+                "name": "shuef_0/shuef_22"
+              },
+              {
+                "time": 1.8,
+                "name": "shuef_0/shuef_23"
+              },
+              {
+                "time": 1.8333,
+                "name": "shuef_0/shuef_24"
+              },
+              {
+                "time": 1.8667,
+                "name": "shuef_0/shuef_25"
+              },
+              {
+                "time": 1.9,
+                "name": "shuef_0/shuef_26"
+              },
+              {
+                "time": 1.9333,
+                "name": "shuef_0/shuef_27"
+              },
+              {
+                "time": 1.9667,
+                "name": "shuef_0/shuef_28"
+              },
+              {
+                "time": 2,
+                "name": "shuef_0/shuef_29"
+              },
+              {
+                "time": 2.0333,
+                "name": "shuef_0/shuef_30"
+              }
+            ]
+          },
+          "zhuanguang01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "zhuanguang1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "1": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.115,
+                "y": 0.874
+              }
+            ]
+          },
+          "shuef_0": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 2.04
+              }
+            ]
+          },
+          "zhuanguang01": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 60
+              }
+            ]
+          },
+          "zhuanguang1": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 60,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          },
+          "shu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.266,
+                "y": 1.236,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 0.907,
+                "y": 0.89,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 1.035,
+                "y": 1.035,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbj\n  rotate: true\n  xy: 94, 3\n  size: 116, 74\n  orig: 116, 74\n  offset: 0, 0\n  index: -1\nbk\n  rotate: false\n  xy: 246, 401\n  size: 122, 80\n  orig: 122, 80\n  offset: 0, 0\n  index: -1\ngaoliang01\n  rotate: false\n  xy: 966, 459\n  size: 21, 22\n  orig: 21, 22\n  offset: 0, 0\n  index: -1\nshu\n  rotate: false\n  xy: 445, 60\n  size: 86, 74\n  orig: 86, 74\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_0\n  rotate: false\n  xy: 476, 228\n  size: 113, 81\n  orig: 113, 81\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_30\n  rotate: false\n  xy: 476, 228\n  size: 113, 81\n  orig: 113, 81\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_1\n  rotate: false\n  xy: 720, 309\n  size: 114, 85\n  orig: 114, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_10\n  rotate: false\n  xy: 2, 214\n  size: 113, 91\n  orig: 113, 91\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_11\n  rotate: true\n  xy: 2, 6\n  size: 113, 90\n  orig: 113, 90\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_12\n  rotate: false\n  xy: 244, 233\n  size: 114, 86\n  orig: 114, 86\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_13\n  rotate: false\n  xy: 360, 228\n  size: 114, 85\n  orig: 114, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_14\n  rotate: false\n  xy: 848, 397\n  size: 116, 84\n  orig: 116, 84\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_15\n  rotate: false\n  xy: 491, 396\n  size: 117, 85\n  orig: 117, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_16\n  rotate: false\n  xy: 610, 396\n  size: 117, 85\n  orig: 117, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_17\n  rotate: true\n  xy: 170, 2\n  size: 117, 82\n  orig: 117, 82\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_18\n  rotate: false\n  xy: 246, 321\n  size: 118, 78\n  orig: 118, 78\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_19\n  rotate: false\n  xy: 370, 400\n  size: 119, 81\n  orig: 119, 81\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_2\n  rotate: false\n  xy: 340, 138\n  size: 108, 88\n  orig: 108, 88\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_20\n  rotate: false\n  xy: 485, 311\n  size: 116, 83\n  orig: 116, 83\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_21\n  rotate: false\n  xy: 366, 315\n  size: 117, 83\n  orig: 117, 83\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_22\n  rotate: false\n  xy: 124, 309\n  size: 118, 85\n  orig: 118, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_23\n  rotate: false\n  xy: 2, 395\n  size: 120, 86\n  orig: 120, 86\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_24\n  rotate: false\n  xy: 2, 307\n  size: 120, 86\n  orig: 120, 86\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_25\n  rotate: false\n  xy: 124, 396\n  size: 120, 85\n  orig: 120, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_26\n  rotate: false\n  xy: 729, 396\n  size: 117, 85\n  orig: 117, 85\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_27\n  rotate: false\n  xy: 603, 310\n  size: 115, 84\n  orig: 115, 84\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_28\n  rotate: false\n  xy: 706, 227\n  size: 112, 80\n  orig: 112, 80\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_29\n  rotate: false\n  xy: 591, 227\n  size: 113, 81\n  orig: 113, 81\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_3\n  rotate: false\n  xy: 339, 48\n  size: 104, 88\n  orig: 104, 88\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_4\n  rotate: false\n  xy: 669, 137\n  size: 106, 88\n  orig: 106, 88\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_5\n  rotate: false\n  xy: 560, 136\n  size: 107, 89\n  orig: 107, 89\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_6\n  rotate: false\n  xy: 450, 136\n  size: 108, 90\n  orig: 108, 90\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_7\n  rotate: false\n  xy: 229, 141\n  size: 109, 90\n  orig: 109, 90\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_8\n  rotate: false\n  xy: 116, 121\n  size: 111, 91\n  orig: 111, 91\n  offset: 0, 0\n  index: -1\nshuef_0/shuef_9\n  rotate: false\n  xy: 2, 121\n  size: 112, 91\n  orig: 112, 91\n  offset: 0, 0\n  index: -1\nzhuanguang01\n  rotate: true\n  xy: 254, 50\n  size: 89, 83\n  orig: 92, 86\n  offset: 2, 1\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "698G1e4tZGdbPddxz7eOi6"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

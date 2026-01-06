@@ -1,1 +1,717 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"gDuU3Nr4UHzS6V+BPOferUi3BvM","spine":"3.6.53","width":113,"height":110,"images":"./img/"},"bones":[{"name":"root"},{"name":"1","parent":"root","scaleX":0.5,"scaleY":0.5},{"name":"baolizi_1","parent":"1","y":-5.17,"scaleX":2,"scaleY":2},{"name":"xingxing","parent":"1"},{"name":"gaoliang01","parent":"xingxing","scaleX":2,"scaleY":2},{"name":"gaoliang1","parent":"xingxing","scaleX":2,"scaleY":2}],"slots":[{"name":"baolizi/baolizi_1","bone":"baolizi_1","attachment":"baolizi/baolizi_1"},{"name":"jinxingxing","bone":"xingxing"},{"name":"baolizi/baolizi_2","bone":"baolizi_1","attachment":"baolizi/baolizi_1","blend":"additive"},{"name":"gaoliang1","bone":"gaoliang01","attachment":"gaoliang01"},{"name":"gaoliang2","bone":"gaoliang1","attachment":"gaoliang01","blend":"additive"}],"skins":{"default":{"baolizi/baolizi_1":{"baolizi/baolizi_1":{"width":79,"height":83},"baolizi/baolizi_2":{"width":79,"height":82},"baolizi/baolizi_3":{"width":79,"height":81},"baolizi/baolizi_4":{"width":80,"height":82},"baolizi/baolizi_5":{"width":81,"height":82},"baolizi/baolizi_6":{"width":81,"height":82},"baolizi/baolizi_7":{"width":81,"height":84},"baolizi/baolizi_8":{"width":81,"height":85},"baolizi/baolizi_9":{"width":80,"height":86},"baolizi/baolizi_10":{"width":82,"height":88},"baolizi/baolizi_11":{"width":83,"height":89},"baolizi/baolizi_12":{"width":84,"height":90},"baolizi/baolizi_13":{"width":85,"height":95},"baolizi/baolizi_14":{"width":85,"height":87},"baolizi/baolizi_15":{"width":84,"height":87},"baolizi/baolizi_16":{"width":86,"height":88},"baolizi/baolizi_17":{"width":87,"height":89},"baolizi/baolizi_18":{"width":88,"height":90},"baolizi/baolizi_19":{"width":90,"height":91},"baolizi/baolizi_20":{"width":86,"height":92},"baolizi/baolizi_21":{"width":86,"height":91},"baolizi/baolizi_22":{"width":87,"height":91},"baolizi/baolizi_23":{"width":87,"height":93},"baolizi/baolizi_24":{"width":85,"height":92},"baolizi/baolizi_25":{"width":86,"height":92},"baolizi/baolizi_26":{"width":85,"height":90},"baolizi/baolizi_27":{"width":64,"height":87}},"baolizi/baolizi_2":{"baolizi/baolizi_1":{"width":79,"height":83},"baolizi/baolizi_2":{"width":79,"height":82},"baolizi/baolizi_3":{"width":79,"height":81},"baolizi/baolizi_4":{"width":80,"height":82},"baolizi/baolizi_5":{"width":81,"height":82},"baolizi/baolizi_6":{"width":81,"height":82},"baolizi/baolizi_7":{"width":81,"height":84},"baolizi/baolizi_8":{"width":81,"height":85},"baolizi/baolizi_9":{"width":80,"height":86},"baolizi/baolizi_10":{"width":82,"height":88},"baolizi/baolizi_11":{"width":83,"height":89},"baolizi/baolizi_12":{"width":84,"height":90},"baolizi/baolizi_13":{"width":85,"height":95},"baolizi/baolizi_14":{"width":85,"height":87},"baolizi/baolizi_15":{"width":84,"height":87},"baolizi/baolizi_16":{"width":86,"height":88},"baolizi/baolizi_17":{"width":87,"height":89},"baolizi/baolizi_18":{"width":88,"height":90},"baolizi/baolizi_19":{"width":90,"height":91},"baolizi/baolizi_20":{"width":86,"height":92},"baolizi/baolizi_21":{"width":86,"height":91},"baolizi/baolizi_22":{"width":87,"height":91},"baolizi/baolizi_23":{"width":87,"height":93},"baolizi/baolizi_24":{"width":85,"height":92},"baolizi/baolizi_25":{"width":86,"height":92},"baolizi/baolizi_26":{"width":85,"height":90},"baolizi/baolizi_27":{"width":64,"height":87}},"gaoliang1":{"gaoliang01":{"width":113,"height":110}},"gaoliang2":{"gaoliang01":{"width":113,"height":110}},"jinxingxing":{"images/tongxingxing":{"x":0.09,"y":1.77,"width":136,"height":136}}}},"animations":{"animation":{"slots":{"baolizi/baolizi_1":{"attachment":[{"time":0,"name":null},{"time":0.9333,"name":"baolizi/baolizi_1"},{"time":0.9667,"name":"baolizi/baolizi_2"},{"time":1,"name":"baolizi/baolizi_3"},{"time":1.0333,"name":"baolizi/baolizi_4"},{"time":1.0667,"name":"baolizi/baolizi_5"},{"time":1.1,"name":"baolizi/baolizi_6"},{"time":1.1333,"name":"baolizi/baolizi_7"},{"time":1.1667,"name":"baolizi/baolizi_8"},{"time":1.2,"name":"baolizi/baolizi_9"},{"time":1.2333,"name":"baolizi/baolizi_10"},{"time":1.2667,"name":"baolizi/baolizi_11"},{"time":1.3,"name":"baolizi/baolizi_12"},{"time":1.3333,"name":"baolizi/baolizi_13"},{"time":1.3667,"name":"baolizi/baolizi_14"},{"time":1.4,"name":"baolizi/baolizi_15"},{"time":1.4333,"name":"baolizi/baolizi_16"},{"time":1.4667,"name":"baolizi/baolizi_17"},{"time":1.5,"name":"baolizi/baolizi_18"},{"time":1.5333,"name":"baolizi/baolizi_19"},{"time":1.5667,"name":"baolizi/baolizi_20"},{"time":1.6,"name":"baolizi/baolizi_21"},{"time":1.6333,"name":"baolizi/baolizi_22"},{"time":1.6667,"name":"baolizi/baolizi_23"},{"time":1.7,"name":"baolizi/baolizi_24"},{"time":1.7333,"name":"baolizi/baolizi_25"},{"time":1.7667,"name":"baolizi/baolizi_26"},{"time":1.8,"name":"baolizi/baolizi_27"},{"time":1.8333,"name":null}]},"baolizi/baolizi_2":{"attachment":[{"time":0,"name":null},{"time":0.9333,"name":"baolizi/baolizi_1"},{"time":0.9667,"name":"baolizi/baolizi_2"},{"time":1,"name":"baolizi/baolizi_3"},{"time":1.0333,"name":"baolizi/baolizi_4"},{"time":1.0667,"name":"baolizi/baolizi_5"},{"time":1.1,"name":"baolizi/baolizi_6"},{"time":1.1333,"name":"baolizi/baolizi_7"},{"time":1.1667,"name":"baolizi/baolizi_8"},{"time":1.2,"name":"baolizi/baolizi_9"},{"time":1.2333,"name":"baolizi/baolizi_10"},{"time":1.2667,"name":"baolizi/baolizi_11"},{"time":1.3,"name":"baolizi/baolizi_12"},{"time":1.3333,"name":"baolizi/baolizi_13"},{"time":1.3667,"name":"baolizi/baolizi_14"},{"time":1.4,"name":"baolizi/baolizi_15"},{"time":1.4333,"name":"baolizi/baolizi_16"},{"time":1.4667,"name":"baolizi/baolizi_17"},{"time":1.5,"name":"baolizi/baolizi_18"},{"time":1.5333,"name":"baolizi/baolizi_19"},{"time":1.5667,"name":"baolizi/baolizi_20"},{"time":1.6,"name":"baolizi/baolizi_21"},{"time":1.6333,"name":"baolizi/baolizi_22"},{"time":1.6667,"name":"baolizi/baolizi_23"},{"time":1.7,"name":"baolizi/baolizi_24"},{"time":1.7333,"name":"baolizi/baolizi_25"},{"time":1.7667,"name":"baolizi/baolizi_26"},{"time":1.8,"name":"baolizi/baolizi_27"},{"time":1.8333,"name":null}]},"gaoliang1":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.8333,"color":"ffffff00"},{"time":0.9333,"color":"a600ff97"},{"time":1.5,"color":"ffffff00","curve":"stepped"},{"time":2,"color":"ffffff00"}]},"gaoliang2":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.8333,"color":"ffffff00"},{"time":0.9333,"color":"88c3ffff"},{"time":1.5,"color":"ffffff00","curve":"stepped"},{"time":2,"color":"ffffff00"}]},"jinxingxing":{"attachment":[{"time":0,"name":"images/tongxingxing"}]}},"bones":{"baolizi_1":{"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.9333,"x":1,"y":1},{"time":1.8333,"x":1.165,"y":1.165}]},"xingxing":{"rotate":[{"time":0,"angle":0},{"time":0.3333,"angle":180,"curve":[0.066,0.07,0.75,1]},{"time":0.7667,"angle":0}],"scale":[{"time":0,"x":1,"y":1},{"time":0.3333,"x":1.132,"y":1.132},{"time":0.7667,"x":1.544,"y":1.544,"curve":[0.25,0,1,0.91]},{"time":0.8667,"x":0.9,"y":0.9,"curve":[0.25,0,0.75,1]},{"time":1.1667,"x":1,"y":1}]}}}}},"_atlasText":"\nspine.png\nsize: 521,521\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbaolizi/baolizi_1\n  rotate: false\n  xy: 262, 86\n  size: 79, 82\n  orig: 79, 83\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_10\n  rotate: true\n  xy: 182, 170\n  size: 82, 88\n  orig: 82, 88\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_11\n  rotate: true\n  xy: 91, 170\n  size: 83, 89\n  orig: 83, 89\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_12\n  rotate: true\n  xy: 130, 342\n  size: 84, 90\n  orig: 84, 90\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_13\n  rotate: true\n  xy: 222, 434\n  size: 85, 94\n  orig: 85, 95\n  offset: 0, 1\n  index: -1\nbaolizi/baolizi_14\n  rotate: false\n  xy: 90, 81\n  size: 84, 87\n  orig: 85, 87\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_15\n  rotate: false\n  xy: 176, 81\n  size: 84, 87\n  orig: 84, 87\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_16\n  rotate: true\n  xy: 193, 254\n  size: 86, 88\n  orig: 86, 88\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_17\n  rotate: true\n  xy: 405, 344\n  size: 87, 89\n  orig: 87, 89\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_18\n  rotate: false\n  xy: 222, 342\n  size: 88, 90\n  orig: 88, 90\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_19\n  rotate: false\n  xy: 130, 428\n  size: 90, 91\n  orig: 90, 91\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_2\n  rotate: false\n  xy: 359, 171\n  size: 79, 81\n  orig: 79, 82\n  offset: 0, 1\n  index: -1\nbaolizi/baolizi_20\n  rotate: false\n  xy: 2, 105\n  size: 86, 92\n  orig: 86, 92\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_21\n  rotate: true\n  xy: 412, 433\n  size: 86, 91\n  orig: 86, 91\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_22\n  rotate: true\n  xy: 312, 345\n  size: 87, 91\n  orig: 87, 91\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_23\n  rotate: false\n  xy: 2, 199\n  size: 87, 93\n  orig: 87, 93\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_24\n  rotate: true\n  xy: 318, 434\n  size: 85, 92\n  orig: 85, 92\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_25\n  rotate: false\n  xy: 2, 11\n  size: 86, 92\n  orig: 86, 92\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_26\n  rotate: true\n  xy: 101, 255\n  size: 85, 90\n  orig: 85, 90\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_27\n  rotate: true\n  xy: 90, 15\n  size: 64, 87\n  orig: 64, 87\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_3\n  rotate: false\n  xy: 440, 175\n  size: 79, 81\n  orig: 79, 81\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_4\n  rotate: false\n  xy: 343, 87\n  size: 80, 82\n  orig: 80, 82\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_5\n  rotate: false\n  xy: 425, 87\n  size: 81, 82\n  orig: 81, 82\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_6\n  rotate: false\n  xy: 262, 2\n  size: 81, 82\n  orig: 81, 82\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_7\n  rotate: false\n  xy: 365, 258\n  size: 81, 84\n  orig: 81, 84\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_8\n  rotate: true\n  xy: 272, 171\n  size: 81, 85\n  orig: 81, 85\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_9\n  rotate: false\n  xy: 283, 254\n  size: 80, 86\n  orig: 80, 86\n  offset: 0, 0\n  index: -1\ngaoliang01\n  rotate: false\n  xy: 2, 294\n  size: 97, 97\n  orig: 113, 110\n  offset: 8, 6\n  index: -1\nimages/tongxingxing\n  rotate: false\n  xy: 2, 393\n  size: 126, 126\n  orig: 136, 136\n  offset: 5, 5\n  index: -1\n","textures":[{"__uuid__":"4cqf8hP9NO7bYexQ+GrMcs"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "gDuU3Nr4UHzS6V+BPOferUi3BvM",
+      "spine": "3.6.53",
+      "width": 113,
+      "height": 110,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "1",
+        "parent": "root",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "baolizi_1",
+        "parent": "1",
+        "y": -5.17,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "xingxing",
+        "parent": "1"
+      },
+      {
+        "name": "gaoliang01",
+        "parent": "xingxing",
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "gaoliang1",
+        "parent": "xingxing",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "baolizi/baolizi_1",
+        "bone": "baolizi_1",
+        "attachment": "baolizi/baolizi_1"
+      },
+      {
+        "name": "jinxingxing",
+        "bone": "xingxing"
+      },
+      {
+        "name": "baolizi/baolizi_2",
+        "bone": "baolizi_1",
+        "attachment": "baolizi/baolizi_1",
+        "blend": "additive"
+      },
+      {
+        "name": "gaoliang1",
+        "bone": "gaoliang01",
+        "attachment": "gaoliang01"
+      },
+      {
+        "name": "gaoliang2",
+        "bone": "gaoliang1",
+        "attachment": "gaoliang01",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "baolizi/baolizi_1": {
+          "baolizi/baolizi_1": {
+            "width": 79,
+            "height": 83
+          },
+          "baolizi/baolizi_2": {
+            "width": 79,
+            "height": 82
+          },
+          "baolizi/baolizi_3": {
+            "width": 79,
+            "height": 81
+          },
+          "baolizi/baolizi_4": {
+            "width": 80,
+            "height": 82
+          },
+          "baolizi/baolizi_5": {
+            "width": 81,
+            "height": 82
+          },
+          "baolizi/baolizi_6": {
+            "width": 81,
+            "height": 82
+          },
+          "baolizi/baolizi_7": {
+            "width": 81,
+            "height": 84
+          },
+          "baolizi/baolizi_8": {
+            "width": 81,
+            "height": 85
+          },
+          "baolizi/baolizi_9": {
+            "width": 80,
+            "height": 86
+          },
+          "baolizi/baolizi_10": {
+            "width": 82,
+            "height": 88
+          },
+          "baolizi/baolizi_11": {
+            "width": 83,
+            "height": 89
+          },
+          "baolizi/baolizi_12": {
+            "width": 84,
+            "height": 90
+          },
+          "baolizi/baolizi_13": {
+            "width": 85,
+            "height": 95
+          },
+          "baolizi/baolizi_14": {
+            "width": 85,
+            "height": 87
+          },
+          "baolizi/baolizi_15": {
+            "width": 84,
+            "height": 87
+          },
+          "baolizi/baolizi_16": {
+            "width": 86,
+            "height": 88
+          },
+          "baolizi/baolizi_17": {
+            "width": 87,
+            "height": 89
+          },
+          "baolizi/baolizi_18": {
+            "width": 88,
+            "height": 90
+          },
+          "baolizi/baolizi_19": {
+            "width": 90,
+            "height": 91
+          },
+          "baolizi/baolizi_20": {
+            "width": 86,
+            "height": 92
+          },
+          "baolizi/baolizi_21": {
+            "width": 86,
+            "height": 91
+          },
+          "baolizi/baolizi_22": {
+            "width": 87,
+            "height": 91
+          },
+          "baolizi/baolizi_23": {
+            "width": 87,
+            "height": 93
+          },
+          "baolizi/baolizi_24": {
+            "width": 85,
+            "height": 92
+          },
+          "baolizi/baolizi_25": {
+            "width": 86,
+            "height": 92
+          },
+          "baolizi/baolizi_26": {
+            "width": 85,
+            "height": 90
+          },
+          "baolizi/baolizi_27": {
+            "width": 64,
+            "height": 87
+          }
+        },
+        "baolizi/baolizi_2": {
+          "baolizi/baolizi_1": {
+            "width": 79,
+            "height": 83
+          },
+          "baolizi/baolizi_2": {
+            "width": 79,
+            "height": 82
+          },
+          "baolizi/baolizi_3": {
+            "width": 79,
+            "height": 81
+          },
+          "baolizi/baolizi_4": {
+            "width": 80,
+            "height": 82
+          },
+          "baolizi/baolizi_5": {
+            "width": 81,
+            "height": 82
+          },
+          "baolizi/baolizi_6": {
+            "width": 81,
+            "height": 82
+          },
+          "baolizi/baolizi_7": {
+            "width": 81,
+            "height": 84
+          },
+          "baolizi/baolizi_8": {
+            "width": 81,
+            "height": 85
+          },
+          "baolizi/baolizi_9": {
+            "width": 80,
+            "height": 86
+          },
+          "baolizi/baolizi_10": {
+            "width": 82,
+            "height": 88
+          },
+          "baolizi/baolizi_11": {
+            "width": 83,
+            "height": 89
+          },
+          "baolizi/baolizi_12": {
+            "width": 84,
+            "height": 90
+          },
+          "baolizi/baolizi_13": {
+            "width": 85,
+            "height": 95
+          },
+          "baolizi/baolizi_14": {
+            "width": 85,
+            "height": 87
+          },
+          "baolizi/baolizi_15": {
+            "width": 84,
+            "height": 87
+          },
+          "baolizi/baolizi_16": {
+            "width": 86,
+            "height": 88
+          },
+          "baolizi/baolizi_17": {
+            "width": 87,
+            "height": 89
+          },
+          "baolizi/baolizi_18": {
+            "width": 88,
+            "height": 90
+          },
+          "baolizi/baolizi_19": {
+            "width": 90,
+            "height": 91
+          },
+          "baolizi/baolizi_20": {
+            "width": 86,
+            "height": 92
+          },
+          "baolizi/baolizi_21": {
+            "width": 86,
+            "height": 91
+          },
+          "baolizi/baolizi_22": {
+            "width": 87,
+            "height": 91
+          },
+          "baolizi/baolizi_23": {
+            "width": 87,
+            "height": 93
+          },
+          "baolizi/baolizi_24": {
+            "width": 85,
+            "height": 92
+          },
+          "baolizi/baolizi_25": {
+            "width": 86,
+            "height": 92
+          },
+          "baolizi/baolizi_26": {
+            "width": 85,
+            "height": 90
+          },
+          "baolizi/baolizi_27": {
+            "width": 64,
+            "height": 87
+          }
+        },
+        "gaoliang1": {
+          "gaoliang01": {
+            "width": 113,
+            "height": 110
+          }
+        },
+        "gaoliang2": {
+          "gaoliang01": {
+            "width": 113,
+            "height": 110
+          }
+        },
+        "jinxingxing": {
+          "images/tongxingxing": {
+            "x": 0.09,
+            "y": 1.77,
+            "width": 136,
+            "height": 136
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "baolizi/baolizi_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.9333,
+                "name": "baolizi/baolizi_1"
+              },
+              {
+                "time": 0.9667,
+                "name": "baolizi/baolizi_2"
+              },
+              {
+                "time": 1,
+                "name": "baolizi/baolizi_3"
+              },
+              {
+                "time": 1.0333,
+                "name": "baolizi/baolizi_4"
+              },
+              {
+                "time": 1.0667,
+                "name": "baolizi/baolizi_5"
+              },
+              {
+                "time": 1.1,
+                "name": "baolizi/baolizi_6"
+              },
+              {
+                "time": 1.1333,
+                "name": "baolizi/baolizi_7"
+              },
+              {
+                "time": 1.1667,
+                "name": "baolizi/baolizi_8"
+              },
+              {
+                "time": 1.2,
+                "name": "baolizi/baolizi_9"
+              },
+              {
+                "time": 1.2333,
+                "name": "baolizi/baolizi_10"
+              },
+              {
+                "time": 1.2667,
+                "name": "baolizi/baolizi_11"
+              },
+              {
+                "time": 1.3,
+                "name": "baolizi/baolizi_12"
+              },
+              {
+                "time": 1.3333,
+                "name": "baolizi/baolizi_13"
+              },
+              {
+                "time": 1.3667,
+                "name": "baolizi/baolizi_14"
+              },
+              {
+                "time": 1.4,
+                "name": "baolizi/baolizi_15"
+              },
+              {
+                "time": 1.4333,
+                "name": "baolizi/baolizi_16"
+              },
+              {
+                "time": 1.4667,
+                "name": "baolizi/baolizi_17"
+              },
+              {
+                "time": 1.5,
+                "name": "baolizi/baolizi_18"
+              },
+              {
+                "time": 1.5333,
+                "name": "baolizi/baolizi_19"
+              },
+              {
+                "time": 1.5667,
+                "name": "baolizi/baolizi_20"
+              },
+              {
+                "time": 1.6,
+                "name": "baolizi/baolizi_21"
+              },
+              {
+                "time": 1.6333,
+                "name": "baolizi/baolizi_22"
+              },
+              {
+                "time": 1.6667,
+                "name": "baolizi/baolizi_23"
+              },
+              {
+                "time": 1.7,
+                "name": "baolizi/baolizi_24"
+              },
+              {
+                "time": 1.7333,
+                "name": "baolizi/baolizi_25"
+              },
+              {
+                "time": 1.7667,
+                "name": "baolizi/baolizi_26"
+              },
+              {
+                "time": 1.8,
+                "name": "baolizi/baolizi_27"
+              },
+              {
+                "time": 1.8333,
+                "name": null
+              }
+            ]
+          },
+          "baolizi/baolizi_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.9333,
+                "name": "baolizi/baolizi_1"
+              },
+              {
+                "time": 0.9667,
+                "name": "baolizi/baolizi_2"
+              },
+              {
+                "time": 1,
+                "name": "baolizi/baolizi_3"
+              },
+              {
+                "time": 1.0333,
+                "name": "baolizi/baolizi_4"
+              },
+              {
+                "time": 1.0667,
+                "name": "baolizi/baolizi_5"
+              },
+              {
+                "time": 1.1,
+                "name": "baolizi/baolizi_6"
+              },
+              {
+                "time": 1.1333,
+                "name": "baolizi/baolizi_7"
+              },
+              {
+                "time": 1.1667,
+                "name": "baolizi/baolizi_8"
+              },
+              {
+                "time": 1.2,
+                "name": "baolizi/baolizi_9"
+              },
+              {
+                "time": 1.2333,
+                "name": "baolizi/baolizi_10"
+              },
+              {
+                "time": 1.2667,
+                "name": "baolizi/baolizi_11"
+              },
+              {
+                "time": 1.3,
+                "name": "baolizi/baolizi_12"
+              },
+              {
+                "time": 1.3333,
+                "name": "baolizi/baolizi_13"
+              },
+              {
+                "time": 1.3667,
+                "name": "baolizi/baolizi_14"
+              },
+              {
+                "time": 1.4,
+                "name": "baolizi/baolizi_15"
+              },
+              {
+                "time": 1.4333,
+                "name": "baolizi/baolizi_16"
+              },
+              {
+                "time": 1.4667,
+                "name": "baolizi/baolizi_17"
+              },
+              {
+                "time": 1.5,
+                "name": "baolizi/baolizi_18"
+              },
+              {
+                "time": 1.5333,
+                "name": "baolizi/baolizi_19"
+              },
+              {
+                "time": 1.5667,
+                "name": "baolizi/baolizi_20"
+              },
+              {
+                "time": 1.6,
+                "name": "baolizi/baolizi_21"
+              },
+              {
+                "time": 1.6333,
+                "name": "baolizi/baolizi_22"
+              },
+              {
+                "time": 1.6667,
+                "name": "baolizi/baolizi_23"
+              },
+              {
+                "time": 1.7,
+                "name": "baolizi/baolizi_24"
+              },
+              {
+                "time": 1.7333,
+                "name": "baolizi/baolizi_25"
+              },
+              {
+                "time": 1.7667,
+                "name": "baolizi/baolizi_26"
+              },
+              {
+                "time": 1.8,
+                "name": "baolizi/baolizi_27"
+              },
+              {
+                "time": 1.8333,
+                "name": null
+              }
+            ]
+          },
+          "gaoliang1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.9333,
+                "color": "a600ff97"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "gaoliang2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.9333,
+                "color": "88c3ffff"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "jinxingxing": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/tongxingxing"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "baolizi_1": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 1.8333,
+                "x": 1.165,
+                "y": 1.165
+              }
+            ]
+          },
+          "xingxing": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.3333,
+                "angle": 180,
+                "curve": [
+                  0.066,
+                  0.07,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.3333,
+                "x": 1.132,
+                "y": 1.132
+              },
+              {
+                "time": 0.7667,
+                "x": 1.544,
+                "y": 1.544,
+                "curve": [
+                  0.25,
+                  0,
+                  1,
+                  0.91
+                ]
+              },
+              {
+                "time": 0.8667,
+                "x": 0.9,
+                "y": 0.9,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 521,521\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbaolizi/baolizi_1\n  rotate: false\n  xy: 262, 86\n  size: 79, 82\n  orig: 79, 83\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_10\n  rotate: true\n  xy: 182, 170\n  size: 82, 88\n  orig: 82, 88\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_11\n  rotate: true\n  xy: 91, 170\n  size: 83, 89\n  orig: 83, 89\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_12\n  rotate: true\n  xy: 130, 342\n  size: 84, 90\n  orig: 84, 90\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_13\n  rotate: true\n  xy: 222, 434\n  size: 85, 94\n  orig: 85, 95\n  offset: 0, 1\n  index: -1\nbaolizi/baolizi_14\n  rotate: false\n  xy: 90, 81\n  size: 84, 87\n  orig: 85, 87\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_15\n  rotate: false\n  xy: 176, 81\n  size: 84, 87\n  orig: 84, 87\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_16\n  rotate: true\n  xy: 193, 254\n  size: 86, 88\n  orig: 86, 88\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_17\n  rotate: true\n  xy: 405, 344\n  size: 87, 89\n  orig: 87, 89\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_18\n  rotate: false\n  xy: 222, 342\n  size: 88, 90\n  orig: 88, 90\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_19\n  rotate: false\n  xy: 130, 428\n  size: 90, 91\n  orig: 90, 91\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_2\n  rotate: false\n  xy: 359, 171\n  size: 79, 81\n  orig: 79, 82\n  offset: 0, 1\n  index: -1\nbaolizi/baolizi_20\n  rotate: false\n  xy: 2, 105\n  size: 86, 92\n  orig: 86, 92\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_21\n  rotate: true\n  xy: 412, 433\n  size: 86, 91\n  orig: 86, 91\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_22\n  rotate: true\n  xy: 312, 345\n  size: 87, 91\n  orig: 87, 91\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_23\n  rotate: false\n  xy: 2, 199\n  size: 87, 93\n  orig: 87, 93\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_24\n  rotate: true\n  xy: 318, 434\n  size: 85, 92\n  orig: 85, 92\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_25\n  rotate: false\n  xy: 2, 11\n  size: 86, 92\n  orig: 86, 92\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_26\n  rotate: true\n  xy: 101, 255\n  size: 85, 90\n  orig: 85, 90\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_27\n  rotate: true\n  xy: 90, 15\n  size: 64, 87\n  orig: 64, 87\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_3\n  rotate: false\n  xy: 440, 175\n  size: 79, 81\n  orig: 79, 81\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_4\n  rotate: false\n  xy: 343, 87\n  size: 80, 82\n  orig: 80, 82\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_5\n  rotate: false\n  xy: 425, 87\n  size: 81, 82\n  orig: 81, 82\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_6\n  rotate: false\n  xy: 262, 2\n  size: 81, 82\n  orig: 81, 82\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_7\n  rotate: false\n  xy: 365, 258\n  size: 81, 84\n  orig: 81, 84\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_8\n  rotate: true\n  xy: 272, 171\n  size: 81, 85\n  orig: 81, 85\n  offset: 0, 0\n  index: -1\nbaolizi/baolizi_9\n  rotate: false\n  xy: 283, 254\n  size: 80, 86\n  orig: 80, 86\n  offset: 0, 0\n  index: -1\ngaoliang01\n  rotate: false\n  xy: 2, 294\n  size: 97, 97\n  orig: 113, 110\n  offset: 8, 6\n  index: -1\nimages/tongxingxing\n  rotate: false\n  xy: 2, 393\n  size: 126, 126\n  orig: 136, 136\n  offset: 5, 5\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "4cqf8hP9NO7bYexQ+GrMcs"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

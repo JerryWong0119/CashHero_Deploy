@@ -1,1 +1,373 @@
-{"__type__":"sp.SkeletonData","_name":"dengguang","_skeletonJson":{"skeleton":{"hash":"VfCfpMrdvkiw0pcdyGjjTUgKM8U","spine":"3.6.53","width":1060,"height":1560,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"zong","parent":"root"},{"name":"deng","parent":"zong","rotation":-23.14,"x":-272,"y":66},{"name":"deng2","parent":"zong","rotation":-47.04,"x":-190,"y":167},{"name":"deng3","parent":"zong","rotation":-71.43,"x":-69,"y":225},{"name":"deng4","parent":"zong","rotation":-96.71,"x":69,"y":218},{"name":"deng5","parent":"zong","rotation":-125.33,"x":208,"y":173},{"name":"deng6","parent":"zong","rotation":-157.85,"x":284,"y":67}],"slots":[{"name":"bonus_choose","bone":"root"},{"name":"g_00","bone":"deng","color":"ffffff86","blend":"additive"},{"name":"g_0","bone":"deng2","color":"ffffff86","blend":"additive"},{"name":"g_1","bone":"deng3","color":"ffffff86","blend":"additive"},{"name":"g_2","bone":"deng4","color":"ffffff86","blend":"additive"},{"name":"g_3","bone":"deng5","color":"ffffff86","blend":"additive"},{"name":"g_4","bone":"deng6","color":"ffffff86","blend":"additive"}],"skins":{"default":{"g_0":{"g_00":{"x":155,"width":350,"height":150}},"g_00":{"g_00":{"x":155,"width":350,"height":150}},"g_1":{"g_00":{"x":155,"width":350,"height":150}},"g_2":{"g_00":{"x":155,"width":350,"height":150}},"g_3":{"g_00":{"x":155,"width":350,"height":150}},"g_4":{"g_00":{"x":155,"width":350,"height":150}}}},"animations":{"animation":{"slots":{"g_00":{"attachment":[{"time":0,"name":"g_00"}]},"g_0":{"attachment":[{"time":0,"name":"g_00"}]},"g_1":{"attachment":[{"time":0,"name":"g_00"}]},"g_2":{"attachment":[{"time":0,"name":"g_00"}]},"g_3":{"attachment":[{"time":0,"name":"g_00"}]},"g_4":{"attachment":[{"time":0,"name":"g_00"}]}},"bones":{"deng":{"rotate":[{"time":0,"angle":-11.36,"curve":[0.25,0,0.75,1]},{"time":1,"angle":9.39,"curve":[0.25,0,0.75,1]},{"time":2,"angle":-11.36}]},"deng2":{"rotate":[{"time":0,"angle":8.73,"curve":[0.25,0,0.75,1]},{"time":1,"angle":-7.91,"curve":[0.25,0,0.75,1]},{"time":2,"angle":8.73}]},"deng3":{"rotate":[{"time":0,"angle":-9.32,"curve":[0.25,0,0.75,1]},{"time":1,"angle":7.15,"curve":[0.25,0,0.75,1]},{"time":2,"angle":-9.32}]},"deng4":{"rotate":[{"time":0,"angle":-18.99},{"time":1,"angle":5.44,"curve":[0.25,0,0.75,1]},{"time":2,"angle":-18.99}]},"deng5":{"rotate":[{"time":0,"angle":12.84,"curve":[0.25,0,0.75,1]},{"time":1,"angle":-19.47,"curve":[0.25,0,0.75,1]},{"time":2,"angle":12.84}]},"deng6":{"rotate":[{"time":0,"angle":-7.2},{"time":1,"angle":12.57,"curve":[0.25,0,0.75,1]},{"time":2,"angle":-7.2}]}}}}},"_atlasText":"\ndengguang.png\nsize: 326,324\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ng_00\n  rotate: false\n  xy: 2, 195\n  size: 322, 127\n  orig: 350, 150\n  offset: 19, 6\n  index: -1\n","textures":[{"__uuid__":"85fVM/rHNI2YUEw8BG4xHD"}],"textureNames":["dengguang.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "dengguang",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "VfCfpMrdvkiw0pcdyGjjTUgKM8U",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root"
+      },
+      {
+        "name": "deng",
+        "parent": "zong",
+        "rotation": -23.14,
+        "x": -272,
+        "y": 66
+      },
+      {
+        "name": "deng2",
+        "parent": "zong",
+        "rotation": -47.04,
+        "x": -190,
+        "y": 167
+      },
+      {
+        "name": "deng3",
+        "parent": "zong",
+        "rotation": -71.43,
+        "x": -69,
+        "y": 225
+      },
+      {
+        "name": "deng4",
+        "parent": "zong",
+        "rotation": -96.71,
+        "x": 69,
+        "y": 218
+      },
+      {
+        "name": "deng5",
+        "parent": "zong",
+        "rotation": -125.33,
+        "x": 208,
+        "y": 173
+      },
+      {
+        "name": "deng6",
+        "parent": "zong",
+        "rotation": -157.85,
+        "x": 284,
+        "y": 67
+      }
+    ],
+    "slots": [
+      {
+        "name": "bonus_choose",
+        "bone": "root"
+      },
+      {
+        "name": "g_00",
+        "bone": "deng",
+        "color": "ffffff86",
+        "blend": "additive"
+      },
+      {
+        "name": "g_0",
+        "bone": "deng2",
+        "color": "ffffff86",
+        "blend": "additive"
+      },
+      {
+        "name": "g_1",
+        "bone": "deng3",
+        "color": "ffffff86",
+        "blend": "additive"
+      },
+      {
+        "name": "g_2",
+        "bone": "deng4",
+        "color": "ffffff86",
+        "blend": "additive"
+      },
+      {
+        "name": "g_3",
+        "bone": "deng5",
+        "color": "ffffff86",
+        "blend": "additive"
+      },
+      {
+        "name": "g_4",
+        "bone": "deng6",
+        "color": "ffffff86",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "g_0": {
+          "g_00": {
+            "x": 155,
+            "width": 350,
+            "height": 150
+          }
+        },
+        "g_00": {
+          "g_00": {
+            "x": 155,
+            "width": 350,
+            "height": 150
+          }
+        },
+        "g_1": {
+          "g_00": {
+            "x": 155,
+            "width": 350,
+            "height": 150
+          }
+        },
+        "g_2": {
+          "g_00": {
+            "x": 155,
+            "width": 350,
+            "height": 150
+          }
+        },
+        "g_3": {
+          "g_00": {
+            "x": 155,
+            "width": 350,
+            "height": 150
+          }
+        },
+        "g_4": {
+          "g_00": {
+            "x": 155,
+            "width": 350,
+            "height": 150
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "g_00": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "g_00"
+              }
+            ]
+          },
+          "g_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "g_00"
+              }
+            ]
+          },
+          "g_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "g_00"
+              }
+            ]
+          },
+          "g_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "g_00"
+              }
+            ]
+          },
+          "g_3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "g_00"
+              }
+            ]
+          },
+          "g_4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "g_00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "deng": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -11.36,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "angle": 9.39,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": -11.36
+              }
+            ]
+          },
+          "deng2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 8.73,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "angle": -7.91,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 8.73
+              }
+            ]
+          },
+          "deng3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -9.32,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "angle": 7.15,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": -9.32
+              }
+            ]
+          },
+          "deng4": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -18.99
+              },
+              {
+                "time": 1,
+                "angle": 5.44,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": -18.99
+              }
+            ]
+          },
+          "deng5": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 12.84,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "angle": -19.47,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 12.84
+              }
+            ]
+          },
+          "deng6": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -7.2
+              },
+              {
+                "time": 1,
+                "angle": 12.57,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": -7.2
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ndengguang.png\nsize: 326,324\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ng_00\n  rotate: false\n  xy: 2, 195\n  size: 322, 127\n  orig: 350, 150\n  offset: 19, 6\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "85fVM/rHNI2YUEw8BG4xHD"
+    }
+  ],
+  "textureNames": [
+    "dengguang.png"
+  ]
+}

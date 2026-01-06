@@ -1,1 +1,4048 @@
-{"__type__":"sp.SkeletonData","_name":"tc_1","_skeletonJson":{"skeleton":{"hash":"4raFxRrcmtKH/quEn33gpPPTpyQ","spine":"3.8.99","images":"./img2/","audio":""},"bones":[{"name":"root"},{"name":"tanchuang","parent":"root"},{"name":"10","parent":"tanchuang","x":2.98,"y":47.97},{"name":"base","parent":"root"},{"name":"cong","parent":"tanchuang","x":2.26,"y":212.87},{"name":"freegame","parent":"tanchuang","x":3.63,"y":-78.57},{"name":"kuang","parent":"tanchuang","x":-2.44,"y":19.78,"scaleX":1.25,"scaleY":1.25},{"name":"texiao","parent":"root","x":-6.49,"y":58.41,"scaleX":0.7057,"scaleY":0.7057},{"name":"sg","parent":"texiao","x":2.26,"y":212.9,"scaleX":4,"scaleY":4},{"name":"sg2","parent":"texiao","x":2.26,"y":212.9,"scaleX":4,"scaleY":4},{"name":"szk","parent":"tanchuang","x":6.13,"y":-12.1},{"name":"youwin","parent":"tanchuang","x":-0.11,"y":172.39},{"name":"youwin2","parent":"tanchuang","x":-5.9,"y":117.9},{"name":"zi","parent":"tanchuang","x":-22.35,"y":-129.5}],"slots":[{"name":"kuang","bone":"kuang"},{"name":"cong","bone":"cong"},{"name":"youwin","bone":"youwin"},{"name":"youwin2","bone":"youwin2"},{"name":"10","bone":"10"},{"name":"freegame","bone":"freegame"},{"name":"szk","bone":"szk"},{"name":"zi","bone":"zi"},{"name":"sg2","bone":"sg2","blend":"additive"},{"name":"sg","bone":"sg","blend":"additive"}],"skins":[{"name":"default","attachments":{"10":{"10":{"y":-2.04,"width":169,"height":144},"15":{"width":158,"height":145},"20":{"width":183,"height":134}},"cong":{"cong":{"width":449,"height":137}},"freegame":{"freegame":{"width":228,"height":33}},"kuang":{"kuang1":{"rotation":0.04,"width":390,"height":323},"kuang2":{"x":-0.07,"y":0.06,"rotation":0.02,"width":390,"height":323}},"sg":{"sg/sg_00":{"width":150,"height":43},"sg/sg_01":{"width":150,"height":43},"sg/sg_02":{"width":150,"height":43},"sg/sg_03":{"width":150,"height":43},"sg/sg_04":{"width":150,"height":43},"sg/sg_05":{"width":150,"height":43},"sg/sg_06":{"width":150,"height":43},"sg/sg_07":{"width":150,"height":43},"sg/sg_08":{"width":150,"height":43},"sg/sg_09":{"width":150,"height":43},"sg/sg_10":{"width":150,"height":43},"sg/sg_11":{"width":150,"height":43}},"sg2":{"sg/sg_00":{"width":150,"height":43},"sg/sg_01":{"width":150,"height":43},"sg/sg_02":{"width":150,"height":43},"sg/sg_03":{"width":150,"height":43},"sg/sg_04":{"width":150,"height":43},"sg/sg_05":{"width":150,"height":43},"sg/sg_06":{"width":150,"height":43},"sg/sg_07":{"width":150,"height":43},"sg/sg_08":{"width":150,"height":43},"sg/sg_09":{"width":150,"height":43},"sg/sg_10":{"width":150,"height":43},"sg/sg_11":{"width":150,"height":43}},"szk":{"szk1":{"width":530,"height":134}},"youwin":{"youwin":{"width":142,"height":32}},"youwin2":{"youwin2":{"width":202,"height":47}},"zi":{"zi1":{"width":294,"height":43},"zi2":{"x":26.97,"width":252,"height":44}}}}],"animations":{"animation1_1":{"slots":{"10":{"attachment":[{"time":0.4,"name":"10"}]},"cong":{"attachment":[{"time":0.2333,"name":"cong"}]},"freegame":{"attachment":[{"time":0.4667,"name":"freegame"}]},"kuang":{"attachment":[{"name":"kuang2"}]},"youwin":{"attachment":[{"time":0.3,"name":"youwin"}]},"zi":{"attachment":[{"time":0.5667,"name":"zi1"}]}},"bones":{"10":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.4,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.5,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.7667}]},"cong":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.2333,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.3667,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.6333}]},"freegame":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.4667,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.6,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.9}]},"kuang":{"scale":[{"x":0.2,"y":0.2,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.12,"y":1.12,"curve":0.25,"c3":0.75},{"time":0.6}]},"youwin":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.3,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.4,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":0.6667}]},"zi":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.5667,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.7333,"x":1.1,"curve":0.25,"c3":0.75},{"time":1}]}}},"animation1_2":{"slots":{"10":{"attachment":[{"name":"10"}]},"cong":{"attachment":[{"name":"cong"}]},"freegame":{"attachment":[{"name":"freegame"}]},"kuang":{"attachment":[{"name":"kuang2"}]},"sg":{"attachment":[{"time":0.0667,"name":"sg/sg_00"},{"time":0.1333,"name":"sg/sg_01"},{"time":0.2,"name":"sg/sg_02"},{"time":0.2667,"name":"sg/sg_03"},{"time":0.3333,"name":"sg/sg_04"},{"time":0.4,"name":"sg/sg_05"},{"time":0.4667,"name":"sg/sg_06"},{"time":0.5333,"name":"sg/sg_07"},{"time":0.6,"name":"sg/sg_08"},{"time":0.6667,"name":"sg/sg_09"},{"time":0.7333,"name":"sg/sg_10"},{"time":0.8,"name":"sg/sg_11"},{"time":1.0667,"name":null},{"time":1.7333,"name":"sg/sg_00"},{"time":1.8,"name":"sg/sg_01"},{"time":1.8667,"name":"sg/sg_02"},{"time":1.9333,"name":"sg/sg_03"},{"time":2,"name":"sg/sg_04"},{"time":2.0667,"name":"sg/sg_05"},{"time":2.1333,"name":"sg/sg_06"},{"time":2.2,"name":"sg/sg_07"},{"time":2.2667,"name":"sg/sg_08"},{"time":2.3333,"name":"sg/sg_09"},{"time":2.4,"name":"sg/sg_10"},{"time":2.4667,"name":"sg/sg_11"},{"time":2.7333,"name":null}]},"sg2":{"attachment":[{"time":0.1333,"name":"sg/sg_00"},{"time":0.2,"name":"sg/sg_01"},{"time":0.2667,"name":"sg/sg_02"},{"time":0.3333,"name":"sg/sg_03"},{"time":0.4,"name":"sg/sg_04"},{"time":0.4667,"name":"sg/sg_05"},{"time":0.5333,"name":"sg/sg_06"},{"time":0.6,"name":"sg/sg_07"},{"time":0.6667,"name":"sg/sg_08"},{"time":0.7333,"name":"sg/sg_09"},{"time":0.8,"name":"sg/sg_10"},{"time":0.8667,"name":"sg/sg_11"},{"time":1.1333,"name":null},{"time":1.8,"name":"sg/sg_00"},{"time":1.8667,"name":"sg/sg_01"},{"time":1.9333,"name":"sg/sg_02"},{"time":2,"name":"sg/sg_03"},{"time":2.0667,"name":"sg/sg_04"},{"time":2.1333,"name":"sg/sg_05"},{"time":2.2,"name":"sg/sg_06"},{"time":2.2667,"name":"sg/sg_07"},{"time":2.3333,"name":"sg/sg_08"},{"time":2.4,"name":"sg/sg_09"},{"time":2.4667,"name":"sg/sg_10"},{"time":2.5333,"name":"sg/sg_11"},{"time":2.8,"name":null}]},"youwin":{"attachment":[{"name":"youwin"}]},"zi":{"attachment":[{"name":"zi1"}]}},"bones":{"10":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":0.95,"y":0.95,"curve":0.25,"c3":0.75},{"time":1.6667},{"time":2.5,"x":0.95,"y":0.95,"curve":0.25,"c3":0.75},{"time":3.3333}]},"cong":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.6667,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.3333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]},"sg":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.5,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]},"sg2":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.5,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]}}},"animation1_3":{"slots":{"10":{"attachment":[{"name":"10"}]},"cong":{"attachment":[{"name":"cong"}]},"freegame":{"attachment":[{"name":"freegame"}]},"kuang":{"attachment":[{"name":"kuang2"}]},"youwin":{"attachment":[{"name":"youwin"}]},"zi":{"attachment":[{"name":"zi1"}]}},"bones":{"10":{"scale":[{"time":0.1,"curve":0.25,"c3":0.75},{"time":0.2,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.4667,"x":0,"y":0}]},"cong":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.0667,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.2667,"x":0,"y":0}]},"freegame":{"scale":[{"time":0.1667,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.5333,"x":0,"y":0}]},"kuang":{"scale":[{"time":0.2667,"curve":0.25,"c3":0.75},{"time":0.4,"x":1.12,"y":1.12,"curve":0.25,"c3":0.75},{"time":0.6667,"x":0,"y":0}]},"youwin":{"scale":[{"time":0.0333,"curve":0.25,"c3":0.75},{"time":0.1333,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.3,"x":0,"y":0}]},"zi":{"scale":[{"time":0.2,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.1,"curve":0.25,"c3":0.75},{"time":0.5333,"x":0,"y":0}]}}},"animation2_1":{"slots":{"10":{"attachment":[{"time":0.4,"name":"15"}]},"cong":{"attachment":[{"time":0.2333,"name":"cong"}]},"freegame":{"attachment":[{"time":0.4667,"name":"freegame"}]},"kuang":{"attachment":[{"name":"kuang2"}]},"youwin":{"attachment":[{"time":0.3,"name":"youwin"}]},"zi":{"attachment":[{"time":0.5667,"name":"zi1"}]}},"bones":{"10":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.4,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.5,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.7667}]},"cong":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.2333,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.3667,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.6333}]},"freegame":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.4667,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.6,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.9}]},"kuang":{"scale":[{"x":0.2,"y":0.2,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.12,"y":1.12,"curve":0.25,"c3":0.75},{"time":0.6}]},"youwin":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.3,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.4,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":0.6667}]},"zi":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.5667,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.7333,"x":1.1,"curve":0.25,"c3":0.75},{"time":1}]}}},"animation2_2":{"slots":{"10":{"attachment":[{"name":"15"}]},"cong":{"attachment":[{"name":"cong"}]},"freegame":{"attachment":[{"name":"freegame"}]},"kuang":{"attachment":[{"name":"kuang2"}]},"sg":{"attachment":[{"time":0.0667,"name":"sg/sg_00"},{"time":0.1333,"name":"sg/sg_01"},{"time":0.2,"name":"sg/sg_02"},{"time":0.2667,"name":"sg/sg_03"},{"time":0.3333,"name":"sg/sg_04"},{"time":0.4,"name":"sg/sg_05"},{"time":0.4667,"name":"sg/sg_06"},{"time":0.5333,"name":"sg/sg_07"},{"time":0.6,"name":"sg/sg_08"},{"time":0.6667,"name":"sg/sg_09"},{"time":0.7333,"name":"sg/sg_10"},{"time":0.8,"name":"sg/sg_11"},{"time":1.0667,"name":null},{"time":1.7333,"name":"sg/sg_00"},{"time":1.8,"name":"sg/sg_01"},{"time":1.8667,"name":"sg/sg_02"},{"time":1.9333,"name":"sg/sg_03"},{"time":2,"name":"sg/sg_04"},{"time":2.0667,"name":"sg/sg_05"},{"time":2.1333,"name":"sg/sg_06"},{"time":2.2,"name":"sg/sg_07"},{"time":2.2667,"name":"sg/sg_08"},{"time":2.3333,"name":"sg/sg_09"},{"time":2.4,"name":"sg/sg_10"},{"time":2.4667,"name":"sg/sg_11"},{"time":2.7333,"name":null}]},"sg2":{"attachment":[{"time":0.1333,"name":"sg/sg_00"},{"time":0.2,"name":"sg/sg_01"},{"time":0.2667,"name":"sg/sg_02"},{"time":0.3333,"name":"sg/sg_03"},{"time":0.4,"name":"sg/sg_04"},{"time":0.4667,"name":"sg/sg_05"},{"time":0.5333,"name":"sg/sg_06"},{"time":0.6,"name":"sg/sg_07"},{"time":0.6667,"name":"sg/sg_08"},{"time":0.7333,"name":"sg/sg_09"},{"time":0.8,"name":"sg/sg_10"},{"time":0.8667,"name":"sg/sg_11"},{"time":1.1333,"name":null},{"time":1.8,"name":"sg/sg_00"},{"time":1.8667,"name":"sg/sg_01"},{"time":1.9333,"name":"sg/sg_02"},{"time":2,"name":"sg/sg_03"},{"time":2.0667,"name":"sg/sg_04"},{"time":2.1333,"name":"sg/sg_05"},{"time":2.2,"name":"sg/sg_06"},{"time":2.2667,"name":"sg/sg_07"},{"time":2.3333,"name":"sg/sg_08"},{"time":2.4,"name":"sg/sg_09"},{"time":2.4667,"name":"sg/sg_10"},{"time":2.5333,"name":"sg/sg_11"},{"time":2.8,"name":null}]},"youwin":{"attachment":[{"name":"youwin"}]},"zi":{"attachment":[{"name":"zi1"}]}},"bones":{"10":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":0.95,"y":0.95,"curve":0.25,"c3":0.75},{"time":1.6667},{"time":2.5,"x":0.95,"y":0.95,"curve":0.25,"c3":0.75},{"time":3.3333}]},"cong":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.6667,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.3333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]},"sg":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.5,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]},"sg2":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.5,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]}}},"animation2_3":{"slots":{"10":{"attachment":[{"name":"15"}]},"cong":{"attachment":[{"name":"cong"}]},"freegame":{"attachment":[{"name":"freegame"}]},"kuang":{"attachment":[{"name":"kuang2"}]},"youwin":{"attachment":[{"name":"youwin"}]},"zi":{"attachment":[{"name":"zi1"}]}},"bones":{"10":{"scale":[{"time":0.1,"curve":0.25,"c3":0.75},{"time":0.2,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.4667,"x":0,"y":0}]},"cong":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.0667,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.2667,"x":0,"y":0}]},"freegame":{"scale":[{"time":0.1667,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.5333,"x":0,"y":0}]},"kuang":{"scale":[{"time":0.2667,"curve":0.25,"c3":0.75},{"time":0.4,"x":1.12,"y":1.12,"curve":0.25,"c3":0.75},{"time":0.6667,"x":0,"y":0}]},"youwin":{"scale":[{"time":0.0333,"curve":0.25,"c3":0.75},{"time":0.1333,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.3,"x":0,"y":0}]},"zi":{"scale":[{"time":0.2,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.1,"curve":0.25,"c3":0.75},{"time":0.5333,"x":0,"y":0}]}}},"animation3_1":{"slots":{"10":{"attachment":[{"time":0.4,"name":"20"}]},"cong":{"attachment":[{"time":0.2333,"name":"cong"}]},"freegame":{"attachment":[{"time":0.4667,"name":"freegame"}]},"kuang":{"attachment":[{"name":"kuang2"}]},"youwin":{"attachment":[{"time":0.3,"name":"youwin"}]},"zi":{"attachment":[{"time":0.5667,"name":"zi1"}]}},"bones":{"10":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.4,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.5,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.7667}]},"cong":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.2333,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.3667,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.6333}]},"freegame":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.4667,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.6,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.9}]},"kuang":{"scale":[{"x":0.2,"y":0.2,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.12,"y":1.12,"curve":0.25,"c3":0.75},{"time":0.6}]},"youwin":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.3,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.4,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":0.6667}]},"zi":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.5667,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.7333,"x":1.1,"curve":0.25,"c3":0.75},{"time":1}]}}},"animation3_2":{"slots":{"10":{"attachment":[{"name":"20"}]},"cong":{"attachment":[{"name":"cong"}]},"freegame":{"attachment":[{"name":"freegame"}]},"kuang":{"attachment":[{"name":"kuang2"}]},"sg":{"attachment":[{"time":0.0667,"name":"sg/sg_00"},{"time":0.1333,"name":"sg/sg_01"},{"time":0.2,"name":"sg/sg_02"},{"time":0.2667,"name":"sg/sg_03"},{"time":0.3333,"name":"sg/sg_04"},{"time":0.4,"name":"sg/sg_05"},{"time":0.4667,"name":"sg/sg_06"},{"time":0.5333,"name":"sg/sg_07"},{"time":0.6,"name":"sg/sg_08"},{"time":0.6667,"name":"sg/sg_09"},{"time":0.7333,"name":"sg/sg_10"},{"time":0.8,"name":"sg/sg_11"},{"time":1.0667,"name":null},{"time":1.7333,"name":"sg/sg_00"},{"time":1.8,"name":"sg/sg_01"},{"time":1.8667,"name":"sg/sg_02"},{"time":1.9333,"name":"sg/sg_03"},{"time":2,"name":"sg/sg_04"},{"time":2.0667,"name":"sg/sg_05"},{"time":2.1333,"name":"sg/sg_06"},{"time":2.2,"name":"sg/sg_07"},{"time":2.2667,"name":"sg/sg_08"},{"time":2.3333,"name":"sg/sg_09"},{"time":2.4,"name":"sg/sg_10"},{"time":2.4667,"name":"sg/sg_11"},{"time":2.7333,"name":null}]},"sg2":{"attachment":[{"time":0.1333,"name":"sg/sg_00"},{"time":0.2,"name":"sg/sg_01"},{"time":0.2667,"name":"sg/sg_02"},{"time":0.3333,"name":"sg/sg_03"},{"time":0.4,"name":"sg/sg_04"},{"time":0.4667,"name":"sg/sg_05"},{"time":0.5333,"name":"sg/sg_06"},{"time":0.6,"name":"sg/sg_07"},{"time":0.6667,"name":"sg/sg_08"},{"time":0.7333,"name":"sg/sg_09"},{"time":0.8,"name":"sg/sg_10"},{"time":0.8667,"name":"sg/sg_11"},{"time":1.1333,"name":null},{"time":1.8,"name":"sg/sg_00"},{"time":1.8667,"name":"sg/sg_01"},{"time":1.9333,"name":"sg/sg_02"},{"time":2,"name":"sg/sg_03"},{"time":2.0667,"name":"sg/sg_04"},{"time":2.1333,"name":"sg/sg_05"},{"time":2.2,"name":"sg/sg_06"},{"time":2.2667,"name":"sg/sg_07"},{"time":2.3333,"name":"sg/sg_08"},{"time":2.4,"name":"sg/sg_09"},{"time":2.4667,"name":"sg/sg_10"},{"time":2.5333,"name":"sg/sg_11"},{"time":2.8,"name":null}]},"youwin":{"attachment":[{"name":"youwin"}]},"zi":{"attachment":[{"name":"zi1"}]}},"bones":{"10":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":0.95,"y":0.95,"curve":0.25,"c3":0.75},{"time":1.6667},{"time":2.5,"x":0.95,"y":0.95,"curve":0.25,"c3":0.75},{"time":3.3333}]},"cong":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.6667,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.3333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]},"sg":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.5,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]},"sg2":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.5,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]}}},"animation3_3":{"slots":{"10":{"attachment":[{"name":"20"}]},"cong":{"attachment":[{"name":"cong"}]},"freegame":{"attachment":[{"name":"freegame"}]},"kuang":{"attachment":[{"name":"kuang2"}]},"youwin":{"attachment":[{"name":"youwin"}]},"zi":{"attachment":[{"name":"zi1"}]}},"bones":{"10":{"scale":[{"time":0.1,"curve":0.25,"c3":0.75},{"time":0.2,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.4667,"x":0,"y":0}]},"cong":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.0667,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.2667,"x":0,"y":0}]},"freegame":{"scale":[{"time":0.1667,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.5333,"x":0,"y":0}]},"kuang":{"scale":[{"time":0.2667,"curve":0.25,"c3":0.75},{"time":0.4,"x":1.12,"y":1.12,"curve":0.25,"c3":0.75},{"time":0.6667,"x":0,"y":0}]},"youwin":{"scale":[{"time":0.0333,"curve":0.25,"c3":0.75},{"time":0.1333,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.3,"x":0,"y":0}]},"zi":{"scale":[{"time":0.2,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.1,"curve":0.25,"c3":0.75},{"time":0.5333,"x":0,"y":0}]}}},"animation4_1":{"slots":{"cong":{"attachment":[{"time":0.3,"name":"cong"}]},"kuang":{"attachment":[{"name":"kuang1"}]},"szk":{"attachment":[{"name":"szk1"}]},"youwin2":{"attachment":[{"name":"youwin2"}]}},"bones":{"10":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.3,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.4,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.7}]},"cong":{"translate":[{"curve":0.25,"c3":0.75},{"time":0.2333,"y":-110.67,"curve":0.25,"c3":0.75},{"time":0.3667}],"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.3,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.4333,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.7}]},"szk":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.5,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.6333,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.9333}]},"youwin2":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.4,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.5333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":0.8}]},"kuang":{"scale":[{"x":0.2,"y":0.2,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.12,"y":1.12,"curve":0.25,"c3":0.75},{"time":0.6}]},"youwin":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.2667,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.4,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":0.6667}]}}},"animation4_2":{"slots":{"cong":{"attachment":[{"name":"cong"}]},"kuang":{"attachment":[{"name":"kuang1"}]},"sg":{"attachment":[{"time":0.0667,"name":"sg/sg_00"},{"time":0.1333,"name":"sg/sg_01"},{"time":0.2,"name":"sg/sg_02"},{"time":0.2667,"name":"sg/sg_03"},{"time":0.3333,"name":"sg/sg_04"},{"time":0.4,"name":"sg/sg_05"},{"time":0.4667,"name":"sg/sg_06"},{"time":0.5333,"name":"sg/sg_07"},{"time":0.6,"name":"sg/sg_08"},{"time":0.6667,"name":"sg/sg_09"},{"time":0.7333,"name":"sg/sg_10"},{"time":0.8,"name":"sg/sg_11"},{"time":1.0667,"name":null},{"time":1.7333,"name":"sg/sg_00"},{"time":1.8,"name":"sg/sg_01"},{"time":1.8667,"name":"sg/sg_02"},{"time":1.9333,"name":"sg/sg_03"},{"time":2,"name":"sg/sg_04"},{"time":2.0667,"name":"sg/sg_05"},{"time":2.1333,"name":"sg/sg_06"},{"time":2.2,"name":"sg/sg_07"},{"time":2.2667,"name":"sg/sg_08"},{"time":2.3333,"name":"sg/sg_09"},{"time":2.4,"name":"sg/sg_10"},{"time":2.4667,"name":"sg/sg_11"},{"time":2.7333,"name":null}]},"sg2":{"attachment":[{"time":0.1333,"name":"sg/sg_00"},{"time":0.2,"name":"sg/sg_01"},{"time":0.2667,"name":"sg/sg_02"},{"time":0.3333,"name":"sg/sg_03"},{"time":0.4,"name":"sg/sg_04"},{"time":0.4667,"name":"sg/sg_05"},{"time":0.5333,"name":"sg/sg_06"},{"time":0.6,"name":"sg/sg_07"},{"time":0.6667,"name":"sg/sg_08"},{"time":0.7333,"name":"sg/sg_09"},{"time":0.8,"name":"sg/sg_10"},{"time":0.8667,"name":"sg/sg_11"},{"time":1.1333,"name":null},{"time":1.8,"name":"sg/sg_00"},{"time":1.8667,"name":"sg/sg_01"},{"time":1.9333,"name":"sg/sg_02"},{"time":2,"name":"sg/sg_03"},{"time":2.0667,"name":"sg/sg_04"},{"time":2.1333,"name":"sg/sg_05"},{"time":2.2,"name":"sg/sg_06"},{"time":2.2667,"name":"sg/sg_07"},{"time":2.3333,"name":"sg/sg_08"},{"time":2.4,"name":"sg/sg_09"},{"time":2.4667,"name":"sg/sg_10"},{"time":2.5333,"name":"sg/sg_11"},{"time":2.8,"name":null}]},"szk":{"attachment":[{"name":"szk1"}]},"youwin2":{"attachment":[{"name":"youwin2"}]}},"bones":{"cong":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.6667,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.3333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]},"sg":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.5,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]},"sg2":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.5,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]}}},"animation4_3":{"slots":{"cong":{"attachment":[{"name":"cong"}]},"kuang":{"attachment":[{"name":"kuang1"}]},"szk":{"attachment":[{"name":"szk1"}]},"youwin2":{"attachment":[{"name":"youwin2"}]}},"bones":{"10":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.1333,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.2333,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.5333}]},"cong":{"scale":[{},{"time":0.1,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.3667,"x":0,"y":0}]},"szk":{"scale":[{"time":0.2},{"time":0.3,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.5333,"x":0,"y":0}]},"youwin2":{"scale":[{"time":0.0667,"curve":0.25,"c3":0.75},{"time":0.1667,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":0.4,"x":0,"y":0}]},"kuang":{"scale":[{"time":0.2333},{"time":0.3667,"x":1.12,"y":1.12,"curve":0.25,"c3":0.75},{"time":0.6667,"x":0,"y":0}]},"youwin":{"scale":[{},{"time":0.2333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":0.5,"x":0,"y":0}]}}},"animation5_1":{"slots":{"10":{"attachment":[{"time":0.4,"name":"10"}]},"cong":{"attachment":[{"time":0.2333,"name":"cong"}]},"freegame":{"attachment":[{"time":0.4667,"name":"freegame"}]},"kuang":{"attachment":[{"name":"kuang2"}]},"youwin":{"attachment":[{"time":0.3,"name":"youwin"}]},"zi":{"attachment":[{"time":0.5667,"name":"zi2"}]}},"bones":{"10":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.4,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.5,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.7667}]},"cong":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.2333,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.3667,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.6333}]},"freegame":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.4667,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.6,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.9}]},"kuang":{"scale":[{"x":0.2,"y":0.2,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.12,"y":1.12,"curve":0.25,"c3":0.75},{"time":0.6}]},"youwin":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.3,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.4,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":0.6667}]},"zi":{"scale":[{"x":0,"y":0,"curve":"stepped"},{"time":0.5667,"x":0,"y":0,"curve":0.25,"c3":0.75},{"time":0.7333,"x":1.1,"curve":0.25,"c3":0.75},{"time":1}]}}},"animation5_2":{"slots":{"10":{"attachment":[{"name":"10"}]},"cong":{"attachment":[{"name":"cong"}]},"freegame":{"attachment":[{"name":"freegame"}]},"kuang":{"attachment":[{"name":"kuang2"}]},"sg":{"attachment":[{"time":0.0667,"name":"sg/sg_00"},{"time":0.1333,"name":"sg/sg_01"},{"time":0.2,"name":"sg/sg_02"},{"time":0.2667,"name":"sg/sg_03"},{"time":0.3333,"name":"sg/sg_04"},{"time":0.4,"name":"sg/sg_05"},{"time":0.4667,"name":"sg/sg_06"},{"time":0.5333,"name":"sg/sg_07"},{"time":0.6,"name":"sg/sg_08"},{"time":0.6667,"name":"sg/sg_09"},{"time":0.7333,"name":"sg/sg_10"},{"time":0.8,"name":"sg/sg_11"},{"time":1.0667,"name":null},{"time":1.7333,"name":"sg/sg_00"},{"time":1.8,"name":"sg/sg_01"},{"time":1.8667,"name":"sg/sg_02"},{"time":1.9333,"name":"sg/sg_03"},{"time":2,"name":"sg/sg_04"},{"time":2.0667,"name":"sg/sg_05"},{"time":2.1333,"name":"sg/sg_06"},{"time":2.2,"name":"sg/sg_07"},{"time":2.2667,"name":"sg/sg_08"},{"time":2.3333,"name":"sg/sg_09"},{"time":2.4,"name":"sg/sg_10"},{"time":2.4667,"name":"sg/sg_11"},{"time":2.7333,"name":null}]},"sg2":{"attachment":[{"time":0.1333,"name":"sg/sg_00"},{"time":0.2,"name":"sg/sg_01"},{"time":0.2667,"name":"sg/sg_02"},{"time":0.3333,"name":"sg/sg_03"},{"time":0.4,"name":"sg/sg_04"},{"time":0.4667,"name":"sg/sg_05"},{"time":0.5333,"name":"sg/sg_06"},{"time":0.6,"name":"sg/sg_07"},{"time":0.6667,"name":"sg/sg_08"},{"time":0.7333,"name":"sg/sg_09"},{"time":0.8,"name":"sg/sg_10"},{"time":0.8667,"name":"sg/sg_11"},{"time":1.1333,"name":null},{"time":1.8,"name":"sg/sg_00"},{"time":1.8667,"name":"sg/sg_01"},{"time":1.9333,"name":"sg/sg_02"},{"time":2,"name":"sg/sg_03"},{"time":2.0667,"name":"sg/sg_04"},{"time":2.1333,"name":"sg/sg_05"},{"time":2.2,"name":"sg/sg_06"},{"time":2.2667,"name":"sg/sg_07"},{"time":2.3333,"name":"sg/sg_08"},{"time":2.4,"name":"sg/sg_09"},{"time":2.4667,"name":"sg/sg_10"},{"time":2.5333,"name":"sg/sg_11"},{"time":2.8,"name":null}]},"youwin":{"attachment":[{"name":"youwin"}]},"zi":{"attachment":[{"name":"zi2"}]}},"bones":{"10":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":0.95,"y":0.95,"curve":0.25,"c3":0.75},{"time":1.6667},{"time":2.5,"x":0.95,"y":0.95,"curve":0.25,"c3":0.75},{"time":3.3333}]},"cong":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.6667,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.3333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]},"sg":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.5,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]},"sg2":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.8333,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":1.6667,"curve":0.25,"c3":0.75},{"time":2.5,"x":1.1,"y":1.1,"curve":0.25,"c3":0.75},{"time":3.3333}]}}},"animation5_3":{"slots":{"10":{"attachment":[{"name":"10"}]},"cong":{"attachment":[{"name":"cong"}]},"freegame":{"attachment":[{"name":"freegame"}]},"kuang":{"attachment":[{"name":"kuang2"}]},"youwin":{"attachment":[{"name":"youwin"}]},"zi":{"attachment":[{"name":"zi2"}]}},"bones":{"10":{"scale":[{"time":0.1,"curve":0.25,"c3":0.75},{"time":0.2,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.4667,"x":0,"y":0}]},"cong":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.0667,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.2667,"x":0,"y":0}]},"freegame":{"scale":[{"time":0.1667,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.5333,"x":0,"y":0}]},"kuang":{"scale":[{"time":0.2667,"curve":0.25,"c3":0.75},{"time":0.4,"x":1.12,"y":1.12,"curve":0.25,"c3":0.75},{"time":0.6667,"x":0,"y":0}]},"youwin":{"scale":[{"time":0.0333,"curve":0.25,"c3":0.75},{"time":0.1333,"x":1.15,"y":1.15,"curve":0.25,"c3":0.75},{"time":0.3,"x":0,"y":0}]},"zi":{"scale":[{"time":0.2,"curve":0.25,"c3":0.75},{"time":0.3,"x":1.1,"curve":0.25,"c3":0.75},{"time":0.5333,"x":0,"y":0}]}}}}},"_atlasText":"\ntc_1.png\nsize: 914,582\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n10\n  rotate: false\n  xy: 520, 113\n  size: 167, 142\n  orig: 169, 144\n  offset: 1, 1\n  index: -1\n15\n  rotate: true\n  xy: 758, 241\n  size: 156, 143\n  orig: 158, 145\n  offset: 1, 1\n  index: -1\n20\n  rotate: true\n  xy: 758, 399\n  size: 181, 131\n  orig: 183, 134\n  offset: 1, 2\n  index: -1\ncong\n  rotate: false\n  xy: 2, 2\n  size: 418, 121\n  orig: 449, 137\n  offset: 12, 5\n  index: -1\nfreegame\n  rotate: true\n  xy: 737, 11\n  size: 228, 33\n  orig: 228, 33\n  offset: 0, 0\n  index: -1\nkuang1\n  rotate: false\n  xy: 2, 257\n  size: 376, 323\n  orig: 390, 323\n  offset: 8, 0\n  index: -1\nkuang2\n  rotate: false\n  xy: 380, 257\n  size: 376, 323\n  orig: 390, 323\n  offset: 8, 0\n  index: -1\nsg/sg_00\n  rotate: true\n  xy: 868, 141\n  size: 26, 24\n  orig: 150, 43\n  offset: 2, 1\n  index: -1\nsg/sg_01\n  rotate: true\n  xy: 833, 126\n  size: 38, 33\n  orig: 150, 43\n  offset: 2, 0\n  index: -1\nsg/sg_02\n  rotate: false\n  xy: 841, 169\n  size: 50, 37\n  orig: 150, 43\n  offset: 2, 0\n  index: -1\nsg/sg_03\n  rotate: false\n  xy: 772, 125\n  size: 59, 39\n  orig: 150, 43\n  offset: 3, 0\n  index: -1\nsg/sg_04\n  rotate: false\n  xy: 772, 166\n  size: 67, 40\n  orig: 150, 43\n  offset: 6, 1\n  index: -1\nsg/sg_05\n  rotate: true\n  xy: 772, 57\n  size: 66, 32\n  orig: 150, 43\n  offset: 19, 10\n  index: -1\nsg/sg_06\n  rotate: true\n  xy: 806, 60\n  size: 63, 24\n  orig: 150, 43\n  offset: 35, 19\n  index: -1\nsg/sg_07\n  rotate: true\n  xy: 891, 521\n  size: 59, 21\n  orig: 150, 43\n  offset: 54, 21\n  index: -1\nsg/sg_08\n  rotate: true\n  xy: 808, 5\n  size: 53, 26\n  orig: 150, 43\n  offset: 74, 15\n  index: -1\nsg/sg_09\n  rotate: true\n  xy: 772, 3\n  size: 52, 34\n  orig: 150, 43\n  offset: 89, 4\n  index: -1\nsg/sg_10\n  rotate: true\n  xy: 668, 25\n  size: 41, 34\n  orig: 150, 43\n  offset: 107, 0\n  index: -1\nsg/sg_11\n  rotate: false\n  xy: 704, 44\n  size: 27, 25\n  orig: 150, 43\n  offset: 122, 1\n  index: -1\nszk1\n  rotate: false\n  xy: 2, 125\n  size: 516, 130\n  orig: 530, 134\n  offset: 7, 0\n  index: -1\nyouwin\n  rotate: false\n  xy: 772, 208\n  size: 123, 31\n  orig: 142, 32\n  offset: 9, 0\n  index: -1\nyouwin2\n  rotate: true\n  xy: 689, 71\n  size: 184, 46\n  orig: 202, 47\n  offset: 9, 0\n  index: -1\nzi1\n  rotate: false\n  xy: 422, 68\n  size: 256, 43\n  orig: 294, 43\n  offset: 29, 0\n  index: -1\nzi2\n  rotate: false\n  xy: 422, 22\n  size: 244, 44\n  orig: 252, 44\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"6bddd4qg1DrqEuiZOG1404"}],"textureNames":["tc_1.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "tc_1",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "4raFxRrcmtKH/quEn33gpPPTpyQ",
+      "spine": "3.8.99",
+      "images": "./img2/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "tanchuang",
+        "parent": "root"
+      },
+      {
+        "name": "10",
+        "parent": "tanchuang",
+        "x": 2.98,
+        "y": 47.97
+      },
+      {
+        "name": "base",
+        "parent": "root"
+      },
+      {
+        "name": "cong",
+        "parent": "tanchuang",
+        "x": 2.26,
+        "y": 212.87
+      },
+      {
+        "name": "freegame",
+        "parent": "tanchuang",
+        "x": 3.63,
+        "y": -78.57
+      },
+      {
+        "name": "kuang",
+        "parent": "tanchuang",
+        "x": -2.44,
+        "y": 19.78,
+        "scaleX": 1.25,
+        "scaleY": 1.25
+      },
+      {
+        "name": "texiao",
+        "parent": "root",
+        "x": -6.49,
+        "y": 58.41,
+        "scaleX": 0.7057,
+        "scaleY": 0.7057
+      },
+      {
+        "name": "sg",
+        "parent": "texiao",
+        "x": 2.26,
+        "y": 212.9,
+        "scaleX": 4,
+        "scaleY": 4
+      },
+      {
+        "name": "sg2",
+        "parent": "texiao",
+        "x": 2.26,
+        "y": 212.9,
+        "scaleX": 4,
+        "scaleY": 4
+      },
+      {
+        "name": "szk",
+        "parent": "tanchuang",
+        "x": 6.13,
+        "y": -12.1
+      },
+      {
+        "name": "youwin",
+        "parent": "tanchuang",
+        "x": -0.11,
+        "y": 172.39
+      },
+      {
+        "name": "youwin2",
+        "parent": "tanchuang",
+        "x": -5.9,
+        "y": 117.9
+      },
+      {
+        "name": "zi",
+        "parent": "tanchuang",
+        "x": -22.35,
+        "y": -129.5
+      }
+    ],
+    "slots": [
+      {
+        "name": "kuang",
+        "bone": "kuang"
+      },
+      {
+        "name": "cong",
+        "bone": "cong"
+      },
+      {
+        "name": "youwin",
+        "bone": "youwin"
+      },
+      {
+        "name": "youwin2",
+        "bone": "youwin2"
+      },
+      {
+        "name": "10",
+        "bone": "10"
+      },
+      {
+        "name": "freegame",
+        "bone": "freegame"
+      },
+      {
+        "name": "szk",
+        "bone": "szk"
+      },
+      {
+        "name": "zi",
+        "bone": "zi"
+      },
+      {
+        "name": "sg2",
+        "bone": "sg2",
+        "blend": "additive"
+      },
+      {
+        "name": "sg",
+        "bone": "sg",
+        "blend": "additive"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "10": {
+            "10": {
+              "y": -2.04,
+              "width": 169,
+              "height": 144
+            },
+            "15": {
+              "width": 158,
+              "height": 145
+            },
+            "20": {
+              "width": 183,
+              "height": 134
+            }
+          },
+          "cong": {
+            "cong": {
+              "width": 449,
+              "height": 137
+            }
+          },
+          "freegame": {
+            "freegame": {
+              "width": 228,
+              "height": 33
+            }
+          },
+          "kuang": {
+            "kuang1": {
+              "rotation": 0.04,
+              "width": 390,
+              "height": 323
+            },
+            "kuang2": {
+              "x": -0.07,
+              "y": 0.06,
+              "rotation": 0.02,
+              "width": 390,
+              "height": 323
+            }
+          },
+          "sg": {
+            "sg/sg_00": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_01": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_02": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_03": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_04": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_05": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_06": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_07": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_08": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_09": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_10": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_11": {
+              "width": 150,
+              "height": 43
+            }
+          },
+          "sg2": {
+            "sg/sg_00": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_01": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_02": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_03": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_04": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_05": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_06": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_07": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_08": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_09": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_10": {
+              "width": 150,
+              "height": 43
+            },
+            "sg/sg_11": {
+              "width": 150,
+              "height": 43
+            }
+          },
+          "szk": {
+            "szk1": {
+              "width": 530,
+              "height": 134
+            }
+          },
+          "youwin": {
+            "youwin": {
+              "width": 142,
+              "height": 32
+            }
+          },
+          "youwin2": {
+            "youwin2": {
+              "width": 202,
+              "height": 47
+            }
+          },
+          "zi": {
+            "zi1": {
+              "width": 294,
+              "height": 43
+            },
+            "zi2": {
+              "x": 26.97,
+              "width": 252,
+              "height": 44
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "animation1_1": {
+        "slots": {
+          "10": {
+            "attachment": [
+              {
+                "time": 0.4,
+                "name": "10"
+              }
+            ]
+          },
+          "cong": {
+            "attachment": [
+              {
+                "time": 0.2333,
+                "name": "cong"
+              }
+            ]
+          },
+          "freegame": {
+            "attachment": [
+              {
+                "time": 0.4667,
+                "name": "freegame"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang2"
+              }
+            ]
+          },
+          "youwin": {
+            "attachment": [
+              {
+                "time": 0.3,
+                "name": "youwin"
+              }
+            ]
+          },
+          "zi": {
+            "attachment": [
+              {
+                "time": 0.5667,
+                "name": "zi1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.7667
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3667,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6333
+              }
+            ]
+          },
+          "freegame": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9
+              }
+            ]
+          },
+          "kuang": {
+            "scale": [
+              {
+                "x": 0.2,
+                "y": 0.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.12,
+                "y": 1.12,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6
+              }
+            ]
+          },
+          "youwin": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.7333,
+                "x": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation1_2": {
+        "slots": {
+          "10": {
+            "attachment": [
+              {
+                "name": "10"
+              }
+            ]
+          },
+          "cong": {
+            "attachment": [
+              {
+                "name": "cong"
+              }
+            ]
+          },
+          "freegame": {
+            "attachment": [
+              {
+                "name": "freegame"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang2"
+              }
+            ]
+          },
+          "sg": {
+            "attachment": [
+              {
+                "time": 0.0667,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 0.1333,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 0.2,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 0.2667,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 0.3333,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 0.4,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 0.6,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 0.8,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 1.0667,
+                "name": null
+              },
+              {
+                "time": 1.7333,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 1.8,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 1.8667,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 1.9333,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 2,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 2.0667,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 2.1333,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 2.2,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 2.2667,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 2.3333,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 2.4,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 2.4667,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 2.7333,
+                "name": null
+              }
+            ]
+          },
+          "sg2": {
+            "attachment": [
+              {
+                "time": 0.1333,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 0.2,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 0.2667,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 0.3333,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 0.4,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 0.6,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 0.8,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 0.8667,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 1.1333,
+                "name": null
+              },
+              {
+                "time": 1.8,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 1.8667,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 1.9333,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 2,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 2.0667,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 2.1333,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 2.2,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 2.2667,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 2.3333,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 2.4,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 2.4667,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 2.5333,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 2.8,
+                "name": null
+              }
+            ]
+          },
+          "youwin": {
+            "attachment": [
+              {
+                "name": "youwin"
+              }
+            ]
+          },
+          "zi": {
+            "attachment": [
+              {
+                "name": "zi1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 0.95,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667
+              },
+              {
+                "time": 2.5,
+                "x": 0.95,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.3333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "sg": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.5,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "sg2": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.5,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          }
+        }
+      },
+      "animation1_3": {
+        "slots": {
+          "10": {
+            "attachment": [
+              {
+                "name": "10"
+              }
+            ]
+          },
+          "cong": {
+            "attachment": [
+              {
+                "name": "cong"
+              }
+            ]
+          },
+          "freegame": {
+            "attachment": [
+              {
+                "name": "freegame"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang2"
+              }
+            ]
+          },
+          "youwin": {
+            "attachment": [
+              {
+                "name": "youwin"
+              }
+            ]
+          },
+          "zi": {
+            "attachment": [
+              {
+                "name": "zi1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "time": 0.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.0667,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "freegame": {
+            "scale": [
+              {
+                "time": 0.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "kuang": {
+            "scale": [
+              {
+                "time": 0.2667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4,
+                "x": 1.12,
+                "y": 1.12,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "youwin": {
+            "scale": [
+              {
+                "time": 0.0333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.1333,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "time": 0.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "animation2_1": {
+        "slots": {
+          "10": {
+            "attachment": [
+              {
+                "time": 0.4,
+                "name": "15"
+              }
+            ]
+          },
+          "cong": {
+            "attachment": [
+              {
+                "time": 0.2333,
+                "name": "cong"
+              }
+            ]
+          },
+          "freegame": {
+            "attachment": [
+              {
+                "time": 0.4667,
+                "name": "freegame"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang2"
+              }
+            ]
+          },
+          "youwin": {
+            "attachment": [
+              {
+                "time": 0.3,
+                "name": "youwin"
+              }
+            ]
+          },
+          "zi": {
+            "attachment": [
+              {
+                "time": 0.5667,
+                "name": "zi1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.7667
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3667,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6333
+              }
+            ]
+          },
+          "freegame": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9
+              }
+            ]
+          },
+          "kuang": {
+            "scale": [
+              {
+                "x": 0.2,
+                "y": 0.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.12,
+                "y": 1.12,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6
+              }
+            ]
+          },
+          "youwin": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.7333,
+                "x": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation2_2": {
+        "slots": {
+          "10": {
+            "attachment": [
+              {
+                "name": "15"
+              }
+            ]
+          },
+          "cong": {
+            "attachment": [
+              {
+                "name": "cong"
+              }
+            ]
+          },
+          "freegame": {
+            "attachment": [
+              {
+                "name": "freegame"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang2"
+              }
+            ]
+          },
+          "sg": {
+            "attachment": [
+              {
+                "time": 0.0667,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 0.1333,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 0.2,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 0.2667,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 0.3333,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 0.4,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 0.6,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 0.8,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 1.0667,
+                "name": null
+              },
+              {
+                "time": 1.7333,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 1.8,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 1.8667,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 1.9333,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 2,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 2.0667,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 2.1333,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 2.2,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 2.2667,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 2.3333,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 2.4,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 2.4667,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 2.7333,
+                "name": null
+              }
+            ]
+          },
+          "sg2": {
+            "attachment": [
+              {
+                "time": 0.1333,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 0.2,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 0.2667,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 0.3333,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 0.4,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 0.6,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 0.8,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 0.8667,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 1.1333,
+                "name": null
+              },
+              {
+                "time": 1.8,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 1.8667,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 1.9333,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 2,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 2.0667,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 2.1333,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 2.2,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 2.2667,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 2.3333,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 2.4,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 2.4667,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 2.5333,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 2.8,
+                "name": null
+              }
+            ]
+          },
+          "youwin": {
+            "attachment": [
+              {
+                "name": "youwin"
+              }
+            ]
+          },
+          "zi": {
+            "attachment": [
+              {
+                "name": "zi1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 0.95,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667
+              },
+              {
+                "time": 2.5,
+                "x": 0.95,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.3333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "sg": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.5,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "sg2": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.5,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          }
+        }
+      },
+      "animation2_3": {
+        "slots": {
+          "10": {
+            "attachment": [
+              {
+                "name": "15"
+              }
+            ]
+          },
+          "cong": {
+            "attachment": [
+              {
+                "name": "cong"
+              }
+            ]
+          },
+          "freegame": {
+            "attachment": [
+              {
+                "name": "freegame"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang2"
+              }
+            ]
+          },
+          "youwin": {
+            "attachment": [
+              {
+                "name": "youwin"
+              }
+            ]
+          },
+          "zi": {
+            "attachment": [
+              {
+                "name": "zi1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "time": 0.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.0667,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "freegame": {
+            "scale": [
+              {
+                "time": 0.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "kuang": {
+            "scale": [
+              {
+                "time": 0.2667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4,
+                "x": 1.12,
+                "y": 1.12,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "youwin": {
+            "scale": [
+              {
+                "time": 0.0333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.1333,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "time": 0.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "animation3_1": {
+        "slots": {
+          "10": {
+            "attachment": [
+              {
+                "time": 0.4,
+                "name": "20"
+              }
+            ]
+          },
+          "cong": {
+            "attachment": [
+              {
+                "time": 0.2333,
+                "name": "cong"
+              }
+            ]
+          },
+          "freegame": {
+            "attachment": [
+              {
+                "time": 0.4667,
+                "name": "freegame"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang2"
+              }
+            ]
+          },
+          "youwin": {
+            "attachment": [
+              {
+                "time": 0.3,
+                "name": "youwin"
+              }
+            ]
+          },
+          "zi": {
+            "attachment": [
+              {
+                "time": 0.5667,
+                "name": "zi1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.7667
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3667,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6333
+              }
+            ]
+          },
+          "freegame": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9
+              }
+            ]
+          },
+          "kuang": {
+            "scale": [
+              {
+                "x": 0.2,
+                "y": 0.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.12,
+                "y": 1.12,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6
+              }
+            ]
+          },
+          "youwin": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.7333,
+                "x": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation3_2": {
+        "slots": {
+          "10": {
+            "attachment": [
+              {
+                "name": "20"
+              }
+            ]
+          },
+          "cong": {
+            "attachment": [
+              {
+                "name": "cong"
+              }
+            ]
+          },
+          "freegame": {
+            "attachment": [
+              {
+                "name": "freegame"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang2"
+              }
+            ]
+          },
+          "sg": {
+            "attachment": [
+              {
+                "time": 0.0667,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 0.1333,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 0.2,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 0.2667,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 0.3333,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 0.4,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 0.6,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 0.8,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 1.0667,
+                "name": null
+              },
+              {
+                "time": 1.7333,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 1.8,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 1.8667,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 1.9333,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 2,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 2.0667,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 2.1333,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 2.2,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 2.2667,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 2.3333,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 2.4,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 2.4667,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 2.7333,
+                "name": null
+              }
+            ]
+          },
+          "sg2": {
+            "attachment": [
+              {
+                "time": 0.1333,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 0.2,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 0.2667,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 0.3333,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 0.4,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 0.6,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 0.8,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 0.8667,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 1.1333,
+                "name": null
+              },
+              {
+                "time": 1.8,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 1.8667,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 1.9333,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 2,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 2.0667,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 2.1333,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 2.2,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 2.2667,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 2.3333,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 2.4,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 2.4667,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 2.5333,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 2.8,
+                "name": null
+              }
+            ]
+          },
+          "youwin": {
+            "attachment": [
+              {
+                "name": "youwin"
+              }
+            ]
+          },
+          "zi": {
+            "attachment": [
+              {
+                "name": "zi1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 0.95,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667
+              },
+              {
+                "time": 2.5,
+                "x": 0.95,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.3333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "sg": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.5,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "sg2": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.5,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          }
+        }
+      },
+      "animation3_3": {
+        "slots": {
+          "10": {
+            "attachment": [
+              {
+                "name": "20"
+              }
+            ]
+          },
+          "cong": {
+            "attachment": [
+              {
+                "name": "cong"
+              }
+            ]
+          },
+          "freegame": {
+            "attachment": [
+              {
+                "name": "freegame"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang2"
+              }
+            ]
+          },
+          "youwin": {
+            "attachment": [
+              {
+                "name": "youwin"
+              }
+            ]
+          },
+          "zi": {
+            "attachment": [
+              {
+                "name": "zi1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "time": 0.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.0667,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "freegame": {
+            "scale": [
+              {
+                "time": 0.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "kuang": {
+            "scale": [
+              {
+                "time": 0.2667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4,
+                "x": 1.12,
+                "y": 1.12,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "youwin": {
+            "scale": [
+              {
+                "time": 0.0333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.1333,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "time": 0.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "animation4_1": {
+        "slots": {
+          "cong": {
+            "attachment": [
+              {
+                "time": 0.3,
+                "name": "cong"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang1"
+              }
+            ]
+          },
+          "szk": {
+            "attachment": [
+              {
+                "name": "szk1"
+              }
+            ]
+          },
+          "youwin2": {
+            "attachment": [
+              {
+                "name": "youwin2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.7
+              }
+            ]
+          },
+          "cong": {
+            "translate": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2333,
+                "y": -110.67,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3667
+              }
+            ],
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4333,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.7
+              }
+            ]
+          },
+          "szk": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6333,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9333
+              }
+            ]
+          },
+          "youwin2": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8
+              }
+            ]
+          },
+          "kuang": {
+            "scale": [
+              {
+                "x": 0.2,
+                "y": 0.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.12,
+                "y": 1.12,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6
+              }
+            ]
+          },
+          "youwin": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          }
+        }
+      },
+      "animation4_2": {
+        "slots": {
+          "cong": {
+            "attachment": [
+              {
+                "name": "cong"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang1"
+              }
+            ]
+          },
+          "sg": {
+            "attachment": [
+              {
+                "time": 0.0667,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 0.1333,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 0.2,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 0.2667,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 0.3333,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 0.4,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 0.6,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 0.8,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 1.0667,
+                "name": null
+              },
+              {
+                "time": 1.7333,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 1.8,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 1.8667,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 1.9333,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 2,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 2.0667,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 2.1333,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 2.2,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 2.2667,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 2.3333,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 2.4,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 2.4667,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 2.7333,
+                "name": null
+              }
+            ]
+          },
+          "sg2": {
+            "attachment": [
+              {
+                "time": 0.1333,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 0.2,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 0.2667,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 0.3333,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 0.4,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 0.6,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 0.8,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 0.8667,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 1.1333,
+                "name": null
+              },
+              {
+                "time": 1.8,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 1.8667,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 1.9333,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 2,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 2.0667,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 2.1333,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 2.2,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 2.2667,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 2.3333,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 2.4,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 2.4667,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 2.5333,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 2.8,
+                "name": null
+              }
+            ]
+          },
+          "szk": {
+            "attachment": [
+              {
+                "name": "szk1"
+              }
+            ]
+          },
+          "youwin2": {
+            "attachment": [
+              {
+                "name": "youwin2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "cong": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.3333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "sg": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.5,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "sg2": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.5,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          }
+        }
+      },
+      "animation4_3": {
+        "slots": {
+          "cong": {
+            "attachment": [
+              {
+                "name": "cong"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang1"
+              }
+            ]
+          },
+          "szk": {
+            "attachment": [
+              {
+                "name": "szk1"
+              }
+            ]
+          },
+          "youwin2": {
+            "attachment": [
+              {
+                "name": "youwin2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2333,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {},
+              {
+                "time": 0.1,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "szk": {
+            "scale": [
+              {
+                "time": 0.2
+              },
+              {
+                "time": 0.3,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "youwin2": {
+            "scale": [
+              {
+                "time": 0.0667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.1667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "kuang": {
+            "scale": [
+              {
+                "time": 0.2333
+              },
+              {
+                "time": 0.3667,
+                "x": 1.12,
+                "y": 1.12,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "youwin": {
+            "scale": [
+              {},
+              {
+                "time": 0.2333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "animation5_1": {
+        "slots": {
+          "10": {
+            "attachment": [
+              {
+                "time": 0.4,
+                "name": "10"
+              }
+            ]
+          },
+          "cong": {
+            "attachment": [
+              {
+                "time": 0.2333,
+                "name": "cong"
+              }
+            ]
+          },
+          "freegame": {
+            "attachment": [
+              {
+                "time": 0.4667,
+                "name": "freegame"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang2"
+              }
+            ]
+          },
+          "youwin": {
+            "attachment": [
+              {
+                "time": 0.3,
+                "name": "youwin"
+              }
+            ]
+          },
+          "zi": {
+            "attachment": [
+              {
+                "time": 0.5667,
+                "name": "zi2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.7667
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2333,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3667,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6333
+              }
+            ]
+          },
+          "freegame": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9
+              }
+            ]
+          },
+          "kuang": {
+            "scale": [
+              {
+                "x": 0.2,
+                "y": 0.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.12,
+                "y": 1.12,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6
+              }
+            ]
+          },
+          "youwin": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.7333,
+                "x": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation5_2": {
+        "slots": {
+          "10": {
+            "attachment": [
+              {
+                "name": "10"
+              }
+            ]
+          },
+          "cong": {
+            "attachment": [
+              {
+                "name": "cong"
+              }
+            ]
+          },
+          "freegame": {
+            "attachment": [
+              {
+                "name": "freegame"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang2"
+              }
+            ]
+          },
+          "sg": {
+            "attachment": [
+              {
+                "time": 0.0667,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 0.1333,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 0.2,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 0.2667,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 0.3333,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 0.4,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 0.6,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 0.8,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 1.0667,
+                "name": null
+              },
+              {
+                "time": 1.7333,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 1.8,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 1.8667,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 1.9333,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 2,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 2.0667,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 2.1333,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 2.2,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 2.2667,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 2.3333,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 2.4,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 2.4667,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 2.7333,
+                "name": null
+              }
+            ]
+          },
+          "sg2": {
+            "attachment": [
+              {
+                "time": 0.1333,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 0.2,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 0.2667,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 0.3333,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 0.4,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 0.6,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 0.8,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 0.8667,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 1.1333,
+                "name": null
+              },
+              {
+                "time": 1.8,
+                "name": "sg/sg_00"
+              },
+              {
+                "time": 1.8667,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 1.9333,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 2,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 2.0667,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 2.1333,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 2.2,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 2.2667,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 2.3333,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 2.4,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 2.4667,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 2.5333,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 2.8,
+                "name": null
+              }
+            ]
+          },
+          "youwin": {
+            "attachment": [
+              {
+                "name": "youwin"
+              }
+            ]
+          },
+          "zi": {
+            "attachment": [
+              {
+                "name": "zi2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 0.95,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667
+              },
+              {
+                "time": 2.5,
+                "x": 0.95,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.3333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "sg": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.5,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          },
+          "sg2": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.5,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 3.3333
+              }
+            ]
+          }
+        }
+      },
+      "animation5_3": {
+        "slots": {
+          "10": {
+            "attachment": [
+              {
+                "name": "10"
+              }
+            ]
+          },
+          "cong": {
+            "attachment": [
+              {
+                "name": "cong"
+              }
+            ]
+          },
+          "freegame": {
+            "attachment": [
+              {
+                "name": "freegame"
+              }
+            ]
+          },
+          "kuang": {
+            "attachment": [
+              {
+                "name": "kuang2"
+              }
+            ]
+          },
+          "youwin": {
+            "attachment": [
+              {
+                "name": "youwin"
+              }
+            ]
+          },
+          "zi": {
+            "attachment": [
+              {
+                "name": "zi2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "10": {
+            "scale": [
+              {
+                "time": 0.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "cong": {
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.0667,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "freegame": {
+            "scale": [
+              {
+                "time": 0.1667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "kuang": {
+            "scale": [
+              {
+                "time": 0.2667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.4,
+                "x": 1.12,
+                "y": 1.12,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "youwin": {
+            "scale": [
+              {
+                "time": 0.0333,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.1333,
+                "x": 1.15,
+                "y": 1.15,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "zi": {
+            "scale": [
+              {
+                "time": 0.2,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.3,
+                "x": 1.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ntc_1.png\nsize: 914,582\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n10\n  rotate: false\n  xy: 520, 113\n  size: 167, 142\n  orig: 169, 144\n  offset: 1, 1\n  index: -1\n15\n  rotate: true\n  xy: 758, 241\n  size: 156, 143\n  orig: 158, 145\n  offset: 1, 1\n  index: -1\n20\n  rotate: true\n  xy: 758, 399\n  size: 181, 131\n  orig: 183, 134\n  offset: 1, 2\n  index: -1\ncong\n  rotate: false\n  xy: 2, 2\n  size: 418, 121\n  orig: 449, 137\n  offset: 12, 5\n  index: -1\nfreegame\n  rotate: true\n  xy: 737, 11\n  size: 228, 33\n  orig: 228, 33\n  offset: 0, 0\n  index: -1\nkuang1\n  rotate: false\n  xy: 2, 257\n  size: 376, 323\n  orig: 390, 323\n  offset: 8, 0\n  index: -1\nkuang2\n  rotate: false\n  xy: 380, 257\n  size: 376, 323\n  orig: 390, 323\n  offset: 8, 0\n  index: -1\nsg/sg_00\n  rotate: true\n  xy: 868, 141\n  size: 26, 24\n  orig: 150, 43\n  offset: 2, 1\n  index: -1\nsg/sg_01\n  rotate: true\n  xy: 833, 126\n  size: 38, 33\n  orig: 150, 43\n  offset: 2, 0\n  index: -1\nsg/sg_02\n  rotate: false\n  xy: 841, 169\n  size: 50, 37\n  orig: 150, 43\n  offset: 2, 0\n  index: -1\nsg/sg_03\n  rotate: false\n  xy: 772, 125\n  size: 59, 39\n  orig: 150, 43\n  offset: 3, 0\n  index: -1\nsg/sg_04\n  rotate: false\n  xy: 772, 166\n  size: 67, 40\n  orig: 150, 43\n  offset: 6, 1\n  index: -1\nsg/sg_05\n  rotate: true\n  xy: 772, 57\n  size: 66, 32\n  orig: 150, 43\n  offset: 19, 10\n  index: -1\nsg/sg_06\n  rotate: true\n  xy: 806, 60\n  size: 63, 24\n  orig: 150, 43\n  offset: 35, 19\n  index: -1\nsg/sg_07\n  rotate: true\n  xy: 891, 521\n  size: 59, 21\n  orig: 150, 43\n  offset: 54, 21\n  index: -1\nsg/sg_08\n  rotate: true\n  xy: 808, 5\n  size: 53, 26\n  orig: 150, 43\n  offset: 74, 15\n  index: -1\nsg/sg_09\n  rotate: true\n  xy: 772, 3\n  size: 52, 34\n  orig: 150, 43\n  offset: 89, 4\n  index: -1\nsg/sg_10\n  rotate: true\n  xy: 668, 25\n  size: 41, 34\n  orig: 150, 43\n  offset: 107, 0\n  index: -1\nsg/sg_11\n  rotate: false\n  xy: 704, 44\n  size: 27, 25\n  orig: 150, 43\n  offset: 122, 1\n  index: -1\nszk1\n  rotate: false\n  xy: 2, 125\n  size: 516, 130\n  orig: 530, 134\n  offset: 7, 0\n  index: -1\nyouwin\n  rotate: false\n  xy: 772, 208\n  size: 123, 31\n  orig: 142, 32\n  offset: 9, 0\n  index: -1\nyouwin2\n  rotate: true\n  xy: 689, 71\n  size: 184, 46\n  orig: 202, 47\n  offset: 9, 0\n  index: -1\nzi1\n  rotate: false\n  xy: 422, 68\n  size: 256, 43\n  orig: 294, 43\n  offset: 29, 0\n  index: -1\nzi2\n  rotate: false\n  xy: 422, 22\n  size: 244, 44\n  orig: 252, 44\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "6bddd4qg1DrqEuiZOG1404"
+    }
+  ],
+  "textureNames": [
+    "tc_1.png"
+  ]
+}

@@ -1,1 +1,138 @@
-{"__type__":"sp.SkeletonData","_name":"Wheel_win","_skeletonJson":{"skeleton":{"hash":"AbIwXf26icIoQgCW18VNYAX1E1k","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"zhuan","parent":"root"}],"slots":[{"name":"zhuan","bone":"zhuan","blend":"additive"}],"skins":{"default":{"zhuan":{"zhuan/zhuan_00":{"width":800,"height":800},"zhuan/zhuan_01":{"width":800,"height":800},"zhuan/zhuan_02":{"width":800,"height":800},"zhuan/zhuan_03":{"width":800,"height":800},"zhuan/zhuan_04":{"width":800,"height":800},"zhuan/zhuan_05":{"width":800,"height":800},"zhuan/zhuan_06":{"width":800,"height":800},"zhuan/zhuan_07":{"width":800,"height":800},"zhuan/zhuan_08":{"width":800,"height":800},"zhuan/zhuan_09":{"width":800,"height":800}}}},"animations":{"win":{"slots":{"zhuan":{"attachment":[{"time":0,"name":"zhuan/zhuan_00"},{"time":0.0667,"name":"zhuan/zhuan_01"},{"time":0.1333,"name":"zhuan/zhuan_02"},{"time":0.2,"name":"zhuan/zhuan_03"},{"time":0.2667,"name":"zhuan/zhuan_04"},{"time":0.3333,"name":"zhuan/zhuan_05"},{"time":0.4,"name":"zhuan/zhuan_06"},{"time":0.4667,"name":"zhuan/zhuan_07"},{"time":0.5333,"name":"zhuan/zhuan_08"},{"time":0.6,"name":"zhuan/zhuan_09"},{"time":0.6667,"name":"zhuan/zhuan_00"}]}}}}},"_atlasText":"\nWheel_win.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nzhuan/zhuan_00\n  rotate: true\n  xy: 833, 251\n  size: 247, 185\n  orig: 560, 560\n  offset: 160, 307\n  index: -1\nzhuan/zhuan_01\n  rotate: true\n  xy: 2, 256\n  size: 242, 203\n  orig: 560, 560\n  offset: 162, 298\n  index: -1\nzhuan/zhuan_02\n  rotate: false\n  xy: 604, 296\n  size: 227, 202\n  orig: 560, 560\n  offset: 174, 299\n  index: -1\nzhuan/zhuan_03\n  rotate: true\n  xy: 403, 263\n  size: 235, 199\n  orig: 560, 560\n  offset: 156, 300\n  index: -1\nzhuan/zhuan_04\n  rotate: true\n  xy: 207, 4\n  size: 246, 194\n  orig: 560, 560\n  offset: 157, 303\n  index: -1\nzhuan/zhuan_05\n  rotate: true\n  xy: 833, 2\n  size: 247, 185\n  orig: 560, 560\n  offset: 160, 307\n  index: -1\nzhuan/zhuan_06\n  rotate: true\n  xy: 2, 12\n  size: 242, 203\n  orig: 560, 560\n  offset: 162, 298\n  index: -1\nzhuan/zhuan_07\n  rotate: false\n  xy: 604, 92\n  size: 227, 202\n  orig: 560, 560\n  offset: 174, 299\n  index: -1\nzhuan/zhuan_08\n  rotate: true\n  xy: 403, 26\n  size: 235, 199\n  orig: 560, 560\n  offset: 156, 300\n  index: -1\nzhuan/zhuan_09\n  rotate: true\n  xy: 207, 252\n  size: 246, 194\n  orig: 560, 560\n  offset: 157, 303\n  index: -1\n","textures":[{"__uuid__":"801CngsM1BPqM3RMn8JTfS"}],"textureNames":["Wheel_win.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Wheel_win",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "AbIwXf26icIoQgCW18VNYAX1E1k",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zhuan",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "zhuan",
+        "bone": "zhuan",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "zhuan": {
+          "zhuan/zhuan_00": {
+            "width": 800,
+            "height": 800
+          },
+          "zhuan/zhuan_01": {
+            "width": 800,
+            "height": 800
+          },
+          "zhuan/zhuan_02": {
+            "width": 800,
+            "height": 800
+          },
+          "zhuan/zhuan_03": {
+            "width": 800,
+            "height": 800
+          },
+          "zhuan/zhuan_04": {
+            "width": 800,
+            "height": 800
+          },
+          "zhuan/zhuan_05": {
+            "width": 800,
+            "height": 800
+          },
+          "zhuan/zhuan_06": {
+            "width": 800,
+            "height": 800
+          },
+          "zhuan/zhuan_07": {
+            "width": 800,
+            "height": 800
+          },
+          "zhuan/zhuan_08": {
+            "width": 800,
+            "height": 800
+          },
+          "zhuan/zhuan_09": {
+            "width": 800,
+            "height": 800
+          }
+        }
+      }
+    },
+    "animations": {
+      "win": {
+        "slots": {
+          "zhuan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "zhuan/zhuan_00"
+              },
+              {
+                "time": 0.0667,
+                "name": "zhuan/zhuan_01"
+              },
+              {
+                "time": 0.1333,
+                "name": "zhuan/zhuan_02"
+              },
+              {
+                "time": 0.2,
+                "name": "zhuan/zhuan_03"
+              },
+              {
+                "time": 0.2667,
+                "name": "zhuan/zhuan_04"
+              },
+              {
+                "time": 0.3333,
+                "name": "zhuan/zhuan_05"
+              },
+              {
+                "time": 0.4,
+                "name": "zhuan/zhuan_06"
+              },
+              {
+                "time": 0.4667,
+                "name": "zhuan/zhuan_07"
+              },
+              {
+                "time": 0.5333,
+                "name": "zhuan/zhuan_08"
+              },
+              {
+                "time": 0.6,
+                "name": "zhuan/zhuan_09"
+              },
+              {
+                "time": 0.6667,
+                "name": "zhuan/zhuan_00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nWheel_win.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nzhuan/zhuan_00\n  rotate: true\n  xy: 833, 251\n  size: 247, 185\n  orig: 560, 560\n  offset: 160, 307\n  index: -1\nzhuan/zhuan_01\n  rotate: true\n  xy: 2, 256\n  size: 242, 203\n  orig: 560, 560\n  offset: 162, 298\n  index: -1\nzhuan/zhuan_02\n  rotate: false\n  xy: 604, 296\n  size: 227, 202\n  orig: 560, 560\n  offset: 174, 299\n  index: -1\nzhuan/zhuan_03\n  rotate: true\n  xy: 403, 263\n  size: 235, 199\n  orig: 560, 560\n  offset: 156, 300\n  index: -1\nzhuan/zhuan_04\n  rotate: true\n  xy: 207, 4\n  size: 246, 194\n  orig: 560, 560\n  offset: 157, 303\n  index: -1\nzhuan/zhuan_05\n  rotate: true\n  xy: 833, 2\n  size: 247, 185\n  orig: 560, 560\n  offset: 160, 307\n  index: -1\nzhuan/zhuan_06\n  rotate: true\n  xy: 2, 12\n  size: 242, 203\n  orig: 560, 560\n  offset: 162, 298\n  index: -1\nzhuan/zhuan_07\n  rotate: false\n  xy: 604, 92\n  size: 227, 202\n  orig: 560, 560\n  offset: 174, 299\n  index: -1\nzhuan/zhuan_08\n  rotate: true\n  xy: 403, 26\n  size: 235, 199\n  orig: 560, 560\n  offset: 156, 300\n  index: -1\nzhuan/zhuan_09\n  rotate: true\n  xy: 207, 252\n  size: 246, 194\n  orig: 560, 560\n  offset: 157, 303\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "801CngsM1BPqM3RMn8JTfS"
+    }
+  ],
+  "textureNames": [
+    "Wheel_win.png"
+  ]
+}

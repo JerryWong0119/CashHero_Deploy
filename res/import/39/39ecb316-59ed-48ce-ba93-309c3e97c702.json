@@ -1,1 +1,397 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"xneabwIBqO5qwtK+ynJ9w/BKv0Q","spine":"3.6.53","width":0,"height":0,"images":"./img/"},"bones":[{"name":"root"},{"name":"all","parent":"root"},{"name":"quan","parent":"all","y":-1.78},{"name":"tubiao","parent":"all"}],"slots":[{"name":"wenjian/xiaobeibei2_00","bone":"quan","blend":"additive"},{"name":"wenjian/L1","bone":"tubiao"},{"name":"wenjian/L2","bone":"tubiao","blend":"additive"}],"skins":{"default":{"wenjian/xiaobeibei2_00":{"wenjian/xiaobeibei2_00":{"y":1.78,"width":64,"height":62}}},"L1":{"wenjian/L1":{"a":{"name":"wenjian/L1","width":70,"height":68}},"wenjian/L2":{"a":{"name":"wenjian/L1","width":70,"height":68}}},"L2":{"wenjian/L1":{"a":{"name":"wenjian/L2","width":62,"height":68}},"wenjian/L2":{"a":{"name":"wenjian/L2","width":62,"height":68}}},"L3":{"wenjian/L1":{"a":{"name":"wenjian/L3","width":66,"height":68}},"wenjian/L2":{"a":{"name":"wenjian/L3","width":66,"height":68}}},"L4":{"wenjian/L1":{"a":{"name":"wenjian/L4","width":46,"height":68}},"wenjian/L2":{"a":{"name":"wenjian/L4","width":46,"height":68}}}},"animations":{"Lsmybol":{"slots":{"wenjian/L1":{"attachment":[{"time":0,"name":"a"}]},"wenjian/L2":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.3333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00","curve":"stepped"},{"time":1.0333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1.3667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"a"}]},"wenjian/xiaobeibei2_00":{"color":[{"time":0,"color":"ffffff00"},{"time":0.4667,"color":"ffffffff"},{"time":1,"color":"ffffff00","curve":"stepped"},{"time":1.0333,"color":"ffffff00"},{"time":1.5,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"wenjian/xiaobeibei2_00"}]}},"bones":{"tubiao":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.2333,"x":1.2,"y":1.2,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":0.9,"y":0.9,"curve":[0.25,0,0.75,1]},{"time":0.6333,"x":1.1,"y":1.1,"curve":[0.25,0,0.75,1]},{"time":1,"x":1,"y":1,"curve":"stepped"},{"time":1.0333,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1.2667,"x":1.2,"y":1.2,"curve":[0.25,0,0.75,1]},{"time":1.4333,"x":0.9,"y":0.9,"curve":[0.25,0,0.75,1]},{"time":1.6667,"x":1.1,"y":1.1,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1}]},"quan":{"rotate":[{"time":0,"angle":0},{"time":1,"angle":180},{"time":1.0333,"angle":0},{"time":2,"angle":180}],"scale":[{"time":0,"x":0.3,"y":0.3},{"time":0.2333,"x":1.8,"y":1.8},{"time":1,"x":0.3,"y":0.3,"curve":"stepped"},{"time":1.0333,"x":0.3,"y":0.3},{"time":1.2667,"x":1.8,"y":1.8},{"time":2,"x":0.3,"y":0.3}]}}}}},"_atlasText":"\nspine.png\nsize: 512,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nwenjian/L1\n  rotate: false\n  xy: 2, 50\n  size: 70, 68\n  orig: 70, 68\n  offset: 0, 0\n  index: -1\nwenjian/L2\n  rotate: false\n  xy: 142, 50\n  size: 62, 68\n  orig: 62, 68\n  offset: 0, 0\n  index: -1\nwenjian/L3\n  rotate: false\n  xy: 74, 50\n  size: 66, 68\n  orig: 66, 68\n  offset: 0, 0\n  index: -1\nwenjian/L4\n  rotate: true\n  xy: 2, 2\n  size: 46, 68\n  orig: 46, 68\n  offset: 0, 0\n  index: -1\nwenjian/xiaobeibei2_00\n  rotate: false\n  xy: 206, 56\n  size: 64, 62\n  orig: 64, 62\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"cfWpU4MMlBfYgdhIWX2VfD"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "xneabwIBqO5qwtK+ynJ9w/BKv0Q",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "all",
+        "parent": "root"
+      },
+      {
+        "name": "quan",
+        "parent": "all",
+        "y": -1.78
+      },
+      {
+        "name": "tubiao",
+        "parent": "all"
+      }
+    ],
+    "slots": [
+      {
+        "name": "wenjian/xiaobeibei2_00",
+        "bone": "quan",
+        "blend": "additive"
+      },
+      {
+        "name": "wenjian/L1",
+        "bone": "tubiao"
+      },
+      {
+        "name": "wenjian/L2",
+        "bone": "tubiao",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "wenjian/xiaobeibei2_00": {
+          "wenjian/xiaobeibei2_00": {
+            "y": 1.78,
+            "width": 64,
+            "height": 62
+          }
+        }
+      },
+      "L1": {
+        "wenjian/L1": {
+          "a": {
+            "name": "wenjian/L1",
+            "width": 70,
+            "height": 68
+          }
+        },
+        "wenjian/L2": {
+          "a": {
+            "name": "wenjian/L1",
+            "width": 70,
+            "height": 68
+          }
+        }
+      },
+      "L2": {
+        "wenjian/L1": {
+          "a": {
+            "name": "wenjian/L2",
+            "width": 62,
+            "height": 68
+          }
+        },
+        "wenjian/L2": {
+          "a": {
+            "name": "wenjian/L2",
+            "width": 62,
+            "height": 68
+          }
+        }
+      },
+      "L3": {
+        "wenjian/L1": {
+          "a": {
+            "name": "wenjian/L3",
+            "width": 66,
+            "height": 68
+          }
+        },
+        "wenjian/L2": {
+          "a": {
+            "name": "wenjian/L3",
+            "width": 66,
+            "height": 68
+          }
+        }
+      },
+      "L4": {
+        "wenjian/L1": {
+          "a": {
+            "name": "wenjian/L4",
+            "width": 46,
+            "height": 68
+          }
+        },
+        "wenjian/L2": {
+          "a": {
+            "name": "wenjian/L4",
+            "width": 46,
+            "height": 68
+          }
+        }
+      }
+    },
+    "animations": {
+      "Lsmybol": {
+        "slots": {
+          "wenjian/L1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "a"
+              }
+            ]
+          },
+          "wenjian/L2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.0333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "a"
+              }
+            ]
+          },
+          "wenjian/xiaobeibei2_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.0333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "wenjian/xiaobeibei2_00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "tubiao": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 0.9,
+                "y": 0.9,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6333,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.0333,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2667,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4333,
+                "x": 0.9,
+                "y": 0.9,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 1.1,
+                "y": 1.1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "quan": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 1,
+                "angle": 180
+              },
+              {
+                "time": 1.0333,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": 180
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.3,
+                "y": 0.3
+              },
+              {
+                "time": 0.2333,
+                "x": 1.8,
+                "y": 1.8
+              },
+              {
+                "time": 1,
+                "x": 0.3,
+                "y": 0.3,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.0333,
+                "x": 0.3,
+                "y": 0.3
+              },
+              {
+                "time": 1.2667,
+                "x": 1.8,
+                "y": 1.8
+              },
+              {
+                "time": 2,
+                "x": 0.3,
+                "y": 0.3
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 512,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nwenjian/L1\n  rotate: false\n  xy: 2, 50\n  size: 70, 68\n  orig: 70, 68\n  offset: 0, 0\n  index: -1\nwenjian/L2\n  rotate: false\n  xy: 142, 50\n  size: 62, 68\n  orig: 62, 68\n  offset: 0, 0\n  index: -1\nwenjian/L3\n  rotate: false\n  xy: 74, 50\n  size: 66, 68\n  orig: 66, 68\n  offset: 0, 0\n  index: -1\nwenjian/L4\n  rotate: true\n  xy: 2, 2\n  size: 46, 68\n  orig: 46, 68\n  offset: 0, 0\n  index: -1\nwenjian/xiaobeibei2_00\n  rotate: false\n  xy: 206, 56\n  size: 64, 62\n  orig: 64, 62\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "cfWpU4MMlBfYgdhIWX2VfD"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

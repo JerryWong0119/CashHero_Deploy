@@ -1,1 +1,199 @@
-{"__type__":"sp.SkeletonData","_name":"btn_s","_skeletonJson":{"skeleton":{"hash":"mmFZUZuhqBt6TwrvymWn/R2NIIc","spine":"3.6.53","width":282,"height":77,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"brn","parent":"root"},{"name":"sg","parent":"brn","scaleX":2,"scaleY":2}],"slots":[{"name":"theme227_popup_butten1","bone":"brn"},{"name":"sg/butten1_00","bone":"sg","blend":"additive"}],"skins":{"default":{"sg/butten1_00":{"sg/butten3_00":{"width":143,"height":39},"sg/butten3_01":{"width":143,"height":39},"sg/butten3_02":{"width":143,"height":39},"sg/butten3_03":{"width":143,"height":39},"sg/butten3_04":{"width":143,"height":39},"sg/butten3_05":{"width":143,"height":39},"sg/butten3_06":{"width":143,"height":39},"sg/butten3_07":{"width":143,"height":39},"sg/butten3_08":{"width":143,"height":39},"sg/butten3_09":{"width":143,"height":39},"sg/butten3_10":{"width":143,"height":39},"sg/butten3_11":{"width":143,"height":39},"sg/butten3_12":{"width":143,"height":39},"sg/butten3_13":{"width":143,"height":39},"sg/butten3_14":{"width":143,"height":39}}}},"animations":{"animation":{"slots":{"sg/butten1_00":{"attachment":[{"time":2.6667,"name":"sg/butten3_00"},{"time":2.7333,"name":"sg/butten3_01"},{"time":2.8,"name":"sg/butten3_02"},{"time":2.8667,"name":"sg/butten3_03"},{"time":2.9333,"name":"sg/butten3_04"},{"time":3,"name":"sg/butten3_05"},{"time":3.0667,"name":"sg/butten3_06"},{"time":3.1333,"name":"sg/butten3_07"},{"time":3.2,"name":"sg/butten3_08"},{"time":3.2667,"name":"sg/butten3_09"},{"time":3.3333,"name":"sg/butten3_10"},{"time":3.4,"name":"sg/butten3_11"},{"time":3.4667,"name":"sg/butten3_12"},{"time":3.5333,"name":"sg/butten3_13"},{"time":3.6,"name":"sg/butten3_14"},{"time":3.6667,"name":null}]}},"bones":{"brn":{"translate":[{"time":4,"x":0,"y":0}]}}}}},"_atlasText":"\nbtn_s.png\nsize: 43,1002\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nsg/butten3_00\n  rotate: false\n  xy: 2, 2\n  size: 31, 34\n  orig: 143, 39\n  offset: 1, 5\n  index: -1\nsg/butten3_01\n  rotate: true\n  xy: 2, 77\n  size: 42, 38\n  orig: 143, 39\n  offset: 1, 1\n  index: -1\nsg/butten3_02\n  rotate: true\n  xy: 2, 167\n  size: 54, 39\n  orig: 143, 39\n  offset: 1, 0\n  index: -1\nsg/butten3_03\n  rotate: true\n  xy: 2, 348\n  size: 66, 39\n  orig: 143, 39\n  offset: 1, 0\n  index: -1\nsg/butten3_04\n  rotate: true\n  xy: 2, 416\n  size: 76, 39\n  orig: 143, 39\n  offset: 2, 0\n  index: -1\nsg/butten3_05\n  rotate: true\n  xy: 2, 657\n  size: 82, 39\n  orig: 143, 39\n  offset: 8, 0\n  index: -1\nsg/butten3_06\n  rotate: true\n  xy: 2, 915\n  size: 85, 39\n  orig: 143, 39\n  offset: 17, 0\n  index: -1\nsg/butten3_07\n  rotate: true\n  xy: 2, 828\n  size: 85, 39\n  orig: 143, 39\n  offset: 28, 0\n  index: -1\nsg/butten3_08\n  rotate: true\n  xy: 2, 741\n  size: 85, 39\n  orig: 143, 39\n  offset: 40, 0\n  index: -1\nsg/butten3_09\n  rotate: true\n  xy: 2, 573\n  size: 82, 39\n  orig: 143, 39\n  offset: 52, 0\n  index: -1\nsg/butten3_10\n  rotate: true\n  xy: 2, 494\n  size: 77, 39\n  orig: 143, 39\n  offset: 63, 0\n  index: -1\nsg/butten3_11\n  rotate: true\n  xy: 2, 280\n  size: 66, 39\n  orig: 143, 39\n  offset: 75, 0\n  index: -1\nsg/butten3_12\n  rotate: true\n  xy: 2, 223\n  size: 55, 39\n  orig: 143, 39\n  offset: 87, 0\n  index: -1\nsg/butten3_13\n  rotate: true\n  xy: 2, 121\n  size: 44, 39\n  orig: 143, 39\n  offset: 98, 0\n  index: -1\nsg/butten3_14\n  rotate: false\n  xy: 2, 38\n  size: 32, 37\n  orig: 143, 39\n  offset: 110, 0\n  index: -1\n","textures":[{"__uuid__":"5356YzjixG8aOOMy1A7fPs"}],"textureNames":["btn_s.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "btn_s",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "mmFZUZuhqBt6TwrvymWn/R2NIIc",
+      "spine": "3.6.53",
+      "width": 282,
+      "height": 77,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "brn",
+        "parent": "root"
+      },
+      {
+        "name": "sg",
+        "parent": "brn",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme227_popup_butten1",
+        "bone": "brn"
+      },
+      {
+        "name": "sg/butten1_00",
+        "bone": "sg",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "sg/butten1_00": {
+          "sg/butten3_00": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_01": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_02": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_03": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_04": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_05": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_06": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_07": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_08": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_09": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_10": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_11": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_12": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_13": {
+            "width": 143,
+            "height": 39
+          },
+          "sg/butten3_14": {
+            "width": 143,
+            "height": 39
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "sg/butten1_00": {
+            "attachment": [
+              {
+                "time": 2.6667,
+                "name": "sg/butten3_00"
+              },
+              {
+                "time": 2.7333,
+                "name": "sg/butten3_01"
+              },
+              {
+                "time": 2.8,
+                "name": "sg/butten3_02"
+              },
+              {
+                "time": 2.8667,
+                "name": "sg/butten3_03"
+              },
+              {
+                "time": 2.9333,
+                "name": "sg/butten3_04"
+              },
+              {
+                "time": 3,
+                "name": "sg/butten3_05"
+              },
+              {
+                "time": 3.0667,
+                "name": "sg/butten3_06"
+              },
+              {
+                "time": 3.1333,
+                "name": "sg/butten3_07"
+              },
+              {
+                "time": 3.2,
+                "name": "sg/butten3_08"
+              },
+              {
+                "time": 3.2667,
+                "name": "sg/butten3_09"
+              },
+              {
+                "time": 3.3333,
+                "name": "sg/butten3_10"
+              },
+              {
+                "time": 3.4,
+                "name": "sg/butten3_11"
+              },
+              {
+                "time": 3.4667,
+                "name": "sg/butten3_12"
+              },
+              {
+                "time": 3.5333,
+                "name": "sg/butten3_13"
+              },
+              {
+                "time": 3.6,
+                "name": "sg/butten3_14"
+              },
+              {
+                "time": 3.6667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "brn": {
+            "translate": [
+              {
+                "time": 4,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbtn_s.png\nsize: 43,1002\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nsg/butten3_00\n  rotate: false\n  xy: 2, 2\n  size: 31, 34\n  orig: 143, 39\n  offset: 1, 5\n  index: -1\nsg/butten3_01\n  rotate: true\n  xy: 2, 77\n  size: 42, 38\n  orig: 143, 39\n  offset: 1, 1\n  index: -1\nsg/butten3_02\n  rotate: true\n  xy: 2, 167\n  size: 54, 39\n  orig: 143, 39\n  offset: 1, 0\n  index: -1\nsg/butten3_03\n  rotate: true\n  xy: 2, 348\n  size: 66, 39\n  orig: 143, 39\n  offset: 1, 0\n  index: -1\nsg/butten3_04\n  rotate: true\n  xy: 2, 416\n  size: 76, 39\n  orig: 143, 39\n  offset: 2, 0\n  index: -1\nsg/butten3_05\n  rotate: true\n  xy: 2, 657\n  size: 82, 39\n  orig: 143, 39\n  offset: 8, 0\n  index: -1\nsg/butten3_06\n  rotate: true\n  xy: 2, 915\n  size: 85, 39\n  orig: 143, 39\n  offset: 17, 0\n  index: -1\nsg/butten3_07\n  rotate: true\n  xy: 2, 828\n  size: 85, 39\n  orig: 143, 39\n  offset: 28, 0\n  index: -1\nsg/butten3_08\n  rotate: true\n  xy: 2, 741\n  size: 85, 39\n  orig: 143, 39\n  offset: 40, 0\n  index: -1\nsg/butten3_09\n  rotate: true\n  xy: 2, 573\n  size: 82, 39\n  orig: 143, 39\n  offset: 52, 0\n  index: -1\nsg/butten3_10\n  rotate: true\n  xy: 2, 494\n  size: 77, 39\n  orig: 143, 39\n  offset: 63, 0\n  index: -1\nsg/butten3_11\n  rotate: true\n  xy: 2, 280\n  size: 66, 39\n  orig: 143, 39\n  offset: 75, 0\n  index: -1\nsg/butten3_12\n  rotate: true\n  xy: 2, 223\n  size: 55, 39\n  orig: 143, 39\n  offset: 87, 0\n  index: -1\nsg/butten3_13\n  rotate: true\n  xy: 2, 121\n  size: 44, 39\n  orig: 143, 39\n  offset: 98, 0\n  index: -1\nsg/butten3_14\n  rotate: false\n  xy: 2, 38\n  size: 32, 37\n  orig: 143, 39\n  offset: 110, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "5356YzjixG8aOOMy1A7fPs"
+    }
+  ],
+  "textureNames": [
+    "btn_s.png"
+  ]
+}

@@ -1,1 +1,5225 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"o0oPHET2PxJyFjkKE4WxPNX5g3o","spine":"3.6.53","width":760,"height":212.5,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"texiao_dantu/fg_baoshan01","parent":"root","x":-0.79,"y":7.09,"scaleX":2.5,"scaleY":2.5},{"name":"texiao_dantu/fg_baoshan1","parent":"root","x":-0.79,"y":7.09,"scaleX":2.5,"scaleY":2.5},{"name":"texiao_dantu/fg_baoshan02","parent":"root","x":-2.45,"y":4.79,"scaleX":2,"scaleY":2},{"name":"texiao_dantu/saf_liangguang01","parent":"root","y":0.82},{"name":"ui_ziyuan/3","parent":"root","y":6.63},{"name":"ui_ziyuan/5","parent":"root","y":6.63},{"name":"ui_ziyuan/10","parent":"root","y":6.63},{"name":"ui_ziyuan/15","parent":"root","y":6.63},{"name":"ui_ziyuan/3-x-5","parent":"root","y":6.63},{"name":"ui_ziyuan/4-x-5","parent":"root","y":6.63},{"name":"ui_ziyuan/5-x-5","parent":"root","y":6.63},{"name":"ui_ziyuan/6-x-5","parent":"root","y":6.63},{"name":"ui_ziyuan/juxing_biankuang","parent":"root","x":2.52,"y":3.74},{"name":"ui_ziyuan/ui_kuang01","parent":"root","y":6.63},{"name":"ui_ziyuan/ui_kuang02","parent":"root","y":6.63},{"name":"ui_ziyuan/ui_kuang03","parent":"root","y":6.63},{"name":"ui_ziyuan/ui_kuang04","parent":"root","y":6.63},{"name":"ui_ziyuan/ui_xiaokuang01","parent":"root","y":6.63},{"name":"ui_ziyuan/ui_zi","parent":"root"},{"name":"骨骼","parent":"root"}],"slots":[{"name":"ui_ziyuan/theme102_fgturn_frameblue","bone":"骨骼"},{"name":"ui_ziyuan/ui_zi","bone":"ui_ziyuan/ui_zi","attachment":"ui_ziyuan/ui_zi"},{"name":"texiao_dantu/saf_liangguang01","bone":"texiao_dantu/saf_liangguang01","attachment":"texiao_dantu/saf_liangguang01","blend":"additive"},{"name":"texiao_dantu/fg_baoshan1","bone":"texiao_dantu/fg_baoshan1","attachment":"texiao_dantu/fg_baoshan01","blend":"additive"},{"name":"ui_ziyuan/ui_kuang02","bone":"ui_ziyuan/ui_kuang01","attachment":"ui_ziyuan/ui_kuang01"},{"name":"ui_ziyuan/ui_kuang2","bone":"ui_ziyuan/ui_kuang02","attachment":"ui_ziyuan/ui_kuang01"},{"name":"ui_ziyuan/ui_kuang3","bone":"ui_ziyuan/ui_kuang03","attachment":"ui_ziyuan/ui_kuang01"},{"name":"ui_ziyuan/ui_kuang4","bone":"ui_ziyuan/ui_kuang04","attachment":"ui_ziyuan/ui_kuang01"},{"name":"ui_ziyuan/ui_xiaokuang01","bone":"ui_ziyuan/ui_xiaokuang01","attachment":"ui_ziyuan/ui_xiaokuang01"},{"name":"ui_ziyuan/3-x-5","bone":"ui_ziyuan/3-x-5","attachment":"ui_ziyuan/3-x-5"},{"name":"ui_ziyuan/4-x-5","bone":"ui_ziyuan/4-x-5","attachment":"ui_ziyuan/4-x-5"},{"name":"ui_ziyuan/5-x-5","bone":"ui_ziyuan/5-x-5","attachment":"ui_ziyuan/5-x-5"},{"name":"ui_ziyuan/6-x-5","bone":"ui_ziyuan/6-x-5","attachment":"ui_ziyuan/6-x-5"},{"name":"ui_ziyuan/juxing_biankuang","bone":"ui_ziyuan/juxing_biankuang","attachment":"ui_ziyuan/juxing_biankuang","blend":"additive"},{"name":"texiao_dantu/fg_baoshan02","bone":"texiao_dantu/fg_baoshan02","attachment":"texiao_dantu/fg_baoshan02","blend":"additive"},{"name":"texiao_dantu/fg_baoshan01","bone":"texiao_dantu/fg_baoshan01","attachment":"texiao_dantu/fg_baoshan01","blend":"additive"},{"name":"ui_ziyuan/10","bone":"ui_ziyuan/10","attachment":"ui_ziyuan/10"},{"name":"ui_ziyuan/15","bone":"ui_ziyuan/15","attachment":"ui_ziyuan/15"},{"name":"ui_ziyuan/3","bone":"ui_ziyuan/3","attachment":"ui_ziyuan/3"},{"name":"ui_ziyuan/5","bone":"ui_ziyuan/5","attachment":"ui_ziyuan/5"}],"skins":{"default":{"texiao_dantu/fg_baoshan01":{"texiao_dantu/fg_baoshan01":{"width":274,"height":85}},"texiao_dantu/fg_baoshan02":{"texiao_dantu/fg_baoshan02":{"width":380,"height":74}},"texiao_dantu/fg_baoshan1":{"texiao_dantu/fg_baoshan01":{"width":274,"height":85}},"texiao_dantu/saf_liangguang01":{"texiao_dantu/saf_liangguang01":{"width":262,"height":51}},"ui_ziyuan/10":{"ui_ziyuan/10":{"width":71,"height":58}},"ui_ziyuan/15":{"ui_ziyuan/15":{"width":69,"height":57}},"ui_ziyuan/3":{"ui_ziyuan/3":{"width":36,"height":58}},"ui_ziyuan/3-x-5":{"ui_ziyuan/3-x-5":{"type":"mesh","uvs":[0.92992,0.66667,0.86258,0.66666,0.7808,0.66667,0.73514,0.66667,0.67661,0.66667,0.62904,0.66667,0.58137,0.66667,0.52064,0.66667,0.47866,0.66667,0.42481,0.66667,0.35949,0.66667,0.27841,0.66667,0.21937,0.66667,0.1346,0.66667,0.05582,0.66667,0.05581,0.33333,0.12623,0.33333,0.20382,0.33333,0.28371,0.33333,0.34155,0.33333,0.40687,0.33333,0.48126,0.33333,0.54668,0.33333,0.60272,0.33333,0.66584,0.33333,0.73275,0.33333,0.7808,0.33333,0.85421,0.33333,0.92992,0.33333],"triangles":[1,27,28,2,26,27,3,25,26,2,27,1,2,3,26,4,24,25,4,25,3,1,28,0,5,23,24,5,24,4,18,12,17,11,18,19,19,10,11,11,12,18,6,22,23,6,23,5,14,15,16,16,13,14,17,13,16,7,21,22,7,22,6,17,12,13,20,10,19,9,20,21,9,10,20,9,21,8,7,8,21],"vertices":[94.15,-28,79.4,-28,61.5,-28,51.5,-28,38.68,-28,28.26,-28,17.82,-28,4.52,-28,-4.67,-28,-16.47,-28,-30.77,-28,-48.53,-28,-61.46,-28,-80.02,-28,-97.28,-28,-97.28,28,-81.86,28,-64.86,28,-47.37,28,-34.7,28,-20.4,28,-4.1,28,10.22,28,22.5,28,36.32,28,50.97,28,61.5,28,77.57,28,94.15,28],"hull":29,"edges":[28,30,0,56,30,32,32,34,34,36,36,38,38,40,40,42,42,44,44,46,46,48,48,50,50,52,52,54,54,56,0,2,2,4,4,6,6,8,8,10,10,12,12,14,14,16,16,18,18,20,20,22,22,24,24,26,26,28],"width":219,"height":168}},"ui_ziyuan/4-x-5":{"ui_ziyuan/4-x-5":{"type":"mesh","uvs":[0.99982,0.66964,0.94995,0.66964,0.89388,0.66964,0.82246,0.66964,0.76282,0.66964,0.70154,0.66964,0.62878,0.66964,0.55327,0.66964,0.48434,0.66964,0.42636,0.66964,0.36509,0.66964,0.30656,0.66964,0.24063,0.66964,0.17936,0.66964,0.12328,0.66964,0.06118,0.66964,0.00018,0.66964,0.00019,0.33036,0.05219,0.33036,0.11183,0.33036,0.16954,0.33036,0.23327,0.33036,0.29756,0.33036,0.35691,0.33036,0.41818,0.33036,0.47288,0.33036,0.51224,0.33036,0.55573,0.33036,0.62551,0.33036,0.69091,0.33036,0.75218,0.33036,0.81264,0.33035,0.88488,0.33035,0.94423,0.33035,0.99982,0.33035],"triangles":[1,33,34,2,32,33,2,33,1,3,31,32,3,32,2,4,30,31,4,31,3,5,29,30,5,30,4,6,28,29,6,29,5,8,25,26,7,8,26,7,26,27,28,7,27,0,1,34,10,23,24,24,9,10,25,9,24,25,8,9,11,22,23,11,23,10,12,21,22,12,22,11,13,20,21,13,21,12,14,19,20,14,20,13,15,18,19,15,19,14,16,17,18,16,18,15,28,6,7],"vertices":[109.46,-28.5,98.54,-28.5,86.26,-28.5,70.62,-28.5,57.56,-28.5,44.14,-28.5,28.2,-28.5,11.67,-28.5,-3.43,-28.5,-16.13,-28.5,-29.55,-28.5,-42.36,-28.5,-56.8,-28.5,-70.22,-28.5,-82.5,-28.5,-96.1,-28.5,-109.46,-28.5,-109.46,28.5,-98.07,28.5,-85.01,28.5,-72.37,28.5,-58.41,28.5,-44.33,28.5,-31.34,28.5,-17.92,28.5,-5.94,28.5,2.68,28.5,12.2,28.5,27.49,28.5,41.81,28.5,55.23,28.5,68.47,28.5,84.29,28.5,97.29,28.5,109.46,28.5],"hull":35,"edges":[32,34,0,68,34,36,36,38,38,40,40,42,42,44,44,46,46,48,48,50,50,52,52,54,54,56,56,58,58,60,60,62,62,64,64,66,66,68,0,2,2,4,4,6,6,8,8,10,10,12,12,14,14,16,16,18,18,20,20,22,22,24,24,26,26,28,28,30,30,32],"width":219,"height":168}},"ui_ziyuan/5":{"ui_ziyuan/5":{"width":36,"height":56}},"ui_ziyuan/5-x-5":{"ui_ziyuan/5-x-5":{"type":"mesh","uvs":[0.99772,0.66964,0.95007,0.66964,0.8975,0.66964,0.84953,0.66964,0.80316,0.66964,0.7456,0.66964,0.69353,0.66964,0.62443,0.66964,0.57646,0.66964,0.53953,0.66964,0.51294,0.66964,0.47989,0.66964,0.44109,0.66964,0.39847,0.66964,0.3465,0.66964,0.29763,0.66964,0.24132,0.66964,0.17797,0.66964,0.1187,0.66964,0.05923,0.66964,0.00493,0.66964,0.00493,0.33036,0.06636,0.33036,0.12725,0.33036,0.1908,0.33036,0.2577,0.33036,0.31116,0.33036,0.36146,0.33036,0.41912,0.33036,0.46317,0.33036,0.50767,0.33036,0.55164,0.33036,0.59142,0.33036,0.64082,0.33036,0.71205,0.33036,0.75558,0.33036,0.80743,0.33036,0.85237,0.33036,0.90035,0.33036,0.95078,0.33036,0.99772,0.33036],"triangles":[9,30,31,8,9,31,10,30,9,32,8,31,33,8,32,19,21,22,18,19,22,23,18,22,23,17,18,24,17,23,24,16,17,25,16,24,25,26,16,12,28,29,11,29,30,11,12,29,30,10,11,26,15,16,13,14,27,27,15,26,27,14,15,13,27,28,33,7,8,12,13,28,33,6,7,34,6,33,34,35,6,36,6,35,36,5,6,37,5,36,37,4,5,38,4,37,38,3,4,38,2,3,38,1,2,39,1,38,20,21,19,0,39,40,1,39,0],"vertices":[109,-28.5,98.56,-28.5,87.05,-28.5,76.55,-28.5,66.39,-28.5,53.79,-28.5,42.38,-28.5,27.25,-28.5,16.74,-28.5,8.66,-28.5,2.83,-28.5,-4.4,-28.5,-12.9,-28.5,-22.24,-28.5,-33.62,-28.5,-44.32,-28.5,-56.65,-28.5,-70.52,-28.5,-83.5,-28.5,-96.53,-28.5,-108.42,-28.5,-108.42,28.5,-94.97,28.5,-81.63,28.5,-67.72,28.5,-53.06,28.5,-41.36,28.5,-30.34,28.5,-17.71,28.5,-8.06,28.5,1.68,28.5,11.31,28.5,20.02,28.5,30.84,28.5,46.44,28.5,55.97,28.5,67.33,28.5,77.17,28.5,87.68,28.5,98.72,28.5,109,28.5],"hull":41,"edges":[40,42,0,80,42,44,44,46,46,48,48,50,50,52,52,54,54,56,56,58,58,60,60,62,62,64,64,66,66,68,68,70,70,72,72,74,74,76,76,78,78,80,0,2,2,4,4,6,6,8,8,10,10,12,12,14,14,16,16,18,18,20,20,22,22,24,24,26,26,28,28,30,30,32,32,34,34,36,36,38,38,40],"width":219,"height":168}},"ui_ziyuan/6-x-5":{"ui_ziyuan/6-x-5":{"type":"mesh","uvs":[0.99899,0.66964,0.96335,0.66964,0.91601,0.66964,0.86604,0.66964,0.8226,0.66964,0.78022,0.66964,0.72435,0.66964,0.6826,0.66964,0.62737,0.66964,0.57664,0.66964,0.53939,0.66964,0.51239,0.66964,0.46937,0.66964,0.45456,0.66964,0.41794,0.66964,0.38582,0.66964,0.34984,0.66964,0.29461,0.66964,0.25735,0.66964,0.22203,0.66964,0.15014,0.66964,0.07567,0.66964,0.00101,0.66964,0.00101,0.33036,0.08646,0.33036,0.17236,0.33036,0.25955,0.33036,0.38772,0.33036,0.4735,0.33036,0.57203,0.33036,0.61816,0.33036,0.7054,0.33036,0.8042,0.33036,0.86065,0.33036,0.91062,0.33036,0.95662,0.33036,0.99899,0.33036],"triangles":[21,23,24,22,23,21,20,21,24,25,20,24,19,20,25,26,19,25,2,34,35,1,35,36,1,2,35,36,0,1,26,18,19,3,33,34,3,34,2,26,17,18,26,16,17,27,16,26,15,16,27,14,27,28,15,27,14,13,14,28,12,13,28,11,28,29,12,28,11,10,11,29,4,32,33,6,7,31,9,29,30,10,29,9,8,9,30,30,31,8,31,7,8,6,31,32,32,5,6,32,4,5,33,3,4],"vertices":[109.28,-28.5,101.47,-28.5,91.11,-28.5,80.16,-28.5,70.65,-28.5,61.37,-28.5,49.13,-28.5,39.99,-28.5,27.89,-28.5,16.78,-28.5,8.63,-28.5,2.71,-28.5,-6.71,-28.5,-9.95,-28.5,-17.97,-28.5,-25.01,-28.5,-32.89,-28.5,-44.98,-28.5,-53.14,-28.5,-60.88,-28.5,-76.62,-28.5,-92.93,-28.5,-109.28,-28.5,-109.28,28.5,-90.56,28.5,-71.75,28.5,-52.66,28.5,-24.59,28.5,-5.8,28.5,15.78,28.5,25.88,28.5,44.98,28.5,66.62,28.5,78.98,28.5,89.93,28.5,100,28.5,109.28,28.5],"hull":37,"edges":[44,46,0,72,46,48,48,50,50,52,52,54,54,56,56,58,58,60,60,62,62,64,64,66,66,68,68,70,70,72,0,2,2,4,4,6,6,8,8,10,10,12,12,14,14,16,16,18,18,20,20,22,22,24,24,26,26,28,28,30,30,32,32,34,34,36,36,38,38,40,40,42,42,44],"width":219,"height":168}},"ui_ziyuan/juxing_biankuang":{"ui_ziyuan/juxing_biankuang":{"scaleX":1.01,"scaleY":1.01,"width":324,"height":86}},"ui_ziyuan/ui_kuang02":{"ui_ziyuan/ui_kuang01":{"type":"mesh","uvs":[0.87609,0.74872,0.71927,0.74872,0.575,0.74872,0.4288,0.74872,0.28222,0.74872,0.11943,0.74872,0.11732,0.26518,0.28188,0.26518,0.4291,0.26518,0.57261,0.26518,0.71927,0.26518,0.87609,0.26518],"triangles":[4,7,8,3,4,8,0,10,11,5,6,7,5,7,4,2,9,10,1,2,10,3,8,9,2,3,9,0,1,10],"vertices":[117.34,-43.28,68.41,-43.28,23.4,-43.28,-22.23,-43.28,-68.04,-43.28,-119.28,-43.28,-119.28,40.86,-68.41,40.86,-22.23,40.86,22.66,40.86,68.41,40.86,117.34,40.86],"hull":12,"edges":[10,12,0,22,12,14,8,10,14,16,6,8,16,18,4,6,18,20,20,22,0,2,2,4],"width":312,"height":174}},"ui_ziyuan/ui_kuang2":{"ui_ziyuan/ui_kuang01":{"type":"mesh","uvs":[0.87186,0.75363,0.72015,0.75363,0.57493,0.75363,0.42732,0.75363,0.28304,0.75363,0.131,0.75363,0.12899,0.25975,0.28273,0.25975,0.42763,0.25975,0.57254,0.25975,0.72015,0.25975,0.87186,0.25975],"triangles":[3,4,7,5,6,7,5,7,4,8,3,7,3,8,9,3,9,2,1,10,11,1,11,0,10,2,9,10,1,2],"vertices":[116.02,-44.13,68.69,-44.13,23.38,-44.13,-22.69,-44.13,-67.78,-44.13,-115.63,-44.13,-115.63,41.8,-68.15,41.8,-22.69,41.8,22.63,41.8,68.69,41.8,116.02,41.8],"hull":12,"edges":[10,12,0,22,12,14,8,10,14,16,6,8,16,18,4,6,18,20,20,22,0,2,2,4],"width":312,"height":174}},"ui_ziyuan/ui_kuang3":{"ui_ziyuan/ui_kuang01":{"type":"mesh","uvs":[0.87284,0.74537,0.71932,0.74537,0.57512,0.74537,0.4298,0.74537,0.28405,0.74537,0.13145,0.74537,0.12953,0.2594,0.28372,0.2594,0.43008,0.2594,0.57274,0.2594,0.71932,0.2594,0.87284,0.2594],"triangles":[8,4,7,3,4,8,5,6,7,5,7,4,1,10,11,2,9,10,1,11,0,1,2,10,3,8,9,2,3,9],"vertices":[116.32,-42.69,68.43,-42.69,23.44,-42.69,-21.92,-42.69,-67.47,-42.69,-115.49,-42.69,-115.49,41.86,-67.84,41.86,-21.92,41.86,22.69,41.86,68.43,41.86,116.32,41.86],"hull":12,"edges":[10,12,0,22,12,14,8,10,14,16,6,8,16,18,4,6,18,20,20,22,0,2,2,4],"width":312,"height":174}},"ui_ziyuan/ui_kuang4":{"ui_ziyuan/ui_kuang01":{"type":"mesh","uvs":[0.87151,0.75014,0.71799,0.75014,0.57512,0.75014,0.42845,0.75014,0.2814,0.75014,0.1288,0.75014,0.12675,0.25701,0.28109,0.25701,0.42877,0.25701,0.57274,0.25701,0.71799,0.25701,0.87151,0.25701],"triangles":[10,2,9,10,11,0,1,10,0,1,2,10,5,6,7,4,5,7,8,4,7,3,8,9,3,4,8,9,2,3],"vertices":[115.91,-43.52,68.01,-43.52,23.44,-43.52,-22.34,-43.52,-68.3,-43.52,-116.32,-43.52,-116.32,42.28,-68.67,42.28,-22.34,42.28,22.69,42.28,68.01,42.28,115.91,42.28],"hull":12,"edges":[10,12,0,22,12,14,8,10,14,16,6,8,16,18,4,6,18,20,20,22,0,2,2,4],"width":312,"height":174}},"ui_ziyuan/ui_xiaokuang01":{"ui_ziyuan/ui_xiaokuang01":{"type":"mesh","uvs":[0.97037,0.81859,0.86449,0.81859,0.76023,0.81859,0.66843,0.81859,0.57974,0.81859,0.50774,0.81859,0.46061,0.81859,0.42188,0.81859,0.3376,0.81859,0.24788,0.81859,0.127,0.81859,0.0478,0.81859,0.0478,0.20443,0.12545,0.20443,0.24632,0.20443,0.33501,0.20443,0.42136,0.20443,0.46169,0.20443,0.50981,0.20443,0.57954,0.20443,0.66843,0.20443,0.76023,0.20443,0.86346,0.20443,0.97037,0.20443],"triangles":[6,7,16,17,6,16,17,5,6,18,5,17,19,5,18,8,15,16,8,16,7,5,19,4,19,20,4,20,21,3,21,2,3,9,14,15,9,15,8,22,2,21,10,13,14,10,14,9,1,22,23,2,22,1,0,1,23,11,12,13,11,13,10,20,3,4],"vertices":[132.64,-50.66,102.79,-50.66,73.38,-50.66,47.5,-50.66,22.49,-50.66,3.99,-50.66,-9.69,-50.66,-22.03,-50.66,-45.8,-50.66,-71.1,-50.66,-105.18,-50.66,-127.52,-50.66,-127.52,47,-105.62,47,-71.54,47,-46.53,47,-22.18,47,-9.84,47,3.84,47,22.63,47,47.5,47,73.38,47,102.49,47,132.64,47],"hull":24,"edges":[22,24,0,46,24,26,26,28,28,30,30,32,32,34,38,40,40,42,42,44,44,46,0,2,2,4,4,6,6,8,12,14,14,16,16,18,18,20,20,22,8,10,10,12,34,36,36,38],"width":282,"height":159}},"ui_ziyuan/ui_zi":{"ui_ziyuan/ui_zi":{"width":501,"height":81}}}},"animations":{"baoguang01":{"slots":{"texiao_dantu/fg_baoshan1":{"color":[{"time":0,"color":"ffffff00"}]},"texiao_dantu/fg_baoshan01":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.5,"color":"ffffff00"},{"time":0.9333,"color":"ffffffff"},{"time":1.7,"color":"ffffff00"}]},"texiao_dantu/fg_baoshan02":{"attachment":[{"time":0,"name":null}]},"texiao_dantu/saf_liangguang01":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/3":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/10":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/15":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/3-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/4-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/5-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/6-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/juxing_biankuang":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang02":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang2":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang3":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang4":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_xiaokuang01":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_zi":{"attachment":[{"time":0,"name":null}]}},"bones":{"ui_ziyuan/ui_kuang01":{"scale":[{"time":0,"x":1,"y":1}]},"ui_ziyuan/ui_xiaokuang01":{"scale":[{"time":0,"x":1,"y":1}]},"ui_ziyuan/3-x-5":{"scale":[{"time":0,"x":1,"y":0.251}]},"ui_ziyuan/ui_kuang02":{"scale":[{"time":0,"x":1,"y":0.126}]},"ui_ziyuan/4-x-5":{"scale":[{"time":0,"x":1,"y":0.117}]},"ui_ziyuan/ui_kuang03":{"scale":[{"time":0,"x":1,"y":0.186}]},"ui_ziyuan/5-x-5":{"scale":[{"time":0,"x":1,"y":0.206}]},"ui_ziyuan/ui_kuang04":{"scale":[{"time":0,"x":1,"y":0.227}]},"ui_ziyuan/6-x-5":{"scale":[{"time":0,"x":1,"y":0.275}]}},"deform":{"default":{"ui_ziyuan/3-x-5":{"ui_ziyuan/3-x-5":[{"time":0}]},"ui_ziyuan/4-x-5":{"ui_ziyuan/4-x-5":[{"time":0}]},"ui_ziyuan/5-x-5":{"ui_ziyuan/5-x-5":[{"time":0}]},"ui_ziyuan/6-x-5":{"ui_ziyuan/6-x-5":[{"time":0}]},"ui_ziyuan/ui_kuang02":{"ui_ziyuan/ui_kuang01":[{"time":0}]},"ui_ziyuan/ui_kuang2":{"ui_ziyuan/ui_kuang01":[{"time":0}]},"ui_ziyuan/ui_kuang3":{"ui_ziyuan/ui_kuang01":[{"time":0}]},"ui_ziyuan/ui_kuang4":{"ui_ziyuan/ui_kuang01":[{"time":0}]},"ui_ziyuan/ui_xiaokuang01":{"ui_ziyuan/ui_xiaokuang01":[{"time":0}]}}}},"dianjixiaoguo":{"slots":{"texiao_dantu/fg_baoshan01":{"attachment":[{"time":0,"name":null}]},"texiao_dantu/fg_baoshan1":{"attachment":[{"time":0,"name":null}]},"texiao_dantu/fg_baoshan02":{"color":[{"time":0,"color":"ffffff00"},{"time":0.2,"color":"fffffff6"},{"time":0.3333,"color":"ffffffff"},{"time":0.5,"color":"fffffff1","curve":[0.002,0.5,0.012,1]},{"time":1.2,"color":"ffffff00"}]},"texiao_dantu/saf_liangguang01":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/3":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/10":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/15":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/3-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/4-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/5-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/6-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/juxing_biankuang":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang02":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang2":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang3":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang4":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_xiaokuang01":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_zi":{"attachment":[{"time":0,"name":null}]}},"bones":{"ui_ziyuan/ui_xiaokuang01":{"scale":[{"time":0,"x":1,"y":1}]},"texiao_dantu/fg_baoshan02":{"translate":[{"time":0,"x":0,"y":-0.24}]}},"deform":{"default":{"ui_ziyuan/ui_xiaokuang01":{"ui_ziyuan/ui_xiaokuang01":[{"time":0}]}}}},"gunshuzi":{"slots":{"texiao_dantu/fg_baoshan1":{"color":[{"time":0,"color":"ffffff00"}],"attachment":[{"time":0,"name":null}]},"texiao_dantu/fg_baoshan01":{"color":[{"time":0,"color":"ffffff00"}],"attachment":[{"time":0,"name":null}]},"texiao_dantu/fg_baoshan02":{"attachment":[{"time":0,"name":null}]},"texiao_dantu/saf_liangguang01":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/3":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":0.2333,"color":"ffffffff","curve":[0.006,0.4,0.75,1]},{"time":0.4333,"color":"ffffff00"}]},"ui_ziyuan/5":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":0.6667,"color":"ffffffff","curve":[0.006,0.39,0.75,1]},{"time":0.8667,"color":"ffffff00"}],"attachment":[{"time":0,"name":null},{"time":0.4333,"name":"ui_ziyuan/5"}]},"ui_ziyuan/10":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":1.1,"color":"ffffffff","curve":[0.002,0.4,0.75,1]},{"time":1.3,"color":"ffffff00"}],"attachment":[{"time":0,"name":null},{"time":0.8667,"name":"ui_ziyuan/10"}]},"ui_ziyuan/15":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":1.5333,"color":"ffffffff","curve":[0,0.39,0.75,1]},{"time":1.7333,"color":"ffffff00"}],"attachment":[{"time":0,"name":null},{"time":1.3,"name":"ui_ziyuan/15"}]},"ui_ziyuan/3-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/4-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/5-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/6-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/juxing_biankuang":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang02":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang2":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang3":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang4":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_xiaokuang01":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_zi":{"attachment":[{"time":0,"name":null}]}},"bones":{"ui_ziyuan/ui_xiaokuang01":{"scale":[{"time":0,"x":1,"y":1}]},"ui_ziyuan/15":{"scale":[{"time":0,"x":0.13,"y":0.13,"curve":"stepped"},{"time":1.3,"x":0.13,"y":0.13,"curve":[0,0.39,0.75,1]},{"time":1.7333,"x":1.3,"y":1.3}]},"ui_ziyuan/10":{"scale":[{"time":0,"x":0.13,"y":0.13,"curve":"stepped"},{"time":0.8667,"x":0.13,"y":0.13,"curve":[0.002,0.4,0.75,1]},{"time":1.3,"x":1.3,"y":1.3}]},"ui_ziyuan/5":{"scale":[{"time":0,"x":0.13,"y":0.13,"curve":"stepped"},{"time":0.4333,"x":0.13,"y":0.13,"curve":[0.006,0.39,0.75,1]},{"time":0.8667,"x":1.3,"y":1.3}]},"ui_ziyuan/3":{"scale":[{"time":0,"x":0.131,"y":0.131,"curve":[0,0.39,0.75,1]},{"time":0.4333,"x":1.3,"y":1.3}]}},"deform":{"default":{"ui_ziyuan/ui_xiaokuang01":{"ui_ziyuan/ui_xiaokuang01":[{"time":0}]}}}},"jiesuan_xunhuan":{"slots":{"texiao_dantu/fg_baoshan01":{"attachment":[{"time":0,"name":null}]},"texiao_dantu/fg_baoshan1":{"attachment":[{"time":0,"name":null}]},"texiao_dantu/fg_baoshan02":{"attachment":[{"time":0,"name":null}]},"texiao_dantu/saf_liangguang01":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.6667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1.3333,"color":"ffffff00"}]},"ui_ziyuan/3":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/10":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/15":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/3-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/4-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/5-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/6-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/juxing_biankuang":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang02":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang2":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang3":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang4":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_xiaokuang01":{"attachment":[{"time":0,"name":null}]}},"bones":{"texiao_dantu/saf_liangguang01":{"translate":[{"time":0,"x":0,"y":5.62}],"scale":[{"time":0,"x":2,"y":2}]}}},"xunhuanshan":{"slots":{"texiao_dantu/fg_baoshan01":{"attachment":[{"time":0,"name":null}]},"texiao_dantu/fg_baoshan1":{"attachment":[{"time":0,"name":null}]},"texiao_dantu/fg_baoshan02":{"attachment":[{"time":0,"name":null}]},"texiao_dantu/saf_liangguang01":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/3":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/10":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/15":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/3-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/4-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/5-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/6-x-5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/juxing_biankuang":{"color":[{"time":0,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.6667,"color":"ffffff33","curve":[0.25,0,0.75,1]},{"time":1.3333,"color":"ffffffff"}]},"ui_ziyuan/ui_kuang02":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang2":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang3":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang4":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_xiaokuang01":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_zi":{"attachment":[{"time":0,"name":null}]}},"bones":{"ui_ziyuan/ui_xiaokuang01":{"scale":[{"time":0,"x":1,"y":1}]},"ui_ziyuan/juxing_biankuang":{"translate":[{"time":0,"x":-4.96,"y":3.72}],"scale":[{"time":0,"x":1.982,"y":2}]}},"deform":{"default":{"ui_ziyuan/ui_xiaokuang01":{"ui_ziyuan/ui_xiaokuang01":[{"time":0}]}}}},"zhuanquan":{"slots":{"texiao_dantu/fg_baoshan1":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffa0"},{"time":1.0667,"color":"ffffff00"}]},"texiao_dantu/fg_baoshan01":{"color":[{"time":0,"color":"ffffff00"}]},"texiao_dantu/fg_baoshan02":{"attachment":[{"time":0,"name":null}]},"texiao_dantu/saf_liangguang01":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/3":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/5":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/10":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/15":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/3-x-5":{"attachment":[{"time":0,"name":null},{"time":0.1333,"name":"ui_ziyuan/3-x-5"},{"time":0.4,"name":null}]},"ui_ziyuan/4-x-5":{"attachment":[{"time":0,"name":null},{"time":0.4,"name":"ui_ziyuan/4-x-5"},{"time":0.6667,"name":null}]},"ui_ziyuan/5-x-5":{"attachment":[{"time":0,"name":null},{"time":0.6667,"name":"ui_ziyuan/5-x-5"},{"time":0.9333,"name":null}]},"ui_ziyuan/6-x-5":{"attachment":[{"time":0,"name":null},{"time":0.9333,"name":"ui_ziyuan/6-x-5"},{"time":1,"name":null}]},"ui_ziyuan/juxing_biankuang":{"attachment":[{"time":0,"name":null}]},"ui_ziyuan/ui_kuang02":{"attachment":[{"time":0,"name":null},{"time":0.1333,"name":"ui_ziyuan/ui_kuang01"},{"time":0.2333,"name":"ui_ziyuan/ui_kuang01"},{"time":0.4,"name":null}]},"ui_ziyuan/ui_kuang2":{"attachment":[{"time":0,"name":null},{"time":0.4,"name":"ui_ziyuan/ui_kuang01"},{"time":0.6667,"name":null}]},"ui_ziyuan/ui_kuang3":{"attachment":[{"time":0,"name":null},{"time":0.6667,"name":"ui_ziyuan/ui_kuang01"},{"time":0.9333,"name":null}]},"ui_ziyuan/ui_kuang4":{"attachment":[{"time":0,"name":null},{"time":0.9333,"name":"ui_ziyuan/ui_kuang01"},{"time":1,"name":null}]},"ui_ziyuan/ui_xiaokuang01":{"attachment":[{"time":0,"name":"ui_ziyuan/ui_xiaokuang01"},{"time":0.1333,"name":null}]},"ui_ziyuan/ui_zi":{"attachment":[{"time":0,"name":null}]}},"bones":{"ui_ziyuan/ui_kuang01":{"translate":[{"time":0,"x":-23.07,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":0.2667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":1,"y":0.274}]},"ui_ziyuan/ui_xiaokuang01":{"translate":[{"time":0,"x":-23.07,"y":0}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.1333,"x":1,"y":0.065}]},"ui_ziyuan/3-x-5":{"translate":[{"time":0,"x":-22.03,"y":0}],"scale":[{"time":0,"x":1,"y":0.251,"curve":"stepped"},{"time":0.1333,"x":1,"y":0.251,"curve":[0.25,0,0.75,1]},{"time":0.2667,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.4,"x":1,"y":0.173}]},"ui_ziyuan/ui_kuang02":{"translate":[{"time":0,"x":-23.07,"y":0}],"scale":[{"time":0,"x":1,"y":0.126,"curve":"stepped"},{"time":0.4,"x":1,"y":0.126,"curve":[0.25,0,0.75,1]},{"time":0.5333,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1,"y":0.125}]},"ui_ziyuan/4-x-5":{"translate":[{"time":0,"x":-22.03,"y":0}],"scale":[{"time":0,"x":1,"y":0.117,"curve":"stepped"},{"time":0.4,"x":1,"y":0.117,"curve":[0.25,0,0.75,1]},{"time":0.5333,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.6667,"x":1,"y":0.194}]},"ui_ziyuan/ui_kuang03":{"translate":[{"time":0,"x":-23.07,"y":0}],"scale":[{"time":0,"x":1,"y":0.186,"curve":"stepped"},{"time":0.6667,"x":1,"y":0.186,"curve":[0.25,0,0.75,1]},{"time":0.8,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.9333,"x":1,"y":0.115}]},"ui_ziyuan/5-x-5":{"translate":[{"time":0,"x":-22.03,"y":0}],"scale":[{"time":0,"x":1,"y":0.206,"curve":"stepped"},{"time":0.6667,"x":1,"y":0.206,"curve":[0.25,0,0.75,1]},{"time":0.8,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.9333,"x":1,"y":0.125}]},"ui_ziyuan/ui_kuang04":{"translate":[{"time":0,"x":-23.07,"y":0}],"scale":[{"time":0,"x":1,"y":0.227,"curve":"stepped"},{"time":0.9333,"x":1,"y":0.227,"curve":[0.25,0,0.75,1]},{"time":1.0667,"x":1,"y":1}]},"ui_ziyuan/6-x-5":{"translate":[{"time":0,"x":-22.03,"y":0}],"scale":[{"time":0,"x":1,"y":0.275,"curve":"stepped"},{"time":0.9333,"x":1,"y":0.275,"curve":[0.25,0,0.75,1]},{"time":1.0667,"x":1,"y":1}]}},"deform":{"default":{"ui_ziyuan/3-x-5":{"ui_ziyuan/3-x-5":[{"time":0,"curve":[0.25,0,0.75,1]},{"time":0.1333,"vertices":[-11.95082,0,-10.56292,0,-8.41873,0,-6.44608,0,-4.38766,0,-2.92961,0,-1.55734,0,-0.27083,0,1.53029,0,3.15987,0,4.96098,0,6.59056,0,8.22014,0,10.02126,0,11.95082,0,-10.16378,-4.87992,-9.03336,-4.87992,-7.93922,-4.87992,-6.62625,-4.87992,-5.31329,-4.87992,-3.7815,-4.87992,-2.24971,-4.87992,-0.79086,-4.87992,0.88681,-4.87992,3.07508,-4.87992,5.3363,-4.87992,7.15986,-4.87992,8.47282,-4.87992,10.16378,-4.87992],"curve":[0.25,0,0.75,1]},{"time":0.2667,"curve":[0.25,0,0.75,1]},{"time":0.4,"vertices":[3.13841,0,2.77393,0,2.21085,0,1.69281,0,1.15225,0,0.76935,0,0.40897,0,0.07112,0,-0.40187,0,-0.82981,0,-1.3028,0,-1.73075,0,-2.15869,0,-2.63169,0,-3.13841,0,12.55833,0,11.16158,0,9.80967,0,8.18737,0,6.56508,0,4.67241,0,2.77973,0,0.97719,0,-1.09574,0,-3.79956,0,-6.59351,0,-8.84669,0,-10.46899,0,-12.55833]}]},"ui_ziyuan/4-x-5":{"ui_ziyuan/4-x-5":[{"time":0,"curve":[0.25,0,0.75,1]},{"time":0.4,"vertices":[-7.08492,0,-8.00203,0,-7.08047,0,-6.1589,0,-5.2774,0,-4.31576,0,-3.11372,0,-1.99181,0,-0.8699,0,0.25201,0,1.21364,0,2.25542,0,3.33726,0,4.2989,0,5.22047,0,6.22217,0,7.4923,0,-5.4779,0,-4.92134,0,-4.32981,0,-3.65762,0,-2.93164,0,-2.25945,0,-1.53348,0,-0.88817,0,-0.24286,0,0.40244,0,0.96709,0,1.53173,0,2.09637,0,2.74168,0,3.3601,0,4.00541,0,4.73138,0,5.4779],"curve":[0.25,0,0.75,1]},{"time":0.5333,"curve":[0.25,0,0.75,1]},{"time":0.6667,"vertices":[3.65181,0,3.27962,0,2.86736,0,2.45509,0,2.06075,0,1.63056,0,1.09282,0,0.59093,0,0.08904,0,-0.41285,0,-0.84304,0,-1.30908,0,-1.79304,0,-2.22323,0,-2.6355,0,-3.08362,0,-3.65181,0,9.44435,0,8.48481,0,7.46496,0,6.30604,0,5.0544,0,3.89548,0,2.64385,0,1.53128,0,0.41872,0,-0.69385,0,-1.66734,0,-2.64083,0,-3.61432,0,-4.72689,0,-5.7931,0,-6.90566,0,-8.1573,0,-9.44435]}]},"ui_ziyuan/5-x-5":{"ui_ziyuan/5-x-5":[{"time":0,"curve":[0.25,0,0.75,1]},{"time":0.6667,"vertices":[-9.33811,0,-8.49178,0,-7.57384,0,-6.6958,0,-5.61822,0,-4.4209,0,-3.02403,0,-2.26573,0,-1.38769,0,-0.54957,0,0.28856,0,1.12667,0,1.92489,0,3.0823,0,4.00024,0,4.95809,0,6.03568,0,6.91371,0,7.71193,0,8.66978,0,9.33811,0,-3.98578,0,-3.53017,0,-3.08726,0,-2.64434,0,-2.1844,0,-1.79259,0,-1.34968,0,-0.8216,0,-0.29351,0,0.18347,0,0.52417,0,0.95004,0,1.35888,0,1.73365,0,2.12546,0,2.50023,0,2.9261,0,3.30087,0,3.64157,0,3.98578],"curve":[0.25,0,0.75,1]},{"time":0.8,"curve":[0.25,0,0.75,1]},{"time":0.9333,"vertices":[6.10276,0,5.54965,0,4.94975,0,4.37592,0,3.67168,0,2.8892,0,1.9763,0,1.48073,0,0.9069,0,0.35916,0,-0.18858,0,-0.73632,0,-1.25798,0,-2.01438,0,-2.61428,0,-3.24027,0,-3.94451,0,-4.51834,0,-5.03999,0,-5.66598,0,-6.10276,0,9.74361,0,8.62982,0,7.54708,0,6.46435,0,5.33997,0,4.38216,0,3.29942,0,2.00847,0,0.71752,0,-0.44851,0,-1.28138,0,-2.32247,0,-3.32192,0,-4.23808,0,-5.19588,0,-6.11204,0,-7.15313,0,-8.0693,0,-8.90217,0,-9.74361]}]},"ui_ziyuan/6-x-5":{"ui_ziyuan/6-x-5":[{"time":0,"curve":[0.25,0,0.75,1]},{"time":0.9333,"vertices":[-8.49171,0,-7.19896,0,-5.9636,0,-4.6596,0,-3.95026,0,-3.29419,0,-2.60532,0,-1.85084,0,-0.99794,0,-0.37468,0,0.21579,0,0.93746,0,1.56073,0,2.31521,0,3.00409,0,3.72577,0,4.44745,0,5.16913,0,5.8908,0,6.44846,0,6.97332,0,7.695,0,8.49171,0,-4.01426,0,-3.37764,0,-2.7612,0,-2.14477,0,-1.56078,0,-1.00923,0,-0.49013,0,0.12631,0,0.77519,0,1.42406,0,2.07294,0,2.68938,0,3.24092,0,4.01426],"curve":[0.25,0,0.75,1]},{"time":1.0667}]},"ui_ziyuan/ui_kuang02":{"ui_ziyuan/ui_kuang01":[{"time":0,"curve":[0.25,0,0.75,1]},{"time":0.1333,"vertices":[-8.41957,23.48323,-4.96456,23.48323,-1.71202,23.48323,1.60076,23.48323,4.94365,23.48323,8.41957,23.48323,-8.0262,-23.72823,-4.77009,-23.72823,-1.52597,-23.72823,1.51719,-23.72823,4.73261,-23.72823,8.0262,-23.72823],"curve":[0.25,0,0.75,1]},{"time":0.2667,"curve":[0.25,0,0.75,1]},{"time":0.4,"vertices":[12.28497,5.61937,7.24378,5.61937,2.498,5.61937,-2.33566,5.61937,-7.21327,5.61937,-12.28498,5.61937,16.80095,-14.8772,9.98506,-14.8772,3.19425,-14.8772,-3.17589,-14.8772,-9.9066,-14.8772,-16.80095,-14.8772]}]},"ui_ziyuan/ui_kuang2":{"ui_ziyuan/ui_kuang01":[{"time":0,"curve":[0.25,0,0.75,1]},{"time":0.4,"vertices":[-13.40427,0,-7.90377,0,-2.7256,0,2.54846,0,7.87048,0,13.40427,0,-4.36617,3.88756,-2.59488,3.88756,-0.83011,3.88756,0.82534,3.88756,2.57449,3.88756,4.36617,3.88756],"curve":[0.25,0,0.75,1]},{"time":0.5333,"curve":[0.25,0,0.75,1]},{"time":0.6667,"vertices":[6.60047,-6.92512,3.89194,-6.92512,1.34212,-6.92512,-1.2549,-6.92512,-3.87554,-6.92512,-6.60047,-6.92512,18.27671,0,10.86213,0,3.47483,0,-3.45485,0,-10.77678,0,-18.27671]}]},"ui_ziyuan/ui_kuang3":{"ui_ziyuan/ui_kuang01":[{"time":0,"curve":[0.25,0,0.75,1]},{"time":0.6667,"vertices":[-16.54839,0,-9.75768,0,-3.36491,0,3.14623,0,9.71658,0,16.54839,0,-2.75806,0,-1.63916,0,-0.52437,0,0.52136,0,1.62628,0,2.75806],"curve":[0.25,0,0.75,1]},{"time":0.8,"curve":[0.25,0,0.75,1]},{"time":0.9333,"vertices":[5.75949,0,3.39606,0,1.17112,0,-1.09501,0,-3.38175,0,-5.75949,0,12.33017,0,7.32801,0,2.34425,0,-2.33078,0,-7.27043,0,-12.33017]}]},"ui_ziyuan/ui_kuang4":{"ui_ziyuan/ui_kuang01":[{"time":0,"curve":[0.25,0,0.75,1]},{"time":0.9333,"vertices":[-16.26034,0,-9.58784,0,-3.30634,0,3.09147,0,9.54745,0,16.26034,0,-5.98259,0,-3.55554,0,-1.13743,0,1.13089,0,3.5276,0,5.98259],"curve":[0.25,0,0.75,1]},{"time":1.0667}]},"ui_ziyuan/ui_xiaokuang01":{"ui_ziyuan/ui_xiaokuang01":[{"time":0,"curve":[0.25,0,0.75,1]},{"time":0.1333,"vertices":[8.47686,0,6.85454,0,5.24827,0,3.61566,0,2.00938,0,0,0,0.03446,0,-1.99314,0,-3.57308,0,-5.23202,0,-6.89096,0,-8.47686,0,14.52825,0.50619,11.93317,0.50619,9.07626,0.50619,6.31006,0.50619,3.40781,0.50619,0.83127,0.50619,-0.59857,0,-3.57572,0.50619,-6.29658,0.50619,-9.10813,0.50619,-11.78364,0.50619,-14.66817,0.50619]}]}}}}}},"_atlasText":"\nfg.png\nsize: 1756,251\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntexiao_dantu/fg_baoshan01\n  rotate: false\n  xy: 1482, 166\n  size: 274, 85\n  orig: 274, 85\n  offset: 0, 0\n  index: -1\ntexiao_dantu/fg_baoshan02\n  rotate: false\n  xy: 0, 1\n  size: 380, 74\n  orig: 380, 74\n  offset: 0, 0\n  index: -1\ntexiao_dantu/saf_liangguang01\n  rotate: false\n  xy: 1105, 30\n  size: 262, 51\n  orig: 262, 51\n  offset: 0, 0\n  index: -1\nui_ziyuan/10\n  rotate: false\n  xy: 885, 23\n  size: 71, 58\n  orig: 71, 58\n  offset: 0, 0\n  index: -1\nui_ziyuan/15\n  rotate: false\n  xy: 996, 24\n  size: 69, 57\n  orig: 69, 57\n  offset: 0, 0\n  index: -1\nui_ziyuan/3\n  rotate: false\n  xy: 958, 23\n  size: 36, 58\n  orig: 36, 58\n  offset: 0, 0\n  index: -1\nui_ziyuan/3-x-5\n  rotate: false\n  xy: 314, 83\n  size: 219, 168\n  orig: 219, 168\n  offset: 0, 0\n  index: -1\nui_ziyuan/4-x-5\n  rotate: false\n  xy: 535, 83\n  size: 219, 168\n  orig: 219, 168\n  offset: 0, 0\n  index: -1\nui_ziyuan/5\n  rotate: false\n  xy: 1067, 25\n  size: 36, 56\n  orig: 36, 56\n  offset: 0, 0\n  index: -1\nui_ziyuan/5-x-5\n  rotate: false\n  xy: 756, 83\n  size: 219, 168\n  orig: 219, 168\n  offset: 0, 0\n  index: -1\nui_ziyuan/6-x-5\n  rotate: false\n  xy: 977, 83\n  size: 219, 168\n  orig: 219, 168\n  offset: 0, 0\n  index: -1\nui_ziyuan/juxing_biankuang\n  rotate: false\n  xy: 1369, 4\n  size: 324, 86\n  orig: 324, 86\n  offset: 0, 0\n  index: -1\nui_ziyuan/ui_kuang01\n  rotate: false\n  xy: 0, 77\n  size: 312, 174\n  orig: 312, 174\n  offset: 0, 0\n  index: -1\nui_ziyuan/ui_xiaokuang01\n  rotate: false\n  xy: 1198, 92\n  size: 282, 159\n  orig: 282, 159\n  offset: 0, 0\n  index: -1\nui_ziyuan/ui_zi\n  rotate: false\n  xy: 382, 0\n  size: 501, 81\n  orig: 501, 81\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"9bAdzsH0FBJq4EwLR4Qbj0"}],"textureNames":["fg.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "o0oPHET2PxJyFjkKE4WxPNX5g3o",
+      "spine": "3.6.53",
+      "width": 760,
+      "height": 212.5,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "texiao_dantu/fg_baoshan01",
+        "parent": "root",
+        "x": -0.79,
+        "y": 7.09,
+        "scaleX": 2.5,
+        "scaleY": 2.5
+      },
+      {
+        "name": "texiao_dantu/fg_baoshan1",
+        "parent": "root",
+        "x": -0.79,
+        "y": 7.09,
+        "scaleX": 2.5,
+        "scaleY": 2.5
+      },
+      {
+        "name": "texiao_dantu/fg_baoshan02",
+        "parent": "root",
+        "x": -2.45,
+        "y": 4.79,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "texiao_dantu/saf_liangguang01",
+        "parent": "root",
+        "y": 0.82
+      },
+      {
+        "name": "ui_ziyuan/3",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/5",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/10",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/15",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/3-x-5",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/4-x-5",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/5-x-5",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/6-x-5",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/juxing_biankuang",
+        "parent": "root",
+        "x": 2.52,
+        "y": 3.74
+      },
+      {
+        "name": "ui_ziyuan/ui_kuang01",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/ui_kuang02",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/ui_kuang03",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/ui_kuang04",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/ui_xiaokuang01",
+        "parent": "root",
+        "y": 6.63
+      },
+      {
+        "name": "ui_ziyuan/ui_zi",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "ui_ziyuan/theme102_fgturn_frameblue",
+        "bone": "骨骼"
+      },
+      {
+        "name": "ui_ziyuan/ui_zi",
+        "bone": "ui_ziyuan/ui_zi",
+        "attachment": "ui_ziyuan/ui_zi"
+      },
+      {
+        "name": "texiao_dantu/saf_liangguang01",
+        "bone": "texiao_dantu/saf_liangguang01",
+        "attachment": "texiao_dantu/saf_liangguang01",
+        "blend": "additive"
+      },
+      {
+        "name": "texiao_dantu/fg_baoshan1",
+        "bone": "texiao_dantu/fg_baoshan1",
+        "attachment": "texiao_dantu/fg_baoshan01",
+        "blend": "additive"
+      },
+      {
+        "name": "ui_ziyuan/ui_kuang02",
+        "bone": "ui_ziyuan/ui_kuang01",
+        "attachment": "ui_ziyuan/ui_kuang01"
+      },
+      {
+        "name": "ui_ziyuan/ui_kuang2",
+        "bone": "ui_ziyuan/ui_kuang02",
+        "attachment": "ui_ziyuan/ui_kuang01"
+      },
+      {
+        "name": "ui_ziyuan/ui_kuang3",
+        "bone": "ui_ziyuan/ui_kuang03",
+        "attachment": "ui_ziyuan/ui_kuang01"
+      },
+      {
+        "name": "ui_ziyuan/ui_kuang4",
+        "bone": "ui_ziyuan/ui_kuang04",
+        "attachment": "ui_ziyuan/ui_kuang01"
+      },
+      {
+        "name": "ui_ziyuan/ui_xiaokuang01",
+        "bone": "ui_ziyuan/ui_xiaokuang01",
+        "attachment": "ui_ziyuan/ui_xiaokuang01"
+      },
+      {
+        "name": "ui_ziyuan/3-x-5",
+        "bone": "ui_ziyuan/3-x-5",
+        "attachment": "ui_ziyuan/3-x-5"
+      },
+      {
+        "name": "ui_ziyuan/4-x-5",
+        "bone": "ui_ziyuan/4-x-5",
+        "attachment": "ui_ziyuan/4-x-5"
+      },
+      {
+        "name": "ui_ziyuan/5-x-5",
+        "bone": "ui_ziyuan/5-x-5",
+        "attachment": "ui_ziyuan/5-x-5"
+      },
+      {
+        "name": "ui_ziyuan/6-x-5",
+        "bone": "ui_ziyuan/6-x-5",
+        "attachment": "ui_ziyuan/6-x-5"
+      },
+      {
+        "name": "ui_ziyuan/juxing_biankuang",
+        "bone": "ui_ziyuan/juxing_biankuang",
+        "attachment": "ui_ziyuan/juxing_biankuang",
+        "blend": "additive"
+      },
+      {
+        "name": "texiao_dantu/fg_baoshan02",
+        "bone": "texiao_dantu/fg_baoshan02",
+        "attachment": "texiao_dantu/fg_baoshan02",
+        "blend": "additive"
+      },
+      {
+        "name": "texiao_dantu/fg_baoshan01",
+        "bone": "texiao_dantu/fg_baoshan01",
+        "attachment": "texiao_dantu/fg_baoshan01",
+        "blend": "additive"
+      },
+      {
+        "name": "ui_ziyuan/10",
+        "bone": "ui_ziyuan/10",
+        "attachment": "ui_ziyuan/10"
+      },
+      {
+        "name": "ui_ziyuan/15",
+        "bone": "ui_ziyuan/15",
+        "attachment": "ui_ziyuan/15"
+      },
+      {
+        "name": "ui_ziyuan/3",
+        "bone": "ui_ziyuan/3",
+        "attachment": "ui_ziyuan/3"
+      },
+      {
+        "name": "ui_ziyuan/5",
+        "bone": "ui_ziyuan/5",
+        "attachment": "ui_ziyuan/5"
+      }
+    ],
+    "skins": {
+      "default": {
+        "texiao_dantu/fg_baoshan01": {
+          "texiao_dantu/fg_baoshan01": {
+            "width": 274,
+            "height": 85
+          }
+        },
+        "texiao_dantu/fg_baoshan02": {
+          "texiao_dantu/fg_baoshan02": {
+            "width": 380,
+            "height": 74
+          }
+        },
+        "texiao_dantu/fg_baoshan1": {
+          "texiao_dantu/fg_baoshan01": {
+            "width": 274,
+            "height": 85
+          }
+        },
+        "texiao_dantu/saf_liangguang01": {
+          "texiao_dantu/saf_liangguang01": {
+            "width": 262,
+            "height": 51
+          }
+        },
+        "ui_ziyuan/10": {
+          "ui_ziyuan/10": {
+            "width": 71,
+            "height": 58
+          }
+        },
+        "ui_ziyuan/15": {
+          "ui_ziyuan/15": {
+            "width": 69,
+            "height": 57
+          }
+        },
+        "ui_ziyuan/3": {
+          "ui_ziyuan/3": {
+            "width": 36,
+            "height": 58
+          }
+        },
+        "ui_ziyuan/3-x-5": {
+          "ui_ziyuan/3-x-5": {
+            "type": "mesh",
+            "uvs": [
+              0.92992,
+              0.66667,
+              0.86258,
+              0.66666,
+              0.7808,
+              0.66667,
+              0.73514,
+              0.66667,
+              0.67661,
+              0.66667,
+              0.62904,
+              0.66667,
+              0.58137,
+              0.66667,
+              0.52064,
+              0.66667,
+              0.47866,
+              0.66667,
+              0.42481,
+              0.66667,
+              0.35949,
+              0.66667,
+              0.27841,
+              0.66667,
+              0.21937,
+              0.66667,
+              0.1346,
+              0.66667,
+              0.05582,
+              0.66667,
+              0.05581,
+              0.33333,
+              0.12623,
+              0.33333,
+              0.20382,
+              0.33333,
+              0.28371,
+              0.33333,
+              0.34155,
+              0.33333,
+              0.40687,
+              0.33333,
+              0.48126,
+              0.33333,
+              0.54668,
+              0.33333,
+              0.60272,
+              0.33333,
+              0.66584,
+              0.33333,
+              0.73275,
+              0.33333,
+              0.7808,
+              0.33333,
+              0.85421,
+              0.33333,
+              0.92992,
+              0.33333
+            ],
+            "triangles": [
+              1,
+              27,
+              28,
+              2,
+              26,
+              27,
+              3,
+              25,
+              26,
+              2,
+              27,
+              1,
+              2,
+              3,
+              26,
+              4,
+              24,
+              25,
+              4,
+              25,
+              3,
+              1,
+              28,
+              0,
+              5,
+              23,
+              24,
+              5,
+              24,
+              4,
+              18,
+              12,
+              17,
+              11,
+              18,
+              19,
+              19,
+              10,
+              11,
+              11,
+              12,
+              18,
+              6,
+              22,
+              23,
+              6,
+              23,
+              5,
+              14,
+              15,
+              16,
+              16,
+              13,
+              14,
+              17,
+              13,
+              16,
+              7,
+              21,
+              22,
+              7,
+              22,
+              6,
+              17,
+              12,
+              13,
+              20,
+              10,
+              19,
+              9,
+              20,
+              21,
+              9,
+              10,
+              20,
+              9,
+              21,
+              8,
+              7,
+              8,
+              21
+            ],
+            "vertices": [
+              94.15,
+              -28,
+              79.4,
+              -28,
+              61.5,
+              -28,
+              51.5,
+              -28,
+              38.68,
+              -28,
+              28.26,
+              -28,
+              17.82,
+              -28,
+              4.52,
+              -28,
+              -4.67,
+              -28,
+              -16.47,
+              -28,
+              -30.77,
+              -28,
+              -48.53,
+              -28,
+              -61.46,
+              -28,
+              -80.02,
+              -28,
+              -97.28,
+              -28,
+              -97.28,
+              28,
+              -81.86,
+              28,
+              -64.86,
+              28,
+              -47.37,
+              28,
+              -34.7,
+              28,
+              -20.4,
+              28,
+              -4.1,
+              28,
+              10.22,
+              28,
+              22.5,
+              28,
+              36.32,
+              28,
+              50.97,
+              28,
+              61.5,
+              28,
+              77.57,
+              28,
+              94.15,
+              28
+            ],
+            "hull": 29,
+            "edges": [
+              28,
+              30,
+              0,
+              56,
+              30,
+              32,
+              32,
+              34,
+              34,
+              36,
+              36,
+              38,
+              38,
+              40,
+              40,
+              42,
+              42,
+              44,
+              44,
+              46,
+              46,
+              48,
+              48,
+              50,
+              50,
+              52,
+              52,
+              54,
+              54,
+              56,
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              10,
+              12,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              20,
+              22,
+              22,
+              24,
+              24,
+              26,
+              26,
+              28
+            ],
+            "width": 219,
+            "height": 168
+          }
+        },
+        "ui_ziyuan/4-x-5": {
+          "ui_ziyuan/4-x-5": {
+            "type": "mesh",
+            "uvs": [
+              0.99982,
+              0.66964,
+              0.94995,
+              0.66964,
+              0.89388,
+              0.66964,
+              0.82246,
+              0.66964,
+              0.76282,
+              0.66964,
+              0.70154,
+              0.66964,
+              0.62878,
+              0.66964,
+              0.55327,
+              0.66964,
+              0.48434,
+              0.66964,
+              0.42636,
+              0.66964,
+              0.36509,
+              0.66964,
+              0.30656,
+              0.66964,
+              0.24063,
+              0.66964,
+              0.17936,
+              0.66964,
+              0.12328,
+              0.66964,
+              0.06118,
+              0.66964,
+              0.00018,
+              0.66964,
+              0.00019,
+              0.33036,
+              0.05219,
+              0.33036,
+              0.11183,
+              0.33036,
+              0.16954,
+              0.33036,
+              0.23327,
+              0.33036,
+              0.29756,
+              0.33036,
+              0.35691,
+              0.33036,
+              0.41818,
+              0.33036,
+              0.47288,
+              0.33036,
+              0.51224,
+              0.33036,
+              0.55573,
+              0.33036,
+              0.62551,
+              0.33036,
+              0.69091,
+              0.33036,
+              0.75218,
+              0.33036,
+              0.81264,
+              0.33035,
+              0.88488,
+              0.33035,
+              0.94423,
+              0.33035,
+              0.99982,
+              0.33035
+            ],
+            "triangles": [
+              1,
+              33,
+              34,
+              2,
+              32,
+              33,
+              2,
+              33,
+              1,
+              3,
+              31,
+              32,
+              3,
+              32,
+              2,
+              4,
+              30,
+              31,
+              4,
+              31,
+              3,
+              5,
+              29,
+              30,
+              5,
+              30,
+              4,
+              6,
+              28,
+              29,
+              6,
+              29,
+              5,
+              8,
+              25,
+              26,
+              7,
+              8,
+              26,
+              7,
+              26,
+              27,
+              28,
+              7,
+              27,
+              0,
+              1,
+              34,
+              10,
+              23,
+              24,
+              24,
+              9,
+              10,
+              25,
+              9,
+              24,
+              25,
+              8,
+              9,
+              11,
+              22,
+              23,
+              11,
+              23,
+              10,
+              12,
+              21,
+              22,
+              12,
+              22,
+              11,
+              13,
+              20,
+              21,
+              13,
+              21,
+              12,
+              14,
+              19,
+              20,
+              14,
+              20,
+              13,
+              15,
+              18,
+              19,
+              15,
+              19,
+              14,
+              16,
+              17,
+              18,
+              16,
+              18,
+              15,
+              28,
+              6,
+              7
+            ],
+            "vertices": [
+              109.46,
+              -28.5,
+              98.54,
+              -28.5,
+              86.26,
+              -28.5,
+              70.62,
+              -28.5,
+              57.56,
+              -28.5,
+              44.14,
+              -28.5,
+              28.2,
+              -28.5,
+              11.67,
+              -28.5,
+              -3.43,
+              -28.5,
+              -16.13,
+              -28.5,
+              -29.55,
+              -28.5,
+              -42.36,
+              -28.5,
+              -56.8,
+              -28.5,
+              -70.22,
+              -28.5,
+              -82.5,
+              -28.5,
+              -96.1,
+              -28.5,
+              -109.46,
+              -28.5,
+              -109.46,
+              28.5,
+              -98.07,
+              28.5,
+              -85.01,
+              28.5,
+              -72.37,
+              28.5,
+              -58.41,
+              28.5,
+              -44.33,
+              28.5,
+              -31.34,
+              28.5,
+              -17.92,
+              28.5,
+              -5.94,
+              28.5,
+              2.68,
+              28.5,
+              12.2,
+              28.5,
+              27.49,
+              28.5,
+              41.81,
+              28.5,
+              55.23,
+              28.5,
+              68.47,
+              28.5,
+              84.29,
+              28.5,
+              97.29,
+              28.5,
+              109.46,
+              28.5
+            ],
+            "hull": 35,
+            "edges": [
+              32,
+              34,
+              0,
+              68,
+              34,
+              36,
+              36,
+              38,
+              38,
+              40,
+              40,
+              42,
+              42,
+              44,
+              44,
+              46,
+              46,
+              48,
+              48,
+              50,
+              50,
+              52,
+              52,
+              54,
+              54,
+              56,
+              56,
+              58,
+              58,
+              60,
+              60,
+              62,
+              62,
+              64,
+              64,
+              66,
+              66,
+              68,
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              10,
+              12,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              20,
+              22,
+              22,
+              24,
+              24,
+              26,
+              26,
+              28,
+              28,
+              30,
+              30,
+              32
+            ],
+            "width": 219,
+            "height": 168
+          }
+        },
+        "ui_ziyuan/5": {
+          "ui_ziyuan/5": {
+            "width": 36,
+            "height": 56
+          }
+        },
+        "ui_ziyuan/5-x-5": {
+          "ui_ziyuan/5-x-5": {
+            "type": "mesh",
+            "uvs": [
+              0.99772,
+              0.66964,
+              0.95007,
+              0.66964,
+              0.8975,
+              0.66964,
+              0.84953,
+              0.66964,
+              0.80316,
+              0.66964,
+              0.7456,
+              0.66964,
+              0.69353,
+              0.66964,
+              0.62443,
+              0.66964,
+              0.57646,
+              0.66964,
+              0.53953,
+              0.66964,
+              0.51294,
+              0.66964,
+              0.47989,
+              0.66964,
+              0.44109,
+              0.66964,
+              0.39847,
+              0.66964,
+              0.3465,
+              0.66964,
+              0.29763,
+              0.66964,
+              0.24132,
+              0.66964,
+              0.17797,
+              0.66964,
+              0.1187,
+              0.66964,
+              0.05923,
+              0.66964,
+              0.00493,
+              0.66964,
+              0.00493,
+              0.33036,
+              0.06636,
+              0.33036,
+              0.12725,
+              0.33036,
+              0.1908,
+              0.33036,
+              0.2577,
+              0.33036,
+              0.31116,
+              0.33036,
+              0.36146,
+              0.33036,
+              0.41912,
+              0.33036,
+              0.46317,
+              0.33036,
+              0.50767,
+              0.33036,
+              0.55164,
+              0.33036,
+              0.59142,
+              0.33036,
+              0.64082,
+              0.33036,
+              0.71205,
+              0.33036,
+              0.75558,
+              0.33036,
+              0.80743,
+              0.33036,
+              0.85237,
+              0.33036,
+              0.90035,
+              0.33036,
+              0.95078,
+              0.33036,
+              0.99772,
+              0.33036
+            ],
+            "triangles": [
+              9,
+              30,
+              31,
+              8,
+              9,
+              31,
+              10,
+              30,
+              9,
+              32,
+              8,
+              31,
+              33,
+              8,
+              32,
+              19,
+              21,
+              22,
+              18,
+              19,
+              22,
+              23,
+              18,
+              22,
+              23,
+              17,
+              18,
+              24,
+              17,
+              23,
+              24,
+              16,
+              17,
+              25,
+              16,
+              24,
+              25,
+              26,
+              16,
+              12,
+              28,
+              29,
+              11,
+              29,
+              30,
+              11,
+              12,
+              29,
+              30,
+              10,
+              11,
+              26,
+              15,
+              16,
+              13,
+              14,
+              27,
+              27,
+              15,
+              26,
+              27,
+              14,
+              15,
+              13,
+              27,
+              28,
+              33,
+              7,
+              8,
+              12,
+              13,
+              28,
+              33,
+              6,
+              7,
+              34,
+              6,
+              33,
+              34,
+              35,
+              6,
+              36,
+              6,
+              35,
+              36,
+              5,
+              6,
+              37,
+              5,
+              36,
+              37,
+              4,
+              5,
+              38,
+              4,
+              37,
+              38,
+              3,
+              4,
+              38,
+              2,
+              3,
+              38,
+              1,
+              2,
+              39,
+              1,
+              38,
+              20,
+              21,
+              19,
+              0,
+              39,
+              40,
+              1,
+              39,
+              0
+            ],
+            "vertices": [
+              109,
+              -28.5,
+              98.56,
+              -28.5,
+              87.05,
+              -28.5,
+              76.55,
+              -28.5,
+              66.39,
+              -28.5,
+              53.79,
+              -28.5,
+              42.38,
+              -28.5,
+              27.25,
+              -28.5,
+              16.74,
+              -28.5,
+              8.66,
+              -28.5,
+              2.83,
+              -28.5,
+              -4.4,
+              -28.5,
+              -12.9,
+              -28.5,
+              -22.24,
+              -28.5,
+              -33.62,
+              -28.5,
+              -44.32,
+              -28.5,
+              -56.65,
+              -28.5,
+              -70.52,
+              -28.5,
+              -83.5,
+              -28.5,
+              -96.53,
+              -28.5,
+              -108.42,
+              -28.5,
+              -108.42,
+              28.5,
+              -94.97,
+              28.5,
+              -81.63,
+              28.5,
+              -67.72,
+              28.5,
+              -53.06,
+              28.5,
+              -41.36,
+              28.5,
+              -30.34,
+              28.5,
+              -17.71,
+              28.5,
+              -8.06,
+              28.5,
+              1.68,
+              28.5,
+              11.31,
+              28.5,
+              20.02,
+              28.5,
+              30.84,
+              28.5,
+              46.44,
+              28.5,
+              55.97,
+              28.5,
+              67.33,
+              28.5,
+              77.17,
+              28.5,
+              87.68,
+              28.5,
+              98.72,
+              28.5,
+              109,
+              28.5
+            ],
+            "hull": 41,
+            "edges": [
+              40,
+              42,
+              0,
+              80,
+              42,
+              44,
+              44,
+              46,
+              46,
+              48,
+              48,
+              50,
+              50,
+              52,
+              52,
+              54,
+              54,
+              56,
+              56,
+              58,
+              58,
+              60,
+              60,
+              62,
+              62,
+              64,
+              64,
+              66,
+              66,
+              68,
+              68,
+              70,
+              70,
+              72,
+              72,
+              74,
+              74,
+              76,
+              76,
+              78,
+              78,
+              80,
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              10,
+              12,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              20,
+              22,
+              22,
+              24,
+              24,
+              26,
+              26,
+              28,
+              28,
+              30,
+              30,
+              32,
+              32,
+              34,
+              34,
+              36,
+              36,
+              38,
+              38,
+              40
+            ],
+            "width": 219,
+            "height": 168
+          }
+        },
+        "ui_ziyuan/6-x-5": {
+          "ui_ziyuan/6-x-5": {
+            "type": "mesh",
+            "uvs": [
+              0.99899,
+              0.66964,
+              0.96335,
+              0.66964,
+              0.91601,
+              0.66964,
+              0.86604,
+              0.66964,
+              0.8226,
+              0.66964,
+              0.78022,
+              0.66964,
+              0.72435,
+              0.66964,
+              0.6826,
+              0.66964,
+              0.62737,
+              0.66964,
+              0.57664,
+              0.66964,
+              0.53939,
+              0.66964,
+              0.51239,
+              0.66964,
+              0.46937,
+              0.66964,
+              0.45456,
+              0.66964,
+              0.41794,
+              0.66964,
+              0.38582,
+              0.66964,
+              0.34984,
+              0.66964,
+              0.29461,
+              0.66964,
+              0.25735,
+              0.66964,
+              0.22203,
+              0.66964,
+              0.15014,
+              0.66964,
+              0.07567,
+              0.66964,
+              0.00101,
+              0.66964,
+              0.00101,
+              0.33036,
+              0.08646,
+              0.33036,
+              0.17236,
+              0.33036,
+              0.25955,
+              0.33036,
+              0.38772,
+              0.33036,
+              0.4735,
+              0.33036,
+              0.57203,
+              0.33036,
+              0.61816,
+              0.33036,
+              0.7054,
+              0.33036,
+              0.8042,
+              0.33036,
+              0.86065,
+              0.33036,
+              0.91062,
+              0.33036,
+              0.95662,
+              0.33036,
+              0.99899,
+              0.33036
+            ],
+            "triangles": [
+              21,
+              23,
+              24,
+              22,
+              23,
+              21,
+              20,
+              21,
+              24,
+              25,
+              20,
+              24,
+              19,
+              20,
+              25,
+              26,
+              19,
+              25,
+              2,
+              34,
+              35,
+              1,
+              35,
+              36,
+              1,
+              2,
+              35,
+              36,
+              0,
+              1,
+              26,
+              18,
+              19,
+              3,
+              33,
+              34,
+              3,
+              34,
+              2,
+              26,
+              17,
+              18,
+              26,
+              16,
+              17,
+              27,
+              16,
+              26,
+              15,
+              16,
+              27,
+              14,
+              27,
+              28,
+              15,
+              27,
+              14,
+              13,
+              14,
+              28,
+              12,
+              13,
+              28,
+              11,
+              28,
+              29,
+              12,
+              28,
+              11,
+              10,
+              11,
+              29,
+              4,
+              32,
+              33,
+              6,
+              7,
+              31,
+              9,
+              29,
+              30,
+              10,
+              29,
+              9,
+              8,
+              9,
+              30,
+              30,
+              31,
+              8,
+              31,
+              7,
+              8,
+              6,
+              31,
+              32,
+              32,
+              5,
+              6,
+              32,
+              4,
+              5,
+              33,
+              3,
+              4
+            ],
+            "vertices": [
+              109.28,
+              -28.5,
+              101.47,
+              -28.5,
+              91.11,
+              -28.5,
+              80.16,
+              -28.5,
+              70.65,
+              -28.5,
+              61.37,
+              -28.5,
+              49.13,
+              -28.5,
+              39.99,
+              -28.5,
+              27.89,
+              -28.5,
+              16.78,
+              -28.5,
+              8.63,
+              -28.5,
+              2.71,
+              -28.5,
+              -6.71,
+              -28.5,
+              -9.95,
+              -28.5,
+              -17.97,
+              -28.5,
+              -25.01,
+              -28.5,
+              -32.89,
+              -28.5,
+              -44.98,
+              -28.5,
+              -53.14,
+              -28.5,
+              -60.88,
+              -28.5,
+              -76.62,
+              -28.5,
+              -92.93,
+              -28.5,
+              -109.28,
+              -28.5,
+              -109.28,
+              28.5,
+              -90.56,
+              28.5,
+              -71.75,
+              28.5,
+              -52.66,
+              28.5,
+              -24.59,
+              28.5,
+              -5.8,
+              28.5,
+              15.78,
+              28.5,
+              25.88,
+              28.5,
+              44.98,
+              28.5,
+              66.62,
+              28.5,
+              78.98,
+              28.5,
+              89.93,
+              28.5,
+              100,
+              28.5,
+              109.28,
+              28.5
+            ],
+            "hull": 37,
+            "edges": [
+              44,
+              46,
+              0,
+              72,
+              46,
+              48,
+              48,
+              50,
+              50,
+              52,
+              52,
+              54,
+              54,
+              56,
+              56,
+              58,
+              58,
+              60,
+              60,
+              62,
+              62,
+              64,
+              64,
+              66,
+              66,
+              68,
+              68,
+              70,
+              70,
+              72,
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              8,
+              10,
+              10,
+              12,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              20,
+              22,
+              22,
+              24,
+              24,
+              26,
+              26,
+              28,
+              28,
+              30,
+              30,
+              32,
+              32,
+              34,
+              34,
+              36,
+              36,
+              38,
+              38,
+              40,
+              40,
+              42,
+              42,
+              44
+            ],
+            "width": 219,
+            "height": 168
+          }
+        },
+        "ui_ziyuan/juxing_biankuang": {
+          "ui_ziyuan/juxing_biankuang": {
+            "scaleX": 1.01,
+            "scaleY": 1.01,
+            "width": 324,
+            "height": 86
+          }
+        },
+        "ui_ziyuan/ui_kuang02": {
+          "ui_ziyuan/ui_kuang01": {
+            "type": "mesh",
+            "uvs": [
+              0.87609,
+              0.74872,
+              0.71927,
+              0.74872,
+              0.575,
+              0.74872,
+              0.4288,
+              0.74872,
+              0.28222,
+              0.74872,
+              0.11943,
+              0.74872,
+              0.11732,
+              0.26518,
+              0.28188,
+              0.26518,
+              0.4291,
+              0.26518,
+              0.57261,
+              0.26518,
+              0.71927,
+              0.26518,
+              0.87609,
+              0.26518
+            ],
+            "triangles": [
+              4,
+              7,
+              8,
+              3,
+              4,
+              8,
+              0,
+              10,
+              11,
+              5,
+              6,
+              7,
+              5,
+              7,
+              4,
+              2,
+              9,
+              10,
+              1,
+              2,
+              10,
+              3,
+              8,
+              9,
+              2,
+              3,
+              9,
+              0,
+              1,
+              10
+            ],
+            "vertices": [
+              117.34,
+              -43.28,
+              68.41,
+              -43.28,
+              23.4,
+              -43.28,
+              -22.23,
+              -43.28,
+              -68.04,
+              -43.28,
+              -119.28,
+              -43.28,
+              -119.28,
+              40.86,
+              -68.41,
+              40.86,
+              -22.23,
+              40.86,
+              22.66,
+              40.86,
+              68.41,
+              40.86,
+              117.34,
+              40.86
+            ],
+            "hull": 12,
+            "edges": [
+              10,
+              12,
+              0,
+              22,
+              12,
+              14,
+              8,
+              10,
+              14,
+              16,
+              6,
+              8,
+              16,
+              18,
+              4,
+              6,
+              18,
+              20,
+              20,
+              22,
+              0,
+              2,
+              2,
+              4
+            ],
+            "width": 312,
+            "height": 174
+          }
+        },
+        "ui_ziyuan/ui_kuang2": {
+          "ui_ziyuan/ui_kuang01": {
+            "type": "mesh",
+            "uvs": [
+              0.87186,
+              0.75363,
+              0.72015,
+              0.75363,
+              0.57493,
+              0.75363,
+              0.42732,
+              0.75363,
+              0.28304,
+              0.75363,
+              0.131,
+              0.75363,
+              0.12899,
+              0.25975,
+              0.28273,
+              0.25975,
+              0.42763,
+              0.25975,
+              0.57254,
+              0.25975,
+              0.72015,
+              0.25975,
+              0.87186,
+              0.25975
+            ],
+            "triangles": [
+              3,
+              4,
+              7,
+              5,
+              6,
+              7,
+              5,
+              7,
+              4,
+              8,
+              3,
+              7,
+              3,
+              8,
+              9,
+              3,
+              9,
+              2,
+              1,
+              10,
+              11,
+              1,
+              11,
+              0,
+              10,
+              2,
+              9,
+              10,
+              1,
+              2
+            ],
+            "vertices": [
+              116.02,
+              -44.13,
+              68.69,
+              -44.13,
+              23.38,
+              -44.13,
+              -22.69,
+              -44.13,
+              -67.78,
+              -44.13,
+              -115.63,
+              -44.13,
+              -115.63,
+              41.8,
+              -68.15,
+              41.8,
+              -22.69,
+              41.8,
+              22.63,
+              41.8,
+              68.69,
+              41.8,
+              116.02,
+              41.8
+            ],
+            "hull": 12,
+            "edges": [
+              10,
+              12,
+              0,
+              22,
+              12,
+              14,
+              8,
+              10,
+              14,
+              16,
+              6,
+              8,
+              16,
+              18,
+              4,
+              6,
+              18,
+              20,
+              20,
+              22,
+              0,
+              2,
+              2,
+              4
+            ],
+            "width": 312,
+            "height": 174
+          }
+        },
+        "ui_ziyuan/ui_kuang3": {
+          "ui_ziyuan/ui_kuang01": {
+            "type": "mesh",
+            "uvs": [
+              0.87284,
+              0.74537,
+              0.71932,
+              0.74537,
+              0.57512,
+              0.74537,
+              0.4298,
+              0.74537,
+              0.28405,
+              0.74537,
+              0.13145,
+              0.74537,
+              0.12953,
+              0.2594,
+              0.28372,
+              0.2594,
+              0.43008,
+              0.2594,
+              0.57274,
+              0.2594,
+              0.71932,
+              0.2594,
+              0.87284,
+              0.2594
+            ],
+            "triangles": [
+              8,
+              4,
+              7,
+              3,
+              4,
+              8,
+              5,
+              6,
+              7,
+              5,
+              7,
+              4,
+              1,
+              10,
+              11,
+              2,
+              9,
+              10,
+              1,
+              11,
+              0,
+              1,
+              2,
+              10,
+              3,
+              8,
+              9,
+              2,
+              3,
+              9
+            ],
+            "vertices": [
+              116.32,
+              -42.69,
+              68.43,
+              -42.69,
+              23.44,
+              -42.69,
+              -21.92,
+              -42.69,
+              -67.47,
+              -42.69,
+              -115.49,
+              -42.69,
+              -115.49,
+              41.86,
+              -67.84,
+              41.86,
+              -21.92,
+              41.86,
+              22.69,
+              41.86,
+              68.43,
+              41.86,
+              116.32,
+              41.86
+            ],
+            "hull": 12,
+            "edges": [
+              10,
+              12,
+              0,
+              22,
+              12,
+              14,
+              8,
+              10,
+              14,
+              16,
+              6,
+              8,
+              16,
+              18,
+              4,
+              6,
+              18,
+              20,
+              20,
+              22,
+              0,
+              2,
+              2,
+              4
+            ],
+            "width": 312,
+            "height": 174
+          }
+        },
+        "ui_ziyuan/ui_kuang4": {
+          "ui_ziyuan/ui_kuang01": {
+            "type": "mesh",
+            "uvs": [
+              0.87151,
+              0.75014,
+              0.71799,
+              0.75014,
+              0.57512,
+              0.75014,
+              0.42845,
+              0.75014,
+              0.2814,
+              0.75014,
+              0.1288,
+              0.75014,
+              0.12675,
+              0.25701,
+              0.28109,
+              0.25701,
+              0.42877,
+              0.25701,
+              0.57274,
+              0.25701,
+              0.71799,
+              0.25701,
+              0.87151,
+              0.25701
+            ],
+            "triangles": [
+              10,
+              2,
+              9,
+              10,
+              11,
+              0,
+              1,
+              10,
+              0,
+              1,
+              2,
+              10,
+              5,
+              6,
+              7,
+              4,
+              5,
+              7,
+              8,
+              4,
+              7,
+              3,
+              8,
+              9,
+              3,
+              4,
+              8,
+              9,
+              2,
+              3
+            ],
+            "vertices": [
+              115.91,
+              -43.52,
+              68.01,
+              -43.52,
+              23.44,
+              -43.52,
+              -22.34,
+              -43.52,
+              -68.3,
+              -43.52,
+              -116.32,
+              -43.52,
+              -116.32,
+              42.28,
+              -68.67,
+              42.28,
+              -22.34,
+              42.28,
+              22.69,
+              42.28,
+              68.01,
+              42.28,
+              115.91,
+              42.28
+            ],
+            "hull": 12,
+            "edges": [
+              10,
+              12,
+              0,
+              22,
+              12,
+              14,
+              8,
+              10,
+              14,
+              16,
+              6,
+              8,
+              16,
+              18,
+              4,
+              6,
+              18,
+              20,
+              20,
+              22,
+              0,
+              2,
+              2,
+              4
+            ],
+            "width": 312,
+            "height": 174
+          }
+        },
+        "ui_ziyuan/ui_xiaokuang01": {
+          "ui_ziyuan/ui_xiaokuang01": {
+            "type": "mesh",
+            "uvs": [
+              0.97037,
+              0.81859,
+              0.86449,
+              0.81859,
+              0.76023,
+              0.81859,
+              0.66843,
+              0.81859,
+              0.57974,
+              0.81859,
+              0.50774,
+              0.81859,
+              0.46061,
+              0.81859,
+              0.42188,
+              0.81859,
+              0.3376,
+              0.81859,
+              0.24788,
+              0.81859,
+              0.127,
+              0.81859,
+              0.0478,
+              0.81859,
+              0.0478,
+              0.20443,
+              0.12545,
+              0.20443,
+              0.24632,
+              0.20443,
+              0.33501,
+              0.20443,
+              0.42136,
+              0.20443,
+              0.46169,
+              0.20443,
+              0.50981,
+              0.20443,
+              0.57954,
+              0.20443,
+              0.66843,
+              0.20443,
+              0.76023,
+              0.20443,
+              0.86346,
+              0.20443,
+              0.97037,
+              0.20443
+            ],
+            "triangles": [
+              6,
+              7,
+              16,
+              17,
+              6,
+              16,
+              17,
+              5,
+              6,
+              18,
+              5,
+              17,
+              19,
+              5,
+              18,
+              8,
+              15,
+              16,
+              8,
+              16,
+              7,
+              5,
+              19,
+              4,
+              19,
+              20,
+              4,
+              20,
+              21,
+              3,
+              21,
+              2,
+              3,
+              9,
+              14,
+              15,
+              9,
+              15,
+              8,
+              22,
+              2,
+              21,
+              10,
+              13,
+              14,
+              10,
+              14,
+              9,
+              1,
+              22,
+              23,
+              2,
+              22,
+              1,
+              0,
+              1,
+              23,
+              11,
+              12,
+              13,
+              11,
+              13,
+              10,
+              20,
+              3,
+              4
+            ],
+            "vertices": [
+              132.64,
+              -50.66,
+              102.79,
+              -50.66,
+              73.38,
+              -50.66,
+              47.5,
+              -50.66,
+              22.49,
+              -50.66,
+              3.99,
+              -50.66,
+              -9.69,
+              -50.66,
+              -22.03,
+              -50.66,
+              -45.8,
+              -50.66,
+              -71.1,
+              -50.66,
+              -105.18,
+              -50.66,
+              -127.52,
+              -50.66,
+              -127.52,
+              47,
+              -105.62,
+              47,
+              -71.54,
+              47,
+              -46.53,
+              47,
+              -22.18,
+              47,
+              -9.84,
+              47,
+              3.84,
+              47,
+              22.63,
+              47,
+              47.5,
+              47,
+              73.38,
+              47,
+              102.49,
+              47,
+              132.64,
+              47
+            ],
+            "hull": 24,
+            "edges": [
+              22,
+              24,
+              0,
+              46,
+              24,
+              26,
+              26,
+              28,
+              28,
+              30,
+              30,
+              32,
+              32,
+              34,
+              38,
+              40,
+              40,
+              42,
+              42,
+              44,
+              44,
+              46,
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              6,
+              8,
+              12,
+              14,
+              14,
+              16,
+              16,
+              18,
+              18,
+              20,
+              20,
+              22,
+              8,
+              10,
+              10,
+              12,
+              34,
+              36,
+              36,
+              38
+            ],
+            "width": 282,
+            "height": 159
+          }
+        },
+        "ui_ziyuan/ui_zi": {
+          "ui_ziyuan/ui_zi": {
+            "width": 501,
+            "height": 81
+          }
+        }
+      }
+    },
+    "animations": {
+      "baoguang01": {
+        "slots": {
+          "texiao_dantu/fg_baoshan1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.7,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/saf_liangguang01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/10": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/15": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/3-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/4-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/5-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/6-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/juxing_biankuang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_xiaokuang01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_zi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "ui_ziyuan/ui_kuang01": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "ui_ziyuan/ui_xiaokuang01": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "ui_ziyuan/3-x-5": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.251
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang02": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.126
+              }
+            ]
+          },
+          "ui_ziyuan/4-x-5": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.117
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang03": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.186
+              }
+            ]
+          },
+          "ui_ziyuan/5-x-5": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.206
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang04": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.227
+              }
+            ]
+          },
+          "ui_ziyuan/6-x-5": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.275
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "ui_ziyuan/3-x-5": {
+              "ui_ziyuan/3-x-5": [
+                {
+                  "time": 0
+                }
+              ]
+            },
+            "ui_ziyuan/4-x-5": {
+              "ui_ziyuan/4-x-5": [
+                {
+                  "time": 0
+                }
+              ]
+            },
+            "ui_ziyuan/5-x-5": {
+              "ui_ziyuan/5-x-5": [
+                {
+                  "time": 0
+                }
+              ]
+            },
+            "ui_ziyuan/6-x-5": {
+              "ui_ziyuan/6-x-5": [
+                {
+                  "time": 0
+                }
+              ]
+            },
+            "ui_ziyuan/ui_kuang02": {
+              "ui_ziyuan/ui_kuang01": [
+                {
+                  "time": 0
+                }
+              ]
+            },
+            "ui_ziyuan/ui_kuang2": {
+              "ui_ziyuan/ui_kuang01": [
+                {
+                  "time": 0
+                }
+              ]
+            },
+            "ui_ziyuan/ui_kuang3": {
+              "ui_ziyuan/ui_kuang01": [
+                {
+                  "time": 0
+                }
+              ]
+            },
+            "ui_ziyuan/ui_kuang4": {
+              "ui_ziyuan/ui_kuang01": [
+                {
+                  "time": 0
+                }
+              ]
+            },
+            "ui_ziyuan/ui_xiaokuang01": {
+              "ui_ziyuan/ui_xiaokuang01": [
+                {
+                  "time": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "dianjixiaoguo": {
+        "slots": {
+          "texiao_dantu/fg_baoshan01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan02": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2,
+                "color": "fffffff6"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.5,
+                "color": "fffffff1",
+                "curve": [
+                  0.002,
+                  0.5,
+                  0.012,
+                  1
+                ]
+              },
+              {
+                "time": 1.2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "texiao_dantu/saf_liangguang01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/10": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/15": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/3-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/4-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/5-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/6-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/juxing_biankuang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_xiaokuang01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_zi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "ui_ziyuan/ui_xiaokuang01": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan02": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -0.24
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "ui_ziyuan/ui_xiaokuang01": {
+              "ui_ziyuan/ui_xiaokuang01": [
+                {
+                  "time": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "gunshuzi": {
+        "slots": {
+          "texiao_dantu/fg_baoshan1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/saf_liangguang01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": [
+                  0.006,
+                  0.4,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "ui_ziyuan/5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff",
+                "curve": [
+                  0.006,
+                  0.39,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.4333,
+                "name": "ui_ziyuan/5"
+              }
+            ]
+          },
+          "ui_ziyuan/10": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1,
+                "color": "ffffffff",
+                "curve": [
+                  0.002,
+                  0.4,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.8667,
+                "name": "ui_ziyuan/10"
+              }
+            ]
+          },
+          "ui_ziyuan/15": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5333,
+                "color": "ffffffff",
+                "curve": [
+                  0,
+                  0.39,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.7333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 1.3,
+                "name": "ui_ziyuan/15"
+              }
+            ]
+          },
+          "ui_ziyuan/3-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/4-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/5-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/6-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/juxing_biankuang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_xiaokuang01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_zi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "ui_ziyuan/ui_xiaokuang01": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "ui_ziyuan/15": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.13,
+                "y": 0.13,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3,
+                "x": 0.13,
+                "y": 0.13,
+                "curve": [
+                  0,
+                  0.39,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.7333,
+                "x": 1.3,
+                "y": 1.3
+              }
+            ]
+          },
+          "ui_ziyuan/10": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.13,
+                "y": 0.13,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8667,
+                "x": 0.13,
+                "y": 0.13,
+                "curve": [
+                  0.002,
+                  0.4,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3,
+                "x": 1.3,
+                "y": 1.3
+              }
+            ]
+          },
+          "ui_ziyuan/5": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.13,
+                "y": 0.13,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4333,
+                "x": 0.13,
+                "y": 0.13,
+                "curve": [
+                  0.006,
+                  0.39,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8667,
+                "x": 1.3,
+                "y": 1.3
+              }
+            ]
+          },
+          "ui_ziyuan/3": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.131,
+                "y": 0.131,
+                "curve": [
+                  0,
+                  0.39,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "x": 1.3,
+                "y": 1.3
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "ui_ziyuan/ui_xiaokuang01": {
+              "ui_ziyuan/ui_xiaokuang01": [
+                {
+                  "time": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "jiesuan_xunhuan": {
+        "slots": {
+          "texiao_dantu/fg_baoshan01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/saf_liangguang01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "ui_ziyuan/3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/10": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/15": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/3-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/4-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/5-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/6-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/juxing_biankuang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_xiaokuang01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "texiao_dantu/saf_liangguang01": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 5.62
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 2,
+                "y": 2
+              }
+            ]
+          }
+        }
+      },
+      "xunhuanshan": {
+        "slots": {
+          "texiao_dantu/fg_baoshan01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/saf_liangguang01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/10": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/15": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/3-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/4-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/5-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/6-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/juxing_biankuang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff33",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_xiaokuang01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_zi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "ui_ziyuan/ui_xiaokuang01": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "ui_ziyuan/juxing_biankuang": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -4.96,
+                "y": 3.72
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.982,
+                "y": 2
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "ui_ziyuan/ui_xiaokuang01": {
+              "ui_ziyuan/ui_xiaokuang01": [
+                {
+                  "time": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "zhuanquan": {
+        "slots": {
+          "texiao_dantu/fg_baoshan1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffa0"
+              },
+              {
+                "time": 1.0667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "texiao_dantu/fg_baoshan02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "texiao_dantu/saf_liangguang01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/10": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/15": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/3-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.1333,
+                "name": "ui_ziyuan/3-x-5"
+              },
+              {
+                "time": 0.4,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/4-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.4,
+                "name": "ui_ziyuan/4-x-5"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/5-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "ui_ziyuan/5-x-5"
+              },
+              {
+                "time": 0.9333,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/6-x-5": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.9333,
+                "name": "ui_ziyuan/6-x-5"
+              },
+              {
+                "time": 1,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/juxing_biankuang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.1333,
+                "name": "ui_ziyuan/ui_kuang01"
+              },
+              {
+                "time": 0.2333,
+                "name": "ui_ziyuan/ui_kuang01"
+              },
+              {
+                "time": 0.4,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.4,
+                "name": "ui_ziyuan/ui_kuang01"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "ui_ziyuan/ui_kuang01"
+              },
+              {
+                "time": 0.9333,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.9333,
+                "name": "ui_ziyuan/ui_kuang01"
+              },
+              {
+                "time": 1,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_xiaokuang01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "ui_ziyuan/ui_xiaokuang01"
+              },
+              {
+                "time": 0.1333,
+                "name": null
+              }
+            ]
+          },
+          "ui_ziyuan/ui_zi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "ui_ziyuan/ui_kuang01": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -23.07,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1,
+                "y": 0.274
+              }
+            ]
+          },
+          "ui_ziyuan/ui_xiaokuang01": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -23.07,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 1,
+                "y": 0.065
+              }
+            ]
+          },
+          "ui_ziyuan/3-x-5": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -22.03,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.251,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": 1,
+                "y": 0.251,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 1,
+                "y": 0.173
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang02": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -23.07,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.126,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "x": 1,
+                "y": 0.126,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5333,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 0.125
+              }
+            ]
+          },
+          "ui_ziyuan/4-x-5": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -22.03,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.117,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "x": 1,
+                "y": 0.117,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5333,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 0.194
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang03": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -23.07,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.186,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 0.186,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.9333,
+                "x": 1,
+                "y": 0.115
+              }
+            ]
+          },
+          "ui_ziyuan/5-x-5": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -22.03,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.206,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 0.206,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.9333,
+                "x": 1,
+                "y": 0.125
+              }
+            ]
+          },
+          "ui_ziyuan/ui_kuang04": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -23.07,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.227,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "x": 1,
+                "y": 0.227,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.0667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "ui_ziyuan/6-x-5": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -22.03,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.275,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "x": 1,
+                "y": 0.275,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.0667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "ui_ziyuan/3-x-5": {
+              "ui_ziyuan/3-x-5": [
+                {
+                  "time": 0,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.1333,
+                  "vertices": [
+                    -11.95082,
+                    0,
+                    -10.56292,
+                    0,
+                    -8.41873,
+                    0,
+                    -6.44608,
+                    0,
+                    -4.38766,
+                    0,
+                    -2.92961,
+                    0,
+                    -1.55734,
+                    0,
+                    -0.27083,
+                    0,
+                    1.53029,
+                    0,
+                    3.15987,
+                    0,
+                    4.96098,
+                    0,
+                    6.59056,
+                    0,
+                    8.22014,
+                    0,
+                    10.02126,
+                    0,
+                    11.95082,
+                    0,
+                    -10.16378,
+                    -4.87992,
+                    -9.03336,
+                    -4.87992,
+                    -7.93922,
+                    -4.87992,
+                    -6.62625,
+                    -4.87992,
+                    -5.31329,
+                    -4.87992,
+                    -3.7815,
+                    -4.87992,
+                    -2.24971,
+                    -4.87992,
+                    -0.79086,
+                    -4.87992,
+                    0.88681,
+                    -4.87992,
+                    3.07508,
+                    -4.87992,
+                    5.3363,
+                    -4.87992,
+                    7.15986,
+                    -4.87992,
+                    8.47282,
+                    -4.87992,
+                    10.16378,
+                    -4.87992
+                  ],
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.2667,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.4,
+                  "vertices": [
+                    3.13841,
+                    0,
+                    2.77393,
+                    0,
+                    2.21085,
+                    0,
+                    1.69281,
+                    0,
+                    1.15225,
+                    0,
+                    0.76935,
+                    0,
+                    0.40897,
+                    0,
+                    0.07112,
+                    0,
+                    -0.40187,
+                    0,
+                    -0.82981,
+                    0,
+                    -1.3028,
+                    0,
+                    -1.73075,
+                    0,
+                    -2.15869,
+                    0,
+                    -2.63169,
+                    0,
+                    -3.13841,
+                    0,
+                    12.55833,
+                    0,
+                    11.16158,
+                    0,
+                    9.80967,
+                    0,
+                    8.18737,
+                    0,
+                    6.56508,
+                    0,
+                    4.67241,
+                    0,
+                    2.77973,
+                    0,
+                    0.97719,
+                    0,
+                    -1.09574,
+                    0,
+                    -3.79956,
+                    0,
+                    -6.59351,
+                    0,
+                    -8.84669,
+                    0,
+                    -10.46899,
+                    0,
+                    -12.55833
+                  ]
+                }
+              ]
+            },
+            "ui_ziyuan/4-x-5": {
+              "ui_ziyuan/4-x-5": [
+                {
+                  "time": 0,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.4,
+                  "vertices": [
+                    -7.08492,
+                    0,
+                    -8.00203,
+                    0,
+                    -7.08047,
+                    0,
+                    -6.1589,
+                    0,
+                    -5.2774,
+                    0,
+                    -4.31576,
+                    0,
+                    -3.11372,
+                    0,
+                    -1.99181,
+                    0,
+                    -0.8699,
+                    0,
+                    0.25201,
+                    0,
+                    1.21364,
+                    0,
+                    2.25542,
+                    0,
+                    3.33726,
+                    0,
+                    4.2989,
+                    0,
+                    5.22047,
+                    0,
+                    6.22217,
+                    0,
+                    7.4923,
+                    0,
+                    -5.4779,
+                    0,
+                    -4.92134,
+                    0,
+                    -4.32981,
+                    0,
+                    -3.65762,
+                    0,
+                    -2.93164,
+                    0,
+                    -2.25945,
+                    0,
+                    -1.53348,
+                    0,
+                    -0.88817,
+                    0,
+                    -0.24286,
+                    0,
+                    0.40244,
+                    0,
+                    0.96709,
+                    0,
+                    1.53173,
+                    0,
+                    2.09637,
+                    0,
+                    2.74168,
+                    0,
+                    3.3601,
+                    0,
+                    4.00541,
+                    0,
+                    4.73138,
+                    0,
+                    5.4779
+                  ],
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.5333,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.6667,
+                  "vertices": [
+                    3.65181,
+                    0,
+                    3.27962,
+                    0,
+                    2.86736,
+                    0,
+                    2.45509,
+                    0,
+                    2.06075,
+                    0,
+                    1.63056,
+                    0,
+                    1.09282,
+                    0,
+                    0.59093,
+                    0,
+                    0.08904,
+                    0,
+                    -0.41285,
+                    0,
+                    -0.84304,
+                    0,
+                    -1.30908,
+                    0,
+                    -1.79304,
+                    0,
+                    -2.22323,
+                    0,
+                    -2.6355,
+                    0,
+                    -3.08362,
+                    0,
+                    -3.65181,
+                    0,
+                    9.44435,
+                    0,
+                    8.48481,
+                    0,
+                    7.46496,
+                    0,
+                    6.30604,
+                    0,
+                    5.0544,
+                    0,
+                    3.89548,
+                    0,
+                    2.64385,
+                    0,
+                    1.53128,
+                    0,
+                    0.41872,
+                    0,
+                    -0.69385,
+                    0,
+                    -1.66734,
+                    0,
+                    -2.64083,
+                    0,
+                    -3.61432,
+                    0,
+                    -4.72689,
+                    0,
+                    -5.7931,
+                    0,
+                    -6.90566,
+                    0,
+                    -8.1573,
+                    0,
+                    -9.44435
+                  ]
+                }
+              ]
+            },
+            "ui_ziyuan/5-x-5": {
+              "ui_ziyuan/5-x-5": [
+                {
+                  "time": 0,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.6667,
+                  "vertices": [
+                    -9.33811,
+                    0,
+                    -8.49178,
+                    0,
+                    -7.57384,
+                    0,
+                    -6.6958,
+                    0,
+                    -5.61822,
+                    0,
+                    -4.4209,
+                    0,
+                    -3.02403,
+                    0,
+                    -2.26573,
+                    0,
+                    -1.38769,
+                    0,
+                    -0.54957,
+                    0,
+                    0.28856,
+                    0,
+                    1.12667,
+                    0,
+                    1.92489,
+                    0,
+                    3.0823,
+                    0,
+                    4.00024,
+                    0,
+                    4.95809,
+                    0,
+                    6.03568,
+                    0,
+                    6.91371,
+                    0,
+                    7.71193,
+                    0,
+                    8.66978,
+                    0,
+                    9.33811,
+                    0,
+                    -3.98578,
+                    0,
+                    -3.53017,
+                    0,
+                    -3.08726,
+                    0,
+                    -2.64434,
+                    0,
+                    -2.1844,
+                    0,
+                    -1.79259,
+                    0,
+                    -1.34968,
+                    0,
+                    -0.8216,
+                    0,
+                    -0.29351,
+                    0,
+                    0.18347,
+                    0,
+                    0.52417,
+                    0,
+                    0.95004,
+                    0,
+                    1.35888,
+                    0,
+                    1.73365,
+                    0,
+                    2.12546,
+                    0,
+                    2.50023,
+                    0,
+                    2.9261,
+                    0,
+                    3.30087,
+                    0,
+                    3.64157,
+                    0,
+                    3.98578
+                  ],
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.8,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.9333,
+                  "vertices": [
+                    6.10276,
+                    0,
+                    5.54965,
+                    0,
+                    4.94975,
+                    0,
+                    4.37592,
+                    0,
+                    3.67168,
+                    0,
+                    2.8892,
+                    0,
+                    1.9763,
+                    0,
+                    1.48073,
+                    0,
+                    0.9069,
+                    0,
+                    0.35916,
+                    0,
+                    -0.18858,
+                    0,
+                    -0.73632,
+                    0,
+                    -1.25798,
+                    0,
+                    -2.01438,
+                    0,
+                    -2.61428,
+                    0,
+                    -3.24027,
+                    0,
+                    -3.94451,
+                    0,
+                    -4.51834,
+                    0,
+                    -5.03999,
+                    0,
+                    -5.66598,
+                    0,
+                    -6.10276,
+                    0,
+                    9.74361,
+                    0,
+                    8.62982,
+                    0,
+                    7.54708,
+                    0,
+                    6.46435,
+                    0,
+                    5.33997,
+                    0,
+                    4.38216,
+                    0,
+                    3.29942,
+                    0,
+                    2.00847,
+                    0,
+                    0.71752,
+                    0,
+                    -0.44851,
+                    0,
+                    -1.28138,
+                    0,
+                    -2.32247,
+                    0,
+                    -3.32192,
+                    0,
+                    -4.23808,
+                    0,
+                    -5.19588,
+                    0,
+                    -6.11204,
+                    0,
+                    -7.15313,
+                    0,
+                    -8.0693,
+                    0,
+                    -8.90217,
+                    0,
+                    -9.74361
+                  ]
+                }
+              ]
+            },
+            "ui_ziyuan/6-x-5": {
+              "ui_ziyuan/6-x-5": [
+                {
+                  "time": 0,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.9333,
+                  "vertices": [
+                    -8.49171,
+                    0,
+                    -7.19896,
+                    0,
+                    -5.9636,
+                    0,
+                    -4.6596,
+                    0,
+                    -3.95026,
+                    0,
+                    -3.29419,
+                    0,
+                    -2.60532,
+                    0,
+                    -1.85084,
+                    0,
+                    -0.99794,
+                    0,
+                    -0.37468,
+                    0,
+                    0.21579,
+                    0,
+                    0.93746,
+                    0,
+                    1.56073,
+                    0,
+                    2.31521,
+                    0,
+                    3.00409,
+                    0,
+                    3.72577,
+                    0,
+                    4.44745,
+                    0,
+                    5.16913,
+                    0,
+                    5.8908,
+                    0,
+                    6.44846,
+                    0,
+                    6.97332,
+                    0,
+                    7.695,
+                    0,
+                    8.49171,
+                    0,
+                    -4.01426,
+                    0,
+                    -3.37764,
+                    0,
+                    -2.7612,
+                    0,
+                    -2.14477,
+                    0,
+                    -1.56078,
+                    0,
+                    -1.00923,
+                    0,
+                    -0.49013,
+                    0,
+                    0.12631,
+                    0,
+                    0.77519,
+                    0,
+                    1.42406,
+                    0,
+                    2.07294,
+                    0,
+                    2.68938,
+                    0,
+                    3.24092,
+                    0,
+                    4.01426
+                  ],
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 1.0667
+                }
+              ]
+            },
+            "ui_ziyuan/ui_kuang02": {
+              "ui_ziyuan/ui_kuang01": [
+                {
+                  "time": 0,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.1333,
+                  "vertices": [
+                    -8.41957,
+                    23.48323,
+                    -4.96456,
+                    23.48323,
+                    -1.71202,
+                    23.48323,
+                    1.60076,
+                    23.48323,
+                    4.94365,
+                    23.48323,
+                    8.41957,
+                    23.48323,
+                    -8.0262,
+                    -23.72823,
+                    -4.77009,
+                    -23.72823,
+                    -1.52597,
+                    -23.72823,
+                    1.51719,
+                    -23.72823,
+                    4.73261,
+                    -23.72823,
+                    8.0262,
+                    -23.72823
+                  ],
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.2667,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.4,
+                  "vertices": [
+                    12.28497,
+                    5.61937,
+                    7.24378,
+                    5.61937,
+                    2.498,
+                    5.61937,
+                    -2.33566,
+                    5.61937,
+                    -7.21327,
+                    5.61937,
+                    -12.28498,
+                    5.61937,
+                    16.80095,
+                    -14.8772,
+                    9.98506,
+                    -14.8772,
+                    3.19425,
+                    -14.8772,
+                    -3.17589,
+                    -14.8772,
+                    -9.9066,
+                    -14.8772,
+                    -16.80095,
+                    -14.8772
+                  ]
+                }
+              ]
+            },
+            "ui_ziyuan/ui_kuang2": {
+              "ui_ziyuan/ui_kuang01": [
+                {
+                  "time": 0,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.4,
+                  "vertices": [
+                    -13.40427,
+                    0,
+                    -7.90377,
+                    0,
+                    -2.7256,
+                    0,
+                    2.54846,
+                    0,
+                    7.87048,
+                    0,
+                    13.40427,
+                    0,
+                    -4.36617,
+                    3.88756,
+                    -2.59488,
+                    3.88756,
+                    -0.83011,
+                    3.88756,
+                    0.82534,
+                    3.88756,
+                    2.57449,
+                    3.88756,
+                    4.36617,
+                    3.88756
+                  ],
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.5333,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.6667,
+                  "vertices": [
+                    6.60047,
+                    -6.92512,
+                    3.89194,
+                    -6.92512,
+                    1.34212,
+                    -6.92512,
+                    -1.2549,
+                    -6.92512,
+                    -3.87554,
+                    -6.92512,
+                    -6.60047,
+                    -6.92512,
+                    18.27671,
+                    0,
+                    10.86213,
+                    0,
+                    3.47483,
+                    0,
+                    -3.45485,
+                    0,
+                    -10.77678,
+                    0,
+                    -18.27671
+                  ]
+                }
+              ]
+            },
+            "ui_ziyuan/ui_kuang3": {
+              "ui_ziyuan/ui_kuang01": [
+                {
+                  "time": 0,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.6667,
+                  "vertices": [
+                    -16.54839,
+                    0,
+                    -9.75768,
+                    0,
+                    -3.36491,
+                    0,
+                    3.14623,
+                    0,
+                    9.71658,
+                    0,
+                    16.54839,
+                    0,
+                    -2.75806,
+                    0,
+                    -1.63916,
+                    0,
+                    -0.52437,
+                    0,
+                    0.52136,
+                    0,
+                    1.62628,
+                    0,
+                    2.75806
+                  ],
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.8,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.9333,
+                  "vertices": [
+                    5.75949,
+                    0,
+                    3.39606,
+                    0,
+                    1.17112,
+                    0,
+                    -1.09501,
+                    0,
+                    -3.38175,
+                    0,
+                    -5.75949,
+                    0,
+                    12.33017,
+                    0,
+                    7.32801,
+                    0,
+                    2.34425,
+                    0,
+                    -2.33078,
+                    0,
+                    -7.27043,
+                    0,
+                    -12.33017
+                  ]
+                }
+              ]
+            },
+            "ui_ziyuan/ui_kuang4": {
+              "ui_ziyuan/ui_kuang01": [
+                {
+                  "time": 0,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.9333,
+                  "vertices": [
+                    -16.26034,
+                    0,
+                    -9.58784,
+                    0,
+                    -3.30634,
+                    0,
+                    3.09147,
+                    0,
+                    9.54745,
+                    0,
+                    16.26034,
+                    0,
+                    -5.98259,
+                    0,
+                    -3.55554,
+                    0,
+                    -1.13743,
+                    0,
+                    1.13089,
+                    0,
+                    3.5276,
+                    0,
+                    5.98259
+                  ],
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 1.0667
+                }
+              ]
+            },
+            "ui_ziyuan/ui_xiaokuang01": {
+              "ui_ziyuan/ui_xiaokuang01": [
+                {
+                  "time": 0,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.1333,
+                  "vertices": [
+                    8.47686,
+                    0,
+                    6.85454,
+                    0,
+                    5.24827,
+                    0,
+                    3.61566,
+                    0,
+                    2.00938,
+                    0,
+                    0,
+                    0,
+                    0.03446,
+                    0,
+                    -1.99314,
+                    0,
+                    -3.57308,
+                    0,
+                    -5.23202,
+                    0,
+                    -6.89096,
+                    0,
+                    -8.47686,
+                    0,
+                    14.52825,
+                    0.50619,
+                    11.93317,
+                    0.50619,
+                    9.07626,
+                    0.50619,
+                    6.31006,
+                    0.50619,
+                    3.40781,
+                    0.50619,
+                    0.83127,
+                    0.50619,
+                    -0.59857,
+                    0,
+                    -3.57572,
+                    0.50619,
+                    -6.29658,
+                    0.50619,
+                    -9.10813,
+                    0.50619,
+                    -11.78364,
+                    0.50619,
+                    -14.66817,
+                    0.50619
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nfg.png\nsize: 1756,251\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntexiao_dantu/fg_baoshan01\n  rotate: false\n  xy: 1482, 166\n  size: 274, 85\n  orig: 274, 85\n  offset: 0, 0\n  index: -1\ntexiao_dantu/fg_baoshan02\n  rotate: false\n  xy: 0, 1\n  size: 380, 74\n  orig: 380, 74\n  offset: 0, 0\n  index: -1\ntexiao_dantu/saf_liangguang01\n  rotate: false\n  xy: 1105, 30\n  size: 262, 51\n  orig: 262, 51\n  offset: 0, 0\n  index: -1\nui_ziyuan/10\n  rotate: false\n  xy: 885, 23\n  size: 71, 58\n  orig: 71, 58\n  offset: 0, 0\n  index: -1\nui_ziyuan/15\n  rotate: false\n  xy: 996, 24\n  size: 69, 57\n  orig: 69, 57\n  offset: 0, 0\n  index: -1\nui_ziyuan/3\n  rotate: false\n  xy: 958, 23\n  size: 36, 58\n  orig: 36, 58\n  offset: 0, 0\n  index: -1\nui_ziyuan/3-x-5\n  rotate: false\n  xy: 314, 83\n  size: 219, 168\n  orig: 219, 168\n  offset: 0, 0\n  index: -1\nui_ziyuan/4-x-5\n  rotate: false\n  xy: 535, 83\n  size: 219, 168\n  orig: 219, 168\n  offset: 0, 0\n  index: -1\nui_ziyuan/5\n  rotate: false\n  xy: 1067, 25\n  size: 36, 56\n  orig: 36, 56\n  offset: 0, 0\n  index: -1\nui_ziyuan/5-x-5\n  rotate: false\n  xy: 756, 83\n  size: 219, 168\n  orig: 219, 168\n  offset: 0, 0\n  index: -1\nui_ziyuan/6-x-5\n  rotate: false\n  xy: 977, 83\n  size: 219, 168\n  orig: 219, 168\n  offset: 0, 0\n  index: -1\nui_ziyuan/juxing_biankuang\n  rotate: false\n  xy: 1369, 4\n  size: 324, 86\n  orig: 324, 86\n  offset: 0, 0\n  index: -1\nui_ziyuan/ui_kuang01\n  rotate: false\n  xy: 0, 77\n  size: 312, 174\n  orig: 312, 174\n  offset: 0, 0\n  index: -1\nui_ziyuan/ui_xiaokuang01\n  rotate: false\n  xy: 1198, 92\n  size: 282, 159\n  orig: 282, 159\n  offset: 0, 0\n  index: -1\nui_ziyuan/ui_zi\n  rotate: false\n  xy: 382, 0\n  size: 501, 81\n  orig: 501, 81\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "9bAdzsH0FBJq4EwLR4Qbj0"
+    }
+  ],
+  "textureNames": [
+    "fg.png"
+  ]
+}

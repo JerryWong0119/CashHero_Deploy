@@ -1,1 +1,857 @@
-[{"__type__":"cc.SpriteFrame","content":{"name":"free_games","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[819,962,161,33],"offset":[0,0],"originalSize":[161,33],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteAtlas","_name":"dialog.plist","_spriteFrames":{"btn_collect1":{"__uuid__":"a60PYLhJ5H/apDRIlm5uZh"},"btn_collect2":{"__uuid__":"9bl12bfZNDUbgzI+vRvzu+"},"btn_start1":{"__uuid__":"375pTWKZRB8Z2Dh6c0U6s5"},"btn_start2":{"__uuid__":"1dttN77WFCeLh+ts2eLJS8"},"bubble_coins_in":{"__uuid__":"7eWduhHBlML53udwSdfhJM"},"bubble_congrats":{"__uuid__":"87osIbMuZEU7mGYsIsG40e"},"bubble_di":{"__uuid__":"55JOpv339CxILEQ9de9DFJ"},"free_congrats":{"__uuid__":"e6p6DqtydCCbPSAuA6Fo3s"},"free_di":{"__uuid__":"6a6yiZpm9JKI3MFqkhXjp2"},"free_di2":{"__uuid__":"385mvow+RNx4RMe5SB8Jjy"},"free_games":{"__uuid__":"00m4x8H5RNtJDftgwG1MjV"},"free_more":{"__uuid__":"4fc3fFEnBGFrQz65BjQRKg"},"hua":{"__uuid__":"a5ouZTkRhJtZDyk05MZVId"},"jackpot_di":{"__uuid__":"d3IRHowbNMbo+SjnSJTkKt"},"jackpot_grand":{"__uuid__":"a28F625FNBqL4n2HPZXocn"},"jackpot_guang":{"__uuid__":"19SsTDZwhDALs+Mut1dT10"},"jackpot_major":{"__uuid__":"53mzR8zitIBL/eTUBQ1Anz"},"jackpot_mini":{"__uuid__":"0eYD8NPA5K4LL487EU9aif"},"jackpot_minor":{"__uuid__":"86xKe6+rVPrbKFk94arPeC"},"jackpot_wfag":{"__uuid__":"3eye9Ez15JRJm/rsXjR36M"},"jackpot_xx":{"__uuid__":"088omrr0JDcYoxTE2iHmVb"},"link_congrats":{"__uuid__":"f44AKQ74RLkIZw61ee1ZXM"},"link_di":{"__uuid__":"389ZrAEClG9pKH6jFmvQam"},"link_feature":{"__uuid__":"74MKmoftRIybWKnTPLcQRI"},"pick_qb":{"__uuid__":"29RKAKR3JJE4Up9ZuBhLIi"},"pick_tit":{"__uuid__":"13aArPn0RMjax06TR+5AiF"},"shuzikuang":{"__uuid__":"89biaMcqlI1Ja6y4O5pGd/"},"you_won":{"__uuid__":"5aLB2TC69Ht4pExAv0F43o"}}},{"__type__":"cc.SpriteFrame","content":{"name":"jackpot_xx","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[819,859,122,101],"offset":[0,0],"originalSize":[122,101],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"jackpot_mini","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[786,526,239,74],"offset":[0,0],"originalSize":[239,74],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"pick_tit","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[362,503,533,55],"offset":[0,0],"originalSize":[533,55],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"jackpot_guang","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[2,2,499,499],"offset":[0,0],"originalSize":[499,499],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"btn_start2","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[419,858,290,86],"offset":[0,0],"originalSize":[290,86],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"pick_qb","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[419,656,222,200],"offset":[0,0],"originalSize":[222,200],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"btn_start1","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[419,946,290,86],"offset":[0,0],"originalSize":[290,86],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"free_di2","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[863,2,252,152],"offset":[0,0],"originalSize":[252,152],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"link_di","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[2,503,358,262],"offset":[0,0],"originalSize":[358,262],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"jackpot_wfag","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[870,256,309,110],"offset":[0,0],"originalSize":[309,110],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"free_more","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[982,256,215,37],"offset":[0,0],"originalSize":[215,37],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"jackpot_major","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[2,1031,353,78],"offset":[0,0],"originalSize":[353,78],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"bubble_di","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[2,767,358,262],"offset":[0,0],"originalSize":[358,262],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"you_won","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[643,815,164,40],"offset":[0,0],"originalSize":[164,40],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"free_di","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[503,2,358,262],"offset":[0,0],"originalSize":[358,262],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"link_feature","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[950,567,256,45],"offset":[0,0],"originalSize":[256,45],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"bubble_coins_in","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[419,1034,338,38],"offset":[0,0],"originalSize":[338,38],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"jackpot_minor","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[2,1111,345,78],"offset":[0,0],"originalSize":[345,78],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"bubble_congrats","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[419,526,365,128],"offset":[0,0],"originalSize":[365,128],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"shuzikuang","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[711,857,130,106],"offset":[0,0],"originalSize":[130,106],"rotated":1,"capInsets":[54,0,54,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"btn_collect2","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[862,567,290,86],"offset":[0,0],"originalSize":[290,86],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"jackpot_grand","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[349,1111,343,78],"offset":[0,0],"originalSize":[343,78],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"hua","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[643,656,157,133],"offset":[0,0],"originalSize":[157,133],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"btn_collect1","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[694,1074,290,86],"offset":[0,0],"originalSize":[290,86],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"jackpot_di","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[759,997,245,62],"offset":[0,0],"originalSize":[245,62],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"free_congrats","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[503,396,365,128],"offset":[0,0],"originalSize":[365,128],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"link_congrats","texture":"8aLQEt/G5JbJKA5AU2y6Z2","rect":[503,266,365,128],"offset":[0,0],"originalSize":[365,128],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "free_games",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        819,
+        962,
+        161,
+        33
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        161,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "dialog.plist",
+    "_spriteFrames": {
+      "btn_collect1": {
+        "__uuid__": "a60PYLhJ5H/apDRIlm5uZh"
+      },
+      "btn_collect2": {
+        "__uuid__": "9bl12bfZNDUbgzI+vRvzu+"
+      },
+      "btn_start1": {
+        "__uuid__": "375pTWKZRB8Z2Dh6c0U6s5"
+      },
+      "btn_start2": {
+        "__uuid__": "1dttN77WFCeLh+ts2eLJS8"
+      },
+      "bubble_coins_in": {
+        "__uuid__": "7eWduhHBlML53udwSdfhJM"
+      },
+      "bubble_congrats": {
+        "__uuid__": "87osIbMuZEU7mGYsIsG40e"
+      },
+      "bubble_di": {
+        "__uuid__": "55JOpv339CxILEQ9de9DFJ"
+      },
+      "free_congrats": {
+        "__uuid__": "e6p6DqtydCCbPSAuA6Fo3s"
+      },
+      "free_di": {
+        "__uuid__": "6a6yiZpm9JKI3MFqkhXjp2"
+      },
+      "free_di2": {
+        "__uuid__": "385mvow+RNx4RMe5SB8Jjy"
+      },
+      "free_games": {
+        "__uuid__": "00m4x8H5RNtJDftgwG1MjV"
+      },
+      "free_more": {
+        "__uuid__": "4fc3fFEnBGFrQz65BjQRKg"
+      },
+      "hua": {
+        "__uuid__": "a5ouZTkRhJtZDyk05MZVId"
+      },
+      "jackpot_di": {
+        "__uuid__": "d3IRHowbNMbo+SjnSJTkKt"
+      },
+      "jackpot_grand": {
+        "__uuid__": "a28F625FNBqL4n2HPZXocn"
+      },
+      "jackpot_guang": {
+        "__uuid__": "19SsTDZwhDALs+Mut1dT10"
+      },
+      "jackpot_major": {
+        "__uuid__": "53mzR8zitIBL/eTUBQ1Anz"
+      },
+      "jackpot_mini": {
+        "__uuid__": "0eYD8NPA5K4LL487EU9aif"
+      },
+      "jackpot_minor": {
+        "__uuid__": "86xKe6+rVPrbKFk94arPeC"
+      },
+      "jackpot_wfag": {
+        "__uuid__": "3eye9Ez15JRJm/rsXjR36M"
+      },
+      "jackpot_xx": {
+        "__uuid__": "088omrr0JDcYoxTE2iHmVb"
+      },
+      "link_congrats": {
+        "__uuid__": "f44AKQ74RLkIZw61ee1ZXM"
+      },
+      "link_di": {
+        "__uuid__": "389ZrAEClG9pKH6jFmvQam"
+      },
+      "link_feature": {
+        "__uuid__": "74MKmoftRIybWKnTPLcQRI"
+      },
+      "pick_qb": {
+        "__uuid__": "29RKAKR3JJE4Up9ZuBhLIi"
+      },
+      "pick_tit": {
+        "__uuid__": "13aArPn0RMjax06TR+5AiF"
+      },
+      "shuzikuang": {
+        "__uuid__": "89biaMcqlI1Ja6y4O5pGd/"
+      },
+      "you_won": {
+        "__uuid__": "5aLB2TC69Ht4pExAv0F43o"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "jackpot_xx",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        819,
+        859,
+        122,
+        101
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        122,
+        101
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "jackpot_mini",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        786,
+        526,
+        239,
+        74
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        239,
+        74
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "pick_tit",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        362,
+        503,
+        533,
+        55
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        533,
+        55
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "jackpot_guang",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        2,
+        2,
+        499,
+        499
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        499,
+        499
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "btn_start2",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        419,
+        858,
+        290,
+        86
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        290,
+        86
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "pick_qb",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        419,
+        656,
+        222,
+        200
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        222,
+        200
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "btn_start1",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        419,
+        946,
+        290,
+        86
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        290,
+        86
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "free_di2",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        863,
+        2,
+        252,
+        152
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        252,
+        152
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "link_di",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        2,
+        503,
+        358,
+        262
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        358,
+        262
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "jackpot_wfag",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        870,
+        256,
+        309,
+        110
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        309,
+        110
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "free_more",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        982,
+        256,
+        215,
+        37
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        215,
+        37
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "jackpot_major",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        2,
+        1031,
+        353,
+        78
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        353,
+        78
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bubble_di",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        2,
+        767,
+        358,
+        262
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        358,
+        262
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "you_won",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        643,
+        815,
+        164,
+        40
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        164,
+        40
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "free_di",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        503,
+        2,
+        358,
+        262
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        358,
+        262
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "link_feature",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        950,
+        567,
+        256,
+        45
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        256,
+        45
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bubble_coins_in",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        419,
+        1034,
+        338,
+        38
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        338,
+        38
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "jackpot_minor",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        2,
+        1111,
+        345,
+        78
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        345,
+        78
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bubble_congrats",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        419,
+        526,
+        365,
+        128
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        365,
+        128
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "shuzikuang",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        711,
+        857,
+        130,
+        106
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        130,
+        106
+      ],
+      "rotated": 1,
+      "capInsets": [
+        54,
+        0,
+        54,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "btn_collect2",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        862,
+        567,
+        290,
+        86
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        290,
+        86
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "jackpot_grand",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        349,
+        1111,
+        343,
+        78
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        343,
+        78
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "hua",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        643,
+        656,
+        157,
+        133
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        157,
+        133
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "btn_collect1",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        694,
+        1074,
+        290,
+        86
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        290,
+        86
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "jackpot_di",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        759,
+        997,
+        245,
+        62
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        245,
+        62
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "free_congrats",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        503,
+        396,
+        365,
+        128
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        365,
+        128
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "link_congrats",
+      "texture": "8aLQEt/G5JbJKA5AU2y6Z2",
+      "rect": [
+        503,
+        266,
+        365,
+        128
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        365,
+        128
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

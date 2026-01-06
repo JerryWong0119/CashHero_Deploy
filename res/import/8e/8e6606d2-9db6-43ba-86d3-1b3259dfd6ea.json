@@ -1,1 +1,81 @@
-{"__type__":"sp.SkeletonData","_name":"jhgl_01","_skeletonJson":{"skeleton":{"hash":"q1JHrCYB6DqRlqAsXAHdT/TnlPw","spine":"3.6.53","width":178,"height":116,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"jhgl","parent":"root","scaleX":2,"scaleY":2},{"name":"骨骼","parent":"root"}],"slots":[{"name":"theme136_top_bonus_5","bone":"骨骼"},{"name":"jhgl","bone":"jhgl","attachment":"jhgl","blend":"additive"}],"skins":{"default":{"jhgl":{"jhgl":{"width":89,"height":58}}}},"animations":{"animation":{"slots":{"jhgl":{"color":[{"time":0,"color":"ffffff00"},{"time":0.5,"color":"ffffffff"},{"time":1,"color":"ffffff00"}]}}}}},"_atlasText":"\njhgl_01.png\nsize: 89,58\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\njhgl\n  rotate: false\n  xy: 0, 0\n  size: 89, 58\n  orig: 89, 58\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"6a6jabHFdP4b66nO6Iu08U"}],"textureNames":["jhgl_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "jhgl_01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "q1JHrCYB6DqRlqAsXAHdT/TnlPw",
+      "spine": "3.6.53",
+      "width": 178,
+      "height": 116,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "jhgl",
+        "parent": "root",
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme136_top_bonus_5",
+        "bone": "骨骼"
+      },
+      {
+        "name": "jhgl",
+        "bone": "jhgl",
+        "attachment": "jhgl",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "jhgl": {
+          "jhgl": {
+            "width": 89,
+            "height": 58
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "jhgl": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\njhgl_01.png\nsize: 89,58\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\njhgl\n  rotate: false\n  xy: 0, 0\n  size: 89, 58\n  orig: 89, 58\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "6a6jabHFdP4b66nO6Iu08U"
+    }
+  ],
+  "textureNames": [
+    "jhgl_01.png"
+  ]
+}

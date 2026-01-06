@@ -1,1 +1,152 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"81DnqzEjQtT52WBn79bVuTCS9U4","spine":"3.6.53","width":92,"height":87.18},"bones":[{"name":"root"},{"name":"zong","parent":"root"},{"name":"meihua","parent":"zong"},{"name":"guang","parent":"meihua","x":-1.11,"y":2},{"name":"limian","parent":"meihua"}],"slots":[{"name":"meihua","bone":"meihua","attachment":"images/meihua"},{"name":"images/guang_0","bone":"guang","attachment":"images/guang_0","blend":"additive"}],"skins":{"default":{"images/guang_0":{"images/guang_0":{"width":92,"height":87}},"meihua":{"images/meihua":{"x":-0.51,"y":-1.18,"width":90,"height":81}}}},"animations":{"animation":{"slots":{"images/guang_0":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.1667,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffe5","curve":"stepped"},{"time":0.8333,"color":"ffffffe5","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}]}},"bones":{"meihua":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":1.07,"y":1.07,"curve":[0.25,0,0.75,1]},{"time":1,"x":1,"y":1}]}}}}},"_atlasText":"\nspine.png\nsize: 256,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/guang_0\n  rotate: false\n  xy: 2, 2\n  size: 92, 87\n  orig: 92, 87\n  offset: 0, 0\n  index: -1\nimages/meihua\n  rotate: false\n  xy: 96, 8\n  size: 90, 81\n  orig: 90, 81\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"bbLYyUhodMZr45E0qfCz54"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "81DnqzEjQtT52WBn79bVuTCS9U4",
+      "spine": "3.6.53",
+      "width": 92,
+      "height": 87.18
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root"
+      },
+      {
+        "name": "meihua",
+        "parent": "zong"
+      },
+      {
+        "name": "guang",
+        "parent": "meihua",
+        "x": -1.11,
+        "y": 2
+      },
+      {
+        "name": "limian",
+        "parent": "meihua"
+      }
+    ],
+    "slots": [
+      {
+        "name": "meihua",
+        "bone": "meihua",
+        "attachment": "images/meihua"
+      },
+      {
+        "name": "images/guang_0",
+        "bone": "guang",
+        "attachment": "images/guang_0",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "images/guang_0": {
+          "images/guang_0": {
+            "width": 92,
+            "height": 87
+          }
+        },
+        "meihua": {
+          "images/meihua": {
+            "x": -0.51,
+            "y": -1.18,
+            "width": 90,
+            "height": 81
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "images/guang_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffe5",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "color": "ffffffe5",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "meihua": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1.07,
+                "y": 1.07,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 256,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/guang_0\n  rotate: false\n  xy: 2, 2\n  size: 92, 87\n  orig: 92, 87\n  offset: 0, 0\n  index: -1\nimages/meihua\n  rotate: false\n  xy: 96, 8\n  size: 90, 81\n  orig: 90, 81\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "bbLYyUhodMZr45E0qfCz54"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

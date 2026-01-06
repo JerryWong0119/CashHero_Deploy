@@ -1,1 +1,489 @@
-{"__type__":"sp.SkeletonData","_name":"grand_jackpot","_skeletonJson":{"skeleton":{"hash":"X4v91PlGnIsUAUwuQ9LpJm9czLA","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"sg","parent":"root","x":1.92,"y":6.59,"scaleX":4,"scaleY":4},{"name":"sg2","parent":"root","x":-2.08,"y":-18.74,"scaleX":4,"scaleY":4}],"slots":[{"name":"grand","bone":"root"},{"name":"sg","bone":"sg","blend":"additive"},{"name":"sg2","bone":"sg2","blend":"additive"}],"skins":{"default":{"grand":{"grand":{"width":469,"height":206},"jujiang":{"width":469,"height":206}},"sg":{"grand/grand_00":{"width":109,"height":50},"grand/grand_01":{"width":109,"height":50},"grand/grand_02":{"width":109,"height":50},"grand/grand_03":{"width":109,"height":50},"grand/grand_04":{"width":109,"height":50},"grand/grand_05":{"width":109,"height":50},"grand/grand_06":{"width":109,"height":50},"grand/grand_07":{"width":109,"height":50},"grand/grand_08":{"width":109,"height":50},"grand/grand_09":{"width":109,"height":50},"grand/grand_10":{"width":109,"height":50},"grand/grand_11":{"width":109,"height":50},"grand/grand_12":{"width":109,"height":50},"grand/grand_13":{"width":109,"height":50},"grand/grand_14":{"width":109,"height":50},"grand/grand_15":{"width":109,"height":50},"grand/grand_16":{"width":109,"height":50},"grand/grand_17":{"width":109,"height":50},"grand/grand_18":{"width":109,"height":50},"grand/grand_19":{"width":109,"height":50}},"sg2":{"ju/sg_00":{"width":122,"height":39},"ju/sg_01":{"width":122,"height":39},"ju/sg_02":{"width":122,"height":39},"ju/sg_03":{"width":122,"height":39},"ju/sg_04":{"width":122,"height":39},"ju/sg_05":{"width":122,"height":39},"ju/sg_06":{"width":122,"height":39},"ju/sg_07":{"width":122,"height":39},"ju/sg_08":{"width":122,"height":39},"ju/sg_09":{"width":122,"height":39},"ju/sg_10":{"width":122,"height":39},"ju/sg_11":{"width":122,"height":39},"ju/sg_12":{"width":122,"height":39},"ju/sg_13":{"width":122,"height":39},"ju/sg_14":{"width":122,"height":39},"ju/sg_15":{"width":122,"height":39},"ju/sg_16":{"width":122,"height":39},"ju/sg_17":{"width":122,"height":39},"ju/sg_18":{"width":122,"height":39},"ju/sg_19":{"width":122,"height":39}}}},"animations":{"grand_jackpot_CN":{"slots":{"grand":{"attachment":[{"time":0,"name":"jujiang"}]},"sg":{"color":[{"time":0,"color":"fffad1ff"}],"attachment":[{"time":0,"name":null}]},"sg2":{"color":[{"time":0,"color":"fffad1ff"}],"attachment":[{"time":0,"name":null},{"time":0.5667,"name":"ju/sg_00"},{"time":0.6,"name":"ju/sg_01"},{"time":0.6667,"name":"ju/sg_02"},{"time":0.7,"name":"ju/sg_03"},{"time":0.7667,"name":"ju/sg_04"},{"time":0.8,"name":"ju/sg_05"},{"time":0.8667,"name":"ju/sg_06"},{"time":0.9,"name":"ju/sg_07"},{"time":0.9667,"name":"ju/sg_08"},{"time":1,"name":"ju/sg_09"},{"time":1.0667,"name":"ju/sg_10"},{"time":1.1,"name":"ju/sg_11"},{"time":1.1667,"name":"ju/sg_12"},{"time":1.2,"name":"ju/sg_13"},{"time":1.2667,"name":"ju/sg_14"},{"time":1.3,"name":"ju/sg_15"},{"time":1.3667,"name":"ju/sg_16"},{"time":1.4,"name":"ju/sg_17"},{"time":1.4667,"name":"ju/sg_18"},{"time":1.5,"name":"ju/sg_19"},{"time":1.5667,"name":null},{"time":2,"name":null}]}}},"grand_jackpot_EN":{"slots":{"grand":{"attachment":[{"time":0,"name":"grand"}]},"sg":{"color":[{"time":0,"color":"fffad1ff"}],"attachment":[{"time":0,"name":null},{"time":0.5667,"name":"grand/grand_00"},{"time":0.6,"name":"grand/grand_01"},{"time":0.6667,"name":"grand/grand_02"},{"time":0.7,"name":"grand/grand_03"},{"time":0.7667,"name":"grand/grand_04"},{"time":0.8,"name":"grand/grand_05"},{"time":0.8333,"name":"grand/grand_06"},{"time":0.9,"name":"grand/grand_07"},{"time":0.9333,"name":"grand/grand_08"},{"time":0.9667,"name":"grand/grand_09"},{"time":1.0333,"name":"grand/grand_10"},{"time":1.0667,"name":"grand/grand_11"},{"time":1.1333,"name":"grand/grand_12"},{"time":1.1667,"name":"grand/grand_13"},{"time":1.2,"name":"grand/grand_14"},{"time":1.2667,"name":"grand/grand_15"},{"time":1.3,"name":"grand/grand_16"},{"time":1.3667,"name":"grand/grand_17"},{"time":1.4,"name":"grand/grand_18"},{"time":1.4333,"name":"grand/grand_19"},{"time":1.5,"name":null},{"time":2,"name":null}]},"sg2":{"attachment":[{"time":0,"name":null}]}}}}},"_atlasText":"\ngrand_jackpot.png\nsize: 522,527\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngrand\n  rotate: false\n  xy: 2, 335\n  size: 423, 190\n  orig: 469, 206\n  offset: 23, 12\n  index: -1\ngrand/grand_00\n  rotate: true\n  xy: 426, 25\n  size: 20, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_01\n  rotate: true\n  xy: 470, 49\n  size: 30, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_02\n  rotate: true\n  xy: 181, 2\n  size: 41, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_03\n  rotate: false\n  xy: 288, 10\n  size: 51, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_04\n  rotate: true\n  xy: 133, 3\n  size: 62, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_05\n  rotate: false\n  xy: 196, 45\n  size: 72, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_06\n  rotate: true\n  xy: 427, 335\n  size: 84, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_07\n  rotate: false\n  xy: 107, 102\n  size: 94, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_08\n  rotate: false\n  xy: 2, 102\n  size: 103, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_09\n  rotate: false\n  xy: 2, 150\n  size: 105, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_10\n  rotate: true\n  xy: 427, 421\n  size: 104, 46\n  orig: 109, 50\n  offset: 2, 2\n  index: -1\ngrand/grand_11\n  rotate: false\n  xy: 109, 150\n  size: 103, 46\n  orig: 109, 50\n  offset: 3, 2\n  index: -1\ngrand/grand_12\n  rotate: true\n  xy: 2, 2\n  size: 98, 46\n  orig: 109, 50\n  offset: 8, 2\n  index: -1\ngrand/grand_13\n  rotate: true\n  xy: 466, 242\n  size: 87, 46\n  orig: 109, 50\n  offset: 19, 2\n  index: -1\ngrand/grand_14\n  rotate: false\n  xy: 444, 150\n  size: 76, 46\n  orig: 109, 50\n  offset: 30, 2\n  index: -1\ngrand/grand_15\n  rotate: true\n  xy: 85, 2\n  size: 63, 46\n  orig: 109, 50\n  offset: 43, 2\n  index: -1\ngrand/grand_16\n  rotate: true\n  xy: 375, 37\n  size: 55, 46\n  orig: 109, 50\n  offset: 51, 2\n  index: -1\ngrand/grand_17\n  rotate: true\n  xy: 466, 198\n  size: 42, 46\n  orig: 109, 50\n  offset: 64, 2\n  index: -1\ngrand/grand_18\n  rotate: false\n  xy: 408, 115\n  size: 34, 46\n  orig: 109, 50\n  offset: 72, 2\n  index: -1\ngrand/grand_19\n  rotate: true\n  xy: 341, 9\n  size: 24, 46\n  orig: 109, 50\n  offset: 82, 2\n  index: -1\nju/sg_00\n  rotate: true\n  xy: 474, 23\n  size: 24, 30\n  orig: 122, 39\n  offset: 4, 4\n  index: -1\nju/sg_01\n  rotate: false\n  xy: 389, 3\n  size: 35, 32\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_02\n  rotate: false\n  xy: 423, 47\n  size: 45, 32\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_03\n  rotate: true\n  xy: 341, 35\n  size: 56, 32\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_04\n  rotate: false\n  xy: 444, 115\n  size: 67, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_05\n  rotate: true\n  xy: 475, 331\n  size: 77, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_06\n  rotate: false\n  xy: 203, 93\n  size: 86, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_07\n  rotate: true\n  xy: 50, 2\n  size: 98, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_08\n  rotate: false\n  xy: 85, 67\n  size: 109, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_09\n  rotate: true\n  xy: 475, 410\n  size: 115, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_10\n  rotate: false\n  xy: 214, 163\n  size: 115, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_11\n  rotate: false\n  xy: 331, 163\n  size: 111, 33\n  orig: 122, 39\n  offset: 8, 3\n  index: -1\nju/sg_12\n  rotate: false\n  xy: 214, 128\n  size: 100, 33\n  orig: 122, 39\n  offset: 19, 3\n  index: -1\nju/sg_13\n  rotate: false\n  xy: 316, 128\n  size: 90, 33\n  orig: 122, 39\n  offset: 29, 3\n  index: -1\nju/sg_14\n  rotate: false\n  xy: 291, 93\n  size: 79, 33\n  orig: 122, 39\n  offset: 40, 3\n  index: -1\nju/sg_15\n  rotate: false\n  xy: 270, 58\n  size: 69, 33\n  orig: 122, 39\n  offset: 50, 3\n  index: -1\nju/sg_16\n  rotate: false\n  xy: 229, 10\n  size: 57, 33\n  orig: 122, 39\n  offset: 62, 3\n  index: -1\nju/sg_17\n  rotate: false\n  xy: 423, 81\n  size: 48, 32\n  orig: 122, 39\n  offset: 71, 4\n  index: -1\nju/sg_18\n  rotate: false\n  xy: 473, 81\n  size: 37, 32\n  orig: 122, 39\n  offset: 82, 4\n  index: -1\nju/sg_19\n  rotate: false\n  xy: 372, 94\n  size: 25, 32\n  orig: 122, 39\n  offset: 94, 4\n  index: -1\njujiang\n  rotate: false\n  xy: 2, 198\n  size: 462, 135\n  orig: 469, 206\n  offset: 3, 16\n  index: -1\n","textures":[{"__uuid__":"97JXexGWRNY7cj4vyb98Gv"}],"textureNames":["grand_jackpot.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "grand_jackpot",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "X4v91PlGnIsUAUwuQ9LpJm9czLA",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "sg",
+        "parent": "root",
+        "x": 1.92,
+        "y": 6.59,
+        "scaleX": 4,
+        "scaleY": 4
+      },
+      {
+        "name": "sg2",
+        "parent": "root",
+        "x": -2.08,
+        "y": -18.74,
+        "scaleX": 4,
+        "scaleY": 4
+      }
+    ],
+    "slots": [
+      {
+        "name": "grand",
+        "bone": "root"
+      },
+      {
+        "name": "sg",
+        "bone": "sg",
+        "blend": "additive"
+      },
+      {
+        "name": "sg2",
+        "bone": "sg2",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "grand": {
+          "grand": {
+            "width": 469,
+            "height": 206
+          },
+          "jujiang": {
+            "width": 469,
+            "height": 206
+          }
+        },
+        "sg": {
+          "grand/grand_00": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_01": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_02": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_03": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_04": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_05": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_06": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_07": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_08": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_09": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_10": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_11": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_12": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_13": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_14": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_15": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_16": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_17": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_18": {
+            "width": 109,
+            "height": 50
+          },
+          "grand/grand_19": {
+            "width": 109,
+            "height": 50
+          }
+        },
+        "sg2": {
+          "ju/sg_00": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_01": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_02": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_03": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_04": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_05": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_06": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_07": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_08": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_09": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_10": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_11": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_12": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_13": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_14": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_15": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_16": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_17": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_18": {
+            "width": 122,
+            "height": 39
+          },
+          "ju/sg_19": {
+            "width": 122,
+            "height": 39
+          }
+        }
+      }
+    },
+    "animations": {
+      "grand_jackpot_CN": {
+        "slots": {
+          "grand": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "jujiang"
+              }
+            ]
+          },
+          "sg": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffad1ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "sg2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffad1ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.5667,
+                "name": "ju/sg_00"
+              },
+              {
+                "time": 0.6,
+                "name": "ju/sg_01"
+              },
+              {
+                "time": 0.6667,
+                "name": "ju/sg_02"
+              },
+              {
+                "time": 0.7,
+                "name": "ju/sg_03"
+              },
+              {
+                "time": 0.7667,
+                "name": "ju/sg_04"
+              },
+              {
+                "time": 0.8,
+                "name": "ju/sg_05"
+              },
+              {
+                "time": 0.8667,
+                "name": "ju/sg_06"
+              },
+              {
+                "time": 0.9,
+                "name": "ju/sg_07"
+              },
+              {
+                "time": 0.9667,
+                "name": "ju/sg_08"
+              },
+              {
+                "time": 1,
+                "name": "ju/sg_09"
+              },
+              {
+                "time": 1.0667,
+                "name": "ju/sg_10"
+              },
+              {
+                "time": 1.1,
+                "name": "ju/sg_11"
+              },
+              {
+                "time": 1.1667,
+                "name": "ju/sg_12"
+              },
+              {
+                "time": 1.2,
+                "name": "ju/sg_13"
+              },
+              {
+                "time": 1.2667,
+                "name": "ju/sg_14"
+              },
+              {
+                "time": 1.3,
+                "name": "ju/sg_15"
+              },
+              {
+                "time": 1.3667,
+                "name": "ju/sg_16"
+              },
+              {
+                "time": 1.4,
+                "name": "ju/sg_17"
+              },
+              {
+                "time": 1.4667,
+                "name": "ju/sg_18"
+              },
+              {
+                "time": 1.5,
+                "name": "ju/sg_19"
+              },
+              {
+                "time": 1.5667,
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "grand_jackpot_EN": {
+        "slots": {
+          "grand": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "grand"
+              }
+            ]
+          },
+          "sg": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fffad1ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.5667,
+                "name": "grand/grand_00"
+              },
+              {
+                "time": 0.6,
+                "name": "grand/grand_01"
+              },
+              {
+                "time": 0.6667,
+                "name": "grand/grand_02"
+              },
+              {
+                "time": 0.7,
+                "name": "grand/grand_03"
+              },
+              {
+                "time": 0.7667,
+                "name": "grand/grand_04"
+              },
+              {
+                "time": 0.8,
+                "name": "grand/grand_05"
+              },
+              {
+                "time": 0.8333,
+                "name": "grand/grand_06"
+              },
+              {
+                "time": 0.9,
+                "name": "grand/grand_07"
+              },
+              {
+                "time": 0.9333,
+                "name": "grand/grand_08"
+              },
+              {
+                "time": 0.9667,
+                "name": "grand/grand_09"
+              },
+              {
+                "time": 1.0333,
+                "name": "grand/grand_10"
+              },
+              {
+                "time": 1.0667,
+                "name": "grand/grand_11"
+              },
+              {
+                "time": 1.1333,
+                "name": "grand/grand_12"
+              },
+              {
+                "time": 1.1667,
+                "name": "grand/grand_13"
+              },
+              {
+                "time": 1.2,
+                "name": "grand/grand_14"
+              },
+              {
+                "time": 1.2667,
+                "name": "grand/grand_15"
+              },
+              {
+                "time": 1.3,
+                "name": "grand/grand_16"
+              },
+              {
+                "time": 1.3667,
+                "name": "grand/grand_17"
+              },
+              {
+                "time": 1.4,
+                "name": "grand/grand_18"
+              },
+              {
+                "time": 1.4333,
+                "name": "grand/grand_19"
+              },
+              {
+                "time": 1.5,
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          },
+          "sg2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ngrand_jackpot.png\nsize: 522,527\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngrand\n  rotate: false\n  xy: 2, 335\n  size: 423, 190\n  orig: 469, 206\n  offset: 23, 12\n  index: -1\ngrand/grand_00\n  rotate: true\n  xy: 426, 25\n  size: 20, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_01\n  rotate: true\n  xy: 470, 49\n  size: 30, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_02\n  rotate: true\n  xy: 181, 2\n  size: 41, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_03\n  rotate: false\n  xy: 288, 10\n  size: 51, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_04\n  rotate: true\n  xy: 133, 3\n  size: 62, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_05\n  rotate: false\n  xy: 196, 45\n  size: 72, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_06\n  rotate: true\n  xy: 427, 335\n  size: 84, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_07\n  rotate: false\n  xy: 107, 102\n  size: 94, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_08\n  rotate: false\n  xy: 2, 102\n  size: 103, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_09\n  rotate: false\n  xy: 2, 150\n  size: 105, 46\n  orig: 109, 50\n  offset: 1, 2\n  index: -1\ngrand/grand_10\n  rotate: true\n  xy: 427, 421\n  size: 104, 46\n  orig: 109, 50\n  offset: 2, 2\n  index: -1\ngrand/grand_11\n  rotate: false\n  xy: 109, 150\n  size: 103, 46\n  orig: 109, 50\n  offset: 3, 2\n  index: -1\ngrand/grand_12\n  rotate: true\n  xy: 2, 2\n  size: 98, 46\n  orig: 109, 50\n  offset: 8, 2\n  index: -1\ngrand/grand_13\n  rotate: true\n  xy: 466, 242\n  size: 87, 46\n  orig: 109, 50\n  offset: 19, 2\n  index: -1\ngrand/grand_14\n  rotate: false\n  xy: 444, 150\n  size: 76, 46\n  orig: 109, 50\n  offset: 30, 2\n  index: -1\ngrand/grand_15\n  rotate: true\n  xy: 85, 2\n  size: 63, 46\n  orig: 109, 50\n  offset: 43, 2\n  index: -1\ngrand/grand_16\n  rotate: true\n  xy: 375, 37\n  size: 55, 46\n  orig: 109, 50\n  offset: 51, 2\n  index: -1\ngrand/grand_17\n  rotate: true\n  xy: 466, 198\n  size: 42, 46\n  orig: 109, 50\n  offset: 64, 2\n  index: -1\ngrand/grand_18\n  rotate: false\n  xy: 408, 115\n  size: 34, 46\n  orig: 109, 50\n  offset: 72, 2\n  index: -1\ngrand/grand_19\n  rotate: true\n  xy: 341, 9\n  size: 24, 46\n  orig: 109, 50\n  offset: 82, 2\n  index: -1\nju/sg_00\n  rotate: true\n  xy: 474, 23\n  size: 24, 30\n  orig: 122, 39\n  offset: 4, 4\n  index: -1\nju/sg_01\n  rotate: false\n  xy: 389, 3\n  size: 35, 32\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_02\n  rotate: false\n  xy: 423, 47\n  size: 45, 32\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_03\n  rotate: true\n  xy: 341, 35\n  size: 56, 32\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_04\n  rotate: false\n  xy: 444, 115\n  size: 67, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_05\n  rotate: true\n  xy: 475, 331\n  size: 77, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_06\n  rotate: false\n  xy: 203, 93\n  size: 86, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_07\n  rotate: true\n  xy: 50, 2\n  size: 98, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_08\n  rotate: false\n  xy: 85, 67\n  size: 109, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_09\n  rotate: true\n  xy: 475, 410\n  size: 115, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_10\n  rotate: false\n  xy: 214, 163\n  size: 115, 33\n  orig: 122, 39\n  offset: 4, 3\n  index: -1\nju/sg_11\n  rotate: false\n  xy: 331, 163\n  size: 111, 33\n  orig: 122, 39\n  offset: 8, 3\n  index: -1\nju/sg_12\n  rotate: false\n  xy: 214, 128\n  size: 100, 33\n  orig: 122, 39\n  offset: 19, 3\n  index: -1\nju/sg_13\n  rotate: false\n  xy: 316, 128\n  size: 90, 33\n  orig: 122, 39\n  offset: 29, 3\n  index: -1\nju/sg_14\n  rotate: false\n  xy: 291, 93\n  size: 79, 33\n  orig: 122, 39\n  offset: 40, 3\n  index: -1\nju/sg_15\n  rotate: false\n  xy: 270, 58\n  size: 69, 33\n  orig: 122, 39\n  offset: 50, 3\n  index: -1\nju/sg_16\n  rotate: false\n  xy: 229, 10\n  size: 57, 33\n  orig: 122, 39\n  offset: 62, 3\n  index: -1\nju/sg_17\n  rotate: false\n  xy: 423, 81\n  size: 48, 32\n  orig: 122, 39\n  offset: 71, 4\n  index: -1\nju/sg_18\n  rotate: false\n  xy: 473, 81\n  size: 37, 32\n  orig: 122, 39\n  offset: 82, 4\n  index: -1\nju/sg_19\n  rotate: false\n  xy: 372, 94\n  size: 25, 32\n  orig: 122, 39\n  offset: 94, 4\n  index: -1\njujiang\n  rotate: false\n  xy: 2, 198\n  size: 462, 135\n  orig: 469, 206\n  offset: 3, 16\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "97JXexGWRNY7cj4vyb98Gv"
+    }
+  ],
+  "textureNames": [
+    "grand_jackpot.png"
+  ]
+}

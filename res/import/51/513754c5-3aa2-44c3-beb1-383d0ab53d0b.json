@@ -1,1 +1,98 @@
-{"__type__":"sp.SkeletonData","_name":"m1_sj","_skeletonJson":{"skeleton":{"hash":"QE+OtuTcTgskdIPEd7C6g2L1gLY","spine":"3.6.53","width":1060,"height":1560,"images":"../素材/"},"bones":[{"name":"root"},{"name":"guang","parent":"root","x":1.15,"y":2.13}],"slots":[{"name":"root","bone":"root"},{"name":"theme141_s_1","bone":"root"},{"name":"guang","bone":"guang","blend":"additive"}],"skins":{"default":{"guang":{"guang_0":{"width":168,"height":130}}}},"animations":{"animation":{"slots":{"guang":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.1,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"guang_0"}]}}}}},"_atlasText":"\nm1_sj.png\nsize: 83,65\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguang_0\n  rotate: false\n  xy: 0, 0\n  size: 83, 65\n  orig: 84, 65\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"f5q5kirK1GcYoTd9zBUXsg"}],"textureNames":["m1_sj.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "m1_sj",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "QE+OtuTcTgskdIPEd7C6g2L1gLY",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../素材/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "guang",
+        "parent": "root",
+        "x": 1.15,
+        "y": 2.13
+      }
+    ],
+    "slots": [
+      {
+        "name": "root",
+        "bone": "root"
+      },
+      {
+        "name": "theme141_s_1",
+        "bone": "root"
+      },
+      {
+        "name": "guang",
+        "bone": "guang",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "guang": {
+          "guang_0": {
+            "width": 168,
+            "height": 130
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "guang": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "guang_0"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nm1_sj.png\nsize: 83,65\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguang_0\n  rotate: false\n  xy: 0, 0\n  size: 83, 65\n  orig: 84, 65\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "f5q5kirK1GcYoTd9zBUXsg"
+    }
+  ],
+  "textureNames": [
+    "m1_sj.png"
+  ]
+}

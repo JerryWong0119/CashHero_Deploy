@@ -1,1 +1,3165 @@
-window.__require=function e(t,n,a){function o(r,i){if(!n[r]){if(!t[r]){var s=r.split("/");if(s=s[s.length-1],!t[s]){var l="function"==typeof __require&&__require;if(!i&&l)return l(s,!0);if(c)return c(s,!0);throw new Error("Cannot find module '"+r+"'")}r=s}var f=n[r]={exports:{}};t[r][0].call(f.exports,function(e){return o(t[r][1][e]||e)},f,f.exports,e,t,n,a)}return n[r].exports}for(var c="function"==typeof __require&&__require,r=0;r<a.length;r++)o(a[r]);return o}({FatherOfInvention_Cfg:[function(e,t,n){"use strict";var a,o,c;function r(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}cc._RF.push(t,"048ace8mxhIyoDHOt/AY6cz","FatherOfInvention_Cfg");var i={symbol:(a={},r(a,1,{node:"symbol_1",win_node:"animation_1",win_ani:{name:"animation1",zIndex:300}}),r(a,2,{node:"symbol_2",win_node:"animation_2",stop_ani:{name:"animation1",zIndex:100},win_ani:{name:"animation",zIndex:300}}),r(a,3,{node:"symbol_3",win_node:"animation_3",stop_ani:{name:"animation1",zIndex:100},trigger_ani:{name:"animation",zIndex:400}}),r(a,4,{node:"symbol_4",win_node:"animation_4",stop_ani:{name:"animation1",zIndex:100},trigger_ani:{name:"animation2",zIndex:300}}),r(a,5,{node:"symbol_5",win_node:"animation_5",win_ani:{name:"animation1",zIndex:300}}),r(a,6,{node:"symbol_6",win_node:"animation_6",win_ani:{name:"animation1",zIndex:300}}),r(a,7,{node:"symbol_7",win_node:"animation_7",win_ani:{name:"animation1",zIndex:300}}),r(a,8,{node:"symbol_8",win_node:"animation_8",win_ani:{name:"animation1",zIndex:300}}),r(a,9,{node:"symbol_9"}),r(a,10,{node:"symbol_10"}),r(a,11,{node:"symbol_11"}),r(a,12,{node:"symbol_12"}),r(a,101,{node:"symbol_101",win_node:"animation_101",win_ani:{name:"animation2",zIndex:300}}),a),towerCfg:(o={},r(o,1,{ball_animation:"animation3",jackpotDialogAnimationIndex:3,jackpotSound:"minor_jackpot",dialogSkin:"LS"}),r(o,2,{ball_animation:"animation1",jackpotDialogAnimationIndex:1,jackpotSound:"grand_jackpot",dialogSkin:"HS"}),r(o,3,{ball_animation:"animation2",jackpotDialogAnimationIndex:2,jackpotSound:"major_jackpot",dialogSkin:"ZS"}),o),scripts:{Top:"LMSlots_Top_Base",Bottom:"LMSlots_Bottom_Base",Slots:"FatherOfInvention_Slots",Reels:"FatherOfInvention_Reel",Symbols:"FatherOfInvention_Symbol"},col:5,row:3,symbolPrefab:"symbol",symbolSize:{width:125,height:125},cardmap:(c={},r(c,1,[9,5,5,12,12,7,7,5,5,6,10,11,9,9,12,12,10,8,5,11,11,7,6,9,7,12,12,4,11,11,8,10,10,5,10,7,5,7,7,12,12,5,5,6,4,7,5,5,11,5,7,7,9,6,11,7,9,12,8,8,6,12,11,8,8,6,6,5,6,6,12,10,9,12,6,6,8,9,5,5,6,8,9,5,11,7,4,10,10,8,8,4,9,11,11,7,5,8,7,6,4,8,9,9,5,5,8,5,5,6,11,12,8,9,5,8,8,12,12,5,5,10,10,4,6,7,5,5,12,11,6,10,9,9,8,6,6,8,10,5,4,4,7,9,8,8,7,7,9,9,8,5,8,7,7,11,8,8,6,7,6,7,7,7]),r(c,2,[11,11,8,8,1,8,10,7,5,2,8,8,10,3,8,1,1,7,6,1,2,9,5,6,9,9,3,7,9,9,5,2,11,4,10,8,8,12,8,3,1,2,6,7,9,7,12,12,5,9,9,2,8,3,6,5,7,5,7,5,5,2,1,1,6,10,10,3,6,6,12,7,7,9,2,5,1,7,8,1,1,3,9,8,2,5,8,8,5,11,11,4,4,9,6,2,3,8,8,7,6,9,11,4,11,2,6,8,8,3,9,4,7,7,6,6,1,7,5,7,6,3,9,9,10,7,8,12,10,8,5,8,8,3,4,6,12,12,5,7,4,6,5,5,12,8,8,5,10,12,12,1,5,5,11,12,11,11,9,9,10,4,5,5,9,7,10,7,10,12,5,5,7,5,12,6,6,12,5,7,5,6,11,7,5,10,11,12,11,11,12,7,7,6,5,6]),r(c,3,[11,8,9,9,4,9,7,12,2,6,5,6,6,12,4,10,7,2,9,11,12,12,8,8,5,6,6,5,2,12,10,5,7,10,11,1,2,6,7,7,8,12,9,5,12,2,5,5,8,8,10,10,8,1,1,7,9,2,7,5,7,5,5,1,9,8,8,2,10,11,5,5,12,11,6,7,7,2,9,6,6,11,7,11,9,9,7,2,6,6,5,4,12,7,11,5,2,11,8,8,11,11,9,7,11,7,6,1,1,7,7,10,8,9,5,5,4,4,1,7,8,6,12,12,11,8,1,1,10,9,9,5,8,4,7,10,12,5,7,4,4,8,8,10,6,5,5,9,8,7,11,7,6,6,5,5,8,7,9,10,1,1,9,12,8,5,5,6,5,5,12,8,6,1,5,12,10,6,12,8,7,8,9,5,8,6]),r(c,4,[12,12,7,4,4,11,11,6,5,6,6,2,4,11,11,3,7,7,6,9,9,7,7,4,2,5,5,12,12,5,5,10,3,6,6,5,8,8,2,1,6,5,8,8,10,5,3,1,1,2,5,5,9,8,7,11,9,1,2,7,3,8,11,11,12,12,1,5,5,8,8,2,9,9,1,1,7,3,9,8,7,1,1,2,5,5,9,9,4,4,8,8,12,12,3,6,6,7,2,6,7,4,4,8,8,10,10,9,5,5,2,3,9,12,12,8,6,6,7,10,10,9,9,2,10,7,7,3,1,6,8,8,5,5,10,7,10,7,8,3,5,5,6,5,11,8,7,7,9,11,10,10,3,8,12,11,7,9,9,5,9,9,7,11,8,8,6,6,10,12,7,1,12,12,1,11,11,6,5,5,12,12,6,5,7,5,5,6,7,11,6,8,5,8,8,7]),r(c,5,[5,9,1,5,9,12,12,5,7,8,8,6,6,7,6,9,9,5,5,6,6,9,9,7,7,6,6,7,7,8,7,10,10,5,8,11,7,9,9,1,6,1,1,5,7,7,9,5,12,4,5,10,6,5,5,1,1,6,8,8,10,5,8,11,7,1,1,9,8,11,11,5,5,12,6,7,7,8,6,6,7,7,6,4,9,9,11,8,8,9,12,10,12,12,1,1,4,4,8,8,6,6,4,4,10,10,8,7,12,12,1,1,12,12,11,11,9,5,5,8,5,5,10,9,9,12,7,5,5,11,5,8,8,9,8,7,7,4,5,5,7,6,5,5,11,11,6,7,9,12,12,7,10,10,12,5,11,11,4,10,12,11,8,5,8,11,6,6,5,8,8,7,7,10,8,8]),c),wildId:1,doubleWildId:101,scatterId:2,ballId:3,collectSymbolId:4,autoModelDelay:1,kuang:"kuang",speed:3e3,reelStopInter:.2,auto_stop_time:1,bounceInfo:{distance:30,time:.1},AddAntiTime:1.5,reelStateInfo:[{id:[2],mini:3,counts:[1,1,1,1,1],antiNode:"node_anti",path:"games/FatherOfInvention/",reelStopSound:"reel_stop",symbolStopSound:"symbol_scatter_drop",antSound:"reel_notify",antSpeed:2e3}],helpItems:["games/FatherOfInvention/prefab/help_item_1","games/FatherOfInvention/prefab/help_item_2","games/FatherOfInvention/prefab/help_item_3","games/FatherOfInvention/prefab/help_item_4","games/FatherOfInvention/prefab/help_item_5","games/FatherOfInvention/prefab/help_item_6","games/FatherOfInvention/prefab/help_item_7","games/FatherOfInvention/prefab/help_item_8"],commEffect:{path:"games/FatherOfInvention/",win1:["win1","win1end"],win2:["win2","win2end"],win3:["win3","win3end"]},normalBgm:"base_bgm",sysFloatOffsetPos:cc.v2(0,150)};t.exports=i,cc._RF.pop()},{}],FatherOfInvention_Logic:[function(e,t,n){"use strict";cc._RF.push(t,"618440qZZ5MgpI+xCSnwrKx","FatherOfInvention_Logic"),cc.Class({extends:e("LMSlots_Logic_Base"),properties:{_lockBonus:!1},onLoad:function(){this._super();var e=cc.find("safe_node/super_slots",this.node);e.addComponent("FatherOfInvention_SuperSlots"),e.active=!0;var t=cc.vv.gameData.getDeskInfo();3===t.collectInfo.state?(cc.vv.gameData.SetSlotsScript(e.getComponent("FatherOfInvention_SuperSlots")),cc.find("safe_node/slots",this.node).getComponent("FatherOfInvention_Slots").Init(),cc.find("safe_node/slots",this.node).active=!1,e.active=!0):(e.getComponent("FatherOfInvention_SuperSlots").Init(),cc.find("safe_node/slots",this.node).active=!0,e.active=!1),this._lockBonus=t.needBet>t.currmult,Global.registerEvent(cc.vv.gameData._EventId.SLOT_TOTALBET_UPDATED,this.onUpdateBet,this),cc.vv.NetManager.registerMsg(MsgId.SLOT_SUBGAME_DATA,this.onRcvSubGameData,this)},onUpdateBet:function(){var e=cc.vv.gameData.getDeskInfo(),t=cc.find("safe_node/slots/collect_node/bonus_node/lock",this.node).getComponent(sp.Skeleton);e.needBet<=cc.vv.gameData.GetBetIdx()&&this._lockBonus?(cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_unlock",!0),this._lockBonus=!1,t.setAnimation(0,"animation1",!1)):e.needBet>cc.vv.gameData.GetBetIdx()&&!this._lockBonus&&(cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_lock",!0),this._lockBonus=!0,t.setAnimation(0,"animation3",!1),t.addAnimation(0,"animation2",!0)),cc.find("safe_node/slots",this.node).getComponent("FatherOfInvention_Slots").towerInfo=e.towerInfos[cc.vv.gameData.GetBetIdx()-1],cc.find("safe_node/slots",this.node).getComponent("FatherOfInvention_Slots").setTower(e.towerInfos[cc.vv.gameData.GetBetIdx()-1])},StartSlot:function(){cc.vv.gameData.GetSlotsScript().Init()},onRcvSubGameData:function(e){200===e.code&&(1===e.data.rtype?cc.find("safe_node/map",this.node).getComponent("FatherOfInvention_Map").onRcvSubGameData(e):2===e.data.rtype?cc.find("safe_node/map",this.node).getComponent("FatherOfInvention_Map").onRcvSubGameData(e):3===e.data.rtype&&cc.find("safe_node/wheel",this.node).getComponent("FatherOfInvention_Wheel").onRcvSubgameData(e))},onDestroy:function(){cc.vv.NetManager.unregisterMsg(MsgId.SLOT_SUBGAME_DATA,this.onRcvSubGameData,!1,this)}}),cc._RF.pop()},{LMSlots_Logic_Base:void 0}],FatherOfInvention_Map:[function(e,t,n){"use strict";function a(e,t,n,a,o,c,r){try{var i=e[c](r),s=i.value}catch(e){return void n(e)}i.done?t(s):Promise.resolve(s).then(a,o)}function o(e){return function(){var t=this,n=arguments;return new Promise(function(o,c){var r=e.apply(t,n);function i(e){a(r,o,c,i,s,"next",e)}function s(e){a(r,o,c,i,s,"throw",e)}i(void 0)})}}function c(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=r(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,o,c=!0,i=!1;return{s:function(){a=e[Symbol.iterator]()},n:function(){var e=a.next();return c=e.done,e},e:function(e){i=!0,o=e},f:function(){try{c||null==a.return||a.return()}finally{if(i)throw o}}}}function r(e,t){if(e){if("string"==typeof e)return i(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?i(e,t):void 0}}function i(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,a=new Array(t);n<t;n++)a[n]=e[n];return a}cc._RF.push(t,"eb42dM1Wy9IBIxk+acK/myR","FatherOfInvention_Map"),cc.Class({extends:cc.Component,properties:{btn_tip:cc.Node,title_freeTimes:cc.Label,optionNodes:[cc.Node],btn_chooseRandom:cc.Node,btn_startFreeSpin:cc.Node,btn_back:cc.Node,black_bg:cc.Node,energize_node:cc.Node,energize_icon:cc.Sprite,energize_btn_yes:cc.Node,energize_btn_no:cc.Node,start_node:cc.Node,start_curFreeTime:cc.Label,start_btn_no:cc.Node,start_btn_start:cc.Node,help_node:cc.Node,help_bg:cc.Node,help_content:cc.Node,help_title:cc.Node,btn_i_see:cc.Node,_successCallback:null,_canSelect:!1,_curSelectCard:0},onLoad:function(){},initMap:function(e){var t=this,n=e.monsterInfo;this.node.active=!0,this.node.y=cc.winSize.height;cc.vv.gameData.getGameCfg();this.btn_tip.off("click"),this.btn_tip.on("click",function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),t.black_bg.active=!0,t.black_bg.opacity=200,t.help_node.active=!0,t.help_bg.scale=0,t.help_bg.opacity=255,t.help_content.scale=0,t.help_content.opacity=255,t.help_title.scale=0,t.help_title.opacity=255,t.btn_i_see.scale=0,t.btn_i_see.opacity=255,t.btn_i_see.getComponent(cc.Button).interactable=!0,cc.tween(t.help_bg).to(.2,{scale:1.25},{easing:"backOut"}).start(),cc.tween(t.help_title).delay(.2).to(.2,{scale:1},{easing:"backOut"}).start(),cc.tween(t.help_content).delay(.4).to(.2,{scale:1},{easing:"backOut"}).start(),cc.tween(t.btn_i_see).delay(.6).to(.2,{scale:1},{easing:"backOut"}).start()}),this.title_freeTimes.string=e.currFreeCnt;for(var a=function(e){var a=n[e],o=t.optionNodes[e];cc.find("total_multiplier",o).getComponent(cc.Label).string="X"+a.triggerMult[a.triggerMult.length-1],cc.find("cur_multiplier",o).getComponent(cc.Label).string="X"+a.currmult;for(var r=0;r<a.maxLen;r++)cc.find("progress_"+(r+1),o).active=r<a.currLen;for(var i=0;i<3;i++)cc.find("target_"+(i+1),o).color=a.currLen<a.triggerIdx[i]?cc.Color.WHITE:cc.Color.GRAY;cc.find("idle_spine",o).active=a.currLen<a.maxLen,cc.find("add_spins",o).color=a.currLen===a.maxLen?cc.Color.GRAY:cc.Color.WHITE,o.on(cc.Node.EventType.TOUCH_END,function(){t._canSelect&&(cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_monster_click",!0),a.currLen>=a.maxLen||(t._curSelectCard=a.card,t.black_bg.active=!0,t.black_bg.opacity=200,t.energize_node.active=!0,t.energize_node.opacity=255,t.energize_node.scale=0,cc.tween(t.energize_node).to(.2,{scale:1},{easing:"backOut"}).start(),t.energize_icon.node.getComponent("ImgSwitchCmp").setIndex(a.card-5),t.energize_btn_yes.on("click",function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),t.energize_btn_yes.off("click"),cc.tween(t.energize_node).to(.2,{opacity:0}).call(function(){t.energize_node.active=!1}).start(),t.btn_chooseRandom.getComponent(cc.Button).interactable=!1,t.btn_startFreeSpin.getComponent(cc.Button).interactable=!1;var e,n=c(t.optionNodes);try{for(n.s();!(e=n.n()).done;){var a=e.value;cc.find("idle_spine",a).active=!1,a.off(cc.Node.EventType.TOUCH_END)}}catch(e){n.e(e)}finally{n.f()}t._canSelect=!1;var o={c:MsgId.SLOT_SUBGAME_DATA};o.uid=Global.playerData.uid,o.gameid=cc.vv.gameData._gameId,o.data={},o.data.rtype=1,o.data.choiceId=t._curSelectCard,cc.vv.NetManager.send(o)}),t.energize_btn_no.on("click",function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),t.energize_btn_no.off("click"),cc.tween(t.energize_node).to(.2,{opacity:0}).call(function(){t.energize_node.active=!1}).start(),cc.tween(t.black_bg).to(.2,{opacity:0}).call(function(){t.black_bg.active=!1}).start()})))})},o=0;o<n.length;o++)a(o);var r,i=!1,s=c(n);try{for(s.s();!(r=s.n()).done;){var l=r.value;if(l.currLen!==l.maxLen){i=!0;break}}}catch(e){s.e(e)}finally{s.f()}22===e.currFreeCnt&&(i=!1),this.btn_chooseRandom.getComponent(cc.Button).interactable=i,this.btn_chooseRandom.off("click"),this.btn_chooseRandom.on("click",function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),t.black_bg.active=!0,t.black_bg.opacity=200,t.energize_node.active=!0,t.energize_node.opacity=255,t.energize_node.scale=0,cc.tween(t.energize_node).to(.2,{scale:1},{easing:"backOut"}).start();var n=t.getCanSelectRandomCard(e);cc.vv.gameData.GetAtlasByName("symbol");t.energize_icon.node.getComponent("ImgSwitchCmp").setIndex(n-5),t._curSelectCard=n,t.energize_btn_yes.on("click",function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),t.energize_btn_yes.off("click");var e,n=c(t.optionNodes);try{for(n.s();!(e=n.n()).done;){var a=e.value;cc.find("idle_spine",a).active=!1,a.off(cc.Node.EventType.TOUCH_END)}}catch(e){n.e(e)}finally{n.f()}t.btn_chooseRandom.getComponent(cc.Button).interactable=!1,t.btn_startFreeSpin.getComponent(cc.Button).interactable=!1,t._canSelect=!1,cc.tween(t.energize_node).to(.2,{opacity:0}).call(function(){t.energize_node.active=!1}).start();var o={c:MsgId.SLOT_SUBGAME_DATA};o.uid=Global.playerData.uid,o.gameid=cc.vv.gameData._gameId,o.data={},o.data.rtype=1,o.data.choiceId=t._curSelectCard,cc.vv.NetManager.send(o)}),t.energize_btn_no.on("click",function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),t.energize_btn_no.off("click"),cc.tween(t.energize_node).to(.2,{opacity:0}).call(function(){t.energize_node.active=!1}).start(),cc.tween(t.black_bg).to(.2,{opacity:0}).call(function(){t.black_bg.active=!1}).start()})}),this.btn_startFreeSpin.getComponent(cc.Button).interactable=e.currFreeCnt>0,this.btn_startFreeSpin.off("click"),this.btn_startFreeSpin.on("click",function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),t.black_bg.active=!0,t.black_bg.opacity=200,t.start_node.active=!0,t.start_node.opacity=255,t.start_node.scale=0,cc.tween(t.start_node).to(.2,{scale:1},{easing:"backOut"}).start(),t.start_curFreeTime.string=e.currFreeCnt,t.start_btn_start.on("click",function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),t.start_btn_start.off("click"),t._canSelect=!1,t.btn_chooseRandom.getComponent(cc.Button).interactable=!1,t.btn_startFreeSpin.getComponent(cc.Button).interactable=!1,cc.tween(t.black_bg).to(.2,{opacity:0}).call(function(){t.black_bg.active=!1}).start(),cc.tween(t.start_node).to(.2,{opacity:0}).call(function(){t.start_node.active=!1}).start();var e={c:MsgId.SLOT_SUBGAME_DATA};e.uid=Global.playerData.uid,e.gameid=cc.vv.gameData._gameId,e.data={},e.data.rtype=2,cc.vv.NetManager.send(e)}),t.start_btn_no.on("click",function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),t.start_btn_no.off("click"),cc.tween(t.black_bg).to(.2,{opacity:0}).call(function(){t.black_bg.active=!1}).start(),cc.tween(t.start_node).to(.2,{opacity:0}).call(function(){t.start_node.active=!1}).start()})}),this.btn_i_see.off("click"),this.btn_i_see.on("click",function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),t.btn_i_see.getComponent(cc.Button).interactable=!1,cc.tween(t.black_bg).to(.2,{opacity:0}).delay(.1).call(function(){t.black_bg.active=!1,t.help_node.active=!1}).start(),cc.tween(t.help_bg).to(.2,{opacity:0}).start(),cc.tween(t.help_content).to(.2,{opacity:0}).start(),cc.tween(t.help_title).to(.2,{opacity:0}).start(),cc.tween(t.btn_i_see).to(.2,{opacity:0}).start()})},getCanSelectRandomCard:function(e){var t,n=[],a=c(e.monsterInfo);try{for(a.s();!(t=a.n()).done;){var o=t.value;o.currLen<o.maxLen&&n.push(o)}}catch(e){a.e(e)}finally{a.f()}return n[Math.floor(Math.random()*n.length)].card},openMap:function(e){var t=this;if(this.node.y=cc.winSize.height,this.node.active=!0,e){var n,a=c(this.optionNodes);try{for(a.s();!(n=a.n()).done;){var o=n.value;cc.find("idle_spine",o).active=!1}}catch(e){a.e(e)}finally{a.f()}this.btn_chooseRandom.getComponent(cc.Button).interactable=!1,this.btn_startFreeSpin.getComponent(cc.Button).interactable=!1}else this.btn_back.active=!1;cc.tween(this.node).to(.5,{y:0}).start(),e&&(this.btn_back.active=!0,this.btn_back.scale=0,cc.tween(this.btn_back).delay(.6).to(.5,{scale:1},{easing:"backOut"}).start(),this.btn_back.on("click",function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),t.btn_back.off("click"),cc.tween(t.btn_back).to(.2,{scale:0}).start(),cc.tween(t.node).to(.5,{y:cc.winSize.height}).call(function(){cc.vv.gameData.GetSlotsScript().CanDoNextRound(),t.node.active=!1}).start()}))},showMap:function(e){var t=this;return o(regeneratorRuntime.mark(function n(){return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return t.initMap(e),t.openMap(!1),n.next=4,cc.vv.gameData.awaitTime(1);case 4:t._canSelect=!0,cc.vv.gameData.GetSlotsScript().clearCollectProgress();case 6:case"end":return n.stop()}},n)}))()},onRcvSubGameData:function(e){var t=this;return o(regeneratorRuntime.mark(function n(){var a,o,c,r,i,s,l,f,m,u,d,p,v,g;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:if(200===e.code){n.next=2;break}return n.abrupt("return");case 2:if(1!==e.data.rtype){n.next=67;break}return t.black_bg.active=!1,a=e.data.collectInfo,cc.vv.gameData.getDeskInfo().collectInfo=a,o=a.monsterInfo,c=t.optionNodes[e.data.choiceId-5],(r=cc.find("select_spine",c).getComponent(sp.Skeleton)).node.active=!0,r.setAnimation(0,"animation",!1),r.setCompleteListener(function(){r.setCompleteListener(null),r.node.active=!1}),cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_monster_rise",!0),n.next=15,cc.vv.gameData.awaitTime(1);case 15:return(i=cc.find("spine",c).getComponent(sp.Skeleton)).setAnimation(0,"animation2",!1),i.addAnimation(0,"animation3",!0),n.next=20,cc.vv.gameData.awaitTime(1);case 20:if(s=o[e.data.choiceId-5],(l=cc.find("progress_"+s.currLen,c)).active=!0,l.scaleX=0,cc.tween(l).to(.5,{scaleX:1}).start(),-1===s.triggerIdx.indexOf(s.currLen)){n.next=37;break}return n.next=28,cc.vv.gameData.awaitTime(.5);case 28:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_times_accept",!0),f=cc.find("target_"+(s.triggerIdx.indexOf(s.currLen)+1),c),m=cc.instantiate(f),f.color=cc.Color.GRAY,m.parent=f.parent,m.position=f.position,cc.tween(m).to(.2,{scale:1.2}).delay(.3).then(cc.jumpTo(.5,cc.find("cur_multiplier",c).position,50,1)).call(function(){cc.find("cur_multiplier",c).getComponent(cc.Label).string="X"+s.currmult}).removeSelf().start(),n.next=37,cc.vv.gameData.awaitTime(1);case 37:if(s.currLen!==s.maxLen){n.next=58;break}return n.next=40,cc.vv.gameData.awaitTime(.5);case 40:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_times_fly",!0),u=cc.find("finish_spine",c).getComponent(sp.Skeleton),d="animation1",7===e.data.choiceId?d="animation2":8===e.data.choiceId&&(d="animation3"),u.node.active=!0,u.setAnimation(0,d,!1),u.setCompleteListener(function(){u.setCompleteListener(null),u.node.active=!1}),n.next=49,cc.vv.gameData.awaitTime(.5);case 49:return p=cc.find("add_spins",c),(v=cc.instantiate(p)).parent=p.parent,v.position=p.position,g=t.title_freeTimes.node.convertToWorldSpaceAR(cc.v2(0,0)),g=c.convertToNodeSpaceAR(g),cc.tween(v).to(.2,{scale:1.2}).delay(.3).to(.5,{position:g}).call(function(){t.title_freeTimes.string=a.currFreeCnt}).removeSelf().start(),n.next=58,cc.vv.gameData.awaitTime(1.5);case 58:return n.next=60,cc.vv.gameData.awaitTime(1);case 60:return cc.tween(t.node).to(.5,{y:cc.winSize.height}).start(),n.next=63,cc.vv.gameData.awaitTime(.5);case 63:t.node.active=!1,cc.vv.gameData.GetSlotsScript().CanDoNextRound(),n.next=82;break;case 67:if(2!==e.data.rtype){n.next=81;break}return cc.vv.gameData.getDeskInfo().collectInfo=e.data.collectInfo,n.next=71,cc.vv.gameData.awaitTime(.5);case 71:return cc.find("wheel",t.node.parent).getComponent("FatherOfInvention_Wheel").startWheel(e.data.collectInfo),n.next=74,cc.vv.gameData.awaitTime(.5);case 74:return cc.tween(t.node).to(.5,{y:cc.winSize.height}).start(),n.next=77,cc.vv.gameData.awaitTime(.5);case 77:t.black_bg.active=!1,t.node.active=!1,n.next=82;break;case 81:3===e.data.rtype&&cc.find("wheel",t.node.parent).getComponent("FatherOfInvention_Wheel").onRcvSubGameData(e);case 82:case"end":return n.stop()}},n)}))()}}),cc._RF.pop()},{}],FatherOfInvention_Reel:[function(e,t,n){"use strict";cc._RF.push(t,"ec2d3eFyD9KRYISpYFRbzYU","FatherOfInvention_Reel"),cc.Class({extends:e("LMSlots_Reel_Base"),properties:{},StartMove:function(){this._super()},OnReelSpinEnd:function(){this._super()},playReelStop:function(){if(this._super(),this._originResult)for(var e=0;e<this._originResult.length;e++){var t=this._symbols[e];t.GetShowId()===this._cfg.ballId&&t.playStopAnimation(),t.GetShowId()===this._cfg.collectSymbolId&&(t.playStopAnimation(),cc.vv.AudioManager.playEff("games/FatherOfInvention/","symbol_coins_drop",!0))}},GetResizeHeightObjs:function(){var e=[],t=cc.find("mask",this.node);t&&e.push(t);var n=cc.find("reels_bg/reel_bg"+(this._reelIdx+1),this.node.parent.parent);if(n&&e.push(n),0===this._reelIdx){for(var a=1;a<5;a++){var o=cc.find("reels_frame/line_"+a,this.node.parent.parent);o&&e.push(o)}var c=cc.find("reels_frame/left_bg",this.node.parent.parent);c&&e.push(c);var r=cc.find("reels_frame/right_bg",this.node.parent.parent);r&&e.push(r);var i=cc.find("black_bg",this.node.parent.parent);i&&e.push(i)}return e},GetResizeMoveingObjs:function(){var e=[];if(0===this._reelIdx){var t=cc.find("reels_frame/top_bg",this.node.parent.parent);t&&e.push(t);var n=cc.find("reels_frame/left_top",this.node.parent.parent);n&&e.push(n);var a=cc.find("reels_frame/right_top",this.node.parent.parent);a&&e.push(a);var o=cc.find("collect_node",this.node.parent.parent);o&&e.push(o);var c=cc.find("collect_tower",this.node.parent.parent);c&&e.push(c)}return e}}),cc._RF.pop()},{LMSlots_Reel_Base:void 0}],FatherOfInvention_Slots:[function(e,t,n){"use strict";function a(e,t,n,a,o,c,r){try{var i=e[c](r),s=i.value}catch(e){return void n(e)}i.done?t(s):Promise.resolve(s).then(a,o)}function o(e){return function(){var t=this,n=arguments;return new Promise(function(o,c){var r=e.apply(t,n);function i(e){a(r,o,c,i,s,"next",e)}function s(e){a(r,o,c,i,s,"throw",e)}i(void 0)})}}function c(e){if("undefined"==typeof Symbol||null==e[Symbol.iterator]){if(Array.isArray(e)||(e=r(e))){var t=0,n=function(){};return{s:n,n:function(){return t>=e.length?{done:!0}:{done:!1,value:e[t++]}},e:function(e){throw e},f:n}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var a,o,c=!0,i=!1;return{s:function(){a=e[Symbol.iterator]()},n:function(){var e=a.next();return c=e.done,e},e:function(e){i=!0,o=e},f:function(){try{c||null==a.return||a.return()}finally{if(i)throw o}}}}function r(e,t){if(e){if("string"==typeof e)return i(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(n):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?i(e,t):void 0}}function i(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,a=new Array(t);n<t;n++)a[n]=e[n];return a}cc._RF.push(t,"39397fTmfdGjbV+0MJFyUqT","FatherOfInvention_Slots");var s=1,l=2,f=3;cc.Class({extends:e("LMSlots_Slots_Base"),properties:{towerInfo:null,freeTowerInfo:null,towerGame:null},Init:function(){var e=this;this._super();var t=cc.find("collect_node/bonus_node",this.node),n=cc.vv.gameData.getDeskInfo();t.on(cc.Node.EventType.TOUCH_END,function(){n.needBet>n.currmult&&"idle"===cc.vv.gameData.GetSlotState()&&e._bottomScript.SetBetIdx(n.needBet)}),this.towerInfo=n.towerInfos[cc.vv.gameData.GetBetIdx()-1],this.setTower(this.towerInfo);var a=cc.find("lock",t).getComponent(sp.Skeleton);n.needBet<=n.currmult?a.setAnimation(0,"animation1",!1):(a.setAnimation(0,"animation3",!1),a.addAnimation(0,"animation2",!0)),this.updateCollectProgress(n.collectInfo,!1),cc.find("collect_node/btn_map",this.node).on("click",function(){"idle"===cc.vv.gameData.GetSlotState()&&(cc.vv.gameData.isAutoGame()||e._bottomScript._bAutoModel||(cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),e._bottomScript.ShowBtnsByState("moveing_1"),cc.find("map",e.node.parent).getComponent("FatherOfInvention_Map").initMap(n.collectInfo),cc.find("map",e.node.parent).getComponent("FatherOfInvention_Map").openMap(!0)))})},changeLightAngleAndScale:function(e,t,n,a,o,c){var r=t.convertToWorldSpaceAR(cc.v2(0,0)),i=e.convertToWorldSpaceAR(cc.v2(0,0)),s=r.x-i.x,l=r.y-i.y,f=cc.v2(s,l),m=f.signAngle(cc.v2(0,1))/Math.PI*180;e.angle=m*a+o;var u=Math.abs(f.mag());e.scale=u/c},setTower:function(e){var t=cc.find("collect_tower/tower_1",this.node),n=cc.find("collect_tower/tower_2",this.node),a=cc.find("collect_tower/tower_3",this.node);cc.find("tower",t).getComponent(sp.Skeleton).setAnimation(0,"animation"+e.blueStatus,!0),cc.find("tower",n).getComponent(sp.Skeleton).setAnimation(0,"animation"+e.redStatus,!0),cc.find("tower",a).getComponent(sp.Skeleton).setAnimation(0,"animation"+e.purpleStatus,!0)},StartMove:function(){if(this._super(),Global.SlotsSoundMgr.playNormalBgm(),this.towerGame){if(this.towerGame.expandingReels){var e,t=c(this._reels);try{for(t.s();!(e=t.n()).done;){e.value.AddCount(3)}}catch(e){t.e(e)}finally{t.f()}cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_rise",!0);var n=cc.find("waikuang_lan",this.node).getComponent(sp.Skeleton);n.node.active=!0,n.setAnimation(0,"animation1",!1),n.addAnimation(0,"animation2",!0);var a=cc.find("reels_frame/guanzishangsheng",this.node).getComponent(sp.Skeleton);a.setAnimation(0,"animation1_1",!1),a.addAnimation(0,"animation2",!0)}if(this.towerGame.doubleWild){var o=cc.find("waikuang_zi",this.node).getComponent(sp.Skeleton);o.node.active=!this.towerGame.expandingReels,o.setAnimation(0,"animation1",!1),o.addAnimation(0,"animation2",!0)}}},ReconnectShow:function(){var e=this;return o(regeneratorRuntime.mark(function t(){var n,a,o,r,i;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(3!==(n=cc.vv.gameData.getDeskInfo()).collectInfo.state){t.next=3;break}return t.abrupt("return");case 3:if(!cc.vv.gameData.GetFreeTime()){t.next=11;break}if(e.freeTowerInfo=n.freeTowerInfo,e.setTower(e.freeTowerInfo),e.ShowGameview(!0),n.towerGame){if(e.towerGame=n.towerGame,n.towerGame.expandingReels){a=c(e._reels);try{for(a.s();!(o=a.n()).done;)o.value.AddCount(3,.01)}catch(e){a.e(e)}finally{a.f()}(r=cc.find("waikuang_lan",e.node).getComponent(sp.Skeleton)).node.active=!0,r.setAnimation(0,"animation2",!0),cc.find("reel_frame/guanzishangsheng",e.node).getComponent(sp.Skeleton).setAnimation(0,"animation2",!0)}e._bottomScript.SendSpinReq()}else e.CanDoNextRound();t.next=32;break;case 11:if(e.ShowGameview(!1),1!==n.collectInfo.state){t.next=27;break}return e._bottomScript.ShowBtnsByState("moveing_1"),t.next=16,cc.vv.gameData.awaitTime(.5);case 16:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_full",!0),(i=cc.find("collect_node/progress/spine_full",e.node).getComponent(sp.Skeleton)).node.active=!0,i.setAnimation(0,"animation",!1),i.setCompleteListener(function(){i.setCompleteListener(null),i.node.active=!1}),t.next=23,cc.vv.gameData.awaitTime(1);case 23:cc.find("map",e.node.parent).getComponent("FatherOfInvention_Map").showMap(n.collectInfo),t.next=32;break;case 27:if(2!==n.collectInfo.state){t.next=32;break}return e._bottomScript.ShowBtnsByState("moveing_1"),t.next=31,cc.vv.gameData.awaitTime(.5);case 31:cc.find("wheel",e.node.parent).getComponent("FatherOfInvention_Wheel").startWheel(n.collectInfo);case 32:case"end":return t.stop()}},t)}))()},onMsgSpine:function(e){var t=this;return o(regeneratorRuntime.mark(function n(){var a,o,c,r;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:if(t._super(e),cc.vv.gameData.getDeskInfo().collectInfo=e.collectInfo,t.towerInfo=e.towerInfo,!t.towerGame){n.next=21;break}for(a=1,o=0;o<t._gameInfo.resultCards.length;o++)t._gameInfo.resultCards[o]===t._cfg.wildId&&(a+=.7);if(t.towerGame.expandingReels&&(a+=1.5),t.SetStopTime(a),!t.towerGame.randWilds){n.next=21;break}cc.find("black_bg",t.node).active=!0,cc.find("waikuang_hong",t.node).active=!t.towerGame.expandingReels,c=1,r=0;case 13:if(!(r<t._gameInfo.resultCards.length)){n.next=20;break}if(t._gameInfo.resultCards[r]!==t._cfg.wildId){n.next=17;break}return n.delegateYield(regeneratorRuntime.mark(function e(){var n,a,o;return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return(n=cc.find("collect_tower/tower_2/jackpot_light",t.node).getComponent(sp.Skeleton)).node.active=!0,cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_launch",!0),n.setAnimation(0,"animation1",!1),(a=cc.instantiate(cc.find("wild_sprite",t.node))).scale=0,a.active=!0,a.parent=cc.find("wild_parent",t.node),a.position=cc.v2(r%5*t._cfg.symbolSize.width+.5*t._cfg.symbolSize.width,(t._gameInfo.resultCards.length/t._cfg.col-1-Math.floor(r/5))*t._cfg.symbolSize.height+.5*t._cfg.symbolSize.height),t.changeLightAngleAndScale(n.node,a,cc.v2(0,-1),-1,180,480),e.next=12,cc.vv.gameData.awaitTime(.1);case 12:return c>5&&(c=5),cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_receive"+c,!0),(o=cc.instantiate(cc.find("generate_wild_spine",t.node)).getComponent(sp.Skeleton)).node.active=!0,o.setAnimation(0,"animation4",!1),o.node.parent=cc.find("wild_parent",t.node),o.node.position=a.position,o.setCompleteListener(function(){o.node.removeFromParent()}),c++,cc.tween(a).to(.3,{scale:1}).start(),e.next=24,cc.vv.gameData.awaitTime(.5);case 24:case"end":return e.stop()}},e)})(),"t0",17);case 17:r++,n.next=13;break;case 20:cc.find("black_bg",t.node).active=!1;case 21:case"end":return n.stop()}},n)}))()},SetSlotsResult:function(e){this._super(e)},CheckEnterFreeGame:function(){return cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetFreeTime()===cc.vv.gameData.GetTotalFree()},CheckExitFreeGame:function(){return cc.vv.gameData.GetTotalFree()>0&&0===cc.vv.gameData.GetFreeTime()},ShowWinTrace:function(){this._super()},OnSpinEnd:function(){var e=this;return o(regeneratorRuntime.mark(function t(){var n,a;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,e.collectSymbol();case 2:return t.next=4,e.collectTower();case 4:if(!e.towerGame){t.next=9;break}if(!e.towerGame.doubleWild){t.next=8;break}return t.next=8,e.triggerDoubleWild();case 8:e.towerGame.randWilds&&cc.find("wild_parent",e.node).removeAllChildren();case 9:e.ShowWinTrace(),n=cc.vv.gameData.GetGameWin(),a=cc.vv.gameData.GetGameWin(),cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!==cc.vv.gameData.GetFreeTime()&&(a=cc.vv.gameData.GetGameTotalFreeWin()),!0,e._gameInfo.addTowerInfo&&e._gameInfo.addTowerInfo.jackpot&&(n-=e._gameInfo.addTowerInfo.winCoin,a-=e._gameInfo.addTowerInfo.winCoin,!1),e.ShowBottomWin(n,a,!0,o(regeneratorRuntime.mark(function t(){var n,a,o,r,i;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(!e._gameInfo.addTowerInfo||!e._gameInfo.jackpot){t.next=3;break}return t.next=3,e.triggerJackpot();case 3:if(!e.towerGame){t.next=22;break}if(cc.find("waikuang_hong",e.node).active=!1,cc.find("waikuang_zi",e.node).active=!1,!e.towerGame.expandingReels){t.next=20;break}e.ClearAllTopShow(),n=c(e._reels);try{for(n.s();!(a=n.n()).done;)a.value.AddCount(-3)}catch(e){n.e(e)}finally{n.f()}return cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_down",!0),(o=cc.find("waikuang_lan",e.node).getComponent(sp.Skeleton)).node.active=!0,o.setAnimation(0,"animation3",!1),(r=cc.find("reels_frame/guanzishangsheng",e.node).getComponent(sp.Skeleton)).setAnimation(0,"animation2_1",!1),r.addAnimation(0,"animation1",!0),t.next=19,cc.vv.gameData.awaitTime(1.5);case 19:o.node.active=!1;case 20:e.towerGame=null,cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!==cc.vv.gameData.GetFreeTime()?e.setTower(e._gameInfo.freeTowerInfo):e.setTower(e._gameInfo.towerInfo);case 22:if(!e._gameInfo.towerGame){t.next=27;break}return t.next=25,e.triggerTowerGame();case 25:t.next=53;break;case 27:if(!(e._gameInfo.collectInfo&&0!==e._gameInfo.collectInfo.state&&e._gameInfo.collectInfo.progressData.currCnt>0)){t.next=42;break}return e._bottomScript.ShowBtnsByState("moveing_1"),t.next=31,cc.vv.gameData.awaitTime(.5);case 31:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_full",!0),(i=cc.find("collect_node/progress/spine_full",e.node).getComponent(sp.Skeleton)).node.active=!0,i.setAnimation(0,"animation",!1),i.setCompleteListener(function(){i.setCompleteListener(null),i.node.active=!1}),t.next=38,cc.vv.gameData.awaitTime(1);case 38:cc.find("map",e.node.parent).getComponent("FatherOfInvention_Map").showMap(e._gameInfo.collectInfo),t.next=53;break;case 42:if(!e.CheckEnterFreeGame()){t.next=46;break}e.triggerFreeGame(),t.next=53;break;case 46:if(!e.CheckExitFreeGame()){t.next=50;break}e.triggerExitFreeGame(),t.next=53;break;case 50:return t.next=52,cc.vv.gameData.awaitTime(.5);case 52:e.CanDoNextRound();case 53:case"end":return t.stop()}},t)})));case 16:case"end":return t.stop()}},t)}))()},ClearAllTopShow:function(){this._super();var e,t=c(this._reels);try{for(t.s();!(e=t.n()).done;)for(var n=e.value,a=0;a<this._cfg.row;a++)n.GetSymbolByRow(a).setAnimationToTop(!1)}catch(e){t.e(e)}finally{t.f()}},triggerDoubleWild:function(){var e=this;return o(regeneratorRuntime.mark(function t(){var n,a,o;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.next=2,cc.vv.gameData.awaitTime(.5);case 2:n=0;case 3:if(!(n<e._gameInfo.resultCards.length)){t.next=20;break}if(e._gameInfo.resultCards[n]!==e._cfg.wildId){t.next=17;break}return(a=cc.find("collect_tower/tower_3/jackpot_light",e.node).getComponent(sp.Skeleton)).node.active=!0,cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_launch",!0),a.setAnimation(0,"animation1",!1),o=e.GetSymbolByIdx(n+1),e.changeLightAngleAndScale(a.node,o.node,cc.v2(0,-1),-1,180,480),t.next=14,cc.vv.gameData.awaitTime(.1);case 14:return o.ShowById(e._cfg.doubleWildId),t.next=17,cc.vv.gameData.awaitTime(.3);case 17:n++,t.next=3;break;case 20:case"end":return t.stop()}},t)}))()},GetSymbolByIdx:function(e){var t=(e-1)%this._col,n=this._gameInfo.resultCards.length/this._cfg.col-Math.floor((e-1)/this._col)-1;return this._reels[t].GetSymbolByRow(n)},triggerTowerGame:function(){var e=this;return o(regeneratorRuntime.mark(function t(){var n,a,o;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(!e._gameInfo.towerGame){t.next=48;break}if(e.towerGame=e._gameInfo.towerGame,(n=cc.find("featuretanchuang",e.node)).active=!0,n.opacity=255,a=cc.find("featuretanchuang",n),cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_dialog_show",!0),o=0,!e._gameInfo.towerGame.expandingReels){t.next=20;break}return o=e._cfg.towerCfg[1].jackpotDialogAnimationIndex,n.opacity=255,a.getComponent(sp.Skeleton).setSkin(e._cfg.towerCfg[1].dialogSkin),a.getComponent(sp.Skeleton).setAnimation(0,"animation1",!1),a.getComponent(sp.Skeleton).addAnimation(0,"animation2",!0),t.next=16,cc.vv.gameData.awaitTime(2);case 16:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_dialog_close",!0),cc.tween(n).to(.2,{opacity:0}).start(),t.next=20,cc.vv.gameData.awaitTime(.5);case 20:if(!e._gameInfo.towerGame.randWilds){t.next=32;break}return n.opacity=255,o=e._cfg.towerCfg[2].jackpotDialogAnimationIndex,a.getComponent(sp.Skeleton).setSkin(e._cfg.towerCfg[2].dialogSkin),a.getComponent(sp.Skeleton).setAnimation(0,"animation"+o,!1),a.getComponent(sp.Skeleton).addAnimation(0,"animation"+o+"_1",!0),t.next=28,cc.vv.gameData.awaitTime(2);case 28:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_dialog_close",!0),cc.tween(n).to(.2,{opacity:0}).start(),t.next=32,cc.vv.gameData.awaitTime(.5);case 32:if(!e._gameInfo.towerGame.doubleWild){t.next=44;break}return n.opacity=255,o=e._cfg.towerCfg[3].jackpotDialogAnimationIndex,a.getComponent(sp.Skeleton).setSkin(e._cfg.towerCfg[3].dialogSkin),a.getComponent(sp.Skeleton).setAnimation(0,"animation"+o,!1),a.getComponent(sp.Skeleton).addAnimation(0,"animation"+o+"_1",!0),t.next=40,cc.vv.gameData.awaitTime(2);case 40:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_dialog_close",!0),cc.tween(n).to(.2,{opacity:0}).start(),t.next=44,cc.vv.gameData.awaitTime(.5);case 44:return n.active=!1,t.next=47,cc.vv.gameData.awaitTime(1);case 47:e._bottomScript.SendSpinReq();case 48:case"end":return t.stop()}},t)}))()},triggerJackpot:function(){var e=this;return o(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return t.abrupt("return",new Promise(function(){var t=o(regeneratorRuntime.mark(function t(n){var a,o,c,r,i;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(!e._gameInfo.addTowerInfo||!e._gameInfo.jackpot){t.next=25;break}return t.next=3,cc.vv.gameData.awaitTime(1);case 3:return cc.find("LMSlots_PrizePool_1",e.node.parent).getComponent("LMSlots_PrizePool_Base").PausePool([{prizeType:1,pauseNum:e._gameInfo.addTowerInfo.jackpotValues[0]},{prizeType:2,pauseNum:e._gameInfo.addTowerInfo.jackpotValues[1]},{prizeType:3,pauseNum:e._gameInfo.addTowerInfo.jackpotValues[2]}]),a=cc.find("collect_tower/tower_1/jackpot_light",e.node),o=cc.find("LMSlots_PrizePool_1/prizePool_Minor",e.node.parent),c=1,2===e._gameInfo.jackpot?e.changeLightAngleAndScale(a,o,cc.v2(0,1),-1,0,230):3===e._gameInfo.addTowerInfo.jackpot?(a=cc.find("collect_tower/tower_3/jackpot_light",e.node),o=cc.find("LMSlots_PrizePool_1/prizePool_Major",e.node.parent),c=3,e.changeLightAngleAndScale(a,o,cc.v2(0,-1),-1,180,500)):4===e._gameInfo.addTowerInfo.jackpot&&(a=cc.find("collect_tower/tower_2/jackpot_light",e.node),o=cc.find("LMSlots_PrizePool_1/prizePool_Grand",e.node.parent),c=2,e.changeLightAngleAndScale(a,o,cc.v2(0,-1),-1,180,500)),r=a.getComponent(sp.Skeleton),a.active=!0,r.setAnimation(0,"animation1",!1),cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_launch",!0),r.setCompleteListener(function(){r.setCompleteListener(null),a.active=!1}),t.next=15,cc.vv.gameData.awaitTime(.1);case 15:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","jp_show",!0),(i=cc.find("cf_jackpot_01",o)).active=!0,i.getComponent(sp.Skeleton).setAnimation(0,"animation2",!1),i.getComponent(sp.Skeleton).setCompleteListener(function(){i.getComponent(sp.Skeleton).setCompleteListener(null),i.active=!1}),t.next=22,cc.vv.gameData.awaitTime(1);case 22:return t.next=24,e.popJackpotDialog(c);case 24:e.ShowBottomWin(e._gameInfo.addTowerInfo.winCoin,e._gameInfo.addTowerInfo.winCoin,!0,function(){n()});case 25:case"end":return t.stop()}},t)}));return function(e){return t.apply(this,arguments)}}()));case 1:case"end":return t.stop()}},t)}))()},collectTower:function(){var e=this;return o(regeneratorRuntime.mark(function t(){var n,a,o,c,r,i,s,l,f,m;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(e._gameInfo.addTowerInfo){t.next=2;break}return t.abrupt("return");case 2:if(!(cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!==cc.vv.gameData.GetFreeTime())){t.next=6;break}for(n=0;n<e._gameInfo.resultCards.length;n++)e._gameInfo.resultCards[n]===e._cfg.ballId&&(a=e.GetSymbolByIdx(n+1),o=a.node.convertToWorldSpaceAR(cc.v2(0,0)),o=e.node.parent.convertToNodeSpaceAR(o),(c=cc.instantiate(cc.find("add1",e.node.parent))).parent=e.node.parent,c.position=o,c.scale=.5,c.active=!0,r=e.GetSymbolByIdx(3).node.convertToWorldSpaceAR(cc.v2(0,0)),r=e.node.parent.convertToNodeSpaceAR(r),i=cc.find("LMSlots_Bottom/free_time",e.node.parent).convertToWorldSpaceAR(cc.v2(0,0)),i=e.node.parent.convertToNodeSpaceAR(i),cc.vv.AudioManager.playEff("games/FatherOfInvention/","free_times",!0),cc.tween(c).to(.3,{scale:1,position:r}).delay(.5).to(.6,{position:i},{easing:"sineIn"}).call(function(){e._bottomScript.UpdateFreeTime(cc.vv.gameData.GetTotalFree(),cc.vv.gameData.GetTotalFree()-cc.vv.gameData.GetFreeTime())}).removeSelf().start());return t.next=6,cc.vv.gameData.awaitTime(1.5);case 6:s=0;case 7:if(!(s<e._gameInfo.addTowerInfo.games.length)){t.next=16;break}if(l=e._gameInfo.addTowerInfo.games[s],f=e._cfg.towerCfg[l],!(m=e.getBallSymbol())){t.next=13;break}return t.delegateYield(regeneratorRuntime.mark(function t(){var n,a,o,c,r;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return m.playTriggerAnimation(),t.next=3,cc.vv.gameData.awaitTime(.5);case 3:return(n=cc.instantiate(cc.find("bo_qiu",e.node.parent)).getComponent(sp.Skeleton)).node.active=!0,n.node.parent=e.node.parent,a=m.node.convertToWorldSpaceAR(cc.v2(0,0)),(a=e.node.parent.convertToNodeSpaceAR(a)).y+=40,n.node.position=a,n.setAnimation(0,f.ball_animation,!0),cc.vv.AudioManager.playEff("games/FatherOfInvention/","symbol_scatter_trans",!0),t.next=14,cc.vv.gameData.awaitTime(.5);case 14:return o=cc.find("collect_tower/tower_"+l,e.node),c=cc.find("bo_sd",o).getComponent(sp.Skeleton),r=c.node.convertToWorldSpaceAR(cc.v2(0,0)),r=e.node.parent.convertToNodeSpaceAR(r),cc.tween(n.node).to(.5,{position:r}).removeSelf().start(),t.next=21,cc.vv.gameData.awaitTime(.5);case 21:return c.node.active=!0,c.setAnimation(0,f.ball_animation,!1),c.setCompleteListener(function(){c.setCompleteListener(null),c.node.active=!1}),t.next=26,cc.vv.gameData.awaitTime(.1);case 26:return cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!==cc.vv.gameData.GetFreeTime()?e.updateTower(l,e._gameInfo.freeTowerInfo):e.updateTower(l,e._gameInfo.towerInfo),t.next=29,cc.vv.gameData.awaitTime(.5);case 29:case"end":return t.stop()}},t)})(),"t0",13);case 13:s++,t.next=7;break;case 16:case"end":return t.stop()}},t)}))()},updateTower:function(e,t){var n=cc.find("collect_tower/tower_"+e+"/tower",this.node).getComponent(sp.Skeleton);switch(e){case s:n.setAnimation(0,"animation"+t.blueStatus,!0),3===t.blueStatus?cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_tower_active",!0):1!==t.blueStatus&&2!==t.blueStatus||cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_tower_part",!0);break;case l:n.setAnimation(0,"animation"+t.redStatus,!0),3===t.redStatus?cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_tower_active",!0):1!==t.redStatus&&2!==t.redStatus||cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_tower_part",!0);break;case f:n.setAnimation(0,"animation"+t.purpleStatus,!0),3===t.purpleStatus?cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_tower_active",!0):1!==t.purpleStatus&&2!==t.purpleStatus||cc.vv.AudioManager.playEff("games/FatherOfInvention/","feature_tower_part",!0)}},getBallSymbol:function(){for(var e=0;e<this._gameInfo.resultCards.length;e++)if(this._gameInfo.resultCards[e]===this._cfg.ballId)return this.GetSymbolByIdx(e+1);return null},ShowGameview:function(e){this._super(e),cc.find("collect_node",this.node).active=!e,cc.find("collect_tower",this.node).y=e?240:290,cc.find("reels/reel2/mask/free_bg",this.node).active=e,cc.find("reels/reel4/mask/free_bg",this.node).active=e},collectSymbol:function(){var e=this;return o(regeneratorRuntime.mark(function t(){var n,a,o,c,r,i,s;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(!(cc.vv.gameData.GetTotalFree()>0&&cc.vv.gameData.GetTotalFree()!==cc.vv.gameData.GetFreeTime())){t.next=2;break}return t.abrupt("return");case 2:if(0!==e._gameInfo.collectInfo.progressData.currCnt){t.next=4;break}return t.abrupt("return");case 4:for(n=cc.find("collect_node/jinbi_jieshou_01",e.node),a=!1,o=0;o<e._gameInfo.resultCards.length;o++)e._gameInfo.resultCards[o]===e._cfg.collectSymbolId&&(c=e.GetSymbolByIdx(o+1))&&((r=cc.instantiate(cc.find("fly_spine",e.node.parent)).getComponent(sp.Skeleton)).node.active=!0,r.node.parent=e.node.parent,i=c.node.convertToWorldSpaceAR(cc.v2(0,0)),i=e.node.parent.convertToNodeSpaceAR(i),r.node.position=i,r.setAnimation(0,"animation2",!1),a=!0,s=n.convertToWorldSpaceAR(cc.v2(0,0)),s=e.node.parent.convertToNodeSpaceAR(s),cc.tween(r.node).delay(.2).to(.3,{position:s}).removeSelf().start());if(!a){t.next=14;break}return cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_fly",!0),cc.tween(n).delay(.5).call(function(){var e=n.getComponent(sp.Skeleton);e.setAnimation(0,"animation2",!1),e.addAnimation(0,"animation1",!0)}).start(),t.next=12,cc.vv.gameData.awaitTime(.5);case 12:return t.next=14,e.updateCollectProgress(e._gameInfo.collectInfo,!0);case 14:case"end":return t.stop()}},t)}))()},triggerFreeGame:function(){var e=this;return o(regeneratorRuntime.mark(function t(){var n;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:for(e._bottomScript.ShowBtnsByState("moveing_1"),n=0;n<e._gameInfo.resultCards.length;n++)e._gameInfo.resultCards[n]===e._cfg.scatterId&&e.GetSymbolByIdx(n+1).playWinAnimation();return cc.vv.AudioManager.playEff("games/FatherOfInvention/","bell",!0),t.next=5,cc.vv.gameData.awaitTime(2);case 5:return t.next=7,e.popFreeDialog();case 7:return e.cutSceneDoctor(),t.next=10,cc.vv.gameData.awaitTime(2.3);case 10:return e.Backup(),e.ShowGameview(!0),e.freeTowerInfo=e._gameInfo.freeTowerInfo,e.setTower(e.freeTowerInfo),t.next=16,cc.vv.gameData.awaitTime(2);case 16:Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playBgm("free_bgm"),e.CanDoNextRound();case 19:case"end":return t.stop()}},t)}))()},cutSceneDoctor:function(){var e=this;return o(regeneratorRuntime.mark(function t(){var n,a;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","transition1",!0),(n=cc.find("Canvas/safe_node/role")).getComponent(sp.Skeleton).setAnimation(0,"skill02",!1),t.next=5,cc.vv.gameData.awaitTime(1.3);case 5:return(a=cc.find("transition1",e.node.parent)).active=!0,a.getComponent(sp.Skeleton).setAnimation(0,"skill2",!1),a.getComponent(sp.Skeleton).setCompleteListener(function(){a.getComponent(sp.Skeleton).setCompleteListener(null),a.active=!1}),t.next=11,cc.vv.gameData.awaitTime(1);case 11:n.getComponent(sp.Skeleton).setAnimation(0,"idle",!0);case 12:case"end":return t.stop()}},t)}))()},triggerExitFreeGame:function(){var e=this;return o(regeneratorRuntime.mark(function t(){return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return e._bottomScript.ShowBtnsByState("moveing_1"),t.next=3,cc.vv.gameData.awaitTime(1);case 3:return t.next=5,e.popFreeResultDialog();case 5:return e.cutSceneDoctor(),t.next=8,cc.vv.gameData.awaitTime(2.3);case 8:e.Resume(),e.ShowGameview(!1),e.freeTowerInfo=null,e.setTower(e.towerInfo),e.ShowBottomWin(cc.vv.gameData.GetGameTotalFreeWin(),cc.vv.gameData.GetGameTotalFreeWin(),!0,function(){Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playNormalBgm(),e.CanDoNextRound()});case 13:case"end":return t.stop()}},t)}))()},popFreeDialog:function(){var e=this;return new Promise(function(){var t=o(regeneratorRuntime.mark(function t(n){var a,c,r,i,s,l,f;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return(a=cc.find("free_dialog",e.node.parent)).active=!0,(c=cc.find("free_dialog_bg",a)).opacity=0,c.runAction(cc.fadeTo(.2,200)),(r=cc.find("common_enter_node",a)).active=!0,r.opacity=255,(i=cc.find("times",r)).scale=0,(s=cc.find("spine",r).getComponent(sp.Skeleton)).node.active=!0,cc.vv.AudioManager.playEff("games/FatherOfInvention/","free_dialog_start_show",!0),s.setAnimation(0,"animation1",!1),s.addAnimation(0,"animation2",!0),i.getComponent(cc.Label).string=cc.vv.gameData.GetTotalFree(),cc.tween(i).to(.8,{scale:1},{easing:"backOut"}).start(),(l=cc.find("btn_start",r)).scale=0,t.next=21,cc.vv.gameData.awaitTime(.3);case 21:return cc.tween(l).to(.2,{scale:1}).start(),t.next=24,cc.vv.gameData.awaitTime(.2);case 24:l.off("click"),f=function(){var e=o(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return l.off("click"),cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),cc.tween(r).to(.2,{opacity:0}).start(),cc.tween(c).to(.2,{opacity:0}).start(),e.next=6,cc.vv.gameData.awaitTime(.3);case 6:r.active=!1,a.active=!1,s.node.active=!1,n();case 10:case"end":return e.stop()}},e)}));return function(){return e.apply(this,arguments)}}(),cc.vv.gameData.checkAutoPlay(l,f),l.on("click",o(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return l.stopAllActions(),e.next=3,f();case 3:case"end":return e.stop()}},e)})));case 28:case"end":return t.stop()}},t)}));return function(e){return t.apply(this,arguments)}}())},popFreeResultDialog:function(){var e=this;return new Promise(function(){var t=o(regeneratorRuntime.mark(function t(n){var a,c,r,i,s,l,f,m;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","free_dialog_collect_show",!0),(a=cc.find("free_dialog",e.node.parent)).active=!0,(c=cc.find("free_dialog_bg",a)).opacity=0,c.runAction(cc.fadeTo(.2,200)),(r=cc.find("result_node",a)).opacity=255,r.active=!0,(i=cc.find("spine",r).getComponent(sp.Skeleton)).node.active=!0,(s=cc.find("coin_bg",r)).scale=0,(l=cc.find("coin",r)).scale=0,l.getComponent(cc.Label).string="",i.setAnimation(0,"animation1",!1),i.addAnimation(0,"animation2",!0),(f=cc.find("btn_collect",r)).scale=0,t.next=22,cc.vv.gameData.awaitTime(.3);case 22:return Global.doRoallNumEff(l,0,cc.vv.gameData.GetGameTotalFreeWin(),3,null,null,0,!0),cc.tween(l).to(.2,{scale:1}).start(),cc.tween(s).to(.2,{scale:1}).start(),t.next=27,cc.vv.gameData.awaitTime(.2);case 27:return cc.tween(f).to(.2,{scale:1}).start(),f.off("click"),t.next=31,cc.vv.gameData.awaitTime(.2);case 31:m=function(){var e=o(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return f.off("click"),cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),cc.tween(r).to(.2,{opacity:0}).start(),cc.tween(c).to(.2,{opacity:0}).start(),e.next=6,cc.vv.gameData.awaitTime(.3);case 6:r.active=!1,a.active=!1,i.node.active=!1,n();case 10:case"end":return e.stop()}},e)}));return function(){return e.apply(this,arguments)}}(),cc.vv.gameData.checkAutoPlay(f,m),f.on("click",o(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return f.stopAllActions(),e.next=3,m();case 3:case"end":return e.stop()}},e)})));case 34:case"end":return t.stop()}},t)}));return function(e){return t.apply(this,arguments)}}())},popJackpotDialog:function(e){var t=this;return new Promise(function(){var n=o(regeneratorRuntime.mark(function n(a){var c,r,i,s,l,f,m,u;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","jp_tower",!0),(c=cc.find("free_dialog",t.node.parent)).active=!0,(r=cc.find("free_dialog_bg",c)).opacity=0,r.runAction(cc.fadeTo(.2,200)),(i=cc.find("jackpot_node",c)).active=!0,i.opacity=255,(s=cc.find("spine",i).getComponent(sp.Skeleton)).node.active=!0,(l=cc.find("coin_bg",i)).scale=0,(f=cc.find("coin",l)).getComponent(cc.Label).string="",cc.vv.AudioManager.playEff("games/FatherOfInvention/",t._cfg.towerCfg[e].jackpotSound,!0),s.setAnimation(0,"animation"+t._cfg.towerCfg[e].jackpotDialogAnimationIndex,!1),s.addAnimation(0,"animation"+t._cfg.towerCfg[e].jackpotDialogAnimationIndex+"_1",!0),(m=cc.find("btn_collect",i)).scale=0,n.next=22,cc.vv.gameData.awaitTime(.3);case 22:return Global.doRoallNumEff(f,0,cc.vv.gameData.GetGameTotalFreeWin(),3,null,null,0,!0),cc.tween(l).to(.2,{scale:1}).start(),n.next=26,cc.vv.gameData.awaitTime(.2);case 26:return cc.tween(m).to(.2,{scale:1}).start(),m.off("click"),n.next=30,cc.vv.gameData.awaitTime(.2);case 30:u=function(){var e=o(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return m.off("click"),cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),cc.tween(i).to(.2,{opacity:0}).start(),cc.tween(r).to(.2,{opacity:0}).start(),e.next=6,cc.vv.gameData.awaitTime(.3);case 6:i.active=!1,c.active=!1,a();case 9:case"end":return e.stop()}},e)}));return function(){return e.apply(this,arguments)}}(),cc.vv.gameData.checkAutoPlay(m,u),m.on("click",o(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return m.stopAllActions(),e.next=3,u();case 3:case"end":return e.stop()}},e)})));case 33:case"end":return n.stop()}},n)}));return function(e){return n.apply(this,arguments)}}())},updateCollectProgress:function(e,t){var n=this;return o(regeneratorRuntime.mark(function a(){var o,c;return regeneratorRuntime.wrap(function(a){for(;;)switch(a.prev=a.next){case 0:o=cc.find("collect_node/progress",n.node),c=cc.find("bar",o),t?cc.tween(c).to(.3,{x:o.width*Math.min(1,e.progressData.totalCnt/e.progressData.needCnt)}).start():c.x=o.width*Math.min(1,e.progressData.totalCnt/e.progressData.needCnt);case 3:case"end":return a.stop()}},a)}))()},clearCollectProgress:function(){var e=cc.find("collect_node/progress",this.node);cc.find("bar",e).x=0}}),cc._RF.pop()},{LMSlots_Slots_Base:void 0}],FatherOfInvention_SuperSlots:[function(e,t,n){"use strict";function a(e,t,n,a,o,c,r){try{var i=e[c](r),s=i.value}catch(e){return void n(e)}i.done?t(s):Promise.resolve(s).then(a,o)}function o(e){return function(){var t=this,n=arguments;return new Promise(function(o,c){var r=e.apply(t,n);function i(e){a(r,o,c,i,s,"next",e)}function s(e){a(r,o,c,i,s,"throw",e)}i(void 0)})}}cc._RF.push(t,"f058antdjRNgZNaehVldnII","FatherOfInvention_SuperSlots"),cc.Class({extends:e("LMSlots_Slots_Base"),properties:{_haveSpinEnd:!1},Init:function(){this._super()},setSlots:function(e){for(var t=cc.vv.gameData.GetAtlasByName("base"),n=0;n<4;n++){var a=cc.find("bg/bg_"+(n+1),this.node),o=e.slots[n],c=e.activeCard===o.card;cc.find("bg4",a).getComponent(cc.Sprite).spriteFrame=t.getSpriteFrame(c?"theme178_free2_bg4":"theme178_free_bg4"),cc.find("bg3",a).getComponent(cc.Sprite).spriteFrame=t.getSpriteFrame(c?"theme178_free2_bg3":"theme178_free_bg3"),cc.find("ear_bg",a).getComponent(cc.Sprite).spriteFrame=t.getSpriteFrame(c?"theme178_free2_reel_11":"theme178_free2_reel_10"),cc.find("bg2",a).getComponent(cc.Sprite).spriteFrame=t.getSpriteFrame(c?"theme178_free2_bg2":"theme178_free_bg2"),cc.find("your_monster",a).active=c,cc.find("coin_bg/coin",a).getComponent(cc.Label).string=o.collectCnt,cc.find("win_bg/rate_bg",a).getComponent(cc.Sprite).spriteFrame=t.getSpriteFrame(c?"theme178_free2_bg0":"theme178_free_bg0"),cc.find("win_bg/rate_bg/rate",a).getComponent(cc.Label).string=o.mult,cc.find("win_bg/coin",a).getComponent(cc.Label).string=Global.formatMoney(o.totalWinCoin),cc.find("symbol",a).color=c?cc.Color.WHITE:cc.Color.GRAY}},createReels:function(e,t){this._reels=[];for(var n=this._cfg.scripts.Reels,a=0;a<4;a++){for(var o=[],c=0;c<e;c++){var r=cc.find("reels_"+(a+1)+"/reel"+(c+1),this.node).addComponent(n);r.Init(c,t,cc.find("reels_"+(a+1)+"/top_ani",this.node)),o.push(r)}this._reels.push(o)}},StartMove:function(){this._super(),this._haveSpinEnd=!1,Global.SlotsSoundMgr.playNormalBgm()},OnReelBounsActionBefore:function(e){},MoveReels:function(e){this.moveReelLastIdx=-1;for(var t=0;t<e.length;t++)for(var n=e[t],a=0;a<n.length;a++){var o=n[a];o.StartMove();var c=o.GetReelIdx();c>this.moveReelLastIdx&&(this.moveReelLastIdx=c)}},StopMove:function(){this._bStopRightnow=!0,this._bottomScript.ShowBtnsByState("moveing_1"),this._stopTime=-1;for(var e=0;e<this._reels.length;e++)for(var t=this._reels[e],n=0;n<t.length;n++){var a=t[n];a.StopMove(0),a.StopMoveRightNow()}},ReconnectShow:function(){var e=this;return o(regeneratorRuntime.mark(function t(){var n;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:n=cc.vv.gameData.getDeskInfo(),cc.vv.gameData.GetFreeTime()&&(e.ShowGameview(!0),3===n.collectInfo.state&&(e.setSlots(n.collectFreeGame),e.CanDoNextRound()));case 3:case"end":return t.stop()}},t)}))()},onMsgSpine:function(e){var t=this;return o(regeneratorRuntime.mark(function n(){var a;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:t._gameInfo=e,a=e.collectFreeGame.slots,t.SetSlotsResult(a);case 3:case"end":return n.stop()}},n)}))()},SetSlotsResult:function(e){for(var t=0;t<4;t++){for(var n=e[t].resultCards,a=n.length/this._col,o=[],c=0;c<n.length;c++){Math.floor(c/a);var r=c%this._col;if(this._cfg.symbol[n[c]]){var i={};i.sid=n[c],o[r]||(o[r]=[]),o[r].unshift(i)}}for(var s=this._reels[t],l=0;l<s.length;l++){var f=s[l],m=o[l];f.SetResult(m)}}},ShowWinTrace:function(){for(var e=0;e<4;e++){for(var t=this._gameInfo.collectFreeGame.slots[e].zjLuXian,n=[],a=0;a<t.length;a++)for(var o=t[a],c=0;c<o.indexs.length;c++)n[o.indexs[c]]=1;for(var r in n){var i=this.GetSymbolByIdx(Number(r),e);i&&(i.playWinAnimation(),i.ShowKuang())}}},GetSymbolByIdx:function(e,t){var n=(e-1)%this._col,a=this._row-Math.floor((e-1)/this._col)-1;return this._reels[t][n].GetSymbolByRow(a)},OnSpinEnd:function(){var e=this;return o(regeneratorRuntime.mark(function t(){var n,a,o;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:if(!e._haveSpinEnd){t.next=2;break}return t.abrupt("return");case 2:return e._haveSpinEnd=!0,t.next=5,e.collectCoin();case 5:for(e.ShowWinTrace(),n=0;n<4;n++)a=e._gameInfo.collectFreeGame.slots[n].winCoin,o=e._gameInfo.collectFreeGame.slots[n].totalWinCoin,Global.doRoallNumEff(cc.find("bg/bg_"+(n+1)+"/win_bg/coin",e.node),o-a,o,2,null,null,0,!0,!1);return t.next=9,cc.vv.gameData.awaitTime(2.5);case 9:if(!e._gameInfo.collectFreeGame.isEnd){t.next=24;break}return t.next=12,e.popFreeResultDialog();case 12:return e._haveSpinEnd=!1,e.cutScene(),t.next=16,cc.vv.gameData.awaitTime(2);case 16:return cc.find("slots",e.node.parent).active=!0,e.node.active=!1,cc.vv.gameData.SetSlotsScript(cc.find("slots",e.node.parent).getComponent("FatherOfInvention_Slots")),t.next=21,cc.vv.gameData.awaitTime(1);case 21:cc.find("slots",e.node.parent).getComponent("FatherOfInvention_Slots").ShowBottomWin(e._gameInfo.collectFreeGame.winCoin,e._gameInfo.collectFreeGame.winCoin,!0,function(){Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playNormalBgm(),e._bottomScript.SetBetNodeVisible(!0),cc.find("slots",e.node.parent).getComponent("FatherOfInvention_Slots").ShowGameview(!1),cc.find("slots",e.node.parent).getComponent("FatherOfInvention_Slots").CanDoNextRound()}),t.next=25;break;case 24:e.CanDoNextRound();case 25:case"end":return t.stop()}},t)}))()},cutScene:function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","transition2",!0);var e=cc.find("transition2",this.node.parent);e.active=!0,e.getComponent(sp.Skeleton).setAnimation(0,"animation",!1),e.getComponent(sp.Skeleton).setCompleteListener(function(){e.getComponent(sp.Skeleton).setCompleteListener(null),e.active=!1})},popFreeResultDialog:function(){var e=this;return new Promise(function(){var t=o(regeneratorRuntime.mark(function t(n){var a,c,r,i,s,l,f,m;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","free_dialog_collect_show",!0),(a=cc.find("free_dialog",e.node.parent)).active=!0,(c=cc.find("free_dialog_bg",a)).opacity=0,c.runAction(cc.fadeTo(.2,200)),(r=cc.find("result_node",a)).opacity=255,r.active=!0,(i=cc.find("spine",r).getComponent(sp.Skeleton)).node.active=!0,(s=cc.find("coin_bg",r)).scale=0,(l=cc.find("coin",r)).scale=0,l.getComponent(cc.Label).string="",i.setAnimation(0,"animation1",!1),i.addAnimation(0,"animation2",!0),(f=cc.find("btn_collect",r)).scale=0,t.next=22,cc.vv.gameData.awaitTime(.3);case 22:return Global.doRoallNumEff(l,0,e._gameInfo.collectFreeGame.winCoin,3,null,null,0,!0),cc.tween(l).to(.2,{scale:1}).start(),cc.tween(s).to(.2,{scale:1}).start(),t.next=27,cc.vv.gameData.awaitTime(.2);case 27:return cc.tween(f).to(.2,{scale:1}).start(),f.off("click"),t.next=31,cc.vv.gameData.awaitTime(.2);case 31:m=function(){var e=o(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return f.off("click"),cc.vv.AudioManager.playEff("games/FatherOfInvention/","btn_click",!0),cc.tween(r).to(.2,{opacity:0}).start(),cc.tween(c).to(.2,{opacity:0}).start(),e.next=6,cc.vv.gameData.awaitTime(.3);case 6:r.active=!1,a.active=!1,i.node.active=!1,n();case 10:case"end":return e.stop()}},e)}));return function(){return e.apply(this,arguments)}}(),cc.vv.gameData.checkAutoPlay(f,m),f.on("click",o(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return f.stopAllActions(),e.next=3,m();case 3:case"end":return e.stop()}},e)})));case 34:case"end":return t.stop()}},t)}));return function(e){return t.apply(this,arguments)}}())},collectCoin:function(){var e=this;return o(regeneratorRuntime.mark(function t(){var n,a,o,c,r,i;return regeneratorRuntime.wrap(function(t){for(;;)switch(t.prev=t.next){case 0:n=e._gameInfo.collectFreeGame.slots,a=0;case 2:if(!(a<n.length)){t.next=21;break}o=n[a].currCollectIdxs,c=n[a].collectCnt-n[a].currCollectIdxs.length,r=0;case 6:if(!(r<o.length)){t.next=18;break}if(!(i=e.GetSymbolByIdx(o[r],a))){t.next=15;break}return i.playStopAnimation(),cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_count",!0),c++,cc.find("bg/bg_"+(a+1)+"/coin_bg/coin",e.node).getComponent(cc.Label).string=c,t.next=15,cc.vv.gameData.awaitTime(.5);case 15:r++,t.next=6;break;case 18:a++,t.next=2;break;case 21:case"end":return t.stop()}},t)}))()},update:function(e){if(this._stopTime>0&&(this._stopTime=this._stopTime-e,this._stopTime<=0))if(this.CanStopSlot()){this._bottomScript.ShowBtnsByState("moveing_2");for(var t=0;t<this._reels.length;t++)for(var n=this._reels[t],a=0;a<n.length;a++){var o=n[a],c=this.GetReelStopInter(a);o.StopMove(c)}}else this._stopTime=e,this._roundSpineTime=this._roundSpineTime||0,this._roundSpineTime+=e,this._roundSpineTime>30&&this._topScript.SetBackLobby(!0)},ShowGameview:function(e){if(e){if(3===cc.vv.gameData.getDeskInfo().collectInfo.state){var t=cc.vv.gameData.GetTotalFree(),n=cc.vv.gameData.GetFreeTime();this._bottomScript.ShowFreeModel(!0,t-n,t);var a=cc.vv.gameData.GetTotalFreeWin();this._bottomScript.SetWin(a),this._bottomScript.SetBetNodeVisible(!1)}}else this._bottomScript.SetBetNodeVisible(!0),this._bottomScript.ShowFreeModel(!1)}}),cc._RF.pop()},{LMSlots_Slots_Base:void 0}],FatherOfInvention_Symbol:[function(e,t,n){"use strict";cc._RF.push(t,"e930e+3QiFCV6h7R22+ovKO","FatherOfInvention_Symbol"),cc.Class({extends:e("LMSlots_Symbol_Base"),properties:{},Init:function(e,t){this._super(e,t)},ShowRandomSymbol:function(){this._super(),this._id===cc.vv.gameData.getGameCfg().ballId&&(this.node.zIndex=400,cc.vv.AudioManager.playEff("games/FatherOfInvention/","symbol_bonus_slip",!0))},StopMoveBefore:function(){},StartMove:function(){this._super();var e=cc.vv.gameData.getGameCfg();this._id===e.scatterId&&(this.node.zIndex=500),this._id===e.ballId&&(this.node.zIndex=400)},SetSymbolIdx:function(e){this._super(e);var t=cc.vv.gameData.getGameCfg();this._id===t.scatterId&&(this.node.zIndex=500),this._id===t.ballId&&(this.node.zIndex=400)}}),cc._RF.pop()},{LMSlots_Symbol_Base:void 0}],FatherOfInvention_Wheel:[function(e,t,n){"use strict";function a(e,t,n,a,o,c,r){try{var i=e[c](r),s=i.value}catch(e){return void n(e)}i.done?t(s):Promise.resolve(s).then(a,o)}function o(e){return function(){var t=this,n=arguments;return new Promise(function(o,c){var r=e.apply(t,n);function i(e){a(r,o,c,i,s,"next",e)}function s(e){a(r,o,c,i,s,"throw",e)}i(void 0)})}}cc._RF.push(t,"4abdf42dB9HR6g0z31hZtUk","FatherOfInvention_Wheel"),cc.Class({extends:cc.Component,properties:{wheel:cc.Node,spine_zhuanpan:sp.Skeleton,spine_chilun:sp.Skeleton,spine_huoxing:sp.Skeleton,spine_zhongjiang:sp.Skeleton,free_times:cc.Label,touch_spin:cc.Node,average_bet:cc.Label,_successCallback:null},startWheel:function(e){var t=this;return o(regeneratorRuntime.mark(function n(){var a,o,c;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:for(t.node.y=cc.winSize.height,t.node.active=!0,cc.tween(t.node).to(.5,{y:0}).start(),t.wheel.angle=0,t.spine_zhuanpan.node.active=!0,t.spine_chilun.node.active=!0,t.spine_chilun.node.color=cc.Color.WHITE,t.spine_chilun.setAnimation(0,"animation",!0),t.spine_huoxing.node.active=!1,t.spine_zhongjiang.node.active=!1,t.touch_spin.off(cc.Node.EventType.TOUCH_END),a=function(){t.touch_spin.off(cc.Node.EventType.TOUCH_END),cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_roulette_spin",!0);var e={c:MsgId.SLOT_SUBGAME_DATA};e.uid=Global.playerData.uid,e.gameid=cc.vv.gameData._gameId,e.data={},e.data.rtype=3,cc.vv.NetManager.send(e)},cc.vv.gameData.checkAutoPlay(t.touch_spin,a),t.touch_spin.on(cc.Node.EventType.TOUCH_END,function(){t.touch_spin.stopAllActions(),a()}),t.free_times.string=e.currFreeCnt,t.average_bet.string=Global.formatNumShort(e.startPrice,0),o=0;o<e.monsterInfo.length;o++)c=e.monsterInfo[o],cc.find("multiplier_"+(o+1),t.wheel).getComponent(cc.Label).string="X"+c.currmult;case 17:case"end":return n.stop()}},n)}))()},onRcvSubgameData:function(e){var t=this;return o(regeneratorRuntime.mark(function n(){var a;return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return cc.vv.gameData.getDeskInfo().collectInfo=e.data.collectInfo,t.spine_zhuanpan.node.active=!1,t.spine_chilun.setAnimation(0,"animation2",!0),t.spine_chilun.node.color=cc.Color.GRAY,t.spine_huoxing.node.active=!0,a=[6,5,8,7],n.next=8,t._rotateWheel(a.indexOf(e.data.collectFreeGame.activeCard));case 8:return cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_roulette_stop",!0),t.spine_zhongjiang.node.active=!0,n.next=12,cc.vv.gameData.awaitTime(2);case 12:return t.cutScene(),n.next=15,cc.vv.gameData.awaitTime(2);case 15:return t.node.active=!1,cc.find("slots",t.node.parent).active=!1,cc.find("super_slots",t.node.parent).active=!0,cc.vv.gameData.SetSlotsScript(cc.find("super_slots",t.node.parent).getComponent("FatherOfInvention_SuperSlots")),cc.find("super_slots",t.node.parent).getComponent("FatherOfInvention_SuperSlots").setSlots(e.data.collectFreeGame),Global.SlotsSoundMgr.stopBgm(),Global.SlotsSoundMgr.playBgm("mapfree_bgm"),cc.vv.gameData.SetTotalFree(e.data.collectFreeGame.freeCnt),cc.vv.gameData.SetFreeTime(e.data.collectFreeGame.freeCnt),n.next=26,cc.vv.gameData.awaitTime(2);case 26:cc.vv.gameData.GetSlotsScript().CanDoNextRound();case 27:case"end":return n.stop()}},n)}))()},cutScene:function(){cc.vv.AudioManager.playEff("games/FatherOfInvention/","transition2",!0);var e=cc.find("transition2",this.node.parent);e.active=!0,e.getComponent(sp.Skeleton).setAnimation(0,"animation",!1),e.getComponent(sp.Skeleton).setCompleteListener(function(){e.getComponent(sp.Skeleton).setCompleteListener(null),e.active=!1})},_rotateWheel:function(e){var t=this;return o(regeneratorRuntime.mark(function n(){return regeneratorRuntime.wrap(function(n){for(;;)switch(n.prev=n.next){case 0:return n.abrupt("return",new Promise(function(n){var a=90*e-2160;cc.log(a),cc.vv.AudioManager.playEff("games/FatherOfInvention/","collect_roulette_start",!0);var o=cc.rotateBy(6,a).easing(cc.easeSineInOut());t.wheel.runAction(cc.sequence(o,cc.callFunc(function(){n()})))}));case 1:case"end":return n.stop()}},n)}))()}}),cc._RF.pop()},{}]},{},["FatherOfInvention_Cfg","FatherOfInvention_Logic","FatherOfInvention_Map","FatherOfInvention_Reel","FatherOfInvention_Slots","FatherOfInvention_SuperSlots","FatherOfInvention_Symbol","FatherOfInvention_Wheel"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  FatherOfInvention_Cfg: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "048ace8mxhIyoDHOt/AY6cz", "FatherOfInvention_Cfg");
+    "use strict";
+    var _symbol, _towerCfg, _cardmap;
+    function _defineProperty(obj, key, value) {
+      key in obj ? Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+      }) : obj[key] = value;
+      return obj;
+    }
+    var Cfg = {
+      symbol: (_symbol = {}, _defineProperty(_symbol, 1, {
+        node: "symbol_1",
+        win_node: "animation_1",
+        win_ani: {
+          name: "animation1",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 2, {
+        node: "symbol_2",
+        win_node: "animation_2",
+        stop_ani: {
+          name: "animation1",
+          zIndex: 100
+        },
+        win_ani: {
+          name: "animation",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 3, {
+        node: "symbol_3",
+        win_node: "animation_3",
+        stop_ani: {
+          name: "animation1",
+          zIndex: 100
+        },
+        trigger_ani: {
+          name: "animation",
+          zIndex: 400
+        }
+      }), _defineProperty(_symbol, 4, {
+        node: "symbol_4",
+        win_node: "animation_4",
+        stop_ani: {
+          name: "animation1",
+          zIndex: 100
+        },
+        trigger_ani: {
+          name: "animation2",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 5, {
+        node: "symbol_5",
+        win_node: "animation_5",
+        win_ani: {
+          name: "animation1",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 6, {
+        node: "symbol_6",
+        win_node: "animation_6",
+        win_ani: {
+          name: "animation1",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 7, {
+        node: "symbol_7",
+        win_node: "animation_7",
+        win_ani: {
+          name: "animation1",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 8, {
+        node: "symbol_8",
+        win_node: "animation_8",
+        win_ani: {
+          name: "animation1",
+          zIndex: 300
+        }
+      }), _defineProperty(_symbol, 9, {
+        node: "symbol_9"
+      }), _defineProperty(_symbol, 10, {
+        node: "symbol_10"
+      }), _defineProperty(_symbol, 11, {
+        node: "symbol_11"
+      }), _defineProperty(_symbol, 12, {
+        node: "symbol_12"
+      }), _defineProperty(_symbol, 101, {
+        node: "symbol_101",
+        win_node: "animation_101",
+        win_ani: {
+          name: "animation2",
+          zIndex: 300
+        }
+      }), _symbol),
+      towerCfg: (_towerCfg = {}, _defineProperty(_towerCfg, 1, {
+        ball_animation: "animation3",
+        jackpotDialogAnimationIndex: 3,
+        jackpotSound: "minor_jackpot",
+        dialogSkin: "LS"
+      }), _defineProperty(_towerCfg, 2, {
+        ball_animation: "animation1",
+        jackpotDialogAnimationIndex: 1,
+        jackpotSound: "grand_jackpot",
+        dialogSkin: "HS"
+      }), _defineProperty(_towerCfg, 3, {
+        ball_animation: "animation2",
+        jackpotDialogAnimationIndex: 2,
+        jackpotSound: "major_jackpot",
+        dialogSkin: "ZS"
+      }), _towerCfg),
+      scripts: {
+        Top: "LMSlots_Top_Base",
+        Bottom: "LMSlots_Bottom_Base",
+        Slots: "FatherOfInvention_Slots",
+        Reels: "FatherOfInvention_Reel",
+        Symbols: "FatherOfInvention_Symbol"
+      },
+      col: 5,
+      row: 3,
+      symbolPrefab: "symbol",
+      symbolSize: {
+        width: 125,
+        height: 125
+      },
+      cardmap: (_cardmap = {}, _defineProperty(_cardmap, 1, [ 9, 5, 5, 12, 12, 7, 7, 5, 5, 6, 10, 11, 9, 9, 12, 12, 10, 8, 5, 11, 11, 7, 6, 9, 7, 12, 12, 4, 11, 11, 8, 10, 10, 5, 10, 7, 5, 7, 7, 12, 12, 5, 5, 6, 4, 7, 5, 5, 11, 5, 7, 7, 9, 6, 11, 7, 9, 12, 8, 8, 6, 12, 11, 8, 8, 6, 6, 5, 6, 6, 12, 10, 9, 12, 6, 6, 8, 9, 5, 5, 6, 8, 9, 5, 11, 7, 4, 10, 10, 8, 8, 4, 9, 11, 11, 7, 5, 8, 7, 6, 4, 8, 9, 9, 5, 5, 8, 5, 5, 6, 11, 12, 8, 9, 5, 8, 8, 12, 12, 5, 5, 10, 10, 4, 6, 7, 5, 5, 12, 11, 6, 10, 9, 9, 8, 6, 6, 8, 10, 5, 4, 4, 7, 9, 8, 8, 7, 7, 9, 9, 8, 5, 8, 7, 7, 11, 8, 8, 6, 7, 6, 7, 7, 7 ]), 
+      _defineProperty(_cardmap, 2, [ 11, 11, 8, 8, 1, 8, 10, 7, 5, 2, 8, 8, 10, 3, 8, 1, 1, 7, 6, 1, 2, 9, 5, 6, 9, 9, 3, 7, 9, 9, 5, 2, 11, 4, 10, 8, 8, 12, 8, 3, 1, 2, 6, 7, 9, 7, 12, 12, 5, 9, 9, 2, 8, 3, 6, 5, 7, 5, 7, 5, 5, 2, 1, 1, 6, 10, 10, 3, 6, 6, 12, 7, 7, 9, 2, 5, 1, 7, 8, 1, 1, 3, 9, 8, 2, 5, 8, 8, 5, 11, 11, 4, 4, 9, 6, 2, 3, 8, 8, 7, 6, 9, 11, 4, 11, 2, 6, 8, 8, 3, 9, 4, 7, 7, 6, 6, 1, 7, 5, 7, 6, 3, 9, 9, 10, 7, 8, 12, 10, 8, 5, 8, 8, 3, 4, 6, 12, 12, 5, 7, 4, 6, 5, 5, 12, 8, 8, 5, 10, 12, 12, 1, 5, 5, 11, 12, 11, 11, 9, 9, 10, 4, 5, 5, 9, 7, 10, 7, 10, 12, 5, 5, 7, 5, 12, 6, 6, 12, 5, 7, 5, 6, 11, 7, 5, 10, 11, 12, 11, 11, 12, 7, 7, 6, 5, 6 ]), 
+      _defineProperty(_cardmap, 3, [ 11, 8, 9, 9, 4, 9, 7, 12, 2, 6, 5, 6, 6, 12, 4, 10, 7, 2, 9, 11, 12, 12, 8, 8, 5, 6, 6, 5, 2, 12, 10, 5, 7, 10, 11, 1, 2, 6, 7, 7, 8, 12, 9, 5, 12, 2, 5, 5, 8, 8, 10, 10, 8, 1, 1, 7, 9, 2, 7, 5, 7, 5, 5, 1, 9, 8, 8, 2, 10, 11, 5, 5, 12, 11, 6, 7, 7, 2, 9, 6, 6, 11, 7, 11, 9, 9, 7, 2, 6, 6, 5, 4, 12, 7, 11, 5, 2, 11, 8, 8, 11, 11, 9, 7, 11, 7, 6, 1, 1, 7, 7, 10, 8, 9, 5, 5, 4, 4, 1, 7, 8, 6, 12, 12, 11, 8, 1, 1, 10, 9, 9, 5, 8, 4, 7, 10, 12, 5, 7, 4, 4, 8, 8, 10, 6, 5, 5, 9, 8, 7, 11, 7, 6, 6, 5, 5, 8, 7, 9, 10, 1, 1, 9, 12, 8, 5, 5, 6, 5, 5, 12, 8, 6, 1, 5, 12, 10, 6, 12, 8, 7, 8, 9, 5, 8, 6 ]), 
+      _defineProperty(_cardmap, 4, [ 12, 12, 7, 4, 4, 11, 11, 6, 5, 6, 6, 2, 4, 11, 11, 3, 7, 7, 6, 9, 9, 7, 7, 4, 2, 5, 5, 12, 12, 5, 5, 10, 3, 6, 6, 5, 8, 8, 2, 1, 6, 5, 8, 8, 10, 5, 3, 1, 1, 2, 5, 5, 9, 8, 7, 11, 9, 1, 2, 7, 3, 8, 11, 11, 12, 12, 1, 5, 5, 8, 8, 2, 9, 9, 1, 1, 7, 3, 9, 8, 7, 1, 1, 2, 5, 5, 9, 9, 4, 4, 8, 8, 12, 12, 3, 6, 6, 7, 2, 6, 7, 4, 4, 8, 8, 10, 10, 9, 5, 5, 2, 3, 9, 12, 12, 8, 6, 6, 7, 10, 10, 9, 9, 2, 10, 7, 7, 3, 1, 6, 8, 8, 5, 5, 10, 7, 10, 7, 8, 3, 5, 5, 6, 5, 11, 8, 7, 7, 9, 11, 10, 10, 3, 8, 12, 11, 7, 9, 9, 5, 9, 9, 7, 11, 8, 8, 6, 6, 10, 12, 7, 1, 12, 12, 1, 11, 11, 6, 5, 5, 12, 12, 6, 5, 7, 5, 5, 6, 7, 11, 6, 8, 5, 8, 8, 7 ]), 
+      _defineProperty(_cardmap, 5, [ 5, 9, 1, 5, 9, 12, 12, 5, 7, 8, 8, 6, 6, 7, 6, 9, 9, 5, 5, 6, 6, 9, 9, 7, 7, 6, 6, 7, 7, 8, 7, 10, 10, 5, 8, 11, 7, 9, 9, 1, 6, 1, 1, 5, 7, 7, 9, 5, 12, 4, 5, 10, 6, 5, 5, 1, 1, 6, 8, 8, 10, 5, 8, 11, 7, 1, 1, 9, 8, 11, 11, 5, 5, 12, 6, 7, 7, 8, 6, 6, 7, 7, 6, 4, 9, 9, 11, 8, 8, 9, 12, 10, 12, 12, 1, 1, 4, 4, 8, 8, 6, 6, 4, 4, 10, 10, 8, 7, 12, 12, 1, 1, 12, 12, 11, 11, 9, 5, 5, 8, 5, 5, 10, 9, 9, 12, 7, 5, 5, 11, 5, 8, 8, 9, 8, 7, 7, 4, 5, 5, 7, 6, 5, 5, 11, 11, 6, 7, 9, 12, 12, 7, 10, 10, 12, 5, 11, 11, 4, 10, 12, 11, 8, 5, 8, 11, 6, 6, 5, 8, 8, 7, 7, 10, 8, 8 ]), 
+      _cardmap),
+      wildId: 1,
+      doubleWildId: 101,
+      scatterId: 2,
+      ballId: 3,
+      collectSymbolId: 4,
+      autoModelDelay: 1,
+      kuang: "kuang",
+      speed: 3e3,
+      reelStopInter: .2,
+      auto_stop_time: 1,
+      bounceInfo: {
+        distance: 30,
+        time: .1
+      },
+      AddAntiTime: 1.5,
+      reelStateInfo: [ {
+        id: [ 2 ],
+        mini: 3,
+        counts: [ 1, 1, 1, 1, 1 ],
+        antiNode: "node_anti",
+        path: "games/FatherOfInvention/",
+        reelStopSound: "reel_stop",
+        symbolStopSound: "symbol_scatter_drop",
+        antSound: "reel_notify",
+        antSpeed: 2e3
+      } ],
+      helpItems: [ "games/FatherOfInvention/prefab/help_item_1", "games/FatherOfInvention/prefab/help_item_2", "games/FatherOfInvention/prefab/help_item_3", "games/FatherOfInvention/prefab/help_item_4", "games/FatherOfInvention/prefab/help_item_5", "games/FatherOfInvention/prefab/help_item_6", "games/FatherOfInvention/prefab/help_item_7", "games/FatherOfInvention/prefab/help_item_8" ],
+      commEffect: {
+        path: "games/FatherOfInvention/",
+        win1: [ "win1", "win1end" ],
+        win2: [ "win2", "win2end" ],
+        win3: [ "win3", "win3end" ]
+      },
+      normalBgm: "base_bgm",
+      sysFloatOffsetPos: cc.v2(0, 150)
+    };
+    module.exports = Cfg;
+    cc._RF.pop();
+  }, {} ],
+  FatherOfInvention_Logic: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "618440qZZ5MgpI+xCSnwrKx", "FatherOfInvention_Logic");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Logic_Base"),
+      properties: {
+        _lockBonus: false
+      },
+      onLoad: function onLoad() {
+        this._super();
+        var node_superSlots = cc.find("safe_node/super_slots", this.node);
+        node_superSlots.addComponent("FatherOfInvention_SuperSlots");
+        node_superSlots.active = true;
+        var deskInfo = cc.vv.gameData.getDeskInfo();
+        if (3 === deskInfo.collectInfo.state) {
+          cc.vv.gameData.SetSlotsScript(node_superSlots.getComponent("FatherOfInvention_SuperSlots"));
+          cc.find("safe_node/slots", this.node).getComponent("FatherOfInvention_Slots").Init();
+          cc.find("safe_node/slots", this.node).active = false;
+          node_superSlots.active = true;
+        } else {
+          node_superSlots.getComponent("FatherOfInvention_SuperSlots").Init();
+          cc.find("safe_node/slots", this.node).active = true;
+          node_superSlots.active = false;
+        }
+        this._lockBonus = deskInfo.needBet > deskInfo.currmult;
+        Global.registerEvent(cc.vv.gameData._EventId.SLOT_TOTALBET_UPDATED, this.onUpdateBet, this);
+        cc.vv.NetManager.registerMsg(MsgId.SLOT_SUBGAME_DATA, this.onRcvSubGameData, this);
+      },
+      onUpdateBet: function onUpdateBet() {
+        var deskInfo = cc.vv.gameData.getDeskInfo();
+        var script = cc.find("safe_node/slots/collect_node/bonus_node/lock", this.node).getComponent(sp.Skeleton);
+        if (deskInfo.needBet <= cc.vv.gameData.GetBetIdx() && this._lockBonus) {
+          cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_unlock", true);
+          this._lockBonus = false;
+          script.setAnimation(0, "animation1", false);
+        } else if (deskInfo.needBet > cc.vv.gameData.GetBetIdx() && !this._lockBonus) {
+          cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_lock", true);
+          this._lockBonus = true;
+          script.setAnimation(0, "animation3", false);
+          script.addAnimation(0, "animation2", true);
+        }
+        cc.find("safe_node/slots", this.node).getComponent("FatherOfInvention_Slots").towerInfo = deskInfo.towerInfos[cc.vv.gameData.GetBetIdx() - 1];
+        cc.find("safe_node/slots", this.node).getComponent("FatherOfInvention_Slots").setTower(deskInfo.towerInfos[cc.vv.gameData.GetBetIdx() - 1]);
+      },
+      StartSlot: function StartSlot() {
+        var script_slots = cc.vv.gameData.GetSlotsScript();
+        script_slots.Init();
+      },
+      onRcvSubGameData: function onRcvSubGameData(msg) {
+        if (200 !== msg.code) return;
+        1 === msg.data.rtype ? cc.find("safe_node/map", this.node).getComponent("FatherOfInvention_Map").onRcvSubGameData(msg) : 2 === msg.data.rtype ? cc.find("safe_node/map", this.node).getComponent("FatherOfInvention_Map").onRcvSubGameData(msg) : 3 === msg.data.rtype && cc.find("safe_node/wheel", this.node).getComponent("FatherOfInvention_Wheel").onRcvSubgameData(msg);
+      },
+      onDestroy: function onDestroy() {
+        cc.vv.NetManager.unregisterMsg(MsgId.SLOT_SUBGAME_DATA, this.onRcvSubGameData, false, this);
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Logic_Base: void 0
+  } ],
+  FatherOfInvention_Map: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "eb42dM1Wy9IBIxk+acK/myR", "FatherOfInvention_Map");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        btn_tip: cc.Node,
+        title_freeTimes: cc.Label,
+        optionNodes: [ cc.Node ],
+        btn_chooseRandom: cc.Node,
+        btn_startFreeSpin: cc.Node,
+        btn_back: cc.Node,
+        black_bg: cc.Node,
+        energize_node: cc.Node,
+        energize_icon: cc.Sprite,
+        energize_btn_yes: cc.Node,
+        energize_btn_no: cc.Node,
+        start_node: cc.Node,
+        start_curFreeTime: cc.Label,
+        start_btn_no: cc.Node,
+        start_btn_start: cc.Node,
+        help_node: cc.Node,
+        help_bg: cc.Node,
+        help_content: cc.Node,
+        help_title: cc.Node,
+        btn_i_see: cc.Node,
+        _successCallback: null,
+        _canSelect: false,
+        _curSelectCard: 0
+      },
+      onLoad: function onLoad() {},
+      initMap: function initMap(collectInfo) {
+        var _this = this;
+        var monsterInfo = collectInfo.monsterInfo;
+        this.node.active = true;
+        this.node.y = cc.winSize.height;
+        var cfg = cc.vv.gameData.getGameCfg();
+        this.btn_tip.off("click");
+        this.btn_tip.on("click", function() {
+          cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+          _this.black_bg.active = true;
+          _this.black_bg.opacity = 200;
+          _this.help_node.active = true;
+          _this.help_bg.scale = 0;
+          _this.help_bg.opacity = 255;
+          _this.help_content.scale = 0;
+          _this.help_content.opacity = 255;
+          _this.help_title.scale = 0;
+          _this.help_title.opacity = 255;
+          _this.btn_i_see.scale = 0;
+          _this.btn_i_see.opacity = 255;
+          _this.btn_i_see.getComponent(cc.Button).interactable = true;
+          cc.tween(_this.help_bg).to(.2, {
+            scale: 1.25
+          }, {
+            easing: "backOut"
+          }).start();
+          cc.tween(_this.help_title).delay(.2).to(.2, {
+            scale: 1
+          }, {
+            easing: "backOut"
+          }).start();
+          cc.tween(_this.help_content).delay(.4).to(.2, {
+            scale: 1
+          }, {
+            easing: "backOut"
+          }).start();
+          cc.tween(_this.btn_i_see).delay(.6).to(.2, {
+            scale: 1
+          }, {
+            easing: "backOut"
+          }).start();
+        });
+        this.title_freeTimes.string = collectInfo.currFreeCnt;
+        var _loop = function _loop(i) {
+          var info = monsterInfo[i];
+          var node = _this.optionNodes[i];
+          cc.find("total_multiplier", node).getComponent(cc.Label).string = "X" + info.triggerMult[info.triggerMult.length - 1];
+          cc.find("cur_multiplier", node).getComponent(cc.Label).string = "X" + info.currmult;
+          for (var j = 0; j < info.maxLen; j++) cc.find("progress_" + (j + 1), node).active = j < info.currLen;
+          for (var _j = 0; _j < 3; _j++) cc.find("target_" + (_j + 1), node).color = info.currLen < info.triggerIdx[_j] ? cc.Color.WHITE : cc.Color.GRAY;
+          cc.find("idle_spine", node).active = info.currLen < info.maxLen;
+          cc.find("add_spins", node).color = info.currLen === info.maxLen ? cc.Color.GRAY : cc.Color.WHITE;
+          node.on(cc.Node.EventType.TOUCH_END, function() {
+            if (!_this._canSelect) return;
+            cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_monster_click", true);
+            if (info.currLen >= info.maxLen) return;
+            _this._curSelectCard = info.card;
+            _this.black_bg.active = true;
+            _this.black_bg.opacity = 200;
+            _this.energize_node.active = true;
+            _this.energize_node.opacity = 255;
+            _this.energize_node.scale = 0;
+            cc.tween(_this.energize_node).to(.2, {
+              scale: 1
+            }, {
+              easing: "backOut"
+            }).start();
+            _this.energize_icon.node.getComponent("ImgSwitchCmp").setIndex(info.card - 5);
+            _this.energize_btn_yes.on("click", function() {
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+              _this.energize_btn_yes.off("click");
+              cc.tween(_this.energize_node).to(.2, {
+                opacity: 0
+              }).call(function() {
+                _this.energize_node.active = false;
+              }).start();
+              _this.btn_chooseRandom.getComponent(cc.Button).interactable = false;
+              _this.btn_startFreeSpin.getComponent(cc.Button).interactable = false;
+              var _iterator3 = _createForOfIteratorHelper(_this.optionNodes), _step3;
+              try {
+                for (_iterator3.s(); !(_step3 = _iterator3.n()).done; ) {
+                  var optionNode = _step3.value;
+                  cc.find("idle_spine", optionNode).active = false;
+                  optionNode.off(cc.Node.EventType.TOUCH_END);
+                }
+              } catch (err) {
+                _iterator3.e(err);
+              } finally {
+                _iterator3.f();
+              }
+              _this._canSelect = false;
+              var req = {
+                c: MsgId.SLOT_SUBGAME_DATA
+              };
+              req.uid = Global.playerData.uid;
+              req.gameid = cc.vv.gameData._gameId;
+              req.data = {};
+              req.data.rtype = 1;
+              req.data.choiceId = _this._curSelectCard;
+              cc.vv.NetManager.send(req);
+            });
+            _this.energize_btn_no.on("click", function() {
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+              _this.energize_btn_no.off("click");
+              cc.tween(_this.energize_node).to(.2, {
+                opacity: 0
+              }).call(function() {
+                _this.energize_node.active = false;
+              }).start();
+              cc.tween(_this.black_bg).to(.2, {
+                opacity: 0
+              }).call(function() {
+                _this.black_bg.active = false;
+              }).start();
+            });
+          });
+        };
+        for (var i = 0; i < monsterInfo.length; i++) _loop(i);
+        var canChooseRandom = false;
+        var _iterator = _createForOfIteratorHelper(monsterInfo), _step;
+        try {
+          for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+            var monsterInfoElement = _step.value;
+            if (monsterInfoElement.currLen !== monsterInfoElement.maxLen) {
+              canChooseRandom = true;
+              break;
+            }
+          }
+        } catch (err) {
+          _iterator.e(err);
+        } finally {
+          _iterator.f();
+        }
+        22 === collectInfo.currFreeCnt && (canChooseRandom = false);
+        this.btn_chooseRandom.getComponent(cc.Button).interactable = canChooseRandom;
+        this.btn_chooseRandom.off("click");
+        this.btn_chooseRandom.on("click", function() {
+          cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+          _this.black_bg.active = true;
+          _this.black_bg.opacity = 200;
+          _this.energize_node.active = true;
+          _this.energize_node.opacity = 255;
+          _this.energize_node.scale = 0;
+          cc.tween(_this.energize_node).to(.2, {
+            scale: 1
+          }, {
+            easing: "backOut"
+          }).start();
+          var randomCard = _this.getCanSelectRandomCard(collectInfo);
+          var atlas = cc.vv.gameData.GetAtlasByName("symbol");
+          _this.energize_icon.node.getComponent("ImgSwitchCmp").setIndex(randomCard - 5);
+          _this._curSelectCard = randomCard;
+          _this.energize_btn_yes.on("click", function() {
+            cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+            _this.energize_btn_yes.off("click");
+            var _iterator2 = _createForOfIteratorHelper(_this.optionNodes), _step2;
+            try {
+              for (_iterator2.s(); !(_step2 = _iterator2.n()).done; ) {
+                var optionNode = _step2.value;
+                cc.find("idle_spine", optionNode).active = false;
+                optionNode.off(cc.Node.EventType.TOUCH_END);
+              }
+            } catch (err) {
+              _iterator2.e(err);
+            } finally {
+              _iterator2.f();
+            }
+            _this.btn_chooseRandom.getComponent(cc.Button).interactable = false;
+            _this.btn_startFreeSpin.getComponent(cc.Button).interactable = false;
+            _this._canSelect = false;
+            cc.tween(_this.energize_node).to(.2, {
+              opacity: 0
+            }).call(function() {
+              _this.energize_node.active = false;
+            }).start();
+            var req = {
+              c: MsgId.SLOT_SUBGAME_DATA
+            };
+            req.uid = Global.playerData.uid;
+            req.gameid = cc.vv.gameData._gameId;
+            req.data = {};
+            req.data.rtype = 1;
+            req.data.choiceId = _this._curSelectCard;
+            cc.vv.NetManager.send(req);
+          });
+          _this.energize_btn_no.on("click", function() {
+            cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+            _this.energize_btn_no.off("click");
+            cc.tween(_this.energize_node).to(.2, {
+              opacity: 0
+            }).call(function() {
+              _this.energize_node.active = false;
+            }).start();
+            cc.tween(_this.black_bg).to(.2, {
+              opacity: 0
+            }).call(function() {
+              _this.black_bg.active = false;
+            }).start();
+          });
+        });
+        this.btn_startFreeSpin.getComponent(cc.Button).interactable = collectInfo.currFreeCnt > 0;
+        this.btn_startFreeSpin.off("click");
+        this.btn_startFreeSpin.on("click", function() {
+          cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+          _this.black_bg.active = true;
+          _this.black_bg.opacity = 200;
+          _this.start_node.active = true;
+          _this.start_node.opacity = 255;
+          _this.start_node.scale = 0;
+          cc.tween(_this.start_node).to(.2, {
+            scale: 1
+          }, {
+            easing: "backOut"
+          }).start();
+          _this.start_curFreeTime.string = collectInfo.currFreeCnt;
+          _this.start_btn_start.on("click", function() {
+            cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+            _this.start_btn_start.off("click");
+            _this._canSelect = false;
+            _this.btn_chooseRandom.getComponent(cc.Button).interactable = false;
+            _this.btn_startFreeSpin.getComponent(cc.Button).interactable = false;
+            cc.tween(_this.black_bg).to(.2, {
+              opacity: 0
+            }).call(function() {
+              _this.black_bg.active = false;
+            }).start();
+            cc.tween(_this.start_node).to(.2, {
+              opacity: 0
+            }).call(function() {
+              _this.start_node.active = false;
+            }).start();
+            var req = {
+              c: MsgId.SLOT_SUBGAME_DATA
+            };
+            req.uid = Global.playerData.uid;
+            req.gameid = cc.vv.gameData._gameId;
+            req.data = {};
+            req.data.rtype = 2;
+            cc.vv.NetManager.send(req);
+          });
+          _this.start_btn_no.on("click", function() {
+            cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+            _this.start_btn_no.off("click");
+            cc.tween(_this.black_bg).to(.2, {
+              opacity: 0
+            }).call(function() {
+              _this.black_bg.active = false;
+            }).start();
+            cc.tween(_this.start_node).to(.2, {
+              opacity: 0
+            }).call(function() {
+              _this.start_node.active = false;
+            }).start();
+          });
+        });
+        this.btn_i_see.off("click");
+        this.btn_i_see.on("click", function() {
+          cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+          _this.btn_i_see.getComponent(cc.Button).interactable = false;
+          cc.tween(_this.black_bg).to(.2, {
+            opacity: 0
+          }).delay(.1).call(function() {
+            _this.black_bg.active = false;
+            _this.help_node.active = false;
+          }).start();
+          cc.tween(_this.help_bg).to(.2, {
+            opacity: 0
+          }).start();
+          cc.tween(_this.help_content).to(.2, {
+            opacity: 0
+          }).start();
+          cc.tween(_this.help_title).to(.2, {
+            opacity: 0
+          }).start();
+          cc.tween(_this.btn_i_see).to(.2, {
+            opacity: 0
+          }).start();
+        });
+      },
+      getCanSelectRandomCard: function getCanSelectRandomCard(collectInfo) {
+        var array = [];
+        var _iterator4 = _createForOfIteratorHelper(collectInfo.monsterInfo), _step4;
+        try {
+          for (_iterator4.s(); !(_step4 = _iterator4.n()).done; ) {
+            var monsterInfo = _step4.value;
+            monsterInfo.currLen < monsterInfo.maxLen && array.push(monsterInfo);
+          }
+        } catch (err) {
+          _iterator4.e(err);
+        } finally {
+          _iterator4.f();
+        }
+        return array[Math.floor(Math.random() * array.length)].card;
+      },
+      openMap: function openMap(showBtn) {
+        var _this2 = this;
+        this.node.y = cc.winSize.height;
+        this.node.active = true;
+        if (showBtn) {
+          var _iterator5 = _createForOfIteratorHelper(this.optionNodes), _step5;
+          try {
+            for (_iterator5.s(); !(_step5 = _iterator5.n()).done; ) {
+              var optionNode = _step5.value;
+              cc.find("idle_spine", optionNode).active = false;
+            }
+          } catch (err) {
+            _iterator5.e(err);
+          } finally {
+            _iterator5.f();
+          }
+          this.btn_chooseRandom.getComponent(cc.Button).interactable = false;
+          this.btn_startFreeSpin.getComponent(cc.Button).interactable = false;
+        } else this.btn_back.active = false;
+        cc.tween(this.node).to(.5, {
+          y: 0
+        }).start();
+        if (showBtn) {
+          this.btn_back.active = true;
+          this.btn_back.scale = 0;
+          cc.tween(this.btn_back).delay(.6).to(.5, {
+            scale: 1
+          }, {
+            easing: "backOut"
+          }).start();
+          this.btn_back.on("click", function() {
+            cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+            _this2.btn_back.off("click");
+            cc.tween(_this2.btn_back).to(.2, {
+              scale: 0
+            }).start();
+            cc.tween(_this2.node).to(.5, {
+              y: cc.winSize.height
+            }).call(function() {
+              cc.vv.gameData.GetSlotsScript().CanDoNextRound();
+              _this2.node.active = false;
+            }).start();
+          });
+        }
+      },
+      showMap: function showMap(collectInfo) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              _this3.initMap(collectInfo);
+              _this3.openMap(false);
+              _context.next = 4;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 4:
+              _this3._canSelect = true;
+              cc.vv.gameData.GetSlotsScript().clearCollectProgress();
+
+             case 6:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      onRcvSubGameData: function onRcvSubGameData(msg) {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var collectInfo, monsterInfo, node, select_spine, spine, info, progress, target, sprite, finish_spine, animationName, spin_sprite, copy_spin, endPos;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              if (!(200 !== msg.code)) {
+                _context2.next = 2;
+                break;
+              }
+              return _context2.abrupt("return");
+
+             case 2:
+              if (!(1 === msg.data.rtype)) {
+                _context2.next = 67;
+                break;
+              }
+              _this4.black_bg.active = false;
+              collectInfo = msg.data.collectInfo;
+              cc.vv.gameData.getDeskInfo().collectInfo = collectInfo;
+              monsterInfo = collectInfo.monsterInfo;
+              node = _this4.optionNodes[msg.data.choiceId - 5];
+              select_spine = cc.find("select_spine", node).getComponent(sp.Skeleton);
+              select_spine.node.active = true;
+              select_spine.setAnimation(0, "animation", false);
+              select_spine.setCompleteListener(function() {
+                select_spine.setCompleteListener(null);
+                select_spine.node.active = false;
+              });
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_monster_rise", true);
+              _context2.next = 15;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 15:
+              spine = cc.find("spine", node).getComponent(sp.Skeleton);
+              spine.setAnimation(0, "animation2", false);
+              spine.addAnimation(0, "animation3", true);
+              _context2.next = 20;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 20:
+              info = monsterInfo[msg.data.choiceId - 5];
+              progress = cc.find("progress_" + info.currLen, node);
+              progress.active = true;
+              progress.scaleX = 0;
+              cc.tween(progress).to(.5, {
+                scaleX: 1
+              }).start();
+              if (!(-1 !== info.triggerIdx.indexOf(info.currLen))) {
+                _context2.next = 37;
+                break;
+              }
+              _context2.next = 28;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 28:
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_times_accept", true);
+              target = cc.find("target_" + (info.triggerIdx.indexOf(info.currLen) + 1), node);
+              sprite = cc.instantiate(target);
+              target.color = cc.Color.GRAY;
+              sprite.parent = target.parent;
+              sprite.position = target.position;
+              cc.tween(sprite).to(.2, {
+                scale: 1.2
+              }).delay(.3).then(cc.jumpTo(.5, cc.find("cur_multiplier", node).position, 50, 1)).call(function() {
+                cc.find("cur_multiplier", node).getComponent(cc.Label).string = "X" + info.currmult;
+              }).removeSelf().start();
+              _context2.next = 37;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 37:
+              if (!(info.currLen === info.maxLen)) {
+                _context2.next = 58;
+                break;
+              }
+              _context2.next = 40;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 40:
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_times_fly", true);
+              finish_spine = cc.find("finish_spine", node).getComponent(sp.Skeleton);
+              animationName = "animation1";
+              7 === msg.data.choiceId ? animationName = "animation2" : 8 === msg.data.choiceId && (animationName = "animation3");
+              finish_spine.node.active = true;
+              finish_spine.setAnimation(0, animationName, false);
+              finish_spine.setCompleteListener(function() {
+                finish_spine.setCompleteListener(null);
+                finish_spine.node.active = false;
+              });
+              _context2.next = 49;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 49:
+              spin_sprite = cc.find("add_spins", node);
+              copy_spin = cc.instantiate(spin_sprite);
+              copy_spin.parent = spin_sprite.parent;
+              copy_spin.position = spin_sprite.position;
+              endPos = _this4.title_freeTimes.node.convertToWorldSpaceAR(cc.v2(0, 0));
+              endPos = node.convertToNodeSpaceAR(endPos);
+              cc.tween(copy_spin).to(.2, {
+                scale: 1.2
+              }).delay(.3).to(.5, {
+                position: endPos
+              }).call(function() {
+                _this4.title_freeTimes.string = collectInfo.currFreeCnt;
+              }).removeSelf().start();
+              _context2.next = 58;
+              return cc.vv.gameData.awaitTime(1.5);
+
+             case 58:
+              _context2.next = 60;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 60:
+              cc.tween(_this4.node).to(.5, {
+                y: cc.winSize.height
+              }).start();
+              _context2.next = 63;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 63:
+              _this4.node.active = false;
+              cc.vv.gameData.GetSlotsScript().CanDoNextRound();
+              _context2.next = 82;
+              break;
+
+             case 67:
+              if (!(2 === msg.data.rtype)) {
+                _context2.next = 81;
+                break;
+              }
+              cc.vv.gameData.getDeskInfo().collectInfo = msg.data.collectInfo;
+              _context2.next = 71;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 71:
+              cc.find("wheel", _this4.node.parent).getComponent("FatherOfInvention_Wheel").startWheel(msg.data.collectInfo);
+              _context2.next = 74;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 74:
+              cc.tween(_this4.node).to(.5, {
+                y: cc.winSize.height
+              }).start();
+              _context2.next = 77;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 77:
+              _this4.black_bg.active = false;
+              _this4.node.active = false;
+              _context2.next = 82;
+              break;
+
+             case 81:
+              3 === msg.data.rtype && cc.find("wheel", _this4.node.parent).getComponent("FatherOfInvention_Wheel").onRcvSubGameData(msg);
+
+             case 82:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      }
+    });
+    cc._RF.pop();
+  }, {} ],
+  FatherOfInvention_Reel: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "ec2d3eFyD9KRYISpYFRbzYU", "FatherOfInvention_Reel");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Reel_Base"),
+      properties: {},
+      StartMove: function StartMove() {
+        this._super();
+      },
+      OnReelSpinEnd: function OnReelSpinEnd() {
+        this._super();
+      },
+      playReelStop: function playReelStop() {
+        this._super();
+        if (this._originResult) for (var i = 0; i < this._originResult.length; i++) {
+          var item = this._symbols[i];
+          item.GetShowId() === this._cfg.ballId && item.playStopAnimation();
+          if (item.GetShowId() === this._cfg.collectSymbolId) {
+            item.playStopAnimation();
+            cc.vv.AudioManager.playEff("games/FatherOfInvention/", "symbol_coins_drop", true);
+          }
+        }
+      },
+      GetResizeHeightObjs: function GetResizeHeightObjs() {
+        var objs = [];
+        var mask = cc.find("mask", this.node);
+        mask && objs.push(mask);
+        var bg = cc.find("reels_bg/reel_bg" + (this._reelIdx + 1), this.node.parent.parent);
+        bg && objs.push(bg);
+        if (0 === this._reelIdx) {
+          for (var i = 1; i < 5; i++) {
+            var line = cc.find("reels_frame/line_" + i, this.node.parent.parent);
+            line && objs.push(line);
+          }
+          var left_bg = cc.find("reels_frame/left_bg", this.node.parent.parent);
+          left_bg && objs.push(left_bg);
+          var right_bg = cc.find("reels_frame/right_bg", this.node.parent.parent);
+          right_bg && objs.push(right_bg);
+          var black_bg = cc.find("black_bg", this.node.parent.parent);
+          black_bg && objs.push(black_bg);
+        }
+        return objs;
+      },
+      GetResizeMoveingObjs: function GetResizeMoveingObjs() {
+        var objs = [];
+        if (0 === this._reelIdx) {
+          var frameTop = cc.find("reels_frame/top_bg", this.node.parent.parent);
+          frameTop && objs.push(frameTop);
+          var left_top = cc.find("reels_frame/left_top", this.node.parent.parent);
+          left_top && objs.push(left_top);
+          var right_top = cc.find("reels_frame/right_top", this.node.parent.parent);
+          right_top && objs.push(right_top);
+          var collect_node = cc.find("collect_node", this.node.parent.parent);
+          collect_node && objs.push(collect_node);
+          var tower = cc.find("collect_tower", this.node.parent.parent);
+          tower && objs.push(tower);
+        }
+        return objs;
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Reel_Base: void 0
+  } ],
+  FatherOfInvention_Slots: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "39397fTmfdGjbV+0MJFyUqT", "FatherOfInvention_Slots");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    function _createForOfIteratorHelper(o) {
+      if ("undefined" === typeof Symbol || null == o[Symbol.iterator]) {
+        if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) {
+          var i = 0;
+          var F = function F() {};
+          return {
+            s: F,
+            n: function n() {
+              if (i >= o.length) return {
+                done: true
+              };
+              return {
+                done: false,
+                value: o[i++]
+              };
+            },
+            e: function e(_e) {
+              throw _e;
+            },
+            f: F
+          };
+        }
+        throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+      }
+      var it, normalCompletion = true, didErr = false, err;
+      return {
+        s: function s() {
+          it = o[Symbol.iterator]();
+        },
+        n: function n() {
+          var step = it.next();
+          normalCompletion = step.done;
+          return step;
+        },
+        e: function e(_e2) {
+          didErr = true;
+          err = _e2;
+        },
+        f: function f() {
+          try {
+            normalCompletion || null == it["return"] || it["return"]();
+          } finally {
+            if (didErr) throw err;
+          }
+        }
+      };
+    }
+    function _unsupportedIterableToArray(o, minLen) {
+      if (!o) return;
+      if ("string" === typeof o) return _arrayLikeToArray(o, minLen);
+      var n = Object.prototype.toString.call(o).slice(8, -1);
+      "Object" === n && o.constructor && (n = o.constructor.name);
+      if ("Map" === n || "Set" === n) return Array.from(n);
+      if ("Arguments" === n || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+    }
+    function _arrayLikeToArray(arr, len) {
+      (null == len || len > arr.length) && (len = arr.length);
+      for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
+      return arr2;
+    }
+    var TowerGameType = {
+      ExpandingReels: 1,
+      RandomWilds: 2,
+      MultiplierWilds: 3
+    };
+    cc.Class({
+      extends: require("LMSlots_Slots_Base"),
+      properties: {
+        towerInfo: null,
+        freeTowerInfo: null,
+        towerGame: null
+      },
+      Init: function Init() {
+        var _this = this;
+        this._super();
+        var bonus_node = cc.find("collect_node/bonus_node", this.node);
+        var deskInfo = cc.vv.gameData.getDeskInfo();
+        bonus_node.on(cc.Node.EventType.TOUCH_END, function() {
+          deskInfo.needBet > deskInfo.currmult && "idle" === cc.vv.gameData.GetSlotState() && _this._bottomScript.SetBetIdx(deskInfo.needBet);
+        });
+        this.towerInfo = deskInfo.towerInfos[cc.vv.gameData.GetBetIdx() - 1];
+        this.setTower(this.towerInfo);
+        var script = cc.find("lock", bonus_node).getComponent(sp.Skeleton);
+        if (deskInfo.needBet <= deskInfo.currmult) script.setAnimation(0, "animation1", false); else {
+          script.setAnimation(0, "animation3", false);
+          script.addAnimation(0, "animation2", true);
+        }
+        this.updateCollectProgress(deskInfo.collectInfo, false);
+        var btn_map = cc.find("collect_node/btn_map", this.node);
+        btn_map.on("click", function() {
+          if ("idle" !== cc.vv.gameData.GetSlotState()) return;
+          if (cc.vv.gameData.isAutoGame()) return;
+          if (_this._bottomScript._bAutoModel) return;
+          cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+          _this._bottomScript.ShowBtnsByState("moveing_1");
+          cc.find("map", _this.node.parent).getComponent("FatherOfInvention_Map").initMap(deskInfo.collectInfo);
+          cc.find("map", _this.node.parent).getComponent("FatherOfInvention_Map").openMap(true);
+        });
+      },
+      changeLightAngleAndScale: function changeLightAngleAndScale(startNode, endNode, signAngleStandard, dir, offsetAngle, size) {
+        var endPos = endNode.convertToWorldSpaceAR(cc.v2(0, 0));
+        var startPos = startNode.convertToWorldSpaceAR(cc.v2(0, 0));
+        var dx = endPos.x - startPos.x;
+        var dy = endPos.y - startPos.y;
+        var dPos = cc.v2(dx, dy);
+        var angle = dPos.signAngle(cc.v2(0, 1));
+        var degree = angle / Math.PI * 180;
+        startNode.angle = degree * dir + offsetAngle;
+        var dis = Math.abs(dPos.mag());
+        startNode.scale = dis / size;
+      },
+      setTower: function setTower(towerInfo) {
+        var tower_blue = cc.find("collect_tower/tower_1", this.node);
+        var tower_red = cc.find("collect_tower/tower_2", this.node);
+        var tower_purple = cc.find("collect_tower/tower_3", this.node);
+        cc.find("tower", tower_blue).getComponent(sp.Skeleton).setAnimation(0, "animation" + towerInfo.blueStatus, true);
+        cc.find("tower", tower_red).getComponent(sp.Skeleton).setAnimation(0, "animation" + towerInfo.redStatus, true);
+        cc.find("tower", tower_purple).getComponent(sp.Skeleton).setAnimation(0, "animation" + towerInfo.purpleStatus, true);
+      },
+      StartMove: function StartMove() {
+        this._super();
+        Global.SlotsSoundMgr.playNormalBgm();
+        if (this.towerGame) {
+          if (this.towerGame.expandingReels) {
+            var _iterator = _createForOfIteratorHelper(this._reels), _step;
+            try {
+              for (_iterator.s(); !(_step = _iterator.n()).done; ) {
+                var reel = _step.value;
+                reel.AddCount(3);
+              }
+            } catch (err) {
+              _iterator.e(err);
+            } finally {
+              _iterator.f();
+            }
+            cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_rise", true);
+            var waikuang_lan = cc.find("waikuang_lan", this.node).getComponent(sp.Skeleton);
+            waikuang_lan.node.active = true;
+            waikuang_lan.setAnimation(0, "animation1", false);
+            waikuang_lan.addAnimation(0, "animation2", true);
+            var guanzishangsheng = cc.find("reels_frame/guanzishangsheng", this.node).getComponent(sp.Skeleton);
+            guanzishangsheng.setAnimation(0, "animation1_1", false);
+            guanzishangsheng.addAnimation(0, "animation2", true);
+          }
+          if (this.towerGame.doubleWild) {
+            var waikuang_zi = cc.find("waikuang_zi", this.node).getComponent(sp.Skeleton);
+            waikuang_zi.node.active = !this.towerGame.expandingReels;
+            waikuang_zi.setAnimation(0, "animation1", false);
+            waikuang_zi.addAnimation(0, "animation2", true);
+          }
+        }
+      },
+      ReconnectShow: function ReconnectShow() {
+        var _this2 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          var deskInfo, rest, _iterator2, _step2, reel, waikuang_lan, guanzishangsheng, spine_full, script;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              deskInfo = cc.vv.gameData.getDeskInfo();
+              if (!(3 === deskInfo.collectInfo.state)) {
+                _context.next = 3;
+                break;
+              }
+              return _context.abrupt("return");
+
+             case 3:
+              rest = cc.vv.gameData.GetFreeTime();
+              if (!rest) {
+                _context.next = 11;
+                break;
+              }
+              _this2.freeTowerInfo = deskInfo.freeTowerInfo;
+              _this2.setTower(_this2.freeTowerInfo);
+              _this2.ShowGameview(true);
+              if (deskInfo.towerGame) {
+                _this2.towerGame = deskInfo.towerGame;
+                if (deskInfo.towerGame.expandingReels) {
+                  _iterator2 = _createForOfIteratorHelper(_this2._reels);
+                  try {
+                    for (_iterator2.s(); !(_step2 = _iterator2.n()).done; ) {
+                      reel = _step2.value;
+                      reel.AddCount(3, .01);
+                    }
+                  } catch (err) {
+                    _iterator2.e(err);
+                  } finally {
+                    _iterator2.f();
+                  }
+                  waikuang_lan = cc.find("waikuang_lan", _this2.node).getComponent(sp.Skeleton);
+                  waikuang_lan.node.active = true;
+                  waikuang_lan.setAnimation(0, "animation2", true);
+                  guanzishangsheng = cc.find("reel_frame/guanzishangsheng", _this2.node).getComponent(sp.Skeleton);
+                  guanzishangsheng.setAnimation(0, "animation2", true);
+                }
+                _this2._bottomScript.SendSpinReq();
+              } else _this2.CanDoNextRound();
+              _context.next = 32;
+              break;
+
+             case 11:
+              _this2.ShowGameview(false);
+              if (!(1 === deskInfo.collectInfo.state)) {
+                _context.next = 27;
+                break;
+              }
+              _this2._bottomScript.ShowBtnsByState("moveing_1");
+              _context.next = 16;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 16:
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_full", true);
+              spine_full = cc.find("collect_node/progress/spine_full", _this2.node).getComponent(sp.Skeleton);
+              spine_full.node.active = true;
+              spine_full.setAnimation(0, "animation", false);
+              spine_full.setCompleteListener(function() {
+                spine_full.setCompleteListener(null);
+                spine_full.node.active = false;
+              });
+              _context.next = 23;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 23:
+              script = cc.find("map", _this2.node.parent).getComponent("FatherOfInvention_Map");
+              script.showMap(deskInfo.collectInfo);
+              _context.next = 32;
+              break;
+
+             case 27:
+              if (!(2 === deskInfo.collectInfo.state)) {
+                _context.next = 32;
+                break;
+              }
+              _this2._bottomScript.ShowBtnsByState("moveing_1");
+              _context.next = 31;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 31:
+              cc.find("wheel", _this2.node.parent).getComponent("FatherOfInvention_Wheel").startWheel(deskInfo.collectInfo);
+
+             case 32:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      onMsgSpine: function onMsgSpine(msg) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          var stopTime, i, card, soundIndex, _i, _card;
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              _this3._super(msg);
+              cc.vv.gameData.getDeskInfo().collectInfo = msg.collectInfo;
+              _this3.towerInfo = msg.towerInfo;
+              if (!_this3.towerGame) {
+                _context3.next = 21;
+                break;
+              }
+              stopTime = 1;
+              for (i = 0; i < _this3._gameInfo.resultCards.length; i++) {
+                card = _this3._gameInfo.resultCards[i];
+                card === _this3._cfg.wildId && (stopTime += .7);
+              }
+              _this3.towerGame.expandingReels && (stopTime += 1.5);
+              _this3.SetStopTime(stopTime);
+              if (!_this3.towerGame.randWilds) {
+                _context3.next = 21;
+                break;
+              }
+              cc.find("black_bg", _this3.node).active = true;
+              cc.find("waikuang_hong", _this3.node).active = !_this3.towerGame.expandingReels;
+              soundIndex = 1;
+              _i = 0;
+
+             case 13:
+              if (!(_i < _this3._gameInfo.resultCards.length)) {
+                _context3.next = 20;
+                break;
+              }
+              _card = _this3._gameInfo.resultCards[_i];
+              if (!(_card === _this3._cfg.wildId)) {
+                _context3.next = 17;
+                break;
+              }
+              return _context3.delegateYield(regeneratorRuntime.mark(function _callee2() {
+                var light, node, spine;
+                return regeneratorRuntime.wrap(function _callee2$(_context2) {
+                  while (1) switch (_context2.prev = _context2.next) {
+                   case 0:
+                    light = cc.find("collect_tower/tower_2/jackpot_light", _this3.node).getComponent(sp.Skeleton);
+                    light.node.active = true;
+                    cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_launch", true);
+                    light.setAnimation(0, "animation1", false);
+                    node = cc.instantiate(cc.find("wild_sprite", _this3.node));
+                    node.scale = 0;
+                    node.active = true;
+                    node.parent = cc.find("wild_parent", _this3.node);
+                    node.position = cc.v2(_i % 5 * _this3._cfg.symbolSize.width + .5 * _this3._cfg.symbolSize.width, (_this3._gameInfo.resultCards.length / _this3._cfg.col - 1 - Math.floor(_i / 5)) * _this3._cfg.symbolSize.height + .5 * _this3._cfg.symbolSize.height);
+                    _this3.changeLightAngleAndScale(light.node, node, cc.v2(0, -1), -1, 180, 480);
+                    _context2.next = 12;
+                    return cc.vv.gameData.awaitTime(.1);
+
+                   case 12:
+                    soundIndex > 5 && (soundIndex = 5);
+                    cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_receive" + soundIndex, true);
+                    spine = cc.instantiate(cc.find("generate_wild_spine", _this3.node)).getComponent(sp.Skeleton);
+                    spine.node.active = true;
+                    spine.setAnimation(0, "animation4", false);
+                    spine.node.parent = cc.find("wild_parent", _this3.node);
+                    spine.node.position = node.position;
+                    spine.setCompleteListener(function() {
+                      spine.node.removeFromParent();
+                    });
+                    soundIndex++;
+                    cc.tween(node).to(.3, {
+                      scale: 1
+                    }).start();
+                    _context2.next = 24;
+                    return cc.vv.gameData.awaitTime(.5);
+
+                   case 24:
+                   case "end":
+                    return _context2.stop();
+                  }
+                }, _callee2);
+              })(), "t0", 17);
+
+             case 17:
+              _i++;
+              _context3.next = 13;
+              break;
+
+             case 20:
+              cc.find("black_bg", _this3.node).active = false;
+
+             case 21:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      },
+      SetSlotsResult: function SetSlotsResult(cards) {
+        this._super(cards);
+      },
+      CheckEnterFreeGame: function CheckEnterFreeGame() {
+        return cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetFreeTime() === cc.vv.gameData.GetTotalFree();
+      },
+      CheckExitFreeGame: function CheckExitFreeGame() {
+        return cc.vv.gameData.GetTotalFree() > 0 && 0 === cc.vv.gameData.GetFreeTime();
+      },
+      ShowWinTrace: function ShowWinTrace() {
+        this._super();
+      },
+      OnSpinEnd: function OnSpinEnd() {
+        var _this4 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee5() {
+          var winCoin, totalWinCoin, isUpdateUserCoin;
+          return regeneratorRuntime.wrap(function _callee5$(_context5) {
+            while (1) switch (_context5.prev = _context5.next) {
+             case 0:
+              _context5.next = 2;
+              return _this4.collectSymbol();
+
+             case 2:
+              _context5.next = 4;
+              return _this4.collectTower();
+
+             case 4:
+              if (!_this4.towerGame) {
+                _context5.next = 9;
+                break;
+              }
+              if (!_this4.towerGame.doubleWild) {
+                _context5.next = 8;
+                break;
+              }
+              _context5.next = 8;
+              return _this4.triggerDoubleWild();
+
+             case 8:
+              _this4.towerGame.randWilds && cc.find("wild_parent", _this4.node).removeAllChildren();
+
+             case 9:
+              _this4.ShowWinTrace();
+              winCoin = cc.vv.gameData.GetGameWin();
+              totalWinCoin = cc.vv.gameData.GetGameWin();
+              cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() !== cc.vv.gameData.GetFreeTime() && (totalWinCoin = cc.vv.gameData.GetGameTotalFreeWin());
+              isUpdateUserCoin = true;
+              if (_this4._gameInfo.addTowerInfo && _this4._gameInfo.addTowerInfo.jackpot) {
+                winCoin -= _this4._gameInfo.addTowerInfo.winCoin;
+                totalWinCoin -= _this4._gameInfo.addTowerInfo.winCoin;
+                isUpdateUserCoin = false;
+              }
+              _this4.ShowBottomWin(winCoin, totalWinCoin, true, _asyncToGenerator(regeneratorRuntime.mark(function _callee4() {
+                var _iterator3, _step3, reel, waikuang_lan, guanzishangsheng, spine_full, script;
+                return regeneratorRuntime.wrap(function _callee4$(_context4) {
+                  while (1) switch (_context4.prev = _context4.next) {
+                   case 0:
+                    if (!(_this4._gameInfo.addTowerInfo && _this4._gameInfo.jackpot)) {
+                      _context4.next = 3;
+                      break;
+                    }
+                    _context4.next = 3;
+                    return _this4.triggerJackpot();
+
+                   case 3:
+                    if (!_this4.towerGame) {
+                      _context4.next = 22;
+                      break;
+                    }
+                    cc.find("waikuang_hong", _this4.node).active = false;
+                    cc.find("waikuang_zi", _this4.node).active = false;
+                    if (!_this4.towerGame.expandingReels) {
+                      _context4.next = 20;
+                      break;
+                    }
+                    _this4.ClearAllTopShow();
+                    _iterator3 = _createForOfIteratorHelper(_this4._reels);
+                    try {
+                      for (_iterator3.s(); !(_step3 = _iterator3.n()).done; ) {
+                        reel = _step3.value;
+                        reel.AddCount(-3);
+                      }
+                    } catch (err) {
+                      _iterator3.e(err);
+                    } finally {
+                      _iterator3.f();
+                    }
+                    cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_down", true);
+                    waikuang_lan = cc.find("waikuang_lan", _this4.node).getComponent(sp.Skeleton);
+                    waikuang_lan.node.active = true;
+                    waikuang_lan.setAnimation(0, "animation3", false);
+                    guanzishangsheng = cc.find("reels_frame/guanzishangsheng", _this4.node).getComponent(sp.Skeleton);
+                    guanzishangsheng.setAnimation(0, "animation2_1", false);
+                    guanzishangsheng.addAnimation(0, "animation1", true);
+                    _context4.next = 19;
+                    return cc.vv.gameData.awaitTime(1.5);
+
+                   case 19:
+                    waikuang_lan.node.active = false;
+
+                   case 20:
+                    _this4.towerGame = null;
+                    cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() !== cc.vv.gameData.GetFreeTime() ? _this4.setTower(_this4._gameInfo.freeTowerInfo) : _this4.setTower(_this4._gameInfo.towerInfo);
+
+                   case 22:
+                    if (!_this4._gameInfo.towerGame) {
+                      _context4.next = 27;
+                      break;
+                    }
+                    _context4.next = 25;
+                    return _this4.triggerTowerGame();
+
+                   case 25:
+                    _context4.next = 53;
+                    break;
+
+                   case 27:
+                    if (!(_this4._gameInfo.collectInfo && 0 !== _this4._gameInfo.collectInfo.state && _this4._gameInfo.collectInfo.progressData.currCnt > 0)) {
+                      _context4.next = 42;
+                      break;
+                    }
+                    _this4._bottomScript.ShowBtnsByState("moveing_1");
+                    _context4.next = 31;
+                    return cc.vv.gameData.awaitTime(.5);
+
+                   case 31:
+                    cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_full", true);
+                    spine_full = cc.find("collect_node/progress/spine_full", _this4.node).getComponent(sp.Skeleton);
+                    spine_full.node.active = true;
+                    spine_full.setAnimation(0, "animation", false);
+                    spine_full.setCompleteListener(function() {
+                      spine_full.setCompleteListener(null);
+                      spine_full.node.active = false;
+                    });
+                    _context4.next = 38;
+                    return cc.vv.gameData.awaitTime(1);
+
+                   case 38:
+                    script = cc.find("map", _this4.node.parent).getComponent("FatherOfInvention_Map");
+                    script.showMap(_this4._gameInfo.collectInfo);
+                    _context4.next = 53;
+                    break;
+
+                   case 42:
+                    if (!_this4.CheckEnterFreeGame()) {
+                      _context4.next = 46;
+                      break;
+                    }
+                    _this4.triggerFreeGame();
+                    _context4.next = 53;
+                    break;
+
+                   case 46:
+                    if (!_this4.CheckExitFreeGame()) {
+                      _context4.next = 50;
+                      break;
+                    }
+                    _this4.triggerExitFreeGame();
+                    _context4.next = 53;
+                    break;
+
+                   case 50:
+                    _context4.next = 52;
+                    return cc.vv.gameData.awaitTime(.5);
+
+                   case 52:
+                    _this4.CanDoNextRound();
+
+                   case 53:
+                   case "end":
+                    return _context4.stop();
+                  }
+                }, _callee4);
+              })));
+
+             case 16:
+             case "end":
+              return _context5.stop();
+            }
+          }, _callee5);
+        }))();
+      },
+      ClearAllTopShow: function ClearAllTopShow() {
+        this._super();
+        var _iterator4 = _createForOfIteratorHelper(this._reels), _step4;
+        try {
+          for (_iterator4.s(); !(_step4 = _iterator4.n()).done; ) {
+            var reel = _step4.value;
+            for (var i = 0; i < this._cfg.row; i++) reel.GetSymbolByRow(i).setAnimationToTop(false);
+          }
+        } catch (err) {
+          _iterator4.e(err);
+        } finally {
+          _iterator4.f();
+        }
+      },
+      triggerDoubleWild: function triggerDoubleWild() {
+        var _this5 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee6() {
+          var i, card, light, symbol;
+          return regeneratorRuntime.wrap(function _callee6$(_context6) {
+            while (1) switch (_context6.prev = _context6.next) {
+             case 0:
+              _context6.next = 2;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 2:
+              i = 0;
+
+             case 3:
+              if (!(i < _this5._gameInfo.resultCards.length)) {
+                _context6.next = 20;
+                break;
+              }
+              card = _this5._gameInfo.resultCards[i];
+              if (!(card === _this5._cfg.wildId)) {
+                _context6.next = 17;
+                break;
+              }
+              light = cc.find("collect_tower/tower_3/jackpot_light", _this5.node).getComponent(sp.Skeleton);
+              light.node.active = true;
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_launch", true);
+              light.setAnimation(0, "animation1", false);
+              symbol = _this5.GetSymbolByIdx(i + 1);
+              _this5.changeLightAngleAndScale(light.node, symbol.node, cc.v2(0, -1), -1, 180, 480);
+              _context6.next = 14;
+              return cc.vv.gameData.awaitTime(.1);
+
+             case 14:
+              symbol.ShowById(_this5._cfg.doubleWildId);
+              _context6.next = 17;
+              return cc.vv.gameData.awaitTime(.3);
+
+             case 17:
+              i++;
+              _context6.next = 3;
+              break;
+
+             case 20:
+             case "end":
+              return _context6.stop();
+            }
+          }, _callee6);
+        }))();
+      },
+      GetSymbolByIdx: function GetSymbolByIdx(idx) {
+        var col = (idx - 1) % this._col;
+        var row = this._gameInfo.resultCards.length / this._cfg.col - Math.floor((idx - 1) / this._col) - 1;
+        return this._reels[col].GetSymbolByRow(row);
+      },
+      triggerTowerGame: function triggerTowerGame() {
+        var _this6 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee7() {
+          var featuretanchuang, spNode, animationIndex;
+          return regeneratorRuntime.wrap(function _callee7$(_context7) {
+            while (1) switch (_context7.prev = _context7.next) {
+             case 0:
+              if (!_this6._gameInfo.towerGame) {
+                _context7.next = 48;
+                break;
+              }
+              _this6.towerGame = _this6._gameInfo.towerGame;
+              featuretanchuang = cc.find("featuretanchuang", _this6.node);
+              featuretanchuang.active = true;
+              featuretanchuang.opacity = 255;
+              spNode = cc.find("featuretanchuang", featuretanchuang);
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_dialog_show", true);
+              animationIndex = 0;
+              if (!_this6._gameInfo.towerGame.expandingReels) {
+                _context7.next = 20;
+                break;
+              }
+              animationIndex = _this6._cfg.towerCfg[1].jackpotDialogAnimationIndex;
+              featuretanchuang.opacity = 255;
+              spNode.getComponent(sp.Skeleton).setSkin(_this6._cfg.towerCfg[1].dialogSkin);
+              spNode.getComponent(sp.Skeleton).setAnimation(0, "animation1", false);
+              spNode.getComponent(sp.Skeleton).addAnimation(0, "animation2", true);
+              _context7.next = 16;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 16:
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_dialog_close", true);
+              cc.tween(featuretanchuang).to(.2, {
+                opacity: 0
+              }).start();
+              _context7.next = 20;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 20:
+              if (!_this6._gameInfo.towerGame.randWilds) {
+                _context7.next = 32;
+                break;
+              }
+              featuretanchuang.opacity = 255;
+              animationIndex = _this6._cfg.towerCfg[2].jackpotDialogAnimationIndex;
+              spNode.getComponent(sp.Skeleton).setSkin(_this6._cfg.towerCfg[2].dialogSkin);
+              spNode.getComponent(sp.Skeleton).setAnimation(0, "animation" + animationIndex, false);
+              spNode.getComponent(sp.Skeleton).addAnimation(0, "animation" + animationIndex + "_1", true);
+              _context7.next = 28;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 28:
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_dialog_close", true);
+              cc.tween(featuretanchuang).to(.2, {
+                opacity: 0
+              }).start();
+              _context7.next = 32;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 32:
+              if (!_this6._gameInfo.towerGame.doubleWild) {
+                _context7.next = 44;
+                break;
+              }
+              featuretanchuang.opacity = 255;
+              animationIndex = _this6._cfg.towerCfg[3].jackpotDialogAnimationIndex;
+              spNode.getComponent(sp.Skeleton).setSkin(_this6._cfg.towerCfg[3].dialogSkin);
+              spNode.getComponent(sp.Skeleton).setAnimation(0, "animation" + animationIndex, false);
+              spNode.getComponent(sp.Skeleton).addAnimation(0, "animation" + animationIndex + "_1", true);
+              _context7.next = 40;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 40:
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_dialog_close", true);
+              cc.tween(featuretanchuang).to(.2, {
+                opacity: 0
+              }).start();
+              _context7.next = 44;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 44:
+              featuretanchuang.active = false;
+              _context7.next = 47;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 47:
+              _this6._bottomScript.SendSpinReq();
+
+             case 48:
+             case "end":
+              return _context7.stop();
+            }
+          }, _callee7);
+        }))();
+      },
+      triggerJackpot: function triggerJackpot() {
+        var _this7 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee9() {
+          return regeneratorRuntime.wrap(function _callee9$(_context9) {
+            while (1) switch (_context9.prev = _context9.next) {
+             case 0:
+              return _context9.abrupt("return", new Promise(function() {
+                var _ref2 = _asyncToGenerator(regeneratorRuntime.mark(function _callee8(success) {
+                  var jackpotLight, endJackpot, towerIndex, spine, cf_jackpot_01;
+                  return regeneratorRuntime.wrap(function _callee8$(_context8) {
+                    while (1) switch (_context8.prev = _context8.next) {
+                     case 0:
+                      if (!(_this7._gameInfo.addTowerInfo && _this7._gameInfo.jackpot)) {
+                        _context8.next = 25;
+                        break;
+                      }
+                      _context8.next = 3;
+                      return cc.vv.gameData.awaitTime(1);
+
+                     case 3:
+                      cc.find("LMSlots_PrizePool_1", _this7.node.parent).getComponent("LMSlots_PrizePool_Base").PausePool([ {
+                        prizeType: 1,
+                        pauseNum: _this7._gameInfo.addTowerInfo.jackpotValues[0]
+                      }, {
+                        prizeType: 2,
+                        pauseNum: _this7._gameInfo.addTowerInfo.jackpotValues[1]
+                      }, {
+                        prizeType: 3,
+                        pauseNum: _this7._gameInfo.addTowerInfo.jackpotValues[2]
+                      } ]);
+                      jackpotLight = cc.find("collect_tower/tower_1/jackpot_light", _this7.node);
+                      endJackpot = cc.find("LMSlots_PrizePool_1/prizePool_Minor", _this7.node.parent);
+                      towerIndex = 1;
+                      if (2 === _this7._gameInfo.jackpot) _this7.changeLightAngleAndScale(jackpotLight, endJackpot, cc.v2(0, 1), -1, 0, 230); else if (3 === _this7._gameInfo.addTowerInfo.jackpot) {
+                        jackpotLight = cc.find("collect_tower/tower_3/jackpot_light", _this7.node);
+                        endJackpot = cc.find("LMSlots_PrizePool_1/prizePool_Major", _this7.node.parent);
+                        towerIndex = 3;
+                        _this7.changeLightAngleAndScale(jackpotLight, endJackpot, cc.v2(0, -1), -1, 180, 500);
+                      } else if (4 === _this7._gameInfo.addTowerInfo.jackpot) {
+                        jackpotLight = cc.find("collect_tower/tower_2/jackpot_light", _this7.node);
+                        endJackpot = cc.find("LMSlots_PrizePool_1/prizePool_Grand", _this7.node.parent);
+                        towerIndex = 2;
+                        _this7.changeLightAngleAndScale(jackpotLight, endJackpot, cc.v2(0, -1), -1, 180, 500);
+                      }
+                      spine = jackpotLight.getComponent(sp.Skeleton);
+                      jackpotLight.active = true;
+                      spine.setAnimation(0, "animation1", false);
+                      cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_launch", true);
+                      spine.setCompleteListener(function() {
+                        spine.setCompleteListener(null);
+                        jackpotLight.active = false;
+                      });
+                      _context8.next = 15;
+                      return cc.vv.gameData.awaitTime(.1);
+
+                     case 15:
+                      cc.vv.AudioManager.playEff("games/FatherOfInvention/", "jp_show", true);
+                      cf_jackpot_01 = cc.find("cf_jackpot_01", endJackpot);
+                      cf_jackpot_01.active = true;
+                      cf_jackpot_01.getComponent(sp.Skeleton).setAnimation(0, "animation2", false);
+                      cf_jackpot_01.getComponent(sp.Skeleton).setCompleteListener(function() {
+                        cf_jackpot_01.getComponent(sp.Skeleton).setCompleteListener(null);
+                        cf_jackpot_01.active = false;
+                      });
+                      _context8.next = 22;
+                      return cc.vv.gameData.awaitTime(1);
+
+                     case 22:
+                      _context8.next = 24;
+                      return _this7.popJackpotDialog(towerIndex);
+
+                     case 24:
+                      _this7.ShowBottomWin(_this7._gameInfo.addTowerInfo.winCoin, _this7._gameInfo.addTowerInfo.winCoin, true, function() {
+                        success();
+                      });
+
+                     case 25:
+                     case "end":
+                      return _context8.stop();
+                    }
+                  }, _callee8);
+                }));
+                return function(_x) {
+                  return _ref2.apply(this, arguments);
+                };
+              }()));
+
+             case 1:
+             case "end":
+              return _context9.stop();
+            }
+          }, _callee9);
+        }))();
+      },
+      collectTower: function collectTower() {
+        var _this8 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee11() {
+          var i, symbol, startPos, sprite, middlePosition, endPosition, _i2, tower_type, towerCfg, ball_symbol;
+          return regeneratorRuntime.wrap(function _callee11$(_context11) {
+            while (1) switch (_context11.prev = _context11.next) {
+             case 0:
+              if (_this8._gameInfo.addTowerInfo) {
+                _context11.next = 2;
+                break;
+              }
+              return _context11.abrupt("return");
+
+             case 2:
+              if (!(cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() !== cc.vv.gameData.GetFreeTime())) {
+                _context11.next = 6;
+                break;
+              }
+              for (i = 0; i < _this8._gameInfo.resultCards.length; i++) if (_this8._gameInfo.resultCards[i] === _this8._cfg.ballId) {
+                symbol = _this8.GetSymbolByIdx(i + 1);
+                startPos = symbol.node.convertToWorldSpaceAR(cc.v2(0, 0));
+                startPos = _this8.node.parent.convertToNodeSpaceAR(startPos);
+                sprite = cc.instantiate(cc.find("add1", _this8.node.parent));
+                sprite.parent = _this8.node.parent;
+                sprite.position = startPos;
+                sprite.scale = .5;
+                sprite.active = true;
+                middlePosition = _this8.GetSymbolByIdx(3).node.convertToWorldSpaceAR(cc.v2(0, 0));
+                middlePosition = _this8.node.parent.convertToNodeSpaceAR(middlePosition);
+                endPosition = cc.find("LMSlots_Bottom/free_time", _this8.node.parent).convertToWorldSpaceAR(cc.v2(0, 0));
+                endPosition = _this8.node.parent.convertToNodeSpaceAR(endPosition);
+                cc.vv.AudioManager.playEff("games/FatherOfInvention/", "free_times", true);
+                cc.tween(sprite).to(.3, {
+                  scale: 1,
+                  position: middlePosition
+                }).delay(.5).to(.6, {
+                  position: endPosition
+                }, {
+                  easing: "sineIn"
+                }).call(function() {
+                  _this8._bottomScript.UpdateFreeTime(cc.vv.gameData.GetTotalFree(), cc.vv.gameData.GetTotalFree() - cc.vv.gameData.GetFreeTime());
+                }).removeSelf().start();
+              }
+              _context11.next = 6;
+              return cc.vv.gameData.awaitTime(1.5);
+
+             case 6:
+              _i2 = 0;
+
+             case 7:
+              if (!(_i2 < _this8._gameInfo.addTowerInfo.games.length)) {
+                _context11.next = 16;
+                break;
+              }
+              tower_type = _this8._gameInfo.addTowerInfo.games[_i2];
+              towerCfg = _this8._cfg.towerCfg[tower_type];
+              ball_symbol = _this8.getBallSymbol();
+              if (!ball_symbol) {
+                _context11.next = 13;
+                break;
+              }
+              return _context11.delegateYield(regeneratorRuntime.mark(function _callee10() {
+                var ball_spine, startPos, tower, bo_sd_spine, endPos;
+                return regeneratorRuntime.wrap(function _callee10$(_context10) {
+                  while (1) switch (_context10.prev = _context10.next) {
+                   case 0:
+                    ball_symbol.playTriggerAnimation();
+                    _context10.next = 3;
+                    return cc.vv.gameData.awaitTime(.5);
+
+                   case 3:
+                    ball_spine = cc.instantiate(cc.find("bo_qiu", _this8.node.parent)).getComponent(sp.Skeleton);
+                    ball_spine.node.active = true;
+                    ball_spine.node.parent = _this8.node.parent;
+                    startPos = ball_symbol.node.convertToWorldSpaceAR(cc.v2(0, 0));
+                    startPos = _this8.node.parent.convertToNodeSpaceAR(startPos);
+                    startPos.y += 40;
+                    ball_spine.node.position = startPos;
+                    ball_spine.setAnimation(0, towerCfg.ball_animation, true);
+                    cc.vv.AudioManager.playEff("games/FatherOfInvention/", "symbol_scatter_trans", true);
+                    _context10.next = 14;
+                    return cc.vv.gameData.awaitTime(.5);
+
+                   case 14:
+                    tower = cc.find("collect_tower/tower_" + tower_type, _this8.node);
+                    bo_sd_spine = cc.find("bo_sd", tower).getComponent(sp.Skeleton);
+                    endPos = bo_sd_spine.node.convertToWorldSpaceAR(cc.v2(0, 0));
+                    endPos = _this8.node.parent.convertToNodeSpaceAR(endPos);
+                    cc.tween(ball_spine.node).to(.5, {
+                      position: endPos
+                    }).removeSelf().start();
+                    _context10.next = 21;
+                    return cc.vv.gameData.awaitTime(.5);
+
+                   case 21:
+                    bo_sd_spine.node.active = true;
+                    bo_sd_spine.setAnimation(0, towerCfg.ball_animation, false);
+                    bo_sd_spine.setCompleteListener(function() {
+                      bo_sd_spine.setCompleteListener(null);
+                      bo_sd_spine.node.active = false;
+                    });
+                    _context10.next = 26;
+                    return cc.vv.gameData.awaitTime(.1);
+
+                   case 26:
+                    cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() !== cc.vv.gameData.GetFreeTime() ? _this8.updateTower(tower_type, _this8._gameInfo.freeTowerInfo) : _this8.updateTower(tower_type, _this8._gameInfo.towerInfo);
+                    _context10.next = 29;
+                    return cc.vv.gameData.awaitTime(.5);
+
+                   case 29:
+                   case "end":
+                    return _context10.stop();
+                  }
+                }, _callee10);
+              })(), "t0", 13);
+
+             case 13:
+              _i2++;
+              _context11.next = 7;
+              break;
+
+             case 16:
+             case "end":
+              return _context11.stop();
+            }
+          }, _callee11);
+        }))();
+      },
+      updateTower: function updateTower(towerType, towerInfo) {
+        var tower_spine = cc.find("collect_tower/tower_" + towerType + "/tower", this.node).getComponent(sp.Skeleton);
+        switch (towerType) {
+         case TowerGameType.ExpandingReels:
+          tower_spine.setAnimation(0, "animation" + towerInfo.blueStatus, true);
+          3 === towerInfo.blueStatus ? cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_tower_active", true) : 1 !== towerInfo.blueStatus && 2 !== towerInfo.blueStatus || cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_tower_part", true);
+          break;
+
+         case TowerGameType.RandomWilds:
+          tower_spine.setAnimation(0, "animation" + towerInfo.redStatus, true);
+          3 === towerInfo.redStatus ? cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_tower_active", true) : 1 !== towerInfo.redStatus && 2 !== towerInfo.redStatus || cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_tower_part", true);
+          break;
+
+         case TowerGameType.MultiplierWilds:
+          tower_spine.setAnimation(0, "animation" + towerInfo.purpleStatus, true);
+          3 === towerInfo.purpleStatus ? cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_tower_active", true) : 1 !== towerInfo.purpleStatus && 2 !== towerInfo.purpleStatus || cc.vv.AudioManager.playEff("games/FatherOfInvention/", "feature_tower_part", true);
+        }
+      },
+      getBallSymbol: function getBallSymbol() {
+        for (var i = 0; i < this._gameInfo.resultCards.length; i++) if (this._gameInfo.resultCards[i] === this._cfg.ballId) return this.GetSymbolByIdx(i + 1);
+        return null;
+      },
+      ShowGameview: function ShowGameview(bFree) {
+        this._super(bFree);
+        cc.find("collect_node", this.node).active = !bFree;
+        cc.find("collect_tower", this.node).y = bFree ? 240 : 290;
+        cc.find("reels/reel2/mask/free_bg", this.node).active = bFree;
+        cc.find("reels/reel4/mask/free_bg", this.node).active = bFree;
+      },
+      collectSymbol: function collectSymbol() {
+        var _this9 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee12() {
+          var jinbi_jieshou_01, haveCollect, i, card, symbol, fly_spine, startPos, endPos;
+          return regeneratorRuntime.wrap(function _callee12$(_context12) {
+            while (1) switch (_context12.prev = _context12.next) {
+             case 0:
+              if (!(cc.vv.gameData.GetTotalFree() > 0 && cc.vv.gameData.GetTotalFree() !== cc.vv.gameData.GetFreeTime())) {
+                _context12.next = 2;
+                break;
+              }
+              return _context12.abrupt("return");
+
+             case 2:
+              if (!(0 === _this9._gameInfo.collectInfo.progressData.currCnt)) {
+                _context12.next = 4;
+                break;
+              }
+              return _context12.abrupt("return");
+
+             case 4:
+              jinbi_jieshou_01 = cc.find("collect_node/jinbi_jieshou_01", _this9.node);
+              haveCollect = false;
+              for (i = 0; i < _this9._gameInfo.resultCards.length; i++) {
+                card = _this9._gameInfo.resultCards[i];
+                if (card === _this9._cfg.collectSymbolId) {
+                  symbol = _this9.GetSymbolByIdx(i + 1);
+                  if (symbol) {
+                    fly_spine = cc.instantiate(cc.find("fly_spine", _this9.node.parent)).getComponent(sp.Skeleton);
+                    fly_spine.node.active = true;
+                    fly_spine.node.parent = _this9.node.parent;
+                    startPos = symbol.node.convertToWorldSpaceAR(cc.v2(0, 0));
+                    startPos = _this9.node.parent.convertToNodeSpaceAR(startPos);
+                    fly_spine.node.position = startPos;
+                    fly_spine.setAnimation(0, "animation2", false);
+                    haveCollect = true;
+                    endPos = jinbi_jieshou_01.convertToWorldSpaceAR(cc.v2(0, 0));
+                    endPos = _this9.node.parent.convertToNodeSpaceAR(endPos);
+                    cc.tween(fly_spine.node).delay(.2).to(.3, {
+                      position: endPos
+                    }).removeSelf().start();
+                  }
+                }
+              }
+              if (!haveCollect) {
+                _context12.next = 14;
+                break;
+              }
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_fly", true);
+              cc.tween(jinbi_jieshou_01).delay(.5).call(function() {
+                var spine = jinbi_jieshou_01.getComponent(sp.Skeleton);
+                spine.setAnimation(0, "animation2", false);
+                spine.addAnimation(0, "animation1", true);
+              }).start();
+              _context12.next = 12;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 12:
+              _context12.next = 14;
+              return _this9.updateCollectProgress(_this9._gameInfo.collectInfo, true);
+
+             case 14:
+             case "end":
+              return _context12.stop();
+            }
+          }, _callee12);
+        }))();
+      },
+      triggerFreeGame: function triggerFreeGame() {
+        var _this10 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee13() {
+          var i, card, symbol;
+          return regeneratorRuntime.wrap(function _callee13$(_context13) {
+            while (1) switch (_context13.prev = _context13.next) {
+             case 0:
+              _this10._bottomScript.ShowBtnsByState("moveing_1");
+              for (i = 0; i < _this10._gameInfo.resultCards.length; i++) {
+                card = _this10._gameInfo.resultCards[i];
+                if (card === _this10._cfg.scatterId) {
+                  symbol = _this10.GetSymbolByIdx(i + 1);
+                  symbol.playWinAnimation();
+                }
+              }
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "bell", true);
+              _context13.next = 5;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 5:
+              _context13.next = 7;
+              return _this10.popFreeDialog();
+
+             case 7:
+              _this10.cutSceneDoctor();
+              _context13.next = 10;
+              return cc.vv.gameData.awaitTime(2.3);
+
+             case 10:
+              _this10.Backup();
+              _this10.ShowGameview(true);
+              _this10.freeTowerInfo = _this10._gameInfo.freeTowerInfo;
+              _this10.setTower(_this10.freeTowerInfo);
+              _context13.next = 16;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 16:
+              Global.SlotsSoundMgr.stopBgm();
+              Global.SlotsSoundMgr.playBgm("free_bgm");
+              _this10.CanDoNextRound();
+
+             case 19:
+             case "end":
+              return _context13.stop();
+            }
+          }, _callee13);
+        }))();
+      },
+      cutSceneDoctor: function cutSceneDoctor() {
+        var _this11 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee14() {
+          var role, transition;
+          return regeneratorRuntime.wrap(function _callee14$(_context14) {
+            while (1) switch (_context14.prev = _context14.next) {
+             case 0:
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "transition1", true);
+              role = cc.find("Canvas/safe_node/role");
+              role.getComponent(sp.Skeleton).setAnimation(0, "skill02", false);
+              _context14.next = 5;
+              return cc.vv.gameData.awaitTime(1.3);
+
+             case 5:
+              transition = cc.find("transition1", _this11.node.parent);
+              transition.active = true;
+              transition.getComponent(sp.Skeleton).setAnimation(0, "skill2", false);
+              transition.getComponent(sp.Skeleton).setCompleteListener(function() {
+                transition.getComponent(sp.Skeleton).setCompleteListener(null);
+                transition.active = false;
+              });
+              _context14.next = 11;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 11:
+              role.getComponent(sp.Skeleton).setAnimation(0, "idle", true);
+
+             case 12:
+             case "end":
+              return _context14.stop();
+            }
+          }, _callee14);
+        }))();
+      },
+      triggerExitFreeGame: function triggerExitFreeGame() {
+        var _this12 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee15() {
+          return regeneratorRuntime.wrap(function _callee15$(_context15) {
+            while (1) switch (_context15.prev = _context15.next) {
+             case 0:
+              _this12._bottomScript.ShowBtnsByState("moveing_1");
+              _context15.next = 3;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 3:
+              _context15.next = 5;
+              return _this12.popFreeResultDialog();
+
+             case 5:
+              _this12.cutSceneDoctor();
+              _context15.next = 8;
+              return cc.vv.gameData.awaitTime(2.3);
+
+             case 8:
+              _this12.Resume();
+              _this12.ShowGameview(false);
+              _this12.freeTowerInfo = null;
+              _this12.setTower(_this12.towerInfo);
+              _this12.ShowBottomWin(cc.vv.gameData.GetGameTotalFreeWin(), cc.vv.gameData.GetGameTotalFreeWin(), true, function() {
+                Global.SlotsSoundMgr.stopBgm();
+                Global.SlotsSoundMgr.playNormalBgm();
+                _this12.CanDoNextRound();
+              });
+
+             case 13:
+             case "end":
+              return _context15.stop();
+            }
+          }, _callee15);
+        }))();
+      },
+      popFreeDialog: function popFreeDialog() {
+        var _this13 = this;
+        return new Promise(function() {
+          var _ref3 = _asyncToGenerator(regeneratorRuntime.mark(function _callee18(success) {
+            var free_dialog, free_bg, dialog, times, spine, btn_start, func;
+            return regeneratorRuntime.wrap(function _callee18$(_context18) {
+              while (1) switch (_context18.prev = _context18.next) {
+               case 0:
+                free_dialog = cc.find("free_dialog", _this13.node.parent);
+                free_dialog.active = true;
+                free_bg = cc.find("free_dialog_bg", free_dialog);
+                free_bg.opacity = 0;
+                free_bg.runAction(cc.fadeTo(.2, 200));
+                dialog = cc.find("common_enter_node", free_dialog);
+                dialog.active = true;
+                dialog.opacity = 255;
+                times = cc.find("times", dialog);
+                times.scale = 0;
+                spine = cc.find("spine", dialog).getComponent(sp.Skeleton);
+                spine.node.active = true;
+                cc.vv.AudioManager.playEff("games/FatherOfInvention/", "free_dialog_start_show", true);
+                spine.setAnimation(0, "animation1", false);
+                spine.addAnimation(0, "animation2", true);
+                times.getComponent(cc.Label).string = cc.vv.gameData.GetTotalFree();
+                cc.tween(times).to(.8, {
+                  scale: 1
+                }, {
+                  easing: "backOut"
+                }).start();
+                btn_start = cc.find("btn_start", dialog);
+                btn_start.scale = 0;
+                _context18.next = 21;
+                return cc.vv.gameData.awaitTime(.3);
+
+               case 21:
+                cc.tween(btn_start).to(.2, {
+                  scale: 1
+                }).start();
+                _context18.next = 24;
+                return cc.vv.gameData.awaitTime(.2);
+
+               case 24:
+                btn_start.off("click");
+                func = function() {
+                  var _ref4 = _asyncToGenerator(regeneratorRuntime.mark(function _callee16() {
+                    return regeneratorRuntime.wrap(function _callee16$(_context16) {
+                      while (1) switch (_context16.prev = _context16.next) {
+                       case 0:
+                        btn_start.off("click");
+                        cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+                        cc.tween(dialog).to(.2, {
+                          opacity: 0
+                        }).start();
+                        cc.tween(free_bg).to(.2, {
+                          opacity: 0
+                        }).start();
+                        _context16.next = 6;
+                        return cc.vv.gameData.awaitTime(.3);
+
+                       case 6:
+                        dialog.active = false;
+                        free_dialog.active = false;
+                        spine.node.active = false;
+                        success();
+
+                       case 10:
+                       case "end":
+                        return _context16.stop();
+                      }
+                    }, _callee16);
+                  }));
+                  return function func() {
+                    return _ref4.apply(this, arguments);
+                  };
+                }();
+                cc.vv.gameData.checkAutoPlay(btn_start, func);
+                btn_start.on("click", _asyncToGenerator(regeneratorRuntime.mark(function _callee17() {
+                  return regeneratorRuntime.wrap(function _callee17$(_context17) {
+                    while (1) switch (_context17.prev = _context17.next) {
+                     case 0:
+                      btn_start.stopAllActions();
+                      _context17.next = 3;
+                      return func();
+
+                     case 3:
+                     case "end":
+                      return _context17.stop();
+                    }
+                  }, _callee17);
+                })));
+
+               case 28:
+               case "end":
+                return _context18.stop();
+              }
+            }, _callee18);
+          }));
+          return function(_x2) {
+            return _ref3.apply(this, arguments);
+          };
+        }());
+      },
+      popFreeResultDialog: function popFreeResultDialog() {
+        var _this14 = this;
+        return new Promise(function() {
+          var _ref6 = _asyncToGenerator(regeneratorRuntime.mark(function _callee21(success) {
+            var free_dialog, free_bg, dialog, spine, coin_bg, coin, btn_collect, func;
+            return regeneratorRuntime.wrap(function _callee21$(_context21) {
+              while (1) switch (_context21.prev = _context21.next) {
+               case 0:
+                cc.vv.AudioManager.playEff("games/FatherOfInvention/", "free_dialog_collect_show", true);
+                free_dialog = cc.find("free_dialog", _this14.node.parent);
+                free_dialog.active = true;
+                free_bg = cc.find("free_dialog_bg", free_dialog);
+                free_bg.opacity = 0;
+                free_bg.runAction(cc.fadeTo(.2, 200));
+                dialog = cc.find("result_node", free_dialog);
+                dialog.opacity = 255;
+                dialog.active = true;
+                spine = cc.find("spine", dialog).getComponent(sp.Skeleton);
+                spine.node.active = true;
+                coin_bg = cc.find("coin_bg", dialog);
+                coin_bg.scale = 0;
+                coin = cc.find("coin", dialog);
+                coin.scale = 0;
+                coin.getComponent(cc.Label).string = "";
+                spine.setAnimation(0, "animation1", false);
+                spine.addAnimation(0, "animation2", true);
+                btn_collect = cc.find("btn_collect", dialog);
+                btn_collect.scale = 0;
+                _context21.next = 22;
+                return cc.vv.gameData.awaitTime(.3);
+
+               case 22:
+                Global.doRoallNumEff(coin, 0, cc.vv.gameData.GetGameTotalFreeWin(), 3, null, null, 0, true);
+                cc.tween(coin).to(.2, {
+                  scale: 1
+                }).start();
+                cc.tween(coin_bg).to(.2, {
+                  scale: 1
+                }).start();
+                _context21.next = 27;
+                return cc.vv.gameData.awaitTime(.2);
+
+               case 27:
+                cc.tween(btn_collect).to(.2, {
+                  scale: 1
+                }).start();
+                btn_collect.off("click");
+                _context21.next = 31;
+                return cc.vv.gameData.awaitTime(.2);
+
+               case 31:
+                func = function() {
+                  var _ref7 = _asyncToGenerator(regeneratorRuntime.mark(function _callee19() {
+                    return regeneratorRuntime.wrap(function _callee19$(_context19) {
+                      while (1) switch (_context19.prev = _context19.next) {
+                       case 0:
+                        btn_collect.off("click");
+                        cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+                        cc.tween(dialog).to(.2, {
+                          opacity: 0
+                        }).start();
+                        cc.tween(free_bg).to(.2, {
+                          opacity: 0
+                        }).start();
+                        _context19.next = 6;
+                        return cc.vv.gameData.awaitTime(.3);
+
+                       case 6:
+                        dialog.active = false;
+                        free_dialog.active = false;
+                        spine.node.active = false;
+                        success();
+
+                       case 10:
+                       case "end":
+                        return _context19.stop();
+                      }
+                    }, _callee19);
+                  }));
+                  return function func() {
+                    return _ref7.apply(this, arguments);
+                  };
+                }();
+                cc.vv.gameData.checkAutoPlay(btn_collect, func);
+                btn_collect.on("click", _asyncToGenerator(regeneratorRuntime.mark(function _callee20() {
+                  return regeneratorRuntime.wrap(function _callee20$(_context20) {
+                    while (1) switch (_context20.prev = _context20.next) {
+                     case 0:
+                      btn_collect.stopAllActions();
+                      _context20.next = 3;
+                      return func();
+
+                     case 3:
+                     case "end":
+                      return _context20.stop();
+                    }
+                  }, _callee20);
+                })));
+
+               case 34:
+               case "end":
+                return _context21.stop();
+              }
+            }, _callee21);
+          }));
+          return function(_x3) {
+            return _ref6.apply(this, arguments);
+          };
+        }());
+      },
+      popJackpotDialog: function popJackpotDialog(towerIndex) {
+        var _this15 = this;
+        return new Promise(function() {
+          var _ref9 = _asyncToGenerator(regeneratorRuntime.mark(function _callee24(success) {
+            var free_dialog, free_bg, dialog, spine, coin_bg, coin, btn_collect, func;
+            return regeneratorRuntime.wrap(function _callee24$(_context24) {
+              while (1) switch (_context24.prev = _context24.next) {
+               case 0:
+                cc.vv.AudioManager.playEff("games/FatherOfInvention/", "jp_tower", true);
+                free_dialog = cc.find("free_dialog", _this15.node.parent);
+                free_dialog.active = true;
+                free_bg = cc.find("free_dialog_bg", free_dialog);
+                free_bg.opacity = 0;
+                free_bg.runAction(cc.fadeTo(.2, 200));
+                dialog = cc.find("jackpot_node", free_dialog);
+                dialog.active = true;
+                dialog.opacity = 255;
+                spine = cc.find("spine", dialog).getComponent(sp.Skeleton);
+                spine.node.active = true;
+                coin_bg = cc.find("coin_bg", dialog);
+                coin_bg.scale = 0;
+                coin = cc.find("coin", coin_bg);
+                coin.getComponent(cc.Label).string = "";
+                cc.vv.AudioManager.playEff("games/FatherOfInvention/", _this15._cfg.towerCfg[towerIndex].jackpotSound, true);
+                spine.setAnimation(0, "animation" + _this15._cfg.towerCfg[towerIndex].jackpotDialogAnimationIndex, false);
+                spine.addAnimation(0, "animation" + _this15._cfg.towerCfg[towerIndex].jackpotDialogAnimationIndex + "_1", true);
+                btn_collect = cc.find("btn_collect", dialog);
+                btn_collect.scale = 0;
+                _context24.next = 22;
+                return cc.vv.gameData.awaitTime(.3);
+
+               case 22:
+                Global.doRoallNumEff(coin, 0, cc.vv.gameData.GetGameTotalFreeWin(), 3, null, null, 0, true);
+                cc.tween(coin_bg).to(.2, {
+                  scale: 1
+                }).start();
+                _context24.next = 26;
+                return cc.vv.gameData.awaitTime(.2);
+
+               case 26:
+                cc.tween(btn_collect).to(.2, {
+                  scale: 1
+                }).start();
+                btn_collect.off("click");
+                _context24.next = 30;
+                return cc.vv.gameData.awaitTime(.2);
+
+               case 30:
+                func = function() {
+                  var _ref10 = _asyncToGenerator(regeneratorRuntime.mark(function _callee22() {
+                    return regeneratorRuntime.wrap(function _callee22$(_context22) {
+                      while (1) switch (_context22.prev = _context22.next) {
+                       case 0:
+                        btn_collect.off("click");
+                        cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+                        cc.tween(dialog).to(.2, {
+                          opacity: 0
+                        }).start();
+                        cc.tween(free_bg).to(.2, {
+                          opacity: 0
+                        }).start();
+                        _context22.next = 6;
+                        return cc.vv.gameData.awaitTime(.3);
+
+                       case 6:
+                        dialog.active = false;
+                        free_dialog.active = false;
+                        success();
+
+                       case 9:
+                       case "end":
+                        return _context22.stop();
+                      }
+                    }, _callee22);
+                  }));
+                  return function func() {
+                    return _ref10.apply(this, arguments);
+                  };
+                }();
+                cc.vv.gameData.checkAutoPlay(btn_collect, func);
+                btn_collect.on("click", _asyncToGenerator(regeneratorRuntime.mark(function _callee23() {
+                  return regeneratorRuntime.wrap(function _callee23$(_context23) {
+                    while (1) switch (_context23.prev = _context23.next) {
+                     case 0:
+                      btn_collect.stopAllActions();
+                      _context23.next = 3;
+                      return func();
+
+                     case 3:
+                     case "end":
+                      return _context23.stop();
+                    }
+                  }, _callee23);
+                })));
+
+               case 33:
+               case "end":
+                return _context24.stop();
+              }
+            }, _callee24);
+          }));
+          return function(_x4) {
+            return _ref9.apply(this, arguments);
+          };
+        }());
+      },
+      updateCollectProgress: function updateCollectProgress(collectInfo, isAdd) {
+        var _this16 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee25() {
+          var progress, bar;
+          return regeneratorRuntime.wrap(function _callee25$(_context25) {
+            while (1) switch (_context25.prev = _context25.next) {
+             case 0:
+              progress = cc.find("collect_node/progress", _this16.node);
+              bar = cc.find("bar", progress);
+              isAdd ? cc.tween(bar).to(.3, {
+                x: progress.width * Math.min(1, collectInfo.progressData.totalCnt / collectInfo.progressData.needCnt)
+              }).start() : bar.x = progress.width * Math.min(1, collectInfo.progressData.totalCnt / collectInfo.progressData.needCnt);
+
+             case 3:
+             case "end":
+              return _context25.stop();
+            }
+          }, _callee25);
+        }))();
+      },
+      clearCollectProgress: function clearCollectProgress() {
+        var progress = cc.find("collect_node/progress", this.node);
+        var bar = cc.find("bar", progress);
+        bar.x = 0;
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Slots_Base: void 0
+  } ],
+  FatherOfInvention_SuperSlots: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "f058antdjRNgZNaehVldnII", "FatherOfInvention_SuperSlots");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    cc.Class({
+      extends: require("LMSlots_Slots_Base"),
+      properties: {
+        _haveSpinEnd: false
+      },
+      Init: function Init() {
+        this._super();
+      },
+      setSlots: function setSlots(collectFreeGame) {
+        var atlas = cc.vv.gameData.GetAtlasByName("base");
+        for (var i = 0; i < 4; i++) {
+          var bg = cc.find("bg/bg_" + (i + 1), this.node);
+          var slots = collectFreeGame.slots[i];
+          var active = collectFreeGame.activeCard === slots.card;
+          cc.find("bg4", bg).getComponent(cc.Sprite).spriteFrame = atlas.getSpriteFrame(active ? "theme178_free2_bg4" : "theme178_free_bg4");
+          cc.find("bg3", bg).getComponent(cc.Sprite).spriteFrame = atlas.getSpriteFrame(active ? "theme178_free2_bg3" : "theme178_free_bg3");
+          cc.find("ear_bg", bg).getComponent(cc.Sprite).spriteFrame = atlas.getSpriteFrame(active ? "theme178_free2_reel_11" : "theme178_free2_reel_10");
+          cc.find("bg2", bg).getComponent(cc.Sprite).spriteFrame = atlas.getSpriteFrame(active ? "theme178_free2_bg2" : "theme178_free_bg2");
+          cc.find("your_monster", bg).active = active;
+          cc.find("coin_bg/coin", bg).getComponent(cc.Label).string = slots.collectCnt;
+          cc.find("win_bg/rate_bg", bg).getComponent(cc.Sprite).spriteFrame = atlas.getSpriteFrame(active ? "theme178_free2_bg0" : "theme178_free_bg0");
+          cc.find("win_bg/rate_bg/rate", bg).getComponent(cc.Label).string = slots.mult;
+          cc.find("win_bg/coin", bg).getComponent(cc.Label).string = Global.formatMoney(slots.totalWinCoin);
+          cc.find("symbol", bg).color = active ? cc.Color.WHITE : cc.Color.GRAY;
+        }
+      },
+      createReels: function createReels(col, row) {
+        this._reels = [];
+        var reelCmp = this._cfg.scripts.Reels;
+        for (var i = 0; i < 4; i++) {
+          var reels = [];
+          for (var j = 0; j < col; j++) {
+            var node = cc.find("reels_" + (i + 1) + "/reel" + (j + 1), this.node);
+            var scp = node.addComponent(reelCmp);
+            scp.Init(j, row, cc.find("reels_" + (i + 1) + "/top_ani", this.node));
+            reels.push(scp);
+          }
+          this._reels.push(reels);
+        }
+      },
+      StartMove: function StartMove() {
+        this._super();
+        this._haveSpinEnd = false;
+        Global.SlotsSoundMgr.playNormalBgm();
+      },
+      OnReelBounsActionBefore: function OnReelBounsActionBefore(colIdx) {},
+      MoveReels: function MoveReels(arry) {
+        this.moveReelLastIdx = -1;
+        for (var i = 0; i < arry.length; i++) {
+          var reels = arry[i];
+          for (var j = 0; j < reels.length; j++) {
+            var item = reels[j];
+            item.StartMove();
+            var idx = item.GetReelIdx();
+            idx > this.moveReelLastIdx && (this.moveReelLastIdx = idx);
+          }
+        }
+      },
+      StopMove: function StopMove() {
+        this._bStopRightnow = true;
+        this._bottomScript.ShowBtnsByState("moveing_1");
+        this._stopTime = -1;
+        for (var i = 0; i < this._reels.length; i++) {
+          var reels = this._reels[i];
+          for (var j = 0; j < reels.length; j++) {
+            var item = reels[j];
+            var reelStopInterv = 0;
+            item.StopMove(reelStopInterv);
+            item.StopMoveRightNow();
+          }
+        }
+      },
+      ReconnectShow: function ReconnectShow() {
+        var _this = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          var deskInfo, rest;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              deskInfo = cc.vv.gameData.getDeskInfo();
+              rest = cc.vv.gameData.GetFreeTime();
+              if (rest) {
+                _this.ShowGameview(true);
+                if (3 === deskInfo.collectInfo.state) {
+                  _this.setSlots(deskInfo.collectFreeGame);
+                  _this.CanDoNextRound();
+                }
+              }
+
+             case 3:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      onMsgSpine: function onMsgSpine(msg) {
+        var _this2 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var slots;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              _this2._gameInfo = msg;
+              slots = msg.collectFreeGame.slots;
+              _this2.SetSlotsResult(slots);
+
+             case 3:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      SetSlotsResult: function SetSlotsResult(slots) {
+        for (var i = 0; i < 4; i++) {
+          var cards = slots[i].resultCards;
+          var acRow = cards.length / this._col;
+          var reelResults = [];
+          for (var _i = 0; _i < cards.length; _i++) {
+            var row = Math.floor(_i / acRow);
+            var col = _i % this._col;
+            if (this._cfg.symbol[cards[_i]]) {
+              var res = {};
+              res.sid = cards[_i];
+              reelResults[col] || (reelResults[col] = []);
+              reelResults[col].unshift(res);
+            }
+          }
+          var reels = this._reels[i];
+          for (var _i2 = 0; _i2 < reels.length; _i2++) {
+            var item = reels[_i2];
+            var reelRes = reelResults[_i2];
+            item.SetResult(reelRes);
+          }
+        }
+      },
+      ShowWinTrace: function ShowWinTrace() {
+        for (var i = 0; i < 4; i++) {
+          var zjLuXian = this._gameInfo.collectFreeGame.slots[i].zjLuXian;
+          var allWinIdx = [];
+          for (var j = 0; j < zjLuXian.length; j++) {
+            var item = zjLuXian[j];
+            for (var idx = 0; idx < item.indexs.length; idx++) allWinIdx[item.indexs[idx]] = 1;
+          }
+          for (var key in allWinIdx) {
+            var symbol = this.GetSymbolByIdx(Number(key), i);
+            if (symbol) {
+              symbol.playWinAnimation();
+              symbol.ShowKuang();
+            }
+          }
+        }
+      },
+      GetSymbolByIdx: function GetSymbolByIdx(idx, reelIndex) {
+        var col = (idx - 1) % this._col;
+        var row = this._row - Math.floor((idx - 1) / this._col) - 1;
+        return this._reels[reelIndex][col].GetSymbolByRow(row);
+      },
+      OnSpinEnd: function OnSpinEnd() {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          var i, winCoin, totalWinCoin;
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              if (!_this3._haveSpinEnd) {
+                _context3.next = 2;
+                break;
+              }
+              return _context3.abrupt("return");
+
+             case 2:
+              _this3._haveSpinEnd = true;
+              _context3.next = 5;
+              return _this3.collectCoin();
+
+             case 5:
+              _this3.ShowWinTrace();
+              for (i = 0; i < 4; i++) {
+                winCoin = _this3._gameInfo.collectFreeGame.slots[i].winCoin;
+                totalWinCoin = _this3._gameInfo.collectFreeGame.slots[i].totalWinCoin;
+                Global.doRoallNumEff(cc.find("bg/bg_" + (i + 1) + "/win_bg/coin", _this3.node), totalWinCoin - winCoin, totalWinCoin, 2, null, null, 0, true, false);
+              }
+              _context3.next = 9;
+              return cc.vv.gameData.awaitTime(2.5);
+
+             case 9:
+              if (!_this3._gameInfo.collectFreeGame.isEnd) {
+                _context3.next = 24;
+                break;
+              }
+              _context3.next = 12;
+              return _this3.popFreeResultDialog();
+
+             case 12:
+              _this3._haveSpinEnd = false;
+              _this3.cutScene();
+              _context3.next = 16;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 16:
+              cc.find("slots", _this3.node.parent).active = true;
+              _this3.node.active = false;
+              cc.vv.gameData.SetSlotsScript(cc.find("slots", _this3.node.parent).getComponent("FatherOfInvention_Slots"));
+              _context3.next = 21;
+              return cc.vv.gameData.awaitTime(1);
+
+             case 21:
+              cc.find("slots", _this3.node.parent).getComponent("FatherOfInvention_Slots").ShowBottomWin(_this3._gameInfo.collectFreeGame.winCoin, _this3._gameInfo.collectFreeGame.winCoin, true, function() {
+                Global.SlotsSoundMgr.stopBgm();
+                Global.SlotsSoundMgr.playNormalBgm();
+                _this3._bottomScript.SetBetNodeVisible(true);
+                cc.find("slots", _this3.node.parent).getComponent("FatherOfInvention_Slots").ShowGameview(false);
+                cc.find("slots", _this3.node.parent).getComponent("FatherOfInvention_Slots").CanDoNextRound();
+              });
+              _context3.next = 25;
+              break;
+
+             case 24:
+              _this3.CanDoNextRound();
+
+             case 25:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      },
+      cutScene: function cutScene() {
+        cc.vv.AudioManager.playEff("games/FatherOfInvention/", "transition2", true);
+        var transition = cc.find("transition2", this.node.parent);
+        transition.active = true;
+        transition.getComponent(sp.Skeleton).setAnimation(0, "animation", false);
+        transition.getComponent(sp.Skeleton).setCompleteListener(function() {
+          transition.getComponent(sp.Skeleton).setCompleteListener(null);
+          transition.active = false;
+        });
+      },
+      popFreeResultDialog: function popFreeResultDialog() {
+        var _this4 = this;
+        return new Promise(function() {
+          var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee6(success) {
+            var free_dialog, free_bg, dialog, spine, coin_bg, coin, btn_collect, func;
+            return regeneratorRuntime.wrap(function _callee6$(_context6) {
+              while (1) switch (_context6.prev = _context6.next) {
+               case 0:
+                cc.vv.AudioManager.playEff("games/FatherOfInvention/", "free_dialog_collect_show", true);
+                free_dialog = cc.find("free_dialog", _this4.node.parent);
+                free_dialog.active = true;
+                free_bg = cc.find("free_dialog_bg", free_dialog);
+                free_bg.opacity = 0;
+                free_bg.runAction(cc.fadeTo(.2, 200));
+                dialog = cc.find("result_node", free_dialog);
+                dialog.opacity = 255;
+                dialog.active = true;
+                spine = cc.find("spine", dialog).getComponent(sp.Skeleton);
+                spine.node.active = true;
+                coin_bg = cc.find("coin_bg", dialog);
+                coin_bg.scale = 0;
+                coin = cc.find("coin", dialog);
+                coin.scale = 0;
+                coin.getComponent(cc.Label).string = "";
+                spine.setAnimation(0, "animation1", false);
+                spine.addAnimation(0, "animation2", true);
+                btn_collect = cc.find("btn_collect", dialog);
+                btn_collect.scale = 0;
+                _context6.next = 22;
+                return cc.vv.gameData.awaitTime(.3);
+
+               case 22:
+                Global.doRoallNumEff(coin, 0, _this4._gameInfo.collectFreeGame.winCoin, 3, null, null, 0, true);
+                cc.tween(coin).to(.2, {
+                  scale: 1
+                }).start();
+                cc.tween(coin_bg).to(.2, {
+                  scale: 1
+                }).start();
+                _context6.next = 27;
+                return cc.vv.gameData.awaitTime(.2);
+
+               case 27:
+                cc.tween(btn_collect).to(.2, {
+                  scale: 1
+                }).start();
+                btn_collect.off("click");
+                _context6.next = 31;
+                return cc.vv.gameData.awaitTime(.2);
+
+               case 31:
+                func = function() {
+                  var _ref2 = _asyncToGenerator(regeneratorRuntime.mark(function _callee4() {
+                    return regeneratorRuntime.wrap(function _callee4$(_context4) {
+                      while (1) switch (_context4.prev = _context4.next) {
+                       case 0:
+                        btn_collect.off("click");
+                        cc.vv.AudioManager.playEff("games/FatherOfInvention/", "btn_click", true);
+                        cc.tween(dialog).to(.2, {
+                          opacity: 0
+                        }).start();
+                        cc.tween(free_bg).to(.2, {
+                          opacity: 0
+                        }).start();
+                        _context4.next = 6;
+                        return cc.vv.gameData.awaitTime(.3);
+
+                       case 6:
+                        dialog.active = false;
+                        free_dialog.active = false;
+                        spine.node.active = false;
+                        success();
+
+                       case 10:
+                       case "end":
+                        return _context4.stop();
+                      }
+                    }, _callee4);
+                  }));
+                  return function func() {
+                    return _ref2.apply(this, arguments);
+                  };
+                }();
+                cc.vv.gameData.checkAutoPlay(btn_collect, func);
+                btn_collect.on("click", _asyncToGenerator(regeneratorRuntime.mark(function _callee5() {
+                  return regeneratorRuntime.wrap(function _callee5$(_context5) {
+                    while (1) switch (_context5.prev = _context5.next) {
+                     case 0:
+                      btn_collect.stopAllActions();
+                      _context5.next = 3;
+                      return func();
+
+                     case 3:
+                     case "end":
+                      return _context5.stop();
+                    }
+                  }, _callee5);
+                })));
+
+               case 34:
+               case "end":
+                return _context6.stop();
+              }
+            }, _callee6);
+          }));
+          return function(_x) {
+            return _ref.apply(this, arguments);
+          };
+        }());
+      },
+      collectCoin: function collectCoin() {
+        var _this5 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee7() {
+          var slots, i, collectIdxs, preCollectCnt, j, symbol;
+          return regeneratorRuntime.wrap(function _callee7$(_context7) {
+            while (1) switch (_context7.prev = _context7.next) {
+             case 0:
+              slots = _this5._gameInfo.collectFreeGame.slots;
+              i = 0;
+
+             case 2:
+              if (!(i < slots.length)) {
+                _context7.next = 21;
+                break;
+              }
+              collectIdxs = slots[i].currCollectIdxs;
+              preCollectCnt = slots[i].collectCnt - slots[i].currCollectIdxs.length;
+              j = 0;
+
+             case 6:
+              if (!(j < collectIdxs.length)) {
+                _context7.next = 18;
+                break;
+              }
+              symbol = _this5.GetSymbolByIdx(collectIdxs[j], i);
+              if (!symbol) {
+                _context7.next = 15;
+                break;
+              }
+              symbol.playStopAnimation();
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_count", true);
+              preCollectCnt++;
+              cc.find("bg/bg_" + (i + 1) + "/coin_bg/coin", _this5.node).getComponent(cc.Label).string = preCollectCnt;
+              _context7.next = 15;
+              return cc.vv.gameData.awaitTime(.5);
+
+             case 15:
+              j++;
+              _context7.next = 6;
+              break;
+
+             case 18:
+              i++;
+              _context7.next = 2;
+              break;
+
+             case 21:
+             case "end":
+              return _context7.stop();
+            }
+          }, _callee7);
+        }))();
+      },
+      update: function update(dt) {
+        if (this._stopTime > 0) {
+          this._stopTime = this._stopTime - dt;
+          if (this._stopTime <= 0) if (this.CanStopSlot()) {
+            this._bottomScript.ShowBtnsByState("moveing_2");
+            for (var i = 0; i < this._reels.length; i++) {
+              var reels = this._reels[i];
+              for (var j = 0; j < reels.length; j++) {
+                var item = reels[j];
+                var reelStopInterv = this.GetReelStopInter(j);
+                item.StopMove(reelStopInterv);
+              }
+            }
+          } else {
+            this._stopTime = dt;
+            this._roundSpineTime = this._roundSpineTime || 0;
+            this._roundSpineTime += dt;
+            this._roundSpineTime > 30 && this._topScript.SetBackLobby(true);
+          }
+        }
+      },
+      ShowGameview: function ShowGameview(bFree) {
+        if (bFree) {
+          if (3 === cc.vv.gameData.getDeskInfo().collectInfo.state) {
+            var total = cc.vv.gameData.GetTotalFree();
+            var rest = cc.vv.gameData.GetFreeTime();
+            this._bottomScript.ShowFreeModel(true, total - rest, total);
+            var nTotal = cc.vv.gameData.GetTotalFreeWin();
+            this._bottomScript.SetWin(nTotal);
+            this._bottomScript.SetBetNodeVisible(false);
+          }
+        } else {
+          this._bottomScript.SetBetNodeVisible(true);
+          this._bottomScript.ShowFreeModel(false);
+        }
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Slots_Base: void 0
+  } ],
+  FatherOfInvention_Symbol: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "e930e+3QiFCV6h7R22+ovKO", "FatherOfInvention_Symbol");
+    "use strict";
+    cc.Class({
+      extends: require("LMSlots_Symbol_Base"),
+      properties: {},
+      Init: function Init(idx, node) {
+        this._super(idx, node);
+      },
+      ShowRandomSymbol: function ShowRandomSymbol() {
+        this._super();
+        if (this._id === cc.vv.gameData.getGameCfg().ballId) {
+          this.node.zIndex = 400;
+          cc.vv.AudioManager.playEff("games/FatherOfInvention/", "symbol_bonus_slip", true);
+        }
+      },
+      StopMoveBefore: function StopMoveBefore() {},
+      StartMove: function StartMove() {
+        this._super();
+        var cfg = cc.vv.gameData.getGameCfg();
+        this._id === cfg.scatterId && (this.node.zIndex = 500);
+        this._id === cfg.ballId && (this.node.zIndex = 400);
+      },
+      SetSymbolIdx: function SetSymbolIdx(idx) {
+        this._super(idx);
+        var cfg = cc.vv.gameData.getGameCfg();
+        this._id === cfg.scatterId && (this.node.zIndex = 500);
+        this._id === cfg.ballId && (this.node.zIndex = 400);
+      }
+    });
+    cc._RF.pop();
+  }, {
+    LMSlots_Symbol_Base: void 0
+  } ],
+  FatherOfInvention_Wheel: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "4abdf42dB9HR6g0z31hZtUk", "FatherOfInvention_Wheel");
+    "use strict";
+    function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+      try {
+        var info = gen[key](arg);
+        var value = info.value;
+      } catch (error) {
+        reject(error);
+        return;
+      }
+      info.done ? resolve(value) : Promise.resolve(value).then(_next, _throw);
+    }
+    function _asyncToGenerator(fn) {
+      return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+          var gen = fn.apply(self, args);
+          function _next(value) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+          }
+          function _throw(err) {
+            asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+          }
+          _next(void 0);
+        });
+      };
+    }
+    cc.Class({
+      extends: cc.Component,
+      properties: {
+        wheel: cc.Node,
+        spine_zhuanpan: sp.Skeleton,
+        spine_chilun: sp.Skeleton,
+        spine_huoxing: sp.Skeleton,
+        spine_zhongjiang: sp.Skeleton,
+        free_times: cc.Label,
+        touch_spin: cc.Node,
+        average_bet: cc.Label,
+        _successCallback: null
+      },
+      startWheel: function startWheel(collectInfo) {
+        var _this = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
+          var func, i, info;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) switch (_context.prev = _context.next) {
+             case 0:
+              _this.node.y = cc.winSize.height;
+              _this.node.active = true;
+              cc.tween(_this.node).to(.5, {
+                y: 0
+              }).start();
+              _this.wheel.angle = 0;
+              _this.spine_zhuanpan.node.active = true;
+              _this.spine_chilun.node.active = true;
+              _this.spine_chilun.node.color = cc.Color.WHITE;
+              _this.spine_chilun.setAnimation(0, "animation", true);
+              _this.spine_huoxing.node.active = false;
+              _this.spine_zhongjiang.node.active = false;
+              _this.touch_spin.off(cc.Node.EventType.TOUCH_END);
+              func = function func() {
+                _this.touch_spin.off(cc.Node.EventType.TOUCH_END);
+                cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_roulette_spin", true);
+                var req = {
+                  c: MsgId.SLOT_SUBGAME_DATA
+                };
+                req.uid = Global.playerData.uid;
+                req.gameid = cc.vv.gameData._gameId;
+                req.data = {};
+                req.data.rtype = 3;
+                cc.vv.NetManager.send(req);
+              };
+              cc.vv.gameData.checkAutoPlay(_this.touch_spin, func);
+              _this.touch_spin.on(cc.Node.EventType.TOUCH_END, function() {
+                _this.touch_spin.stopAllActions();
+                func();
+              });
+              _this.free_times.string = collectInfo.currFreeCnt;
+              _this.average_bet.string = Global.formatNumShort(collectInfo.startPrice, 0);
+              for (i = 0; i < collectInfo.monsterInfo.length; i++) {
+                info = collectInfo.monsterInfo[i];
+                cc.find("multiplier_" + (i + 1), _this.wheel).getComponent(cc.Label).string = "X" + info.currmult;
+              }
+
+             case 17:
+             case "end":
+              return _context.stop();
+            }
+          }, _callee);
+        }))();
+      },
+      onRcvSubgameData: function onRcvSubgameData(msg) {
+        var _this2 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee2() {
+          var index;
+          return regeneratorRuntime.wrap(function _callee2$(_context2) {
+            while (1) switch (_context2.prev = _context2.next) {
+             case 0:
+              cc.vv.gameData.getDeskInfo().collectInfo = msg.data.collectInfo;
+              _this2.spine_zhuanpan.node.active = false;
+              _this2.spine_chilun.setAnimation(0, "animation2", true);
+              _this2.spine_chilun.node.color = cc.Color.GRAY;
+              _this2.spine_huoxing.node.active = true;
+              index = [ 6, 5, 8, 7 ];
+              _context2.next = 8;
+              return _this2._rotateWheel(index.indexOf(msg.data.collectFreeGame.activeCard));
+
+             case 8:
+              cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_roulette_stop", true);
+              _this2.spine_zhongjiang.node.active = true;
+              _context2.next = 12;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 12:
+              _this2.cutScene();
+              _context2.next = 15;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 15:
+              _this2.node.active = false;
+              cc.find("slots", _this2.node.parent).active = false;
+              cc.find("super_slots", _this2.node.parent).active = true;
+              cc.vv.gameData.SetSlotsScript(cc.find("super_slots", _this2.node.parent).getComponent("FatherOfInvention_SuperSlots"));
+              cc.find("super_slots", _this2.node.parent).getComponent("FatherOfInvention_SuperSlots").setSlots(msg.data.collectFreeGame);
+              Global.SlotsSoundMgr.stopBgm();
+              Global.SlotsSoundMgr.playBgm("mapfree_bgm");
+              cc.vv.gameData.SetTotalFree(msg.data.collectFreeGame.freeCnt);
+              cc.vv.gameData.SetFreeTime(msg.data.collectFreeGame.freeCnt);
+              _context2.next = 26;
+              return cc.vv.gameData.awaitTime(2);
+
+             case 26:
+              cc.vv.gameData.GetSlotsScript().CanDoNextRound();
+
+             case 27:
+             case "end":
+              return _context2.stop();
+            }
+          }, _callee2);
+        }))();
+      },
+      cutScene: function cutScene() {
+        cc.vv.AudioManager.playEff("games/FatherOfInvention/", "transition2", true);
+        var transition = cc.find("transition2", this.node.parent);
+        transition.active = true;
+        transition.getComponent(sp.Skeleton).setAnimation(0, "animation", false);
+        transition.getComponent(sp.Skeleton).setCompleteListener(function() {
+          transition.getComponent(sp.Skeleton).setCompleteListener(null);
+          transition.active = false;
+        });
+      },
+      _rotateWheel: function _rotateWheel(endIndex) {
+        var _this3 = this;
+        return _asyncToGenerator(regeneratorRuntime.mark(function _callee3() {
+          return regeneratorRuntime.wrap(function _callee3$(_context3) {
+            while (1) switch (_context3.prev = _context3.next) {
+             case 0:
+              return _context3.abrupt("return", new Promise(function(success) {
+                var angle = 90 * endIndex - 2160;
+                cc.log(angle);
+                cc.vv.AudioManager.playEff("games/FatherOfInvention/", "collect_roulette_start", true);
+                var action = cc.rotateBy(6, angle).easing(cc.easeSineInOut());
+                _this3.wheel.runAction(cc.sequence(action, cc.callFunc(function() {
+                  success();
+                })));
+              }));
+
+             case 1:
+             case "end":
+              return _context3.stop();
+            }
+          }, _callee3);
+        }))();
+      }
+    });
+    cc._RF.pop();
+  }, {} ]
+}, {}, [ "FatherOfInvention_Cfg", "FatherOfInvention_Logic", "FatherOfInvention_Map", "FatherOfInvention_Reel", "FatherOfInvention_Slots", "FatherOfInvention_SuperSlots", "FatherOfInvention_Symbol", "FatherOfInvention_Wheel" ]);

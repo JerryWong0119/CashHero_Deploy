@@ -1,1 +1,811 @@
-{"__type__":"sp.SkeletonData","_name":"Coin_fly","_skeletonJson":{"skeleton":{"hash":"2ZQ11h534oN4ibmugC1JhQ1LGRI","spine":"3.6.53","width":0,"height":0,"images":"./img2/"},"bones":[{"name":"root"},{"name":"all","parent":"root","scaleX":0.6,"scaleY":0.6},{"name":"Coin","parent":"all"},{"name":"baozha","parent":"all","scaleX":3,"scaleY":3},{"name":"quan","parent":"all"},{"name":"yan","parent":"all"}],"slots":[{"name":"Coin","bone":"Coin"},{"name":"yan","bone":"yan","blend":"screen"},{"name":"baozha","bone":"baozha","blend":"additive"},{"name":"Circle","bone":"quan","blend":"additive"}],"skins":{"default":{"Circle":{"Circle":{"width":200,"height":200}},"Coin":{"Coin/Coin_01":{"width":200,"height":200},"Coin/Coin_02":{"width":200,"height":200},"Coin/Coin_03":{"width":200,"height":200},"Coin/Coin_04":{"width":200,"height":200},"Coin/Coin_05":{"width":200,"height":200},"Coin/Coin_06":{"width":200,"height":200},"Coin/Coin_07":{"width":200,"height":200},"Coin/Coin_08":{"width":200,"height":200},"Coin/Coin_09":{"width":200,"height":200},"Coin/Coin_10":{"width":200,"height":200},"Coin/Coin_11":{"width":200,"height":200},"Coin/Coin_12":{"width":200,"height":200},"Coin/Coin_13":{"width":200,"height":200},"Coin/Coin_14":{"width":200,"height":200},"Coin/Coin_15":{"width":200,"height":200},"Coin/Coin_16":{"width":200,"height":200},"Coin/Coin_17":{"width":200,"height":200},"Coin/Coin_18":{"width":200,"height":200},"Coin/Coin_19":{"width":200,"height":200},"Coin/Coin_20":{"width":200,"height":200},"Coin/Coin_21":{"width":200,"height":200},"Coin/Coin_22":{"width":200,"height":200},"Coin/Coin_23":{"width":200,"height":200},"Coin/Coin_24":{"width":200,"height":200},"Coin/Coin_25":{"width":200,"height":200},"Coin/Coin_26":{"width":200,"height":200},"Coin/Coin_27":{"width":200,"height":200},"Coin/Coin_28":{"width":200,"height":200},"Coin/Coin_29":{"width":200,"height":200}},"baozha":{"baozha/baozha_00":{"width":100,"height":100},"baozha/baozha_01":{"width":100,"height":100},"baozha/baozha_02":{"width":100,"height":100},"baozha/baozha_03":{"width":100,"height":100},"baozha/baozha_04":{"width":100,"height":100},"baozha/baozha_05":{"width":100,"height":100},"baozha/baozha_06":{"width":100,"height":100},"baozha/baozha_07":{"width":100,"height":100},"baozha/baozha_08":{"width":100,"height":100},"baozha/baozha_09":{"width":100,"height":100},"baozha/baozha_10":{"width":100,"height":100},"baozha/baozha_11":{"width":100,"height":100},"baozha/baozha_12":{"width":100,"height":100},"baozha/baozha_13":{"width":100,"height":100},"baozha/baozha_14":{"width":100,"height":100},"baozha/baozha_15":{"width":100,"height":100},"baozha/baozha_16":{"width":100,"height":100}},"yan":{"yan/yan_01":{"width":100,"height":100},"yan/yan_02":{"width":100,"height":100},"yan/yan_03":{"width":100,"height":100},"yan/yan_04":{"width":100,"height":100},"yan/yan_05":{"width":100,"height":100},"yan/yan_06":{"width":100,"height":100},"yan/yan_07":{"width":100,"height":100},"yan/yan_08":{"width":100,"height":100},"yan/yan_09":{"width":100,"height":100},"yan/yan_10":{"width":100,"height":100},"yan/yan_11":{"width":100,"height":100},"yan/yan_12":{"width":100,"height":100},"yan/yan_13":{"width":100,"height":100},"yan/yan_14":{"width":100,"height":100},"yan/yan_15":{"width":100,"height":100},"yan/yan_16":{"width":100,"height":100}}}},"animations":{"Coin_fly":{"slots":{"Circle":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":1,"color":"ffffff00"},{"time":1.1,"color":"ffffffff","curve":"stepped"},{"time":1.3333,"color":"ffffffff"},{"time":2,"color":"ffffff00"}],"attachment":[{"time":0,"name":"Circle"}]},"Coin":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1667,"color":"ffffffff"}],"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"Coin/Coin_01"},{"time":0.0667,"name":"Coin/Coin_02"},{"time":0.1,"name":"Coin/Coin_03"},{"time":0.1333,"name":"Coin/Coin_04"},{"time":0.1667,"name":"Coin/Coin_05"},{"time":0.2,"name":"Coin/Coin_06"},{"time":0.2333,"name":"Coin/Coin_07"},{"time":0.2667,"name":"Coin/Coin_08"},{"time":0.3,"name":"Coin/Coin_09"},{"time":0.3333,"name":"Coin/Coin_10"},{"time":0.3667,"name":"Coin/Coin_11"},{"time":0.4,"name":"Coin/Coin_12"},{"time":0.4333,"name":"Coin/Coin_13"},{"time":0.4667,"name":"Coin/Coin_14"},{"time":0.5,"name":"Coin/Coin_15"},{"time":0.5333,"name":"Coin/Coin_16"},{"time":0.5667,"name":"Coin/Coin_17"},{"time":0.6,"name":"Coin/Coin_18"},{"time":0.6333,"name":"Coin/Coin_19"},{"time":0.6667,"name":"Coin/Coin_20"},{"time":0.7,"name":"Coin/Coin_21"},{"time":0.7333,"name":"Coin/Coin_22"},{"time":0.7667,"name":"Coin/Coin_23"},{"time":0.8,"name":"Coin/Coin_24"},{"time":0.8333,"name":"Coin/Coin_25"},{"time":0.8667,"name":"Coin/Coin_26"},{"time":0.9,"name":"Coin/Coin_27"},{"time":0.9333,"name":"Coin/Coin_28"},{"time":0.9667,"name":"Coin/Coin_29"},{"time":1,"name":null}]},"baozha":{"attachment":[{"time":0,"name":null},{"time":1,"name":"baozha/baozha_00"},{"time":1.0333,"name":"baozha/baozha_01"},{"time":1.1,"name":"baozha/baozha_02"},{"time":1.1333,"name":"baozha/baozha_03"},{"time":1.2,"name":"baozha/baozha_04"},{"time":1.2333,"name":"baozha/baozha_05"},{"time":1.3,"name":"baozha/baozha_06"},{"time":1.3333,"name":"baozha/baozha_07"},{"time":1.4,"name":"baozha/baozha_08"},{"time":1.4333,"name":"baozha/baozha_09"},{"time":1.5,"name":"baozha/baozha_10"},{"time":1.5333,"name":"baozha/baozha_11"},{"time":1.6,"name":"baozha/baozha_12"},{"time":1.6333,"name":"baozha/baozha_13"},{"time":1.7,"name":"baozha/baozha_14"},{"time":1.7333,"name":"baozha/baozha_15"},{"time":1.8,"name":"baozha/baozha_16"},{"time":1.8333,"name":null}]},"yan":{"attachment":[{"time":0,"name":null},{"time":0.9667,"name":null},{"time":1,"name":"yan/yan_01"},{"time":1.0667,"name":"yan/yan_02"},{"time":1.1,"name":"yan/yan_03"},{"time":1.1667,"name":"yan/yan_04"},{"time":1.2,"name":"yan/yan_05"},{"time":1.2667,"name":"yan/yan_06"},{"time":1.3,"name":"yan/yan_07"},{"time":1.3667,"name":"yan/yan_08"},{"time":1.4,"name":"yan/yan_09"},{"time":1.4667,"name":"yan/yan_10"},{"time":1.5,"name":"yan/yan_11"},{"time":1.5667,"name":"yan/yan_12"},{"time":1.6,"name":"yan/yan_13"},{"time":1.6667,"name":"yan/yan_14"},{"time":1.7,"name":"yan/yan_15"},{"time":1.7667,"name":"yan/yan_16"},{"time":1.8,"name":null}]}},"bones":{"quan":{"translate":[{"time":0,"x":0,"y":700},{"time":1,"x":-0.9,"y":637.79}],"scale":[{"time":0,"x":1,"y":1,"curve":"stepped"},{"time":1,"x":1,"y":1,"curve":[0,0.79,0.75,1]},{"time":2,"x":1.8,"y":1.8}]},"Coin":{"translate":[{"time":0,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":0,"y":-125,"curve":[0.247,0,0.729,0.91]},{"time":1,"x":-0.9,"y":637.79}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.388,0,0.998,1]},{"time":0.3333,"x":2,"y":2,"curve":"stepped"},{"time":0.8333,"x":2,"y":2},{"time":1,"x":1,"y":1}]},"baozha":{"translate":[{"time":0,"x":0,"y":700},{"time":1,"x":-0.9,"y":637.79}]},"yan":{"translate":[{"time":0,"x":0,"y":700},{"time":1,"x":-0.9,"y":637.79}],"scale":[{"time":0,"x":4,"y":4}]}}}}},"_atlasText":"\nCoin_fly.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nCircle\n  rotate: false\n  xy: 2, 810\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_01\n  rotate: false\n  xy: 2, 608\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_02\n  rotate: false\n  xy: 204, 810\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_29\n  rotate: false\n  xy: 204, 810\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_03\n  rotate: false\n  xy: 2, 406\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_04\n  rotate: false\n  xy: 204, 608\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_05\n  rotate: false\n  xy: 406, 810\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_06\n  rotate: false\n  xy: 2, 204\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_07\n  rotate: false\n  xy: 204, 406\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_08\n  rotate: false\n  xy: 406, 608\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_09\n  rotate: false\n  xy: 608, 810\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_10\n  rotate: false\n  xy: 2, 2\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_11\n  rotate: false\n  xy: 204, 204\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_12\n  rotate: false\n  xy: 406, 406\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_13\n  rotate: false\n  xy: 608, 608\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_14\n  rotate: false\n  xy: 810, 810\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_15\n  rotate: false\n  xy: 204, 2\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_16\n  rotate: false\n  xy: 406, 204\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_17\n  rotate: false\n  xy: 608, 406\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_18\n  rotate: false\n  xy: 810, 608\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_19\n  rotate: false\n  xy: 406, 2\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_20\n  rotate: false\n  xy: 608, 204\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_21\n  rotate: false\n  xy: 810, 406\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_22\n  rotate: false\n  xy: 608, 2\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_23\n  rotate: false\n  xy: 810, 204\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_24\n  rotate: false\n  xy: 810, 2\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\n\nCoin_fly2.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nCoin/Coin_25\n  rotate: false\n  xy: 2, 310\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_26\n  rotate: false\n  xy: 2, 108\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_27\n  rotate: false\n  xy: 204, 310\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_28\n  rotate: false\n  xy: 204, 108\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nbaozha/baozha_00\n  rotate: false\n  xy: 2, 6\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_01\n  rotate: false\n  xy: 406, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_02\n  rotate: false\n  xy: 104, 6\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_03\n  rotate: false\n  xy: 406, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_04\n  rotate: false\n  xy: 508, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_05\n  rotate: false\n  xy: 206, 6\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_06\n  rotate: false\n  xy: 406, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_07\n  rotate: false\n  xy: 508, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_08\n  rotate: false\n  xy: 610, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_09\n  rotate: false\n  xy: 508, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_10\n  rotate: false\n  xy: 610, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_11\n  rotate: false\n  xy: 712, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_12\n  rotate: false\n  xy: 610, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_13\n  rotate: false\n  xy: 712, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_14\n  rotate: false\n  xy: 814, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_15\n  rotate: false\n  xy: 712, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_16\n  rotate: false\n  xy: 814, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_01\n  rotate: false\n  xy: 916, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_02\n  rotate: false\n  xy: 814, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_03\n  rotate: false\n  xy: 916, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_04\n  rotate: false\n  xy: 916, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_05\n  rotate: false\n  xy: 308, 6\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_06\n  rotate: false\n  xy: 410, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_07\n  rotate: false\n  xy: 410, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_08\n  rotate: false\n  xy: 512, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_09\n  rotate: false\n  xy: 512, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_10\n  rotate: false\n  xy: 614, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_11\n  rotate: false\n  xy: 614, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_12\n  rotate: false\n  xy: 716, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_13\n  rotate: false\n  xy: 716, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_14\n  rotate: false\n  xy: 818, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_15\n  rotate: false\n  xy: 818, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_16\n  rotate: false\n  xy: 920, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"876Oi1oQBNHoMKHTVnQ2gI"},{"__uuid__":"85Z98jiuNAxa7JBFfWmxHY"}],"textureNames":["Coin_fly.png","Coin_fly2.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Coin_fly",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "2ZQ11h534oN4ibmugC1JhQ1LGRI",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./img2/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "all",
+        "parent": "root",
+        "scaleX": 0.6,
+        "scaleY": 0.6
+      },
+      {
+        "name": "Coin",
+        "parent": "all"
+      },
+      {
+        "name": "baozha",
+        "parent": "all",
+        "scaleX": 3,
+        "scaleY": 3
+      },
+      {
+        "name": "quan",
+        "parent": "all"
+      },
+      {
+        "name": "yan",
+        "parent": "all"
+      }
+    ],
+    "slots": [
+      {
+        "name": "Coin",
+        "bone": "Coin"
+      },
+      {
+        "name": "yan",
+        "bone": "yan",
+        "blend": "screen"
+      },
+      {
+        "name": "baozha",
+        "bone": "baozha",
+        "blend": "additive"
+      },
+      {
+        "name": "Circle",
+        "bone": "quan",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "Circle": {
+          "Circle": {
+            "width": 200,
+            "height": 200
+          }
+        },
+        "Coin": {
+          "Coin/Coin_01": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_02": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_03": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_04": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_05": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_06": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_07": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_08": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_09": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_10": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_11": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_12": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_13": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_14": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_15": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_16": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_17": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_18": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_19": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_20": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_21": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_22": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_23": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_24": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_25": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_26": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_27": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_28": {
+            "width": 200,
+            "height": 200
+          },
+          "Coin/Coin_29": {
+            "width": 200,
+            "height": 200
+          }
+        },
+        "baozha": {
+          "baozha/baozha_00": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_01": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_02": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_03": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_04": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_05": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_06": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_07": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_08": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_09": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_10": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_11": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_12": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_13": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_14": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_15": {
+            "width": 100,
+            "height": 100
+          },
+          "baozha/baozha_16": {
+            "width": 100,
+            "height": 100
+          }
+        },
+        "yan": {
+          "yan/yan_01": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_02": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_03": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_04": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_05": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_06": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_07": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_08": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_09": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_10": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_11": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_12": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_13": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_14": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_15": {
+            "width": 100,
+            "height": 100
+          },
+          "yan/yan_16": {
+            "width": 100,
+            "height": 100
+          }
+        }
+      }
+    },
+    "animations": {
+      "Coin_fly": {
+        "slots": {
+          "Circle": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.1,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "Circle"
+              }
+            ]
+          },
+          "Coin": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "Coin/Coin_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "Coin/Coin_02"
+              },
+              {
+                "time": 0.1,
+                "name": "Coin/Coin_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "Coin/Coin_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "Coin/Coin_05"
+              },
+              {
+                "time": 0.2,
+                "name": "Coin/Coin_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "Coin/Coin_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "Coin/Coin_08"
+              },
+              {
+                "time": 0.3,
+                "name": "Coin/Coin_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "Coin/Coin_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "Coin/Coin_11"
+              },
+              {
+                "time": 0.4,
+                "name": "Coin/Coin_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "Coin/Coin_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "Coin/Coin_14"
+              },
+              {
+                "time": 0.5,
+                "name": "Coin/Coin_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "Coin/Coin_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "Coin/Coin_17"
+              },
+              {
+                "time": 0.6,
+                "name": "Coin/Coin_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "Coin/Coin_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "Coin/Coin_20"
+              },
+              {
+                "time": 0.7,
+                "name": "Coin/Coin_21"
+              },
+              {
+                "time": 0.7333,
+                "name": "Coin/Coin_22"
+              },
+              {
+                "time": 0.7667,
+                "name": "Coin/Coin_23"
+              },
+              {
+                "time": 0.8,
+                "name": "Coin/Coin_24"
+              },
+              {
+                "time": 0.8333,
+                "name": "Coin/Coin_25"
+              },
+              {
+                "time": 0.8667,
+                "name": "Coin/Coin_26"
+              },
+              {
+                "time": 0.9,
+                "name": "Coin/Coin_27"
+              },
+              {
+                "time": 0.9333,
+                "name": "Coin/Coin_28"
+              },
+              {
+                "time": 0.9667,
+                "name": "Coin/Coin_29"
+              },
+              {
+                "time": 1,
+                "name": null
+              }
+            ]
+          },
+          "baozha": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 1,
+                "name": "baozha/baozha_00"
+              },
+              {
+                "time": 1.0333,
+                "name": "baozha/baozha_01"
+              },
+              {
+                "time": 1.1,
+                "name": "baozha/baozha_02"
+              },
+              {
+                "time": 1.1333,
+                "name": "baozha/baozha_03"
+              },
+              {
+                "time": 1.2,
+                "name": "baozha/baozha_04"
+              },
+              {
+                "time": 1.2333,
+                "name": "baozha/baozha_05"
+              },
+              {
+                "time": 1.3,
+                "name": "baozha/baozha_06"
+              },
+              {
+                "time": 1.3333,
+                "name": "baozha/baozha_07"
+              },
+              {
+                "time": 1.4,
+                "name": "baozha/baozha_08"
+              },
+              {
+                "time": 1.4333,
+                "name": "baozha/baozha_09"
+              },
+              {
+                "time": 1.5,
+                "name": "baozha/baozha_10"
+              },
+              {
+                "time": 1.5333,
+                "name": "baozha/baozha_11"
+              },
+              {
+                "time": 1.6,
+                "name": "baozha/baozha_12"
+              },
+              {
+                "time": 1.6333,
+                "name": "baozha/baozha_13"
+              },
+              {
+                "time": 1.7,
+                "name": "baozha/baozha_14"
+              },
+              {
+                "time": 1.7333,
+                "name": "baozha/baozha_15"
+              },
+              {
+                "time": 1.8,
+                "name": "baozha/baozha_16"
+              },
+              {
+                "time": 1.8333,
+                "name": null
+              }
+            ]
+          },
+          "yan": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.9667,
+                "name": null
+              },
+              {
+                "time": 1,
+                "name": "yan/yan_01"
+              },
+              {
+                "time": 1.0667,
+                "name": "yan/yan_02"
+              },
+              {
+                "time": 1.1,
+                "name": "yan/yan_03"
+              },
+              {
+                "time": 1.1667,
+                "name": "yan/yan_04"
+              },
+              {
+                "time": 1.2,
+                "name": "yan/yan_05"
+              },
+              {
+                "time": 1.2667,
+                "name": "yan/yan_06"
+              },
+              {
+                "time": 1.3,
+                "name": "yan/yan_07"
+              },
+              {
+                "time": 1.3667,
+                "name": "yan/yan_08"
+              },
+              {
+                "time": 1.4,
+                "name": "yan/yan_09"
+              },
+              {
+                "time": 1.4667,
+                "name": "yan/yan_10"
+              },
+              {
+                "time": 1.5,
+                "name": "yan/yan_11"
+              },
+              {
+                "time": 1.5667,
+                "name": "yan/yan_12"
+              },
+              {
+                "time": 1.6,
+                "name": "yan/yan_13"
+              },
+              {
+                "time": 1.6667,
+                "name": "yan/yan_14"
+              },
+              {
+                "time": 1.7,
+                "name": "yan/yan_15"
+              },
+              {
+                "time": 1.7667,
+                "name": "yan/yan_16"
+              },
+              {
+                "time": 1.8,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "quan": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 700
+              },
+              {
+                "time": 1,
+                "x": -0.9,
+                "y": 637.79
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0,
+                  0.79,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1.8,
+                "y": 1.8
+              }
+            ]
+          },
+          "Coin": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": -125,
+                "curve": [
+                  0.247,
+                  0,
+                  0.729,
+                  0.91
+                ]
+              },
+              {
+                "time": 1,
+                "x": -0.9,
+                "y": 637.79
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.388,
+                  0,
+                  0.998,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 2,
+                "y": 2,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "x": 2,
+                "y": 2
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "baozha": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 700
+              },
+              {
+                "time": 1,
+                "x": -0.9,
+                "y": 637.79
+              }
+            ]
+          },
+          "yan": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 700
+              },
+              {
+                "time": 1,
+                "x": -0.9,
+                "y": 637.79
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 4,
+                "y": 4
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nCoin_fly.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nCircle\n  rotate: false\n  xy: 2, 810\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_01\n  rotate: false\n  xy: 2, 608\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_02\n  rotate: false\n  xy: 204, 810\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_29\n  rotate: false\n  xy: 204, 810\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_03\n  rotate: false\n  xy: 2, 406\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_04\n  rotate: false\n  xy: 204, 608\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_05\n  rotate: false\n  xy: 406, 810\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_06\n  rotate: false\n  xy: 2, 204\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_07\n  rotate: false\n  xy: 204, 406\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_08\n  rotate: false\n  xy: 406, 608\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_09\n  rotate: false\n  xy: 608, 810\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_10\n  rotate: false\n  xy: 2, 2\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_11\n  rotate: false\n  xy: 204, 204\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_12\n  rotate: false\n  xy: 406, 406\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_13\n  rotate: false\n  xy: 608, 608\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_14\n  rotate: false\n  xy: 810, 810\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_15\n  rotate: false\n  xy: 204, 2\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_16\n  rotate: false\n  xy: 406, 204\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_17\n  rotate: false\n  xy: 608, 406\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_18\n  rotate: false\n  xy: 810, 608\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_19\n  rotate: false\n  xy: 406, 2\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_20\n  rotate: false\n  xy: 608, 204\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_21\n  rotate: false\n  xy: 810, 406\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_22\n  rotate: false\n  xy: 608, 2\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_23\n  rotate: false\n  xy: 810, 204\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_24\n  rotate: false\n  xy: 810, 2\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\n\nCoin_fly2.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nCoin/Coin_25\n  rotate: false\n  xy: 2, 310\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_26\n  rotate: false\n  xy: 2, 108\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_27\n  rotate: false\n  xy: 204, 310\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nCoin/Coin_28\n  rotate: false\n  xy: 204, 108\n  size: 200, 200\n  orig: 200, 200\n  offset: 0, 0\n  index: -1\nbaozha/baozha_00\n  rotate: false\n  xy: 2, 6\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_01\n  rotate: false\n  xy: 406, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_02\n  rotate: false\n  xy: 104, 6\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_03\n  rotate: false\n  xy: 406, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_04\n  rotate: false\n  xy: 508, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_05\n  rotate: false\n  xy: 206, 6\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_06\n  rotate: false\n  xy: 406, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_07\n  rotate: false\n  xy: 508, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_08\n  rotate: false\n  xy: 610, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_09\n  rotate: false\n  xy: 508, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_10\n  rotate: false\n  xy: 610, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_11\n  rotate: false\n  xy: 712, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_12\n  rotate: false\n  xy: 610, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_13\n  rotate: false\n  xy: 712, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_14\n  rotate: false\n  xy: 814, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_15\n  rotate: false\n  xy: 712, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nbaozha/baozha_16\n  rotate: false\n  xy: 814, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_01\n  rotate: false\n  xy: 916, 410\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_02\n  rotate: false\n  xy: 814, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_03\n  rotate: false\n  xy: 916, 308\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_04\n  rotate: false\n  xy: 916, 206\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_05\n  rotate: false\n  xy: 308, 6\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_06\n  rotate: false\n  xy: 410, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_07\n  rotate: false\n  xy: 410, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_08\n  rotate: false\n  xy: 512, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_09\n  rotate: false\n  xy: 512, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_10\n  rotate: false\n  xy: 614, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_11\n  rotate: false\n  xy: 614, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_12\n  rotate: false\n  xy: 716, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_13\n  rotate: false\n  xy: 716, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_14\n  rotate: false\n  xy: 818, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_15\n  rotate: false\n  xy: 818, 2\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\nyan/yan_16\n  rotate: false\n  xy: 920, 104\n  size: 100, 100\n  orig: 100, 100\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "876Oi1oQBNHoMKHTVnQ2gI"
+    },
+    {
+      "__uuid__": "85Z98jiuNAxa7JBFfWmxHY"
+    }
+  ],
+  "textureNames": [
+    "Coin_fly.png",
+    "Coin_fly2.png"
+  ]
+}

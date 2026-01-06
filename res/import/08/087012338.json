@@ -1,1 +1,430 @@
-[{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_Jackpot_mini","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[578,150,204,66],"offset":[0,0],"originalSize":[204,66],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteAtlas","_name":"pick.plist","_spriteFrames":{"theme177_pick_Jackpot_grand":{"__uuid__":"abMK3q+rdM3KEib9usGAEy"},"theme177_pick_Jackpot_major":{"__uuid__":"e1bxyWl0ZJOLESS7is8mbc"},"theme177_pick_Jackpot_maxi":{"__uuid__":"f6JER6OQtEwqgKDZrkfqET"},"theme177_pick_Jackpot_mini":{"__uuid__":"1bggopNelKSKk38nBI/Iwd"},"theme177_pick_Jackpot_minor":{"__uuid__":"e0DvvqoiFMjrSnAF422phZ"},"theme177_pick_c1":{"__uuid__":"c67itOfgFBma440sRGuuc2"},"theme177_pick_c2":{"__uuid__":"67J6mMB6JAt7pMgGklK5ZV"},"theme177_pick_c3":{"__uuid__":"9eCjgNV69CMYBpGidM2gVB"},"theme177_pick_frame1":{"__uuid__":"66oze+1HNGK5s14jANriFa"},"theme177_pick_r_0":{"__uuid__":"9fuaAFig9FeLNMClLt4Nyg"},"theme177_pick_r_1":{"__uuid__":"e6u/hg2xZPoaYK9bEbfvBx"},"theme177_pick_r_2":{"__uuid__":"e1lyU1JLxKRJaycv1eiBb2"},"theme177_pick_r_3":{"__uuid__":"d6xGV90GxCFbq2XHIbG9P4"},"theme177_pick_r_4":{"__uuid__":"f9RkYV3X1ISo6zNWweKwVx"}}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_frame1","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[474,117,128,102],"offset":[0,0],"originalSize":[128,102],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_c2","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[2,117,470,113],"offset":[0,0],"originalSize":[470,113],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_c3","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[2,2,587,113],"offset":[0,0],"originalSize":[587,113],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_r_0","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[744,218,155,129],"offset":[0,0],"originalSize":[155,129],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_Jackpot_grand","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[591,2,313,78],"offset":[0,0],"originalSize":[313,78],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_c1","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[901,213,80,54],"offset":[0,0],"originalSize":[80,54],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_r_3","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[430,247,155,129],"offset":[0,0],"originalSize":[155,129],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_Jackpot_minor","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[591,82,217,66],"offset":[0,0],"originalSize":[217,66],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_Jackpot_major","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[2,308,268,74],"offset":[0,0],"originalSize":[268,74],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_r_2","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[272,232,156,130],"offset":[0,0],"originalSize":[156,130],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_r_1","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[587,218,155,129],"offset":[0,0],"originalSize":[155,129],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_Jackpot_maxi","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[2,232,268,74],"offset":[0,0],"originalSize":[268,74],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme177_pick_r_4","texture":"88azIU2pFBLqMHg5Kdmv+r","rect":[810,82,155,129],"offset":[0,0],"originalSize":[155,129],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_Jackpot_mini",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        578,
+        150,
+        204,
+        66
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        204,
+        66
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "pick.plist",
+    "_spriteFrames": {
+      "theme177_pick_Jackpot_grand": {
+        "__uuid__": "abMK3q+rdM3KEib9usGAEy"
+      },
+      "theme177_pick_Jackpot_major": {
+        "__uuid__": "e1bxyWl0ZJOLESS7is8mbc"
+      },
+      "theme177_pick_Jackpot_maxi": {
+        "__uuid__": "f6JER6OQtEwqgKDZrkfqET"
+      },
+      "theme177_pick_Jackpot_mini": {
+        "__uuid__": "1bggopNelKSKk38nBI/Iwd"
+      },
+      "theme177_pick_Jackpot_minor": {
+        "__uuid__": "e0DvvqoiFMjrSnAF422phZ"
+      },
+      "theme177_pick_c1": {
+        "__uuid__": "c67itOfgFBma440sRGuuc2"
+      },
+      "theme177_pick_c2": {
+        "__uuid__": "67J6mMB6JAt7pMgGklK5ZV"
+      },
+      "theme177_pick_c3": {
+        "__uuid__": "9eCjgNV69CMYBpGidM2gVB"
+      },
+      "theme177_pick_frame1": {
+        "__uuid__": "66oze+1HNGK5s14jANriFa"
+      },
+      "theme177_pick_r_0": {
+        "__uuid__": "9fuaAFig9FeLNMClLt4Nyg"
+      },
+      "theme177_pick_r_1": {
+        "__uuid__": "e6u/hg2xZPoaYK9bEbfvBx"
+      },
+      "theme177_pick_r_2": {
+        "__uuid__": "e1lyU1JLxKRJaycv1eiBb2"
+      },
+      "theme177_pick_r_3": {
+        "__uuid__": "d6xGV90GxCFbq2XHIbG9P4"
+      },
+      "theme177_pick_r_4": {
+        "__uuid__": "f9RkYV3X1ISo6zNWweKwVx"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_frame1",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        474,
+        117,
+        128,
+        102
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        128,
+        102
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_c2",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        2,
+        117,
+        470,
+        113
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        470,
+        113
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_c3",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        2,
+        2,
+        587,
+        113
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        587,
+        113
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_r_0",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        744,
+        218,
+        155,
+        129
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        155,
+        129
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_Jackpot_grand",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        591,
+        2,
+        313,
+        78
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        313,
+        78
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_c1",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        901,
+        213,
+        80,
+        54
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        80,
+        54
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_r_3",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        430,
+        247,
+        155,
+        129
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        155,
+        129
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_Jackpot_minor",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        591,
+        82,
+        217,
+        66
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        217,
+        66
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_Jackpot_major",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        2,
+        308,
+        268,
+        74
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        268,
+        74
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_r_2",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        272,
+        232,
+        156,
+        130
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        156,
+        130
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_r_1",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        587,
+        218,
+        155,
+        129
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        155,
+        129
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_Jackpot_maxi",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        2,
+        232,
+        268,
+        74
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        268,
+        74
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme177_pick_r_4",
+      "texture": "88azIU2pFBLqMHg5Kdmv+r",
+      "rect": [
+        810,
+        82,
+        155,
+        129
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        155,
+        129
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

@@ -1,1 +1,917 @@
-{"__type__":"sp.SkeletonData","_name":"Wheel_idle","_skeletonJson":{"skeleton":{"hash":"eRMHaAoncHqWHLHZ1U2pTP8YsDo","spine":"3.6.53","width":566,"height":566,"images":"./images/"},"bones":[{"name":"root"},{"name":"dian","parent":"root"},{"name":"glow","parent":"root","scaleX":3,"scaleY":3}],"slots":[{"name":"glow","bone":"glow","blend":"additive"},{"name":"dian1","bone":"dian","blend":"additive"},{"name":"dian2","bone":"dian","blend":"additive"},{"name":"dian3","bone":"dian","blend":"additive"},{"name":"dian4","bone":"dian","blend":"additive"},{"name":"dian5","bone":"dian","blend":"additive"},{"name":"dian6","bone":"dian","blend":"additive"},{"name":"dian7","bone":"dian","blend":"additive"},{"name":"dian8","bone":"dian","blend":"additive"},{"name":"dian9","bone":"dian","blend":"additive"},{"name":"dian10","bone":"dian","blend":"additive"},{"name":"dian11","bone":"dian","blend":"additive"},{"name":"dian12","bone":"dian","blend":"additive"}],"skins":{"default":{"dian1":{"dian":{"x":1.01,"y":268.01,"scaleX":0.75,"scaleY":0.75,"width":50,"height":50}},"dian10":{"dian":{"x":-267.41,"y":-2.55,"scaleX":0.75,"scaleY":0.75,"width":50,"height":50}},"dian11":{"dian":{"x":-233,"y":133.24,"scaleX":0.75,"scaleY":0.75,"width":50,"height":50}},"dian12":{"dian":{"x":-131.8,"y":232.05,"scaleX":0.75,"scaleY":0.75,"width":50,"height":50}},"dian2":{"dian":{"x":133.49,"y":232.01,"scaleX":0.75,"scaleY":0.75,"width":50,"height":50}},"dian3":{"dian":{"x":233.33,"y":133,"scaleX":0.75,"scaleY":0.75,"width":50,"height":50}},"dian4":{"dian":{"x":268.61,"y":0.54,"scaleX":0.75,"scaleY":0.75,"width":50,"height":50}},"dian5":{"dian":{"x":233.5,"y":-135.71,"scaleX":0.75,"scaleY":0.75,"width":50,"height":50}},"dian6":{"dian":{"x":135,"y":-233.29,"scaleX":0.75,"scaleY":0.75,"width":50,"height":50}},"dian7":{"dian":{"x":1.17,"y":-270,"scaleX":0.75,"scaleY":0.75,"width":50,"height":50}},"dian8":{"dian":{"x":-132.44,"y":-233.75,"scaleX":0.75,"scaleY":0.75,"width":50,"height":50}},"dian9":{"dian":{"x":-232.08,"y":-135.71,"scaleX":0.75,"scaleY":0.75,"width":50,"height":50}},"glow":{"glow":{"width":189,"height":189}}}},"animations":{"idle":{"slots":{"dian1":{"color":[{"time":0,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.7333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff"}],"attachment":[{"time":0,"name":"dian"}]},"dian2":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.7333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"dian"}]},"dian3":{"color":[{"time":0,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.7333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff"}],"attachment":[{"time":0,"name":"dian"}]},"dian4":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.7333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"dian"}]},"dian5":{"color":[{"time":0,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.7333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff"}],"attachment":[{"time":0,"name":"dian"}]},"dian6":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.7333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"dian"}]},"dian7":{"color":[{"time":0,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.7333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff"}],"attachment":[{"time":0,"name":"dian"}]},"dian8":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.7333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"dian"}]},"dian9":{"color":[{"time":0,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.7333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff"}],"attachment":[{"time":0,"name":"dian"}]},"dian10":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.7333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"dian"}]},"dian11":{"color":[{"time":0,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.7333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff"}],"attachment":[{"time":0,"name":"dian"}]},"dian12":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.7333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffff00"}],"attachment":[{"time":0,"name":"dian"}]},"glow":{"attachment":[{"time":0,"name":"glow"}]}},"bones":{"glow":{"rotate":[{"time":0,"angle":0},{"time":1,"angle":180}],"scale":[{"time":0,"x":1.007,"y":1.007}]}}}}},"_atlasText":"\nWheel_idle.png\nsize: 256,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ndian\n  rotate: false\n  xy: 2, 2\n  size: 22, 22\n  orig: 50, 50\n  offset: 14, 14\n  index: -1\nglow\n  rotate: false\n  xy: 2, 26\n  size: 158, 185\n  orig: 189, 189\n  offset: 15, 2\n  index: -1\n","textures":[{"__uuid__":"2eX7FlLthPoK+XbaTaaSU2"}],"textureNames":["Wheel_idle.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Wheel_idle",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "eRMHaAoncHqWHLHZ1U2pTP8YsDo",
+      "spine": "3.6.53",
+      "width": 566,
+      "height": 566,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "dian",
+        "parent": "root"
+      },
+      {
+        "name": "glow",
+        "parent": "root",
+        "scaleX": 3,
+        "scaleY": 3
+      }
+    ],
+    "slots": [
+      {
+        "name": "glow",
+        "bone": "glow",
+        "blend": "additive"
+      },
+      {
+        "name": "dian1",
+        "bone": "dian",
+        "blend": "additive"
+      },
+      {
+        "name": "dian2",
+        "bone": "dian",
+        "blend": "additive"
+      },
+      {
+        "name": "dian3",
+        "bone": "dian",
+        "blend": "additive"
+      },
+      {
+        "name": "dian4",
+        "bone": "dian",
+        "blend": "additive"
+      },
+      {
+        "name": "dian5",
+        "bone": "dian",
+        "blend": "additive"
+      },
+      {
+        "name": "dian6",
+        "bone": "dian",
+        "blend": "additive"
+      },
+      {
+        "name": "dian7",
+        "bone": "dian",
+        "blend": "additive"
+      },
+      {
+        "name": "dian8",
+        "bone": "dian",
+        "blend": "additive"
+      },
+      {
+        "name": "dian9",
+        "bone": "dian",
+        "blend": "additive"
+      },
+      {
+        "name": "dian10",
+        "bone": "dian",
+        "blend": "additive"
+      },
+      {
+        "name": "dian11",
+        "bone": "dian",
+        "blend": "additive"
+      },
+      {
+        "name": "dian12",
+        "bone": "dian",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "dian1": {
+          "dian": {
+            "x": 1.01,
+            "y": 268.01,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "dian10": {
+          "dian": {
+            "x": -267.41,
+            "y": -2.55,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "dian11": {
+          "dian": {
+            "x": -233,
+            "y": 133.24,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "dian12": {
+          "dian": {
+            "x": -131.8,
+            "y": 232.05,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "dian2": {
+          "dian": {
+            "x": 133.49,
+            "y": 232.01,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "dian3": {
+          "dian": {
+            "x": 233.33,
+            "y": 133,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "dian4": {
+          "dian": {
+            "x": 268.61,
+            "y": 0.54,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "dian5": {
+          "dian": {
+            "x": 233.5,
+            "y": -135.71,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "dian6": {
+          "dian": {
+            "x": 135,
+            "y": -233.29,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "dian7": {
+          "dian": {
+            "x": 1.17,
+            "y": -270,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "dian8": {
+          "dian": {
+            "x": -132.44,
+            "y": -233.75,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "dian9": {
+          "dian": {
+            "x": -232.08,
+            "y": -135.71,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "glow": {
+          "glow": {
+            "width": 189,
+            "height": 189
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "dian1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "dian"
+              }
+            ]
+          },
+          "dian2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "dian"
+              }
+            ]
+          },
+          "dian3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "dian"
+              }
+            ]
+          },
+          "dian4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "dian"
+              }
+            ]
+          },
+          "dian5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "dian"
+              }
+            ]
+          },
+          "dian6": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "dian"
+              }
+            ]
+          },
+          "dian7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "dian"
+              }
+            ]
+          },
+          "dian8": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "dian"
+              }
+            ]
+          },
+          "dian9": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "dian"
+              }
+            ]
+          },
+          "dian10": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "dian"
+              }
+            ]
+          },
+          "dian11": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "dian"
+              }
+            ]
+          },
+          "dian12": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "dian"
+              }
+            ]
+          },
+          "glow": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "glow"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "glow": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 1,
+                "angle": 180
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.007,
+                "y": 1.007
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nWheel_idle.png\nsize: 256,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ndian\n  rotate: false\n  xy: 2, 2\n  size: 22, 22\n  orig: 50, 50\n  offset: 14, 14\n  index: -1\nglow\n  rotate: false\n  xy: 2, 26\n  size: 158, 185\n  orig: 189, 189\n  offset: 15, 2\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "2eX7FlLthPoK+XbaTaaSU2"
+    }
+  ],
+  "textureNames": [
+    "Wheel_idle.png"
+  ]
+}

@@ -1,1 +1,137 @@
-{"__type__":"sp.SkeletonData","_name":"i_saoguang","_skeletonJson":{"skeleton":{"hash":"izgpAl/6GIH+B9Z75Em1ihxFBvw","spine":"3.6.53","width":41,"height":46,"images":"./资源/"},"bones":[{"name":"root"},{"name":"i","parent":"root"},{"name":"i_bai","parent":"root"}],"slots":[{"name":"theme141_map_i","bone":"i"},{"name":"cq","bone":"root","attachment":"cq"},{"name":"i_bai","bone":"i_bai","attachment":"i_bai"}],"skins":{"default":{"cq":{"cq":{"type":"clipping","end":"cq","vertexCount":4,"vertices":[-10.79,45.31,-58.5,-6.03,-53.27,-10.76,-5.49,40.74],"color":"ce3a3aff"}},"i_bai":{"i_bai":{"width":41,"height":46}}}},"animations":{"animation":{"deform":{"default":{"cq":{"cq":[{"time":0,"vertices":[3.47199,6.79601,-1.95302,0.06899,0.43401,-1.016,5.85899,5.928],"curve":[0.25,0,0.75,1]},{"time":0.5,"vertices":[63.72697,-36.15499,58.30196,-42.882,60.68898,-43.967,66.11397,-37.02299],"curve":"stepped"},{"time":1.5,"vertices":[63.72697,-36.15499,58.30196,-42.882,60.68898,-43.967,66.11397,-37.02299]}]}}}}}},"_atlasText":"\ni_saoguang.png\nsize: 45,50\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ni_bai\n  rotate: false\n  xy: 2, 2\n  size: 41, 46\n  orig: 41, 46\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"705XZ2OY1LJLB1Rk7s63FA"}],"textureNames":["i_saoguang.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "i_saoguang",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "izgpAl/6GIH+B9Z75Em1ihxFBvw",
+      "spine": "3.6.53",
+      "width": 41,
+      "height": 46,
+      "images": "./资源/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "i",
+        "parent": "root"
+      },
+      {
+        "name": "i_bai",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme141_map_i",
+        "bone": "i"
+      },
+      {
+        "name": "cq",
+        "bone": "root",
+        "attachment": "cq"
+      },
+      {
+        "name": "i_bai",
+        "bone": "i_bai",
+        "attachment": "i_bai"
+      }
+    ],
+    "skins": {
+      "default": {
+        "cq": {
+          "cq": {
+            "type": "clipping",
+            "end": "cq",
+            "vertexCount": 4,
+            "vertices": [
+              -10.79,
+              45.31,
+              -58.5,
+              -6.03,
+              -53.27,
+              -10.76,
+              -5.49,
+              40.74
+            ],
+            "color": "ce3a3aff"
+          }
+        },
+        "i_bai": {
+          "i_bai": {
+            "width": 41,
+            "height": 46
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "deform": {
+          "default": {
+            "cq": {
+              "cq": [
+                {
+                  "time": 0,
+                  "vertices": [
+                    3.47199,
+                    6.79601,
+                    -1.95302,
+                    0.06899,
+                    0.43401,
+                    -1.016,
+                    5.85899,
+                    5.928
+                  ],
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.5,
+                  "vertices": [
+                    63.72697,
+                    -36.15499,
+                    58.30196,
+                    -42.882,
+                    60.68898,
+                    -43.967,
+                    66.11397,
+                    -37.02299
+                  ],
+                  "curve": "stepped"
+                },
+                {
+                  "time": 1.5,
+                  "vertices": [
+                    63.72697,
+                    -36.15499,
+                    58.30196,
+                    -42.882,
+                    60.68898,
+                    -43.967,
+                    66.11397,
+                    -37.02299
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ni_saoguang.png\nsize: 45,50\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ni_bai\n  rotate: false\n  xy: 2, 2\n  size: 41, 46\n  orig: 41, 46\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "705XZ2OY1LJLB1Rk7s63FA"
+    }
+  ],
+  "textureNames": [
+    "i_saoguang.png"
+  ]
+}

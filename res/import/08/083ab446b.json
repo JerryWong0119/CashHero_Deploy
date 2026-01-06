@@ -1,1 +1,312 @@
-[{"__type__":"cc.SpriteFrame","content":{"name":"anniu_icon2","texture":"24Qjsr8ZNGf7RNv27bSpdA","rect":[301,194,59,57],"offset":[0,0],"originalSize":[59,57],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"gift_item_db","texture":"24Qjsr8ZNGf7RNv27bSpdA","rect":[2,2,204,297],"offset":[0,0],"originalSize":[204,297],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"anniu_icon4","texture":"24Qjsr8ZNGf7RNv27bSpdA","rect":[364,177,59,57],"offset":[0,0],"originalSize":[59,57],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"gift_item_btn","texture":"24Qjsr8ZNGf7RNv27bSpdA","rect":[301,2,158,61],"offset":[0,0],"originalSize":[158,61],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"bg_gift_anim_name","texture":"24Qjsr8ZNGf7RNv27bSpdA","rect":[373,65,76,50],"offset":[0,0],"originalSize":[76,50],"capInsets":[32,0,33,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"price_bg","texture":"24Qjsr8ZNGf7RNv27bSpdA","rect":[134,208,61,35],"offset":[0,0],"originalSize":[61,35],"capInsets":[24,0,24,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"record_Item_db","texture":"24Qjsr8ZNGf7RNv27bSpdA","rect":[2,208,44,130],"offset":[0,0],"originalSize":[44,130],"rotated":1,"capInsets":[14,0,16,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"anniu_icon3","texture":"24Qjsr8ZNGf7RNv27bSpdA","rect":[373,117,61,58],"offset":[0,0],"originalSize":[61,58],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"charm_icon","texture":"24Qjsr8ZNGf7RNv27bSpdA","rect":[301,65,68,70],"offset":[0,0],"originalSize":[68,70],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"anniu_icon5","texture":"24Qjsr8ZNGf7RNv27bSpdA","rect":[301,135,61,57],"offset":[0,0],"originalSize":[61,57],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteAtlas","_name":"gift_item.plist","_spriteFrames":{"anniu_icon2":{"__uuid__":"40wSFsMrtAvZxByTT6aFNM"},"anniu_icon3":{"__uuid__":"c4mfIssaFKfYX6x6l8QArO"},"anniu_icon4":{"__uuid__":"75IOwyAqBBkKNCtx6zrfJQ"},"anniu_icon5":{"__uuid__":"eeuU9nNPtMl7e4m57oEyAA"},"bg_gift_anim_name":{"__uuid__":"9etj6XKXhLSbTT+dGKcJ3V"},"charm_icon":{"__uuid__":"c5UbzhAz5CUrPMHtcvVtI0"},"gift_item_btn":{"__uuid__":"98fsc+XARDpLRVtLWJFgRS"},"gift_item_db":{"__uuid__":"74PQA4OSJKb58idiXFxZ9y"},"price_bg":{"__uuid__":"a8Hswfm2VAg6CFa9Z9bxGZ"},"record_Item_db":{"__uuid__":"adqxxGL1dFLY8GumRSUT57"}}}]
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "anniu_icon2",
+      "texture": "24Qjsr8ZNGf7RNv27bSpdA",
+      "rect": [
+        301,
+        194,
+        59,
+        57
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        59,
+        57
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "gift_item_db",
+      "texture": "24Qjsr8ZNGf7RNv27bSpdA",
+      "rect": [
+        2,
+        2,
+        204,
+        297
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        204,
+        297
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "anniu_icon4",
+      "texture": "24Qjsr8ZNGf7RNv27bSpdA",
+      "rect": [
+        364,
+        177,
+        59,
+        57
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        59,
+        57
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "gift_item_btn",
+      "texture": "24Qjsr8ZNGf7RNv27bSpdA",
+      "rect": [
+        301,
+        2,
+        158,
+        61
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        158,
+        61
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bg_gift_anim_name",
+      "texture": "24Qjsr8ZNGf7RNv27bSpdA",
+      "rect": [
+        373,
+        65,
+        76,
+        50
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        76,
+        50
+      ],
+      "capInsets": [
+        32,
+        0,
+        33,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "price_bg",
+      "texture": "24Qjsr8ZNGf7RNv27bSpdA",
+      "rect": [
+        134,
+        208,
+        61,
+        35
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        61,
+        35
+      ],
+      "capInsets": [
+        24,
+        0,
+        24,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "record_Item_db",
+      "texture": "24Qjsr8ZNGf7RNv27bSpdA",
+      "rect": [
+        2,
+        208,
+        44,
+        130
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        44,
+        130
+      ],
+      "rotated": 1,
+      "capInsets": [
+        14,
+        0,
+        16,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "anniu_icon3",
+      "texture": "24Qjsr8ZNGf7RNv27bSpdA",
+      "rect": [
+        373,
+        117,
+        61,
+        58
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        61,
+        58
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "charm_icon",
+      "texture": "24Qjsr8ZNGf7RNv27bSpdA",
+      "rect": [
+        301,
+        65,
+        68,
+        70
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        68,
+        70
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "anniu_icon5",
+      "texture": "24Qjsr8ZNGf7RNv27bSpdA",
+      "rect": [
+        301,
+        135,
+        61,
+        57
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        61,
+        57
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "gift_item.plist",
+    "_spriteFrames": {
+      "anniu_icon2": {
+        "__uuid__": "40wSFsMrtAvZxByTT6aFNM"
+      },
+      "anniu_icon3": {
+        "__uuid__": "c4mfIssaFKfYX6x6l8QArO"
+      },
+      "anniu_icon4": {
+        "__uuid__": "75IOwyAqBBkKNCtx6zrfJQ"
+      },
+      "anniu_icon5": {
+        "__uuid__": "eeuU9nNPtMl7e4m57oEyAA"
+      },
+      "bg_gift_anim_name": {
+        "__uuid__": "9etj6XKXhLSbTT+dGKcJ3V"
+      },
+      "charm_icon": {
+        "__uuid__": "c5UbzhAz5CUrPMHtcvVtI0"
+      },
+      "gift_item_btn": {
+        "__uuid__": "98fsc+XARDpLRVtLWJFgRS"
+      },
+      "gift_item_db": {
+        "__uuid__": "74PQA4OSJKb58idiXFxZ9y"
+      },
+      "price_bg": {
+        "__uuid__": "a8Hswfm2VAg6CFa9Z9bxGZ"
+      },
+      "record_Item_db": {
+        "__uuid__": "adqxxGL1dFLY8GumRSUT57"
+      }
+    }
+  }
+]

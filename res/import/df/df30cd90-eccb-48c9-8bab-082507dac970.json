@@ -1,1 +1,255 @@
-{"__type__":"sp.SkeletonData","_name":"yemiandian","_skeletonJson":{"skeleton":{"hash":"kA7urxMUMz5WJYY8CO11wfM7Ng0","spine":"3.6.53","width":58,"height":58},"bones":[{"name":"root"},{"name":"骨骼","parent":"root"},{"name":"骨骼2","parent":"root"},{"name":"骨骼3","parent":"root","scaleX":1.24,"scaleY":1.24},{"name":"骨骼4","parent":"root","scaleX":0.731,"scaleY":0.731}],"slots":[{"name":"theme158_store_btn_choose1","bone":"骨骼2"},{"name":"theme158_store_btn_choose2","bone":"骨骼","attachment":"theme158_store_btn_choose2"},{"name":"jimanguangdian_00","bone":"骨骼3","blend":"additive"},{"name":"guang_x","bone":"骨骼4","blend":"additive"}],"skins":{"default":{"guang_x":{"guang_x":{"width":150,"height":140}},"jimanguangdian_00":{"jimanguangdian_00":{"width":56,"height":56}},"theme158_store_btn_choose2":{"theme158_store_btn_choose2":{"width":58,"height":58}}}},"animations":{"animation":{"slots":{"guang_x":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.1667,"color":"ffffff00"},{"time":0.5,"color":"ffffffff"},{"time":0.8,"color":"ffffff00"}],"attachment":[{"time":0,"name":"guang_x"}]},"jimanguangdian_00":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.1667,"color":"ffffff00"},{"time":0.5,"color":"ffffffff"},{"time":0.8,"color":"ffffff00","curve":"stepped"},{"time":1.1667,"color":"ffffff00"}],"attachment":[{"time":0,"name":"jimanguangdian_00"}]},"theme158_store_btn_choose2":{"color":[{"time":0,"color":"ffffff00"},{"time":0.2667,"color":"ffffffff"}]}},"bones":{"骨骼4":{"rotate":[{"time":0,"angle":0,"curve":"stepped"},{"time":0.1667,"angle":0},{"time":0.5,"angle":20},{"time":0.8,"angle":40}],"scale":[{"time":0,"x":0.796,"y":0.796,"curve":"stepped"},{"time":0.1667,"x":0.796,"y":0.796},{"time":0.5,"x":1,"y":1},{"time":0.8,"x":1.118,"y":1.118}]}}},"animation2":{"slots":{"guang_x":{"color":[{"time":0,"color":"ffffff00"}]},"jimanguangdian_00":{"color":[{"time":0,"color":"ffffff00"}],"attachment":[{"time":0,"name":"jimanguangdian_00"}]}},"bones":{"骨骼4":{"rotate":[{"time":0,"angle":0}],"scale":[{"time":0,"x":0.796,"y":0.796}]}}}}},"_atlasText":"\nyemiandian.png\nsize: 210,140\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguang_x\n  rotate: false\n  xy: 0, 0\n  size: 150, 140\n  orig: 150, 140\n  offset: 0, 0\n  index: -1\njimanguangdian_00\n  rotate: false\n  xy: 152, 25\n  size: 54, 55\n  orig: 56, 56\n  offset: 1, 1\n  index: -1\ntheme158_store_btn_choose2\n  rotate: false\n  xy: 152, 82\n  size: 58, 58\n  orig: 58, 58\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"dcQ+K2c1pEVLnzZRU8gciL"}],"textureNames":["yemiandian.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "yemiandian",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "kA7urxMUMz5WJYY8CO11wfM7Ng0",
+      "spine": "3.6.53",
+      "width": 58,
+      "height": 58
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼2",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼3",
+        "parent": "root",
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      {
+        "name": "骨骼4",
+        "parent": "root",
+        "scaleX": 0.731,
+        "scaleY": 0.731
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme158_store_btn_choose1",
+        "bone": "骨骼2"
+      },
+      {
+        "name": "theme158_store_btn_choose2",
+        "bone": "骨骼",
+        "attachment": "theme158_store_btn_choose2"
+      },
+      {
+        "name": "jimanguangdian_00",
+        "bone": "骨骼3",
+        "blend": "additive"
+      },
+      {
+        "name": "guang_x",
+        "bone": "骨骼4",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "guang_x": {
+          "guang_x": {
+            "width": 150,
+            "height": 140
+          }
+        },
+        "jimanguangdian_00": {
+          "jimanguangdian_00": {
+            "width": 56,
+            "height": 56
+          }
+        },
+        "theme158_store_btn_choose2": {
+          "theme158_store_btn_choose2": {
+            "width": 58,
+            "height": 58
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "guang_x": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.8,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "guang_x"
+              }
+            ]
+          },
+          "jimanguangdian_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.8,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "jimanguangdian_00"
+              }
+            ]
+          },
+          "theme158_store_btn_choose2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "骨骼4": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "angle": 0
+              },
+              {
+                "time": 0.5,
+                "angle": 20
+              },
+              {
+                "time": 0.8,
+                "angle": 40
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.796,
+                "y": 0.796,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "x": 0.796,
+                "y": 0.796
+              },
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.8,
+                "x": 1.118,
+                "y": 1.118
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "guang_x": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "jimanguangdian_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "jimanguangdian_00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "骨骼4": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.796,
+                "y": 0.796
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nyemiandian.png\nsize: 210,140\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguang_x\n  rotate: false\n  xy: 0, 0\n  size: 150, 140\n  orig: 150, 140\n  offset: 0, 0\n  index: -1\njimanguangdian_00\n  rotate: false\n  xy: 152, 25\n  size: 54, 55\n  orig: 56, 56\n  offset: 1, 1\n  index: -1\ntheme158_store_btn_choose2\n  rotate: false\n  xy: 152, 82\n  size: 58, 58\n  orig: 58, 58\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "dcQ+K2c1pEVLnzZRU8gciL"
+    }
+  ],
+  "textureNames": [
+    "yemiandian.png"
+  ]
+}

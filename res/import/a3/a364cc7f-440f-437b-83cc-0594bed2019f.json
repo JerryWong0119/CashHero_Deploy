@@ -1,1 +1,103 @@
-{"__type__":"sp.SkeletonData","_name":"MapBG_tc_alien_icon","_skeletonJson":{"skeleton":{"hash":"heoqXXi0WPvx5HfZXx8+VqvRXqA","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"icon","parent":"root"}],"slots":[{"name":"icon","bone":"icon"}],"skins":{"default":{},"huang":{"icon":{"icon":{"name":"huang","width":97,"height":101}}},"lv":{"icon":{"icon":{"name":"lv","width":97,"height":101}}},"zi":{"icon":{"icon":{"name":"zi","width":96,"height":100}}}},"animations":{"grey":{"slots":{"icon":{"color":[{"time":0,"color":"ffffffff"},{"time":0.3333,"color":"787878ff"}],"attachment":[{"time":0,"name":"icon"}]}}},"jingzhen":{"slots":{"icon":{"attachment":[{"time":0,"name":"icon"}]}}}}},"_atlasText":"\nMapBG_tc_alien_icon.png\nsize: 512,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nhuang\n  rotate: false\n  xy: 2, 2\n  size: 97, 101\n  orig: 97, 101\n  offset: 0, 0\n  index: -1\nlv\n  rotate: false\n  xy: 101, 2\n  size: 97, 101\n  orig: 97, 101\n  offset: 0, 0\n  index: -1\nzi\n  rotate: false\n  xy: 200, 3\n  size: 96, 100\n  orig: 96, 100\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"ddFc26EJ9NXYwpvoiVImzr"}],"textureNames":["MapBG_tc_alien_icon.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "MapBG_tc_alien_icon",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "heoqXXi0WPvx5HfZXx8+VqvRXqA",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "icon",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "icon",
+        "bone": "icon"
+      }
+    ],
+    "skins": {
+      "default": {},
+      "huang": {
+        "icon": {
+          "icon": {
+            "name": "huang",
+            "width": 97,
+            "height": 101
+          }
+        }
+      },
+      "lv": {
+        "icon": {
+          "icon": {
+            "name": "lv",
+            "width": 97,
+            "height": 101
+          }
+        }
+      },
+      "zi": {
+        "icon": {
+          "icon": {
+            "name": "zi",
+            "width": 96,
+            "height": 100
+          }
+        }
+      }
+    },
+    "animations": {
+      "grey": {
+        "slots": {
+          "icon": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.3333,
+                "color": "787878ff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "icon"
+              }
+            ]
+          }
+        }
+      },
+      "jingzhen": {
+        "slots": {
+          "icon": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "icon"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nMapBG_tc_alien_icon.png\nsize: 512,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nhuang\n  rotate: false\n  xy: 2, 2\n  size: 97, 101\n  orig: 97, 101\n  offset: 0, 0\n  index: -1\nlv\n  rotate: false\n  xy: 101, 2\n  size: 97, 101\n  orig: 97, 101\n  offset: 0, 0\n  index: -1\nzi\n  rotate: false\n  xy: 200, 3\n  size: 96, 100\n  orig: 96, 100\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "ddFc26EJ9NXYwpvoiVImzr"
+    }
+  ],
+  "textureNames": [
+    "MapBG_tc_alien_icon.png"
+  ]
+}

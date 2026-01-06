@@ -1,1 +1,243 @@
-[{"__type__":"cc.BitmapFont","_name":"Kangaroos_font","spriteFrame":{"__uuid__":"9fwvJZQvtHo7Lo1SJTlnDf"},"fontSize":32,"_fntConfig":{"commonHeight":52,"fontSize":32,"atlasName":"Kangaroos_font.png","fontDefDictionary":{"9":{"rect":{"x":0,"y":0,"width":0,"height":0},"xOffset":0,"yOffset":0,"xAdvance":0},"32":{"rect":{"x":0,"y":0,"width":0,"height":0},"xOffset":0,"yOffset":0,"xAdvance":0},"44":{"rect":{"x":13,"y":141,"width":12,"height":18},"xOffset":0,"yOffset":39,"xAdvance":12},"46":{"rect":{"x":0,"y":146,"width":13,"height":13},"xOffset":0,"yOffset":39,"xAdvance":13},"48":{"rect":{"x":67,"y":97,"width":32,"height":49},"xOffset":0,"yOffset":4,"xAdvance":32},"49":{"rect":{"x":42,"y":0,"width":24,"height":47},"xOffset":0,"yOffset":5,"xAdvance":24},"50":{"rect":{"x":99,"y":47,"width":32,"height":48},"xOffset":0,"yOffset":4,"xAdvance":32},"51":{"rect":{"x":99,"y":95,"width":32,"height":49},"xOffset":0,"yOffset":4,"xAdvance":32},"52":{"rect":{"x":0,"y":47,"width":34,"height":47},"xOffset":0,"yOffset":5,"xAdvance":34},"53":{"rect":{"x":67,"y":0,"width":32,"height":48},"xOffset":0,"yOffset":5,"xAdvance":32},"54":{"rect":{"x":34,"y":96,"width":33,"height":49},"xOffset":0,"yOffset":4,"xAdvance":33},"55":{"rect":{"x":131,"y":47,"width":27,"height":47},"xOffset":0,"yOffset":5,"xAdvance":27},"56":{"rect":{"x":34,"y":47,"width":33,"height":49},"xOffset":0,"yOffset":4,"xAdvance":33},"57":{"rect":{"x":67,"y":48,"width":32,"height":49},"xOffset":0,"yOffset":4,"xAdvance":32},"66":{"rect":{"x":99,"y":0,"width":32,"height":47},"xOffset":0,"yOffset":5,"xAdvance":32},"75":{"rect":{"x":0,"y":94,"width":34,"height":47},"xOffset":0,"yOffset":5,"xAdvance":34},"77":{"rect":{"x":0,"y":0,"width":42,"height":47},"xOffset":0,"yOffset":5,"xAdvance":42},"84":{"rect":{"x":131,"y":0,"width":31,"height":47},"xOffset":0,"yOffset":5,"xAdvance":31}},"kerningDict":{}}},{"__type__":"cc.SpriteFrame","content":{"name":"Kangaroos_font","texture":"f4NJHmbm5PXa8jRm8LKmO2","rect":[0,0,162,159],"offset":[0,0],"originalSize":[162,159],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.BitmapFont",
+    "_name": "Kangaroos_font",
+    "spriteFrame": {
+      "__uuid__": "9fwvJZQvtHo7Lo1SJTlnDf"
+    },
+    "fontSize": 32,
+    "_fntConfig": {
+      "commonHeight": 52,
+      "fontSize": 32,
+      "atlasName": "Kangaroos_font.png",
+      "fontDefDictionary": {
+        "9": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 0
+        },
+        "32": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 0
+        },
+        "44": {
+          "rect": {
+            "x": 13,
+            "y": 141,
+            "width": 12,
+            "height": 18
+          },
+          "xOffset": 0,
+          "yOffset": 39,
+          "xAdvance": 12
+        },
+        "46": {
+          "rect": {
+            "x": 0,
+            "y": 146,
+            "width": 13,
+            "height": 13
+          },
+          "xOffset": 0,
+          "yOffset": 39,
+          "xAdvance": 13
+        },
+        "48": {
+          "rect": {
+            "x": 67,
+            "y": 97,
+            "width": 32,
+            "height": 49
+          },
+          "xOffset": 0,
+          "yOffset": 4,
+          "xAdvance": 32
+        },
+        "49": {
+          "rect": {
+            "x": 42,
+            "y": 0,
+            "width": 24,
+            "height": 47
+          },
+          "xOffset": 0,
+          "yOffset": 5,
+          "xAdvance": 24
+        },
+        "50": {
+          "rect": {
+            "x": 99,
+            "y": 47,
+            "width": 32,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 4,
+          "xAdvance": 32
+        },
+        "51": {
+          "rect": {
+            "x": 99,
+            "y": 95,
+            "width": 32,
+            "height": 49
+          },
+          "xOffset": 0,
+          "yOffset": 4,
+          "xAdvance": 32
+        },
+        "52": {
+          "rect": {
+            "x": 0,
+            "y": 47,
+            "width": 34,
+            "height": 47
+          },
+          "xOffset": 0,
+          "yOffset": 5,
+          "xAdvance": 34
+        },
+        "53": {
+          "rect": {
+            "x": 67,
+            "y": 0,
+            "width": 32,
+            "height": 48
+          },
+          "xOffset": 0,
+          "yOffset": 5,
+          "xAdvance": 32
+        },
+        "54": {
+          "rect": {
+            "x": 34,
+            "y": 96,
+            "width": 33,
+            "height": 49
+          },
+          "xOffset": 0,
+          "yOffset": 4,
+          "xAdvance": 33
+        },
+        "55": {
+          "rect": {
+            "x": 131,
+            "y": 47,
+            "width": 27,
+            "height": 47
+          },
+          "xOffset": 0,
+          "yOffset": 5,
+          "xAdvance": 27
+        },
+        "56": {
+          "rect": {
+            "x": 34,
+            "y": 47,
+            "width": 33,
+            "height": 49
+          },
+          "xOffset": 0,
+          "yOffset": 4,
+          "xAdvance": 33
+        },
+        "57": {
+          "rect": {
+            "x": 67,
+            "y": 48,
+            "width": 32,
+            "height": 49
+          },
+          "xOffset": 0,
+          "yOffset": 4,
+          "xAdvance": 32
+        },
+        "66": {
+          "rect": {
+            "x": 99,
+            "y": 0,
+            "width": 32,
+            "height": 47
+          },
+          "xOffset": 0,
+          "yOffset": 5,
+          "xAdvance": 32
+        },
+        "75": {
+          "rect": {
+            "x": 0,
+            "y": 94,
+            "width": 34,
+            "height": 47
+          },
+          "xOffset": 0,
+          "yOffset": 5,
+          "xAdvance": 34
+        },
+        "77": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 42,
+            "height": 47
+          },
+          "xOffset": 0,
+          "yOffset": 5,
+          "xAdvance": 42
+        },
+        "84": {
+          "rect": {
+            "x": 131,
+            "y": 0,
+            "width": 31,
+            "height": 47
+          },
+          "xOffset": 0,
+          "yOffset": 5,
+          "xAdvance": 31
+        }
+      },
+      "kerningDict": {}
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Kangaroos_font",
+      "texture": "f4NJHmbm5PXa8jRm8LKmO2",
+      "rect": [
+        0,
+        0,
+        162,
+        159
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        162,
+        159
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

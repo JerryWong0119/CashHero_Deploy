@@ -1,1 +1,270 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"sSlJw26/nOpymT5U9apS0D6wK94","spine":"3.6.53","width":406,"height":315.6,"images":""},"bones":[{"name":"root"},{"name":"lihui","parent":"root","x":7.68,"y":12.56},{"name":"logo","parent":"root","y":13.26}],"slots":[{"name":"bj","bone":"root","attachment":"bj"},{"name":"lihui","bone":"lihui","attachment":"lihui"},{"name":"logo","bone":"logo","attachment":"logo"},{"name":"Lark20210709-170856","bone":"root"},{"name":"c1","bone":"root"}],"skins":{"default":{"Lark20210709-170856":{"Lark20210709-170856":{"width":236,"height":236}},"bj":{"bj":{"width":406,"height":236}},"c1":{"c13":{"type":"clipping","end":"lihui","vertexCount":8,"vertices":[-110.54,104.79,-94.45,111.02,101.73,108.94,111.59,95.97,111.07,-100.21,94.46,-113.71,-101.72,-111.63,-112.62,-98.66],"color":"ce3a3aff"}},"lihui":{"lihui":{"y":31,"width":224,"height":303}},"logo":{"logo":{"y":-83.8,"width":198,"height":100}}}},"animations":{"animation":{"slots":{"bj":{"attachment":[{"time":0,"name":"bj"},{"time":2.6667,"name":"bj"}]},"c1":{"attachment":[{"time":0,"name":null}]},"lihui":{"attachment":[{"time":0,"name":"lihui"},{"time":2.6667,"name":"lihui"}]},"logo":{"attachment":[{"time":0,"name":"logo"},{"time":2.6667,"name":"logo"}]}}},"animation2":{"slots":{"Lark20210709-170856":{"attachment":[{"time":0,"name":"Lark20210709-170856"}]},"bj":{"attachment":[{"time":0,"name":"bj"}]},"c1":{"attachment":[{"time":0,"name":"c13"}]},"lihui":{"attachment":[{"time":0,"name":"lihui"},{"time":2.6667,"name":"lihui"}]},"logo":{"attachment":[{"time":0,"name":"logo"},{"time":2.6667,"name":"logo"}]}},"bones":{"lihui":{"translate":[{"time":0,"x":17.4,"y":-33.81}],"scale":[{"time":0,"x":1,"y":1}]},"logo":{"translate":[{"time":0,"x":0,"y":-8.03}],"scale":[{"time":0,"x":0.9,"y":0.9}]}},"drawOrder":[{"time":0,"offsets":[{"slot":"logo","offset":2},{"slot":"c1","offset":-4}]}]}}},"_atlasText":"\nspine.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nLark20210709-170856\n  rotate: false\n  xy: 410, 228\n  size: 236, 236\n  orig: 236, 236\n  offset: 0, 0\n  index: -1\nbj\n  rotate: false\n  xy: 2, 228\n  size: 406, 236\n  orig: 406, 236\n  offset: 0, 0\n  index: -1\nlihui\n  rotate: true\n  xy: 2, 2\n  size: 224, 303\n  orig: 224, 303\n  offset: 0, 0\n  index: -1\nlogo\n  rotate: false\n  xy: 307, 126\n  size: 198, 100\n  orig: 198, 100\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"c4WwGvH1xNoaIYVIFKOzqB"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "sSlJw26/nOpymT5U9apS0D6wK94",
+      "spine": "3.6.53",
+      "width": 406,
+      "height": 315.6,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "lihui",
+        "parent": "root",
+        "x": 7.68,
+        "y": 12.56
+      },
+      {
+        "name": "logo",
+        "parent": "root",
+        "y": 13.26
+      }
+    ],
+    "slots": [
+      {
+        "name": "bj",
+        "bone": "root",
+        "attachment": "bj"
+      },
+      {
+        "name": "lihui",
+        "bone": "lihui",
+        "attachment": "lihui"
+      },
+      {
+        "name": "logo",
+        "bone": "logo",
+        "attachment": "logo"
+      },
+      {
+        "name": "Lark20210709-170856",
+        "bone": "root"
+      },
+      {
+        "name": "c1",
+        "bone": "root"
+      }
+    ],
+    "skins": {
+      "default": {
+        "Lark20210709-170856": {
+          "Lark20210709-170856": {
+            "width": 236,
+            "height": 236
+          }
+        },
+        "bj": {
+          "bj": {
+            "width": 406,
+            "height": 236
+          }
+        },
+        "c1": {
+          "c13": {
+            "type": "clipping",
+            "end": "lihui",
+            "vertexCount": 8,
+            "vertices": [
+              -110.54,
+              104.79,
+              -94.45,
+              111.02,
+              101.73,
+              108.94,
+              111.59,
+              95.97,
+              111.07,
+              -100.21,
+              94.46,
+              -113.71,
+              -101.72,
+              -111.63,
+              -112.62,
+              -98.66
+            ],
+            "color": "ce3a3aff"
+          }
+        },
+        "lihui": {
+          "lihui": {
+            "y": 31,
+            "width": 224,
+            "height": 303
+          }
+        },
+        "logo": {
+          "logo": {
+            "y": -83.8,
+            "width": 198,
+            "height": 100
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "bj": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "bj"
+              },
+              {
+                "time": 2.6667,
+                "name": "bj"
+              }
+            ]
+          },
+          "c1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              }
+            ]
+          },
+          "lihui": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lihui"
+              },
+              {
+                "time": 2.6667,
+                "name": "lihui"
+              }
+            ]
+          },
+          "logo": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "logo"
+              },
+              {
+                "time": 2.6667,
+                "name": "logo"
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "Lark20210709-170856": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "Lark20210709-170856"
+              }
+            ]
+          },
+          "bj": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "bj"
+              }
+            ]
+          },
+          "c1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "c13"
+              }
+            ]
+          },
+          "lihui": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "lihui"
+              },
+              {
+                "time": 2.6667,
+                "name": "lihui"
+              }
+            ]
+          },
+          "logo": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "logo"
+              },
+              {
+                "time": 2.6667,
+                "name": "logo"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "lihui": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 17.4,
+                "y": -33.81
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "logo": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -8.03
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.9,
+                "y": 0.9
+              }
+            ]
+          }
+        },
+        "drawOrder": [
+          {
+            "time": 0,
+            "offsets": [
+              {
+                "slot": "logo",
+                "offset": 2
+              },
+              {
+                "slot": "c1",
+                "offset": -4
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 1024,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nLark20210709-170856\n  rotate: false\n  xy: 410, 228\n  size: 236, 236\n  orig: 236, 236\n  offset: 0, 0\n  index: -1\nbj\n  rotate: false\n  xy: 2, 228\n  size: 406, 236\n  orig: 406, 236\n  offset: 0, 0\n  index: -1\nlihui\n  rotate: true\n  xy: 2, 2\n  size: 224, 303\n  orig: 224, 303\n  offset: 0, 0\n  index: -1\nlogo\n  rotate: false\n  xy: 307, 126\n  size: 198, 100\n  orig: 198, 100\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "c4WwGvH1xNoaIYVIFKOzqB"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

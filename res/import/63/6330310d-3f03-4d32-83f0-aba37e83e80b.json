@@ -1,1 +1,377 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"sTTJTi44tjCx9AR+dEO6R2R+gc0","spine":"3.6.53","width":184.83,"height":172.77,"images":"./img/"},"bones":[{"name":"root"},{"name":"deng1","parent":"root","x":-0.15,"y":-0.15},{"name":"1","parent":"deng1","x":0.21,"y":0.21},{"name":"deng","parent":"deng1","x":0.87,"y":-0.74},{"name":"dengbj","parent":"deng1"},{"name":"dengkuang","parent":"deng1"},{"name":"gaoliang01","parent":"1","scaleX":7.68,"scaleY":7.68},{"name":"zhuanguang01","parent":"1","scaleX":2.009,"scaleY":2.009},{"name":"zhuanguang1","parent":"1","scaleX":2.009,"scaleY":2.009}],"slots":[{"name":"dengbj","bone":"dengbj","attachment":"bj"},{"name":"cj","bone":"root","attachment":"cj"},{"name":"zhuanguang01","bone":"zhuanguang01","attachment":"zhuanguang01","blend":"additive"},{"name":"zhuanguang1","bone":"zhuanguang1","attachment":"zhuanguang01","blend":"additive"},{"name":"gaoliang01","bone":"gaoliang01","attachment":"gaoliang01","blend":"additive"},{"name":"deng","bone":"deng","attachment":"dl"},{"name":"dengkuang","bone":"dengkuang","attachment":"bk"}],"skins":{"default":{"cj":{"cj":{"type":"clipping","end":"deng","vertexCount":4,"vertices":[-59.39,38.39,58.35,37.5,58.35,-38.32,-59.17,-38.1],"color":"ce3a3aff"}},"deng":{"dl":{"width":77,"height":70}},"dengbj":{"bj":{"width":116,"height":74}},"dengkuang":{"bk":{"width":122,"height":80}},"gaoliang01":{"gaoliang01":{"width":21,"height":22}},"zhuanguang01":{"zhuanguang01":{"width":92,"height":86}},"zhuanguang1":{"zhuanguang01":{"width":92,"height":86}}}},"animations":{"animation":{"slots":{"gaoliang01":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}]},"zhuanguang01":{"color":[{"time":0,"color":"ffffff00"},{"time":1,"color":"ffffffff"},{"time":2,"color":"ffffff00"}]},"zhuanguang1":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":2,"color":"ffffff00"}]}},"bones":{"1":{"scale":[{"time":0,"x":0.993,"y":0.828}]},"zhuanguang01":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":60}]},"zhuanguang1":{"rotate":[{"time":0,"angle":60,"curve":[0.25,0,0.75,1]},{"time":2,"angle":0}]},"deng":{"rotate":[{"time":0,"angle":0,"curve":[0.25,0,0.75,1]},{"time":0.6667,"angle":12.83,"curve":[0.25,0,0.75,1]},{"time":1.1667,"angle":-8.19,"curve":[0.25,0,0.75,1]},{"time":1.7333,"angle":0}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.3333,"x":1.376,"y":1.262,"curve":[0.25,0,0.75,1]},{"time":0.8333,"x":0.863,"y":0.863,"curve":[0.25,0,0.75,1]},{"time":1.3333,"x":1.099,"y":1.099,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1}]}}}}},"_atlasText":"\nspine.png\nsize: 512,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbj\n  rotate: false\n  xy: 126, 32\n  size: 116, 74\n  orig: 116, 74\n  offset: 0, 0\n  index: -1\nbk\n  rotate: false\n  xy: 2, 26\n  size: 122, 80\n  orig: 122, 80\n  offset: 0, 0\n  index: -1\ndl\n  rotate: false\n  xy: 338, 36\n  size: 77, 70\n  orig: 77, 70\n  offset: 0, 0\n  index: -1\ngaoliang01\n  rotate: false\n  xy: 2, 2\n  size: 21, 22\n  orig: 21, 22\n  offset: 0, 0\n  index: -1\nzhuanguang01\n  rotate: false\n  xy: 244, 20\n  size: 92, 86\n  orig: 92, 86\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"7393Rogj9AK6AJ3Rde9Pzq"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "sTTJTi44tjCx9AR+dEO6R2R+gc0",
+      "spine": "3.6.53",
+      "width": 184.83,
+      "height": 172.77,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "deng1",
+        "parent": "root",
+        "x": -0.15,
+        "y": -0.15
+      },
+      {
+        "name": "1",
+        "parent": "deng1",
+        "x": 0.21,
+        "y": 0.21
+      },
+      {
+        "name": "deng",
+        "parent": "deng1",
+        "x": 0.87,
+        "y": -0.74
+      },
+      {
+        "name": "dengbj",
+        "parent": "deng1"
+      },
+      {
+        "name": "dengkuang",
+        "parent": "deng1"
+      },
+      {
+        "name": "gaoliang01",
+        "parent": "1",
+        "scaleX": 7.68,
+        "scaleY": 7.68
+      },
+      {
+        "name": "zhuanguang01",
+        "parent": "1",
+        "scaleX": 2.009,
+        "scaleY": 2.009
+      },
+      {
+        "name": "zhuanguang1",
+        "parent": "1",
+        "scaleX": 2.009,
+        "scaleY": 2.009
+      }
+    ],
+    "slots": [
+      {
+        "name": "dengbj",
+        "bone": "dengbj",
+        "attachment": "bj"
+      },
+      {
+        "name": "cj",
+        "bone": "root",
+        "attachment": "cj"
+      },
+      {
+        "name": "zhuanguang01",
+        "bone": "zhuanguang01",
+        "attachment": "zhuanguang01",
+        "blend": "additive"
+      },
+      {
+        "name": "zhuanguang1",
+        "bone": "zhuanguang1",
+        "attachment": "zhuanguang01",
+        "blend": "additive"
+      },
+      {
+        "name": "gaoliang01",
+        "bone": "gaoliang01",
+        "attachment": "gaoliang01",
+        "blend": "additive"
+      },
+      {
+        "name": "deng",
+        "bone": "deng",
+        "attachment": "dl"
+      },
+      {
+        "name": "dengkuang",
+        "bone": "dengkuang",
+        "attachment": "bk"
+      }
+    ],
+    "skins": {
+      "default": {
+        "cj": {
+          "cj": {
+            "type": "clipping",
+            "end": "deng",
+            "vertexCount": 4,
+            "vertices": [
+              -59.39,
+              38.39,
+              58.35,
+              37.5,
+              58.35,
+              -38.32,
+              -59.17,
+              -38.1
+            ],
+            "color": "ce3a3aff"
+          }
+        },
+        "deng": {
+          "dl": {
+            "width": 77,
+            "height": 70
+          }
+        },
+        "dengbj": {
+          "bj": {
+            "width": 116,
+            "height": 74
+          }
+        },
+        "dengkuang": {
+          "bk": {
+            "width": 122,
+            "height": 80
+          }
+        },
+        "gaoliang01": {
+          "gaoliang01": {
+            "width": 21,
+            "height": 22
+          }
+        },
+        "zhuanguang01": {
+          "zhuanguang01": {
+            "width": 92,
+            "height": 86
+          }
+        },
+        "zhuanguang1": {
+          "zhuanguang01": {
+            "width": 92,
+            "height": 86
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "gaoliang01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "zhuanguang01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "zhuanguang1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "1": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.993,
+                "y": 0.828
+              }
+            ]
+          },
+          "zhuanguang01": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": 60
+              }
+            ]
+          },
+          "zhuanguang1": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 60,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          },
+          "deng": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "angle": 12.83,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "angle": -8.19,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.7333,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.376,
+                "y": 1.262,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 0.863,
+                "y": 0.863,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 1.099,
+                "y": 1.099,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 512,128\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbj\n  rotate: false\n  xy: 126, 32\n  size: 116, 74\n  orig: 116, 74\n  offset: 0, 0\n  index: -1\nbk\n  rotate: false\n  xy: 2, 26\n  size: 122, 80\n  orig: 122, 80\n  offset: 0, 0\n  index: -1\ndl\n  rotate: false\n  xy: 338, 36\n  size: 77, 70\n  orig: 77, 70\n  offset: 0, 0\n  index: -1\ngaoliang01\n  rotate: false\n  xy: 2, 2\n  size: 21, 22\n  orig: 21, 22\n  offset: 0, 0\n  index: -1\nzhuanguang01\n  rotate: false\n  xy: 244, 20\n  size: 92, 86\n  orig: 92, 86\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "7393Rogj9AK6AJ3Rde9Pzq"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

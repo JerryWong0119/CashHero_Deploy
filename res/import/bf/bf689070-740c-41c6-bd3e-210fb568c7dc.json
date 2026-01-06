@@ -1,1 +1,112 @@
-{"__type__":"sp.SkeletonData","_name":"HD_zhuanpai_04","_skeletonJson":{"skeleton":{"hash":"gv7//fbg9D3noFG5HHqOsvg0MkY","spine":"3.6.52","width":715,"height":715,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"xiaodeng01","parent":"root","scaleX":24.479,"scaleY":24.479},{"name":"xuanzhuanguang01","parent":"root","scaleX":4.397,"scaleY":4.397}],"slots":[{"name":"xuanzhuanguang1","bone":"xuanzhuanguang01","attachment":"xuanzhuanguang01"},{"name":"xuanzhuanguang01","bone":"xuanzhuanguang01","attachment":"xuanzhuanguang01","additive":1},{"name":"xiaodeng01","bone":"xiaodeng01","attachment":"xiaodeng01","additive":1}],"skins":{"default":{"xiaodeng01":{"xiaodeng01":{"width":24,"height":23}},"xuanzhuanguang01":{"xuanzhuanguang01":{"width":150,"height":146}},"xuanzhuanguang1":{"xuanzhuanguang01":{"width":150,"height":146}}}},"animations":{"animation":{"slots":{"xiaodeng01":{"color":[{"time":0,"color":"fff9b5ff"}]}},"bones":{"xuanzhuanguang01":{"rotate":[{"time":0,"angle":0},{"time":2,"angle":180},{"time":4,"angle":0}]}}}}},"_atlasText":"\nHD_zhuanpai_04.png\nsize: 180,150\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nxiaodeng01\n  rotate: false\n  xy: 154, 125\n  size: 24, 23\n  orig: 24, 23\n  offset: 0, 0\n  index: -1\nxuanzhuanguang01\n  rotate: false\n  xy: 2, 2\n  size: 150, 146\n  orig: 150, 146\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"c06ldzEwFCxYlGEV5GutSY"}],"textureNames":["HD_zhuanpai_04.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "HD_zhuanpai_04",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "gv7//fbg9D3noFG5HHqOsvg0MkY",
+      "spine": "3.6.52",
+      "width": 715,
+      "height": 715,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "xiaodeng01",
+        "parent": "root",
+        "scaleX": 24.479,
+        "scaleY": 24.479
+      },
+      {
+        "name": "xuanzhuanguang01",
+        "parent": "root",
+        "scaleX": 4.397,
+        "scaleY": 4.397
+      }
+    ],
+    "slots": [
+      {
+        "name": "xuanzhuanguang1",
+        "bone": "xuanzhuanguang01",
+        "attachment": "xuanzhuanguang01"
+      },
+      {
+        "name": "xuanzhuanguang01",
+        "bone": "xuanzhuanguang01",
+        "attachment": "xuanzhuanguang01",
+        "additive": 1
+      },
+      {
+        "name": "xiaodeng01",
+        "bone": "xiaodeng01",
+        "attachment": "xiaodeng01",
+        "additive": 1
+      }
+    ],
+    "skins": {
+      "default": {
+        "xiaodeng01": {
+          "xiaodeng01": {
+            "width": 24,
+            "height": 23
+          }
+        },
+        "xuanzhuanguang01": {
+          "xuanzhuanguang01": {
+            "width": 150,
+            "height": 146
+          }
+        },
+        "xuanzhuanguang1": {
+          "xuanzhuanguang01": {
+            "width": 150,
+            "height": 146
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "xiaodeng01": {
+            "color": [
+              {
+                "time": 0,
+                "color": "fff9b5ff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "xuanzhuanguang01": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 2,
+                "angle": 180
+              },
+              {
+                "time": 4,
+                "angle": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nHD_zhuanpai_04.png\nsize: 180,150\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nxiaodeng01\n  rotate: false\n  xy: 154, 125\n  size: 24, 23\n  orig: 24, 23\n  offset: 0, 0\n  index: -1\nxuanzhuanguang01\n  rotate: false\n  xy: 2, 2\n  size: 150, 146\n  orig: 150, 146\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "c06ldzEwFCxYlGEV5GutSY"
+    }
+  ],
+  "textureNames": [
+    "HD_zhuanpai_04.png"
+  ]
+}

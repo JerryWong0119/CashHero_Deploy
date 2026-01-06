@@ -1,1 +1,85 @@
-[{"__type__":"cc.Prefab","_name":"hp_num","data":{"__id__":1}},{"__type__":"cc.Node","_name":"lbl_damage","_components":[{"__type__":"cc.Label","node":{"__id__":1},"_materials":[{"__uuid__":"ecpdLyjvZBwrvm+cedCcQy"}],"_useOriginalSize":false,"_string":"-108","_N$string":"-108","_fontSize":68,"_lineHeight":70,"_N$file":{"__uuid__":"1dli2KFtROoJJV/KDsm0K1"},"_isSystemFontUsed":false,"_styleFlags":2,"_N$horizontalAlign":1,"_N$verticalAlign":1},{"__type__":"cc.LabelOutline","node":{"__id__":1},"_color":{"__type__":"cc.Color","r":36,"g":8},"_width":4}],"_prefab":{"__type__":"cc.PrefabInfo","root":{"__id__":1},"asset":{"__uuid__":"ddU5ML3edLD7UDJwSE7+N5"},"fileId":"2bqHGVI8JOQY05tVj5B3eT"},"_color":{"__type__":"cc.Color","r":255},"_contentSize":{"__type__":"cc.Size","width":173.61384617655253,"height":96.2},"_trs":{"__type__":"TypedArray","ctor":"Float64Array","array":[0,0,0,0,0,0,1,1,1,1]}}]
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "hp_num",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "lbl_damage",
+    "_components": [
+      {
+        "__type__": "cc.Label",
+        "node": {
+          "__id__": 1
+        },
+        "_materials": [
+          {
+            "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+          }
+        ],
+        "_useOriginalSize": false,
+        "_string": "-108",
+        "_N$string": "-108",
+        "_fontSize": 68,
+        "_lineHeight": 70,
+        "_N$file": {
+          "__uuid__": "1dli2KFtROoJJV/KDsm0K1"
+        },
+        "_isSystemFontUsed": false,
+        "_styleFlags": 2,
+        "_N$horizontalAlign": 1,
+        "_N$verticalAlign": 1
+      },
+      {
+        "__type__": "cc.LabelOutline",
+        "node": {
+          "__id__": 1
+        },
+        "_color": {
+          "__type__": "cc.Color",
+          "r": 36,
+          "g": 8
+        },
+        "_width": 4
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "ddU5ML3edLD7UDJwSE7+N5"
+      },
+      "fileId": "2bqHGVI8JOQY05tVj5B3eT"
+    },
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 173.61384617655253,
+      "height": 96.2
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  }
+]

@@ -1,1 +1,88 @@
-{"__type__":"sp.SkeletonData","_name":"bouns_tw_01","_skeletonJson":{"skeleton":{"hash":"r8h+3CtBiKaBmaQ1m7Lku3Yor98","spine":"3.6.53","width":243,"height":454,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"tuoweidantu","parent":"root","y":-58.03},{"name":"骨骼","parent":"root","scaleX":0.85,"scaleY":0.85}],"slots":[{"name":"tuoweidantu","bone":"tuoweidantu","attachment":"tuoweidantu"},{"name":"tuoweidantu2","bone":"tuoweidantu","attachment":"tuoweidantu","blend":"additive"},{"name":"theme178_s_11","bone":"骨骼"}],"skins":{"default":{"tuoweidantu":{"tuoweidantu":{"y":155.37,"width":243,"height":454}},"tuoweidantu2":{"tuoweidantu":{"y":155.37,"width":243,"height":454}}}},"animations":{"animation1":{"bones":{"tuoweidantu":{"scale":[{"time":0,"x":1.217,"y":1.932}]}}}}},"_atlasText":"\nbouns_tw_01.png\nsize: 243,454\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntuoweidantu\n  rotate: false\n  xy: 0, 0\n  size: 243, 454\n  orig: 243, 454\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"3aTclKgE5KspmXFqBa5e0f"}],"textureNames":["bouns_tw_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "bouns_tw_01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "r8h+3CtBiKaBmaQ1m7Lku3Yor98",
+      "spine": "3.6.53",
+      "width": 243,
+      "height": 454,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "tuoweidantu",
+        "parent": "root",
+        "y": -58.03
+      },
+      {
+        "name": "骨骼",
+        "parent": "root",
+        "scaleX": 0.85,
+        "scaleY": 0.85
+      }
+    ],
+    "slots": [
+      {
+        "name": "tuoweidantu",
+        "bone": "tuoweidantu",
+        "attachment": "tuoweidantu"
+      },
+      {
+        "name": "tuoweidantu2",
+        "bone": "tuoweidantu",
+        "attachment": "tuoweidantu",
+        "blend": "additive"
+      },
+      {
+        "name": "theme178_s_11",
+        "bone": "骨骼"
+      }
+    ],
+    "skins": {
+      "default": {
+        "tuoweidantu": {
+          "tuoweidantu": {
+            "y": 155.37,
+            "width": 243,
+            "height": 454
+          }
+        },
+        "tuoweidantu2": {
+          "tuoweidantu": {
+            "y": 155.37,
+            "width": 243,
+            "height": 454
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "bones": {
+          "tuoweidantu": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.217,
+                "y": 1.932
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbouns_tw_01.png\nsize: 243,454\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntuoweidantu\n  rotate: false\n  xy: 0, 0\n  size: 243, 454\n  orig: 243, 454\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "3aTclKgE5KspmXFqBa5e0f"
+    }
+  ],
+  "textureNames": [
+    "bouns_tw_01.png"
+  ]
+}

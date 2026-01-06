@@ -1,1 +1,163 @@
-{"__type__":"sp.SkeletonData","_name":"fg_kuang_jt_01","_skeletonJson":{"skeleton":{"hash":"NFArDiSeJG9ahSkYOSFjuIlTEv4","spine":"3.6.53","width":1060,"height":1560,"images":"../texiao/"},"bones":[{"name":"root"},{"name":"hongjiantou01","parent":"root","x":-7.75,"y":0.2},{"name":"hongjiantou1","parent":"root","x":8.88,"y":0.2},{"name":"骨骼","parent":"root","x":13.3,"y":-25.2},{"name":"骨骼2","parent":"root"}],"slots":[{"name":"free","bone":"骨骼"},{"name":"参考箭头位置01","bone":"骨骼2"},{"name":"hongjiantou01","bone":"hongjiantou01","attachment":"hongjiantou01"},{"name":"hongjiantou1","bone":"hongjiantou1","attachment":"hongjiantou01"}],"skins":{"default":{"hongjiantou01":{"hongjiantou01":{"width":19,"height":28}},"hongjiantou1":{"hongjiantou01":{"width":19,"height":28}}}},"animations":{"animation1":{"slots":{"hongjiantou01":{"attachment":[{"time":0,"name":"hongjiantou01"},{"time":0.1667,"name":null}]},"hongjiantou1":{"attachment":[{"time":0,"name":null},{"time":0.1667,"name":"hongjiantou01"},{"time":0.3333,"name":null},{"time":0.6667,"name":null}]}}},"animation2":{"slots":{"hongjiantou01":{"attachment":[{"time":0,"name":null},{"time":0.3333,"name":"hongjiantou01"},{"time":0.5,"name":null}]},"hongjiantou1":{"attachment":[{"time":0,"name":null},{"time":0.3333,"name":null},{"time":0.5,"name":"hongjiantou01"},{"time":0.6667,"name":null}]}}}}},"_atlasText":"\nfg_kuang_jt_01.png\nsize: 23,32\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nhongjiantou01\n  rotate: false\n  xy: 2, 2\n  size: 19, 28\n  orig: 19, 28\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"7d0TXyluBFfpK4KBKHxK7t"}],"textureNames":["fg_kuang_jt_01.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "fg_kuang_jt_01",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "NFArDiSeJG9ahSkYOSFjuIlTEv4",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../texiao/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "hongjiantou01",
+        "parent": "root",
+        "x": -7.75,
+        "y": 0.2
+      },
+      {
+        "name": "hongjiantou1",
+        "parent": "root",
+        "x": 8.88,
+        "y": 0.2
+      },
+      {
+        "name": "骨骼",
+        "parent": "root",
+        "x": 13.3,
+        "y": -25.2
+      },
+      {
+        "name": "骨骼2",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "free",
+        "bone": "骨骼"
+      },
+      {
+        "name": "参考箭头位置01",
+        "bone": "骨骼2"
+      },
+      {
+        "name": "hongjiantou01",
+        "bone": "hongjiantou01",
+        "attachment": "hongjiantou01"
+      },
+      {
+        "name": "hongjiantou1",
+        "bone": "hongjiantou1",
+        "attachment": "hongjiantou01"
+      }
+    ],
+    "skins": {
+      "default": {
+        "hongjiantou01": {
+          "hongjiantou01": {
+            "width": 19,
+            "height": 28
+          }
+        },
+        "hongjiantou1": {
+          "hongjiantou01": {
+            "width": 19,
+            "height": 28
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "hongjiantou01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "hongjiantou01"
+              },
+              {
+                "time": 0.1667,
+                "name": null
+              }
+            ]
+          },
+          "hongjiantou1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "hongjiantou01"
+              },
+              {
+                "time": 0.3333,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "hongjiantou01": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": "hongjiantou01"
+              },
+              {
+                "time": 0.5,
+                "name": null
+              }
+            ]
+          },
+          "hongjiantou1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": null
+              },
+              {
+                "time": 0.5,
+                "name": "hongjiantou01"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nfg_kuang_jt_01.png\nsize: 23,32\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nhongjiantou01\n  rotate: false\n  xy: 2, 2\n  size: 19, 28\n  orig: 19, 28\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "7d0TXyluBFfpK4KBKHxK7t"
+    }
+  ],
+  "textureNames": [
+    "fg_kuang_jt_01.png"
+  ]
+}

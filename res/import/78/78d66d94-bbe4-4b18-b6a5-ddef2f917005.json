@@ -1,1 +1,52 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"b/NLT5oTf2It8rHaGjoarrvleWk","spine":"3.6.53","width":500,"height":500,"images":"./img/"},"bones":[{"name":"root"}],"slots":[{"name":"kkk","bone":"root"},{"name":"01","bone":"root","attachment":"01"}],"skins":{"default":{"01":{"01":{"y":-1.45,"width":500,"height":500}}}},"animations":{"animation":{}}},"_atlasText":"\nspine.png\nsize: 512,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n01\n  rotate: false\n  xy: 1, 1\n  size: 406, 335\n  orig: 500, 500\n  offset: 47, 133\n  index: -1\n","textures":[{"__uuid__":"a8zDtof09BZLcz0hP/rsov"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "b/NLT5oTf2It8rHaGjoarrvleWk",
+      "spine": "3.6.53",
+      "width": 500,
+      "height": 500,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "kkk",
+        "bone": "root"
+      },
+      {
+        "name": "01",
+        "bone": "root",
+        "attachment": "01"
+      }
+    ],
+    "skins": {
+      "default": {
+        "01": {
+          "01": {
+            "y": -1.45,
+            "width": 500,
+            "height": 500
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {}
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 512,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n01\n  rotate: false\n  xy: 1, 1\n  size: 406, 335\n  orig: 500, 500\n  offset: 47, 133\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "a8zDtof09BZLcz0hP/rsov"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

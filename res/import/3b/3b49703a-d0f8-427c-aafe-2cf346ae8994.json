@@ -1,1 +1,246 @@
-{"__type__":"sp.SkeletonData","_name":"BG_tc_win_title","_skeletonJson":{"skeleton":{"hash":"jt4iwltBRe5Vjczyx32d39wChTM","spine":"3.6.53","width":0,"height":0,"images":"./images/"},"bones":[{"name":"root"},{"name":"sg","parent":"root","scaleX":2.5,"scaleY":2.5},{"name":"title","parent":"root"}],"slots":[{"name":"title","bone":"title"},{"name":"sg","bone":"sg","blend":"additive"}],"skins":{"default":{"sg":{"sg/sg_01":{"width":200,"height":80},"sg/sg_02":{"width":200,"height":80},"sg/sg_03":{"width":200,"height":80},"sg/sg_04":{"width":200,"height":80},"sg/sg_05":{"width":200,"height":80},"sg/sg_06":{"width":200,"height":80},"sg/sg_07":{"width":200,"height":80},"sg/sg_08":{"width":200,"height":80},"sg/sg_09":{"width":200,"height":80},"sg/sg_10":{"width":200,"height":80},"sg/sg_11":{"width":200,"height":80},"sg/sg_12":{"width":200,"height":80},"sg/sg_13":{"width":200,"height":80},"sg/sg_14":{"width":200,"height":80},"sg/sg_15":{"width":200,"height":80},"sg/sg_16":{"width":200,"height":80},"sg/sg_17":{"width":200,"height":80},"sg/sg_18":{"width":200,"height":80},"sg/sg_19":{"width":200,"height":80}},"title":{"victory":{"width":479,"height":163}}}},"animations":{"title":{"slots":{"sg":{"attachment":[{"time":0,"name":null},{"time":0.3333,"name":null},{"time":0.4,"name":"sg/sg_01"},{"time":0.4667,"name":"sg/sg_02"},{"time":0.5333,"name":"sg/sg_03"},{"time":0.6,"name":"sg/sg_04"},{"time":0.6667,"name":"sg/sg_05"},{"time":0.7333,"name":"sg/sg_06"},{"time":0.8,"name":"sg/sg_07"},{"time":0.8667,"name":"sg/sg_08"},{"time":0.9333,"name":"sg/sg_09"},{"time":1,"name":"sg/sg_10"},{"time":1.0667,"name":"sg/sg_11"},{"time":1.1333,"name":"sg/sg_12"},{"time":1.2,"name":"sg/sg_13"},{"time":1.2667,"name":"sg/sg_14"},{"time":1.3333,"name":"sg/sg_15"},{"time":1.4,"name":"sg/sg_16"},{"time":1.4667,"name":"sg/sg_17"},{"time":1.5333,"name":"sg/sg_18"},{"time":1.6,"name":"sg/sg_19"},{"time":1.6667,"name":null},{"time":3,"name":null}]},"title":{"attachment":[{"time":0,"name":"victory"}]}}}}},"_atlasText":"\nBG_tc_win_title.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nsg/sg_01\n  rotate: false\n  xy: 745, 46\n  size: 32, 52\n  orig: 200, 80\n  offset: 6, 15\n  index: -1\nsg/sg_02\n  rotate: false\n  xy: 664, 40\n  size: 46, 59\n  orig: 200, 80\n  offset: 5, 10\n  index: -1\nsg/sg_03\n  rotate: true\n  xy: 549, 38\n  size: 60, 61\n  orig: 200, 80\n  offset: 4, 9\n  index: -1\nsg/sg_04\n  rotate: true\n  xy: 950, 156\n  size: 74, 63\n  orig: 200, 80\n  offset: 4, 8\n  index: -1\nsg/sg_05\n  rotate: false\n  xy: 827, 100\n  size: 89, 64\n  orig: 200, 80\n  offset: 5, 8\n  index: -1\nsg/sg_06\n  rotate: false\n  xy: 848, 166\n  size: 100, 64\n  orig: 200, 80\n  offset: 6, 8\n  index: -1\nsg/sg_07\n  rotate: false\n  xy: 264, 2\n  size: 114, 63\n  orig: 200, 80\n  offset: 7, 8\n  index: -1\nsg/sg_08\n  rotate: false\n  xy: 614, 166\n  size: 125, 64\n  orig: 200, 80\n  offset: 10, 8\n  index: -1\nsg/sg_09\n  rotate: false\n  xy: 2, 2\n  size: 130, 63\n  orig: 200, 80\n  offset: 19, 9\n  index: -1\nsg/sg_10\n  rotate: false\n  xy: 483, 100\n  size: 127, 64\n  orig: 200, 80\n  offset: 33, 8\n  index: -1\nsg/sg_11\n  rotate: false\n  xy: 483, 166\n  size: 129, 64\n  orig: 200, 80\n  offset: 48, 8\n  index: -1\nsg/sg_12\n  rotate: false\n  xy: 134, 2\n  size: 128, 63\n  orig: 200, 80\n  offset: 61, 8\n  index: -1\nsg/sg_13\n  rotate: false\n  xy: 612, 101\n  size: 118, 63\n  orig: 200, 80\n  offset: 74, 8\n  index: -1\nsg/sg_14\n  rotate: false\n  xy: 741, 166\n  size: 105, 64\n  orig: 200, 80\n  offset: 89, 8\n  index: -1\nsg/sg_15\n  rotate: false\n  xy: 732, 100\n  size: 93, 64\n  orig: 200, 80\n  offset: 102, 8\n  index: -1\nsg/sg_16\n  rotate: false\n  xy: 380, 3\n  size: 77, 62\n  orig: 200, 80\n  offset: 118, 9\n  index: -1\nsg/sg_17\n  rotate: false\n  xy: 483, 38\n  size: 64, 60\n  orig: 200, 80\n  offset: 131, 10\n  index: -1\nsg/sg_18\n  rotate: false\n  xy: 612, 40\n  size: 50, 59\n  orig: 200, 80\n  offset: 144, 10\n  index: -1\nsg/sg_19\n  rotate: false\n  xy: 712, 42\n  size: 31, 56\n  orig: 200, 80\n  offset: 163, 12\n  index: -1\nvictory\n  rotate: false\n  xy: 2, 67\n  size: 479, 163\n  orig: 479, 163\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"edYjqHc9dEEJGTNgmalrXR"}],"textureNames":["BG_tc_win_title.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "BG_tc_win_title",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "jt4iwltBRe5Vjczyx32d39wChTM",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "sg",
+        "parent": "root",
+        "scaleX": 2.5,
+        "scaleY": 2.5
+      },
+      {
+        "name": "title",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "title",
+        "bone": "title"
+      },
+      {
+        "name": "sg",
+        "bone": "sg",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "sg": {
+          "sg/sg_01": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_02": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_03": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_04": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_05": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_06": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_07": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_08": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_09": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_10": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_11": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_12": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_13": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_14": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_15": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_16": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_17": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_18": {
+            "width": 200,
+            "height": 80
+          },
+          "sg/sg_19": {
+            "width": 200,
+            "height": 80
+          }
+        },
+        "title": {
+          "victory": {
+            "width": 479,
+            "height": 163
+          }
+        }
+      }
+    },
+    "animations": {
+      "title": {
+        "slots": {
+          "sg": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": null
+              },
+              {
+                "time": 0.4,
+                "name": "sg/sg_01"
+              },
+              {
+                "time": 0.4667,
+                "name": "sg/sg_02"
+              },
+              {
+                "time": 0.5333,
+                "name": "sg/sg_03"
+              },
+              {
+                "time": 0.6,
+                "name": "sg/sg_04"
+              },
+              {
+                "time": 0.6667,
+                "name": "sg/sg_05"
+              },
+              {
+                "time": 0.7333,
+                "name": "sg/sg_06"
+              },
+              {
+                "time": 0.8,
+                "name": "sg/sg_07"
+              },
+              {
+                "time": 0.8667,
+                "name": "sg/sg_08"
+              },
+              {
+                "time": 0.9333,
+                "name": "sg/sg_09"
+              },
+              {
+                "time": 1,
+                "name": "sg/sg_10"
+              },
+              {
+                "time": 1.0667,
+                "name": "sg/sg_11"
+              },
+              {
+                "time": 1.1333,
+                "name": "sg/sg_12"
+              },
+              {
+                "time": 1.2,
+                "name": "sg/sg_13"
+              },
+              {
+                "time": 1.2667,
+                "name": "sg/sg_14"
+              },
+              {
+                "time": 1.3333,
+                "name": "sg/sg_15"
+              },
+              {
+                "time": 1.4,
+                "name": "sg/sg_16"
+              },
+              {
+                "time": 1.4667,
+                "name": "sg/sg_17"
+              },
+              {
+                "time": 1.5333,
+                "name": "sg/sg_18"
+              },
+              {
+                "time": 1.6,
+                "name": "sg/sg_19"
+              },
+              {
+                "time": 1.6667,
+                "name": null
+              },
+              {
+                "time": 3,
+                "name": null
+              }
+            ]
+          },
+          "title": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "victory"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nBG_tc_win_title.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nsg/sg_01\n  rotate: false\n  xy: 745, 46\n  size: 32, 52\n  orig: 200, 80\n  offset: 6, 15\n  index: -1\nsg/sg_02\n  rotate: false\n  xy: 664, 40\n  size: 46, 59\n  orig: 200, 80\n  offset: 5, 10\n  index: -1\nsg/sg_03\n  rotate: true\n  xy: 549, 38\n  size: 60, 61\n  orig: 200, 80\n  offset: 4, 9\n  index: -1\nsg/sg_04\n  rotate: true\n  xy: 950, 156\n  size: 74, 63\n  orig: 200, 80\n  offset: 4, 8\n  index: -1\nsg/sg_05\n  rotate: false\n  xy: 827, 100\n  size: 89, 64\n  orig: 200, 80\n  offset: 5, 8\n  index: -1\nsg/sg_06\n  rotate: false\n  xy: 848, 166\n  size: 100, 64\n  orig: 200, 80\n  offset: 6, 8\n  index: -1\nsg/sg_07\n  rotate: false\n  xy: 264, 2\n  size: 114, 63\n  orig: 200, 80\n  offset: 7, 8\n  index: -1\nsg/sg_08\n  rotate: false\n  xy: 614, 166\n  size: 125, 64\n  orig: 200, 80\n  offset: 10, 8\n  index: -1\nsg/sg_09\n  rotate: false\n  xy: 2, 2\n  size: 130, 63\n  orig: 200, 80\n  offset: 19, 9\n  index: -1\nsg/sg_10\n  rotate: false\n  xy: 483, 100\n  size: 127, 64\n  orig: 200, 80\n  offset: 33, 8\n  index: -1\nsg/sg_11\n  rotate: false\n  xy: 483, 166\n  size: 129, 64\n  orig: 200, 80\n  offset: 48, 8\n  index: -1\nsg/sg_12\n  rotate: false\n  xy: 134, 2\n  size: 128, 63\n  orig: 200, 80\n  offset: 61, 8\n  index: -1\nsg/sg_13\n  rotate: false\n  xy: 612, 101\n  size: 118, 63\n  orig: 200, 80\n  offset: 74, 8\n  index: -1\nsg/sg_14\n  rotate: false\n  xy: 741, 166\n  size: 105, 64\n  orig: 200, 80\n  offset: 89, 8\n  index: -1\nsg/sg_15\n  rotate: false\n  xy: 732, 100\n  size: 93, 64\n  orig: 200, 80\n  offset: 102, 8\n  index: -1\nsg/sg_16\n  rotate: false\n  xy: 380, 3\n  size: 77, 62\n  orig: 200, 80\n  offset: 118, 9\n  index: -1\nsg/sg_17\n  rotate: false\n  xy: 483, 38\n  size: 64, 60\n  orig: 200, 80\n  offset: 131, 10\n  index: -1\nsg/sg_18\n  rotate: false\n  xy: 612, 40\n  size: 50, 59\n  orig: 200, 80\n  offset: 144, 10\n  index: -1\nsg/sg_19\n  rotate: false\n  xy: 712, 42\n  size: 31, 56\n  orig: 200, 80\n  offset: 163, 12\n  index: -1\nvictory\n  rotate: false\n  xy: 2, 67\n  size: 479, 163\n  orig: 479, 163\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "edYjqHc9dEEJGTNgmalrXR"
+    }
+  ],
+  "textureNames": [
+    "BG_tc_win_title.png"
+  ]
+}

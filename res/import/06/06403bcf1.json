@@ -1,1 +1,232 @@
-[{"__type__":"cc.BitmapFont","_name":"FWWinNum","spriteFrame":{"__uuid__":"edWq7addJAzr6IXS8/1+bX"},"fontSize":32,"_fntConfig":{"commonHeight":72,"fontSize":32,"atlasName":"FWWinNum.png","fontDefDictionary":{"44":{"rect":{"x":279,"y":73,"width":21,"height":72},"xOffset":0,"yOffset":0,"xAdvance":20},"46":{"rect":{"x":301,"y":73,"width":21,"height":72},"xOffset":0,"yOffset":0,"xAdvance":20},"47":{"rect":{"x":249,"y":73,"width":29,"height":72},"xOffset":0,"yOffset":0,"xAdvance":28},"48":{"rect":{"x":251,"y":0,"width":44,"height":72},"xOffset":0,"yOffset":0,"xAdvance":43},"49":{"rect":{"x":217,"y":73,"width":31,"height":72},"xOffset":0,"yOffset":0,"xAdvance":30},"50":{"rect":{"x":0,"y":73,"width":43,"height":72},"xOffset":0,"yOffset":0,"xAdvance":42},"51":{"rect":{"x":132,"y":73,"width":42,"height":72},"xOffset":0,"yOffset":0,"xAdvance":41},"52":{"rect":{"x":205,"y":0,"width":45,"height":72},"xOffset":0,"yOffset":0,"xAdvance":44},"53":{"rect":{"x":175,"y":73,"width":41,"height":72},"xOffset":0,"yOffset":0,"xAdvance":40},"54":{"rect":{"x":296,"y":0,"width":44,"height":72},"xOffset":0,"yOffset":0,"xAdvance":43},"55":{"rect":{"x":44,"y":73,"width":43,"height":72},"xOffset":0,"yOffset":0,"xAdvance":42},"56":{"rect":{"x":88,"y":73,"width":43,"height":72},"xOffset":0,"yOffset":0,"xAdvance":42},"57":{"rect":{"x":341,"y":0,"width":44,"height":72},"xOffset":0,"yOffset":0,"xAdvance":43},"66":{"rect":{"x":157,"y":0,"width":47,"height":72},"xOffset":0,"yOffset":0,"xAdvance":46},"75":{"rect":{"x":108,"y":0,"width":48,"height":72},"xOffset":0,"yOffset":0,"xAdvance":47},"77":{"rect":{"x":0,"y":0,"width":57,"height":72},"xOffset":0,"yOffset":0,"xAdvance":56},"84":{"rect":{"x":58,"y":0,"width":49,"height":72},"xOffset":0,"yOffset":0,"xAdvance":48}},"kerningDict":{}}},{"__type__":"cc.SpriteFrame","content":{"name":"FWWinNum","texture":"04SrxeMgJK/KLac/gI/8wN","rect":[0,8,385,137],"offset":[-7.5,13.5],"originalSize":[400,180],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.BitmapFont",
+    "_name": "FWWinNum",
+    "spriteFrame": {
+      "__uuid__": "edWq7addJAzr6IXS8/1+bX"
+    },
+    "fontSize": 32,
+    "_fntConfig": {
+      "commonHeight": 72,
+      "fontSize": 32,
+      "atlasName": "FWWinNum.png",
+      "fontDefDictionary": {
+        "44": {
+          "rect": {
+            "x": 279,
+            "y": 73,
+            "width": 21,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 20
+        },
+        "46": {
+          "rect": {
+            "x": 301,
+            "y": 73,
+            "width": 21,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 20
+        },
+        "47": {
+          "rect": {
+            "x": 249,
+            "y": 73,
+            "width": 29,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 28
+        },
+        "48": {
+          "rect": {
+            "x": 251,
+            "y": 0,
+            "width": 44,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 43
+        },
+        "49": {
+          "rect": {
+            "x": 217,
+            "y": 73,
+            "width": 31,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 30
+        },
+        "50": {
+          "rect": {
+            "x": 0,
+            "y": 73,
+            "width": 43,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 42
+        },
+        "51": {
+          "rect": {
+            "x": 132,
+            "y": 73,
+            "width": 42,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 41
+        },
+        "52": {
+          "rect": {
+            "x": 205,
+            "y": 0,
+            "width": 45,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 44
+        },
+        "53": {
+          "rect": {
+            "x": 175,
+            "y": 73,
+            "width": 41,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 40
+        },
+        "54": {
+          "rect": {
+            "x": 296,
+            "y": 0,
+            "width": 44,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 43
+        },
+        "55": {
+          "rect": {
+            "x": 44,
+            "y": 73,
+            "width": 43,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 42
+        },
+        "56": {
+          "rect": {
+            "x": 88,
+            "y": 73,
+            "width": 43,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 42
+        },
+        "57": {
+          "rect": {
+            "x": 341,
+            "y": 0,
+            "width": 44,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 43
+        },
+        "66": {
+          "rect": {
+            "x": 157,
+            "y": 0,
+            "width": 47,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 46
+        },
+        "75": {
+          "rect": {
+            "x": 108,
+            "y": 0,
+            "width": 48,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 47
+        },
+        "77": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 57,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 56
+        },
+        "84": {
+          "rect": {
+            "x": 58,
+            "y": 0,
+            "width": 49,
+            "height": 72
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 48
+        }
+      },
+      "kerningDict": {}
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "FWWinNum",
+      "texture": "04SrxeMgJK/KLac/gI/8wN",
+      "rect": [
+        0,
+        8,
+        385,
+        137
+      ],
+      "offset": [
+        -7.5,
+        13.5
+      ],
+      "originalSize": [
+        400,
+        180
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

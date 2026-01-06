@@ -1,1 +1,210 @@
-{"__type__":"sp.SkeletonData","_name":"ExtraFG_JiMan","_skeletonJson":{"skeleton":{"hash":"T59xZ2n67KJpro+qLWfZXWzQWUQ","spine":"3.6.53","width":0,"height":0,"images":""},"bones":[{"name":"root"},{"name":"All","parent":"root"},{"name":"jm","parent":"All"},{"name":"jm2","parent":"All"}],"slots":[{"name":"jm","bone":"jm"},{"name":"jm2","bone":"jm2","blend":"additive"}],"skins":{"default":{"jm":{"images/sj_000":{"width":600,"height":440}},"jm2":{"images/sj_000":{"width":600,"height":440}}}},"animations":{"ExtraFG_JiMan_Intro":{"slots":{"jm":{"color":[{"time":0,"color":"ffffff00"},{"time":0.3333,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/sj_000"}]},"jm2":{"color":[{"time":0,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/sj_000"}]}},"bones":{"jm2":{"translate":[{"time":0,"x":0,"y":45}],"scale":[{"time":0,"x":0.9,"y":0.9}]},"jm":{"translate":[{"time":0,"x":0,"y":45}]}}},"ExtraFG_JiMan_Loop":{"slots":{"jm":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/sj_000"}]},"jm2":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.6667,"color":"ffffffa2","curve":[0.25,0,0.75,1]},{"time":1.5,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/sj_000"}]}},"bones":{"jm2":{"translate":[{"time":0,"x":0,"y":45}],"scale":[{"time":0,"x":0.9,"y":0.9}]},"jm":{"translate":[{"time":0,"x":0,"y":45}]}}}}},"_atlasText":"\nExtraFG_JiMan.png\nsize: 588,436\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/sj_000\n  rotate: false\n  xy: 2, 2\n  size: 584, 432\n  orig: 600, 440\n  offset: 8, 8\n  index: -1\n","textures":[{"__uuid__":"b43owYGoBIYKIRziiZMtRL"}],"textureNames":["ExtraFG_JiMan.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ExtraFG_JiMan",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "T59xZ2n67KJpro+qLWfZXWzQWUQ",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "All",
+        "parent": "root"
+      },
+      {
+        "name": "jm",
+        "parent": "All"
+      },
+      {
+        "name": "jm2",
+        "parent": "All"
+      }
+    ],
+    "slots": [
+      {
+        "name": "jm",
+        "bone": "jm"
+      },
+      {
+        "name": "jm2",
+        "bone": "jm2",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "jm": {
+          "images/sj_000": {
+            "width": 600,
+            "height": 440
+          }
+        },
+        "jm2": {
+          "images/sj_000": {
+            "width": 600,
+            "height": 440
+          }
+        }
+      }
+    },
+    "animations": {
+      "ExtraFG_JiMan_Intro": {
+        "slots": {
+          "jm": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/sj_000"
+              }
+            ]
+          },
+          "jm2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/sj_000"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "jm2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 45
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.9,
+                "y": 0.9
+              }
+            ]
+          },
+          "jm": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 45
+              }
+            ]
+          }
+        }
+      },
+      "ExtraFG_JiMan_Loop": {
+        "slots": {
+          "jm": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/sj_000"
+              }
+            ]
+          },
+          "jm2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffa2",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/sj_000"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "jm2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 45
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.9,
+                "y": 0.9
+              }
+            ]
+          },
+          "jm": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 45
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nExtraFG_JiMan.png\nsize: 588,436\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/sj_000\n  rotate: false\n  xy: 2, 2\n  size: 584, 432\n  orig: 600, 440\n  offset: 8, 8\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "b43owYGoBIYKIRziiZMtRL"
+    }
+  ],
+  "textureNames": [
+    "ExtraFG_JiMan.png"
+  ]
+}

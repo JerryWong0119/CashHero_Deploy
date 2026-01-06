@@ -1,1 +1,340 @@
-[{"__type__":"cc.SpriteAtlas","_name":"common_map.plist","_spriteFrames":{"theme140_dialog_sf_font1":{"__uuid__":"b4C7M2D79FJ6swAYr6q5JI"},"theme140_dialog_sf_font2":{"__uuid__":"82JFVkanRILbaHkevYc8qS"},"theme140_dialog_sf_font3":{"__uuid__":"6df96TdCRArZw7TYsVyKBA"},"theme140_dialog_sf_font4":{"__uuid__":"8cdv/nBelFzJVH/paULkJi"},"theme140_dialog_sf_font5":{"__uuid__":"b5LIZfzD5ILag2nBlPgT8T"},"theme140_dialog_sf_frame3":{"__uuid__":"4b8/+t88BJhajDvOu651X5"},"theme140_map_booster1":{"__uuid__":"b3GH9SDVtJWK7T0wXC1KPN"},"theme140_map_booster2":{"__uuid__":"55hMkcykFNrb+3obctdZDh"},"theme140_map_booster3":{"__uuid__":"ce4yFZlzpPYbO/nt7piikT"},"theme140_map_booster4":{"__uuid__":"f3gKbcNHRH2qtAavay3C/e"},"theme140_map_booster5":{"__uuid__":"d5Ud6nBMpJnI3dH081WFOx"}}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_sf_frame3","texture":"47UKpwzhFBNIgaSSZJa442","rect":[2,56,117,3],"offset":[0,0],"originalSize":[117,3],"capInsets":[32,0,32,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_map_booster2","texture":"47UKpwzhFBNIgaSSZJa442","rect":[2,2,235,52],"offset":[0,0],"originalSize":[237,52],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_sf_font3","texture":"47UKpwzhFBNIgaSSZJa442","rect":[418,32,32,26],"offset":[0,0],"originalSize":[32,26],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_sf_font2","texture":"47UKpwzhFBNIgaSSZJa442","rect":[638,29,32,27],"offset":[0,0],"originalSize":[32,27],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_sf_font4","texture":"47UKpwzhFBNIgaSSZJa442","rect":[384,32,32,26],"offset":[0,0],"originalSize":[32,26],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_map_booster1","texture":"47UKpwzhFBNIgaSSZJa442","rect":[239,2,257,28],"offset":[0,0],"originalSize":[257,28],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_sf_font1","texture":"47UKpwzhFBNIgaSSZJa442","rect":[452,32,30,26],"offset":[0,0],"originalSize":[30,26],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_dialog_sf_font5","texture":"47UKpwzhFBNIgaSSZJa442","rect":[667,29,32,26],"offset":[0,0],"originalSize":[32,26],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_map_booster3","texture":"47UKpwzhFBNIgaSSZJa442","rect":[239,32,143,24],"offset":[0,0],"originalSize":[143,24],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_map_booster5","texture":"47UKpwzhFBNIgaSSZJa442","rect":[498,2,189,25],"offset":[0,0],"originalSize":[189,25],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme140_map_booster4","texture":"47UKpwzhFBNIgaSSZJa442","rect":[498,29,138,25],"offset":[0,0],"originalSize":[138,25],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "common_map.plist",
+    "_spriteFrames": {
+      "theme140_dialog_sf_font1": {
+        "__uuid__": "b4C7M2D79FJ6swAYr6q5JI"
+      },
+      "theme140_dialog_sf_font2": {
+        "__uuid__": "82JFVkanRILbaHkevYc8qS"
+      },
+      "theme140_dialog_sf_font3": {
+        "__uuid__": "6df96TdCRArZw7TYsVyKBA"
+      },
+      "theme140_dialog_sf_font4": {
+        "__uuid__": "8cdv/nBelFzJVH/paULkJi"
+      },
+      "theme140_dialog_sf_font5": {
+        "__uuid__": "b5LIZfzD5ILag2nBlPgT8T"
+      },
+      "theme140_dialog_sf_frame3": {
+        "__uuid__": "4b8/+t88BJhajDvOu651X5"
+      },
+      "theme140_map_booster1": {
+        "__uuid__": "b3GH9SDVtJWK7T0wXC1KPN"
+      },
+      "theme140_map_booster2": {
+        "__uuid__": "55hMkcykFNrb+3obctdZDh"
+      },
+      "theme140_map_booster3": {
+        "__uuid__": "ce4yFZlzpPYbO/nt7piikT"
+      },
+      "theme140_map_booster4": {
+        "__uuid__": "f3gKbcNHRH2qtAavay3C/e"
+      },
+      "theme140_map_booster5": {
+        "__uuid__": "d5Ud6nBMpJnI3dH081WFOx"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_sf_frame3",
+      "texture": "47UKpwzhFBNIgaSSZJa442",
+      "rect": [
+        2,
+        56,
+        117,
+        3
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        117,
+        3
+      ],
+      "capInsets": [
+        32,
+        0,
+        32,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_map_booster2",
+      "texture": "47UKpwzhFBNIgaSSZJa442",
+      "rect": [
+        2,
+        2,
+        235,
+        52
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        237,
+        52
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_sf_font3",
+      "texture": "47UKpwzhFBNIgaSSZJa442",
+      "rect": [
+        418,
+        32,
+        32,
+        26
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        32,
+        26
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_sf_font2",
+      "texture": "47UKpwzhFBNIgaSSZJa442",
+      "rect": [
+        638,
+        29,
+        32,
+        27
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        32,
+        27
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_sf_font4",
+      "texture": "47UKpwzhFBNIgaSSZJa442",
+      "rect": [
+        384,
+        32,
+        32,
+        26
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        32,
+        26
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_map_booster1",
+      "texture": "47UKpwzhFBNIgaSSZJa442",
+      "rect": [
+        239,
+        2,
+        257,
+        28
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        257,
+        28
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_sf_font1",
+      "texture": "47UKpwzhFBNIgaSSZJa442",
+      "rect": [
+        452,
+        32,
+        30,
+        26
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        30,
+        26
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_dialog_sf_font5",
+      "texture": "47UKpwzhFBNIgaSSZJa442",
+      "rect": [
+        667,
+        29,
+        32,
+        26
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        32,
+        26
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_map_booster3",
+      "texture": "47UKpwzhFBNIgaSSZJa442",
+      "rect": [
+        239,
+        32,
+        143,
+        24
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        143,
+        24
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_map_booster5",
+      "texture": "47UKpwzhFBNIgaSSZJa442",
+      "rect": [
+        498,
+        2,
+        189,
+        25
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        189,
+        25
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme140_map_booster4",
+      "texture": "47UKpwzhFBNIgaSSZJa442",
+      "rect": [
+        498,
+        29,
+        138,
+        25
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        138,
+        25
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

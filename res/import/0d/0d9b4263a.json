@@ -1,1 +1,243 @@
-[{"__type__":"cc.BitmapFont","_name":"fnt_jackpot","spriteFrame":{"__uuid__":"bb/Hm52hREfI69ZpW2t9HB"},"fontSize":33,"_fntConfig":{"commonHeight":33,"fontSize":33,"atlasName":"fnt_jackpot.png","fontDefDictionary":{"32":{"rect":{"x":646,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"44":{"rect":{"x":0,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"48":{"rect":{"x":38,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"49":{"rect":{"x":76,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"50":{"rect":{"x":114,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"51":{"rect":{"x":152,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"52":{"rect":{"x":190,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"53":{"rect":{"x":228,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"54":{"rect":{"x":266,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"55":{"rect":{"x":304,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"56":{"rect":{"x":342,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"57":{"rect":{"x":380,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"66":{"rect":{"x":418,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"75":{"rect":{"x":456,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"77":{"rect":{"x":494,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"81":{"rect":{"x":532,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"83":{"rect":{"x":570,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38},"84":{"rect":{"x":608,"y":0,"width":38,"height":33},"xOffset":0,"yOffset":0,"xAdvance":38}},"kerningDict":{}}},{"__type__":"cc.SpriteFrame","content":{"name":"fnt_jackpot","texture":"35+DSxz41ODpCS14caUdd0","rect":[13,0,628,33],"offset":[-15,0],"originalSize":[684,33],"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.BitmapFont",
+    "_name": "fnt_jackpot",
+    "spriteFrame": {
+      "__uuid__": "bb/Hm52hREfI69ZpW2t9HB"
+    },
+    "fontSize": 33,
+    "_fntConfig": {
+      "commonHeight": 33,
+      "fontSize": 33,
+      "atlasName": "fnt_jackpot.png",
+      "fontDefDictionary": {
+        "32": {
+          "rect": {
+            "x": 646,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "44": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "48": {
+          "rect": {
+            "x": 38,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "49": {
+          "rect": {
+            "x": 76,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "50": {
+          "rect": {
+            "x": 114,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "51": {
+          "rect": {
+            "x": 152,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "52": {
+          "rect": {
+            "x": 190,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "53": {
+          "rect": {
+            "x": 228,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "54": {
+          "rect": {
+            "x": 266,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "55": {
+          "rect": {
+            "x": 304,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "56": {
+          "rect": {
+            "x": 342,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "57": {
+          "rect": {
+            "x": 380,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "66": {
+          "rect": {
+            "x": 418,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "75": {
+          "rect": {
+            "x": 456,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "77": {
+          "rect": {
+            "x": 494,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "81": {
+          "rect": {
+            "x": 532,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "83": {
+          "rect": {
+            "x": 570,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        },
+        "84": {
+          "rect": {
+            "x": 608,
+            "y": 0,
+            "width": 38,
+            "height": 33
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 38
+        }
+      },
+      "kerningDict": {}
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "fnt_jackpot",
+      "texture": "35+DSxz41ODpCS14caUdd0",
+      "rect": [
+        13,
+        0,
+        628,
+        33
+      ],
+      "offset": [
+        -15,
+        0
+      ],
+      "originalSize": [
+        684,
+        33
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

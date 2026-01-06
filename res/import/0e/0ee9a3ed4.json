@@ -1,1 +1,436 @@
-[{"__type__":"cc.SpriteFrame","content":{"name":"theme_luckpuzzle_page14","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[2,2,544,823],"offset":[0,-1],"originalSize":[544,825],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_luckpuzzle_paytable_head14","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[1984,2,402,49],"offset":[0,0],"originalSize":[404,53],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme169_page2_02","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[1745,463,506,201],"offset":[0,0],"originalSize":[506,201],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme169_page3","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[548,2,564,793],"offset":[0,0],"originalSize":[564,793],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme169_paytable_head1","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[1984,406,333,49],"offset":[0,0],"originalSize":[337,53],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_luckpuzzle_page15","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[2,827,530,644],"offset":[0,0],"originalSize":[530,644],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme169_page4","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[1114,2,544,709],"offset":[0,0],"originalSize":[544,711],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme_luckpuzzle_paytable_head15","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[1239,1294,618,45],"offset":[-1,0],"originalSize":[622,47],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme169_page1","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[1239,713,530,504],"offset":[0,0],"originalSize":[530,504],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme169_paytable_head4","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[1948,741,307,51],"offset":[-1,0],"originalSize":[309,53],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme169_paytable_head3","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[1239,1245,669,47],"offset":[1,1],"originalSize":[671,51],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteAtlas","_name":"paytable.plist","_spriteFrames":{"theme169_page1":{"__uuid__":"abdHYLTHRDC7lSU2dBraAb"},"theme169_page2_01":{"__uuid__":"d11j/5B6FLh4cWsaTs/+PC"},"theme169_page2_02":{"__uuid__":"53ry+LkMRL+4snOVrz8hgL"},"theme169_page3":{"__uuid__":"63fod/V6dE7biJ9JRgHD7H"},"theme169_page4":{"__uuid__":"9apHOHIbhCSLLD3q+if+tq"},"theme169_paytable_bg":{"__uuid__":"d77XDZkK9LWaSw2cp+552B"},"theme169_paytable_head1":{"__uuid__":"8ern5KuHtDHZbZMY5Fstmq"},"theme169_paytable_head2":{"__uuid__":"fczhmU46JAPaon8nhQvvyj"},"theme169_paytable_head3":{"__uuid__":"bffuDboiBFtr/pxjrIIyaF"},"theme169_paytable_head4":{"__uuid__":"adAcnHVPhD9qRMAzXrdODW"},"theme_luckpuzzle_page14":{"__uuid__":"47Xtn1k8pJXr6o+/+h9ObQ"},"theme_luckpuzzle_page15":{"__uuid__":"94X1be6b9FQ46+PU8W8tMd"},"theme_luckpuzzle_paytable_head14":{"__uuid__":"51Taen7MpDfqLo1tKlgHW5"},"theme_luckpuzzle_paytable_head15":{"__uuid__":"aaJM1LhldA1o82tk7kwPT8"}}},{"__type__":"cc.SpriteFrame","content":{"name":"theme169_page2_01","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[648,797,538,589],"offset":[0,0],"originalSize":[538,589],"rotated":1,"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme169_paytable_bg","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[1660,2,322,459],"offset":[0,0],"originalSize":[322,459],"capInsets":[0,0,0,0]}},{"__type__":"cc.SpriteFrame","content":{"name":"theme169_paytable_head2","texture":"b6yfGRlaVGnrg1RbGbHDPL","rect":[1660,463,138,51],"offset":[0,0],"originalSize":[140,53],"rotated":1,"capInsets":[0,0,0,0]}}]
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_luckpuzzle_page14",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        2,
+        2,
+        544,
+        823
+      ],
+      "offset": [
+        0,
+        -1
+      ],
+      "originalSize": [
+        544,
+        825
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_luckpuzzle_paytable_head14",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        1984,
+        2,
+        402,
+        49
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        404,
+        53
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme169_page2_02",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        1745,
+        463,
+        506,
+        201
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        506,
+        201
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme169_page3",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        548,
+        2,
+        564,
+        793
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        564,
+        793
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme169_paytable_head1",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        1984,
+        406,
+        333,
+        49
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        337,
+        53
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_luckpuzzle_page15",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        2,
+        827,
+        530,
+        644
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        530,
+        644
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme169_page4",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        1114,
+        2,
+        544,
+        709
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        544,
+        711
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme_luckpuzzle_paytable_head15",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        1239,
+        1294,
+        618,
+        45
+      ],
+      "offset": [
+        -1,
+        0
+      ],
+      "originalSize": [
+        622,
+        47
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme169_page1",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        1239,
+        713,
+        530,
+        504
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        530,
+        504
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme169_paytable_head4",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        1948,
+        741,
+        307,
+        51
+      ],
+      "offset": [
+        -1,
+        0
+      ],
+      "originalSize": [
+        309,
+        53
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme169_paytable_head3",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        1239,
+        1245,
+        669,
+        47
+      ],
+      "offset": [
+        1,
+        1
+      ],
+      "originalSize": [
+        671,
+        51
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "paytable.plist",
+    "_spriteFrames": {
+      "theme169_page1": {
+        "__uuid__": "abdHYLTHRDC7lSU2dBraAb"
+      },
+      "theme169_page2_01": {
+        "__uuid__": "d11j/5B6FLh4cWsaTs/+PC"
+      },
+      "theme169_page2_02": {
+        "__uuid__": "53ry+LkMRL+4snOVrz8hgL"
+      },
+      "theme169_page3": {
+        "__uuid__": "63fod/V6dE7biJ9JRgHD7H"
+      },
+      "theme169_page4": {
+        "__uuid__": "9apHOHIbhCSLLD3q+if+tq"
+      },
+      "theme169_paytable_bg": {
+        "__uuid__": "d77XDZkK9LWaSw2cp+552B"
+      },
+      "theme169_paytable_head1": {
+        "__uuid__": "8ern5KuHtDHZbZMY5Fstmq"
+      },
+      "theme169_paytable_head2": {
+        "__uuid__": "fczhmU46JAPaon8nhQvvyj"
+      },
+      "theme169_paytable_head3": {
+        "__uuid__": "bffuDboiBFtr/pxjrIIyaF"
+      },
+      "theme169_paytable_head4": {
+        "__uuid__": "adAcnHVPhD9qRMAzXrdODW"
+      },
+      "theme_luckpuzzle_page14": {
+        "__uuid__": "47Xtn1k8pJXr6o+/+h9ObQ"
+      },
+      "theme_luckpuzzle_page15": {
+        "__uuid__": "94X1be6b9FQ46+PU8W8tMd"
+      },
+      "theme_luckpuzzle_paytable_head14": {
+        "__uuid__": "51Taen7MpDfqLo1tKlgHW5"
+      },
+      "theme_luckpuzzle_paytable_head15": {
+        "__uuid__": "aaJM1LhldA1o82tk7kwPT8"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme169_page2_01",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        648,
+        797,
+        538,
+        589
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        538,
+        589
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme169_paytable_bg",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        1660,
+        2,
+        322,
+        459
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        322,
+        459
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "theme169_paytable_head2",
+      "texture": "b6yfGRlaVGnrg1RbGbHDPL",
+      "rect": [
+        1660,
+        463,
+        138,
+        51
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        140,
+        53
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

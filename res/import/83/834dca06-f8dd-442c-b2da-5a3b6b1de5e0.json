@@ -1,1 +1,211 @@
-{"__type__":"sp.SkeletonData","_name":"suishi","_skeletonJson":{"skeleton":{"hash":"4KcXtlutOM3VBmEoIRtVspxfjcY","spine":"3.6.53","width":147,"height":128,"images":"./资源/"},"bones":[{"name":"root"},{"name":"st","parent":"root"},{"name":"suishi","parent":"root","y":-6.03}],"slots":[{"name":"suishi","bone":"suishi"},{"name":"theme141_game2_11","bone":"st","attachment":"theme141_game2_11"}],"skins":{"default":{"suishi":{"ef/suishi/suishi_00":{"width":184,"height":184},"ef/suishi/suishi_02":{"width":184,"height":184},"ef/suishi/suishi_04":{"width":184,"height":184},"ef/suishi/suishi_05":{"width":184,"height":184},"ef/suishi/suishi_06":{"width":184,"height":184},"ef/suishi/suishi_07":{"width":184,"height":184},"ef/suishi/suishi_08":{"width":184,"height":184},"ef/suishi/suishi_09":{"width":184,"height":184},"ef/suishi/suishi_10":{"width":184,"height":184},"ef/suishi/suishi_11":{"width":184,"height":184},"ef/suishi/suishi_12":{"width":184,"height":184},"ef/suishi/suishi_13":{"width":184,"height":184},"ef/suishi/suishi_14":{"width":184,"height":184}},"theme141_game2_11":{"theme141_game2_11":{"width":147,"height":128}}}},"animations":{"animation":{"slots":{"suishi":{"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"ef/suishi/suishi_00"},{"time":0.0667,"name":"ef/suishi/suishi_02"},{"time":0.1,"name":"ef/suishi/suishi_04"},{"time":0.1333,"name":"ef/suishi/suishi_05"},{"time":0.1667,"name":"ef/suishi/suishi_06"},{"time":0.2,"name":"ef/suishi/suishi_07"},{"time":0.2333,"name":"ef/suishi/suishi_08"},{"time":0.2667,"name":"ef/suishi/suishi_09"},{"time":0.3,"name":"ef/suishi/suishi_10"},{"time":0.3333,"name":"ef/suishi/suishi_11"},{"time":0.3667,"name":"ef/suishi/suishi_12"},{"time":0.4,"name":"ef/suishi/suishi_13"},{"time":0.4333,"name":"ef/suishi/suishi_14"},{"time":0.4667,"name":null}]},"theme141_game2_11":{"attachment":[{"time":0.0333,"name":null}]}},"bones":{"suishi":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.2333,"x":1.3,"y":1.3}]}}}}},"_atlasText":"\nsuishi.png\nsize: 353,1082\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nef/suishi/suishi_00\n  rotate: false\n  xy: 2, 2\n  size: 131, 123\n  orig: 184, 184\n  offset: 28, 29\n  index: -1\nef/suishi/suishi_02\n  rotate: false\n  xy: 2, 127\n  size: 141, 135\n  orig: 184, 184\n  offset: 25, 26\n  index: -1\nef/suishi/suishi_04\n  rotate: false\n  xy: 158, 141\n  size: 150, 146\n  orig: 184, 184\n  offset: 21, 22\n  index: -1\nef/suishi/suishi_05\n  rotate: false\n  xy: 2, 264\n  size: 154, 150\n  orig: 184, 184\n  offset: 19, 20\n  index: -1\nef/suishi/suishi_06\n  rotate: false\n  xy: 187, 770\n  size: 159, 153\n  orig: 184, 184\n  offset: 16, 18\n  index: -1\nef/suishi/suishi_07\n  rotate: false\n  xy: 187, 925\n  size: 162, 155\n  orig: 184, 184\n  offset: 15, 17\n  index: -1\nef/suishi/suishi_08\n  rotate: false\n  xy: 183, 611\n  size: 167, 157\n  orig: 184, 184\n  offset: 12, 15\n  index: -1\nef/suishi/suishi_09\n  rotate: false\n  xy: 181, 451\n  size: 170, 158\n  orig: 184, 184\n  offset: 11, 13\n  index: -1\nef/suishi/suishi_10\n  rotate: false\n  xy: 177, 289\n  size: 174, 160\n  orig: 184, 184\n  offset: 9, 10\n  index: -1\nef/suishi/suishi_11\n  rotate: false\n  xy: 2, 582\n  size: 177, 162\n  orig: 184, 184\n  offset: 7, 7\n  index: -1\nef/suishi/suishi_12\n  rotate: false\n  xy: 2, 416\n  size: 173, 164\n  orig: 184, 184\n  offset: 6, 4\n  index: -1\nef/suishi/suishi_13\n  rotate: false\n  xy: 2, 746\n  size: 179, 166\n  orig: 184, 184\n  offset: 3, 1\n  index: -1\nef/suishi/suishi_14\n  rotate: false\n  xy: 2, 914\n  size: 183, 166\n  orig: 184, 184\n  offset: 1, 0\n  index: -1\ntheme141_game2_11\n  rotate: false\n  xy: 145, 11\n  size: 147, 128\n  orig: 147, 128\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"fdJmCahYpCkq708MYgn9si"}],"textureNames":["suishi.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "suishi",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "4KcXtlutOM3VBmEoIRtVspxfjcY",
+      "spine": "3.6.53",
+      "width": 147,
+      "height": 128,
+      "images": "./资源/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "st",
+        "parent": "root"
+      },
+      {
+        "name": "suishi",
+        "parent": "root",
+        "y": -6.03
+      }
+    ],
+    "slots": [
+      {
+        "name": "suishi",
+        "bone": "suishi"
+      },
+      {
+        "name": "theme141_game2_11",
+        "bone": "st",
+        "attachment": "theme141_game2_11"
+      }
+    ],
+    "skins": {
+      "default": {
+        "suishi": {
+          "ef/suishi/suishi_00": {
+            "width": 184,
+            "height": 184
+          },
+          "ef/suishi/suishi_02": {
+            "width": 184,
+            "height": 184
+          },
+          "ef/suishi/suishi_04": {
+            "width": 184,
+            "height": 184
+          },
+          "ef/suishi/suishi_05": {
+            "width": 184,
+            "height": 184
+          },
+          "ef/suishi/suishi_06": {
+            "width": 184,
+            "height": 184
+          },
+          "ef/suishi/suishi_07": {
+            "width": 184,
+            "height": 184
+          },
+          "ef/suishi/suishi_08": {
+            "width": 184,
+            "height": 184
+          },
+          "ef/suishi/suishi_09": {
+            "width": 184,
+            "height": 184
+          },
+          "ef/suishi/suishi_10": {
+            "width": 184,
+            "height": 184
+          },
+          "ef/suishi/suishi_11": {
+            "width": 184,
+            "height": 184
+          },
+          "ef/suishi/suishi_12": {
+            "width": 184,
+            "height": 184
+          },
+          "ef/suishi/suishi_13": {
+            "width": 184,
+            "height": 184
+          },
+          "ef/suishi/suishi_14": {
+            "width": 184,
+            "height": 184
+          }
+        },
+        "theme141_game2_11": {
+          "theme141_game2_11": {
+            "width": 147,
+            "height": 128
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "suishi": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "ef/suishi/suishi_00"
+              },
+              {
+                "time": 0.0667,
+                "name": "ef/suishi/suishi_02"
+              },
+              {
+                "time": 0.1,
+                "name": "ef/suishi/suishi_04"
+              },
+              {
+                "time": 0.1333,
+                "name": "ef/suishi/suishi_05"
+              },
+              {
+                "time": 0.1667,
+                "name": "ef/suishi/suishi_06"
+              },
+              {
+                "time": 0.2,
+                "name": "ef/suishi/suishi_07"
+              },
+              {
+                "time": 0.2333,
+                "name": "ef/suishi/suishi_08"
+              },
+              {
+                "time": 0.2667,
+                "name": "ef/suishi/suishi_09"
+              },
+              {
+                "time": 0.3,
+                "name": "ef/suishi/suishi_10"
+              },
+              {
+                "time": 0.3333,
+                "name": "ef/suishi/suishi_11"
+              },
+              {
+                "time": 0.3667,
+                "name": "ef/suishi/suishi_12"
+              },
+              {
+                "time": 0.4,
+                "name": "ef/suishi/suishi_13"
+              },
+              {
+                "time": 0.4333,
+                "name": "ef/suishi/suishi_14"
+              },
+              {
+                "time": 0.4667,
+                "name": null
+              }
+            ]
+          },
+          "theme141_game2_11": {
+            "attachment": [
+              {
+                "time": 0.0333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "suishi": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "x": 1.3,
+                "y": 1.3
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nsuishi.png\nsize: 353,1082\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nef/suishi/suishi_00\n  rotate: false\n  xy: 2, 2\n  size: 131, 123\n  orig: 184, 184\n  offset: 28, 29\n  index: -1\nef/suishi/suishi_02\n  rotate: false\n  xy: 2, 127\n  size: 141, 135\n  orig: 184, 184\n  offset: 25, 26\n  index: -1\nef/suishi/suishi_04\n  rotate: false\n  xy: 158, 141\n  size: 150, 146\n  orig: 184, 184\n  offset: 21, 22\n  index: -1\nef/suishi/suishi_05\n  rotate: false\n  xy: 2, 264\n  size: 154, 150\n  orig: 184, 184\n  offset: 19, 20\n  index: -1\nef/suishi/suishi_06\n  rotate: false\n  xy: 187, 770\n  size: 159, 153\n  orig: 184, 184\n  offset: 16, 18\n  index: -1\nef/suishi/suishi_07\n  rotate: false\n  xy: 187, 925\n  size: 162, 155\n  orig: 184, 184\n  offset: 15, 17\n  index: -1\nef/suishi/suishi_08\n  rotate: false\n  xy: 183, 611\n  size: 167, 157\n  orig: 184, 184\n  offset: 12, 15\n  index: -1\nef/suishi/suishi_09\n  rotate: false\n  xy: 181, 451\n  size: 170, 158\n  orig: 184, 184\n  offset: 11, 13\n  index: -1\nef/suishi/suishi_10\n  rotate: false\n  xy: 177, 289\n  size: 174, 160\n  orig: 184, 184\n  offset: 9, 10\n  index: -1\nef/suishi/suishi_11\n  rotate: false\n  xy: 2, 582\n  size: 177, 162\n  orig: 184, 184\n  offset: 7, 7\n  index: -1\nef/suishi/suishi_12\n  rotate: false\n  xy: 2, 416\n  size: 173, 164\n  orig: 184, 184\n  offset: 6, 4\n  index: -1\nef/suishi/suishi_13\n  rotate: false\n  xy: 2, 746\n  size: 179, 166\n  orig: 184, 184\n  offset: 3, 1\n  index: -1\nef/suishi/suishi_14\n  rotate: false\n  xy: 2, 914\n  size: 183, 166\n  orig: 184, 184\n  offset: 1, 0\n  index: -1\ntheme141_game2_11\n  rotate: false\n  xy: 145, 11\n  size: 147, 128\n  orig: 147, 128\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "fdJmCahYpCkq708MYgn9si"
+    }
+  ],
+  "textureNames": [
+    "suishi.png"
+  ]
+}

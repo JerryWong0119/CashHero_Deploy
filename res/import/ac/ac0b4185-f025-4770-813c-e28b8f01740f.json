@@ -1,1 +1,229 @@
-{"__type__":"sp.SkeletonData","_name":"jieshou2","_skeletonJson":{"skeleton":{"hash":"QVgxuOcy4g44/gQDEEtT+3obumc","spine":"3.6.53","width":0,"height":0},"bones":[{"name":"root"},{"name":"jishou","parent":"root","x":-14.38,"y":-14.33,"scaleX":0.399,"scaleY":0.399},{"name":"骨骼","parent":"root"},{"name":"骨骼2","parent":"骨骼","x":-17.54,"y":-54.83},{"name":"骨骼3","parent":"骨骼","x":-7.91,"y":-11.13,"scaleX":0.5,"scaleY":0.5}],"slots":[{"name":"lp_labelbg","bone":"骨骼2"},{"name":"lp","bone":"骨骼"},{"name":"di","bone":"骨骼3"},{"name":"jieshou","bone":"jishou","blend":"additive"}],"skins":{"default":{"jieshou":{"jieshou/jieshou_00":{"width":820,"height":620},"jieshou/jieshou_01":{"width":820,"height":620},"jieshou/jieshou_02":{"width":820,"height":620},"jieshou/jieshou_03":{"width":820,"height":620},"jieshou/jieshou_04":{"width":820,"height":620},"jieshou/jieshou_05":{"width":820,"height":620},"jieshou/jieshou_06":{"width":820,"height":620},"jieshou/jieshou_07":{"width":820,"height":620},"jieshou/jieshou_08":{"width":820,"height":620},"jieshou/jieshou_09":{"width":820,"height":620},"jieshou/jieshou_10":{"width":820,"height":620},"jieshou/jieshou_11":{"width":820,"height":620},"jieshou/jieshou_12":{"width":820,"height":620},"jieshou/jieshou_13":{"width":820,"height":620},"jieshou/jieshou_14":{"width":820,"height":620}}}},"animations":{"animation":{"slots":{"jieshou":{"attachment":[{"time":0,"name":"jieshou/jieshou_00"},{"time":0.0333,"name":"jieshou/jieshou_01"},{"time":0.0667,"name":"jieshou/jieshou_02"},{"time":0.1,"name":"jieshou/jieshou_03"},{"time":0.1333,"name":"jieshou/jieshou_04"},{"time":0.1667,"name":"jieshou/jieshou_05"},{"time":0.2,"name":"jieshou/jieshou_06"},{"time":0.2333,"name":"jieshou/jieshou_07"},{"time":0.2667,"name":"jieshou/jieshou_08"},{"time":0.3,"name":"jieshou/jieshou_09"},{"time":0.3333,"name":"jieshou/jieshou_10"},{"time":0.3667,"name":"jieshou/jieshou_11"},{"time":0.4,"name":"jieshou/jieshou_12"},{"time":0.4333,"name":"jieshou/jieshou_13"},{"time":0.4667,"name":"jieshou/jieshou_14"},{"time":0.5,"name":null}]}},"bones":{"jishou":{"translate":[{"time":0,"x":9.08,"y":-7.31}],"scale":[{"time":0,"x":1.254,"y":1.254}]}}}}},"_atlasText":"\njieshou2.png\nsize: 1742,934\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\njieshou/jieshou_00\n  rotate: false\n  xy: 0, 624\n  size: 410, 310\n  orig: 410, 310\n  offset: 0, 0\n  index: -1\njieshou/jieshou_01\n  rotate: false\n  xy: 0, 312\n  size: 410, 310\n  orig: 410, 310\n  offset: 0, 0\n  index: -1\njieshou/jieshou_02\n  rotate: false\n  xy: 412, 624\n  size: 410, 310\n  orig: 410, 310\n  offset: 0, 0\n  index: -1\njieshou/jieshou_03\n  rotate: false\n  xy: 412, 312\n  size: 403, 310\n  orig: 410, 310\n  offset: 7, 0\n  index: -1\njieshou/jieshou_04\n  rotate: false\n  xy: 406, 0\n  size: 390, 310\n  orig: 410, 310\n  offset: 20, 0\n  index: -1\njieshou/jieshou_05\n  rotate: false\n  xy: 0, 0\n  size: 404, 310\n  orig: 410, 310\n  offset: 4, 0\n  index: -1\njieshou/jieshou_06\n  rotate: false\n  xy: 824, 624\n  size: 400, 310\n  orig: 410, 310\n  offset: 0, 0\n  index: -1\njieshou/jieshou_07\n  rotate: false\n  xy: 817, 323\n  size: 400, 299\n  orig: 410, 310\n  offset: 0, 11\n  index: -1\njieshou/jieshou_08\n  rotate: false\n  xy: 1226, 624\n  size: 379, 310\n  orig: 410, 310\n  offset: 19, 0\n  index: -1\njieshou/jieshou_09\n  rotate: false\n  xy: 1219, 334\n  size: 380, 288\n  orig: 410, 310\n  offset: 30, 21\n  index: -1\njieshou/jieshou_10\n  rotate: false\n  xy: 817, 72\n  size: 298, 249\n  orig: 410, 310\n  offset: 42, 43\n  index: -1\njieshou/jieshou_11\n  rotate: false\n  xy: 1117, 80\n  size: 279, 241\n  orig: 410, 310\n  offset: 62, 45\n  index: -1\njieshou/jieshou_12\n  rotate: false\n  xy: 1398, 94\n  size: 277, 238\n  orig: 410, 310\n  offset: 64, 49\n  index: -1\njieshou/jieshou_13\n  rotate: false\n  xy: 1607, 750\n  size: 135, 184\n  orig: 410, 310\n  offset: 109, 103\n  index: -1\njieshou/jieshou_14\n  rotate: false\n  xy: 1607, 637\n  size: 31, 111\n  orig: 410, 310\n  offset: 206, 174\n  index: -1\n","textures":[{"__uuid__":"990lA8b9FLPJybi8P3zd8a"}],"textureNames":["jieshou2.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "jieshou2",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "QVgxuOcy4g44/gQDEEtT+3obumc",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "jishou",
+        "parent": "root",
+        "x": -14.38,
+        "y": -14.33,
+        "scaleX": 0.399,
+        "scaleY": 0.399
+      },
+      {
+        "name": "骨骼",
+        "parent": "root"
+      },
+      {
+        "name": "骨骼2",
+        "parent": "骨骼",
+        "x": -17.54,
+        "y": -54.83
+      },
+      {
+        "name": "骨骼3",
+        "parent": "骨骼",
+        "x": -7.91,
+        "y": -11.13,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      }
+    ],
+    "slots": [
+      {
+        "name": "lp_labelbg",
+        "bone": "骨骼2"
+      },
+      {
+        "name": "lp",
+        "bone": "骨骼"
+      },
+      {
+        "name": "di",
+        "bone": "骨骼3"
+      },
+      {
+        "name": "jieshou",
+        "bone": "jishou",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "jieshou": {
+          "jieshou/jieshou_00": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_01": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_02": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_03": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_04": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_05": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_06": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_07": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_08": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_09": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_10": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_11": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_12": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_13": {
+            "width": 820,
+            "height": 620
+          },
+          "jieshou/jieshou_14": {
+            "width": 820,
+            "height": 620
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "jieshou": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "jieshou/jieshou_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "jieshou/jieshou_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "jieshou/jieshou_02"
+              },
+              {
+                "time": 0.1,
+                "name": "jieshou/jieshou_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "jieshou/jieshou_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "jieshou/jieshou_05"
+              },
+              {
+                "time": 0.2,
+                "name": "jieshou/jieshou_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "jieshou/jieshou_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "jieshou/jieshou_08"
+              },
+              {
+                "time": 0.3,
+                "name": "jieshou/jieshou_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "jieshou/jieshou_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "jieshou/jieshou_11"
+              },
+              {
+                "time": 0.4,
+                "name": "jieshou/jieshou_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "jieshou/jieshou_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "jieshou/jieshou_14"
+              },
+              {
+                "time": 0.5,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "jishou": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 9.08,
+                "y": -7.31
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.254,
+                "y": 1.254
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\njieshou2.png\nsize: 1742,934\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\njieshou/jieshou_00\n  rotate: false\n  xy: 0, 624\n  size: 410, 310\n  orig: 410, 310\n  offset: 0, 0\n  index: -1\njieshou/jieshou_01\n  rotate: false\n  xy: 0, 312\n  size: 410, 310\n  orig: 410, 310\n  offset: 0, 0\n  index: -1\njieshou/jieshou_02\n  rotate: false\n  xy: 412, 624\n  size: 410, 310\n  orig: 410, 310\n  offset: 0, 0\n  index: -1\njieshou/jieshou_03\n  rotate: false\n  xy: 412, 312\n  size: 403, 310\n  orig: 410, 310\n  offset: 7, 0\n  index: -1\njieshou/jieshou_04\n  rotate: false\n  xy: 406, 0\n  size: 390, 310\n  orig: 410, 310\n  offset: 20, 0\n  index: -1\njieshou/jieshou_05\n  rotate: false\n  xy: 0, 0\n  size: 404, 310\n  orig: 410, 310\n  offset: 4, 0\n  index: -1\njieshou/jieshou_06\n  rotate: false\n  xy: 824, 624\n  size: 400, 310\n  orig: 410, 310\n  offset: 0, 0\n  index: -1\njieshou/jieshou_07\n  rotate: false\n  xy: 817, 323\n  size: 400, 299\n  orig: 410, 310\n  offset: 0, 11\n  index: -1\njieshou/jieshou_08\n  rotate: false\n  xy: 1226, 624\n  size: 379, 310\n  orig: 410, 310\n  offset: 19, 0\n  index: -1\njieshou/jieshou_09\n  rotate: false\n  xy: 1219, 334\n  size: 380, 288\n  orig: 410, 310\n  offset: 30, 21\n  index: -1\njieshou/jieshou_10\n  rotate: false\n  xy: 817, 72\n  size: 298, 249\n  orig: 410, 310\n  offset: 42, 43\n  index: -1\njieshou/jieshou_11\n  rotate: false\n  xy: 1117, 80\n  size: 279, 241\n  orig: 410, 310\n  offset: 62, 45\n  index: -1\njieshou/jieshou_12\n  rotate: false\n  xy: 1398, 94\n  size: 277, 238\n  orig: 410, 310\n  offset: 64, 49\n  index: -1\njieshou/jieshou_13\n  rotate: false\n  xy: 1607, 750\n  size: 135, 184\n  orig: 410, 310\n  offset: 109, 103\n  index: -1\njieshou/jieshou_14\n  rotate: false\n  xy: 1607, 637\n  size: 31, 111\n  orig: 410, 310\n  offset: 206, 174\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "990lA8b9FLPJybi8P3zd8a"
+    }
+  ],
+  "textureNames": [
+    "jieshou2.png"
+  ]
+}

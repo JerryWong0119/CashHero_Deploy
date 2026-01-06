@@ -1,1 +1,187 @@
-{"__type__":"sp.SkeletonData","_name":"YingFenKuang","_skeletonJson":{"skeleton":{"hash":"kGUhe9+8zPthOA3oMFPuaDuZdyk","spine":"3.6.53","width":0,"height":0,"images":"./img/"},"bones":[{"name":"root"},{"name":"All","parent":"root"},{"name":"yfk","parent":"All"}],"slots":[{"name":"yfk","bone":"yfk"}],"skins":{"default":{"yfk":{"images/yfk/yfk_000":{"width":180,"height":160},"images/yfk/yfk_001":{"width":180,"height":160},"images/yfk/yfk_002":{"width":180,"height":160},"images/yfk/yfk_003":{"width":180,"height":160},"images/yfk/yfk_004":{"width":180,"height":160},"images/yfk/yfk_005":{"width":180,"height":160},"images/yfk/yfk_006":{"width":180,"height":160},"images/yfk/yfk_007":{"width":180,"height":160},"images/yfk/yfk_008":{"width":180,"height":160},"images/yfk/yfk_009":{"width":180,"height":160}}}},"animations":{"YingFenKuang":{"slots":{"yfk":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":"images/yfk/yfk_000"},{"time":0.0667,"name":"images/yfk/yfk_001"},{"time":0.1,"name":"images/yfk/yfk_002"},{"time":0.1667,"name":"images/yfk/yfk_003"},{"time":0.2,"name":"images/yfk/yfk_004"},{"time":0.2667,"name":"images/yfk/yfk_005"},{"time":0.3,"name":"images/yfk/yfk_006"},{"time":0.3667,"name":"images/yfk/yfk_007"},{"time":0.4,"name":"images/yfk/yfk_008"},{"time":0.4667,"name":"images/yfk/yfk_009"},{"time":0.5,"name":"images/yfk/yfk_000"},{"time":0.5667,"name":"images/yfk/yfk_001"},{"time":0.6,"name":"images/yfk/yfk_002"},{"time":0.6667,"name":"images/yfk/yfk_003"},{"time":0.7,"name":"images/yfk/yfk_004"},{"time":0.7667,"name":"images/yfk/yfk_005"},{"time":0.8,"name":"images/yfk/yfk_006"},{"time":0.8667,"name":"images/yfk/yfk_007"},{"time":0.9,"name":"images/yfk/yfk_008"},{"time":0.9667,"name":"images/yfk/yfk_009"},{"time":1,"name":"images/yfk/yfk_000"}]}}}}},"_atlasText":"\nYingFenKuang.png\nsize: 650,650\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/yfk/yfk_000\n  rotate: false\n  xy: 2, 488\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_001\n  rotate: false\n  xy: 2, 326\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_002\n  rotate: false\n  xy: 184, 488\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_003\n  rotate: false\n  xy: 2, 164\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_004\n  rotate: false\n  xy: 184, 326\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_005\n  rotate: false\n  xy: 366, 488\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_006\n  rotate: false\n  xy: 2, 2\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_007\n  rotate: false\n  xy: 184, 164\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_008\n  rotate: false\n  xy: 366, 326\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_009\n  rotate: false\n  xy: 184, 2\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"e1R6OUg7hLX4W5r2gEv3BM"}],"textureNames":["YingFenKuang.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "YingFenKuang",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "kGUhe9+8zPthOA3oMFPuaDuZdyk",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "All",
+        "parent": "root"
+      },
+      {
+        "name": "yfk",
+        "parent": "All"
+      }
+    ],
+    "slots": [
+      {
+        "name": "yfk",
+        "bone": "yfk"
+      }
+    ],
+    "skins": {
+      "default": {
+        "yfk": {
+          "images/yfk/yfk_000": {
+            "width": 180,
+            "height": 160
+          },
+          "images/yfk/yfk_001": {
+            "width": 180,
+            "height": 160
+          },
+          "images/yfk/yfk_002": {
+            "width": 180,
+            "height": 160
+          },
+          "images/yfk/yfk_003": {
+            "width": 180,
+            "height": 160
+          },
+          "images/yfk/yfk_004": {
+            "width": 180,
+            "height": 160
+          },
+          "images/yfk/yfk_005": {
+            "width": 180,
+            "height": 160
+          },
+          "images/yfk/yfk_006": {
+            "width": 180,
+            "height": 160
+          },
+          "images/yfk/yfk_007": {
+            "width": 180,
+            "height": 160
+          },
+          "images/yfk/yfk_008": {
+            "width": 180,
+            "height": 160
+          },
+          "images/yfk/yfk_009": {
+            "width": 180,
+            "height": 160
+          }
+        }
+      }
+    },
+    "animations": {
+      "YingFenKuang": {
+        "slots": {
+          "yfk": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/yfk/yfk_000"
+              },
+              {
+                "time": 0.0667,
+                "name": "images/yfk/yfk_001"
+              },
+              {
+                "time": 0.1,
+                "name": "images/yfk/yfk_002"
+              },
+              {
+                "time": 0.1667,
+                "name": "images/yfk/yfk_003"
+              },
+              {
+                "time": 0.2,
+                "name": "images/yfk/yfk_004"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/yfk/yfk_005"
+              },
+              {
+                "time": 0.3,
+                "name": "images/yfk/yfk_006"
+              },
+              {
+                "time": 0.3667,
+                "name": "images/yfk/yfk_007"
+              },
+              {
+                "time": 0.4,
+                "name": "images/yfk/yfk_008"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/yfk/yfk_009"
+              },
+              {
+                "time": 0.5,
+                "name": "images/yfk/yfk_000"
+              },
+              {
+                "time": 0.5667,
+                "name": "images/yfk/yfk_001"
+              },
+              {
+                "time": 0.6,
+                "name": "images/yfk/yfk_002"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/yfk/yfk_003"
+              },
+              {
+                "time": 0.7,
+                "name": "images/yfk/yfk_004"
+              },
+              {
+                "time": 0.7667,
+                "name": "images/yfk/yfk_005"
+              },
+              {
+                "time": 0.8,
+                "name": "images/yfk/yfk_006"
+              },
+              {
+                "time": 0.8667,
+                "name": "images/yfk/yfk_007"
+              },
+              {
+                "time": 0.9,
+                "name": "images/yfk/yfk_008"
+              },
+              {
+                "time": 0.9667,
+                "name": "images/yfk/yfk_009"
+              },
+              {
+                "time": 1,
+                "name": "images/yfk/yfk_000"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nYingFenKuang.png\nsize: 650,650\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/yfk/yfk_000\n  rotate: false\n  xy: 2, 488\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_001\n  rotate: false\n  xy: 2, 326\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_002\n  rotate: false\n  xy: 184, 488\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_003\n  rotate: false\n  xy: 2, 164\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_004\n  rotate: false\n  xy: 184, 326\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_005\n  rotate: false\n  xy: 366, 488\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_006\n  rotate: false\n  xy: 2, 2\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_007\n  rotate: false\n  xy: 184, 164\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_008\n  rotate: false\n  xy: 366, 326\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\nimages/yfk/yfk_009\n  rotate: false\n  xy: 184, 2\n  size: 180, 160\n  orig: 180, 160\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "e1R6OUg7hLX4W5r2gEv3BM"
+    }
+  ],
+  "textureNames": [
+    "YingFenKuang.png"
+  ]
+}

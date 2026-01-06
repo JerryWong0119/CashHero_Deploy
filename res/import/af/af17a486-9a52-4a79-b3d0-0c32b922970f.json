@@ -1,1 +1,824 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"K7VCVopDAseHoG0ck4h62TWVptM","spine":"3.6.53","width":156.58,"height":130.06,"images":"./img/"},"bones":[{"name":"root"},{"name":"z","parent":"root","x":-1.26,"y":-0.19},{"name":"b","parent":"z","rotation":40.43},{"name":"gg","parent":"b","rotation":-40.43},{"name":"gg2","parent":"b","rotation":-40.43},{"name":"gq","parent":"b","x":57.62,"y":-0.66},{"name":"jj","parent":"b","rotation":-66.8,"x":9.4,"y":-1.01,"scaleX":0.723,"scaleY":0.638,"transform":"noScale"},{"name":"lz","parent":"b","x":57.62,"y":-0.66,"scaleX":1.569,"scaleY":1.569},{"name":"yuan","parent":"b","x":57.62,"y":-0.66}],"slots":[{"name":"g","bone":"b","attachment":"images/g","blend":"additive"},{"name":"b","bone":"b","attachment":"images/b"},{"name":"gg","bone":"gg","attachment":"images/gg","blend":"additive"},{"name":"gg2","bone":"gg2","attachment":"images/gg","blend":"additive"},{"name":"yuan","bone":"yuan","attachment":"images/yuan","blend":"additive"},{"name":"lz","bone":"lz","blend":"additive"},{"name":"images/ggggg_0","bone":"gq","attachment":"images/ggggg_0","blend":"additive"},{"name":"jj","bone":"jj","attachment":"images/juji_1","blend":"additive"}],"skins":{"default":{"b":{"images/b":{"x":-3.93,"y":-1.5,"rotation":-40.43,"width":92,"height":84}},"g":{"images/g":{"x":9.89,"y":-2.24,"rotation":-40.43,"width":128,"height":121}},"gg":{"images/gg":{"x":10.38,"y":5.91,"width":126,"height":106}},"gg2":{"images/gg":{"x":10.38,"y":5.91,"width":126,"height":106}},"images/ggggg_0":{"images/ggggg_0":{"width":51,"height":51}},"jj":{"images/juji_1":{"rotation":26.37,"width":213,"height":180},"images/juji_2":{"rotation":26.37,"width":213,"height":180},"images/juji_3":{"rotation":26.37,"width":213,"height":180},"images/juji_4":{"rotation":26.37,"width":213,"height":180},"images/juji_6":{"rotation":26.37,"width":213,"height":180},"images/juji_7":{"rotation":26.37,"width":213,"height":180},"images/juji_9":{"rotation":26.37,"width":213,"height":180},"images/juji_12":{"rotation":26.37,"width":213,"height":180},"images/juji_16":{"rotation":26.37,"width":213,"height":180},"images/juji_18":{"rotation":26.37,"width":213,"height":180},"images/juji_20":{"rotation":26.37,"width":213,"height":180},"images/juji_22":{"rotation":26.37,"width":213,"height":180},"images/juji_24":{"rotation":26.37,"width":213,"height":180},"images/juji_26":{"rotation":26.37,"width":213,"height":180},"images/juji_28":{"rotation":26.37,"width":213,"height":180},"images/juji_30":{"rotation":26.37,"width":213,"height":180},"images/juji_32":{"rotation":26.37,"width":213,"height":180},"images/juji_34":{"rotation":26.37,"width":213,"height":180},"images/juji_36":{"rotation":26.37,"width":213,"height":180}},"lz":{"images/lizi_0":{"rotation":-40.43,"width":80,"height":80},"images/lizi_1":{"rotation":-40.43,"width":80,"height":80},"images/lizi_2":{"rotation":-40.43,"width":80,"height":80},"images/lizi_3":{"rotation":-40.43,"width":80,"height":80},"images/lizi_4":{"rotation":-40.43,"width":80,"height":80},"images/lizi_5":{"rotation":-40.43,"width":80,"height":80},"images/lizi_6":{"rotation":-40.43,"width":80,"height":80},"images/lizi_7":{"rotation":-40.43,"width":80,"height":80},"images/lizi_8":{"rotation":-40.43,"width":80,"height":80},"images/lizi_9":{"rotation":-40.43,"width":80,"height":80},"images/lizi_10":{"rotation":-40.43,"width":80,"height":80},"images/lizi_11":{"rotation":-40.43,"width":80,"height":80},"images/lizi_12":{"rotation":-40.43,"width":80,"height":80},"images/lizi_13":{"rotation":-40.43,"width":80,"height":80},"images/lizi_14":{"rotation":-40.43,"width":80,"height":80},"images/lizi_15":{"rotation":-40.43,"width":80,"height":80},"images/lizi_16":{"rotation":-40.43,"width":80,"height":80},"images/lizi_17":{"rotation":-40.43,"width":80,"height":80}},"yuan":{"images/yuan":{"x":-6.46,"y":0.3,"rotation":-40.43,"width":29,"height":33}}}},"animations":{"animation":{"slots":{"gg":{"color":[{"time":0.1667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.6667,"color":"ffffff00","curve":"stepped"},{"time":1.6667,"color":"ffffff00","curve":[0.25,0,0.625,0.5]},{"time":2,"color":"ffffffff"}]},"gg2":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.2333,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.5,"color":"ffffff00"}]},"images/ggggg_0":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.5667,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":1.0667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1.5667,"color":"ffffff00"}]},"jj":{"color":[{"time":0,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.1,"color":"ffffffff","curve":"stepped"},{"time":0.7,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":0.7667,"color":"ffffff00"}],"attachment":[{"time":0.1,"name":"images/juji_2"},{"time":0.1333,"name":"images/juji_3"},{"time":0.1667,"name":"images/juji_4"},{"time":0.2,"name":"images/juji_6"},{"time":0.2333,"name":"images/juji_7"},{"time":0.2667,"name":"images/juji_9"},{"time":0.3,"name":"images/juji_12"},{"time":0.3333,"name":"images/juji_16"},{"time":0.3667,"name":"images/juji_18"},{"time":0.4,"name":"images/juji_20"},{"time":0.4333,"name":"images/juji_22"},{"time":0.4667,"name":"images/juji_24"},{"time":0.5,"name":"images/juji_26"},{"time":0.5333,"name":"images/juji_28"},{"time":0.5667,"name":"images/juji_30"},{"time":0.6,"name":"images/juji_32"},{"time":0.6333,"name":"images/juji_34"},{"time":0.6667,"name":"images/juji_36"}]},"lz":{"color":[{"time":0,"color":"ffffff00","curve":"stepped"},{"time":0.5333,"color":"ffffff00","curve":[0.25,0,0.75,1]},{"time":0.6333,"color":"ffffffff","curve":"stepped"},{"time":1.5667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":1.9,"color":"ffffff00"}],"attachment":[{"time":0,"name":"images/lizi_0"},{"time":0.6333,"name":"images/lizi_1"},{"time":0.7,"name":"images/lizi_2"},{"time":0.7667,"name":"images/lizi_3"},{"time":0.8333,"name":"images/lizi_4"},{"time":0.9,"name":"images/lizi_5"},{"time":0.9667,"name":"images/lizi_6"},{"time":1.0333,"name":"images/lizi_7"},{"time":1.1,"name":"images/lizi_8"},{"time":1.1667,"name":"images/lizi_9"},{"time":1.2333,"name":"images/lizi_10"},{"time":1.3,"name":"images/lizi_11"},{"time":1.3667,"name":"images/lizi_12"},{"time":1.4333,"name":"images/lizi_13"},{"time":1.5,"name":"images/lizi_14"},{"time":1.5667,"name":"images/lizi_15"},{"time":1.6333,"name":"images/lizi_16"},{"time":1.7,"name":"images/lizi_17"}]}},"bones":{"b":{"rotate":[{"time":0,"angle":0,"curve":[0.276,0,0.621,0.4]},{"time":0.5,"angle":10.98,"curve":[0.333,0.33,0.758,1]},{"time":1.5,"angle":18.47,"curve":[0.333,0.33,0.758,1]},{"time":2,"angle":0}],"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":0.5,"x":1.166,"y":1.166,"curve":[0.25,0,0.75,1]},{"time":1.5,"x":1.208,"y":1.208,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1}]},"gq":{"scale":[{"time":0,"x":0.841,"y":0.841,"curve":"stepped"},{"time":0.5667,"x":0.841,"y":0.841,"curve":[0.25,0,0.75,1]},{"time":1.5667,"x":2.111,"y":2.111}]},"yuan":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1,"x":2.083,"y":2.083,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1}]}}}}},"_atlasText":"\nspine.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/b\n  rotate: false\n  xy: 647, 206\n  size: 92, 84\n  orig: 92, 84\n  offset: 0, 0\n  index: -1\nimages/g\n  rotate: false\n  xy: 862, 897\n  size: 128, 121\n  orig: 128, 121\n  offset: 0, 0\n  index: -1\nimages/gg\n  rotate: false\n  xy: 2, 2\n  size: 126, 106\n  orig: 126, 106\n  offset: 0, 0\n  index: -1\nimages/ggggg_0\n  rotate: false\n  xy: 944, 844\n  size: 51, 51\n  orig: 51, 51\n  offset: 0, 0\n  index: -1\nimages/juji_1\n  rotate: false\n  xy: 2, 838\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_12\n  rotate: false\n  xy: 217, 474\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_16\n  rotate: false\n  xy: 432, 656\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_18\n  rotate: false\n  xy: 647, 838\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_2\n  rotate: false\n  xy: 2, 656\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_20\n  rotate: false\n  xy: 2, 110\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_22\n  rotate: false\n  xy: 217, 292\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_24\n  rotate: false\n  xy: 432, 474\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_26\n  rotate: false\n  xy: 647, 656\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_28\n  rotate: false\n  xy: 217, 110\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_3\n  rotate: false\n  xy: 217, 838\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_30\n  rotate: false\n  xy: 432, 292\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_32\n  rotate: false\n  xy: 647, 474\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_34\n  rotate: false\n  xy: 432, 110\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_36\n  rotate: false\n  xy: 647, 292\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_4\n  rotate: false\n  xy: 2, 474\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_6\n  rotate: false\n  xy: 217, 656\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_7\n  rotate: false\n  xy: 432, 838\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_9\n  rotate: false\n  xy: 2, 292\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/lizi_0\n  rotate: false\n  xy: 862, 815\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_1\n  rotate: false\n  xy: 130, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_10\n  rotate: false\n  xy: 862, 487\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_11\n  rotate: false\n  xy: 458, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_12\n  rotate: false\n  xy: 862, 405\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_13\n  rotate: false\n  xy: 540, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_14\n  rotate: false\n  xy: 862, 323\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_15\n  rotate: false\n  xy: 823, 210\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_16\n  rotate: false\n  xy: 622, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_17\n  rotate: false\n  xy: 729, 124\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_2\n  rotate: false\n  xy: 647, 124\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_3\n  rotate: false\n  xy: 741, 210\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_4\n  rotate: false\n  xy: 862, 733\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_5\n  rotate: false\n  xy: 212, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_6\n  rotate: false\n  xy: 862, 651\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_7\n  rotate: false\n  xy: 294, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_8\n  rotate: false\n  xy: 862, 569\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_9\n  rotate: false\n  xy: 376, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/yuan\n  rotate: true\n  xy: 862, 292\n  size: 29, 33\n  orig: 29, 33\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"1dJIJb0FpDTrDkt7pCkiUX"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "K7VCVopDAseHoG0ck4h62TWVptM",
+      "spine": "3.6.53",
+      "width": 156.58,
+      "height": 130.06,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "z",
+        "parent": "root",
+        "x": -1.26,
+        "y": -0.19
+      },
+      {
+        "name": "b",
+        "parent": "z",
+        "rotation": 40.43
+      },
+      {
+        "name": "gg",
+        "parent": "b",
+        "rotation": -40.43
+      },
+      {
+        "name": "gg2",
+        "parent": "b",
+        "rotation": -40.43
+      },
+      {
+        "name": "gq",
+        "parent": "b",
+        "x": 57.62,
+        "y": -0.66
+      },
+      {
+        "name": "jj",
+        "parent": "b",
+        "rotation": -66.8,
+        "x": 9.4,
+        "y": -1.01,
+        "scaleX": 0.723,
+        "scaleY": 0.638,
+        "transform": "noScale"
+      },
+      {
+        "name": "lz",
+        "parent": "b",
+        "x": 57.62,
+        "y": -0.66,
+        "scaleX": 1.569,
+        "scaleY": 1.569
+      },
+      {
+        "name": "yuan",
+        "parent": "b",
+        "x": 57.62,
+        "y": -0.66
+      }
+    ],
+    "slots": [
+      {
+        "name": "g",
+        "bone": "b",
+        "attachment": "images/g",
+        "blend": "additive"
+      },
+      {
+        "name": "b",
+        "bone": "b",
+        "attachment": "images/b"
+      },
+      {
+        "name": "gg",
+        "bone": "gg",
+        "attachment": "images/gg",
+        "blend": "additive"
+      },
+      {
+        "name": "gg2",
+        "bone": "gg2",
+        "attachment": "images/gg",
+        "blend": "additive"
+      },
+      {
+        "name": "yuan",
+        "bone": "yuan",
+        "attachment": "images/yuan",
+        "blend": "additive"
+      },
+      {
+        "name": "lz",
+        "bone": "lz",
+        "blend": "additive"
+      },
+      {
+        "name": "images/ggggg_0",
+        "bone": "gq",
+        "attachment": "images/ggggg_0",
+        "blend": "additive"
+      },
+      {
+        "name": "jj",
+        "bone": "jj",
+        "attachment": "images/juji_1",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "b": {
+          "images/b": {
+            "x": -3.93,
+            "y": -1.5,
+            "rotation": -40.43,
+            "width": 92,
+            "height": 84
+          }
+        },
+        "g": {
+          "images/g": {
+            "x": 9.89,
+            "y": -2.24,
+            "rotation": -40.43,
+            "width": 128,
+            "height": 121
+          }
+        },
+        "gg": {
+          "images/gg": {
+            "x": 10.38,
+            "y": 5.91,
+            "width": 126,
+            "height": 106
+          }
+        },
+        "gg2": {
+          "images/gg": {
+            "x": 10.38,
+            "y": 5.91,
+            "width": 126,
+            "height": 106
+          }
+        },
+        "images/ggggg_0": {
+          "images/ggggg_0": {
+            "width": 51,
+            "height": 51
+          }
+        },
+        "jj": {
+          "images/juji_1": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_2": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_3": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_4": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_6": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_7": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_9": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_12": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_16": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_18": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_20": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_22": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_24": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_26": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_28": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_30": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_32": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_34": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          },
+          "images/juji_36": {
+            "rotation": 26.37,
+            "width": 213,
+            "height": 180
+          }
+        },
+        "lz": {
+          "images/lizi_0": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_1": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_2": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_3": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_4": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_5": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_6": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_7": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_8": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_9": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_10": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_11": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_12": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_13": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_14": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_15": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_16": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          },
+          "images/lizi_17": {
+            "rotation": -40.43,
+            "width": 80,
+            "height": 80
+          }
+        },
+        "yuan": {
+          "images/yuan": {
+            "x": -6.46,
+            "y": 0.3,
+            "rotation": -40.43,
+            "width": 29,
+            "height": 33
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "gg": {
+            "color": [
+              {
+                "time": 0.1667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.5
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "gg2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "images/ggggg_0": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.0667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "jj": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.7,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.7667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.1,
+                "name": "images/juji_2"
+              },
+              {
+                "time": 0.1333,
+                "name": "images/juji_3"
+              },
+              {
+                "time": 0.1667,
+                "name": "images/juji_4"
+              },
+              {
+                "time": 0.2,
+                "name": "images/juji_6"
+              },
+              {
+                "time": 0.2333,
+                "name": "images/juji_7"
+              },
+              {
+                "time": 0.2667,
+                "name": "images/juji_9"
+              },
+              {
+                "time": 0.3,
+                "name": "images/juji_12"
+              },
+              {
+                "time": 0.3333,
+                "name": "images/juji_16"
+              },
+              {
+                "time": 0.3667,
+                "name": "images/juji_18"
+              },
+              {
+                "time": 0.4,
+                "name": "images/juji_20"
+              },
+              {
+                "time": 0.4333,
+                "name": "images/juji_22"
+              },
+              {
+                "time": 0.4667,
+                "name": "images/juji_24"
+              },
+              {
+                "time": 0.5,
+                "name": "images/juji_26"
+              },
+              {
+                "time": 0.5333,
+                "name": "images/juji_28"
+              },
+              {
+                "time": 0.5667,
+                "name": "images/juji_30"
+              },
+              {
+                "time": 0.6,
+                "name": "images/juji_32"
+              },
+              {
+                "time": 0.6333,
+                "name": "images/juji_34"
+              },
+              {
+                "time": 0.6667,
+                "name": "images/juji_36"
+              }
+            ]
+          },
+          "lz": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.9,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "images/lizi_0"
+              },
+              {
+                "time": 0.6333,
+                "name": "images/lizi_1"
+              },
+              {
+                "time": 0.7,
+                "name": "images/lizi_2"
+              },
+              {
+                "time": 0.7667,
+                "name": "images/lizi_3"
+              },
+              {
+                "time": 0.8333,
+                "name": "images/lizi_4"
+              },
+              {
+                "time": 0.9,
+                "name": "images/lizi_5"
+              },
+              {
+                "time": 0.9667,
+                "name": "images/lizi_6"
+              },
+              {
+                "time": 1.0333,
+                "name": "images/lizi_7"
+              },
+              {
+                "time": 1.1,
+                "name": "images/lizi_8"
+              },
+              {
+                "time": 1.1667,
+                "name": "images/lizi_9"
+              },
+              {
+                "time": 1.2333,
+                "name": "images/lizi_10"
+              },
+              {
+                "time": 1.3,
+                "name": "images/lizi_11"
+              },
+              {
+                "time": 1.3667,
+                "name": "images/lizi_12"
+              },
+              {
+                "time": 1.4333,
+                "name": "images/lizi_13"
+              },
+              {
+                "time": 1.5,
+                "name": "images/lizi_14"
+              },
+              {
+                "time": 1.5667,
+                "name": "images/lizi_15"
+              },
+              {
+                "time": 1.6333,
+                "name": "images/lizi_16"
+              },
+              {
+                "time": 1.7,
+                "name": "images/lizi_17"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "b": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0.276,
+                  0,
+                  0.621,
+                  0.4
+                ]
+              },
+              {
+                "time": 0.5,
+                "angle": 10.98,
+                "curve": [
+                  0.333,
+                  0.33,
+                  0.758,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "angle": 18.47,
+                "curve": [
+                  0.333,
+                  0.33,
+                  0.758,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1.166,
+                "y": 1.166,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 1.208,
+                "y": 1.208,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "gq": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.841,
+                "y": 0.841,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5667,
+                "x": 0.841,
+                "y": 0.841,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5667,
+                "x": 2.111,
+                "y": 2.111
+              }
+            ]
+          },
+          "yuan": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 2.083,
+                "y": 2.083,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 1024,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/b\n  rotate: false\n  xy: 647, 206\n  size: 92, 84\n  orig: 92, 84\n  offset: 0, 0\n  index: -1\nimages/g\n  rotate: false\n  xy: 862, 897\n  size: 128, 121\n  orig: 128, 121\n  offset: 0, 0\n  index: -1\nimages/gg\n  rotate: false\n  xy: 2, 2\n  size: 126, 106\n  orig: 126, 106\n  offset: 0, 0\n  index: -1\nimages/ggggg_0\n  rotate: false\n  xy: 944, 844\n  size: 51, 51\n  orig: 51, 51\n  offset: 0, 0\n  index: -1\nimages/juji_1\n  rotate: false\n  xy: 2, 838\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_12\n  rotate: false\n  xy: 217, 474\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_16\n  rotate: false\n  xy: 432, 656\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_18\n  rotate: false\n  xy: 647, 838\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_2\n  rotate: false\n  xy: 2, 656\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_20\n  rotate: false\n  xy: 2, 110\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_22\n  rotate: false\n  xy: 217, 292\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_24\n  rotate: false\n  xy: 432, 474\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_26\n  rotate: false\n  xy: 647, 656\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_28\n  rotate: false\n  xy: 217, 110\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_3\n  rotate: false\n  xy: 217, 838\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_30\n  rotate: false\n  xy: 432, 292\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_32\n  rotate: false\n  xy: 647, 474\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_34\n  rotate: false\n  xy: 432, 110\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_36\n  rotate: false\n  xy: 647, 292\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_4\n  rotate: false\n  xy: 2, 474\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_6\n  rotate: false\n  xy: 217, 656\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_7\n  rotate: false\n  xy: 432, 838\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/juji_9\n  rotate: false\n  xy: 2, 292\n  size: 213, 180\n  orig: 213, 180\n  offset: 0, 0\n  index: -1\nimages/lizi_0\n  rotate: false\n  xy: 862, 815\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_1\n  rotate: false\n  xy: 130, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_10\n  rotate: false\n  xy: 862, 487\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_11\n  rotate: false\n  xy: 458, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_12\n  rotate: false\n  xy: 862, 405\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_13\n  rotate: false\n  xy: 540, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_14\n  rotate: false\n  xy: 862, 323\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_15\n  rotate: false\n  xy: 823, 210\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_16\n  rotate: false\n  xy: 622, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_17\n  rotate: false\n  xy: 729, 124\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_2\n  rotate: false\n  xy: 647, 124\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_3\n  rotate: false\n  xy: 741, 210\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_4\n  rotate: false\n  xy: 862, 733\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_5\n  rotate: false\n  xy: 212, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_6\n  rotate: false\n  xy: 862, 651\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_7\n  rotate: false\n  xy: 294, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_8\n  rotate: false\n  xy: 862, 569\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/lizi_9\n  rotate: false\n  xy: 376, 28\n  size: 80, 80\n  orig: 80, 80\n  offset: 0, 0\n  index: -1\nimages/yuan\n  rotate: true\n  xy: 862, 292\n  size: 29, 33\n  orig: 29, 33\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "1dJIJb0FpDTrDkt7pCkiUX"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

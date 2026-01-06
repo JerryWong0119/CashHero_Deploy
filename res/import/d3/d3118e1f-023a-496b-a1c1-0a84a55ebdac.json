@@ -1,1 +1,141 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"jcBWsQzR4ZjjrGAMpIC8WaJ6r6I","spine":"3.6.53","width":102,"height":83.02,"images":"./img/"},"bones":[{"name":"root"},{"name":"theme116_dialog_wheelwild_wild","parent":"root"}],"slots":[{"name":"wild2","bone":"root"},{"name":"theme116_dialog_wheelwild_wild2","bone":"theme116_dialog_wheelwild_wild","attachment":"hua"},{"name":"theme116_dialog_wheelwild_wild","bone":"theme116_dialog_wheelwild_wild","attachment":"theme116_dialog_wheelwild_wild"}],"skins":{"default":{"theme116_dialog_wheelwild_wild":{"theme116_dialog_wheelwild_wild":{"type":"mesh","uvs":[1,1,0,1,0,0,1,0],"triangles":[1,2,3,1,3,0],"vertices":[49.02,-44.39,-47.98,-44.39,-47.98,-9.39,49.02,-9.39],"hull":4,"edges":[0,2,2,4,4,6,0,6],"width":97,"height":35}},"theme116_dialog_wheelwild_wild2":{"hua":{"y":-0.36,"width":102,"height":78}}}},"animations":{"animation":{"bones":{"theme116_dialog_wheelwild_wild":{"scale":[{"time":0,"x":1,"y":1,"curve":[0.25,0,0.75,1]},{"time":1,"x":1.135,"y":1.135,"curve":[0.25,0,0.75,1]},{"time":2,"x":1,"y":1}]}}}}},"_atlasText":"\nspine.png\nsize: 119,119\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nhua\n  rotate: false\n  xy: 2, 39\n  size: 102, 78\n  orig: 102, 78\n  offset: 0, 0\n  index: -1\ntheme116_dialog_wheelwild_wild\n  rotate: false\n  xy: 2, 2\n  size: 97, 35\n  orig: 97, 35\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"aagFCEVVNOTqaOyGPoWuIF"}],"textureNames":["spine.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "jcBWsQzR4ZjjrGAMpIC8WaJ6r6I",
+      "spine": "3.6.53",
+      "width": 102,
+      "height": 83.02,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "theme116_dialog_wheelwild_wild",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "wild2",
+        "bone": "root"
+      },
+      {
+        "name": "theme116_dialog_wheelwild_wild2",
+        "bone": "theme116_dialog_wheelwild_wild",
+        "attachment": "hua"
+      },
+      {
+        "name": "theme116_dialog_wheelwild_wild",
+        "bone": "theme116_dialog_wheelwild_wild",
+        "attachment": "theme116_dialog_wheelwild_wild"
+      }
+    ],
+    "skins": {
+      "default": {
+        "theme116_dialog_wheelwild_wild": {
+          "theme116_dialog_wheelwild_wild": {
+            "type": "mesh",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              49.02,
+              -44.39,
+              -47.98,
+              -44.39,
+              -47.98,
+              -9.39,
+              49.02,
+              -9.39
+            ],
+            "hull": 4,
+            "edges": [
+              0,
+              2,
+              2,
+              4,
+              4,
+              6,
+              0,
+              6
+            ],
+            "width": 97,
+            "height": 35
+          }
+        },
+        "theme116_dialog_wheelwild_wild2": {
+          "hua": {
+            "y": -0.36,
+            "width": 102,
+            "height": 78
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "bones": {
+          "theme116_dialog_wheelwild_wild": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1.135,
+                "y": 1.135,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 119,119\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nhua\n  rotate: false\n  xy: 2, 39\n  size: 102, 78\n  orig: 102, 78\n  offset: 0, 0\n  index: -1\ntheme116_dialog_wheelwild_wild\n  rotate: false\n  xy: 2, 2\n  size: 97, 35\n  orig: 97, 35\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "aagFCEVVNOTqaOyGPoWuIF"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

@@ -1,1 +1,134 @@
-{"__type__":"sp.SkeletonData","_name":"spine","_skeletonJson":{"skeleton":{"hash":"7mHO4E9aDJ+8Z3abxVRMM7/cArI","spine":"3.6.53","width":297,"height":41,"images":"./素材/"},"bones":[{"name":"root"},{"name":"saoguang","parent":"root"}],"slots":[{"name":"01","bone":"root","attachment":"01"},{"name":"素材/guangtiao_00","bone":"saoguang","color":"00f6ffff","attachment":"guangtiao_00","blend":"screen"}],"skins":{"default":{"01":{"01":{"type":"clipping","end":"素材/guangtiao_00","vertexCount":10,"vertices":[-254.84,17.48,-264.37,10.48,-267.82,0.69,-265.68,-9.3,-255.78,-17.46,256.38,-17.57,265.41,-10.45,268.49,-1.18,266.53,8.56,257.25,17.52],"color":"ce3a3aff"}},"素材/guangtiao_00":{"guangtiao_00":{"width":297,"height":41}}}},"animations":{"animation":{"slots":{"素材/guangtiao_00":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1,"color":"ffffffff","curve":"stepped"},{"time":0.4,"color":"ffffffff"},{"time":0.5,"color":"ffffff00"}]}},"bones":{"saoguang":{"translate":[{"time":0,"x":-403.15,"y":0,"curve":[0,0.2,0.692,1]},{"time":0.5,"x":317.89,"y":0}]}}}}},"_atlasText":"\njindutiao.png\nsize: 297,41\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguangtiao_00\n  rotate: false\n  xy: 0, 0\n  size: 297, 41\n  orig: 297, 41\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"8dgiw7eZdFyogFzLEiyzBI"}],"textureNames":["jindutiao.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "7mHO4E9aDJ+8Z3abxVRMM7/cArI",
+      "spine": "3.6.53",
+      "width": 297,
+      "height": 41,
+      "images": "./素材/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "saoguang",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "01",
+        "bone": "root",
+        "attachment": "01"
+      },
+      {
+        "name": "素材/guangtiao_00",
+        "bone": "saoguang",
+        "color": "00f6ffff",
+        "attachment": "guangtiao_00",
+        "blend": "screen"
+      }
+    ],
+    "skins": {
+      "default": {
+        "01": {
+          "01": {
+            "type": "clipping",
+            "end": "素材/guangtiao_00",
+            "vertexCount": 10,
+            "vertices": [
+              -254.84,
+              17.48,
+              -264.37,
+              10.48,
+              -267.82,
+              0.69,
+              -265.68,
+              -9.3,
+              -255.78,
+              -17.46,
+              256.38,
+              -17.57,
+              265.41,
+              -10.45,
+              268.49,
+              -1.18,
+              266.53,
+              8.56,
+              257.25,
+              17.52
+            ],
+            "color": "ce3a3aff"
+          }
+        },
+        "素材/guangtiao_00": {
+          "guangtiao_00": {
+            "width": 297,
+            "height": 41
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "素材/guangtiao_00": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "saoguang": {
+            "translate": [
+              {
+                "time": 0,
+                "x": -403.15,
+                "y": 0,
+                "curve": [
+                  0,
+                  0.2,
+                  0.692,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 317.89,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\njindutiao.png\nsize: 297,41\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguangtiao_00\n  rotate: false\n  xy: 0, 0\n  size: 297, 41\n  orig: 297, 41\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "8dgiw7eZdFyogFzLEiyzBI"
+    }
+  ],
+  "textureNames": [
+    "jindutiao.png"
+  ]
+}

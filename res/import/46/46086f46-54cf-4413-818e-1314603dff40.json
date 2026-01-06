@@ -1,1 +1,588 @@
-{"__type__":"sp.SkeletonData","_name":"blast_di","_skeletonJson":{"skeleton":{"hash":"2MnkaY2GTQzbU4h4gRBlOU18s3c","spine":"3.6.53","width":0,"height":0,"images":""},"bones":[{"name":"root"},{"name":"1","parent":"root"},{"name":"bj","parent":"1"}],"slots":[{"name":"jian3","bone":"1","attachment":"jian3"},{"name":"tx/fg_0","bone":"bj","blend":"additive"},{"name":"tx/fg_1","bone":"bj","blend":"additive"},{"name":"tx/fg_2","bone":"bj","blend":"additive"},{"name":"tx/fg_3","bone":"bj","blend":"additive"},{"name":"tx/fg_4","bone":"bj","blend":"additive"}],"skins":{"default":{"jian3":{"jian3":{"type":"clipping","end":"jian3","vertexCount":4,"vertices":[-314.08,44.63,312.63,44.28,312.63,-45.54,-314.01,-44.61],"color":"ce3a3aff"}},"tx/fg_0":{"tx/fg_0":{"width":127,"height":447}},"tx/fg_1":{"tx/fg_0":{"x":-122.01,"width":127,"height":447}},"tx/fg_2":{"tx/fg_0":{"x":-250.32,"width":127,"height":447}},"tx/fg_3":{"tx/fg_0":{"x":123.49,"width":127,"height":447}},"tx/fg_4":{"tx/fg_0":{"x":248.71,"width":127,"height":447}}}},"animations":{"animation1_1":{"slots":{"tx/fg_0":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_1":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_2":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_3":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_4":{"attachment":[{"time":0,"name":"tx/fg_0"}]}},"bones":{"1":{"translate":[{"time":0,"x":0,"y":-134.78}]},"bj":{"translate":[{"time":0,"x":0,"y":-95.44}]}},"deform":{"default":{"jian3":{"jian3":[{"time":0,"offset":1,"vertices":[-96.76794,-3.82202,-96.76794,-3.82202,-96.76794,0,-96.76794]}]}}}},"animation1_2":{"slots":{"tx/fg_0":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_1":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_2":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_3":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_4":{"attachment":[{"time":0,"name":"tx/fg_0"}]}},"bones":{"1":{"translate":[{"time":0,"x":0,"y":-278.51}]},"bj":{"translate":[{"time":0,"x":0,"y":-43.12}]}},"deform":{"default":{"jian3":{"jian3":[{"time":0,"offset":1,"vertices":[44.68799,-3.27597,44.68799,-3.27597,-38.10797,0,-38.10797]}]}}}},"animation1_3":{"slots":{"tx/fg_0":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_1":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_2":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_3":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_4":{"attachment":[{"time":0,"name":"tx/fg_0"}]}},"bones":{"1":{"translate":[{"time":0,"x":0,"y":-231.62}]},"bj":{"translate":[{"time":0,"x":0,"y":0}]}},"deform":{"default":{"jian3":{"jian3":[{"time":0,"offset":1,"vertices":[91.89597,0.56009,91.89597,0.56008,-84.55992,0,-84.55992]}]}}}},"animation2_1":{"slots":{"tx/fg_0":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_1":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_2":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_3":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_4":{"attachment":[{"time":0,"name":"tx/fg_0"}]}},"bones":{"1":{"translate":[{"time":0,"x":0,"y":-278.51}]},"bj":{"translate":[{"time":0,"x":0,"y":-43.12}]}},"deform":{"default":{"jian3":{"jian3":[{"time":0,"offset":1,"vertices":[44.68799,0.05905,44.68799,0.05906,45.08691,0.00001,45.08691],"curve":[0.491,0.45,0.834,0.85]},{"time":0.5,"offset":1,"vertices":[44.68799,-3.27597,44.68799,-3.27597,-37.96802,0,-37.96802]}]}}}},"animation3_1":{"slots":{"tx/fg_0":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_1":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_2":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_3":{"attachment":[{"time":0,"name":"tx/fg_0"}]},"tx/fg_4":{"attachment":[{"time":0,"name":"tx/fg_0"}]}},"bones":{"1":{"translate":[{"time":0,"x":0,"y":-231.62}]}},"deform":{"default":{"jian3":{"jian3":[{"time":0,"curve":[0.25,0,0.75,1]},{"time":0.2667,"offset":1,"vertices":[52.61626,0,52.61626,0,-50.07052,0,-50.07052],"curve":[0.25,0,0.75,1]},{"time":0.5,"offset":1,"vertices":[90.83302,0.56009,90.83302,0.56008,-84.2249,0,-84.2249]}]}}}}}},"_atlasText":"\nblast_di.png\nsize: 131,451\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntx/fg_0\n  rotate: false\n  xy: 2, 2\n  size: 127, 447\n  orig: 127, 447\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"dcclIINftKC4Yh0FWtrsaf"}],"textureNames":["blast_di.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "blast_di",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "2MnkaY2GTQzbU4h4gRBlOU18s3c",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "1",
+        "parent": "root"
+      },
+      {
+        "name": "bj",
+        "parent": "1"
+      }
+    ],
+    "slots": [
+      {
+        "name": "jian3",
+        "bone": "1",
+        "attachment": "jian3"
+      },
+      {
+        "name": "tx/fg_0",
+        "bone": "bj",
+        "blend": "additive"
+      },
+      {
+        "name": "tx/fg_1",
+        "bone": "bj",
+        "blend": "additive"
+      },
+      {
+        "name": "tx/fg_2",
+        "bone": "bj",
+        "blend": "additive"
+      },
+      {
+        "name": "tx/fg_3",
+        "bone": "bj",
+        "blend": "additive"
+      },
+      {
+        "name": "tx/fg_4",
+        "bone": "bj",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "jian3": {
+          "jian3": {
+            "type": "clipping",
+            "end": "jian3",
+            "vertexCount": 4,
+            "vertices": [
+              -314.08,
+              44.63,
+              312.63,
+              44.28,
+              312.63,
+              -45.54,
+              -314.01,
+              -44.61
+            ],
+            "color": "ce3a3aff"
+          }
+        },
+        "tx/fg_0": {
+          "tx/fg_0": {
+            "width": 127,
+            "height": 447
+          }
+        },
+        "tx/fg_1": {
+          "tx/fg_0": {
+            "x": -122.01,
+            "width": 127,
+            "height": 447
+          }
+        },
+        "tx/fg_2": {
+          "tx/fg_0": {
+            "x": -250.32,
+            "width": 127,
+            "height": 447
+          }
+        },
+        "tx/fg_3": {
+          "tx/fg_0": {
+            "x": 123.49,
+            "width": 127,
+            "height": 447
+          }
+        },
+        "tx/fg_4": {
+          "tx/fg_0": {
+            "x": 248.71,
+            "width": 127,
+            "height": 447
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1_1": {
+        "slots": {
+          "tx/fg_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "1": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -134.78
+              }
+            ]
+          },
+          "bj": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -95.44
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "jian3": {
+              "jian3": [
+                {
+                  "time": 0,
+                  "offset": 1,
+                  "vertices": [
+                    -96.76794,
+                    -3.82202,
+                    -96.76794,
+                    -3.82202,
+                    -96.76794,
+                    0,
+                    -96.76794
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "animation1_2": {
+        "slots": {
+          "tx/fg_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "1": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -278.51
+              }
+            ]
+          },
+          "bj": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -43.12
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "jian3": {
+              "jian3": [
+                {
+                  "time": 0,
+                  "offset": 1,
+                  "vertices": [
+                    44.68799,
+                    -3.27597,
+                    44.68799,
+                    -3.27597,
+                    -38.10797,
+                    0,
+                    -38.10797
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "animation1_3": {
+        "slots": {
+          "tx/fg_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "1": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -231.62
+              }
+            ]
+          },
+          "bj": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "jian3": {
+              "jian3": [
+                {
+                  "time": 0,
+                  "offset": 1,
+                  "vertices": [
+                    91.89597,
+                    0.56009,
+                    91.89597,
+                    0.56008,
+                    -84.55992,
+                    0,
+                    -84.55992
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "animation2_1": {
+        "slots": {
+          "tx/fg_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "1": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -278.51
+              }
+            ]
+          },
+          "bj": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -43.12
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "jian3": {
+              "jian3": [
+                {
+                  "time": 0,
+                  "offset": 1,
+                  "vertices": [
+                    44.68799,
+                    0.05905,
+                    44.68799,
+                    0.05906,
+                    45.08691,
+                    0.00001,
+                    45.08691
+                  ],
+                  "curve": [
+                    0.491,
+                    0.45,
+                    0.834,
+                    0.85
+                  ]
+                },
+                {
+                  "time": 0.5,
+                  "offset": 1,
+                  "vertices": [
+                    44.68799,
+                    -3.27597,
+                    44.68799,
+                    -3.27597,
+                    -37.96802,
+                    0,
+                    -37.96802
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "animation3_1": {
+        "slots": {
+          "tx/fg_0": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          },
+          "tx/fg_4": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "tx/fg_0"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "1": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": -231.62
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "jian3": {
+              "jian3": [
+                {
+                  "time": 0,
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.2667,
+                  "offset": 1,
+                  "vertices": [
+                    52.61626,
+                    0,
+                    52.61626,
+                    0,
+                    -50.07052,
+                    0,
+                    -50.07052
+                  ],
+                  "curve": [
+                    0.25,
+                    0,
+                    0.75,
+                    1
+                  ]
+                },
+                {
+                  "time": 0.5,
+                  "offset": 1,
+                  "vertices": [
+                    90.83302,
+                    0.56009,
+                    90.83302,
+                    0.56008,
+                    -84.2249,
+                    0,
+                    -84.2249
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nblast_di.png\nsize: 131,451\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ntx/fg_0\n  rotate: false\n  xy: 2, 2\n  size: 127, 447\n  orig: 127, 447\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "dcclIINftKC4Yh0FWtrsaf"
+    }
+  ],
+  "textureNames": [
+    "blast_di.png"
+  ]
+}

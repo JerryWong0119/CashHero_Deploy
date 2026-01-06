@@ -1,1 +1,257 @@
-{"__type__":"sp.SkeletonData","_name":"gu_2","_skeletonJson":{"skeleton":{"hash":"JtGZZgPQ4vxL1x39tckmHSklcF8","spine":"3.6.53","width":1060,"height":1560,"images":"../素材/"},"bones":[{"name":"root"},{"name":"zong","parent":"root"},{"name":"wild","parent":"zong","x":1.5,"y":-6.5,"scaleX":0.5,"scaleY":0.5}],"slots":[{"name":"base","bone":"root"},{"name":"+2","bone":"wild"}],"skins":{"default":{"+2":{"+2":{"x":-12.43,"y":16.58,"width":257,"height":187}}}},"animations":{"animation":{"slots":{"+2":{"color":[{"time":0,"color":"ffffffff","curve":"stepped"},{"time":2.8667,"color":"ffffffff","curve":[0.25,0,0.75,1]},{"time":3.3,"color":"ffffff00"}],"attachment":[{"time":0,"name":"+2"}]}},"bones":{"wild":{"rotate":[{"time":1.3333,"angle":0,"curve":[0.25,0,0.625,0.63]},{"time":1.5667,"angle":180,"curve":[0.356,0.35,0.75,1]},{"time":1.9,"angle":0}],"translate":[{"time":0,"x":0,"y":43.24,"curve":"stepped"},{"time":1.3333,"x":0,"y":43.24,"curve":[0.25,0,0.75,1]},{"time":1.5667,"x":0,"y":100.53,"curve":[0.25,0,0.75,1]},{"time":1.9,"x":0,"y":-11.9,"curve":[0.25,0,0.75,1]},{"time":2.1,"x":0,"y":-1.28,"curve":[0.25,0,0.75,1]},{"time":2.3333,"x":0,"y":-6.59}],"scale":[{"time":0,"x":0,"y":0,"curve":"stepped"},{"time":1.3333,"x":0,"y":0,"curve":[0.25,0,0.75,1]},{"time":1.7333,"x":1.333,"y":1.333,"curve":[0.25,0,0.75,1]},{"time":2.0333,"x":0.9,"y":0.906,"curve":[0.25,0,0.75,1]},{"time":2.2333,"x":1.032,"y":1.032,"curve":[0.25,0,0.75,1]},{"time":2.4,"x":1.006,"y":1.006,"curve":"stepped"},{"time":2.8667,"x":1.006,"y":1.006,"curve":[0.25,0,0.75,1]},{"time":3.3,"x":1.492,"y":1.492}]}}}}},"_atlasText":"\ngu_2.png\nsize: 129,94\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n+2\n  rotate: false\n  xy: 0, 0\n  size: 129, 94\n  orig: 129, 94\n  offset: 0, 0\n  index: -1\n","textures":[{"__uuid__":"94qN1j93xH1oR6BHtyKpcl"}],"textureNames":["gu_2.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "gu_2",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "JtGZZgPQ4vxL1x39tckmHSklcF8",
+      "spine": "3.6.53",
+      "width": 1060,
+      "height": 1560,
+      "images": "../素材/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root"
+      },
+      {
+        "name": "wild",
+        "parent": "zong",
+        "x": 1.5,
+        "y": -6.5,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      }
+    ],
+    "slots": [
+      {
+        "name": "base",
+        "bone": "root"
+      },
+      {
+        "name": "+2",
+        "bone": "wild"
+      }
+    ],
+    "skins": {
+      "default": {
+        "+2": {
+          "+2": {
+            "x": -12.43,
+            "y": 16.58,
+            "width": 257,
+            "height": 187
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "+2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 2.8667,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3.3,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": "+2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "wild": {
+            "rotate": [
+              {
+                "time": 1.3333,
+                "angle": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.625,
+                  0.63
+                ]
+              },
+              {
+                "time": 1.5667,
+                "angle": 180,
+                "curve": [
+                  0.356,
+                  0.35,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.9,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 43.24,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 43.24,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5667,
+                "x": 0,
+                "y": 100.53,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.9,
+                "x": 0,
+                "y": -11.9,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.1,
+                "x": 0,
+                "y": -1.28,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.3333,
+                "x": 0,
+                "y": -6.59
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.7333,
+                "x": 1.333,
+                "y": 1.333,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.0333,
+                "x": 0.9,
+                "y": 0.906,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.2333,
+                "x": 1.032,
+                "y": 1.032,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2.4,
+                "x": 1.006,
+                "y": 1.006,
+                "curve": "stepped"
+              },
+              {
+                "time": 2.8667,
+                "x": 1.006,
+                "y": 1.006,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 3.3,
+                "x": 1.492,
+                "y": 1.492
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ngu_2.png\nsize: 129,94\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n+2\n  rotate: false\n  xy: 0, 0\n  size: 129, 94\n  orig: 129, 94\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "94qN1j93xH1oR6BHtyKpcl"
+    }
+  ],
+  "textureNames": [
+    "gu_2.png"
+  ]
+}

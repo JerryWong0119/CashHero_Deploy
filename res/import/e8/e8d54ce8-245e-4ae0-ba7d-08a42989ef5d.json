@@ -1,1 +1,153 @@
-{"__type__":"sp.SkeletonData","_name":"JDT_JieSuo","_skeletonJson":{"skeleton":{"hash":"7sE+VpBktL2qoBXGo7bqyHy0IrU","spine":"3.6.53","width":0,"height":0,"images":""},"bones":[{"name":"root"},{"name":"All","parent":"root"},{"name":"js","parent":"All","scaleX":2,"scaleY":2}],"slots":[{"name":"js","bone":"js"}],"skins":{"default":{"js":{"images/js/js_001":{"width":330,"height":90},"images/js/js_002":{"width":330,"height":90},"images/js/js_003":{"width":330,"height":90},"images/js/js_004":{"width":330,"height":90},"images/js/js_005":{"width":330,"height":90},"images/js/js_006":{"width":330,"height":90},"images/js/js_007":{"width":330,"height":90},"images/js/js_008":{"width":330,"height":90},"images/js/js_009":{"width":330,"height":90},"images/js/js_010":{"width":330,"height":90}}}},"animations":{"JDT_JieSuo":{"slots":{"js":{"color":[{"time":0,"color":"ffffffff"}],"attachment":[{"time":0,"name":null},{"time":0.0333,"name":"images/js/js_001"},{"time":0.1,"name":"images/js/js_002"},{"time":0.1333,"name":"images/js/js_003"},{"time":0.2,"name":"images/js/js_004"},{"time":0.2333,"name":"images/js/js_005"},{"time":0.3,"name":"images/js/js_006"},{"time":0.3333,"name":"images/js/js_007"},{"time":0.4,"name":"images/js/js_008"},{"time":0.4333,"name":"images/js/js_009"},{"time":0.5,"name":"images/js/js_010"},{"time":0.5333,"name":null}]}}}}},"_atlasText":"\nJDT_JieSuo.png\nsize: 1550,142\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/js/js_001\n  rotate: false\n  xy: 1243, 73\n  size: 305, 67\n  orig: 330, 90\n  offset: 8, 12\n  index: -1\nimages/js/js_002\n  rotate: false\n  xy: 316, 2\n  size: 309, 67\n  orig: 330, 90\n  offset: 6, 11\n  index: -1\nimages/js/js_003\n  rotate: false\n  xy: 316, 71\n  size: 311, 69\n  orig: 330, 90\n  offset: 5, 10\n  index: -1\nimages/js/js_004\n  rotate: false\n  xy: 2, 67\n  size: 312, 73\n  orig: 330, 90\n  offset: 6, 8\n  index: -1\nimages/js/js_005\n  rotate: false\n  xy: 629, 68\n  size: 307, 72\n  orig: 330, 90\n  offset: 12, 9\n  index: -1\nimages/js/js_006\n  rotate: false\n  xy: 938, 70\n  size: 303, 70\n  orig: 330, 90\n  offset: 17, 10\n  index: -1\nimages/js/js_007\n  rotate: false\n  xy: 627, 12\n  size: 303, 54\n  orig: 330, 90\n  offset: 16, 19\n  index: -1\nimages/js/js_008\n  rotate: false\n  xy: 2, 8\n  size: 302, 57\n  orig: 330, 90\n  offset: 16, 18\n  index: -1\nimages/js/js_009\n  rotate: false\n  xy: 938, 18\n  size: 282, 50\n  orig: 330, 90\n  offset: 36, 21\n  index: -1\nimages/js/js_010\n  rotate: false\n  xy: 1243, 21\n  size: 283, 50\n  orig: 330, 90\n  offset: 35, 22\n  index: -1\n","textures":[{"__uuid__":"4626QbpoNAD4OcsSlZquIr"}],"textureNames":["JDT_JieSuo.png"]}
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "JDT_JieSuo",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "7sE+VpBktL2qoBXGo7bqyHy0IrU",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "All",
+        "parent": "root"
+      },
+      {
+        "name": "js",
+        "parent": "All",
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "js",
+        "bone": "js"
+      }
+    ],
+    "skins": {
+      "default": {
+        "js": {
+          "images/js/js_001": {
+            "width": 330,
+            "height": 90
+          },
+          "images/js/js_002": {
+            "width": 330,
+            "height": 90
+          },
+          "images/js/js_003": {
+            "width": 330,
+            "height": 90
+          },
+          "images/js/js_004": {
+            "width": 330,
+            "height": 90
+          },
+          "images/js/js_005": {
+            "width": 330,
+            "height": 90
+          },
+          "images/js/js_006": {
+            "width": 330,
+            "height": 90
+          },
+          "images/js/js_007": {
+            "width": 330,
+            "height": 90
+          },
+          "images/js/js_008": {
+            "width": 330,
+            "height": 90
+          },
+          "images/js/js_009": {
+            "width": 330,
+            "height": 90
+          },
+          "images/js/js_010": {
+            "width": 330,
+            "height": 90
+          }
+        }
+      }
+    },
+    "animations": {
+      "JDT_JieSuo": {
+        "slots": {
+          "js": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "images/js/js_001"
+              },
+              {
+                "time": 0.1,
+                "name": "images/js/js_002"
+              },
+              {
+                "time": 0.1333,
+                "name": "images/js/js_003"
+              },
+              {
+                "time": 0.2,
+                "name": "images/js/js_004"
+              },
+              {
+                "time": 0.2333,
+                "name": "images/js/js_005"
+              },
+              {
+                "time": 0.3,
+                "name": "images/js/js_006"
+              },
+              {
+                "time": 0.3333,
+                "name": "images/js/js_007"
+              },
+              {
+                "time": 0.4,
+                "name": "images/js/js_008"
+              },
+              {
+                "time": 0.4333,
+                "name": "images/js/js_009"
+              },
+              {
+                "time": 0.5,
+                "name": "images/js/js_010"
+              },
+              {
+                "time": 0.5333,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nJDT_JieSuo.png\nsize: 1550,142\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nimages/js/js_001\n  rotate: false\n  xy: 1243, 73\n  size: 305, 67\n  orig: 330, 90\n  offset: 8, 12\n  index: -1\nimages/js/js_002\n  rotate: false\n  xy: 316, 2\n  size: 309, 67\n  orig: 330, 90\n  offset: 6, 11\n  index: -1\nimages/js/js_003\n  rotate: false\n  xy: 316, 71\n  size: 311, 69\n  orig: 330, 90\n  offset: 5, 10\n  index: -1\nimages/js/js_004\n  rotate: false\n  xy: 2, 67\n  size: 312, 73\n  orig: 330, 90\n  offset: 6, 8\n  index: -1\nimages/js/js_005\n  rotate: false\n  xy: 629, 68\n  size: 307, 72\n  orig: 330, 90\n  offset: 12, 9\n  index: -1\nimages/js/js_006\n  rotate: false\n  xy: 938, 70\n  size: 303, 70\n  orig: 330, 90\n  offset: 17, 10\n  index: -1\nimages/js/js_007\n  rotate: false\n  xy: 627, 12\n  size: 303, 54\n  orig: 330, 90\n  offset: 16, 19\n  index: -1\nimages/js/js_008\n  rotate: false\n  xy: 2, 8\n  size: 302, 57\n  orig: 330, 90\n  offset: 16, 18\n  index: -1\nimages/js/js_009\n  rotate: false\n  xy: 938, 18\n  size: 282, 50\n  orig: 330, 90\n  offset: 36, 21\n  index: -1\nimages/js/js_010\n  rotate: false\n  xy: 1243, 21\n  size: 283, 50\n  orig: 330, 90\n  offset: 35, 22\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "4626QbpoNAD4OcsSlZquIr"
+    }
+  ],
+  "textureNames": [
+    "JDT_JieSuo.png"
+  ]
+}

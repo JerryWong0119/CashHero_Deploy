@@ -1,0 +1,273 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "img_tips_bg_poly",
+      "texture": "6eZuW/s6lOGabRDq6bG7fE",
+      "rect": [
+        1,
+        0,
+        699,
+        80
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        700,
+        80
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "poly99_FloatTip",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "FloatTip",
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "c1d5EvxZRDr6Y2Cv77akxc"
+        },
+        "fileId": "27HrpJ3TFOYahhUL3mwE4a"
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          2536,
+          -776,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "spr_bg",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 2
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "53jnXiBSxFeZF7UJ5ywSGy"
+          },
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Animation",
+          "node": {
+            "__id__": 2
+          },
+          "_defaultClip": {
+            "__uuid__": "d5PjuBSHxAqr3NBw7W/Xcx"
+          },
+          "_clips": [
+            {
+              "__uuid__": "d5PjuBSHxAqr3NBw7W/Xcx"
+            }
+          ],
+          "playOnLoad": true
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "c1d5EvxZRDr6Y2Cv77akxc"
+        },
+        "fileId": "83gpnY64dFSofj4VrY5RJp"
+      },
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 252,
+        "g": 237,
+        "b": 255
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 600,
+        "height": 50
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "lbl_content",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 3
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "Update Success!",
+          "_N$string": "Update Success!",
+          "_fontSize": 30,
+          "_lineHeight": 30,
+          "_N$file": {
+            "__uuid__": "1dli2KFtROoJJV/KDsm0K1"
+          },
+          "_isSystemFontUsed": false,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        },
+        {
+          "__type__": "cc.LabelOutline",
+          "node": {
+            "__id__": 3
+          },
+          "_color": {
+            "__type__": "cc.Color",
+            "r": 39,
+            "g": 36,
+            "b": 36
+          },
+          "_width": 2
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "c1d5EvxZRDr6Y2Cv77akxc"
+        },
+        "fileId": "ec7+H8mjNE5KVa3ChbabRS"
+      },
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 243,
+        "g": 241,
+        "b": 244
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 252.04,
+        "height": 41.8
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "FloatTipMoveAndFade",
+    "_duration": 1.6666666666666667,
+    "curveData": {
+      "props": {
+        "y": [
+          {
+            "frame": 0,
+            "value": 0,
+            "curve": "cubicIn"
+          },
+          {
+            "frame": 1,
+            "value": 100
+          }
+        ],
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": 255
+          },
+          {
+            "frame": 1.3333333333333333,
+            "value": 255
+          },
+          {
+            "frame": 1.6666666666666667,
+            "value": 0
+          }
+        ]
+      }
+    }
+  }
+]
