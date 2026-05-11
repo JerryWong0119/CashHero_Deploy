@@ -28426,7 +28426,7 @@ cc._RF.push(t, "28737uRnZxDDq30n03V7+QR", "GlobalVar");
 var n = cc.Class({
 extends: cc.Component,
 statics: {
-loginServerAddress: "192.168.100.188:7938",
+loginServerAddress: "192.168.18.13:7938",
 localVersion: !0,
 publishMode: !0,
 openUpdate: !0,
@@ -28441,9 +28441,9 @@ centerPos: cc.v2(960, 540),
 poly99: !0,
 language: "en",
 languageList: [ "en", "ar" ],
-apiUrl: "http://192.168.100.188:9518",
+apiUrl: "http://192.168.18.13:9518",
 fackbookLink: "https://www.facebook.com/cashheroslots/",
-haoUrl: "http://192.168.100.188/hao.html",
+haoUrl: "http://192.168.18.13/hao.html",
 whatapplink: "https://wa.me/message/XGLXXMYSSSFMJ1",
 invitelink: "https://global.rummyslot.com/fb/"
 }
