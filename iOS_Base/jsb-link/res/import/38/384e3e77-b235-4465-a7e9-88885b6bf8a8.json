@@ -1,0 +1,1324 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "DGGfK6GvwY27nweYp9WVNw7WoOg",
+      "spine": "3.6.53",
+      "width": 121,
+      "height": 148
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "ef",
+        "parent": "root"
+      },
+      {
+        "name": "jiaobiao",
+        "parent": "root",
+        "length": 105.46,
+        "rotation": 90.21,
+        "x": 0.63,
+        "y": -55.72
+      }
+    ],
+    "slots": [
+      {
+        "name": "theme157_free_map_icon1",
+        "bone": "jiaobiao",
+        "attachment": "theme157_free_map_icon1"
+      },
+      {
+        "name": "ef",
+        "bone": "ef",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "ef": {
+          "ef/jiaobiao/jiaobiao_00": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_01": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_02": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_03": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_04": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_05": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_06": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_07": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_08": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_09": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_10": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_11": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_12": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_13": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_14": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_15": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_16": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_17": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_18": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_19": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_20": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_21": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_22": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_23": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_24": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_25": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_26": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_27": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_28": {
+            "width": 120,
+            "height": 147
+          },
+          "ef/jiaobiao/jiaobiao_29": {
+            "width": 120,
+            "height": 147
+          }
+        },
+        "theme157_free_map_icon1": {
+          "theme157_free_map_icon1": {
+            "x": 55.72,
+            "y": 0.43,
+            "rotation": -90.21,
+            "width": 121,
+            "height": 148
+          },
+          "theme157_free_map_icon2": {
+            "x": 55.72,
+            "y": 0.43,
+            "rotation": -90.21,
+            "width": 121,
+            "height": 148
+          },
+          "theme157_free_map_icon3": {
+            "x": 55.72,
+            "y": 0.43,
+            "rotation": -90.21,
+            "width": 121,
+            "height": 148
+          },
+          "theme157_free_map_icon4": {
+            "x": 55.72,
+            "y": 0.43,
+            "rotation": -90.21,
+            "width": 121,
+            "height": 148
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation1": {
+        "slots": {
+          "ef": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "ef/jiaobiao/jiaobiao_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "ef/jiaobiao/jiaobiao_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "ef/jiaobiao/jiaobiao_02"
+              },
+              {
+                "time": 0.1,
+                "name": "ef/jiaobiao/jiaobiao_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "ef/jiaobiao/jiaobiao_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "ef/jiaobiao/jiaobiao_05"
+              },
+              {
+                "time": 0.2,
+                "name": "ef/jiaobiao/jiaobiao_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "ef/jiaobiao/jiaobiao_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "ef/jiaobiao/jiaobiao_08"
+              },
+              {
+                "time": 0.3,
+                "name": "ef/jiaobiao/jiaobiao_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "ef/jiaobiao/jiaobiao_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "ef/jiaobiao/jiaobiao_11"
+              },
+              {
+                "time": 0.4,
+                "name": "ef/jiaobiao/jiaobiao_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "ef/jiaobiao/jiaobiao_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "ef/jiaobiao/jiaobiao_14"
+              },
+              {
+                "time": 0.5,
+                "name": "ef/jiaobiao/jiaobiao_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "ef/jiaobiao/jiaobiao_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "ef/jiaobiao/jiaobiao_17"
+              },
+              {
+                "time": 0.6,
+                "name": "ef/jiaobiao/jiaobiao_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "ef/jiaobiao/jiaobiao_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "ef/jiaobiao/jiaobiao_20"
+              },
+              {
+                "time": 0.7,
+                "name": "ef/jiaobiao/jiaobiao_21"
+              },
+              {
+                "time": 0.7333,
+                "name": "ef/jiaobiao/jiaobiao_22"
+              },
+              {
+                "time": 0.7667,
+                "name": "ef/jiaobiao/jiaobiao_23"
+              },
+              {
+                "time": 0.8,
+                "name": "ef/jiaobiao/jiaobiao_24"
+              },
+              {
+                "time": 0.8333,
+                "name": "ef/jiaobiao/jiaobiao_25"
+              },
+              {
+                "time": 0.8667,
+                "name": "ef/jiaobiao/jiaobiao_26"
+              },
+              {
+                "time": 0.9,
+                "name": "ef/jiaobiao/jiaobiao_27"
+              },
+              {
+                "time": 0.9333,
+                "name": "ef/jiaobiao/jiaobiao_28"
+              },
+              {
+                "time": 0.9667,
+                "name": "ef/jiaobiao/jiaobiao_29"
+              },
+              {
+                "time": 1,
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          },
+          "theme157_free_map_icon1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme157_free_map_icon1"
+              }
+            ]
+          }
+        }
+      },
+      "animation2": {
+        "slots": {
+          "ef": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "ef/jiaobiao/jiaobiao_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "ef/jiaobiao/jiaobiao_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "ef/jiaobiao/jiaobiao_02"
+              },
+              {
+                "time": 0.1,
+                "name": "ef/jiaobiao/jiaobiao_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "ef/jiaobiao/jiaobiao_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "ef/jiaobiao/jiaobiao_05"
+              },
+              {
+                "time": 0.2,
+                "name": "ef/jiaobiao/jiaobiao_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "ef/jiaobiao/jiaobiao_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "ef/jiaobiao/jiaobiao_08"
+              },
+              {
+                "time": 0.3,
+                "name": "ef/jiaobiao/jiaobiao_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "ef/jiaobiao/jiaobiao_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "ef/jiaobiao/jiaobiao_11"
+              },
+              {
+                "time": 0.4,
+                "name": "ef/jiaobiao/jiaobiao_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "ef/jiaobiao/jiaobiao_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "ef/jiaobiao/jiaobiao_14"
+              },
+              {
+                "time": 0.5,
+                "name": "ef/jiaobiao/jiaobiao_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "ef/jiaobiao/jiaobiao_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "ef/jiaobiao/jiaobiao_17"
+              },
+              {
+                "time": 0.6,
+                "name": "ef/jiaobiao/jiaobiao_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "ef/jiaobiao/jiaobiao_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "ef/jiaobiao/jiaobiao_20"
+              },
+              {
+                "time": 0.7,
+                "name": "ef/jiaobiao/jiaobiao_21"
+              },
+              {
+                "time": 0.7333,
+                "name": "ef/jiaobiao/jiaobiao_22"
+              },
+              {
+                "time": 0.7667,
+                "name": "ef/jiaobiao/jiaobiao_23"
+              },
+              {
+                "time": 0.8,
+                "name": "ef/jiaobiao/jiaobiao_24"
+              },
+              {
+                "time": 0.8333,
+                "name": "ef/jiaobiao/jiaobiao_25"
+              },
+              {
+                "time": 0.8667,
+                "name": "ef/jiaobiao/jiaobiao_26"
+              },
+              {
+                "time": 0.9,
+                "name": "ef/jiaobiao/jiaobiao_27"
+              },
+              {
+                "time": 0.9333,
+                "name": "ef/jiaobiao/jiaobiao_28"
+              },
+              {
+                "time": 0.9667,
+                "name": "ef/jiaobiao/jiaobiao_29"
+              },
+              {
+                "time": 1,
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          },
+          "theme157_free_map_icon1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme157_free_map_icon2"
+              }
+            ]
+          }
+        }
+      },
+      "animation3": {
+        "slots": {
+          "ef": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "ef/jiaobiao/jiaobiao_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "ef/jiaobiao/jiaobiao_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "ef/jiaobiao/jiaobiao_02"
+              },
+              {
+                "time": 0.1,
+                "name": "ef/jiaobiao/jiaobiao_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "ef/jiaobiao/jiaobiao_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "ef/jiaobiao/jiaobiao_05"
+              },
+              {
+                "time": 0.2,
+                "name": "ef/jiaobiao/jiaobiao_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "ef/jiaobiao/jiaobiao_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "ef/jiaobiao/jiaobiao_08"
+              },
+              {
+                "time": 0.3,
+                "name": "ef/jiaobiao/jiaobiao_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "ef/jiaobiao/jiaobiao_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "ef/jiaobiao/jiaobiao_11"
+              },
+              {
+                "time": 0.4,
+                "name": "ef/jiaobiao/jiaobiao_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "ef/jiaobiao/jiaobiao_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "ef/jiaobiao/jiaobiao_14"
+              },
+              {
+                "time": 0.5,
+                "name": "ef/jiaobiao/jiaobiao_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "ef/jiaobiao/jiaobiao_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "ef/jiaobiao/jiaobiao_17"
+              },
+              {
+                "time": 0.6,
+                "name": "ef/jiaobiao/jiaobiao_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "ef/jiaobiao/jiaobiao_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "ef/jiaobiao/jiaobiao_20"
+              },
+              {
+                "time": 0.7,
+                "name": "ef/jiaobiao/jiaobiao_21"
+              },
+              {
+                "time": 0.7333,
+                "name": "ef/jiaobiao/jiaobiao_22"
+              },
+              {
+                "time": 0.7667,
+                "name": "ef/jiaobiao/jiaobiao_23"
+              },
+              {
+                "time": 0.8,
+                "name": "ef/jiaobiao/jiaobiao_24"
+              },
+              {
+                "time": 0.8333,
+                "name": "ef/jiaobiao/jiaobiao_25"
+              },
+              {
+                "time": 0.8667,
+                "name": "ef/jiaobiao/jiaobiao_26"
+              },
+              {
+                "time": 0.9,
+                "name": "ef/jiaobiao/jiaobiao_27"
+              },
+              {
+                "time": 0.9333,
+                "name": "ef/jiaobiao/jiaobiao_28"
+              },
+              {
+                "time": 0.9667,
+                "name": "ef/jiaobiao/jiaobiao_29"
+              },
+              {
+                "time": 1,
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          },
+          "theme157_free_map_icon1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme157_free_map_icon3"
+              }
+            ]
+          }
+        }
+      },
+      "animation4": {
+        "slots": {
+          "ef": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "ef/jiaobiao/jiaobiao_00"
+              },
+              {
+                "time": 0.0333,
+                "name": "ef/jiaobiao/jiaobiao_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "ef/jiaobiao/jiaobiao_02"
+              },
+              {
+                "time": 0.1,
+                "name": "ef/jiaobiao/jiaobiao_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "ef/jiaobiao/jiaobiao_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "ef/jiaobiao/jiaobiao_05"
+              },
+              {
+                "time": 0.2,
+                "name": "ef/jiaobiao/jiaobiao_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "ef/jiaobiao/jiaobiao_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "ef/jiaobiao/jiaobiao_08"
+              },
+              {
+                "time": 0.3,
+                "name": "ef/jiaobiao/jiaobiao_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "ef/jiaobiao/jiaobiao_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "ef/jiaobiao/jiaobiao_11"
+              },
+              {
+                "time": 0.4,
+                "name": "ef/jiaobiao/jiaobiao_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "ef/jiaobiao/jiaobiao_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "ef/jiaobiao/jiaobiao_14"
+              },
+              {
+                "time": 0.5,
+                "name": "ef/jiaobiao/jiaobiao_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "ef/jiaobiao/jiaobiao_16"
+              },
+              {
+                "time": 0.5667,
+                "name": "ef/jiaobiao/jiaobiao_17"
+              },
+              {
+                "time": 0.6,
+                "name": "ef/jiaobiao/jiaobiao_18"
+              },
+              {
+                "time": 0.6333,
+                "name": "ef/jiaobiao/jiaobiao_19"
+              },
+              {
+                "time": 0.6667,
+                "name": "ef/jiaobiao/jiaobiao_20"
+              },
+              {
+                "time": 0.7,
+                "name": "ef/jiaobiao/jiaobiao_21"
+              },
+              {
+                "time": 0.7333,
+                "name": "ef/jiaobiao/jiaobiao_22"
+              },
+              {
+                "time": 0.7667,
+                "name": "ef/jiaobiao/jiaobiao_23"
+              },
+              {
+                "time": 0.8,
+                "name": "ef/jiaobiao/jiaobiao_24"
+              },
+              {
+                "time": 0.8333,
+                "name": "ef/jiaobiao/jiaobiao_25"
+              },
+              {
+                "time": 0.8667,
+                "name": "ef/jiaobiao/jiaobiao_26"
+              },
+              {
+                "time": 0.9,
+                "name": "ef/jiaobiao/jiaobiao_27"
+              },
+              {
+                "time": 0.9333,
+                "name": "ef/jiaobiao/jiaobiao_28"
+              },
+              {
+                "time": 0.9667,
+                "name": "ef/jiaobiao/jiaobiao_29"
+              },
+              {
+                "time": 1,
+                "name": null
+              },
+              {
+                "time": 2,
+                "name": null
+              }
+            ]
+          },
+          "theme157_free_map_icon1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme157_free_map_icon4"
+              }
+            ]
+          }
+        }
+      },
+      "animation1_1": {
+        "slots": {
+          "theme157_free_map_icon1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme157_free_map_icon1"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "jiaobiao": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 71.44,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 75.22,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 71.44,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 0.902,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "x": 0.814,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.167,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 1.047,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation2_1": {
+        "slots": {
+          "theme157_free_map_icon1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme157_free_map_icon2"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "jiaobiao": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 71.44,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 75.22,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 71.44,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 0.902,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "x": 0.814,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.167,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 1.047,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation3_1": {
+        "slots": {
+          "theme157_free_map_icon1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme157_free_map_icon3"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "jiaobiao": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 71.44,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 75.22,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 71.44,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 0.902,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "x": 0.814,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.167,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 1.047,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "animation4_1": {
+        "slots": {
+          "theme157_free_map_icon1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "theme157_free_map_icon4"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "jiaobiao": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 71.44,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 75.22,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 0,
+                "y": 71.44,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1333,
+                "x": 0.902,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "x": 0.814,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 1.167,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4667,
+                "x": 1.047,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\njiaobiao.png\nsize: 866,556\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nef/jiaobiao/jiaobiao_00\n  rotate: false\n  xy: 287, 48\n  size: 36, 60\n  orig: 120, 147\n  offset: 5, 70\n  index: -1\nef/jiaobiao/jiaobiao_01\n  rotate: false\n  xy: 237, 33\n  size: 48, 75\n  orig: 120, 147\n  offset: 3, 61\n  index: -1\nef/jiaobiao/jiaobiao_02\n  rotate: false\n  xy: 129, 21\n  size: 59, 87\n  orig: 120, 147\n  offset: 0, 52\n  index: -1\nef/jiaobiao/jiaobiao_03\n  rotate: false\n  xy: 0, 8\n  size: 68, 98\n  orig: 120, 147\n  offset: 0, 45\n  index: -1\nef/jiaobiao/jiaobiao_04\n  rotate: false\n  xy: 630, 13\n  size: 75, 109\n  orig: 120, 147\n  offset: 0, 38\n  index: -1\nef/jiaobiao/jiaobiao_05\n  rotate: false\n  xy: 356, 0\n  size: 82, 116\n  orig: 120, 147\n  offset: 0, 31\n  index: -1\nef/jiaobiao/jiaobiao_06\n  rotate: false\n  xy: 464, 0\n  size: 88, 122\n  orig: 120, 147\n  offset: 0, 25\n  index: -1\nef/jiaobiao/jiaobiao_07\n  rotate: false\n  xy: 567, 130\n  size: 95, 128\n  orig: 120, 147\n  offset: 0, 19\n  index: -1\nef/jiaobiao/jiaobiao_08\n  rotate: false\n  xy: 464, 124\n  size: 101, 134\n  orig: 120, 147\n  offset: 0, 13\n  index: -1\nef/jiaobiao/jiaobiao_09\n  rotate: false\n  xy: 356, 118\n  size: 106, 139\n  orig: 120, 147\n  offset: 0, 8\n  index: -1\nef/jiaobiao/jiaobiao_10\n  rotate: false\n  xy: 359, 265\n  size: 110, 142\n  orig: 120, 147\n  offset: 0, 5\n  index: -1\nef/jiaobiao/jiaobiao_11\n  rotate: false\n  xy: 728, 411\n  size: 114, 145\n  orig: 120, 147\n  offset: 0, 2\n  index: -1\nef/jiaobiao/jiaobiao_12\n  rotate: false\n  xy: 490, 409\n  size: 118, 147\n  orig: 120, 147\n  offset: 0, 0\n  index: -1\nef/jiaobiao/jiaobiao_13\n  rotate: false\n  xy: 123, 259\n  size: 120, 147\n  orig: 120, 147\n  offset: 0, 0\n  index: -1\nef/jiaobiao/jiaobiao_14\n  rotate: false\n  xy: 246, 409\n  size: 120, 147\n  orig: 120, 147\n  offset: 0, 0\n  index: -1\nef/jiaobiao/jiaobiao_15\n  rotate: false\n  xy: 123, 110\n  size: 120, 147\n  orig: 120, 147\n  offset: 0, 0\n  index: -1\nef/jiaobiao/jiaobiao_16\n  rotate: false\n  xy: 368, 409\n  size: 120, 147\n  orig: 120, 147\n  offset: 0, 0\n  index: -1\nef/jiaobiao/jiaobiao_17\n  rotate: false\n  xy: 610, 409\n  size: 116, 147\n  orig: 120, 147\n  offset: 4, 0\n  index: -1\nef/jiaobiao/jiaobiao_18\n  rotate: false\n  xy: 245, 259\n  size: 112, 147\n  orig: 120, 147\n  offset: 8, 0\n  index: -1\nef/jiaobiao/jiaobiao_19\n  rotate: false\n  xy: 245, 110\n  size: 109, 147\n  orig: 120, 147\n  offset: 11, 0\n  index: -1\nef/jiaobiao/jiaobiao_20\n  rotate: false\n  xy: 471, 260\n  size: 104, 147\n  orig: 120, 147\n  offset: 16, 0\n  index: -1\nef/jiaobiao/jiaobiao_21\n  rotate: false\n  xy: 577, 260\n  size: 100, 147\n  orig: 120, 147\n  offset: 20, 0\n  index: -1\nef/jiaobiao/jiaobiao_22\n  rotate: false\n  xy: 679, 264\n  size: 95, 143\n  orig: 120, 147\n  offset: 25, 0\n  index: -1\nef/jiaobiao/jiaobiao_23\n  rotate: false\n  xy: 776, 272\n  size: 90, 137\n  orig: 120, 147\n  offset: 30, 0\n  index: -1\nef/jiaobiao/jiaobiao_24\n  rotate: false\n  xy: 664, 124\n  size: 84, 134\n  orig: 120, 147\n  offset: 36, 0\n  index: -1\nef/jiaobiao/jiaobiao_25\n  rotate: false\n  xy: 750, 133\n  size: 79, 129\n  orig: 120, 147\n  offset: 41, 1\n  index: -1\nef/jiaobiao/jiaobiao_26\n  rotate: false\n  xy: 554, 1\n  size: 74, 121\n  orig: 120, 147\n  offset: 46, 4\n  index: -1\nef/jiaobiao/jiaobiao_27\n  rotate: false\n  xy: 707, 9\n  size: 68, 113\n  orig: 120, 147\n  offset: 52, 6\n  index: -1\nef/jiaobiao/jiaobiao_28\n  rotate: false\n  xy: 70, 5\n  size: 57, 101\n  orig: 120, 147\n  offset: 60, 11\n  index: -1\nef/jiaobiao/jiaobiao_29\n  rotate: false\n  xy: 190, 25\n  size: 45, 83\n  orig: 120, 147\n  offset: 71, 20\n  index: -1\ntheme157_free_map_icon1\n  rotate: false\n  xy: 0, 408\n  size: 121, 148\n  orig: 121, 148\n  offset: 0, 0\n  index: -1\ntheme157_free_map_icon2\n  rotate: false\n  xy: 0, 258\n  size: 121, 148\n  orig: 121, 148\n  offset: 0, 0\n  index: -1\ntheme157_free_map_icon3\n  rotate: false\n  xy: 123, 408\n  size: 121, 148\n  orig: 121, 148\n  offset: 0, 0\n  index: -1\ntheme157_free_map_icon4\n  rotate: false\n  xy: 0, 108\n  size: 121, 148\n  orig: 121, 148\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "5avYZbLp1Ax7y00mOOZJ2/"
+    }
+  ],
+  "textureNames": [
+    "jiaobiao.png"
+  ]
+}

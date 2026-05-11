@@ -1,0 +1,180 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "collect",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Wdxy27ruwYl0mi73xYF2iDDMKpk",
+      "spine": "3.8.99",
+      "x": -190.72,
+      "y": 20,
+      "width": 381.64,
+      "height": 76.4,
+      "images": "./images_wheel2/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root",
+        "scaleX": 0.8,
+        "scaleY": 0.8
+      },
+      {
+        "name": "button",
+        "parent": "root",
+        "length": 100,
+        "rotation": 90,
+        "y": 70
+      },
+      {
+        "name": "icon_l",
+        "parent": "root",
+        "length": 50,
+        "x": -140,
+        "y": 76
+      },
+      {
+        "name": "icon_r",
+        "parent": "root",
+        "length": 50,
+        "x": 140,
+        "y": 76,
+        "scaleX": -1
+      }
+    ],
+    "slots": [
+      {
+        "name": "text",
+        "bone": "button",
+        "attachment": "btn_2"
+      },
+      {
+        "name": "icon_l",
+        "bone": "icon_l",
+        "attachment": "btn_3",
+        "blend": "screen"
+      },
+      {
+        "name": "icon_r",
+        "bone": "icon_r",
+        "attachment": "btn_3",
+        "blend": "screen"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "icon_l": {
+            "btn_3": {
+              "width": 69,
+              "height": 28
+            }
+          },
+          "icon_r": {
+            "btn_3": {
+              "width": 69,
+              "height": 28
+            }
+          },
+          "text": {
+            "btn_2": {
+              "x": 6,
+              "rotation": -90,
+              "width": 190,
+              "height": 40
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "animation": {
+        "bones": {
+          "icon_l": {
+            "translate": [
+              {},
+              {
+                "time": 0.1667,
+                "x": 10
+              },
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 0.5,
+                "x": 10
+              },
+              {
+                "time": 0.6667,
+                "curve": "stepped"
+              },
+              {
+                "time": 2
+              },
+              {
+                "time": 2.1667,
+                "x": 10
+              },
+              {
+                "time": 2.3333
+              },
+              {
+                "time": 2.5,
+                "x": 10
+              },
+              {
+                "time": 2.6667
+              }
+            ]
+          },
+          "icon_r": {
+            "translate": [
+              {},
+              {
+                "time": 0.1667,
+                "x": -10
+              },
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 0.5,
+                "x": -10
+              },
+              {
+                "time": 0.6667,
+                "curve": "stepped"
+              },
+              {
+                "time": 2
+              },
+              {
+                "time": 2.1667,
+                "x": -10
+              },
+              {
+                "time": 2.3333
+              },
+              {
+                "time": 2.5,
+                "x": -10
+              },
+              {
+                "time": 2.6667
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ncollect.png\nsize: 263,42\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nbtn_2\n  rotate: false\n  xy: 2, 2\n  size: 188, 38\n  orig: 190, 40\n  offset: 1, 1\n  index: -1\nbtn_3\n  rotate: false\n  xy: 192, 12\n  size: 69, 28\n  orig: 69, 28\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "a6T5Hc0oREG6qzwq6Y/BUN"
+    }
+  ],
+  "textureNames": [
+    "collect.png"
+  ]
+}

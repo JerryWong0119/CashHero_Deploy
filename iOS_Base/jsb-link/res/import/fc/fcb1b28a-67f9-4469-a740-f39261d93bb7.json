@@ -1,0 +1,465 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "o2Hc0m/QeUIj7gP8N8i2arhodxM",
+      "spine": "3.6.53",
+      "width": 229,
+      "height": 213,
+      "images": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "tx",
+        "parent": "root",
+        "rotation": 1.2,
+        "x": -1.22,
+        "y": -15.22,
+        "scaleX": 0.541,
+        "scaleY": 0.541
+      },
+      {
+        "name": "ty",
+        "parent": "root"
+      },
+      {
+        "name": "ty2",
+        "parent": "root",
+        "color": "f80c0cff"
+      }
+    ],
+    "slots": [
+      {
+        "name": "示意图02",
+        "bone": "root"
+      },
+      {
+        "name": "jinyan_fuchuang",
+        "bone": "root",
+        "attachment": "jinyan_fuchuang"
+      },
+      {
+        "name": "vb",
+        "bone": "root",
+        "attachment": "v"
+      },
+      {
+        "name": "tx",
+        "bone": "tx",
+        "color": "ffffffa0",
+        "attachment": "lizi/UIEffect_016_01",
+        "blend": "additive"
+      },
+      {
+        "name": "jinyan_fuchuang2",
+        "bone": "ty",
+        "attachment": "jinyan_fuchuang"
+      },
+      {
+        "name": "jinyan_fuchuang3",
+        "bone": "ty2",
+        "attachment": "jinyan_fuchuang2",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "jinyan_fuchuang": {
+          "jinyan_fuchuang": {
+            "x": 2.09,
+            "y": -1.44,
+            "width": 176,
+            "height": 167
+          }
+        },
+        "jinyan_fuchuang2": {
+          "jinyan_fuchuang": {
+            "path": "jinyan_fuchuang1",
+            "x": 2.09,
+            "y": -1.44,
+            "width": 176,
+            "height": 167
+          }
+        },
+        "jinyan_fuchuang3": {
+          "jinyan_fuchuang2": {
+            "x": 7.08,
+            "y": 7.96,
+            "width": 229,
+            "height": 213
+          }
+        },
+        "tx": {
+          "lizi/UIEffect_016_01": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_02": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_03": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_04": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_05": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_06": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_07": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_08": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_09": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_10": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_11": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_12": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_13": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_14": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_15": {
+            "width": 256,
+            "height": 256
+          },
+          "lizi/UIEffect_016_16": {
+            "width": 256,
+            "height": 256
+          }
+        },
+        "vb": {
+          "v": {
+            "type": "clipping",
+            "end": "tx",
+            "vertexCount": 14,
+            "vertices": [
+              -29.85,
+              -63.53,
+              1.58,
+              -70.51,
+              34.95,
+              -61.98,
+              58.62,
+              -38.7,
+              70.65,
+              -8.05,
+              70.65,
+              25.71,
+              43.87,
+              58.3,
+              14.39,
+              71.1,
+              -20.53,
+              69.55,
+              -48.86,
+              50.15,
+              -66.32,
+              19.5,
+              -69.81,
+              -5.33,
+              -62.83,
+              -27.83,
+              -48.86,
+              -48.79
+            ],
+            "color": "ce3a3aff"
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "jinyan_fuchuang3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.5333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "tx": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "lizi/UIEffect_016_01"
+              },
+              {
+                "time": 0.0667,
+                "name": "lizi/UIEffect_016_02"
+              },
+              {
+                "time": 0.1,
+                "name": "lizi/UIEffect_016_03"
+              },
+              {
+                "time": 0.1333,
+                "name": "lizi/UIEffect_016_04"
+              },
+              {
+                "time": 0.1667,
+                "name": "lizi/UIEffect_016_05"
+              },
+              {
+                "time": 0.2,
+                "name": "lizi/UIEffect_016_06"
+              },
+              {
+                "time": 0.2333,
+                "name": "lizi/UIEffect_016_07"
+              },
+              {
+                "time": 0.2667,
+                "name": "lizi/UIEffect_016_08"
+              },
+              {
+                "time": 0.3,
+                "name": "lizi/UIEffect_016_09"
+              },
+              {
+                "time": 0.3333,
+                "name": "lizi/UIEffect_016_10"
+              },
+              {
+                "time": 0.3667,
+                "name": "lizi/UIEffect_016_11"
+              },
+              {
+                "time": 0.4,
+                "name": "lizi/UIEffect_016_12"
+              },
+              {
+                "time": 0.4333,
+                "name": "lizi/UIEffect_016_13"
+              },
+              {
+                "time": 0.4667,
+                "name": "lizi/UIEffect_016_14"
+              },
+              {
+                "time": 0.5,
+                "name": "lizi/UIEffect_016_15"
+              },
+              {
+                "time": 0.5333,
+                "name": "lizi/UIEffect_016_16"
+              },
+              {
+                "time": 0.5667,
+                "name": null
+              },
+              {
+                "time": 1.0333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "tx": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -2.03,
+                "y": 17.73
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.452,
+                "y": 1.452
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ty": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "ty2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "angle": 0
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.5333,
+                "x": 1.155,
+                "y": 1.155
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 2048,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\njinyan_fuchuang\n  rotate: false\n  xy: 1292, 564\n  size: 176, 167\n  orig: 176, 167\n  offset: 0, 0\n  index: -1\njinyan_fuchuang1\n  rotate: false\n  xy: 1550, 822\n  size: 176, 167\n  orig: 176, 167\n  offset: 0, 0\n  index: -1\njinyan_fuchuang2\n  rotate: false\n  xy: 2, 2\n  size: 229, 213\n  orig: 229, 213\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_01\n  rotate: false\n  xy: 2, 733\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_02\n  rotate: false\n  xy: 2, 475\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_03\n  rotate: false\n  xy: 260, 733\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_04\n  rotate: false\n  xy: 2, 217\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_05\n  rotate: false\n  xy: 260, 475\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_06\n  rotate: false\n  xy: 518, 733\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_07\n  rotate: false\n  xy: 260, 217\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_08\n  rotate: false\n  xy: 518, 475\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_09\n  rotate: false\n  xy: 776, 733\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_10\n  rotate: false\n  xy: 518, 217\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_11\n  rotate: false\n  xy: 776, 475\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_12\n  rotate: false\n  xy: 1034, 733\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_13\n  rotate: false\n  xy: 776, 217\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_14\n  rotate: false\n  xy: 1034, 475\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_15\n  rotate: false\n  xy: 1292, 733\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\nlizi/UIEffect_016_16\n  rotate: false\n  xy: 1034, 217\n  size: 256, 256\n  orig: 256, 256\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "c2TOYETeJHOpthq3H/AjgA"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

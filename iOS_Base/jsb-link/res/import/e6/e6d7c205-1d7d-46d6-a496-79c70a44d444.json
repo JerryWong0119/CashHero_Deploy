@@ -1,0 +1,135 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Buy_Icon_jump",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "6fEmVikXmFTOXZmaPK6hmA9Mprc",
+      "spine": "3.6.53",
+      "width": 216,
+      "height": 156,
+      "images": "./img buy/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "zong",
+        "parent": "root"
+      },
+      {
+        "name": "Icon",
+        "parent": "zong",
+        "length": 100,
+        "rotation": 90,
+        "y": 60
+      }
+    ],
+    "slots": [
+      {
+        "name": "Icon2",
+        "bone": "zong",
+        "attachment": "shangcheng2"
+      },
+      {
+        "name": "Icon",
+        "bone": "Icon",
+        "attachment": "shangcheng"
+      }
+    ],
+    "skins": {
+      "default": {
+        "Icon": {
+          "shangcheng": {
+            "x": -60,
+            "rotation": -90,
+            "width": 216,
+            "height": 156
+          }
+        },
+        "Icon2": {
+          "shangcheng2": {
+            "path": "shangcheng",
+            "width": 216,
+            "height": 156
+          }
+        }
+      }
+    },
+    "animations": {
+      "Animation_Icon_jump": {
+        "slots": {
+          "Icon2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.1,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "Icon": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 1.17
+              },
+              {
+                "time": 0.1,
+                "x": 0,
+                "y": 70
+              },
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": -0.55
+              },
+              {
+                "time": 0.3,
+                "x": 0,
+                "y": 19.45
+              },
+              {
+                "time": 0.4333,
+                "x": 0,
+                "y": -0.55
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.1,
+                "x": 1,
+                "y": 1.1
+              },
+              {
+                "time": 0.1667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nBuy_Icon_jump.png\nsize: 256,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nshangcheng\n  rotate: false\n  xy: 2, 2\n  size: 216, 156\n  orig: 216, 156\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "6cCh+PSphPvaHBIDYtzefs"
+    }
+  ],
+  "textureNames": [
+    "Buy_Icon_jump.png"
+  ]
+}

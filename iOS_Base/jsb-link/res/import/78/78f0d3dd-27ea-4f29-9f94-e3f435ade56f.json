@@ -1,0 +1,85 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "spine",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "YyzZJTvGw4wwIW4CIkUxZ6HgiVE",
+      "spine": "3.6.53",
+      "width": 486,
+      "height": 486,
+      "images": "./img/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "kuang",
+        "bone": "root",
+        "attachment": "kuang"
+      },
+      {
+        "name": "deng1",
+        "bone": "root",
+        "attachment": "deng2"
+      }
+    ],
+    "skins": {
+      "default": {
+        "deng1": {
+          "deng1": {
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 243,
+            "height": 243
+          },
+          "deng2": {
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 243,
+            "height": 243
+          }
+        },
+        "kuang": {
+          "kuang": {
+            "width": 486,
+            "height": 486
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "deng1": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "deng1"
+              },
+              {
+                "time": 0.2,
+                "name": "deng2"
+              },
+              {
+                "time": 0.4,
+                "name": "deng1"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nspine.png\nsize: 715,715\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ndeng1\n  rotate: false\n  xy: 470, 470\n  size: 243, 243\n  orig: 243, 243\n  offset: 0, 0\n  index: -1\ndeng2\n  rotate: false\n  xy: 2, 2\n  size: 243, 243\n  orig: 243, 243\n  offset: 0, 0\n  index: -1\nkuang\n  rotate: false\n  xy: 2, 247\n  size: 466, 466\n  orig: 486, 486\n  offset: 10, 10\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "69GLgQH5BPWaZataIJKdjB"
+    }
+  ],
+  "textureNames": [
+    "spine.png"
+  ]
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "common_tip",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "common_tip",
+    "_components": [
+      {
+        "__type__": "cc.Label",
+        "_name": "common_tip<Label>",
+        "node": {
+          "__id__": 1
+        },
+        "_materials": [
+          {
+            "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+          }
+        ],
+        "_useOriginalSize": false,
+        "_string": "When slotmates win,you win!",
+        "_N$string": "When slotmates win,you win!",
+        "_fontSize": 34,
+        "_lineHeight": 34,
+        "_N$horizontalAlign": 1,
+        "_N$verticalAlign": 1
+      },
+      {
+        "__type__": "cc.Widget",
+        "node": {
+          "__id__": 1
+        },
+        "_alignFlags": 4,
+        "_bottom": 115.99099999999999
+      },
+      {
+        "__type__": "f0653aoZA1CR619SDKlJpRn",
+        "node": {
+          "__id__": 1
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "8bqnjPsytA8Z/dJ+twH7rA"
+      },
+      "fileId": "250NP7+5JKC7bTlvGJhZBB"
+    },
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 253,
+      "g": 253,
+      "b": 139
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 438.4,
+      "height": 42.84
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        137.411,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "eff_attack_2",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "target",
+    "_components": [
+      {
+        "__type__": "sp.Skeleton",
+        "node": {
+          "__id__": 1
+        },
+        "_materials": [
+          {
+            "__uuid__": "7a/QZLET9IDreTiBfRn2PD"
+          }
+        ],
+        "defaultSkin": "default",
+        "_preCacheMode": 0,
+        "loop": false,
+        "premultipliedAlpha": false,
+        "_animationName": "animation",
+        "_N$skeletonData": {
+          "__uuid__": "bcEISCR3dPuLiBN1+QuMnu"
+        }
+      }
+    ],
+    "_prefab": {
+      "__type__": "cc.PrefabInfo",
+      "root": {
+        "__id__": 1
+      },
+      "asset": {
+        "__uuid__": "155PoJ2wBB+rU+K5uj5n3k"
+      },
+      "fileId": "cfBCOCNpVNy7n5DBgo8dgB"
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 547.21,
+      "height": 431.73
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0.7,
+        0.7,
+        1
+      ]
+    }
+  }
+]
