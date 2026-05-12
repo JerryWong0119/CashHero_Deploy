@@ -30971,7 +30971,7 @@ window.__require = function e(t, n, r) {
     cc._RF.push(module, "28737uRnZxDDq30n03V7+QR", "GlobalVar");
     "use strict";
     var ServerList = {
-      1: "192.168.18.13:7938"
+      1: "192.168.18.55:7938"
     };
     var GlobalVar = cc.Class({
       extends: cc.Component,
@@ -30991,9 +30991,9 @@ window.__require = function e(t, n, r) {
         poly99: true,
         language: "en",
         languageList: [ "en", "ar" ],
-        apiUrl: "http://192.168.18.13:9518",
+        apiUrl: "http://192.168.18.55:9518",
         fackbookLink: "https://www.facebook.com/cashheroslots/",
-        haoUrl: "http://192.168.18.13/hao.html",
+        haoUrl: "http://192.168.18.55/hao.html",
         whatapplink: "https://wa.me/message/XGLXXMYSSSFMJ1",
         invitelink: "https://global.rummyslot.com/fb/"
       }
