@@ -14,10 +14,12 @@
 
 // 获取单利对象
 + (id)getInstant;
+
+//
 - (void)setUrlData:(NSString *)str;
 
 // 获取U盟渠道号
-+ (NSString *) getUMChannelIdx;
+// + (NSString *) getUMChannelIdx;
 
 // 获取App版本号
 + (NSString *) getAppVersion;

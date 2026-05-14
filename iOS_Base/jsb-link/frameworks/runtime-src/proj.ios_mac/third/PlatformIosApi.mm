@@ -58,9 +58,9 @@ static PlatformIosApi *sharePlatformIosApi=NULL;
     }
 }
 
-+ (NSString *) getUMChannelIdx {
-    return [NSBundle mainBundle].infoDictionary[@"UMengChannel"];
-}
+// + (NSString *) getUMChannelIdx {
+//     return [NSBundle mainBundle].infoDictionary[@"UMengChannel"];
+// }
 
 + (NSString *) getAppVersion {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
