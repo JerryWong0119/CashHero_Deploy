@@ -31,6 +31,9 @@
 #import "SDKWrapper.h"
 #import "platform/ios/CCEAGLView-ios.h"
 
+#import "PlatformIosApi.h"
+#import "JsTool.h"
+
 using namespace cocos2d;
 
 @implementation AppController

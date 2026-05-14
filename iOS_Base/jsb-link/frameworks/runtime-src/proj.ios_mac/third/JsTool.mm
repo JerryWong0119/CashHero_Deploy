@@ -2,8 +2,7 @@
 //  JsTool.mm
 //  JS工具，主要负责沟通JS，调用JS函数
 //
-//  Created by AndyHu on 2018/6/14.
-//
+
 #include "cocos2d.h"
 #include "JsTool.h"
 
@@ -20,7 +19,6 @@ namespace sex {
 
 + (void) AAAA_callJsFunc_BBBB:(NSString *)funcName targetObj:(NSString *)objPath params:(NSDictionary *)dic {
     NSError* error;
-    
     NSData* jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&error];
     if(jsonData){
         NSString* resStr = [NSString stringWithFormat:@"%@.%@(%@)",objPath, funcName, [[[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding] autorelease]];
@@ -37,6 +35,5 @@ namespace sex {
     [dic setObject:cbName forKey:@"cbName"];
     [JsTool AAAA_callJsFunc_BBBB:@"trigerCallback" targetObj:@"cc.vv.PlatformApiMgr" params:dic];
 }
-
 
 @end
