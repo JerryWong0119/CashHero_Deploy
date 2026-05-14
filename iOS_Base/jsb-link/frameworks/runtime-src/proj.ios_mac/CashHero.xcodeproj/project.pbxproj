@@ -11,13 +11,13 @@
 		052BC7702FB59EB8000FA0A9 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052BC76F2FB59EB7000FA0A9 /* AuthenticationServices.framework */; };
 		052BC7722FB59F6D000FA0A9 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052BC7712FB59F6D000FA0A9 /* UserNotifications.framework */; };
 		052BC7CE2FB5A47C000FA0A9 /* PaymentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 052BC7CD2FB5A47C000FA0A9 /* PaymentController.mm */; };
+		052BC7D32FB5AF18000FA0A9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052BC7D22FB5AF18000FA0A9 /* WebKit.framework */; };
 		05A405CA2FB33F590093E914 /* PlatformIosApi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05A405C42FB33F590093E914 /* PlatformIosApi.mm */; };
 		05A405CB2FB33F590093E914 /* JsTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05A405C22FB33F590093E914 /* JsTool.mm */; };
 		05A405CC2FB33F590093E914 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A405B92FB33F590093E914 /* SFHFKeychainUtils.m */; };
 		05A405CE2FB33F590093E914 /* DeviceInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05A405B72FB33F590093E914 /* DeviceInfo.mm */; };
 		05A405D02FB343D10093E914 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A405CF2FB343D10093E914 /* AdSupport.framework */; };
 		05A405D22FB3441E0093E914 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A405D12FB3441E0093E914 /* StoreKit.framework */; };
-		05C68E0E2FB5AEE0001EECAB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C68E0D2FB5AEE0001EECAB /* WebKit.framework */; };
 		1A37E9DA200DEF120078AF72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A37E9D9200DEF110078AF72 /* SystemConfiguration.framework */; };
 		1A37E9DC200DEF190078AF72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A37E9DB200DEF190078AF72 /* SystemConfiguration.framework */; };
 		1A499EBB1F0CDDC3004E6AEC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A499EBA1F0CDDC3004E6AEC /* CFNetwork.framework */; };
@@ -131,6 +131,9 @@
 		052BC7CA2FB5A410000FA0A9 /* CashHero-mobile-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CashHero-mobile-Bridging-Header.h"; sourceTree = "<group>"; };
 		052BC7CC2FB5A47C000FA0A9 /* PaymentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentController.h; sourceTree = "<group>"; };
 		052BC7CD2FB5A47C000FA0A9 /* PaymentController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PaymentController.mm; sourceTree = "<group>"; };
+		052BC7D02FB5AF0B000FA0A9 /* CashHero_debug.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = CashHero_debug.entitlements; sourceTree = "<group>"; };
+		052BC7D12FB5AF0B000FA0A9 /* CashHero_release.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = CashHero_release.entitlements; sourceTree = "<group>"; };
+		052BC7D22FB5AF18000FA0A9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		05A405B62FB33F590093E914 /* DeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
 		05A405B72FB33F590093E914 /* DeviceInfo.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DeviceInfo.mm; sourceTree = "<group>"; };
 		05A405B82FB33F590093E914 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
@@ -141,9 +144,6 @@
 		05A405C42FB33F590093E914 /* PlatformIosApi.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PlatformIosApi.mm; sourceTree = "<group>"; };
 		05A405CF2FB343D10093E914 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 		05A405D12FB3441E0093E914 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
-		05C68E0B2FB5AE77001EECAB /* CashHero_debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CashHero_debug.entitlements; sourceTree = "<group>"; };
-		05C68E0C2FB5AE77001EECAB /* CashHero_release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CashHero_release.entitlements; sourceTree = "<group>"; };
-		05C68E0D2FB5AEE0001EECAB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		1A1A081B18C9DF05005C6854 /* project.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = project.json; path = ../../../project.json; sourceTree = "<group>"; };
 		1A37E9D9200DEF110078AF72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		1A37E9DB200DEF190078AF72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -249,7 +249,7 @@
 				467AF613232881E400770112 /* AVKit.framework in Frameworks */,
 				05A405D02FB343D10093E914 /* AdSupport.framework in Frameworks */,
 				1A37E9DA200DEF120078AF72 /* SystemConfiguration.framework in Frameworks */,
-				05C68E0E2FB5AEE0001EECAB /* WebKit.framework in Frameworks */,
+				052BC7D32FB5AF18000FA0A9 /* WebKit.framework in Frameworks */,
 				1ACA99251F550A28002DE225 /* JavaScriptCore.framework in Frameworks */,
 				052BC7702FB59EB8000FA0A9 /* AuthenticationServices.framework in Frameworks */,
 				1A499EBD1F0CDDD9004E6AEC /* libicucore.A.tbd in Frameworks */,
@@ -362,8 +362,8 @@
 		A92275321517C094001B78AA = {
 			isa = PBXGroup;
 			children = (
-				05C68E0B2FB5AE77001EECAB /* CashHero_debug.entitlements */,
-				05C68E0C2FB5AE77001EECAB /* CashHero_release.entitlements */,
+				052BC7D02FB5AF0B000FA0A9 /* CashHero_debug.entitlements */,
+				052BC7D12FB5AF0B000FA0A9 /* CashHero_release.entitlements */,
 				052BC7C92FB5A410000FA0A9 /* CashHero-desktop-Bridging-Header.h */,
 				052BC7CA2FB5A410000FA0A9 /* CashHero-mobile-Bridging-Header.h */,
 				28A34C0F225B462E00926306 /* subpackages */,
@@ -389,7 +389,7 @@
 		A92275401517C094001B78AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				05C68E0D2FB5AEE0001EECAB /* WebKit.framework */,
+				052BC7D22FB5AF18000FA0A9 /* WebKit.framework */,
 				052BC7772FB5A096000FA0A9 /* FBSDKCoreKit.framework */,
 				052BC7732FB5A074000FA0A9 /* FBSDKCoreKit */,
 				052BC7712FB59F6D000FA0A9 /* UserNotifications.framework */,
